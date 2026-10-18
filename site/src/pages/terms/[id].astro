@@ -19,6 +19,6 @@ const sources=sourceRegistry.filter((s:any)=>entry.sources.includes(s.id));
   {entry.aliases.length>0&&<p class="small">Also called: {entry.aliases.join(', ')}</p>}
   <section class="metadata"><h2>Also see</h2><p>{related.map((e:any,i:number)=><><a href={toHref(`terms/${e.id}/`)}>{e.term}</a>{i<related.length-1?' · ':''}</>)}</p></section>
   <section class="metadata"><h2>Sources</h2><ul>{entry.provenance.map((p:any)=>{const s=sources.find((s:any)=>s.id===p.source);return <li><a href={p.locator || s.url}>{s.candidate}</a> · {s.licence} · {p.scope}</li>})}</ul><p>Preview wording based on the linked source packet. It has not passed the two-judge review required for release.</p></section>
-  <section class="metadata"><h2>Cite this entry</h2><p class="citation">PsychTerms (psychterms.org), CC BY 4.0, version {entry.version}. “{entry.term}.” Development preview.</p><p class="small">Version {entry.version} · SHA-256: {entry.hash}</p><p class="small"><a href={`https://github.com/cloudronin/psychterms/edit/main/data/entries/${entry.id}.json`}>Edit this entry on GitHub</a> · Repository publication pending.</p></section>
+  <section class="metadata"><h2>Cite this entry</h2><p class="citation">PsychTerms (psychterms.org), CC BY 4.0, version {entry.version}. “{entry.term}.” Development preview.</p><p class="small">Version {entry.version} · SHA-256: {entry.hash}</p><p class="small"><a href={`https://github.com/cloudronin/psychterms/edit/main/data/entries/${entry.id}.json`}>Edit this entry on GitHub</a></p></section>
  </article>
 </Layout>

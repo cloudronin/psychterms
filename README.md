@@ -19,7 +19,7 @@ python3 scripts/check_site.py
 npm run preview
 ```
 
-`npm run dev` provides the site scaffold. Pagefind search is produced by `npm run build` and works in the built preview. Set `BASE_PATH=/psychterms/` and `SITE_URL=https://cloudronin.github.io` for a GitHub project site. No remote repository or website has been published.
+`npm run dev` provides the site scaffold. Pagefind search is produced by `npm run build` and works in the built preview. Set `BASE_PATH=/psychterms/` and `SITE_URL=https://cloudronin.github.io` for a GitHub project site. The public repository is https://github.com/cloudronin/psychterms. GitHub Pages builds the labelled development preview at https://cloudronin.github.io/psychterms/ from main. The custom domain is not activated.
 
 ## Contents
 
