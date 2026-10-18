@@ -1,4 +1,4 @@
-# Psych Terms pilot report, 18 October 2026
+# PsychTerms pilot report, 18 October 2026
 
 **The vignette final-drop gate failed: two of seven scenes still added unsupported facts after their allowed redraft (28.6%, above the registered 20% stop). Paid dispatch is disabled. No full run or public dictionary release occurred.**
 

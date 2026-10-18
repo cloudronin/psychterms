@@ -1,4 +1,4 @@
-# Psych Terms, the open psychology dictionary: project spec v0.2
+# PsychTerms, the open psychology dictionary: project spec v0.2
 
 18 Oct 2026. A standalone project.
 
@@ -10,7 +10,7 @@ A free, open dictionary of psychology and counselling terms, as broad as the per
 
 Why: as far as we have found, no open dictionary of the field exists (checked before it goes in launch copy). The APA's is copyrighted. Textbook glossaries live inside textbooks. Prep companies keep theirs behind paywalls. Nobody with the definitions had a reason to give them away. We have the definitions, a reason that is not money, and a pipeline that checks them.
 
-Name and domain (Vishnu, 18 Oct): **Psych Terms** at **psychterms.org**: the site, the citation line, the name on the page; `.org` because it is a free public resource. One domain only; no `.io`, no redirect domains. A trademark knockout on "Psych Terms" runs before launch copy.
+Name, domain and repo (Vishnu, 18 Oct): **PsychTerms**, one word, at **psychterms.org** and `cloudronin/psychterms`: the site, the citation line, the name on the page; `.org` because it is a free public resource. One domain only; no `.io`, no redirect domains. A trademark knockout on "PsychTerms" runs before launch copy.
 
 ## 2. What ships
 
@@ -34,11 +34,16 @@ Plainword Prep takes the dictionary as a versioned dependency: each release is a
   "field": "counselling skills",
   "aliases": ["meaning reflection"],
   "sources": ["mesh:D012998", "wikidata:Q1234"],
-  "provenance": [{"role": "draft_basis", "source": "mesh:D012998", "revision": "2026", "scope": "definition"}],
+  "provenance": [{"role": "draft_basis", "source": "mesh:D012998", "revision": "2026", "scope": "definition"},
+                 {"role": "supports_definition", "source": "samhsa:...", "revision": "2023", "scope": "definition"}],
+  "vignette": {"text": "...", "notice": "...", "card_id": "p_...", "card_hash": "sha256:...", "builder_commit": "..."},
+  "checks": {"readers": "2/2", "copy": "clear"},
   "version": 1,
   "hash": "7f3a9c..."
 }
 ```
+
+Entries without a vignette omit the `vignette` key. A risk term's page shows "No scene is provided for this risk term." and nothing more. The site design (the PsychTerms canvas, 18 Oct) is the reference for every page; a vignette shown on the site must come from an unbound ArcSim card, never from a Prep scenario.
 
 - `definition`: one to three sentences, plain words, no criteria lists, no treatment advice, no diagnosis of anyone.
 - `field`: a short tag from a fixed list (counselling skills, assessment, diagnosis, ethics, development, cognition, social, biological, research methods, history, and so on).
@@ -101,7 +106,7 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 - One page per term: the term, the definition, "also see" links, the field tag, the CC BY line with a copy-ready citation, "edit this entry" pointing at the repo file, and the entry version and hash.
 - Search in the browser over a small index (term, aliases, first sentence).
 - An A to Z index and a per-field index.
-- psychterms.org, not under plainword.health, so it reads as a public resource. One footer line: "built by Plainword, free forever"
+- psychterms.org, not under plainword.health, so it reads as a public resource. One footer line: "built by Plainword, free forever."
 - Free static hosting (GitHub Pages or Cloudflare Pages). A merge to main rebuilds the site.
 - Each page is a stable URL the Prep app links to.
 - Read-aloud is a Prep app feature, not a site feature, in v1.
@@ -109,7 +114,7 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 ## 7. Licence and attribution
 
 - CC BY 4.0 for the data; MIT for the code. Anyone may use, copy, adapt and redistribute with credit. Not CC BY-SA: share-alike binds adaptations to the same licence, which would keep programs and prep companies from folding entries into their own material. Not CC0: attribution is the one thing that keeps a corrupted copy from being mistaken for ours.
-- The attribution line on every page and in the release note: "Psych Terms (psychterms.org), by Plainword, CC BY 4.0, version N."
+- The attribution line on every page and in the release note: "PsychTerms (psychterms.org), by Plainword, CC BY 4.0, version N."
 - Third-party pieces carry their own notices in `NOTICE.md`: MeSH and other US government sources (public domain, credited, no implied endorsement), OGL sources (credited), Wikidata (CC0, credited), each CC BY text by name and edition.
 
 ## 8. Corrections and contributions
@@ -164,7 +169,7 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 - Confirm the record of origin for the old file (a paraphrase of the APA dictionary by a session) so the repo's history is honest.
 - The full cost line after the pilot.
 - The banned product-word list for the site's own copy.
-- The repo slug (`cloudronin/open-psych-dictionary` proposed) and GitHub access.
+- The repo slug (`cloudronin/psychterms` proposed) and GitHub access.
 - The trademark knockout on the name before launch copy.
 - The 200-entry held-out read before release.
 
@@ -172,10 +177,6 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 
 CC BY 4.0 data, MIT code, never share-alike. Never a copyrighted dictionary's text, paraphrased or otherwise. No PHI, no identifiable person anywhere. No banned product words. PREREG before every paid line; each line stops before its cap; no untrusted PR runs with a paid key. Nothing to main without Vishnu. Done right, however long it takes.
 
-## Subsequent direct decisions: vignette fit and risk
+## Direct decisions retained alongside this supplied revision
 
-Term-to-card fit is an explicit step, not an assumption. Match field/type and the accepted definition to the fixed card story, history and mental-status observations; no fitting card means no vignette, with a recorded reason and an unmatched pilot count. Do not force the scene. Risk terms receive no vignette through this interface; do not add risk history to cards. Their entries carry the notice in data/vignette-policy.json. No separate risk-card path is authorized. ArcSim’s six-word bank check covers inputs only: generated scenes and notice lines still require the dictionary’s 15-word output scan and both judges, repeated after redraft. See docs/vignette-pilot-protocol.md.
-
-## Latest public wording decision
-
-Risk-entry notice: “No scene is provided for this risk term.” No product mention appears on the open site beyond the footer line “built by Plainword, free forever” This supersedes earlier on-page publisher-credit wording; internal Prep integration documentation is not site copy.
+There is no entry-count target. Residual example counts are not quotas. Term-to-card fit is required; unmatched terms receive no scene and a recorded reason. Risk terms receive no scene. Generated scenes and notice lines require their own 15-word scan, five-word editorial triage and two judges. The open site has no product mention beyond “built by Plainword, free forever” in the footer; this direct instruction governs the otherwise conflicting publisher credit in section 7.

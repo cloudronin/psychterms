@@ -12,7 +12,8 @@
     "dev": "npm run data && astro dev --root site --host 127.0.0.1",
     "preview": "astro preview --root site --host 127.0.0.1",
     "test": "python3 -m unittest discover -s tests -v",
-    "check": "python3 scripts/validate.py --preview"
+    "check": "python3 scripts/validate.py --preview",
+    "test:site": "node --test tests/site_scene.test.mjs"
   },
   "dependencies": {
     "astro": "7.4.0",

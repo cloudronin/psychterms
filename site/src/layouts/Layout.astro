@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-const {title = 'Psych Terms', description = 'An independent, open dictionary of psychology and counselling.'} = Astro.props;
+const {title = 'PsychTerms', description = 'An independent, open dictionary of psychology and counselling.'} = Astro.props;
 const base = import.meta.env.BASE_URL;
 const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
 ---
@@ -16,11 +16,11 @@ const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header wrap">
-      <a class="wordmark" href={href()} aria-label="Psych Terms home"><span class="mark" aria-hidden="true">pt.</span><span><strong>Psych Terms</strong><br />Psychology &amp; counselling</span></a>
+      <a class="wordmark" href={href()} aria-label="PsychTerms home"><span class="mark" aria-hidden="true">pt.</span><span><strong>PsychTerms</strong><br />Psychology &amp; counselling</span></a>
       <nav aria-label="Main navigation"><a href={href('#browse')}>Browse A–Z</a><a href={href('fields/')}>Fields</a><a href={href('about/')}>About</a></nav>
     </header>
     <div class="preview-notice"><span class="wrap">Development preview. These examples are awaiting editorial review.</span></div>
     <main id="main"><slot /></main>
-    <footer class="site-footer wrap"><div><strong>Psych Terms</strong><p>built by Plainword, free forever</p></div><div><p>A reference for words. Not a treatment guide or medical advice.</p><a href={href('about/')}>Sources, rights and corrections</a></div></footer>
+    <footer class="site-footer wrap"><div><strong>PsychTerms</strong><p>built by Plainword, free forever</p></div><div><p>A reference for words. Not a treatment guide or medical advice.</p><a href={href('about/')}>Sources, rights and corrections</a></div></footer>
   </body>
 </html>

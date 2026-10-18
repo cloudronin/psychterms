@@ -1,4 +1,4 @@
-# Psych Terms: implementation reference, v0.2
+# PsychTerms: implementation reference, v0.2
 
 The approved v0.2 spec and Vishnu's recorded decisions govern this project. There is no target count or deadline. Work is evaluated against source permissions, supported definitions, reproducibility and useful delivery.
 

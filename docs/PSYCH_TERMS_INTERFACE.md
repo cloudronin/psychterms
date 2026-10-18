@@ -1,11 +1,11 @@
-# Psych Terms and ArcSim character cards: the interface
+# PsychTerms and ArcSim character cards: the interface
 
-A standalone handoff for whoever builds Psych Terms vignettes and playable cases. It assumes no other context.
+A standalone handoff for whoever builds PsychTerms vignettes and playable cases. It assumes no other context.
 Status: agreed design, **not built**. 18 Oct 2026. Written by the ArcSim side; Vishnu carries it across.
 
 ## What this is about
 
-- **Psych Terms** is an open psychology dictionary (psychterms.org, CC BY 4.0). Beside some definitions it will show a
+- **PsychTerms** is an open psychology dictionary (psychterms.org, CC BY 4.0). Beside some definitions it will show a
   **vignette**: a short written scene (100 to 150 words) that shows the term in a room, with one line saying what to
   notice.
 - **ArcSim** is our code that builds fictional therapy clients. Each client is a **character card**: a JSON object with

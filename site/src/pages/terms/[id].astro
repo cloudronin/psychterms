@@ -1,21 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import TermScene from '../../components/TermScene.astro';
 import {entries,sourceRegistry,toHref,firstSentence} from '../../lib';
 export function getStaticPaths(){return entries.map((entry:any)=>({params:{id:entry.id},props:{entry}}));}
 const {entry}=Astro.props;
 const related=entries.filter((e:any)=>entry.also_see.includes(e.id));
 const sources=sourceRegistry.filter((s:any)=>entry.sources.includes(s.id));
 ---
-<Layout title={`${entry.term} | Psych Terms`} description={firstSentence(entry.definition)}>
+<Layout title={`${entry.term} | PsychTerms`} description={firstSentence(entry.definition)}>
  <article class="article-wrap">
-  <p class="breadcrumb"><a href={toHref()}>Dictionary</a> / {entry.term}</p>
+  <p class="breadcrumb"><a href={toHref()}>psychterms.org</a> / {entry.id}</p>
   <a class="tag" href={toHref(`fields/${entry.field.replaceAll(' ','-')}/`)}>{entry.field}</a>
   <h1 style="margin-top:22px">{entry.term}</h1>
   <div data-pagefind-body class="search-index-text"><span data-pagefind-meta="title">{entry.term}</span> {entry.aliases.join(' ')} {firstSentence(entry.definition)}</div>
   <p class="definition">{entry.definition}</p>
+  <TermScene entry={entry} />
   {entry.aliases.length>0&&<p class="small">Also called: {entry.aliases.join(', ')}</p>}
   <section class="metadata"><h2>Also see</h2><p>{related.map((e:any,i:number)=><><a href={toHref(`terms/${e.id}/`)}>{e.term}</a>{i<related.length-1?' · ':''}</>)}</p></section>
   <section class="metadata"><h2>Sources</h2><ul>{entry.provenance.map((p:any)=>{const s=sources.find((s:any)=>s.id===p.source);return <li><a href={p.locator || s.url}>{s.candidate}</a> · {s.licence} · {p.scope}</li>})}</ul><p>Preview wording based on the linked source packet. It has not passed the two-judge review required for release.</p></section>
-  <section class="metadata"><h2>Cite this entry</h2><p class="citation">Psych Terms (psychterms.org), CC BY 4.0, version {entry.version}. “{entry.term}.” Development preview.</p><p class="small">Version {entry.version} · SHA-256: {entry.hash}</p><p class="small"><a href={`https://github.com/cloudronin/psychterms/edit/main/data/entries/${entry.id}.json`}>Edit this entry on GitHub</a> · Repository publication pending.</p></section>
+  <section class="metadata"><h2>Cite this entry</h2><p class="citation">PsychTerms (psychterms.org), CC BY 4.0, version {entry.version}. “{entry.term}.” Development preview.</p><p class="small">Version {entry.version} · SHA-256: {entry.hash}</p><p class="small"><a href={`https://github.com/cloudronin/psychterms/edit/main/data/entries/${entry.id}.json`}>Edit this entry on GitHub</a> · Repository publication pending.</p></section>
  </article>
 </Layout>

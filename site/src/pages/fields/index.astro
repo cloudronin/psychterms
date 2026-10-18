@@ -3,4 +3,4 @@ import Layout from '../../layouts/Layout.astro';
 import {entries,fieldList,toHref} from '../../lib';
 const fields=fieldList.filter((f:string)=>entries.some((e:any)=>e.field===f));
 ---
-<Layout title="Fields | Psych Terms"><div class="article-wrap"><p class="eyebrow">Browse by subject</p><h1>Fields</h1><p class="lede">Fields represented in this development preview.</p><ul class="index-list">{fields.map((field:string)=><li><a href={toHref(`fields/${field.replaceAll(' ','-')}/`)}>{field}</a></li>)}</ul></div></Layout>
+<Layout title="Fields | PsychTerms"><div class="article-wrap"><p class="eyebrow">Browse by subject</p><h1>Fields</h1><p class="lede">Fields represented in this development preview.</p><ul class="index-list">{fields.map((field:string)=><li><a href={toHref(`fields/${field.replaceAll(' ','-')}/`)}>{field}</a></li>)}</ul></div></Layout>

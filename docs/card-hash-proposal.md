@@ -12,6 +12,6 @@ The input is the complete base card **before** any `intake_only` assignment. Int
 
 `data/arcsim-adapter-contract.json` fixes the exact fields and serialization. The adapter rejects changed base-card strings, unknown fields, new seeds/parameters and scenario-bound cards. A supplied `intake_only` object is discarded before comparison with the exact rebuilt base card; changing its values cannot affect the allowed view or proposed hash.
 
-No card hash rule was previously registered in Psych Terms. The initial adapter uses the existing project canonical digest under Vishnu’s instruction to proceed with implementation; it does not change a prior card hash rule. From this baseline forward, any vignette-field or card-hash-rule change requires Vishnu first. The registration freezes the exact contract, code and build inputs before paid dispatch. The $20 pilot cap and the prohibition on a full run remain unchanged.
+No card hash rule was previously registered in PsychTerms. The initial adapter uses the existing project canonical digest under Vishnu’s instruction to proceed with implementation; it does not change a prior card hash rule. From this baseline forward, any vignette-field or card-hash-rule change requires Vishnu first. The registration freezes the exact contract, code and build inputs before paid dispatch. The $20 pilot cap and the prohibition on a full run remain unchanged.
 
 For the unchanged `example-4` base card, the baseline result is `sha256:c2b65823fd49a8f225a1d6d3b0925079bf486d544dd689534a98df74fbc7d1b8`.

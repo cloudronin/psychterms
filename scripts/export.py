@@ -6,9 +6,10 @@ def build(entries,release=False):
  ordered=sorted(entries,key=lambda e:e['id'])
  mode='release' if release else 'preview'
  dictionary={'schema_version':1,'release_version':'0.0.0-preview' if not release else '1.0.0','status':mode,'entries':ordered}
- md=['# Psych Terms', '', 'Preview fixtures; not a released dictionary.' if not release else 'Psych Terms, by Vishnu Vettrivel, CC BY 4.0.', '']
+ md=['# PsychTerms', '', 'Preview fixtures; not a released dictionary.' if not release else 'PsychTerms, by Vishnu Vettrivel, CC BY 4.0.', '']
  for e in ordered:
   md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])
+  if e.get('risk_term'):md.extend(['No scene is provided for this risk term.', ''])
  return dictionary,'\n'.join(md),{'schema_version':1,'status':mode,'entry_count':len(ordered),'corpus_hash':digest(ordered),'data_hash':digest(dictionary)}
 
 if __name__=='__main__':

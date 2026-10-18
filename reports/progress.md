@@ -1,4 +1,4 @@
-# Psych Terms: implementation status
+# PsychTerms: implementation status
 
 A standalone local project on branch `cloudronin/bootstrap`. No remote repository, public deployment or DNS change has been made.
 
@@ -10,7 +10,7 @@ A standalone local project on branch `cloudronin/bootstrap`. No remote repositor
 | Packets | Three site-preview packets pinned to the new MeSH snapshot. Pilot packets are separately frozen in private storage. |
 | Validation | 62 unit tests pass, including concurrent budget reservations, two distinct judges, stale-result rejection, packet tampering and legacy-fixture isolation. Three entry and 34 source records pass JSON Schema validation. |
 | Site | Astro builds 11 pages. Three term pages indexed by Pagefind; only term/aliases/first sentence is in the marked index body. All generated internal links resolve with both root and GitHub project base paths. |
-| Branding | Psych Terms, owned by Vishnu Vettrivel; psychterms.org is the sole configured domain. Custom-domain activation is false and there is no CNAME file. |
+| Branding | PsychTerms, owned by Vishnu Vettrivel; psychterms.org is the sole configured domain. Custom-domain activation is false and there is no CNAME file. |
 | Publication | No remote, no push, no site deployment; preview examples are not release-approved dictionary entries. |
 | Pilot | Attempts complete: 195/200 definition machine passes, five drops and 12 wording holds. Of 50 scene candidates: seven fits, 38 unmatched, five risk exclusions; five scenes retained privately and two dropped after redraft. The 28.6% scene drop rate crosses the 20% stop. No full run. |
 
@@ -19,3 +19,9 @@ Browser access to the local preview was declined. Visual and interactive browser
 The source inventory is an initial item-by-item review, not blanket permission for whole websites. Additional source-specific snapshots, Wikidata integration and field/coverage review remain. See source-inventory.md for the eligibility decisions and limitations.
 
 The banned product-word list is still pending. The custom domain will not be activated until the site is ready to be seen. The pilot report is complete; no full-generation budget line has been set. Paid dispatch is disabled. See pilot-report.md for results, per-item receipts and the failed vignette gate.
+
+## Latest site revision
+
+PsychTerms naming is applied throughout current project copy; citation and breadcrumb domains are lowercase. The term-page presentation has scene, definition-only and risk states. Risk classification is hash-bound and exports the exact notice. Pilot scenes remain private; public scene import is not enabled. The original pinned builder bytes are unchanged. The supplied design URL was inaccessible following browser-origin denial, so visual comparison remains outstanding.
+
+Validation: 65 Python tests and five site tests pass; three synthetic presentation states rendered in a private build under the GitHub Pages base path; normal build produces 11 pages with no broken internal links. All 3 entry records, 34 source records and 3 source packets validate. Frozen pilot dependencies remain reproducible at 797791e. No paid calls, publishing or DNS changes occurred.

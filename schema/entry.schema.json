@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Psych Terms entry",
+  "title": "PsychTerms entry",
   "type": "object",
   "required": [
     "id",
@@ -128,6 +128,10 @@
           "rubric_hash"
         ]
       }
+    },
+    "risk_term": {
+      "type": "boolean",
+      "description": "Editorial classification: risk terms never receive a scene in v1."
     }
   },
   "additionalProperties": false

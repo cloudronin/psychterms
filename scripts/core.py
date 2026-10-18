@@ -6,7 +6,7 @@ import re
 import unicodedata
 
 ROOT=Path(__file__).resolve().parents[1]
-SEMANTIC=('id','term','definition','also_see','field','aliases','sources','provenance','exam_layer_id')
+SEMANTIC=('id','term','definition','also_see','field','aliases','sources','provenance','exam_layer_id','risk_term')
 ALLOWED_LICENSES={'public-domain-US-government','public-domain-US','CC0-1.0','CC-BY-3.0','CC-BY-4.0','OGL-UK-3.0'}
 
 def canonical(value): return json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
@@ -24,6 +24,8 @@ def validate_entry(entry, sources, fields, release=False):
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',entry['id']): raise ValueError('Invalid ID')
     if not isinstance(entry['term'],str) or not entry['term'].strip(): raise ValueError('Empty term')
     if entry['field'] not in fields: raise ValueError('Unknown field')
+    if 'risk_term' in entry and type(entry['risk_term']) is not bool: raise ValueError('Invalid risk classification')
+    if 'vignette' in entry: raise ValueError('Scene publication requires a reviewed unbound-card import; pilot scenes are private')
     if entry['hash']!=semantic_hash(entry): raise ValueError('Semantic hash mismatch')
     if type(entry['version']) is not int or entry['version']<1: raise ValueError('Invalid version')
     for name in ('also_see','aliases','sources'):

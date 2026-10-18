@@ -1,16 +1,16 @@
-# Psych Terms: consumer acceptance of the ArcSim interface
+# PsychTerms: consumer acceptance of the ArcSim interface
 
 18 October 2026. Dictionary-side design acceptance, recorded from Vishnu's updated `PSYCH_TERMS_INTERFACE.md` at handoff commit `2973eb9a84d62386022a8aecb5e4a5450cb0ff6e`, using builder commit `12bd28281f5d8ed607e1ff6f46e7246293f925f3`; this supersedes both earlier handoffs. This records our half; it does not claim a message was delivered to the producer chat or that its proposed adapter exists.
 
 ## Accepted boundary
 
-Psych Terms drafts the open vignette from its accepted definition and ArcSim's approved card view only. ArcSim supplies cards, not vignette prose. The planted term stays outside the reusable card. A vignette contains a 100–150 word fictional third-person scene and one separate “what to notice” line. It trains recognition or judgment by a helper and never addresses a person in distress.
+PsychTerms drafts the open vignette from its accepted definition and ArcSim's approved card view only. ArcSim supplies cards, not vignette prose. The planted term stays outside the reusable card. A vignette contains a 100–150 word fictional third-person scene and one separate “what to notice” line. It trains recognition or judgment by a helper and never addresses a person in distress.
 
 Use only code-built persona-schema v0.3 cards with `fit=True`, at a pinned builder commit, from ArcSim's own banks. Hand-made cards, including B1/Sandra, and `scenario:...` personas are excluded. The field allow-list and prohibitions in the supplied producer document govern the view: no sexuality, ethnicity, risk history, imported text, transcripts, shared-tier material or hidden scenario content. Nested free-text values need the same filtering as top-level fields. No real place or organisation may survive the projection.
 
 ## Dictionary-owned request and checks
 
-The producer's term envelope is accepted: `term_id`, `headword`, `field`, `type`, `show` (`client_line`, `moment` or `choice`), `notice_line`, `card_id`, `card_hash`, and `builder_commit`. Psych Terms additionally pins the accepted definition's version and hash, the card-view schema version and hash, the view payload hash, this contract hash, and the drafting/check protocol. `notice_line` is a proposed teaching focus in the input; the final line must be judged with the scene. The producer's `pt:...` example is illustrative; the integration must preserve the dictionary's stable term identifier rather than silently renaming entries.
+The producer's term envelope is accepted: `term_id`, `headword`, `field`, `type`, `show` (`client_line`, `moment` or `choice`), `notice_line`, `card_id`, `card_hash`, and `builder_commit`. PsychTerms additionally pins the accepted definition's version and hash, the card-view schema version and hash, the view payload hash, this contract hash, and the drafting/check protocol. `notice_line` is a proposed teaching focus in the input; the final line must be judged with the scene. The producer's `pt:...` example is illustrative; the integration must preserve the dictionary's stable term identifier rather than silently renaming entries.
 
 Two distinct judges independently receive the same definition, permitted source packet, approved card view, scene and notice line. Both must pass the same output hash. They check conceptual fidelity, card consistency, the word range and exclusions, including advice, doses, criteria lists and identifiable people. Record each verdict and its receipt. Apply the overlap scan against the frozen permitted comparison set: 15-word hits require redraft; five-word hits receive triage. Any scene repair requires both judges again. Register the retry and redraft limits before calls.
 
