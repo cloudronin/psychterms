@@ -13,6 +13,7 @@ const references=entryReferences[entry.id];
   <a class="tag" href={toHref(`fields/${entry.field.replaceAll(' ','-')}/`)}>{entry.field}</a>
   {entry.risk && <span class="tag risk-badge">risk term</span>}
   <p class="tag review-status" data-review-status={entry.status}>{reviewLabel(entry)}</p>
+  {entry.released && <p class="tag release-marker">Released: {entry.release_versions.join(", ")}</p>}
   <h1 data-entry-content style="margin-top:22px">{entry.term}</h1>
   <div data-pagefind-body class="search-index-text"><span data-pagefind-meta="title">{entry.term}</span> {entry.aliases.join(' ')} {firstSentence(entry.definition)}</div>
   <p class="definition">{entry.definition}</p>

@@ -19,6 +19,7 @@ def build(entries,release=False,history=None):
   ordered=[e for e in ordered if release_version in e['release_versions']]
   if not ordered:raise ValueError('Numbered release has no matching current entry snapshots')
   refs=references(ordered)
+  status_report={**status_report,'status_counts':{**{status:sum(e['status']==status for e in ordered) for status in ('candidate','reviewed','judged')},'dropped':len(dropped),'released':sum(e['released'] for e in ordered)}}
  mode='release' if release else 'preview'
  dictionary={'schema_version':1,'release_version':release_version,'status':mode,'risk_register':risk_pin,'entries':ordered,'references':refs,'dropped':dropped,'status_counts':status_report['status_counts'],'reader_models':status_report['reader_models']}
  md=['# PsychTerms', '', 'Public review preview; human review pending, not a finished dictionary release.' if not release else 'PsychTerms, by Vishnu Vettrivel, CC BY 4.0.', '']
@@ -28,7 +29,7 @@ def build(entries,release=False,history=None):
   md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]})' for r in refs[e['id']]], ''])
   if e.get('risk'):md.extend(['No scene is provided for this risk term.', ''])
  md.extend(['## Dropped entries','',*[f'- {e["term"]}: {e["reason"]}' for e in dropped],''])
- return dictionary,'\n'.join(md),{'schema_version':1,'status':mode,'entry_count':len(ordered),'corpus_hash':digest(ordered),'data_hash':digest(dictionary),'risk_register':risk_pin,'status_counts':status_report['status_counts'],'release_note':release_note(status_report)}
+ return dictionary,'\n'.join(md),{'schema_version':1,'status':mode,'entry_count':len(ordered),'corpus_hash':digest(ordered),'data_hash':digest(dictionary),'risk_register':risk_pin,'status_counts':status_report['status_counts'],'release_note':release_note(status_report,release_version if release else 'Public review preview')}
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--preview',action='store_true');a=p.parse_args()
