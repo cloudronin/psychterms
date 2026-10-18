@@ -3,7 +3,7 @@ from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from core import ROOT,load_inputs,digest
-from entry_status import prepare,check_forward,release_note
+from entry_status import prepare,check_forward,check_snapshot,release_note
 from scope_rules import decide
 
 class StatusTests(unittest.TestCase):
@@ -44,6 +44,11 @@ class StatusTests(unittest.TestCase):
    with self.assertRaisesRegex(ValueError,'backward'):check_forward({'x':{'status':old}},{'x':{'status':new}})
   with self.assertRaises(ValueError):check_forward({'x':{'status':'candidate'}},{})
   check_forward({'x':{'status':'reviewed'}},{'x':{'status':'dropped'}})
+ def test_committed_history_cannot_omit_new_or_changed_status(self):
+  current={'x':{'status':'reviewed'}}
+  for history in ({},{'x':{'status':'candidate'}}):
+   with self.assertRaisesRegex(ValueError,'stale'):check_snapshot(history,current)
+  check_snapshot(current,current)
  def test_numbered_release_is_separate_from_review_status(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp);(root/'data/packets').mkdir(parents=True)

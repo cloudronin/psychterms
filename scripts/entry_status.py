@@ -53,6 +53,9 @@ def check_forward(previous,current):
         if not new or RANK[new['status']]<RANK[old['status']]:raise ValueError('Status cannot move backward or disappear: '+ident)
         if old['status']=='dropped' and new['status']!='dropped':raise ValueError('Dropped status is terminal: '+ident)
 
+def check_snapshot(history,current):
+    if history!=current:raise ValueError('Committed status history is stale; regenerate it with entry_status.py --write-history')
+
 def prepare(entries,root=ROOT,history=None,scope=True):
     forbidden={'status','checks','released','release_versions'}
     for e in entries:
@@ -104,5 +107,6 @@ if __name__=='__main__':
         previous=subprocess.run(['git','show',a.base+':data/status-history.json'],cwd=ROOT,text=True,capture_output=True)
         if previous.returncode==0:check_forward(json.loads(previous.stdout)['entries'],report['entries'])
         elif subprocess.run(['git','cat-file','-e',a.base+'^{commit}'],cwd=ROOT,capture_output=True).returncode:raise ValueError('Cannot verify previous status history: invalid Git base')
+    if not a.write_history:check_snapshot(json.loads((ROOT/'data/status-history.json').read_text())['entries'],report['entries'])
     if a.write_history:(ROOT/'data/status-history.json').write_text(json.dumps({'schema_version':1,'entries':report['entries']},ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='entries'},indent=2))
