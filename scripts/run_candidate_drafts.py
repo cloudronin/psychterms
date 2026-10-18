@@ -7,8 +7,18 @@ from budget import Budget
 from check_packets import validate_packet
 from overlap_scan import words
 from risk_registry import load_registry,matches,required_tests
+from scope_rules import decide
 
 DEST=ROOT/'.private/candidate-drafts'
+PINNED_CODE=('core.py','scope_rules.py','check_packets.py','budget.py','risk_registry.py','overlap_scan.py')
+
+def source_content_hash(packet):
+    return digest({key:packet.get(key) for key in ('term','source','source_record','revision','text')})
+
+def validate_scope(packet):
+    decision=decide(packet)
+    if not decision['eligible'] or packet.get('scope_decision')!=decision or packet.get('planned_field')!=decision['field']:
+        raise ValueError('Scope and field must be admitted and pinned before paid drafting')
 
 def verify_registration(manifest,packets,execute=False,root=ROOT):
     if manifest.get('line')!='candidate-definitions-v1':raise ValueError('Wrong drafting line')
@@ -16,7 +26,12 @@ def verify_registration(manifest,packets,execute=False,root=ROOT):
     if manifest.get('packet_set_hash')!=digest(packets) or manifest.get('source_packet_count')!=len(packets):raise ValueError('Registered packet queue changed')
     if manifest.get('executor_sha256')!=hashlib.sha256(Path(__file__).read_bytes()).hexdigest():raise ValueError('Executor changed after registration')
     if manifest.get('model')!='gpt-5.4-2026-03-05' or manifest.get('copy_threshold_words')!=15:raise ValueError('Registered model or copy threshold changed')
-    if execute:require_authorization(manifest,root)
+    if execute:
+        require_authorization(manifest,root)
+        if manifest.get('scope_and_field_required') is not True:raise ValueError('Scope preflight is required')
+        expected={name:hashlib.sha256((root/'scripts'/name).read_bytes()).hexdigest() for name in PINNED_CODE}
+        if manifest.get('code_hashes')!=expected:raise ValueError('Registered drafting dependencies changed')
+        for packet in packets:validate_scope(packet)
     return manifest
 
 def require_authorization(manifest,root=ROOT):
@@ -49,6 +64,7 @@ class Client:
         self.m=manifest;self.packets=packets;self.key=key;self.budget=budget;self.dest=dest;self.stopped=threading.Event();self.attempts=collections.Counter(json.loads(p.read_text())['request_hash'] for p in (dest/'receipts').glob('*-error.json'))
     def call(self,packet,feedback=None):
         require_authorization(self.m)
+        if self.m.get('scope_and_field_required'):validate_scope(packet)
         data={'packet':packet,'fields':[packet['planned_field']] if packet.get('planned_field') else self.m['fields']}
         if feedback:data['revision_feedback']=feedback
         body={'model':self.m['model'],'messages':[{'role':'system','content':self.m['draft_prompt']},{'role':'user','content':json.dumps(data,ensure_ascii=False)}],
@@ -56,10 +72,18 @@ class Client:
             'max_completion_tokens':self.m['max_completion_tokens'],'reasoning_effort':self.m['reasoning_effort'],'store':False}
         raw=canonical(body);request_hash=hashlib.sha256(raw).hexdigest()
         if len(raw)>self.m['max_request_bytes']:raise ValueError('Request exceeds registered size')
-        suffix='redraft' if feedback else 'draft';cache=self.dest/'calls'/f'{packet["id"]}-{suffix}.json'
+        suffix='redraft' if feedback else 'draft';cache=self.dest/'calls'/f'{packet["id"]}-{suffix}-{request_hash}.json'
+        legacy=self.dest/'calls'/f'{packet["id"]}-{suffix}.json'
+        if not cache.exists() and legacy.exists():
+            old=json.loads(legacy.read_text())
+            if old.get('request_hash')==request_hash:cache=legacy
         if cache.exists():
             saved=json.loads(cache.read_text())
-            if saved['request_hash']!=request_hash or saved['registration_hash']!=self.m['registration_hash']:raise ValueError('Cached request or registration changed')
+            if saved['request_hash']!=request_hash or saved.get('packet_hash')!=packet['packet_hash']:raise ValueError('Cached request or source packet changed')
+            if saved['registration_hash']!=self.m['registration_hash']:
+                archive=self.dest/'registrations'/(saved['registration_hash']+'.json')
+                previous=json.loads(archive.read_text())
+                if previous.get('registration_hash')!=digest({k:v for k,v in previous.items() if k!='registration_hash'}):raise ValueError('Cached registration archive is invalid')
             return saved
         prices=self.m['prices_per_million'];reserve=math.ceil((len(raw)+512)*prices['input']+self.m['max_completion_tokens']*prices['output'])
         starting=self.attempts[request_hash]
@@ -120,7 +144,7 @@ def publish_candidate(entry,packet,registry):
 def run(execute,key_file,limit=None):
     manifest=json.loads((DEST/'preregistration.json').read_text());packets=json.loads((DEST/'packets.json').read_text());verify_registration(manifest,packets,execute)
     entries,sources,fields=load_inputs()
-    for packet in packets:validate_packet(packet,sources)
+    for packet in packets:validate_packet(packet,sources);validate_scope(packet)
     if not execute:return {'registration_valid':True,'status':manifest['status'],'packets':len(packets),'paid_calls':0}
     match=re.search(r'sk-[A-Za-z0-9_-]+',key_file.read_text())
     if not match:raise ValueError('No API key in the supplied file')
@@ -128,9 +152,10 @@ def run(execute,key_file,limit=None):
     budget=Budget(DEST/'budget.sqlite',int(Decimal(manifest['authorized_cap_usd'])*1_000_000));client=Client(manifest,packets,match[0],budget,DEST)
     outcome_path=DEST/'outcomes.json'
     outcomes=json.loads(outcome_path.read_text()) if outcome_path.exists() else {}
-    existing={e['id'] for e in entries};queue=[p for p in packets if p['id'] not in existing and outcomes.get(p['id'],{}).get('packet_hash')!=p['packet_hash']]
+    existing={e['id'] for e in entries};queue=[p for p in packets if p['id'] not in existing and outcomes.get(p['id'],{}).get('packet_hash')!=p['packet_hash'] and not (outcomes.get(p['id'],{}).get('reason')=='Source packet insufficient' and outcomes.get(p['id'],{}).get('source_content_hash')==source_content_hash(p))]
     if limit:queue=queue[:limit]
-    index=copy_index([p['text'] for p in packets]+[e['definition'] for e in entries]);registry,_=load_registry();definitions={normalize(e['definition']) for e in entries}
+    public_packets=[json.loads(p.read_text()) for p in (ROOT/'data/packets').glob('*.json')]
+    index=copy_index([p['text'] for p in packets+public_packets]+[e['definition'] for e in entries]);registry,_=load_registry();definitions={normalize(e['definition']) for e in entries}
     results=[]
     def draft(packet):
         saved=client.call(packet)
@@ -151,7 +176,7 @@ def run(execute,key_file,limit=None):
             except Exception as error:results.append({'id':packet['id'],'status':'not_published','reason':str(error)[:180]})
             latest=results[-1]
             if not client.stopped.is_set() or latest['status']=='candidate':
-                outcomes[packet['id']]=dict(latest,packet_hash=packet['packet_hash'],registration_hash=manifest['registration_hash'])
+                outcomes[packet['id']]=dict(latest,packet_hash=packet['packet_hash'],source_content_hash=source_content_hash(packet),registration_hash=manifest['registration_hash'])
             if len(results)%25==0 or len(results)==len(queue):
                 temp=outcome_path.with_suffix('.tmp');temp.write_text(json.dumps(outcomes,ensure_ascii=False,indent=2)+'\n');temp.replace(outcome_path)
                 report={'line':manifest['line'],'registration_hash':manifest['registration_hash'],'attempted':len(results),'total':len(queue),'candidate_entries_added':sum(r['status']=='candidate' for r in results),'budget':budget.summary(),'results':results,'judge_calls':0,'vignettes':0}

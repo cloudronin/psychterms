@@ -4,7 +4,7 @@ Status is set by the build from reader evidence and copy checks. The drafter nev
 
 | Status | Entries |
 |---|---:|
-| Candidate | 46 |
+| Candidate | 196 |
 | Reviewed | 198 |
 | Judged | 0 |
 | Dropped | 24 |
@@ -14,6 +14,6 @@ Released is an additional marker, not a fifth review status. Candidate entries a
 
 Reader models recorded: gpt-5.4-mini-2026-03-17.
 
-Copy comparison: All pinned public source packets and cross-entry definitions. Fifteen-word threshold; comparison SHA-256: a41533f826600ef693ef10b13afc8f22e93fb1717f14a95930a5e279643a8b72.
+Copy comparison: All pinned public source packets and cross-entry definitions. Fifteen-word threshold; comparison SHA-256: b1c30148f47fbdf891c485cbc44615af01a2269b554a7cc78196824fdaca97ee.
 
 Dropped entries are removed from term pages and search; their names and reasons appear on the Dropped page.

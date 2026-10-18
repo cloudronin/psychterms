@@ -95,6 +95,20 @@ class CandidateTests(unittest.TestCase):
    self.assertEqual(client.budget.summary()['calls_reserved'],2);self.assertGreater(client.budget.summary()['unresolved_reservations_usd'],0)
    with self.assertRaisesRegex(RuntimeError,'retry limit exhausted'):client.call(self.packet)
    self.assertEqual(client.budget.summary()['calls_reserved'],2)
+ def test_scope_rejection_precedes_any_network_or_reservation(self):
+  with tempfile.TemporaryDirectory() as tmp,patch('run_candidate_drafts.require_authorization'),patch('urllib.request.urlopen') as network:
+   client=self.client(Path(tmp),1_000_000);client.m['scope_and_field_required']=True
+   with self.assertRaisesRegex(ValueError,'Scope and field'):client.call(self.packet)
+   network.assert_not_called();self.assertEqual(client.budget.summary()['calls_reserved'],0)
+ def test_changed_requests_get_separate_caches_and_old_receipts_are_preserved(self):
+  from io import BytesIO
+  result={'model':'gpt-5.4-2026-03-05','usage':{'prompt_tokens':40,'completion_tokens':5},'choices':[{'finish_reason':'stop','message':{'content':json.dumps(self.saved['parsed'])}}]}
+  with tempfile.TemporaryDirectory() as tmp,patch('run_candidate_drafts.require_authorization'),patch('urllib.request.urlopen',side_effect=lambda *a,**k:BytesIO(json.dumps(result).encode())) as network:
+   client=self.client(Path(tmp),1_000_000);original=client.call(self.packet)
+   client.m['draft_prompt']+=' Changed instruction.';client.m['registration_hash']='c'*64
+   changed=client.call(self.packet);self.assertNotEqual(original['request_hash'],changed['request_hash'])
+   self.assertEqual(len(list((Path(tmp)/'calls').glob('*.json'))),2)
+   self.assertEqual(client.call(self.packet),changed);self.assertEqual(network.call_count,2)
  def test_receipted_request_reconciles_and_is_not_rebilled_on_resume(self):
   from io import BytesIO
   result={'model':'gpt-5.4-2026-03-05','usage':{'prompt_tokens':40,'completion_tokens':5,'prompt_tokens_details':{'cached_tokens':10}},

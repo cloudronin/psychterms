@@ -74,6 +74,12 @@ class ScopeTests(unittest.TestCase):
  def test_neural_or_psychology_source_context_sets_field(self):
   for text,field in [('An action potential has a refractory period.','biological'),('Working memory supports reasoning.','cognition')]:
    result=decide({'term':'Test','source':'ncit','source_record':'test','text':text});self.assertTrue(result['eligible']);self.assertEqual(result['field'],field)
+ def test_gene_alias_collision_is_not_a_psychology_source_packet(self):
+  packet={'term':'wish','source':'ncit','source_record':'test','source_label':'NCKIPSD wt Allele','text':'This gene affects neuronal expression and stress.','semantic_types':['Gene or Genome']}
+  self.assertFalse(decide(packet)['eligible'])
+ def test_oxidative_stress_and_generic_ability_are_not_psychology_context(self):
+  for text in ['This protein has the ability to catalyze lipid metabolism.','This cell responds to oxidative stress.']:
+   self.assertFalse(decide({'term':'unrelated','source':'ncit','source_record':'test','source_label':'Protein','text':text})['eligible'])
  def test_registered_field_cannot_be_changed_by_drafter(self):
   from run_candidate_drafts import candidate_entry
   from test_candidate_publication import CandidateTests
