@@ -129,9 +129,9 @@
         ]
       }
     },
-    "risk_term": {
-      "type": "boolean",
-      "description": "Editorial classification: risk terms never receive a scene in v1."
+    "risk": {
+      "const": true,
+      "description": "Build-owned flag derived from the pinned risk_terms.json, never hand edited."
     }
   },
   "additionalProperties": false

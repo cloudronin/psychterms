@@ -25,3 +25,9 @@ The banned product-word list is still pending. The custom domain will not be act
 PsychTerms naming is applied throughout current project copy; citation and breadcrumb domains are lowercase. The term-page presentation has scene, definition-only and risk states. Risk classification is hash-bound and exports the exact notice. Pilot scenes remain private; public scene import is not enabled. The original pinned builder bytes are unchanged. The supplied design URL was inaccessible following browser-origin denial, so visual comparison remains outstanding.
 
 Validation: 65 Python tests and five site tests pass; three synthetic presentation states rendered in a private build under the GitHub Pages base path; normal build produces 11 pages with no broken internal links. All 3 entry records, 34 source records and 3 source packets validate. Frozen pilot dependencies remain reproducible at 797791e. No paid calls, publishing or DNS changes occurred.
+
+## Section 4a risk register
+
+Build-owned `risk: true` replaces the earlier presentation flag. The version-1 register contains 30 named category, duty and recorded ArcSim exclusion records, with an exact-byte SHA-256 pin. This is a seed inventory, not a claim of exhaustive risk-term coverage. Missing detected coverage blocks builds until a register PR; source entry flags and scenes on listed entries are rejected. CI preserves earlier register records/rules and requires version bumps. Exports carry both the register snapshot and pin. The page renders the risk badge, exact no-scene sentence and build-check note. No paid calls or release/deployment changes.
+
+Verification: 81 Python tests and five site tests pass, including the three rule paths, manual flag edits, scene rejection, register deletion/weakening, pin tampering and secret-scan regression. Normal static build and schema/packet/link checks pass; the private three-state render test also passes.

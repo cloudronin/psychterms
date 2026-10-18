@@ -1,7 +1,7 @@
 // No scenario text or mockup story belongs in this module.
 export const RISK_NOTICE = 'No scene is provided for this risk term.';
 export function sceneState(entry) {
-  if (entry.risk_term === true) return 'risk';
+  if (entry.risk === true) return 'risk';
   if (!entry.vignette) return 'none';
   const scene = entry.vignette;
   // Presentation guard only. Publication still requires the reviewed data importer.

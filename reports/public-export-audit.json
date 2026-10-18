@@ -1,5 +1,5 @@
 {
-  "allowlisted_files": 114,
+  "allowlisted_files": 118,
   "private_files_exported": 0,
   "uploaded": false,
   "paths": [
@@ -24,6 +24,8 @@
     "data/pilot-preregistration.json",
     "data/redirects.json",
     "data/release-policy.json",
+    "data/risk-terms-pin.json",
+    "data/risk_terms.json",
     "data/site-config.json",
     "data/sources.json",
     "data/term-candidates.json",
@@ -83,6 +85,7 @@
     "scripts/prepare_pilot.py",
     "scripts/prepare_vignette_fit.py",
     "scripts/recover_pilot.py",
+    "scripts/risk_registry.py",
     "scripts/run_combined_pilot.py",
     "scripts/run_pilot.py",
     "scripts/scan_pilot_definitions.py",
@@ -114,6 +117,7 @@
     "tests/test_combined_contract.py",
     "tests/test_dispatch_guard.py",
     "tests/test_pipeline.py",
+    "tests/test_risk_registry.py",
     "tests/test_scanner_export.py",
     "tests/test_vignette_fit.py",
     "tests/test_vignette_output.py"

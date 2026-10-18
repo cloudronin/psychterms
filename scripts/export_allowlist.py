@@ -14,7 +14,7 @@ def public_paths():
   if p.suffix in {'.key','.pem','.pdf','.bin'} or p.is_symlink():raise ValueError('Unexpected private or binary file: '+str(rel))
   try:text=p.read_text()
   except UnicodeError:raise ValueError('Unexpected binary: '+str(rel))
-  if re.search(r'/Users/[A-Za-z0-9_.-]+/|sk-[A-Za-z0-9_-]{20,}|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY',text):raise ValueError('Private path or secret-like material: '+str(rel))
+  if re.search(r'/Users/[A-Za-z0-9_.-]+/|(?<![A-Za-z0-9_-])sk-[A-Za-z0-9_-]{20,}|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY',text):raise ValueError('Private path or secret-like material: '+str(rel))
   yield rel.as_posix()
 if __name__=='__main__':
  paths=sorted(public_paths());print(json.dumps({'allowlisted_files':len(paths),'private_files_exported':0,'uploaded':False,'paths':paths},indent=2))

@@ -7,7 +7,7 @@ test('definition-only entry omits the scene panel',()=>assert.equal(sceneState({
 test('unbound provenance enables the scene presentation',()=>assert.equal(sceneState({vignette}),'scene'));
 test('risk notice is exact and takes precedence over any scene',()=>{
  assert.equal(RISK_NOTICE,'No scene is provided for this risk term.');
- assert.equal(sceneState({risk_term:true,vignette:{card_id:'scenario:private'}}),'risk');
+ assert.equal(sceneState({risk:true,vignette:{card_id:'scenario:private'}}),'risk');
 });
 test('bound Prep scenario and missing provenance are rejected',()=>{
  for(const patch of [{card_id:'scenario:private'},{card_hash:''},{builder_commit:''},{text:''}])

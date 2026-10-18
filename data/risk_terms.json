@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "authority": "Spec v0.2 section 4a; additions by pull request; never edit an entry flag.",
+  "rules": {
+    "packet_or_anchor_signals": [
+      "suicide",
+      "suicidal",
+      "self-harm",
+      "self harm",
+      "non-suicidal self-injury",
+      "nonsuicidal self injury",
+      "homicide",
+      "homicidal",
+      "harm to others",
+      "violence",
+      "violent",
+      "abuse",
+      "neglect",
+      "overdose",
+      "lethal means",
+      "firearm",
+      "firearms"
+    ],
+    "named_practices_and_duties": [
+      "risk assessment instrument",
+      "safety planning",
+      "safety plan",
+      "duty to warn",
+      "duty to protect",
+      "mandated reporting",
+      "mandatory reporting",
+      "involuntary hold",
+      "welfare check"
+    ]
+  },
+  "terms": [
+    {
+      "id": "suicidal-ideation",
+      "names": [
+        "Suicidal ideation"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "suicide",
+      "names": [
+        "Suicide"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "self-harm",
+      "names": [
+        "Self-harm"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "non-suicidal-self-injury",
+      "names": [
+        "Non-suicidal self-injury"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "homicidal-ideation",
+      "names": [
+        "Homicidal ideation"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "harm-to-others",
+      "names": [
+        "Harm to others"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "violence",
+      "names": [
+        "Violence"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "child-abuse",
+      "names": [
+        "Child abuse"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "elder-abuse",
+      "names": [
+        "Elder abuse"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "intimate-partner-abuse",
+      "names": [
+        "Intimate partner abuse"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "neglect",
+      "names": [
+        "Neglect"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "overdose",
+      "names": [
+        "Overdose"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "lethal-means",
+      "names": [
+        "Lethal means"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "firearm",
+      "names": [
+        "Firearm"
+      ],
+      "anchors": [],
+      "test": 3,
+      "reason": "Risk history is excluded from unbound ArcSim cards; section 4a."
+    },
+    {
+      "id": "risk-assessment-instrument",
+      "names": [
+        "Risk assessment instrument"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "safety-planning",
+      "names": [
+        "Safety planning"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "duty-to-warn",
+      "names": [
+        "Duty to warn"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "duty-to-protect",
+      "names": [
+        "Duty to protect"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "mandated-reporting",
+      "names": [
+        "Mandated reporting"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "involuntary-hold",
+      "names": [
+        "Involuntary hold"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "welfare-check",
+      "names": [
+        "Welfare check"
+      ],
+      "anchors": [],
+      "test": 2,
+      "reason": "Risk instrument, safety practice or duty named by section 4a."
+    },
+    {
+      "id": "body-integrity-identity-disorder",
+      "names": [
+        "Body Integrity Identity Disorder"
+      ],
+      "anchors": [
+        "D000081042"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "recreational-drug-use",
+      "names": [
+        "Recreational Drug Use"
+      ],
+      "anchors": [
+        "D000084783"
+      ],
+      "test": 3,
+      "reason": "A scene of nonmedical substance use is excluded from the first risk-free vignette release; do not turn alcohol coping text into a drug-use scene."
+    },
+    {
+      "id": "psychological-first-aid",
+      "names": [
+        "Psychological First Aid"
+      ],
+      "anchors": [
+        "D000088782"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "alcohol-withdrawal-delirium",
+      "names": [
+        "Alcohol Withdrawal Delirium"
+      ],
+      "anchors": [
+        "D000430"
+      ],
+      "test": 3,
+      "reason": "Acute alcohol-withdrawal delirium is a psychiatric/medical emergency, outside the risk-free card interface."
+    },
+    {
+      "id": "crisis-intervention",
+      "names": [
+        "Crisis Intervention"
+      ],
+      "anchors": [
+        "D003419"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "emergency-services-psychiatric",
+      "names": [
+        "Emergency Services, Psychiatric"
+      ],
+      "anchors": [
+        "D004637"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "firesetting-behavior",
+      "names": [
+        "Firesetting Behavior"
+      ],
+      "anchors": [
+        "D005391"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "sexual-harassment",
+      "names": [
+        "Sexual Harassment"
+      ],
+      "anchors": [
+        "D017406"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "unsafe-sex",
+      "names": [
+        "Unsafe Sex"
+      ],
+      "anchors": [
+        "D047568"
+      ],
+      "test": 3,
+      "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    }
+  ]
+}

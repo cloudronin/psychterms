@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -15,6 +17,15 @@ jobs:
           node-version: '24'
           cache: npm
       - run: python3 -m pip install -r requirements-dev.txt
+      - name: Risk register and scene prohibition
+        env:
+          RISK_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$RISK_BASE" ] && [ "$RISK_BASE" != "0000000000000000000000000000000000000000" ]; then
+            python3 scripts/risk_registry.py --base "$RISK_BASE"
+          else
+            python3 scripts/risk_registry.py
+          fi
       - run: python3 scripts/check_schemas.py
       - run: python3 -m unittest discover -s tests -v
       - run: python3 scripts/check_packets.py

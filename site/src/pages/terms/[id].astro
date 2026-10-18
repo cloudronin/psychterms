@@ -11,6 +11,7 @@ const sources=sourceRegistry.filter((s:any)=>entry.sources.includes(s.id));
  <article class="article-wrap">
   <p class="breadcrumb"><a href={toHref()}>psychterms.org</a> / {entry.id}</p>
   <a class="tag" href={toHref(`fields/${entry.field.replaceAll(' ','-')}/`)}>{entry.field}</a>
+  {entry.risk && <span class="tag risk-badge">risk term</span>}
   <h1 style="margin-top:22px">{entry.term}</h1>
   <div data-pagefind-body class="search-index-text"><span data-pagefind-meta="title">{entry.term}</span> {entry.aliases.join(' ')} {firstSentence(entry.definition)}</div>
   <p class="definition">{entry.definition}</p>

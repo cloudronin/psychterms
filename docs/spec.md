@@ -80,6 +80,7 @@ Beside the definition, where a person could be in the room, a short written case
 
 - **One pipeline, two outputs.** The ArcSim card schema (with the 18 Oct fields) plus a planted term plus the intake builder yields the vignette; the same card plus the journey builder yields the case. The term's `field` and type decide which output it earns.
 - **Checks:** two judges per vignette (does the scene show the term; does it stay clear of advice, criteria lists and identifiable people), the overlap scan, the same provenance record naming the card id. Same CC BY release.
+- **Risk terms carry no vignette (v1), by a rule in code, not a writer's call.** An entry is a risk term when any of these hold: (1) its field is diagnosis or assessment and its packet or anchor carries suicide, self-harm, non-suicidal self-injury, homicide, harm to others, violence, abuse (child, elder, intimate partner), neglect, overdose, lethal means or firearm; (2) it names a risk-assessment instrument, a safety-planning practice, or a duty (duty to warn, duty to protect, mandated reporting, involuntary hold, welfare check); (3) ArcSim's card schema excludes it by its no-risk-history rule. Mechanics: `risk_terms.json` in the repo, pinned and hashed per release; the build sets `risk: true` from it; a term can be added to the list by pull request, and the flag is never removed from an entry by hand. The page shows "No scene is provided for this risk term." and a build check fails any pull request that adds a scene to a flagged entry. Strict is the only safe error: a wrong flag costs a scene; a missing one shows a method.
 - **The site never links to a planted answer.** A vignette shows the term; the playable case hides what it plants. The exam-layer "Try it" link stays as it is.
 - **Order:** definitions ship first; vignettes are a second release so the first is not held by the harder half. The pilot includes 50 vignettes and reports their per-item cost beside the definitions'.
 
@@ -177,6 +178,6 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 
 CC BY 4.0 data, MIT code, never share-alike. Never a copyrighted dictionary's text, paraphrased or otherwise. No PHI, no identifiable person anywhere. No banned product words. PREREG before every paid line; each line stops before its cap; no untrusted PR runs with a paid key. Nothing to main without Vishnu. Done right, however long it takes.
 
-## Direct decisions retained alongside this supplied revision
+## Direct decisions retained
 
-There is no entry-count target. Residual example counts are not quotas. Term-to-card fit is required; unmatched terms receive no scene and a recorded reason. Risk terms receive no scene. Generated scenes and notice lines require their own 15-word scan, five-word editorial triage and two judges. The open site has no product mention beyond “built by Plainword, free forever” in the footer; this direct instruction governs the otherwise conflicting publisher credit in section 7.
+No count target applies. Term-to-card fit is required, with unmatched reasons recorded. Generated scenes and notice lines require their own overlap scan and two judges. Public product mentions remain footer-only; that direct decision governs the conflicting publisher wording in section 7.

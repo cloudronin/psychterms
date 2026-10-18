@@ -3,7 +3,7 @@ import {sceneState, RISK_NOTICE} from '../scene-state.mjs';
 const {entry}=Astro.props;
 const state=sceneState(entry);
 ---
-{state==='risk' && <p class="risk-scene-notice">{RISK_NOTICE}</p>}
+{state==='risk' && <section aria-label="Scene availability"><p class="risk-scene-notice">{RISK_NOTICE}</p><p class="small risk-build-check">Build check: a flagged entry cannot contain a scene.</p></section>}
 {state==='scene' && <section class="term-scene" aria-labelledby="scene-heading">
   <h2 id="scene-heading">The term in a room</h2>
   <p>{entry.vignette.text}</p>

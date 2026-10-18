@@ -76,19 +76,18 @@ class PipelineTests(unittest.TestCase):
   self.assertEqual(config['name'],'PsychTerms');self.assertEqual(config['domain'],'psychterms.org')
   self.assertEqual(config['owner'],'Vishnu Vettrivel');self.assertFalse(config['custom_domain_active'])
   self.assertFalse((ROOT/'site/public/CNAME').exists())
- def test_risk_classification_is_hash_bound_and_exported(self):
-  e=self.entries[0];before=e['hash'];e['risk_term']=True
+ def test_risk_classification_is_hash_bound(self):
+  e=self.entries[0];before=e['hash'];e['risk']=True
   self.assertNotEqual(semantic_hash(e),before);self.resigned(e)
   validate_entry(e,self.sources,self.fields)
-  data,md,_=build([e]);self.assertTrue(data['entries'][0]['risk_term'])
-  self.assertEqual(md.count('No scene is provided for this risk term.'),1)
- def test_risk_classification_requires_boolean(self):
-  e=self.entries[0];e['risk_term']='yes';self.resigned(e)
-  with self.assertRaisesRegex(ValueError,'risk classification'):validate_entry(e,self.sources,self.fields)
+ def test_risk_classification_cannot_be_false(self):
+  e=self.entries[0];e['risk']=False;self.resigned(e)
+  with self.assertRaisesRegex(ValueError,'removed by hand'):validate_entry(e,self.sources,self.fields)
  def test_unreviewed_scene_cannot_enter_public_data(self):
-  for risk in (False,True):
-   e=self.entries[0];e['risk_term']=risk;e['vignette']={'card_id':'scenario:mockup','text':'Never publish this story.'};self.resigned(e)
-   with self.assertRaisesRegex(ValueError,'reviewed unbound-card'):validate_entry(e,self.sources,self.fields)
+  e=self.entries[0];e['vignette']={'card_id':'scenario:mockup','text':'Never publish this story.'};self.resigned(e)
+  with self.assertRaisesRegex(ValueError,'reviewed unbound-card'):validate_entry(e,self.sources,self.fields)
+  e['risk']=True;self.resigned(e)
+  with self.assertRaisesRegex(ValueError,'Risk entry cannot'):validate_entry(e,self.sources,self.fields)
  def test_no_count_target_or_deadline(self):
   policy=json.loads((ROOT/'data/release-policy.json').read_text());self.assertIsNone(policy['count_target']);self.assertIsNone(policy['deadline']);self.assertEqual(policy['judges_required'],2)
 
