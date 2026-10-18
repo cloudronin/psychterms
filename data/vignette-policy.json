@@ -1,0 +1,51 @@
+{
+  "status": "implemented_for_combined_registration",
+  "fit_before_drafting": true,
+  "fit_inputs": [
+    "term_field",
+    "term_type",
+    "accepted_definition",
+    "card_presenting_problem",
+    "card_relevant_history",
+    "card_situation",
+    "card_mental_status"
+  ],
+  "problem_label_alone_establishes_fit": false,
+  "fit_decisions": [
+    "matched",
+    "unmatched",
+    "excluded_risk",
+    "pending"
+  ],
+  "unmatched_requires_reason": true,
+  "unmatched_gets_vignette": false,
+  "unmatched_resampled_to_fill_quota": false,
+  "risk_history_allowed": false,
+  "risk_terms_get_vignettes": false,
+  "risk_entry_notice": "No scene is provided for this risk term.",
+  "risk_card_path_authorized": false,
+  "pilot_report_counts": [
+    "candidates",
+    "pending_fit",
+    "excluded_risk",
+    "unmatched",
+    "matched",
+    "drafted",
+    "accepted"
+  ],
+  "arcsim_bank_scan_words": 6,
+  "arcsim_bank_scan_scope": "producer_input_banks_only",
+  "output_scan_required": true,
+  "output_scan_words": 15,
+  "output_scan_text": "generated_scene_and_notice_line",
+  "output_scan_comparison_set": "frozen_permitted_reference_set",
+  "five_word_output_matches": "editorial_triage",
+  "judges_required": 2,
+  "distinct_judge_models": true,
+  "both_must_pass_same_output": true,
+  "redraft_requires_rescan_and_both_judges": true,
+  "vignette_fields_changed": false,
+  "card_hash_rule_changed": false,
+  "paid_dispatch_enabled": false,
+  "site_product_mentions": "footer_only"
+}

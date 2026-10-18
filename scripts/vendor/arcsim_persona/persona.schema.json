@@ -1,0 +1,219 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/cloudronin/uofa-lab/arcsim/schemas/persona.schema.json",
+ "title": "ArcSim persona v0.3 (built in B2; the B1 spike uses one hand-made card)",
+ "description": "Cognitive-model fields follow Patient-Psi's schema (Wang et al. 2024, arXiv 2405.19660), cited; none of its data is used. Written by a teacher from a seed, never from a real transcript.",
+ "type": "object",
+ "required": [
+  "persona_id",
+  "seed",
+  "presenting_problem",
+  "talking_style",
+  "cognitive_model"
+ ],
+ "properties": {
+  "persona_id": {
+   "type": "string"
+  },
+  "seed": {
+   "type": [
+    "integer",
+    "string"
+   ]
+  },
+  "presenting_problem": {
+   "enum": [
+    "anxiety",
+    "self-esteem",
+    "relationships",
+    "career",
+    "other"
+   ]
+  },
+  "talking_style": {
+   "enum": [
+    "plain",
+    "upset",
+    "verbose",
+    "reserved",
+    "tangent",
+    "pleasing"
+   ]
+  },
+  "profile": {
+   "type": "object",
+   "description": "who the client is, in plain facts the client knows about themself",
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "age": {
+     "type": "integer",
+     "minimum": 18,
+     "maximum": 99
+    },
+    "gender": {
+     "type": "string"
+    },
+    "occupation": {
+     "type": "string"
+    },
+    "living_situation": {
+     "type": "string"
+    },
+    "details": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "other facts: health, medication, people, habits"
+    },
+    "relationship_status": {
+     "enum": [
+      "single",
+      "in a relationship",
+      "married",
+      "separated",
+      "divorced",
+      "widowed"
+     ],
+     "description": "v0.3 backstory; follows the living situation"
+    },
+    "family": {
+     "type": "array",
+     "description": "v0.3 backstory: the client's family as the client knows it",
+     "items": {
+      "type": "object",
+      "required": [
+       "relation",
+       "name",
+       "alive",
+       "where"
+      ],
+      "properties": {
+       "relation": {
+        "type": "string",
+        "minLength": 1
+       },
+       "name": {
+        "type": "string",
+        "minLength": 1
+       },
+       "alive": {
+        "type": "boolean"
+       },
+       "where": {
+        "type": "string",
+        "minLength": 1
+       },
+       "note": {
+        "type": "string"
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    "setting": {
+     "type": "string",
+     "description": "v0.3: where the client is seen (an intake detail)"
+    },
+    "counselling_type": {
+     "enum": [
+      "individual",
+      "couples",
+      "family",
+      "group"
+     ],
+     "description": "v0.3: an intake detail"
+    },
+    "mental_status": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "v0.3: the intake's mental-status observations (the clinician's); never risk; not given to the client"
+    }
+   },
+   "additionalProperties": false
+  },
+  "cognitive_model": {
+   "type": "object",
+   "required": [
+    "relevant_history",
+    "core_beliefs",
+    "intermediate_beliefs",
+    "coping_strategies",
+    "situation",
+    "automatic_thoughts",
+    "emotions",
+    "behaviors"
+   ],
+   "properties": {
+    "relevant_history": {
+     "type": "string"
+    },
+    "core_beliefs": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "helpless",
+       "unlovable",
+       "worthless"
+      ]
+     }
+    },
+    "intermediate_beliefs": {
+     "type": "string"
+    },
+    "coping_strategies": {
+     "type": "string"
+    },
+    "situation": {
+     "type": "string"
+    },
+    "automatic_thoughts": {
+     "type": "string"
+    },
+    "emotions": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "behaviors": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "intake_only": {
+   "type": "object",
+   "description": "v0.3: intake client-detail lines only; never given to the client, never shown to the carry check's judges",
+   "properties": {
+    "sexuality": {
+     "enum": [
+      "heterosexual",
+      "gay or lesbian",
+      "bisexual",
+      "not stated"
+     ]
+    },
+    "ethnicity": {
+     "enum": [
+      "White",
+      "Black or African American",
+      "Hispanic or Latino",
+      "Asian",
+      "Middle Eastern or North African",
+      "Native American or Alaska Native",
+      "Native Hawaiian or Pacific Islander",
+      "Multiracial",
+      "not stated"
+     ]
+    }
+   },
+   "additionalProperties": false
+  }
+ },
+ "additionalProperties": false
+}

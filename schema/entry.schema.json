@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Psych Terms entry",
+  "type": "object",
+  "required": [
+    "id",
+    "term",
+    "definition",
+    "also_see",
+    "field",
+    "aliases",
+    "sources",
+    "provenance",
+    "version",
+    "hash",
+    "review_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "term": {
+      "type": "string",
+      "minLength": 1
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "also_see": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "field": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "source",
+          "revision",
+          "scope"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "draft_basis",
+              "supports_definition",
+              "related_topic"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "review_status": {
+      "enum": [
+        "preview_fixture",
+        "accepted"
+      ]
+    },
+    "exam_layer_id": {
+      "type": "string"
+    },
+    "packet_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "reviews": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "model",
+          "passed",
+          "entry_hash",
+          "packet_hash",
+          "receipt_id",
+          "rubric_hash"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

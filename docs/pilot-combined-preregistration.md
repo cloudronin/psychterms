@@ -1,0 +1,33 @@
+# Combined pilot registration: review copy
+
+Status: the inputs are assembled and verified offline; the machine-readable registration becomes FROZEN before dispatch. The initial hash baseline in `card-hash-proposal.md` uses the existing project canonical digest under Vishnu’s instruction to implement the adapter. No earlier registered rule changed.
+
+## Question and sample
+
+What do independently supported definitions and card-grounded teaching scenes cost, and how often do they survive source, fit, overlap and two-judge checks? The definition sample remains the original independent 200 terms, seed 2026101802. The new scene-candidate sample is fixed at 50, drawn with seed 2026101803 from 118 editorially room-eligible, double-reviewed terms in that independent sample, before card-fit outcomes were evaluated. No term list or prose comes from the legacy fixture.
+
+The definition receipts were reconstructed against exact request hashes, raw response content, model snapshots and the shared ledger: 137 initial passes, 56 redraft passes, five drops, two incomplete reviews. These are machine-check outcomes, not a public release or held-out human review. The two incomplete units may complete only their original redraft requests and missing judge calls; no extra editorial revision is granted. Existing uncertain reservations stay charged against the line.
+
+The fixed 50-candidate fit ledger has **seven matches, 38 unmatched terms and five risk exclusions**. Nothing is substituted to fill a quota. Each decision records a reason; matches bind definition version/hash, packet hash, fixed card recipe and evidence from problem, situation, history and mental-status lines. The review is an explicit session editorial judgment, not a semantic result asserted by the ledger validator. Its reproducible records and reasons are in `reports/vignette-fit.json` and `data/vignette-fit-review.json`. Term and card selection are complete; this is not a held-out fit evaluation.
+
+Risk terms get no scene. Their site notice is exactly “No scene is provided for this risk term.” Product references appear only in the site footer, “built by Plainword, free forever”. Definitions can ship independently of scene outcomes.
+
+## Fixed inputs and execution
+
+The builder is pinned to 12bd2828 and SHA-256 31088a31425b31a2de29a8e8ed5ee4f656822983fbf6b07bc44f9dd38415453e. The unmodified builder, schema, Apache licence and NOTICE are vendored for offline reproducibility. The existing seeds (`example-4` and integers 0–999), `problem=None`, `style=None` and `fit=True` remain fixed. No card string is edited. Future field or card-hash-rule changes require Vishnu.
+
+For each matched term the writer sees only the permitted view, accepted definition/packet and planted-term envelope. No intake-only fields, scenario facts, transcripts, private producer pools or legacy text enter a request. The writer can decline an illustration rather than force it. Two distinct judge calls independently receive the same output and context; neither sees the other's verdict. An output passes only if both pass, its own 15-word scan passes and five-word hits have completed editorial triage. No automatic acceptance from a clean bank scan is possible.
+
+The unchanged scanner runs against a frozen comparison set of 200 permitted MeSH packet texts plus the seven permitted card-view texts. Scenes and notice lines are scanned together, separately from definitions. Scope is explicitly these registered references, not the entire internet. Generated dialogue may paraphrase card facts and depict a helper response grounded in the definition; it may not add client history, symptoms, risk, a diagnosis or improvement. The scene length is 100–150 normalized words using `overlap_scan.words`, excluding the separate notice line. The notice line is scanned and judged.
+
+One editorial redraft is allowed, followed by another output scan and both judges. Each logical request can retry transport/schema failure once; unknown costs keep their reservations. Cached requests are reused only on an identical request hash. Requests are sequential and each completed scene is checkpointed; call receipts and parsed responses survive interruption. The initial-overlap stop remains >10%; unresolved final drops stop at >20%. Definition denominators are 200 attempts; vignette denominators are the seven matched scenes, with the 38 unmatched and five risk exclusions reported separately. With seven matches, a single initial 15-word hit crosses the 10% stop.
+
+## Models, cost and carry-forward
+
+Retain the definition pilot's snapshots: draft and judge B `gpt-5.4-2026-03-05`; judge A `gpt-5.4-mini-2026-03-17`. Calls are independent; the judges are distinct models. Low reasoning effort, 1,000 maximum completion tokens, 12,000 maximum serialized request bytes, no tools or paid extras. Pricing rechecked on the [GPT-5.4 model page](https://developers.openai.com/api/docs/models/gpt-5.4) and [GPT-5.4 mini model page](https://developers.openai.com/api/docs/models/gpt-5.4-mini) on 18 October 2026: standard input/output rates per million tokens are $2.50/$15 and $0.75/$4.50 respectively. Cached discounts are ignored conservatively.
+
+The same $20 ledger carries **$1.568486 receipted and $0.053720 outstanding**, leaving $18.377794 available for reservations. No cap is reset. Reserve serialized UTF-8 request bytes plus 512 input tokens and the full completion cap before each call. Under the registered caps, using the most expensive model rate for every possible remaining call, historical spent plus held plus the remaining worst-case reservations is **$6.065086**, below $20. This is a conservative bound, not an expected invoice or permission to start a full run.
+
+Report definition and scene costs separately: initial writing, judge A, judge B, editorial redrafts, repeated judging and transport/schema retries; include failed/unknown attempts and zero-cost fit/exclusion steps. Report per-attempted and per-accepted output cost, denominators, unresolved reservations, five-word triage, stop reasons, dropped reasons, and actual source/field coverage. Full generation remains unauthorized; Vishnu sets that line from the completed pilot report.
+
+The machine-readable registration is `data/pilot-combined-preregistration.json`. It contains every prompt/schema, comparison-file hash, executable dependency hash, private input hash, carry-forward balance and sample pin. `python3 scripts/run_combined_pilot.py` verifies it without reading a key. `--execute` requires a frozen registration and active dispatch policy with no STOP marker. The initial adapter baseline is frozen alongside the registration. Any later field or hash-rule change goes to Vishnu first.

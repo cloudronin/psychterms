@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {entries,toHref} from '../lib';
+const letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const active=new Set(entries.map((e:any)=>e.term[0].toUpperCase()));
+---
+<Layout>
+  <div class="wrap">
+    <section class="hero">
+      <p class="eyebrow">An independent, open reference</p>
+      <h1>Psychology,<br />in plain words.</h1>
+      <p class="lede">A dictionary of psychology and counselling. Read a definition, follow a connection, and find the source behind it.</p>
+      <div style="margin-top:32px"><label class="search-label" for="term-search">Find a term</label><div class="search-shell"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 5 5"/></svg><input id="term-search" type="search" placeholder="Try attention or memory" autocomplete="off" aria-describedby="search-help search-status" /></div><p class="search-help" id="search-help">Search stays in your browser. No account needed.</p></div>
+      <p id="search-status" role="status" aria-live="polite"></p><div id="search-results"></div>
+    </section>
+    <section class="browse-section" id="browse">
+      <div class="section-heading"><h2>Browse the dictionary</h2><span>{entries.length} preview examples</span></div>
+      <div class="alphabet" aria-label="Alphabetical index">{letters.map(letter=>active.has(letter)?<a href={toHref(`letters/${letter.toLowerCase()}/`)}>{letter}</a>:<span>{letter}</span>)}</div>
+      <div class="cards">{entries.map((e:any)=><article class="term-card"><p class="field">{e.field}</p><h3><a href={toHref(`terms/${e.id}/`)}>{e.term}</a></h3><p>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
+    </section>
+    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Each released definition will include its sources, version, and citation. This preview shows the structure while the editorial work is in progress.</p></section>
+  </div>
+</Layout>
+<script>
+ const input=document.querySelector<HTMLInputElement>('#term-search')!;
+ const status=document.querySelector<HTMLElement>('#search-status')!;
+ const results=document.querySelector<HTMLElement>('#search-results')!;
+ let sequence=0;let timer:ReturnType<typeof setTimeout>;let pagefind:any;
+ input.addEventListener('input',()=>{clearTimeout(timer);const token=++sequence;timer=setTimeout(async()=>{
+   const query=input.value.trim();results.replaceChildren();if(!query){status.textContent='';return;}
+   try{
+     if(!pagefind)pagefind=await import(/* @vite-ignore */ `${import.meta.env.BASE_URL}pagefind/pagefind.js`);
+     const response=await pagefind.search(query);const hits=await Promise.all(response.results.slice(0,12).map((r:any)=>r.data()));
+     if(token!==sequence)return;
+     status.textContent=response.results.length?`${response.results.length} matching term${response.results.length===1?'':'s'}`:'No matching terms. Try another word.';
+     for(const hit of hits){const a=document.createElement('a');a.href=hit.url;a.textContent=hit.meta.title || hit.content;results.append(a);}
+   }catch{if(token===sequence)status.textContent='Search is available in the built preview. You can also browse the index below.';}
+ },180);});
+</script>

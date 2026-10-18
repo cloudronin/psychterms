@@ -1,0 +1,49 @@
+{
+  "status": "interrupted_results_reconstructed_offline",
+  "historical_registration_hash": "a1829e61865d72e6e9784993644b00b5adc2eae22a187652c15cb0a54bd1992a",
+  "attempted": 200,
+  "counts": {
+    "initial_pass": 137,
+    "redraft_pass": 58,
+    "final_drop": 5,
+    "incomplete": 0
+  },
+  "machine_passed": 195,
+  "completed_reviews": 200,
+  "cache_requests_receipts_and_ledger_verified": true,
+  "released_entries": 0,
+  "budget": {
+    "calls_reserved": 792,
+    "cap_usd": 20.0,
+    "receipted_usd": 1.579565,
+    "unresolved_reservations_usd": 0.05372,
+    "by_category": {
+      "drafting": {
+        "calls": 200,
+        "receipted_usd": 0.462742,
+        "unresolved_reservations_usd": 0.0
+      },
+      "judge_a": {
+        "calls": 263,
+        "receipted_usd": 0.191199,
+        "unresolved_reservations_usd": 0.006307
+      },
+      "judge_b": {
+        "calls": 263,
+        "receipted_usd": 0.746588,
+        "unresolved_reservations_usd": 0.0
+      },
+      "redrafting": {
+        "calls": 65,
+        "receipted_usd": 0.178353,
+        "unresolved_reservations_usd": 0.047413
+      },
+      "transport_schema_retry": {
+        "calls": 1,
+        "receipted_usd": 0.000683,
+        "unresolved_reservations_usd": 0.0
+      }
+    }
+  },
+  "paid_calls_this_recovery": 0
+}

@@ -1,0 +1,81 @@
+{
+  "charged_receipts_verified": 828,
+  "definition_request_binding": "Verified independently by recover_pilot.py against all frozen definition requests",
+  "vignette_requests_reconstructed_from_permitted_inputs": 39,
+  "item_cost_rows": 207,
+  "usage_and_raw_response_match_cache_and_ledger": true,
+  "unresolved_reservations": [
+    {
+      "request_id": "598ad24722d34b368a14ce4e985f754f",
+      "category": "judge_a",
+      "reserved_usd": 0.006307
+    },
+    {
+      "request_id": "e83d43556ef84b80b3a6cc1e17f68df2",
+      "category": "redrafting",
+      "reserved_usd": 0.023413
+    },
+    {
+      "request_id": "2b6673abfd29499c9fc44d226869763c",
+      "category": "redrafting",
+      "reserved_usd": 0.024
+    }
+  ],
+  "budget": {
+    "calls_reserved": 831,
+    "cap_usd": 20.0,
+    "receipted_usd": 1.813129,
+    "unresolved_reservations_usd": 0.05372,
+    "by_category": {
+      "drafting": {
+        "calls": 200,
+        "receipted_usd": 0.462742,
+        "unresolved_reservations_usd": 0.0
+      },
+      "judge_a": {
+        "calls": 263,
+        "receipted_usd": 0.191199,
+        "unresolved_reservations_usd": 0.006307
+      },
+      "judge_b": {
+        "calls": 263,
+        "receipted_usd": 0.746588,
+        "unresolved_reservations_usd": 0.0
+      },
+      "redrafting": {
+        "calls": 65,
+        "receipted_usd": 0.178353,
+        "unresolved_reservations_usd": 0.047413
+      },
+      "transport_schema_retry": {
+        "calls": 1,
+        "receipted_usd": 0.000683,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_drafting": {
+        "calls": 7,
+        "receipted_usd": 0.052671,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_judge_a": {
+        "calls": 13,
+        "receipted_usd": 0.025202,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_judge_b": {
+        "calls": 13,
+        "receipted_usd": 0.106828,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_redrafting": {
+        "calls": 6,
+        "receipted_usd": 0.048863,
+        "unresolved_reservations_usd": 0.0
+      }
+    }
+  },
+  "costs_are_conservative_usage_estimates_not_invoice": true,
+  "latency_measured": false,
+  "latency_limitation": "The executor did not record request start/end timestamps; do not infer latency from file timestamps.",
+  "paid_calls_this_audit": 0
+}

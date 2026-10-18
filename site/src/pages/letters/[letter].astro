@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {entries,toHref} from '../../lib';
+export function getStaticPaths(){return [...new Set(entries.map((e:any)=>e.term[0].toLowerCase()))].map(letter=>({params:{letter}}));}
+const letter=Astro.params.letter!;
+const terms=entries.filter((e:any)=>e.term.toLowerCase().startsWith(letter));
+---
+<Layout title={`${letter.toUpperCase()} | Psych Terms`}><div class="article-wrap"><p class="breadcrumb"><a href={toHref()}>Dictionary</a> / A–Z</p><h1>{letter.toUpperCase()}</h1><ul class="index-list">{terms.map((e:any)=><li><a href={toHref(`terms/${e.id}/`)}>{e.term}</a></li>)}</ul></div></Layout>

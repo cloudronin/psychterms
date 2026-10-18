@@ -1,0 +1,12 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "type":"object",
+ "required":["id","candidate","url","licence","licence_source_url","licence_confirmed","pinned_version","roles","decision","reason","evidence"],
+ "properties":{
+  "id":{"type":"string"},"candidate":{"type":"string"},"url":{"type":"string","format":"uri"},
+  "licence":{"type":"string"},"licence_source_url":{"type":"string","format":"uri"},"licence_confirmed":{"type":"boolean"},
+  "pinned_version":{"type":"string"},"roles":{"type":"array","items":{"type":"string"}},
+  "decision":{"enum":["yes","no"]},"reason":{"type":"string"},"evidence":{"type":"object"},"asset_pin_required":{"type":"boolean"}
+ },
+ "allOf":[{"if":{"properties":{"decision":{"const":"yes"}}},"then":{"properties":{"licence_confirmed":{"const":true}}}}]
+}

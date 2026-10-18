@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-18",
+  "policy": "A yes admits only the stated scope. Every actual packet still requires a pinned asset, source-specific exception check and allowed role. Unconfirmed candidates are no. Evidence hashes pin this review finding, not unread content.",
+  "sources": [
+    {
+      "id": "mesh-2026",
+      "candidate": "MeSH descriptors",
+      "url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/mesh_browser/d2026.bin",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html",
+      "licence_confirmed": true,
+      "pinned_version": "2026 descriptor edition",
+      "roles": [
+        "term_list",
+        "aliases",
+        "links",
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "NLM terms permit use with conspicuous acknowledgement and no implied endorsement; descriptor records only.",
+      "evidence": {
+        "policy_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html",
+        "reviewed_on": "2026-10-18",
+        "finding": "NLM terms permit use with conspicuous acknowledgement and no implied endorsement; descriptor records only.",
+        "licence_confirmed": true,
+        "sha256": "971597b8822bb768ca76f955ee49734e358239b9d62aabc1d7c3c4792853892b",
+        "policy_snapshot_sha256": "f33b14141a5b6c8a2b1464c751dbdbb0a0d476c913851bf2a8c3d5c14b1afce7"
+      },
+      "asset_pin_required": true,
+      "content_snapshot_sha256": "f4339837e5ce728d59229737271179cfc45f7c4c2318205c617937116f54440b"
+    },
+    {
+      "id": "wikidata",
+      "candidate": "Wikidata structured data",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "licence": "CC0-1.0",
+      "licence_source_url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+      "licence_confirmed": true,
+      "pinned_version": "Per-entity revision IDs required",
+      "roles": [
+        "term_list",
+        "aliases",
+        "links"
+      ],
+      "decision": "yes",
+      "reason": "Structured namespaces only; no Wikipedia/Wiktionary prose; pin each entity revision.",
+      "evidence": {
+        "policy_url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+        "reviewed_on": "2026-10-18",
+        "finding": "Structured namespaces only; no Wikipedia/Wiktionary prose; pin each entity revision.",
+        "licence_confirmed": true,
+        "sha256": "b5c8416fabe4b004906534525683d48a1525d9c11b85d00faa6be12d1f75f6fd",
+        "policy_snapshot_sha256": "e22b0411a7e8e9d0d789b2fa1b0b31990af9204d4340733b34e5330b7bc45563"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "nimh",
+      "candidate": "NIMH-authored text",
+      "url": "https://www.nimh.nih.gov/health/topics",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://www.nimh.nih.gov/site-info/policies",
+      "licence_confirmed": true,
+      "pinned_version": "Live policy reviewed 2026-10-18; each content page needs snapshot",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "Own text is public domain unless otherwise indicated; no images, external materials, misleading modification or endorsement.",
+      "evidence": {
+        "policy_url": "https://www.nimh.nih.gov/site-info/policies",
+        "reviewed_on": "2026-10-18",
+        "finding": "Own text is public domain unless otherwise indicated; no images, external materials, misleading modification or endorsement.",
+        "licence_confirmed": true,
+        "sha256": "761df28cb4a93ab83255c627b248c94443f58d3155e24a41ca01839b5064a5a3",
+        "policy_snapshot_sha256": "1a399709d182fd35c8604c702a33cbd97e54058d3de6946a8ad9da2f3b14157b"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "samhsa",
+      "candidate": "SAMHSA glossary/publications",
+      "url": "https://library.samhsa.gov/",
+      "licence": "unconfirmed",
+      "licence_source_url": "https://www.samhsa.gov/about/laws-regulations-policies",
+      "licence_confirmed": false,
+      "pinned_version": "No approved edition pinned",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "No blanket permission inferred from .gov; select and verify a specific publication with a public-domain notice.",
+      "evidence": {
+        "policy_url": "https://www.samhsa.gov/about/laws-regulations-policies",
+        "reviewed_on": "2026-10-18",
+        "finding": "No blanket permission inferred from .gov; select and verify a specific publication with a public-domain notice.",
+        "licence_confirmed": false,
+        "sha256": "37952d2011430b787b37ba2db8a4586eac33fc4d35e0119825319b5b0763654e"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "nih",
+      "candidate": "NIH-authored glossary pages",
+      "url": "https://www.nih.gov/about-nih/frequently-asked-questions",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://www.nih.gov/about-nih/frequently-asked-questions",
+      "licence_confirmed": true,
+      "pinned_version": "FAQ policy reviewed 2026-10-18; per-page snapshot required",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "NIH states most own site information is public domain; excludes marked third-party content and journal articles merely funded by NIH.",
+      "evidence": {
+        "policy_url": "https://www.nih.gov/about-nih/frequently-asked-questions",
+        "reviewed_on": "2026-10-18",
+        "finding": "NIH states most own site information is public domain; excludes marked third-party content and journal articles merely funded by NIH.",
+        "licence_confirmed": true,
+        "sha256": "cbd8f1234e34ad35a283ec93b64fb22cf6da572d8541656145fabefbc3886dbe"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "hhs",
+      "candidate": "HHS glossaries",
+      "url": "https://www.hhs.gov/",
+      "licence": "unconfirmed",
+      "licence_source_url": "https://www.hhs.gov/web/policies-and-standards/",
+      "licence_confirmed": false,
+      "pinned_version": "No glossary edition approved",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Specific glossary rights page not confirmed; not a blanket .gov approval.",
+      "evidence": {
+        "policy_url": "https://www.hhs.gov/web/policies-and-standards/",
+        "reviewed_on": "2026-10-18",
+        "finding": "Specific glossary rights page not confirmed; not a blanket .gov approval.",
+        "licence_confirmed": false,
+        "sha256": "ab0d60064e3c998d30568fbb6442c6868b63ce4326f285c8ebf5cdbd63409b46"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "medlineplus-genetics",
+      "candidate": "MedlinePlus Genetics NLM-authored summaries",
+      "url": "https://medlineplus.gov/genetics/",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://medlineplus.gov/about/using/usingcontent/",
+      "licence_confirmed": true,
+      "pinned_version": "Snapshot and reviewed date required for each genetics summary",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "NLM-produced Genetics text is distinguished from licensed encyclopaedia, drug and consumer materials; only own unmarked text.",
+      "evidence": {
+        "policy_url": "https://medlineplus.gov/about/using/usingcontent/",
+        "reviewed_on": "2026-10-18",
+        "finding": "NLM-produced Genetics text is distinguished from licensed encyclopaedia, drug and consumer materials; only own unmarked text.",
+        "licence_confirmed": true,
+        "sha256": "357a85e8e9417d3b56e329bb36539fa19d69ea43809ac3d6f65301a7e14e3320"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "medlineplus-licensed",
+      "candidate": "MedlinePlus licensed encyclopedia and drug text",
+      "url": "https://medlineplus.gov/encyclopedia.html",
+      "licence": "third-party-licences",
+      "licence_source_url": "https://medlineplus.gov/about/using/usingcontent/",
+      "licence_confirmed": true,
+      "pinned_version": "Current licensed-content policy",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Hosting on MedlinePlus is not permission to adapt third-party encyclopedia, illustration, or drug content.",
+      "evidence": {
+        "policy_url": "https://medlineplus.gov/about/using/usingcontent/",
+        "reviewed_on": "2026-10-18",
+        "finding": "Hosting on MedlinePlus is not permission to adapt third-party encyclopedia, illustration, or drug content.",
+        "licence_confirmed": true,
+        "sha256": "157c735e56a105c2039c75cec667c408ea0e803354d3c3c9accac97bed94710b"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "va-ptsd",
+      "candidate": "VA National Center for PTSD staff public-domain articles",
+      "url": "https://www.ptsd.va.gov/publications/staff_articles.asp",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://www.ptsd.va.gov/publications/staff_articles.asp",
+      "licence_confirmed": true,
+      "pinned_version": "Per-article publication and rights notice required",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "The staff-articles page identifies public-domain PDFs; only specifically designated government works, not every linked journal article. No instrument items or DSM criteria copied.",
+      "evidence": {
+        "policy_url": "https://www.ptsd.va.gov/publications/staff_articles.asp",
+        "reviewed_on": "2026-10-18",
+        "finding": "The staff-articles page identifies public-domain PDFs; only specifically designated government works, not every linked journal article. No instrument items or DSM criteria copied.",
+        "licence_confirmed": true,
+        "sha256": "d2b855ad6879ae16ea399adfa6187436789a8f95baf8643fcdb289f82407bed0"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "cdc",
+      "candidate": "CDC-authored glossary text",
+      "url": "https://www.cdc.gov/mental-health/about/index.html",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "licence_confirmed": true,
+      "pinned_version": "Agency-materials policy reviewed 2026-10-18; per-page snapshot required",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "Most own content is public domain; marked contractor/grantee/third-party materials excluded; attribution and no endorsement notice required.",
+      "evidence": {
+        "policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "reviewed_on": "2026-10-18",
+        "finding": "Most own content is public domain; marked contractor/grantee/third-party materials excluded; attribution and no endorsement notice required.",
+        "licence_confirmed": true,
+        "sha256": "f2d555f92ffe156c40f2768da2db3903986c1a1493a2df5882f5cc7d9eef82b8"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "ncit",
+      "candidate": "NCI Thesaurus",
+      "url": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/",
+      "licence": "CC-BY-4.0",
+      "licence_source_url": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/ThesaurusTermsofUse.htm",
+      "licence_confirmed": true,
+      "pinned_version": "Release identifier and archive checksum required",
+      "roles": [
+        "term_list",
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "Current NCI terms explicitly state CC BY 4.0, not public domain. Preserve source-specific definition credits; filter psychology relevance.",
+      "evidence": {
+        "policy_url": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/ThesaurusTermsofUse.htm",
+        "reviewed_on": "2026-10-18",
+        "finding": "Current NCI terms explicitly state CC BY 4.0, not public domain. Preserve source-specific definition credits; filter psychology relevance.",
+        "licence_confirmed": true,
+        "sha256": "7599dae5343b43ef80fa41e7c5517be3e40eb2f699d47a4e1b13a2378f23d400",
+        "policy_snapshot_sha256": "c42ebee4fdba54ea41d6f1a1458dbdd21d1d8f69e2b69a41f89d5a2e80a36ef3"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "eric",
+      "candidate": "ERIC Thesaurus",
+      "url": "https://eric.ed.gov/?ti=all",
+      "licence": "unconfirmed",
+      "licence_source_url": "https://eric.ed.gov/?copyright",
+      "licence_confirmed": false,
+      "pinned_version": "Unapproved pending rights confirmation",
+      "roles": [
+        "term_list",
+        "draft_basis",
+        "aliases",
+        "links"
+      ],
+      "decision": "no",
+      "reason": "Official copyright endpoint could not be read; availability for download is insufficient evidence of a reuse licence. Keep excluded until direct terms verified.",
+      "evidence": {
+        "policy_url": "https://eric.ed.gov/?copyright",
+        "reviewed_on": "2026-10-18",
+        "finding": "Official copyright endpoint could not be read; availability for download is insufficient evidence of a reuse licence. Keep excluded until direct terms verified.",
+        "licence_confirmed": false,
+        "sha256": "a4c593d4f26348ac988bda5248302f821dc33973fbdd826ab5e0422199dde719"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "nhs",
+      "candidate": "NHS.UK-owned topic and glossary text",
+      "url": "https://www.nhs.uk/mental-health/",
+      "licence": "OGL-UK-3.0",
+      "licence_source_url": "https://www.nhs.uk/our-policies/terms-and-conditions/",
+      "licence_confirmed": true,
+      "pinned_version": "Terms retrieved 2026-10-18; per-page snapshot required",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "NHS-owned content under OGL v3 except exclusions; include prescribed attribution; no logos, third-party content or modified clinical advice.",
+      "evidence": {
+        "policy_url": "https://www.nhs.uk/our-policies/terms-and-conditions/",
+        "reviewed_on": "2026-10-18",
+        "finding": "NHS-owned content under OGL v3 except exclusions; include prescribed attribution; no logos, third-party content or modified clinical advice.",
+        "licence_confirmed": true,
+        "sha256": "ee930856e22d5fdf158246730bead961f20341f5b8530892a4d0a3a202547996",
+        "policy_snapshot_sha256": "a7d3bca5680f486702123358c04857524e06696f40c22030baa75a76d8c0a806"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "nice",
+      "candidate": "NICE content",
+      "url": "https://www.nice.org.uk/",
+      "licence": "NICE-UK-only-restricted",
+      "licence_source_url": "https://www.nice.org.uk/reusing-our-content/nice-uk-open-content-licence",
+      "licence_confirmed": true,
+      "pinned_version": "NICE UK Open Content Licence reviewed 2026-10-18",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Not general OGL v3: UK-only terms and explicit permission required for AI purposes. Excluded.",
+      "evidence": {
+        "policy_url": "https://www.nice.org.uk/reusing-our-content/nice-uk-open-content-licence",
+        "reviewed_on": "2026-10-18",
+        "finding": "Not general OGL v3: UK-only terms and explicit permission required for AI purposes. Excluded.",
+        "licence_confirmed": true,
+        "sha256": "5d1b70819408a1ea55e346141af37dd58865e4c0e007b32a62c40f20007948f4"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "aihw",
+      "candidate": "Australian Institute of Health and Welfare text",
+      "url": "https://www.aihw.gov.au/mental-health",
+      "licence": "CC-BY-4.0",
+      "licence_source_url": "https://www.aihw.gov.au/copyright",
+      "licence_confirmed": true,
+      "pinned_version": "Copyright policy reviewed 2026-10-18; per-publication edition required",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "CC BY 4.0 unless stated otherwise; third-party materials, older exceptions and logos excluded; indicate adaptations.",
+      "evidence": {
+        "policy_url": "https://www.aihw.gov.au/copyright",
+        "reviewed_on": "2026-10-18",
+        "finding": "CC BY 4.0 unless stated otherwise; third-party materials, older exceptions and logos excluded; indicate adaptations.",
+        "licence_confirmed": true,
+        "sha256": "c56914e4c3e143ee110606ffd292caab5bebe85f5d160325f55c5dad667c41e0"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "australian-health",
+      "candidate": "Australian Department of Health website text",
+      "url": "https://www.health.gov.au/topics/mental-health-and-suicide-prevention",
+      "licence": "restricted-web-reuse",
+      "licence_source_url": "https://www.health.gov.au/using-our-websites/copyright",
+      "licence_confirmed": true,
+      "pinned_version": "Copyright notice reviewed 2026-10-18",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Observed notice does not establish blanket CC BY for this use; do not infer from another Australian agency.",
+      "evidence": {
+        "policy_url": "https://www.health.gov.au/using-our-websites/copyright",
+        "reviewed_on": "2026-10-18",
+        "finding": "Observed notice does not establish blanket CC BY for this use; do not infer from another Australian agency.",
+        "licence_confirmed": true,
+        "sha256": "0545204a831316c072af79596df0c532527f03f7a68c2b0e5d16f66cd60a04ee"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "eu-publications",
+      "candidate": "EU Publications Office publications",
+      "url": "https://op.europa.eu/",
+      "licence": "CC-BY-4.0-item-verification-needed",
+      "licence_source_url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright",
+      "licence_confirmed": true,
+      "pinned_version": "No psychology publication edition selected",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Portal editorial policy is CC BY 4.0, but publication-specific notices govern each downloadable work. No specific psychology publication pinned yet.",
+      "evidence": {
+        "policy_url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright",
+        "reviewed_on": "2026-10-18",
+        "finding": "Portal editorial policy is CC BY 4.0, but publication-specific notices govern each downloadable work. No specific psychology publication pinned yet.",
+        "licence_confirmed": true,
+        "sha256": "283efd7bbc55f26984a86483e23f88526534c29cc9ce7c1f37ff5993ab507315"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "baldwin-1901",
+      "candidate": "Baldwin Dictionary of Philosophy and Psychology, 1901",
+      "url": "https://psychclassics.yorku.ca/Baldwin/Dictionary/",
+      "licence": "public-domain-US",
+      "licence_source_url": "https://psychclassics.yorku.ca/Baldwin/Dictionary/",
+      "licence_confirmed": true,
+      "pinned_version": "1901 New York Macmillan original; archive index checked 2026-10-18",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "yes",
+      "reason": "The source reproduces the original title page and 1901 New York publication. Original US-published text is public domain; modern archive/editorial additions are excluded.",
+      "evidence": {
+        "policy_url": "https://psychclassics.yorku.ca/Baldwin/Dictionary/",
+        "reviewed_on": "2026-10-18",
+        "finding": "The source reproduces the original title page and 1901 New York publication. Original US-published text is public domain; modern archive/editorial additions are excluded.",
+        "licence_confirmed": true,
+        "sha256": "3f067cb7a1a808b1871be1238c9b37f00bf10694b096da4630b459a3dd1d89ea",
+        "rights_basis": "original US publication before 1929"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "james-1890",
+      "candidate": "William James, Principles of Psychology, volume 1",
+      "url": "https://www.gutenberg.org/ebooks/57628",
+      "licence": "public-domain-US",
+      "licence_source_url": "https://www.gutenberg.org/ebooks/57628",
+      "licence_confirmed": true,
+      "pinned_version": "1890 original; Gutenberg ebook 57628; snapshot required",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "yes",
+      "reason": "Catalogue identifies public domain in the USA; use original historical text, retain historical framing and exclude modern additions. Do not present dated views as current consensus.",
+      "evidence": {
+        "policy_url": "https://www.gutenberg.org/ebooks/57628",
+        "reviewed_on": "2026-10-18",
+        "finding": "Catalogue identifies public domain in the USA; use original historical text, retain historical framing and exclude modern additions. Do not present dated views as current consensus.",
+        "licence_confirmed": true,
+        "sha256": "3ac00210bc17f38069a52fc135a4171e8982306d8c2f2673b7392da05a3cd351"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "titchener-1912",
+      "candidate": "Titchener, The Schema of Introspection, 1912",
+      "url": "https://psychclassics.yorku.ca/Titchener/introspection.htm",
+      "licence": "public-domain-US",
+      "licence_source_url": "https://psychclassics.yorku.ca/Titchener/introspection.htm",
+      "licence_confirmed": true,
+      "pinned_version": "1912 American Journal of Psychology 23, 485–508",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "yes",
+      "reason": "Original 1912 US article identified on its own archive page; original text only, excluding modern editorial material.",
+      "evidence": {
+        "policy_url": "https://psychclassics.yorku.ca/Titchener/introspection.htm",
+        "reviewed_on": "2026-10-18",
+        "finding": "Original 1912 US article identified on its own archive page; original text only, excluding modern editorial material.",
+        "licence_confirmed": true,
+        "sha256": "629418a339b44c68d3ba0b08ae01f2d881e8792e1cb50eee2398328783271127",
+        "rights_basis": "original US publication before 1929"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "york-archive",
+      "candidate": "York Classics archive as a collection",
+      "url": "https://psychclassics.yorku.ca/",
+      "licence": "mixed",
+      "licence_source_url": "https://psychclassics.yorku.ca/",
+      "licence_confirmed": true,
+      "pinned_version": "No blanket archive edition",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Collection includes item-specific reproduction notices and later works; never treat the whole archive as public domain.",
+      "evidence": {
+        "policy_url": "https://psychclassics.yorku.ca/",
+        "reviewed_on": "2026-10-18",
+        "finding": "Collection includes item-specific reproduction notices and later works; never treat the whole archive as public domain.",
+        "licence_confirmed": true,
+        "sha256": "9fd623256c7b27173300002152fb8713cef4edcb2ca14862f653ec9ebb40836f"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "bccampus-intro-2014",
+      "candidate": "BCcampus Introduction to Psychology, first Canadian edition",
+      "url": "https://opentextbc.ca/introductiontopsychology/",
+      "licence": "CC-BY-NC-SA-4.0",
+      "licence_source_url": "https://opentextbc.ca/introductiontopsychology/",
+      "licence_confirmed": true,
+      "pinned_version": "2014 first Canadian edition",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Own book licence is NC-SA. Excluded despite being an open textbook.",
+      "evidence": {
+        "policy_url": "https://opentextbc.ca/introductiontopsychology/",
+        "reviewed_on": "2026-10-18",
+        "finding": "Own book licence is NC-SA. Excluded despite being an open textbook.",
+        "licence_confirmed": true,
+        "sha256": "c7543a469de0a6b926ef17d775ed50b4c45f7019a1242b3a1fb1b34b8481f80c"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "bccampus-other",
+      "candidate": "Other BCcampus CC BY psychology textbooks",
+      "url": "https://collection.bccampus.ca/",
+      "licence": "unconfirmed",
+      "licence_source_url": "https://collection.bccampus.ca/",
+      "licence_confirmed": false,
+      "pinned_version": "No eligible specific edition selected",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "Platform openness is not an edition-specific licence. Select a named CC BY edition before admitting content.",
+      "evidence": {
+        "policy_url": "https://collection.bccampus.ca/",
+        "reviewed_on": "2026-10-18",
+        "finding": "Platform openness is not an edition-specific licence. Select a named CC BY edition before admitting content.",
+        "licence_confirmed": false,
+        "sha256": "2581956b847c1a7e046a2dfbd5aae7ce8c8ebadc3cbed3eee86ec38955c36a98"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "lumen-lifespan",
+      "candidate": "Lumen Lifespan Development About page / original component",
+      "url": "https://courses.lumenlearning.com/wm-lifespandevelopment/about/",
+      "licence": "mixed-components",
+      "licence_source_url": "https://courses.lumenlearning.com/wm-lifespandevelopment/about/",
+      "licence_confirmed": true,
+      "pinned_version": "Waymaker Lifespan Development, live course",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "no",
+      "reason": "About page identifies original CC BY 3.0 material but enhancements and components require individual credit checks. Do not blanket approve the course.",
+      "evidence": {
+        "policy_url": "https://courses.lumenlearning.com/wm-lifespandevelopment/about/",
+        "reviewed_on": "2026-10-18",
+        "finding": "About page identifies original CC BY 3.0 material but enhancements and components require individual credit checks. Do not blanket approve the course.",
+        "licence_confirmed": true,
+        "sha256": "0bc9022cd89ff069b0a1046138d875b029e2d78c5302d2416930d674d29017c6"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "plos",
+      "candidate": "PLOS: Ten Simple Rules for Writing Research Papers",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453",
+      "licence": "CC-BY-4.0",
+      "licence_source_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453",
+      "licence_confirmed": true,
+      "pinned_version": "2014-01-30; DOI 10.1371/journal.pcbi.1003453",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "Article copyright notice links to CC BY 4.0. Limited to source-supported research/writing concepts; not a general psychology glossary.",
+      "evidence": {
+        "policy_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453",
+        "reviewed_on": "2026-10-18",
+        "finding": "Article copyright notice links to CC BY 4.0. Limited to source-supported research/writing concepts; not a general psychology glossary.",
+        "licence_confirmed": true,
+        "sha256": "072809794b24afbeba1f427241f75b6efb57e1dfb2947e596ce2ac0882dc2353"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "frontiers",
+      "candidate": "Frontiers: Calculating and reporting effect sizes to facilitate cumulative science",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+      "licence": "CC-BY-4.0",
+      "licence_source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+      "licence_confirmed": true,
+      "pinned_version": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "Own article gives CC BY; publisher open-access policy links to CC BY 4.0. Research-method scope only; individual claims must be supported by packet.",
+      "evidence": {
+        "policy_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+        "reviewed_on": "2026-10-18",
+        "finding": "Own article gives CC BY; publisher open-access policy links to CC BY 4.0. Research-method scope only; individual claims must be supported by packet.",
+        "licence_confirmed": true,
+        "sha256": "4959d6a572032d8d5d87811f4a015ac82cecefa7816f1a9a3820dd091341602e"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "bmc",
+      "candidate": "BMC: Characterising and justifying sample size sufficiency in interview-based studies",
+      "url": "https://link.springer.com/article/10.1186/s12874-018-0594-7",
+      "licence": "CC-BY-4.0",
+      "licence_source_url": "https://link.springer.com/article/10.1186/s12874-018-0594-7",
+      "licence_confirmed": true,
+      "pinned_version": "Version of record 2018-11-21; DOI 10.1186/s12874-018-0594-7",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "Own article Rights and permissions explicitly gives CC BY 4.0. Use only source-supported qualitative-method concepts, not article findings as universal claims.",
+      "evidence": {
+        "policy_url": "https://link.springer.com/article/10.1186/s12874-018-0594-7",
+        "reviewed_on": "2026-10-18",
+        "finding": "Own article Rights and permissions explicitly gives CC BY 4.0. Use only source-supported qualitative-method concepts, not article findings as universal claims.",
+        "licence_confirmed": true,
+        "sha256": "165dcc373ce411089f6413475a583d6ed3f540886d42ae2d7ac500b8de749204"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "noba",
+      "candidate": "Noba",
+      "url": "https://nobaproject.com/",
+      "licence": "CC-BY-NC-SA-4.0",
+      "licence_source_url": "https://nobaproject.com/",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "Noncommercial and ShareAlike; excluded.",
+      "evidence": {
+        "policy_url": "https://nobaproject.com/",
+        "reviewed_on": "2026-10-18",
+        "finding": "Noncommercial and ShareAlike; excluded.",
+        "licence_confirmed": false,
+        "sha256": "f4c89666054008c19426c8152e679393dc448b93038b80633b3556ecf40ffa2b"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "openstax",
+      "candidate": "OpenStax Psychology 2e",
+      "url": "https://openstax.org/books/psychology-2e/pages/preface",
+      "licence": "CC-BY-NC-SA-4.0",
+      "licence_source_url": "https://openstax.org/books/psychology-2e/pages/preface",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "Current Psychology 2e edition is NC-SA; excluded.",
+      "evidence": {
+        "policy_url": "https://openstax.org/books/psychology-2e/pages/preface",
+        "reviewed_on": "2026-10-18",
+        "finding": "Current Psychology 2e edition is NC-SA; excluded.",
+        "licence_confirmed": false,
+        "sha256": "2187e93cd698b5cead37d4f5cae8b2679492cea10a9b1002f9cd3b14ba8b78b7"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "wikipedia",
+      "candidate": "Wikipedia prose",
+      "url": "https://en.wikipedia.org/",
+      "licence": "CC-BY-SA-4.0",
+      "licence_source_url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "ShareAlike prose excluded; background URLs alone do not become drafting basis.",
+      "evidence": {
+        "policy_url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "reviewed_on": "2026-10-18",
+        "finding": "ShareAlike prose excluded; background URLs alone do not become drafting basis.",
+        "licence_confirmed": false,
+        "sha256": "8c643c71a103ed14bf3ab34fb027182080611b603da4f38e66390f2e97ab3787"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "wiktionary",
+      "candidate": "Wiktionary prose",
+      "url": "https://en.wiktionary.org/",
+      "licence": "CC-BY-SA",
+      "licence_source_url": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "ShareAlike text excluded.",
+      "evidence": {
+        "policy_url": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+        "reviewed_on": "2026-10-18",
+        "finding": "ShareAlike text excluded.",
+        "licence_confirmed": false,
+        "sha256": "fff0d4e876e2dc1c13e8f54e6447f1116afe9959792d3ae029d28b5053b08be4"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "who-icd11",
+      "candidate": "WHO / ICD-11 content",
+      "url": "https://icd.who.int/",
+      "licence": "WHO-own-terms-ND",
+      "licence_source_url": "https://www.who.int/about/policies/publishing/copyright",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "No-derivatives/own terms; excluded by policy.",
+      "evidence": {
+        "policy_url": "https://www.who.int/about/policies/publishing/copyright",
+        "reviewed_on": "2026-10-18",
+        "finding": "No-derivatives/own terms; excluded by policy.",
+        "licence_confirmed": false,
+        "sha256": "8d734ad57b4885760e55c2bac4b099709b596e3a0d73d773af7f08ac97a762a6"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "umls",
+      "candidate": "UMLS",
+      "url": "https://www.nlm.nih.gov/research/umls/",
+      "licence": "own-licence",
+      "licence_source_url": "https://www.nlm.nih.gov/research/umls/license.html",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "Own licence and source vocabularies; excluded.",
+      "evidence": {
+        "policy_url": "https://www.nlm.nih.gov/research/umls/license.html",
+        "reviewed_on": "2026-10-18",
+        "finding": "Own licence and source vocabularies; excluded.",
+        "licence_confirmed": false,
+        "sha256": "5bb30b9a2bf6e01252493f8ffcf4240a2cdaac39be13e7c6827af47655ca5a2d"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "snomed",
+      "candidate": "SNOMED CT",
+      "url": "https://www.snomed.org/",
+      "licence": "own-licence",
+      "licence_source_url": "https://www.snomed.org/get-snomed",
+      "licence_confirmed": false,
+      "pinned_version": "Policy exclusion; no asset admitted",
+      "roles": [],
+      "decision": "no",
+      "reason": "Own licence; excluded.",
+      "evidence": {
+        "policy_url": "https://www.snomed.org/get-snomed",
+        "reviewed_on": "2026-10-18",
+        "finding": "Own licence; excluded.",
+        "licence_confirmed": false,
+        "sha256": "2fea5fb85eb271af64943a377734ca713c42ca9b29b3adb0ba394c25b415a3c4"
+      },
+      "asset_pin_required": true
+    }
+  ]
+}

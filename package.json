@@ -1,0 +1,21 @@
+{
+  "name": "psychterms",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "data": "python3 scripts/export.py --preview",
+    "build": "npm run data && astro build --root site && pagefind --site site/dist",
+    "dev": "npm run data && astro dev --root site --host 127.0.0.1",
+    "preview": "astro preview --root site --host 127.0.0.1",
+    "test": "python3 -m unittest discover -s tests -v",
+    "check": "python3 scripts/validate.py --preview"
+  },
+  "dependencies": {
+    "astro": "7.4.0",
+    "pagefind": "1.5.2"
+  }
+}

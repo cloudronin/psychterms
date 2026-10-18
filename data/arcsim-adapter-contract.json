@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "status": "frozen_initial_adapter_baseline",
+  "builder_commit": "12bd28281f5d8ed607e1ff6f46e7246293f925f3",
+  "builder_sha256": "31088a31425b31a2de29a8e8ed5ee4f656822983fbf6b07bc44f9dd38415453e",
+  "schema_sha256": "5d1d5782f20fad84e113658ca5f703bd9a312ca0c8fea10bd4bb08bd47c86829",
+  "fixed_recipe": {
+    "example_seed": "example-4",
+    "integer_seeds": {
+      "start": 0,
+      "stop_exclusive": 1000
+    },
+    "problem": null,
+    "style": null,
+    "fit": true
+  },
+  "profile_fields": [
+    "name",
+    "age",
+    "gender",
+    "occupation",
+    "living_situation",
+    "relationship_status",
+    "family",
+    "details",
+    "setting",
+    "counselling_type",
+    "mental_status"
+  ],
+  "family_fields": [
+    "relation",
+    "name",
+    "alive",
+    "where",
+    "note"
+  ],
+  "cognitive_fields": [
+    "situation",
+    "relevant_history",
+    "emotions",
+    "automatic_thoughts",
+    "intermediate_beliefs",
+    "core_beliefs",
+    "coping_strategies",
+    "behaviors"
+  ],
+  "view_fields": [
+    "card_id",
+    "builder_commit",
+    "card_hash",
+    "talking_style",
+    "profile",
+    "cognitive_model"
+  ],
+  "fields_or_hash_rule_changes_require_vishnu": true,
+  "production_enabled": true,
+  "card_hash_rule": {
+    "algorithm": "SHA-256",
+    "prefix": "sha256:",
+    "input": "exact base card rebuilt by build(seed, problem=null, style=null, fit=true), before intake_only assignment",
+    "encoding": "UTF-8",
+    "json_ensure_ascii": false,
+    "json_sort_keys": true,
+    "json_separators": [
+      ",",
+      ":"
+    ],
+    "trailing_newline": false,
+    "implementation": "core.digest"
+  },
+  "initial_rule_uses_existing_core_digest": true,
+  "authorization_scope": "Initial adapter implementation under Vishnu’s proceed instruction; no earlier registered card hash rule existed. Future field or hash-rule changes require Vishnu."
+}

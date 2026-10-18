@@ -1,0 +1,107 @@
+{
+  "status": "stopped_vignette_final_drop_threshold",
+  "pilot_attempts_complete": true,
+  "registration_hash": "43bacf02e1189cb2ca95ef5c24b135a2345d4b40d24bae12865c4724fa563db4",
+  "definition": {
+    "attempted": 200,
+    "machine_passed": 195,
+    "dropped": 5,
+    "incomplete": 0,
+    "receipted_usd": 1.579565,
+    "per_attempted_usd": 0.007897825,
+    "per_machine_passed_usd": 0.008100333333333334,
+    "final_15_word_hit_entries": 1,
+    "five_word_hit_entries": 70,
+    "five_word_triage_complete": true,
+    "wording_holds_before_any_release": 12,
+    "machine_passed_without_copy_wording_holds": 183
+  },
+  "vignette": {
+    "candidate_count": 50,
+    "matched": 7,
+    "unmatched": 38,
+    "excluded_risk": 5,
+    "drafted": 7,
+    "retained_private": 5,
+    "dropped_after_one_redraft": 2,
+    "initial_editorial_factuality_rejections": 5,
+    "initial_machine_passing_with_editorial_disagreement": 5,
+    "final_two_judge_passes_overruled_by_editorial_audit": 2,
+    "initial_15_word_hits": 0,
+    "final_15_word_hits": 0,
+    "initial_five_word_hit_entries": 2,
+    "final_five_word_hit_entries_all_outputs": 2,
+    "pending_five_word_triage": 0,
+    "editorial_redraft_outputs": 6,
+    "final_drop_fraction": 0.2857142857142857,
+    "stop_threshold": 0.2,
+    "stop_threshold_crossed": true,
+    "receipted_usd": 0.233564,
+    "per_drafted_usd": 0.033366285714285716,
+    "per_retained_usd": 0.0467128,
+    "per_selected_candidate_usd": 0.00467128
+  },
+  "budget": {
+    "calls_reserved": 831,
+    "cap_usd": 20.0,
+    "receipted_usd": 1.813129,
+    "unresolved_reservations_usd": 0.05372,
+    "by_category": {
+      "drafting": {
+        "calls": 200,
+        "receipted_usd": 0.462742,
+        "unresolved_reservations_usd": 0.0
+      },
+      "judge_a": {
+        "calls": 263,
+        "receipted_usd": 0.191199,
+        "unresolved_reservations_usd": 0.006307
+      },
+      "judge_b": {
+        "calls": 263,
+        "receipted_usd": 0.746588,
+        "unresolved_reservations_usd": 0.0
+      },
+      "redrafting": {
+        "calls": 65,
+        "receipted_usd": 0.178353,
+        "unresolved_reservations_usd": 0.047413
+      },
+      "transport_schema_retry": {
+        "calls": 1,
+        "receipted_usd": 0.000683,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_drafting": {
+        "calls": 7,
+        "receipted_usd": 0.052671,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_judge_a": {
+        "calls": 13,
+        "receipted_usd": 0.025202,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_judge_b": {
+        "calls": 13,
+        "receipted_usd": 0.106828,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_redrafting": {
+        "calls": 6,
+        "receipted_usd": 0.048863,
+        "unresolved_reservations_usd": 0.0
+      }
+    }
+  },
+  "charged_plus_outstanding_usd": 1.866849,
+  "cost_basis": "Conservative standard uncached list-price estimates from provider usage receipts, not an invoice. Unknown original outcomes retain their reservations.",
+  "latency_measured": false,
+  "latency_limitation": "Executor omitted request start/end timestamps; this pilot reports no measured latency.",
+  "source_scope": "Independent MeSH 2026 psychology-branch pilot; not all sources or all counselling fields. Fixed ArcSim cards only for scenes.",
+  "released_entries": 0,
+  "held_out_vishnu_release_read_complete": false,
+  "full_run_authorized": false,
+  "paid_dispatch_enabled": false,
+  "recommendation": "Do not scale the vignette writer/judge configuration unchanged. The audit found unsupported factual additions passed by both judges. Any next experiment must be preregistered; no new paid line is inferred from this report."
+}
