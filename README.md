@@ -1,8 +1,8 @@
 # PsychTerms
 
-An independent dictionary of psychology and counselling, being rebuilt from verified permitted sources. There is no entry-count target or deadline. Each released entry must pass two distinct judge models against its pinned source packet.
+An independent dictionary of psychology and counselling, being rebuilt from verified permitted sources. There is no entry-count target or deadline. Definitions are checked against pinned source packets by one designated model judge, GPT-5.4 mini, separate from the drafter. Vishnu reviews the public preview.
 
-**Status: development scaffold, not a dictionary release.** The three site examples are preview fixtures and have not passed the release review. The independent MeSH term inventory contains candidates, not approved entries. The legacy derivative corpus stays outside this repository and may be used only to audit the parser; it is never a term list or model input.
+**Status: public review preview, not a finished dictionary release.** The site includes 198 definitions that passed the designated mini judge and the 15-word copy check, plus 3 original unreviewed fixtures. Twelve definitions have visible wording-review notices. All have exact source citations. Vignettes are deferred. The independent MeSH inventory contains 1,267 candidates, not a count target. The legacy derivative corpus stays outside this repository and is never a source, term list or model input.
 
 ## Local preview
 

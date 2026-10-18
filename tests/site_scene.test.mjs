@@ -18,6 +18,6 @@ test('brand and displayed citation/breadcrumb domain use agreed casing',()=>{
  const term=readFileSync(new URL('../site/src/pages/terms/[id].astro',import.meta.url),'utf8');
  assert.ok(layout.includes('<strong>PsychTerms</strong>'));
  assert.ok(term.includes('PsychTerms (psychterms.org)'));
- assert.ok(term.includes('>psychterms.org</a> / {entry.id}'));
+ assert.ok(term.includes('>psychterms.org</a> / <span data-entry-content>{entry.id}</span>'));
  assert.ok(!layout.includes('Psych Terms')&&!term.includes('Psych Terms'));
 });

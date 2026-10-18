@@ -1,16 +1,20 @@
 """Deterministic exports. Preview content is never a release artifact."""
 import argparse,json,shutil
 from risk_registry import prepare
+from source_citations import references
 from core import ROOT,canonical,digest,load_inputs,validate_corpus
 
 def build(entries,release=False):
  entries,risk_pin=prepare(entries)
  ordered=sorted(entries,key=lambda e:e['id'])
+ refs=references(ordered)
  mode='release' if release else 'preview'
- dictionary={'schema_version':1,'release_version':'0.0.0-preview' if not release else '1.0.0','status':mode,'risk_register':risk_pin,'entries':ordered}
- md=['# PsychTerms', '', 'Preview fixtures; not a released dictionary.' if not release else 'PsychTerms, by Vishnu Vettrivel, CC BY 4.0.', '']
+ dictionary={'schema_version':1,'release_version':'0.0.0-preview' if not release else '1.0.0','status':mode,'risk_register':risk_pin,'entries':ordered,'references':refs}
+ md=['# PsychTerms', '', 'Public review preview; human review pending, not a finished dictionary release.' if not release else 'PsychTerms, by Vishnu Vettrivel, CC BY 4.0.', '']
  for e in ordered:
   md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])
+  if e.get('editorial_note'):md.extend(['Wording review pending: '+e['editorial_note'], ''])
+  md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]})' for r in refs[e['id']]], ''])
   if e.get('risk'):md.extend(['No scene is provided for this risk term.', ''])
  return dictionary,'\n'.join(md),{'schema_version':1,'status':mode,'entry_count':len(ordered),'corpus_hash':digest(ordered),'data_hash':digest(dictionary),'risk_register':risk_pin}
 

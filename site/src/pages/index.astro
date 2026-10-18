@@ -14,11 +14,11 @@ const active=new Set(entries.map((e:any)=>e.term[0].toUpperCase()));
       <p id="search-status" role="status" aria-live="polite"></p><div id="search-results"></div>
     </section>
     <section class="browse-section" id="browse">
-      <div class="section-heading"><h2>Browse the dictionary</h2><span>{entries.length} preview examples</span></div>
+      <div class="section-heading"><h2>Browse the dictionary</h2><span>{entries.length} terms for review</span></div>
       <div class="alphabet" aria-label="Alphabetical index">{letters.map(letter=>active.has(letter)?<a href={toHref(`letters/${letter.toLowerCase()}/`)}>{letter}</a>:<span>{letter}</span>)}</div>
-      <div class="cards">{entries.map((e:any)=><article class="term-card"><p class="field">{e.field}</p><h3><a href={toHref(`terms/${e.id}/`)}>{e.term}</a></h3><p>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
+      <div class="cards">{entries.map((e:any)=><article class="term-card"><p class="field">{e.field}</p><h3><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a></h3><p data-entry-content>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
     </section>
-    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Each released definition will include its sources, version, and citation. This preview shows the structure while the editorial work is in progress.</p></section>
+    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Definitions include their sources, version and citation. Entries identify the model review and any wording concerns. Human review is in progress; vignettes come later.</p></section>
   </div>
 </Layout>
 <script>

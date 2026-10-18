@@ -10,6 +10,10 @@ def validate_packet(packet,sources):
  if not packet.get('text') or not packet.get('revision') or not packet.get('source_record'):raise ValueError('Missing pinned packet content')
  if not re.fullmatch(r'[a-f0-9]{64}',packet.get('source_snapshot_sha256','')):raise ValueError('Missing source snapshot hash')
  if packet.get('packet_hash')!=digest({k:v for k,v in packet.items() if k!='packet_hash'}):raise ValueError('Packet hash mismatch')
+ if packet.get('original_packet_hash'):
+  original={k:v for k,v in packet.items() if k not in ('packet_hash','original_packet_hash')}
+  original['id']=packet['source_record']
+  if digest(original)!=packet['original_packet_hash']:raise ValueError('Original judged packet binding changed')
  if source.get('content_snapshot_sha256') and packet['source_snapshot_sha256']!=source['content_snapshot_sha256']:raise ValueError('Source snapshot mismatch')
  return True
 

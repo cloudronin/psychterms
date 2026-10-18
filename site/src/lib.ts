@@ -6,3 +6,5 @@ export const sourceRegistry=registry.sources;
 export const fieldList=taxonomy.fields;
 export const toHref=(value='')=>`${import.meta.env.BASE_URL}${value}`.replace(/\/+/g,'/');
 export const firstSentence=(value:string)=>value.match(/^.*?[.!?](?=\s|$)/)?.[0] || value;
+
+export const entryReferences=distribution.references;

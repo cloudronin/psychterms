@@ -10,7 +10,7 @@ def hits(text,product='PsychTerms'):
 class Copy(HTMLParser):
  def __init__(self):super().__init__();self.depth=0;self.stack=[];self.text=[]
  def handle_starttag(self,tag,attrs):
-  a=dict(attrs);skip=tag in ('script','style') or 'data-pagefind-body' in a or bool({'definition','citation','metadata'} & set(a.get('class','').split()))
+  a=dict(attrs);skip='data-entry-content' in a or tag in ('script','style') or 'data-pagefind-body' in a or bool({'definition','citation','metadata'} & set(a.get('class','').split()))
   if tag not in ('area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'):
    self.stack.append((tag,skip));self.depth+=skip
  def handle_endtag(self,tag):

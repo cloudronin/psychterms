@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "authority": "Spec v0.2 section 4a; additions by pull request; never edit an entry flag.",
   "rules": {
     "packet_or_anchor_signals": [
@@ -321,6 +321,39 @@
       ],
       "test": 3,
       "reason": "Recorded pilot exclusion under the ArcSim no-risk-history boundary."
+    },
+    {
+      "id": "narcotic-related-disorders",
+      "names": [
+        "Narcotic-Related Disorders"
+      ],
+      "anchors": [
+        "D000079524"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1: pinned MeSH D000079524 packet/anchor or named risk practice."
+    },
+    {
+      "id": "phencyclidine-abuse",
+      "names": [
+        "Phencyclidine Abuse"
+      ],
+      "anchors": [
+        "D010623"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1: pinned MeSH D010623 packet/anchor or named risk practice."
+    },
+    {
+      "id": "rem-sleep-behavior-disorder",
+      "names": [
+        "REM Sleep Behavior Disorder"
+      ],
+      "anchors": [
+        "D020187"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1: pinned MeSH D020187 packet/anchor or named risk practice."
     }
   ]
 }
