@@ -11,8 +11,16 @@ def build(entries,release=False,history=None):
  dropped=[{'id':e['id'],'term':e['term'],'status':'dropped','reason':e['drop_reason']} for e in entries if e['status']=='dropped']
  ordered=sorted((e for e in entries if e['status']!='dropped'),key=lambda e:e['id'])
  refs=references(ordered)
+ release_version='0.0.0-preview'
+ if release:
+  versions=json.loads((ROOT/'data/numbered-releases.json').read_text())['releases']
+  if not versions:raise ValueError('No numbered release is registered')
+  release_version=versions[-1]['version']
+  ordered=[e for e in ordered if release_version in e['release_versions']]
+  if not ordered:raise ValueError('Numbered release has no matching current entry snapshots')
+  refs=references(ordered)
  mode='release' if release else 'preview'
- dictionary={'schema_version':1,'release_version':'0.0.0-preview' if not release else '1.0.0','status':mode,'risk_register':risk_pin,'entries':ordered,'references':refs,'dropped':dropped,'status_counts':status_report['status_counts'],'reader_models':status_report['reader_models']}
+ dictionary={'schema_version':1,'release_version':release_version,'status':mode,'risk_register':risk_pin,'entries':ordered,'references':refs,'dropped':dropped,'status_counts':status_report['status_counts'],'reader_models':status_report['reader_models']}
  md=['# PsychTerms', '', 'Public review preview; human review pending, not a finished dictionary release.' if not release else 'PsychTerms, by Vishnu Vettrivel, CC BY 4.0.', '']
  for e in ordered:
   md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Status: {BADGES[e["status"]]}',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])

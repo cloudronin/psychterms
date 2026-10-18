@@ -56,6 +56,11 @@ class StatusTests(unittest.TestCase):
    (root/'data/numbered-releases.json').write_text(json.dumps({'releases':[{'version':'1.0.0','entries':{self.entry['id']:self.entry['hash']}}]}))
    entries,report=prepare([self.entry],root=root,scope=False,history={})
    self.assertEqual(entries[0]['status'],'candidate');self.assertTrue(entries[0]['released']);self.assertEqual(report['status_counts']['released'],1)
+ def test_release_validation_does_not_change_candidate_to_judged(self):
+  from core import validate_entry
+  entries,_=self.build();entry=entries[0];entry['released']=True;entry['release_versions']=['1.0.0']
+  _,sources,fields=load_inputs();validate_entry(entry,sources,fields,release=True,built=True)
+  self.assertEqual(entry['status'],'candidate')
  def test_dropped_definitions_excluded_from_public_exports(self):
   from export import build
   self.entry['reader_reviews']=[self.reader('one',False),self.reader('two',False)]
