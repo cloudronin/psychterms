@@ -85,7 +85,7 @@ class RiskTests(unittest.TestCase):
  def test_export_records_registry_pin_and_exact_notice(self):
   self.list_term();e=self.derive()
   with patch('export.prepare',return_value=([e],self.pin)):
-   data,md,manifest=build([self.entry])
+   data,md,manifest=build([self.entry],history={})
   self.assertEqual(data['risk_register'],self.pin);self.assertEqual(manifest['risk_register'],self.pin)
   self.assertIs(data['entries'][0]['risk'],True);self.assertEqual(md.count('No scene is provided for this risk term.'),1)
 

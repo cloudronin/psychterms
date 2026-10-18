@@ -28,6 +28,15 @@ jobs:
       - run: python3 -m unittest discover -s tests
       - run: python3 scripts/check_packets.py
       - run: python3 scripts/risk_registry.py
+      - name: Enforce forward-only entry status
+        env:
+          STATUS_BASE: ${{ github.event.before }}
+        run: |
+          if [ -n "$STATUS_BASE" ] && [ "$STATUS_BASE" != "0000000000000000000000000000000000000000" ]; then
+            python3 scripts/entry_status.py --base "$STATUS_BASE"
+          else
+            python3 scripts/entry_status.py
+          fi
       - run: python3 scripts/export_allowlist.py
       - run: npm ci --ignore-scripts
       - run: npm run test:site

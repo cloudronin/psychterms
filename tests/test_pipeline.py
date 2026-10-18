@@ -9,7 +9,7 @@ from seed_terms import parse_mesh,relevant
 from check_packets import validate_packet
 
 class PipelineTests(unittest.TestCase):
- def setUp(self):self.entries,self.sources,self.fields=copy.deepcopy(load_inputs());self.entries=[e for e in self.entries if e["review_status"]=="preview_fixture"]
+ def setUp(self):self.entries,self.sources,self.fields=copy.deepcopy(load_inputs());self.entries=[e for e in self.entries if e.get('fixture') is True]
  def resigned(self,e):e['hash']=semantic_hash(e);return e
  def reviewed(self):
   e=copy.deepcopy(self.entries[0]);e['review_status']='accepted'
@@ -29,9 +29,9 @@ class PipelineTests(unittest.TestCase):
   with self.assertRaisesRegex(ValueError,'Unresolved'):validate_corpus(self.entries,self.sources,self.fields)
  def test_hash_changes_only_with_semantics(self):
   e=self.entries[0];old=e['hash'];e['version']+=1;self.assertEqual(semantic_hash(e),old);e['definition']+=' Added text.';self.assertNotEqual(semantic_hash(e),old)
- def test_exports_identical_for_reordered_input(self):self.assertEqual(build(self.entries),build(list(reversed(self.entries))))
+ def test_exports_identical_for_reordered_input(self):self.assertEqual(build(self.entries,history={}),build(list(reversed(self.entries)),history={}))
  def test_markdown_and_json_terms_definitions_agree(self):
-  data,md,_=build(self.entries)
+  data,md,_=build(self.entries,history={})
   for e in data['entries']:self.assertIn('## '+e['term']+'\n',md);self.assertIn(e['definition'],md)
  def test_preview_cannot_release(self):
   with self.assertRaisesRegex(ValueError,'Preview'):validate_corpus(self.entries,self.sources,self.fields,release=True)
@@ -89,6 +89,6 @@ class PipelineTests(unittest.TestCase):
   e['risk']=True;self.resigned(e)
   with self.assertRaisesRegex(ValueError,'Risk entry cannot'):validate_entry(e,self.sources,self.fields)
  def test_no_count_target_or_deadline(self):
-  policy=json.loads((ROOT/'data/release-policy.json').read_text());self.assertIsNone(policy['count_target']);self.assertIsNone(policy['deadline']);self.assertEqual(policy['judges_required'],1)
+  policy=json.loads((ROOT/'data/release-policy.json').read_text());self.assertIsNone(policy['count_target']);self.assertIsNone(policy['deadline']);self.assertEqual(policy['judges_required'],2)
 
 if __name__=='__main__':unittest.main()

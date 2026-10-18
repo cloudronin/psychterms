@@ -2,9 +2,9 @@
   "spec_version": "0.2",
   "count_target": null,
   "deadline": null,
-  "judges_required": 1,
-  "distinct_judge_models": false,
-  "both_must_pass": false,
+  "judges_required": 2,
+  "distinct_judge_models": true,
+  "both_must_pass": true,
   "redrafts_per_entry": 1,
   "legacy_fixture_access": "parser_audit_only",
   "legacy_term_list_allowed": false,
@@ -19,7 +19,7 @@
     "always on",
     "cloud"
   ],
-  "product_word_check_status": "awaiting_user_list",
+  "product_word_check_status": "configured",
   "pilot_vignettes": 50,
   "paid_dispatch_enabled": false,
   "arcsim_interface_status": "pinned_adapter_and_fit_ledger_implemented",
@@ -44,5 +44,25 @@
   "draft_model": "gpt-5.4-2026-03-05",
   "judge_must_differ_from_drafter": true,
   "human_review_timing": "after_public_review_preview",
-  "vignette_work_status": "deferred_by_vishnu"
+  "vignette_work_status": "deferred_by_vishnu",
+  "candidate_publication_authorized": true,
+  "candidate_review_timing": "after_publication",
+  "candidate_requires_judge_before_publication": false,
+  "candidate_requires_source_packet": true,
+  "candidate_requires_fresh_definition": true,
+  "candidate_paid_dispatch_enabled": true,
+  "candidate_drafting_cap_usd": "100.00",
+  "reviewed_readers_required": 1,
+  "judged_readers_required": 2,
+  "drafter_counts_as_reader": false,
+  "status_build_owned": true,
+  "status_forward_only": true,
+  "review_statuses": [
+    "candidate",
+    "reviewed",
+    "judged",
+    "dropped"
+  ],
+  "released_is_additional_marker": true,
+  "scope_and_field_before_paid_draft": true
 }

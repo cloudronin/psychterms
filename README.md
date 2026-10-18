@@ -1,8 +1,8 @@
 # PsychTerms
 
-An independent dictionary of psychology and counselling, being rebuilt from verified permitted sources. There is no entry-count target or deadline. Definitions are checked against pinned source packets by one designated model judge, GPT-5.4 mini, separate from the drafter. Vishnu reviews the public preview.
+An independent dictionary of psychology and counselling, rebuilt from verified permitted sources. There is no entry-count target or deadline. Fresh, cited definitions publish as candidates before reader review. The build sets four forward-only statuses: candidate, reviewed (one passing reader other than the drafter), judged (two), and dropped (with a reason). The 15-word copy check must be clear for active entries. Released is a separate numbered-release marker.
 
-**Status: public review preview, not a finished dictionary release.** The site includes 198 definitions that passed the designated mini judge and the 15-word copy check, plus 3 original unreviewed fixtures. Twelve definitions have visible wording-review notices. All have exact source citations. Vignettes are deferred. The independent MeSH inventory contains 1,267 candidates, not a count target. The legacy derivative corpus stays outside this repository and is never a source, term list or model input.
+**Status: public review preview.** Current build counts and reader models are recorded in [the generated release note](reports/release-note.md). Candidates carry an explicit plain-language badge. Dropped entries have no term page or searchable definition; their names and reasons remain on the Dropped page. Vignettes are deferred. The inherited prose and raw source audit remain private; old definitions are never a source or drafting input.
 
 ## Local preview
 
@@ -19,7 +19,7 @@ python3 scripts/check_site.py
 npm run preview
 ```
 
-`npm run dev` provides the site scaffold. Pagefind search is produced by `npm run build` and works in the built preview. Set `BASE_PATH=/psychterms/` and `SITE_URL=https://cloudronin.github.io` for a GitHub project site. The public repository is https://github.com/cloudronin/psychterms. GitHub Pages builds the labelled development preview at https://cloudronin.github.io/psychterms/ from main. The custom domain is not activated.
+`npm run dev` provides the site scaffold. Pagefind search is produced by `npm run build` and works in the built preview. The default site origin is `https://psychterms.org` and `BASE_PATH=/`. Both remain configurable for other hosting. The public repository is https://github.com/cloudronin/psychterms; GitHub Pages deploys the public review preview at https://psychterms.org/ from main.
 
 ## Contents
 
@@ -38,3 +38,7 @@ The usage-based pilot cost is $1.813129 plus $0.053720 still reserved for three 
 ## Rights
 
 Original code: MIT; the unmodified vendored ArcSim builder/schema retain Apache-2.0 and their notices. Eligible original dictionary contributions: CC BY 4.0. Third-party source materials retain their own notices and conditions; see [NOTICE.md](NOTICE.md). The source licence review does not imply endorsement by a source institution.
+
+## Candidate drafting
+
+`python3 scripts/prepare_candidate_packets.py` prepares a private source-text queue. `python3 scripts/run_candidate_drafts.py` verifies the proposed registration without paid calls. Execution remains disabled until Vishnu sets the new line’s cap; see [candidate drafting registration](docs/candidate-drafting-preregistration.md). The 15-word copy scan and source/receipt bindings continue to apply even when judge review is deferred.

@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {dropped,toHref} from '../lib';
+---
+<Layout title="Dropped entries | PsychTerms"><div class="article-wrap prose"><p class="breadcrumb"><a href={toHref()}>psychterms.org</a> / Dropped</p><h1>Dropped entries</h1><p>These entries are excluded from term pages, search and the definition downloads. Status moves forward or off; a dropped entry is never quietly restored.</p>{dropped.length ? <ul>{dropped.map((entry:any)=><li><strong>{entry.term}</strong>: {entry.reason}</li>)}</ul> : <p>No entries have been dropped.</p>}<p><a href={toHref('downloads/release-note.md')}>Status counts and release note</a></p></div></Layout>

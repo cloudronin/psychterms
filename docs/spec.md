@@ -1,5 +1,7 @@
 # PsychTerms, the open psychology dictionary: project spec v0.2
 
+**Which site this is.** This spec is for **psychterms.org**, the open dictionary, repo `cloudronin/psychterms`, hosted on GitHub Pages. It is not plainword.ai, the Plainword Prep site, which has its own spec (`Plainword_Site_Prep_Launch_Spec.md`) and its own session. The only link between the two is one footer line on psychterms.org and one paragraph on plainword.ai.
+
 18 Oct 2026. A standalone project.
 
 **v0.2 (same day, after the implementation-plan review).** The supplied 26,286-entry markdown was found to be a paraphrase of the APA dictionary, scrubbed for overlap; it is derivative and is not released (kill criterion one). The dictionary is rebuilt from permitted sources. Vishnu's standing instruction: this gets done right, however long it takes and whatever it costs; no count target, no date; the quality bar is two judges per entry. The implementation plan (`PROJECT-PLAN.md`, 18 Oct) is the engineering reference; where it and this spec differ, this spec is corrected to match. It feeds Plainword Prep's Reference screen but does not depend on it, and ships on its own.
@@ -10,7 +12,7 @@ A free, open dictionary of psychology and counselling terms, as broad as the per
 
 Why: as far as we have found, no open dictionary of the field exists (checked before it goes in launch copy). The APA's is copyrighted. Textbook glossaries live inside textbooks. Prep companies keep theirs behind paywalls. Nobody with the definitions had a reason to give them away. We have the definitions, a reason that is not money, and a pipeline that checks them.
 
-Name, domain and repo (Vishnu, 18 Oct): **PsychTerms**, one word, at **psychterms.org** and `cloudronin/psychterms`: the site, the citation line, the name on the page; `.org` because it is a free public resource. One domain only; no `.io`, no redirect domains. A trademark knockout on "PsychTerms" runs before launch copy.
+Name, domain and repo (Vishnu, 18 Oct): **PsychTerms**, one word, at **psychterms.org** and `cloudronin/psychterms`: the site, the citation line, the name on the page; `.org` because it is a free public resource. One domain only; no `.io`, no redirect domains. A trademark knockout on "Psych Terms" runs before launch copy.
 
 ## 2. What ships
 
@@ -38,12 +40,15 @@ Plainword Prep takes the dictionary as a versioned dependency: each release is a
                  {"role": "supports_definition", "source": "samhsa:...", "revision": "2023", "scope": "definition"}],
   "vignette": {"text": "...", "notice": "...", "card_id": "p_...", "card_hash": "sha256:...", "builder_commit": "..."},
   "checks": {"readers": "2/2", "copy": "clear"},
+  "status": "judged",
   "version": 1,
   "hash": "7f3a9c..."
 }
 ```
 
-Entries without a vignette omit the `vignette` key. A risk term's page shows "No scene is provided for this risk term." and nothing more. The site design (the PsychTerms canvas, 18 Oct) is the reference for every page; a vignette shown on the site must come from an unbound ArcSim card, never from a Prep scenario.
+Entries without a vignette omit the `vignette` key.
+
+**Status (Vishnu, 18 Oct).** Set by the build, never by hand, forward only: `candidate` (drafted from a source packet, no reader yet), `reviewed` (one reader who did not draft it passed it, copy check clear), `judged` (two readers who did not draft it passed it, copy check clear), `dropped` (with the reason). `released` marks inclusion in a numbered release on top of any of the first three. The drafter is never counted as a reader. Each entry's badge states its status in plain words; the reader models are named on the About page; the release note gives the counts per status, written by the build. Codex drafts candidates for every term that has a permitted source before the judge pass runs. Candidates are published on psychterms.org and in the release files, badged on the entry and in the JSON: "Candidate: drafted from the sources shown, not yet read by the two reviewers." No `noindex`; the badge is the disclosure. The release note counts released and candidate entries separately, written by the build; the About page says the two-reader pass covers released entries only. A candidate that later fails both readers leaves the site and is listed on the Dropped page with its reason; status moves forward or off, never quietly back. Drafting is paid spend under a PREREG line with a cap and receipts; the scope filter and the field rule run before drafting, so no spend goes to a term that will be dropped for scope. A risk term's page shows "No scene is provided for this risk term." and nothing more. The site design (the PsychTerms canvas, 18 Oct) is the reference for every page; a vignette shown on the site must come from an unbound ArcSim card, never from a Prep scenario.
 
 - `definition`: one to three sentences, plain words, no criteria lists, no treatment advice, no diagnosis of anyone.
 - `field`: a short tag from a fixed list (counselling skills, assessment, diagnosis, ethics, development, cognition, social, biological, research methods, history, and so on).
@@ -177,15 +182,3 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 ## 14. Rules carried
 
 CC BY 4.0 data, MIT code, never share-alike. Never a copyrighted dictionary's text, paraphrased or otherwise. No PHI, no identifiable person anywhere. No banned product words. PREREG before every paid line; each line stops before its cap; no untrusted PR runs with a paid key. Nothing to main without Vishnu. Done right, however long it takes.
-
-## Direct decisions retained
-
-No count target applies. Term-to-card fit is required, with unmatched reasons recorded. Generated scenes and notice lines require their own overlap scan and two judges. Public product mentions remain footer-only; that direct decision governs the conflicting publisher wording in section 7.
-
-## Latest copy and publisher-domain decision
-
-AI is allowed in PsychTerms, Prep and site copy; it remains banned in Session and Desk. Scribe, listen, always on and cloud remain banned everywhere in product copy. The Plainword site moves to plainword.ai and the PsychTerms footer links there; PsychTerms itself retains psychterms.org.
-
-## Latest user decisions: definition publication and judging
-
-Definitions ship without waiting for vignettes. Publish model-passed definitions with citations as a live review preview; Vishnu reviews after publication. One designated cheap model judge, separate from the drafting model and the assistant, is sufficient: gpt-5.4-mini-2026-03-17. This supersedes the earlier two-judge and human-read-before-preview requirements. Existing model-verdict receipts are reused without paid reruns. The 15-word copy check continues; five-word wording concerns are displayed for human review rather than hidden. Any approved source may provide a citation when its pinned record or passage supports the term. Continue expanding independently sourced terms; the legacy corpus remains excluded. Paid work still requires a registered budget line and cap.

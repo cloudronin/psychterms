@@ -44,3 +44,13 @@ Raw licence-page snapshots and MeSH 2026 were downloaded where permitted. The sn
 ERIC and generic HHS/SAMHSA families remain excluded pending a directly verified item-specific grant. BCcampus first Canadian Introduction to Psychology is explicitly NC-SA; the broad Lumen course mixes components and is not admitted as a whole. NICE is UK-only and requires specific AI permission, so it is excluded.
 
 Original Baldwin (1901), James (1890) and Titchener (1912) texts are historical candidates only; modern archive additions and later copyrighted works are excluded. They must not supply dated claims as current clinical consensus.
+
+## Verified additions from source-coverage research
+
+| Candidate | Rights evidence | Permitted scope |
+|---|---|---|
+| [Online Statistics Education, version 2 (David M. Lane, project leader)](https://onlinestatbook.com/2/index.html) | Version 2; publisher statement snapshot 2026-10-18; SHA-256 0dcad9ee85f61f9e2bb24d26279de155ac749164ea4da2a3bffeabcf9ea471a6 | The project owner explicitly places the work in the public domain and requests attribution. Restrict to its own version-2 course/glossary content; exclude external linked material. |
+| [Baldwin, Dictionary of Philosophy and Psychology, volume II](https://archive.org/download/philopsych02balduoft/philopsych02balduoft_djvu.txt) | 1902 original US edition; OCR SHA-256 b86b5dbbaa0a0b3ecf6c8b0a089a7ca5409b9bac4e6481cba91c99bba16f31bd | Original title page in the scanned book confirms 1902 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance. |
+| [Tuke, A Dictionary of Psychological Medicine](https://archive.org/download/dictionaryofpsyc01tuke/dictionaryofpsyc01tuke_djvu.txt) | 1892 original US edition; OCR SHA-256 7ec833f3f4ff2826cb5eba1722a767adae625ac9f49f83035a464dc975564f96 | Original title page in the scanned book confirms 1892 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance. |
+
+Research-article search metadata identifies bibliographic candidates only. Each additional article requires its own publisher rights notice, content snapshot and support locator before admission as a drafting source. Historical OCR passage hits require checking the original scan and intended sense.

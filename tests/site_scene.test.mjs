@@ -17,6 +17,7 @@ test('brand and displayed citation/breadcrumb domain use agreed casing',()=>{
  const layout=readFileSync(new URL('../site/src/layouts/Layout.astro',import.meta.url),'utf8');
  const term=readFileSync(new URL('../site/src/pages/terms/[id].astro',import.meta.url),'utf8');
  assert.ok(layout.includes('<strong>PsychTerms</strong>'));
+ assert.ok(layout.includes('Psychology &amp; Counseling Dictionary'));
  assert.ok(term.includes('PsychTerms (psychterms.org)'));
  assert.ok(term.includes('>psychterms.org</a> / <span data-entry-content>{entry.id}</span>'));
  assert.ok(!layout.includes('Psych Terms')&&!term.includes('Psych Terms'));

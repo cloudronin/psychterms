@@ -18,7 +18,7 @@ add('medlineplus-licensed','MedlinePlus licensed encyclopedia and drug text','ht
 add('va-ptsd','VA National Center for PTSD staff public-domain articles','https://www.ptsd.va.gov/publications/staff_articles.asp','public-domain-US-government','https://www.ptsd.va.gov/publications/staff_articles.asp','yes',['draft_basis','supports_definition'],'Per-article publication and rights notice required','The staff-articles page identifies public-domain PDFs; only specifically designated government works, not every linked journal article. No instrument items or DSM criteria copied.')
 add('cdc','CDC-authored glossary text','https://www.cdc.gov/mental-health/about/index.html','public-domain-US-government','https://www.cdc.gov/other/agencymaterials.html','yes',['draft_basis','supports_definition'],'Agency-materials policy reviewed 2026-10-18; per-page snapshot required','Most own content is public domain; marked contractor/grantee/third-party materials excluded; attribution and no endorsement notice required.')
 add('ncit','NCI Thesaurus','https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/','CC-BY-4.0','https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/ThesaurusTermsofUse.htm','yes',['term_list','draft_basis','supports_definition'],'Release identifier and archive checksum required','Current NCI terms explicitly state CC BY 4.0, not public domain. Preserve source-specific definition credits; filter psychology relevance.')
-add('eric','ERIC Thesaurus','https://eric.ed.gov/?ti=all','unconfirmed','https://eric.ed.gov/?copyright','no',['term_list','draft_basis','aliases','links'],'Unapproved pending rights confirmation','Official copyright endpoint could not be read; availability for download is insufficient evidence of a reuse licence. Keep excluded until direct terms verified.',False)
+add('eric','ERIC Thesaurus','https://eric.ed.gov/?ti=all','unconfirmed','https://eric.ed.gov/?copyright','no',['term_list','draft_basis','aliases','links'],'Unapproved pending rights confirmation','Current official copyright page and 2025 Thesaurus download provide no confirmed specific reuse grant for Thesaurus text; the archive contains no licence notice. Download availability alone is insufficient; keep excluded.',False)
 add('nhs','NHS.UK-owned topic and glossary text','https://www.nhs.uk/mental-health/','OGL-UK-3.0','https://www.nhs.uk/our-policies/terms-and-conditions/','yes',['draft_basis','supports_definition'],'Terms retrieved 2026-10-18; per-page snapshot required','NHS-owned content under OGL v3 except exclusions; include prescribed attribution; no logos, third-party content or modified clinical advice.')
 add('nice','NICE content','https://www.nice.org.uk/','NICE-UK-only-restricted','https://www.nice.org.uk/reusing-our-content/nice-uk-open-content-licence','no',['draft_basis'],'NICE UK Open Content Licence reviewed 2026-10-18','Not general OGL v3: UK-only terms and explicit permission required for AI purposes. Excluded.')
 add('aihw','Australian Institute of Health and Welfare text','https://www.aihw.gov.au/mental-health','CC-BY-4.0','https://www.aihw.gov.au/copyright','yes',['draft_basis','supports_definition'],'Copyright policy reviewed 2026-10-18; per-publication edition required','CC BY 4.0 unless stated otherwise; third-party materials, older exceptions and logos excluded; indicate adaptations.')
@@ -61,6 +61,23 @@ for ident,title,url,version,reason in [
  r=byid[ident];r.update(candidate=title,url=url,licence='CC-BY-4.0',licence_source_url=url,licence_confirmed=True,pinned_version=version,decision='yes',reason=reason)
  r['evidence']={'policy_url':url,'reviewed_on':'2026-10-18','finding':reason,'licence_confirmed':True}
  r['evidence']['sha256']=hashlib.sha256(json.dumps(r['evidence'],sort_keys=True).encode()).hexdigest()
+# Additional source verified at the publisher after the initial inventory.
+stat_policy=ROOT/'.private/coverage-audit/onlinestatbook-policy.html'
+existing=ROOT/'data/sources.json'
+stat_existing=None
+if existing.exists():
+ stat_existing=next((r for r in json.loads(existing.read_text())['sources'] if r['id']=='onlinestatbook-v2'),None)
+if stat_existing:
+ rows.append(stat_existing);byid['onlinestatbook-v2']=stat_existing
+elif stat_policy.exists():
+ policy_sha=hashlib.sha256(stat_policy.read_bytes()).hexdigest()
+ add('onlinestatbook-v2','Online Statistics Education, version 2 (David M. Lane, project leader)','https://onlinestatbook.com/2/index.html','public-domain-US','https://onlinestatbook.com/2/index.html','yes',['term_list','aliases','draft_basis','supports_definition'],'Version 2; publisher statement snapshot 2026-10-18; SHA-256 '+policy_sha,'The project owner explicitly places the work in the public domain and requests attribution. Restrict to its own version-2 course/glossary content; exclude external linked material.')
+ rows[-1]['evidence']['policy_snapshot_sha256']=policy_sha
+# Preserve additional individually verified historical editions.
+if existing.exists():
+ for verified in json.loads(existing.read_text())['sources']:
+  if verified['id'] in ('baldwin-1902-v2','tuke-1892'):
+   rows.append(verified);byid[verified['id']]=verified
 # Raw downloaded policy and edition hashes are distinct from hashes of review findings.
 snapshot_path=ROOT/'reports/source-snapshots.json'
 if snapshot_path.exists():
