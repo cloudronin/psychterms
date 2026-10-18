@@ -31,7 +31,7 @@ def prepare(directory,out):
         if key in existing or key in seen:continue
         if row['status'] not in ('exact_label_source_candidate','source_passage_candidate'):
             pending.append({'term':term,'reason':'No admitted source-text packet yet','retrieval_status':row['status']});continue
-        selected=None
+        selected=None;scope_rejected=False
         def rank(match):
             record=index.get((match['source'],match['record_id']),{})
             preferred=norm(record.get('term',''))==key
@@ -45,9 +45,11 @@ def prepare(directory,out):
             if row['status']=='exact_label_source_candidate' and key not in {norm(record['term']),*(norm(a) for a in record.get('aliases',[]))}:continue
             text,start,end=excerpt(record['text'],term)
             if not text or len(text.split())<8:continue
+            decision=decide({'source':source['id'],'source_record':record['record_id'],'term':term,'source_label':record['term'],'text':text,'tree_numbers':record.get('tree_numbers',[]),'semantic_types':record.get('semantic_types',[])})
+            if not decision['eligible']:scope_rejected=True;continue
             selected=(source,record,text,start,end);break
         if not selected:
-            pending.append({'term':term,'reason':'No sufficiently contextual, admitted source-text packet','retrieval_status':row['status']});continue
+            pending.append({'term':term,'reason':'No sufficiently contextual, admitted source-text packet','retrieval_status':'scope_excluded_before_spend' if scope_rejected else row['status']});continue
         source,record,text,start,end=selected
         ident=slug(term)
         if ident in used:ident+='-'+digest({'term':term,'source':record['source_id'],'record':record['record_id']})[:10]

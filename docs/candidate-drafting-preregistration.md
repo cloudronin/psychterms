@@ -17,3 +17,7 @@ Source: [Official OpenAI model documentation](https://developers.openai.com/api/
 Execution: 32 workers, each reserving its maximum call cost atomically in the same $100 ledger before dispatch. Publication begins with the first validated batch; the remainder resumes from the same frozen queue, cached requests and ledger. The top-left subtitle is “Psychology & Counseling Dictionary”.
 
 An interrupted network call keeps its full reservation; at most one transport retry is allowed across resumes. Terminal packet outcomes are persisted, so insufficient packets are not billed repeatedly. Credential/rate-limit errors or a reservation breach stop dispatch. Every amended registration is retained privately; the same ledger and $100 cap apply throughout.
+
+## Scope-checked continuation
+
+The continuation is registered at `ccf30c2b50e89ba708861f3f1f3da783e9b04d822e3a8e481728b41b9421bcc1` on the same $100 ledger. Its queue contains 6290 admitted packets after scope and field checks; rejected records are skipped before paid calls, with alternate permitted sources tried first. Gene/allele records cannot stand in for unrelated psychology senses. Exact unchanged source packets previously declined as insufficient are not billed again. Code dependencies, executor, queue, model and prompt are pinned before dispatch. Request-hash caches preserve earlier receipts across amendments. The comparison corpus includes the whole registered queue, all existing public packets and definitions. No paid reader or scene calls use this line.

@@ -2,7 +2,7 @@
 import json,re
 from core import ROOT,digest
 
-VERSION=1
+VERSION=2
 ROOTS={
  'diagnosis':['F03'],
  'biological':['A08','C10','G11.561','D27.505.954.427.700'],
@@ -18,13 +18,18 @@ PATTERNS=[
  ('development',r'child development|developmental psycholog|language acquisition|infant attachment|educational|\bacademic\b|\bacademia\b|\bscholastic\b|academic achievement|school performance'),
  ('learning',r'\blearning\b|conditioned (?:response|stimulus)|classical conditioning|operant|reinforcement|\bhabit\b|behavio(?:u)?r'),
  ('social',r'\bsocial\b|interpersonal|prejudice|stereotyp|group dynamics|gender identity'),
- ('cognition',r'\bability\b|\bacalculia\b|cognit|attention|\bmemory\b|percept|conscious|\bmental\b|\bthought\b|reasoning|judgment|emotion|\baffect\b|intelligence|creativity'),
+ ('cognition',r'\bacalculia\b|cognit|attention|\bmemory\b|percept|conscious|\bmental\b|\bthought\b|reasoning|judgment|emotion|affective|intelligence|creativity'),
  ('biological',r'\bneur|\bbrain\b|hippocamp|cerebr|amygdala|\baxon|synap|vestibul|\bretina|\bauditory|\bvisual|cranial nerve|abducens|dopamin|serotonin|norepinephr|acetylcholine|action potential|refractory period|\bgaba\b'),
  ('mental health',r'addiction|withdrawal|abused substance|alcohol|psychiatr|anxiety|\bstress\b|well.being|trauma|suicid|self.harm|\babuse\b|\bneglect\b|overdose'),
 ]
 
 def decide(packet,independent=None):
-    source=packet['source'];text=' '.join([packet.get('source_label',''),packet['term'],packet.get('text','')]).casefold()
+    source=packet['source'];text=' '.join([packet.get('source_label',''),packet.get('text','')]).casefold()
+    if 'Gene or Genome' in packet.get('semantic_types',[]) and not re.search(r'\b(?:gene|allele)\b',packet['term'],re.I):
+        return {'eligible':False,'field':None,'rule':'gene-record-sense-mismatch','reason':'The source is a gene or allele record, not a definition of the requested psychology concept.','policy_version':VERSION}
+    text=re.sub(r'\b(?:oxidative|cellular|mechanical|shear|endoplasmic reticulum) stress\b','',text)
+    if packet['term'].casefold()=='ability' and packet.get('source_label','').casefold()=='ability':
+        return {'eligible':True,'field':'cognition','rule':'exact-foundational-concept-ability','policy_version':VERSION}
     if source in ('baldwin-1901','baldwin-1902-v2','james-1890','titchener-1912','tuke-1892'):
         return {'eligible':True,'field':'history','rule':'permitted-historical-psychology-text','policy_version':VERSION}
     if source in ('onlinestatbook-v2','plos','frontiers','bmc'):
