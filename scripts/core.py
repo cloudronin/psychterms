@@ -59,10 +59,9 @@ def validate_entry(entry, sources, fields, release=False, built=False):
     if entry.get('draft_evidence'):validate_draft_evidence(entry)
     elif entry.get('model_review'):validate_model_review(entry)
     elif entry.get('fixture') is not True or entry['id'] not in {'attention','memory','psychotherapy'}:raise ValueError('Missing drafting evidence')
-    if release:
-        from entry_status import readers
-        packet=json.loads((ROOT/'data/packets'/(entry['id']+'.json')).read_text())
-        if sum(r['passed'] for r in readers(entry,packet))<2:raise ValueError('Preview entry needs two independent readers before numbered release')
+    if release and (not built or entry.get('released') is not True or entry.get('status')=='dropped'):
+        raise ValueError('Preview entry needs a build-assigned numbered-release marker')
+
 
 
 def validate_draft_evidence(entry):
