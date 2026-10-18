@@ -33,9 +33,9 @@ jobs:
       - run: npm run test:site
       - run: npm run build
         env:
-          SITE_URL: https://cloudronin.github.io
-          BASE_PATH: /psychterms/
-      - run: python3 scripts/check_site.py --base /psychterms/
+          SITE_URL: https://psychterms.org
+          BASE_PATH: /
+      - run: python3 scripts/check_site.py --base /
       - run: python3 scripts/check_copy.py
       - uses: actions/upload-pages-artifact@v4
         with:
