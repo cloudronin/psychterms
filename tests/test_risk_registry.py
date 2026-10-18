@@ -10,7 +10,7 @@ from export_allowlist import public_paths
 
 class RiskTests(unittest.TestCase):
  def setUp(self):
-  self.registry,self.pin=load_registry();self.entry=copy.deepcopy(load_inputs()[0][0])
+  self.registry,self.pin=load_registry();self.entry=copy.deepcopy(next(e for e in load_inputs()[0] if e['id']=='attention'))
   self.packet=json.loads((ROOT/'data/packets/attention.json').read_text())
  def derive(self,**changes):
   e=copy.deepcopy(self.entry);e.update(changes);e['hash']=semantic_hash(e)

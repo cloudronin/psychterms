@@ -51,12 +51,31 @@ def validate_entry(entry, sources, fields, release=False):
             if item['role'] not in source['roles']:raise ValueError('Source role not allowed')
         if item['role']=='draft_basis':basis=True
     if not basis:raise ValueError('No permitted drafting basis')
-    if entry['review_status'] not in {'preview_fixture','accepted'}:raise ValueError('Unknown review status')
+    if entry['review_status'] not in {'preview_fixture','model_passed_preview','accepted'}:raise ValueError('Unknown review status')
+    if entry['review_status']=='model_passed_preview':validate_model_review(entry)
     if release:
         if entry['review_status']!='accepted':raise ValueError('Preview entry cannot be released')
         validate_reviews(entry)
 
+def validate_model_review(entry):
+    review=entry.get('model_review',{})
+    if review.get('model')!='gpt-5.4-mini-2026-03-17' or review.get('passed') is not True:raise ValueError('Designated mini judge must pass')
+    if review.get('draft_model')==review.get('model'):raise ValueError('Judge must differ from drafter')
+    expected=digest({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True})
+    if review.get('definition_hash')!=expected or review.get('published_packet_hash')!=entry.get('packet_hash'):raise ValueError('Model verdict no longer matches definition or packet')
+    for key in ('request_hash','registration_hash','packet_hash'):
+        if not re.fullmatch(r'[a-f0-9]{64}',review.get(key,'')):raise ValueError('Missing model review binding')
+    if not review.get('receipt_id'):raise ValueError('Missing model review receipt')
+    packet=json.loads((ROOT/'data/packets'/(entry['id']+'.json')).read_text())
+    if packet.get('original_packet_hash')!=review['packet_hash']:raise ValueError('Judge reviewed a different source packet')
+    from check_packets import validate_packet
+    sources={s['id']:s for s in json.loads((ROOT/'data/sources.json').read_text())['sources']}
+    validate_packet(packet,sources)
+
 def validate_reviews(entry):
+    if 'model_review' in entry:
+        validate_model_review(entry)
+        return
     reviews=entry.get('reviews',[])
     if len(reviews)!=2 or len({r.get('model') for r in reviews})!=2:raise ValueError('Two distinct judge models required')
     packet=entry.get('packet_hash')

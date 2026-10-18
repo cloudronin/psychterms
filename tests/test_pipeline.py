@@ -9,7 +9,7 @@ from seed_terms import parse_mesh,relevant
 from check_packets import validate_packet
 
 class PipelineTests(unittest.TestCase):
- def setUp(self):self.entries,self.sources,self.fields=copy.deepcopy(load_inputs())
+ def setUp(self):self.entries,self.sources,self.fields=copy.deepcopy(load_inputs());self.entries=[e for e in self.entries if e["review_status"]=="preview_fixture"]
  def resigned(self,e):e['hash']=semantic_hash(e);return e
  def reviewed(self):
   e=copy.deepcopy(self.entries[0]);e['review_status']='accepted'
@@ -89,6 +89,6 @@ class PipelineTests(unittest.TestCase):
   e['risk']=True;self.resigned(e)
   with self.assertRaisesRegex(ValueError,'Risk entry cannot'):validate_entry(e,self.sources,self.fields)
  def test_no_count_target_or_deadline(self):
-  policy=json.loads((ROOT/'data/release-policy.json').read_text());self.assertIsNone(policy['count_target']);self.assertIsNone(policy['deadline']);self.assertEqual(policy['judges_required'],2)
+  policy=json.loads((ROOT/'data/release-policy.json').read_text());self.assertIsNone(policy['count_target']);self.assertIsNone(policy['deadline']);self.assertEqual(policy['judges_required'],1)
 
 if __name__=='__main__':unittest.main()

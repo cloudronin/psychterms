@@ -103,7 +103,8 @@
     "review_status": {
       "enum": [
         "preview_fixture",
-        "accepted"
+        "accepted",
+        "model_passed_preview"
       ]
     },
     "exam_layer_id": {
@@ -132,6 +133,67 @@
     "risk": {
       "const": true,
       "description": "Build-owned flag derived from the pinned risk_terms.json, never hand edited."
+    },
+    "model_review": {
+      "type": "object",
+      "required": [
+        "model",
+        "passed",
+        "definition_hash",
+        "packet_hash",
+        "published_packet_hash",
+        "receipt_id",
+        "request_hash",
+        "draft_model",
+        "registration_hash"
+      ],
+      "properties": {
+        "passed": {
+          "const": true
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definition_hash": {
+          "type": "string",
+          "minLength": 1
+        },
+        "packet_hash": {
+          "type": "string",
+          "minLength": 1
+        },
+        "published_packet_hash": {
+          "type": "string",
+          "minLength": 1
+        },
+        "receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "request_hash": {
+          "type": "string",
+          "minLength": 1
+        },
+        "draft_model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "registration_hash": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "editorial_status": {
+      "enum": [
+        "wording_review_pending",
+        "human_review_pending"
+      ]
+    },
+    "editorial_note": {
+      "type": "string"
     }
   },
   "additionalProperties": false

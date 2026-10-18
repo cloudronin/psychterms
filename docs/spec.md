@@ -185,3 +185,7 @@ No count target applies. Term-to-card fit is required, with unmatched reasons re
 ## Latest copy and publisher-domain decision
 
 AI is allowed in PsychTerms, Prep and site copy; it remains banned in Session and Desk. Scribe, listen, always on and cloud remain banned everywhere in product copy. The Plainword site moves to plainword.ai and the PsychTerms footer links there; PsychTerms itself retains psychterms.org.
+
+## Latest user decisions: definition publication and judging
+
+Definitions ship without waiting for vignettes. Publish model-passed definitions with citations as a live review preview; Vishnu reviews after publication. One designated cheap model judge, separate from the drafting model and the assistant, is sufficient: gpt-5.4-mini-2026-03-17. This supersedes the earlier two-judge and human-read-before-preview requirements. Existing model-verdict receipts are reused without paid reruns. The 15-word copy check continues; five-word wording concerns are displayed for human review rather than hidden. Any approved source may provide a citation when its pinned record or passage supports the term. Continue expanding independently sourced terms; the legacy corpus remains excluded. Paid work still requires a registered budget line and cap.

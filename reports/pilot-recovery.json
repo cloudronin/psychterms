@@ -13,9 +13,9 @@
   "cache_requests_receipts_and_ledger_verified": true,
   "released_entries": 0,
   "budget": {
-    "calls_reserved": 792,
+    "calls_reserved": 831,
     "cap_usd": 20.0,
-    "receipted_usd": 1.579565,
+    "receipted_usd": 1.813129,
     "unresolved_reservations_usd": 0.05372,
     "by_category": {
       "drafting": {
@@ -41,6 +41,26 @@
       "transport_schema_retry": {
         "calls": 1,
         "receipted_usd": 0.000683,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_drafting": {
+        "calls": 7,
+        "receipted_usd": 0.052671,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_judge_a": {
+        "calls": 13,
+        "receipted_usd": 0.025202,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_judge_b": {
+        "calls": 13,
+        "receipted_usd": 0.106828,
+        "unresolved_reservations_usd": 0.0
+      },
+      "vignette_redrafting": {
+        "calls": 6,
+        "receipted_usd": 0.048863,
         "unresolved_reservations_usd": 0.0
       }
     }
