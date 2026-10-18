@@ -278,13 +278,13 @@
         "links"
       ],
       "decision": "no",
-      "reason": "Official copyright endpoint could not be read; availability for download is insufficient evidence of a reuse licence. Keep excluded until direct terms verified.",
+      "reason": "Current official copyright page and 2025 Thesaurus download provide no confirmed specific reuse grant for Thesaurus text; the archive contains no licence notice. Download availability alone is insufficient; keep excluded.",
       "evidence": {
         "policy_url": "https://eric.ed.gov/?copyright",
         "reviewed_on": "2026-10-18",
-        "finding": "Official copyright endpoint could not be read; availability for download is insufficient evidence of a reuse licence. Keep excluded until direct terms verified.",
+        "finding": "Current official copyright page and 2025 Thesaurus download provide no confirmed specific reuse grant for Thesaurus text; the archive contains no licence notice. Download availability alone is insufficient; keep excluded.",
         "licence_confirmed": false,
-        "sha256": "a4c593d4f26348ac988bda5248302f821dc33973fbdd826ab5e0422199dde719"
+        "sha256": "c4977bed25dc1e56e7c8a456eb9f38fc0f9e5db454a252877ad99f9985a0c30d"
       },
       "asset_pin_required": true
     },
@@ -763,6 +763,77 @@
         "finding": "Own licence; excluded.",
         "licence_confirmed": false,
         "sha256": "2fea5fb85eb271af64943a377734ca713c42ca9b29b3adb0ba394c25b415a3c4"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "onlinestatbook-v2",
+      "candidate": "Online Statistics Education, version 2 (David M. Lane, project leader)",
+      "url": "https://onlinestatbook.com/2/index.html",
+      "licence": "public-domain-US",
+      "licence_source_url": "https://onlinestatbook.com/2/index.html",
+      "licence_confirmed": true,
+      "pinned_version": "Version 2; publisher statement snapshot 2026-10-18; SHA-256 0dcad9ee85f61f9e2bb24d26279de155ac749164ea4da2a3bffeabcf9ea471a6",
+      "roles": [
+        "term_list",
+        "aliases",
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "The project owner explicitly places the work in the public domain and requests attribution. Restrict to its own version-2 course/glossary content; exclude external linked material.",
+      "evidence": {
+        "policy_url": "https://onlinestatbook.com/2/index.html",
+        "reviewed_on": "2026-10-18",
+        "licence_confirmed": true,
+        "policy_snapshot_sha256": "0dcad9ee85f61f9e2bb24d26279de155ac749164ea4da2a3bffeabcf9ea471a6",
+        "finding": "Publisher declares the work public domain; credit Online Statistics Education and project leader David M. Lane, Rice University."
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "baldwin-1902-v2",
+      "candidate": "Baldwin, Dictionary of Philosophy and Psychology, volume II",
+      "url": "https://archive.org/details/philopsych02balduoft",
+      "licence": "public-domain-US",
+      "licence_source_url": "https://archive.org/download/philopsych02balduoft/philopsych02balduoft_djvu.txt",
+      "licence_confirmed": true,
+      "pinned_version": "1902 original US edition; OCR SHA-256 b86b5dbbaa0a0b3ecf6c8b0a089a7ca5409b9bac4e6481cba91c99bba16f31bd",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "yes",
+      "reason": "Original title page in the scanned book confirms 1902 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance.",
+      "evidence": {
+        "policy_url": "https://archive.org/download/philopsych02balduoft/philopsych02balduoft_djvu.txt",
+        "reviewed_on": "2026-10-18",
+        "finding": "Original title page in the scanned book confirms 1902 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance.",
+        "licence_confirmed": true,
+        "rights_basis": "original US publication before 1929; title page inspected",
+        "content_snapshot_sha256": "b86b5dbbaa0a0b3ecf6c8b0a089a7ca5409b9bac4e6481cba91c99bba16f31bd"
+      },
+      "asset_pin_required": true
+    },
+    {
+      "id": "tuke-1892",
+      "candidate": "Tuke, A Dictionary of Psychological Medicine",
+      "url": "https://archive.org/details/dictionaryofpsyc01tuke",
+      "licence": "public-domain-US",
+      "licence_source_url": "https://archive.org/download/dictionaryofpsyc01tuke/dictionaryofpsyc01tuke_djvu.txt",
+      "licence_confirmed": true,
+      "pinned_version": "1892 original US edition; OCR SHA-256 7ec833f3f4ff2826cb5eba1722a767adae625ac9f49f83035a464dc975564f96",
+      "roles": [
+        "draft_basis"
+      ],
+      "decision": "yes",
+      "reason": "Original title page in the scanned book confirms 1892 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance.",
+      "evidence": {
+        "policy_url": "https://archive.org/download/dictionaryofpsyc01tuke/dictionaryofpsyc01tuke_djvu.txt",
+        "reviewed_on": "2026-10-18",
+        "finding": "Original title page in the scanned book confirms 1892 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance.",
+        "licence_confirmed": true,
+        "rights_basis": "original US publication before 1929; title page inspected",
+        "content_snapshot_sha256": "7ec833f3f4ff2826cb5eba1722a767adae625ac9f49f83035a464dc975564f96"
       },
       "asset_pin_required": true
     }
