@@ -1,3 +1,15 @@
+# Current progress
+
+The public repository is [cloudronin/psychterms](https://github.com/cloudronin/psychterms). The [GitHub Pages review preview](https://cloudronin.github.io/psychterms/) contains 198 cited definitions passed by the designated separate model judge and three clearly labelled fixtures. Human review happens on the live preview; vignettes remain deferred. The publisher footer links to https://www.plainword.ai/.
+
+Current priority is a private source-coverage audit across the supplied headwords before further drafting. No old definition text is used and no inherited term list or audit rows are public. Retrieval candidates are distinguished from semantically supported citations. The independent production vocabulary is unchanged.
+
+The source inventory now has 37 candidates: 19 scoped yes decisions and 18 no decisions. It adds the publisher-declared public-domain Online Statistics Education v2 and original US editions of Baldwin volume II (1902) and Tuke (1892). Additional research articles remain discovery candidates until individually checked. Paid dispatch remains disabled; no new paid calls were made for this audit.
+
+## Historical implementation records
+
+The records below describe earlier milestones, not the current deployment or publication policy.
+
 # PsychTerms: implementation status
 
 A standalone local project on branch `cloudronin/bootstrap`. No remote repository, public deployment or DNS change has been made.
