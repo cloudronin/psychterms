@@ -77,6 +77,18 @@ class CandidateTests(unittest.TestCase):
   self.assertIn('Candidate: drafted from the sources shown, not yet read by the two reviewers.',md)
   self.assertIn(self.packet['url'],md)
   self.assertEqual(data['references'][self.packet['id']][0]['packet_hash'],self.packet['packet_hash'])
+ def test_sentence_contract_gets_one_redraft_and_insufficient_sources_are_not_forced(self):
+  from run_candidate_drafts import draft_packet
+  from unittest.mock import Mock
+  first=copy.deepcopy(self.saved);first['parsed']['definition']='One. Two. Three. Four.'
+  client=Mock();client.call.side_effect=[first,self.saved]
+  entry=draft_packet(client,self.packet,self.sources,self.fields,set());self.assertEqual(entry['definition'],self.saved['parsed']['definition']);self.assertEqual(client.call.call_count,2)
+  client=Mock();client.call.side_effect=[first,first]
+  with self.assertRaisesRegex(ValueError,'three sentences'):draft_packet(client,self.packet,self.sources,self.fields,set())
+  self.assertEqual(client.call.call_count,2)
+  first['parsed']['packet_sufficient']=False;client=Mock();client.call.return_value=first
+  with self.assertRaisesRegex(ValueError,'insufficient'):draft_packet(client,self.packet,self.sources,self.fields,set())
+  self.assertEqual(client.call.call_count,1)
  def client(self,path,cap):
   for folder in ('calls','receipts'):(path/folder).mkdir()
   m={'model':'gpt-5.4-2026-03-05','fields':self.fields,'draft_prompt':'Synthetic test prompt','draft_schema':{'required':['definition','field','packet_sufficient']},

@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 12,
   "authority": "Spec v0.2 section 4a; additions by pull request; never edit an entry flag.",
   "rules": {
     "packet_or_anchor_signals": [
@@ -428,6 +428,39 @@
       ],
       "anchors": [
         "D016735"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1 from pinned candidate source packet or named duty."
+    },
+    {
+      "id": "inhalant-abuse",
+      "names": [
+        "inhalant abuse"
+      ],
+      "anchors": [
+        "D058545"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1 from pinned candidate source packet or named duty."
+    },
+    {
+      "id": "pcp",
+      "names": [
+        "PCP"
+      ],
+      "anchors": [
+        "C738"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1 from pinned candidate source packet or named duty."
+    },
+    {
+      "id": "substance-related-disorder",
+      "names": [
+        "substance-related disorder"
+      ],
+      "anchors": [
+        "C92203"
       ],
       "test": 1,
       "reason": "Section 4a test 1 from pinned candidate source packet or named duty."

@@ -23,6 +23,9 @@ class StatusTests(unittest.TestCase):
  def test_drafter_and_duplicate_model_never_make_second_reader(self):
   self.entry['reader_reviews']=[self.reader(),self.reader(),self.reader('codex-initial-fixture')]
   entries,report=self.build();self.assertEqual(entries[0]['status'],'reviewed');self.assertEqual(report['reader_models'],['reader-one'])
+ def test_changed_term_cannot_inherit_reader_evidence_for_a_different_sense(self):
+  self.entry['reader_reviews']=[self.reader()];self.entry['term']='A different concept'
+  with self.assertRaisesRegex(ValueError,'term or ID differs'):self.build()
  def test_stale_packet_or_definition_proof_cannot_promote(self):
   self.entry['reader_reviews']=[self.reader()];self.entry['definition']+=' Edited.'
   with self.assertRaisesRegex(ValueError,'Stale reader'):self.build()

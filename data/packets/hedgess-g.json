@@ -1,0 +1,28 @@
+{
+  "id": "hedgess-g",
+  "term": "Hedges’s g",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "for specific sample sizes (but could also be expressed in terms of whether the 95% confidence interval around Cohen's d s includes 0 or not), whereas Cohen's d s is typically used in an a-priori power analysis for between-subjects designs (even though a power analysis could also be based on the t -value and n per condition). Formula 2 underlines the direct relation between the effect size and the statistical significance. The standardized mean difference can also be calculated without Bessel's correction, in which case it provides the maximum likelihood estimate for a sample, as noted by Hedges and Olkin ( 1985 ). The difference between Cohen's d s and Cohen's d pop (for the population) is important to keep in mind when converting Cohen's d s to the point biserial correlation r pb (which will simply be referred to as r in the remainder of this text). Many textbooks provide the formula to convert Cohen's d pop to r , while the formula to convert Cohen's d s to r (which can only be used for between-subjects designs) is provided by McGrath and Meyer ( 2006 ): As mentioned earlier, the formula for Cohen's d s , which is based on sample averages gives a biased estimate of the population effect size (Hedges and Olkin, 1985 ), especially for small samples ( n < 20). Therefore, Cohen's d s is sometimes referred to as the uncorrected effect size . The corrected effect size , or Hedges's g (which is unbiased, see Cumming, 2012 ), is: I use the same subscript letter in Hedges's g to distinguish different calculations of Cohen's d . Although the difference between Hedges's g s and Cohen's d s is very small, especially in sample sizes above 20 (Kline, 2004 ), it is preferable (and just as easy) to report Hedges's g s . There are also bootstrapping procedures to calculate Cohen's d s when the data are not normally distributed, which can provide a less biased point estimate (Kelley, 2005 ). As long as researchers report the number of participants in each condition for a between-subjects comparison and the t -value, Cohen's d and Hedges' g can be calculated. Whenever standard deviations differ substantially between conditions, Glass's Δ should be reported (see below). Interpreting cohen's d How should researchers interpret this effect size? A commonly used interpretation is to refer to effect sizes as small ( d = 0.2), medium ( d = 0.5), and large ( d = 0.8) based on benchmarks suggested by Cohen ( 1988 ). However, these values are arbitrary and should not be interpreted rigidly (Thompson, 2007 ). Small effect sizes can have large consequences, such as an intervention that leads to a reliable reduction in suicide rates with an effect size of d = 0.1. The only reason to use these benchmarks is because findings are extremely novel, and cannot be compared to related findings in the literature (Cohen, 1988 ). Cohen's d in between-subject designs can be readily interpreted as a percentage of the standard deviation, such that a Cohen's d of 0.5 means the difference equals half a standard deviation. However, the best way to interpret Cohen's d is to relate it to other effects in the literature, and if possible, explain the practical consequences of the effect. Regrettably, there are no clear recommendation of how to do so (Fidler, 2002 ). An interesting, though not often used, interpretation of differences between groups can be provided by the common language effect size (McGraw and Wong, 1992 ), also known as the probability of superiority (Grissom and Kim, 2005 ), which is a more intuitively understandable statistic than Cohen's d or r . It can be calculated directly from Cohen's d , converts the effect size into a percentage, and expresses the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs) or (for within-designs) the probability that an individual has a higher value on one measurement than the other. It is based on the distribution of the difference scores, with a mean that is estimated from the mean differences between the samples, and a standard deviation that is the square root of the sum of the sample",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    16090,
+    20275
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "9777fd161ae2f1d75a102287a2b89d4bec16f00e1537356cbe5edede95dce2fc"
+}

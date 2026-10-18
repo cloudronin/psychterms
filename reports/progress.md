@@ -47,3 +47,7 @@ Verification: 81 Python tests and five site tests pass, including the three rule
 ## Copy policy and publisher domain
 
 AI is permitted in Prep, PsychTerms and site copy; Session and Desk retain the ban. The four universal product-word bans remain. Product-specific regression tests and the built-site copy check pass. PsychTerms keeps psychterms.org; the footer publisher link now points to plainword.ai. Verification: 84 Python tests, five site tests, normal build and copy/link checks pass. No deployment or model calls occurred.
+
+## Completed candidate drafting continuation
+
+The source-ready queue is finished and the final publication contains 5,026 active entries (4,828 candidate, 198 reviewed), plus 24 recorded earlier scope drops. The build writes current counts in the release note. Three copy holds remain unpublished; insufficient source packets were declined rather than forced. See candidate-drafting.json for the $100 line receipts and held reservations. Independent readers are prepared on a separate proposed $25 line; no reader paid call is authorized yet.

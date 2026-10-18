@@ -1,0 +1,28 @@
+{
+  "id": "repeated-measures-design",
+  "term": "repeated measures design",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "strongly correlated, with r = 0.726. As a consequence, the standard deviation of the difference scores is much smaller than the standard deviations of the evaluations of either movie independently. A dependent t -test would provide t (9) = 4.74, p = 0.001. We can calculate Cohen's d z using formula 6, but here we calculate the denominator ( S diff ) using formula 8: This is a markedly higher effect size than Cohen's d s from the independent t -test. Some research questions can only be examined within subjects (see the general discussion), but in this example you might want to be able to compare movie ratings across movies, irrespective of whether all the people who evaluate the movies saw all different movies. Therefore, Hedges's g rm or Hedges's g av would provide a more relevant effect size to describe the effect you are interested in. Hedges's g av is generally recommended (and as the supplementary spreadsheet indicates, also in this specific case), which is 1.08 (note that Hedges's g av rounds to the same value as Hedges's g s in the independent t -test above). We can insert Cohen's d z in G * Power to perform an a-priori power analysis to find a statistically significant effect with α = 0.05 and a power of 0.95. For a two sided test the power analysis would indicate a sample size estimate of 8 participants. This clearly demonstrates the dramatic increase in power that a repeated measures design provides if the observations are strongly correlated. This is also reflected in a smaller 95% confidence interval for Cohen's d z [0.42, 1.80] (for calculations, see ESCI, Cumming and Finch, 2005 ). To report this study, researchers could write “Ten participants evaluated both Movie 1 and Movie 2. Participants reported higher evaluations of Movie 1 ( M = 8.7, SD = 0.82) than Movie 2 ( M = 7.7, SD = 0.95), t (9) = 4.74, p = 0.001, 95% CI [0.52, 1.48], Hedges's g av = 1.08.” The 95% confidence interval of the difference is again by default provided by statistical software packages such as SPSS, as well as provided by the supplementary spreadsheet. Note that we clearly distinguish the way Hedges's g is calculated in this study from the way it was calculated in the between-subjects analysis by the subscript. To interpret this result, we can again calculate the common language effect size. For correlated samples, Z = M diff / S diff (McGraw and Wong, 1992 ), and the percentage associated with the upper tail probability of this value is 0.93 (see the supplementary spreadsheet). We can therefore add the interpretation “Controlling for individual differences in movie evaluations, the likelihood that people who watch both movies prefer Movie 1 over Movie 2 is 93%.” Instead of using t -tests, we could have analyzed the data using an analysis of variance (ANOVA). A One-Way ANOVA that mirrors the independent samples t -test will provide F (1, 18) = 6.34, p = 0.022, and statistical software such as SPSS will provide the effect size η 2 p = 0.26 (which is identical to η 2 G in a between subjects ANOVA). This effect size is identical to the Cohen's d s of 1.13, as can be seen when we convert Cohen's d s to r using formula 3: and since in a One-Way ANOVA r 2 = η 2 p , 0.51 2 = 0.26. Inserting η 2 p = 0.26 into G * Power to perform an a-priori power analysis for two groups, an α = 0.05, and a power of 0.95 will yield a total sample size of 40. This sample size estimate differs from the sample size of 44 that we found for a Cohen's d s of 1.13. If we would have used Cohen's d pop (which is 1.19) the two power analyses would have provided the same sample size estimate of 40. This example highlights a curious state of affairs where researchers (often implicitly) correct for bias in the effect size estimate when they use Cohen's d s in power analyses, but they do not correct for this bias when they use η 2 p . To correct for bias ω 2 p can be calculated, and although I recommend reporting η 2 p or η 2 G for practical reasons, calculating ω 2 p for simple designs is straightforward. In a One-Way ANOVA with equal sample sizes in each cell, ω 2 p can be calculated through the formula: For the current difference, ω 2 p = 0.21, but as explained",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    42011,
+    46202
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "cb7698d68dc01f0a3c31542d812456b22aed6286ca7cb8e8561d3a34c8e0cda8"
+}

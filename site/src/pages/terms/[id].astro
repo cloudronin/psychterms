@@ -7,7 +7,7 @@ const {entry}=Astro.props;
 const related=entries.filter((e:any)=>entry.also_see.includes(e.id));
 const references=entryReferences[entry.id];
 ---
-<Layout title={`${entry.term} | PsychTerms`} description={firstSentence(entry.definition)}>
+<Layout title={`${entry.term} | PsychTerms`} description={firstSentence(entry.definition)} entryTitle={true}>
  <article class="article-wrap">
   <p class="breadcrumb"><a href={toHref()}>psychterms.org</a> / <span data-entry-content>{entry.id}</span></p>
   <a class="tag" href={toHref(`fields/${entry.field.replaceAll(' ','-')}/`)}>{entry.field}</a>

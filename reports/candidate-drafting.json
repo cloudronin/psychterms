@@ -1,39 +1,58 @@
 {
   "line": "candidate-definitions-v1",
-  "registration_hash": "ccf30c2b50e89ba708861f3f1f3da783e9b04d822e3a8e481728b41b9421bcc1",
+  "current_registration_hash": "daefefd2a6ea457b7fb132bb088926496a8483e4f862d19d78f1987e39a1648a",
+  "draft_registrations": {
+    "ccf30c2b50e89ba708861f3f1f3da783e9b04d822e3a8e481728b41b9421bcc1": 4781,
+    "191886ce45d115a75a333ddf12115b69d3e590e7e9cc85371eeaffdf2dbfea6c": 67,
+    "daefefd2a6ea457b7fb132bb088926496a8483e4f862d19d78f1987e39a1648a": 1
+  },
   "cap_usd": 100,
   "budget": {
-    "calls_reserved": 2403,
+    "calls_reserved": 6532,
     "cap_usd": 100.0,
-    "receipted_usd": 7.729133,
-    "unresolved_reservations_usd": 1.188337,
+    "receipted_usd": 21.823923,
+    "unresolved_reservations_usd": 0.848008,
     "by_category": {
       "draft": {
-        "calls": 2355,
-        "receipted_usd": 7.579336,
-        "unresolved_reservations_usd": 1.188337
+        "calls": 6373,
+        "receipted_usd": 21.32294,
+        "unresolved_reservations_usd": 0.848008
       },
       "redraft": {
-        "calls": 32,
-        "receipted_usd": 0.093828,
+        "calls": 126,
+        "receipted_usd": 0.377147,
         "unresolved_reservations_usd": 0.0
       },
       "transport_schema_retry": {
-        "calls": 16,
-        "receipted_usd": 0.055969,
+        "calls": 33,
+        "receipted_usd": 0.123836,
         "unresolved_reservations_usd": 0.0
       }
     }
   },
   "registered_source_packets": 6290,
-  "scope_and_field_before_dispatch": true,
-  "terminal_outcomes": {
-    "not_published": 476,
-    "candidate": 1832
+  "registered_queue_outcomes": {
+    "Source packet insufficient": 1505,
+    "candidate": 4782,
+    "15-word overlap": 3
   },
-  "source_packets_declined_as_insufficient": 476,
-  "raw_receipt_backed_drafts": 1832,
-  "drafting_in_progress": true,
+  "scope_and_field_before_dispatch": true,
+  "raw_receipt_backed_drafts": 4849,
+  "status_counts": {
+    "candidate": 4828,
+    "dropped": 24,
+    "judged": 0,
+    "released": 0,
+    "reviewed": 198
+  },
+  "active_entries": 5026,
+  "copy_holds": [
+    "motor-cortex",
+    "receptor-molecule",
+    "subthalamus"
+  ],
+  "drafting_in_progress": false,
+  "reader_dispatch_authorized": false,
   "paid_reader_calls": 0,
   "vignettes": 0
 }
