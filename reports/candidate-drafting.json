@@ -3,24 +3,24 @@
   "registration_hash": "ccf30c2b50e89ba708861f3f1f3da783e9b04d822e3a8e481728b41b9421bcc1",
   "cap_usd": 100,
   "budget": {
-    "calls_reserved": 293,
+    "calls_reserved": 2403,
     "cap_usd": 100.0,
-    "receipted_usd": 0.949316,
-    "unresolved_reservations_usd": 0.044035,
+    "receipted_usd": 7.729133,
+    "unresolved_reservations_usd": 1.188337,
     "by_category": {
       "draft": {
-        "calls": 288,
-        "receipted_usd": 0.933125,
-        "unresolved_reservations_usd": 0.044035
+        "calls": 2355,
+        "receipted_usd": 7.579336,
+        "unresolved_reservations_usd": 1.188337
       },
       "redraft": {
-        "calls": 4,
-        "receipted_usd": 0.013368,
+        "calls": 32,
+        "receipted_usd": 0.093828,
         "unresolved_reservations_usd": 0.0
       },
       "transport_schema_retry": {
-        "calls": 1,
-        "receipted_usd": 0.002823,
+        "calls": 16,
+        "receipted_usd": 0.055969,
         "unresolved_reservations_usd": 0.0
       }
     }
@@ -28,18 +28,12 @@
   "registered_source_packets": 6290,
   "scope_and_field_before_dispatch": true,
   "terminal_outcomes": {
-    "not_published": 66,
-    "candidate": 217
+    "not_published": 476,
+    "candidate": 1832
   },
-  "source_packets_declined_as_insufficient": 66,
-  "raw_receipt_backed_drafts": 217,
-  "status_counts": {
-    "candidate": 196,
-    "dropped": 24,
-    "judged": 0,
-    "released": 0,
-    "reviewed": 198
-  },
+  "source_packets_declined_as_insufficient": 476,
+  "raw_receipt_backed_drafts": 1832,
+  "drafting_in_progress": true,
   "paid_reader_calls": 0,
   "vignettes": 0
 }
