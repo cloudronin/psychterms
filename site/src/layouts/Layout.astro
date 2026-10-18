@@ -21,6 +21,6 @@ const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
     </header>
     <div class="preview-notice"><span class="wrap">Development preview. These examples are awaiting editorial review.</span></div>
     <main id="main"><slot /></main>
-    <footer class="site-footer wrap"><div><strong>PsychTerms</strong><p>built by Plainword, free forever</p></div><div><p>A reference for words. Not a treatment guide or medical advice.</p><a href={href('about/')}>Sources, rights and corrections</a></div></footer>
+    <footer class="site-footer wrap"><div><strong>PsychTerms</strong><p>built by <a href="https://plainword.ai/">Plainword</a>, free forever</p></div><div><p>A reference for words. Not a treatment guide or medical advice.</p><a href={href('about/')}>Sources, rights and corrections</a></div></footer>
   </body>
 </html>

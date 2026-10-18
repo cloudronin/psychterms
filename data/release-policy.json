@@ -13,7 +13,12 @@
   "pilot_cap_usd": "20.00",
   "full_run_authorized": false,
   "full_run_cap_usd": null,
-  "banned_product_words": null,
+  "banned_product_words": [
+    "scribe",
+    "listen",
+    "always on",
+    "cloud"
+  ],
   "product_word_check_status": "awaiting_user_list",
   "pilot_vignettes": 50,
   "paid_dispatch_enabled": false,
@@ -33,5 +38,6 @@
   "risk_term_vignettes_allowed": false,
   "separate_risk_card_path_authorized": false,
   "vignette_output_overlap_words": 15,
-  "arcsim_bank_test_substitutes_for_output_checks": false
+  "arcsim_bank_test_substitutes_for_output_checks": false,
+  "ai_allowed_in_product_copy": true
 }

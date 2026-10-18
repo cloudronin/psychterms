@@ -31,3 +31,7 @@ Validation: 65 Python tests and five site tests pass; three synthetic presentati
 Build-owned `risk: true` replaces the earlier presentation flag. The version-1 register contains 30 named category, duty and recorded ArcSim exclusion records, with an exact-byte SHA-256 pin. This is a seed inventory, not a claim of exhaustive risk-term coverage. Missing detected coverage blocks builds until a register PR; source entry flags and scenes on listed entries are rejected. CI preserves earlier register records/rules and requires version bumps. Exports carry both the register snapshot and pin. The page renders the risk badge, exact no-scene sentence and build-check note. No paid calls or release/deployment changes.
 
 Verification: 81 Python tests and five site tests pass, including the three rule paths, manual flag edits, scene rejection, register deletion/weakening, pin tampering and secret-scan regression. Normal static build and schema/packet/link checks pass; the private three-state render test also passes.
+
+## Copy policy and publisher domain
+
+AI is permitted in Prep, PsychTerms and site copy; Session and Desk retain the ban. The four universal product-word bans remain. Product-specific regression tests and the built-site copy check pass. PsychTerms keeps psychterms.org; the footer publisher link now points to plainword.ai. Verification: 84 Python tests, five site tests, normal build and copy/link checks pass. No deployment or model calls occurred.

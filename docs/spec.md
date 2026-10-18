@@ -181,3 +181,7 @@ CC BY 4.0 data, MIT code, never share-alike. Never a copyrighted dictionary's te
 ## Direct decisions retained
 
 No count target applies. Term-to-card fit is required, with unmatched reasons recorded. Generated scenes and notice lines require their own overlap scan and two judges. Public product mentions remain footer-only; that direct decision governs the conflicting publisher wording in section 7.
+
+## Latest copy and publisher-domain decision
+
+AI is allowed in PsychTerms, Prep and site copy; it remains banned in Session and Desk. Scribe, listen, always on and cloud remain banned everywhere in product copy. The Plainword site moves to plainword.ai and the PsychTerms footer links there; PsychTerms itself retains psychterms.org.
