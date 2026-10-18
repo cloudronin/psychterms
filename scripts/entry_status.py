@@ -32,6 +32,7 @@ def drafter(entry):
     raise ValueError('Missing drafting identity: '+entry['id'])
 
 def readers(entry,packet):
+    if packet['id']!=entry['id'] or packet['term']!=entry['term']:raise ValueError('Entry term or ID differs from its source packet')
     records=([entry['model_review']] if entry.get('model_review') else [])+entry.get('reader_reviews',[])
     by_model={};expected=digest({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True})
     for r in records:

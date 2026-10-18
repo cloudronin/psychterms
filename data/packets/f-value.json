@@ -1,0 +1,28 @@
+{
+  "id": "f-value",
+  "term": "F value",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "comparisons Eta squared η 2 (part of the r family of effect sizes, and an extension of r 2 that can be used for more than two sets of observations) measures the proportion of the variation in Y that is associated with membership of the different groups defined by X, or the sum of squares of the effect divided by the total sum of squares: An η 2 of 0.13 means that 13% of the total variance can be accounted for by group membership. Although η 2 is an efficient way to compare the sizes of effects within a study (given that every effect is interpreted in relation to the total variance, all η 2 from a single study sum to 100%), eta squared cannot easily be compared between studies, because the total variability in a study ( SS total ) depends on the design of a study, and increases when additional variables are manipulated. Keppel ( 1991 ) has recommended partial eta squared (η 2 p ) to improve the comparability of effect sizes between studies, which expresses the sum of squares of the effect in relation to the sum of squares of the effect and the sum of squares of the error associated with the effect. Partial eta squared is calculated as: For designs with fixed factors (manipulated factors, or factors that exhaust all levels of the independent variable, such as alive vs. dead), but not for designs with measured factors or covariates, partial eta squared can be computed from the F -value and its degrees of freedom (e.g., Cohen, 1965 ): For example, for an F (1, 38) = 7.21, η 2 p = 7.21 × 1/(7.21 × 1 + 38) = 0.16. This relationship between η 2 p and F illustrates how η 2 p can be used in power analyses to estimate the desired sample size for a future experiment, and software programs such as G * Power require η 2 p as input for this reason. If researchers want to facilitate power analyses, they should report η 2 p , especially for designs where not all factors are manipulated. Users of G * Power should be aware that the default η 2 p for within designs as used by G * Power does not correspond to the η 2 p as provided by SPSS. When using η 2 p as provided by SPSS to perform power calculations in G * Power, one cannot simply use the default settings of the program. Where SPSS provides a η 2 p that already incorporates the correlation between paired measures (hence the difference in η 2 p for the same two means and standard deviations depending on whether they come from a between or within-subjects designs), G * Power defines η 2 p for within-subjects designs in exactly the same way as for between-subjects designs (and incorporates the correlations between dependent measures during the power calculations). A more formal description of these differences, as well as an explanation how to convert SPSS η 2 p to G * Power η 2 p is provided in the Appendix. The most recent version of G * Power (3.1) allows researchers to indicate that they are directly using an SPSS η 2 p in their calculations by selecting a radio button in an options menu. This option is not the default, and it is likely that researchers will calculate a wrong sample estimate if they are not aware of the difference between SPSS η 2 p and G * Power η 2 p . When η 2 p is used in the remainder of this document, the SPSS equivalent that includes the correlation between dependent measures is meant. Although η 2 p is more useful when the goal is to compare effect sizes across studies, it is not perfect, because η 2 p differs when the same two means are compared in a within-subjects design or a between-subjects design. In a within-subjects ANOVA, the error sum of squares can be calculated around the mean of each measurement, but also around the mean of each individual when the measurements are averaged across individuals. This allows researchers to distinguish variability due to individual differences from variability due to the effect in a within-subjects design, whereas this differentiation is not possible in a between-subjects design. As a consequence, whenever the two groups of observations are positively correlated, η 2 p will be larger in a within-subjects design than in a between-subjects design. This is also the reason a within-subjects ANOVA typically has a higher",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    29263,
+    33459
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "e83d5c3adca0f8a5e6bc062fe25d0f68be91988b415c61de9f83699ffe6c167a"
+}

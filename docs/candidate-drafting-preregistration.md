@@ -21,3 +21,9 @@ An interrupted network call keeps its full reservation; at most one transport re
 ## Scope-checked continuation
 
 The continuation is registered at `ccf30c2b50e89ba708861f3f1f3da783e9b04d822e3a8e481728b41b9421bcc1` on the same $100 ledger. Its queue contains 6290 admitted packets after scope and field checks; rejected records are skipped before paid calls, with alternate permitted sources tried first. Gene/allele records cannot stand in for unrelated psychology senses. Exact unchanged source packets previously declined as insufficient are not billed again. Code dependencies, executor, queue, model and prompt are pinned before dispatch. Request-hash caches preserve earlier receipts across amendments. The comparison corpus includes the whole registered queue, all existing public packets and definitions. No paid reader or scene calls use this line.
+
+## Completed source-ready queue
+
+The 6,290-packet continuation is complete: 4,782 new candidates, 1,505 insufficient packets (including five unchanged prior declines skipped without billing), and three persistent 15-word copy holds after the registered redraft. One sentence-limit failure was recovered with its unused single editorial redraft under amendment `daefefd2a6ea457b7fb132bb088926496a8483e4f862d19d78f1987e39a1648a`. Earlier registration and provider receipts remain archived; every definition retains the registration that actually drafted it.
+
+The site has 5,026 active entries: 4,828 candidate and 198 reviewed, with 24 prior scope drops separately listed. The drafting line has $21.823923 in reconciled receipts and $0.848008 held for uncertain calls against the same approved $100 cap. There are no paid readers or scenes on this line. Additional retrieval candidates still need suitable admitted source packets; a retrieval hit is not a supported definition.

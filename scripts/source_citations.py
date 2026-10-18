@@ -20,6 +20,7 @@ def references(entries,root=ROOT):
  result={}
  for entry in entries:
   packet=json.loads((root/'data/packets'/(entry['id']+'.json')).read_text())
+  if packet['id']!=entry['id'] or packet['term']!=entry['term']:raise ValueError('Citation term does not match source packet')
   if packet['packet_hash']!=entry['packet_hash']:raise ValueError('Citation packet does not match entry')
   rows=[]
   for p in entry['provenance']:

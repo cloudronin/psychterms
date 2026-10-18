@@ -1,0 +1,28 @@
+{
+  "id": "paired-samples-t-test",
+  "term": "paired-samples t test",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "than a randomly sampled person from the other group (for between designs) or (for within-designs) the probability that an individual has a higher value on one measurement than the other. It is based on the distribution of the difference scores, with a mean that is estimated from the mean differences between the samples, and a standard deviation that is the square root of the sum of the sample variances divided by two. Mathematically, the common language effect size is the probability of a Z-score greater than the value that corresponds to a difference between groups of 0 in a normal distribution curve. Z can be calculated by: after which the common language effect size is the percentage associated with the upper tail probability of this value. The supplementary spreadsheet provides an easy way to calculate the common language effect size. Cohen's d in one-sample or correlated samples comparisons Conceptually, calculating Cohen's d for correlated measurements is the same as calculating Cohen's d for independent groups, where the differences between two measurements are divided by the standard deviation of both groups of measurements. However, in the case of correlated measurements the dependent t -test uses the standard deviation of the difference scores. Testing whether observations from two correlated measurements are significantly different from each other using a paired samples t -test is mathematically identical to testing whether the difference scores of the correlated measurements is significantly different from 0 using a one-sample t -test. Similarly, calculating the effect size for the difference between two correlated measurements is similar to the effect size that is calculated for a one sample t -test. The standardized mean difference effect size for within-subjects designs is referred to as Cohen's d z , where the Z alludes to the fact that the unit of analysis is no longer X or Y, but their difference, Z, and can be calculated with: where the numerator is the difference between the mean ( M ) of the difference scores and the comparison value μ (e.g., 0), and the denominator is the standard deviation of the difference scores ( S diff ). The effect size estimate Cohen's d z can also be calculated directly from the t -value and the number of participants using the formula provided by Rosenthal ( 1991 ): Given the direct relationship between the t -value of a paired-samples t -test and Cohen's d z , it will not be surprising that software that performs power analyses for within-subjects designs (e.g., G * Power, (Faul et al., 2009 )) relies on Cohen's d z as input. To allow researchers to perform an a-priori power analysis, it is therefore enough to report the t -value and the number of pairs of observations (or the degrees of freedom, n − 1). Cohen's d z is only rarely used in meta-analyses, because researchers often want to be able to compare effects across within and between-subject designs. One solution (which is not generally recommended) is to use Cohen's d rm , where the subscript is used by Morris and DeShon ( 2002 ) to indicate this is the equivalent of Cohen's d for repeated measures . Cohen's d rm controls for the correlation between the two sets of measurements, as explained below. An alternative formula to calculate the standard deviation of the difference scores from the standard deviations of both groups and their correlation is given by Cohen ( 1988 ) as: where r is the correlation between measures, and S is the standard deviation within each of the two sets of observations. As the correlation between measures increases, the standard deviation of the difference scores decreases. In experimental psychology, correlations between measures are typically a positive non-zero value. This has two consequences. First, within-subjects designs typically have more statistical power than between-subjects designs, because the standard deviation of the difference scores is smaller than the standard deviations of the two groups of observations. Second, under the assumption of equal variances (for unequal variances, Glass's Δ should be calculated, see below), the mean standardized difference between the",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    19880,
+    24068
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "420e855fab43367e5157f3e4609950936a0e420c2d210af53bcdf27e4ffd0bfc"
+}

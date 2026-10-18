@@ -1,0 +1,28 @@
+{
+  "id": "independent-samples-t-test",
+  "term": "independent-samples t test",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "if the observations are strongly correlated. This is also reflected in a smaller 95% confidence interval for Cohen's d z [0.42, 1.80] (for calculations, see ESCI, Cumming and Finch, 2005 ). To report this study, researchers could write “Ten participants evaluated both Movie 1 and Movie 2. Participants reported higher evaluations of Movie 1 ( M = 8.7, SD = 0.82) than Movie 2 ( M = 7.7, SD = 0.95), t (9) = 4.74, p = 0.001, 95% CI [0.52, 1.48], Hedges's g av = 1.08.” The 95% confidence interval of the difference is again by default provided by statistical software packages such as SPSS, as well as provided by the supplementary spreadsheet. Note that we clearly distinguish the way Hedges's g is calculated in this study from the way it was calculated in the between-subjects analysis by the subscript. To interpret this result, we can again calculate the common language effect size. For correlated samples, Z = M diff / S diff (McGraw and Wong, 1992 ), and the percentage associated with the upper tail probability of this value is 0.93 (see the supplementary spreadsheet). We can therefore add the interpretation “Controlling for individual differences in movie evaluations, the likelihood that people who watch both movies prefer Movie 1 over Movie 2 is 93%.” Instead of using t -tests, we could have analyzed the data using an analysis of variance (ANOVA). A One-Way ANOVA that mirrors the independent samples t -test will provide F (1, 18) = 6.34, p = 0.022, and statistical software such as SPSS will provide the effect size η 2 p = 0.26 (which is identical to η 2 G in a between subjects ANOVA). This effect size is identical to the Cohen's d s of 1.13, as can be seen when we convert Cohen's d s to r using formula 3: and since in a One-Way ANOVA r 2 = η 2 p , 0.51 2 = 0.26. Inserting η 2 p = 0.26 into G * Power to perform an a-priori power analysis for two groups, an α = 0.05, and a power of 0.95 will yield a total sample size of 40. This sample size estimate differs from the sample size of 44 that we found for a Cohen's d s of 1.13. If we would have used Cohen's d pop (which is 1.19) the two power analyses would have provided the same sample size estimate of 40. This example highlights a curious state of affairs where researchers (often implicitly) correct for bias in the effect size estimate when they use Cohen's d s in power analyses, but they do not correct for this bias when they use η 2 p . To correct for bias ω 2 p can be calculated, and although I recommend reporting η 2 p or η 2 G for practical reasons, calculating ω 2 p for simple designs is straightforward. In a One-Way ANOVA with equal sample sizes in each cell, ω 2 p can be calculated through the formula: For the current difference, ω 2 p = 0.21, but as explained above, calculating ω 2 p can become quite complex in more elaborate designs, and therefore I recommend to report η 2 p . To report this analysis, researchers could write in the procedure section that: “Twenty participants evaluated either Movie 1 ( n = 10) or Movie 2 ( n = 10). Participants reported higher evaluations of Movie 1 ( M = 8.7, SD = 0.82) than Movie 2 ( M = 7.7, SD = 0.95), F (1, 18) = 6.34, p = 0.022, η 2 p = 0.26, 90% CI [0.02, 0.48].” Whereas in a t -test, we compare two groups, and can therefore calculate a confidence interval for the mean difference, we can perform F -tests for comparisons between more than two groups. To be able to communicate the uncertainty in the data, we should still report a confidence interval, but now we report the confidence interval around the effect size. An excellent explanation of confidence intervals around effect size estimates for F -tests, which is accompanied by easy to use syntax files for a range of statistical software packages (including SPSS) is provided by Smithson ( 2001 ) 2 . The 90% confidence interval is reported due to the fact that an F -test is always a one-sided test, and the 90% confidence interval always excludes 0 when the F -test is statistically significant, while the 95% confidence interval does not. Finally, let's look at the repeated measures ANOVA that mirrors the dependent t -test, which gives F (1, 9) = 22.50, p = 0.001. Statistical",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    43443,
+    47634
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "57922c720594054e8449194c5c4f3ef6d5a8958696fb12f1411bacceacb46f96"
+}

@@ -129,6 +129,15 @@ def candidate_entry(packet,saved,sources,fields,index):
         'draft_evidence':{'model':saved['model'],'receipt_id':saved['receipt_id'],'request_hash':saved['request_hash'],'registration_hash':saved['registration_hash'],'definition_hash':digest(draft),'packet_hash':packet['packet_hash']}}
     entry['hash']=semantic_hash(entry);validate_entry(entry,sources,fields);return entry
 
+def draft_packet(client,packet,sources,fields,index):
+    saved=client.call(packet)
+    try:return candidate_entry(packet,saved,sources,fields,index)
+    except ValueError as error:
+        if str(error) not in ('15-word overlap','More than three sentences'):raise
+        reason='A run of at least 15 consecutive words matches the pinned comparison corpus. Rewrite in original wording using only the same packet.' if str(error)=='15-word overlap' else 'The draft exceeds the one-to-three-sentence limit. Rewrite in at most three plain-language sentences, avoiding abbreviations that create extra sentence boundaries, using only the same packet.'
+        saved=client.call(packet,{'previous_definition':saved['parsed']['definition'],'reason':reason})
+    return candidate_entry(packet,saved,sources,fields,index)
+
 def publish_candidate(entry,packet,registry):
     for folder,value in [('data/entries',entry),('data/packets',packet)]:
         path=ROOT/folder/(entry['id']+'.json')
@@ -152,18 +161,12 @@ def run(execute,key_file,limit=None):
     budget=Budget(DEST/'budget.sqlite',int(Decimal(manifest['authorized_cap_usd'])*1_000_000));client=Client(manifest,packets,match[0],budget,DEST)
     outcome_path=DEST/'outcomes.json'
     outcomes=json.loads(outcome_path.read_text()) if outcome_path.exists() else {}
-    existing={e['id'] for e in entries};queue=[p for p in packets if p['id'] not in existing and outcomes.get(p['id'],{}).get('packet_hash')!=p['packet_hash'] and not (outcomes.get(p['id'],{}).get('reason')=='Source packet insufficient' and outcomes.get(p['id'],{}).get('source_content_hash')==source_content_hash(p))]
+    existing={e['id'] for e in entries};queue=[p for p in packets if p['id'] not in existing and (outcomes.get(p['id'],{}).get('packet_hash')!=p['packet_hash'] or (outcomes.get(p['id'],{}).get('reason')=='More than three sentences' and not any((DEST/'calls').glob(p['id']+'-redraft*.json')))) and not (outcomes.get(p['id'],{}).get('reason')=='Source packet insufficient' and outcomes.get(p['id'],{}).get('source_content_hash')==source_content_hash(p))]
     if limit:queue=queue[:limit]
     public_packets=[json.loads(p.read_text()) for p in (ROOT/'data/packets').glob('*.json')]
     index=copy_index([p['text'] for p in packets+public_packets]+[e['definition'] for e in entries]);registry,_=load_registry();definitions={normalize(e['definition']) for e in entries}
     results=[]
-    def draft(packet):
-        saved=client.call(packet)
-        try:check_draft(saved['parsed'],fields,index)
-        except ValueError as error:
-            if str(error)!='15-word overlap':raise
-            saved=client.call(packet,{'previous_definition':saved['parsed']['definition'],'reason':'A run of at least 15 consecutive words matches the pinned comparison corpus. Rewrite in original wording using only the same packet.'})
-        return candidate_entry(packet,saved,sources,fields,index)
+    def draft(packet):return draft_packet(client,packet,sources,fields,index)
     with concurrent.futures.ThreadPoolExecutor(max_workers=manifest['workers']) as pool:
         futures={pool.submit(draft,p):p for p in queue}
         for future in concurrent.futures.as_completed(futures):

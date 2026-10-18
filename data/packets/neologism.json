@@ -1,0 +1,28 @@
+{
+  "id": "neologism",
+  "term": "neologism",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "future articles about effect size calculations should provide software or spreadsheets to make it as easy as possible for researchers to implement these calculations into their workflow. For excellent examples, see ESCI (Cumming and Finch, 2005 ), confidence interval software by Smithson ( 2001 ), and G * Power (Faul et al., 2009 ). Note that the easiest way to facilitate cumulative science is to share the data of the studies you report. The internet makes it incredibly easy to upload data files in order to share them with the scientific community (for example, see www.openscienceframework.org ). Especially for mixed designs or analyses with covariates, where calculating ω 2 G becomes quite complex, sharing the data will always enable researchers who want to perform a meta-analysis to calculate the effect sizes they need. A more fundamental question is whether effect sizes from within-subjects designs that control for intra-subjects variability (η 2 p and ω 2 p ), or that take the correlation between measurements into account (Cohen's d z ) are an accurate description of the size of the effect, or whether effect sizes that do not control for intra-subjects variability (η 2 G and ω 2 G ), or that control for correlation between measurements (e.g., Cohen's d rm or Cohen's d av ) are preferred. I believe this discussion is currently biased by what could be called designism , a neologism to refer to the implicit belief that between-subjects designs are the default experimental design, and that effect sizes calculated from between-subjects designs are more logical or natural. The defense for designism is as follows. It is desirable to be able to compare effect sizes across designs, regardless of whether the observations originate from a within or between-subjects design. Because it is not possible to control for individual differences in between-subject designs, we therefore should consider the effect size that does not control for individual differences as the natural effect size. As a consequence, effect sizes that control for individual differences are “inflated” compared to the “default” (e.g., Dunlap et al., 1996 ). Such a reasoning ignores the fact that many effects in psychology are inherently contextual. For example, consider the investigation of how people slow down in a reaction time task after they have made an error ( post-error slowing ; Rabbit, 1966 ). Recently, Dutilh et al. ( 2012 ) have suggested that the best way to answer research questions about post-error slowing is to calculate pairwise comparisons around each error, and analyze these difference scores (against zero, or against the difference score in other conditions), instead of averaging response times over all pre-error and post error responses and compare these two averages in a paired-samples t -test. In other words, the difference score is the most natural unit of analysis in such research. Because a between-subjects design is not possible, there will never be a meta-analysis that compares post-error slowing across between and within-subjects designs. Because difference scores are the natural unit of analysis, one could argue that the larger effect sizes are not inflated, but within-subjects analyses simply reflect a different research question, examined at a different level of analysis (intra-individual instead of inter-individual). There are clear parallels with continuing discussions about measures for the proportion of variance explained in multilevel modeling, where it is much more common to assume that repeated measurements of individuals are the default unit of analysis (see Tabachnick and Fidell, 2001 ). When empirical questions can only be examined in within-subjects designs (such as in the case of post-error slowing), effect sizes that control for intra-subjects variability (η 2 p and ω 2 p ), or that take the correlation between measurements into account (Cohen's d z ) are a reasonable statistic to report. This is nicely demonstrated by the common language effect size (which can be directly calculated from Cohen's d s or Cohen's d z ). In the illustrative example presented earlier in this article, we concluded the chance that for a",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    53827,
+    58020
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "593d693863dfcfdc1611eb86986bf84052a2fbc875292ad28125babae37f4e54"
+}

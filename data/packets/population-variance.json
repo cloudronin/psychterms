@@ -1,0 +1,28 @@
+{
+  "id": "population-variance",
+  "term": "population variance",
+  "source": "frontiers",
+  "licence": "CC-BY-4.0",
+  "source_record": "9b939b04f5240b5c5c85",
+  "revision": "2013 volume 4; DOI 10.3389/fpsyg.2013.00863",
+  "source_snapshot_sha256": "f2e51782a66eebcd47f09f5d4ce87bbd24842742901d81ef6f0f1f2643ab1c96",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full",
+  "text": "mean difference of an effect. This value can be used to compare effects across studies, even when the dependent variables are measured in different ways, for example when one study uses 7-point scales to measure dependent variables, while the other study uses 9-point scales, or even when completely different measures are used, such as when one study uses self-report measures, and another study used physiological measurements. It ranges from 0 to infinity. Cohen ( 1988 ) uses subscripts to distinguish between different versions of Cohen's d , a practice I will follow because it prevents confusion (without any subscript, Cohen's d denotes the entire family of effect sizes). Cohen refers to the standardized mean difference between two groups of independent observations for the sample as d s which is given by: In this formula, the numerator is the difference between means of the two groups of observations. The denominator is the pooled standard deviation. Remember that the standard deviation is calculated from the differences between each individual observation and the mean for the group. These differences are squared to prevent the positive and negative values from cancelling each other out, and summed (also referred to as the sum of squares ). This value is divided by the number of observations minus one, which is Bessel's correction for bias in the estimation of the population variance, and finally the square root is taken. This correction for bias in the sample estimate of the population variance is based on the least squares estimator (see McGrath and Meyer, 2006 ). Note that Cohen's d s is sometimes referred to as Cohen's g , which can be confusing. Cohen's d s for between-subjects designs is directly related to a t -test, and can be calculated by: If only the total sample size is known, Cohen's . Statistical significance is typically expressed in terms of the height of t -values for specific sample sizes (but could also be expressed in terms of whether the 95% confidence interval around Cohen's d s includes 0 or not), whereas Cohen's d s is typically used in an a-priori power analysis for between-subjects designs (even though a power analysis could also be based on the t -value and n per condition). Formula 2 underlines the direct relation between the effect size and the statistical significance. The standardized mean difference can also be calculated without Bessel's correction, in which case it provides the maximum likelihood estimate for a sample, as noted by Hedges and Olkin ( 1985 ). The difference between Cohen's d s and Cohen's d pop (for the population) is important to keep in mind when converting Cohen's d s to the point biserial correlation r pb (which will simply be referred to as r in the remainder of this text). Many textbooks provide the formula to convert Cohen's d pop to r , while the formula to convert Cohen's d s to r (which can only be used for between-subjects designs) is provided by McGrath and Meyer ( 2006 ): As mentioned earlier, the formula for Cohen's d s , which is based on sample averages gives a biased estimate of the population effect size (Hedges and Olkin, 1985 ), especially for small samples ( n < 20). Therefore, Cohen's d s is sometimes referred to as the uncorrected effect size . The corrected effect size , or Hedges's g (which is unbiased, see Cumming, 2012 ), is: I use the same subscript letter in Hedges's g to distinguish different calculations of Cohen's d . Although the difference between Hedges's g s and Cohen's d s is very small, especially in sample sizes above 20 (Kline, 2004 ), it is preferable (and just as easy) to report Hedges's g s . There are also bootstrapping procedures to calculate Cohen's d s when the data are not normally distributed, which can provide a less biased point estimate (Kelley, 2005 ). As long as researchers report the number of participants in each condition for a between-subjects comparison and the t -value, Cohen's d and Hedges' g can be calculated. Whenever standard deviations differ substantially between conditions, Glass's Δ should be reported (see below). Interpreting cohen's d How should researchers interpret this effect size? A",
+  "source_label": "Calculating and reporting effect sizes",
+  "tree_numbers": [],
+  "semantic_types": [],
+  "source_kind": "approved_text_passage_only",
+  "source_character_range": [
+    14175,
+    18356
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "admitted-method-source",
+    "policy_version": 2
+  },
+  "packet_hash": "3c3b47e1797641ba38621184cc5dfcc0a7d642a19782a99f20e8b00f71a00993"
+}

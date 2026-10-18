@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-const {title = 'PsychTerms', description = 'An independent, open dictionary of psychology and counselling.'} = Astro.props;
+const {title = 'PsychTerms', description = 'An independent, open dictionary of psychology and counselling.', entryTitle = false} = Astro.props;
 const base = import.meta.env.BASE_URL;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
@@ -14,7 +14,7 @@ const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:url" content={canonicalUrl} />
     <meta name="color-scheme" content="light" />
-    <title>{title}</title>
+    <title data-entry-content={entryTitle ? "" : undefined}>{title}</title>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
