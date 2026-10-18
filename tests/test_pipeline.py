@@ -74,7 +74,7 @@ class PipelineTests(unittest.TestCase):
  def test_single_domain_and_owner(self):
   config=json.loads((ROOT/'data/site-config.json').read_text())
   self.assertEqual(config['name'],'PsychTerms');self.assertEqual(config['domain'],'psychterms.org')
-  self.assertEqual(config['owner'],'Vishnu Vettrivel');self.assertFalse(config['custom_domain_active'])
+  self.assertEqual(config['owner'],'Vishnu Vettrivel');self.assertTrue(config['custom_domain_active'])
   self.assertFalse((ROOT/'site/public/CNAME').exists())
  def test_risk_classification_is_hash_bound(self):
   e=self.entries[0];before=e['hash'];e['risk']=True

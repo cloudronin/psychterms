@@ -29,7 +29,7 @@ npm run preview
 - [Completed pilot report](reports/pilot-report.md), [combined PREREG](docs/pilot-combined-preregistration.md), and [per-item receipt costs](reports/pilot-item-costs.csv).
 - [ArcSim adapter baseline](docs/card-hash-proposal.md) and [term-to-card fit results](reports/vignette-fit.json).
 - [Progress and verification](reports/progress.md).
-- Name and owner: PsychTerms, Vishnu Vettrivel. Sole domain: psychterms.org. GitHub Pages first; custom-domain activation is disabled.
+- Name and owner: PsychTerms, Vishnu Vettrivel. Sole domain: psychterms.org. GitHub Pages hosts the review preview at https://psychterms.org/ with the site rooted at `/`.
 
 The offline build never dispatches paid calls. The registered pilot has completed its attempts: 195/200 definitions passed the machine checks; 12 still have wording holds. Of 50 scene candidates, seven matched a fixed card, 38 were unmatched and five were risk exclusions. Five scenes were retained privately; two failed the final audit after their allowed redraft, crossing the registered 20% stop. Both judges had passed those two scenes, so this configuration is not cleared for scale.
 
