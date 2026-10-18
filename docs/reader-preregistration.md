@@ -23,4 +23,4 @@ The private proposal is `.private/reader-reviews/preregistration.json`, with a p
 
 ## Prepared corpus
 
-Proposal SHA-256: `005810d32d24e2719133daae1adb172031d6ed1073a22c0b5a77283bfa836ffe`. The frozen proposal contains 9854 reader calls for 5,026 active entries; the 198 existing mini passes are reused. The illustrative uncached estimate is **$7.15**, using the stated token assumption and prior pilot output rate. The proposed $25 cap includes retry headroom and remains unapproved. No paid call is authorized by this document.
+Proposal SHA-256: `d7eec83352476cea8c30aff73ffafc8af913adf8eb58f62d8282412e8169697e`. The frozen proposal contains 9854 reader calls for 5,026 active entries; the 198 existing mini passes are reused. The illustrative uncached estimate is **$7.15**, using the stated token assumption and prior pilot output rate. The proposed $25 cap includes retry headroom and remains unapproved. No paid call is authorized by this document.

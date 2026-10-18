@@ -40,7 +40,7 @@ def prepare(dest=DEST):
  if previous.exists():
   old=json.loads(previous.read_text());archive=dest/'registrations';archive.mkdir(exist_ok=True)
   if old.get('registration_hash')!=digest({k:v for k,v in old.items() if k!='registration_hash'}):raise ValueError('Previous reader registration was modified')
-  (archive/(old['registration_hash']+'.json')).write_text(json.dumps(old,indent=2)+'\n')
+  (archive/(old['registration_hash']+'.json')).write_text(json.dumps(old,indent=2)+chr(10))
  (dest/'jobs.json').write_text(json.dumps(jobs,ensure_ascii=False,indent=2)+'\n');(dest/'preregistration.json').write_text(json.dumps(m,indent=2)+'\n')
  return m
 
