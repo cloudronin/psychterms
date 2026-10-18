@@ -137,6 +137,11 @@ if __name__=='__main__':
   report['status_counts']=dict(collections.Counter(r['status'] for r in rows))
   report['source_match_counts']=dict(collections.Counter(source for r in rows for source in {m['source'] for m in r['matches']}))
  add_article_candidates(rows,args.out)
+ report['article_query_runs']=[]
+ for name in ('article-query-progress.json','article-wide-query-progress.json'):
+  progress=args.out/name
+  if progress.exists():
+   run=json.loads(progress.read_text());report['article_query_runs'].append({'report':name,'batches_done':run['batches_done'],'batches_total':run['batches_total'],'complete':run['batches_done']==run['batches_total'],'failed_batches':len(run.get('failed_batches',[])),'truncated_batches':len(run.get('truncated_batches',[]))})
  report['status_counts']=dict(collections.Counter(r['status'] for r in rows))
  report['source_match_counts']=dict(collections.Counter(source for r in rows for source in {m.get('source',m.get('source_id')) for m in r['matches']}))
  (args.out/'coverage.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
