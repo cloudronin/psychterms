@@ -12,7 +12,7 @@ def build(entries,release=False):
  dictionary={'schema_version':1,'release_version':'0.0.0-preview' if not release else '1.0.0','status':mode,'risk_register':risk_pin,'entries':ordered,'references':refs}
  md=['# PsychTerms', '', 'Public review preview; human review pending, not a finished dictionary release.' if not release else 'PsychTerms, by Vishnu Vettrivel, CC BY 4.0.', '']
  for e in ordered:
-  md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])
+  md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Status: {"Candidate · not yet reviewed" if e["review_status"]=="candidate" else e["review_status"]}',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])
   if e.get('editorial_note'):md.extend(['Wording review pending: '+e['editorial_note'], ''])
   md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]})' for r in refs[e['id']]], ''])
   if e.get('risk'):md.extend(['No scene is provided for this risk term.', ''])

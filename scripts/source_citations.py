@@ -6,11 +6,12 @@ ROLE_LABELS={'draft_basis':'Drafting source','supports_definition':'Supporting s
 def packet_citation(packet,sources,role='draft_basis'):
  validate_packet(packet,sources)
  source=sources[packet['source']]
+ label=packet.get('source_label',packet['term'])
  if role not in ROLE_LABELS:raise ValueError('Unknown citation role')
  if packet['source']=='mesh-2026':
-  citation=f'U.S. National Library of Medicine. Medical Subject Headings (MeSH), {packet["revision"]}. “{packet["term"]}” ({packet["source_record"]}).'
+  citation=f'U.S. National Library of Medicine. Medical Subject Headings (MeSH), {packet["revision"]}. “{label}” ({packet["source_record"]}).'
  else:
-  citation=f'{source["candidate"]}. {packet["revision"]}. “{packet["term"]}” ({packet["source_record"]}).'
+  citation=f'{source["candidate"]}. {packet["revision"]}. “{label}” ({packet["source_record"]}).'
  return {'source':packet['source'],'record_id':packet['source_record'],'revision':packet['revision'],'role':role,'role_label':ROLE_LABELS[role],
          'citation':citation,'url':packet['url'],'licence':packet['licence'],'packet_hash':packet['packet_hash'],'source_snapshot_sha256':packet['source_snapshot_sha256']}
 

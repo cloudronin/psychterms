@@ -193,3 +193,7 @@ Definitions ship without waiting for vignettes. Publish model-passed definitions
 ## Latest priority: complete source coverage first
 
 Privately audit all 26,286 supplied headwords against permitted sources before more drafting. Use the headwords only; no old definition text enters a source query or drafting model, and the inherited headword list remains private. Record specific source candidates, source roles, pinned snapshots, semantic-review status and unresolved gaps for every row. Source records and background anchors are distinguished. The production term inventory remains independently sourced.
+
+## Latest direct decision: candidates before judging
+
+Publish newly drafted, cited definitions with review_status candidate and the label “Candidate · not yet reviewed”. Judge review follows publication and may promote an entry or leave the status unchanged. No passing verdict is inferred. Definitions use admitted source packets only; inherited prose is never model input or public content. Source discovery and packet preparation continue for candidates that currently have only background anchors. The old pilot is not reopened; new paid drafting still requires its own registered cap.

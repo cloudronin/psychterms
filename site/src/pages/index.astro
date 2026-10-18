@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import {entries,toHref} from '../lib';
+import {entries,reviewLabel,toHref} from '../lib';
 const letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const active=new Set(entries.map((e:any)=>e.term[0].toUpperCase()));
 ---
@@ -16,9 +16,10 @@ const active=new Set(entries.map((e:any)=>e.term[0].toUpperCase()));
     <section class="browse-section" id="browse">
       <div class="section-heading"><h2>Browse the dictionary</h2><span>{entries.length} terms for review</span></div>
       <div class="alphabet" aria-label="Alphabetical index">{letters.map(letter=>active.has(letter)?<a href={toHref(`letters/${letter.toLowerCase()}/`)}>{letter}</a>:<span>{letter}</span>)}</div>
-      <div class="cards">{entries.map((e:any)=><article class="term-card"><p class="field">{e.field}</p><h3><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a></h3><p data-entry-content>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
+      <p class="small">Showing the first {Math.min(entries.length,60)} terms. Use search or the alphabetical index to browse every entry.</p>
+      <div class="cards">{entries.slice(0,60).map((e:any)=><article class="term-card"><p class="field">{e.field}</p><p class="small" data-review-status={e.review_status}>{reviewLabel(e)}</p><h3><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a></h3><p data-entry-content>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
     </section>
-    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Definitions include their sources, version and citation. Entries identify the model review and any wording concerns. Human review is in progress; vignettes come later.</p></section>
+    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Definitions include their sources, version and citation. Candidates are published before judge review and clearly labelled. Reviewed entries identify their model review and any wording concerns; vignettes come later.</p></section>
   </div>
 </Layout>
 <script>

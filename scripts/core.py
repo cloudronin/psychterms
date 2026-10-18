@@ -51,11 +51,24 @@ def validate_entry(entry, sources, fields, release=False):
             if item['role'] not in source['roles']:raise ValueError('Source role not allowed')
         if item['role']=='draft_basis':basis=True
     if not basis:raise ValueError('No permitted drafting basis')
-    if entry['review_status'] not in {'preview_fixture','model_passed_preview','accepted'}:raise ValueError('Unknown review status')
+    if entry['review_status'] not in {'preview_fixture','model_passed_preview','accepted','candidate'}:raise ValueError('Unknown review status')
+    if entry['review_status']=='candidate':
+        if entry.get('model_review') or entry.get('reviews'):raise ValueError('Candidate cannot claim a passing review')
+        validate_draft_evidence(entry)
     if entry['review_status']=='model_passed_preview':validate_model_review(entry)
+    if entry['review_status']=='accepted':validate_reviews(entry)
     if release:
         if entry['review_status']!='accepted':raise ValueError('Preview entry cannot be released')
         validate_reviews(entry)
+
+def validate_draft_evidence(entry):
+    evidence=entry.get('draft_evidence',{})
+    expected=digest({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True})
+    if evidence.get('definition_hash')!=expected or evidence.get('packet_hash')!=entry.get('packet_hash'):raise ValueError('Draft evidence no longer matches definition or packet')
+    for key in ('request_hash','registration_hash'):
+        if not re.fullmatch(r'[a-f0-9]{64}',evidence.get(key,'')):raise ValueError('Missing draft binding')
+    if not evidence.get('receipt_id') or not evidence.get('model'):raise ValueError('Missing draft receipt')
+
 
 def validate_model_review(entry):
     review=entry.get('model_review',{})
@@ -67,7 +80,8 @@ def validate_model_review(entry):
         if not re.fullmatch(r'[a-f0-9]{64}',review.get(key,'')):raise ValueError('Missing model review binding')
     if not review.get('receipt_id'):raise ValueError('Missing model review receipt')
     packet=json.loads((ROOT/'data/packets'/(entry['id']+'.json')).read_text())
-    if packet.get('original_packet_hash')!=review['packet_hash']:raise ValueError('Judge reviewed a different source packet')
+    reviewed_packet=packet.get('original_packet_hash',packet.get('packet_hash'))
+    if reviewed_packet!=review['packet_hash']:raise ValueError('Judge reviewed a different source packet')
     from check_packets import validate_packet
     sources={s['id']:s for s in json.loads((ROOT/'data/sources.json').read_text())['sources']}
     validate_packet(packet,sources)

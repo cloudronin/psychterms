@@ -1,8 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import {entries,toHref} from '../../lib';
+import {entries,reviewLabel,toHref} from '../../lib';
 export function getStaticPaths(){return [...new Set(entries.map((e:any)=>e.field))].map((field:any)=>({params:{field:field.replaceAll(' ','-')},props:{field}}));}
 const {field}=Astro.props;
 const terms=entries.filter((e:any)=>e.field===field);
 ---
-<Layout title={`${field} | PsychTerms`}><div class="article-wrap"><p class="breadcrumb"><a href={toHref('fields/')}>Fields</a> / {field}</p><h1>{field}</h1><ul class="index-list">{terms.map((e:any)=><li><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a></li>)}</ul></div></Layout>
+<Layout title={`${field} | PsychTerms`}><div class="article-wrap"><p class="breadcrumb"><a href={toHref('fields/')}>Fields</a> / {field}</p><h1>{field}</h1><ul class="index-list">{terms.map((e:any)=><li><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a> <span class="small" data-review-status={e.review_status}>{reviewLabel(e)}</span></li>)}</ul></div></Layout>

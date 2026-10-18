@@ -104,7 +104,8 @@
       "enum": [
         "preview_fixture",
         "accepted",
-        "model_passed_preview"
+        "model_passed_preview",
+        "candidate"
       ]
     },
     "exam_layer_id": {
@@ -194,6 +195,44 @@
     },
     "editorial_note": {
       "type": "string"
+    },
+    "draft_evidence": {
+      "type": "object",
+      "required": [
+        "model",
+        "receipt_id",
+        "request_hash",
+        "registration_hash",
+        "definition_hash",
+        "packet_hash"
+      ],
+      "properties": {
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "request_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "registration_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "definition_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "packet_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

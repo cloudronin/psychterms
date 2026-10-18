@@ -22,7 +22,7 @@ const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
       <a class="wordmark" href={href()} aria-label="PsychTerms home"><span class="mark" aria-hidden="true">pt.</span><span><strong>PsychTerms</strong><br />Psychology &amp; counselling</span></a>
       <nav aria-label="Main navigation"><a href={href('#browse')}>Browse A–Z</a><a href={href('fields/')}>Fields</a><a href={href('about/')}>About</a></nav>
     </header>
-    <div class="preview-notice"><span class="wrap">Public review preview. Model-reviewed definitions are awaiting human review; three examples remain unreviewed fixtures.</span></div>
+    <div class="preview-notice"><span class="wrap">Public review preview. Candidate definitions have not yet been reviewed by the judge. Each entry shows its review status.</span></div>
     <main id="main"><slot /></main>
     <footer class="site-footer wrap"><div><strong>PsychTerms</strong><p>built by <a href="https://www.plainword.ai/">Plainword</a>, free forever</p></div><div><p>A reference for words. Not a treatment guide or medical advice.</p><a href={href('about/')}>Sources, rights and corrections</a></div></footer>
   </body>

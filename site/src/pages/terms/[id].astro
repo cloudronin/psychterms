@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import TermScene from '../../components/TermScene.astro';
-import {entries,entryReferences,toHref,firstSentence} from '../../lib';
+import {entries,entryReferences,toHref,firstSentence,reviewLabel} from '../../lib';
 export function getStaticPaths(){return entries.map((entry:any)=>({params:{id:entry.id},props:{entry}}));}
 const {entry}=Astro.props;
 const related=entries.filter((e:any)=>entry.also_see.includes(e.id));
@@ -12,6 +12,7 @@ const references=entryReferences[entry.id];
   <p class="breadcrumb"><a href={toHref()}>psychterms.org</a> / <span data-entry-content>{entry.id}</span></p>
   <a class="tag" href={toHref(`fields/${entry.field.replaceAll(' ','-')}/`)}>{entry.field}</a>
   {entry.risk && <span class="tag risk-badge">risk term</span>}
+  <p class="tag review-status" data-review-status={entry.review_status}>{reviewLabel(entry)}</p>
   <h1 data-entry-content style="margin-top:22px">{entry.term}</h1>
   <div data-pagefind-body class="search-index-text"><span data-pagefind-meta="title">{entry.term}</span> {entry.aliases.join(' ')} {firstSentence(entry.definition)}</div>
   <p class="definition">{entry.definition}</p>
@@ -19,7 +20,7 @@ const references=entryReferences[entry.id];
   {entry.editorial_note && <aside class="editorial-note"><strong>Wording review pending.</strong> {entry.editorial_note}</aside>}
   {entry.aliases.length>0&&<p class="small" data-entry-content>Also called: {entry.aliases.join(', ')}</p>}
   <section class="metadata"><h2>Also see</h2><p>{related.map((e:any,i:number)=><><a href={toHref(`terms/${e.id}/`)}>{e.term}</a>{i<related.length-1?' · ':''}</>)}</p></section>
-  <section class="metadata"><h2>Sources</h2><ul>{references.map((r:any)=><li><strong>{r.role_label}:</strong> <a href={r.url}>{r.citation}</a><p class="small">{r.licence} · Source snapshot SHA-256: {r.source_snapshot_sha256}</p></li>)}</ul><p>These citations identify the drafting sources. {entry.model_review ? `This definition passed ${entry.model_review.model} against its source packet. Human review is pending.` : "This fixture has not passed the model judge."} Source institutions do not endorse this dictionary.</p></section>
+  <section class="metadata"><h2>Sources</h2><ul>{references.map((r:any)=><li><strong>{r.role_label}:</strong> <a href={r.url}>{r.citation}</a><p class="small">{r.licence} · Source snapshot SHA-256: {r.source_snapshot_sha256}</p></li>)}</ul><p>These citations identify the drafting sources. {entry.review_status==='candidate' ? 'This is a candidate definition. Its source support and wording have not yet been reviewed by the judge.' : entry.model_review ? `This definition passed ${entry.model_review.model} against its source packet. Human review is pending.` : "This fixture has not passed the model judge."} Source institutions do not endorse this dictionary.</p></section>
   <section class="metadata"><h2>Cite this entry</h2><p class="citation">PsychTerms (psychterms.org), CC BY 4.0, version {entry.version}. “{entry.term}.” Development preview.</p><p class="small">Version {entry.version} · SHA-256: {entry.hash}</p><p class="small"><a href={`https://github.com/cloudronin/psychterms/edit/main/data/entries/${entry.id}.json`}>Edit this entry on GitHub</a></p></section>
  </article>
 </Layout>
