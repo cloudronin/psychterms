@@ -27,7 +27,9 @@ def check(root,base):
    if target.is_dir():target=target/'index.html'
    if not target.exists():errors.append(f'{p.relative_to(root)}: missing {href}');continue
    if parsed.fragment and target in pages and parsed.fragment not in pages[target].ids:errors.append(f'Invalid fragment {href}')
- entries=load_inputs()[0]
+ distribution=json.loads((ROOT/'dist-data/dictionary.json').read_text());entries=distribution['entries']
+ for dropped in distribution.get('dropped',[]):
+  if (root/'terms'/dropped['id']/'index.html').exists():errors.append('Dropped term still has a page: '+dropped['id'])
  for e in entries:
   p=root/'terms'/e['id']/'index.html'
   if not p.exists():errors.append('Missing term page '+e['id'])

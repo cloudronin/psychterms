@@ -1,5 +1,5 @@
 """Registered, capped drafting only. Candidate publication does not claim judge review."""
-import argparse,concurrent.futures,hashlib,json,math,re,threading,urllib.request,uuid
+import argparse,collections,concurrent.futures,hashlib,json,math,re,threading,urllib.request,uuid
 from decimal import Decimal
 from pathlib import Path
 from core import ROOT,canonical,digest,normalize,semantic_hash,load_inputs,validate_entry
@@ -46,10 +46,10 @@ def check_draft(draft,fields,index):
 
 class Client:
     def __init__(self,manifest,packets,key,budget,dest):
-        self.m=manifest;self.packets=packets;self.key=key;self.budget=budget;self.dest=dest;self.stopped=threading.Event()
+        self.m=manifest;self.packets=packets;self.key=key;self.budget=budget;self.dest=dest;self.stopped=threading.Event();self.attempts=collections.Counter(json.loads(p.read_text())['request_hash'] for p in (dest/'receipts').glob('*-error.json'))
     def call(self,packet,feedback=None):
         require_authorization(self.m)
-        data={'packet':packet,'fields':self.m['fields']}
+        data={'packet':packet,'fields':[packet['planned_field']] if packet.get('planned_field') else self.m['fields']}
         if feedback:data['revision_feedback']=feedback
         body={'model':self.m['model'],'messages':[{'role':'system','content':self.m['draft_prompt']},{'role':'user','content':json.dumps(data,ensure_ascii=False)}],
             'response_format':{'type':'json_schema','json_schema':{'name':'dictionary_result','strict':True,'schema':self.m['draft_schema']}},
@@ -62,7 +62,9 @@ class Client:
             if saved['request_hash']!=request_hash or saved['registration_hash']!=self.m['registration_hash']:raise ValueError('Cached request or registration changed')
             return saved
         prices=self.m['prices_per_million'];reserve=math.ceil((len(raw)+512)*prices['input']+self.m['max_completion_tokens']*prices['output'])
-        for attempt in range(self.m['transport_schema_retries']+1):
+        starting=self.attempts[request_hash]
+        if starting>self.m['transport_schema_retries']:raise RuntimeError('Registered retry limit exhausted')
+        for attempt in range(starting,self.m['transport_schema_retries']+1):
             if self.stopped.is_set():raise RuntimeError('Drafting line stopped')
             require_authorization(self.m)
             rid=uuid.uuid4().hex
@@ -86,16 +88,20 @@ class Client:
                 cache.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n');return saved
             except Exception as error:
                 (self.dest/'receipts'/f'{rid}-error.json').write_text(json.dumps({'request_hash':request_hash,'error_type':type(error).__name__,'http_status':getattr(error,'code',None),'receipted':receipted})+'\n')
-                if not receipted:
-                    self.stopped.set();raise RuntimeError('Uncertain charge remains reserved; inspect the receipt before resuming') from error
-                if attempt==self.m['transport_schema_retries']:raise
+                self.attempts[request_hash]=attempt+1
+                if getattr(error,'code',None) in (401,403,429) or 'Provider charge exceeded reservation' in str(error):
+                    self.stopped.set();raise RuntimeError('Drafting line stopped for provider or billing reconciliation') from error
+                if attempt==self.m['transport_schema_retries']:
+                    if not receipted:raise RuntimeError('Registered retry limit exhausted; uncertain charge remains reserved') from error
+                    raise
 
 def candidate_entry(packet,saved,sources,fields,index):
     draft=saved['parsed'];check_draft(draft,fields,index);validate_packet(packet,sources)
+    if packet.get('planned_field') and draft['field']!=packet['planned_field']:raise ValueError('Draft changed the preregistered field')
     if saved.get('packet_hash')!=packet['packet_hash']:raise ValueError('Draft used a different source packet')
     entry={'id':packet['id'],'term':packet['term'],'definition':draft['definition'],'field':draft['field'],'also_see':[],'aliases':[],
         'sources':[packet['source']],'provenance':[{'role':'draft_basis','source':packet['source'],'revision':packet['revision'],'scope':f'Source record {packet["source_record"]}; pinned source text','locator':packet['url']}],
-        'version':1,'review_status':'candidate','packet_hash':packet['packet_hash'],
+        'version':1,'packet_hash':packet['packet_hash'],
         'draft_evidence':{'model':saved['model'],'receipt_id':saved['receipt_id'],'request_hash':saved['request_hash'],'registration_hash':saved['registration_hash'],'definition_hash':digest(draft),'packet_hash':packet['packet_hash']}}
     entry['hash']=semantic_hash(entry);validate_entry(entry,sources,fields);return entry
 
@@ -120,7 +126,9 @@ def run(execute,key_file,limit=None):
     if not match:raise ValueError('No API key in the supplied file')
     for folder in ('calls','receipts'):(DEST/folder).mkdir(exist_ok=True)
     budget=Budget(DEST/'budget.sqlite',int(Decimal(manifest['authorized_cap_usd'])*1_000_000));client=Client(manifest,packets,match[0],budget,DEST)
-    existing={e['id'] for e in entries};queue=[p for p in packets if p['id'] not in existing]
+    outcome_path=DEST/'outcomes.json'
+    outcomes=json.loads(outcome_path.read_text()) if outcome_path.exists() else {}
+    existing={e['id'] for e in entries};queue=[p for p in packets if p['id'] not in existing and outcomes.get(p['id'],{}).get('packet_hash')!=p['packet_hash']]
     if limit:queue=queue[:limit]
     index=copy_index([p['text'] for p in packets]+[e['definition'] for e in entries]);registry,_=load_registry();definitions={normalize(e['definition']) for e in entries}
     results=[]
@@ -141,7 +149,11 @@ def run(execute,key_file,limit=None):
                 check_draft({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True},fields,index)
                 publish_candidate(entry,packet,registry);definitions.add(key);index.update(window_hashes(entry['definition']));results.append({'id':packet['id'],'status':'candidate'})
             except Exception as error:results.append({'id':packet['id'],'status':'not_published','reason':str(error)[:180]})
+            latest=results[-1]
+            if not client.stopped.is_set() or latest['status']=='candidate':
+                outcomes[packet['id']]=dict(latest,packet_hash=packet['packet_hash'],registration_hash=manifest['registration_hash'])
             if len(results)%25==0 or len(results)==len(queue):
+                temp=outcome_path.with_suffix('.tmp');temp.write_text(json.dumps(outcomes,ensure_ascii=False,indent=2)+'\n');temp.replace(outcome_path)
                 report={'line':manifest['line'],'registration_hash':manifest['registration_hash'],'attempted':len(results),'total':len(queue),'candidate_entries_added':sum(r['status']=='candidate' for r in results),'budget':budget.summary(),'results':results,'judge_calls':0,'vignettes':0}
                 (DEST/'run-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
                 print(json.dumps({k:v for k,v in report.items() if k!='results'}),flush=True)

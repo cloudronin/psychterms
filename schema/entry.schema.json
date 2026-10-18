@@ -12,8 +12,7 @@
     "sources",
     "provenance",
     "version",
-    "hash",
-    "review_status"
+    "hash"
   ],
   "properties": {
     "id": {
@@ -99,14 +98,6 @@
     "hash": {
       "type": "string",
       "pattern": "^[a-f0-9]{64}$"
-    },
-    "review_status": {
-      "enum": [
-        "preview_fixture",
-        "accepted",
-        "model_passed_preview",
-        "candidate"
-      ]
     },
     "exam_layer_id": {
       "type": "string"
@@ -233,6 +224,118 @@
         }
       },
       "additionalProperties": false
+    },
+    "fixture": {
+      "const": true
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "reviewed",
+        "judged",
+        "dropped"
+      ],
+      "description": "Build-owned and forward only; forbidden in entry source files."
+    },
+    "checks": {
+      "type": "object",
+      "required": [
+        "readers",
+        "copy"
+      ],
+      "properties": {
+        "readers": {
+          "enum": [
+            "0/2",
+            "1/2",
+            "2/2"
+          ]
+        },
+        "copy": {
+          "enum": [
+            "clear",
+            "hit"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "released": {
+      "type": "boolean",
+      "description": "Build-owned numbered-release inclusion, not a review status."
+    },
+    "release_versions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "drafter": {
+      "type": "string"
+    },
+    "drop_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reader_reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "model",
+          "passed",
+          "definition_hash",
+          "packet_hash",
+          "receipt_id",
+          "request_hash",
+          "draft_model",
+          "registration_hash"
+        ],
+        "properties": {
+          "passed": {
+            "type": "boolean"
+          },
+          "model": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition_hash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "packet_hash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "published_packet_hash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "receipt_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "request_hash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "draft_model": {
+            "type": "string",
+            "minLength": 1
+          },
+          "registration_hash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false

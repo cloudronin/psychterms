@@ -1,8 +1,8 @@
 # Current progress
 
-The public repository is [cloudronin/psychterms](https://github.com/cloudronin/psychterms). The [GitHub Pages review preview](https://psychterms.org/) contains 198 cited definitions passed by the designated separate model judge and three clearly labelled fixtures. Human review happens on the live preview; vignettes remain deferred. The publisher footer links to https://www.plainword.ai/.
+The public repository is [cloudronin/psychterms](https://github.com/cloudronin/psychterms). The [GitHub Pages review preview](https://psychterms.org/) uses build-owned candidate, reviewed, judged and dropped statuses. See [the generated release note](release-note.md) for current counts. Reader models are named on About. Human review happens on the live preview; vignettes remain deferred. The publisher footer links to https://www.plainword.ai/.
 
-Current priority is fresh, cited candidate definitions published before judging, under Vishnu’s latest direct decision. The first private queue contains 10,522 source-text packets; a new drafting cap is awaiting approval. No old definition text is used and raw audit rows remain private. Retrieval matches alone are not supported citations; candidates without suitable packets still need source preparation.
+Current priority is fresh, cited candidate definitions published before judging, under Vishnu’s latest direct decision. The first private queue contains 10,522 source-text packets; Vishnu approved a $100 drafting-only hard cap. No old definition text is used and raw audit rows remain private. Retrieval matches alone are not supported citations; candidates without suitable packets still need source preparation.
 
 The source inventory now has 37 candidates: 19 scoped yes decisions and 18 no decisions. It adds the publisher-declared public-domain Online Statistics Education v2 and original US editions of Baldwin volume II (1902) and Tuke (1892). Additional research articles remain discovery candidates until individually checked. Paid dispatch remains disabled; no new paid calls were made for this audit.
 

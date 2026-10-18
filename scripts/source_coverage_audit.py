@@ -73,7 +73,7 @@ def load_records(directory):
     names=[v for v in c[3].split('|') if v]
     if not names:continue
     preferred=c[5] if len(c)>5 and c[5] else names[0]
-    records.append({'source_id':'ncit','record_id':c[0],'term':preferred,'aliases':names,'definition_available':bool(c[4]),'text':c[4],'snapshot_sha256':sha,
+    records.append({'source_id':'ncit','record_id':c[0],'term':preferred,'aliases':names,'definition_available':bool(c[4]),'text':c[4],'semantic_types':c[7].split('|') if len(c)>7 else [],'snapshot_sha256':sha,
       'url':'https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip'})
  baldwin=directory/'baldwin-records.json'
  if baldwin.exists():records.extend(json.loads(baldwin.read_text()))

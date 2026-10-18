@@ -9,4 +9,7 @@ export const firstSentence=(value:string)=>value.match(/^.*?[.!?](?=\s|$)/)?.[0]
 
 export const entryReferences=distribution.references;
 
-export const reviewLabel=(entry:any)=>entry.review_status==='candidate'?'Candidate · not yet reviewed':entry.review_status==='model_passed_preview'?'Model reviewed · human review pending':entry.review_status==='accepted'?'Reviewed':'Unreviewed example';
+export const dropped=distribution.dropped;
+export const statusCounts=distribution.status_counts;
+export const readerModels=distribution.reader_models;
+export const reviewLabel=(entry:any)=>entry.status==='candidate'?'Candidate: drafted from the sources shown, not yet read by the two reviewers.':entry.status==='reviewed'?'Reviewed: one independent reader; copy check clear.':entry.status==='judged'?'Judged: two independent readers; copy check clear.':'Dropped: reason recorded.';

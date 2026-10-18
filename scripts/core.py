@@ -18,8 +18,8 @@ def slug(term):
     if not value: raise ValueError('Term requires an explicitly assigned stable ID')
     return value
 
-def validate_entry(entry, sources, fields, release=False):
-    required={'id','term','definition','also_see','field','aliases','sources','provenance','version','hash','review_status'}
+def validate_entry(entry, sources, fields, release=False, built=False):
+    required={'id','term','definition','also_see','field','aliases','sources','provenance','version','hash'}
     if not required <= entry.keys(): raise ValueError('Missing entry fields')
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',entry['id']): raise ValueError('Invalid ID')
     if not isinstance(entry['term'],str) or not entry['term'].strip(): raise ValueError('Empty term')
@@ -51,15 +51,19 @@ def validate_entry(entry, sources, fields, release=False):
             if item['role'] not in source['roles']:raise ValueError('Source role not allowed')
         if item['role']=='draft_basis':basis=True
     if not basis:raise ValueError('No permitted drafting basis')
-    if entry['review_status'] not in {'preview_fixture','model_passed_preview','accepted','candidate'}:raise ValueError('Unknown review status')
-    if entry['review_status']=='candidate':
-        if entry.get('model_review') or entry.get('reviews'):raise ValueError('Candidate cannot claim a passing review')
-        validate_draft_evidence(entry)
-    if entry['review_status']=='model_passed_preview':validate_model_review(entry)
-    if entry['review_status']=='accepted':validate_reviews(entry)
+    computed={'status','checks','released','release_versions','drafter','drop_reason'}
+    if 'review_status' in entry:raise ValueError('Legacy review_status is forbidden; status is build-owned')
+    if not built and computed & entry.keys():raise ValueError('Status and release markers are build-owned')
+    if built:
+        if entry.get('status') not in {'candidate','reviewed','judged','dropped'} or type(entry.get('released')) is not bool or 'checks' not in entry:raise ValueError('Missing build-owned review state')
+    if entry.get('draft_evidence'):validate_draft_evidence(entry)
+    elif entry.get('model_review'):validate_model_review(entry)
+    elif entry.get('fixture') is not True or entry['id'] not in {'attention','memory','psychotherapy'}:raise ValueError('Missing drafting evidence')
     if release:
-        if entry['review_status']!='accepted':raise ValueError('Preview entry cannot be released')
-        validate_reviews(entry)
+        from entry_status import readers
+        packet=json.loads((ROOT/'data/packets'/(entry['id']+'.json')).read_text())
+        if sum(r['passed'] for r in readers(entry,packet))<2:raise ValueError('Preview entry needs two independent readers before numbered release')
+
 
 def validate_draft_evidence(entry):
     evidence=entry.get('draft_evidence',{})
@@ -98,12 +102,12 @@ def validate_reviews(entry):
         if r.get('passed') is not True or r.get('entry_hash')!=entry['hash'] or r.get('packet_hash')!=packet:raise ValueError('Judge result is failed or stale')
         if not r.get('receipt_id') or not r.get('rubric_hash'):raise ValueError('Unrecorded judge evidence')
 
-def validate_corpus(entries,sources,fields,release=False):
+def validate_corpus(entries,sources,fields,release=False,built=False):
     ids=[e['id'] for e in entries]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate IDs')
     seen={}
     for e in entries:
-        validate_entry(e,sources,fields,release)
+        validate_entry(e,sources,fields,release,built)
         if set(e['also_see'])-set(ids):raise ValueError('Unresolved also_see')
         if e['id'] in e['also_see']:raise ValueError('Self link')
         normalized=normalize(e['definition'])

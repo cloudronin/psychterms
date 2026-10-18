@@ -28,7 +28,7 @@ def import_rows():
   if cached['receipt_id']!=selected['receipt_id'] or cached['parsed']!=selected['parsed']:raise ValueError('Selected mini verdict differs from verified recovery')
   entry={'id':ident,'term':row['term'],'definition':row['definition'],'field':row['field'],'also_see':[],'aliases':[],
     'sources':[packet['source']],'provenance':[{'role':'draft_basis','source':packet['source'],'revision':packet['revision'],'scope':f'MeSH {packet["source_record"]} scope note','locator':packet['url']}],
-    'version':row['definition_version'],'review_status':'model_passed_preview','packet_hash':packet['packet_hash'],
+    'version':row['definition_version'],'packet_hash':packet['packet_hash'],
     'model_review':{'model':JUDGE,'passed':True,'definition_hash':row['definition_hash'],'packet_hash':packet['packet_hash'],'receipt_id':selected['receipt_id'],
                     'request_hash':cached['request_hash'],'draft_model':manifest['models']['draft'],'registration_hash':manifest['preregistration_hash']},
     'editorial_status':'wording_review_pending' if row['id'] in held else 'human_review_pending'}

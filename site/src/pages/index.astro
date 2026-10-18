@@ -17,9 +17,9 @@ const active=new Set(entries.map((e:any)=>e.term[0].toUpperCase()));
       <div class="section-heading"><h2>Browse the dictionary</h2><span>{entries.length} terms for review</span></div>
       <div class="alphabet" aria-label="Alphabetical index">{letters.map(letter=>active.has(letter)?<a href={toHref(`letters/${letter.toLowerCase()}/`)}>{letter}</a>:<span>{letter}</span>)}</div>
       <p class="small">Showing the first {Math.min(entries.length,60)} terms. Use search or the alphabetical index to browse every entry.</p>
-      <div class="cards">{entries.slice(0,60).map((e:any)=><article class="term-card"><p class="field">{e.field}</p><p class="small" data-review-status={e.review_status}>{reviewLabel(e)}</p><h3><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a></h3><p data-entry-content>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
+      <div class="cards">{entries.slice(0,60).map((e:any)=><article class="term-card"><p class="field">{e.field}</p><p class="small" data-review-status={e.status}>{reviewLabel(e)}</p><h3><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a></h3><p data-entry-content>{e.definition}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div>
     </section>
-    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Definitions include their sources, version and citation. Candidates are published before judge review and clearly labelled. Reviewed entries identify their model review and any wording concerns; vignettes come later.</p></section>
+    <section class="lower-note"><h2>Open by design.</h2><p>The dictionary is being built from sources that permit reuse. Definitions include their sources, version and citation. Candidates are published before the two-reader pass and clearly labelled. Reviewed entries have one independent reader; judged entries have two. The drafter does not count; vignettes come later.</p></section>
   </div>
 </Layout>
 <script>

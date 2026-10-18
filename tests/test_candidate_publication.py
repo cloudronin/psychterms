@@ -10,26 +10,27 @@ from budget import Budget
 class CandidateTests(unittest.TestCase):
  def setUp(self):
   entries,self.sources,self.fields=load_inputs()
-  self.base=copy.deepcopy(next(e for e in entries if e['review_status']=='preview_fixture'))
+  self.base=copy.deepcopy(next(e for e in entries if e.get('fixture') is True))
   self.packet=json.loads((ROOT/'data/packets'/(self.base['id']+'.json')).read_text())
   self.saved={'parsed':{'definition':'A synthetic definition for testing the unreviewed publication state.','field':self.base['field'],'packet_sufficient':True},
     'model':'fixed-draft-model','receipt_id':'synthetic-receipt','request_hash':'a'*64,'registration_hash':'b'*64,'packet_hash':self.packet['packet_hash']}
  def entry(self):return candidate_entry(self.packet,self.saved,self.sources,self.fields,set())
  def test_candidate_can_preview_without_any_judge_claim(self):
   e=self.entry();validate_entry(e,self.sources,self.fields)
-  self.assertEqual(e['review_status'],'candidate');self.assertNotIn('model_review',e)
+  self.assertNotIn('status',e);self.assertNotIn('model_review',e)
   self.assertEqual(e['packet_hash'],self.packet['packet_hash'])
  def test_candidate_cannot_release_or_self_promote(self):
   e=self.entry()
   with self.assertRaisesRegex(ValueError,'Preview'):validate_entry(e,self.sources,self.fields,release=True)
-  e['review_status']='accepted'
-  with self.assertRaisesRegex(ValueError,'judge'):validate_entry(e,self.sources,self.fields)
+  e['status']='judged'
+  with self.assertRaisesRegex(ValueError,'build-owned'):validate_entry(e,self.sources,self.fields)
  def test_edited_definition_invalidates_drafting_evidence(self):
   e=self.entry();e['definition']='An altered unsupported assertion.';e['hash']=semantic_hash(e)
   with self.assertRaisesRegex(ValueError,'Draft evidence'):validate_entry(e,self.sources,self.fields)
  def test_candidate_cannot_claim_a_passed_review(self):
   e=self.entry();e['model_review']={'passed':True}
-  with self.assertRaisesRegex(ValueError,'Candidate cannot claim'):validate_entry(e,self.sources,self.fields)
+  from entry_status import prepare as statuses
+  with self.assertRaisesRegex(ValueError,'Stale reader proof'):statuses([e],history={})
  def test_insufficient_packet_and_15_word_copy_do_not_publish(self):
   self.saved['parsed']['packet_sufficient']=False
   with self.assertRaisesRegex(ValueError,'insufficient'):self.entry()
@@ -44,7 +45,7 @@ class CandidateTests(unittest.TestCase):
   self.assertIn('requested term',result);self.assertEqual(result,text[start:end]);self.assertLessEqual(len(result),600)
  def test_exact_source_label_precedes_broader_descriptor_alias(self):
   records=[{'source_id':'mesh-2026','record_id':'broader','term':'Broader concept','aliases':['Synthetic topic'],'text':'A description of a broader concept that is not specific to the requested topic.','snapshot_sha256':self.packet['source_snapshot_sha256'],'url':'https://example.org/broader'},
-   {'source_id':'ncit','record_id':'exact','term':'Synthetic topic','aliases':[],'text':'A source description specific to the requested synthetic topic and its intended meaning.','snapshot_sha256':'b'*64,'url':'https://example.org/exact'}]
+   {'source_id':'ncit','record_id':'exact','term':'Synthetic topic','aliases':[],'text':'A cognitive source description specific to the requested synthetic topic and its intended meaning.','snapshot_sha256':'b'*64,'url':'https://example.org/exact'}]
   row={'term':'Synthetic topic','production_scope':'term','status':'exact_label_source_candidate','matches':[{'source':r['source_id'],'record_id':r['record_id']} for r in records]}
   with tempfile.TemporaryDirectory(dir=ROOT/'.private') as tmp,patch('prepare_candidate_packets.load_records',return_value=records):
    directory=Path(tmp);(directory/'coverage.json').write_text(json.dumps([row]));prepare(directory,directory/'out')
@@ -70,9 +71,9 @@ class CandidateTests(unittest.TestCase):
   self.assertIn('Actual source record title',packet_citation(packet,self.sources)['citation'])
  def test_candidate_status_and_source_citations_survive_export(self):
   from export import build
-  data,md,_=build([self.entry()])
-  self.assertEqual(data['entries'][0]['review_status'],'candidate')
-  self.assertIn('Candidate · not yet reviewed',md)
+  data,md,_=build([self.entry()],history={})
+  self.assertEqual(data['entries'][0]['status'],'candidate')
+  self.assertIn('Candidate: drafted from the sources shown, not yet read by the two reviewers.',md)
   self.assertIn(self.packet['url'],md)
   self.assertEqual(data['references'][self.packet['id']][0]['packet_hash'],self.packet['packet_hash'])
  def client(self,path,cap):
@@ -86,11 +87,13 @@ class CandidateTests(unittest.TestCase):
    client=self.client(Path(tmp),1)
    with self.assertRaisesRegex(RuntimeError,'Budget cap'):client.call(self.packet)
    network.assert_not_called()
- def test_uncertain_network_charge_retains_reservation_and_stops(self):
+ def test_uncertain_network_charges_retain_reservations_and_obey_retry_limit(self):
   with tempfile.TemporaryDirectory() as tmp,patch('run_candidate_drafts.require_authorization'),patch('urllib.request.urlopen',side_effect=TimeoutError):
    client=self.client(Path(tmp),1_000_000)
-   with self.assertRaisesRegex(RuntimeError,'Uncertain charge'):client.call(self.packet)
-   self.assertTrue(client.stopped.is_set());self.assertGreater(client.budget.summary()['unresolved_reservations_usd'],0)
+   with self.assertRaisesRegex(RuntimeError,'retry limit exhausted'):client.call(self.packet)
+   self.assertEqual(client.budget.summary()['calls_reserved'],2);self.assertGreater(client.budget.summary()['unresolved_reservations_usd'],0)
+   with self.assertRaisesRegex(RuntimeError,'retry limit exhausted'):client.call(self.packet)
+   self.assertEqual(client.budget.summary()['calls_reserved'],2)
  def test_receipted_request_reconciles_and_is_not_rebilled_on_resume(self):
   from io import BytesIO
   result={'model':'gpt-5.4-2026-03-05','usage':{'prompt_tokens':40,'completion_tokens':5,'prompt_tokens_details':{'cached_tokens':10}},

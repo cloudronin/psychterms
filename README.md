@@ -1,8 +1,8 @@
 # PsychTerms
 
-An independent dictionary of psychology and counselling, being rebuilt from verified permitted sources. There is no entry-count target or deadline. Fresh, cited definitions may publish as **Candidate · not yet reviewed**. One separate model judge, GPT-5.4 mini, reviews the pinned source packet afterward and may promote the status. Vishnu reviews the public preview.
+An independent dictionary of psychology and counselling, rebuilt from verified permitted sources. There is no entry-count target or deadline. Fresh, cited definitions publish as candidates before reader review. The build sets four forward-only statuses: candidate, reviewed (one passing reader other than the drafter), judged (two), and dropped (with a reason). The 15-word copy check must be clear for active entries. Released is a separate numbered-release marker.
 
-**Status: public review preview, not a finished dictionary release.** The site includes 198 definitions that passed the designated mini judge and the 15-word copy check, plus 3 original unreviewed fixtures. Twelve definitions have visible wording-review notices. All have exact source citations. Vignettes are deferred. The independent MeSH inventory contains 1,267 candidates, not a count target. The inherited prose and raw source audit remain private. Rebuilt candidates use fresh definitions from admitted source packets; old definition text is never a source or model input.
+**Status: public review preview.** Current build counts and reader models are recorded in [the generated release note](reports/release-note.md). Candidates carry an explicit plain-language badge. Dropped entries have no term page or searchable definition; their names and reasons remain on the Dropped page. Vignettes are deferred. The inherited prose and raw source audit remain private; old definitions are never a source or drafting input.
 
 ## Local preview
 

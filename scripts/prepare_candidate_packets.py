@@ -4,6 +4,7 @@ from pathlib import Path
 from core import ROOT,digest,slug,load_inputs
 from check_packets import validate_packet
 from source_coverage_audit import load_records,norm
+from scope_rules import decide
 
 def excerpt(text,term,limit=4200):
     if len(text)<=limit:return text,0,len(text)
@@ -53,8 +54,12 @@ def prepare(directory,out):
         used.add(ident);seen.add(key)
         packet={'id':ident,'term':term,'source':source['id'],'licence':source['licence'],'source_record':record['record_id'],
             'revision':'Flat export snapshot 2026-10-18' if source['id']=='ncit' else source['pinned_version'],'source_snapshot_sha256':record['snapshot_sha256'],'url':record['url'],'text':text,
-            'source_label':record['term'],'source_kind':record.get('source_kind','descriptor_record_candidate'),
+            'source_label':record['term'],'tree_numbers':record.get('tree_numbers',[]),'semantic_types':record.get('semantic_types',[]),'source_kind':record.get('source_kind','descriptor_record_candidate'),
             'source_character_range':[start,end],'support_review_status':'unreviewed'}
+        decision=decide(packet)
+        if not decision['eligible']:
+            pending.append({'term':term,'reason':decision['reason'],'retrieval_status':'scope_excluded_before_spend'});continue
+        packet['planned_field']=decision['field'];packet['scope_decision']=decision
         packet['packet_hash']=digest(packet);validate_packet(packet,sources);packets.append(packet)
     out.mkdir(parents=True,exist_ok=True)
     (out/'packets.json').write_text(json.dumps(packets,ensure_ascii=False,indent=2)+'\n')

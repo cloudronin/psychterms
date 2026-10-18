@@ -23,8 +23,10 @@ jobs:
         run: |
           if [ -n "$RISK_BASE" ] && [ "$RISK_BASE" != "0000000000000000000000000000000000000000" ]; then
             python3 scripts/risk_registry.py --base "$RISK_BASE"
+            python3 scripts/entry_status.py --base "$RISK_BASE"
           else
             python3 scripts/risk_registry.py
+            python3 scripts/entry_status.py
           fi
       - run: python3 scripts/check_schemas.py
       - run: python3 -m unittest discover -s tests -v

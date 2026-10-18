@@ -5,4 +5,4 @@ export function getStaticPaths(){return [...new Set(entries.map((e:any)=>e.term[
 const letter=Astro.params.letter!;
 const terms=entries.filter((e:any)=>e.term.toLowerCase().startsWith(letter));
 ---
-<Layout title={`${letter.toUpperCase()} | PsychTerms`}><div class="article-wrap"><p class="breadcrumb"><a href={toHref()}>Dictionary</a> / A–Z</p><h1>{letter.toUpperCase()}</h1><ul class="index-list">{terms.map((e:any)=><li><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a> <span class="small" data-review-status={e.review_status}>{reviewLabel(e)}</span></li>)}</ul></div></Layout>
+<Layout title={`${letter.toUpperCase()} | PsychTerms`}><div class="article-wrap"><p class="breadcrumb"><a href={toHref()}>Dictionary</a> / A–Z</p><h1>{letter.toUpperCase()}</h1><ul class="index-list">{terms.map((e:any)=><li><a href={toHref(`terms/${e.id}/`)} data-entry-content>{e.term}</a> <span class="small" data-review-status={e.status}>{reviewLabel(e)}</span></li>)}</ul></div></Layout>
