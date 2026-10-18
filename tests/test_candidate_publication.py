@@ -47,6 +47,7 @@ class CandidateTests(unittest.TestCase):
   records=[{'source_id':'mesh-2026','record_id':'broader','term':'Broader concept','aliases':['Synthetic topic'],'text':'A description of a broader concept that is not specific to the requested topic.','snapshot_sha256':self.packet['source_snapshot_sha256'],'url':'https://example.org/broader'},
    {'source_id':'ncit','record_id':'exact','term':'Synthetic topic','aliases':[],'text':'A cognitive source description specific to the requested synthetic topic and its intended meaning.','snapshot_sha256':'b'*64,'url':'https://example.org/exact'}]
   row={'term':'Synthetic topic','production_scope':'term','status':'exact_label_source_candidate','matches':[{'source':r['source_id'],'record_id':r['record_id']} for r in records]}
+  (ROOT/'.private').mkdir(exist_ok=True)
   with tempfile.TemporaryDirectory(dir=ROOT/'.private') as tmp,patch('prepare_candidate_packets.load_records',return_value=records):
    directory=Path(tmp);(directory/'coverage.json').write_text(json.dumps([row]));prepare(directory,directory/'out')
    packets=json.loads((directory/'out/packets.json').read_text())
