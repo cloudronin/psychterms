@@ -2,7 +2,7 @@
 import json,re
 from core import ROOT,digest
 
-VERSION=2
+VERSION=3
 ROOTS={
  'diagnosis':['F03'],
  'biological':['A08','C10','G11.561','D27.505.954.427.700'],
@@ -34,6 +34,15 @@ def decide(packet,independent=None):
         return {'eligible':True,'field':'history','rule':'permitted-historical-psychology-text','policy_version':VERSION}
     if source in ('onlinestatbook-v2','plos','frontiers','bmc'):
         return {'eligible':True,'field':'research methods','rule':'admitted-method-source','policy_version':VERSION}
+    if source.startswith('article-'):
+        term=packet['term'].casefold()
+        term_pattern=r'\b'+r'\W+'.join(re.escape(w) for w in re.findall(r'\w+',term))+r'\b'
+        gene_context=re.search(term_pattern+r'\s+(?:(?:is|encodes)\s+(?:a|an)\s+)?(?:wt\s+)?(?:gene|allele)\b',text)
+        if gene_context and not re.search(r'\b(?:gene|allele)\b',term):return {'eligible':False,'field':None,'rule':'article-gene-record-sense-mismatch','reason':'The article uses the requested label as a gene or allele name rather than the requested psychology concept.','policy_version':VERSION}
+        methods=r'\b(?:factor analysis|path analysis|mediation analysis|moderated mediation|linear regression|logistic regression|multiple regression|regression analysis|regression coefficient|multilevel model|analysis of variance|anova|meta.analysis|effect size|confidence interval|standard error|sample size|random sampling|random assignment|randomi[sz]ation|hypothesis test|research design|quasi.experimental|statistical|experiment)\b'
+        if re.search(methods,term):return {'eligible':True,'field':'research methods','rule':'article-requested-method-concept','policy_version':VERSION}
+        for field,pattern in PATTERNS:
+            if re.search(pattern,term):return {'eligible':True,'field':field,'rule':'article-requested-concept:'+field,'policy_version':VERSION}
     trees=packet.get('tree_numbers',[])
     if not trees and independent is not None:trees=independent.get(packet['source_record'],{}).get('tree_numbers',[])
     for field,roots in ROOTS.items():

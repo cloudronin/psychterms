@@ -1,0 +1,26 @@
+{
+  "id": "fuzzy-set-theory",
+  "term": "fuzzy set theory",
+  "source": "article-pmc12622820",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0336426",
+  "revision": "2025; DOI 10.1371/journal.pone.0336426; article XML SHA-256 6065854bb49b9d4fcacc355b30fbf1d677ea204ba4673b40e166216d38188a42",
+  "source_snapshot_sha256": "6065854bb49b9d4fcacc355b30fbf1d677ea204ba4673b40e166216d38188a42",
+  "url": "https://doi.org/10.1371/journal.pone.0336426",
+  "text": "Museum collection images are invaluable for preserving cultural heritage and studying history. However, these images often lack quality and clarity. This study introduces a novel museum collection image enhancement technique based on fuzzy set theory. The proposed approach comprehensively addresses the complexity and uniqueness of museum collection images to improve their quality significantly. The methodology steps start with preprocessing and graying out the images, eliminating noise through segmentation and smoothing processes. A convolutional neural network (CNN) is utilized to extract image features and apply adaptive histogram equalization for enhancement. A distinctive aspect of our method is transforming image grayscale levels into fuzzy sets. We analyze the similarity between the fuzzy sets before and after enhancement using the cosine similarity algorithm, allowing us to reconstruct the processed images with targeted similarity. Testing our approach on 100 museum collection images, we found that the average contrast of the collection images improved significantly. Specifically, the average contrast for our fuzzy set-based enhancement was 0.91, compared to 0.81 and 0.79 for histogram equalization and wavelet transform methods, respectively. Our research showcases a museum collection image enhancement technology based on fuzzy set theory that effectively enhances image fidelity and clarity, improving the overall quality of museum collection images. Our work underscores the importance of ongoing research in this area to unlock the full potential of museum collection image enhancement technology.\n\nMuseums protect the artifacts from the past and serve as windows into the past, as the strongholds of human cultural legacy. These archives act as educational lighthouses, teaching current and future generations about the rich fabric of our cultural and historical heritage. Museums have been increasingly adopting digital technology in their admirable efforts to preserve this invaluable legacy and make it easier to study. With the help of this technological transformation, museums can now store, preserve, and handle a multitude of data related to their cultural treasures, providing a virtual shield of protection for these historical artifacts [ 1 ]. Museum collections are an important carrier of cultural heritage, and through the display of collections, museums can inherit historical culture and play a role in cultural education [ 2 ]. Museum collections are also important resources for studying history and culture. By analyzing the characteristics of collections, one can gain a deeper understanding of history and culture. The photos and images of museum collections are important materials for recording history. Due to the relatively old age of museum collections, they are subject to natural wear and tear. Under the interference of factors such as light, dust, and shooting equipment, the quality of museum collections’ images varies. The aging of museum collection images and human destruction are also the main reasons that affect the quality of collection images. Historical and cultural studies and the transmission of historical literature are adversely impacted by the poor quality of visual resources in museum collections. The necessity of improving and returning these photos to their previous splendor is highlighted by the deterioration in image quality and the continued effects of degradation caused by humans.\n\nTraditional CNN mainly relies on deterministic convolution kernels and fixed weights to extract features, which makes it challenging to adapt to the ambiguity and uncertainty in image data, especially in the case of illumination changes, noise interference, or low contrast. Fuzzy set theory can effectively model the uncertainty in images and normalize the pixel grayscale values through fuzzy membership functions to make image features more robust. In addition, fuzzy sets can be combined with CNN to provide more flexible feature expressions, improve the model’s adaptability to complex visual data, and thus optimize the performance of image enhancement and classification tasks. Picture enhancement technology offers a",
+  "source_label": "Enhancing museum collection images with fuzzy set guided convolutional neural network: A novel approach leveraging fuzzy set theory",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 2
+  },
+  "packet_hash": "efd09a43ceb3a290f586b2ea4d80b53628a6456b027e6d2bf6e1605eab55eedc"
+}

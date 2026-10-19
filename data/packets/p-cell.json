@@ -1,0 +1,26 @@
+{
+  "id": "p-cell",
+  "term": "P-cell",
+  "source": "article-pmc13128133",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0345922",
+  "revision": "2026; DOI 10.1371/journal.pone.0345922; article XML SHA-256 c8e88b552f5f5fcdc2002a8ee0e9bd244231df41280722f5a266ad65d779fdd6",
+  "source_snapshot_sha256": "c8e88b552f5f5fcdc2002a8ee0e9bd244231df41280722f5a266ad65d779fdd6",
+  "url": "https://doi.org/10.1371/journal.pone.0345922",
+  "text": "We describe an application of optimal control theory to in vivo intracellular stimulation of pressure-sensitive mechanosensory (P-cell) neurons of the leech Hirudo verbana . The control objective seeks optimal stimuli that balance the minimization of stimulation current energy and the error of tracking an action potential evoked by a high-energy rectangular pulse. Tracking a known neuron response mitigates controllability and numerical solution issues and avoids the need to constrain stimulation currents. The reduced second-order neuron conductance model used in optimization was not fit to the target P-cell, but parameters were instead selected based on an assumed saddle-node on invariant circle bifurcation. Optimal stimuli that provided a range of tracking performance and energy minimization were computed prior to experimental work. Remarkably, simulated and biological neurons show the same tracking performance decrease at higher levels of stimulus current energy reduction. Numerical analysis of neuron model responses to optimal current perturbations revealed a phase space separatrix between regions with and without action potential trajectories, demonstrating high sensitivity to optimal current shape in a high-energy reduction case and verifying local optimality. This proof-of-concept study demonstrates that a control strategy based on reproducing action potential shapes can compute reduced-energy current stimulation waveforms that are effective in biological neurons. This effectiveness may extend to other biological neurons since the optimization method was applied to the same reduced-order model for other bifurcations and to a six-dimensional neuron. This method may be useful in research and future clinical applications, particularly as technological advances expand intracellular stimulation to applications previously limited to less effective extracellular methods. The high sensitivity of the neuron response to the optimal current waveform shapes could be useful in drug discovery, neuron disease diagnosis, toxin identification, and provide insights into neuron dynamics.\n\nNeuron signaling through changes in membrane voltage is the basis of nervous system function. The membrane voltage is maintained and disrupted by the movement of ions, such as potassium and sodium, through transmembrane channels. The equilibrium or ‘resting’ potential is the membrane voltage that balances the flow of ions due to concentration gradients with electric charge repulsion [ 1 ]. An action potential is informally defined as an abrupt prototypical change in the neuron membrane voltage from its equilibrium potential. Neurons may ‘fire’ an action potential due to the influence of other interconnected neurons or from sensory input.\n\nNeuron stimulation is a fundamental tool for studying neuron function and for treating conditions including movement disorders, effects of stroke and spinal cord injuries, multiple sclerosis, epilepsy, chronic pain, and hearing loss [ 2 ]. There are a large number of neural intracellular and extracellular stimulation techniques. Extracellular stimulation techniques are used in medical devices [ 3 ] — intracellular stimulation requires complex experimental procedures [ 4 , 5 ], including insertion of an invasive electrode that eventually compromises the target cell [ 6 , 7 ]. However, intracellular techniques have “revolutionized” understanding of neuron function by enabling direct injection of current through the neuron membrane and direct measurement of membrane voltage [ 6 ], both of which are indirectly and inexactly performed in extracellular studies [ 5 ]. Miniaturization of electrodes [ 7 , 8 ] and associated electronic circuitry [ 5 ] is greatly expanding the reach of intracellular methods, including parallel intracellular membrane voltage recordings from thousands of in vitro connected neurons [ 9 ] and in vitro neuronal control of an Aplysia feeding structure [ 10 ]. The ultimate goal is development of devices for parallel intracellular electrophysiology for study of large neuronal networks [ 4 ] and extension to in vivo “clinical neuroscience research” [ 5 ].\n\nA simplified explanation of neural function is",
+  "source_label": "In vivo efficacy of current stimuli computed by optimal tracking of neuron membrane voltage",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "46c5bd4aa244766af7cdbcf2d76a0529e7ffb709154f9993e1db8a687136c0ee"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "basic-technique",
+  "term": "basic technique",
+  "definition": "In this context, a basic technique is a standard laboratory method used as a starting approach for measuring intracellular proteins, such as ELISA or Western blot. The source uses the term for established protein-measurement methods that are widely used but have practical limitations like cost, speed, or normalization between samples.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10159171"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10159171",
+      "revision": "2023; DOI 10.1371/journal.pone.0282948; article XML SHA-256 942113bdc9da606fe807f19b0a99e020c9f85cb8049ae2055aa9c5d63d7da8bb",
+      "scope": "Source record 10.1371/journal.pone.0282948; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0282948"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "430858efe2ac6caaaa6c5118a9ced9008bd2fb52122abd7ec266eb970448208e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1711dee6787046db829a21a668910fa5",
+    "request_hash": "3a15388b5430f9ec6c567f4efea5e48c05a97f8768fa07af47a1e8c32a9716ef",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "40fc6b743bd624faddb7f3b5455c74f987d5bb7ba4f4d518bd2f72795df1fd37",
+    "packet_hash": "430858efe2ac6caaaa6c5118a9ced9008bd2fb52122abd7ec266eb970448208e"
+  },
+  "hash": "8bdfd9d813c0e67caa15fd858938816e6c06b78f9f842c0dc7fa082bc1a50725",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Starting approach” is not supported by the source; the packet only says ELISA or Western blot are known as a basic technique for protein measurement, not that the term means an initial or starting method.",
+        "“Standard laboratory method” and “widely used” are broader generalizations than the packet supports; the source does not define the term that way.",
+        "The definition adds interpretive framing (“established protein-measurement methods”) that goes beyond the packet’s narrower wording."
+      ],
+      "definition_hash": "40fc6b743bd624faddb7f3b5455c74f987d5bb7ba4f4d518bd2f72795df1fd37",
+      "packet_hash": "430858efe2ac6caaaa6c5118a9ced9008bd2fb52122abd7ec266eb970448208e",
+      "published_packet_hash": "430858efe2ac6caaaa6c5118a9ced9008bd2fb52122abd7ec266eb970448208e",
+      "receipt_id": "ccc3b67cbf3340548551919a874d9acd",
+      "request_hash": "7d70a405ab3d8b7a9fbbd479a87bbc97fa23b1584c2a08f9e10a6f35308556ea",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that a “basic technique” is “a standard laboratory method used as a starting approach.” It only states that ELISA or Western blot “is known as a basic technique” for measuring intracellular proteins.",
+        "The packet does not support the claim that these methods are “widely used.”",
+        "The remainder of the definition’s limitations (e.g., problems with normalization and commercial kit cost; ELISA vs. Western blot time and facilities) is supported by the packet, but the unsupported elements above prevent a defensible pass."
+      ],
+      "definition_hash": "40fc6b743bd624faddb7f3b5455c74f987d5bb7ba4f4d518bd2f72795df1fd37",
+      "packet_hash": "430858efe2ac6caaaa6c5118a9ced9008bd2fb52122abd7ec266eb970448208e",
+      "published_packet_hash": "430858efe2ac6caaaa6c5118a9ced9008bd2fb52122abd7ec266eb970448208e",
+      "receipt_id": "7692ead88ae446b9b90017b570ab8458",
+      "request_hash": "7399ee0651985e4a71996f1b5a9e0160f976ab192b7082b82306a622e9c6c1ce",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

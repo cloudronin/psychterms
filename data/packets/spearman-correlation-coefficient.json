@@ -1,0 +1,26 @@
+{
+  "id": "spearman-correlation-coefficient",
+  "term": "Spearman correlation coefficient",
+  "source": "article-pmc10793925",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0292613",
+  "revision": "2024; DOI 10.1371/journal.pone.0292613; article XML SHA-256 097998326978a6530a1a6d96913f47e1e2370b214e2bfb3e30cf90916ee167d6",
+  "source_snapshot_sha256": "097998326978a6530a1a6d96913f47e1e2370b214e2bfb3e30cf90916ee167d6",
+  "url": "https://doi.org/10.1371/journal.pone.0292613",
+  "text": "We consider the 1015-vertex human consensus connectome computed from the diffusion MRI data of 1064 subjects. We define seven different orders on these 1015 graph vertices, where the orders depend on parameters derived from the brain circuitry, that is, from the properties of the edges (or connections) incident to the vertices ordered. We order the vertices according to their degree, the sum, the maximum, and the average of the fiber counts on the incident edges, and the sum, the maximum and the average length of the fibers in the incident edges. We analyze the similarities of these seven orders by the Spearman correlation coefficient and by their inversion numbers and have found that all of these seven orders have great similarities. In other words, if we interpret the orders as scoring of the importance of the vertices in the consensus connectome, then the scores of the vertices will be similar in all seven orderings. That is, important vertices of the human connectome typically have many neighbors connected with long and thick axonal fibers (where thickness is measured by fiber numbers), and their incident edges have high maximum and average values of length and fiber-number parameters, too. Therefore, these parameters may yield robust ways of deciding which vertices are more important in the anatomy of our brain circuitry than the others.\n\nIdentifying the most important nodes in large networks solely from their graph-theoretical properties was an important problem in the late 1990s, applied in scoring the web search engine hits. The most well-known solutions, the PageRank of Google [ 1 ] and the HITS algorithm of Kleinberg [ 2 ], fundamentally influenced the related areas.\n\nBoth the PageRank and the HITS algorithms score the nodes of a directed, unweighted graph, originally corresponded to the graph of the World Wide Web, but later, those algorithms were successfully applied for directed and undirected biological, social and chemical graphs, among other applications [ 3 – 6 ]. Other graph-theoretically inspired orders of importance were studied in biology in [ 7 ] in bipartite human disease-genes network and a more general setting, for undirected weighted graphs in [ 8 ].\n\nSince all human activities are governed by the cooperation of the cells in our brain, the study of the connections of these cells has specific interest. Unfortunately, the connections of the 80 billion neurons of the human brain are not mapped yet and will not be mapped in the foreseeable future: to date, the only adult organism with completely mapped connections between its neurons (also called the connectome or braingraph) is the nematode C. elegans , having only 302 neurons [ 9 ]. The mapping was performed by electron-microscopy by staining of the axons of the nematode. Recently, after many years of concentrated efforts, the neuronal-level connectome of a part of the brain of the adult fruit fly Drosophila melanogaster , its central brain, is mapped and published [ 10 ]. Out of the 100,000 neurons of the fruit fly, the central brain contains around 25,000 neurons. More recently, the connectome of the Drosophila larva brain with 3016 neurons was published in [ 11 ]. The whole adult Drosophila melanogaster connectome is not published yet.\n\nInstead of the neuronal-level connections, the imaging methods are capable today of mapping the human connectome on a much coarser scale than the level of the neurons. Due to the technical developments of magnetic resonance imaging (MRI) in the last fifteen years [ 12 , 13 ], today we can map the macroscopic connections between 1000 anatomically identified brain areas. These developments have opened up a new area of brain science called “connectomics”. The connections between the brain areas are examined in the new field, and instead of comparing the volumes of brain areas between healthy or diseased, old and young, male or female subjects, it concentrates on a more central question: the connections between those areas.\n\nOur research group has studied the mathematical properties of human connectomes by applying strict graph-theoretical methods and terms. We have used the public release imaging data sets of the",
+  "source_label": "Robust circuitry-based scores of structural importance of human brain areas",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 2
+  },
+  "packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916"
+}

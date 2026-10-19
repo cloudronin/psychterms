@@ -1,0 +1,61 @@
+{
+  "id": "discrete-control",
+  "term": "discrete control",
+  "definition": "Discrete control is a control approach that uses a limited set of separate action options, such as different management strategies or policies, rather than a continuous range of adjustments. In the source context, a feedback system switches among these distinct options to guide outcomes under uncertainty.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13225672"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13225672",
+      "revision": "2026; DOI 10.1371/journal.pone.0349236; article XML SHA-256 52a32b838f6862cfe53fc8017b13417030926c53c934e8cd498edd086a4a9978",
+      "scope": "Source record 10.1371/journal.pone.0349236; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0349236"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "531c5b9e3ad34f35a783876298326ea1",
+    "request_hash": "b3d3f78248d5599ae89cf7dfdb86d76d30fa76bafe25569844fa9cd240081ad1",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "24ee40dc9a134d545ca1d28e8abda91243f455406b94b9d6abe5c37466d4b368",
+    "packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0"
+  },
+  "hash": "f03f62e97959a3b439ccbb95dc1d1c4a39023ad1087a24d85493009f86e6be1b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "24ee40dc9a134d545ca1d28e8abda91243f455406b94b9d6abe5c37466d4b368",
+      "packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0",
+      "published_packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0",
+      "receipt_id": "11104fe39b9c45bdbb5c45fbf801c483",
+      "request_hash": "536994777afaf14fadc5311a964c8058026de96022cd5db23a7c192494c3d761",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not well supported by the source; the packet is about control theory/ecology, not an ethics concept.",
+        "The definition adds a generalization about a control approach using a continuous vs. discrete distinction that is not stated in the packet.",
+        "The source supports multiple discrete control actions and switching among management strategies under uncertainty, but it does not establish the broader, generic framing of ‘a limited set of separate action options’ as a definition of the term in ethics."
+      ],
+      "definition_hash": "24ee40dc9a134d545ca1d28e8abda91243f455406b94b9d6abe5c37466d4b368",
+      "packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0",
+      "published_packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0",
+      "receipt_id": "16f17a738e7d4abd8c361d766b3b29de",
+      "request_hash": "766e1ce8c53b73f9777820c8f906e54cc4edb39ffd4d5293d009a72d448ebb4b",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

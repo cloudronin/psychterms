@@ -1,0 +1,26 @@
+{
+  "id": "equal-weighting",
+  "term": "equal weighting",
+  "source": "article-pmc11192338",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0299362",
+  "revision": "2024; DOI 10.1371/journal.pone.0299362; article XML SHA-256 cc9e7e53eb64cef5b73cf9234a7de84171dd76d99fa5da39334069300245c7a3",
+  "source_snapshot_sha256": "cc9e7e53eb64cef5b73cf9234a7de84171dd76d99fa5da39334069300245c7a3",
+  "url": "https://doi.org/10.1371/journal.pone.0299362",
+  "text": "To explore an effective analysis model and method for estimating Cinnamomum camphora ’s ( C . camphora ’s) growth using unmanned aerial vehicle (UAV) multispectral technology, we obtained C . camphora ’s canopy spectral reflectance using a UAV-mounted multispectral camera and simultaneously measured four single-growth indicators: Soil and Plant Analyzer Development (SPAD)value, aboveground biomass (AGB), plant height (PH), and leaf area index (LAI). The coefficient of variation and equal weighting methods were used to construct the comprehensive growth monitoring indicators (CGMI) for C . camphora . A multispectral inversion model of integrated C . camphora growth was established using the multiple linear regression (MLR), partial least squares (PLS), support vector regression (SVR), random forest (RF), radial basis function neural network (RBFNN), back propagation neural network (BPNN), and whale optimization algorithm (WOA)-optimized BPNN models. The optimal model was selected based on the coefficient of determination (R 2 ), normalized root mean square error (NRMSE) and mean absolute percentage error (MAPE). Our findings indicate that apparent differences in the accuracy with different model, and the WOA–BPNN model is the best model to invert the growth potential of C . camphora , the R 2 of the model test set was 0.9020, the RMSE was 0.0722, and the MAPE was 7%. The R 2 of the WOA–BPNN model improved by 18%, the NRMSE decreased by 33%, and the MAPE decreased by 9% compared with the BPNN model. This study provides technical support for the modern field management of C . camphora essential oil and other dwarf forestry industries.\n\nCrop growth refers to the state and trend of crops at different growth stages. Common crop growth parameters include PH leaf area index LAI, chlorophyll content, water, and AGB [ 1 , 2 ]. Crop growth is directly related to crop yield and quality, and it must be observed and assessed to effectively support agricultural production [ 3 , 4 ]. However, the traditional crop growth monitoring methods are based on visual observation or destructive sampling, which is labor-, time-, and resource-consuming and particularly inefficient when monitoring large crop area [ 5 ].\n\nRemote sensing technology provides information rapidly and non-destructively on a large scale and has broad applications for crop growth prediction [ 6 , 7 ]. Liu et al. used the DJI Phantom 4 multispectral UAV to obtain the spectral reflectance of a rice canopy and established regression models of three growth indicators and vegetation indices, including rice SPAD, AGB, and leaf area, discovering that the accuracy of the multi-vegetation index regression model was superior to that of the one-dimensional regression model and that the multi-vegetation index regression model and rice SPAD established using support vector machine had the highest accuracy [ 6 ]. However, a single-growth index characterizes the growth condition of a specific crop feature and fails to represent the crop’s comprehensive growth to some extent; therefore, several researchers have studied integrating the single-growth index. For example, Y. Xu et al. obtained AGB, PH, SPAD, and plant water content data of winter wheat and constructed the CGMI based on the coefficient of variation (CV) method; they discovered that the inversion model of CGMI and vegetation index of wheat constructed by genetic algorithm optimized neural network have the highest accuracy, with the coefficient of determination R 2 reaching 0.8 [ 8 ]. X. Xu et al. used an improved fuzzy comprehensive evaluation (FCE) method to establish a comprehensive yield evaluation index (CYEI) to obtain information, such as wheat LAI, biomass, water content, and nitrogen content, to monitor wheat growth and estimate yield [ 9 ].\n\nThe above studies have shown that machine learning (ML) effectively builds single or comprehensive crop growth prediction models using UAV multispectral techniques. The ML models’ accuracy and efficiency depend heavily on their internal parameters, which can be improved using optimization algorithms to determine model parameters [ 10 ]. For example, Han et al. used the XGBoost model",
+  "source_label": "An integrated UAV growth monitoring model of Cinnamomum camphora based on whale optimization algorithm",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23"
+}

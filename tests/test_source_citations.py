@@ -24,3 +24,9 @@ class CitationTests(unittest.TestCase):
   for e in data['entries']:
    for ref in data['references'][e['id']]:self.assertIn(ref['citation'],md);self.assertIn(ref['url'],md)
 if __name__=='__main__':unittest.main()
+
+class LicenceLinkTests(unittest.TestCase):
+ def test_older_by_versions_link_to_their_original_terms(self):
+  from source_citations import licence_url
+  for version in ("2.0","2.5","3.0","4.0"):
+   self.assertEqual(licence_url({"licence":"CC-BY-"+version}),"https://creativecommons.org/licenses/by/"+version+"/")

@@ -1,0 +1,26 @@
+{
+  "id": "law-of-large-numbers",
+  "term": "law of large numbers",
+  "source": "article-pmc10343164",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0288239",
+  "revision": "2023; DOI 10.1371/journal.pone.0288239; article XML SHA-256 f3d557cb1ed2a68e802f1935d27b363556f4af43229cebe488c1c4f987d5ddc8",
+  "source_snapshot_sha256": "f3d557cb1ed2a68e802f1935d27b363556f4af43229cebe488c1c4f987d5ddc8",
+  "url": "https://doi.org/10.1371/journal.pone.0288239",
+  "text": "known to be right-skewed, to vary considerably across Diagnosis Related Groups (DRGs), and to contain markedly high values, in significant proportions. These very long stays are often considered outliers, and thin-tailed statistical distributions are assumed. However, resource consumption and planning occur at the level of medical specialty departments covering multiple DRGs, and when considered at this decision-making scale, extreme LOS values represent a significant component of the distribution of LOS (the right tail) that determines many of its statistical properties.\n\nTo build actionable statistical models of LOS for resource planning at the level of healthcare units.\n\nThrough a study of 46, 364 electronic health records over four medical specialty departments (Pediatrics, Obstetrics/Gynecology, Surgery, and Rehabilitation Medicine) in the largest hospital in Thailand ( Siriraj Hospital in Bangkok) , we show that the distribution of LOS exhibits a tail behavior that is consistent with a subexponential distribution. We analyze some empirical properties of such a distribution that are of relevance to cost and resource planning, notably the concentration of resource consumption among a minority of admissions/patients, an increasing residual LOS, where the longer a patient has been admitted, the longer they would be expected to remain admitted, and a slow convergence of the Law of Large Numbers, making empirical estimates of moments (e.g. mean, variance) unreliable.\n\nWe propose a novel Beta-Geometric model that shows a good fit with observed data and reproduces these empirical properties of LOS. Finally, we use our findings to make practical recommendations regarding the pricing and management of LOS.\n\nIn a global healthcare sector that is gradually but steadily shifting from a fee-for-service to value-based care agreements, Length of Stay (LOS) is a useful indicator of resource utilization and cost-efficiency, and has been likened to a currency for healthcare decision-making [ 1 , 2 ]. Because expenses are largely fixed in the first few days following admission, the marginal value of a bed is determined by the alternate use that the healthcare provider would have made of it (i.e. its opportunity cost) [ 2 ]. This value may be neglectable for low-utilization healthcare units. However, for high-demand hospitals operating close to capacity, the opportunity cost of long LOS can be significant. This is the case for Siriraj Hospital, the oldest and largest hospital in Thailand. Siriraj being an affordable, yet very reputed healthcare provider in the country, its specialty departments experience very high demand, often resulting in long waiting lists for admissions that can, in some cases, take several months.\n\nIn such circumstances, capacity planning has been recognized as a critical decision for the effective management of the hospital’s resources, and because key resources are shared across different Diagnosis Related Groups (DRG), understanding the statistical properties of LOS and constructing accurate statistical models of it, at the relevant scale of a healthcare unit, constitutes as a crucial input for capacity planning.\n\nIn this didactic statistical study, 46, 364 electronic health records over four medical specialty departments were analyzed, with a focus on the tail properties of the distribution of LOS, and their managerial consequences. The remainder of this paper is organized as follows. In Section Related Work, we conduct a detailed review of the related literature and classify extant studies based on their sample sizes, underlying statistical models, scope, and treatment of outliers. Section Data Description and Basic Statistical Properties describes our data and presents basic descriptive statistics for LOS in the four considered specialty departments. Section Materials and Methods defines the theoretical framework of this paper, which consists in various statistical and graphical tests from Extreme Value Theory, as well as the Beta-Geometric model we propose for LOS. Sections Results and Discussion and Modeling Length of Stay present our results and Section Managerial Implications further elucidates their",
+  "source_label": "Hospital length of stay: A cross-specialty analysis and Beta-geometric model",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    58,
+    4253
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "c20dae399d50871b198ff40a211e4076c940e88c2c1dd50f30e771cbad6f3e00"
+}

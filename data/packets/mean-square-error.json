@@ -1,0 +1,26 @@
+{
+  "id": "mean-square-error",
+  "term": "mean square error",
+  "source": "article-pmc12158009",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0325555",
+  "revision": "2025; DOI 10.1371/journal.pone.0325555; article XML SHA-256 b2b1d90032ba62f20cc842335e3a013acb033c3cf5fa35b7b59a95c5386d1240",
+  "source_snapshot_sha256": "b2b1d90032ba62f20cc842335e3a013acb033c3cf5fa35b7b59a95c5386d1240",
+  "url": "https://doi.org/10.1371/journal.pone.0325555",
+  "text": "A greedy pursuit strategy which finds a common basis for approximating a set of similar signals is proposed. The strategy extends the Optimized Orthogonal Matching Pursuit approach to selecting the subspace containing the approximation of all the signals in the set. The method, called Simultaneous Optimized Orthogonal Matching Pursuit, is stepwise optimal in the sense of minimizing at each iteration the mean square error norm of the signals in the set. When applied to compression of electrocardiograms, significant gains over other transformation based compression techniques are demonstrated on the MIT-BIH Arrhythmia dataset.\n\nImportant signals in everyday life such as natural images, audio, and electrocardiogram records, are in general highly compressible. This implies that the original signal, available as a large set of numerical values, can be transformed into a set of much smaller cardinality or a set containing a large proportion of zero values. The transformation, which should not compromise the informational content of the data, is frequently called sparse representation. Traditional methods for sparse representation of signals are realized by applying an orthogonal transformation and disregarding the least relevant points in the transformed domain. Subsequently the signal is recovered by means of the inverse transformation. However, alternative transformations, which are not orthogonal but adapted to a signal at hand, have been shown to render high level of sparsity. Such transformations aim at representing a signal as a superposition of elements, which are called ‘atoms’ and are selected from a large set called ‘dictionary’. The superposition is said to be sparse if it involves a number of atoms much smaller than the number of numerical values representing the original signal.\n\nGiven a dictionary, the problem of finding the sparsest approximation of a signal, up to some acceptable error, is an NP-hard problem [ 1 ]. In practice it is addressed by tractable methodologies known as Pursuit Strategies. Such methodologies can be grouped for the most part in two broad categories. Namely, Basis Pursuit and Greedy Pursuit Strategies. The Basis Pursuit (BP) approach endeavors to obtain a tractable sparse solution by minimization of the 1-norm [ 2 ]. Greedy algorithms seek for a sparse solution by stepwise selection of dictionary’s atoms. When dealing with real data the latter are in general more convenient. From the seminal Matching Pursuit (MP) [ 3 ] and Orthogonal Matching Pursuit (OMP) [ 4 ] methods, a number of Greedy Pursuit Strategies have been developed to improve the process of sparsely representing single signals [ 5 – 16 ]. Due to complexity issues and memory requirements, most of these techniques are to be applied by segmenting the signal and approximating each segment independently of the others. Nonetheless, when the segments bear similarity with each other, for some applications it is convenient to look for the dictionary’s atoms suitable to represent all the segments simultaneously. The greedy Pursuit Strategy which has been dedicated to simultaneously approximate a set of signal is based on OMP [ 4 ] and has been termed Simultaneous Orthogonal Matching Pursuit (SOMP) [ 17 ]. Since in this work we extend the Optimized Orthogonal Matching Pursuit method [ 6 ] to simultaneously approximate a set of signals, we term the new approach Simultaneous Optimized Orthogonal Matching Pursuit (SOOMP).\n\nThe difference between SOMP and the SOOMP approach introduced in this work is equivalent to the difference between OMP and OOMP methods, both for approximating single signals. OOMP is stepwise optimal in the sense of minimizing at each iteration the norm of the residual error. Whilst OMP minimizes the norm of the error only with respect to the coefficients of the atomic superposition, OOMP minimizes the norm of the error with respect to those coefficients and the selection of a new atom. In the case of multiple signals SOOMP is designed to minimize the mean value of the error norm squared. An additional advantage arises from the proposed implementation. Based on adaptive biorthogonalization, the SOOMP method produces at",
+  "source_label": "Simultaneous optimized orthogonal matching pursuit with application to ECG compression",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d"
+}

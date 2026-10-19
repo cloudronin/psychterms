@@ -1,0 +1,26 @@
+{
+  "id": "complete-case-analysis",
+  "term": "complete-case analysis",
+  "source": "article-pmc6902545",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-019-0840-7",
+  "revision": "2019; DOI 10.1186/s12874-019-0840-7; article XML SHA-256 63e0dd721c30077b7aad7e593bedf2242d586ef4e67771eb6e175804a7ceea1b",
+  "source_snapshot_sha256": "63e0dd721c30077b7aad7e593bedf2242d586ef4e67771eb6e175804a7ceea1b",
+  "url": "https://doi.org/10.1186/s12874-019-0840-7",
+  "text": "In low-income settings, key outcomes such as biomarkers or clinical assessments are often missing for a substantial proportion of the study population. The aim of this study was to assess the extent to which Heckman-type selection models can create unbiased estimates in such settings.\n\nWe introduce the basic Heckman model in a first stage, and then use simulation models to compare the performance of the model to alternative approaches used in the literature for missing outcome data, including complete case analysis (CCA), multiple imputations by chained equations (MICE) and pattern imputation with delta adjustment (PIDA). Last, we use a large population-representative data set on antenatal supplementation (AS) and birth outcomes from Côte d’Ivoire to illustrate the empirical relevance of this method.\n\nAll models performed well when data were missing at random. When missingness in the outcome data was related to unobserved determinants of the outcome, large and systematic biases were found for CCA and MICE, while Heckman-style selection models yielded unbiased estimates. Using Heckman-type selection models to correct for missingness in our empirical application, we found supplementation effect sizes that were very close to those reported in the most recent systematic review of clinical AS trials.\n\nMissingness in health outcome can lead to substantial bias. Heckman-selection models can correct for this selection bias and yield unbiased estimates, even when the proportion of missing data is substantial.\n\nA growing literature has highlighted the often substantial differences between evidence based on efficacy trials and empirically observed associations between intervention exposure and health outcomes [ 1 – 3 ]. While this gap may to a certain extent reflect differences in programme implementation and differential adherence to treatment protocols in non-clinical settings, biases in observational studies seem also plausible. A substantial body of literature has highlighted the importance of potential confounding variables in observational studies. Slightly less attention has been given to the often substantial degree of missingness in outcome variables [ 4 – 6 ]. Missingness in the outcome variable is of particular importance in the context of clinical data in low-income settings, where accurate measures of clinical outcomes often is only available for a relatively small proportion of the population. Even though missing values can in principle be imputed using multiple imputations [ 4 ], this approach can lead to biased estimates if unobservable or unmeasured factors – such as individual health knowledge or attitudes – affect both the outcome of interest and the likelihood of missing data [ 7 ].\n\nTo illustrate the relevance of such non-random missingness in outcome data as well as the possibility to correct for such biases using Heckman-type selection model, we focus on birth weight (BW) as primary outcome variable in this paper. Low birth weight (birth weight < 2500 g) affects 15.5% of children globally [ 8 ], and has been identified as one of the primary causes of the continued high burden of under-5 mortality in low-and middle-income countries [ 9 ]. In low income settings, birth weight is only available for women who deliver at a health centres with functioning measurement equipment as well as staff willing and able to record infant weight after birth. Given that institutional deliveries remain scarce in many settings [ 10 ], reliable data can often only be attained for a limited proportion of women. Missing outcome data will not cause systematic bias if data are missing at random (MAR). In practice, the MAR assumption will, however, not hold if unobservable traits such as preventive efforts or health knowledge predict both the likelihood to deliver at a facility (the likelihood of having birth weight data available) and the actual health outcome of interest.\n\nThe selection model introduced by Heckman [ 7 ] provides a potentially useful tool in this situation, since it allows to both test and correct for potential biases created by non-random missingness in outcome measures. To illustrate this, we first use Monte-Carlo",
+  "source_label": "Heckman-type selection models to obtain unbiased estimates with missing measures outcome: theoretical considerations and an application to missing birth weight data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a"
+}

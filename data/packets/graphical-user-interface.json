@@ -1,0 +1,26 @@
+{
+  "id": "graphical-user-interface",
+  "term": "graphical user interface",
+  "source": "article-pmc12919771",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0339996",
+  "revision": "2026; DOI 10.1371/journal.pone.0339996; article XML SHA-256 803f235c07cb4e02e41b37e356eefd1dc62f7fd42ea7850236cc143635d8c433",
+  "source_snapshot_sha256": "803f235c07cb4e02e41b37e356eefd1dc62f7fd42ea7850236cc143635d8c433",
+  "url": "https://doi.org/10.1371/journal.pone.0339996",
+  "text": "Graphical User Interface (GUI) testing is a crucial aspect of software quality assurance, ensuring that the user-facing components correctly reflect the underlying business logic. Regression testing validates that software continues to function as expected after modifications or integration with other systems. However, executing large test suites repeatedly is time-consuming and resource-intensive. To address this, test case minimization techniques aim to reduce the number of test cases without compromising coverage.\n\nIn this work, we propose a sequence recording technique for GUI event tracking and test case minimization. The recorded event sequences are clustered using the K-Means algorithm, grouping highly similar events together. A search-based sequence selection is then applied to generate a representative subset of test cases. Our approach was implemented and evaluated using a User Interface (UI) map generated in Visual Studio, where all components were validated and compared with our event map.\n\nExperimental results show that our proposed method reduces the total number of test cases by approximately 45%, decreases execution time by 38%, and maintains over 95% coverage compared to the original test suite. These results demonstrate that the proposed approach effectively balances testing efficiency and coverage, providing a practical improvement for GUI regression testing.\n\nGUI testing is becoming ubiquitous to measure the correct functionality of a software system. GUI is the interface between users and the system through which the user interacts with the system. It is composed of widgets such as buttons, menus, windows, dialogues, check boxes, lists, labels, text boxes, and forms.\n\nGUI testing ensures the safety, correctness, and reliability of software. Unlike traditional software testing methods, GUI testing demands significant effort and resources. Generating and evaluating test cases can be a time-consuming task, especially when dealing with complex software functionalities. It often requires hours of work to verify that the software behaves as expected according to the requirements provided by clients or other stakeholders.\n\nRegression testing is conducted to verify that previously developed software continues to function correctly after being integrated with other software components. It is carried out at both functional and non-functional levels, ensuring that all requirements are thoroughly validated during the testing process [ 1 ]. During this testing process, all the software bugs are removed and the software is verified. The major changes include patches, configurations, or software enhancements. Regression testing is performed when software modules are modified and numerous new components are introduced. The primary reason for this testing is that the software being developed can be easily integrated with other software systems. All the previous tests are executed to ensure that the overall functionality of the software is verified. There are three types of models: the main control flow model, which represents the business process in a system; the data flow model, which represents the flow of data through an information system; and the event flow model shows events and event interactions. Events are actions detected by a program when a certain input is given, and as a result, output is generated. The event flow model represents a sequence of events [ 2 ]. Novice users take shortcuts to visit the GUI, while expert users can follow the complete sequence to visit the interface. The aspects of both users vary. Several GUI visits occur, and every visit results in a repeated test case generation. Redundant visits can be reduced in a regression testing technique. Traditionally, software testing methods at the system level consider user stories, use cases, or business cases for the development of test cases, and test cases are executed using the GUI of the system under test. As GUI testing is based on the event flow model and events are performed at the system level, it involves the execution of system-level test cases [ 3 ]. If we can count controls in an application and know their numbers, then we can know",
+  "source_label": "GUI test case minimization using sequence mining",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "ae18c7dc0c42dce4c3feadc8bc55fe4cee800e4a4c9c7b1a1744db384d971981"
+}

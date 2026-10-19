@@ -1,0 +1,26 @@
+{
+  "id": "linearizing",
+  "term": "linearizing",
+  "source": "article-pmc12088051",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0322999",
+  "revision": "2025; DOI 10.1371/journal.pone.0322999; article XML SHA-256 1b98cc24074c62d4660dc88ef9483bd6590835bfc4e6a17d4e475a2d6aeafddf",
+  "source_snapshot_sha256": "1b98cc24074c62d4660dc88ef9483bd6590835bfc4e6a17d4e475a2d6aeafddf",
+  "url": "https://doi.org/10.1371/journal.pone.0322999",
+  "text": "This paper suggests a novel optimal inverse Radial Basis Function (RBF) neural network model for the control of Twin Rotor Aerodynamic Systems (TRAS), such as Multi-Input–Multi-Output (MIMO) systems with high nonlinearity and coupling effects between channels. After analyzing and linearizing the dynamic model, TRAS is decoupled into two Single Input Single Output (SISO) systems, thereby creating vertical (pitch model) and horizontal (yaw model) systems. The relationship between the output angle of each subsystem and the input voltage is modeled using the inverse RBF neural network. The weights, biases, centers and widths of the Gaussian function are unknown parameters of the proposed inverse neural model, and they are obtained using Atom Search Optimization (ASO). A combination of the proportional derivative controller and the proposed inverse neural model fed forward controller is then applied to control the angles of each subsystem with different conditions. The simulation results showed that the proposed controller demonstrates noticeable performance improvements over the Fractional Order PID (FOPID) and Particle Swarm Optimization-PID (PSO-PID) controllers. Compared to FOPID, it achieves an 88.3% faster rise time, a 96.0% faster settling time, and a 93.8% lower overshoot for the Yaw model, along with a 42.8% faster rise time, a 73.9% faster settling time, and an 86.8% lower overshoot for the Pitch model. In comparison to PSO-PID, the Yaw model shows a 36.2% faster rise time, an 86.7% faster settling time, and a 59.7% lower overshoot, while the Pitch model exhibits a 58.4% slower rise time but compensates with a 59.9% faster settling time and a 71.2% lower overshoot. Additionally, integral performance indices are notably reduced for the proposed controller.\n\nA Twin Rotor Aerodynamic System (TRAS) is a laboratory model that can be considered a helicopter prototype [ 1 , 2 ]. TRAS is a multi-input multi-output system with two degrees of freedom according to the angles that determine its posture, which are known as the pitch and yaw angles. Moreover, it is a nonlinear system with high coupling effects between channels [ 3 ]. Thus, controlling TRAS is challenging, and has motivated many researchers to develop other appropriate controllers [ 4 – 13 ]. In [ 13 ], the authors proposed a flexible mixed-optimization framework with H ∞ control for a twin rotor MIMO system, combining Nonlinear Dynamic Inversion (NDI), to linearize the system, and a mixed optimization control technique based on the Method of Inequality (MOI). This work highlights the effectiveness of integrating advanced control strategies to manage complex, nonlinear systems with significant coupling effects. PID controller is an essential controller widely used to control many systems due to its ease of implementation [ 14 ]. However, it often has difficulty meeting the performance demands of high nonlinearity systems like TRAS [ 15 ]. To mitigate this limitation, numerous control schemes propose hybrid approaches that integrate a PID controller with an intelligent control scheme [ 16 ]. In [ 17 ] PID is combined with a fuzzy compensator to track desired attitudes quickly, and all parameters are tuned using a Real-value Genetic Algorithm (RGA). In [ 18 ], the authors proposed Fractional Order PID controllers (FOPID) and tuning the parameters using Particle Swarm Optimization (PSO). Analysis of the results has shown that FOPID is outperformed and smoother than the traditional PID controllers [ 19 ]. The Sugeno Fuzzy PD-like System (SFPDS) is introduced to improve the transient and steady-state response of TRAS [ 20 ]. Moreover, sliding mode control is an efficient robust control approach that has been used successfully for controlling nonlinear systems [ 21 – 23 ]. In [ 24 ], the authors presented an adaptive sliding mode controller to control TRAS. The Lyapunov theorem has been used to derive an adaptive control law that compensates for uncertainty and reduces chattering in the control signal. Recently, considerable effort has been made to present different methods to identify and control nonlinear systems with uncertain dynamics. In this line, [ 25 ] identified",
+  "source_label": "Inverse modeling, analysis and control of twin rotor aerodynamic systems with optimized artificial intelligent controllers",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1"
+}

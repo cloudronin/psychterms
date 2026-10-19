@@ -1,0 +1,60 @@
+{
+  "id": "cochran-q-test",
+  "term": "Cochran Q test",
+  "definition": "Cochran Q test is a statistical test used in meta-analysis to check whether the results of different studies vary more than would be expected, indicating heterogeneity across studies.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11695007"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11695007",
+      "revision": "2025; DOI 10.1371/journal.pone.0315122; article XML SHA-256 81817fc22fe3f0e3203b1118b1affcf42915d1327659c827f2b84f9bde4de77a",
+      "scope": "Source record 10.1371/journal.pone.0315122; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0315122"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2b2e6b9bc7b1580a2c2cf56ced04daf6af39f7e9e6abe5a793d4da6b2e158189",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c6a19978385b489884162579d91f0777",
+    "request_hash": "2995fc6b1bdf67190e614fff1e3bafc3c4181c1ffd3286e284885d62ef5ded1c",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "e6ab226a26aab0639957cc7b4d7890285c453e3ccd965efefed352ec299efa4f",
+    "packet_hash": "2b2e6b9bc7b1580a2c2cf56ced04daf6af39f7e9e6abe5a793d4da6b2e158189"
+  },
+  "hash": "015371c3b6cd394c073b69619a573e0b07b12bf886d645c19551fb4fedeeac0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e6ab226a26aab0639957cc7b4d7890285c453e3ccd965efefed352ec299efa4f",
+      "packet_hash": "2b2e6b9bc7b1580a2c2cf56ced04daf6af39f7e9e6abe5a793d4da6b2e158189",
+      "published_packet_hash": "2b2e6b9bc7b1580a2c2cf56ced04daf6af39f7e9e6abe5a793d4da6b2e158189",
+      "receipt_id": "d056156201fb449cb0e91048171ca022",
+      "request_hash": "a10049f475f2657e2e916a44651ecc9772afd31870990f6431d4b8e7175ac700",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that “Heterogeneity among studies was assessed using the I2 test statistic and the Cochran Q test statistic,” but it does not describe what Cochran Q tests for (e.g., “results vary more than would be expected”).",
+        "Because the definition’s core explanation of Cochran Q’s purpose is not explicitly supported by the provided packet text, the definition contains an unsupported generalization."
+      ],
+      "definition_hash": "e6ab226a26aab0639957cc7b4d7890285c453e3ccd965efefed352ec299efa4f",
+      "packet_hash": "2b2e6b9bc7b1580a2c2cf56ced04daf6af39f7e9e6abe5a793d4da6b2e158189",
+      "published_packet_hash": "2b2e6b9bc7b1580a2c2cf56ced04daf6af39f7e9e6abe5a793d4da6b2e158189",
+      "receipt_id": "8186b3b9dcaa4898ac14af3e7b88d4d0",
+      "request_hash": "0e16309941ff3baf016e59293014f1ace37a97a7eca7df80279a63a59eb38e8e",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

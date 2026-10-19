@@ -1,0 +1,26 @@
+{
+  "id": "dental-age",
+  "term": "dental age",
+  "source": "article-pmc13422845",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354704",
+  "revision": "2026; DOI 10.1371/journal.pone.0354704; article XML SHA-256 2f9c3844b66b29f90e140ef6958d685c1a7aa7931036648713dcdfcb6a26b249",
+  "source_snapshot_sha256": "2f9c3844b66b29f90e140ef6958d685c1a7aa7931036648713dcdfcb6a26b249",
+  "url": "https://doi.org/10.1371/journal.pone.0354704",
+  "text": "Age assessment plays an important role in forensic sciences to aid in criminal or civil matters. Third molars continue developing during the legal age of adulthood. Dental age estimation based on radiographic examination is an operator-dependent procedure. The aim was to test the performance of supervised machine learning (SML) to classify individuals according to the threshold of 18 years using the third molar index (I3m).\n\nPanoramic radiographs (n = 597) of 52% males and 48% females between 13 and 26 years were used. Three Convolutional Neural Networks were compared to segment the third molar. Several machine learning algorithms were tested with a 10-fold cross-validation approach to identify the best age classification algorithm. The SML age estimation model was compared to the expert.\n\nAttention U-Net achieved the highest segmentation scores, and the k-nearest neighbors (KNN) showed the best scores of classification algorithms. The SML (KNN) scored sensitivity = 77.77%, specificity = 96%, and AUC = 0.87 in males. In females, sensitivity = 77.4%, specificity = 86.7%, and AUC = 0.82. The expert scores were: sensitivity = 70.4%, specificity = 100%, AUC = 0.85 for male, and for female: sensitivity = 54.8%, specificity = 93.3%, AUC = 0.74.\n\nSML classified males and females below and above the legal age with high accuracy compared to manual methods. The presented work suggests that AI, using pixel-level analysis, can detect subtle cues beyond human perception. This signals a possible departure from traditional age estimation indices.\n\nChronological age is one of the key variables to be considered in anthropological and forensic studies, as well as legal procedures and migration control, where birth dates cannot be verified. Estimation methods may depend on the assessment of bone or teeth maturation. No single method outperforms others, as it depends on numerous factors. Age estimation from dental radiographs is based on the evaluation of one or more of the following: bone development of the jaws, teeth maturation, degree and eruption of crown, resorption of primary teeth, degree of open apices in teeth, volume of pulp chamber and canals, or the development and topography of the third molar.\n\nPanoramic radiographs offer a convenient and relatively non-invasive radiographic imaging modality for estimating age. The entire dentition, maxilla, and mandible are collectively captured in a single image. There are multiple methods of age estimation in children and young adult populations using panoramic radiography; these can be atlas-based or metric. Of these, Cameriere et al [ 1 ] developed a method using the third molar maturity index (I3m) to assess the age among Caucasians. The lower left mandibular third molar (LL3rdM) was assessed in a Saudi population using (I3m) to determine if a person is younger or older than 18 years old. The cut-off value of I3m < 0.08 was useful method for estimating adulthood in both genders in several populations including the Saudi population [ 2 , 3 ]. Age estimation at the cut-off of 18 years serves great purposes to avoid violations of the minor’s legal rights.\n\nRecent systematic reviews revealed that automatic approaches based on deep learning techniques in age estimation are improving in performance and time, showing a more balanced behavior, with low tendency to over- or under-estimation [ 4 , 5 ].\n\nRecent studies focused on estimating age in children and adolescent populations using different methods or in different ethnicities, however few articles compared machine learning models and manual models in binary age estimation (adult vs minor at 18 years cut-off) [ 6 ].\n\nThis study aimed to utilize supervised machine learning (SML) for lower left third molar detection and extraction from panoramic dental radiographs and compare SML with human (manual) binary age estimation based on the I3m in a Saudi population.",
+  "source_label": "Radiographic legal age estimation based on third molar development using Machine-learning algorithms",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    3910
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "3dd24e81d754908362fd9950d0dc2f61ca1026c7b50e0d73911767c3fc1ef4fb"
+}

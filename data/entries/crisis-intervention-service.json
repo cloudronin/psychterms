@@ -1,0 +1,60 @@
+{
+  "id": "crisis-intervention-service",
+  "term": "crisis intervention service",
+  "definition": "A crisis intervention service is a service that provides immediate support to people in crisis, such as around suicidal thoughts or plans. In this packet, it refers to a free, confidential, around-the-clock text-based support service that can also capture information about crises that may never come to medical attention.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13393860"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13393860",
+      "revision": "2026; DOI 10.1186/s40621-026-00691-4; article XML SHA-256 e5e1dde1364f98aae5869ef8de7a8eb58d96520f94fd8716b2e22aff622a6ea6",
+      "scope": "Source record 10.1186/s40621-026-00691-4; pinned source text",
+      "locator": "https://doi.org/10.1186/s40621-026-00691-4"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fa885f96e0b0b906e0ffc899035ebc1922df5a198e12fe3ce3b67b86a6244d3c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8c9ea9a21f724e95903152ad62190307",
+    "request_hash": "5fad4a12aaf5e68e6cf07bc152a994a0477b6e751523f485ccff2c16ee077052",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "464b629d7f4a86a0b79c07607b6b71e8dbb2719857473dd61e4e7fe730197140",
+    "packet_hash": "fa885f96e0b0b906e0ffc899035ebc1922df5a198e12fe3ce3b67b86a6244d3c"
+  },
+  "hash": "0e76ff7dfe1e101b9e7eedb2a1ccdcb015c03ea4cc99583abcc1bdc0b84768bd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "464b629d7f4a86a0b79c07607b6b71e8dbb2719857473dd61e4e7fe730197140",
+      "packet_hash": "fa885f96e0b0b906e0ffc899035ebc1922df5a198e12fe3ce3b67b86a6244d3c",
+      "published_packet_hash": "fa885f96e0b0b906e0ffc899035ebc1922df5a198e12fe3ce3b67b86a6244d3c",
+      "receipt_id": "016b1a0feab84bdcb4f3a5512b26f9df",
+      "request_hash": "997babbe1069c43c294a76742c95d3c2fe620dbb64c6dddeb119b6508b65aba9",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the service provides “immediate support,” but the packet describes 24/7 crisis support and does not explicitly state “immediate” support as a defining feature.",
+        "The definition’s first sentence (“such as around suicidal thoughts or plans”) is directionally consistent with the packet’s focus on suicide plans, but “crisis intervention service” is not explicitly defined in the packet as a term; the packet discusses Crisis Text Line as a 24/7 free, confidential, text-based crisis support provider used as the data source."
+      ],
+      "definition_hash": "464b629d7f4a86a0b79c07607b6b71e8dbb2719857473dd61e4e7fe730197140",
+      "packet_hash": "fa885f96e0b0b906e0ffc899035ebc1922df5a198e12fe3ce3b67b86a6244d3c",
+      "published_packet_hash": "fa885f96e0b0b906e0ffc899035ebc1922df5a198e12fe3ce3b67b86a6244d3c",
+      "receipt_id": "7471909aef934d5d8b808024ee5507e1",
+      "request_hash": "e2666b359823b70074f2106c9e755a9321a9e876785928074211f9b07fe9d2ce",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

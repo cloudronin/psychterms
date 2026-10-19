@@ -1,0 +1,26 @@
+{
+  "id": "implicit-association-test",
+  "term": "Implicit Association Test",
+  "source": "article-pmc13089732",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0342742",
+  "revision": "2026; DOI 10.1371/journal.pone.0342742; article XML SHA-256 d1318c728a3f9831bec317b16174348372ad1a2c7404db52c0555d2ec6dd5cf6",
+  "source_snapshot_sha256": "d1318c728a3f9831bec317b16174348372ad1a2c7404db52c0555d2ec6dd5cf6",
+  "url": "https://doi.org/10.1371/journal.pone.0342742",
+  "text": "The Implicit Association Test (IAT) has become an invaluable tool for researchers in many fields. The IAT is a sorting task that measures the strength of automatic associations between targets (e.g., flowers / insects) and attributes (e.g., pleasant / unpleasant). Several programs exist to create and run IAT studies, and each has unique advantages and disadvantages. Yet most share the same limitations: being general-purpose data collection tools that require time to master, requiring extra steps to run online (e.g., deploying a web server), and having no IAT-data analysis features. This increases researcher reliance on pre-made templates that typically operate only in English and are difficult to translate. Iatgen addresses some of these issues by allowing researchers to design and analyze IATs through a simple web-interface, to easily combine IATs with experimental manipulations or other measures in Qualtrics, and to analyze data using the same web-interface. However, until recently, the problem of monolingual, English-only capability remained. In this paper, we introduce iatgen’s new translation functionality, which allows users to create non-English IATs using the web-based iatgen Shiny app and the tr.iatgen R package. Users are invited to contribute to the translation repository in GitHub by submitting and reviewing IAT translations. We also describe a method for deploying Qualtrics-based IATs in offline environments. We hope this increased functionality will facilitate cross-cultural research and reduce the negative effects of disproportionately Western, educated, industrialized, rich, and democratic (WEIRD) samples.\n\nThe Implicit Association Test (IAT) [ 1 ] is one of the most popular tools for research in social cognition [ 2 , 3 ]. IATs are also used in economics [ 4 ], sociology and anthropology [ 5 ], marketing [ 6 ], medicine [ 7 ], and other fields. Many programs can be used to create and run IATs (e.g., Inquisit, OpenSesame, E-Prime). In the present paper, we discuss new language translations and offline functionality in one of those programs: iatgen.\n\nIatgen [ 8 ] is a free, user-friendly software that allows researchers to design, conduct, and analyze IATs through a web-based interface and/or in R. Iatgen works in conjunction with Qualtrics (a data collection platform) and has the benefit of simplifying IAT set-up and data analysis based on established best practices [ 1 , 9 – 12 ]. Iatgen allows researchers to conduct IAT studies online (e.g., outside the lab), which makes data collection easier, faster, and possible for larger and more diverse samples. Indeed, recruiting participants for an iatgen-generated IAT via online platforms (e.g., Prolific) is as straightforward as recruiting for any Qualtrics survey—participants simply click a link, with no software download required. Moreover, iatgen simplifies the implementation of experimental manipulations and measures before or after an IAT. Finally, analyzing IAT data from an iatgen-generated experiment is as simple as uploading it to iatgen’s web interface for analysis (or loading the data into R and feeding it to the functions from the iatgen R package).\n\nHere, we present new translation features to facilitate non-English IAT research, as well as instructions for offline data collection to increase researchers’ ability to conduct studies in environments without an internet connection. Iatgen is not the only software allowing researchers to program IAT studies, and there are several proprietary and open-source alternatives, namely MinnoJS (Implicit) in Qualtrics [ 17 , 18 ], Inquisit 6.0 [ 19 ], E-Prime 3 [ 20 ], and OpenSesame 3.2.8 [ 6 , 21 ] (see Table 1 ). However, iatgen may be the best option for researchers wishing to avoid WEIRD samples by providing multi-language data collection capabilities both online and offline.\n\na Qualtrics requires participants to install an app for offline data collection.\n\nb Requires participants to install an app or complete a download for online data collection.\n\nc Some multilanguage IAT templates exist, but there is no instruction translation feature.\n\nd Some templates for creating IATs in this software exist and may be",
+  "source_label": "Implicit association tests for all: Using iatgen for non-English and offline samples",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 2
+  },
+  "packet_hash": "33055dd4d6db979342c362cc3679726200ba9294d4af06e3110663428e65b341"
+}

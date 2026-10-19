@@ -1,0 +1,59 @@
+{
+  "id": "hierarchical-design",
+  "term": "hierarchical design",
+  "definition": "Hierarchical design is an approach to building a system by arranging it into ordered layers, with each layer handling a different function and supporting the next. In the source, it means structuring a library information model into levels such as data input, processing, knowledge building, service use, and user interaction so complex information can be managed more coherently.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12810841"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12810841",
+      "revision": "2026; DOI 10.1371/journal.pone.0341307; article XML SHA-256 e303adef303feac641bdf4bacfee29302daa6ffbebaac6abd1206fbfed834a32",
+      "scope": "Source record 10.1371/journal.pone.0341307; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341307"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bce44b68874d48f9b16e7d51a8ce6e3a",
+    "request_hash": "a8250bed25f54a718645836d9bc78691338adb019ed7056528121701bd581820",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "528a0c575faa765d9a2ac16423ae1ebc8d0194ac1c5ac344bf80f9b45ff2bf89",
+    "packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0"
+  },
+  "hash": "352af3492deceec6627690f83f616416c5184ac33e5d59cd610b43e96114c59a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that layering is done “so complex information can be managed more coherently” is not supported anywhere in the provided packet text."
+      ],
+      "definition_hash": "528a0c575faa765d9a2ac16423ae1ebc8d0194ac1c5ac344bf80f9b45ff2bf89",
+      "packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0",
+      "published_packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0",
+      "receipt_id": "86b7708c738948cebcc922ae46debd7e",
+      "request_hash": "8317c82fb2d101388fa3820fca1d6dd2816857eff166344b98f4758af8253203",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "528a0c575faa765d9a2ac16423ae1ebc8d0194ac1c5ac344bf80f9b45ff2bf89",
+      "packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0",
+      "published_packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0",
+      "receipt_id": "5a53308943b1496b9c006bbd987ca7b3",
+      "request_hash": "2bf3436d459fc05382a625e9ddc87718230286699d12c647a268ee6f59273bca",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

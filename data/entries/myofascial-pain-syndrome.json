@@ -1,0 +1,64 @@
+{
+  "id": "myofascial-pain-syndrome",
+  "term": "myofascial pain syndrome",
+  "definition": "Myofascial pain syndrome is a common musculoskeletal pain condition involving sensitive trigger points in skeletal muscles and nearby tissues that can produce characteristic referred pain. It often includes regional pain, muscle spasm, reduced movement, and lower day-to-day functioning, and is seen more often in people exposed to repetitive strain, prolonged fixed posture, or work-related overuse.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13235886"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13235886",
+      "revision": "2026; DOI 10.1371/journal.pone.0350402; article XML SHA-256 0a562dcf5db13c213b7e32b1a847bb3c88689bd160b25cbe2ad82a88aca5803d",
+      "scope": "Source record 10.1371/journal.pone.0350402; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350402"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7c11b499cf8a4835d6ad8585db3af3077246919c4ac1f01c06e02fce3ea7d0a3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "59ffcd71cbe640578a7268ab927c79da",
+    "request_hash": "dad5d22e161c1e41558b409b1f191c107c06636008d6acee100dd203a9a9072b",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "b6e2fb6610b7909588e1de504c5c09e88be2dc76f93d2ba5f7c5672f928f5ef6",
+    "packet_hash": "7c11b499cf8a4835d6ad8585db3af3077246919c4ac1f01c06e02fce3ea7d0a3"
+  },
+  "hash": "4a26c61ec9824203f7bb7b85f5a04e1b4892e7edd1f915c2aa50e7af56b1d4ed",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: this is a medical/musculoskeletal pain term, not a development/psychology sense.",
+        "The definition adds unsupported anatomy detail by saying trigger points occur in “nearby tissues”; the packet only mentions palpable trigger points in skeletal muscles and associated facial structures.",
+        "The claim about “lower day-to-day functioning” is a looser paraphrase of decreased functional capacity/daily activities and is not stated as such in the source."
+      ],
+      "definition_hash": "b6e2fb6610b7909588e1de504c5c09e88be2dc76f93d2ba5f7c5672f928f5ef6",
+      "packet_hash": "7c11b499cf8a4835d6ad8585db3af3077246919c4ac1f01c06e02fce3ea7d0a3",
+      "published_packet_hash": "7c11b499cf8a4835d6ad8585db3af3077246919c4ac1f01c06e02fce3ea7d0a3",
+      "receipt_id": "d94bb933039c4a258388817d3509d3cd",
+      "request_hash": "124945a05fc22cdf367341e83d1e5f5df624f8d7d30691dd6b14087ef26e3da0",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that trigger points are “sensitive” and that pain involves “nearby tissues,” but the packet only describes “palpable trigger points” and “associated facial structures,” without directly supporting the wording “sensitive” or the general phrase “nearby tissues.”",
+        "While the packet supports the general concepts of regional pain, muscle spasm, limited range of motion, and decreased functional capacity, the definition’s phrasing (“lower day-to-day functioning”) is not stated verbatim or as an exact construct in the provided text."
+      ],
+      "definition_hash": "b6e2fb6610b7909588e1de504c5c09e88be2dc76f93d2ba5f7c5672f928f5ef6",
+      "packet_hash": "7c11b499cf8a4835d6ad8585db3af3077246919c4ac1f01c06e02fce3ea7d0a3",
+      "published_packet_hash": "7c11b499cf8a4835d6ad8585db3af3077246919c4ac1f01c06e02fce3ea7d0a3",
+      "receipt_id": "3385d802dc194a6dba22d9b93ac16eef",
+      "request_hash": "129ffab6d432c1937b79b87c6d8812af0acf0bd3d32aa2aecd0c9766d6e0fd52",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

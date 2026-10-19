@@ -1,0 +1,26 @@
+{
+  "id": "binary-trial",
+  "term": "binary trial",
+  "source": "article-pmc10416379",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12915-023-01660-9",
+  "revision": "2023; DOI 10.1186/s12915-023-01660-9; article XML SHA-256 7884bd5597bc2024285faa66e297ef5a878c65896bae66e80f3b21ba67c7edf3",
+  "source_snapshot_sha256": "7884bd5597bc2024285faa66e297ef5a878c65896bae66e80f3b21ba67c7edf3",
+  "url": "https://doi.org/10.1186/s12915-023-01660-9",
+  "text": "Behavior consists of the interaction between an organism and its environment, and is controlled by the brain. Brain activity varies at sub-second time scales, but behavioral measures are usually coarse (often consisting of only binary trial outcomes).\n\nTo overcome this mismatch, we developed the Rat Interactive Foraging Facility (RIFF): a programmable interactive arena for freely moving rats with multiple feeding areas, multiple sound sources, high-resolution behavioral tracking, and simultaneous electrophysiological recordings. The paper provides detailed information about the construction of the RIFF and the software used to control it. To illustrate the flexibility of the RIFF, we describe two complex tasks implemented in the RIFF, a foraging task and a sound localization task. Rats quickly learned to obtain rewards in both tasks. Neurons in the auditory cortex as well as neurons in the auditory field in the posterior insula had sound-driven activity during behavior. Remarkably, neurons in both structures also showed sensitivity to non-auditory parameters such as location in the arena and head-to-body angle.\n\nThe RIFF provides insights into the cognitive capabilities and learning mechanisms of rats and opens the way to a better understanding of how brains control behavior. The ability to do so depends crucially on the combination of wireless electrophysiology and detailed behavioral documentation available in the RIFF.\n\nThe online version contains supplementary material available at 10.1186/s12915-023-01660-9.\n\nKeywords: Complex behavior, Automated environment, Brain, Insular cortex, Auditory cortex, Electrophysiology, Freely moving rat\n\nBehavior involves brain-controlled, complex interactions between an organism and its environment. Natural behavior has many components. Much of what we understand about brains and their functions was shaped by examinations of single components of the interaction between organisms and their environments, including sensation and perception [ 1 ]; motor control [ 2 ]; decision making [ 3 ]; and memory [ 4 ]. However, these successes have been achieved at a price—animals are often studied using behavioral tasks that are much simpler than those they face in their natural habitats.\n\nThe main observable output of behavior is movement—animals select and time their actions. Patterns of movements may be rich: predictive movements may precede trial events when there is a temporal structure to the task; movements may differ between individuals; and movements may be used for solving cognitive tasks. For example, rats exert active control on selected motor variables in order to enable consistent perception of location when using their whiskers [ 5 ].\n\nEvidently, even in simple tasks, animals perform much more than a single action at each trial. In complex, naturalistic settings, the amount of movement (and number of decisions) performed by animals is substantial. Brain activity is expected to reflect and shape the full complexity of the concomitant behavioral strategies [ 6 ]. During a trial, neural activity throughout the brain runs its fast course, before, during, and after relevant decision points. For example, movements that vary from trial to trial account for much of the inter-trial variability in wide-field calcium imaging of mouse cortex [ 6 ].\n\nWe designed and constructed the Rat Interactive Foraging Facility (RIFF) to allow high-resolution behavioral data acquisition in time and space combined with tetherless electrophysiology in freely moving animals. The RIFF is controlled by a real-time loop that tracks the rat, identifies its actions, and reacts to them. Because of the generic nature of this loop, it is flexible and can implement a rich set of behavioral scenarios.\n\nWe describe here the design principles of the RIFF and provide detailed information about its implementation. The control program and all essential post-processing programs are described and made available in the associated repository, together with exemplary data. We illustrate the use of the RIFF with two very different tasks. Rats learned these behavioral tasks efficiently, sometimes within a few hours. Different rats",
+  "source_label": "An automated, low-latency environment for studying the neural basis of behavior in freely moving rats",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "402d7af53e27ca249a78d3aca7108ec217ce3f4c188a31a65a243ddb1386d772"
+}

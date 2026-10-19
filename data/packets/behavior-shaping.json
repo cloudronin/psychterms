@@ -1,0 +1,26 @@
+{
+  "id": "behavior-shaping",
+  "term": "behavior shaping",
+  "source": "article-pmc11737743",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0313925",
+  "revision": "2025; DOI 10.1371/journal.pone.0313925; article XML SHA-256 d367b280677188029843bf6d6b3739ff3bd9e4b0a9f872ba747687fbfd5df42d",
+  "source_snapshot_sha256": "d367b280677188029843bf6d6b3739ff3bd9e4b0a9f872ba747687fbfd5df42d",
+  "url": "https://doi.org/10.1371/journal.pone.0313925",
+  "text": "Mobile sensing technology allows automated behavior shaping routines to be incorporated into health behavior interventions and other settings. In previous work, a computational model was built to investigate how to best arrange automatic behavior shaping procedures, but the degree to which this model reflects actual human behavior is not known.\n\nTo translate a previously developed computational model of automatic behavior shaping into an experimental setting.\n\nParticipants ( n = 54) operated a computer mouse and attempted to locate a hidden, randomly-placed target circle on a blank computer screen and clicks within some threshold distance of the target circle were reinforced by a pleasant auditory tone. As the trial progressed, the threshold distance narrowed according to a shaping function until eventually only clicks within the target circle were reinforced. Accumulated Area Under Trajectory Curves and Time Until 10 Consecutive Target Clicks were used to quantify the probability of the target behavior. Linear mixed effects models were used to assess differential outcomes for concave up, concave down, and linear shaping functions.\n\nIn congruence with the computational model, concave-up functions most effectively shaped participants’ behavior, with linear and then concave-down shaping functions producing the next best outcomes.\n\nConcave-up shaping routines most effectively generated target behavior, which should be confirmed in health behavior trials. The automatic shaping routines that this study helps develop can be applied in a number of domains, including exercise intensity and duration, tobacco/cannabis smoking, caloric intake, and screen time.\n\nOperant conditioning posits that behaviors met with reinforcing consequences will be more likely to be repeated under similar contexts in the future, while behaviors met with punitive consequences will be less likely to be repeated [ 1 ]. These consequences can either exist naturally (e.g., regular exercise leads to better health), or they can be engineered by an external entity (e.g., a counselor provides a monetary incentive every time their patient meets the CDC guideline of 150 minutes of moderate intensity physical activity in a week). Regarding the latter, it can often be effective to gradually guide individuals toward a goal, especially if the objective is complex or difficult to achieve. In other words, instead of waiting for a target behavior to be emitted to provide a reward, as per simple operant conditioning, it might be useful to initially establish a looser goal that eventually converges toward the final goal. Operant theory specifies this process as behavior shaping , which is the cultivation of a targeted behavior via reinforcing successive approximations to the target [ 2 ]. During the shaping process, the threshold for reinforcement narrows with time, as behaviors are required to become ever more similar to the target behavior in order to qualify for reinforcement (i.e., for a reward; Fig 1a ). This process often leads to complex behaviors that would otherwise not be emitted as quickly, or at all [ 3 ]. When implementing a shaping routine, practitioners must i.) discriminate the deviation between an emitted behavior and the target behavior and ii.) optimally determine when to refine the reinforcement criteria so that only closer approximations to the target are rewarded. Proficiency in these efforts arbitrates the ultimate effectiveness of a shaping procedure, with specialists (e.g., counselors and coaches) typically mastering these skills as an art [ 4 ].\n\na) Schematic of a shaping procedure showing the window of reinforced behavior narrowing towards a target over time. b) Five examples of continuous shaping functions used in the computational model, governing the reinforced class size as it narrows with time towards a target size of 11. Note each function’s different initial width (i.e., y-intercepts) and decay rate.\n\nIn general, health interventions have historically focused on antecedents of behavior (e.g., knowledge, prompts) rather than post-cedent features that enable operant phenomena like behavior shaping [ 5 ]. While behavior shaping has largely",
+  "source_label": "Empirically validating a computational model of automatic behavior shaping",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "counselling skills",
+  "scope_decision": {
+    "eligible": true,
+    "field": "counselling skills",
+    "rule": "psychology-context:counselling skills",
+    "policy_version": 2
+  },
+  "packet_hash": "2a9ce90e766723c50c81111db9b96e39dc8eee600ed69c94521db5f127791759"
+}

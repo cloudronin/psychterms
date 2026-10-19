@@ -1,0 +1,26 @@
+{
+  "id": "ataxic-speech",
+  "term": "ataxic speech",
+  "source": "article-pmc10132693",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0284667",
+  "revision": "2023; DOI 10.1371/journal.pone.0284667; article XML SHA-256 19d99a31fc79756b73c856d429fffa9f7e93e51db047075bb5f3d2f1c32aefae",
+  "source_snapshot_sha256": "19d99a31fc79756b73c856d429fffa9f7e93e51db047075bb5f3d2f1c32aefae",
+  "url": "https://doi.org/10.1371/journal.pone.0284667",
+  "text": "Medical diagnostic methods that utilise modalities of patient symptoms such as speech are increasingly being used for initial diagnostic purposes and monitoring disease state progression. Speech disorders are particularly prevalent in neurological degenerative diseases such as Parkinson’s disease, the focus of the study undertaken in this work. We will demonstrate state-of-the-art statistical time-series methods that combine elements of statistical time series modelling and signal processing with modern machine learning methods based on Gaussian process models to develop methods to accurately detect a core symptom of speech disorder in individuals who have Parkinson’s disease. We will show that the proposed methods out-perform standard best practices of speech diagnostics in detecting ataxic speech disorders, and we will focus the study, particularly on a detailed analysis of a well regarded Parkinson’s data speech study publicly available making all our results reproducible. The methodology developed is based on a specialised technique not widely adopted in medical statistics that found great success in other domains such as signal processing, seismology, speech analysis and ecology. In this work, we will present this method from a statistical perspective and generalise it to a stochastic model, which will be used to design a test for speech disorders when applied to speech time series signals. As such, this work is making contributions both of a practical and statistical methodological nature.\n\nNumerous degenerative neurological diseases require continuous monitoring of the patient’s status to ensure treatment regimes are up to date. Furthermore, the same symptoms manifest in multiple of these conditions [ 1 ], demanding expensive equipment and advanced expertise for the correct diagnosis. As a solution, the developments of artificial intelligence in biotechnology have started to support these medical settings with automated computational tools that can increasingly identify disorders’ abnormalities in real-life-sensing environments [ 2 – 5 ]. The challenge in detecting symptoms of such nervous system disorders through a computerised practice is accomplished via several modalities (such as speech, handwriting, radiology, gait, etc.) which are employed to reveal indicators of discriminant symptoms associated with neurodegenerative disorders, see [ 3 , 4 ]. The idea is to map different modality-derived features to the various symptoms and obtain discriminant information about the studied illness. In such a way, what is usually referred to as a “biomarker” could be defined.\n\nThis work focuses on Parkinson’s disease, the degenerative disorder of the central nervous system resulting from the death of dopamine-containing cells in the substantia nigra, a midbrain region [ 1 ]. It includes both motor and non-motor signs, worsening with disease progression [ 6 , 7 ]. Medical treatments can alleviate the course of the disease, but no definite cure exists, and an early diagnosis and remote monitoring are critical for prolonging quality of life in those diagnosed, see [ 8 , 9 ]. The modality in focus in this work is speech which sets our goal as characterising speech anomalies of such a disorder for implementing a pre-screening diagnostic tool and promoting remote telemedicine practices for understanding disease progression. Thus, our interest is restricted to voice symptoms that manifest from this neurodegenerative disorder, part of the speech-motor disease (SMD) class and markers of what is known as dysarthria .\n\nDysarthria refers to a group of divergent SMDs often secondary to neurologic injury (but not limited to it) and exhibits highly variable speech patterns within and across individuals [ 10 ]. One of the most established clinical taxonomy for SMD corresponds to the Darley, Aronson, and Brown (DAB) model [ 11 ] that foresees 38 atypical speech features rated on a 7-point scale and groups dysarthria types based on speech feature profiles [ 10 ]. The DAB model split SMD into two classes, apraxia and dysarthria, and dysarthria into five clusters, flaccid, spastic, ataxic, hypokinetic, and hyperkinetic. Patients often show a",
+  "source_label": "Ataxic speech disorders and Parkinson’s disease diagnostics via stochastic embedding of empirical mode decomposition",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "507a7b8d8009446f3d2cdb71ba6528b1b71dd6ba7762763c5c2cbdeb1e43bc79"
+}

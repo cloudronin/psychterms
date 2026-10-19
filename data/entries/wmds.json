@@ -1,0 +1,60 @@
+{
+  "id": "wmds",
+  "term": "WMDS",
+  "definition": "WMDS refers to weighted mean differences, a statistical effect-size measure used in meta-analyses to compare the average difference between groups while giving more influence to studies with greater weight.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10615281"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10615281",
+      "revision": "2023; DOI 10.1371/journal.pone.0292698; article XML SHA-256 82bb1dbb342390e959d40e784eebfbe6571d83209853a30e581dc939a15f597d",
+      "scope": "Source record 10.1371/journal.pone.0292698; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0292698"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5d32eeead5a74910aecd48b69f3796b0",
+    "request_hash": "3e02b1321e842fc3330ebff8c424ea0612afe012d513f5e3c24c617be29eccfb",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "578d49f54e53abf40a7e94f7930ce8f282d53c0bfe53a396b1f3bcae3c15a2a6",
+    "packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3"
+  },
+  "hash": "af526abbd83f9096ad0ffce9d96def229b6cfeb627dae55333478d029d807fe8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "578d49f54e53abf40a7e94f7930ce8f282d53c0bfe53a396b1f3bcae3c15a2a6",
+      "packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3",
+      "published_packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3",
+      "receipt_id": "855bb94bc9214557b0097c8b2910136b",
+      "request_hash": "e3e41b5707263dfbb7e331dabfe0fbe096c7c64cf174f47707707f672802add0",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the acronym “WMDs” (weighted mean differences) rather than “WMDS”; the definition’s term-to-expansion match (“WMDS” → “weighted mean differences”) is not supported by the supplied text.",
+        "Although the packet states that “weighted mean differences (WMDs) were used as the effect sizes” in the meta-analysis, it does not explicitly define WMDs (e.g., how weighting is applied or what it means to “give more influence” to higher-weight studies)."
+      ],
+      "definition_hash": "578d49f54e53abf40a7e94f7930ce8f282d53c0bfe53a396b1f3bcae3c15a2a6",
+      "packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3",
+      "published_packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3",
+      "receipt_id": "e60906dd1ace48a99ea74063990ba401",
+      "request_hash": "3991aea32e3b7bbd32ab4dbaeedaff33afa5c7c53c86f108ebdf59555bbd126c",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

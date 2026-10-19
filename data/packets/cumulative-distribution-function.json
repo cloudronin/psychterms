@@ -1,0 +1,26 @@
+{
+  "id": "cumulative-distribution-function",
+  "term": "cumulative distribution function",
+  "source": "article-pmc12097595",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0322660",
+  "revision": "2025; DOI 10.1371/journal.pone.0322660; article XML SHA-256 9c3a61a759d1cf35ec8e1d669b1efc53a3fc4ef5fbd5c1312102cf765c184a5d",
+  "source_snapshot_sha256": "9c3a61a759d1cf35ec8e1d669b1efc53a3fc4ef5fbd5c1312102cf765c184a5d",
+  "url": "https://doi.org/10.1371/journal.pone.0322660",
+  "text": "This study focuses on estimating a finite population cumulative distribution function (CDF) using two-stage and three-stage cluster sampling under non-response. This work is then extended to estimate the finite population CDF under non-response using stratified two-stage and three-stage cluster sampling. We propose two distinct families of CDF estimators, specifically designed for these complex surveys, namely classical ratio/product-type and exponential ratio/product-type. Furthermore, we introduce a difference estimator for the CDF under non-response, utilizing ancillary information about the variances and covariances of the estimators under these complex schemes. We provide mathematical expressions for the biases and mean squared errors of the proposed CDF estimators, based on first-order approximation. To evaluate the performance of the proposed estimators, we conduct extensive simulations and assess their efficiency. The simulation results demonstrate that the proposed families of estimators perform well under different sampling scenarios. Our findings indicate that difference CDF estimators are more explicit than the other estimators discussed. We support our theoretical claims by analyzing real datasets.\n\nNon-response is a critical issue in survey sampling that can lead to biased estimates and inefficiencies in statistical inference. In complex survey sampling schemes such as two-stage cluster sampling (2SCS), stratified two-stage cluster sampling (S2SCS), three-stage cluster sampling (3SCS), and stratified three-stage cluster sampling (S3SCS), the challenge of non-response becomes even more pronounced due to the hierarchical structure of the data and the varying probabilities of response at different stages. Despite the extensive literature on CDF estimation, existing methods primarily focus on simple random sampling (SRS) or basic stratified sampling, with limited attention to the impact of non-response in complex sampling frameworks.\n\nA significant gap in the literature is the absence of comprehensive methods for estimating the finite population CDF under non-response within these complex sampling schemes while effectively incorporating auxiliary information. Traditional estimation approaches often neglect the potential of utilizing ancillary information such as variances and covariances of estimators, which could significantly enhance estimation efficiency. Moreover, the use of ratio/product-type and exponential ratio/product-type estimators in handling non-response within complex sampling designs remains under-explored.\n\nIt is common for surveys to have incomplete data due to certain reasons. For example, in an opinion survey, the selected family may have moved to another place or the selected person may have passed away. In a mailed questionnaire, many respondents may not reply. This problem of incomplete sample data due to the non-availability of information from the respondent is called the problem of non-response. The estimate attained from such deficient data can be inaccurate, especially when there are differences between the respondents and non-respondents. One way to address the problem of non-response in a mailed questionnaire survey is to divide the population into two groups: respondents and non-respondents. From the non-respondent group, a sub-sample is selected and personally interviewed to obtain the necessary information. This technique is known as sub-sampling and was introduced by [ 7 ]. By making this extra effort, an unbiased estimator can be obtained for the non-response cases.\n\nEstimating the CDF for a finite population is a fundamental problem in survey sampling, particularly in scenarios where auxiliary information is available. Accurate estimation of the CDF is crucial in various fields, including public health, economics, and social sciences, where decision-making often relies on understanding the distribution of a population’s characteristics. However, the complexity of survey designs, such as multi-stage cluster sampling with or without stratification, coupled with the challenge of non-response, complicates the estimation process. Non-response, a common issue in surveys, can",
+  "source_label": "Estimation of the distribution function of a finite population utilizing auxiliary information in the context of non-response within complex survey sampling",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4190
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 2
+  },
+  "packet_hash": "191777c7ff2e25cda1a6af3e9eaae5d38d7adaa02bc0fa93dcd949e4761b6331"
+}

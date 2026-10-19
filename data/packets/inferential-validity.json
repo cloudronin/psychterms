@@ -1,0 +1,26 @@
+{
+  "id": "inferential-validity",
+  "term": "inferential validity",
+  "source": "article-pmc13621587",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-026-02984-0",
+  "revision": "2026; DOI 10.1186/s12874-026-02984-0; article XML SHA-256 eed76bd405a5ab3a32af2bd873c2e259c63779a6f05cdcf03ca012d9df98a1af",
+  "source_snapshot_sha256": "eed76bd405a5ab3a32af2bd873c2e259c63779a6f05cdcf03ca012d9df98a1af",
+  "url": "https://doi.org/10.1186/s12874-026-02984-0",
+  "text": "Missing data in patient-reported outcome measures (PROMs) can affect estimation accuracy and inferential validity, particularly under missing-at-random (MAR) mechanisms. Multiple imputation (MI) is commonly recommended, but the relative performance of item-level and score-level imputation for longitudinal PROM composite scores remains insufficiently understood.\n\nWe conducted a simulation study based on longitudinal clinical trial PROM data. Predictive mean matching (PMM) and random forest (RF) imputation were evaluated at both the item and score level under empirically calibrated MAR mechanisms. Simulation scenarios varied sample size, overall missingness, and the proportion of unit nonresponse. Performance was assessed using root mean squared error (RMSE), bias magnitude, relative efficiency compared with complete case analysis (CCA), conditional confidence interval coverage, and variance ratio estimates.\n\nRMSE decreased with increasing sample size and increased with higher proportions of missingness across all methods. Both PMM and RF generally outperformed CCA in terms of RMSE and relative efficiency, particularly under higher missingness. Differences between item-level and score-level imputation were generally modest, although score-level imputation tended to yield slightly lower RMSE and bias magnitudes under more severe missingness conditions. Conditional coverage remained close to nominal levels across most MI settings. Variance tended to be overestimated in some scenarios, although sensitivity analyses with larger numbers of imputations substantially reduced this effect. PMM showed comparatively stable performance across simulation settings.\n\nMultiple imputation methods generally outperformed complete case analysis for handling longitudinal PROM data under MAR. While score-level imputation sometimes showed slightly more favorable performance than item-level imputation when targeting composite score means, the magnitude of these differences was frequently small in practical terms. PMM provided stable performance across a wide range of settings and represents a reasonable default approach for many applied PROM analyses.\n\nThe online version contains supplementary material available at https://doi.org/10.1186/s12874-026-02984-0 .\n\nMissing data are a common source of bias in clinical studies, particularly when the probability of missingness depends on observed or unobserved variables related to the outcome. Ignoring such missingness can compromise the validity of study findings and, consequently, the clinical or regulatory decisions based on them, especially in evaluations of new drugs or therapeutic interventions. Multiple imputation (MI) is a widely accepted approach to mitigate bias by replacing missing values with multiple sets of plausible values that reflect uncertainty about the unobserved data. Despite extensive methodological development, the literature provides no clear consensus on which imputation strategies perform best under realistic data-generating mechanisms encountered in applied research. The present study contributes to this debate through a simulation-based evaluation of MI methods for patient-reported outcome measures (PROMs).\n\nPROMs typically consist of standardized questionnaires designed to capture health outcomes directly from patients. They may be administered during the course of an illness or following an intervention to assess treatment impact. PROMs frequently target aspects of health-related quality of life, such as anxiety, pain, or social functioning, which represent latent constructs that cannot be observed directly. Validated questionnaires operationalize these constructs through multiple items, which are subsequently aggregated into quantitative scores suitable for statistical analysis.\n\nIn many applied analyses, inference focuses on the composite PROM score rather than on individual item responses. However, missing data may arise at both the item level (item nonresponse) and the questionnaire level (unit nonresponse), and MI can be applied at either level. This creates a methodological ambiguity between imputing items—thereby preserving the internal structure of the instrument—and",
+  "source_label": "Imputing longitudinal PROM data at the item and score level in clinical trials",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 2
+  },
+  "packet_hash": "ff44675ec6429f4e955498c0959b37192e4974c841d018c8032f27b782504be1"
+}

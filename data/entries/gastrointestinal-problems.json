@@ -1,0 +1,60 @@
+{
+  "id": "gastrointestinal-problems",
+  "term": "gastrointestinal problems",
+  "definition": "Gastrointestinal problems are unwanted effects involving the digestive system. In this packet, the term refers to opioid-related digestive side effects, including constipation.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13178854"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13178854",
+      "revision": "2026; DOI 10.1371/journal.pone.0349596; article XML SHA-256 b7286e64a86aa7817d78283654cdfa9ed3b82048681f6644ced54044866e5ce1",
+      "scope": "Source record 10.1371/journal.pone.0349596; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0349596"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3096f6b476f449038f6fe653a69cc1ad",
+    "request_hash": "5b6f855e6c9485b10c836ef599bb5ebe2373b03567feb556e400601631a101d3",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "6c1a97a744ea721ef08affab9b4cf10973efba88661d7deb8b517cd1f86f2eea",
+    "packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb"
+  },
+  "hash": "bccda8111fbd21a18323ada0847015e1f2464c8fedc37ea01779af7964333397",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6c1a97a744ea721ef08affab9b4cf10973efba88661d7deb8b517cd1f86f2eea",
+      "packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb",
+      "published_packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb",
+      "receipt_id": "6dc2af3b1ecb4c52a899e808b26056f7",
+      "request_hash": "c961f2ca636d3da2d3a5351c48bfe5169a8a767778cd91c15669edb8baa7d684",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is about opioid side effects and autonomic outcomes, not cognition.",
+        "The definition narrows the term to a packet-specific sense, but the packet only supports general gastrointestinal side effects such as constipation; it does not establish a special term reference beyond that context."
+      ],
+      "definition_hash": "6c1a97a744ea721ef08affab9b4cf10973efba88661d7deb8b517cd1f86f2eea",
+      "packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb",
+      "published_packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb",
+      "receipt_id": "ef25c7aa9b144e9fb6d0408c3379344b",
+      "request_hash": "acffa1c2d54647733c9d7913496ac82800a65d9ec76604e3087070b02bcd040f",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

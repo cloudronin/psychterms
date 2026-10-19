@@ -1,0 +1,26 @@
+{
+  "id": "false-detection",
+  "term": "false detection",
+  "source": "article-pmc13524292",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0357212",
+  "revision": "2026; DOI 10.1371/journal.pone.0357212; article XML SHA-256 cc0dbf08bde32277fee8bec5eb4ff85934708d0610885f7214d1178576901e73",
+  "source_snapshot_sha256": "cc0dbf08bde32277fee8bec5eb4ff85934708d0610885f7214d1178576901e73",
+  "url": "https://doi.org/10.1371/journal.pone.0357212",
+  "text": "To address the challenges of false detection, insufficient feature representation, and limited real-time performance in image-based traffic police command gesture detection under different lighting conditions, this paper proposes a detection model named FDMB-YOLOv11 based on the YOLOv11n architecture. Firstly, the detection head was enhanced by introducing Frequency Adaptive Dilated Convolution (FADC), while the BiFormer attention mechanism was incorporated into the C2PSA module. Secondly, MobileNetV4 was adopted as the backbone network to reduce computational complexity. Finally, standard convolutions were replaced with Deformable Convolution to improve feature representation capability. Experimental results show that, based on the improvements described above, the precision, recall, and mean average precision (mAP@0.5) of the FDMB-YOLOv11 model under normal lighting conditions reach 97.91%, 93.32%, and 97.17% respectively, which are 23.1%, 13.63%, and 16.74% higher than those of the YOLOv11n model. The model’s parameter count is reduced from 2.58 million to 1.93 million, achieving lightweight optimization. Although the frame rate (FPS) is reduced to 65.789 fps, the model still achieves real-time inference performance and demonstrates potential for deployment on edge devices. The model outperforms target detection algorithms like SSD, Faster R-CNN, RTDETR, YOLOv12, and YOLOv13 by achieving the highest mAP@0.5. It also addresses the misclassification problem seen in the YOLOv11n model regarding left-turn and right-turn gestures while maintaining an optimal balance between accuracy and parameter count.\n\nThe development of autonomous driving technology depends on effective interaction between vehicles and humans, with traffic police gestures playing a vital guiding role in scenarios such as missing traffic signs and signal failures [ 1 ]. Real-time and accurate recognition of traffic police gestures can provide reliable visual inputs for traffic conflict warning systems developed in previous traffic safety research. [ 2 ] For autonomous driving systems, recognizing traffic police gestures requires overriding the conventional decision-making logic, which typically involves high-definition maps, traffic signals, and traffic rules, posing the highest-level challenges to the system’s perception and decision-making modules. It is not merely a technical problem but a complex systems engineering task that involves functional safety, expected functional safety, and human-machine interaction (HMI). However, lighting conditions in traffic scenarios are highly unpredictable, and the processing capacity of on-board hardware is limited [ 3 ]. An overly complex model will increase deployment difficulty, raise adaptation costs, and may also result in insufficient frame rate and response delay, failing to meet the requirements of real-time interaction. Therefore, developing a traffic police command gesture recognition method that offers high robustness, high accuracy, and low complexity under different lighting conditions is highly significant.\n\nChinese traffic police use eight command gestures, including “Stop”, “Go straight”, “Turn right”, “Turn left”, “Wait for the left turn”, “Slow down”, “Lane change”, and “Pull over”. Different posture frames within the same continuous action sequence are assigned to the same gesture category and used for single-image detection. In early gesture recognition research, scientists primarily depended on manual feature extraction methods and traditional classifiers. These methods typically extracted various hand features (e.g., shape, motion, contour, and texture features) from images or videos, and edge detection algorithms were frequently employed to obtain gesture edges for calculating parameters such as perimeter and area [ 4 ]. In recent years, owing to their high precision, rapid detection capabilities, and robust performance, deep learning-based image recognition techniques have been widely adopted in autonomous driving systems. K et al. [ 5 ] combined the ESRGAN super-resolution enhancement network with the Faster R-CNN object detection model, and the proposed method achieved significantly better",
+  "source_label": "FDMB-YOLOv11: Traffic police command gesture recognition method under different lighting conditions",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "339398e5a6d5439c368a78da517baf6ace236b3330cbdeb38ccddd4d4e439647"
+}

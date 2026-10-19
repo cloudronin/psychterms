@@ -1,0 +1,64 @@
+{
+  "id": "motor-evoked-potential",
+  "term": "motor evoked potential",
+  "definition": "A motor evoked potential is the measured muscle response produced when the motor cortex is stimulated, in this packet using transcranial magnetic stimulation. Its amplitude is used as an index of corticospinal excitability, with larger amplitudes reflecting greater excitability.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13541700"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13541700",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1884060; article XML SHA-256 91f29c9efea14c0d821efa2e057318adc50bbce4c01b3f45e4bf5eef23409e72",
+      "scope": "Source record 10.3389/fnhum.2026.1884060; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1884060"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d702ffbc7cd9f17bc587231aa52fd0d015603751bf42cebbaaa4b5ed315a9bf0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "30108bfcdf95455f97d2ba703353db14",
+    "request_hash": "8c9931c5dc94e60ce240e3304e6cd148fb3904f20d354a1a269338a5353ea263",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "3f18b3f0da53dcee89bbec183a424a65058129f4bce72cc6c5271c4b15f9efc3",
+    "packet_hash": "d702ffbc7cd9f17bc587231aa52fd0d015603751bf42cebbaaa4b5ed315a9bf0"
+  },
+  "hash": "62498b43303f6bf61db7018f3516700a0ad0aed12ee08b8dc749e6ed7e3987f4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claimed sense that an MEP is “the measured muscle response produced when the motor cortex is stimulated”; it only describes measuring “motor-evoked potential (MEP) amplitudes” after stimulation, without stating that it is specifically a muscle response in the packet text provided.",
+        "While the packet links increased MEP amplitudes to “enhanced corticospinal excitability,” it does not explicitly support the broader statement that “amplitude is used as an index of corticospinal excitability” as a general characterization of MEPs within this packet.",
+        "The definition is placed under the field “diagnosis,” but the packet presents MEPs as part of neurophysiological assessment of excitability in a stimulation study, not as a diagnostic concept or criterion."
+      ],
+      "definition_hash": "3f18b3f0da53dcee89bbec183a424a65058129f4bce72cc6c5271c4b15f9efc3",
+      "packet_hash": "d702ffbc7cd9f17bc587231aa52fd0d015603751bf42cebbaaa4b5ed315a9bf0",
+      "published_packet_hash": "d702ffbc7cd9f17bc587231aa52fd0d015603751bf42cebbaaa4b5ed315a9bf0",
+      "receipt_id": "04f982afcc5c4d489a21ec7e66a349e9",
+      "request_hash": "c8e9f2b4237a84c3d249aef40c4a9f0ac9cc70b1359a10baaf3e6c532c12a704",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: motor evoked potential is described as a TMS-derived physiological measure of corticospinal excitability, not a diagnosis-related term.",
+        "The definition is slightly overgeneralized in saying the response is produced when the motor cortex is stimulated; the packet only supports measurement of MEP amplitudes via single- and paired-pulse transcranial magnetic stimulation protocols, without defining the phenomenon that broadly."
+      ],
+      "definition_hash": "3f18b3f0da53dcee89bbec183a424a65058129f4bce72cc6c5271c4b15f9efc3",
+      "packet_hash": "d702ffbc7cd9f17bc587231aa52fd0d015603751bf42cebbaaa4b5ed315a9bf0",
+      "published_packet_hash": "d702ffbc7cd9f17bc587231aa52fd0d015603751bf42cebbaaa4b5ed315a9bf0",
+      "receipt_id": "93337eaf1d294cf7a2aa0c4e21084398",
+      "request_hash": "27f98556ba24e06e0e0152d25ff36a044da6e02602d13ea4ed3516cbaac9282d",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

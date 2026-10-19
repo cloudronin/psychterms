@@ -1,0 +1,26 @@
+{
+  "id": "ability-trait",
+  "term": "ability trait",
+  "source": "article-pmc13170969",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0308190",
+  "revision": "2026; DOI 10.1371/journal.pone.0308190; article XML SHA-256 7cf4b233680a543b92f70a819471d230a52263832c59d7fd182fb4ae266b241c",
+  "source_snapshot_sha256": "7cf4b233680a543b92f70a819471d230a52263832c59d7fd182fb4ae266b241c",
+  "url": "https://doi.org/10.1371/journal.pone.0308190",
+  "text": "Analytical validation is a crucial step in the evaluation of algorithms that process data from sensor-based digital health technologies (sDHTs). Analytical validation of novel digital measures can be complicated when reference measures with directly comparable units are not available. To address this, we conducted a simulation study. Data was simulated assuming a latent physical ability trait, indirectly accessed through an sDHT-derived target measure collecting step count data, and the items of a clinical outcome assessment (COA) measuring self-reported physical activity. We quantified the ability of two methods to assess the latent relationship between reference and target measures: the Pearson Correlation Coefficient (PCC) and factor correlations from a two-factor confirmatory factor analysis (CFA) model. Additionally, three multiple linear regression models were used to evaluate if multiple COA reference measures can more completely represent a target measure of interest. Our findings show that PCC was more stable, easier to compute, and relatively robust with respect to violations of parametric assumptions than CFA, particularly with small sample sizes. However, CFA was less biased than PCC in all scenarios investigated. We demonstrate that using both PCC and CFA generates more confidence in the results of a target and reference measure comparison. Finally, regression results suggest that incorporating multiple reference measures with more frequent collection time points can provide a more complete presentation of the sDHT’s analytical validity. Novel digital measures are being developed at an accelerating pace and promise to revolutionize patient care and medical product development. Our findings provide investigators with crucial information for choosing appropriate methods to perform rigorous analytical validation of these novel measures, including an open-access simulation toolkit.\n\nFor a sensor-based digital health technology (sDHT) to aid scientific and clinical decision-making, its sensors must be verified against a technical specification, algorithms analytically validated, usability validated, and clinical validation conducted to ensure relevance in specific contexts, as outlined in the V3 + framework by the Digital Medicine Society (DiMe) [ 1 , 2 ].\n\nAnalytical validation confirms that an sDHT algorithm accurately captures physiological or behavioral measures against a reference standard. How to identify a fit-for-purpose reference measure is outlined in the framework developed by Bakker et al. [ 3 ]). When no reference measures exist with directly comparable units, clinician-reported outcomes (ClinROs) and patient-reported outcomes (PROs) are often used [ 4 , 5 ], particularly in challenging therapeutic areas [ 6 , 7 ] such as neurodegenerative diseases [ 8 ], mental health, and cardiometabolics [ 9 , 10 ].\n\nHowever, these types of reported episodic reference measures may not correlate well with intensive longitudinal data from sDHTs [ 11 ], complicating analytical validation. They typically do not directly assess the desired concept or construct and have inherent measurement errors that make it challenging to compare them directly to a sDHT-derived measure. Directly evaluating the correspondence between the target and reference measures is often infeasible, and may not be needed.\n\nFor instance, the Movement Disorder Society-Unified Parkinson’s Disease Rating Scale (MDS-UPDRS) [ 12 ] is a common reference for Parkinson’s disease but is known to be subjective with high within-subject variability and low test-retest reliability [ 13 ]. Comparisons between sDHT measures and MDS-UPDRS often yield poor results, which does not necessarily disprove the validity of the sDHT-derived measure.\n\nThe focus has shifted from replicating MDS-UPDRS components to developing fit-for-purpose sDHT measures that objectively assess similar concepts. This highlights the importance of convergent validity [ 14 ], which examines relationships between sDHT outputs and reference measures without directly comparable units, assuming the existence of an underlying latent trait. Statistical methods like correlation, regression, and",
+  "source_label": "Methods for analytical validation of novel digital clinical measures: A simulation study",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4192
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "53e282fe441a6031ae0bfbd1d58c9c48751124c8a11e440345747855ca7cd7f6"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mixed-effects-model",
+  "term": "mixed-effects model",
+  "source": "article-pmc10908071",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-024-02164-y",
+  "revision": "2024; DOI 10.1186/s12874-024-02164-y; article XML SHA-256 6aa0bed8e46dda53f7f202ecd8b6dd2287d652f69af6eff69fd7fdbde111305a",
+  "source_snapshot_sha256": "6aa0bed8e46dda53f7f202ecd8b6dd2287d652f69af6eff69fd7fdbde111305a",
+  "url": "https://doi.org/10.1186/s12874-024-02164-y",
+  "text": "In clinical trials and epidemiological research, mixed-effects models are commonly used to examine population-level and subject-specific trajectories of biomarkers over time. Despite their increasing popularity and application, the specification of these models necessitates a great deal of care when analysing longitudinal data with non-linear patterns and asymmetry. Parametric (linear) mixed-effect models may not capture these complexities flexibly and adequately. Additionally, assuming a Gaussian distribution for random effects and/or model errors may be overly restrictive, as it lacks robustness against deviations from symmetry.\n\nThis paper presents a semiparametric mixed-effects model with flexible distributions for complex longitudinal data in the Bayesian paradigm. The non-linear time effect on the longitudinal response was modelled using a spline approach. The multivariate skew-t distribution, which is a more flexible distribution, is utilized to relax the normality assumptions associated with both random-effects and model errors.\n\nTo assess the effectiveness of the proposed methods in various model settings, simulation studies were conducted. We then applied these models on chronic kidney disease (CKD) data and assessed the relationship between covariates and estimated glomerular filtration rate (eGFR). First, we compared the proposed semiparametric partially linear mixed-effect (SPPLM) model with the fully parametric one (FPLM), and the results indicated that the SPPLM model outperformed the FPLM model. We then further compared four different SPPLM models, each assuming different distributions for the random effects and model errors. The model with a skew-t distribution exhibited a superior fit to the CKD data compared to the Gaussian model. The findings from the application revealed that hypertension, diabetes, and follow-up time had a substantial association with kidney function, specifically leading to a decrease in GFR estimates.\n\nThe application and simulation studies have demonstrated that our work has made a significant contribution towards a more robust and adaptable methodology for modeling intricate longitudinal data. We achieved this by proposing a semiparametric Bayesian modeling approach with a spline smoothing function and a skew-t distribution.\n\nThe online version contains supplementary material available at 10.1186/s12874-024-02164-y.\n\nLongitudinal data are present in numerous clinical and other follow-up studies that involve monitoring subjects over time to understand the impact of exposures, processes, or characteristics on outcomes. These studies involve tracking a group of subjects and recording data at different time points throughout the study duration. For example, one or more renal functional progress biomarkers (e.g., serum creatinine, albuminuria, glomerular filtration rate, and other biomarkers) of a chronic kidney disease (CKD) patient can be measured repeatedly until end-stage renal disease and/or other events of interest occur.\n\nThis research was driven by longitudinal data on CKD, a significant global health issue that affects approximately 500 million individuals worldwide [ 1 ]. Around 80 percent of these CKD cases are found in low- and middle-income countries. A prevalence of approximately 35.52 percent of CKD was observed among people with diabetes in Ethiopia [ 2 ]. To comprehend how CKD progresses within individuals and across populations, as well as to assess the impact of treatments over time, conducting longitudinal data analysis is necessary.\n\nLongitudinal data can show a variety of features over time and across subjects in many real-world situations during follow-up studies. A suitable choice of methods for analysing such complex longitudinal data is therefore sought. The most popular method proposed is the linear mixed-effects (LME) model [ 3 – 6 ] with a Gaussian response. The generalized linear mixed-effects models [ 7 – 9 ] and non-linear mixed-effects models [ 10 ] have been also used as an extension of LME model.\n\nDespite the increasing popularity of LME models in applications, the specification and statistical inference of these models may necessitate much attention",
+  "source_label": "Flexible Bayesian semiparametric mixed-effects model for skewed longitudinal data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "fe8139d648550f4853033b71f8751a5bde5bc4daa200786ccc325b3f7ed72ba7"
+}

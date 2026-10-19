@@ -1,0 +1,64 @@
+{
+  "id": "guidance-program",
+  "term": "guidance program",
+  "definition": "A guidance program is a structured set of educational and support activities used to increase people’s knowledge, awareness, and follow-through on a recommended behavior. In this source, it refers to individualized dietary guidance delivered by community pharmacists to help outpatients with chronic kidney disease follow potassium restriction more effectively.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11142692"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11142692",
+      "revision": "2024; DOI 10.1371/journal.pone.0304479; article XML SHA-256 1f9d65fdea1e18263dbf569785bf661e5d0863850d7fe8a025d22c8b3e506593",
+      "scope": "Source record 10.1371/journal.pone.0304479; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0304479"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "16a3df20b1bc64b24a0dfeaa92e05d1d437c7ad62c827992599f41448ecff781",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cfc5cbebd2f74c7c964423030939a061",
+    "request_hash": "5f09afd0c36ac7a4d4eeab5e820b4eb6c59cd3917434faded0c0f38bb7dc00f7",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "580132b969dec66bafbc776f4704cc03f9b5a613839648df8bd183a340342e62",
+    "packet_hash": "16a3df20b1bc64b24a0dfeaa92e05d1d437c7ad62c827992599f41448ecff781"
+  },
+  "hash": "b243ec9161a635b8b9776fba30b1174b96132fb8375be2b693798b801e5d760b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general description (“structured set of educational and support activities… increase people’s knowledge, awareness, and follow-through on a recommended behavior”) is not directly supported by the provided packet text; the packet describes a pharmacist-led nutritional guidance intervention and measures of knowledge/awareness/implementation, but does not support the specific general formulation or the “follow-through” framing.",
+        "The second sentence is largely supported (individualized dietary guidance from community pharmacists to outpatients with CKD to improve potassium restriction knowledge/implementation), but because the first sentence contains unsupported generalizations, the overall definition fails the evidence requirement."
+      ],
+      "definition_hash": "580132b969dec66bafbc776f4704cc03f9b5a613839648df8bd183a340342e62",
+      "packet_hash": "16a3df20b1bc64b24a0dfeaa92e05d1d437c7ad62c827992599f41448ecff781",
+      "published_packet_hash": "16a3df20b1bc64b24a0dfeaa92e05d1d437c7ad62c827992599f41448ecff781",
+      "receipt_id": "7b3f5eefdb4d47638da6e8937d90a24a",
+      "request_hash": "7c7762e0f460f64d2e7b3f3bc525aac23e6132e939970bb4a3f5c04d3eeb5a86",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s generic gloss (“structured set of educational and support activities used to increase people’s knowledge, awareness, and follow-through on a recommended behavior”) is broader than the packet supports; the source only describes a dietary potassium restriction guidance program in community pharmacies and does not define the term that way.",
+        "The second sentence adds unsupported specifics: it says the guidance was individualized and aimed to help outpatients with chronic kidney disease follow potassium restriction more effectively, but the packet does not explicitly state an individualized program or that this is the term’s fixed meaning.",
+        "The packet supports a pharmacist-led nutritional guidance intervention for CKD outpatients, not a general development-psychology sense of “guidance program.”"
+      ],
+      "definition_hash": "580132b969dec66bafbc776f4704cc03f9b5a613839648df8bd183a340342e62",
+      "packet_hash": "16a3df20b1bc64b24a0dfeaa92e05d1d437c7ad62c827992599f41448ecff781",
+      "published_packet_hash": "16a3df20b1bc64b24a0dfeaa92e05d1d437c7ad62c827992599f41448ecff781",
+      "receipt_id": "2bcb8cfd38214c8f860e884d3abbea0f",
+      "request_hash": "a98b4eefd782ea2aa65d0aa6c5fb2e53701a35c2bbf9036b0f1319cb77f53b26",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

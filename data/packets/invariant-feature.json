@@ -1,0 +1,26 @@
+{
+  "id": "invariant-feature",
+  "term": "invariant feature",
+  "source": "article-pmc13293511",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0330578",
+  "revision": "2026; DOI 10.1371/journal.pone.0330578; article XML SHA-256 5f10a42cc1e1fb15635f1e07d8b3595f2e0f62a339ea56fe05c6782811bc24cd",
+  "source_snapshot_sha256": "5f10a42cc1e1fb15635f1e07d8b3595f2e0f62a339ea56fe05c6782811bc24cd",
+  "url": "https://doi.org/10.1371/journal.pone.0330578",
+  "text": "Scale-Invariant Feature Transform (SIFT) features are widely used in target recognition and tracking. This study aimed to exploit the robust performance of the SIFT algorithm to accurately calculate tumor tissue displacement during respiratory motion.\n\nA thoracic phantom was employed in this study. Eight synthetic nodules with different shapes and gray values were inserted into the phantom. First, the nodules were displaced upward, downward, leftward, and rightward by 10 pixels to simulate motion in different directions during respiration. The nodules were then rotated clockwise and counterclockwise by 5°, 10°, 30°, and 45°. Subsequently, the SIFT and cross-correlation algorithms were applied to analyze the phantoms. Finally, a t-test was used to assess differences among motion directions.\n\nThe t-test result indicated no significant difference in the detection of moving phantom across all motion directions (p > 0.05). No statistically significant difference was observed between SIFT and cross-correlation in detecting translational motion. In contrast, the results obtained from rotating phantoms demonstrated that SIFT could effectively detect rotational distortion.\n\nThe SIFT algorithm can be used to calculate tissue distortion caused by thoracic motion during respiration.\n\nLung cancer is a disease with a high incidence and mortality rate. Nearly 70% of patients with cancer require radiotherapy during the course of treatment [ 1 ]. However, accurately determining tumor motion during respiration remains challenging. If tumor motion during breathing can be precisely quantified, radiation exposure to patients can be significantly reduced. At present, four-dimensional computed tomography (4DCT) is most commonly used in clinical practice to assess tumor motion; however, this approach is time-consuming and labor-intensive [ 2 ].\n\nPreviously, numerous studies have attempted to improve the accuracy of automatic motion detection. Emilie developed a tumor tracking technique capable of following a moving tumor in real time [ 3 ]. Christoph Hoog Antink used a high–sampling-rate terahertz homodyne spectroscopy system to estimate thoracic movement [ 4 ]. Evan et al. adapted the Microsoft Kinect v2 sensor to trace and record patient respiratory motion [ 5 ]. Mari Honda employed a breathing motion sensor for chest radiography during inspiration [ 6 ]. Melanie et al. used a self-gating 4D magnetic resonance imaging (MRI) workflow to assess the motion of the breast and organs at risk [ 7 ].\n\nThese studies have substantially improved the accuracy of tumor treatment and significantly reduced damage to surrounding organs at risk. However, chest tissue motion during respiration is not limited to simple translational displacement; a certain degree of rotational deformation also occurs with breathing. Owing to its invariance to rotation, the Scale-Invariant Feature Transform (SIFT) is widely used in target recognition and tracking [ 8 , 9 ], as well as in image segmentation and registration [ 10 – 12 ]. In this study, the robust performance of the SIFT algorithm was leveraged to accurately calculate tumor tissue displacement during respiratory motion. Both translational displacement and rotational angle were quantified to further enhance the accuracy of tissue motion assessment.",
+  "source_label": "An improved Scale-Invariant Feature Transform-based method for detecting tumor tissue motion induced by respiration",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    3313
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba"
+}

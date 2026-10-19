@@ -1,0 +1,26 @@
+{
+  "id": "finger-tapping-test",
+  "term": "Finger Tapping Test",
+  "source": "article-pmc12342252",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0330373",
+  "revision": "2025; DOI 10.1371/journal.pone.0330373; article XML SHA-256 843f199043db5416086a2ada66de75527092636a38d3179fa7389d17dd11ef4c",
+  "source_snapshot_sha256": "843f199043db5416086a2ada66de75527092636a38d3179fa7389d17dd11ef4c",
+  "url": "https://doi.org/10.1371/journal.pone.0330373",
+  "text": "Identifying bradykinesia is crucial for diagnosing Parkinson’s disease (PD). Traditionally, the finger-tapping test has been used, relying on subjective assessments by physicians. Computer vision offers a non-contact and cost-effective alternative for assessing Parkinson’s disease.\n\nThis study aimed to detect Parkinson’s disease by identifying bradykinesia using computer vision in the finger-tapping test and applying machine learning techniques for both hands.\n\nWe recruited 100 patients with PD and healthy controls. Four neurologists assessed bradykinesia, and 10-second smartphone-recorded finger-tapping movements were analyzed using Google MediaPipe Hands software. Six machine learning models were trained using a nested cross-validation framework.\n\nThe differences in tapping scores between the left and right hands were significantly greater in the PD group (2.8 (5.0) vs 0.4 (0.7), p = 0.001) than in the healthy controls. Moreover, the tapping amplitude variation and all amplitude decremental parameters in the PD group differed significantly from those of the standard controls. The PD group had significantly lower tapping scores than the normal subjects (right: 17.9 (7.8)/ left: 17.9 (5.6) vs. right: 24.6 (7.3)/ left: 24.6 (7.2), p < 0.001). The support vector machine outperformed the other models. The most influential features were the tapping difference, followed by the tapping score (right hand) and tapping amplitude mean (right hand).\n\nA computer vision method can accurately detect bradykinesia using the tapping feature from the finger-tapping method, which involves the simultaneous tapping of both hands.\n\nParkinson’s disease (PD) is clinically defined by the presence of bradykinesia and at least one additional cardinal motor feature (rigidity or rest tremor), along with supporting and exclusionary criteria [ 1 , 2 ]. Accurate identification of bradykinesia is crucial for diagnosing PD, as it is a prerequisite for diagnosis [ 2 ]. Various tasks, such as finger tapping, pronation-supination movements, toe-tapping, and foot tapping, have been used subjectively to evaluate bradykinesia. Clinical rating scales, such as the Movement Disorder Society revision of the Unified Parkinson’s Disease Rating Scale (MDS-UPDRS), have been developed to assess both motor and non-motor symptoms of PD. These scales have shown high consistency and correlation with the original UPDRS [ 3 ]. However, they rely on subjective scoring based on a physician’s clinical experience, limiting their ability to detect mild bradykinesia. In order to address this, technology-based tools have been developed to quantify bradykinesia more objectively. These include a computer software program called BRAIN TEST© that assesses finger-tapping speed and accuracy [ 4 ]. However, it requires a keyboard and may not be helpful for patients with severe hand dysfunction. Another tool, the Coordination Ability Test System (CATSYS), utilizes sensors such as a tremor pen, touch recording plate, reaction time handle, and force plate for balance recording [ 5 ]. While CATSYS correlated with the UPDRS item for pronation/supination, it did not correlate with finger-tapping values and corresponding UPDRS bradykinesia items. Quantitative assessment of finger movement performance on a computer keyboard [ 6 ] and musical keyboard [ 7 ] demonstrates a correlation with clinical phenomena of repetitive movement and can identify motor signs in early PD [ 8 ]. A touchscreen-based tapping application was comparable to a conventional method for assessing motor dysfunction [ 9 ]. Gyrosensors have also been used to measure angular movement and have shown a moderate correlation with clinical finger-tap scores [ 10 ]. However, these tools require sensors that may not be widely available or specific computer programs with which patients need to interact.\n\nComputer vision (CV) offers several advantages in assessing Parkinson’s disease (PD), including its non-contact nature and minimal instrumentation requirements. CV can be easily implemented using standard devices, such as computers with webcams or smartphones with cameras. Previous studies have utilized various computer vision techniques",
+  "source_label": "Screening for Parkinson’s disease using “computer vision”",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c"
+}

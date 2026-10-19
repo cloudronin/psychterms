@@ -1,0 +1,60 @@
+{
+  "id": "client-characteristics",
+  "term": "client characteristics",
+  "definition": "Client characteristics are features of a person receiving mental health care that may be examined to understand differences in treatment course or outcomes. In this source, the term refers to personal, social, and clinical factors such as age, education, employment, social support, functioning, and symptom severity.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10207790"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10207790",
+      "revision": "2023; DOI 10.1186/s12888-023-04878-7; article XML SHA-256 eb2d63bf60e3e15cf9d5a82ae954bec702e44675eabea30a41627c0ea64ca477",
+      "scope": "Source record 10.1186/s12888-023-04878-7; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-023-04878-7"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "208609f8ce1941129b81709bb85fa8fd",
+    "request_hash": "d034039d9f0ab2f41150151fd687d2cea1439d19fc94ac057fa17067077ce0e2",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "fe2f52601849bfcda49b6544b900b274d3327a54582337f459970ee591937039",
+    "packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614"
+  },
+  "hash": "1d100d150287fa339528766acb203d6113cd88f82630fa2437fdd1aafcfe044c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe2f52601849bfcda49b6544b900b274d3327a54582337f459970ee591937039",
+      "packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614",
+      "published_packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614",
+      "receipt_id": "8c26e00ac29a44219c219fe41d7b892d",
+      "request_hash": "ce1e9d532e3f1c4081be65af698f8e36336e61baa495160080f0cce606a1b8f8",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s wording that client characteristics are examined “to understand differences in treatment course or outcomes” is broader than what the packet supports. The packet specifically investigates predictors of “dropout from the service Prompt Mental Health Care (PMHC).”",
+        "The definition lists examples “such as age, education, employment, social support, functioning, and symptom severity,” which are supported by the packet; however, because the definition adds the unverified general purpose about treatment course/outcomes (not specifically dropout), the substantive claim is not fully supported."
+      ],
+      "definition_hash": "fe2f52601849bfcda49b6544b900b274d3327a54582337f459970ee591937039",
+      "packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614",
+      "published_packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614",
+      "receipt_id": "170fed5abb194ac78dd0dac3b8794a94",
+      "request_hash": "b4520146a91c92db11254cf609944bd6ae6ad0f8135dbf05e3be35f4922a4057",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

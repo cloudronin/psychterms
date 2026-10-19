@@ -1,0 +1,26 @@
+{
+  "id": "length-of-stay",
+  "term": "length of stay",
+  "source": "article-pmc12857969",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0342102",
+  "revision": "2026; DOI 10.1371/journal.pone.0342102; article XML SHA-256 851998e6e7a5a82fb17d93bec718cf7efb03056381769d5fc1482609ef921e18",
+  "source_snapshot_sha256": "851998e6e7a5a82fb17d93bec718cf7efb03056381769d5fc1482609ef921e18",
+  "url": "https://doi.org/10.1371/journal.pone.0342102",
+  "text": "Computations of length of stay in animal shelters rely on fixed animal cohorts. This is appropriate for research studies that pre-select cohorts, but it is problematic for operational assessments of animal shelters in fixed calendar periods or for comparisons among periods or shelters. Considering only the length of stay of animals whose stay ended within the study period leads to misinterpretation. The use of the Kaplan-Meier and Cox proportional hazards methods with left-truncation and right-censoring is proposed to correctly account for all animals present in the shelter for any fraction of a study period, including those that were present at the beginning and those that remain in care at the end of the period. Examples of dog length of stay in Orange County Animal Care in California show that this computation method corrects the misleading view of historically used calculations of length of stay. Statistically significant changes in length of stay are observed in 8 out of 23 quarterly periods. In a comparison of length of stay before and after the COVID-19 pandemic, the observed significant change in length of stay cannot be explained by variations in sizes and ages of incoming dogs and may be connected to operational policies that restricted visitor access. The proposed approach enables timely tracking of length of stay, accurate comparisons, and assessment of shelter practices and resource needs.\n\nThe concept of Length of Stay (LOS) in animal shelters is critical for managing shelter capacity, improving animal welfare, and assessing and improving shelter performance. For an individual animal, the length of stay measures how much time the animal is under the shelter’s care, from intake to outcome [ 1 ]. Intake and outcome data from animal shelters for animal cohorts of interest can be summarized into LOS distributions and averages. Currently, however, shelters compute LOS mean only for animals that exit the shelter, distorting calendar-period dynamics because they ignore residents present at the end of the period. This article seeks to remedy this deficiency.\n\nFor a fixed number of intakes, lower LOS means fewer animals in care each day, which in turn translates to improved welfare [ 2 ]. Staffing needs depend directly on the number of animals in care [ 3 ]. Accelerating outcomes and reducing LOS, when feasible, creates care capacity for those animals who require longer stays [ 4 ]. Decision-making and animal movement should therefore optimize LOS [ 1 ].\n\nWe can draw an analogy with (human) hospital length of stay, which has long been used by hospitals to improve patient care, reduce overall costs, and allocate resources according to patient needs [ 5 ]. Hospital LOS affects resource requirements, costs, and capacity planning [ 6 ]. It can serve as an indicator of hospital unit efficiency and patient flow [ 5 ] across hospital environments or over time. Like hospitals, animal shelters seek the best appropriate outcomes for individuals in their care but cannot disregard LOS in assessing their policy choices and resource allocation. The most widely-used shelter metric is the Live Release Rate [ 7 ], which captures the ratio of live to total outcomes regardless of LOS. But LOS cannot be ignored in shelter operations, as it governs capacity and resource availability (which may in turn impact a shelter’s ability to maintain or increase its live release rate). Unnecessary days in the shelter increase crowding, compounding shelter-acquired illness and behavior decline [ 8 , 9 ]. Reducing average LOS improves staff and resource efficiency while ensuring animals do not spend needless nights in the shelter. Shelters are accordingly advised to remove barriers and delays to obtain faster outcomes [ 10 ].\n\nMultiple studies have examined the effects of factors such as size, age, breed, behavior, health, fostering, and labeling on LOS [ 11 – 20 ]. A large multivariate study [ 21 ] determined that breed, purebred status, size, sex, neuter status on arrival, age, coat color, veterinary history, and the shelter all affect LOS. The study used Kaplan-Meier (KM) fits and Cox proportional hazards regressions, statistical methods common in",
+  "source_label": "Use of Kaplan-Meier and Cox regressions in the distribution of length of stay in animal shelters for pre-specified calendar periods: Definition, computation, and examples of dog length of stay in orange county California",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "finger-tapping-test",
+  "term": "Finger Tapping Test",
+  "definition": "The Finger Tapping Test is a task in which a person repeatedly taps their fingers, often to assess how fast and consistently the movement can be performed. In the supplied source, it is used to help identify bradykinesia, with lower speed, reduced movement size, and greater differences between hands being relevant features.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12342252"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12342252",
+      "revision": "2025; DOI 10.1371/journal.pone.0330373; article XML SHA-256 843f199043db5416086a2ada66de75527092636a38d3179fa7389d17dd11ef4c",
+      "scope": "Source record 10.1371/journal.pone.0330373; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0330373"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d6ee7ebfcaf34a7586b5c599e6c7b539",
+    "request_hash": "a0d2b33e4354c24328a55557108834bbf8a121e96ff2ae6d36105e8f3b891f0e",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "cbde08280318069909ed2bbdede67dc538fd878aae58d9c158a6df1ea2c80c60",
+    "packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c"
+  },
+  "hash": "43a5ec47a3f20e4ac5d376109d5bf2127b571ec15eed570232498ea298531c8c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source is about Parkinson’s disease/bradykinesia assessment, not the psychology/counselling field of learning, so the requested field is not defensible from the packet.",
+        "The definition adds broader general-purpose description (“often to assess how fast and consistently the movement can be performed”) that is not stated in the packet as a definition of the test itself."
+      ],
+      "definition_hash": "cbde08280318069909ed2bbdede67dc538fd878aae58d9c158a6df1ea2c80c60",
+      "packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c",
+      "published_packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c",
+      "receipt_id": "f8fb92a5672b482baa9c6a8c738c8bb6",
+      "request_hash": "cb4ff32cde3b3022195488174e6530fbc8768eef121e92a260d05eaedb5e7bfd",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the test assesses “how fast” movements can be performed and that bradykinesia features include “lower speed,” but the supplied packet describes using finger-tapping to detect bradykinesia via machine-vision features (e.g., “tapping scores,” “tapping amplitude variation,” and “amplitude decremental parameters”) without explicitly stating that the test’s relevant bradykinesia feature is “lower speed.”",
+        "The definition also attributes bradykinesia features to “reduced movement size,” which is not explicitly stated in the packet; while the packet reports differences in “tapping amplitude” measures, it does not directly characterize these as “reduced movement size.”"
+      ],
+      "definition_hash": "cbde08280318069909ed2bbdede67dc538fd878aae58d9c158a6df1ea2c80c60",
+      "packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c",
+      "published_packet_hash": "7a5228e8eaa9fcb53e3d53fb329bfef78f97d34559b29bcdd5c0219daf875b6c",
+      "receipt_id": "90b44ab9f3c04ab9b0684bbd8fd064ce",
+      "request_hash": "85fd9b3292c4db13bbc938e6880dc5fe28bbd071431ed75b14879917bf8e86a5",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

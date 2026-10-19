@@ -1,0 +1,60 @@
+{
+  "id": "length-of-stay",
+  "term": "length of stay",
+  "definition": "Length of stay is the amount of time an individual remains in a care setting, measured from entry or intake until exit or outcome. As a summary measure, it describes how long people or animals are kept in care and is used to judge flow, capacity, and resource demands over time.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12857969"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12857969",
+      "revision": "2026; DOI 10.1371/journal.pone.0342102; article XML SHA-256 851998e6e7a5a82fb17d93bec718cf7efb03056381769d5fc1482609ef921e18",
+      "scope": "Source record 10.1371/journal.pone.0342102; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342102"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "96024b6e9f20466da08a6a978537481f",
+    "request_hash": "56ea71649ebf959313815366ce2f94cefe83f924fab485891b706d7121f868dc",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "1de15743157d4227c787bdf6397aff5cfe33d659fe8f94b25198d4d0666e6f97",
+    "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b"
+  },
+  "hash": "8be7ade715cd5702d872c7c48167e0e595f2a492a4e0cb4aeb03afda838f2641",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1de15743157d4227c787bdf6397aff5cfe33d659fe8f94b25198d4d0666e6f97",
+      "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b",
+      "published_packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b",
+      "receipt_id": "b04d8b530b544ce6940383fb4a420e31",
+      "request_hash": "b5f8c2d64ba7f005d20e3dd2f903c7fa55f910a85f33810b8227e2b81d091592",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source is about animal shelters and an analogy to hospital operations, not the psychology/learning sense requested by the field, so the field alignment is not defensible here.",
+        "The definition generalizes the term to \"people or animals\" and to any \"care setting\"; the packet directly supports animal shelters and hospital length of stay, but not the broader cross-domain wording as stated."
+      ],
+      "definition_hash": "1de15743157d4227c787bdf6397aff5cfe33d659fe8f94b25198d4d0666e6f97",
+      "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b",
+      "published_packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b",
+      "receipt_id": "7449165f37c5492b821ded1fcdb954ba",
+      "request_hash": "f6ae48ce9d2b523f56552f8d2c3339d5e4c8c7774f880c960dfa621bec7de21b",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

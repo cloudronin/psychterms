@@ -1,0 +1,60 @@
+{
+  "id": "cognitive-assessment-system",
+  "term": "Cognitive Assessment System",
+  "definition": "The Cognitive Assessment System is a psychological assessment used to evaluate cognitive functioning through a cognitive-processing approach. In this source, the Das-Naglieri version was used to measure abilities such as planning, attention, and successive processing in children with ADHD.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12659188"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12659188",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1658202; article XML SHA-256 2847c4a5276ff6da89cec54f1314533cad0ceba38bdc9fb5ca42c3d5419f100b",
+      "scope": "Source record 10.3389/fpsyt.2025.1658202; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1658202"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "57b92fc2a5204e4489c26b3e2bb48ba4",
+    "request_hash": "e4aa426daf65f14f639ac3bc67a73846ae1cef32d138b4d55019b1366c9da533",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "a85f09fcde498d3cf46bf35ea1f529deae455b7bfdbaeb5f416ec77474df372d",
+    "packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76"
+  },
+  "hash": "d00cddc5063b452411ee3a47e5d2eca01cf02e22bacd2b55d5c0653198a4e8db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a85f09fcde498d3cf46bf35ea1f529deae455b7bfdbaeb5f416ec77474df372d",
+      "packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76",
+      "published_packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76",
+      "receipt_id": "971155c94d2640ecaaf63f50327f6937",
+      "request_hash": "d54a084fef3f6b01ea1105ed71bfc9d812eb4a1166db7a0d8b0043843a5c8961",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the DAS-Naglieri version “was used to measure abilities such as planning, attention, and successive processing in children with ADHD,” but the provided packet only states that the study used the “Chinese version of the Das-Naglieri Cognitive Assessment System (DN: CAS)” to assess cognitive function, and it separately describes planning/attention/successive processing as examples of cognitive operations in the cognitive processing theory; it does not explicitly connect DN:CAS to measuring planning, attention, and successive processing in this source.",
+        "The definition’s first sentence (“used to evaluate cognitive functioning through a cognitive-processing approach”) is only indirectly supported: the packet indicates cognitive function was assessed with DN:CAS and that cognitive processing theory discusses planning/attention/successive processing, but it does not explicitly describe the assessment procedure as “a cognitive-processing approach” in the assessment itself."
+      ],
+      "definition_hash": "a85f09fcde498d3cf46bf35ea1f529deae455b7bfdbaeb5f416ec77474df372d",
+      "packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76",
+      "published_packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76",
+      "receipt_id": "5a38ce70235f402595ad3de9308adc3c",
+      "request_hash": "b3f1778dcc04b121c4c9c01253a27f8759d2e9e2442c67a7a51ef049b6b1ddc1",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

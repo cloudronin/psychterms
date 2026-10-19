@@ -1,0 +1,26 @@
+{
+  "id": "matching-patients",
+  "term": "matching patients",
+  "source": "article-pmc11500892",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0311510",
+  "revision": "2024; DOI 10.1371/journal.pone.0311510; article XML SHA-256 c4a57912afc2a408a1db113f06940466a0c6d71e59f71b98a4037489dd99776a",
+  "source_snapshot_sha256": "c4a57912afc2a408a1db113f06940466a0c6d71e59f71b98a4037489dd99776a",
+  "url": "https://doi.org/10.1371/journal.pone.0311510",
+  "text": "This study aims to develop explainable AI methods for matching patients with phase 1 oncology clinical trials using Natural Language Processing (NLP) techniques to address challenges in patient recruitment for improved efficiency in drug development. A prototype system based on modern NLP techniques has been developed to match patient records with phase 1 oncology clinical trial protocols. Four criteria are considered for the matching: cancer type, performance status, genetic mutation, and measurable disease. The system outputs a summary matching score along with explanations of the evidence. The outputs of the AI system were evaluated against the ground truth matching results provided by the domain expert on a dataset of twelve synthesized dummy patient records and six clinical trial protocols. The system achieved a precision of 73.68%, sensitivity/recall of 56%, accuracy of 77.78%, and specificity of 89.36%. Further investigation into the misclassified cases indicated that ambiguity of abbreviation and misunderstanding of context are significant contributors to errors. The system found evidence of no matching for all false positive cases. To the best of our knowledge, no system in the public domain currently deploys an explainable AI-based approach to identify optimal patients for phase 1 oncology trials. This initial attempt to develop an AI system for patients and clinical trial matching in the context of phase 1 oncology trials showed promising results that are set to increase efficiency without sacrificing quality in patient-trial matching.\n\nPhase-1 or early-phase clinical trials are uniquely poised within the clinical trial process as they are the first clinical step in drug development, making them the first chance to identify clinical biomarkers and efficacy signals [ 1 ]. Optimizing phase 1 trials by a proper phenotypic and genotypic selection of patients represents a promising avenue to rapidly improve drug development, biomarker identification process, and eventually, patient clinical outcomes [ 2 , 3 ]. Currently, a significant proportion of clinical trials fail. One of the main reasons for the failure is the suboptimal patient selection and recruitment processes [ 4 , 5 ]. Patient selection and recruitment, especially for phase 1 trials, require assimilation and analysis of copious amounts of patient clinical/genomic data making the process extremely time, skill, and labor-intensive. There is great potential to apply cognitive computing to streamline the oncology phase 1 drug development process, including on-treatment data capture, and achieve cost, time, and research benefits. Although some early promise has been shown with using artificial intelligence (AI) based approaches to identify appropriate patients for clinical trials [ 4 , 6 – 8 ], these efforts have yet to focus on cancer-specific phase 1 trials. Patient selection for oncology trials may have very different criteria that require the development of unique systems to match them. For example, the n2c2 shared task selected 13 criteria for matching patients with diabetes to clinical trials [ 9 ]. We found none of the 13 criteria applicable for selecting patients for oncology trials. To the best of our knowledge, no system in the public domain currently deploys an explainable AI-based approach to identify optimal patients for phase 1 oncology trials. There is an unmet need to develop customized systems for patient selection for phase 1 oncology clinical trials.\n\nAutomated selection of patients for clinical trials is a relatively new domain that requires much exploration. Some recent studies have explored and streamlined patient recruitment in different domains [ 10 – 12 ]. However, most of these studies are either using large synthetic data [ 12 ] or proprietary systems [ 11 ] (like Watson for Clinical Trial Matching). There is not an open dataset to evaluate patient-clinical-trial matching in phase 1 oncology trials. Similar to Calaprice-Whitty and Salloum [ 10 ] our work draws emphasis on evidence-based matching, and we provide an in-depth description of each step used in the system. Moreover, this study is uniquely poised because we work on real",
+  "source_label": "Harnessing explainable artificial intelligence for patient-to-clinical-trial matching: A proof-of-concept pilot study using phase I oncology trials",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87"
+}

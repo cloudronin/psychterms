@@ -1,0 +1,60 @@
+{
+  "id": "interrupted-time-series-design",
+  "term": "interrupted time-series design",
+  "definition": "An interrupted time-series design is a way of evaluating a change by tracking measures repeatedly over time and then examining how they shift after a clearly defined intervention or policy is introduced. It is used to look for immediate changes or changes in the pattern over time following that interruption.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3823974"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3823974",
+      "revision": "2013; DOI 10.1371/journal.pone.0078942; article XML SHA-256 66b862b8836aafa9d30757e24e9c0ff40cf8c77759f36372d49f84fd07ad125f",
+      "scope": "Source record 10.1371/journal.pone.0078942; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0078942"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "92058ab8eeb24732829c301132645e19",
+    "request_hash": "748ead95e3894b89f6428947619198b95f2564d2247d6821c72b5c078505786c",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "ad0256e6382bf7bff700db6517949d6a7488c874f768a73588d3d65e59aa358b",
+    "packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7"
+  },
+  "hash": "ccbdcd88408777036404c3e2f99fa1a63bcee223844232d5f51adb219a5134a1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ad0256e6382bf7bff700db6517949d6a7488c874f768a73588d3d65e59aa358b",
+      "packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7",
+      "published_packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7",
+      "receipt_id": "d704760d55234678ad4ac025c1cf7a50",
+      "request_hash": "6203778d06e41aa3c486a6f893432dcb68237d83d39861ec3ddea54dc0ca7560",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “interrupted time-series design”; it only states that the authors “measured … using an interrupted time series design” and then reports an example of what they looked for (e.g., “no immediate step-change” and a change in risk over time).",
+        "Claims like “tracking measures repeatedly over time” and “examining how they shift after a clearly defined intervention or policy is introduced” are not stated as general definitional statements in the packet."
+      ],
+      "definition_hash": "ad0256e6382bf7bff700db6517949d6a7488c874f768a73588d3d65e59aa358b",
+      "packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7",
+      "published_packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7",
+      "receipt_id": "9e64e16a9e7a415db23f36bbea3673bb",
+      "request_hash": "44f2216398f172d5ac4c2c8c8e9e032c178f656da95a558bc12038bbac3df5b6",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

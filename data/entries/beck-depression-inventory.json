@@ -1,0 +1,64 @@
+{
+  "id": "beck-depression-inventory",
+  "term": "Beck Depression Inventory",
+  "definition": "The Beck Depression Inventory is a psychological assessment used to measure depressive symptoms. In this source, its revised form, the Beck Depression Inventory-II, is listed as an outcome measure for evaluating depression in neuropsychiatric research.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13322950"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13322950",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1865587; article XML SHA-256 af971fb6a9b037c466d05ee91fa126e1c1ba634efe2ff3d6a458939cb778efd1",
+      "scope": "Source record 10.3389/fpsyg.2026.1865587; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1865587"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c520fb36065d836985646a81d4a9c53b143a86cd41b61be227c176b1fa7e8e42",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2d370893c2334986b9c2890c50ab647d",
+    "request_hash": "f8bcc2160769777468c9c6b1fbfd4068f987082c81e52c0c81d46d3ee87f6d96",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "b165062b20cc85e4e36a0da15f0fdd73ec6cc4b316021715e340d4569f40f230",
+    "packet_hash": "c520fb36065d836985646a81d4a9c53b143a86cd41b61be227c176b1fa7e8e42"
+  },
+  "hash": "9336ee76a0d22d3cecaf9a40f2063f69c7d3c07cae7503fff3afc3479dab1d99",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the Beck Depression Inventory-II as an outcome measure; it does not define the original Beck Depression Inventory or state that it is a psychological assessment used to measure depressive symptoms.",
+        "The definition adds general explanatory content that is not supported by the supplied source packet."
+      ],
+      "definition_hash": "b165062b20cc85e4e36a0da15f0fdd73ec6cc4b316021715e340d4569f40f230",
+      "packet_hash": "c520fb36065d836985646a81d4a9c53b143a86cd41b61be227c176b1fa7e8e42",
+      "published_packet_hash": "c520fb36065d836985646a81d4a9c53b143a86cd41b61be227c176b1fa7e8e42",
+      "receipt_id": "650377c5546347ee98fc8e7fcca32f42",
+      "request_hash": "5a41006003a64aa936ed122da7f5f79886b3e4549b15d82bba1621a51f92e451",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support that the term “Beck Depression Inventory” (BDI) itself is used to measure depressive symptoms; it only mentions “Beck Depression Inventory-II (BDI-II)” as an outcome measure.",
+        "The definition’s first sentence makes a general characterization (“used to measure depressive symptoms”) that is not explicitly stated in the packet; the packet only lists BDI-II among neuropsychiatric/depressive symptom outcome measures in a specific DBS meta-analysis context.",
+        "The definition focuses on “Beck Depression Inventory” but the packet provides support only for the revised form “Beck Depression Inventory-II (BDI-II),” creating a term/sense mismatch."
+      ],
+      "definition_hash": "b165062b20cc85e4e36a0da15f0fdd73ec6cc4b316021715e340d4569f40f230",
+      "packet_hash": "c520fb36065d836985646a81d4a9c53b143a86cd41b61be227c176b1fa7e8e42",
+      "published_packet_hash": "c520fb36065d836985646a81d4a9c53b143a86cd41b61be227c176b1fa7e8e42",
+      "receipt_id": "d673a9a53974433790962885e4c86e31",
+      "request_hash": "21ec8e0506577f144422b3cf448a8841c932a80c968c082c25706c88ad9ea080",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

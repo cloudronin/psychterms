@@ -1,0 +1,26 @@
+{
+  "id": "grip-strength-test",
+  "term": "Grip Strength Test",
+  "source": "article-pmc10553233",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0292548",
+  "revision": "2023; DOI 10.1371/journal.pone.0292548; article XML SHA-256 bcc39c0d343c8abe5e321fcf6f55392e77653d423a7108f26e26df47869d4d1e",
+  "source_snapshot_sha256": "bcc39c0d343c8abe5e321fcf6f55392e77653d423a7108f26e26df47869d4d1e",
+  "url": "https://doi.org/10.1371/journal.pone.0292548",
+  "text": "Gait-stabilizing devices (GSDs) are effective at preventing falls, but people are often reluctant to use them until after experiencing a fall. Inexpensive, convenient, and effective methods for predicting which patients need GSDs could help improve adoption. The purpose of this study was to determine if a Wii Balance Board (WBB) can be used to determine whether or not patients use a GSD. We prospectively recruited participants ages 70–100, some who used GSDs and some who did not. Participants first answered questions from the Modified Vulnerable Elders Survey, and then completed a grip-strength test using a handgrip dynamometer. Finally, they were asked to complete a series of four 30-second balance tests on a WBB in random order: (1) eyes open, feet apart; (2) eyes open, feet together; (3) eyes closed, feet apart; and (4) eyes closed, feet together. The four-test series was repeated a second time in the same random order. The resulting data, represented as 25 features extracted from the questionnaires and the grip test, and data from the eight balance tests, were used to predict a subject’s GSD use using generalized functional linear models based on the Bernoulli distribution. 268 participants were consented; 62 were missing data elements and were removed from analysis; 109 were not GSD users and 97 were GSD users. The use of velocity and acceleration information from the WBB improved upon predictions based solely on grip strength, demographic, and survey variables. The WBB is a convenient, inexpensive, and easy-to-use device that can be used to recommend whether or not patients should be using a GSD.\n\nFalls are the leading cause of injury among older adults [ 1 , 2 ]. Nearly half of the population over the age of 80 suffers from at least one fall per yea [ 3 ]. According to the Centers for Disease Control and Prevention, approximately 27,000 older adults die due to falls, and almost 800,000 people require hospitalization after a fall each year [ 1 ]. Fall-related injuries are a major reason for loss of independence among older adults [ 4 , 5 ], and the fear of falling is detrimental to quality of life for older adults [ 6 ].\n\nSeveral successful programs for preventing falls exist, such as exercise programs [ 7 – 9 ], medication review [ 7 , 10 ], and interventions to make home environments safer (e.g., installing hand rails, safer bath mats, etc.) [ 11 ]. In addition to these strategies, gait-stabilizing devices (GSDs) such as canes or walkers may also help prevent falls [ 12 ]. GSDs have been shown to be effective particularly in adverse conditions such as the presence of snow or ice [ 13 ]. Unfortunately, empirical evidence suggests that most at-risk individuals are not using GSDs when they fall: indeed, many at-risk individuals do not start using such devices until after experiencing a severe fall [ 14 ]. Given that canes and walkers are inexpensive and effective fall-prevention measures, encouraging their use has the potential to greatly improve quality of life for at-risk individuals, if only those at risk could be easily identified.\n\nSimple survey-based risk assessment scores are available to help determine the risk of future falls for seniors [ 15 , 16 ]. Unfortunately, these require trained survey administrators and may be subject to recall bias. In contrast, performative evaluations (e.g., the “Functional Reach” test) require subjects to execute specified tasks [ 17 – 19 ]. While such tests have been empirically validated, they must also be administered by trained personnel and can be too time consuming to be useful in busy clinical settings such as primary care clinics. Fall detection using cameras, smartphones, and accelerometers have been proposed, but further testing is needed [ 20 ]. Finally, tests based on specialized technology (e.g., devices with force plates) have also been developed [ 21 – 23 ], but these devices are expensive and impractical when used outside research settings or large clinical centers.\n\nThe goal of this project was to build an accurate and inexpensive system to determine if an individual uses GSDs. To do this, we used the output (i.e., the trace of a patient’s shifting center of",
+  "source_label": "Predicting use of a gait-stabilizing device using a Wii Balance Board",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4195
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "ca1aee6802ba5722f8f4427217f949b3bc9bc1a4bc4b6a526b7bb0ef31cd35b8"
+}

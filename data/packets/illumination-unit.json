@@ -1,0 +1,26 @@
+{
+  "id": "illumination-unit",
+  "term": "illumination unit",
+  "source": "article-pmc13455296",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12886-026-05216-7",
+  "revision": "2026; DOI 10.1186/s12886-026-05216-7; article XML SHA-256 9ae83e55bef4c1dcf7644dcd4a7c9e6cc4ac9600ccd5c5f7b35dd4f3d45f08bb",
+  "source_snapshot_sha256": "9ae83e55bef4c1dcf7644dcd4a7c9e6cc4ac9600ccd5c5f7b35dd4f3d45f08bb",
+  "url": "https://doi.org/10.1186/s12886-026-05216-7",
+  "text": "Retinal vessel oximetry requires fundus images at two wavelengths with different hemoglobin absorption characteristics. Simultaneous acquisition using one-chip color cameras may be affected by incomplete spectral separation of detector channels, whereas multi-chip systems such as 3-chip CCD cameras can achieve improved spectral separation. We present a serial dual-wavelength illumination approach integrated into a conventional fundus camera and compare oxygen saturation measurements with those obtained from a commercial retinal oximeter.\n\nA custom LED illumination unit was fiber-coupled into a fundus camera to provide serial illumination at 548 nm (isosbestic hemoglobin wavelength) and 605 nm (oxygen-sensitive wavelength with differential absorption between oxy- and deoxyhemoglobin), each for 250 ms. Corneal irradiance was 33 mW/cm² at 548 nm and 7 mW/cm² at 605 nm. Sequentially acquired images were registered and analyzed using established retinal oximetry algorithms. Mean arterial and venous oxygen saturation values were compared with measurements from a commercial retinal oximeter in nine participants undergoing routine ophthalmic examination. Linear regression analysis was performed to assess the association between methods, and agreement was additionally evaluated using Bland–Altman analysis.\n\nMean arterial oxygen saturation was 99.4 ± 5.7% with serial illumination and 100.4 ± 3.0% with standard oximetry. Mean venous oxygen saturation was 71.5 ± 7.0% and 69.5 ± 11.6%, respectively. The mean absolute differences between both techniques were 3.6 ± 2.7% for arteries and 8.4 ± 9.3% for veins. Bland–Altman analysis showed a small arterial bias of 0.94% with limits of agreement from − 7.9% to + 9.8%. For venous measurements, bias was − 1.98% with wider limits of agreement (− 26.9% to + 22.9%). Arterial measurements showed borderline non-significant correlation ( R = 0.606, p = 0.084). Venous measurements showed no correlation.\n\nSerial illumination is feasible for retinal vessel oximetry and mitigates detector-level spectral crosstalk associated with simultaneous dual-wavelength imaging using one-chip color cameras. Arterial measurements showed only a small systematic bias compared with the commercial retinal oximeter, whereas venous measurements demonstrated greater variability, indicating the need for further optimization and validation.\n\nThe retina is among the most metabolically active tissues, and retinal oxygen delivery and extraction are tightly regulated by autoregulatory vascular mechanisms [ 1 – 3 ]. Disturbances of retinal oxygenation are implicated in major ocular diseases such as diabetic retinopathy, retinal vascular occlusions, glaucoma, and age-related macular degeneration [ 4 – 6 ]. Retinal vessel oximetry offers a non-invasive optical approach to estimate hemoglobin oxygen saturation in retinal arteries and veins based on wavelength-dependent absorption differences of oxyhemoglobin and deoxyhemoglobin [ 7 , 8 ].\n\nFundus-camera-based retinal oximetry commonly uses dual-wavelength reflectance imaging and derives saturation values from optical density ratios, typically including compensation for vessel diameter and fundus pigmentation to reduce bias and variability [ 9 – 11 ]. Historically, improved spectral separation in retinal oximetry has been achieved using multi-chip camera systems, such as 3-chip CCD cameras, in which the red, green, and blue signals are detected by separate sensors. In contrast, most conventional fundus cameras employ one-chip color sensors with Bayer filter arrays, whose detector channels exhibit partially overlapping spectral sensitivities. Consequently, simultaneous dual-wavelength acquisition with such cameras can result in imperfect wavelength separation (crosstalk) and thereby distort optical density estimates [ 8 , 10 ]. Although algorithmic compensation may mitigate some confounding factors, it cannot fully eliminate detector-intrinsic spectral overlap [ 8 , 10 ]. Dedicated retinal imaging systems employing monochrome detectors together with wavelength-selective optical filtering or hyperspectral imaging approaches can largely avoid detector-level spectral crosstalk by",
+  "source_label": "Serial dual-wavelength illumination for retinal vessel oximetry using a conventional fundus camera: a proof-of-concept study",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4191
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "9c9d59f96e901bcb7d2bd30a9130b649897c5a5559aafbfba00294293f0d2e8d"
+}

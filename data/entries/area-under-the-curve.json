@@ -1,0 +1,60 @@
+{
+  "id": "area-under-the-curve",
+  "term": "area under the curve",
+  "definition": "Area under the curve (AUC) is a summary number from a receiver operating characteristic curve that shows how well a test can distinguish between positive and negative cases. It can be understood as the chance that a randomly chosen positive case will have a higher test result than a randomly chosen negative case.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12924612"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12924612",
+      "revision": "2026; DOI 10.1186/s12874-026-02768-6; article XML SHA-256 b2d5c786da80379d998b3f7d2f3364444f311cbcfdea137d88e55198e1699a53",
+      "scope": "Source record 10.1186/s12874-026-02768-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-026-02768-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a257f047fca0458c83a75a376e36b702",
+    "request_hash": "5520d0d727161f05c6f99f57cf7e1669e7e5c242cd3e88e9929e50224c2d5443",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "c7200a6b71dc283aa4ceff0cd461bb355c56ddb06432c5e275cee1abb73c4088",
+    "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35"
+  },
+  "hash": "5d5d6614230dca8a7c12849287b01174f956254767a324caadc81d8c367856c9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a diagnostic-test/ROC interpretation of AUC, but it does not support the requested field label “cognition”; this is not clearly a cognition sense from the source text.",
+        "The definition is otherwise supported by the packet, but the field mismatch prevents approval under the requested sense."
+      ],
+      "definition_hash": "c7200a6b71dc283aa4ceff0cd461bb355c56ddb06432c5e275cee1abb73c4088",
+      "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35",
+      "published_packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35",
+      "receipt_id": "0f750a35bccd4013b804dd0254265dbc",
+      "request_hash": "913ffb16c108d350ba4f4c975141302d231941d6498ef68ee97bee316bc341e4",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c7200a6b71dc283aa4ceff0cd461bb355c56ddb06432c5e275cee1abb73c4088",
+      "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35",
+      "published_packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35",
+      "receipt_id": "097ffe47ff4d47d3919f027d71b80ada",
+      "request_hash": "7cd26682fa097481ee931ac9c270ea832ccbe7a6ce1991dfc3355690d2f8b3f3",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

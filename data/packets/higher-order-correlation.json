@@ -1,0 +1,26 @@
+{
+  "id": "higher-order-correlation",
+  "term": "higher order correlation",
+  "source": "article-pmc11996223",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pcbi.1011842",
+  "revision": "2025; DOI 10.1371/journal.pcbi.1011842; article XML SHA-256 eba3c940a5148a50bf03458b1d45c9b3c0f1fbaafc331e48ddae4a35d61ae646",
+  "source_snapshot_sha256": "eba3c940a5148a50bf03458b1d45c9b3c0f1fbaafc331e48ddae4a35d61ae646",
+  "url": "https://doi.org/10.1371/journal.pcbi.1011842",
+  "text": "Multiple -omics (genomics, proteomics, etc.) profiles are commonly generated to gain insight into a disease or physiological system. Constructing multi-omics networks with respect to the trait(s) of interest provides an opportunity to understand relationships between molecular features but integration is challenging due to multiple data sets with high dimensionality. One approach is to use canonical correlation to integrate one or two omics types and a single trait of interest. However, these types of methods may be limited due to (1) not accounting for higher-order correlations existing among features, (2) computational inefficiency when extending to more than two omics data when using a penalty term-based sparsity method, and (3) lack of flexibility for focusing on specific correlations (e.g., omics-to-phenotype correlation versus omics-to-omics correlations). In this work, we have developed a novel multi-omics network analysis pipeline called Sparse Generalized Tensor Canonical Correlation Analysis Network Inference (SGTCCA-Net) that can effectively overcome these limitations. We also introduce an implementation to improve the summarization of networks for downstream analyses. Simulation and real-data experiments demonstrate the effectiveness of our novel method for inferring omics networks and features of interest.\n\nMulti-omics network inference is crucial for identifying disease-specific molecular interactions across various molecular profiles, which helps understand the biological processes related to disease etiology. Traditional multi-omics integration methods focus mainly on pairwise interactions by only considering two molecular profiles at a time. This approach overlooks the complex, higher-order correlations often present in multi-omics data, especially when analyzing more than two types of -omics data and phenotypes. Higher-order correlation, by definition, refers to the simultaneous relationships among more than two types of -omics data and phenotype, providing a more complex and complete understanding of the interactions in biological systems. Our research introduces Sparse Generalized Tensor Canonical Correlation Network Analysis (SGTCCA-Net), a novel framework that effectively utilizes both higher-order and lower-order correlations for multi-omics network inference. SGTCCA-Net is adaptable for exploring diverse correlation structures within multi-omics data and is able to construct complex multi-omics networks in a two-dimensional space. This method offers a comprehensive view of molecular feature interactions with respect to complex diseases. Our simulation studies and real data experiments validate SGTCCA-Net as a potent tool for biomarker identification and uncovering biological mechanisms associated with targeted diseases.\n\nThe integration of multiple datasets with the same set of subjects has been actively explored in the field of machine learning, referred to as multi-view machine learning [ 1 ]. This approach has a broad range of applications, including clustering subjects based on the consensus of different views [ 2 ] and performing image annotation [ 3 ]. Furthermore, multi-view machine learning has been used extensively in the biomedical domain [ 4 , 5 ]. Recent advances in biomedical technologies have enabled the generation of high-throughput data at the molecular level, such as the genome, transcriptome, proteome, and metabolome. Collectively, these datasets are referred to as multi-omics data [ 6 ]. Traditionally, each omics dataset has been analyzed separately [ 7 , 8 ], which can result in the loss of important information about the connections between omics datasets. Multi-omics integration is an alternative approach that identifies shared and complimentary information across different molecular profiles [ 9 ]. Integrating multi-omics data can help uncover biological mechanisms and interactions at the molecular level, and has been used for various purposes such as disease subtyping [ 10 , 11 ], variable selection [ 12 , 13 ], network analysis [ 14 , 15 ] and prediction of biomarkers [ 6 , 16 , 17 ].\n\nDimension reduction is one of the more common goals of high dimensional data analysis.",
+  "source_label": "A generalized higher-order correlation analysis framework for multi-omics network inference",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "f3ed076dbbecff67ba13225283ec4b49e0c95791a5e276f03243832ce7e108fd"
+}

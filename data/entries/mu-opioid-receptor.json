@@ -1,0 +1,59 @@
+{
+  "id": "mu-opioid-receptor",
+  "term": "mu opioid receptor",
+  "definition": "The mu opioid receptor is a cell receptor targeted by opioid pain medicines and can trigger different internal signaling pathways after activation. In this source, it is discussed because drugs aimed at this receptor may keep pain-relieving effects while possibly changing side effects such as breathing, gut, and autonomic nervous system responses.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13178854"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13178854",
+      "revision": "2026; DOI 10.1371/journal.pone.0349596; article XML SHA-256 b7286e64a86aa7817d78283654cdfa9ed3b82048681f6644ced54044866e5ce1",
+      "scope": "Source record 10.1371/journal.pone.0349596; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0349596"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fa1d3d5e0e5343dca8ac22d0680f1e79",
+    "request_hash": "210f46c6f796d05ad7e11bcefe2d97d6e7d191ef8afd089d694be8ab94146ea7",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "5c023a54f7e96771c5899685e15f96d089dec3221433770981333a2051bcc332",
+    "packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab"
+  },
+  "hash": "68713f879da5d424a93a76b3f2beaefc5d2fc0095d7c2bcfcc17834ce767b40d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5c023a54f7e96771c5899685e15f96d089dec3221433770981333a2051bcc332",
+      "packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab",
+      "published_packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab",
+      "receipt_id": "fadfca3084034bf28648129c97a81dc2",
+      "request_hash": "8ad9ca6f725fcb2ae934b2da791f8d9f870fa4208b021f6b95c3b968a545b160",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided packet content is pharmacology/physiology (opioid receptor signaling, respiratory depression, gastrointestinal effects, HRV/autonomic outcomes), not clearly “cognition,” so the assigned field is not defensible based on the packet."
+      ],
+      "definition_hash": "5c023a54f7e96771c5899685e15f96d089dec3221433770981333a2051bcc332",
+      "packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab",
+      "published_packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab",
+      "receipt_id": "a2c6ed5529544a8498e3faa62ea4c8e6",
+      "request_hash": "1b97ff956113442f95232efdbadd04f646e081b9877297aa913bb95d5223058e",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

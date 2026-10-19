@@ -1,0 +1,63 @@
+{
+  "id": "coefficient-of-determination",
+  "term": "coefficient of determination",
+  "definition": "The coefficient of determination is a measure used to judge how well a model fits observed data overall. In this context, higher adjusted coefficient of determination values mean the model matches the data more closely.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11999107"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11999107",
+      "revision": "2025; DOI 10.1371/journal.pone.0321680; article XML SHA-256 6aefd54a3368fbe8b199480e977cb702cc0e8d80528407385f2f2e7a9f02e758",
+      "scope": "Source record 10.1371/journal.pone.0321680; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0321680"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3d52051448d17bb6a452bd5543ec8001de33ff621110c71c8e8fdbf9131d46d1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6c55b72990cf4de78dab74a96d8aeb0f",
+    "request_hash": "81dc2a8f79f4b1c1921a7261a46e3bac43a94b7248723ce86f0a4c4005b1d725",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "76e3d717f475d10ab2020da95dcddc1c4ec79507945fbf976952d6a7b6326c72",
+    "packet_hash": "3d52051448d17bb6a452bd5543ec8001de33ff621110c71c8e8fdbf9131d46d1"
+  },
+  "hash": "d935df4370c2b69c4f3dffe8741360a7a063d636927341919507f01a968c7870",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the adjusted coefficient of determination, not the unadjusted coefficient of determination named in the definition.",
+        "The claim that higher values mean the model matches the data more closely is supported only in the specific context of model goodness of fit; the definition broadens this into a general rule for the coefficient of determination without packet support."
+      ],
+      "definition_hash": "76e3d717f475d10ab2020da95dcddc1c4ec79507945fbf976952d6a7b6326c72",
+      "packet_hash": "3d52051448d17bb6a452bd5543ec8001de33ff621110c71c8e8fdbf9131d46d1",
+      "published_packet_hash": "3d52051448d17bb6a452bd5543ec8001de33ff621110c71c8e8fdbf9131d46d1",
+      "receipt_id": "2223e80215574f7a8d4cc22decb005a9",
+      "request_hash": "0b16683a570c80db69c21f1b182ef17995281b3c1318d28d00c6a71c88d7cf3e",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet discusses the “adjusted coefficient of determination” specifically, but the definition refers to the “coefficient of determination” generally without support in the provided text.",
+        "While the packet notes that “adjusted coefficient of determination values … are generally high, indicating that the models fit the data well overall,” it does not explicitly support the definition’s phrasing that “higher adjusted coefficient of determination values mean the model matches the data more closely” as a general description of the measure’s meaning."
+      ],
+      "definition_hash": "76e3d717f475d10ab2020da95dcddc1c4ec79507945fbf976952d6a7b6326c72",
+      "packet_hash": "3d52051448d17bb6a452bd5543ec8001de33ff621110c71c8e8fdbf9131d46d1",
+      "published_packet_hash": "3d52051448d17bb6a452bd5543ec8001de33ff621110c71c8e8fdbf9131d46d1",
+      "receipt_id": "441df1686d3a4506b6d102ff4f3c1379",
+      "request_hash": "c6fef46cbe8fa33fa9f25acb18ad7866f7d7ea89c878bbbe435ebe8844beb91d",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

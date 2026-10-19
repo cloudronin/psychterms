@@ -1,0 +1,26 @@
+{
+  "id": "group-sequential-design",
+  "term": "group sequential design",
+  "source": "article-pmc12619153",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-025-02714-y",
+  "revision": "2025; DOI 10.1186/s12874-025-02714-y; article XML SHA-256 0be9ec8fc5811e0476ca7d573ff6a60059d79fefe5f4faba1463811c1980dca4",
+  "source_snapshot_sha256": "0be9ec8fc5811e0476ca7d573ff6a60059d79fefe5f4faba1463811c1980dca4",
+  "url": "https://doi.org/10.1186/s12874-025-02714-y",
+  "text": "Group sequential designs are increasingly employed to allow trials to stop early with statistical rigor. While existing work focuses on intention-to-treat effect on clinical endpoints, the properties of mediation analysis (commonly conducted in psychological trials to understand a causal mechanism) remain unknown under group sequential designs.\n\nConsidering a group sequential design with one interim analysis for early stopping for efficacy, we conduct a simulation study to evaluate existing analysis techniques when the treatment effect on a continuous outcome is partially or fully mediated by a continuous intermediate variable measuring a casual mechanism. We study the probability of rejecting the null hypotheses on the total effect (i.e., intention-to-treat effect), direct effect and indirect effect, respectively. We examine the bias of maximum likelihood estimator for these effects. We investigate if the penalized (and conditional) maximum likelihood estimator has smaller bias than the maximum likelihood estimator when a trial stopped (did not stop) early.\n\nThe presence of an intermediate variable reduces the power of a group sequential design when sample size calculation ignores the causal mechanism, though type I error control remains unaffected. The maximum likelihood estimator is unbiased only for the mediator-outcome path, impacting the properties of mediation analysis since existing methods typically rely on it to estimate the pathways. The penalized maximum likelihood estimator for other pathways has similar bias to the stage-one maximum likelihood estimator, while the conditional maximum likelihood estimator shows negligible or smaller bias than the usual maximum likelihood estimator for estimating the total and the direct effects only.\n\nMediation analysis needs additional consideration in group sequential designs. As with fixed trial designs, the sample size calculation of group sequential designs should account for the total variability underlying a causal mechanism when the treatment effect is hypothesized to be mediated by an intermediate variable, or risk the overall power to detect an intention-to-treat (total) effect being lower than the nominal value. We suggest reporting several estimators and acknowledging that they may be biased for some mediation pathways. More research is needed to develop methods for the analysis of indirect effect under group sequential designs.\n\nThe online version contains supplementary material available at 10.1186/s12874-025-02714-y.\n\nKeywords: Mediation analysis, Group sequential designs, Direct effect, Indirect effects, Conditional maximum likelihood estimator, Penalized maximum likelihood estimator\n\nGroup sequential designs allow a study to stop early as evidence from the trial emerges, without risking the control of the type I error. It is known that the maximum likelihood estimator produces biased estimates of treatment effects if the group sequential design is ignored. Alternative estimators have been proposed [ 1 , 2 ] but none of them are universally best with respect to their properties when evaluated over a range of treatment effects [ 3 ].\n\nTo our knowledge, the literature on this design (and more broadly adaptive designs) is focused on settings where the efficacy of an intervention is manifested directly on one or more endpoints. This assumption may not hold in some clinical areas where there is a mechanism of change in which the intervention affects the outcome partly or solely via an intermediate variable.\n\nFor instance, the FeelingSafe study was a two-arm study that compared a theoretically driven cognitive therapy with befriending for the treatment of persistent persecutory delusions [ 5 ]. The primary endpoint was change in self-reported persecutory delusions at 6 month from baseline. Secondary analyses include testing whether changes in the hypothesised delusion maintenance factors, such as worry, insomnia and safety-seeking behaviours, mediated the change in delusions.\n\nThe intermediate variable considered here is known as a “mediator”. Mediation analysis can evaluate a causal mechanism that involves mediators, which concerns with the pathways by which",
+  "source_label": "Inference in group sequential designs with causal mechanisms: implications for power and mediation analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4192
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "fa3fa0b94efcee3b48e76adea198b4f29f793c26cc479d4976dd58cb95be0dce"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "background-variable",
+  "term": "background variable",
+  "source": "article-pmc13021436",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1786724",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1786724; article XML SHA-256 1e81ba177685b850bb62f35490b7bc34444d8c591ad63f1eeab2708f8f4a6222",
+  "source_snapshot_sha256": "1e81ba177685b850bb62f35490b7bc34444d8c591ad63f1eeab2708f8f4a6222",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1786724",
+  "text": "Large Language Models (LLMs) have demonstrated exceptional capability in textual emotion detection. However, LLM evaluations often treat the emotion taxonomy—the “cognitive ruler” defining the emotional space—as a neutral background variable. The extent to which taxonomic complexity moderates LLM performance remains underexplored.\n\nThis study systematically evaluates the impact of emotion taxonomy on GPT-5’s annotation behavior. We constructed a dataset of 2,848 Chinese Weibo posts. Five human annotators and GPT-5 (zero-shot) labeled the data across five distinct taxonomies, each with varying levels of granularity: SemEval (4 classes), Ekman (6 classes), Chinese SevenEmotions (7 classes), Plutchik (8 classes), and GoEmotions (27 classes). A rigorous experimental design, including randomized ordering and washout periods, was implemented to minimize sequence effects. By comparing the results of GPT-5 and manual annotation, the analysis is conducted across three dimensions: performance, consistency, and bias patterns.\n\nResults reveal a significant “granularity paradox”: GPT-5’s performance is strongly negatively correlated with taxonomic complexity, with performance collapsing in fine-grained settings (GoEmotions). Crucially, we identified systematic misalignment mechanisms: (1) Consistency decay: Human-AI agreement significantly deteriorates as semantic boundaries blur in complex taxonomies; (2) Hyper-sensitivity bias: GPT-5 exhibits a tendency to over-interpret neutral texts as emotional, with false-positive rates increasing with taxonomy size; and (3) Arousal shift: The model consistently misclassifies low-arousal negative emotions (e.g., sadness) as high-arousal prototypes (e.g., fear/anger), reflecting a valence-based rather than nuance-based inference logic. Notably, the indigenous SevenEmotions did not yield superior cultural alignment compared to Western taxonomies.\n\nOur findings suggest that emotion taxonomies function as a critical hyperparameter that shapes the cognitive boundaries of GPT. While GPT shows promise, its reliability is compromised by complex taxonomies. Researchers must balance granular detail against model robustness when deploying LLMs for psychological analysis.\n\nKeywords: emotion taxonomy, GPT-5, granularity paradox, human-AI alignment, systematic bias\n\nTextual emotion detection is a key method for understanding people’s psychological states and social trends. By identifying emotions within massive social media data, researchers can gain valuable insights ( Chakraborty et al., 2020 ). Emotion analysis is now widely used in various fields. For example, it helps in assessing mental health ( Kumar et al., 2022 ), monitoring psychological problems ( Aragón et al., 2023 ), and managing online public opinion ( Chu et al., 2024 ; Field et al., 2022 ; Li et al., 2024 ; Zhang et al., 2023 ).\n\nIn recent years, large language models (LLMs) have advanced rapidly ( Thapa et al., 2025 ), demonstrating significant advantages in emotion analysis ( Altun and Dörterler, 2025 ) and becoming mainstream tools for automated annotation. However, emotion annotation is not a singular, objective conversion process; it heavily relies on a predefined emotion taxonomy. Emotion taxonomy is the classification framework that maps affective expressions into discrete categories. Whether emotions can be categorized has long been debated. The discrete approach posits that emotions can be divided into several mutually exclusive categories. Applying the discrete emotion approach for annotation requires selecting an emotion taxonomy. Yet many taxonomies exist, differing significantly in the number of emotion categories, semantic boundaries, and cultural contexts. For human annotators, the complexity of taxonomy directly impacts cognitive load and annotation consistency. The influence of emotion taxonomy on LLMs cannot be overlooked.\n\nDespite LLMs’ outstanding performance in affective computing, systematic research remains scarce on how emotion taxonomy—as cognitive frameworks—influences LLMs’ behavior. For example, does the choice of emotion taxonomy affect LLMs’ emotion analysis performance? Furthermore, does it impact human-AI",
+  "source_label": "Granularity paradox: how emotion taxonomies shape GPT-5’s affective cognition and human-AI alignment",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d"
+}

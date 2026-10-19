@@ -1,0 +1,26 @@
+{
+  "id": "interaction-analysis",
+  "term": "interaction analysis",
+  "source": "article-pmc12176161",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0321967",
+  "revision": "2025; DOI 10.1371/journal.pone.0321967; article XML SHA-256 1013a866a8ddedfa6ec4d27bfd9adb58fa42d0cb913d7c29f7d8c7c76ab5c815",
+  "source_snapshot_sha256": "1013a866a8ddedfa6ec4d27bfd9adb58fa42d0cb913d7c29f7d8c7c76ab5c815",
+  "url": "https://doi.org/10.1371/journal.pone.0321967",
+  "text": "Genetic factors can influence and predict patient outcomes. The association of interactions of germline SNPs with patient outcomes is an understudied area of prognostic research. In this study, we applied the first genome-wide SNP-SNP interaction analysis in relation to colorectal cancer outcomes.\n\nOur objective was to explore interacting SNP loci at the genome-wide level that predict the risk of local or distant recurrence (RMFS) in a cohort of stage I-III colorectal cancer patients from the Canadian province of Newfoundland and Labrador.\n\nThe patient cohort consisted of 430 unrelated Caucasian patients. Genetic and medical data was collected previously and the genetic data consisted of a total of 384,415 genotyped SNPs. The PLINK epistasis function was utilized to examine pairwise SNP interactions. Select interactions were assessed by multivariable Cox-regression models, adjusting for established clinical covariates. Genomic regions identified were explored for additional interactions. Published databases were utilized to retrieve biological information about the loci identified.\n\nAfter Bonferroni correction for multiple testing, no interaction remained significant. We present the top 20 interactions. The interaction p-values ranged from p = 1.37E-8 to p = 2.14E-9 in this set. Interactions were also tested by multivariable Cox regression models including established clinical covariates. Many of the SNPs were intronic and some of them were functional (e.g., expression quantitative expression loci). Analysis of the other SNPs in the same genomic regions as the interacting SNPs led to the identification of three additional interaction models.\n\nWe present the results of the first genome-wide SNP-SNP interaction analysis in colorectal cancer outcomes. While no SNP-SNP interaction remained significant after correction for multiple testing, our methodology emphasizes the additional knowledge that can be obtained using interaction analyses while studying prognostic markers.\n\nColorectal cancer is one the most common cancers globally [ 1 – 3 ]. As in the case of many complex diseases, in colorectal cancer there has been a great interest in identifying prognostic biomarkers (including genetic variants such as Single Nucleotide Polymorphisms [SNPs]) [ 4 ]. The past decade has witnessed tremendous progress in our fundamental understanding of biology, health, and disease, as well as in technology, which has allowed researchers to conduct larger and more challenging studies, such as genome-wide association studies (GWASs).\n\nWhile the GWAS–which often examines individual associations of SNPs with an outcome–is a widely applied method [ 5 – 10 ], it is important to move beyond it. This is because GWAS identified variants usually explain only a small fraction of the phenotypic variation among patients, suggesting that there are genetic mechanisms or variations still waiting to be discovered (i.e., “ missing heritability ” [ 11 – 14 ]). Genetic interactions are one of the possible mechanisms that can help elucidate the missing heritability. In simple terms, interactions (sometimes also referred to as epistasis) are when the effect of a variant on a phenotype is dependent on another variant, where its effect may increase (synergistic interaction) or decrease (antagonistic interaction) in the presence of the other locus [ 11 – 17 ]. As GWASs only examine the effect of one SNP at a time, they cannot identify these interactive effects.\n\nA number of methods have been developed to examine interactions [ 14 , 18 – 29 ] and further development in this area is expected, including further artificial intelligence-based methods [ 29 ]. Since interaction analyses are advanced when compared to one-SNP-at-a-time type analyses, examining interactions can provide unique, novel, and exciting information that can support current studies and further progress prognostic research. Interactions, however, are not well studied in colorectal cancer prognosis. One of the reasons for this is the computational load required to examine interactions and a lack of availability of tools that can handle the large-scale data that is common in genome-wide settings. A few",
+  "source_label": "A genome-wide SNP-SNP interaction analysis exploring novel interacting loci associated with the risk of recurrence in colorectal cancer",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a"
+}

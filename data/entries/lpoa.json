@@ -1,0 +1,60 @@
+{
+  "id": "lpoa",
+  "term": "lPOA",
+  "definition": "LPOA refers to a linear programming optimization algorithm used in assessment to combine several initial indicator weights into a final set of weights, here within confidence intervals estimated from a t-distribution. In this use, it is intended to reduce overemphasis on any single indicator in a multi-factor risk assessment.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11178183"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11178183",
+      "revision": "2024; DOI 10.1371/journal.pone.0303698; article XML SHA-256 5e56938ff241f1775fdddda43e55a7fbd4c0f49258af51fb8d57e94ba61d50bf",
+      "scope": "Source record 10.1371/journal.pone.0303698; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0303698"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "89ddbd5c3899e62fd2fc267ebd35e9e40a0b87aba392d2f6b969556d4b5242bc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a836f86fb8734cd5ab969e42a1bb6282",
+    "request_hash": "72dfe7db3037c3818ade1887b2703f1dc8e4172bc43269f9c5e8d28730ecc242",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "152b5ebfe7e8505b94e0edfd2da693d893579e6d734f5c6ae43044864e1deacb",
+    "packet_hash": "89ddbd5c3899e62fd2fc267ebd35e9e40a0b87aba392d2f6b969556d4b5242bc"
+  },
+  "hash": "15d3be1e9f8b1c3e3382c1dbf36f248112435ffd867bbe4d28229d468df0769f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "152b5ebfe7e8505b94e0edfd2da693d893579e6d734f5c6ae43044864e1deacb",
+      "packet_hash": "89ddbd5c3899e62fd2fc267ebd35e9e40a0b87aba392d2f6b969556d4b5242bc",
+      "published_packet_hash": "89ddbd5c3899e62fd2fc267ebd35e9e40a0b87aba392d2f6b969556d4b5242bc",
+      "receipt_id": "3c6b6020ef864b1f8c5e919c5046a602",
+      "request_hash": "260f37d05c3b6d56dceed05037c57e246a0604b84e8c6bfe4506cb0643a6a5e8",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet spells the method as “LOPA” (“linear programming optimization algorithm (LPOA)” appears in the background text, but the subsequent steps consistently refer to obtaining final weights by “LOPA” in the 90% confidence interval). The definition uses “LPOA” as the referent term, so the exact acronym/sense is not consistently supported by the packet.",
+        "Because the acronym in the definition (“LPOA”) does not cleanly match the method name used for the weight-calculation step in the packet (“LOPA”), the definition’s requested sense is not defensibly supported."
+      ],
+      "definition_hash": "152b5ebfe7e8505b94e0edfd2da693d893579e6d734f5c6ae43044864e1deacb",
+      "packet_hash": "89ddbd5c3899e62fd2fc267ebd35e9e40a0b87aba392d2f6b969556d4b5242bc",
+      "published_packet_hash": "89ddbd5c3899e62fd2fc267ebd35e9e40a0b87aba392d2f6b969556d4b5242bc",
+      "receipt_id": "31282301f1a14834925cf420eb833325",
+      "request_hash": "4cd7b52b41f0cefeb21f93cba1034d6e4dccacc3e6fe6d40bc52c979f24a606c",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "categorical-data-analysis",
+  "term": "categorical data analysis",
+  "source": "article-pmc12622779",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0335143",
+  "revision": "2025; DOI 10.1371/journal.pone.0335143; article XML SHA-256 7da6330d7373c5e80a6711556ab0e6108c6166535638a01d566538229229deac",
+  "source_snapshot_sha256": "7da6330d7373c5e80a6711556ab0e6108c6166535638a01d566538229229deac",
+  "url": "https://doi.org/10.1371/journal.pone.0335143",
+  "text": "The choice of appropriate statistical tests in experimental biology is critical for scientific rigor and can be challenging in the case of categorical data analysis. Using example datasets from Caenorhabditis elegans research, we conduct statistical analysis of (1) a rare cellular event involving the formation of a neuronal extrusion called an exopher and (2) a variable behavioral response across time. We employ the Cochran–Mantel–Haenszel (CMH) test and logistic regression for analysis. Recognizing there are potential accessibility issues using logistic regression, we provide step-by-step tutorials and example code. We emphasize that logistic regression can handle both simple and complex multivariable datasets; logistic regression can also provide more comprehensive insights into experimental outcomes when compared to simpler tests like CMH. By analyzing real biological examples and demonstrating their analysis with R code, we provide a practical guide for biologists to enhance the rigor and reproducibility of categorical data analysis in experimental studies.\n\nGenetic research has historically leveraged the advantages of large population sizes and, for some model systems, clonal reproduction, to examine biological principles in action. Thanks to large population sizes, infrequent yet biologically significant phenomena can be detected and quantified in genetic models. The significance of these infrequent events can be difficult to represent numerically as occasional events are often outnumbered by prevalent baseline biological outcomes. Here we consider the challenge of detecting statistical differences between unbalanced groups, particularly those that are measured categorically. Appropriate statistical analysis of categorical data provides a layer of confidence and rigor in its interpretation. Deciding on an appropriate statistical test of categorical data can be challenging.\n\nCategorical outcomes are common in both cell biological experiments and behavioral assays involving binomial or multinomial datasets. Categorical data (or categorical variables) are data that can be described by a specific classification. Such data can include nominal categorical variables , which do not have a natural specific order (e.g., color or genotype); ordinal variables , which are ranked categories (e.g., level of damage or progression of disease); and dichotomous variables , which are variables with only two outcomes (e.g., alive or dead). Dichotomous variables are abundant in the Caenorhabditis elegans ( C. elegans ) experimental repertoire (e.g., alive or dead, on food or off food, moving or not moving). In one of the examples we detail here, we focus on neuronal production of large extracellular vesicles (called exophers) under conditions of proteostress [ 1 ]. Exophers bud directly from the neuronal cell body (commonly one per neuron) and can be equal in size to the cell body itself (~5µm). The large size of the exopher combined with the highly stereotypical C. elegans nervous system allows for efficient scoring of exophers. Importantly, individual animals can be easily categorized by the presence or absence of the exopher, and the frequency of exopher events can be assessed over a large sample size of nematodes. In this example, the dichotomous variables are whether the neuron produced an exopher or did not produce an exopher such that an exopher frequency (number of exophers observed/total animals assayed) can be calculated for a sample population.\n\nMultiple statistical approaches can be used to analyze categorical variables. Categorical data is often plotted as a percentage (%) of the whole, also known as a frequency. Since percentage/frequency scores appear to be continuous data, investigators might incorrectly use the t- test or one-way ANOVA to analyze these categorical data; or even use a nonparametric alternative that relies on continuous data such as the Kolmogorov-Smirnov test [ 2 ]. The frequency of a binary event from a single trial would more appropriately be analyzed using a Chi-square or Fisher’s exact test. When comparing replicate trials of categorical outcomes, a better option is the Cochran–Mantel–Haenszel test",
+  "source_label": "Analysis of categorical data from biological experiments with logistic regression and CMH tests",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419"
+}

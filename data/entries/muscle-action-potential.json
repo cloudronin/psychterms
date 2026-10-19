@@ -1,0 +1,65 @@
+{
+  "id": "muscle-action-potential",
+  "term": "muscle action potential",
+  "definition": "A muscle action potential is the electrical response recorded from a muscle when its nerve is stimulated. In this context, it is measured as a compound muscle action potential, which reflects the combined activity of the muscle’s functioning motor units and is used in estimating motor unit number.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11051589"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11051589",
+      "revision": "2024; DOI 10.1371/journal.pone.0302214; article XML SHA-256 c837527d05a85919b968ec8d41e25f61ace48dc2aed01142af8b648bfb406254",
+      "scope": "Source record 10.1371/journal.pone.0302214; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0302214"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3582e2421f8de9f3575a766bdffe960b0981388ee18fffe7634dfa2024ca145d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fd000813e7ce41038a7f8ea343fc90ec",
+    "request_hash": "9955cec33a340bac5d58a9754c793286f9a5b0d76f5d0f86db695cac7d7c49af",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "05206d1b747800d3243d7a6d6272392165cc1f61e730e89d9c5e7c71f10376ff",
+    "packet_hash": "3582e2421f8de9f3575a766bdffe960b0981388ee18fffe7634dfa2024ca145d"
+  },
+  "hash": "4f4d1a52031993303d3897735d9773f60d1830907b8458d5fd68efac02ebce0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports compound muscle action potential (CMAP), not the broader term “muscle action potential,” so the entry appears to use the wrong sense/term.",
+        "The claim that this is “the electrical response recorded from a muscle when its nerve is stimulated” is not stated in the packet as a definition; the packet only says CMAPs were recorded after peroneal nerve stimulation and used in MUNE.",
+        "“Reflects the combined activity of the muscle’s functioning motor units” is an unsupported paraphrase; the packet says MUNE estimates motor units by dividing maximal CMAP size by mean surface-recorded motor unit potential size, but does not define CMAP this way."
+      ],
+      "definition_hash": "05206d1b747800d3243d7a6d6272392165cc1f61e730e89d9c5e7c71f10376ff",
+      "packet_hash": "3582e2421f8de9f3575a766bdffe960b0981388ee18fffe7634dfa2024ca145d",
+      "published_packet_hash": "3582e2421f8de9f3575a766bdffe960b0981388ee18fffe7634dfa2024ca145d",
+      "receipt_id": "aa6b1fd7fed84df2b410f3c3b91e9d65",
+      "request_hash": "ff7aaf1f8ef6ccffa2083b0d166a34acf75060e1ca67b8a69ffd0541a507f6ef",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition centers on the term “muscle action potential,” but the packet discusses “compound muscle action potential (CMAP)” and “surface-recorded motor unit potential (SMUP)” in the context of motor unit number estimation; it does not define “muscle action potential” as such or equate the two terms.",
+        "The packet does not explicitly state that the CMAP “reflects the combined activity of the muscle’s functioning motor units” in those exact terms (it describes using maximal CMAP size within a premise/ratio for MUNE, but not that specific phrasing of combined motor-unit activity).",
+        "While the packet supports that CMAP size is used in motor unit number estimation (MUNE) by relating maximal CMAP size to mean SMUP size, the definition’s overall “muscle action potential → CMAP” framing is not directly supported."
+      ],
+      "definition_hash": "05206d1b747800d3243d7a6d6272392165cc1f61e730e89d9c5e7c71f10376ff",
+      "packet_hash": "3582e2421f8de9f3575a766bdffe960b0981388ee18fffe7634dfa2024ca145d",
+      "published_packet_hash": "3582e2421f8de9f3575a766bdffe960b0981388ee18fffe7634dfa2024ca145d",
+      "receipt_id": "0d663d55b5b6422eb198da8c47f47b81",
+      "request_hash": "ed269bc3e44581497e09208a2f2a395495599703e5d16251188367002ebc55d8",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

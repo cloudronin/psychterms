@@ -1,0 +1,60 @@
+{
+  "id": "electrode-placement",
+  "term": "electrode placement",
+  "definition": "Electrode placement is the chosen arrangement of electrodes on the body or scalp when delivering electrical stimulation. In galvanic vestibular stimulation, different placements such as using electrodes at the mastoids can change how current enters the head and how strongly it affects vestibular structures, which can alter the resulting sensations or body sway.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11346646"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11346646",
+      "revision": "2024; DOI 10.1371/journal.pone.0309007; article XML SHA-256 95d949b8b3d8077c25845be4033fe6f0883093bb2d0dc50577409932bb58c292",
+      "scope": "Source record 10.1371/journal.pone.0309007; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0309007"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "30483079194424ed6a311b7564142c0075d36c1438297aa86067f6731c15cd35",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cd73840feb0c4c23a83089bf6fbc58dc",
+    "request_hash": "df9942ffde3a44278bc3ed2ca76a5fdea24080103553bd3aed7bf9a69b35c0b5",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "79644b929a0ec81913b3083c27f75d4aec3077d3b85e1121f11be8939c7dc6e6",
+    "packet_hash": "30483079194424ed6a311b7564142c0075d36c1438297aa86067f6731c15cd35"
+  },
+  "hash": "3c84d405091ac23299f76f469e5c153e715bf0d9a7e99575e8871a72a8a96553",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "79644b929a0ec81913b3083c27f75d4aec3077d3b85e1121f11be8939c7dc6e6",
+      "packet_hash": "30483079194424ed6a311b7564142c0075d36c1438297aa86067f6731c15cd35",
+      "published_packet_hash": "30483079194424ed6a311b7564142c0075d36c1438297aa86067f6731c15cd35",
+      "receipt_id": "14e225cf209c4d20b63aa2b8e8b6bf52",
+      "request_hash": "c097ea2cf3b9f805056b821c36ec783cfc25673f7d8180aa9be35b7e0254be26",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Electrode placement is the chosen arrangement of electrodes on the body or scalp…”) is a general characterization that is not explicitly supported by the provided packet text.",
+        "The definition’s second sentence contains claims about how placement changes “how current enters the head,” “how strongly it affects vestibular structures,” and altering “sensations or body sway.” While the packet supports that current flow patterns are electrode-placement specific, that current enters the cranial cavity in placement-dependent percentages, that induced electric field is determined at vestibular organs, and that placement relates current flow to reported GVS motions, it does not explicitly support the specific phrasing about “how current enters the head” or the causal wording “how strongly it affects vestibular structures” as stated."
+      ],
+      "definition_hash": "79644b929a0ec81913b3083c27f75d4aec3077d3b85e1121f11be8939c7dc6e6",
+      "packet_hash": "30483079194424ed6a311b7564142c0075d36c1438297aa86067f6731c15cd35",
+      "published_packet_hash": "30483079194424ed6a311b7564142c0075d36c1438297aa86067f6731c15cd35",
+      "receipt_id": "755eec08a19d443080926e934901fb3d",
+      "request_hash": "f235da63f6e7402663a1cf36711f9ac631774756db5a2c522884bf6ab17481a9",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

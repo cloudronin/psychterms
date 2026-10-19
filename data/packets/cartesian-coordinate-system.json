@@ -1,0 +1,26 @@
+{
+  "id": "cartesian-coordinate-system",
+  "term": "Cartesian coordinate system",
+  "source": "article-pmc13012730",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344023",
+  "revision": "2026; DOI 10.1371/journal.pone.0344023; article XML SHA-256 5e9afcfd8216184d844c7f6b39f5b5a6b8252779e03dc82263d7c7948ad03c75",
+  "source_snapshot_sha256": "5e9afcfd8216184d844c7f6b39f5b5a6b8252779e03dc82263d7c7948ad03c75",
+  "url": "https://doi.org/10.1371/journal.pone.0344023",
+  "text": "Aiming at the TTC (Time to Collision) and derivative indicators’ problems of unclear definition and missed/wrong judgments of traffic conflicts on curved road in the traditional Cartesian coordinate system, a new method that can better identify the conflicts on curved road is proposed. The method first establishes the Frenet coordinate system according to the road centerline (i.e., the reference line), and obtains the vehicle trajectory coordinates in the Frenet coordinate system. The Frenet coordinate system can simplify the calculation difficulty of vehicle trajectory and conflict under the curve road. Then determine the vehicle state in the Frenet coordinate system, and then use TTC to calculate rear-end and lane-change conflicts according to the state of the vehicle (non-lane-change/lane-change). Finally, a total of 4 hours of video data were collected based on the K283 of the lane-switch work zone of the Jiqing Highway. Subsequently, the continuous high-precision conflict data in the region was obtained through the video and conflict identification program, and the traditional method was compared with the new method. The results show that different methods have a significant impact on the identification of the number of serious conflicts. The new method can reduce the missed judgments of serious rear-end conflicts on curved road, especially at the junctions of curved and straight segments (segment 3/4/7/8/9), and can also reduce wrong judgments of serious lane-change conflicts. In addition, among the 125 added serious rear-end conflicts identified by the new method, the maximum deceleration of 10 conflicting vehicles during the conflict exceeds the dangerous state −4/-1.5m/s 2 , which explain that the new method can help us better identify the risks of curved road. The new method combines the Frenet coordinate system, vehicle state determination and TTC, which can reduce the missed/wrong judgments of conflicts on curved road, and expand the traffic conflict identification from previous straight road to full-line road alignment.\n\nIn current traffic conflict research, the Cartesian coordinate system is predominantly adopted by default to determine the location of traffic conflict points. On straight road segments, straight-line equations can be used within the Cartesian framework to fit road boundaries, enabling relatively accurate and straightforward estimation and prediction of conflicts based on vehicle trajectory points. However, on curved road segments, due to the diversity of road curvature types, it is difficult to accurately fit road boundaries according to actual conditions. Moreover, when vehicle trajectories span both straight and curved sections, tracking trajectories using road boundaries becomes more complex [ 6 ]. The trajectory points of lane-changing vehicles are influenced by both the lane-changing maneuver and the curve equation. Particularly on curved sections where the lengths of inner and outer lanes differ and where the paths of the front and rear wheels deviate, accurately describing traffic conflicts becomes challenging [ 7 ]. Consequently, determining trajectory points for lane-changing vehicles on curves under the Cartesian coordinate system is complicated and unsuitable for precisely capturing the dynamic behavior of vehicles on curved segments, which undermines the reliability of conflict identification. Therefore, the accuracy of determining the trajectory point of the lane-change vehicle based on the curve in the Cartesian coordinate system cannot be guaranteed, and the applicability is poor. The Frenet coordinate system is based on the road centerline, which can greatly simplify the calculation of vehicle trajectories and conflicts under the curve road [ 8 ].\n\n(1) The definition is unclear. In a curve, should “current direction” refer to the vehicle’s instantaneous tangential direction (Direction 1) or the actual driving trajectory direction (Direction 2)? Existing research predominantly defaults to Direction 1 (i.e., tangential direction), while Direction 2 better aligns with the vehicle’s actual driving path. Although Tarko [ 21 ] proposed TD2, which accounts for lateral motion, it has",
+  "source_label": "Traffic conflict identification method on curved road based on Frenet coordinate system",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9"
+}

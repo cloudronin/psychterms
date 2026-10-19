@@ -1,0 +1,61 @@
+{
+  "id": "background-variable",
+  "term": "background variable",
+  "definition": "A background variable is a factor treated as part of the setting or context rather than as the main focus of analysis. In this packet, the emotion taxonomy is described as a background variable when evaluations assume it is a neutral condition underlying performance.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13021436"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13021436",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1786724; article XML SHA-256 1e81ba177685b850bb62f35490b7bc34444d8c591ad63f1eeab2708f8f4a6222",
+      "scope": "Source record 10.3389/fpsyg.2026.1786724; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1786724"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c7682b0a82bd452e80225d084d6bfd7b",
+    "request_hash": "bed1b737a813b92a35cda1f393caf8c35f7883f86c99895a2235f02f5b9c48de",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "367b899170b1d3a7b52c83a748d3983b6cf8e14e2f212d2e2d84ee480fff0d11",
+    "packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d"
+  },
+  "hash": "376284680256d002b1df339e0802a3f6e62672e68a393a0ccbafc83689cd477c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "367b899170b1d3a7b52c83a748d3983b6cf8e14e2f212d2e2d84ee480fff0d11",
+      "packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d",
+      "published_packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d",
+      "receipt_id": "1a20282195e149d0bf54441cb4b6edbe",
+      "request_hash": "9efaed26b409729bd3a4c39c94a4edf0dec69e9ce8b242837336d5827c61e67a",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what a “background variable” means in general (as “a factor treated as part of the setting or context rather than as the main focus of analysis”); it only uses the phrase “neutral background variable” to describe how emotion taxonomy is treated in LLM evaluations.",
+        "The definition’s first sentence is an unsupported general characterization of the term, which is not explicitly stated in the provided packet.",
+        "The packet supports that evaluations treat the emotion taxonomy as a “neutral background variable,” but it does not clearly support the added interpretation that this means it is “a neutral condition underlying performance.”"
+      ],
+      "definition_hash": "367b899170b1d3a7b52c83a748d3983b6cf8e14e2f212d2e2d84ee480fff0d11",
+      "packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d",
+      "published_packet_hash": "0b74e8e73eaab146ccde4ba9729e1cfbb0ee4d327e8311548d8176a06cc6bf3d",
+      "receipt_id": "a17b431ae894434ea5baa2a44c2fa9aa",
+      "request_hash": "ce165d4c1aef606c414a855f811f8638dc11e1958cbc20de630ba60c2b7df349",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

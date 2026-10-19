@@ -1,0 +1,60 @@
+{
+  "id": "type-1-diabetes",
+  "term": "Type 1 diabetes",
+  "definition": "Type 1 diabetes is an autoimmune disease in which the body destroys the pancreas’s insulin-producing beta cells. This leads to too little insulin and high blood sugar, and it can cause serious short-term and long-term health complications.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12074605"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12074605",
+      "revision": "2025; DOI 10.1371/journal.pone.0323642; article XML SHA-256 71494ff33d9a175e010167e2a7e05d35452ff97c669eafd33ef35b86c7a9a4fd",
+      "scope": "Source record 10.1371/journal.pone.0323642; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0323642"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "efe1816668c9f12c7c4cd86546504a3dd9500a2ed953e1a4953d53e8dcb273d7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7c8b16ba3fa24e858c804e69aeb1efa7",
+    "request_hash": "286db0d1eabe6ec38511c98f27694bb6d029305d328f9d23c5469c12c9d3d91a",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "ece864f05b086a3ba8b5de142cbee2afbe2ba258917701be26952e509c480a5a",
+    "packet_hash": "efe1816668c9f12c7c4cd86546504a3dd9500a2ed953e1a4953d53e8dcb273d7"
+  },
+  "hash": "8a8f23677d9a19c7cb49a2caaf1f9e60c6835bbbaf3d909b81e42e5e09a125de",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ece864f05b086a3ba8b5de142cbee2afbe2ba258917701be26952e509c480a5a",
+      "packet_hash": "efe1816668c9f12c7c4cd86546504a3dd9500a2ed953e1a4953d53e8dcb273d7",
+      "published_packet_hash": "efe1816668c9f12c7c4cd86546504a3dd9500a2ed953e1a4953d53e8dcb273d7",
+      "receipt_id": "a0f4cefd5aec48dcab71ad5278902ebc",
+      "request_hash": "7a18f64c9edced4cac47609a1c6cd88a679ba45217cf439e4be8ca6f7ecc0fa4",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is a medical article about type 1 diabetes, not a cognition concept.",
+        "The definition is otherwise broadly supported, but this mismatch means the entry should not be accepted as a cognition-term definition."
+      ],
+      "definition_hash": "ece864f05b086a3ba8b5de142cbee2afbe2ba258917701be26952e509c480a5a",
+      "packet_hash": "efe1816668c9f12c7c4cd86546504a3dd9500a2ed953e1a4953d53e8dcb273d7",
+      "published_packet_hash": "efe1816668c9f12c7c4cd86546504a3dd9500a2ed953e1a4953d53e8dcb273d7",
+      "receipt_id": "af5b68e4368b43ab927856eaea682744",
+      "request_hash": "66ee120f929999440e0593beb94dd572ce1b4d89c335048b2166c87f7b6476e6",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

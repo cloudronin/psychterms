@@ -1,0 +1,60 @@
+{
+  "id": "equal-weighting",
+  "term": "equal weighting",
+  "definition": "Equal weighting is a way of combining several measured factors into one overall score by giving each factor the same importance. In the source, it is used to build a comprehensive growth indicator from separate growth measures.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11192338"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11192338",
+      "revision": "2024; DOI 10.1371/journal.pone.0299362; article XML SHA-256 cc9e7e53eb64cef5b73cf9234a7de84171dd76d99fa5da39334069300245c7a3",
+      "scope": "Source record 10.1371/journal.pone.0299362; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0299362"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "461520403d5448d3827496d26db5c63e",
+    "request_hash": "73b281399c615ecce325cfeb84cc89e587c719fcf28648c01630033394324e38",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "707b10026e80627f9934946e10d5c7e15faa4569afc280ec9876eb318885e995",
+    "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23"
+  },
+  "hash": "2e06f232b2f5d106f06df1007539dc7a2ad7d129f27e0856e211327f2b2333be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "707b10026e80627f9934946e10d5c7e15faa4569afc280ec9876eb318885e995",
+      "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23",
+      "published_packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23",
+      "receipt_id": "09474edd6eaa435dab55f34f86495b09",
+      "request_hash": "54863424d8a5f65f2bcfc8604a3610b8f3afbd9f5e9b643bc190c311a4bba94a",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define or explain what “equal weighting” means (e.g., giving each factor the same importance); it only states that “coefficient of variation and equal weighting methods were used” to construct comprehensive growth monitoring indicators.",
+        "The specific claim that equal weighting is used to build a “comprehensive growth indicator from separate growth measures” is only partially supported: the packet supports constructing CGMI from separate single-growth indicators (SPAD, AGB, PH, LAI), but it does not explicitly connect “equal weighting” to that exact purpose in the way the definition states."
+      ],
+      "definition_hash": "707b10026e80627f9934946e10d5c7e15faa4569afc280ec9876eb318885e995",
+      "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23",
+      "published_packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23",
+      "receipt_id": "cb99d22a65084e98ae649e10d3a548bd",
+      "request_hash": "a2dcc8344c8ff8ac6521406a7ad6064d732daa395dbe40f26b6a5576c5488477",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

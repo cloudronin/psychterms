@@ -1,0 +1,60 @@
+{
+  "id": "spearman-correlation-coefficient",
+  "term": "Spearman correlation coefficient",
+  "definition": "The Spearman correlation coefficient is a statistical measure used to show how similar two orderings or rankings are. In this context, it was used to compare different ways of ordering brain-network vertices and to assess whether the resulting rankings matched closely.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10793925"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10793925",
+      "revision": "2024; DOI 10.1371/journal.pone.0292613; article XML SHA-256 097998326978a6530a1a6d96913f47e1e2370b214e2bfb3e30cf90916ee167d6",
+      "scope": "Source record 10.1371/journal.pone.0292613; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0292613"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4f5ba93a2ce644fb8cbcc39711458dcf",
+    "request_hash": "6ca73260d6e066de909d59f0fb6603814e4038eb0d1d815e61e677b6e736d8be",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "015b27798f4922f5496f7960cbdc4d6a03a2db152684c15562d96e38c4ea3872",
+    "packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916"
+  },
+  "hash": "ffc70b651b084e45202386b02b5f7b16baa8fb6398ec78a51ffea014c80f3388",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "015b27798f4922f5496f7960cbdc4d6a03a2db152684c15562d96e38c4ea3872",
+      "packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916",
+      "published_packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916",
+      "receipt_id": "72b613dbeecf45e2a5878353ad6b25c5",
+      "request_hash": "ad8693b13e31f6069725170666afcdf7986ba12e2e2ce89d7024ce02e4657290",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence claims a general characterization of the Spearman correlation coefficient (“a statistical measure used to show how similar two orderings or rankings are”), but the provided packet does not define Spearman correlation coefficient or give its general meaning—only that the Spearman correlation coefficient was used to analyze similarities between rankings.",
+        "The field is labeled “social,” but the packet content is about brain connectomics and graph-theoretical measures on vertices; it does not support that “Spearman correlation coefficient” is used as a social-psychology counselling term in the supplied context."
+      ],
+      "definition_hash": "015b27798f4922f5496f7960cbdc4d6a03a2db152684c15562d96e38c4ea3872",
+      "packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916",
+      "published_packet_hash": "000d053c8a38f9af868c54b76cebd62755348ecffe4d53293b44c54309acf916",
+      "receipt_id": "4216b8d28b28419391252cb48c9f8ec0",
+      "request_hash": "936086c739a68d027c3b0bc50621cbebd4b55ae0e5e1a7aef677fe9ef4d570fc",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "influence-tactics",
+  "term": "influence tactics",
+  "definition": "Influence tactics are subtle ways of shaping people’s decisions by changing how options are presented or by adding alternatives that bias choice. In this source, they refer to covert contextual influences such as reframing and the decoy effect that can make professionals more or less resistant to biased decision-making.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10933049"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10933049",
+      "revision": "2024; DOI 10.3389/fpsyg.2024.1270012; article XML SHA-256 16abea4e46ce2d61a4112d340572f248a3a971946af3d59597fe84d70155ff85",
+      "scope": "Source record 10.3389/fpsyg.2024.1270012; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2024.1270012"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "15c0b5a4a6378d432900128abe422ab305907984ebf34f0210a2e646fac98f56",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9bd68a68e3fb43c4940afa88b559230f",
+    "request_hash": "040a2329c9db952d2ffbe73bbd5f4a2c7c31e88a001d0be026e49a0dcf3b4f63",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "0753ecd77ed6b64c59d17e101192312783a4716638d09e34939184ec7fa5606e",
+    "packet_hash": "15c0b5a4a6378d432900128abe422ab305907984ebf34f0210a2e646fac98f56"
+  },
+  "hash": "389e7faf368ab57d706eebd25ddd212943d3eb4aaa70876e7c44b58ed3da925f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0753ecd77ed6b64c59d17e101192312783a4716638d09e34939184ec7fa5606e",
+      "packet_hash": "15c0b5a4a6378d432900128abe422ab305907984ebf34f0210a2e646fac98f56",
+      "published_packet_hash": "15c0b5a4a6378d432900128abe422ab305907984ebf34f0210a2e646fac98f56",
+      "receipt_id": "c9fe34ec352d459987817586bca469a1",
+      "request_hash": "ef16c8d963c112394afafc96dbdde730c451c91a1c38b880fb11616328bdda2c",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims influence tactics are “subtle ways of shaping people’s decisions” via “changing how options are presented” or “adding alternatives that bias choice,” but the packet only discusses “contextual bias” operationalized through “reframing and the decoy effect” and does not provide a general characterization matching these broader wording claims.",
+        "The definition asserts that the tactics “can make professionals more or less resistant to biased decision-making.” The packet instead studies whether professionals can resist reframing/decoy effects (and reports resistance patterns and predictors); it does not claim that influence tactics themselves make people more or less resistant.",
+        "While “covert contextual influences such as reframing and the decoy effect” is supported by the packet, the additional generalizations about subtle shaping and resistance are not fully supported by the provided text."
+      ],
+      "definition_hash": "0753ecd77ed6b64c59d17e101192312783a4716638d09e34939184ec7fa5606e",
+      "packet_hash": "15c0b5a4a6378d432900128abe422ab305907984ebf34f0210a2e646fac98f56",
+      "published_packet_hash": "15c0b5a4a6378d432900128abe422ab305907984ebf34f0210a2e646fac98f56",
+      "receipt_id": "fded5e2217044f4b9b82cfbc21c824db",
+      "request_hash": "7d9272baf56c863bab8f274997e8ac92aa3b168c8897b029216c4efef21121ac",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

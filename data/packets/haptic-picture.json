@@ -1,0 +1,26 @@
+{
+  "id": "haptic-picture",
+  "term": "haptic picture",
+  "source": "article-pmc13149389",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1759540",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1759540; article XML SHA-256 0028f41761d5d0f166858068fafe0c63e26be9e206543b4f61243e2443129253",
+  "source_snapshot_sha256": "0028f41761d5d0f166858068fafe0c63e26be9e206543b4f61243e2443129253",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1759540",
+  "text": "rather than a simple consequence of sensory status. In a developmental study with sighted participants aged 5–25 years, blindfolded children aged 5–7 correctly identified about one third of raised-line drawings, whereas accuracy increased to 69 % in adolescents and 86 % in adults, paralleling improvements in haptic short-term memory ( Picard et al., 2014 ). Reviews of tactile picture recognition highlight that identification rates span 9–85 % across studies and depend strongly on age, visual status, haptic practice, availability of semantic information, and the exploratory procedures deployed ( Vinter et al., 2020 ); category cueing prior to exploration can facilitate hypothesis generation, yet visually impaired children often maintain an advantage by combining cueing with more efficient haptic strategies ( Mazella et al., 2014 ). Related results from three-dimensional exploration point toward systematic differences in the dynamics of haptic search, with early blindness associated with distinctive patterns of contact and strategy switching even when recognition accuracy converges across groups ( Leo et al., 2022 ); reports of superior navigation with tactile maps in congenitally blind adults further underscore functional plasticity that emerges through practice and experience ( Boumenir et al., 2014 ).\n\nAcross this literature, the most consistent pattern of findings is that haptic picture identification is demanding, developmentally graded, and sensitive to both task constraints and the exploratory procedures adopted ( Picard and Lebaz, 2012 ). At the same time, empirical patterns remain heterogeneous, with performance advantages sometimes favoring visually impaired participants, sometimes blindfolded sighted participants, and sometimes neither group, reflecting differences in stimulus complexity, representational familiarity, and prior haptic experience ( Vinter et al., 2020 ) and working memory/imagery ability ( Holtby and D'Angiulli, 2012 ). Such variability highlights a methodological limitation in much of the existing evidence base, namely, an emphasis on holistic outcomes such as identification accuracy at conclusion of task without an equally detailed record of the hand and finger dynamics through which recognition unfolds; resolving that limitation requires resources that preserve the temporal structure of exploration itself.\n\nUnsupervised learning frameworks such as Self-Organizing Maps (SOM) and Adaptive Resonance Theory (ART) posit that local interactions can yield stable global representations, yet key empirical gaps persist in the behavioral record needed to evaluate such accounts. Many benchmarks remain abstract or heavily preprocessed, obscuring the embodied, sequential nature of real-time exploration ( Kriegeskorte and Douglas, 2018 ); sequential strategy formation remains under-constrained because available resources rarely include time-resolved motor trajectories capturing how fingertips, digits, and hands coordinate over hundreds to thousands of milliseconds ( Mueller et al., 2019 ). Moreover, while neural self-organization, as stipulated in ART, addresses the stability-plasticity problem, few developmental datasets support quantitative tests of how new categories of representations are integrated without catastrophic interference under child-level learning conditions ( Grossberg, 2013 ); these limitations restrict attempts to connect theoretical predictions about modular coordination and adaptive flexibility to perceptual behavior when vision is absent.\n\nTo offer tools that might help addressing these research gaps, we built HAPTI-Child. Originated in the context of a previous study ( D'Angiulli et al., 2024 ), the present resource was compiled retrospectively to include trial-segmented videos, labeled finger and hand keypoints produced with DeepLabCut, trained pose-estimation models, Colab analysis notebooks, and derived per-frame kinematic measures across thousands of frames for children recorded during raised-line picture identification. The time-resolved trajectories support the investigation of modular coordination within and across hands and enable analyses of how local exploratory movements",
+  "source_label": "HAPTI-Child: a finger-tracking video and keypoint dataset of haptic picture exploration and identification in congenitally blind and visually impaired children",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    2411,
+    6605
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "d7554209ee1a039f2fc1e5d6aa0c2006bc0e2e756283e2a8dc0f85beeb264252"
+}

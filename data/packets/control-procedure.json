@@ -1,0 +1,26 @@
+{
+  "id": "control-procedure",
+  "term": "control procedure",
+  "source": "article-pmc10019697",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0283079",
+  "revision": "2023; DOI 10.1371/journal.pone.0283079; article XML SHA-256 378dd88007938e8e963c6b2eb7961a31addcc95d9cca57bbb41c854799aa52f8",
+  "source_snapshot_sha256": "378dd88007938e8e963c6b2eb7961a31addcc95d9cca57bbb41c854799aa52f8",
+  "url": "https://doi.org/10.1371/journal.pone.0283079",
+  "text": "This article presents flexible online adaptation strategies for the performance-index weights to constitute a variable structure Linear-Quadratic-Integral (LQI) controller for an under-actuated rotary pendulum system. The proposed control procedure undertakes to improve the controller’s adaptability, allowing it to flexibly manipulate the control stiffness which aids in efficiently rejecting the bounded exogenous disturbances while preserving the system’s closed-loop stability and economizing the overall control energy expenditure. The proposed scheme is realized by augmenting the ubiquitous LQI controller with an innovative online weight adaptation law that adaptively modulates the state-weighting factors of the internal performance index. The weight adaptation law is formulated as a pre-calibrated function of dissipative terms, anti-dissipative terms, and model-reference tracking terms to achieve the desired flexibility in the controller design. The adjusted state weighting factors are used by the Riccati equation to yield the time-varying state-compensator gains.\n\nThe idea of devising agile control procedures to regulate the behavior of under-actuated mechanical systems has garnered a lot of attraction among researchers owing to its immense applications in the fields of aircraft stabilization, marine-vessel stabilization, robotic manipulator tracking control, attitude control of satellites, and control of structural vibrations, etc [ 1 ]. By definition, under-actuated systems are identified as systems that possess a lesser number of control inputs as compared to the number of state-variables to be stabilized [ 2 ]. Having a lesser number of actuators is preferable because it minimizes the system’s energy expenditure, cost, and weight [ 3 ]. However, this configuration in conjunction with nonlinear system dynamics, complex coupling effects, and open-loop kinematic instability pose a complex control engineering problem [ 4 ]. Such systems demand a robust-optimal control law that can achieve the desired performance objectives even under the influence of exogenous disturbances [ 5 ].\n\nThe Proportional-Integral-Derivative (PID) controller and its variants are simple to construct but they have the propensity to collapse under nonlinear disturbances [ 6 ]. The sliding-mode controllers offer a reliable and robust control yield; however, it comes at the cost of highly discontinuous control activity which unavoidably introduces chattering in the state response [ 7 ]. The ubiquitous neural and fuzzy control schemes are quite well-known for their flexibility to respond to and to reject bounded disturbances [ 8 ]. However, they rely upon empirically-defined rules or large sets of training data which are not only hard to acquire but also put an excessive computational expense on the embedded processor [ 9 ]. The Linear-Quadratic-Regulator (LQR) is a state-space controller that minimizes a quadratic performance index of the system’s state-variations and control-input to deliver the optimal control decisions [ 10 ]. Despite its benefits, the LQR is incapable to address identification errors, model variations, and environmental indeterminacies [ 11 , 12 ]. The LQR can be retrofitted with auxiliary integral controllers to improve its robustness against uncertainties and load disturbances [ 13 ]. However, this augmentation slows down the system’s transient recovery behavior [ 14 ].\n\nThe aforementioned drawbacks of the LQR, and its variant(s), can be addressed by augmenting it with auxiliary online adaptation systems [ 12 ]. The dynamic adjustment of state-compensator gains offers a pragmatic approach to redesign the control law (after every sampling interval) to reject the transient disturbances in minimum time and attenuate the ensuing position-regulation fluctuations with minimal control energy expenditure while maintaining the controller’s stability throughout the operating regime [ 15 ]. The aforesaid objectives can be achieved via the state-dependent-Riccati-equation approach to formulate a nonlinear-quadratic-regulator for under-actuated systems. It uses well-identified State-Dependent-Coefficients (SDC) matrices to solve the",
+  "source_label": "A robust variable-structure LQI controller for under-actuated systems via flexible online adaptation of performance-index weights",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "drug-abuse-treatment",
+  "term": "drug abuse treatment",
+  "source": "article-pmc11581333",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0312695",
+  "revision": "2024; DOI 10.1371/journal.pone.0312695; article XML SHA-256 658dd6929f2031845cb247ba33adfc64298f5f715d81f68463b58ba802cee036",
+  "source_snapshot_sha256": "658dd6929f2031845cb247ba33adfc64298f5f715d81f68463b58ba802cee036",
+  "url": "https://doi.org/10.1371/journal.pone.0312695",
+  "text": "Several large-scale, pragmatic clinical trials on opioid use disorder (OUD) have been completed in the National Drug Abuse Treatment Clinical Trials Network (CTN). However, the resulting data have not been harmonized between the studies to compare the patient characteristics. This paper provides lessons learned from a large-scale harmonization process that are critical for all biomedical researchers collecting new data and those tasked with combining datasets. We harmonized data from multiple domains from CTN-0027 (N = 1269), which compared methadone and buprenorphine at federally licensed methadone treatment programs; CTN-0030 (N = 653), which recruited patients who used predominantly prescription opioids and were treated with buprenorphine; and CTN-0051 (N = 570), which compared buprenorphine and extended-release naltrexone (XR-NTX) and recruited from inpatient treatment facilities. Patient-level data were harmonized and a total of 23 database tables, with meticulous documentation, covering more than 110 variables, along with three tables with “meta-data” about the study design and treatment arms, were created. Domains included: social and demographic characteristics, medical and psychiatric history, self-reported drug use details and urine drug screening results, withdrawal, and treatment drug details. Here, we summarize the numerous issues with the organization and fidelity of the publicly available data which were noted and resolved, and present results on patient characteristics across the three trials and the harmonized domains, respectively. A systematic harmonization of OUD clinical trial data can be accomplished, despite heterogeneous data coding and classification procedures, by standardizing commonly assessed characteristics. Similar methods, embracing database normalization and/or “tidy” data, should be used for future datasets in other substance use disorder clinical trials.\n\nBiostatisticians, data scientists, and clinical investigators long for the ability to apply machine learning algorithms to make “high stakes”, often life-or-death, predictions, but these efforts are impeded by a lack of clean, harmonized, clinically relevant data [ 1 ]. A germane example is predicting response to treatment for opioid use disorder (OUD). With an annual death toll that hovered near 50,000 Americans in the late 2010s and a rising count likely to hit 100,000 deaths in 2022, misuse of opioids has led to staggering levels of human suffering in the United States [ 2 ]. The weight of these numbers is amplified when one realizes there are efficacious medical treatments for OUD [ 3 – 5 ]. However, while these pharmacological treatments can work, matching individuals to the right medications at the correct dosages and in the correct settings (i.e., inpatient vs. outpatient) so that patients can complete treatment and work toward long term recovery has proven to be extraordinarily difficult for clinicians and clinical researchers [ 3 – 6 ].\n\nProgress in OUD treatment research is hampered by the lack of a central repository for harmonized, individual-level data gathered during treatment trials. This lack of publicly accessible information prevents the review and independent analysis of these data by researchers and clinicians who were not directly involved in the primary trials.\n\nComputer and data scientists have published extensively on the harmonization process in many domains and there are well established systems, such as the Observational Medical Outcomes Partnership (OMOP; https://ohdsi.github.io/CommonDataModel/ ). However, a 2024 review published in Nature points out that this guidance is highly technical and domain-specific [ 7 ]. The arguably most relevant guidance for substance use disorder researchers, the Maelstrom Research guidelines, were built from dozens of international research initiatives but do not include any representation from the field of addiction research [ 8 – 10 ].\n\nThe reason for the lack of a central repository for individual participant-level data from substance use disorder (SUD) clinical trials is many-fold. The designs of these trials are heterogeneous. Even within the domain of OUD, there are",
+  "source_label": "Data cleaning and harmonization of clinical trial data: Medication-assisted treatment for opioid use disorder",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4194
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "diagnosis",
+  "scope_decision": {
+    "eligible": true,
+    "field": "diagnosis",
+    "rule": "psychology-context:diagnosis",
+    "policy_version": 2
+  },
+  "packet_hash": "c05201acf1a854c279267821cd83763b4cad917d06d1d6900ef02195c248cfb0"
+}

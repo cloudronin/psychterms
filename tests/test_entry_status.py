@@ -73,6 +73,8 @@ class StatusTests(unittest.TestCase):
   data,md,_=build([self.entry],history={})
   self.assertEqual(data['entries'],[]);self.assertEqual(data['dropped'][0]['id'],self.entry['id'])
   self.assertNotIn(self.entry['definition'],md)
+  self.assertTrue(data['dropped'][0]['sources'][0]['licence_url'])
+  self.assertIn(data['dropped'][0]['sources'][0]['citation'],md)
 
 class ScopeTests(unittest.TestCase):
  def test_unrelated_gene_is_excluded_before_spend(self):

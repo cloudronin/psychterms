@@ -1,0 +1,26 @@
+{
+  "id": "area-under-the-curve",
+  "term": "area under the curve",
+  "source": "article-pmc12924612",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-026-02768-6",
+  "revision": "2026; DOI 10.1186/s12874-026-02768-6; article XML SHA-256 b2d5c786da80379d998b3f7d2f3364444f311cbcfdea137d88e55198e1699a53",
+  "source_snapshot_sha256": "b2d5c786da80379d998b3f7d2f3364444f311cbcfdea137d88e55198e1699a53",
+  "url": "https://doi.org/10.1186/s12874-026-02768-6",
+  "text": "Sample size determination for area under the curve (AUC) comparisons in diagnostic accuracy studies requires the consideration of multiple methodological parameters. The type of diagnostic test, the nature of the data (discrete or continuous), the correlation structure between tests, and the degree of AUC differences all influence optimal study design and planning. To address these factors, this study provides comprehensive sample size and power calculations for comparing AUCs between diagnostic tests across clinically relevant scenarios.\n\nWe conducted a comprehensive evaluation of sample size and power analysis for AUC comparisons under varying correlation levels (ρ = 0.30, 0.50, 0.80), data types (discrete vs. continuous), and AUC differences (ΔAUC = 0.02–0.10). The Obuchowski–McClish method was applied for discrete data, and the Hanley–McNeil approach was applied for continuous data, assuming balanced case-control allocation and two-sided testing ( α = 0.05). Sample sizes were calculated to achieve 80% statistical power based on established methodological approaches and adjusted for a 20% anticipated attrition rate. Power curves were generated to illustrate the relationship between sample size and statistical power across the evaluated scenarios.\n\nThe required sample sizes varied substantially across scenarios, ranging from 36 − 3,709 participants per group to achieve 80% power. The degree of difference in the area under the curve (AUC) was the primary determinant: ΔAUC = 0.02 required 909-3,709 participants, whereas a ΔAUC = 0.10 required only 36–142 participants. Inter-test correlation also had a marked impact on efficiency, with a strong correlation (ρ = 0.8) reducing sample sizes by 49% in discrete models and 68% in continuous models compared with a weak correlation (ρ = 0.3). Continuous data models consistently outperformed discrete models, requiring 24–53% fewer participants across all the scenarios. The most demanding scenario (ΔAUC = 0.02, discrete data, ρ = 0.3) required 3,709 participants per group, whereas the most efficient scenario (ΔAUC = 0.10, continuous data, ρ = 0.8) required only 36 participants, representing a 103-fold difference.\n\nMethodological choices lead to substantial variations in sample size requirements for diagnostic accuracy studies. Optimal parameter selection, particularly the use of continuous data models and accounting for strong inter-test correlations, can reduce the required sample sizes by up to 68% compared with suboptimal combinations. These results provide evidence-based guidance for efficient planning of diagnostic accuracy studies and underscore the critical importance of methodological considerations in study design optimization.\n\nThe online version contains supplementary material available at 10.1186/s12874-026-02768-6.\n\nThe receiver operating characteristic (ROC) curve is the standard methodology for evaluating diagnostic test accuracy, with the area under the curve (AUC) serving as the principal summary measure of discriminatory performance [ 1 , 2 ]. The AUC provides an intuitive interpretation of diagnostic ability, representing the probability that a randomly selected positive case will yield a higher test result than a randomly selected negative case [ 3 ]. Its use has become widespread across diagnostic research, ranging from biomarker discovery and validation to the development of clinical decision-making tools [ 4 ].\n\nCurrent diagnostic research increasingly requires complex study designs. Emerging methodologies, including multireader multitest designs [ 5 ], metabolomic biomarker panels [ 6 ], and covariate-adjusted receiver operating characteristic (ROC) analysis [ 7 ], challenge traditional sample size calculation frameworks. Moreover, novel applications such as artificial intelligence-based diagnostic systems [ 8 ] and personalized medicine [ 9 ] have increased the demand for more sensitive and reliable methods for sample size determination.\n\nDespite decades of methodological progress, determining appropriate sample sizes for AUC-based diagnostic studies remains a persistent challenge. Current approaches include nonparametric methods (e.g., DeLong et al.) [ 10",
+  "source_label": "Sample size and power analysis for ROC AUC differences in diagnostic tests: a methodological evaluation of the Obuchowski-McClish and Hanley-McNeil methods",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35"
+}

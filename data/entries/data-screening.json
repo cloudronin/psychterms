@@ -1,0 +1,61 @@
+{
+  "id": "data-screening",
+  "term": "data screening",
+  "definition": "Data screening is the step in a study review process where collected records are checked and sorted to decide which information or studies should be included before data are gathered in full. In the source context, this screening was done after removing duplicate records and was carried out by independent reviewers.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11189257"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11189257",
+      "revision": "2024; DOI 10.1371/journal.pone.0304682; article XML SHA-256 c0048d279341c02b16a40a328fd052e872d78b2501c055450753ecb23732c01d",
+      "scope": "Source record 10.1371/journal.pone.0304682; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0304682"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9e02f198aa5a4ac3894589bb3049f724",
+    "request_hash": "ab85f446d507e9bf96185fe028b0b9f98a2cf7289c3c2174cc2b7dea44a9f018",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "8ed16f03a375bfc856871d499bc2caad1ddc346fc6d41d855452103cf4cfe05d",
+    "packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db"
+  },
+  "hash": "8ed00a7b5e0ba2ceb47da5ccbbe569cca589f4ec6ab5297d20494a0c642f54ac",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that “after duplicate removal, data screening and collection were conducted by independent reviewers,” but it does not support the claim that screening is used “to decide which information or studies should be included before data are gathered in full.”",
+        "The definition’s phrasing that records are “checked and sorted” to decide inclusion is not directly described in the provided packet text.",
+        "The definition adds procedural context (e.g., timing relative to “before data are gathered in full”) and decision criteria wording that are not supported by the packet."
+      ],
+      "definition_hash": "8ed16f03a375bfc856871d499bc2caad1ddc346fc6d41d855452103cf4cfe05d",
+      "packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db",
+      "published_packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db",
+      "receipt_id": "fd1b22e57f6a4edeb05700e9907d7ca5",
+      "request_hash": "ec0a07b7e4181a9c8b3766e5c4e43cb4888b663f030d5e2018c42894a5dee0cd",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8ed16f03a375bfc856871d499bc2caad1ddc346fc6d41d855452103cf4cfe05d",
+      "packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db",
+      "published_packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db",
+      "receipt_id": "2f1b6e50f776459fa8e43b6f94e44d5d",
+      "request_hash": "af2e76f93d51abc9d6bba618115b71c6505a180e39f043b0fbb0ab71261a2699",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

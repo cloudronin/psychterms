@@ -1,0 +1,60 @@
+{
+  "id": "infant-test",
+  "term": "infant test",
+  "definition": "In this packet, “infant test” refers to the Children’s Hospital of Philadelphia Infant Test of Neuromuscular Disorders (CHOP INTEND). It is a measure used to assess motor function level in children with type 1 spinal muscular atrophy.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12435727"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12435727",
+      "revision": "2025; DOI 10.1371/journal.pone.0323341; article XML SHA-256 19e4f14f19c5d28e8f230c0d981528a9ccb107d399dfc286b5d35ddeb1af2f2b",
+      "scope": "Source record 10.1371/journal.pone.0323341; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0323341"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "48ade57b6f1115bcb2d91711b2c6a9f91b231e10de9223cf84071f8a770846fe",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1c1b6eb65a7a403ea5b811e4113894eb",
+    "request_hash": "1af408a91e608bd0ebe9061d9b829ecf27e1b090a983a75637d726898e845425",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "b0fc46ccd7d52d4c4cd1d4649db06922970eb25fd83d8a27ba7fee64637dcd97",
+    "packet_hash": "48ade57b6f1115bcb2d91711b2c6a9f91b231e10de9223cf84071f8a770846fe"
+  },
+  "hash": "2b14110280192e5333aea31c02d5548fa975fe2d7530c69afc0c50820442235a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b0fc46ccd7d52d4c4cd1d4649db06922970eb25fd83d8a27ba7fee64637dcd97",
+      "packet_hash": "48ade57b6f1115bcb2d91711b2c6a9f91b231e10de9223cf84071f8a770846fe",
+      "published_packet_hash": "48ade57b6f1115bcb2d91711b2c6a9f91b231e10de9223cf84071f8a770846fe",
+      "receipt_id": "6cc8103abfe84aeabb26eea1a73a48b1",
+      "request_hash": "27bb23341e18ee1fce4089df5f75fe1041dced8a21d872b20218aba5ce6825a1",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions CHOP INTEND as the assessment used for motor function, but it does not establish that the term “infant test” refers to the Children’s Hospital of Philadelphia Infant Test of Neuromuscular Disorders.",
+        "The definition adds an acronym expansion and term equivalence that are not supported by the packet’s wording."
+      ],
+      "definition_hash": "b0fc46ccd7d52d4c4cd1d4649db06922970eb25fd83d8a27ba7fee64637dcd97",
+      "packet_hash": "48ade57b6f1115bcb2d91711b2c6a9f91b231e10de9223cf84071f8a770846fe",
+      "published_packet_hash": "48ade57b6f1115bcb2d91711b2c6a9f91b231e10de9223cf84071f8a770846fe",
+      "receipt_id": "8eadf1e80ca04f6c9fce93ac37ef491f",
+      "request_hash": "fe308391a5888af0778a7bbace34d4508b0a7867569e403cb444646ad63cad6e",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

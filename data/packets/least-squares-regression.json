@@ -1,0 +1,26 @@
+{
+  "id": "least-squares-regression",
+  "term": "least squares regression",
+  "source": "article-pmc13016361",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0345369",
+  "revision": "2026; DOI 10.1371/journal.pone.0345369; article XML SHA-256 17e80b28fbe493c9a957697e0ecfc890a13be6b21ee952d4e318001819ef3428",
+  "source_snapshot_sha256": "17e80b28fbe493c9a957697e0ecfc890a13be6b21ee952d4e318001819ef3428",
+  "url": "https://doi.org/10.1371/journal.pone.0345369",
+  "text": "Least squares regression (LSR) has been widely used in pattern recognition due to its concise form and ease of solution. However, inadequate exploration of inter-class margin and intra-class similarity limits its discriminative ability. To this end, we present a novel method called residual metric learning with class-specific consistency for multiclass classification (RMLCC). Specifically, RMLCC jointly learns a projection matrix and a metric matrix for the regression residuals in a compact framework. This joint learning mechanism makes the inter-class margin of the projected instances as large as possible in the learned metric space, prompting the instances of different classes to be separated. To further improve the generalization, the class-specific consistency constraint that stimulate intra-class similarity is cleverly embedded into the joint learning framework. To solve the proposed model, we propose an alternative optimization algorithm which guarantees weak convergence. With the interactive optimization of the projection matrix and metric matrix, RMLCC can fully exploit the structure and supervised information of the data and thus has the potential to outperform other methods. Extensive experiments on several benchmark datasets demonstrate the validity of the proposed method.\n\nLeast squares regression (LSR) [ 1 ] has been widely used in many applications, such as image recognition [ 2 ] and discriminative learning [ 3 ], due to its concise formulation and efficient solution. By embedding some given prior information into the objective function, LSR can also be tailored for different tasks such as regression [ 1 ] or classification [ 4 ]. Here, we focus on the task of multiclass classification, where one instance is assigned to one of a number of discrete classes. Broadly speaking, a good classifier should perform well in terms of discrimination and generalization. The conventional LSR-based classification model aims to learn a mapping function that projects the input instances into the binary label space by solving a mean square error minimization problem. This operation not only degrades the discrimination performance but also easily leads to overfitting [ 1 , 5 ], as it encourages a constant Euclidean distance between the regression responses of any two instances from different classes and does not consider the intra-class similarity.\n\nTo enhance the discrimination, label relaxation techniques pursuing large inter-class margin have been successively explored. Xiang et al. [ 2 ] proposed a discriminative LSR (DLSR) model, which enlarges the distance between regression targets of different classes using the ε -dragging technique. Wang et al. [ 6 ] presented a margin scalable discriminative LSR (MSDLSR) method by introducing a sparsity constraint on the dragging values. Zhang et al. [ 7 ] constructed a retargeted least squares regression (ReLSR) model, which directly learns the regression targets with large inter-class margin. To improve the generalization, various sparse or low rank regularization terms are introduced into the objective function to maintain the intra-class similarity or structural consistency. In [ 8 ], a discriminative LSR method based on inter-class sparsity (ICS_DLSR) was proposed. ICS_DLSR introduces an inter-class sparsity constraint to reduce the intra-class margin while increasing the inter-class margin, and introduces the error factors to improve the discriminability of the model. A group low-rank representation-based discriminative linear regression (GLRRDLR) model was presented by Zhan et al. [ 9 ], which imposed a class-wise low-rank constraint on the latent features.\n\nIn addition, several subspace learning methods have also been developed to extract the structural information and improve the generalization. Fang et al. [ 10 ] presented a robust latent subspace learning (RLSL) model through the combination of latent representation with linear regression. Zhang et al. [ 11 ] proposed a pairwise relations oriented discriminative regression (PRDR) model, in which the pairwise relations of the label and the instances are transferred to the latent subspace by means of cosine similarity and",
+  "source_label": "Residual metric learning with class-specific consistency for multiclass classification",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5"
+}

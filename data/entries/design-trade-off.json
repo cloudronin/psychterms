@@ -1,0 +1,60 @@
+{
+  "id": "design-trade-off",
+  "term": "design trade-off",
+  "definition": "A design trade-off is a situation where improving one aspect of a system creates a cost in another. In this study, giving richer guidance improved coordination, comfort, and task efficiency, but it was also linked with greater cognitive and physiological demand.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13467822"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13467822",
+      "revision": "2026; DOI 10.3389/frobt.2026.1836165; article XML SHA-256 b003824ec7b8c5444b4e2d58545e3af237234e100524ea9631008a9346196874",
+      "scope": "Source record 10.3389/frobt.2026.1836165; pinned source text",
+      "locator": "https://doi.org/10.3389/frobt.2026.1836165"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5941911b277f16859be1a227d4fe33d9db33c2a486942a281b52eec6431fd0c3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6d071e58ee5b434e99e8cb648cad65d1",
+    "request_hash": "49cdcc230a719768233960986592a91811dcd2f92fbe5f78041d78c58a0e5d9a",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "94d42964347c5dfc797642ded55c904808a6a354457489437bed02eb01b41982",
+    "packet_hash": "5941911b277f16859be1a227d4fe33d9db33c2a486942a281b52eec6431fd0c3"
+  },
+  "hash": "2d70369f71a6e37543a2011b6321d1080712545adb38aef80bafc52db54f477c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "94d42964347c5dfc797642ded55c904808a6a354457489437bed02eb01b41982",
+      "packet_hash": "5941911b277f16859be1a227d4fe33d9db33c2a486942a281b52eec6431fd0c3",
+      "published_packet_hash": "5941911b277f16859be1a227d4fe33d9db33c2a486942a281b52eec6431fd0c3",
+      "receipt_id": "a5d5427d82f04de4b7c6ee61f775ece7",
+      "request_hash": "a19ef40ba438e3f0e57ef78db7a0b5ef533ba3ce16a411dfd495016b050eb9b4",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence overstates the study results by adding “coordination” and “comfort” as direct outcomes of the richer guidance condition; the packet supports shortest completion times and higher subjective ratings, with comfort mentioned only for a different feedback condition and coordination efficiency as a broader interpretation.",
+        "The definition is anchored in a human–robot collaboration study rather than the supplied field of learning, so the field-sense match is not clearly supported by the packet."
+      ],
+      "definition_hash": "94d42964347c5dfc797642ded55c904808a6a354457489437bed02eb01b41982",
+      "packet_hash": "5941911b277f16859be1a227d4fe33d9db33c2a486942a281b52eec6431fd0c3",
+      "published_packet_hash": "5941911b277f16859be1a227d4fe33d9db33c2a486942a281b52eec6431fd0c3",
+      "receipt_id": "f4f1cc00ba1247318b81ffde88874136",
+      "request_hash": "753e0de048e92023c99e6759af4ab08349f5444e6c385cdeed065a9c332888e3",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

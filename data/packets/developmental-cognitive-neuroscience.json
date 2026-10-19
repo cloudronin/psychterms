@@ -1,0 +1,26 @@
+{
+  "id": "developmental-cognitive-neuroscience",
+  "term": "developmental cognitive neuroscience",
+  "source": "article-pmc12058173",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0323179",
+  "revision": "2025; DOI 10.1371/journal.pone.0323179; article XML SHA-256 6928c3f839c5ed9a191967e30edff474ba7a7149925c7046e68ed02355454d0c",
+  "source_snapshot_sha256": "6928c3f839c5ed9a191967e30edff474ba7a7149925c7046e68ed02355454d0c",
+  "url": "https://doi.org/10.1371/journal.pone.0323179",
+  "text": "Electroencephalography (EEG) is an established method for investigating neurocognitive functions during human development. In cognitive neuroscience, time-frequency analysis of the EEG is a widely used analytical approach. This paper introduces WTools, a new MATLAB-based toolbox for time-frequency analysis of EEG signals using complex wavelet transformation. WTools features an intuitive GUI that guides users through the analysis steps, focusing on essential parameters. Being free and open-source, it can be integrated and expanded with new features, making it a handy tool that is growing its popularity in developmental cognitive neuroscience. While the default settings follow established pipelines in developmental research, the toolbox also provides the flexibility to accommodate settings more commonly used in adult neuroscience. Here, we provide a detailed description of the WTools algorithm for wavelet transformation and we compare it with state-of-the-art methods implemented in EEGLAB. Alongside the official tool release, we offer a comprehensive, illustrated tutorial with sample infant EEG data designed to support novice users, enhance accessibility and promote the transparent and reproducible usage of WTools.\n\nElectroencephalography (EEG) is an established and practical tool for studying brain function and dysfunction across the lifespan. Over the past decades, time-frequency analysis of the EEG has become increasingly popular in cognitive neuroscience. Often implemented via wavelet transformation [ 2 – 4 ], time-frequency analysis attempts to unfold the EEG signal into the frequency domain. Unlike pure Fourier transformation, it includes some temporal support, allowing us to see the frequencies in the EEG signal spread over time relative to a time-locked stimulation. Consequently, time-frequency analysis can finely characterize the temporal dynamics embedded in EEG oscillations in terms of frequency, power, and phase [ 4 ]. This analysis provides invaluable information on a variety of cognitive processes such as attention [ 5 , 6 ], learning and prediction of upcoming information [ 7 , 8 ], memory [ 9 , 10 ], language [ 11 – 13 ] and motor activation [ 14 , 15 ], pointing to the centrality of cortical rhythms in cognition [ 16 , 17 ].\n\nOver the past two decades, time-frequency analysis of the electroencephalogram (EEG) has become increasingly popular in the field of developmental cognitive neuroscience [ 2 , 1,18 – 24 ]. Yet, most studies in this field currently rely on ERPs and Fourier-based power, possibly because time-frequency analyses can be both computationally intensive and analytically complex [ 25 ]. Different from event-related potential (ERP) analysis, time-frequency analysis can be done with many different mathematical approaches (short-time Fourier transform, Hilbert transformation, wavelet transformation) and requires the manipulation of several parameters. Different approaches and small changes in the parameters can lead to very different results.\n\nThere is a large number of free software [ 26 – 29 ] and commercial software (NetStation, Brain Vision Analyzer) to perform time-frequency analysis of the EEG. However, commercial software does not disclose the exact algorithm for the signal processing. As a result, it is virtually impossible to understand what the software does exactly, undermining flexibility, transparency and reproducibility. Free software on the other hand can be difficult to use because of the lack of a graphic user interface (GUI), or because they require to manually set several parameters. By developing in complexity and integrating an increasing number of functionalities, these toolboxes are difficult to use for inexperienced researchers and students, as is often the case in developmental neuroscience.\n\nThis paper presents WTools, a new MATLAB-based toolbox for time-frequency analysis of the EEG signal. WTools is designed to be very user-friendly through its simple GUI; it is easy to learn and use because it keeps the number of parameters to manipulate at a minimum; it is open source and flexible as the code is freely available. WTools uses wavelet transformation and the algorithm is",
+  "source_label": "WTools: A MATLAB-based toolbox for time-frequency analysis of infant data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "2edc04831e336148ea4012058a13abfd466478c374b4e8a46ab87d22195639e6"
+}

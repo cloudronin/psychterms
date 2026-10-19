@@ -1,0 +1,61 @@
+{
+  "id": "mean-square-error",
+  "term": "mean square error",
+  "definition": "Mean square error is a measure of approximation error based on squaring the differences between signals and their approximations and then averaging them. In this source, it is the quantity minimized at each step to choose a representation that best fits a set of signals overall.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12158009"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12158009",
+      "revision": "2025; DOI 10.1371/journal.pone.0325555; article XML SHA-256 b2b1d90032ba62f20cc842335e3a013acb033c3cf5fa35b7b59a95c5386d1240",
+      "scope": "Source record 10.1371/journal.pone.0325555; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0325555"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c6c272fd4e2e4026bcfc547e4bb0ceac",
+    "request_hash": "e2593249f77d38ea5262569d8ac6fadc71df958ee52b1808d8bdbb570de8d28a",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "0aba0d4668ebd6882a0d5c34c17a647bd786b8c8354aa883a6362c4ffb50c45a",
+    "packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d"
+  },
+  "hash": "17b011b52cb201a0805ba7437b3ee3bf6eda176d0d2fcf6e5f7c67ecb327dd5b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0aba0d4668ebd6882a0d5c34c17a647bd786b8c8354aa883a6362c4ffb50c45a",
+      "packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d",
+      "published_packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d",
+      "receipt_id": "95753325156b429286e92fdbc646ce54",
+      "request_hash": "80078c1dab5c14797ad5bce333671f1286393f49dc2fc73fb97e65043fc31b89",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state the canonical definition of mean square error as “squaring the differences between signals and their approximations and then averaging them.”",
+        "The packet describes that the method is “stepwise optimal” by minimizing “the mean square error norm” at each iteration and that it “minimize[s] the mean value of the error norm squared,” but it does not supply the specific squaring-and-averaging formulation used in the first sentence of the definition.",
+        "The claim that it is used “to choose a representation that best fits a set of signals overall” is only partially supported (it is used to select/optimize a subspace in the pursuit algorithm), but the packet does not clearly support the broader “best fits overall” wording as stated."
+      ],
+      "definition_hash": "0aba0d4668ebd6882a0d5c34c17a647bd786b8c8354aa883a6362c4ffb50c45a",
+      "packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d",
+      "published_packet_hash": "176cd538c38282894671f4c7a371328638cfa9e45123bafdf97e0d3b2899fc9d",
+      "receipt_id": "8abeb14c47fb4c139a300c405bb957fd",
+      "request_hash": "736091642fb6b83baacbc0fa6373a6de66fa702d805c98d79aba4d09f1f099e0",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

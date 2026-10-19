@@ -1,0 +1,26 @@
+{
+  "id": "blooms-taxonomy",
+  "term": "Bloom’s taxonomy",
+  "source": "article-pmc7081997",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0230442",
+  "revision": "2020; DOI 10.1371/journal.pone.0230442; article XML SHA-256 9d89931bf096c9b35167f6cbe85cb6168ca04a7ce8133e71f483a0a90e64eae8",
+  "source_snapshot_sha256": "9d89931bf096c9b35167f6cbe85cb6168ca04a7ce8133e71f483a0a90e64eae8",
+  "url": "https://doi.org/10.1371/journal.pone.0230442",
+  "text": "The assessment of examination questions is crucial in educational institutes since examination is one of the most common methods to evaluate students’ achievement in specific course. Therefore, there is a crucial need to construct a balanced and high-quality exam, which satisfies different cognitive levels. Thus, many lecturers rely on Bloom’s taxonomy cognitive domain, which is a popular framework developed for the purpose of assessing students’ intellectual abilities and skills. Several works have been proposed to automatically handle the classification of questions in accordance with Bloom’s taxonomy. Most of these works classify questions according to specific domain. As a result, there is a lack of technique of classifying questions that belong to the multi-domain areas. The aim of this paper is to present a classification model to classify exam questions based on Bloom’s taxonomy that belong to several areas. This study proposes a method for classifying questions automatically, by extracting two features, TFPOS-IDF and word2vec. The purpose of the first feature was to calculate the term frequency-inverse document frequency based on part of speech, in order to assign a suitable weight for essential words in the question. The second feature, pre-trained word2vec, was used to boost the classification process. Then, the combination of these features was fed into three different classifiers; K-Nearest Neighbour, Logistic Regression, and Support Vector Machine, in order to classify the questions. The experiments used two datasets. The first dataset contained 141 questions, while the other dataset contained 600 questions. The classification result for the first dataset achieved an average of 71.1%, 82.3% and 83.7% weighted F1-measure respectively. The classification result for the second dataset achieved an average of 85.4%, 89.4% and 89.7% weighted F1-measure respectively. The finding from this study showed that the proposed method is significant in classifying questions from multiple domains based on Bloom’s taxonomy.\n\nExamination assessment plays a fundamental role in evaluating how students’ proficiency in the course content [ 1 ]. Writing high quality and balanced exam questions that satisfy different levels of cognition is not an easy task [ 2 ]. Constructing the examination in a comprehensive manner must also take into consideration the difficulty levels, that match the standard objectives and outcomes of the course in a standard way such as Bloom’s taxonomy [ 1 , 3 ]. Bloom’s taxonomy involves three domains, i.e. cognitive, affective, and psychomotor domains. The cognitive domain, covers different thinking skills starting from the most straightforward to the most complex one [ 4 , 5 ] as shown in Fig 1 . The key to writing learning outcomes by Bloom’s taxonomy is verbs [ 4 ].\n\nRecently, researchers [ 5 – 9 ] have shown an increased interest in automating evaluating examination based on Bloom’s taxonomy cognitive domain. Various techniques have been used along with different features such as lexical features, and syntactic features, while few of them used semantic features. On the other hand, most previous works handled classifying questions from a specific domain, where there is a lack of techniques on classifying questions based on Bloom’s taxonomy over the multi-domain area [ 10 , 11 ]. Therefore, this study aims to build a question classification model based on Bloom’s taxonomy cognitive domain. Hence, considerable room for further improvement still remains, particularly in open domain area.\n\nIn general, questions classification is unlike documents classification, since the questions are written in short forms. Documents classification aids users to get and extract useful information easily due to the extensive available information. Whereas, short text suffers from the lack of gained information and sparsity [ 12 , 13 ]. Thus, it is not suitable to use the pure statistical method in order to perform question classification such as N-gram and TF-IDF, since these techniques need a massive amount of data in order to get high accuracy [ 5 ]. In addition, removing stop-words during the text classification",
+  "source_label": "Question classification based on Bloom’s taxonomy cognitive domain using modified TF-IDF and word2vec",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4188
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 2
+  },
+  "packet_hash": "3fb08d0ca7d61372ff92bd05bc1c8a3fbb8dc620ef70c30655ea606e34abd66c"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "linearizing",
+  "term": "linearizing",
+  "definition": "Linearizing means reworking a complex nonlinear system into a simpler, more nearly linear form so its behavior can be analyzed and controlled more easily. In the source, this involves simplifying a coupled model so it can be treated as separate subsystems.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12088051"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12088051",
+      "revision": "2025; DOI 10.1371/journal.pone.0322999; article XML SHA-256 1b98cc24074c62d4660dc88ef9483bd6590835bfc4e6a17d4e475a2d6aeafddf",
+      "scope": "Source record 10.1371/journal.pone.0322999; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0322999"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "88701d1d4c844b118e475619ff253206",
+    "request_hash": "45783048ac55e1fab70f2e29e0af74be9916f8d14b537783944571787d6aa6bc",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "ea599785312b877b5fc3745b34d6ae8a204139ab26691a856d42ad06fbed42aa",
+    "packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1"
+  },
+  "hash": "4a4a7d8c4e116f9e4fc4491d07aed02f35293a70b9882b2e7b046f2866a8e4bb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field ‘biological’ is not supported by the packet; the source is about control of a twin rotor aerodynamic system and inverse neural control, which is an engineering/control-systems context rather than a biological one."
+      ],
+      "definition_hash": "ea599785312b877b5fc3745b34d6ae8a204139ab26691a856d42ad06fbed42aa",
+      "packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1",
+      "published_packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1",
+      "receipt_id": "d87f023cb2544c1bb40fed7dade4151e",
+      "request_hash": "07a9b2ebfaaa20387ae5a6a8f3b71c9d6392b2dfa92acecf1b6f7ba03fbdfeaf",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes a Twin Rotor Aerodynamic System (TRAS) for control/optimization, not biological psychology-related content.",
+        "The definition’s first claim (“reworking a complex nonlinear system into a simpler, more nearly linear form… so its behavior can be analyzed and controlled more easily”) is not explicitly supported in the packet; the packet only states that the authors “analyz[ed] and lineariz[ed] the dynamic model,” without describing linearization as making behavior “more easily analyzed and controlled.”",
+        "The definition’s second claim (“simplifying a coupled model so it can be treated as separate subsystems”) is only partially supported: the packet says that after linearizing, TRAS is “decoupled into two… systems,” but it does not explicitly frame this as “simplifying a coupled model” or define it as the mechanism of linearization."
+      ],
+      "definition_hash": "ea599785312b877b5fc3745b34d6ae8a204139ab26691a856d42ad06fbed42aa",
+      "packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1",
+      "published_packet_hash": "9c714f258d37117521a7144a115df409f20dc31fabef17c393697e33f9755dc1",
+      "receipt_id": "e1453f39cd904522a05159f9b8ae9522",
+      "request_hash": "1b9674ea3451deeba7cbdcdebf532e1d466ea4e80224e16c85dd92651956f335",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

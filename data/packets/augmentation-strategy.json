@@ -1,0 +1,26 @@
+{
+  "id": "augmentation-strategy",
+  "term": "augmentation strategy",
+  "source": "article-pmc10079093",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0282621",
+  "revision": "2023; DOI 10.1371/journal.pone.0282621; article XML SHA-256 5801af3b392243892f0fac470acaaadaf52cb555e7876048868b1a0412a81295",
+  "source_snapshot_sha256": "5801af3b392243892f0fac470acaaadaf52cb555e7876048868b1a0412a81295",
+  "url": "https://doi.org/10.1371/journal.pone.0282621",
+  "text": "This work aims to compare deep learning models designed to predict daily number of cases and deaths caused by COVID-19 for 183 countries, using a daily basis time series, in addition to a feature augmentation strategy based on Discrete Wavelet Transform (DWT). The following deep learning architectures were compared using two different feature sets with and without DWT: (1) a homogeneous architecture containing multiple LSTM (Long-Short Term Memory) layers and (2) a hybrid architecture combining multiple CNN (Convolutional Neural Network) layers and multiple LSTM layers. Therefore, four deep learning models were evaluated: (1) LSTM, (2) CNN + LSTM, (3) DWT + LSTM and (4) DWT + CNN + LSTM. Their performances were quantitatively assessed using the metrics: Mean Absolute Error (MAE), Normalized Mean Squared Error (NMSE), Pearson R, and Factor of 2. The models were designed to predict the daily evolution of the two main epidemic variables up to 30 days ahead. After a fine-tuning procedure for hyperparameters optimization of each model, the results show a statistically significant difference between the models’ performances both for the prediction of deaths and confirmed cases (p-value<0.001). Based on NMSE values, significant differences were observed between LSTM and CNN+LSTM, indicating that convolutional layers added to LSTM networks made the model more accurate. The use of wavelet coefficients as additional features (DWT+CNN+LSTM) achieved equivalent results to CNN+LSTM model, which demonstrates the potential of wavelets application for optimizing models, since this allows training with a smaller time series data.\n\nFacing crises such as the COVID-19 pandemic requires constant monitoring of the social and epidemiological variables that involve it. The COVID-19 pandemic has changed the daily lives of the entire world population, which has been threatened by an easily transmitted virus, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Several strategies must be taken to hinder the virus proliferation, and these need to be based on correct and scientifically proven information, which can be greatly benefited by prior knowledge of possible scenarios to be observed in the future. The daily, weekly, or monthly contagion rate projection to the future helps the decision-making process from managers who need to formulate mitigation policies, which is important in the face of changes in the virus spreading behavior as seen with Delta and Omicron variants.\n\nSince the pandemic began, several predictive modeling studies have been carried out to investigate and build the best tools to support the development of strategies to combat the crisis. The proposed approaches include epidemiological mathematical modeling, such as the SIRD model (Susceptible-Infected-Recovered-Deceased) [ 1 ]; autoregressive models, such as ARIMA (Autoregressive Integrated Moving Average) [ 2 ]; and deep learning models, such as recurrent neural networks of the type LSTM (Long-Short Term Memory) [ 3 ], GRUs (Gated Recurrent Units) [ 4 ], bidirectional and convolutional LSTMs [ 5 ], among others.\n\nThe literature review points out that deep learning models based on LSTM and CNN networks are the most effective and robust, allowing to make more accurate predictions in a greater number of countries and in a longer predictive horizon than the autoregressive and statistical methods [ 6 , 7 ]. Arun Kumar et al. [ 6 ] did a comparative analysis of autoregressive and neural models to predict trends in COVID-19. They concluded that, by citing several works with similar results, the LSTM and GRU deep learning-based models outperformed the ARIMA and SARIMA statistical models for most countries.\n\nHowever, the accuracy of these models, as well as the size of the forecast horizon, need to improve so that they can be adopted by public health agencies as a tool to support the management not only of the COVID-19 pandemic, but of future ones. In this sense, Jamishid et al. 2022 [ 7 ], after reviewing 80 papers on methods for estimating and predicting the spread of COVID-19 concluded not to recommend any of these reported prediction methods to be employed in WHO’s",
+  "source_label": "Using discrete wavelet transform for optimizing COVID-19 new cases and deaths prediction worldwide with deep neural networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4195
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701"
+}

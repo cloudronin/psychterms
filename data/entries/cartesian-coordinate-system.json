@@ -1,0 +1,65 @@
+{
+  "id": "cartesian-coordinate-system",
+  "term": "Cartesian coordinate system",
+  "definition": "The Cartesian coordinate system is a standard x–y framework used to represent positions and trajectories, such as vehicle movement and conflict points. In the source, it is described as workable on straight roads but less suitable on curved roads because it does not capture curved trajectories and lane changes as accurately or simply as a road-centered Frenet system.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13012730"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13012730",
+      "revision": "2026; DOI 10.1371/journal.pone.0344023; article XML SHA-256 5e9afcfd8216184d844c7f6b39f5b5a6b8252779e03dc82263d7c7948ad03c75",
+      "scope": "Source record 10.1371/journal.pone.0344023; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0344023"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "64b49b9a72204174b03b779ab05e9c94",
+    "request_hash": "dc6ec7daeac067e16569c0eb07a5ff3b643d513aacdce455c99d21fc117916eb",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "4c9cb4983512e1467498eb73411ae26919e170480b9b681c71c2090f1332cdaa",
+    "packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9"
+  },
+  "hash": "b8ef8bf3676e72f57be1e158a57a90ffbc84119764c7d418f94610578379a0ef",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that the Cartesian coordinate system is specifically a “standard x–y framework.” It only describes Cartesian as being predominantly adopted by default and uses “Cartesian framework/straight-line equations,” without stating an x–y form.",
+        "The packet supports that Cartesian methods are workable on straight segments but are complicated/less accurate on curved segments, yet the definition’s comparison phrasing (“does not capture curved trajectories and lane changes as accurately or simply as … Frenet”) is broader than the packet’s specific statements about boundary fitting complexity and applicability/reliability.",
+        "The definition includes an additional example (“such as vehicle movement and conflict points”) that is not explicitly stated as such in the packet; the packet mentions conflict identification and vehicle trajectories, but not that these are the examples framing the term."
+      ],
+      "definition_hash": "4c9cb4983512e1467498eb73411ae26919e170480b9b681c71c2090f1332cdaa",
+      "packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9",
+      "published_packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9",
+      "receipt_id": "93def96e02b64f7e825d669aaafb3de7",
+      "request_hash": "f48a8ef8fdaa609ee382cdc89d82fcd658fd548fd8a3962f5fc5df6eccd37c5a",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported generalization by calling it a “standard x–y framework”; the packet only says the Cartesian coordinate system is the default framework used in traffic conflict research, not that it is standard in general.",
+        "The statement about representing “positions and trajectories” is broader than the packet, which discusses determining vehicle trajectory points and traffic conflict locations in this specific context.",
+        "The requested field is not well supported by the packet: the source is about traffic-conflict identification on roads, not the learning field."
+      ],
+      "definition_hash": "4c9cb4983512e1467498eb73411ae26919e170480b9b681c71c2090f1332cdaa",
+      "packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9",
+      "published_packet_hash": "2941e6b940d2bbdaa2cdadeab54f536ca7589ddd55cff43184bf919c72d7d6b9",
+      "receipt_id": "e9d7f341b05c4a42bd0f4d17dbe6af0a",
+      "request_hash": "800704955fecf9d0799758e917b3c3839ff238f6dc15825e332e5c8d4f831976",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

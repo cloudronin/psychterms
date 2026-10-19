@@ -1,0 +1,26 @@
+{
+  "id": "analysis-of-covariance",
+  "term": "analysis of covariance",
+  "source": "article-pmc12119598",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2025.1600764",
+  "revision": "2025; DOI 10.3389/fpsyg.2025.1600764; article XML SHA-256 aa792941289d477f6063f12f5333e22a792f4286f5041a2701e5fffaa111c78e",
+  "source_snapshot_sha256": "aa792941289d477f6063f12f5333e22a792f4286f5041a2701e5fffaa111c78e",
+  "url": "https://doi.org/10.3389/fpsyg.2025.1600764",
+  "text": "The analysis of covariance (Ancova) is a widely used statistical technique for the comparison of groups with respect to a quantitative dependent variable in such a way that the comparison takes into account concomitant differences in a quantitative covariate. Despite its widespread use, some of the main features of this technique have remained elusive, contentious, or misconceived in applied settings. For example, some authors claim that the validity of an Ancova depends on the assumption that the expected value of the covariate is the same for all participants, or that the adjusted mean difference evaluated in an Ancova has a useful interpretation as the difference between the mean change scores of each group, whereas these claims are disputed by other authors. I suggest that these issues are best addressed and settled in the context of the underlying exact sampling distribution theory since significance statements, effect size estimates, and statistical power all derive directly from the statistical sampling distribution theory implied by the Ancova model. The distributional approach also clarifies the central distinction between conditional and marginal means, and the way in which various study designs (controlled, randomized, observational) affect and modify conclusions derived from an Ancova. The tutorial provides an explicit distributional account of the standard Ancova model to compare two independent groups; it clarifies the assumptions underlying the Ancova model, the nature and limitations of the conclusions it provides, and corrects some common misconceptions associated with its applications.\n\nEmpirical studies often aim to compare two or more treatments applied to separate groups. A standard technique for this purpose is the analysis of variance (Anova), which in the case of two independent groups is equivalent to an independent samples t −test. In these techniques the mean variability within each group defines and delimits the resolution with which differences between the groups can be identified. It is therefore natural to consider ways to refine this resolution so that the comparison becomes more sensitive, and fewer units are required to detect a given difference. Effective techniques to achieve this aim are, for example, blocking, or the use of repeated measures from the same unit (for general background, see, e.g., Maxwell et al., 2018 , ch. 9; Kutner et al., 2004 , ch.s 26–29).\n\nIn the case of two groups, blocking typically uses a covariate to form pairs (blocks) of units that are as similar as possible with respect to the covariate. Treatments are then randomly assigned to one or the other member of any given pair; this procedure serves to make the two groups more similar on average. Blocking leads to more sensitive comparisons of the treatments, as potentially relevant differences in the covariate between the units are balanced more systematically than under unconstrained randomization. However, the technique of blocking requires that the covariate is available before the units are assigned to treatment groups, and with quantitative covariates it ignores the residual variability of the covariate within blocks (for a discussion of further limitations of blocking, see Maxwell et al., 2018 , ch. 9; Schwarz and Reike, 2018 ; Schwarz, 2008 ). A widely used technique that makes use of all the quantitative information in the covariate is the analysis of covariance (Ancova; Huitema, 2011 ; Kutner et al., 2004 , ch. 22; Schneider et al., 2015 ; Senn, 2006 ; Vickers and Altman, 2001 ). I illustrate typical Ancova applications by two examples, Study A and B.\n\nTo compare how much time it takes consumers to empty a straight (cylindrical) vs. curved (truncated cone) glass of beer (volume in both cases 12 fl oz), naive subjects were randomly assigned to two treatment groups defined by glass shape (for a detailed study, see Attwood et al., 2012 ). As a potentially relevant covariate, a questionnaire score was obtained at the end of the study from all participants which assessed the urge to consume alcoholic beverages so as to control the comparison related to glass shape for potential base differences of drinking",
+  "source_label": "The Ancova model for comparing two groups: a tutorial emphasizing statistical distribution theory",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4195
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "mental health",
+  "scope_decision": {
+    "eligible": true,
+    "field": "mental health",
+    "rule": "psychology-context:mental health",
+    "policy_version": 2
+  },
+  "packet_hash": "ee8ffe051fb6072cc1d33123566cc1106c1e475768535628f5ae554d1fa6a302"
+}

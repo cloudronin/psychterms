@@ -1,0 +1,26 @@
+{
+  "id": "initial-data-analysis",
+  "term": "initial data analysis",
+  "source": "article-pmc11135704",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0295726",
+  "revision": "2024; DOI 10.1371/journal.pone.0295726; article XML SHA-256 99537a70c58c55c254d0e18a180ea8e58b41ead70e523412b21fde79c010797b",
+  "source_snapshot_sha256": "99537a70c58c55c254d0e18a180ea8e58b41ead70e523412b21fde79c010797b",
+  "url": "https://doi.org/10.1371/journal.pone.0295726",
+  "text": "Initial data analysis (IDA) is the part of the data pipeline that takes place between the end of data retrieval and the beginning of data analysis that addresses the research question. Systematic IDA and clear reporting of the IDA findings is an important step towards reproducible research. A general framework of IDA for observational studies includes data cleaning, data screening, and possible updates of pre-planned statistical analyses. Longitudinal studies, where participants are observed repeatedly over time, pose additional challenges, as they have special features that should be taken into account in the IDA steps before addressing the research question. We propose a systematic approach in longitudinal studies to examine data properties prior to conducting planned statistical analyses. In this paper we focus on the data screening element of IDA, assuming that the research aims are accompanied by an analysis plan, meta-data are well documented, and data cleaning has already been performed. IDA data screening comprises five types of explorations, covering the analysis of participation profiles over time, evaluation of missing data, presentation of univariate and multivariate descriptions, and the depiction of longitudinal aspects. Executing the IDA plan will result in an IDA report to inform data analysts about data properties and possible implications for the analysis plan—another element of the IDA framework. Our framework is illustrated focusing on hand grip strength outcome data from a data collection across several waves in a complex survey. We provide reproducible R code on a public repository, presenting a detailed data screening plan for the investigation of the average rate of age-associated decline of grip strength. With our checklist and reproducible R code we provide data analysts a framework to work with longitudinal data in an informed way, enhancing the reproducibility and validity of their work.\n\nInitial data analysis (IDA) is the part of the data pipeline that commonly takes place between the end of data retrieval and the beginning of data analysis that addresses the research question. The main aim of IDA is to provide reliable knowledge about data so that appropriate statistical analyses can be conducted, ensuring transparency, integrity, and reproducibility. This is necessary for accurate interpretation of results to answer predefined research questions.\n\nA general framework of IDA for observational studies includes the following six steps: (1) metadata setup (to summarize the background information about data), (2) data cleaning (to identify and correct technical errors), (3) data screening (to examine data properties), (4) initial data reporting (to document findings from the previous steps), (5) refining and updating the research analysis plan, and (6) documenting and reporting IDA in research papers [ 1 ]. Statistical practitioners often do not perform such necessary steps in a systematic way. They may combine data screening steps with analyses steps leading to ad-hoc decisions; however, maintaining a structured workflow is a fundamental step towards reproducible research [ 2 ].\n\nThe value of an effective IDA strategy for data analysts lies in ensuring that data are of sufficient quality, that model assumptions made in the analysis strategy are satisfied and are adequately documented; IDA also supports decisions for the statistical analyses [ 3 ]. IDA data screening investigations could lead to discovery of data properties that may identify errors beyond those addressed in data cleaning, affect the interpretation of results of statistical models, and/or modify the choices linked to the specification of the model.\n\nThere are many tools for data screening, including numerical data summaries and data visualizations, that are common for IDA and for exploratory data analysis (EDA, [ 4 ]) [ 5 ]. However, IDA and EDA have different objectives and differ in emphasis. EDA inspects data to uncover patterns in the data or identifies possible errors and anomalies, typically through graphical approaches [ 6 ]. In addition, EDA may include investigations for model building and hypothesis generation in a",
+  "source_label": "Initial data analysis for longitudinal studies to build a solid foundation for reproducible analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "05dd4b9c8d5b1974054b5dbf4016f3b4c7d7a45390019c7e8e17f3f671457a7f"
+}

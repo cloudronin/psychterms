@@ -1,0 +1,26 @@
+{
+  "id": "feature-abstraction",
+  "term": "feature abstraction",
+  "source": "article-pmc13475904",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355613",
+  "revision": "2026; DOI 10.1371/journal.pone.0355613; article XML SHA-256 1d05b97638b1bfe76fcd883c35545a1def66ed136717b5cbb5421109926c89b6",
+  "source_snapshot_sha256": "1d05b97638b1bfe76fcd883c35545a1def66ed136717b5cbb5421109926c89b6",
+  "url": "https://doi.org/10.1371/journal.pone.0355613",
+  "text": "Deep learning architectures comprise hierarchies in modern machine learning studies, and these are not only full of semantic depth; they are also structured systematically by a sequence of nonlinear transformations. In particular, in convolutional neural networks, the activation functions are the canonical nonlinear construction blocks that control the expressiveness of the model, gradient flow in the process of back-propagation, and hierarchical feature abstraction. The canonical activation functions, which are the rectified linear unit (ReLU), the sigmoid, and the hyperbolic tangent (tanh) have non-adaptive and non-dynamic operation properties. As a result, they limit the capacity of a network to learn the complex nonlinear dynamics of a variety of data distributions and maximize the multi-level dependencies that occur among hierarchical layers. To overcome the above constraints, the current proposal proposes the implementation of Symmetric Modifiable Slope Activation (SMSA) , which is a method that enables the dynamically calibrated neural layers through simultaneous modification of the slope, rang and the curvature of the activation space. SMSA is implemented in three different forms, first is slope parameter ( n ) is defined manually, a globally adjustable one with a learnable coefficient β , and (iii) a layer-wise adaptive regime allowing each convolutional layer to learn its coefficient β ). The strategies listed above were evaluated on the benchmark datasets MNIST, Fashion-MNIST, HAM10000 and COVID-19, using both lightweight and conventional convolutional neural networks architectures, including Custom-CNN, SBNet-CNN, ResNet18, VGG16 and DenseNet121. The empirical findings also support the idea that SMSA(x, n) is more suitable to increase convergence rates and to improve the learning of discriminative features in data-specific regimes, whereas SMSA(x, β ) its adaptive counterpart is more suitable to provide better optimization stability, faster convergence, and better predictive performance. Indeed, using layer-wise SMSA in the SBNet- CNN model on the Fashion-MNIST data, the test accuracy of 97.52% was reached, which is, in fact, better than what ResNet18(94.18%) and VGG16(94.13%) had done. In addition, the layer-wise adaptation provided more robustness with imbalanced classes by achieving a classification test accuracy of 98.59% in HAM10000 and having a 4% positive change in the accuracy of COVID-19 classification with DenseNet121. These findings support the importance of the adaptive activation mechanisms which have a critical influence on the regulation of gradient dynamics, the development of nonlinear representations, and the process of generalization. Future studies will focus on generalizing SMSA to graph-based neural networks, transformer models, and self-supervised paradigms, which is complemented by a comprehensive theoretical analysis of gradient flow and representation geometry, which will eventually bring the state of the next-generation neural network design.\n\nDeep learning was a revolutionary factor in enhancing artificial intelligence in the application of artificial intelligence in healthcare, medical imaging, and automated diagnostic systems. It allowed end to end learning of complex visual data, which greatly contributed to accuracy, flexibility, and clinical decision support. However, challenges such as vanishing or exploding gradients, unstable convergence, and weak generalization continued to limit the performance of deep neural networks, especially on sensitive and heterogeneous datasets [ 1 ]. With continuous, bounded, and differentiable activation functions, deep learning neural networks depict exceptional capability to approximate complex and nonlinear function between image data and true image categories. Based on the Universal Approximation Theorem, deep learning architectures can achieve arbitrary levels of accuracy when given a depth and properly organized activation dynamics. Such a theoretical background lies behind their exceptional results in a broad spectrum of visual recognition tasks, both generic performance evaluation metrics and more critical medically important visual",
+  "source_label": "Development of adaptive activation functions with curvature and range modulation for abstract image feature learning in complex CNNs for cross-domain applications",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "df58e8ca6907d51decd91a8cad83f230eee58c6cc91b63c3555e9f1df438069f"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scholastic-assessment-test",
+  "term": "Scholastic Assessment Test",
+  "source": "article-pmc11498684",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0308157",
+  "revision": "2024; DOI 10.1371/journal.pone.0308157; article XML SHA-256 c91fb16dc3758b08ab4619f3596dbce347c8838f8d80fab78f42b9f6b314e415",
+  "source_snapshot_sha256": "c91fb16dc3758b08ab4619f3596dbce347c8838f8d80fab78f42b9f6b314e415",
+  "url": "https://doi.org/10.1371/journal.pone.0308157",
+  "text": "This article reports the results of an experiment conducted with ChatGPT to see how its performance compares to human performance on tests that require specific knowledge and skills, such as university admission tests. We chose a general undergraduate admission test and two tests for admission to biomedical programs: the Scholastic Assessment Test (SAT), the Cambridge BioMedical Admission Test (BMAT), and the Italian Medical School Admission Test (IMSAT). In particular, we looked closely at the difference in performance between ChatGPT-4 and its predecessor, ChatGPT-3.5, to assess its evolution. The performance of ChatGPT-4 showed a significant improvement over ChatGPT-3.5 and, compared to real students, was on average within the top 10% in the SAT test, while the score in the IMSAT test granted admission to the two highest ranked Italian medical schools. In addition to the performance analysis, we provide a qualitative analysis of incorrect answers and a classification of three different types of logical and computational errors made by ChatGPT-4, which reveal important weaknesses of the model. This provides insight into the skills needed to use these models effectively despite their weaknesses, and also suggests possible applications of our analysis in the field of education.\n\nThe foreseeable widespread diffusion of large language models such as ChatGPT has sparked a broad debate about their potential use in many different contexts, as they could assist (or even replace, revolutionizing the labor market) workers in professions generally classified as intellectual, such as teachers, writers, journalists, programmers, and advertisers, to name a few [ 1 ].\n\nFocusing on ChatGPT, we thought that an interesting contribution to this debate would be to ask how its performance compares to human performance on tests that require specific knowledge and abilities, such as university assessment tests. In addition, we hypothesized that these experiments would provide useful data for identifying the strengths and weaknesses of this model at the current state of the technology. This identification is, in our view, a necessary step to better specify the possible professional uses of such technologies, and also to advance some specific areas such as prompt engineering and the educational use of AI.\n\nEvaluating ChatGPT’s performance on university tests is a common strategy, also used by its developers [ 2 ]. The novelty of our work with respect to other similar studies [ 3 , 4 ] is that, in addition to the performance analysis, we provide a qualitative analysis of incorrect answers and a classification of common errors.\n\nIn Section 2 we provide some background on ChatGPT’s architecture, training, and functioning. As said, we found it interesting to compare the performance of this model to human performance on university admission tests. For this purpose, we chose three well-known admission tests. The rationale for these choices and the tests themselves are described in detail in Sections 3 and 4.\n\nWe started our testing with ChatGPT-3.5, which was the only model available at that time. At the end of this first series of tests, ChatGPT-4 was released. In order to provide a more up-to-date analysis, we decided to evaluate ChatGPT-4’s performance on the same tests that we had already administered to ChatGPT-3.5. The description of the methodology and the overall results of our testing are explained in Sections 4–6.\n\nAlthough the overall performance of both models was quite good, in the course of our experiments we observed the recurrence of some errors, especially logical and computational ones. In our view this phenomenon was indicative of typical weaknesses in the model and thus deserved closer attention. We then identified situations in which the models made these recurrent errors, isolating macro problem areas that reveal some specific and important deficiencies in the models. This also provides some insight into the skills needed to use these models effectively despite their weaknesses. In Section 7.1 we discuss the overall performance of the models. In Section 7.2 we then provide a classification and a qualitative analysis of the",
+  "source_label": "ChatGPT as a prospective undergraduate and medical school student",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 2
+  },
+  "packet_hash": "922d85fae311313d5beddf30fef0ecb8c80f6c451bcc86d01373ee5e837a96ac"
+}

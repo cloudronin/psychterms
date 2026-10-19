@@ -54,3 +54,5 @@ Original Baldwin (1901), James (1890) and Titchener (1912) texts are historical 
 | [Tuke, A Dictionary of Psychological Medicine](https://archive.org/download/dictionaryofpsyc01tuke/dictionaryofpsyc01tuke_djvu.txt) | 1892 original US edition; OCR SHA-256 7ec833f3f4ff2826cb5eba1722a767adae625ac9f49f83035a464dc975564f96 | Original title page in the scanned book confirms 1892 US publication. Original historical text only; exclude modern additions. OCR passage matches need scan and sense verification; never treat historical clinical claims as current guidance. |
 
 Research-article search metadata identifies bibliographic candidates only. Each additional article requires its own publisher rights notice, content snapshot and support locator before admission as a drafting source. Historical OCR passage hits require checking the original scan and intended sense.
+
+The [article recovery inventory](source-recovery-inventory.csv) records each targeted article separately, including licence/content rejections and pending checks. These are discovery/admission decisions, not semantic support verdicts.

@@ -1,0 +1,61 @@
+{
+  "id": "ravlt",
+  "term": "RAVLT",
+  "definition": "RAVLT is a cognitive assessment measure used to evaluate explicit memory, particularly delayed recall. In the supplied study, higher RAVLT delayed recall scores indicated better postoperative memory performance.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13381631"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13381631",
+      "revision": "2026; DOI 10.3389/fmed.2026.1871238; article XML SHA-256 70eb468bcc2ae0e4e3471277b6954e3a92ee289a1f1c60ab1e7b8d668709b15f",
+      "scope": "Source record 10.3389/fmed.2026.1871238; pinned source text",
+      "locator": "https://doi.org/10.3389/fmed.2026.1871238"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d0f0e949176a85bc59173d51ddcd95e4783df7c2353c12fe48e8f5ee2011c326",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a59144642f1d4c96976b391497f1abda",
+    "request_hash": "cd87a82b30dc98ccf3ff68bac4857b5ff4b848d839ba860f92a4d05212ee0b78",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "8b3b9654b3a973ec07838d974ebe4405f62f07887e7e7a5534f537a58811078d",
+    "packet_hash": "d0f0e949176a85bc59173d51ddcd95e4783df7c2353c12fe48e8f5ee2011c326"
+  },
+  "hash": "2ca718d36e292b9f623eba4da55bc40124712832daa46099d24d23f59d142af7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8b3b9654b3a973ec07838d974ebe4405f62f07887e7e7a5534f537a58811078d",
+      "packet_hash": "d0f0e949176a85bc59173d51ddcd95e4783df7c2353c12fe48e8f5ee2011c326",
+      "published_packet_hash": "d0f0e949176a85bc59173d51ddcd95e4783df7c2353c12fe48e8f5ee2011c326",
+      "receipt_id": "b82a5f69271446c9b00b947c714a8847",
+      "request_hash": "c4413a755d1bae1b6a90c30aa90441c53ca7472aac8d37cbd5d5c53381efad17",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what RAVLT is (e.g., that it is a “cognitive assessment measure”); it only reports “explicit memory (RAVLT delayed recall)” and gives delayed recall scores.",
+        "The claim that RAVLT is “particularly” for delayed recall is not explicitly stated; the packet only specifies that the outcome used was “RAVLT delayed recall.”",
+        "The statement about directionality (“higher RAVLT delayed recall scores indicated better postoperative memory performance”) is supported for this study (higher scores in the dexmedetomidine group), but the overall definition includes additional unsupported characterization of the measure."
+      ],
+      "definition_hash": "8b3b9654b3a973ec07838d974ebe4405f62f07887e7e7a5534f537a58811078d",
+      "packet_hash": "d0f0e949176a85bc59173d51ddcd95e4783df7c2353c12fe48e8f5ee2011c326",
+      "published_packet_hash": "d0f0e949176a85bc59173d51ddcd95e4783df7c2353c12fe48e8f5ee2011c326",
+      "receipt_id": "c83caace77374db098461068db9d546d",
+      "request_hash": "8c8a276f88fda92d684b32e65e3d8800d4c4f55d91b6712730e0b460b0b11efc",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

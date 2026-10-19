@@ -1,0 +1,61 @@
+{
+  "id": "adult-day-care",
+  "term": "adult day care",
+  "definition": "Adult day care is a community-based service that provides older adults, including people living with dementia, with coordinated health, social, educational, and rehabilitative support during the day. It is intended to promote participants’ physical, emotional, mental, and social well-being while also giving care partners respite.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10712883"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10712883",
+      "revision": "2023; DOI 10.1371/journal.pone.0295507; article XML SHA-256 7d7425c12626dc689a7f5c5a401fc7f3df8a1d0cbff48ac888c730164beb5da3",
+      "scope": "Source record 10.1371/journal.pone.0295507; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0295507"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b587b64b404445508f21332593d5b8cc730f6fd753219f3d3283429c3b309590",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "834835a99545418390d590beb2b38238",
+    "request_hash": "06a8a08ff2f3bfc47483f10c7ee2f5ba704c857a6fb787f9b4f795b35c37b085",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "529bdc4a6d62d95b95417b5834476beca41c7c894efabe843bd8b70ac8955436",
+    "packet_hash": "b587b64b404445508f21332593d5b8cc730f6fd753219f3d3283429c3b309590"
+  },
+  "hash": "7a3541c3009bc792211f8f42a02f9a944c08f13227d2b7f6e0d47c74fe40158e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "529bdc4a6d62d95b95417b5834476beca41c7c894efabe843bd8b70ac8955436",
+      "packet_hash": "b587b64b404445508f21332593d5b8cc730f6fd753219f3d3283429c3b309590",
+      "published_packet_hash": "b587b64b404445508f21332593d5b8cc730f6fd753219f3d3283429c3b309590",
+      "receipt_id": "bd0f59f644414875a9057e961b0b53b6",
+      "request_hash": "877c9e270d028995958305f2d5ca9f19f3f1bdb348108c261554170118d4a00a",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s scope includes “older adults, including people living with dementia,” but the packet’s more specific description is about people aged 60+ living with dementia attending day care services (it does not clearly support adult day care as defined for older adults generally beyond the dementia context).",
+        "The definition says the service provides “coordinated health, social, educational, and rehabilitative support during the day.” The packet supports that day care/days centres provide educational, health, social, and rehabilitative services, but it does not clearly support the specific descriptor “coordinated.”",
+        "The definition claims it promotes “physical, emotional, mental, and social well-being.” The packet explicitly supports “biopsychosocial health benefits” and mentions support for wellbeing, but the specific list including “emotional” and “mental” is not fully supported as written; the packet’s later listing is truncated and ends mid-sentence (“supporting physical, emotional, mental, social, environmental and”)."
+      ],
+      "definition_hash": "529bdc4a6d62d95b95417b5834476beca41c7c894efabe843bd8b70ac8955436",
+      "packet_hash": "b587b64b404445508f21332593d5b8cc730f6fd753219f3d3283429c3b309590",
+      "published_packet_hash": "b587b64b404445508f21332593d5b8cc730f6fd753219f3d3283429c3b309590",
+      "receipt_id": "443bc6e0dfae483c8a0f41e3240ce9c5",
+      "request_hash": "d2e126696b4be8caa6b4a199fbb69289739df45e42d79e5ad1a8c79f218d8203",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

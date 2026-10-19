@@ -1,0 +1,26 @@
+{
+  "id": "spearmanbrown-prophecy-formula",
+  "term": "Spearman–Brown prophecy formula",
+  "source": "article-pmc9956594",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0282162",
+  "revision": "2023; DOI 10.1371/journal.pone.0282162; article XML SHA-256 68f5d7b835ada3d2ff8734744dcf94b720806c2697ba31eff09d649e10c7303e",
+  "source_snapshot_sha256": "68f5d7b835ada3d2ff8734744dcf94b720806c2697ba31eff09d649e10c7303e",
+  "url": "https://doi.org/10.1371/journal.pone.0282162",
+  "text": "Physical activity studies often utilize wearable devices to measure participants’ habitual activity levels by averaging values across several valid observation days. These studies face competing demands–available resources and the burden to study participants must be balanced with the goal to obtain reliable measurements of a person’s longer-term average. Information about the number of valid observation days required to reliably measure targeted metrics of habitual activity is required to inform study design.\n\nTo date, the number of days required to achieve a desired level of aggregate long-term reliability (typically 0.80) has often been estimated by applying the Spearman-Brown Prophecy formula to short-term test-retest reliability data from studies with single, relatively brief observation windows. Our work, in contrast, utilizes a resampling-based approach to quantify the long-term test-retest reliability of aggregate measures of activity in a cohort of 79 participants who were asked to wear a FitBit Flex every day for approximately one year.\n\nThe conventional approach can produce reliability estimates that substantially overestimate the actual test-retest reliability. Six or more valid days of observation for each participant appear necessary to obtain 0.80 reliability for the average amount of time spent in light physical activity; 8 and 10 valid days are needed for sedentary time and moderate/vigorous activity respectively.\n\nProtocols that result in 7–10 valid observation days for each participant may be needed to obtain reliable measurements of key physical activity metrics.\n\nStudies that use wearable devices often produce daily summary metrics like time spent in sedentary, light (LPA), and moderate to vigorous physical activity (MVPA), in order to quantify daily physical activity for study participants. Recognizing that there is day-to-day variability in activity within participants, individual daily observations are usually aggregated by averaging across days to obtain better, more robust estimates of each person’s average daily physical activity. While it is clear that averaging over a greater number of days of observation will yield a more stable estimate of an individual’s daily average, it is not well known how many days of observation are “enough”–that is, what number of days will be sufficient to produce an aggregate measure that reflects actual habitual activity levels. Previous studies have framed this as a question of test-retest reliability, and used related methods to estimate the number of observation days needed to meet a pre-specified reliability threshold [ 1 – 5 ]. However, it is not obvious that one can generalize from consecutive day-to-day measurements to longer-term test-retest reliability of a person’s average physical activity, and no studies to our knowledge have used long-term follow-up data to determine the actual long-term test-retest reliability of aggregate measures provided by data collected over a pre-specified observation period.\n\nMeasurement reliability was originally introduced and is the subject of a rich literature in the field of psychometrics, and has since seen applications in a variety of other areas [ 6 – 10 ]. The framework used in the context of physical activity metrics assumes that each participant has an underlying true value, with measurements differing from this true value due to independent, identically distributed random deviations. This assumes, for example, that each participant has his or her own true habitual sedentary time, and each day’s measurement is a completely random deviation from that true time. Given multiple daily measurements on participants for an outcome of interest (e.g. total sedentary minutes for each participant and day over a week), reliability is defined as the ratio of between-person variability to total variability, ranging from 0 to 1 [ 11 ]. Reliability is high when the magnitude of the random deviations is small relative to the differences between participants. A generally accepted standard for good reliability is 0.80, and measurements with lower reliability may contain more random variability than desired for subsequent",
+  "source_label": "How many days are needed? Measurement reliability of wearable device data to assess physical activity",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4185
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "0a57a9ab07de0555cf9889c2a93e7cbb73dd7b17bc216b842708c54780bd54bf"
+}
