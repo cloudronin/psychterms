@@ -1,5 +1,5 @@
 {
-  "version": 65,
+  "version": 66,
   "authority": "Spec v0.2 section 4a; additions by pull request; never edit an entry flag.",
   "rules": {
     "packet_or_anchor_signals": [
@@ -490,7 +490,7 @@
     {
       "id": "childrens-depression-inventory",
       "names": [
-        "Children\u2019s Depression Inventory"
+        "Children’s Depression Inventory"
       ],
       "anchors": [
         "10.1371/journal.pone.0286197"
@@ -776,7 +776,7 @@
     {
       "id": "externalizinginternalizing",
       "names": [
-        "externalizing\u2013internalizing"
+        "externalizing–internalizing"
       ],
       "anchors": [
         "10.3389/fpsyt.2020.00241"
@@ -864,7 +864,7 @@
     {
       "id": "geneenvironment-interaction",
       "names": [
-        "gene\u2013environment interaction"
+        "gene–environment interaction"
       ],
       "anchors": [
         "10.1371/journal.pone.0287446"
@@ -1047,6 +1047,15 @@
       ],
       "test": 1,
       "reason": "Section 4a test 1 from pinned candidate source packet or named duty."
+    },
+    {
+      "id": "complicated-grief",
+      "names": [
+        "complicated grief"
+      ],
+      "anchors": [],
+      "test": 1,
+      "reason": "Clinical grief condition whose pinned source packet explicitly carries suicidal thoughts. Curated coverage applies despite the existing cognition field classification; no scene is permitted."
     }
   ]
 }
