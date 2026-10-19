@@ -1,0 +1,61 @@
+{
+  "id": "accuracy",
+  "term": "accuracy",
+  "definition": "Accuracy is the degree to which a result or reconstruction matches a known reference or ground truth. In evaluation, higher accuracy means the output is closer to the true structure or value and therefore reflects performance more precisely.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13513995"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13513995",
+      "revision": "2026; DOI 10.1371/journal.pone.0356987; article XML SHA-256 4b06541ed8f7e64145d59ca56a793fe23d1e0b9d4b6bfe40a684e299a401d342",
+      "scope": "Source record 10.1371/journal.pone.0356987; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0356987"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7372cc0675f9485a8f6e63e85a0c6970",
+    "request_hash": "510ac3bdefe16af6bbd8a93ede2ef65a4b9272d663bb809b85ea7da2dbb02af7",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "c279bc9414f1638caa00ae5513511671a419b573840ba8fc9bee4525e9cfbdb5",
+    "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e"
+  },
+  "hash": "88e17e8e4ed846bff5eae8c336d7678995950bddc03145c6990e6707a3e75897",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c279bc9414f1638caa00ae5513511671a419b573840ba8fc9bee4525e9cfbdb5",
+      "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e",
+      "published_packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e",
+      "receipt_id": "a795dfa580864528b0b04b0f569a7467",
+      "request_hash": "099aff8317d3fe3b0c7c13f71520108eae9974e1a3bece2c2032ca945112a889",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “accuracy” as a general concept (i.e., the degree to which a result/reconstruction matches a known reference or ground truth); it only describes accuracy in the context of 3D knee reconstruction and notes “accuracy relative to volumetric ground truth.”",
+        "The definition’s phrasing about “In evaluation, higher accuracy means … reflects performance more precisely” is not stated in the packet; the packet discusses accuracy improvements and error magnitudes but does not make this general evaluative interpretation.",
+        "The definition frames the term broadly within “learning,” while the packet’s content is specific to 2D-to-3D knee reconstruction methods and their accuracy, imaging requirements, and processing time, not a learning-theory or learning-evaluation context."
+      ],
+      "definition_hash": "c279bc9414f1638caa00ae5513511671a419b573840ba8fc9bee4525e9cfbdb5",
+      "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e",
+      "published_packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e",
+      "receipt_id": "0df2c45ae24f4b4dbcc280c2b662fa45",
+      "request_hash": "2de2499370cdc815699949846f0884c8a008244abf0b65503e18368c301ea211",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

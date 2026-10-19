@@ -1,0 +1,63 @@
+{
+  "id": "lateral-corticospinal-tract",
+  "term": "lateral corticospinal tract",
+  "definition": "The lateral corticospinal tract is a tract in the side of the spinal cord, including the cervical region, that can be examined with MRI measures such as diffusion and magnetization transfer. In this study, changes in this tract were assessed as a possible marker of motor neuron degeneration and disease progression in amyotrophic lateral sclerosis.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3995720"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3995720",
+      "revision": "2014; DOI 10.1371/journal.pone.0095516; article XML SHA-256 3cd8c787e9700654ce8ac13fbbfd4a5266735056c2bfcebfefb712f1832aeff8",
+      "scope": "Source record 10.1371/journal.pone.0095516; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0095516"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "641d04abd38de2d2bf661cfb26345ccbec69e176c302689dcbeb1482f42dd684",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b8d6f44da44149f596ebecab2c8a05f6",
+    "request_hash": "3e8728d144ea0f54790c0e594207792c4de9b53b4a0ff72f71461d494013babb",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "533e3b1534f75553e93cf67945351508b465926a07ecee921a75cc022f618651",
+    "packet_hash": "641d04abd38de2d2bf661cfb26345ccbec69e176c302689dcbeb1482f42dd684"
+  },
+  "hash": "3bbb637233f25e37f2b830735ba57ca7058039eb9f1f4acc994f10284607f04b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence adds an unsupported study conclusion: the packet only says imaging metrics were measured in the lateral corticospinal tract and compared with clinical scales; it does not state that tract changes were assessed as a marker of motor neuron degeneration or disease progression in ALS.",
+        "The definition slightly overstates the packet by turning a measurement description into a clinical interpretation that is not explicitly supported in the supplied text."
+      ],
+      "definition_hash": "533e3b1534f75553e93cf67945351508b465926a07ecee921a75cc022f618651",
+      "packet_hash": "641d04abd38de2d2bf661cfb26345ccbec69e176c302689dcbeb1482f42dd684",
+      "published_packet_hash": "641d04abd38de2d2bf661cfb26345ccbec69e176c302689dcbeb1482f42dd684",
+      "receipt_id": "347b282508dd4707980bf2afc2a9c3a2",
+      "request_hash": "9f8830e72fc213a8a881bfdb93d186baeed74ccaf56ddda3d193fae8f0ea1a89",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the lateral corticospinal tract is “a tract in the side of the spinal cord, including the cervical region,” but the packet only mentions measuring “within the lateral corticospinal tract in the cervical region” and does not explicitly support the broader anatomical description (“tract in the side of the spinal cord”).",
+        "The rest of the definition is largely supported by the packet (MRI diffusion metrics/FA and magnetization transfer ratio in the lateral corticospinal tract, and assessing tract changes as a possible marker of motor neuron degeneration and progression in ALS), so the rejection hinges on the unsupported anatomical phrasing."
+      ],
+      "definition_hash": "533e3b1534f75553e93cf67945351508b465926a07ecee921a75cc022f618651",
+      "packet_hash": "641d04abd38de2d2bf661cfb26345ccbec69e176c302689dcbeb1482f42dd684",
+      "published_packet_hash": "641d04abd38de2d2bf661cfb26345ccbec69e176c302689dcbeb1482f42dd684",
+      "receipt_id": "85f0e432d41443adbb233c205a810bdb",
+      "request_hash": "a50072b7a9ad2a7fac7a23267ba489991be6e47981e27be8f653f46474565e9f",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

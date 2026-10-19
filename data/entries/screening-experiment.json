@@ -1,0 +1,60 @@
+{
+  "id": "screening-experiment",
+  "term": "screening experiment",
+  "definition": "A screening experiment is a study step used to search through many possibilities to find a target of interest. In this packet, it refers to using a yeast two-hybrid screen to identify cellular proteins that interact with a specific viral protein.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3706368"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3706368",
+      "revision": "2013; DOI 10.1371/journal.pone.0068736; article XML SHA-256 7857e17ae1b7b388c3d8203eafc0e24ba0b6c499b163a92337db5bd527aba17e",
+      "scope": "Source record 10.1371/journal.pone.0068736; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0068736"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "436e39390eac25ea878a26c45dbf719373c0f09d643d15bf056037299b3861eb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "72a332339a7b4911ad203839ca08e5ba",
+    "request_hash": "e0de6ab4f490a9686d8cbcccd4e36271f59afbae9eac82ea9d3c1d4be5addea5",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "9115b845f262730edc391f68c7ef1d7bb088edb96ff912fb1abf3794e863d803",
+    "packet_hash": "436e39390eac25ea878a26c45dbf719373c0f09d643d15bf056037299b3861eb"
+  },
+  "hash": "8f7d001098c5fb7f6c48c5560d87a7ab1fbc34c3d88b123eedf7aebc868b9e7e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general definition of “screening experiment” as a broad study step used to search many possibilities, but the packet only supports a specific yeast two-hybrid screening experiment and does not establish that general meaning.",
+        "The packet supports the yeast two-hybrid use case, but not the broader abstract characterization stated in the definition."
+      ],
+      "definition_hash": "9115b845f262730edc391f68c7ef1d7bb088edb96ff912fb1abf3794e863d803",
+      "packet_hash": "436e39390eac25ea878a26c45dbf719373c0f09d643d15bf056037299b3861eb",
+      "published_packet_hash": "436e39390eac25ea878a26c45dbf719373c0f09d643d15bf056037299b3861eb",
+      "receipt_id": "7a921e9d775d43e893bbea7d52db7a9a",
+      "request_hash": "595e58bea2fea8f28e805549d7786b31499844212957a3b29d28d446d2a51b21",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9115b845f262730edc391f68c7ef1d7bb088edb96ff912fb1abf3794e863d803",
+      "packet_hash": "436e39390eac25ea878a26c45dbf719373c0f09d643d15bf056037299b3861eb",
+      "published_packet_hash": "436e39390eac25ea878a26c45dbf719373c0f09d643d15bf056037299b3861eb",
+      "receipt_id": "765bdfc2f8f44c22afa3ffd5bfeb94b7",
+      "request_hash": "8f2d645db6aa245fc4af7dd64ab2a53e3bfb42d4b239920e3c101405e58ecafc",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

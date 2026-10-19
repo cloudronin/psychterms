@@ -1,0 +1,63 @@
+{
+  "id": "sss",
+  "term": "SSS",
+  "definition": "SSS usually refers to the Somatic Symptom Scale-8, a brief self-report measure used to assess how much a person is burdened by physical symptoms. It was developed as a shorter form derived from the PHQ-15.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13236644"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13236644",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1851921; article XML SHA-256 e2d9e422345fb3fefc49da76f9e910b3f510ad28aacb333370f8253bd01cb6e1",
+      "scope": "Source record 10.3389/fpsyt.2026.1851921; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1851921"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b04642236ab589f88dfc75a8df1c5c840bb557f8ce23b0548334d5f4b541a276",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "78b3a4c6d7fe450883f3aebc605cc99e",
+    "request_hash": "b5b4a55b0858d49f03635311c91b9dabcae75fab127f574571802ff6c6512848",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "010e60b48e5a3b5367304cf45e00089c1478e7b23935360541b90c1ec0c43346",
+    "packet_hash": "b04642236ab589f88dfc75a8df1c5c840bb557f8ce23b0548334d5f4b541a276"
+  },
+  "hash": "84919b184254af35cd75ed37f76fb8a1f635af9a05bc31015df04fe1b4132ff7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “SSS usually refers to the Somatic Symptom Scale-8.” The packet does not support that “SSS” is the usual/standard abbreviation for the Somatic Symptom Scale-8; it only explicitly names “Somatic Symptom Scale-8 (SSS-8).”",
+        "The requested term is “SSS,” while the packet discusses “SSS-8.” The definition may be conflating SSS with SSS-8 without support from the packet."
+      ],
+      "definition_hash": "010e60b48e5a3b5367304cf45e00089c1478e7b23935360541b90c1ec0c43346",
+      "packet_hash": "b04642236ab589f88dfc75a8df1c5c840bb557f8ce23b0548334d5f4b541a276",
+      "published_packet_hash": "b04642236ab589f88dfc75a8df1c5c840bb557f8ce23b0548334d5f4b541a276",
+      "receipt_id": "c21aadb86bd84a94858288d524e2f48d",
+      "request_hash": "e5e17744baa7ec4dab3f92447f81ceb7602e1cb8e5fb56d0daa2058e684ffb7a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the Somatic Symptom Scale-8 (SSS-8), not the bare acronym SSS, so the term/sense is mismatched.",
+        "The definition’s lead-in “SSS usually refers to” is unsupported by the packet; no evidence is provided that SSS alone is the standard abbreviation in this source."
+      ],
+      "definition_hash": "010e60b48e5a3b5367304cf45e00089c1478e7b23935360541b90c1ec0c43346",
+      "packet_hash": "b04642236ab589f88dfc75a8df1c5c840bb557f8ce23b0548334d5f4b541a276",
+      "published_packet_hash": "b04642236ab589f88dfc75a8df1c5c840bb557f8ce23b0548334d5f4b541a276",
+      "receipt_id": "f60542ce220b4ac0b90ea3b6228f9f11",
+      "request_hash": "63a27279eb77f0924ef9704da775be7951a59f0b8be2cd058f2160efec173f95",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

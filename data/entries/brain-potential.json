@@ -1,0 +1,63 @@
+{
+  "id": "brain-potential",
+  "term": "brain potential",
+  "definition": "A brain potential is a pattern of electrical activity from the brain recorded with electroencephalography (EEG). In this source, it refers specifically to event-related brain potentials, which are EEG markers measured during particular task events such as cues, go trials, or nogo trials.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6777760"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6777760",
+      "revision": "2019; DOI 10.1371/journal.pone.0223460; article XML SHA-256 b84e691bf81e346a0fbe32a15983f93731d860561a467b16f35e1e0e05de9c3d",
+      "scope": "Source record 10.1371/journal.pone.0223460; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0223460"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4f1232fce38d6646bbad1f89037369d2a81966c5d1573a16c19d414447d3d9d4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "81994c193aa14c61a9d57cdb297fb710",
+    "request_hash": "0727781969090adf6bf387dd1a6cae82f6d4a470f3d7dd5f17a5cdf1734eb295",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "775ff3d8540072c632fd6cdd8763aa3fecb1e267342d0ac3b08452e14a44bd79",
+    "packet_hash": "4f1232fce38d6646bbad1f89037369d2a81966c5d1573a16c19d414447d3d9d4"
+  },
+  "hash": "68ea4de729ed9ead2d8823ae613110f9ab48958a22c9f9ed27ea900d72ee735b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“A brain potential is a pattern of electrical activity from the brain recorded with electroencephalography (EEG)”) is a general characterization that is not explicitly stated in the provided packet text.",
+        "While the packet clearly discusses EEG-recorded event-related brain potentials (ERPs) and reports ERP markers for cue/go/nogo trials during a flanked CPT, it does not define the term “brain potential” in the broad way claimed by the definition."
+      ],
+      "definition_hash": "775ff3d8540072c632fd6cdd8763aa3fecb1e267342d0ac3b08452e14a44bd79",
+      "packet_hash": "4f1232fce38d6646bbad1f89037369d2a81966c5d1573a16c19d414447d3d9d4",
+      "published_packet_hash": "4f1232fce38d6646bbad1f89037369d2a81966c5d1573a16c19d414447d3d9d4",
+      "receipt_id": "92b2d92054cb4a018e386a9075e06edc",
+      "request_hash": "8db5d256409c092d68cce3bd8f20e6bf1e8c0bc14bf3bda6124e38882c613be1",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports event-related brain potential markers (ERPs) recorded with EEG during task events, but it does not define the broader term \"brain potential\" as a general pattern of electrical activity from the brain.",
+        "The source does not explicitly support the claim that the term refers specifically to cues, go trials, or nogo trials as a definitional sense rather than as study-specific measurements."
+      ],
+      "definition_hash": "775ff3d8540072c632fd6cdd8763aa3fecb1e267342d0ac3b08452e14a44bd79",
+      "packet_hash": "4f1232fce38d6646bbad1f89037369d2a81966c5d1573a16c19d414447d3d9d4",
+      "published_packet_hash": "4f1232fce38d6646bbad1f89037369d2a81966c5d1573a16c19d414447d3d9d4",
+      "receipt_id": "cc7cf5425cf948678e1cdec4883a9b4d",
+      "request_hash": "4ea603cb3077f5233722442d3676cb210735a6b6e3c10c641df769b16bc18f17",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

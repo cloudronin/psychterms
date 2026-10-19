@@ -1,0 +1,63 @@
+{
+  "id": "discrimination-training",
+  "term": "discrimination training",
+  "definition": "Discrimination training is behavioral practice aimed at improving a person’s ability to tell apart differences between stimuli or stimulus features, such as different sound characteristics. In the supplied source, it refers to training on distinguishing auditory changes and is described as capable of altering related cortical activity.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3224691"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3224691",
+      "revision": "2009; DOI 10.1186/1471-2202-10-143; article XML SHA-256 908dd455ab73f01cdf06c6f7cf8e50a4d8d2c3161a79e36e2441d0145795f85c",
+      "scope": "Source record 10.1186/1471-2202-10-143; pinned source text",
+      "locator": "https://doi.org/10.1186/1471-2202-10-143"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cebfcfbba1d8e525cc26c78cf08c7553d53cde6e444e153dd374bcccca14c5ee",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "84515f4f71a740d684fcfff62344a29b",
+    "request_hash": "f953a11173f22c678514239ba68c6466150ba2238aa7f32ad57a7591c7512cda",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "d1255a07cf38361994b8c39f321ab3eefd3a0d8b409b4ae8cad516913958fcd8",
+    "packet_hash": "cebfcfbba1d8e525cc26c78cf08c7553d53cde6e444e153dd374bcccca14c5ee"
+  },
+  "hash": "d9c77da8166af60decd87fca892fc810c6633d7e3c97b3c8938291897412fb92",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence defines discrimination training as generally aimed at “improving a person’s ability to tell apart differences between stimuli or stimulus features,” but the provided packet specifically discusses behavioral discrimination training in the context of discriminating auditory changes/attributes of amplitude-modulated tones (carrier/modulation frequency), not a general-purpose description of discrimination training across all stimuli or features.",
+        "The packet does not explicitly state that the goal is improving ability “to tell apart differences” in general terms; it only supports that discrimination training modulates auditory cortex/neocortical responses to particular sound attribute changes."
+      ],
+      "definition_hash": "d1255a07cf38361994b8c39f321ab3eefd3a0d8b409b4ae8cad516913958fcd8",
+      "packet_hash": "cebfcfbba1d8e525cc26c78cf08c7553d53cde6e444e153dd374bcccca14c5ee",
+      "published_packet_hash": "cebfcfbba1d8e525cc26c78cf08c7553d53cde6e444e153dd374bcccca14c5ee",
+      "receipt_id": "02061b65b05f4e70a8f9fb12d451f8bc",
+      "request_hash": "76f5f2780251e5db2b381ccf773e96f347c6addd69e2c97f2bea92848e5f5c63",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a broad generalization about discrimination training as a general practice for improving stimulus discrimination; the packet only supports a specific auditory behavioral discrimination-training context, not that wider definition.",
+        "The first sentence is not directly supported by the source text and goes beyond the packet’s scope from auditory-tone change detection to a general learning definition."
+      ],
+      "definition_hash": "d1255a07cf38361994b8c39f321ab3eefd3a0d8b409b4ae8cad516913958fcd8",
+      "packet_hash": "cebfcfbba1d8e525cc26c78cf08c7553d53cde6e444e153dd374bcccca14c5ee",
+      "published_packet_hash": "cebfcfbba1d8e525cc26c78cf08c7553d53cde6e444e153dd374bcccca14c5ee",
+      "receipt_id": "2e384fe3f48b475fbfef0ab88f6bff9a",
+      "request_hash": "939cb290f301ae69aad05cea3f82368a0182e632b24c563c0cf6cf3452315620",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dispersion-parameter",
+  "term": "dispersion parameter",
+  "source": "article-pmc4712001",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0146850",
+  "revision": "2016; DOI 10.1371/journal.pone.0146850; article XML SHA-256 6c4da35ec4570d50dd1b3f3868166b6642b77d08f758369be6e17c12d3c8a857",
+  "source_snapshot_sha256": "6c4da35ec4570d50dd1b3f3868166b6642b77d08f758369be6e17c12d3c8a857",
+  "url": "https://doi.org/10.1371/journal.pone.0146850",
+  "text": "This paper proposes a two-stage algorithm to simultaneously estimate origin-destination (OD) matrix, link choice proportion, and dispersion parameter using partial traffic counts in a congested network. A non-linear optimization model is developed which incorporates a dynamic dispersion parameter, followed by a two-stage algorithm in which Generalized Least Squares (GLS) estimation and a Stochastic User Equilibrium (SUE) assignment model are iteratively applied until the convergence is reached. To evaluate the performance of the algorithm, the proposed approach is implemented in a hypothetical network using input data with high error, and tested under a range of variation coefficients. The root mean squared error (RMSE) of the estimated OD demand and link flows are used to evaluate the model estimation results. The results indicate that the estimated dispersion parameter theta is insensitive to the choice of variation coefficients. The proposed approach is shown to outperform two established OD estimation methods and produce parameter estimates that are close to the ground truth. In addition, the proposed approach is applied to an empirical network in Seattle, WA to validate the robustness and practicality of this methodology. In summary, this study proposes and evaluates an innovative computational approach to accurately estimate OD matrices using link-level traffic flow data, and provides useful insight for optimal parameter selection in modeling travelers’ route choice behavior.",
+  "source_label": "A Two-Stage Algorithm for Origin-Destination Matrices Estimation Considering Dynamic Dispersion Parameter for Route Choice",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1506
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079"
+}

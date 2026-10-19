@@ -1,0 +1,61 @@
+{
+  "id": "discharge",
+  "term": "discharge",
+  "definition": "In this mental health context, discharge means a person leaving inpatient psychiatric care and returning to community-based care or support. The term is used as the starting point for considering what happens after hospitalization, such as continuity of care and later emergency visits.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13345297"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13345297",
+      "revision": "2026; DOI 10.1371/journal.pone.0351753; article XML SHA-256 b21c57ba5d52a9269ee05a34e40ceda96f2d849b1571b68aa626d1e6dff5a28e",
+      "scope": "Source record 10.1371/journal.pone.0351753; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351753"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5284e7d328229778ec51064ea476c0466abbfb69e939453e02ded4f564ca3192",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d32360eeec3d44f1846d54ce005273dd",
+    "request_hash": "eff77c573a19de32c0cba91256926fc5ead1494b4c68a4a84af3f8e14286f728",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "c7d42769e76c3520b7838094cdb6e4e04168b0377315bea9e455801285e30b19",
+    "packet_hash": "5284e7d328229778ec51064ea476c0466abbfb69e939453e02ded4f564ca3192"
+  },
+  "hash": "c74111ebed8b4acec81196a32571e75ec201513bcf5a50db35c9ca4da590a16b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c7d42769e76c3520b7838094cdb6e4e04168b0377315bea9e455801285e30b19",
+      "packet_hash": "5284e7d328229778ec51064ea476c0466abbfb69e939453e02ded4f564ca3192",
+      "published_packet_hash": "5284e7d328229778ec51064ea476c0466abbfb69e939453e02ded4f564ca3192",
+      "receipt_id": "ca98f0b9916240d08332fc02228aa096",
+      "request_hash": "a1122aa4754ddd9484f4d6698787e3dad6609d65f4d7efb0551a7ce844334e11",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions “discharge from inpatient psychiatric care” and subsequent psychiatric ED visits, but it does not define “discharge” as leaving inpatient care and returning to community-based care/support.",
+        "Claims about “continuity of care” and “later emergency visits” are only implied by the packet’s focus on ED visits after discharge; the packet does not explicitly use or define discharge as the “starting point” for those considerations.",
+        "The definition’s requested meaning is therefore not fully supported by the provided packet text."
+      ],
+      "definition_hash": "c7d42769e76c3520b7838094cdb6e4e04168b0377315bea9e455801285e30b19",
+      "packet_hash": "5284e7d328229778ec51064ea476c0466abbfb69e939453e02ded4f564ca3192",
+      "published_packet_hash": "5284e7d328229778ec51064ea476c0466abbfb69e939453e02ded4f564ca3192",
+      "receipt_id": "d6da5b3b04cb4f6c825f473a07162ce1",
+      "request_hash": "f6012a8b0a307233df0a2e6cecb80562941272f97e2c8586208e80218c82de58",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

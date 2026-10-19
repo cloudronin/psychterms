@@ -1,0 +1,61 @@
+{
+  "id": "misspecification",
+  "term": "misspecification",
+  "definition": "Misspecification is the use of a statistical model that is set up incorrectly, such as leaving out or wrongly defining important effects or the pattern of relationships in the data. In the source, this kind of error can distort estimates and lead to misleading results, including higher false-positive rates or reduced power.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6417712"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6417712",
+      "revision": "2019; DOI 10.1371/journal.pone.0213436; article XML SHA-256 89d173d92f04953d8dde2cdb82e5c35f82859aa69270a523ae749fde5d2e8307",
+      "scope": "Source record 10.1371/journal.pone.0213436; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0213436"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3f85355a61de49d6ab636f310d0435bc",
+    "request_hash": "272ceb81612bf405b9f69d9054174d0cf5fa5f718c4950b0207d67271b9f5b5a",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "be310adcbed5009542630281249f6d481e105d1961a8c5710e53db8b6e00d7fb",
+    "packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff"
+  },
+  "hash": "fd7a0b11010de94f6153b1d784992d0725f6af5bc46e71abc66a9d78d48aaa23",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "be310adcbed5009542630281249f6d481e105d1961a8c5710e53db8b6e00d7fb",
+      "packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff",
+      "published_packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff",
+      "receipt_id": "b042b403a207447d9477928b8b209d81",
+      "request_hash": "89f89ed4ceb4a0823cfb0c13cfb42182a8acb52cf607acf7be837573ebbd71be",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet describes misspecification in statistical general linear models for crossover clinical trial analysis, not something in the field of cognition.",
+        "The definition’s general framing (“use of a statistical model that is set up incorrectly… leaving out or wrongly defining important effects…”) is only exemplified in the packet specifically as misspecified period effects, carryover effects, and variance-covariance structures in GLMs; the packet does not support broader/general claims about misspecification beyond these examples.",
+        "“Including higher false-positive rates or reduced power” is supported by the packet as inflated type I error and declined power, but the overall field assignment to cognition is unsupported."
+      ],
+      "definition_hash": "be310adcbed5009542630281249f6d481e105d1961a8c5710e53db8b6e00d7fb",
+      "packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff",
+      "published_packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff",
+      "receipt_id": "f4bb191ef4cb4fb682d2c0d41e06dbf3",
+      "request_hash": "79782870d8dd53ec24cb4e98afdb6976343786909870b2a3d17f54003319af2d",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

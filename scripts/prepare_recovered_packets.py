@@ -7,6 +7,7 @@ from prepare_candidate_packets import excerpt
 from scope_rules import decide
 from check_packets import validate_packet
 from recover_article_sources import excluded_paragraph,parse_article
+from recover_nimh_sources import parse_page
 
 DEST=ROOT/'.private/source-recovery'
 
@@ -17,13 +18,20 @@ def focused_excerpt(text,term,limit=2400):
         for match in re.finditer(pattern,paragraph,re.I):
             following=paragraph[match.end():match.end()+120]
             explanatory=bool(re.match(r'\s*(?:\([^)]{0,60}\)\s*)?(?:,?\s*(?:which\s+)?(?:is|are|refers? to|involves?|describes?|means?|denotes?|can be defined as|is defined as))\b',following,re.I))
-            options.append((not explanatory,offset+match.start(),offset,paragraph))
+            options.append((not explanatory,offset+match.start(),offset,paragraph,match.end()))
         offset+=len(paragraph)+2
     if not options:return None,None,None
-    _,_,start,paragraph=min(options,key=lambda row:row[:2])
-    passage,left,right=excerpt(paragraph,term,limit)
-    if passage is None:return None,None,None
-    return passage,start+left,start+right
+    _,position,start,paragraph,match_end=min(options,key=lambda row:row[:2])
+    if len(paragraph)<=limit:return paragraph,start,start+len(paragraph)
+    match_start=position-start;left=max(0,match_start-limit//3);right=min(len(paragraph),left+limit)
+    if left:
+        boundary=paragraph.find(' ',left)
+        if 0<=boundary<match_start:left=boundary+1
+    if right<len(paragraph):
+        boundary=paragraph.rfind(' ',match_end,right)
+        if boundary>=match_end:right=boundary
+    if right<match_end:return None,None,None
+    return paragraph[left:right],start+left,start+right
 
 def terminal_content_hashes(outcomes,path):
     blocked=set(json.loads(path.read_text())) if path.exists() else set()
@@ -48,6 +56,16 @@ def prepare():
         for term in row['terms']:
             if norm(term) not in existing:available[term].append(row)
         articles[row['source']['id']]=row
+    for path in sorted((DEST/'government/records').glob('*.json')):
+        try:row=json.loads(path.read_text())
+        except json.JSONDecodeError:continue
+        raw=(DEST/'government'/row['asset_filename']).read_bytes()
+        if __import__('hashlib').sha256(raw).hexdigest()!=row['record']['snapshot_sha256']:raise ValueError('Government page snapshot changed')
+        title,content,_=parse_page(raw)
+        if title!=row['record']['term'] or content!=row['record']['text']:raise ValueError('Government prose extraction changed after admission')
+        if row['source']['licence']!=sources['nimh']['licence'] or row['source']['evidence']['policy_snapshot_sha256']!=sources['nimh']['evidence']['policy_snapshot_sha256']:raise ValueError('Government own-text permission differs')
+        for term in row['terms']:
+            if norm(term) not in existing:available[term].append(row)
     packets=[];gaps=[];selected_sources={}
     for term,options in sorted(available.items()):
         candidates=[];pattern=r'\b'+r'\W+'.join(re.escape(w) for w in re.findall(r'\w+',term))+r'\b'
@@ -57,7 +75,9 @@ def prepare():
             passage,start,end=focused_excerpt(record['text'],term)
             if not passage or len(passage.split())<12 or excluded_paragraph(passage) or excluded_paragraph(record['term']):continue
             # Prefer explicit explanatory wording; this is retrieval ranking, not semantic acceptance.
-            around=record['text'][max(0,match.start()-150):match.end()+450]
+            located=re.search(pattern,passage,re.I)
+            if located is None:continue
+            around=passage[max(0,located.start()-150):located.end()+450]
             explanatory=bool(re.search(r'refers? to|defined as|is (?:a|an|the)\b|characteri[sz]ed|involves?\b|describes?\b',around,re.I))
             try:ident=slug(term)
             except ValueError:ident='term-'+digest({'term':term})[:12]
@@ -67,9 +87,9 @@ def prepare():
             decision=decide(packet)
             if not decision['eligible']:continue
             packet['planned_field']=decision['field'];packet['scope_decision']=decision
-            candidates.append((not explanatory,match.start(),-len(passage),row,packet))
+            candidates.append((not explanatory,0 if packet['source'].startswith('nimh-page-') else 1,match.start(),-len(passage),row,packet))
         if not candidates:gaps.append({'term':term,'reason':'No untried eligible passage remains in the retrieved articles'});continue
-        _,_,_,row,packet=min(candidates,key=lambda c:c[:3])
+        _,_,_,_,row,packet=min(candidates,key=lambda c:c[:4])
         if packet['id'] in used:packet['id']+='-'+digest({'term':term,'source':packet['source'],'record':packet['source_record']})[:10]
         used.add(packet['id']);packet['packet_hash']=digest(packet)
         validate_packet(packet,{packet['source']:row['source']});packets.append(packet);selected_sources[packet['source']]=row['source']
@@ -80,7 +100,7 @@ def prepare():
     temp=srcpath.with_suffix('.tmp');temp.write_text(json.dumps(document,ensure_ascii=False,indent=2)+'\n');temp.replace(srcpath)
     (DEST/'packets.json').write_text(json.dumps(packets,ensure_ascii=False,indent=2)+'\n')
     (DEST/'passage-gaps.json').write_text(json.dumps(gaps,ensure_ascii=False,indent=2)+'\n')
-    report={'source_recovery':'article-background-v1','prepared_packets':len(packets),'packet_set_hash':digest(packets),'individually_licensed_sources_used':len(selected_sources),'remaining_terms_with_retrieved_candidates':len(available),'no_eligible_passage':len(gaps),'existing_entries_untouched':len(entries),'legacy_definition_text_used':False,'paid_calls':0}
+    report={'source_recovery':'permitted-publication-passages-v2','prepared_packets':len(packets),'packet_set_hash':digest(packets),'individually_licensed_sources_used':len(selected_sources),'remaining_terms_with_retrieved_candidates':len(available),'no_eligible_passage':len(gaps),'existing_entries_untouched':len(entries),'legacy_definition_text_used':False,'paid_calls':0}
     (DEST/'preparation.json').write_text(json.dumps(report,indent=2)+'\n')
     # The public inventory contains independent article metadata, never the private audit's term list.
     fields=['id','candidate','licence','licence_source_url','licence_confirmed','pinned_version','roles','decision','reason']

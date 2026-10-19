@@ -1,0 +1,60 @@
+{
+  "id": "fault-tree-analysis",
+  "term": "fault tree analysis",
+  "definition": "Fault tree analysis is a structured method for identifying the possible causes of an unwanted event by building a tree of contributing factors and then analyzing their roles in the overall risk. In the source, it is used to examine coal dust explosion risk, including estimating how basic events contribute to the chance of the explosion.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5549981"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5549981",
+      "revision": "2017; DOI 10.1371/journal.pone.0182453; article XML SHA-256 2eb4d118661931ec5648acb291e4627cd6e0a7845c95b34573510ea99cb12760",
+      "scope": "Source record 10.1371/journal.pone.0182453; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0182453"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "94fef49972f44a359920a36c45222b95",
+    "request_hash": "9f63ce15bc71eeb2303826a3f8ca8755e81c2a634a30264d38558be4e5031bba",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "007c57dcb1e152b5728733ef454753a54db9e7551636c7a60c9bf7eeb91f0104",
+    "packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140"
+  },
+  "hash": "7500f975cadbb0b915d5dc127589e59d247e7aee2f8d3863c0070649fce4eeb4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "007c57dcb1e152b5728733ef454753a54db9e7551636c7a60c9bf7eeb91f0104",
+      "packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140",
+      "published_packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140",
+      "receipt_id": "382807acb9d14a1286c95cf172ac5cc5",
+      "request_hash": "3c8b83e71bc70f2b7057da9a5369ec596926f4a2421ee0816f6da7300ae63c0b",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states a general-purpose characterization (“possible causes of an unwanted event…”) that is not explicitly supported by the packet text.",
+        "While the packet describes constructing a CDE fault tree and analyzing basic events for explosion risk (e.g., importance measures, cut sets, and occurrence probability), it does not explicitly define fault tree analysis as a “structured method” in those exact terms, nor does it mention “unwanted event” phrasing."
+      ],
+      "definition_hash": "007c57dcb1e152b5728733ef454753a54db9e7551636c7a60c9bf7eeb91f0104",
+      "packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140",
+      "published_packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140",
+      "receipt_id": "8ed85326715c4a0583d3de6a6ff6f5c0",
+      "request_hash": "952daaa7551fdd80f13ed39863e12f230e829f8f3719f93ef04471fccf2f2e3e",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

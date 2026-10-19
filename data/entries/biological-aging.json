@@ -1,0 +1,61 @@
+{
+  "id": "biological-aging",
+  "term": "biological aging",
+  "definition": "Biological aging is the age-related change in how an organism functions, seen here as declines in movement and memory or learning over the lifespan. The packet supports that different abilities can worsen at different times and rates during healthy aging, rather than all declining together.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11003613"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11003613",
+      "revision": "2024; DOI 10.1371/journal.pone.0293252; article XML SHA-256 12a0a5b2ea4f4c932957a5d0778f30a60a2edf76343817270a54e40fd05ffe64",
+      "scope": "Source record 10.1371/journal.pone.0293252; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0293252"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4bd34612bb9044fd8bf4a62be94678bd",
+    "request_hash": "e6f88bef0105ad480a36add0fce39742aca650ea0c62bcb70631d39ddf753cbc",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "2196a810d354a349d5124eeae6f52d0cee268eab986581a2f4ae44fb8f0b185c",
+    "packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1"
+  },
+  "hash": "f25aba3a43649429524d741cf497678495ef633c3c51a500108ae8571794ce02",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2196a810d354a349d5124eeae6f52d0cee268eab986581a2f4ae44fb8f0b185c",
+      "packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1",
+      "published_packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1",
+      "receipt_id": "a73a5de354864660bcd75a321aa0766a",
+      "request_hash": "6e4d943342e89c11028fd64a266d883ea0e2fc3db38d2c15ca12f114997abf31",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence defines biological aging as “the age-related change in how an organism functions,” but the packet text does not provide this definitional phrasing or a direct statement that biological aging is defined in those terms.",
+        "The definition’s specific examples (“declines in movement and memory or learning over the lifespan”) are largely consistent with the packet’s findings, but the packet focuses on particular behaviors in male Drosophila (e.g., climbing speed, courtship performance, courtship memory, short-term memory) rather than presenting a general definition spanning “how an organism functions.”",
+        "Because the definition contains a broad definitional claim not explicitly supported by the packet, the overall definition does not meet the requirement that every substantive claim be supported by the supplied source packet."
+      ],
+      "definition_hash": "2196a810d354a349d5124eeae6f52d0cee268eab986581a2f4ae44fb8f0b185c",
+      "packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1",
+      "published_packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1",
+      "receipt_id": "f13e09be471749a2a3fafa016a614b86",
+      "request_hash": "508a12153860b6b73f147e3dfb488ea5dfcb91f8ae563ba98de33952d2bd059f",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "inverse-transformation",
+  "term": "inverse transformation",
+  "definition": "In this source, inverse transformation means converting selected locations from a 2D projected screen space back into their corresponding 3D space positions so particles can be generated there.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9551625"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9551625",
+      "revision": "2022; DOI 10.1371/journal.pone.0275117; article XML SHA-256 2649fe218bf9b140805020d25363be2b2427e62c4be68f1f555aca696cd9b566",
+      "scope": "Source record 10.1371/journal.pone.0275117; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0275117"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c3b3b394414f4ff6a623874e83baef73",
+    "request_hash": "6375f44c4aa28e5774cbd397251a6301774c6f6a72317472540bc16877b04db7",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "203721792182e097ebe3f2f09774528725ddb89c7eff847352427093deefe30f",
+    "packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa"
+  },
+  "hash": "333e2c2dcf697c1727e76dd80b9e1dd7d57dbaf5df38a27e6f02fdcda64335d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "203721792182e097ebe3f2f09774528725ddb89c7eff847352427093deefe30f",
+      "packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa",
+      "published_packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa",
+      "receipt_id": "71df4a47a7f94112b17f14281dcf1df4",
+      "request_hash": "09faeeb0fade3f6bb80404f2535b4db6b45e6ed122d82608be0b3e65ca6e4a29",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition attributes the purpose of inverse transformation specifically to “particles … generated” in “their corresponding 3D space positions.” While the packet mentions foam particles being generated via inverse transformation, it does not support the broader phrasing about “selected locations” and “so particles can be generated there.”",
+        "The definition describes “converting selected locations from a 2D projected screen space back into their corresponding 3D space positions.” The packet supports inverse transformation “of the 2D space into 3D space” after “selection of the foam generation area using a projection map,” but it does not define “screen space” or explicitly characterize the input as “selected locations” mapped back to “corresponding 3D positions.”"
+      ],
+      "definition_hash": "203721792182e097ebe3f2f09774528725ddb89c7eff847352427093deefe30f",
+      "packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa",
+      "published_packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa",
+      "receipt_id": "baaab297e3054f0980f5d5793c87a581",
+      "request_hash": "f9d217b72715db3887b2e4a4252731613672e84cb01e6a9025581339beeb4abe",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "multivariate-normality",
+  "term": "multivariate normality",
+  "definition": "Multivariate normality is the assumption that several variables, considered together, follow a joint normal distribution rather than each being examined one at a time. In this packet, it is mentioned as a distributional assumption that some statistical methods may require, although bootstrap methods can be used without relying on it.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6797821"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6797821",
+      "revision": "2019; DOI 10.3389/fpsyg.2019.02215; article XML SHA-256 45a4f43a96b2a9a165e6e1df63ae0873b3e58d8bd3798cff7dd787f7398cefd0",
+      "scope": "Source record 10.3389/fpsyg.2019.02215; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2019.02215"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c7bc90b073d42cdd0cf0360c28f016bdea8ab0e19ad75c18f98821b7e40f0007",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3c223b26bcb94df7a649ca2aa80f0800",
+    "request_hash": "4d469dedb79178c3546ea9c2c0c81e7c0c6c7be163afc967b369965613a65e6e",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "ac04b128645d9d3628fe10cba83a2ea96133be77957b3f97071b56e0e73fd529",
+    "packet_hash": "c7bc90b073d42cdd0cf0360c28f016bdea8ab0e19ad75c18f98821b7e40f0007"
+  },
+  "hash": "759cac7a0ad9b4e5a94324bc4657bd0921195c6dca7f35350e70af7c0348b784",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state what “multivariate normality” means (e.g., no description of a joint normal distribution across multiple variables).",
+        "The definition’s first sentence gives a general meaning that is not supported anywhere in the provided packet text.",
+        "Although the packet mentions “distributional assumptions, such as multivariate normality” in the context of bootstrap usage, it does not support the specific framing that “some statistical methods may require” multivariate normality beyond that example."
+      ],
+      "definition_hash": "ac04b128645d9d3628fe10cba83a2ea96133be77957b3f97071b56e0e73fd529",
+      "packet_hash": "c7bc90b073d42cdd0cf0360c28f016bdea8ab0e19ad75c18f98821b7e40f0007",
+      "published_packet_hash": "c7bc90b073d42cdd0cf0360c28f016bdea8ab0e19ad75c18f98821b7e40f0007",
+      "receipt_id": "dcd60fd723a14c56b3f8379680b25e17",
+      "request_hash": "5a230a637306d60f32f1933d0931b2f927adda8e62b901dca6c12612171d6743",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that multivariate normality is a distributional assumption that bootstrap-based GSCA can avoid; it does not support the fuller explanation that several variables jointly follow a normal distribution or the contrast with examining variables one at a time.",
+        "The definition adds interpretive detail beyond the packet rather than staying tightly within the source-supported sense."
+      ],
+      "definition_hash": "ac04b128645d9d3628fe10cba83a2ea96133be77957b3f97071b56e0e73fd529",
+      "packet_hash": "c7bc90b073d42cdd0cf0360c28f016bdea8ab0e19ad75c18f98821b7e40f0007",
+      "published_packet_hash": "c7bc90b073d42cdd0cf0360c28f016bdea8ab0e19ad75c18f98821b7e40f0007",
+      "receipt_id": "281a3a3fce1644d3b39fd4a2daf3b22f",
+      "request_hash": "60d1bb6427ebad649a29f798924efa0174b830890b872a68867a1d98a54845c9",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

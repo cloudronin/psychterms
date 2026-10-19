@@ -1,0 +1,64 @@
+{
+  "id": "dendrogram",
+  "term": "dendrogram",
+  "definition": "A dendrogram is a tree-like diagram used in hierarchical clustering to show how items or variables group together based on their distances from one another.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10358877"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10358877",
+      "revision": "2023; DOI 10.1371/journal.pone.0288819; article XML SHA-256 d9f04d907ec6820a7128c8b5fa7a8876cf65d01b1a9bbafa6b0db06dcdcc39fc",
+      "scope": "Source record 10.1371/journal.pone.0288819; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0288819"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fde3c857067c8a3696f7cbc47bf54de514cb71463b21660f49cd10f6018ba471",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "61312ac8ec2a445fb3d1bea2802d139d",
+    "request_hash": "3c542e6ebc6f24781d5cd5587322fe0b635db92325fd5b83b0f6a5e01488103e",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "02ff3521c127a7a156131f596b7e05a1324fb967e75e5e6f5462f75543acd32b",
+    "packet_hash": "fde3c857067c8a3696f7cbc47bf54de514cb71463b21660f49cd10f6018ba471"
+  },
+  "hash": "f4c643df5bfc735d624b8546b624bf037c091eafb46d3c4d5299880e5e937d8b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet text does not define “dendrogram” or describe it as a tree-like diagram for hierarchical clustering.",
+        "No support in the packet for the claim that the diagram shows how items/variables group based on distances from one another.",
+        "The only snippet in the packet refers to calculating distances for dendrogram hierarchical clustering (equation context), but it does not provide the requested definitional meaning."
+      ],
+      "definition_hash": "02ff3521c127a7a156131f596b7e05a1324fb967e75e5e6f5462f75543acd32b",
+      "packet_hash": "fde3c857067c8a3696f7cbc47bf54de514cb71463b21660f49cd10f6018ba471",
+      "published_packet_hash": "fde3c857067c8a3696f7cbc47bf54de514cb71463b21660f49cd10f6018ba471",
+      "receipt_id": "5d272513e1034fbeba31dda1db3efd43",
+      "request_hash": "6e0a75776a50440a9aa3faaa4df8d073721011328eddf004ea2f143d2f9720b9",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports that dendrograms are used in hierarchical clustering and involve distance calculations; it does not explicitly support the fuller description as a tree-like diagram or the claim that they show how items or variables group together based on distances.",
+        "The definition adds explanatory detail beyond the supplied source, so it is not fully grounded in the packet alone."
+      ],
+      "definition_hash": "02ff3521c127a7a156131f596b7e05a1324fb967e75e5e6f5462f75543acd32b",
+      "packet_hash": "fde3c857067c8a3696f7cbc47bf54de514cb71463b21660f49cd10f6018ba471",
+      "published_packet_hash": "fde3c857067c8a3696f7cbc47bf54de514cb71463b21660f49cd10f6018ba471",
+      "receipt_id": "0cd2c295064f409b866800a998a3356c",
+      "request_hash": "ca9ab5545ef0a32f097bbca8036b65cc9c1ff9206d59a417f279ba2aed63066d",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

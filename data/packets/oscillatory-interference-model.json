@@ -1,0 +1,26 @@
+{
+  "id": "oscillatory-interference-model",
+  "term": "oscillatory interference model",
+  "source": "article-pmc2773844",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pcbi.1000573",
+  "revision": "2009; DOI 10.1371/journal.pcbi.1000573; article XML SHA-256 96eca918f23074b1da2f17582a3ab3402d061dea8385f06e8a52b42a49c794ea",
+  "source_snapshot_sha256": "96eca918f23074b1da2f17582a3ab3402d061dea8385f06e8a52b42a49c794ea",
+  "url": "https://doi.org/10.1371/journal.pcbi.1000573",
+  "text": "Models of the hexagonally arrayed spatial activity pattern of grid cell firing in the literature generally fall into two main categories: continuous attractor models or oscillatory interference models. Burak and Fiete (2009, PLoS Comput Biol) recently examined noise in two continuous attractor models, but did not consider oscillatory interference models in detail. Here we analyze an oscillatory interference model to examine the effects of noise on its stability and spatial firing properties. We show analytically that the square of the drift in encoded position due to noise is proportional to time and inversely proportional to the number of oscillators. We also show there is a relatively fixed breakdown point, independent of many parameters of the model, past which noise overwhelms the spatial signal. Based on this result, we show that a pair of oscillators are expected to maintain a stable grid for approximately t = 5µ 3 /(4πσ) 2 seconds where µ is the mean period of an oscillator in seconds and σ 2 its variance in seconds 2 . We apply this criterion to recordings of individual persistent spiking neurons in postsubiculum (dorsal presubiculum) and layers III and V of entorhinal cortex, to subthreshold membrane potential oscillation recordings in layer II stellate cells of medial entorhinal cortex and to values from the literature regarding medial septum theta bursting cells. All oscillators examined have expected stability times far below those seen in experimental recordings of grid cells, suggesting the examined biological oscillators are unfit as a substrate for current implementations of oscillatory interference models. However, oscillatory interference models can tolerate small amounts of noise, suggesting the utility of circuit level effects which might reduce oscillator variability. Further implications for grid cell models are discussed.",
+  "source_label": "Evaluation of the Oscillatory Interference Model of Grid Cell Firing through Analysis and Measured Period Variance of Some Biological Oscillators",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1876
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "4501cb89ac4a529f7c47f703df95c2df0b994d1449afdd8166d73c30a2be8531"
+}

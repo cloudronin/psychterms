@@ -1,0 +1,63 @@
+{
+  "id": "reflex-latency",
+  "term": "reflex latency",
+  "definition": "Reflex latency is the amount of time between a provoking condition or stimulus and the appearance of a reflex response. In this packet, it refers specifically to righting reflex latency, meaning how long it takes an animal to regain its normal upright posture.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7954344"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7954344",
+      "revision": "2021; DOI 10.1371/journal.pone.0248113; article XML SHA-256 b1269745a233b0192e2d76cb0b22b3c41d5ba41916707f9972dc592cb2ae01ca",
+      "scope": "Source record 10.1371/journal.pone.0248113; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0248113"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "042ba4759e9a7049c01c72186ad6950ce6e145796b01b24259dc78fdaa72b607",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3b6ba7baab734e128f2c530de055d691",
+    "request_hash": "55b2f557d336389e1a8d0a3018fd66ac5b830aa7fec77d0030b6abc322fac2ed",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "a3be7e57a05d9ec35e754269ec64a5400a89177d09f5fe579d8c9fadb5b5605e",
+    "packet_hash": "042ba4759e9a7049c01c72186ad6950ce6e145796b01b24259dc78fdaa72b607"
+  },
+  "hash": "1718d5f4e984de076efd45b23c9725a441f11dc86600afde51895ee53e6a4b4f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first claim (“amount of time between a provoking condition or stimulus and the appearance of a reflex response”) is not stated or supported anywhere in the provided packet text.",
+        "While the packet does mention “righting reflex latency” being “significantly prolonged” after midazolam administration (and discusses righting reflex latency in neonates), the packet does not provide the general timing definition of “reflex latency,” so the overall definition is not fully supported."
+      ],
+      "definition_hash": "a3be7e57a05d9ec35e754269ec64a5400a89177d09f5fe579d8c9fadb5b5605e",
+      "packet_hash": "042ba4759e9a7049c01c72186ad6950ce6e145796b01b24259dc78fdaa72b607",
+      "published_packet_hash": "042ba4759e9a7049c01c72186ad6950ce6e145796b01b24259dc78fdaa72b607",
+      "receipt_id": "c6b22e9fd58d4e9a91926d078c01a056",
+      "request_hash": "354a1a01bc88b334ffa9262cdd0bebe8a62e91ec3638d7b483aabcf0f2b462dc",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a specific experimental use of the term (“righting reflex latency” in neonatal rats), but it does not define “reflex latency” generally as the time between a stimulus and a reflex response.",
+        "The added gloss “meaning how long it takes an animal to regain its normal upright posture” is not explicitly stated in the packet; that is an inference beyond the supplied text."
+      ],
+      "definition_hash": "a3be7e57a05d9ec35e754269ec64a5400a89177d09f5fe579d8c9fadb5b5605e",
+      "packet_hash": "042ba4759e9a7049c01c72186ad6950ce6e145796b01b24259dc78fdaa72b607",
+      "published_packet_hash": "042ba4759e9a7049c01c72186ad6950ce6e145796b01b24259dc78fdaa72b607",
+      "receipt_id": "25532ab36597401aaf490609f5f869f6",
+      "request_hash": "b814ffa23a062a3fd3a83f75eac28e94b2efc362cb27002c873ddc54eca9d7f9",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

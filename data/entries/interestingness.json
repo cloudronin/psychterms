@@ -1,0 +1,64 @@
+{
+  "id": "interestingness",
+  "term": "interestingness",
+  "definition": "Interestingness is the degree to which information, such as a recommendation, is experienced as engaging or appealing to a person. In this research context, higher information interestingness is treated as a stimulus factor that can shape ambivalent privacy attitudes and influence willingness to disclose personal information.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12367180"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12367180",
+      "revision": "2025; DOI 10.1371/journal.pone.0330438; article XML SHA-256 baf13507ebdae49ce65c1a31268812a55cc23f598e9281f2b9fb72e0f9bfa31a",
+      "scope": "Source record 10.1371/journal.pone.0330438; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0330438"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e6b911e6b47ea84100bd681d7c56baba9697fc772cf3c69c4f4aa951106fa5eb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0b6274495be740cf9299ef25768e406f",
+    "request_hash": "41b5600baa0c7c39d2eee682b47a300f17f486878214fa1a0a2a233b6df89538",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "d68f4aa97a874584c255ca631e01921e4b14b8f8a33a62b5a0ea1f4f9dbb53cf",
+    "packet_hash": "e6b911e6b47ea84100bd681d7c56baba9697fc772cf3c69c4f4aa951106fa5eb"
+  },
+  "hash": "08ba0ac9939f4a8446f297c0f4e253d3aaa44acef1b0658a6ccead13865bc960",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “information interestingness” as a person’s degree of “engaging or appealing” to them; the provided text only lists “information interestingness” as an experimental stimulus variable without a definitional description of engaging/appealing experiences.",
+        "While the packet includes “information interestingness” as a stimulus variable and reports results involving higher propensity for privacy disclosure under conditions including “highly information interestingness,” it does not explicitly support that interestingness “can shape ambivalent privacy attitudes” (it states the study explores the internal cognitive mechanism of privacy attitude ambivalence and disclosure behavior, but does not directly attribute the shaping of ambivalent privacy attitudes to interestingness).",
+        "The definition’s first sentence frames interestingness as applied to “information, such as a recommendation,” but the packet only refers to “recommendation information” and “information interestingness” as variables; it does not provide the specific “such as a recommendation” wording or the general “degree” framing as a supported concept."
+      ],
+      "definition_hash": "d68f4aa97a874584c255ca631e01921e4b14b8f8a33a62b5a0ea1f4f9dbb53cf",
+      "packet_hash": "e6b911e6b47ea84100bd681d7c56baba9697fc772cf3c69c4f4aa951106fa5eb",
+      "published_packet_hash": "e6b911e6b47ea84100bd681d7c56baba9697fc772cf3c69c4f4aa951106fa5eb",
+      "receipt_id": "a134c2103e8a4d999749c9b064252427",
+      "request_hash": "00a27b1ea3513a40f36b5ba91843f016f096a4da985d2f3256903a8f029752f3",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported general gloss for “interestingness” as something “experienced as engaging or appealing to a person”; the packet only uses “information interestingness” as an experimental stimulus variable and does not define it that way.",
+        "The phrase “such as a recommendation” is not supported as a general example in the packet; the article discusses recommendation information only within a specific privacy-attitude experiment."
+      ],
+      "definition_hash": "d68f4aa97a874584c255ca631e01921e4b14b8f8a33a62b5a0ea1f4f9dbb53cf",
+      "packet_hash": "e6b911e6b47ea84100bd681d7c56baba9697fc772cf3c69c4f4aa951106fa5eb",
+      "published_packet_hash": "e6b911e6b47ea84100bd681d7c56baba9697fc772cf3c69c4f4aa951106fa5eb",
+      "receipt_id": "38641fa225524327a4e8d628249c7193",
+      "request_hash": "7877e48410754c640a79a561f2ccdd64b4c1aefb535d78b3ec7bc7560af67e74",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

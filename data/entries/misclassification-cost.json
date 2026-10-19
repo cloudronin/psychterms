@@ -1,0 +1,62 @@
+{
+  "id": "misclassification-cost",
+  "term": "misclassification cost",
+  "definition": "Misclassification cost is the penalty value a classification method assigns to making an incorrect class decision. In the packet, it refers to using different error costs in an SVM loss function so the model can better address class imbalance.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8962101"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8962101",
+      "revision": "2022; DOI 10.1186/s12911-022-01821-w; article XML SHA-256 8169e9ec68abd9886cb885b5d9f1f45cf5b22a5678f39303bf6aa5a43a18dde0",
+      "scope": "Source record 10.1186/s12911-022-01821-w; pinned source text",
+      "locator": "https://doi.org/10.1186/s12911-022-01821-w"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "013809ab835a4c6489cb447e03423271",
+    "request_hash": "a25e97a027eb8e78f207597a72645d1fafb4fa5059b706d8aa7e4fad70411944",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "3baa434ae8370e54b5c451c4f6a7354a16ed86a330984f1e4b096a9c171778e5",
+    "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8"
+  },
+  "hash": "3d4197ebe8643015333df66a22ae228f977d3022e0d31776b8b8ec93191b544c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3baa434ae8370e54b5c451c4f6a7354a16ed86a330984f1e4b096a9c171778e5",
+      "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8",
+      "published_packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8",
+      "receipt_id": "54a92c527a4b4bd9bdc429404a12fee2",
+      "request_hash": "ecab769aac8a82573b99d92b7cfcfdea17e25af830d66b9d39ef06b27a8125c4",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition stating that misclassification cost is “the penalty value a classification method assigns” in general terms; it only mentions adjusting an SVM loss function by modifying misclassification cost values.",
+        "The definition’s claim that this refers specifically to “using different error costs in an SVM loss function” is only partially supported: the packet says Veropoulos et al. “adjusted the loss function of SVM by modifying two different misclassification cost values,” but it does not explicitly characterize these as “error costs” beyond that phrasing.",
+        "The definition’s statement that this lets the model “better address class imbalance” is supported in context (the packet discusses SVM not accounting for class imbalance and then introduces the loss adjustment), but the broader general wording about misclassification cost remains unsupported by the packet.",
+        "The definition exceeds what the packet explicitly defines: the packet provides a contextual description rather than a standalone, concise definition of the term."
+      ],
+      "definition_hash": "3baa434ae8370e54b5c451c4f6a7354a16ed86a330984f1e4b096a9c171778e5",
+      "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8",
+      "published_packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8",
+      "receipt_id": "2e265589580d4f7a8993058854de454f",
+      "request_hash": "1788fe8df788ae1445bb58fa6e2e80863847618ee7f8ef835eab9b9f0154e38f",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

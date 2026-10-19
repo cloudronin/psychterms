@@ -1,0 +1,59 @@
+{
+  "id": "dopa",
+  "term": "dopa",
+  "definition": "In this packet, DOPA refers to L-DOPA, a chemical precursor of dopamine used in dopamine replacement therapy for Parkinson’s disease. It is used to help reduce motor problems related to loss or dysfunction of dopamine neurons, but it can also produce treatment-related involuntary movements known as L-DOPA-induced dyskinesias.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13016286"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13016286",
+      "revision": "2026; DOI 10.1371/journal.pone.0345115; article XML SHA-256 448748fdf9aadbba665945171dacf5e6d1963ea265c5bf54a1602d34bed515e4",
+      "scope": "Source record 10.1371/journal.pone.0345115; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0345115"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5a75d35a49710b4a6fd3ec409e39e9518c9b16bf9e6748fc23d97668cb758683",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c90a3c1a26f848c2809a037ce93275fb",
+    "request_hash": "016fe9becaef9368cba9fbfeabdbc92c2a61576aa23be374192c49628ebc2380",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "cf0845f4a0471b16b983ebec75cbf7c79cb898b3d8902600d510e9cb5e89aa09",
+    "packet_hash": "5a75d35a49710b4a6fd3ec409e39e9518c9b16bf9e6748fc23d97668cb758683"
+  },
+  "hash": "1b89e7900906d6bbe9be369ee447dba8b1b141d209588c55f4f12c9c8595f3e9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cf0845f4a0471b16b983ebec75cbf7c79cb898b3d8902600d510e9cb5e89aa09",
+      "packet_hash": "5a75d35a49710b4a6fd3ec409e39e9518c9b16bf9e6748fc23d97668cb758683",
+      "published_packet_hash": "5a75d35a49710b4a6fd3ec409e39e9518c9b16bf9e6748fc23d97668cb758683",
+      "receipt_id": "2e6467d50eb84362b9384f8b9aecfc11",
+      "request_hash": "ff0810bbbb0d52baf0443e344bd64c908535c3e2e8dfebd84a6945433e73bcd3",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet is about Parkinson’s disease and L-DOPA; the requested field “learning” is not defensible from the source packet."
+      ],
+      "definition_hash": "cf0845f4a0471b16b983ebec75cbf7c79cb898b3d8902600d510e9cb5e89aa09",
+      "packet_hash": "5a75d35a49710b4a6fd3ec409e39e9518c9b16bf9e6748fc23d97668cb758683",
+      "published_packet_hash": "5a75d35a49710b4a6fd3ec409e39e9518c9b16bf9e6748fc23d97668cb758683",
+      "receipt_id": "88d95f8aea4841cdb5151d178fcc1a92",
+      "request_hash": "513bc4f39bb9a73dfbce7c26ac50e5cd993cde296b2bfb0dc535369a2bc61e76",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

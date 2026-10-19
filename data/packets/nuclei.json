@@ -1,0 +1,26 @@
+{
+  "id": "nuclei",
+  "term": "nuclei",
+  "source": "article-pmc12244587",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0322749",
+  "revision": "2025; DOI 10.1371/journal.pone.0322749; article XML SHA-256 e4c2e63a4a2d12d9d8c65786226df6d6ac7528e174afb6056bdd2220933aec8d",
+  "source_snapshot_sha256": "e4c2e63a4a2d12d9d8c65786226df6d6ac7528e174afb6056bdd2220933aec8d",
+  "url": "https://doi.org/10.1371/journal.pone.0322749",
+  "text": "Accurate nuclei segmentation and classification in histology images are critical for cancer detection but remain challenging due to color inconsistency, blurry boundaries, and overlapping nuclei. Manual segmentation is time-consuming and labor-intensive, highlighting the need for efficient and scalable automated solutions. This study proposes a deep learning framework that combines segmentation and classification to enhance nuclei evaluation in histopathology images. The framework follows a two-stage approach: first, a SegNet model segments the nuclei regions, and then a DenseNet121 model classifies the segmented instances. Hyperparameter optimization using the Hyperband method enhances the performance of both models. To protect data privacy, the framework employs a FedAvg-based federated learning scheme, enabling decentralized training without exposing sensitive data. For efficient deployment on edge devices, full integer quantization is applied to reduce computational overhead while maintaining accuracy. Experimental results show that the SegNet model achieves 91.4% Mean Pixel Accuracy (MPA), 63% Mean Intersection over Union (MIoU), and 90.6% Frequency-Weighted IoU (FWIoU). The DenseNet121 classifier achieves 83% accuracy and a 67% Matthews Correlation Coefficient (MCC), surpassing state-of-the-art models. Post-quantization, both models exhibit performance gains of 1.3% and 1.0%, respectively. The proposed framework demonstrates high accuracy and efficiency, highlighting its potential for real-world clinical deployment in cancer diagnosis.",
+  "source_label": "Nuclei segmentation and classification from histopathology images using federated learning for end-edge platform",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1567
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "b0b1e8d276f756a3d0fd8110881652db2fb5b5748994603ba0d5daf1e66cf2d4"
+}

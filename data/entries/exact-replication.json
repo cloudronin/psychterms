@@ -1,0 +1,60 @@
+{
+  "id": "exact-replication",
+  "term": "exact replication",
+  "definition": "Exact replication means repeating a study or experiment in a way that reproduces the original procedures, data resources, and analysis steps as closely as possible so the same results can be checked. In this source, it refers to providing enough software, data, and protocol detail for all experiments and findings to be reproduced exactly.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9678326"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9678326",
+      "revision": "2022; DOI 10.1371/journal.pone.0276539; article XML SHA-256 17d9f4d55112aafcbdd38795dd1b5e710248546653504a6064c71ea3671c2f56",
+      "scope": "Source record 10.1371/journal.pone.0276539; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0276539"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1fa29cd638474943b283f78cb8314d0b",
+    "request_hash": "56e5c0a95945193a84eb601dc2a84c7fd642341612fe1434bfdbe1b57d2c9bd7",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "c288addb31fc846dc28c4b96b86d4fd95cb9ced512f5451c6a55c0e4118cec7a",
+    "packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528"
+  },
+  "hash": "f01a3193299f1b35e3f1fb01ef8d89967effe9d9fdcf07759d8806819a60223c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c288addb31fc846dc28c4b96b86d4fd95cb9ced512f5451c6a55c0e4118cec7a",
+      "packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528",
+      "published_packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528",
+      "receipt_id": "b905d9c485b24a529b33296593fcbbc1",
+      "request_hash": "15e6a19f4ea4b7bc35c5b3c25cabc84bc63932ed6a5c8f216f651333ef436c75",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that exact replication involves reproducing “analysis steps” as closely as the original; the packet only explicitly mentions a detailed reproducibility protocol, dataset (supplementary material), and a single software platform, but does not explicitly reference replicating “analysis steps.”",
+        "The definition states that exact replication refers to “providing enough software, data, and protocol detail for all experiments and findings to be reproduced exactly”; while the packet supports that a detailed protocol and dataset are provided to allow exact replication, it does not explicitly state “all experiments and findings” nor that “software, data, and protocol detail” are sufficient in those exact terms."
+      ],
+      "definition_hash": "c288addb31fc846dc28c4b96b86d4fd95cb9ced512f5451c6a55c0e4118cec7a",
+      "packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528",
+      "published_packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528",
+      "receipt_id": "981d6e9d178f4d889a96476bb71986b2",
+      "request_hash": "319d72f16414d17ac1057d6dfe6e07ca478a9d384ad5fb99395902d4b90db1d8",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "behavior-record",
+  "term": "behavior record",
+  "source": "article-pmc3794442",
+  "licence": "CC-BY-3.0",
+  "source_record": "10.3389/fninf.2013.00020",
+  "revision": "2013; DOI 10.3389/fninf.2013.00020; article XML SHA-256 059eb7217b19deadb263c72b57ca2f37d77f36ff5139436b8cd6382b11aa3862",
+  "source_snapshot_sha256": "059eb7217b19deadb263c72b57ca2f37d77f36ff5139436b8cd6382b11aa3862",
+  "url": "https://doi.org/10.3389/fninf.2013.00020",
+  "text": "Experiments to monitor human brain activity during active behavior record a variety of modalities (e.g., EEG, eye tracking, motion capture, respiration monitoring) and capture a complex environmental context leading to large, event-rich time series datasets. The considerable variability of responses within and among subjects in more realistic behavioral scenarios requires experiments to assess many more subjects over longer periods of time. This explosion of data requires better computational infrastructure to more systematically explore and process these collections. MOBBED is a lightweight, easy-to-use, extensible toolkit that allows users to incorporate a computational database into their normal MATLAB workflow. Although capable of storing quite general types of annotated data, MOBBED is particularly oriented to multichannel time series such as EEG that have event streams overlaid with sensor data. MOBBED directly supports access to individual events, data frames, and time-stamped feature vectors, allowing users to ask questions such as what types of events or features co-occur under various experimental conditions. A database provides several advantages not available to users who process one dataset at a time from the local file system. In addition to archiving primary data in a central place to save space and avoid inconsistencies, such a database allows users to manage, search, and retrieve events across multiple datasets without reading the entire dataset. The database also provides infrastructure for handling more complex event patterns that include environmental and contextual conditions. The database can also be used as a cache for expensive intermediate results that are reused in such activities as cross-validation of machine learning algorithms. MOBBED is implemented over PostgreSQL, a widely used open source database, and is freely available under the GNU general public license at http://visual.cs.utsa.edu/mobbed. Source and issue reports for MOBBED are maintained at http://vislab.github.com/MobbedMatlab/",
+  "source_label": "MOBBED: a computational data infrastructure for handling large collections of event-rich time series datasets in MATLAB",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2053
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "article-requested-concept:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "1be34a54339058567246f7414834d0182b2c3a79840f464bb902f97d4f30fbb5"
+}

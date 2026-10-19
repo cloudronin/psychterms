@@ -1,0 +1,64 @@
+{
+  "id": "lysis",
+  "term": "-lysis",
+  "definition": "-lysis is a suffix referring to the breaking down or dissolving of something. In the source context, it describes the dissolution of a blood clot.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11139286"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11139286",
+      "revision": "2024; DOI 10.1371/journal.pone.0304398; article XML SHA-256 121fd727aa187a1a68fb99b61eb69bbdb3b7227c524db23013a4ffe1a310bee1",
+      "scope": "Source record 10.1371/journal.pone.0304398; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0304398"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3c2271f4016de83d52d14f3456c21920fb2cd66f77854dcbc91971418a060a4a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "897727a2c2ed4d2f9e7715ccf27b8d58",
+    "request_hash": "b74b249b961358f8520d63294b664689d9f8c81646f7d6a371f73d9f182cef18",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "6559f6548eadc5913d4650862251f1fb83f11c4305ac76efc2d2e60fd7789ea6",
+    "packet_hash": "3c2271f4016de83d52d14f3456c21920fb2cd66f77854dcbc91971418a060a4a"
+  },
+  "hash": "01cdfd3901eed981e5a86911674e20087367be858062a1ec321443a9cad1a9cd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the specific phrase “blood clot lysis” in a medical article; it does not support a dictionary sense that -lysis is a general suffix meaning “breaking down or dissolving.”",
+        "The requested field is cognition, but the source context is biomedical/surgical and does not justify classifying this term as a cognition entry.",
+        "The definition adds a generalized explanatory claim beyond the packet’s text rather than staying within the supported source context."
+      ],
+      "definition_hash": "6559f6548eadc5913d4650862251f1fb83f11c4305ac76efc2d2e60fd7789ea6",
+      "packet_hash": "3c2271f4016de83d52d14f3456c21920fb2cd66f77854dcbc91971418a060a4a",
+      "published_packet_hash": "3c2271f4016de83d52d14f3456c21920fb2cd66f77854dcbc91971418a060a4a",
+      "receipt_id": "6f67ee28dc8e4f9f993b6463dd3c0475",
+      "request_hash": "d2f4db5ceecfddc23717b1e7e34337ae7572a9a09ec40dbbb2ff44a24c182a23",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Unsupported general claim: the packet does not support that “-lysis” is a suffix referring broadly to “breaking down or dissolving of something.” The packet only uses “lysis” in the context of blood clot lysis.",
+        "Field mismatch: the supplied source content concerns intracerebral hemorrhage clot lysis (medical/biological), not cognition in the psychology sense."
+      ],
+      "definition_hash": "6559f6548eadc5913d4650862251f1fb83f11c4305ac76efc2d2e60fd7789ea6",
+      "packet_hash": "3c2271f4016de83d52d14f3456c21920fb2cd66f77854dcbc91971418a060a4a",
+      "published_packet_hash": "3c2271f4016de83d52d14f3456c21920fb2cd66f77854dcbc91971418a060a4a",
+      "receipt_id": "340149741ce3409088b652153a722dd2",
+      "request_hash": "faf594e7306d958be4a3cdac7a76928a366f7fc02e84ec3ffe75f3b2c416e6d3",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

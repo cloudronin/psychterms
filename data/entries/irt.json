@@ -1,0 +1,62 @@
+{
+  "id": "irt",
+  "term": "IRT",
+  "definition": "IRT is an assessment approach that examines how individual test items function in relation to an underlying latent trait. Unlike test-level methods, it estimates item-level features such as difficulty and discrimination and treats measurement error as varying across levels of the trait.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12753445"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12753445",
+      "revision": "2025; DOI 10.3389/fpsyg.2025.1727202; article XML SHA-256 e64087f5db2f33b70dfd849724ade91ca5bcd996fb07fde56f3030735a088eea",
+      "scope": "Source record 10.3389/fpsyg.2025.1727202; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2025.1727202"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4b9b4220dbad6d67e19cca2c950906849d8fb679f36997cdb045d54de661bd0f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7b9d459480bd489e8b94e7fad3b494ff",
+    "request_hash": "760ee059eafdbe67379cadc7479bbea52457a10fc3365d55405992d6db6b9344",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "268352a8a1676fae455b24f5f7bbb6fd10f0ef132076697070a17ecae2053ec0",
+    "packet_hash": "4b9b4220dbad6d67e19cca2c950906849d8fb679f36997cdb045d54de661bd0f"
+  },
+  "hash": "e10129688932cc17a76e5bb48ad50501b96768a14edb61215aa7d53c2b723443",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that IRT is an item-level method for assessing how items relate to a latent trait, with item parameters such as difficulty and discrimination.",
+        "The statement that IRT models measurement error as varying across levels of the trait is not supported by the supplied text; the packet’s wording is internally inconsistent and does not clearly establish this claim."
+      ],
+      "definition_hash": "268352a8a1676fae455b24f5f7bbb6fd10f0ef132076697070a17ecae2053ec0",
+      "packet_hash": "4b9b4220dbad6d67e19cca2c950906849d8fb679f36997cdb045d54de661bd0f",
+      "published_packet_hash": "4b9b4220dbad6d67e19cca2c950906849d8fb679f36997cdb045d54de661bd0f",
+      "receipt_id": "e71d7d77f133468581917c468519bccb",
+      "request_hash": "d7b638cad7d2fac5a0773cc06aadc836272621e0b677a3943fe58fa781181a06",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that IRT “treats measurement error as varying across levels of the trait,” but the packet instead says IRT models “measurement error as a function of the latent trait assuming it is constant,” which does not match the “varying across levels” characterization."
+      ],
+      "definition_hash": "268352a8a1676fae455b24f5f7bbb6fd10f0ef132076697070a17ecae2053ec0",
+      "packet_hash": "4b9b4220dbad6d67e19cca2c950906849d8fb679f36997cdb045d54de661bd0f",
+      "published_packet_hash": "4b9b4220dbad6d67e19cca2c950906849d8fb679f36997cdb045d54de661bd0f",
+      "receipt_id": "8c3edc8bb3384ab09c1e58788f920c12",
+      "request_hash": "bb2eb01ad595422e522e249ee050ddcbf526121ed5c4cbe58f445249f4116b0f",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

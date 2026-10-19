@@ -1,0 +1,26 @@
+{
+  "id": "ataxic-dysarthria",
+  "term": "ataxic dysarthria",
+  "source": "article-pmc9165837",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0268337",
+  "revision": "2022; DOI 10.1371/journal.pone.0268337; article XML SHA-256 23b946f90ab8b88616f394a7879c7deb90d4509219020e14c92f76fb33049ef6",
+  "source_snapshot_sha256": "23b946f90ab8b88616f394a7879c7deb90d4509219020e14c92f76fb33049ef6",
+  "url": "https://doi.org/10.1371/journal.pone.0268337",
+  "text": "Dysarthria may present during the natural course of many degenerative neurological conditions. Hypokinetic and ataxic dysarthria are common in movement disorders and represent the underlying neuropathology. We developed an artificial intelligence (AI) model to distinguish ataxic dysarthria and hypokinetic dysarthria from normal speech and differentiate ataxic and hypokinetic speech in parkinsonian diseases and cerebellar ataxia. We screened 804 perceptual speech analyses performed in the Samsung Medical Center Neurology Department between January 2017 and December 2020. The data of patients diagnosed with parkinsonian disorders or cerebellar ataxia were included. Two speech tasks (numbering from 1 to 50 and reading nine sentences) were analyzed. We adopted convolutional neural networks and developed a patch-wise wave splitting and integrating AI system for audio classification (PWSI-AI-AC) to differentiate between ataxic and hypokinetic speech. Of the 395 speech recordings for the reading task, 76, 112, and 207 were from normal, ataxic dysarthria, and hypokinetic dysarthria subjects, respectively. Of the 409 recordings of the numbering task, 82, 111, and 216 were from normal, ataxic dysarthria, and hypokinetic dysarthria subjects, respectively. The reading and numbering task recordings were classified with 5-fold cross-validation using PWSI-AI-AC as follows: hypokinetic dysarthria vs. others (area under the curve: 0.92 ± 0.01 and 0.92 ± 0.02), ataxia vs. others (0.93 ± 0.04 and 0.89 ± 0.02), hypokinetic dysarthria vs. ataxia (0.96 ± 0.02 and 0.95 ± 0.01), hypokinetic dysarthria vs. none (0.86 ± 0.03 and 0.87 ± 0.05), and ataxia vs. none (0.87 ± 0.07 and 0.87 ± 0.09), respectively. PWSI-AI-AC showed reliable performance in differentiating ataxic and hypokinetic dysarthria and effectively augmented data to classify the types even with limited training samples. The proposed fully automatic AI system outperforms neurology residents. Our model can provide effective guidelines for screening related diseases and differential diagnosis of neurodegenerative diseases.",
+  "source_label": "Detection and differentiation of ataxic and hypokinetic dysarthria in cerebellar ataxia and parkinsonian disorders via wave splitting and integrating neural networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2094
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "a466db4e7122f3079bef812a71b2718863cd8405b486056a3d1d003ff66b9605"
+}

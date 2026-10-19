@@ -1,0 +1,60 @@
+{
+  "id": "reference-distribution",
+  "term": "reference distribution",
+  "definition": "A reference distribution is a comparison distribution used to judge whether the heights of branch points in a hierarchical clustering dendrogram are unlikely to have occurred by chance. In this context, it provides the basis for assigning a significance level when choosing where to cut the dendrogram into groups.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4976109"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4976109",
+      "revision": "2016; DOI 10.3389/fgene.2016.00144; article XML SHA-256 5d07e79dfbe58cf3c39d8e9abc8e9cf4ccdc0933818e8af0ec5272ed18490602",
+      "scope": "Source record 10.3389/fgene.2016.00144; pinned source text",
+      "locator": "https://doi.org/10.3389/fgene.2016.00144"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "75a6c7a81b934565be551374318968f4",
+    "request_hash": "0422ea412ef6eb49bce8f4fe64c9adb16aecfc3476faabcde9375359cd97d390",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "1e0061811b48780e21536c4d416a8c99310f6f1e8487b3e6205f38b6a3a76c93",
+    "packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988"
+  },
+  "hash": "bac2e6f84d62bc291fe61cae5ef40fc367e0abc47b21c98786536cd4f9d31010",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1e0061811b48780e21536c4d416a8c99310f6f1e8487b3e6205f38b6a3a76c93",
+      "packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988",
+      "published_packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988",
+      "receipt_id": "f7ba7452f8bd4a4095061c987073b027",
+      "request_hash": "960bbea11a4fa6adb8ab4e4252dcd68d571dce3aa641c4c37f88f3ffebdca783",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that the method uses a reference distribution for the heights of branch points to assign a significance level when identifying cut-points, but it does not explicitly define a “reference distribution” as a “comparison distribution” or state that it is used to judge whether branch point heights are “unlikely to have occurred by chance.”",
+        "Because those specific phrases/senses (“comparison distribution,” “unlikely to have occurred by chance,” and the “used to judge” framing) are not directly supported by the provided packet text, the definition contains unsupported characterization beyond what is stated."
+      ],
+      "definition_hash": "1e0061811b48780e21536c4d416a8c99310f6f1e8487b3e6205f38b6a3a76c93",
+      "packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988",
+      "published_packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988",
+      "receipt_id": "3fcceb2340a14707a81b5bd20b03cf30",
+      "request_hash": "3731fec877e6a631c194bc01e67b77307661cf443b1aa9c5f63fff1d673cfbe3",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

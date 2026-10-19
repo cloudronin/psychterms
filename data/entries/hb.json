@@ -1,0 +1,62 @@
+{
+  "id": "hb",
+  "term": "Hb",
+  "definition": "Hb refers to hoarding behavior. In this source, it is described as a possible early form and central feature of hoarding disorder, and in children and adolescents it may mark a higher risk of later progression to the disorder.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13202944"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13202944",
+      "revision": "2026; DOI 10.1186/s12888-026-08055-4; article XML SHA-256 6a716a74fac3a4951ad04ddb68965e27ce2d29988021575d95c17404e8acab1b",
+      "scope": "Source record 10.1186/s12888-026-08055-4; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-026-08055-4"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "79dc7645fba8f84bf65af2b982504f5f77b79de44d52a8b9f3b9064560914a25",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e0460e4e76c741bc8a8b9eb645d7ee83",
+    "request_hash": "6fe27d3c97fce00c5a2e26a826d30a0425eea8ecaeb2c8ac194cd5e70b83f6da",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "723f8f25a11000fbfe1bfdac6265ef733f835114b80543303a78457950aff7e5",
+    "packet_hash": "79dc7645fba8f84bf65af2b982504f5f77b79de44d52a8b9f3b9064560914a25"
+  },
+  "hash": "b3a6e961f6aac6eddbcb311ad2ffa94af342367e989ab34a803dc917b29fff89",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "723f8f25a11000fbfe1bfdac6265ef733f835114b80543303a78457950aff7e5",
+      "packet_hash": "79dc7645fba8f84bf65af2b982504f5f77b79de44d52a8b9f3b9064560914a25",
+      "published_packet_hash": "79dc7645fba8f84bf65af2b982504f5f77b79de44d52a8b9f3b9064560914a25",
+      "receipt_id": "94bc2e64047c4d9a9e5573efddc12663",
+      "request_hash": "e6a7e3e9321a0a01d854cbb206a608df8e89360defdbdf87e148f50eb0b6154a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s term “Hb” is asserted to mean hoarding behavior, but the provided packet defines “HB” only indirectly as “hoarding behavior” (it uses HB as an acronym) and does not explicitly state that “Hb refers to hoarding behavior.”",
+        "“possible early form and central feature of hoarding disorder” is not fully supported: the packet says “few studies in adult samples suggest that HB is a precursor and key component of HD,” which is a weaker, population-limited, “suggests” claim, and the definition generalizes it to an asserted “possible early form and central feature” without staying close to the packet’s cautious phrasing or adult-sample limitation.",
+        "“in children and adolescents it may mark a higher risk of later progression to the disorder” is only partially supported: the packet says the authors’ cross-sectional findings suggest children/adolescents with HB “may constitute a high-risk group,” but it does not directly state “higher risk of later progression” in longitudinal terms (they say comparable longitudinal data are lacking and they need follow-up to clarify progression).",
+        "The definition is not restricted to what the packet explicitly supports about children/adolescents and temporal progression; it implies later progression risk more strongly than the packet provides."
+      ],
+      "definition_hash": "723f8f25a11000fbfe1bfdac6265ef733f835114b80543303a78457950aff7e5",
+      "packet_hash": "79dc7645fba8f84bf65af2b982504f5f77b79de44d52a8b9f3b9064560914a25",
+      "published_packet_hash": "79dc7645fba8f84bf65af2b982504f5f77b79de44d52a8b9f3b9064560914a25",
+      "receipt_id": "ad3bdc48debe4f8e85a8396fdfc598dd",
+      "request_hash": "2b41117e0be05923e988c118d175dd11579c366ab2b373b93a4f157e7aba82e6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

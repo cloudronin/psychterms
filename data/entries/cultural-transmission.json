@@ -1,0 +1,60 @@
+{
+  "id": "cultural-transmission",
+  "term": "cultural transmission",
+  "definition": "Cultural transmission is the passing of attitudes, beliefs, and behaviour patterns between people, especially across generations and through social networks. It can occur vertically within families, such as from parents and grandparents to children, and horizontally through peers, with the balance of these influences differing across traits.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12851453"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12851453",
+      "revision": "2026; DOI 10.1371/journal.pone.0341433; article XML SHA-256 42f25386bd3d239110c240694dda643ae7b66f1922d8e351d422116488252f06",
+      "scope": "Source record 10.1371/journal.pone.0341433; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341433"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ff18eb77416baa02ebcc8c1a52a6188645c7bb5fab283ade484eb7584b83ba0b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cf54dad95c6a49708e5a1b76e0359b79",
+    "request_hash": "fb332b90bee565592a9237a2656a13abbcd173744d35cbda7b12fc56a8127182",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "c208cda9a2fe313a7cf2ace94a1c49dfbc730f6fefdc6a085e2fb062b1811564",
+    "packet_hash": "ff18eb77416baa02ebcc8c1a52a6188645c7bb5fab283ade484eb7584b83ba0b"
+  },
+  "hash": "934d920da5478296929308589cdb53c3fe8a9606c2f8ffbf6d708a9c437370de",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c208cda9a2fe313a7cf2ace94a1c49dfbc730f6fefdc6a085e2fb062b1811564",
+      "packet_hash": "ff18eb77416baa02ebcc8c1a52a6188645c7bb5fab283ade484eb7584b83ba0b",
+      "published_packet_hash": "ff18eb77416baa02ebcc8c1a52a6188645c7bb5fab283ade484eb7584b83ba0b",
+      "receipt_id": "0b2ea1bb5f264bc5875bf1d3fc5188cf",
+      "request_hash": "bae9eb2dcc2d787e139a396ed815f86a382b1a3c5007b3f409d613246a586b14",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “beliefs,” but the packet only explicitly supports transmission of attitudes and behaviours/cultural traits.",
+        "“Through social networks” is broadly supported by the peer/social-network discussion, but the phrasing goes beyond the packet’s specific claim that peer similarity suggests horizontal transmission and/or peer selection."
+      ],
+      "definition_hash": "c208cda9a2fe313a7cf2ace94a1c49dfbc730f6fefdc6a085e2fb062b1811564",
+      "packet_hash": "ff18eb77416baa02ebcc8c1a52a6188645c7bb5fab283ade484eb7584b83ba0b",
+      "published_packet_hash": "ff18eb77416baa02ebcc8c1a52a6188645c7bb5fab283ade484eb7584b83ba0b",
+      "receipt_id": "077b498886774e8faf1b2b7f8822579b",
+      "request_hash": "ff3fef7c2727003d055f0e985c0b7527d625e10e736ba5565b5684eb87881957",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

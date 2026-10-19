@@ -1,0 +1,61 @@
+{
+  "id": "convolution",
+  "term": "convolution",
+  "definition": "In learning systems such as deep neural networks, convolution is the use of kernels to process input information so the model can capture complex, often nonlinear patterns. In the supplied source, convolutional kernels are used to analyze genomic information, either in sequence or in parallel structures.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13592603"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13592603",
+      "revision": "2026; DOI 10.1371/journal.pone.0358451; article XML SHA-256 70513103a9fb0b8077a6af3510c250a40729419e9476305a6703903ff14a1977",
+      "scope": "Source record 10.1371/journal.pone.0358451; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358451"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "92a0de02c2ad4d5c8faab076d1e42bf7",
+    "request_hash": "c5855669bf74439a29c8e467cccd2fca05e3f3100bab773bdb07266fa5e59160",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "ae82ae36ce72967cde98c6b74768e731dc6c2f883cd610f919d8073adf22dc33",
+    "packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4"
+  },
+  "hash": "a74c7aaa9aa698965caafbc6428d79ca0ae4cfa701fc8c7e7c2829d28f63d1d3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ae82ae36ce72967cde98c6b74768e731dc6c2f883cd610f919d8073adf22dc33",
+      "packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4",
+      "published_packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4",
+      "receipt_id": "c51aa7c5ce25419b83da0de64d1fc142",
+      "request_hash": "3857f590bf3a7236497ab8f2c473754498b34edcbaf43f80cb5a690bdad1e65b",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports that convolutional kernels are used in deep learning for genome prediction and can be arranged sequentially or in a parallel structure, but it does not define convolution as a general learning concept or state that its purpose is to capture complex, often nonlinear patterns.",
+        "The phrase “either in sequence or in parallel structures” is only partially supported: the packet mentions sequential convolutional kernels and a parallel convolutional attention network, but not a general either/or definition of convolutional kernels.",
+        "The sentence is broader than the packet and adds general deep-learning claims that are not directly supported by the supplied source."
+      ],
+      "definition_hash": "ae82ae36ce72967cde98c6b74768e731dc6c2f883cd610f919d8073adf22dc33",
+      "packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4",
+      "published_packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4",
+      "receipt_id": "7916115677ad48eebff9628a707ff76b",
+      "request_hash": "9c82c18d6b0bb40fb2d456c18e28631dbf36da8e821fa5e8072da001e062a640",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

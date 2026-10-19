@@ -1,0 +1,61 @@
+{
+  "id": "production-task",
+  "term": "production task",
+  "definition": "A production task is a unit of manufacturing work that is placed in a queue for allocating resources, scheduling, and deciding the order of assembly or production activities. In this source, the term is used in the context of ranking such tasks by multiple attributes to optimize the queue.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4587375"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4587375",
+      "revision": "2015; DOI 10.1371/journal.pone.0134343; article XML SHA-256 3c971b8c2f2b6ec1a9e0c2b3340cead1b8233f40be8f31cdd2bdd012c8d337da",
+      "scope": "Source record 10.1371/journal.pone.0134343; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0134343"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "847e2f7cbe55dd726940f4ec14646d2cff905e482634421544f9972a13674d49",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e4eb7bb4bb264f04ab0c653c1c001c59",
+    "request_hash": "7c3e137e0dbd7b4ce59fd08ef46907065f3819774bbf3ec93c02aaa2c6ee2c41",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "54d1e8cbaa5b06397b7915660348eaaf8ee3f579bf09e49d57cc0053034f1667",
+    "packet_hash": "847e2f7cbe55dd726940f4ec14646d2cff905e482634421544f9972a13674d49"
+  },
+  "hash": "08dc93a95b65a43ccd7af87b6b83f92ca9b8a21babfdbe621d02266f38ac8ed8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "54d1e8cbaa5b06397b7915660348eaaf8ee3f579bf09e49d57cc0053034f1667",
+      "packet_hash": "847e2f7cbe55dd726940f4ec14646d2cff905e482634421544f9972a13674d49",
+      "published_packet_hash": "847e2f7cbe55dd726940f4ec14646d2cff905e482634421544f9972a13674d49",
+      "receipt_id": "1d67ff0c2ee1436b9866d40144017b66",
+      "request_hash": "7461f42cfe33d2a6e73b00fccc1756754411e8880efd82c7abcfdc62b6ebfc9e",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field/sense is not supported: the packet is about manufacturing/workshop queue optimization, not a biological or psychology/counselling sense of the term.",
+        "The definition adds unsupported detail by presenting “production task” as a general manufacturing unit and by specifying resource-allocation and assembly-order functions more broadly than the source states.",
+        "The claim that the source uses the term for ranking tasks by multiple attributes is broadly supported, but the wording goes beyond the packet’s stated context and should not be framed as a general definition."
+      ],
+      "definition_hash": "54d1e8cbaa5b06397b7915660348eaaf8ee3f579bf09e49d57cc0053034f1667",
+      "packet_hash": "847e2f7cbe55dd726940f4ec14646d2cff905e482634421544f9972a13674d49",
+      "published_packet_hash": "847e2f7cbe55dd726940f4ec14646d2cff905e482634421544f9972a13674d49",
+      "receipt_id": "360217f0d5b74870a0fb3d2bea301a8b",
+      "request_hash": "a13eb58f8ac6e8b1ba9d22184920831ed7663e8d0f43a13934418a295ec4f529",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

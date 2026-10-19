@@ -1,0 +1,60 @@
+{
+  "id": "acceleration-forces",
+  "term": "acceleration forces",
+  "definition": "Acceleration forces are the biomechanical forces produced when the head is rapidly sped up or its motion is changed. In this context, they refer to the head-movement forces used to model the kind of mechanical impact seen in human mild traumatic brain injury.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8104440"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8104440",
+      "revision": "2021; DOI 10.1371/journal.pone.0251315; article XML SHA-256 b98450a5b08f3eb31fae175dad1e013caf3ce933e6008819597c495088363e1d",
+      "scope": "Source record 10.1371/journal.pone.0251315; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0251315"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1f196d18b5424237a78b8905e6876e20",
+    "request_hash": "5329708f9a1d896f55a92b64485aa1f1efcc63caa5e98493384b2b1fa0f989a2",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "3a173c041f106d21d6d0f2a777981f5d5d1dd7cb5ad3823dc43535af51a3f1da",
+    "packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f"
+  },
+  "hash": "285e50ed1954ccecd27c6dc7fafcbf24e4bd3354a33d6814f7d065fc22d0f881",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Acceleration forces are the biomechanical forces produced when the head is rapidly sped up or its motion is changed”) is not explicitly supported by the provided packet text, which mentions “head acceleration forces” but does not define them in those terms.",
+        "While the packet says a “closed head weight drop model” was used to “replicate the biomechanics and head acceleration forces of human mTBI,” the definition goes beyond that phrasing by describing the general mechanism of acceleration forces (rapidly sped up / changed motion) without support."
+      ],
+      "definition_hash": "3a173c041f106d21d6d0f2a777981f5d5d1dd7cb5ad3823dc43535af51a3f1da",
+      "packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f",
+      "published_packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f",
+      "receipt_id": "d0761fcdcbd943f999d99da1541ba2fb",
+      "request_hash": "9cf21d28c6b637f3018bf9ebaf0dcc1f1f340ed0205bca763b5f80fa5780e2fc",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3a173c041f106d21d6d0f2a777981f5d5d1dd7cb5ad3823dc43535af51a3f1da",
+      "packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f",
+      "published_packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f",
+      "receipt_id": "f14c73e43f56435bb811b8044174671c",
+      "request_hash": "1b458ffe27a806678fbd452ccdc3e4ba18d848179657b8bc3a55806e09f98b9a",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

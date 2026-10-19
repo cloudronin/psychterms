@@ -1,0 +1,62 @@
+{
+  "id": "half-life",
+  "term": "half-life",
+  "definition": "Half-life is the time it takes for a substance in the body or a body compartment to decrease to half its amount. In this source, it refers to how long a drug remains in the vitreous before its level falls by 50%.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13152179"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13152179",
+      "revision": "2026; DOI 10.1371/journal.pone.0348811; article XML SHA-256 487ab228f9e92e7a6ec419c8c6979dafb07e4906cf02f57dc3cf69d0bd55d38f",
+      "scope": "Source record 10.1371/journal.pone.0348811; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348811"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a71380c144fe6a8627e7b11b25db68e445da710dd82c8b3dfae34309bee796f7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4b1cbc23dcef411fbccf3995837fbb42",
+    "request_hash": "9cca24b58214c30a4fa58f8381b715211a98e775aeb226b6df18a1d67bb7de2c",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "e501f58fc1b954b92e996ebd18056da7715a72d1d1a7e83d009d43765c211df9",
+    "packet_hash": "a71380c144fe6a8627e7b11b25db68e445da710dd82c8b3dfae34309bee796f7"
+  },
+  "hash": "012d180422cc57f2c730040c5aa59eda54d10b92486f2b59bfb985e387760b0b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general pharmacokinetic definition of half-life that is not stated in the source packet and is broader than the packet’s specific mention of vitreal half-life.",
+        "The second sentence adds an unsupported interpretation that the level falls by 50%; the packet only states a shorter vitreal half-life (~2.9 days), not that this is defined as a 50% decline."
+      ],
+      "definition_hash": "e501f58fc1b954b92e996ebd18056da7715a72d1d1a7e83d009d43765c211df9",
+      "packet_hash": "a71380c144fe6a8627e7b11b25db68e445da710dd82c8b3dfae34309bee796f7",
+      "published_packet_hash": "a71380c144fe6a8627e7b11b25db68e445da710dd82c8b3dfae34309bee796f7",
+      "receipt_id": "cbfc6183504c46949c56d50e8f07c413",
+      "request_hash": "b55d51c977d561d936aecda49f5a1830d1d26796dad022275a7738c89aa73a79",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that ranibizumab has a “vitreal half-life” (~2.9 days) versus bevacizumab (~4.3 days), but it does not define half-life as the time for a drug level to fall by 50% in the vitreous. Therefore, the definition’s claim about “falls by 50%” is not supported by the supplied text."
+      ],
+      "definition_hash": "e501f58fc1b954b92e996ebd18056da7715a72d1d1a7e83d009d43765c211df9",
+      "packet_hash": "a71380c144fe6a8627e7b11b25db68e445da710dd82c8b3dfae34309bee796f7",
+      "published_packet_hash": "a71380c144fe6a8627e7b11b25db68e445da710dd82c8b3dfae34309bee796f7",
+      "receipt_id": "467549c3a7df4ffc8e44378e85c14e17",
+      "request_hash": "f53efb51a94d317e9a7eeabde5767d27ec013daa19ef4220db2d98ca7bd823b3",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

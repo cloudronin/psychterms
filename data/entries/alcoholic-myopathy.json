@@ -1,0 +1,62 @@
+{
+  "id": "alcoholic-myopathy",
+  "term": "alcoholic myopathy",
+  "definition": "Alcoholic myopathy is muscle weakness and wasting of skeletal muscle caused by long-term alcohol use. It refers to damage to the body’s voluntary muscles that develops with chronic ethanol consumption.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10688687"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10688687",
+      "revision": "2023; DOI 10.1371/journal.pone.0294700; article XML SHA-256 e97482bf1dad0433c6793b5869eb3f72420a5838191bda85907b4f72c94a5269",
+      "scope": "Source record 10.1371/journal.pone.0294700; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0294700"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "84a04adc093739e25e89f4459e17172d53b78768651198d099e99104882eb8fc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d8c1f087054e4b2c93727ec6a2ef81e0",
+    "request_hash": "8e8d95a48867cdfbe192e98ec1dd95fc5d04ddb6467f9cdb27926d4569b8f0a6",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "dd2985900b8a2f6619916e7784b13da95129f3f8eebcc9aa150e0fffe7f371ba",
+    "packet_hash": "84a04adc093739e25e89f4459e17172d53b78768651198d099e99104882eb8fc"
+  },
+  "hash": "25b24168b6361b6f59ce1ee7d8410dd2d25d686c91ac2fc324b760528a08055a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source describes a skeletal muscle condition caused by chronic alcohol consumption, not a mental health concept."
+      ],
+      "definition_hash": "dd2985900b8a2f6619916e7784b13da95129f3f8eebcc9aa150e0fffe7f371ba",
+      "packet_hash": "84a04adc093739e25e89f4459e17172d53b78768651198d099e99104882eb8fc",
+      "published_packet_hash": "84a04adc093739e25e89f4459e17172d53b78768651198d099e99104882eb8fc",
+      "receipt_id": "e8ebb52899574b3cb9cdcd7c548718ed",
+      "request_hash": "d520b20e66c764867e2fe99bfdf43223ab5e460210a2987cff5ac245e204f921",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition characterizes the condition as affecting “voluntary muscles,” but the packet only describes “skeletal muscle” and does not support the “voluntary” framing.",
+        "The field specified is “mental health,” while the packet’s content (and the provided definition) concerns a physical disorder of skeletal muscle related to alcohol/ethanol use; nothing in the packet supports a mental-health field connection for this term."
+      ],
+      "definition_hash": "dd2985900b8a2f6619916e7784b13da95129f3f8eebcc9aa150e0fffe7f371ba",
+      "packet_hash": "84a04adc093739e25e89f4459e17172d53b78768651198d099e99104882eb8fc",
+      "published_packet_hash": "84a04adc093739e25e89f4459e17172d53b78768651198d099e99104882eb8fc",
+      "receipt_id": "3bf3f5b8cc2a4e9585fd8ce71a972580",
+      "request_hash": "506ad1223a8fb140ac300d765aaef37e326f2ad4e88e6ea918f46d39e06bc4c8",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

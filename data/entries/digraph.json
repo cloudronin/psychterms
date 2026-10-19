@@ -1,0 +1,60 @@
+{
+  "id": "digraph",
+  "term": "digraph",
+  "definition": "A digraph is a directed graph, meaning a network model in which links have a specified direction. In the source, it refers to a graph used to represent directional relationships in spatial and time-related data, such as how influences can move from one city to another.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10745198"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10745198",
+      "revision": "2023; DOI 10.1371/journal.pone.0287781; article XML SHA-256 5a727a533f5dd7bbd7357a1257b931559cb00af7f30dcb2b76c4e7de596454eb",
+      "scope": "Source record 10.1371/journal.pone.0287781; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0287781"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "035f1955ada349839e7d253b7eec70f6",
+    "request_hash": "1df4bbd738978c059aba8c18a8d667418e372ef00f335fad269a4ce139278285",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "72969b9a69b7eee2c1c3dade2aa3783715cbde0a07f03284923cba5f61441e50",
+    "packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3"
+  },
+  "hash": "6c6bf29e4087d30e6b48f2b8ef2be03ca868fc2cb782b593bd2edfb1ef10b0ca",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "72969b9a69b7eee2c1c3dade2aa3783715cbde0a07f03284923cba5f61441e50",
+      "packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3",
+      "published_packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3",
+      "receipt_id": "3e60f492fc3545bfac20db4e3a647c09",
+      "request_hash": "f2f7fb5bf0d6ef770eb8fec91026c838c0c8209e22239d8ca0f8b4871aaaf744",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s example (“how influences can move from one city to another”) is not stated in the source packet; the packet discusses atmospheric pollutant diffusion and directed graph modeling, not “influences.”",
+        "The definition claims the source “refers to a graph used to represent directional relationships in spatial and time-related data”; while the packet does describe spatiotemporal prediction and directionality, the wording about “influences” and the specific city-to-city framing is unsupported by the packet."
+      ],
+      "definition_hash": "72969b9a69b7eee2c1c3dade2aa3783715cbde0a07f03284923cba5f61441e50",
+      "packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3",
+      "published_packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3",
+      "receipt_id": "5305fe3bc9b846198aed34e932bcae77",
+      "request_hash": "656593a1931b289cd834209918de524047926625f7176160194bc21e91ca31cb",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bandwidth",
+  "term": "bandwidth",
+  "source": "article-pmc13183220",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0349432",
+  "revision": "2026; DOI 10.1371/journal.pone.0349432; article XML SHA-256 932f2078fbe149421b12af8c6f75c95da9895d898e946d3ac7f3b770479c24bc",
+  "source_snapshot_sha256": "932f2078fbe149421b12af8c6f75c95da9895d898e946d3ac7f3b770479c24bc",
+  "url": "https://doi.org/10.1371/journal.pone.0349432",
+  "text": "Under the federated learning framework, frequent parameter interactions between edge devices and servers result in communication inefficiency, while conventional encryption methods fail to resist multi-node collusion attacks. To address these challenges, this paper proposes an optimized federated learning scheme integrating adaptive channel pruning with multi-key homomorphic encryption. First, we construct a dynamic threshold determination mechanism that automatically calibrates channel pruning rates through precision feedback during the pre-pruning phase, achieving the optimal balance between model compression and accuracy, while significantly reducing communication bandwidth consumption compared to traditional algorithms. Second, based on the Brakerski-Gentry-Vaikuntanathan (BGV) multi-key fully homomorphic encryption architecture, we design a distributed public-key encryption protocol that enables aggregation servers to securely fuse multi-source model parameters without decryption, resisting collusion attacks from up to C − 1 nodes (where C denotes the total number of devices). Experiments on MNIST and CIFAR-10 datasets demonstrate that our scheme significantly reduces communication overhead through two complementary mechanisms: adaptive pruning reduces both the computational burden of local training and the volume of parameters transmitted per round, while multi-key BGV encryption ensures privacy-preserving aggregation without decryption. This work provides a novel technical pathway for privacy-preserving federated learning in resource-constrained scenarios.",
+  "source_label": "Threshold-adaptive pruning with multi-key homomorphic encryption for communication-efficient secure federated learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1589
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "2f421ee926098519c9a9cbf97c2c8bb94e88845e519eddaab48b45a2624a8168"
+}

@@ -2,7 +2,7 @@
 import json,re
 from core import ROOT,digest
 
-VERSION=3
+VERSION=4
 ROOTS={
  'diagnosis':['F03'],
  'biological':['A08','C10','G11.561','D27.505.954.427.700'],
@@ -34,7 +34,7 @@ def decide(packet,independent=None):
         return {'eligible':True,'field':'history','rule':'permitted-historical-psychology-text','policy_version':VERSION}
     if source in ('onlinestatbook-v2','plos','frontiers','bmc'):
         return {'eligible':True,'field':'research methods','rule':'admitted-method-source','policy_version':VERSION}
-    if source.startswith('article-'):
+    if source.startswith(('article-','nimh-page-')):
         term=packet['term'].casefold()
         term_pattern=r'\b'+r'\W+'.join(re.escape(w) for w in re.findall(r'\w+',term))+r'\b'
         gene_context=re.search(term_pattern+r'\s+(?:(?:is|encodes)\s+(?:a|an)\s+)?(?:wt\s+)?(?:gene|allele)\b',text)
@@ -52,6 +52,7 @@ def decide(packet,independent=None):
         if re.search(pattern,text):return {'eligible':True,'field':field,'rule':'psychology-context:'+field,'policy_version':VERSION}
     if any(re.match(r'^F0[124](?:\.|$)',t) for t in trees):
         return {'eligible':True,'field':'cognition','rule':'psychology-taxonomy','policy_version':VERSION}
+    if source.startswith('nimh-page-'):return {'eligible':True,'field':'mental health','rule':'verified-nimh-owned-patient-education-context','policy_version':VERSION}
     return {'eligible':False,'field':None,'rule':'no-psychology-counselling-neural-method-or-historical-context','reason':'The pinned source packet does not establish a psychology, counselling, neural, educational, ethical or research-method context.','policy_version':VERSION}
 
 def independent_records(root=ROOT):

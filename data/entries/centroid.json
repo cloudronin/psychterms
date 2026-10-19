@@ -1,0 +1,63 @@
+{
+  "id": "centroid",
+  "term": "centroid",
+  "definition": "A centroid is the central representative point used in centroid-based clustering to position or re-position a cluster. In this context, it acts as the reference around which grouped data are organized.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12768385"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12768385",
+      "revision": "2026; DOI 10.1371/journal.pone.0339171; article XML SHA-256 98b8d08c57914cdbfc0105f388b89d38bce461a52b192094ade1cda41efc9480",
+      "scope": "Source record 10.1371/journal.pone.0339171; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339171"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e51c680f28884324ae7f59e073563f6f",
+    "request_hash": "05e89aaff8a2bad7af78209857ce450a319e2f99a9ab06b64dfb7bb5a3c3b857",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "fb011f1422717c28332b9930e66a9973ea7d5776d2d1208531c2af6a3d85f73f",
+    "packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1"
+  },
+  "hash": "92dd6d0538e178a0bac38cca7b247b9c5e8988ca17f85f9edfd4206cc550346e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what a “centroid” is (e.g., as a central representative point). It only mentions “centroid-based clustering” and that re-positioning is handled by “Neural Gas,” without explaining the centroid concept.",
+        "The definition’s phrasing about “grouped data are organized” is not supported by the provided packet text."
+      ],
+      "definition_hash": "fb011f1422717c28332b9930e66a9973ea7d5776d2d1208531c2af6a3d85f73f",
+      "packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1",
+      "published_packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1",
+      "receipt_id": "37b48fa1a0fa42c6a2a2f8feff27997e",
+      "request_hash": "2f06a35d00cf330de1d2fd611df7d9abc3988536c823dac6f555ddb2aa91279a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that Neural Gas is a centroid-based clustering algorithm used to re-position units; it does not define a centroid as a 'central representative point' or as a reference around which grouped data are organized.",
+        "The requested sense is not defensibly biological from the packet; the source is about clustering algorithms and data streams, not a biological concept definition."
+      ],
+      "definition_hash": "fb011f1422717c28332b9930e66a9973ea7d5776d2d1208531c2af6a3d85f73f",
+      "packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1",
+      "published_packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1",
+      "receipt_id": "eab8f01ee64b49ae9d15d7d6d6a139ad",
+      "request_hash": "445002bab6bb72042ca0178ad8269b2f93bec58fcd164b1f4cf206c68e4658a8",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

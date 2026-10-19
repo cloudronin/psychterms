@@ -1,0 +1,60 @@
+{
+  "id": "oblique-rotation",
+  "term": "oblique rotation",
+  "definition": "Oblique rotation is a factor-analysis rotation method used after extracting factors to help examine a measure’s underlying structure. In the source packet, the promax form of oblique rotation was used to assess construct validity.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6126806"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6126806",
+      "revision": "2018; DOI 10.1371/journal.pone.0203111; article XML SHA-256 71106437dd887e18e6e5f03d870418a888035e58a05721721a51a004c214a775",
+      "scope": "Source record 10.1371/journal.pone.0203111; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0203111"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4d49aa680a56813cf158ba5fb17c9cf8b5e36389fbaff41a9e319cfdb905f85c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8e58fe27bfcb4c7cbcdc017ac5d20775",
+    "request_hash": "e15b90d19fe66b08a37df3578389cf27db0d96ed8bc0aae416715d7344e8565d",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "233b4cf2703d130e58194f3948aa97087130e10fe6937616904ce1a51ed27310",
+    "packet_hash": "4d49aa680a56813cf158ba5fb17c9cf8b5e36389fbaff41a9e319cfdb905f85c"
+  },
+  "hash": "50195c64035ef7e65d5aaad3e4720c332a682f743936be2752cef616927383cf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define oblique rotation as a rotation method used “after extracting factors”; it only states that factor analysis with principal axis factoring extraction and oblique rotation (promax) was used.",
+        "Only the clause that promax form of oblique rotation was used in the packet to assess construct validity is directly supported by the provided text."
+      ],
+      "definition_hash": "233b4cf2703d130e58194f3948aa97087130e10fe6937616904ce1a51ed27310",
+      "packet_hash": "4d49aa680a56813cf158ba5fb17c9cf8b5e36389fbaff41a9e319cfdb905f85c",
+      "published_packet_hash": "4d49aa680a56813cf158ba5fb17c9cf8b5e36389fbaff41a9e319cfdb905f85c",
+      "receipt_id": "105fdc4ce2174360b616e6bf7384cf8d",
+      "request_hash": "8795e40e255a7684f01a17d6f7ac7137e655cad1ae53923382d6ab486b128034",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "233b4cf2703d130e58194f3948aa97087130e10fe6937616904ce1a51ed27310",
+      "packet_hash": "4d49aa680a56813cf158ba5fb17c9cf8b5e36389fbaff41a9e319cfdb905f85c",
+      "published_packet_hash": "4d49aa680a56813cf158ba5fb17c9cf8b5e36389fbaff41a9e319cfdb905f85c",
+      "receipt_id": "7241fa783eb34f269694abd22432e156",
+      "request_hash": "67735d43df4ad78db26f623c7fe6ce1d3e014470c05684c8a0765e2825c8b26a",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

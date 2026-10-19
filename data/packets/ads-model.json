@@ -1,0 +1,26 @@
+{
+  "id": "ads-model",
+  "term": "ADS model",
+  "source": "article-pmc9755658",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpls.2022.1016470",
+  "revision": "2022; DOI 10.3389/fpls.2022.1016470; article XML SHA-256 8744f27f15a54da3bb936a83762149feddfc062dba5432a5e05874e98218f465",
+  "source_snapshot_sha256": "8744f27f15a54da3bb936a83762149feddfc062dba5432a5e05874e98218f465",
+  "url": "https://doi.org/10.3389/fpls.2022.1016470",
+  "text": "The accurate detection and segmentation of apples during growth stage is essential for yield estimation, timely harvesting, and retrieving growth information. However, factors such as the uncertain illumination, overlaps and occlusions of apples, homochromatic background and the gradual change in the ground color of apples from green to red, bring great challenges to the detection and segmentation of apples. To solve these problems, this study proposed an improved Mask Scoring region-based convolutional neural network (Mask Scoring R-CNN), known as MS-ADS, for accurate apple detection and instance segmentation in a natural environment. First, the ResNeSt, a variant of ResNet, combined with a feature pyramid network was used as backbone network to improve the feature extraction ability. Second, high-level architectures including R-CNN head and mask head were modified to improve the utilization of high-level features. Convolutional layers were added to the original R-CNN head to improve the accuracy of bounding box detection ( bbox_mAP ), and the Dual Attention Network was added to the original mask head to improve the accuracy of instance segmentation ( mask_mAP ). The experimental results showed that the proposed MS-ADS model effectively detected and segmented apples under various conditions, such as apples occluded by branches, leaves and other apples, apples with different ground colors and shadows, and apples divided into parts by branches and petioles. The recall , precision , false detection rate, and F 1 score were 97.4%, 96.5%, 3.5%, and 96.9%, respectively. A bbox_mAP and mask_mAP of 0.932 and 0.920, respectively, were achieved on the test set, and the average run-time was 0.27 s per image. The experimental results indicated that the MS-ADS method detected and segmented apples in the orchard robustly and accurately with real-time performance. This study lays a foundation for follow-up work, such as yield estimation, harvesting, and automatic and long-term acquisition of apple growth information.",
+  "source_label": "Apple detection and instance segmentation in natural environments using an improved Mask Scoring R-CNN Model",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2038
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "1370f5903c78cf042e4cb052b181c246a0e60b0b6c271a7b29db662020a07a67"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cff",
+  "term": "CFF",
+  "source": "article-pmc13345277",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0353130",
+  "revision": "2026; DOI 10.1371/journal.pone.0353130; article XML SHA-256 31cd7b3496d79c042a026d1d4b3b709cfea07a9a16760b8c9bfb1a7935c0cfbe",
+  "source_snapshot_sha256": "31cd7b3496d79c042a026d1d4b3b709cfea07a9a16760b8c9bfb1a7935c0cfbe",
+  "url": "https://doi.org/10.1371/journal.pone.0353130",
+  "text": "Time series forecasting models often face challenges in cross-domain fine-tuning, such as high training costs and limited adaptability. To address these issues, we propose a Cue-driven Feature Fusion Network (CFF-Net), which combines semantic cues from textual prompts with numerical time series features for parameter-efficient adaptation. The main idea is to use the semantic representation ability of large language models to provide auxiliary guidance, while dynamically modulating numerical predictions through scale-and-shift operations. Specifically, CFF-Net includes three main components. First, the Semantic Prompt Encoding Module (SPM) transforms numerical sequences into temporally relevant natural language descriptions, which are processed by GPT-2 to extract semantic representations. Second, the Dynamic Semantic Modulation Module (DSM) maps these semantic representations into learnable scaling ( γ ) and shifting ( β ) factors through a multi-layer perceptron, enabling modulation of PatchTST predictions within the Scale-and-Shift Feature (SSF) mechanism. Finally, a warm-start strategy is used to stabilize semantic integration during training. Experimental results on three public datasets and the TCTS dataset show that CFF-Net achieves lower errors than PatchTST in many settings, although the improvements are not uniform across all datasets and metrics. For example, on the Weather dataset, CFF-Net reduces MSE by 12.50% and 11.88% under the 30% and 20% training-sample settings, respectively. On the TCTS dataset, the corresponding MSE reductions are 5.83% and 6.60%. These results suggest that semantic prompt guidance can improve forecasting performance in several limited-data scenarios while keeping most backbone parameters fixed.",
+  "source_label": "Sample-efficient fine-tuning with textual prompts for time series forecasting",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1761
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42"
+}

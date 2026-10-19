@@ -1,0 +1,63 @@
+{
+  "id": "drl",
+  "term": "DRL",
+  "definition": "DRL stands for deep reinforcement learning, an approach that applies reinforcement learning with deep-learning methods. In this source, it refers to models used for vehicle routing that need data reflecting real-world locations, distances, and demands.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11192327"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11192327",
+      "revision": "2024; DOI 10.1371/journal.pone.0304422; article XML SHA-256 9debfffdc6f20542b8494323ac5fe1ca6865e46fc544b8e0117824e05f9a9c0a",
+      "scope": "Source record 10.1371/journal.pone.0304422; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0304422"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4250a31a26e24921a760e5664600b00a",
+    "request_hash": "5c4ac66a193ad6cf4484d23620f0dec5d406e360b888ab7071ccd1f110929553",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "f26943b07d483755c1de27ab655a366a959ca4663a5b3df258723a0103452d6f",
+    "packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8"
+  },
+  "hash": "9a0b7ece76c71532325536d9415cdf5e0793a3bf9973135b3deffb26429f7977",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “an approach that applies reinforcement learning with deep-learning methods” is not explicitly supported in the provided packet text (the packet mentions “deep reinforcement learning (DRL) algorithms” but does not describe the mechanism as combining reinforcement learning with deep-learning methods).",
+        "Other substantive parts—DRL being used for vehicle routing, and the need for data reflecting real-world/ geocoded locations, distances, and demands—are broadly consistent with the packet, but the unsupported first-sentence claim causes the definition to fail the support requirement."
+      ],
+      "definition_hash": "f26943b07d483755c1de27ab655a366a959ca4663a5b3df258723a0103452d6f",
+      "packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8",
+      "published_packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8",
+      "receipt_id": "11fd33b055cb4ac4b4ec1320005b71c5",
+      "request_hash": "d75e4b2efaa5bb385e453dc859e449feaa34a5f8b4949ce5cb4623029d2e7cca",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general technical definition of DRL as an approach that applies reinforcement learning with deep-learning methods; the packet only identifies the acronym as “deep reinforcement learning” and does not state that explanatory definition.",
+        "The source-specific sense is only partially supported: the packet supports DRL being used for vehicle routing and the need for real-world compatible data with locations, distances, and demands, but the definition compresses this into a broader claim about what DRL “refers to” without clearly staying within the source wording."
+      ],
+      "definition_hash": "f26943b07d483755c1de27ab655a366a959ca4663a5b3df258723a0103452d6f",
+      "packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8",
+      "published_packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8",
+      "receipt_id": "dc234e7ea4d34edc97944e43fdf81b90",
+      "request_hash": "fadbf82d2cc95438f524bb055a50e74826d031c8b61180e5aa726e0ac0567f6b",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

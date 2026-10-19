@@ -1,0 +1,61 @@
+{
+  "id": "cohabitation",
+  "term": "cohabitation",
+  "definition": "Cohabitation is a living arrangement in which two animals are housed together in the same enclosure. In this study context, it refers to females living with another animal, either a familiar female or a male, with male cohabitation allowing direct contact and possible mating.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12582430"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12582430",
+      "revision": "2025; DOI 10.1371/journal.pone.0335626; article XML SHA-256 b45ca791f7a3d758c8514f817a6e392a27027b621374bbb6565a5e77f6d68d06",
+      "scope": "Source record 10.1371/journal.pone.0335626; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335626"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4e4c680b4f19930c3ac9baccb1095123a68c3d98d81558e0e7b0a6ae6e69d127",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b074349f7e36412e812270c0f3a9df4e",
+    "request_hash": "54925d25cdba30416beba259e5f4798f88a4b3b85a89a55fbd740367b9cf81dc",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "8794ec8492f0de5cb8df342492b695d65230ac2b673917d12edd85fb0187f288",
+    "packet_hash": "4e4c680b4f19930c3ac9baccb1095123a68c3d98d81558e0e7b0a6ae6e69d127"
+  },
+  "hash": "dfe1756cb0a9d269da420c10b7e8101a937e0d8f73fcbb4b5dce8135c306003d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence is too general: the packet does not define cohabitation abstractly as any “two animals… in the same enclosure.” In the provided study, “cohabitation” is operationalized in specific experimental group procedures (e.g., one group cohabits with a familiar female in a clean cage; another involves a cage divided by a screen), not as a general enclosure definition.",
+        "The clause stating that “male cohabitation allow[s] direct contact and possible mating” is not supported as written. In the packet’s “social exposure” condition, males are present behind an acrylic screen with small holes and “physical contact and copulation were not allowed”; direct contact is not described for that male-exposure condition. While mating is allowed in the “social cohabitation with mating” (SCM) group, the definition conflates male cohabitation with direct contact across the described context.",
+        "The packet supports that males’ sensory cues can be present and that mating is allowed only in the SCM condition, but it does not support the definition’s blanket linkage of “male cohabitation” with “direct contact.”"
+      ],
+      "definition_hash": "8794ec8492f0de5cb8df342492b695d65230ac2b673917d12edd85fb0187f288",
+      "packet_hash": "4e4c680b4f19930c3ac9baccb1095123a68c3d98d81558e0e7b0a6ae6e69d127",
+      "published_packet_hash": "4e4c680b4f19930c3ac9baccb1095123a68c3d98d81558e0e7b0a6ae6e69d127",
+      "receipt_id": "c784d9a73f4245a087f2777b8b9666d9",
+      "request_hash": "15c3df88504e05d62d87f1c4e1dbb482e712b6515499a89ba0e16a9d7f4b2728",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8794ec8492f0de5cb8df342492b695d65230ac2b673917d12edd85fb0187f288",
+      "packet_hash": "4e4c680b4f19930c3ac9baccb1095123a68c3d98d81558e0e7b0a6ae6e69d127",
+      "published_packet_hash": "4e4c680b4f19930c3ac9baccb1095123a68c3d98d81558e0e7b0a6ae6e69d127",
+      "receipt_id": "8981a40be9684b58acd4b0124272d606",
+      "request_hash": "392c2a3d884db58de52a06969cb87a89020870e5ee70072e7b186df35757f957",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

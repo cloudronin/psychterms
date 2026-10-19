@@ -1,0 +1,26 @@
+{
+  "id": "nuclear-magnetic-resonance",
+  "term": "nuclear magnetic resonance",
+  "source": "article-pmc8929630",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0264235",
+  "revision": "2022; DOI 10.1371/journal.pone.0264235; article XML SHA-256 10ee337d8da2c62e5a4d972c169246b66e3adc6a12e322e1ffcdd99ccf4e1330",
+  "source_snapshot_sha256": "10ee337d8da2c62e5a4d972c169246b66e3adc6a12e322e1ffcdd99ccf4e1330",
+  "url": "https://doi.org/10.1371/journal.pone.0264235",
+  "text": "Surface nuclear magnetic resonance (SNMR) is a geophysical method that can be used directly for detecting groundwater resources, and it has attracted the attention of many scholars. In this paper, we propose a new effective algorithm for numerical modeling of 3D SNMR data for arbitrary topography in a conductive medium. We adopt a total-field algorithm for solving the quasi-static variant of Maxwell’s equation and handle a complex-shaped loop source by discretizing the transmitter into electric dipoles, which can be further easily discretized into electric dipoles along the three directions of the Cartesian coordinate system. To solve the 3D SNMR forward-modeling problem quickly and accurately, a new element-integration system based on a new symmetric orthogonal rule is used for calculating the sensitivity (i.e., kernel) functions of all elements. The new rule is based on a special arrangement involving a cubic close-packed lattice structure and is characterized by fast convergence, positive weight, and symmetry. We apply the developed numerical algorithm to SNMR tomography of several typical hydrogeological models. The synthetic results show that higher precision can be achieved with few grids and nodes without increasing the computation time by using the new integration algorithm. In addition, we find that the topography and conductivity can affect the SNMR response, which needs to be considered while interpreting SNMR data.",
+  "source_label": "A high precision finite-element forward solver for surface nuclear magnetic resonance incorporating conductivity changes and surface-topography variations",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1450
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "4e1481263ff0e64ee59f50f6d77d5982f416a6fe99f3b5d25a2d3352688a1bbc"
+}

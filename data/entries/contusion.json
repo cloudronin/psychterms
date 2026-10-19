@@ -1,0 +1,63 @@
+{
+  "id": "contusion",
+  "term": "contusion",
+  "definition": "A contusion is an injury caused by an external mechanical force that damages body tissue. In this context, a contusion injury model is used in animal research to reproduce that kind of tissue damage, such as injury to the spinal cord, for pre-clinical study.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12872009"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12872009",
+      "revision": "2026; DOI 10.1371/journal.pone.0337794; article XML SHA-256 5b3795a531dcc42482f8d171527b50e5e02a88ef6e00a13c29cb38d81ebb06fe",
+      "scope": "Source record 10.1371/journal.pone.0337794; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337794"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e5b3933b61f3f8ed85ef12d8298b2d483a6705d845d01706be0b28dda2bd7280",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4a6eaf1ed62d43c29338e2044dcfbf45",
+    "request_hash": "21597cdac492c3ebb408176afb4273a2b2bb90aef0ca394b972bab52368087ae",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "0ca619f74c0f799e85d7b5779e871e010a56866fee1a77291d653a373593a385",
+    "packet_hash": "e5b3933b61f3f8ed85ef12d8298b2d483a6705d845d01706be0b28dda2bd7280"
+  },
+  "hash": "23599379c35361d41a059f45d4381bf436659bbec4aebf18a7fc765db7526921",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence generalizes that contusion is an injury that “damages body tissue,” but the packet only describes tissue damage in the context of spinal cord injury models (“damaging the constituent tissues of the spinal cord”).",
+        "The definition’s requested scope mixes a general definition of “contusion” with a specific discussion of “contusion injury model” and spinal cord injury; the packet supports the animal SCI contusion model rationale, but it does not explicitly provide a general, stand-alone definition of “contusion” beyond that SCI context."
+      ],
+      "definition_hash": "0ca619f74c0f799e85d7b5779e871e010a56866fee1a77291d653a373593a385",
+      "packet_hash": "e5b3933b61f3f8ed85ef12d8298b2d483a6705d845d01706be0b28dda2bd7280",
+      "published_packet_hash": "e5b3933b61f3f8ed85ef12d8298b2d483a6705d845d01706be0b28dda2bd7280",
+      "receipt_id": "c9f60fb57176430c9b1725e0f4919137",
+      "request_hash": "a1b8b9b6c18ef0aade5e4d7605cd0f6552598d98e4ea87890001e014688ef35d",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports contusion only in the specific context of spinal cord injury and contusion injury models; it does not define contusion generally as any injury caused by external mechanical force damaging body tissue.",
+        "The field is not defensible here: the source is a biomedical article about spinal cord injury biomechanics, not an ethics or psychology/counselling definition."
+      ],
+      "definition_hash": "0ca619f74c0f799e85d7b5779e871e010a56866fee1a77291d653a373593a385",
+      "packet_hash": "e5b3933b61f3f8ed85ef12d8298b2d483a6705d845d01706be0b28dda2bd7280",
+      "published_packet_hash": "e5b3933b61f3f8ed85ef12d8298b2d483a6705d845d01706be0b28dda2bd7280",
+      "receipt_id": "93045bb9e7ab4402968e363e45572378",
+      "request_hash": "b3a5630f334f0c15946c6dceb761728f27747879af06ab6e0501881c19aac9a3",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

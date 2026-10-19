@@ -1,0 +1,26 @@
+{
+  "id": "tdd",
+  "term": "TDD",
+  "source": "article-pmc13197080",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0334989",
+  "revision": "2026; DOI 10.1371/journal.pone.0334989; article XML SHA-256 c27a36ad8d233f9f0040e6f8873bceddc85973f35462b72c3f4286dc4f357520",
+  "source_snapshot_sha256": "c27a36ad8d233f9f0040e6f8873bceddc85973f35462b72c3f4286dc4f357520",
+  "url": "https://doi.org/10.1371/journal.pone.0334989",
+  "text": "Tomato diseases pose a significant threat to global agricultural production, often leading to substantial yield loss and major economic damage. Traditional disease detection methods rely on manual inspection, which is not only time-consuming and labor-intensive but also difficult to implement for real-time monitoring. While deep learning-based object detection techniques offer a potential alternative to manual inspection, existing models still face challenges in extracting subtle disease features, suppressing complex background interference, and in handling multi-scale disease representations in complex agricultural environments, limiting detection performance. To address these limitations, this paper proposes a novel TDD-YOLO model for precise tomato-disease detection (TDD) in complex agricultural settings. The proposed model is based on YOLOv11 with the following three main improvements: (1) a feature enhancement module is added to improve the backbone’s ability to extract disease spot textures; (2) a joint attention mechanism is introduced to explicitly model cross-dimensional dependencies, effectively suppressing background interference; and (3) a feature fusion module is added to retain disease information across different scales while reducing computational costs. Experimental results, obtained on the Tomato-Village dataset (containing field-acquired images of tomato leaves with six diseases, collected in real agricultural environments, featuring complex backgrounds and varying illumination conditions) and Tomato-Disease dataset (emphasizing a greater diversity in tomato disease types along with healthy leaf samples), demonstrate that the proposed TDD-YOLO model outperforms the baseline in detection of tomato diseases (e.g., by improving mAP@50 and mAP@50:95, averaged across disease categories, by 4.1% and 6.0% on Tomato-Village and by 3.6% and 3.9% on Tomato-Disease, respectively) and state-of-the-art models (e.g., by improving the average mAP@50 and mAP@50:95, compared to the first runner-up, by 3.2% and 4.7% on Tomato-Village and by 2.4% and 2.1% on Tomato-Disease, respectively), while maintaining good parameter count and computational complexity, confirming its effectiveness and potential for practical usage in complex agricultural environments. The author-generated code and weight files are publicly available at",
+  "source_label": "TDD-YOLO: A novel model for precise detection of tomato diseases",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2364
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "16157c9ca9b6954184de4183c4e34946f50dfcc32f58bff5b1beac5284f62efb"
+}

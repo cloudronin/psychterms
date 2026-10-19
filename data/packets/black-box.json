@@ -1,0 +1,26 @@
+{
+  "id": "black-box",
+  "term": "black box",
+  "source": "article-pmc12068613",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0321987",
+  "revision": "2025; DOI 10.1371/journal.pone.0321987; article XML SHA-256 3235b4e4ec0b6a3bbf9acb1a0c4a5311f807499e810c62b506177c4c7b1487bb",
+  "source_snapshot_sha256": "3235b4e4ec0b6a3bbf9acb1a0c4a5311f807499e810c62b506177c4c7b1487bb",
+  "url": "https://doi.org/10.1371/journal.pone.0321987",
+  "text": "How can we perform unsupervised domain adaptation when transferring a black-box source model to a target domain? Black-box Unsupervised Domain Adaptation focuses on transferring the labels derived from a pre-trained black-box source model to an unlabeled target domain. The problem setting is motivated by privacy concerns associated with accessing and utilizing source data or source model parameters. Recent studies typically train the target model by mimicking the labels derived from the black-box source model, which often contain noise due to domain gaps between the source and the target. Directly exploiting such noisy labels or disregarding them may lead to a decrease in the model’s performance. We propose Threshold-Based Exploitation of Noisy Predictions ( TEN ), a method to accurately learn the target model with noisy labels in Black-box Unsupervised Domain Adaptation. To ensure the preservation of information from the black-box source model, we employ a threshold-based approach to distinguish between clean labels and noisy labels, thereby allowing the transfer of high-confidence knowledge from both labels. We utilize a flexible thresholding approach to adjust the threshold for each class, thereby obtaining an adequate amount of clean data for hard-to-learn classes. We also exploit knowledge distillation for clean data and negative learning for noisy labels to extract high-confidence information. Extensive experiments show that TEN outperforms baselines with an accuracy improvement of up to 9.49%.",
+  "source_label": "Threshold-based exploitation of noisy label in black-box unsupervised domain adaptation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1525
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "18d5c851698cb0dfd4372dfc5884da7da3309255567b1d3f931e542a0a2ad7f5"
+}

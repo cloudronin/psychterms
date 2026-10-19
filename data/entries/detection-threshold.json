@@ -1,0 +1,63 @@
+{
+  "id": "detection-threshold",
+  "term": "detection threshold",
+  "definition": "Detection threshold is the lowest level of a stimulus or signal that can still be noticed. In this source, it refers to the lowest odor concentration at which dogs could detect an explosive material under specific environmental conditions.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11423966"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11423966",
+      "revision": "2024; DOI 10.1371/journal.pone.0306817; article XML SHA-256 7c1d93adc385a38420ccdb350c9c6e5a3a1d064db06f64405c5390c6daf188ac",
+      "scope": "Source record 10.1371/journal.pone.0306817; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0306817"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "38a7077c2f39355c0ae88b1b3eb921142c9ff673300ab9527faf43502c8b3fb6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6402d6eeece148d28f118c0605450e90",
+    "request_hash": "6ea4357d03c02751ecbcdcc2e1de19b3520814f339ee3eab906c430a3c40380d",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "f23e3162d4bc2c51c886eab86c6aeb867e5ded1793f2b408611dd73eb20a61e5",
+    "packet_hash": "38a7077c2f39355c0ae88b1b3eb921142c9ff673300ab9527faf43502c8b3fb6"
+  },
+  "hash": "553944df1f04bdbc9f94bd3f76ae878476ec6061210c806136f4984f5189ffe6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement that “detection threshold is the lowest level of a stimulus or signal that can still be noticed” is not explicitly stated or directly supported in the provided packet text (the packet discusses threshold limits measured, but does not define the term in general terms).",
+        "The packet does support the second, more specific idea that the study’s detection thresholds refer to odor concentrations detectable by dogs for energetic materials under different environmental conditions, but because the first general claim is unsupported, the overall definition cannot be accepted as fully supported by the packet."
+      ],
+      "definition_hash": "f23e3162d4bc2c51c886eab86c6aeb867e5ded1793f2b408611dd73eb20a61e5",
+      "packet_hash": "38a7077c2f39355c0ae88b1b3eb921142c9ff673300ab9527faf43502c8b3fb6",
+      "published_packet_hash": "38a7077c2f39355c0ae88b1b3eb921142c9ff673300ab9527faf43502c8b3fb6",
+      "receipt_id": "f12f72c956c848cdaa681f5b055b320f",
+      "request_hash": "ddbd732d3b97ec83031192fb081d1ceac5c7a8e0b4351c3f93a33b146ab1bb03",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s sense is supported by the packet, but the requested field ‘learning’ is not defensibly supported by this source; the packet is about canine odor detection thresholds in an environmental-conditions study, not a learning concept.",
+        "The first sentence is broadly acceptable, but the entry should not imply a general clinical or learning-theory usage beyond what the packet supports."
+      ],
+      "definition_hash": "f23e3162d4bc2c51c886eab86c6aeb867e5ded1793f2b408611dd73eb20a61e5",
+      "packet_hash": "38a7077c2f39355c0ae88b1b3eb921142c9ff673300ab9527faf43502c8b3fb6",
+      "published_packet_hash": "38a7077c2f39355c0ae88b1b3eb921142c9ff673300ab9527faf43502c8b3fb6",
+      "receipt_id": "9e335ad42cc8415a8c28e1650f4e5fcd",
+      "request_hash": "4376b828f638bf9a553d48610b490c3a07cd860541b6df40a54f62b7ec1dc847",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

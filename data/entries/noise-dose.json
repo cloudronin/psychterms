@@ -1,0 +1,63 @@
+{
+  "id": "noise-dose",
+  "term": "noise dose",
+  "definition": "Noise dose is the amount or level of noise exposure being received or given, especially when discussing its effects on hearing. In this source, it refers to a sub-traumatic exposure that can cause a temporary change in hearing thresholds without lasting damage to cochlear function, cells, or synapses.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7357743"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7357743",
+      "revision": "2020; DOI 10.1371/journal.pone.0235491; article XML SHA-256 8c50395654582d963f33fd6bbdc0d926fc8540243c87988b7de36a3fd3305413",
+      "scope": "Source record 10.1371/journal.pone.0235491; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0235491"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9ebc9778f10efdcb167a858067a7a2e9c60c4738155cfe2853b271cf7baab137",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4b82908304f14acaa321f8bd47ebbaf6",
+    "request_hash": "6d4ccfda5d6786478d48714e09d11896eb672904cad8291ee67a2ef9c2a3ad10",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "2156f03bb53cd82ca9c80afa90727e5bf2c61ef499e6c56ea869a9375fcdb06a",
+    "packet_hash": "9ebc9778f10efdcb167a858067a7a2e9c60c4738155cfe2853b271cf7baab137"
+  },
+  "hash": "1a974205905327f1911b15cc5c6fefbda3ba35eaa4b3141902efbb2f80cb0c0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening generalization (“the amount or level of noise exposure being received or given”) is broader than the packet supports; the source only refers to a single sub-traumatic noise dose used in an animal study.",
+        "The requested field is not well supported by the source text, which is a hearing/biomedical article rather than a social or counselling context."
+      ],
+      "definition_hash": "2156f03bb53cd82ca9c80afa90727e5bf2c61ef499e6c56ea869a9375fcdb06a",
+      "packet_hash": "9ebc9778f10efdcb167a858067a7a2e9c60c4738155cfe2853b271cf7baab137",
+      "published_packet_hash": "9ebc9778f10efdcb167a858067a7a2e9c60c4738155cfe2853b271cf7baab137",
+      "receipt_id": "1b389d7181ae4dbe8f7cef4c2eb05b17",
+      "request_hash": "505272fc79f53c174c9f0aff78bd9e9dfabb29344e447aa3017b571560ecc60f",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that “noise dose” is an amount/level of noise “being received or given” (the text only describes a specific experimental “sub-traumatic noise dose,” not both received/given in general).",
+        "The definition’s broad framing (“especially when discussing its effects on hearing”) is not stated as part of a term definition in the packet; hearing effects are discussed, but not as definitional context for the term."
+      ],
+      "definition_hash": "2156f03bb53cd82ca9c80afa90727e5bf2c61ef499e6c56ea869a9375fcdb06a",
+      "packet_hash": "9ebc9778f10efdcb167a858067a7a2e9c60c4738155cfe2853b271cf7baab137",
+      "published_packet_hash": "9ebc9778f10efdcb167a858067a7a2e9c60c4738155cfe2853b271cf7baab137",
+      "receipt_id": "96da0940fc8146488bdde460dcb1f64f",
+      "request_hash": "e738c7b3ba35098def9506e419025b7f26d203aca7c16dce8f121b61534df74d",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

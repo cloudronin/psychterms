@@ -1,0 +1,26 @@
+{
+  "id": "heteroscedasticity",
+  "term": "heteroscedasticity",
+  "source": "article-pmc11125562",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0297641",
+  "revision": "2024; DOI 10.1371/journal.pone.0297641; article XML SHA-256 cf1f2f46f6d21c920accc73ea4f0bda0b7dd36272a63cadb5cd83954750fb94b",
+  "source_snapshot_sha256": "cf1f2f46f6d21c920accc73ea4f0bda0b7dd36272a63cadb5cd83954750fb94b",
+  "url": "https://doi.org/10.1371/journal.pone.0297641",
+  "text": "Heteroscedasticity effects are useful for forecasting future stock return volatility. Stock volatility forecasting provides business insight into the stock market, making it valuable information for investors and traders. Predicting stock volatility is a crucial task and challenging. This study proposes a hybrid model that predicts future stock volatility values by considering the heteroscedasticity element of the stock price. The proposed model is a combination of Generalized Autoregressive Conditional Heteroskedasticity (GARCH) and a well-known Recurrent Neural Network (RNN) algorithm Long Short-Term Memory (LSTM). This proposed model is referred to as GARCH-LSTM model. The proposed model is expected to improve prediction accuracy by considering heteroscedasticity elements. First, the GARCH model is employed to estimate the model parameters. After that, the ARCH effect test is used to test the residuals obtained from the model. Any untrained heteroscedasticity element must be found using this step. The hypothesis of the ARCH test yielded a p-value less than 0.05 indicating there is valuable information remaining in the residual, known as heteroscedasticity element. Next, the dataset with heteroscedasticity is then modelled using an LSTM-based RNN algorithm. Experimental results revealed that hybrid GARCH-LSTM had the lowest MAE (7.961), RMSE (10.466), MAPE (0.516) and HMAE (0.005) values compared with a single LSTM. The accuracy of forecasting was also significantly improved by 15% and 13% with hybrid GARCH-LSTM in comparison to single LSTMs. Furthermore, the results reveal that hybrid GARCH-LSTM fully exploits the heteroscedasticity element, which is not captured by the GARCH model estimation, outperforming GARCH models on their own. This finding from this study confirmed that hybrid GARCH-LSTM models are effective forecasting tools for predicting stock price movements. In addition, the proposed model can assist investors in making informed decisions regarding stock prices since it is capable of closely predicting and imitating the observed pattern and trend of KLSE stock prices.",
+  "source_label": "Heteroscedasticity effects as component to future stock market predictions using RNN-based models",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2119
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9"
+}

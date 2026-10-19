@@ -1,0 +1,63 @@
+{
+  "id": "recognition-technique",
+  "term": "recognition technique",
+  "definition": "A recognition technique is a method for identifying a target pattern from input data. In this source, it refers specifically to a pose-aware facial expression recognition method that detects head pose and then classifies facial images into expressions using a layered combination of neural-network ensembles and a final classifier.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11922251"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11922251",
+      "revision": "2025; DOI 10.1371/journal.pone.0316562; article XML SHA-256 fc30a0f6f9557476d2011fde92701c7192cd8022c11c987ec7a502c958904072",
+      "scope": "Source record 10.1371/journal.pone.0316562; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0316562"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a295bfc783394135ace5e68390bd2c6b",
+    "request_hash": "fd1ef5b0614cadbd8c9fbb1b9bcd4bc7b8104bcd9cf8310a2131e5d08250ae48",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "2d3f6b052365f9713c7d5d1b6e45871cd9a5ceeccd30f82fa5ebc02300dc5e12",
+    "packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276"
+  },
+  "hash": "009d3c77e06a254c187d40e6b0536f610d27afc0a21909fba29dcd6bb30699d1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“a method for identifying a target pattern from input data”) is a generic description not stated or supported in the supplied packet text.",
+        "The definition’s more specific claims about “pose-aware facial expression recognition,” head pose detection, and classification using layered neural-network ensembles plus a final classifier are supported by the packet, but the unsupported generic opening sentence makes the definition not fully defensible under the provided-source-only requirement."
+      ],
+      "definition_hash": "2d3f6b052365f9713c7d5d1b6e45871cd9a5ceeccd30f82fa5ebc02300dc5e12",
+      "packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276",
+      "published_packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276",
+      "receipt_id": "073f2e1cc88040db8452a2fa19ddfa9f",
+      "request_hash": "6655c453552dea8ddd3a036c83af20006c5244a4a10808760b9432dfb4e42612",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a broad generic definition of \"recognition technique\" as a method for identifying a target pattern from input data; the packet only supports a specific pose-aware facial expression recognition technique, not that general sense.",
+        "The source supports K-nearest-neighbor pose detection, a three-level stacked neural-network ensemble, and a Naive Bayes predictor; it does not explicitly support the broader phrasing \"layered combination of neural-network ensembles and a final classifier\" as a general definition of the term."
+      ],
+      "definition_hash": "2d3f6b052365f9713c7d5d1b6e45871cd9a5ceeccd30f82fa5ebc02300dc5e12",
+      "packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276",
+      "published_packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276",
+      "receipt_id": "d74306ee1425440d9d1dcf39563037fa",
+      "request_hash": "44e3de50876d1cf92a3a86e5928cf01cc75c942100c6887dee751781b9152eeb",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

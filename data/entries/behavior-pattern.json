@@ -1,0 +1,63 @@
+{
+  "id": "behavior-pattern",
+  "term": "behavior pattern",
+  "definition": "A behavior pattern is a recognizable, recurring way that actions unfold over time and space, allowing people’s activity paths to be grouped into distinct types. In the source packet, it refers to classifying tourists’ movements into typical forms based on their recorded tracks and related activity data.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10146474"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10146474",
+      "revision": "2023; DOI 10.1371/journal.pone.0285192; article XML SHA-256 fcbc1330b333a10fb94cceff2d811ec8062094fc237d0e21689222971617bb0b",
+      "scope": "Source record 10.1371/journal.pone.0285192; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0285192"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "118b9f78c6fe5d5ab2ac5ace30d7b5f3d6f60dd2f99dbb24aeb0991f74e61ed4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "85969f170b8d436582c19db5a3bcaf7f",
+    "request_hash": "f2bab2139c8ea52372631517daed052ddf7bb157474345e3c9b1df9b5f9889dd",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "77f23af17e3f4442d98dc651fa297962b6ef734ea2fee7c6d5ca049c49ef812d",
+    "packet_hash": "118b9f78c6fe5d5ab2ac5ace30d7b5f3d6f60dd2f99dbb24aeb0991f74e61ed4"
+  },
+  "hash": "869beb272269e9b3861a37b05229b0a3a9a5ff6118139067f064c5182702366e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a tourism/spatiotemporal behavior-pattern classification, not a learning-field sense of the term, so the requested field is not defensible from the source.",
+        "The definition adds a general abstract gloss (“recognizable, recurring way that actions unfold over time and space”) that is broader than the packet’s specific use; the packet only supports tourist movement patterns classified from digital footprints and photographs."
+      ],
+      "definition_hash": "77f23af17e3f4442d98dc651fa297962b6ef734ea2fee7c6d5ca049c49ef812d",
+      "packet_hash": "118b9f78c6fe5d5ab2ac5ace30d7b5f3d6f60dd2f99dbb24aeb0991f74e61ed4",
+      "published_packet_hash": "118b9f78c6fe5d5ab2ac5ace30d7b5f3d6f60dd2f99dbb24aeb0991f74e61ed4",
+      "receipt_id": "a794494303ce4ccc857241432cf83a7f",
+      "request_hash": "6fe1cffe3e16425076be2d34d040352461d961a4c291e678a16e0fa30cf26998",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s wording that a behavior pattern is a “recognizable, recurring way that actions unfold over time and space” is more general than what the packet explicitly states; the packet only describes “spatiotemporal behavior patterns” of tourists and their classification, without explicitly supporting the “recognizable, recurring” formulation.",
+        "While the packet supports that tourists’ spatiotemporal movement/behavior were classified into distinct “typical behavior patterns” (five types) based on recorded digital footprints, the first sentence adds descriptive elements not clearly present in the packet text."
+      ],
+      "definition_hash": "77f23af17e3f4442d98dc651fa297962b6ef734ea2fee7c6d5ca049c49ef812d",
+      "packet_hash": "118b9f78c6fe5d5ab2ac5ace30d7b5f3d6f60dd2f99dbb24aeb0991f74e61ed4",
+      "published_packet_hash": "118b9f78c6fe5d5ab2ac5ace30d7b5f3d6f60dd2f99dbb24aeb0991f74e61ed4",
+      "receipt_id": "08d0a2dd6dd846c7b2012892f3ab7236",
+      "request_hash": "fb0927c8a72b34a01650410d5c178926610357ade2894c26be4b22ecac88c33f",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

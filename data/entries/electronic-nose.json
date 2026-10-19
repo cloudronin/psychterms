@@ -1,0 +1,60 @@
+{
+  "id": "electronic-nose",
+  "term": "electronic nose",
+  "definition": "An electronic nose is a device that imitates how the mammalian sense of smell works by using multiple sensors, signal processing, and recognition algorithms to detect and identify odors. It is used to create odor patterns from complex smells for tasks such as rapid, noninvasive detection and monitoring.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12244802"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12244802",
+      "revision": "2025; DOI 10.1371/journal.pone.0327748; article XML SHA-256 72fe9be16c9d719e02e033ec00a2fb0f8565cf8c2d4817aa5caa51e58b71e2c1",
+      "scope": "Source record 10.1371/journal.pone.0327748; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0327748"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3dad4e753ccd464888f4826a7d3cb07a9a23b4014e5887063ddfcf81cb20939f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "137d9dea447f401ea0a7fccbcc8996b4",
+    "request_hash": "b9e35aa7db4d9ca56a2ca88943a27f8e4fb0573ea908ddbeca46ee076520a5a9",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "27df7817017bd1c39e46a337ad2e56f4efa85d3022efadfe89c8f4dd74aec127",
+    "packet_hash": "3dad4e753ccd464888f4826a7d3cb07a9a23b4014e5887063ddfcf81cb20939f"
+  },
+  "hash": "eca61a3b17972c67015f3b7098ea0aa73fbd74158dc1765be855ecc3434ab7a1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "27df7817017bd1c39e46a337ad2e56f4efa85d3022efadfe89c8f4dd74aec127",
+      "packet_hash": "3dad4e753ccd464888f4826a7d3cb07a9a23b4014e5887063ddfcf81cb20939f",
+      "published_packet_hash": "3dad4e753ccd464888f4826a7d3cb07a9a23b4014e5887063ddfcf81cb20939f",
+      "receipt_id": "a01079370ad14002b8110a1b71c66a0d",
+      "request_hash": "72aeb6cfb0e97c8a89ee8827c9e6bde472800b4567e998b18ff946e9b69a5e50",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the device is used to “create odor patterns from complex smells,” but the packet only describes generating “odor data” and constructing “odor fingerprints” for wound infection detection; it does not support “complex smells” or the specific phrasing about creating odor patterns.",
+        "The definition’s “used to create odor patterns… for tasks such as rapid, noninvasive detection and monitoring” is partly supported (noninvasiveness, rapid response, detection/monitoring of wound infection), but the broader “odor patterns” purpose is not supported by the packet."
+      ],
+      "definition_hash": "27df7817017bd1c39e46a337ad2e56f4efa85d3022efadfe89c8f4dd74aec127",
+      "packet_hash": "3dad4e753ccd464888f4826a7d3cb07a9a23b4014e5887063ddfcf81cb20939f",
+      "published_packet_hash": "3dad4e753ccd464888f4826a7d3cb07a9a23b4014e5887063ddfcf81cb20939f",
+      "receipt_id": "c1218ebd07d747d8b0f5ced1766d09e3",
+      "request_hash": "dae16af7d92c1e82d9fb6e1e6f7cfc896c075f7eae574f5c55c7e12ceed2d1ac",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

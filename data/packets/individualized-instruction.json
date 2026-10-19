@@ -1,0 +1,26 @@
+{
+  "id": "individualized-instruction",
+  "term": "individualized instruction",
+  "source": "article-pmc13547093",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1876102",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1876102; article XML SHA-256 23c096e392d5ce81d15eef7ab061023cf7b4d4be76b5aa9023127022a21ee2b6",
+  "source_snapshot_sha256": "23c096e392d5ce81d15eef7ab061023cf7b4d4be76b5aa9023127022a21ee2b6",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1876102",
+  "text": "Color perception preference encodes traceable signatures of personality, yet existing approaches to art education seldom translate this link into computationally grounded, individualized instruction. We develop an integrated framework that spans chromatic feature representation, deep-learning-based trait inference, and closed-loop pedagogical intervention. A multidimensional feature system was constructed across HSV and CIE L*a*b* color spaces, combining dominant color centroids, distribution entropy, perceptual contrast, harmony quantification, and an affective coordinate mapping. We propose CA-PPNet, a multi-branch convolutional architecture coupled with multi-head self-attention and five parallel regression heads that jointly predict the Big Five trait dimensions. Trained on 1,247 paired chromatic-personality records, CA-PPNet attained a macro F1 of 0.798 on tertile-binned trait classes and a mean Pearson r of 0.731 on the continuous scores—a dual-track evaluation adopted because trait inference straddles rank ordering and magnitude estimation. Ablations confirmed the contributions of multi-branch fusion, attention, and multi-task learning. Predicted trait profiles were then mapped to six trait-anchored intervention pathways. A 12-week experiment with 216 undergraduates, evaluated with a 30-item color cognition test (score range 0–30, four sub-scales: hue identification, contrast judgement, harmony assessment, and affective mapping), yielded a normalized cognitive gain of 0.642 in the personalized arm against 0.418 in a uniform-curriculum control (between-group Cohen’s d = 0.91). Prediction error correlated negatively with cognitive gain ( r = −0.412); because the design cannot exclude third variables such as general ability, we advance this as a hypothesis that intervention efficacy is bounded by trait-inference fidelity rather than as an established mechanism. Because the entire theoretical foundation is culturally situated—color-emotion mappings, personality norms, and the sample itself are all rooted in a Chinese tertiary context—we treat cross-cultural transfer as an acknowledged limitation as well as a future direction. The findings suggest that chromatic preference, when richly represented and modeled with attention-based architectures, can support defensible personalization in studio art instruction and invite fusion with physiological signals",
+  "source_label": "Construction of a personality trait prediction model based on color perception preference and personalized cognitive intervention pathways in art education",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2396
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "32b24d13b92eb8cc49698dce54d8c1173b8dc90cd4d0671b84840dd446bfa229"
+}

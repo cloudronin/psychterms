@@ -1,0 +1,61 @@
+{
+  "id": "deprivation-index",
+  "term": "deprivation index",
+  "definition": "A deprivation index is a combined measure that brings together multiple indicators of disadvantage to reflect deprivation more broadly than income alone. In this source, it is described for urban settings using non-income domains such as healthcare, education, housing, basic services, and infrastructure to represent the multidimensional nature of urban poverty.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12157265"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12157265",
+      "revision": "2025; DOI 10.1371/journal.pone.0324837; article XML SHA-256 51fbc205a7746af4bd00fd1abc3612ed95acee12e68ed0881ef6c08e9c8a2afb",
+      "scope": "Source record 10.1371/journal.pone.0324837; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0324837"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8b4b9ecea96547129be749a8ff8fd7b6",
+    "request_hash": "3619f27ee40999b215438a04bc01bcc51b15d9b49e3a00d0ea348d62199a4374",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "aaf1df9e4275442bfdd0dbd50e511ceb944647e3497bf7d8d744579819967ddd",
+    "packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f"
+  },
+  "hash": "2f739ee5165087bef0741f02400d2aa20b29308043ed72233772095350c9d24f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aaf1df9e4275442bfdd0dbd50e511ceb944647e3497bf7d8d744579819967ddd",
+      "packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f",
+      "published_packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f",
+      "receipt_id": "2f7e88e30fa94b818ba1ff73ae2d1117",
+      "request_hash": "c4513bfd1e7aa78d3598f9c5976bd261bf9524306a80d6a51fc39676e16fed61",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is about urban poverty/urban deprivation, not biology.",
+        "The definition generalizes beyond the packet by presenting a generic ‘deprivation index’ definition, while the source only describes a proposed Urban Deprivation Index in a specific study protocol.",
+        "The source explicitly says it does not provide specific methodologies or statistical techniques for constructing the index, so the definition should not imply a settled, established measure beyond the protocol context."
+      ],
+      "definition_hash": "aaf1df9e4275442bfdd0dbd50e511ceb944647e3497bf7d8d744579819967ddd",
+      "packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f",
+      "published_packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f",
+      "receipt_id": "da4001c0626140c0a73012872f7806c2",
+      "request_hash": "15bce660a1d464217e0a5879bea20186d5e5413f4701963e60551742e240d99d",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

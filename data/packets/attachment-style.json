@@ -1,0 +1,26 @@
+{
+  "id": "attachment-style",
+  "term": "attachment style",
+  "source": "article-pmc12404378",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0331112",
+  "revision": "2025; DOI 10.1371/journal.pone.0331112; article XML SHA-256 1e8010f50185a9c74f532e112927841cd287fa65815994ebb569c7f820f71e46",
+  "source_snapshot_sha256": "1e8010f50185a9c74f532e112927841cd287fa65815994ebb569c7f820f71e46",
+  "url": "https://doi.org/10.1371/journal.pone.0331112",
+  "text": "Understanding attachment styles is essential in psychology and neuroscience, yet predicting them using objective neural data remains challenging. This study explores the use of machine learning (ML) models and EEG analysis to improve attachment style classification. We analyzed EEG data from 27 university students (ages 20–35) with attachment styles categorized as secure, avoidant, anxious, or fearful-avoidant, assessed using the ECR-R questionnaire. EEG features were extracted using the ROCKET algorithm, followed by Principal Component Analysis (PCA) for dimensionality reduction. The CatBoost algorithm was used for prediction, with a two-stage data pruning approach to enhance accuracy. Our model showed a strong relationship between the number of EEG epochs and predictive accuracy, with Secure and Fearful-Avoidant attachment styles being predicted most reliably. Anxious and Avoidant styles exhibited greater variability, reflecting their complex neural signatures. These findings support the idea that attachment exists on a spectrum rather than as fixed categories, influenced by life experiences, emotional regulation, and social context. The results reinforce the dimensional nature of attachment and highlight the trade-off between model accuracy and computational efficiency. This study demonstrates the potential of ML-driven EEG analysis in predicting attachment styles, offering new possibilities for psychological assessment. By identifying overlapping neural signatures, our findings highlight attachment as a dynamic rather than static process, which could inform clinical interventions and future research on neural markers of attachment.",
+  "source_label": "Improving attachment style clustering with ROCKET and CatBoost: Insights from EEG analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1663
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 4
+  },
+  "packet_hash": "dfd9b833d885b7633d83e99732130bcabec6b535462cf63a1028e3a4b3f12ca2"
+}

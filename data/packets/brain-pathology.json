@@ -1,0 +1,26 @@
+{
+  "id": "brain-pathology",
+  "term": "brain pathology",
+  "source": "article-pmc4972431",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0159540",
+  "revision": "2016; DOI 10.1371/journal.pone.0159540; article XML SHA-256 86d182bc86768bbe54eee0bc3d334d139a30aa4ec005e4f2ed3986520ac707b7",
+  "source_snapshot_sha256": "86d182bc86768bbe54eee0bc3d334d139a30aa4ec005e4f2ed3986520ac707b7",
+  "url": "https://doi.org/10.1371/journal.pone.0159540",
+  "text": "Diffusion MRI (dMRI) tractography analyses are difficult to perform in the presence of brain pathology. Automated methods that rely on cortical parcellation for structural connectivity studies often fail, while manually defining regions is extremely time consuming and can introduce human error. Both methods also make assumptions about structure-function relationships that may not hold after cortical reorganisation. Seeding tractography with functional-MRI (fMRI) activation is an emerging method that reduces these confounds, but inherent smoothing of fMRI signal may result in the inclusion of irrelevant pathways. This paper describes a novel fMRI-seeded dMRI-analysis pipeline based on surface-meshes that reduces these issues and utilises machine-learning to generate task specific white matter pathways, minimising the requirement for manually-drawn ROIs. We directly compared this new strategy to a standard voxelwise fMRI-dMRI approach, by investigating correlations between clinical scores and dMRI metrics of thalamocortical and corticomotor tracts in 31 children with unilateral cerebral palsy. The surface-based approach successfully processed more participants (87%) than the voxel-based approach (65%), and provided significantly more-coherent tractography. Significant correlations between dMRI metrics and five clinical scores of function were found for the more superior regions of these tracts. These significant correlations were stronger and more frequently found with the surface-based method (15/20 investigated were significant; R 2 = 0.43–0.73) than the voxelwise analysis (2 sig. correlations; 0.38 & 0.49). More restricted fMRI signal, better-constrained tractography, and the novel track-classification method all appeared to contribute toward these differences.",
+  "source_label": "Surface-Based fMRI-Driven Diffusion Tractography in the Presence of Significant Brain Pathology: A Study Linking Structure and Function in Cerebral Palsy",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1792
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "article-requested-concept:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903"
+}

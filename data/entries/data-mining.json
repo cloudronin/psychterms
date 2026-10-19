@@ -1,0 +1,59 @@
+{
+  "id": "data-mining",
+  "term": "data mining",
+  "definition": "Data mining is the use of computational models to analyze datasets and find patterns that can predict important outcomes. In this educational context, it means examining student data to forecast academic performance and identify factors that most strongly influence it.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13606946"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13606946",
+      "revision": "2026; DOI 10.1371/journal.pone.0328634; article XML SHA-256 1838505128d41494b75bd265ec5f3bdcc94afbebfd52c520db2fd1aaca2e7107",
+      "scope": "Source record 10.1371/journal.pone.0328634; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0328634"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a721762204d94b7faecc43f79497ba4c",
+    "request_hash": "bddc6cec1560459676473b0694c59e785121ccf5abc30b59424dec2bb062d33d",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "b8ebbfbe62b30e1b58fc79d123ca146d3d7a6b33334827203206b5d4fac6dc6a",
+    "packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c"
+  },
+  "hash": "1f18629d468f60870271c35f5e0cfcb8d226395a18a4b0583401a2d37ee8a3cd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b8ebbfbe62b30e1b58fc79d123ca146d3d7a6b33334827203206b5d4fac6dc6a",
+      "packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c",
+      "published_packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c",
+      "receipt_id": "2f12bd579dfc41cda24fc9770a0163b1",
+      "request_hash": "73c78b5157bf781e64cfe4917693301e150a68c5e50058f71d00fdaad9779a37",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that data mining involves “find[ing] patterns” in datasets; the packet describes predictive modeling and interpretability (e.g., TabPFN, SHAP) but does not explicitly support the specific claim that the purpose is to “find patterns.”"
+      ],
+      "definition_hash": "b8ebbfbe62b30e1b58fc79d123ca146d3d7a6b33334827203206b5d4fac6dc6a",
+      "packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c",
+      "published_packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c",
+      "receipt_id": "f2cd1464b89e4d24a37b3279d9165f51",
+      "request_hash": "e005bf285220a21f1cf5a74743d3d8c6084d7b4bc72c504fe8340657bb815902",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

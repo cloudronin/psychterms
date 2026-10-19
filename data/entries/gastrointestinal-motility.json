@@ -1,0 +1,63 @@
+{
+  "id": "gastrointestinal-motility",
+  "term": "gastrointestinal motility",
+  "definition": "Gastrointestinal motility is the activity of the digestive tract’s smooth muscles that moves contents through the stomach and intestines. In this context, it is reflected by the tract’s myoelectrical activity and can be altered by stress, with small intestinal activity appearing especially sensitive to mild endocrine stress.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13577549"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13577549",
+      "revision": "2026; DOI 10.1371/journal.pone.0358481; article XML SHA-256 57151dbdacafa318df098e9c07f8b1434cdf0e6331c26fb9a76c6ac5d0a86773",
+      "scope": "Source record 10.1371/journal.pone.0358481; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358481"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "aef07bf81c1f320b098260739a9222527d80364d23c442ddbef9bd0a5800508d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "68717ae827214e89b3376c8b84d435f3",
+    "request_hash": "33a12ba3fdefe6838744a42c87e3e9167f06ebd03ea74ed8535aaa68acf94334",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "aaaf547fb7f2dd4f64594f6e4d0e6d8b24df344fd69ae28d530b2e5bdae78bf3",
+    "packet_hash": "aef07bf81c1f320b098260739a9222527d80364d23c442ddbef9bd0a5800508d"
+  },
+  "hash": "2b709faffb9bc2d05688d7832f3d634aab340871ed9038dbe33dfdc749c7876f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define gastrointestinal motility as “the activity of the digestive tract’s smooth muscles that moves contents through the stomach and intestines,” so that portion is unsupported.",
+        "While the packet supports that motility can be monitored via “smooth muscle myoelectrical activity” (surface electromyography) and that stress/adrenocorticotropic hormone (via cortisol response) reduces small intestinal smooth muscle activity, the definition’s full wording contains at least one unsupported claim (the “moves contents” description)."
+      ],
+      "definition_hash": "aaaf547fb7f2dd4f64594f6e4d0e6d8b24df344fd69ae28d530b2e5bdae78bf3",
+      "packet_hash": "aef07bf81c1f320b098260739a9222527d80364d23c442ddbef9bd0a5800508d",
+      "published_packet_hash": "aef07bf81c1f320b098260739a9222527d80364d23c442ddbef9bd0a5800508d",
+      "receipt_id": "a1b3a362b04944e2be86dd720bcc0b08",
+      "request_hash": "faa51bc03e0426a726863063155d23cd51f145e4d35e03e5037c3763ed0b82ae",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports gastrointestinal motility as something that can be assessed by smooth-muscle myoelectrical activity, but it does not explicitly define it as the smooth muscles’ activity that moves contents through the stomach and intestines.",
+        "The source is an animal physiology study about stress-induced changes in pigs; the definition’s broader clinical framing and terminology should not go beyond what this packet directly supports."
+      ],
+      "definition_hash": "aaaf547fb7f2dd4f64594f6e4d0e6d8b24df344fd69ae28d530b2e5bdae78bf3",
+      "packet_hash": "aef07bf81c1f320b098260739a9222527d80364d23c442ddbef9bd0a5800508d",
+      "published_packet_hash": "aef07bf81c1f320b098260739a9222527d80364d23c442ddbef9bd0a5800508d",
+      "receipt_id": "fe02810d89c748b980b90f99ff57d3e4",
+      "request_hash": "75bbe29826a627711797ad36770c2eeee29f95fad6313234550bda3c3ba44ad6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

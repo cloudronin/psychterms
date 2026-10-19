@@ -1,0 +1,64 @@
+{
+  "id": "clinical-evidence",
+  "term": "clinical evidence",
+  "definition": "Clinical evidence is information from clinical studies and observations that is used to judge how an intervention relates to patient outcomes in practice. In this context, it refers to the clinically focused findings considered alongside mechanistic and neurophysiological research.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13485960"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13485960",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1837913; article XML SHA-256 2bc921701e82b7b3548a233c55c52b1ce08dceca58b641436a373c2078f42365",
+      "scope": "Source record 10.3389/fnhum.2026.1837913; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1837913"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f0f97b666cc56aecebe6343e0bf2b4ccbc15024a025e8db934db8c8025b1d956",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1f94373cd5604cf29d1a5b6bfebb8534",
+    "request_hash": "ce08975b3655877761843a99fa3eba15434de1be5bde60a3acac618f7a6835ad",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "4395c8c9dc96deffcb1c09b8a30f583ca2171722f7415adc24c95db99b0dde77",
+    "packet_hash": "f0f97b666cc56aecebe6343e0bf2b4ccbc15024a025e8db934db8c8025b1d956"
+  },
+  "hash": "5b8aace74b37b4b83a74b76b6bc4d781f710a0ee3838a922e580c5b13f6296aa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported functional claim that clinical evidence is information “used to judge how an intervention relates to patient outcomes in practice”; the packet only says the review synthesized “clinical evidence” alongside mechanistic and neurophysiological evidence.",
+        "The packet supports that the article considered clinically oriented findings together with mechanistic and neurophysiological research, but it does not support the broader explanatory wording in the first sentence as a definition of the term."
+      ],
+      "definition_hash": "4395c8c9dc96deffcb1c09b8a30f583ca2171722f7415adc24c95db99b0dde77",
+      "packet_hash": "f0f97b666cc56aecebe6343e0bf2b4ccbc15024a025e8db934db8c8025b1d956",
+      "published_packet_hash": "f0f97b666cc56aecebe6343e0bf2b4ccbc15024a025e8db934db8c8025b1d956",
+      "receipt_id": "d903e14896c24abaa6e41d8bcb52b1aa",
+      "request_hash": "6d6239eb33084876daac7fbe4eda9072c74e76d796ced327f06e2af05959e9e6",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a general definition of “clinical evidence” as “information from clinical studies and observations … to judge how an intervention relates to patient outcomes in practice.” It only states the review’s aim to provide a clinically oriented synthesis including “mechanistic, neurophysiological, and clinical evidence” for taVNS in disorders of consciousness.",
+        "Because the packet does not support the broader wording about patient outcomes in practice and the general-purpose meaning of clinical evidence, the definition contains unsupported generalization beyond the provided text.",
+        "The “mechanistic and neurophysiological” part is consistent with the packet, but the overall definition includes substantively unsupported claims, so the definition cannot be accepted as 1–3 concise sentences supported by the packet."
+      ],
+      "definition_hash": "4395c8c9dc96deffcb1c09b8a30f583ca2171722f7415adc24c95db99b0dde77",
+      "packet_hash": "f0f97b666cc56aecebe6343e0bf2b4ccbc15024a025e8db934db8c8025b1d956",
+      "published_packet_hash": "f0f97b666cc56aecebe6343e0bf2b4ccbc15024a025e8db934db8c8025b1d956",
+      "receipt_id": "3fcce5a1605f4d2a8c7ee7d7b668958e",
+      "request_hash": "14b0bc2dc62c0c30a6383ec6e3d12244b5134687071a2bb40fd604aae32fc125",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

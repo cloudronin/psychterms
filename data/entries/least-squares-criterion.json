@@ -1,0 +1,64 @@
+{
+  "id": "least-squares-criterion",
+  "term": "least squares criterion",
+  "definition": "A least-squares criterion is a way of adjusting a model’s parameters so that the filtering or prediction error is made as small as possible. In this packet, it refers to choosing parameter values by minimizing the squared error while fitting the model.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7428144"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7428144",
+      "revision": "2020; DOI 10.1371/journal.pone.0237654; article XML SHA-256 bf8c1c6e8106940667a395426912234fa0d2f3b8e715cd905461ebd2b5d4aace",
+      "scope": "Source record 10.1371/journal.pone.0237654; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0237654"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c56ddf21613c43039117647f85f6b799",
+    "request_hash": "631339f538ee4340f1c09faa2d0a0bf71df1624961fc097b046fa12170e89b21",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "cf53b2f28091248a412c1da93d1f6dd6e4766d7a959b8663eb8173839c9d7228",
+    "packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6"
+  },
+  "hash": "b3fe4b020727ecc211719545e09ec1f3761c39e2bd0ee4677fb4b96777d877b6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds ‘prediction error,’ which is not supported by the packet; the packet only mentions minimizing filtering error.",
+        "It slightly overgeneralizes the source by presenting the criterion as a general model-fitting rule without limiting it to the packet’s stated filtering context."
+      ],
+      "definition_hash": "cf53b2f28091248a412c1da93d1f6dd6e4766d7a959b8663eb8173839c9d7228",
+      "packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6",
+      "published_packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6",
+      "receipt_id": "38b06e3edac94d95873a6ca2d8871b90",
+      "request_hash": "cc4188aa09202877c0b6fe23b3c8950b32661966a3bf637b2973dc08699fdfa9",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that parameters “are adapted on the basis of a least-squares criterion to minimize the filtering error”; it does not mention prediction error.",
+        "The definition claims the criterion is “minimizing the squared error”; the packet does not explicitly describe it as squared error (it only names “least-squares criterion”).",
+        "The definition adds “while fitting the model,” but the packet describes an adaptation algorithm for a filtering method rather than model fitting in that phrasing."
+      ],
+      "definition_hash": "cf53b2f28091248a412c1da93d1f6dd6e4766d7a959b8663eb8173839c9d7228",
+      "packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6",
+      "published_packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6",
+      "receipt_id": "348fac25bd2e4c93bb9dc7563e2fbae5",
+      "request_hash": "4f3d60869add3714e6b9ecfaac02092b8a59276b0e7d48b445495ad2064350b9",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

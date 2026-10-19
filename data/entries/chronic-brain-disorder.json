@@ -1,0 +1,63 @@
+{
+  "id": "chronic-brain-disorder",
+  "term": "chronic brain disorder",
+  "definition": "A chronic brain disorder is a long-lasting condition affecting the brain. In this source, epilepsy is described as a chronic brain disorder marked by recurring seizures, often following an earlier neuronal insult.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3788713"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3788713",
+      "revision": "2013; DOI 10.1371/journal.pone.0076299; article XML SHA-256 88fe31009cc667e8b98088e323466795fdb045002976e460212588816e60c0fa",
+      "scope": "Source record 10.1371/journal.pone.0076299; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0076299"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b64464269302b6aa1ec1881a94c553e6b85ea4b69ad55d847536c5be90971917",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b13102f786cc41a1a5b0bdfdfa759b23",
+    "request_hash": "3c65060cd6dcf700628250bcf67445a6ed818222b2c182aa80924d73aa23fb39",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "45074677b277948cfcf49ff602eb6b78ea46a672201f8dae05c764c772a31d96",
+    "packet_hash": "b64464269302b6aa1ec1881a94c553e6b85ea4b69ad55d847536c5be90971917"
+  },
+  "hash": "a019c5d694757151f3e58ad92108615d4a4ca00b548ce307fb26de831db8948b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“A chronic brain disorder is a long-lasting condition affecting the brain.”) is not supported by the packet text, which only states that epilepsy is a chronic brain disorder and describes it as involving recurring seizures often after an earlier neuronal insult.",
+        "Because the definition includes an unsupported general characterization (long-lasting condition affecting the brain), the overall definition does not meet the support requirement."
+      ],
+      "definition_hash": "45074677b277948cfcf49ff602eb6b78ea46a672201f8dae05c764c772a31d96",
+      "packet_hash": "b64464269302b6aa1ec1881a94c553e6b85ea4b69ad55d847536c5be90971917",
+      "published_packet_hash": "b64464269302b6aa1ec1881a94c553e6b85ea4b69ad55d847536c5be90971917",
+      "receipt_id": "06218bd7f83148aaa6e1a06af9722d3f",
+      "request_hash": "e6627d12ae6d1e74424f798950b523c68d3d12d46b9ee8ca2b8bfe39713dae8d",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports only the statement that epilepsy is a chronic brain disorder; it does not define the term ‘chronic brain disorder’ as a general category of any long-lasting condition affecting the brain.",
+        "The definition adds a broad generic gloss that goes beyond the packet’s wording and scope, instead of staying tightly anchored to the source’s specific use of the phrase in relation to epilepsy."
+      ],
+      "definition_hash": "45074677b277948cfcf49ff602eb6b78ea46a672201f8dae05c764c772a31d96",
+      "packet_hash": "b64464269302b6aa1ec1881a94c553e6b85ea4b69ad55d847536c5be90971917",
+      "published_packet_hash": "b64464269302b6aa1ec1881a94c553e6b85ea4b69ad55d847536c5be90971917",
+      "receipt_id": "4f8e489607904cef94d2a4418cdd8b0e",
+      "request_hash": "12bcd7c97250b555c7e94048cff161856310d8f44f6984306efe1dab710cc103",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

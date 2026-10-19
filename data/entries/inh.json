@@ -1,0 +1,60 @@
+{
+  "id": "inh",
+  "term": "INH",
+  "definition": "In this source, INH refers to C1-INH, short for C1-inhibitor. It is described as a regulator of complement activation.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13178988"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13178988",
+      "revision": "2026; DOI 10.1371/journal.pone.0349101; article XML SHA-256 76ec0f69db6775191624ff610b4fc5adf35ff449056becd7071e20e86961a514",
+      "scope": "Source record 10.1371/journal.pone.0349101; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0349101"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d550d15ba5b09fb7be3b1013db9fa3e9d46cda37b68dcae6fb531f64d39cb379",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7f942cb226eb47929a87b2017e3bc5d2",
+    "request_hash": "769b48a8f128ced3afc3d3c1559b8ff299a57ce90fce4d5c3a4157511747ef62",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "557607544095d4c6d15d6e20bb6bba843f1375f57e9a0fefe30ed8f54942c70f",
+    "packet_hash": "d550d15ba5b09fb7be3b1013db9fa3e9d46cda37b68dcae6fb531f64d39cb379"
+  },
+  "hash": "2af37a3cde0b88632637eac2ce789862c8cbdebf34f0b26fb93f0e6c4904a5b5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "557607544095d4c6d15d6e20bb6bba843f1375f57e9a0fefe30ed8f54942c70f",
+      "packet_hash": "d550d15ba5b09fb7be3b1013db9fa3e9d46cda37b68dcae6fb531f64d39cb379",
+      "published_packet_hash": "d550d15ba5b09fb7be3b1013db9fa3e9d46cda37b68dcae6fb531f64d39cb379",
+      "receipt_id": "7510449a826a4d8eb1745f113dae2c3c",
+      "request_hash": "53bf40b20b559f5f755af0fc49111aadff09ae215a9db8603e495b71e680e393",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text supports C1-inhibitor/C1-INH, but it does not support the claim that the term INH itself is the acronym for that substance.",
+        "“Short for C1-inhibitor” is reversed: the source gives C1-inhibitor as the name and C1-INH as the abbreviation, not INH."
+      ],
+      "definition_hash": "557607544095d4c6d15d6e20bb6bba843f1375f57e9a0fefe30ed8f54942c70f",
+      "packet_hash": "d550d15ba5b09fb7be3b1013db9fa3e9d46cda37b68dcae6fb531f64d39cb379",
+      "published_packet_hash": "d550d15ba5b09fb7be3b1013db9fa3e9d46cda37b68dcae6fb531f64d39cb379",
+      "receipt_id": "471114b6cd5f4cd1a977ec96888e64ac",
+      "request_hash": "663027908028b7bf95189cacd285b76d787da16ca78272d8643b85a201f0ad7f",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "amount-of-masking",
+  "term": "amount of masking",
+  "definition": "Amount of masking is the degree to which sounds from one source make a signal from another source harder to hear. It varies with the properties of the signal and masker and with their spatial relationship.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3196535"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3196535",
+      "revision": "2011; DOI 10.1371/journal.pone.0026124; article XML SHA-256 55df550d4fb168022b847361122dfc0f91dce8701dcf903487b260590dc38560",
+      "scope": "Source record 10.1371/journal.pone.0026124; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0026124"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8cceb1af2ec980912eca4e7736de8dca109b95d642dedfe9ed67b7487cf1f3a1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e5587c85935d442d959cfd3d239b7dfe",
+    "request_hash": "a7e96649b3d33ccecb6fb0597bd6ff3eeecbe870165237b3091df1d87dca9978",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "89c25c00deeeec75e44d774cf551da705e108561019ef7d778c947e69da5ee86",
+    "packet_hash": "8cceb1af2ec980912eca4e7736de8dca109b95d642dedfe9ed67b7487cf1f3a1"
+  },
+  "hash": "540f2109c0234226e83bb96c25f55baa19436223240a8a5b34b432cd1e700dc9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "89c25c00deeeec75e44d774cf551da705e108561019ef7d778c947e69da5ee86",
+      "packet_hash": "8cceb1af2ec980912eca4e7736de8dca109b95d642dedfe9ed67b7487cf1f3a1",
+      "published_packet_hash": "8cceb1af2ec980912eca4e7736de8dca109b95d642dedfe9ed67b7487cf1f3a1",
+      "receipt_id": "0b9f2eade06c4aa9aefcdf9bacdcb46c",
+      "request_hash": "525e363629317d7b1ba2ca376c7e22d2250a45b9d0a580fd07bda0fd1e2d8793",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition does not indicate the sensory modality/context (auditory perception/detection) that is central to the packet; the packet describes masking of sounds and signal detection in an auditory context.",
+        "While the packet supports that masking depends on sound characteristics and relative spatial location, the phrase “degree to which sounds from one source make a signal from another source harder to hear” is not directly stated in the packet (it uses “amount of masking” and “detectability/thresholds,” but not “harder to hear” as wording or exact concept).",
+        "The packet frames “amount of masking” in terms of masked thresholds / detection performance; the definition’s focus on “harder to hear” is a looser paraphrase than what the packet most directly supports."
+      ],
+      "definition_hash": "89c25c00deeeec75e44d774cf551da705e108561019ef7d778c947e69da5ee86",
+      "packet_hash": "8cceb1af2ec980912eca4e7736de8dca109b95d642dedfe9ed67b7487cf1f3a1",
+      "published_packet_hash": "8cceb1af2ec980912eca4e7736de8dca109b95d642dedfe9ed67b7487cf1f3a1",
+      "receipt_id": "2002d6a583e34aac9adaa65d2ff7f715",
+      "request_hash": "21a801ff3a2ef3f79df03dbd7297526cfb337e85acb1a38a445a30d301c1a100",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

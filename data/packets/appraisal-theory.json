@@ -1,0 +1,26 @@
+{
+  "id": "appraisal-theory",
+  "term": "appraisal theory",
+  "source": "article-pmc11759405",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0315929",
+  "revision": "2025; DOI 10.1371/journal.pone.0315929; article XML SHA-256 9a07a41d04a5c33c8ca65bad94ba1d8c8e688b6c89e29ce06e5eea03b68b0010",
+  "source_snapshot_sha256": "9a07a41d04a5c33c8ca65bad94ba1d8c8e688b6c89e29ce06e5eea03b68b0010",
+  "url": "https://doi.org/10.1371/journal.pone.0315929",
+  "text": "Appraisal models, such as the Scherer’s Component Process Model (CPM), represent an elegant framework for the interpretation of emotion processes, advocating for computational models that capture emotion dynamics. Today’s emotion recognition research, however, typically classifies discrete qualities or categorised dimensions, neglecting the dynamic nature of emotional processes and thus limiting interpretability based on appraisal theory. In our research, we estimate emotion intensity from multiple physiological features associated to the CPM’s neurophysiological component using dynamical models with the aim of bringing insights into the relationship between physiological dynamics and perceived emotion intensity. To this end, we employ nonlinear autoregressive exogeneous (NARX) models, as their parameters can be interpreted within the CPM. In our experiment, emotions of varying intensities are induced for three distinct qualities while physiological signals are measured, and participants assess their subjective feeling in real time. Using data-extracted physiological features, we train intrasubject and intersubject intensity models using a genetic algorithm, which outperform traditional sliding-window linear regression, providing a robust basis for interpretation. The NARX model parameters obtained, interpreted by appraisal theory, indicate consistent heart rate parameters in the intersubject models, suggesting a large temporal contribution that aligns with the CPM-predicted changes.",
+  "source_label": "Dynamic emotion intensity estimation from physiological signals facilitating interpretation via appraisal theory",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1508
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "3b3147dbc941a672856682cc909f3e16107746449c138119aa33f7125890c6f1"
+}

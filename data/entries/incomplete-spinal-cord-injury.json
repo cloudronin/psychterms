@@ -1,0 +1,60 @@
+{
+  "id": "incomplete-spinal-cord-injury",
+  "term": "incomplete spinal cord injury",
+  "definition": "Incomplete spinal cord injury is a spinal cord injury that causes motor and sensory impairments without completely eliminating function. It can include reduced proprioceptive feedback, which may contribute to unsteady or insecure walking even in people who remain able to walk well.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4060051"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4060051",
+      "revision": "2014; DOI 10.3389/fnhum.2014.00416; article XML SHA-256 101a78d1b982158c88fd7315df88e5581b4f5d18741b519320c9079f85c2c69f",
+      "scope": "Source record 10.3389/fnhum.2014.00416; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2014.00416"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "92f5152ac7936d31ffb96937de2f3727c7f3fa64abc9f2afc6b37f72edd4bb35",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b03320239baa4693adda7addce940e22",
+    "request_hash": "559ea32a75dde5a986314c1c640db25acfc4d40669e8d43a2c39821556346105",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "b963d42567b136c7710346c7b83ceda7dd39a9439ed4116ff3f6d62bc511d45f",
+    "packet_hash": "92f5152ac7936d31ffb96937de2f3727c7f3fa64abc9f2afc6b37f72edd4bb35"
+  },
+  "hash": "8da6a69fc72f2e40fb6e3ff8456a7073e0a2ad3652873c34b7ab19dac80473f2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b963d42567b136c7710346c7b83ceda7dd39a9439ed4116ff3f6d62bc511d45f",
+      "packet_hash": "92f5152ac7936d31ffb96937de2f3727c7f3fa64abc9f2afc6b37f72edd4bb35",
+      "published_packet_hash": "92f5152ac7936d31ffb96937de2f3727c7f3fa64abc9f2afc6b37f72edd4bb35",
+      "receipt_id": "61ec465464f34553bdc46dfc2c459e69",
+      "request_hash": "3c437fee4cd4d9a2c5c33ef0037b555e422f703559f040553a0e581b989dc3d6",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that an incomplete spinal cord injury ‘causes motor and sensory impairments without completely eliminating function.’ The packet only states that incomplete spinal cord injury ‘leads to motor and sensory deficits’ and does not explicitly support the “without completely eliminating function” wording.",
+        "The packet does support the related idea that impaired proprioception/internal afferent (feedback) can lead to an insecure gait (it mentions ‘impaired proprioception’ resulting in ‘an insecure gait’ and ‘limited internal afferent feedback’)."
+      ],
+      "definition_hash": "b963d42567b136c7710346c7b83ceda7dd39a9439ed4116ff3f6d62bc511d45f",
+      "packet_hash": "92f5152ac7936d31ffb96937de2f3727c7f3fa64abc9f2afc6b37f72edd4bb35",
+      "published_packet_hash": "92f5152ac7936d31ffb96937de2f3727c7f3fa64abc9f2afc6b37f72edd4bb35",
+      "receipt_id": "f1204b6737654fdcbd0afda2389a2abf",
+      "request_hash": "dc4902a9e609a0d27225c58cb335d79f4591122753a0fbefa4da9e8ae93b0329",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

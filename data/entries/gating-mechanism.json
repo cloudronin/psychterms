@@ -1,0 +1,65 @@
+{
+  "id": "gating-mechanism",
+  "term": "gating mechanism",
+  "definition": "A gating mechanism is a control process in a system such as an LSTM that regulates what information is allowed through so the system can estimate patterns across a sequence. In this context, it helps the model handle changing information over time.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11671002"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11671002",
+      "revision": "2024; DOI 10.1371/journal.pone.0312856; article XML SHA-256 82f59a069527c2e735d93db0ad4014369ba3fd5fd39d1208ac09639b9bd06295",
+      "scope": "Source record 10.1371/journal.pone.0312856; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0312856"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6b242fb5a33b468a9b3b04534f59ccfa",
+    "request_hash": "84f38037ef5441446c090127f86bc3bde3467998376ddb3f9839b3472132a0c4",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "d8353bb32c96303cc298762f4ca4aa70d9f2250c7e5fda2b357db4350c4af269",
+    "packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9"
+  },
+  "hash": "e44e399f2284fab57496234ceb93cdfcd055f564829078f5f09fd3736c3d4313",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition of “gating mechanism” or describe it as a “control process” that regulates what information is allowed through; it only states that an LSTM “achieves sequence information estimation through a gating mechanism.”",
+        "The packet does not support the claims that the gating mechanism “regulates what information is allowed through” or that it “helps the model handle changing information over time.”",
+        "The definition’s wording is more general than anything explicitly stated in the packet (the packet is about LSTM-based battery State of Health estimation, not explaining the gating mechanism conceptually)."
+      ],
+      "definition_hash": "d8353bb32c96303cc298762f4ca4aa70d9f2250c7e5fda2b357db4350c4af269",
+      "packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9",
+      "published_packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9",
+      "receipt_id": "156952cd69ff4dd5be5ab78e5d4390fe",
+      "request_hash": "e0fa882b28f973cdda6d0784b6419aade52c4219e2794841a0081ce2de5ede78",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that an LSTM achieves sequence information estimation through a gating mechanism, but it does not support the added explanation that the mechanism “regulates what information is allowed through.”",
+        "The packet does not support the claim that the mechanism helps the system “estimate patterns across a sequence”; it only states that LSTM achieves sequence information estimation through a gating mechanism.",
+        "The packet does not support the broader claim about helping the model handle “changing information over time.”"
+      ],
+      "definition_hash": "d8353bb32c96303cc298762f4ca4aa70d9f2250c7e5fda2b357db4350c4af269",
+      "packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9",
+      "published_packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9",
+      "receipt_id": "b9869f4e733f42ee992377926dd79ca7",
+      "request_hash": "9cedb2a93501932f439541061aac693ba5071242ebab12f7e2861ee6525a8b26",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

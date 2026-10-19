@@ -1,0 +1,63 @@
+{
+  "id": "peer-counseling",
+  "term": "peer counseling",
+  "definition": "Peer counseling is a community-based support approach in which people receive guidance from peers rather than only from formal health services. In the source, it is described as a promising, low-cost way to improve breastfeeding outcomes, especially when combined with health-system support.",
+  "field": "counselling skills",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11717301"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11717301",
+      "revision": "2025; DOI 10.1371/journal.pone.0313779; article XML SHA-256 5d7332b3cb527236c27ebb66e6bf4d0df2162d8e55d9d6310336fc6ca7ab9943",
+      "scope": "Source record 10.1371/journal.pone.0313779; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0313779"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2c751413d4f72f0772537322adac131914fc9ecaa5b743a5185ac9dfbf069ff4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d8dcbdcbe0d8463698875341367bd2c3",
+    "request_hash": "df2be2fda9d81045880d4c751549371eb633bbbb3b7714b7d0fb7217102d92b7",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "0c6f951a9822fba0e0d701326a8f8b0a42f0fe0fa692bbd55b1bac016128399d",
+    "packet_hash": "2c751413d4f72f0772537322adac131914fc9ecaa5b743a5185ac9dfbf069ff4"
+  },
+  "hash": "1ade979550dec55387f5aef6a80c29a50f6d162a7db1ad68e7ae588984ff7c28",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “BF peer counseling” is a promising, community-based strategy and that combining health systems and community-based services has larger effects, and it states the interventions are “Low-cost.” However, it does not support the claim that peer counseling provides guidance “rather than only from formal health services.”",
+        "The packet text does not explicitly define peer counseling as guidance “from peers” (it uses the term “peer counseling” in the context of breastfeeding outcomes, but the requested first-sentence mechanism/contrast is not stated)."
+      ],
+      "definition_hash": "0c6f951a9822fba0e0d701326a8f8b0a42f0fe0fa692bbd55b1bac016128399d",
+      "packet_hash": "2c751413d4f72f0772537322adac131914fc9ecaa5b743a5185ac9dfbf069ff4",
+      "published_packet_hash": "2c751413d4f72f0772537322adac131914fc9ecaa5b743a5185ac9dfbf069ff4",
+      "receipt_id": "05ee0868d1524a8cb068d504fa60e624",
+      "request_hash": "bb151e4c73953981b4770bfb8b3ffd3bd0006c2d67c78f06e539ce434e7d33bc",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported generalization that peer counseling is a community-based support approach where people receive guidance from peers rather than only from formal health services; the packet only describes breastfeeding peer counseling as a community-based strategy.",
+        "The claim that peer counseling is a 'promising, low-cost way' to improve breastfeeding outcomes is broader than the packet support; the source says peer counseling is promising and separately discusses low-cost, high-yield primary prevention interventions, but does not specifically state that peer counseling itself is low-cost."
+      ],
+      "definition_hash": "0c6f951a9822fba0e0d701326a8f8b0a42f0fe0fa692bbd55b1bac016128399d",
+      "packet_hash": "2c751413d4f72f0772537322adac131914fc9ecaa5b743a5185ac9dfbf069ff4",
+      "published_packet_hash": "2c751413d4f72f0772537322adac131914fc9ecaa5b743a5185ac9dfbf069ff4",
+      "receipt_id": "be1c2520fd524d2c8c9a886a2c960264",
+      "request_hash": "2b54999f4d6517012289c4b656f0e8760849f3177cba5cb977691a2bfd6d7dae",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

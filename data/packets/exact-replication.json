@@ -1,0 +1,26 @@
+{
+  "id": "exact-replication",
+  "term": "exact replication",
+  "source": "article-pmc9678326",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0276539",
+  "revision": "2022; DOI 10.1371/journal.pone.0276539; article XML SHA-256 17d9f4d55112aafcbdd38795dd1b5e710248546653504a6064c71ea3671c2f56",
+  "source_snapshot_sha256": "17d9f4d55112aafcbdd38795dd1b5e710248546653504a6064c71ea3671c2f56",
+  "url": "https://doi.org/10.1371/journal.pone.0276539",
+  "text": "This registered report introduces the largest, and for the first time, reproducible experimental survey on biomedical sentence similarity with the following aims: (1) to elucidate the state of the art of the problem; (2) to solve some reproducibility problems preventing the evaluation of most current methods; (3) to evaluate several unexplored sentence similarity methods; (4) to evaluate for the first time an unexplored benchmark, called Corpus-Transcriptional-Regulation (CTR); (5) to carry out a study on the impact of the pre-processing stages and Named Entity Recognition (NER) tools on the performance of the sentence similarity methods; and finally, (6) to bridge the lack of software and data reproducibility resources for methods and experiments in this line of research. Our reproducible experimental survey is based on a single software platform, which is provided with a detailed reproducibility protocol and dataset as supplementary material to allow the exact replication of all our experiments and results. In addition, we introduce a new aggregated string-based sentence similarity method, called LiBlock, together with eight variants of current ontology-based methods, and a new pre-trained word embedding model trained on the full-text articles in the PMC-BioC corpus. Our experiments show that our novel string-based measure establishes the new state of the art in sentence similarity analysis in the biomedical domain and significantly outperforms all the methods evaluated herein, with the only exception of one ontology-based method. Likewise, our experiments confirm that the pre-processing stages, and the choice of the NER tool for ontology-based methods, have a very significant impact on the performance of the sentence similarity methods. We also detail some drawbacks and limitations of current methods, and highlight the need to refine the current benchmarks. Finally, a notable finding is that our new string-based method significantly outperforms all state-of-the-art Machine Learning (ML) models evaluated herein.",
+  "source_label": "A reproducible experimental survey on biomedical sentence similarity: A string-based method sets the state of the art",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2049
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "c102f0de7e3706739e9dc7bd34b53e3eb2a62a981127d0f1c60e11240e1e0528"
+}

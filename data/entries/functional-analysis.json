@@ -1,0 +1,61 @@
+{
+  "id": "functional-analysis",
+  "term": "functional analysis",
+  "definition": "Functional analysis here refers to analysing information that is treated as a continuous function, such as patterns unfolding over time, space, or frequency. In this context, it is used to model and interpret functional time-series data while examining how hidden states and their changing occupancy relate to characteristics within those states.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12204692"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12204692",
+      "revision": "2025; DOI 10.1371/journal.pone.0326598; article XML SHA-256 4129538a982643e321ad10e70342734e70f8c8420cec0bff5696a787fc7a6bbe",
+      "scope": "Source record 10.1371/journal.pone.0326598; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0326598"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4e5377395db492e13c6afc58d1bd23e8da013aaa650b536a55b5be6200419ff8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bdf1328774c345e48b7293fb72047832",
+    "request_hash": "66db016ca32d588c7a8612810404d09c02b71e6a8291f2627b3349bee69b88d5",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "55a8bc782cc4adca046e93cac49d70d1f97caaeb4c63463026ed98216ad8ac55",
+    "packet_hash": "4e5377395db492e13c6afc58d1bd23e8da013aaa650b536a55b5be6200419ff8"
+  },
+  "hash": "c039004be78f55585c710afa381300cd659319cebf551bcb0cbdbfbb168dd932",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "55a8bc782cc4adca046e93cac49d70d1f97caaeb4c63463026ed98216ad8ac55",
+      "packet_hash": "4e5377395db492e13c6afc58d1bd23e8da013aaa650b536a55b5be6200419ff8",
+      "published_packet_hash": "4e5377395db492e13c6afc58d1bd23e8da013aaa650b536a55b5be6200419ff8",
+      "receipt_id": "f1a50e1a66c04686b1f7ab6a7d2cbf73",
+      "request_hash": "1df261dea5d5dbd1020b28aa12fbc21dc067efe4a2c2b2db030dd533c4afd2f9",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “Functional data analysis (FDA)” for modelling functions over a continuum, but it does not define the term “functional analysis” in that general way (the supported term is specifically “Functional data analysis (FDA)”).",
+        "The definition’s framing (“hidden states”) is not the terminology used in the packet, which refers to “latent states” in the proposed flawless framework; the mapping to “hidden” is not directly stated as equivalent in the packet.",
+        "The definition describes “functional analysis” as including a latent/occupancy modelling purpose; the packet supports this purpose only in the context of the specific “flawless” framework, not as a general description of “functional analysis” broadly."
+      ],
+      "definition_hash": "55a8bc782cc4adca046e93cac49d70d1f97caaeb4c63463026ed98216ad8ac55",
+      "packet_hash": "4e5377395db492e13c6afc58d1bd23e8da013aaa650b536a55b5be6200419ff8",
+      "published_packet_hash": "4e5377395db492e13c6afc58d1bd23e8da013aaa650b536a55b5be6200419ff8",
+      "receipt_id": "a456970e7a1b4b928e12fd1c7fa4e8e6",
+      "request_hash": "82e6c42210b0355ac18b0220708905af2fbceb559207d196f16ca8312020c4b4",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

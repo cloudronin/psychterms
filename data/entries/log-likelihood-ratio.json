@@ -1,0 +1,63 @@
+{
+  "id": "log-likelihood-ratio",
+  "term": "log-likelihood ratio",
+  "definition": "A log-likelihood ratio is a statistical comparison that tests how strongly data fit one pattern versus another. In this context, it was used in keyness analysis to identify statistically significant differences in word use.",
+  "field": "counselling skills",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13044062"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13044062",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1564018; article XML SHA-256 92e5077dbec382a0da2ed4391246c2a4e88d611526404cc603c85c60438dff07",
+      "scope": "Source record 10.3389/fpsyg.2026.1564018; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1564018"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0ed2c9c775bfbdfe77c105eacda76c7cc3877a401bf7c3350a88ae6994bc6b14",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7be810c578a240f99e6e95f9f28c03b3",
+    "request_hash": "d7e161be8c4d6111912f51879ba4923c6094f0ba981b64a7307f731667ca9642",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "50afefb8728689218bc67c3c1e9ba964bf0573b3a9e7d4ddabeee09a15d09b39",
+    "packet_hash": "0ed2c9c775bfbdfe77c105eacda76c7cc3877a401bf7c3350a88ae6994bc6b14"
+  },
+  "hash": "8fdd2abe3dc176295fc24387165f7cee30aa97f2ed18b6b3067beaec092b05e1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general statistical definition (“tests how strongly data fit one pattern versus another”) that is not supported by the packet; the packet only says the log-likelihood ratio test (G2) was used in keyness analysis and revealed statistically significant lexical differences.",
+        "The definition should stay tightly within the supplied source’s wording and scope; the broader explanation of how the statistic works is an unsupported generalization."
+      ],
+      "definition_hash": "50afefb8728689218bc67c3c1e9ba964bf0573b3a9e7d4ddabeee09a15d09b39",
+      "packet_hash": "0ed2c9c775bfbdfe77c105eacda76c7cc3877a401bf7c3350a88ae6994bc6b14",
+      "published_packet_hash": "0ed2c9c775bfbdfe77c105eacda76c7cc3877a401bf7c3350a88ae6994bc6b14",
+      "receipt_id": "844660662ce848d881402293d88db007",
+      "request_hash": "930aacb20b220f7ad26d59435472f523619d83b70743f5a43e18ec73e50b6481",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that keyness analysis was performed via the log-likelihood ratio test (G2) to reveal statistically significant lexical differences; it does not support the definition’s general characterization that it “tests how strongly data fit one pattern versus another.”",
+        "The claim that it was “used … to identify statistically significant differences in word use” is only indirectly supported by the packet’s statement about statistically significant lexical differences, without explicit phrasing about “word use” broadly."
+      ],
+      "definition_hash": "50afefb8728689218bc67c3c1e9ba964bf0573b3a9e7d4ddabeee09a15d09b39",
+      "packet_hash": "0ed2c9c775bfbdfe77c105eacda76c7cc3877a401bf7c3350a88ae6994bc6b14",
+      "published_packet_hash": "0ed2c9c775bfbdfe77c105eacda76c7cc3877a401bf7c3350a88ae6994bc6b14",
+      "receipt_id": "8b3783ed15604a0c8db52cf9530dc311",
+      "request_hash": "1aa6c08f04990a1662d614f84365b2904021ea46b75881d307f6783ce56f7057",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

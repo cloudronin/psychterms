@@ -1,0 +1,61 @@
+{
+  "id": "descriptive-discriminant-analysis",
+  "term": "descriptive discriminant analysis",
+  "definition": "Descriptive discriminant analysis is a statistical approach used to examine how a set of measured variables separates or distinguishes between groups. In this context, it was used to show which patterns of scores best characterized differences between groups such as men and women or athletes and non-athletes.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7387713"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7387713",
+      "revision": "2020; DOI 10.3389/fpsyg.2020.01646; article XML SHA-256 1644ce7a26f685b3aa5716485d87ccb1b1d63c8b539a7039dfa529a23c87eac6",
+      "scope": "Source record 10.3389/fpsyg.2020.01646; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2020.01646"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3558279d10d3b0de248382402a6505a8b15d6133b29fb83ac1b07779197d6e77",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e16f2488b0b944d9b43af9bc855d72d9",
+    "request_hash": "204dfa41d4cff56f350acfc5a54336fe2660c045fa7e6dde06dc37342e5c1515",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "942a18a63a7ca9b7de5ec6f4199fe26885b0802f38658ad3441cb07a00d6094d",
+    "packet_hash": "3558279d10d3b0de248382402a6505a8b15d6133b29fb83ac1b07779197d6e77"
+  },
+  "hash": "202f6c2fe96deb756e4de9c51fcecc26b178eade6e87bd408813ebacdb96d168",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "942a18a63a7ca9b7de5ec6f4199fe26885b0802f38658ad3441cb07a00d6094d",
+      "packet_hash": "3558279d10d3b0de248382402a6505a8b15d6133b29fb83ac1b07779197d6e77",
+      "published_packet_hash": "3558279d10d3b0de248382402a6505a8b15d6133b29fb83ac1b07779197d6e77",
+      "receipt_id": "0c8982bc53ef422e97ef14ddd3e144f6",
+      "request_hash": "e166ff6d471b4fb6d3d2ae7c2c992a57dd2cea7e7487b8057a08d01b40eedde1",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general description of what descriptive discriminant analysis is (\"used to examine how a set of measured variables separates or distinguishes between groups\") is not explicitly stated in the provided packet; the packet only reports that a discriminant analysis was used and that variables discriminated between specific groups.",
+        "The definition claims it was used \"to show which patterns of scores best characterized differences between groups\"—the packet states that variables significantly discriminated between groups and provides which variables/scores defined groups, but it does not explicitly describe this as showing the \"best\" patterns of scores.",
+        "The example groups in the definition are only partially supported: the packet reports discrimination between genders and some athlete vs non-athlete findings, but it also specifies that \"Non-athletes were not well defined by the discriminant function,\" which is not reflected in the definition."
+      ],
+      "definition_hash": "942a18a63a7ca9b7de5ec6f4199fe26885b0802f38658ad3441cb07a00d6094d",
+      "packet_hash": "3558279d10d3b0de248382402a6505a8b15d6133b29fb83ac1b07779197d6e77",
+      "published_packet_hash": "3558279d10d3b0de248382402a6505a8b15d6133b29fb83ac1b07779197d6e77",
+      "receipt_id": "d07084b63ff74d60a367f4bc19401be3",
+      "request_hash": "3774dab2c1d51fbd9f6c3dbcfbd1759bff37d5b006f1b5cc401863540b60cca5",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

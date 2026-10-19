@@ -1,0 +1,64 @@
+{
+  "id": "neural-receptor",
+  "term": "neural receptor",
+  "definition": "A neural receptor is a receptor found in brain or other nervous-system tissue that allows cells to respond to signaling substances such as hormones. In this source, neural receptors refer to glucocorticoid-binding receptors in the brain whose distribution may help shape stress regulation, behavior, and other physiological traits.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4750984"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4750984",
+      "revision": "2016; DOI 10.1371/journal.pone.0148516; article XML SHA-256 83a62b0642d5f7ff6b7e4de495fe623728aa512b4442f1a6e3caada8881eddf1",
+      "scope": "Source record 10.1371/journal.pone.0148516; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0148516"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "06389283ac864c7b9bb16dd9f4a43c813060e750380ae86f847f36ed34a321ab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9015349f2ab040069c1ac5fd1e347dc5",
+    "request_hash": "98ed6a3493dbe61c8697cefff0cfe7417ca486cdac19b9a92a1695322b566f51",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "cb0fae720a10da8191bb0f237f0d0d2488d8375fb80696526ea8a5f292bcc3ff",
+    "packet_hash": "06389283ac864c7b9bb16dd9f4a43c813060e750380ae86f847f36ed34a321ab"
+  },
+  "hash": "0ff6d9f67b6402b59760fa54f8d2b5ececa1b62a0148bb074aa0953f6067ed3b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define or use the term as a general “receptor found in brain or other nervous-system tissue”; it discusses glucocorticoid receptors (MR and GR) in the brain and other vertebrate tissues, not a broad class called “neural receptor.”",
+        "“In this source, neural receptors refer to glucocorticoid-binding receptors in the brain” overstates the article’s wording: the source mentions “neural receptor patterns” and specific receptors (MR and GR), but does not establish that ‘neural receptor’ is the term for those receptors.",
+        "The first sentence is broader than the source, which supports receptor-mediated transcriptional effects and stress response, but not the general definitional claim about receptors enabling cells to respond to signaling substances in nervous tissue."
+      ],
+      "definition_hash": "cb0fae720a10da8191bb0f237f0d0d2488d8375fb80696526ea8a5f292bcc3ff",
+      "packet_hash": "06389283ac864c7b9bb16dd9f4a43c813060e750380ae86f847f36ed34a321ab",
+      "published_packet_hash": "06389283ac864c7b9bb16dd9f4a43c813060e750380ae86f847f36ed34a321ab",
+      "receipt_id": "0d632d556c104e4895da1dfec76684d0",
+      "request_hash": "3e85d03772eef0230537847fd7dc4f4650df90f6549972383514fbf525514d35",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence claims a general definition: “found in brain or other nervous-system tissue.” The packet discusses receptor expression in brain (and mentions vertebrate tissues overall) but does not support the “other nervous-system tissue” portion as part of the term’s meaning in this source.",
+        "The first sentence also generalizes to “signaling substances such as hormones.” While glucocorticoids (hormones) are discussed, the packet does not support that neural receptors (as used here) broadly “allow cells to respond” to signaling substances in general; it specifically frames glucocorticoid signaling via GR/MR."
+      ],
+      "definition_hash": "cb0fae720a10da8191bb0f237f0d0d2488d8375fb80696526ea8a5f292bcc3ff",
+      "packet_hash": "06389283ac864c7b9bb16dd9f4a43c813060e750380ae86f847f36ed34a321ab",
+      "published_packet_hash": "06389283ac864c7b9bb16dd9f4a43c813060e750380ae86f847f36ed34a321ab",
+      "receipt_id": "26d37e3d81674af4bb830339356a7ed0",
+      "request_hash": "f43b8a0aed1f1abbeccc6bd55285151814068a948cc1ee030f80e82125817fa4",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

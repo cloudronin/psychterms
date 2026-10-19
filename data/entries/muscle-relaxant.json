@@ -1,0 +1,60 @@
+{
+  "id": "muscle-relaxant",
+  "term": "muscle relaxant",
+  "definition": "A muscle relaxant is a drug used in surgical anesthesia to reduce muscle activity. In the supplied source, pancuronium is an example that inhibits muscle-type nicotinic acetylcholine receptors, which blocks the signaling that activates muscle.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10569638"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10569638",
+      "revision": "2023; DOI 10.1371/journal.pone.0292262; article XML SHA-256 d79389699d04486d9a8bc627ab99225394ab4fb349d29c68aba777bfc02d2456",
+      "scope": "Source record 10.1371/journal.pone.0292262; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0292262"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "03642c7166c0b3af444f55d4616ced5ff6a2b47f36570b2d2ef7bbd12950d7f1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "beba13f7aa694658915d00d304d0a4e2",
+    "request_hash": "b5709a59f4e5636e7fe1f31be96581907182a5fac09efdc87e52ab6be177827b",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "3f2e86de55203441c9d69a905189119c17c0391d3d2db44e0c040e593e35a1a5",
+    "packet_hash": "03642c7166c0b3af444f55d4616ced5ff6a2b47f36570b2d2ef7bbd12950d7f1"
+  },
+  "hash": "3403d3c78c2b0ac9e260ae4f6f4e49929fbd6f66c15f897eaf35db644b51c816",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3f2e86de55203441c9d69a905189119c17c0391d3d2db44e0c040e593e35a1a5",
+      "packet_hash": "03642c7166c0b3af444f55d4616ced5ff6a2b47f36570b2d2ef7bbd12950d7f1",
+      "published_packet_hash": "03642c7166c0b3af444f55d4616ced5ff6a2b47f36570b2d2ef7bbd12950d7f1",
+      "receipt_id": "c19e3e51c806472f9c0537f3d3707925",
+      "request_hash": "66fc49897c5b4f303c1db8297150ec6ebbfaea6e6a186d7a5ce5884a7a4f847b",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states pancuronium blocks nicotinic acetylcholine receptors (nAChR) and that it allosterically inhibits nAChR activity, but it does not explicitly support the claim that pancuronium \"blocks the signaling that activates muscle\" as a described mechanism in these terms.",
+        "Because that specific causal phrasing (“blocks the signaling that activates muscle”) is not directly supported by the packet text, the definition contains an unsupported mechanistic restatement."
+      ],
+      "definition_hash": "3f2e86de55203441c9d69a905189119c17c0391d3d2db44e0c040e593e35a1a5",
+      "packet_hash": "03642c7166c0b3af444f55d4616ced5ff6a2b47f36570b2d2ef7bbd12950d7f1",
+      "published_packet_hash": "03642c7166c0b3af444f55d4616ced5ff6a2b47f36570b2d2ef7bbd12950d7f1",
+      "receipt_id": "7ced93de26c043df96fc08f60bedd92b",
+      "request_hash": "1d72bb2332e355e3ac293ee20b20e63e4ab850db6e5cab1b6be735029ec050dd",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

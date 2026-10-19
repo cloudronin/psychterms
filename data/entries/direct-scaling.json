@@ -1,0 +1,57 @@
+{
+  "id": "direct-scaling",
+  "term": "direct scaling",
+  "definition": "Direct scaling is the multiplicative increase of a neuron’s synaptic input, so that both the average level and variability of the net current are scaled together. In the balanced excitation-inhibition range described here, this produces an immediate proportional amplification of spiking responses that can track rapid input changes without depending on earlier spiking.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5245787"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5245787",
+      "revision": "2017; DOI 10.1371/journal.pcbi.1005306; article XML SHA-256 11f122f8f59bd2181c99efc2f8f78994d47fc7a3a1d232dd6d9898b80a739b19",
+      "scope": "Source record 10.1371/journal.pcbi.1005306; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pcbi.1005306"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c907a32b893785900e8a2f2503e97ba3c2f0f85e27e8d5cbef10cfb8759d37ed",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ece2b192ecac4c88924ec3bf6436c8de",
+    "request_hash": "6bbd3d1a8f0b190d27b023d4ec7b98b9503d32566a8c5042bd4bf1e77bad6083",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "17253c12c24c4eb9c24833c941e838b29f862ed10d05494172b99cac34d81cfd",
+    "packet_hash": "c907a32b893785900e8a2f2503e97ba3c2f0f85e27e8d5cbef10cfb8759d37ed"
+  },
+  "hash": "164cac636d05035fb3eeb52afa1950ff4496012ab58fd2cdcf3255319f9219e9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "17253c12c24c4eb9c24833c941e838b29f862ed10d05494172b99cac34d81cfd",
+      "packet_hash": "c907a32b893785900e8a2f2503e97ba3c2f0f85e27e8d5cbef10cfb8759d37ed",
+      "published_packet_hash": "c907a32b893785900e8a2f2503e97ba3c2f0f85e27e8d5cbef10cfb8759d37ed",
+      "receipt_id": "33a144294b8c49d5a0ce490ccc68cbb6",
+      "request_hash": "e2ecadc74d40be8f71732c631f8eaf83fb5591d27de769382d39073cfb760bf1",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "17253c12c24c4eb9c24833c941e838b29f862ed10d05494172b99cac34d81cfd",
+      "packet_hash": "c907a32b893785900e8a2f2503e97ba3c2f0f85e27e8d5cbef10cfb8759d37ed",
+      "published_packet_hash": "c907a32b893785900e8a2f2503e97ba3c2f0f85e27e8d5cbef10cfb8759d37ed",
+      "receipt_id": "d4b8c4122f51491682b3594e8e17c7fd",
+      "request_hash": "eae2d40dfa90f494d9b3eae94a9a5fa01413c48276d0081015f3501a1aba9f2e",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

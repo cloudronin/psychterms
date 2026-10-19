@@ -1,0 +1,26 @@
+{
+  "id": "dynamic-system",
+  "term": "dynamic system",
+  "source": "article-pmc11482711",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0311734",
+  "revision": "2024; DOI 10.1371/journal.pone.0311734; article XML SHA-256 8270c231bfd4439807757c8ab41702e91555bf25e2021cc94a28a11d6ee61b63",
+  "source_snapshot_sha256": "8270c231bfd4439807757c8ab41702e91555bf25e2021cc94a28a11d6ee61b63",
+  "url": "https://doi.org/10.1371/journal.pone.0311734",
+  "text": "In the realm of dynamic system analysis, the Kalman filter and the alpha-beta filter are widely recognized for their tracking and prediction capabilities. However, their performance is often limited by static parameters that cannot adapt to changing conditions. Addressing this limitation, this paper introduces innovative neural network-based prediction models that enhance the adaptability and accuracy of these conventional filters. Our approach involves the integration of neural networks within the filtering algorithms, enabling the dynamic augmentation of parameters in response to performance feedback. We present two modified filters: a neural network-based Kalman filter and an alpha-beta filter, each augmented to incorporate neural network-driven parameter tuning. The alpha-beta filter is enhanced with neural network outputs for its α and β parameters, while the Kalman filter employs a neural network to optimize its internal parameter R and noise factor F . We assess these advanced models using the root mean square error (RMSE) metric, where our neural network-based alpha-beta filter demonstrates a significant 38.2% improvement in prediction accuracy, and the neural network-based Kalman filter achieves a 53.4% enhancement. Hence, our novel approach of integrating neural networks into filtering algorithms stands out as an effective strategy to significantly enhance their performance in dynamic environments.",
+  "source_label": "Optimizing prediction accuracy in dynamic systems through neural network integration with Kalman and alpha-beta filters",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1431
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815"
+}

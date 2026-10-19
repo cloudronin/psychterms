@@ -1,0 +1,62 @@
+{
+  "id": "microtubule",
+  "term": "microtubule",
+  "definition": "A microtubule is a cellular structure made through tubulin polymerization, and it can be disrupted by compounds that bind tubulin. Because blocking microtubule formation can halt cells in the G2–M phase, microtubules are important targets in cancer research.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11542830"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11542830",
+      "revision": "2024; DOI 10.1371/journal.pone.0307153; article XML SHA-256 a43ab75717a36269572fd3ad75cf6bc67b5b7d0cbe7efdc4927c6eb48aeea1de",
+      "scope": "Source record 10.1371/journal.pone.0307153; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0307153"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ab2facf8ad4ba559f2ebc04217e0219ba956bf796c12dd0f9219cdb64a74b387",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cf4eb8d1e1304b018e170dcf760c691a",
+    "request_hash": "dfa7dd9a63a1670f3e4befd00fc2f2b307775c945a7ca1a9f5338595add5b73f",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "fe09828891f7760ffe1991f0aab595ccb918dbfac786fef81c16e72ac4a9b75d",
+    "packet_hash": "ab2facf8ad4ba559f2ebc04217e0219ba956bf796c12dd0f9219cdb64a74b387"
+  },
+  "hash": "e03ad4322d846034fa34c70438146f0c95729914befc806f4e693af76e05f1a3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe09828891f7760ffe1991f0aab595ccb918dbfac786fef81c16e72ac4a9b75d",
+      "packet_hash": "ab2facf8ad4ba559f2ebc04217e0219ba956bf796c12dd0f9219cdb64a74b387",
+      "published_packet_hash": "ab2facf8ad4ba559f2ebc04217e0219ba956bf796c12dd0f9219cdb64a74b387",
+      "receipt_id": "dea0ff7bb3be462bba6ab441d2b32496",
+      "request_hash": "19de8d0f7487a49171a541e81f9292010bb0a8863e3542e7d0abb16a1f947bb0",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims microtubules are “made through tubulin polymerization,” but the provided packet only states that the compounds “inhibit tubulin polymerization” and that they interact with tubulin; it does not explicitly define microtubules as structures formed via tubulin polymerization.",
+        "The definition says microtubules “can be disrupted” by compounds that bind tubulin; while the packet supports that compounds interact with tubulin and inhibit tubulin polymerization, it does not explicitly describe disruption of microtubules as such (the phrasing is not directly supported).",
+        "The definition states that blocking microtubule formation can halt cells in the G2–M phase; the packet supports “cell cycle arrest in the G2-M phase” and “inhibit tubulin polymerization,” but does not specifically claim that halting occurs specifically due to “blocking microtubule formation” (that causal phrasing is not directly supported).",
+        "The statement that microtubules are “important targets in cancer research” is generally supported by “an important class of anti-cancer drugs” in the packet, but the overall definition includes multiple other unsubstantiated/misaligned claims as noted above."
+      ],
+      "definition_hash": "fe09828891f7760ffe1991f0aab595ccb918dbfac786fef81c16e72ac4a9b75d",
+      "packet_hash": "ab2facf8ad4ba559f2ebc04217e0219ba956bf796c12dd0f9219cdb64a74b387",
+      "published_packet_hash": "ab2facf8ad4ba559f2ebc04217e0219ba956bf796c12dd0f9219cdb64a74b387",
+      "receipt_id": "befd2ea06cf044cfa0a7bdbef19eb1ec",
+      "request_hash": "e24ffa4913880d7fd5c741daab2a94badf36665f26a86d8331f791b135a6b8fa",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

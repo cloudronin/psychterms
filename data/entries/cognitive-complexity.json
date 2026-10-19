@@ -1,0 +1,60 @@
+{
+  "id": "cognitive-complexity",
+  "term": "cognitive complexity",
+  "definition": "Cognitive complexity is the degree of mental demand involved in a task, especially when it requires coordinating multiple kinds of information and responses at the same time. In this source, it refers to the added challenge of managing auditory and visual input together while producing spoken output, which places heavier demands on attention and cognitive resources.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12225871"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12225871",
+      "revision": "2025; DOI 10.1371/journal.pone.0326527; article XML SHA-256 8bec8151c2f8c1729aac8b26fd9d8f3f7a2d6a14f16b6b05a190b29ed9a0400c",
+      "scope": "Source record 10.1371/journal.pone.0326527; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0326527"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d0c2ccc631e9668788f2ddf8691d3f29e7670a58570cd3e53731901786f85262",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "01476660d033434ebeb71959b779f50d",
+    "request_hash": "5ea17406e6f7d15de4c5f8358ddb6a0c365ed78833c3ec7b21106fcc9e917673",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "c4a8ec3d7268eacc1f8a229f61d506e2769ff2d660dd17fa840ceaccd0e9c3bc",
+    "packet_hash": "d0c2ccc631e9668788f2ddf8691d3f29e7670a58570cd3e53731901786f85262"
+  },
+  "hash": "0c6a0178ce21ea40fa1191595950849f7842a0f2cc65ee9e2181e2478b0e5f72",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c4a8ec3d7268eacc1f8a229f61d506e2769ff2d660dd17fa840ceaccd0e9c3bc",
+      "packet_hash": "d0c2ccc631e9668788f2ddf8691d3f29e7670a58570cd3e53731901786f85262",
+      "published_packet_hash": "d0c2ccc631e9668788f2ddf8691d3f29e7670a58570cd3e53731901786f85262",
+      "receipt_id": "9ed01a337a0b44c9b1c5bb2c850da112",
+      "request_hash": "a7ecd125c7d76ce0cbdf50e1fd23e3c23d8e544ffeb0847c4f1a52b2d34c7476",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general, cross-task formulation (“degree of mental demand… coordinating multiple kinds of information and responses at the same time”) that is not stated in the provided packet; the packet instead discusses cognitive complexity specifically in the context of simultaneous interpreting and its multimodal demands.",
+        "The definition includes the phrase “attention and cognitive resources.” While the packet does mention “cross-modal attention allocation” and “cognitive resource management,” the definition uses these concepts as part of a general explanation of cognitive complexity that goes beyond what is explicitly defined in the packet."
+      ],
+      "definition_hash": "c4a8ec3d7268eacc1f8a229f61d506e2769ff2d660dd17fa840ceaccd0e9c3bc",
+      "packet_hash": "d0c2ccc631e9668788f2ddf8691d3f29e7670a58570cd3e53731901786f85262",
+      "published_packet_hash": "d0c2ccc631e9668788f2ddf8691d3f29e7670a58570cd3e53731901786f85262",
+      "receipt_id": "eca55e3915334f118e136a028e136c40",
+      "request_hash": "14fd633a51fc5b9d9003d3e043e07f759031d06ef02d4a8c7fdd9fe43f0698d0",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

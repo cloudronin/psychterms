@@ -1,0 +1,26 @@
+{
+  "id": "elm",
+  "term": "ELM",
+  "source": "article-pmc12352786",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0329789",
+  "revision": "2025; DOI 10.1371/journal.pone.0329789; article XML SHA-256 711972c3985f2a4a31d6a51ae91ada9ffa5e13010cdc1ec52e9d32d8f99b8f66",
+  "source_snapshot_sha256": "711972c3985f2a4a31d6a51ae91ada9ffa5e13010cdc1ec52e9d32d8f99b8f66",
+  "url": "https://doi.org/10.1371/journal.pone.0329789",
+  "text": "This paper proposes a physics-informed extreme learning machine (PIELM) for analyzing consolidation immediately after cavity expansion. The deep neural networks in traditional physics-informed neural network (PINN) framework are substituted by the extreme learning machine (ELM) network with only one hidden layer. By using exact definition of stress invarients, the distribution of excess water pressure after cavity expansion is rigorously incorporated into PIELM framework as initial conditions. Then, a loss vector is obtained by combining governing equation, initial conditions and boundary conditions, and the ELM network can be directly trained by optimising the loss vector via the least squares method. It is found that: (i) the PIELM approach can provide accurate prediction for consolidation analysis after cavity expansion; and (ii) the dissipation of excess water pressure heavily relies on its initial distribution that is related to soil mechanical behaviour. This proposed approach can serve as an efficient tool to interpret consolidation coefficient from piezocone penetration tests (CPTU) with measured data.",
+  "source_label": "Physics-informed extreme learning machine (PIELM) for consolidation around an expanded cylindrical cavity",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1127
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "54b90a2c4bed8e4234b87d2557e34584f92f13a24a2ad133aacd334126efaa30"
+}

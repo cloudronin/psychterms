@@ -1,0 +1,64 @@
+{
+  "id": "mental-status-examination",
+  "term": "mental status examination",
+  "definition": "A mental status examination is a clinical assessment used in psychiatry in which a clinician judges aspects of a person’s current mental functioning, including their affect. It is commonly based on observation during an interview, and its reliability can vary between raters.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6512891"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6512891",
+      "revision": "2019; DOI 10.3389/fpsyt.2019.00288; article XML SHA-256 1357f999298d36e8f4e6ab9c3d7d5722a445bf14c6cb709e665b14b5038fe016",
+      "scope": "Source record 10.3389/fpsyt.2019.00288; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2019.00288"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0dd350a4d44c4914e5bc1f97aca1e203b650cb58a17eeeb320bbcc7209c324b4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d125f001f43d4524b6639e1af642cbaa",
+    "request_hash": "2b39b92e8c18ab1163cba994a6805ab9644dbe6bd4bb73cd48a8a89b68576c32",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "ec20b1b8a49cedf6bf09c4cc2c4e64b141e2abd43161a60a00ab7f15a4c4c17e",
+    "packet_hash": "0dd350a4d44c4914e5bc1f97aca1e203b650cb58a17eeeb320bbcc7209c324b4"
+  },
+  "hash": "eddecdb564acc0096fb63c7924b6386c43d8ebb348b9743eebda3d5d62ac6936",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a broad characterization of the mental status examination as assessing “current mental functioning,” but the packet only supports affect classification within the mental status examination, not that wider scope.",
+        "“Commonly based on observation during an interview” is not directly supported as a general feature of the mental status examination; the packet only mentions videotaped semi-structured psychiatric interviews in one study.",
+        "The definition should not present the reliability point as a general established property without qualification beyond the packet’s specific statement that ratings of affect were often inconsistent between raters."
+      ],
+      "definition_hash": "ec20b1b8a49cedf6bf09c4cc2c4e64b141e2abd43161a60a00ab7f15a4c4c17e",
+      "packet_hash": "0dd350a4d44c4914e5bc1f97aca1e203b650cb58a17eeeb320bbcc7209c324b4",
+      "published_packet_hash": "0dd350a4d44c4914e5bc1f97aca1e203b650cb58a17eeeb320bbcc7209c324b4",
+      "receipt_id": "1c6994baaea148d69daf9dd956706a13",
+      "request_hash": "1b7977ce7a4b43be223d1478c91d4a6f5b3a2dea65d412edc6248c355889e9bd",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the examination involves the clinician judging a person’s “current mental functioning” and “aspects” more broadly than affect; the packet only provides explicit support for affect classification as a pivotal part of the mental status examination.",
+        "The “including their affect” component is supported, but the broader framing (“current mental functioning” and multiple aspects) is not directly supported by the packet text provided."
+      ],
+      "definition_hash": "ec20b1b8a49cedf6bf09c4cc2c4e64b141e2abd43161a60a00ab7f15a4c4c17e",
+      "packet_hash": "0dd350a4d44c4914e5bc1f97aca1e203b650cb58a17eeeb320bbcc7209c324b4",
+      "published_packet_hash": "0dd350a4d44c4914e5bc1f97aca1e203b650cb58a17eeeb320bbcc7209c324b4",
+      "receipt_id": "30ae7ab68c304b7dab04842cc4eb85b9",
+      "request_hash": "701beb4920efd4819516c4b5ab0a8dca10fa0e5f7dd2d73cdb3ec6d8ba63b213",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "right-censoring",
+  "term": "right censoring",
+  "definition": "Right censoring is a form of incomplete data in which information is cut off at the high end of the observed range, such as when many deaths are combined into a final open-ended age group. If not handled well, this can distort estimates like life expectancy.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5986123"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5986123",
+      "revision": "2018; DOI 10.1371/journal.pone.0198485; article XML SHA-256 01891f9c50629f57de8bc6b1814740906e1643997ae466ca8c94c9a57f49022b",
+      "scope": "Source record 10.1371/journal.pone.0198485; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0198485"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9302779f283b4ad6d60590b5198b4973c29b073b0be6336ca008f85a40cb0111",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5719c56ec68b4b8abf959072d0431253",
+    "request_hash": "db220eaaa5c92622c2a5673e8be1f7a39f81964a6e74bb7fe7aac36404ad55ef",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "8d44ee5651f0194a652e06a7e291ba9925f46b209c8cb2db4bff9316c585cd57",
+    "packet_hash": "9302779f283b4ad6d60590b5198b4973c29b073b0be6336ca008f85a40cb0111"
+  },
+  "hash": "9ff16ad96fb8cf801c253543c58eb87e50768060db48d635cd89a424d09e767f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field issue: the supplied packet discusses mortality/life-table estimation and life expectancy distortion, not cognition; the definition is therefore not supported as belonging to the “cognition” field.",
+        "While the definition’s description of right censoring and its impact on life expectancy is supported by the packet, the requested field (“cognition”) is not supported by the provided source packet."
+      ],
+      "definition_hash": "8d44ee5651f0194a652e06a7e291ba9925f46b209c8cb2db4bff9316c585cd57",
+      "packet_hash": "9302779f283b4ad6d60590b5198b4973c29b073b0be6336ca008f85a40cb0111",
+      "published_packet_hash": "9302779f283b4ad6d60590b5198b4973c29b073b0be6336ca008f85a40cb0111",
+      "receipt_id": "1770544cb48644bcb088d5652aeb0464",
+      "request_hash": "207ac526991923252e290f9467cd74044b62cb18c2e34879360fa0fa832e83fe",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The term is supported, but the supplied field is not defensible here: the packet uses right censoring in a mortality/life-table and life-expectancy context, not a cognition psychology/counselling context.",
+        "The definition adds an explanatory generalization about incomplete data at the high end; the packet specifically supports right-censoring in life tables with a last open-ended age group and severer censoring from aggregating deaths there, rather than a broad generic definition in this field.",
+        "The final sentence about distorting life expectancy is supported, but the entry still does not fit the requested field sense."
+      ],
+      "definition_hash": "8d44ee5651f0194a652e06a7e291ba9925f46b209c8cb2db4bff9316c585cd57",
+      "packet_hash": "9302779f283b4ad6d60590b5198b4973c29b073b0be6336ca008f85a40cb0111",
+      "published_packet_hash": "9302779f283b4ad6d60590b5198b4973c29b073b0be6336ca008f85a40cb0111",
+      "receipt_id": "95ccbd2300204009b17792e07099740a",
+      "request_hash": "2b3e1dc9dd7cfedae6a7f0902fce5456df878311ae9d4ebffe9e15e2f67d50ee",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

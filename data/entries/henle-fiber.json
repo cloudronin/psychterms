@@ -1,0 +1,60 @@
+{
+  "id": "henle-fiber",
+  "term": "Henle fiber",
+  "definition": "Henle fiber refers to a retinal layer that, in eye imaging, is considered as part of the outer nuclear layer/Henle fiber layer complex when measuring outer retinal structure.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6171834"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6171834",
+      "revision": "2018; DOI 10.1371/journal.pone.0203324; article XML SHA-256 2a7d7a1dfa1422252a7c36050e56328216712be16f8381669f799fe2de875c20",
+      "scope": "Source record 10.1371/journal.pone.0203324; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0203324"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "31876c70e2cc90b1cfd7b0e24b7ea6599ae9cd7c06f454b9b0005c1743d79a37",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "abbcfd1b93a74c58bbb2d90fd1da8944",
+    "request_hash": "8462cdfbd4c8a53bca0cb0a68ce94d0eb0eda0938efc9358852238d425a2de55",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "775d0c4e0099ed127a7c521dbe5d0662450a61b9b49a1629856f130d79ff6aeb",
+    "packet_hash": "31876c70e2cc90b1cfd7b0e24b7ea6599ae9cd7c06f454b9b0005c1743d79a37"
+  },
+  "hash": "985a82f571b5f5df2754975016036ff0b1f3dc28b48ec9b8c15013f0159a87f2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "775d0c4e0099ed127a7c521dbe5d0662450a61b9b49a1629856f130d79ff6aeb",
+      "packet_hash": "31876c70e2cc90b1cfd7b0e24b7ea6599ae9cd7c06f454b9b0005c1743d79a37",
+      "published_packet_hash": "31876c70e2cc90b1cfd7b0e24b7ea6599ae9cd7c06f454b9b0005c1743d79a37",
+      "receipt_id": "9ff9001a9eef4a22b268ba2337e326b4",
+      "request_hash": "ff5683c47676cfee6a4c8a3cdbd739ad417a2611fbcd83cf7030312207d9ca98",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “Henle fiber” as a standalone retinal layer; it only mentions the combined “outer nuclear layer/henle fiber layer complex (ONL/HFL).”",
+        "Because the packet only supports that Henle is referenced within the ONL/HFL complex (as part of automated segmentation metrics), the statement that “Henle fiber refers to a retinal layer” is not directly supported."
+      ],
+      "definition_hash": "775d0c4e0099ed127a7c521dbe5d0662450a61b9b49a1629856f130d79ff6aeb",
+      "packet_hash": "31876c70e2cc90b1cfd7b0e24b7ea6599ae9cd7c06f454b9b0005c1743d79a37",
+      "published_packet_hash": "31876c70e2cc90b1cfd7b0e24b7ea6599ae9cd7c06f454b9b0005c1743d79a37",
+      "receipt_id": "91fac89d66c845cc953c197997445a88",
+      "request_hash": "633f7a4eb7c31086e8d6213154514c67027ab6400ea155335513f77f9590d505",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

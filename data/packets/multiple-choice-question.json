@@ -1,0 +1,26 @@
+{
+  "id": "multiple-choice-question",
+  "term": "multiple-choice question",
+  "source": "article-pmc12286323",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0326359",
+  "revision": "2025; DOI 10.1371/journal.pone.0326359; article XML SHA-256 08ae9c82664e9867825736dad6be9d131e66d892359322959d4fcba6d83f4b1c",
+  "source_snapshot_sha256": "08ae9c82664e9867825736dad6be9d131e66d892359322959d4fcba6d83f4b1c",
+  "url": "https://doi.org/10.1371/journal.pone.0326359",
+  "text": "Accurate, rapid, and objective reading comprehension assessments, which are critical in both daily and educational lives, can be effectively conducted using brain signals. In this study, we proposed an improved complementary ensemble empirical mode decomposition with adaptive noise (ICEEMDAN) and symbolic aggregate approximation (SAX)-based method for determining the whole text reading comprehension status in English using functional near-infrared spectroscopy (fNIRS) signals. A total of 450 trials were recorded from 15 healthy participants as they read English texts. To facilitate labeling, participants were asked to rate their comprehension of the text using self-assessment scores, followed by answering a multiple-choice question with four options that comprehensively covered the whole text’s content. The proposed method consists of pre-processing, feature extraction, and classification stages. In the pre-processing stage, intrinsic mode functions of the signals were obtained using the ICEEMDAN algorithm. In the feature extraction stage, following the SAX algorithm, statistical features were calculated. The extracted features were classified using the k -NN classifier. The proposed method tested three different labeling strategies: first, labeling the trials according to the responses to multiple-choice questions; second, labeling the trials based on self-assessment scores; and third, labeling the trials using a double-validation labeling strategy based on the intersection sets of the first two strategies. For the three strategies, the k -NN classifier achieved mean classification accuracies of 74.67%, 66.37%, and 89.02%, respectively. The results indicated that the proposed method could assess whole-text reading comprehension status in English.",
+  "source_label": "An ICEEMDAN and SAX-based method for determining English reading comprehension status using functional near-infrared spectroscopy signals",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1777
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 4
+  },
+  "packet_hash": "48b20d6903075dd8f53b3d6f97c656aa24e9dc684fb72482c4c9e6a78f854951"
+}

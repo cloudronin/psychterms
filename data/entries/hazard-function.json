@@ -1,0 +1,64 @@
+{
+  "id": "hazard-function",
+  "term": "hazard function",
+  "definition": "A hazard function is a statistical function used to describe the failure rate in a data set or model, showing how the chance of failure changes over time. In this context, it is one of the mathematical characteristics examined when evaluating a probability distribution.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10645298"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10645298",
+      "revision": "2023; DOI 10.1371/journal.pone.0285992; article XML SHA-256 dffe21586bb4f7fc556c4136eb8abe4f98c37fa9ad07f2fb711334c93acff4a6",
+      "scope": "Source record 10.1371/journal.pone.0285992; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0285992"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5d7a5f01c29b0bd26e6af4c671cead71c75809417f677922f656fc36a2581027",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c3114268c06549e4b709a7978168e4f9",
+    "request_hash": "164645157d0871243d3a44c1baa93deeb1331db4901d25fe55618c06d23768de",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "3d69d6760001e15b1a365c9e853988f47294117610734dacb8978e0a0ad3f026",
+    "packet_hash": "5d7a5f01c29b0bd26e6af4c671cead71c75809417f677922f656fc36a2581027"
+  },
+  "hash": "ceb284220d4f46a47592425409f89186834f49c7ad3e02448756ac8572a6dd70",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports that hazard function is one of several mathematical characteristics studied for the HL-TEXPD distribution; it does not support the broader general definition as a statistical function describing failure rate or how the chance of failure changes over time.",
+        "The field label \"learning\" is not supported by the packet content, which is about a probability distribution and failure-rate modeling rather than psychology or learning."
+      ],
+      "definition_hash": "3d69d6760001e15b1a365c9e853988f47294117610734dacb8978e0a0ad3f026",
+      "packet_hash": "5d7a5f01c29b0bd26e6af4c671cead71c75809417f677922f656fc36a2581027",
+      "published_packet_hash": "5d7a5f01c29b0bd26e6af4c671cead71c75809417f677922f656fc36a2581027",
+      "receipt_id": "e5fe799431eb416b8a9e9982a6cc3db9",
+      "request_hash": "70786652e712030e28b3267f078cd5101cfba38cbb2a30b355e05542a46964f2",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that “hazard function” is one of the mathematical characteristics studied, but it does not define what a hazard function is or that it “describe[s] the failure rate… over time.”",
+        "The packet mentions “TTT… to study the failure rate,” but it does not connect hazard function to failure rate explicitly, so the definition’s causal linkage is unsupported.",
+        "The definition claims the hazard function is a characteristic used when “evaluating a probability distribution”; while the packet says mathematical characteristics are studied, it does not support this specific description of how hazard function is used or what “evaluating” entails."
+      ],
+      "definition_hash": "3d69d6760001e15b1a365c9e853988f47294117610734dacb8978e0a0ad3f026",
+      "packet_hash": "5d7a5f01c29b0bd26e6af4c671cead71c75809417f677922f656fc36a2581027",
+      "published_packet_hash": "5d7a5f01c29b0bd26e6af4c671cead71c75809417f677922f656fc36a2581027",
+      "receipt_id": "fe2a9fd78e4f43ea86eabf8ddec04187",
+      "request_hash": "eaec256cc3a40085d19de54503b86404d09913b4aa13fea4aad3119d7b8cd319",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

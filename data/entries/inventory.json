@@ -1,0 +1,64 @@
+{
+  "id": "inventory",
+  "term": "inventory",
+  "definition": "In psychological assessment, an inventory is a structured measure used to evaluate a set of symptoms or traits. In this packet, it refers to a validated self-report measure for depressive symptoms.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13505144"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13505144",
+      "revision": "2026; DOI 10.1186/s40359-026-04974-9; article XML SHA-256 3f8ee8ccd0e4da504c3e830dd2ee3237303c52c31d26c0f1263efae3be57ac2c",
+      "scope": "Source record 10.1186/s40359-026-04974-9; pinned source text",
+      "locator": "https://doi.org/10.1186/s40359-026-04974-9"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "65bda2255042b55ff4af996d6170785679b2cae41944668d6b1f277588f4dac8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ed81a7846ce7420ea64a34d26a7c5e6b",
+    "request_hash": "c1db449dc4bd364d5c21ab72a03d65ceb7cf54b6ca60a71618f6b98ab2bb25e6",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "28058f77ed2bd472aecaa255f32119cc1efbedc28eaecee4631d9082c7a479e3",
+    "packet_hash": "65bda2255042b55ff4af996d6170785679b2cae41944668d6b1f277588f4dac8"
+  },
+  "hash": "afdab969bbba5aaee967f07bf58621951c0c24639969c1793a105ec452092ab5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only a specific instrument, the Quick Inventory of Depressive Symptomatology (QIDS), as a validated measure of depressive symptoms; it does not support a general definition of an \"inventory\" as a structured measure of symptoms or traits.",
+        "The wording \"In this packet, it refers to a validated self-report measure for depressive symptoms\" overgeneralizes from the specific QIDS description and does not establish the broader term sense requested."
+      ],
+      "definition_hash": "28058f77ed2bd472aecaa255f32119cc1efbedc28eaecee4631d9082c7a479e3",
+      "packet_hash": "65bda2255042b55ff4af996d6170785679b2cae41944668d6b1f277588f4dac8",
+      "published_packet_hash": "65bda2255042b55ff4af996d6170785679b2cae41944668d6b1f277588f4dac8",
+      "receipt_id": "d6cdf50f047a4ee09cdacfe2277eb2bb",
+      "request_hash": "fa36276e8f777b656bbe73c4b67366287fe1825d6dde6c0e042a4ba4698f5ad7",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general claim that, in psychological assessment, an “inventory” is broadly “a structured measure used to evaluate a set of symptoms or traits.”",
+        "While the packet supports that the Quick Inventory of Depressive Symptomatology (QIDS) is a “validated measure” of depressive symptoms, it does not justify the broader dictionary-style definition of “inventory” given in the first sentence.",
+        "The statement that “in this packet, it refers to a validated self-report measure for depressive symptoms” is only partially supported: the packet calls QIDS validated and describes DSM-IV coverage, but does not explicitly state “self-report” in the provided text (it mentions a “self-reported version” only for the Japanese translation)."
+      ],
+      "definition_hash": "28058f77ed2bd472aecaa255f32119cc1efbedc28eaecee4631d9082c7a479e3",
+      "packet_hash": "65bda2255042b55ff4af996d6170785679b2cae41944668d6b1f277588f4dac8",
+      "published_packet_hash": "65bda2255042b55ff4af996d6170785679b2cae41944668d6b1f277588f4dac8",
+      "receipt_id": "7152c7c8dbff49cfbd7dcc02115b3eac",
+      "request_hash": "13fad23e9f294f41e5ec1686f741bb2d439e70220e44cf06fe5f690e3b30cd06",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

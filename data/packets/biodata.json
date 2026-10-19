@@ -1,0 +1,26 @@
+{
+  "id": "biodata",
+  "term": "biodata",
+  "source": "article-pmc10684096",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0294812",
+  "revision": "2023; DOI 10.1371/journal.pone.0294812; article XML SHA-256 28d44b9af2d66699559e354f82df1992d49c74fc06fc81aea276c61867832788",
+  "source_snapshot_sha256": "28d44b9af2d66699559e354f82df1992d49c74fc06fc81aea276c61867832788",
+  "url": "https://doi.org/10.1371/journal.pone.0294812",
+  "text": "Modern biological research depends on data resources. These resources archive difficult-to-reproduce data and provide added-value aggregation, curation, and analyses. Collectively, they constitute a global infrastructure of biodata resources. While the organic proliferation of biodata resources has enabled incredible research, sustained support for the individual resources that make up this distributed infrastructure is a challenge. The Global Biodata Coalition (GBC) was established by research funders in part to aid in developing sustainable funding strategies for biodata resources. An important component of this work is understanding the scope of the resource infrastructure; how many biodata resources there are, where they are, and how they are supported. Existing registries require self-registration and/or extensive curation, and we sought to develop a method for assembling a global inventory of biodata resources that could be periodically updated with minimal human intervention. The approach we developed identifies biodata resources using open data from the scientific literature. Specifically, we used a machine learning-enabled natural language processing approach to identify biodata resources from titles and abstracts of life sciences publications contained in Europe PMC. Pretrained BERT (Bidirectional Encoder Representations from Transformers) models were fine-tuned to classify publications as describing a biodata resource or not and to predict the resource name using named entity recognition. To improve the quality of the resulting inventory, low-confidence predictions and potential duplicates were manually reviewed. Further information about the resources were then obtained using article metadata, such as funder and geolocation information. These efforts yielded an inventory of 3112 unique biodata resources based on articles published from 2011–2021. The code was developed to facilitate reuse and includes automated pipelines. All products of this effort are released under permissive licensing, including the biodata resource inventory itself (CC0) and all associated code (BSD/MIT).",
+  "source_label": "A machine learning-enabled open biodata resource inventory from the scientific literature",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2125
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "7a2df383842784f4ba7f8ef631df10258f5b0bff71f1178df4c2a871b3c455f0"
+}

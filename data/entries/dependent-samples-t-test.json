@@ -1,0 +1,63 @@
+{
+  "id": "dependent-samples-t-test",
+  "term": "dependent-samples t test",
+  "definition": "A dependent-samples t test is a statistical method used to test whether scores from related measurements differ, such as the same participants measured before and after an intervention. It evaluates change within the paired data rather than comparing separate independent groups.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc2244642"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc2244642",
+      "revision": "2007; DOI 10.1186/1550-2783-4-20; article XML SHA-256 8aeb6e942da8beec5b579cdcd680c4915957e5494355efd0a112282e28e907c6",
+      "scope": "Source record 10.1186/1550-2783-4-20; pinned source text",
+      "locator": "https://doi.org/10.1186/1550-2783-4-20"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "570195f80f9c5eda519043c0526a5298d10962e46594b7d22d547231d79b0972",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4c61d1b41bc44dbf9902fe9157d2a08d",
+    "request_hash": "3457bea5cc9a2ecd24d361d43f340c4fb418c0a7a4656a4732574e5bddc4e19a",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "5be4a92e19b0430410ed522142a16cb1ae62e86e461271da61d7556dfade2d84",
+    "packet_hash": "570195f80f9c5eda519043c0526a5298d10962e46594b7d22d547231d79b0972"
+  },
+  "hash": "eb8418381dc770485d2662762f7dc4819e0498f2254192b032d9e9b7edcaee3c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only shows a dependent samples t-test used on pre- vs post-supplementation measurements in one group; it does not define the test as a general method for related measurements or paired data.",
+        "The phrase “same participants measured before and after an intervention” is an unsupported generalization beyond the specific study context in the packet."
+      ],
+      "definition_hash": "5be4a92e19b0430410ed522142a16cb1ae62e86e461271da61d7556dfade2d84",
+      "packet_hash": "570195f80f9c5eda519043c0526a5298d10962e46594b7d22d547231d79b0972",
+      "published_packet_hash": "570195f80f9c5eda519043c0526a5298d10962e46594b7d22d547231d79b0972",
+      "receipt_id": "935d35d717364bab98f4da2d184daaee",
+      "request_hash": "7736abab26a173cc4c3358f2b767f4a296ef05ec77488408f063b73b7949e563",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet demonstrates use of a dependent-samples t-test for pre- to post-supplementation changes within the same subjects, but it does not explicitly support the claim that it “evaluates change within the paired data rather than comparing separate independent groups.”",
+        "Because the packet does not provide an explicit description of the method beyond this study’s usage, the definition’s conceptual contrast to independent groups is an unsupported generalization."
+      ],
+      "definition_hash": "5be4a92e19b0430410ed522142a16cb1ae62e86e461271da61d7556dfade2d84",
+      "packet_hash": "570195f80f9c5eda519043c0526a5298d10962e46594b7d22d547231d79b0972",
+      "published_packet_hash": "570195f80f9c5eda519043c0526a5298d10962e46594b7d22d547231d79b0972",
+      "receipt_id": "5cfa25ecdb6f49faacebf8a360f21730",
+      "request_hash": "3211abeb27ca6207112a10274eea67dfe376b5a5f42e2843c355e9fa1d2aa02d",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

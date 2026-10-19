@@ -1,0 +1,65 @@
+{
+  "id": "explained-variance",
+  "term": "explained variance",
+  "definition": "Explained variance is the amount of overall variation in the data that is accounted for by a pattern or factor being studied. In this EEG context, higher global explained variance means a microstate class captures more of the brain signal’s overall activity pattern.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11841423"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11841423",
+      "revision": "2025; DOI 10.3389/fnhum.2024.1469468; article XML SHA-256 be7bde025b642f73490fc152ea11ec105c9361c03bad5512280c3b652171523f",
+      "scope": "Source record 10.3389/fnhum.2024.1469468; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2024.1469468"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "71b513517aadc7523ef60ea1b9b283e1658c265dacd61a87a933372f6f7571aa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "116ef1a3c7374fad9530e6cff3119624",
+    "request_hash": "d09a2571509e6b1ad072c2315bf73de352190e44e5d933dd2cf9c99c7485f104",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "aafc93d2824921735159f11950b51c8cb6d180f90f572d28610b47a4601eabf6",
+    "packet_hash": "71b513517aadc7523ef60ea1b9b283e1658c265dacd61a87a933372f6f7571aa"
+  },
+  "hash": "67ec3afa09a5cd89979b00639a9713a0fe36fc390bf78dcb62ecc62cc2433b00",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that microstate analysis reported a significantly enhanced global explained variance (GEV) for class D, but it does not define explained variance as the amount of overall variation accounted for by a pattern or factor.",
+        "The EEG-specific gloss that higher global explained variance means a microstate class captures more of the brain signal’s overall activity pattern is an unsupported extrapolation beyond the packet."
+      ],
+      "definition_hash": "aafc93d2824921735159f11950b51c8cb6d180f90f572d28610b47a4601eabf6",
+      "packet_hash": "71b513517aadc7523ef60ea1b9b283e1658c265dacd61a87a933372f6f7571aa",
+      "published_packet_hash": "71b513517aadc7523ef60ea1b9b283e1658c265dacd61a87a933372f6f7571aa",
+      "receipt_id": "f160cd6e67594af3ac626c1045f9e6fc",
+      "request_hash": "17e56b8d4d2c7b636879cc8c22bb92a35ed1b1d0a83ecf6117224c7473cea130",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “explained variance” (or “global explained variance”) as a general quantity of “overall variation in the data” accounted for by a pattern/factor.",
+        "The definition’s claim that “higher global explained variance means a microstate class captures more of the brain signal’s overall activity pattern” is not explicitly stated in the packet.",
+        "While the packet reports “significantly enhanced global explained variance (GEV)” for class D (and an opposite effect for sad vs happy), it does not provide the requested conceptual interpretation or a description matching the wording of the definition.",
+        "The definition includes an EEG-specific interpretation (“microstate class captures… overall activity pattern”) that is not supported by any explicit explanatory text in the provided packet."
+      ],
+      "definition_hash": "aafc93d2824921735159f11950b51c8cb6d180f90f572d28610b47a4601eabf6",
+      "packet_hash": "71b513517aadc7523ef60ea1b9b283e1658c265dacd61a87a933372f6f7571aa",
+      "published_packet_hash": "71b513517aadc7523ef60ea1b9b283e1658c265dacd61a87a933372f6f7571aa",
+      "receipt_id": "fb8d37541ece4d1dac5ab35beca0ccaa",
+      "request_hash": "0892d7b3f5ba3c06b5adac499eeb84c8ced6b642062b05f043f2bc6b3f93c5f1",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

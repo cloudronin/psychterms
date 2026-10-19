@@ -1,0 +1,60 @@
+{
+  "id": "autonomic-response",
+  "term": "autonomic response",
+  "definition": "An autonomic response is an automatic bodily reaction to a stimulus, seen in measures such as heart activity, breathing, blood pressure, and peripheral vascular resistance. In this source, it refers to short- and longer-term cardio-respiratory changes that occur in response to a painful stimulus.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6135369"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6135369",
+      "revision": "2018; DOI 10.1371/journal.pone.0201921; article XML SHA-256 e57a0b18fb972b94955d63f51700cbeac58ab05c4eb8045e7021fb7831043f44",
+      "scope": "Source record 10.1371/journal.pone.0201921; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0201921"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cfe1ab6f466f4536a2aa3248ab76fc21",
+    "request_hash": "1bfe2687c1871f781f72369f300b15f8a35fd035e64b8d0a9dcf72e4e998257a",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "ba39ad24e9f08902a287338ad26f3fa17f0cf5ddc5c49109c4d0ad4c63d318ae",
+    "packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4"
+  },
+  "hash": "55fce4952035d18ea2608e6d46f49398bf476f513eeaf546b377463b9e40b168",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ba39ad24e9f08902a287338ad26f3fa17f0cf5ddc5c49109c4d0ad4c63d318ae",
+      "packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4",
+      "published_packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4",
+      "receipt_id": "3198b44c28c94486bc4f3972e46d98c7",
+      "request_hash": "67e2b26717ab9dd27c094263418c3070a46322b29d75fb2d41543ebb925fdee7",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “autonomic response” as an “automatic bodily reaction.” It only describes an “autonomic response to pain/nociceptive stimulus,” without stating the “automatic” wording.",
+        "The packet supports the specific measures (ECG/heart-related HR, respiration, finger blood pressure, and total peripheral resistances), and the short- (<20 s) and longer-term (20–50 s) time windows, but the definition’s wording about an “automatic” reaction is not directly supported by the provided text."
+      ],
+      "definition_hash": "ba39ad24e9f08902a287338ad26f3fa17f0cf5ddc5c49109c4d0ad4c63d318ae",
+      "packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4",
+      "published_packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4",
+      "receipt_id": "a2e0fcac1b594ef8a8a0bcc065cb94be",
+      "request_hash": "b438f60cad51e2251c5c2ca708c89677c9a60d337d97310920834251d8f19607",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

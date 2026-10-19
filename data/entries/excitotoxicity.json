@@ -1,0 +1,60 @@
+{
+  "id": "excitotoxicity",
+  "term": "excitotoxicity",
+  "definition": "Excitotoxicity is a process in which nerve cells are driven toward cell death. In the source context, it is described as one way chronic neuroinflammation can contribute to neuronal damage and ongoing neurodegeneration.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13483688"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13483688",
+      "revision": "2026; DOI 10.1186/s12868-026-01017-2; article XML SHA-256 314e08df21417a1ae2fe71c6206dc8952e97f5ff0e8db71f15e2d51eb600b1f4",
+      "scope": "Source record 10.1186/s12868-026-01017-2; pinned source text",
+      "locator": "https://doi.org/10.1186/s12868-026-01017-2"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "acf3454f1b4b7b2edb0ee551978733694b5cd5a8b4a3fcb9ba78144f478b4eb3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "66de21ec29834cb08cd9b79148502485",
+    "request_hash": "085ea3d1bd4f240837fcd68a0eea81b047323e099730421225ef2c50f99d22be",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "fbeca3358f17b794f51f456cec334a5fcdd59eaeaa59dc60c695871a2cea01ce",
+    "packet_hash": "acf3454f1b4b7b2edb0ee551978733694b5cd5a8b4a3fcb9ba78144f478b4eb3"
+  },
+  "hash": "64a7f861f453ce10ccb341e39a805f969a8fbbbd1df4317ab414140ba0e83fdd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions “excitotoxicity” only as “cellular death due to excitotoxicity,” but it does not provide a definition describing excitotoxicity as a process that drives nerve cells toward cell death.",
+        "The definition’s wording about “chronic neuroinflammation” contributing to neuronal damage and ongoing neurodegeneration is only indirectly supported via a described cycle (chronic neuroinflammation → neuronal damage via cytokines → pro-inflammatory mediators → subsequent neurodegeneration), but the requested sense of the term (what excitotoxicity is) is not explicitly defined in the packet."
+      ],
+      "definition_hash": "fbeca3358f17b794f51f456cec334a5fcdd59eaeaa59dc60c695871a2cea01ce",
+      "packet_hash": "acf3454f1b4b7b2edb0ee551978733694b5cd5a8b4a3fcb9ba78144f478b4eb3",
+      "published_packet_hash": "acf3454f1b4b7b2edb0ee551978733694b5cd5a8b4a3fcb9ba78144f478b4eb3",
+      "receipt_id": "70fe3bcd473344fc838eabb7ba2d5d45",
+      "request_hash": "f08e31a712c1a87fa848f8af7fd70a79694d825d709d182f071060eb47137195",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fbeca3358f17b794f51f456cec334a5fcdd59eaeaa59dc60c695871a2cea01ce",
+      "packet_hash": "acf3454f1b4b7b2edb0ee551978733694b5cd5a8b4a3fcb9ba78144f478b4eb3",
+      "published_packet_hash": "acf3454f1b4b7b2edb0ee551978733694b5cd5a8b4a3fcb9ba78144f478b4eb3",
+      "receipt_id": "a93f262c4ddc4b89adbf4438b563adc6",
+      "request_hash": "0dc9133fb820ac9dcf5a96f04599d8dddd6fc4aee0aae918c0dd0f184da3f7ef",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

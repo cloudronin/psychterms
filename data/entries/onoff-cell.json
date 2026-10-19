@@ -1,0 +1,63 @@
+{
+  "id": "onoff-cell",
+  "term": "on–off cell",
+  "definition": "An on–off cell is an individual cell within a population that occupies one of two distinct activity states, such as an ON state with high expression of a regulator or an OFF state with low expression. In the source, these ON and OFF subpopulations arise from a temperature-responsive bistable switch and can differ in invasiveness and contribution to virulence.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5179001"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5179001",
+      "revision": "2016; DOI 10.1371/journal.ppat.1006091; article XML SHA-256 50ad4c5fdee6b50fb6e0b0a4b8709b304648fdbb67ac08f56f8712c04fbdf880",
+      "scope": "Source record 10.1371/journal.ppat.1006091; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.ppat.1006091"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9216013536aed0c442695124771a7003c567fa20399d5f4318617e4a2e85c571",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ef6413dfa95847f7b3e8f29982966ceb",
+    "request_hash": "bbd36782eb7dd834d9b476b1a240874995043bf6f708b52898681f4e46907b63",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "778bd98e1882c5c0ce779b70f6f3177fb1baab61afd1ce7acb753e804d5937e1",
+    "packet_hash": "9216013536aed0c442695124771a7003c567fa20399d5f4318617e4a2e85c571"
+  },
+  "hash": "79b117ce7667696a7dfe98d51a62308b8c81823765f5191b508b19f27fb12707",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about bacterial virulence regulation, not the requested psychology/counselling field of learning, so the field is not defensible here.",
+        "The definition adds a generalized cell-state description (“high expression of a regulator” / “low expression”) that is not stated that way in the packet; the packet supports ON and OFF subpopulations tied specifically to RovA and invasiveness/virulence, not this broader formulation."
+      ],
+      "definition_hash": "778bd98e1882c5c0ce779b70f6f3177fb1baab61afd1ce7acb753e804d5937e1",
+      "packet_hash": "9216013536aed0c442695124771a7003c567fa20399d5f4318617e4a2e85c571",
+      "published_packet_hash": "9216013536aed0c442695124771a7003c567fa20399d5f4318617e4a2e85c571",
+      "receipt_id": "9f937c6205b74449ba9496c10de8c1dc",
+      "request_hash": "b8561f10bb30573d80d6ad6b23b0ed8e8103c23e78f4bf545a3589f8e87b39bd",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s example phrasing (“ON state with high expression of a regulator or an OFF state with low expression”) is not explicitly supported in the provided packet text (the packet mentions RovA ON/OFF subpopulations and high-/low-invasive subpopulations, but does not state that ON/OFF corresponds directly to high vs low regulator expression).",
+        "The provided field is “learning,” but the packet describes a bacterial thermoresponsive bistable switch controlling virulence; this is not supported as belonging to “learning.”"
+      ],
+      "definition_hash": "778bd98e1882c5c0ce779b70f6f3177fb1baab61afd1ce7acb753e804d5937e1",
+      "packet_hash": "9216013536aed0c442695124771a7003c567fa20399d5f4318617e4a2e85c571",
+      "published_packet_hash": "9216013536aed0c442695124771a7003c567fa20399d5f4318617e4a2e85c571",
+      "receipt_id": "de88a8b0be4a441494c6c85844c0d2f6",
+      "request_hash": "69a29788606292f025bd5be312cfd502b7062ace030ebe84c5acb4a2245d8818",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

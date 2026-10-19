@@ -1,0 +1,26 @@
+{
+  "id": "drl",
+  "term": "DRL",
+  "source": "article-pmc11192327",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0304422",
+  "revision": "2024; DOI 10.1371/journal.pone.0304422; article XML SHA-256 9debfffdc6f20542b8494323ac5fe1ca6865e46fc544b8e0117824e05f9a9c0a",
+  "source_snapshot_sha256": "9debfffdc6f20542b8494323ac5fe1ca6865e46fc544b8e0117824e05f9a9c0a",
+  "url": "https://doi.org/10.1371/journal.pone.0304422",
+  "text": "This study delves into the critical need for generating real-world compatible data to support the application of deep reinforcement learning (DRL) in vehicle routing. Despite the advancements in DRL algorithms, their practical implementation in vehicle routing is hindered by the scarcity of appropriate real-world datasets. Existing methodologies often rely on simplistic distance metrics, failing to accurately capture the complexities inherent in real-world routing scenarios. To address this challenge, we present a novel approach for generating real-world compatible data tailored explicitly for DRL-based vehicle routing models. Our methodology centers on the development of a spatial data extraction and curation tool adept at extracting geocoded locations from diverse urban environments, encompassing both planned and unplanned areas. Leveraging advanced techniques, the tool refines location data, accounting for unique characteristics of urban environments. Furthermore, it integrates specialized distance metrics and location demands to construct vehicle routing graphs that represent real-world conditions. Through comprehensive experimentation on varied real-world testbeds, our approach showcases its efficacy in producing datasets closely aligned with the requirements of DRL-based vehicle routing models. It’s worth mentioning that this dataset is structured as a graph containing location, distance, and demand information, with each graph stored independently to facilitate efficient access and manipulation. The findings underscore the adaptability and reliability of our methodology in tackling the intricacies of real-world routing challenges. This research marks a significant stride towards enabling the practical application of DRL techniques in addressing real-world vehicle routing problems.",
+  "source_label": "Generating large-scale real-world vehicle routing dataset with novel spatial data extraction tool",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1818
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "eaa3e7199d0815f4cadcebe4cae236211f06e7d65fc20af15f77debe85b05ba8"
+}

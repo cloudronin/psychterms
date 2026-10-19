@@ -1,0 +1,63 @@
+{
+  "id": "arousal-level",
+  "term": "arousal level",
+  "definition": "Arousal level is the degree of activation or stress an individual is experiencing at a given time. In this source, it refers to how heightened or reduced the animal’s state was because of novelty or prior habituation, which influenced how stress affected learning and memory.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3256198"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3256198",
+      "revision": "2012; DOI 10.1371/journal.pone.0029988; article XML SHA-256 2418acb9cd47da74954f14aa0721f7e1ae7a50348507b69efeda094eacbcebe5",
+      "scope": "Source record 10.1371/journal.pone.0029988; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0029988"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2cd55bf0a9cf9e7404413c1e38f0591d06e9fd16ac5983467646ad796aaad5c6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dfc406dc88e84bdd87059f32e2c2e94a",
+    "request_hash": "1404e964ac2e78427d92128ecdb63e782e7df36d2d105c5592733aeaf2bed9b5",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "f6c3b53f51e2d94111956b1700d2d7ceef701a4b27c05ebebaf8ff37f4c20b30",
+    "packet_hash": "2cd55bf0a9cf9e7404413c1e38f0591d06e9fd16ac5983467646ad796aaad5c6"
+  },
+  "hash": "1c4ee6d47640dd96d5fd1c0105a3a9817352b127184dabd34037a123c455385d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence defines “arousal level” as “the degree of activation or stress an individual is experiencing at a given time,” but the packet does not provide an explicit conceptual definition of arousal level as “degree of activation” (it only uses “arousal level” as an experimental condition in rats).",
+        "The definition generalizes to “an individual” and “at a given time,” while the packet describes arousal level specifically in rats under two context conditions (no habituation vs extensive prior habituation) for a particular task and experiment timeframe."
+      ],
+      "definition_hash": "f6c3b53f51e2d94111956b1700d2d7ceef701a4b27c05ebebaf8ff37f4c20b30",
+      "packet_hash": "2cd55bf0a9cf9e7404413c1e38f0591d06e9fd16ac5983467646ad796aaad5c6",
+      "published_packet_hash": "2cd55bf0a9cf9e7404413c1e38f0591d06e9fd16ac5983467646ad796aaad5c6",
+      "receipt_id": "4151772209f445ebb7f20ce966869f75",
+      "request_hash": "a288ab39fd1be46e51c3114cebf09a32853263369fbd120bb5db1af8eb51b50c",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition generalizes beyond the source by defining arousal level as a general “degree of activation or stress” in an individual; the packet only supports arousal level in rats as a high- vs reduced-novelty stress condition tied to habituation in this experiment.",
+        "The source-specific sense should stay limited to the study’s animal context and its effect on learning and memory; the current wording reads as a broader general definition rather than a source-grounded one."
+      ],
+      "definition_hash": "f6c3b53f51e2d94111956b1700d2d7ceef701a4b27c05ebebaf8ff37f4c20b30",
+      "packet_hash": "2cd55bf0a9cf9e7404413c1e38f0591d06e9fd16ac5983467646ad796aaad5c6",
+      "published_packet_hash": "2cd55bf0a9cf9e7404413c1e38f0591d06e9fd16ac5983467646ad796aaad5c6",
+      "receipt_id": "9db7b52e02a748f88e54fe568f7da630",
+      "request_hash": "127cdf91c2c04cbca26f54b41c2fcf79ac3dc902fcf40d97d0537511aebd8843",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

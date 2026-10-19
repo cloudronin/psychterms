@@ -1,0 +1,63 @@
+{
+  "id": "module",
+  "term": "module",
+  "definition": "In this diagnostic context, a module is a specific version or section of the ADOS-2. Different modules may show different diagnostic accuracy in real-world autism assessment settings.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13350443"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13350443",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1840734; article XML SHA-256 6667e56e6c1cfd2a1e348cb60c327fd319b7a5211696dd8179a4c3c353f41d7c",
+      "scope": "Source record 10.3389/fpsyt.2026.1840734; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1840734"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8ed4fcfc26602d70d37c65d607728b7db3d63d5e30e12fe8094b81a5ef0f2e6d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e37d760570fb47e08fd386d16fa5cbf4",
+    "request_hash": "939c047470d0cc977152c69b8dddae482742119b659740872da411859984f9e2",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "fa0a2f36f2ce5556561547458686614c1a9b140744f8ab64a8a4daea0b0d8748",
+    "packet_hash": "8ed4fcfc26602d70d37c65d607728b7db3d63d5e30e12fe8094b81a5ef0f2e6d"
+  },
+  "hash": "ef213f3e099cba3148ccec551e6f251331393004d1c46787db70af5977442156",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define what an “ADOS-2 module” is (e.g., that it is a specific version or section of ADOS-2). It only states that ADOS-2’s diagnostic performance is heterogeneous “particularly across modules.”",
+        "While the packet supports that module-specific diagnostic accuracy varies in real-world clinical referral populations (“particularly across modules”), the definition’s explanation of what a module means is not supported by the provided text."
+      ],
+      "definition_hash": "fa0a2f36f2ce5556561547458686614c1a9b140744f8ab64a8a4daea0b0d8748",
+      "packet_hash": "8ed4fcfc26602d70d37c65d607728b7db3d63d5e30e12fe8094b81a5ef0f2e6d",
+      "published_packet_hash": "8ed4fcfc26602d70d37c65d607728b7db3d63d5e30e12fe8094b81a5ef0f2e6d",
+      "receipt_id": "949f66533bf54b1b8e509488b064b9a0",
+      "request_hash": "83e7b9fad5d72ec29f800cec525b3d1a8d17eba4d25e54827140096286d245c7",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that ADOS-2 performance varies across modules and that module-specific diagnostic accuracy was studied, but it does not define a “module” as a specific version or section of ADOS-2.",
+        "The definition adds an explanatory gloss about what a module is that is not stated in the source packet; a supported diagnostic sense should stay within the packet’s evidence."
+      ],
+      "definition_hash": "fa0a2f36f2ce5556561547458686614c1a9b140744f8ab64a8a4daea0b0d8748",
+      "packet_hash": "8ed4fcfc26602d70d37c65d607728b7db3d63d5e30e12fe8094b81a5ef0f2e6d",
+      "published_packet_hash": "8ed4fcfc26602d70d37c65d607728b7db3d63d5e30e12fe8094b81a5ef0f2e6d",
+      "receipt_id": "6b4a1d4ef2a6445b82aa06e9300e6c38",
+      "request_hash": "3ff8f1599667a7ffcb5135266a2a65505e4c21c0d7facd44f2a45fcf9fcd15d5",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

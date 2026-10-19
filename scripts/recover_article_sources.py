@@ -78,7 +78,11 @@ def parse_article(raw,pmcid,doi):
     return source,record
 
 def plan():
-    existing={norm(e['term']) for e in (json.loads(p.read_text()) for p in (ROOT/'data/entries').glob('*.json'))}
+    existing=set()
+    for path in (ROOT/'data/entries').glob('*.json'):
+        try:existing.add(norm(json.loads(path.read_text())['term']))
+        except json.JSONDecodeError:continue  # A new draft may still be finishing its write.
+
     terms={norm(r['term']):r['term'] for r in json.loads((AUDIT/'coverage.json').read_text()) if r['production_scope']=='term' and norm(r['term']) not in existing}
     lookup={}
     for directory in (AUDIT/'article-batches',AUDIT/'article-wide-batches',DEST/'search'):

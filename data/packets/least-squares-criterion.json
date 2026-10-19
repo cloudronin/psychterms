@@ -1,0 +1,26 @@
+{
+  "id": "least-squares-criterion",
+  "term": "least squares criterion",
+  "source": "article-pmc7428144",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0237654",
+  "revision": "2020; DOI 10.1371/journal.pone.0237654; article XML SHA-256 bf8c1c6e8106940667a395426912234fa0d2f3b8e715cd905461ebd2b5d4aace",
+  "source_snapshot_sha256": "bf8c1c6e8106940667a395426912234fa0d2f3b8e715cd905461ebd2b5d4aace",
+  "url": "https://doi.org/10.1371/journal.pone.0237654",
+  "text": "The present paper proposes a novel kernel adaptive filtering algorithm, where each Gaussian kernel is parameterized by a center vector and a symmetric positive definite (SPD) precision matrix, which is regarded as a generalization of scalar width parameter. In fact, different from conventional kernel adaptive systems, the proposed filter is structured as a superposition of non-isotropic Gaussian kernels, whose non-isotropy makes the filter more flexible. The adaptation algorithm will search for optimal parameters in a wider parameter space. This generalization brings the need of special treatment of parameters that have a geometric structure. In fact, the main contribution of this paper is to establish update rules for precision matrices on the Lie group of SPD matrices in order to ensure their symmetry and positive-definiteness. The parameters of this filter are adapted on the basis of a least-squares criterion to minimize the filtering error, together with an ℓ 1 -type regularization criterion to avoid overfitting and to prevent the increase of dimensionality of the dictionary. Experimental results confirm the validity of the proposed method.",
+  "source_label": "Anisotropic Gaussian kernel adaptive filtering by Lie-group dictionary learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1162
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "d4a7fc705b9218db1eefc130651635fdeb02af777ba76f93bb18f66002910eb6"
+}

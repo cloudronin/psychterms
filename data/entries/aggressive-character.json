@@ -1,0 +1,61 @@
+{
+  "id": "aggressive-character",
+  "term": "aggressive character",
+  "definition": "In this biological context, aggressive character means a tumor behaves in a more harmful and fast-progressing way, with greater tendency to worsen, recur, and be linked to shorter survival. In the source, it refers especially to glioblastoma’s severe disease course and poor prognosis.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5325257"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5325257",
+      "revision": "2017; DOI 10.1371/journal.pone.0172234; article XML SHA-256 db3c0dc9fd1f47512bedeabee50a613ea7e9ed3686bae2bb786baf608d133398",
+      "scope": "Source record 10.1371/journal.pone.0172234; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0172234"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7879a097014e3c12b2e1f235a59777e505f200952d342e257b92a0dfe5a7e201",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bf2ff10cfa9b465c83750a762c956105",
+    "request_hash": "cb29beb4bb0a6aebc2265a8602ca08f3ff6e1c53b8f42c634a9c50c8410cca92",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "31ca2e949d36f3786c4f196d52db94392d4a058b74d4e937ef250cee9cc47a36",
+    "packet_hash": "7879a097014e3c12b2e1f235a59777e505f200952d342e257b92a0dfe5a7e201"
+  },
+  "hash": "963087d9fbd5ca642f18fea52e74afb6630d12c80708e02c604e9dd6d2aee1d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “fast-progressing” behavior, but the packet does not explicitly describe speed of progression—only that survival decreases with increasing tumor grade and that patients often experience recurrence.",
+        "The definition states that the tumor has a “greater tendency to worsen”; the packet supports recurrence and poorer prognosis with higher tumor grade, but does not explicitly support the specific phrasing of a “greater tendency to worsen.”",
+        "Most other elements are broadly consistent (worse survival with higher grade; grade IV glioblastoma has poor prognosis due to “aggressive character”), but the unsupported “fast-progressing” component is substantive."
+      ],
+      "definition_hash": "31ca2e949d36f3786c4f196d52db94392d4a058b74d4e937ef250cee9cc47a36",
+      "packet_hash": "7879a097014e3c12b2e1f235a59777e505f200952d342e257b92a0dfe5a7e201",
+      "published_packet_hash": "7879a097014e3c12b2e1f235a59777e505f200952d342e257b92a0dfe5a7e201",
+      "receipt_id": "d859acaf44ba4e69b961cb07bb201c15",
+      "request_hash": "4692531df44dce558c7895a807b88bd19710ec79c5ec45a833f95ffb05a0d998",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "31ca2e949d36f3786c4f196d52db94392d4a058b74d4e937ef250cee9cc47a36",
+      "packet_hash": "7879a097014e3c12b2e1f235a59777e505f200952d342e257b92a0dfe5a7e201",
+      "published_packet_hash": "7879a097014e3c12b2e1f235a59777e505f200952d342e257b92a0dfe5a7e201",
+      "receipt_id": "824b42bea8054c23a2605ab93f3c946c",
+      "request_hash": "c5c23a2ea8c7814a6a372778f680468b799358e3f48c139297936d3d097697ad",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

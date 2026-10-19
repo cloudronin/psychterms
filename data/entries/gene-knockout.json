@@ -1,0 +1,64 @@
+{
+  "id": "gene-knockout",
+  "term": "gene knockout",
+  "definition": "Gene knockout is the loss or removal of a specific gene so researchers can examine what changes when that gene is missing. In this context, knocking out the Ptpn5 gene was used to study effects on behavior, the serotonin system, and brain morphology in mice.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12848919"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12848919",
+      "revision": "2026; DOI 10.3389/fpsyt.2025.1730197; article XML SHA-256 7021d1d66092aeb27b7b92c669abe08c49da4cd1ea02a8ac3e716aa9d333450d",
+      "scope": "Source record 10.3389/fpsyt.2025.1730197; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1730197"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b766ebccbd728362b7d5237485b5e707f1e1cf992ed77df7a8fe64ae3fc014f8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "60d7f9aa7ee348c5a05828c3f1330126",
+    "request_hash": "a13a226e0a7783d3c31b8f820e3a5b2fb3b0764a6416ae273d4d932789638d3b",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "c0057efc9441a40a2a213bea39c39d154706635f8e50f7fee9c7d193085326f3",
+    "packet_hash": "b766ebccbd728362b7d5237485b5e707f1e1cf992ed77df7a8fe64ae3fc014f8"
+  },
+  "hash": "66cba35346ecfbf766d24327a3bd581f5914848dc913d11e563a4276b58ea1f2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “Gene knockout is the loss or removal of a specific gene,” but the packet only mentions “Ptpn5 gene knockout” and does not provide a definition or description of what “gene knockout” means.",
+        "The definition’s extra claims that this method is “used to study effects on behavior, the serotonin system, and brain morphology in mice” are only partially supported: the packet supports effects on behavior and the serotonin system, but the provided text excerpt does not explicitly mention brain morphology (only the provided title/label suggests it, which is outside the excerpt’s text).",
+        "The provided packet content is framed as research on mice and a poorly studied association in mental disorders; it does not support treating “gene knockout” as a term under the field “diagnosis,” making the requested sense/field not defensible from the packet."
+      ],
+      "definition_hash": "c0057efc9441a40a2a213bea39c39d154706635f8e50f7fee9c7d193085326f3",
+      "packet_hash": "b766ebccbd728362b7d5237485b5e707f1e1cf992ed77df7a8fe64ae3fc014f8",
+      "published_packet_hash": "b766ebccbd728362b7d5237485b5e707f1e1cf992ed77df7a8fe64ae3fc014f8",
+      "receipt_id": "c62405a475b74853a74566785aefa399",
+      "request_hash": "3985aa4a22b64ac8883240a2da4893f9efa3a6f009199ee4566bbcfc02bb3bc1",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is wrong: gene knockout is a genetics/research term, not a diagnosis term.",
+        "The first sentence adds a general definition (“loss or removal of a specific gene”) that is not stated in the supplied packet; the packet only says the study investigated the effects of Ptpn5 gene knockout."
+      ],
+      "definition_hash": "c0057efc9441a40a2a213bea39c39d154706635f8e50f7fee9c7d193085326f3",
+      "packet_hash": "b766ebccbd728362b7d5237485b5e707f1e1cf992ed77df7a8fe64ae3fc014f8",
+      "published_packet_hash": "b766ebccbd728362b7d5237485b5e707f1e1cf992ed77df7a8fe64ae3fc014f8",
+      "receipt_id": "4f548fb8e560456c86be16a90a45df33",
+      "request_hash": "835fd01825043e11edd4252df6b6a6971887cf88acd164c58e84f11806efb1cd",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

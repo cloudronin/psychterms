@@ -1,0 +1,26 @@
+{
+  "id": "bev",
+  "term": "BEV",
+  "source": "article-pmc12410713",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0331195",
+  "revision": "2025; DOI 10.1371/journal.pone.0331195; article XML SHA-256 3376669436b2ac5a5093cbd67f16cb2aca2ce9ddb0128a8b7cf732992cf45483",
+  "source_snapshot_sha256": "3376669436b2ac5a5093cbd67f16cb2aca2ce9ddb0128a8b7cf732992cf45483",
+  "url": "https://doi.org/10.1371/journal.pone.0331195",
+  "text": "Multi-modal data fusion plays a critical role in enhancing the accuracy and robustness of perception systems for autonomous driving, especially for the detection of small objects. However, small object detection remains particularly challenging due to sparse LiDAR points and low-resolution image features, which often lead to missed or imprecise detections. Currently, many methods process LiDAR point clouds and visible-light camera images separately, and then fuse them in the detection head. However, these approaches often fail to fully exploit the advantages of multi-modal sensors and overlook the potential for enhancing the correlation between modalities before feature fusion. To address this, we propose a novel LiDAR-guided multi-modal fusion framework for object detection, called LGMMfusion. This framework leverages the depth information from LiDAR to guide the generation of image Bird’s Eye View (BEV) features. Specifically, LGMMfusion promotes spatial interaction between point clouds and pixels before the fusion of LiDAR BEV and image BEV features, enabling the generation of higher-quality image BEV features. To better align image and LiDAR features, we incorporate a multi-head multi-scale self-attention mechanism and a multi-head adaptive cross-attention mechanism, using the prior depth information from point clouds to generate image BEV features that better match the spatial positions of LiDAR BEV features. Finally, the LiDAR BEV features and image BEV features are fused to provide enhanced features for the detection head. Experimental results show that LGMMfusion achieves 71.1% NDS and 67.3% mAP on the nuScenes validation set, while also improving the detection of small objects and enhancing the detection accuracy of most objects.",
+  "source_label": "LGMMFusion: A LiDAR-guided multi-modal fusion framework for enhanced 3D object detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1768
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "16f021950ef370b10ac56ce5faa7e88bcc75f7362702194e7398648375449f0c"
+}

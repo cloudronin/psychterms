@@ -1,0 +1,64 @@
+{
+  "id": "graph-theory",
+  "term": "graph theory",
+  "definition": "Graph theory is a mathematical way of describing and analysing networks through their structure. In this source, spectral graph theory refers to using features of that structure to make fast, approximate predictions about processes such as epidemic spread on contact networks.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13278587"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13278587",
+      "revision": "2026; DOI 10.1371/journal.pone.0344827; article XML SHA-256 8e63bdad2859631f82187e08b52d1fb54921c340151cd1020b731d38cbc6aec2",
+      "scope": "Source record 10.1371/journal.pone.0344827; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0344827"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7aee2a0981cd42f6a82d999840b97bec",
+    "request_hash": "cff88e20fd72d26e766c9cf637a395e11d6a164277aaefb05cc99bc478e201bf",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "3c2925cb1fff9f6fc2423d8b3b8a6811fc3cefbe36ef1019834eb98f35bbe985",
+    "packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6"
+  },
+  "hash": "6b16e16d02791666fb34fe4ee1c93370a462442609fea8b67a5660c8db1fa7e7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet discusses spectral graph theory methods for predicting epidemic thresholds; it does not support a general definition of graph theory as a mathematical way of describing and analysing networks.",
+        "The clause about making fast, approximate predictions about epidemic spread on contact networks is supported only for specific classical structural approaches (QMF, KSEL), not for graph theory itself."
+      ],
+      "definition_hash": "3c2925cb1fff9f6fc2423d8b3b8a6811fc3cefbe36ef1019834eb98f35bbe985",
+      "packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6",
+      "published_packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6",
+      "receipt_id": "b6489fc9800e400e900802a50ed42c42",
+      "request_hash": "f1ac55843379fd3f4f8558b2b51a1f5792fd5490271c91f5a926d7a034fb27a3",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“Graph theory is a mathematical way of describing and analysing networks through their structure.”) is not supported by the provided packet text, which does not define graph theory in general terms.",
+        "The definition’s second sentence claims “spectral graph theory refers to using features of that structure to make fast, approximate predictions about processes such as epidemic spread on contact networks.” The packet supports fast, approximate predictions of the “epidemic threshold τ” using spectral graph theory features/methods (QMF, KSEL), but it does not mention epidemic spread as the relevant process.",
+        "The packet does not provide enough support for the specific “epidemic spread” wording or the general “processes such as …” phrasing; it is focused on threshold prediction rather than spread dynamics."
+      ],
+      "definition_hash": "3c2925cb1fff9f6fc2423d8b3b8a6811fc3cefbe36ef1019834eb98f35bbe985",
+      "packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6",
+      "published_packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6",
+      "receipt_id": "6a2e1c9be2f143859d35f8958f53fd75",
+      "request_hash": "c2345fbf4844f8147b62f922bb01942282c933721135054ce4fa79e774f4b312",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

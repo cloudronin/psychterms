@@ -1,0 +1,63 @@
+{
+  "id": "luminance",
+  "term": "luminance",
+  "definition": "Luminance is the measurable lightness or brightness of a colour, expressed as higher values for lighter appearances and lower values for darker ones. In the packet, it is used to distinguish shell colour differences, with dark bands lowering luminance.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11734995"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11734995",
+      "revision": "2025; DOI 10.1371/journal.pone.0314008; article XML SHA-256 cce12788f937e348d933305d84356919fa5164c8df1fc7f2b4d07e1d4fc1fd11",
+      "scope": "Source record 10.1371/journal.pone.0314008; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0314008"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c8a8ce50a356349967c3729e98f6c31ad9e13db39b1a26f8ba7eeb9988eb4e45",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "87f8544ffe4843c78dd61c81aee6e460",
+    "request_hash": "8d5de04a5647b7c2646d5e41a8dc397ac76acefa491bb04b9e27416d27287801",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "ea937f97f4249334fcb0e1046811d0945644613fb1e62ee74f0e7b6162fce697",
+    "packet_hash": "c8a8ce50a356349967c3729e98f6c31ad9e13db39b1a26f8ba7eeb9988eb4e45"
+  },
+  "hash": "c3a7c9df3dc294f7af516b5a6b7259c403f3bd825814fa0974c1548aedc44be4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement that luminance is “measurable lightness or brightness of a colour” is not explicitly stated anywhere in the provided packet text.",
+        "The packet describes how “shell colour luminance” differs among snail color morphs (including that dark bands decrease luminance values) but does not define luminance’s meaning as a property of “lightness/brightness” in general terms.",
+        "The provided definition includes an interpretation framed as a definition (“expressed as higher values for lighter appearances and lower values for darker ones”) that is not explicitly defined as such in the packet; the packet only reports relative luminance values for specific shell morphs under image-taking conditions."
+      ],
+      "definition_hash": "ea937f97f4249334fcb0e1046811d0945644613fb1e62ee74f0e7b6162fce697",
+      "packet_hash": "c8a8ce50a356349967c3729e98f6c31ad9e13db39b1a26f8ba7eeb9988eb4e45",
+      "published_packet_hash": "c8a8ce50a356349967c3729e98f6c31ad9e13db39b1a26f8ba7eeb9988eb4e45",
+      "receipt_id": "d4b358be92654f299ca739eb341983a4",
+      "request_hash": "a4cd74f25a4afd3853c2bd9af30e2d90eb4a1a1dfab2bed22b9a7af05e46be9f",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports luminance as a measurable lightness/brightness value used in shell-colour analysis, but it does not support the requested field label “learning” or any psychology/learning sense for this term."
+      ],
+      "definition_hash": "ea937f97f4249334fcb0e1046811d0945644613fb1e62ee74f0e7b6162fce697",
+      "packet_hash": "c8a8ce50a356349967c3729e98f6c31ad9e13db39b1a26f8ba7eeb9988eb4e45",
+      "published_packet_hash": "c8a8ce50a356349967c3729e98f6c31ad9e13db39b1a26f8ba7eeb9988eb4e45",
+      "receipt_id": "ffbb4948409e4940884bb03c2d4ee19b",
+      "request_hash": "038ce212a9c56883e48fb81e47ed8b62ad4dbb1478214234d3fc3db34ffe9f74",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

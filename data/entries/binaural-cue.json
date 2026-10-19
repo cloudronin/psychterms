@@ -1,0 +1,63 @@
+{
+  "id": "binaural-cue",
+  "term": "binaural cue",
+  "definition": "A binaural cue is information the brain gets by comparing what arrives at the two ears to help locate a sound. In this packet, the binaural cue discussed is interaural time difference, meaning small differences in when a sound reaches each ear.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7360356"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7360356",
+      "revision": "2020; DOI 10.3389/fnsys.2020.00039; article XML SHA-256 c38bcb792d5b5bb68e1ccdacd7b725c2d4c980963546cf105a34b5715f4427b5",
+      "scope": "Source record 10.3389/fnsys.2020.00039; pinned source text",
+      "locator": "https://doi.org/10.3389/fnsys.2020.00039"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "117a97b45c01f20a4c1412bb3045ba9d440cf63ac5b7b189c158fa7f98fa85d6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9f31ebf70b4c47e38a7bb2fdc90571ac",
+    "request_hash": "48168fcbd05659ba81293b14227ef790d02465097aa4bc9a1dae23f430a6bb1c",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "ffd4c9f392a7fd6188d07fbe0acd52acea26bdcc690b46f291b56833d431783d",
+    "packet_hash": "117a97b45c01f20a4c1412bb3045ba9d440cf63ac5b7b189c158fa7f98fa85d6"
+  },
+  "hash": "6ae5d9e93643b4613ed40c86067da2758db98608134cb96f41beaddb77a34f7a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s second sentence explains that interaural time difference (ITD) “means small differences in when a sound reaches each ear,” but the provided packet text does not explicitly define ITD in those terms.",
+        "Because the specific meaning of ITD is not supported by the packet’s wording, the requested sense of the term is not fully defensible from the supplied source."
+      ],
+      "definition_hash": "ffd4c9f392a7fd6188d07fbe0acd52acea26bdcc690b46f291b56833d431783d",
+      "packet_hash": "117a97b45c01f20a4c1412bb3045ba9d440cf63ac5b7b189c158fa7f98fa85d6",
+      "published_packet_hash": "117a97b45c01f20a4c1412bb3045ba9d440cf63ac5b7b189c158fa7f98fa85d6",
+      "receipt_id": "61ed04f440dc4fc6a48986af71ac5f9c",
+      "request_hash": "f7a95151b0b619f1262462e448a6099081afc8151e16a757d66a59bd1799672f",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence adds a general definition (“information the brain gets by comparing what arrives at the two ears”) that is not stated in the packet; the packet only supports that binaural cues are used for sound localization.",
+        "The packet supports interaural time difference (ITD) as the binaural cue discussed, but the definition blurs the term with one specific cue without making clear that ITD is only the example studied here."
+      ],
+      "definition_hash": "ffd4c9f392a7fd6188d07fbe0acd52acea26bdcc690b46f291b56833d431783d",
+      "packet_hash": "117a97b45c01f20a4c1412bb3045ba9d440cf63ac5b7b189c158fa7f98fa85d6",
+      "published_packet_hash": "117a97b45c01f20a4c1412bb3045ba9d440cf63ac5b7b189c158fa7f98fa85d6",
+      "receipt_id": "9e58341ab11a4a6e8ac4d00e73d191a4",
+      "request_hash": "014eddc62f3ee47d3f9333568eb1c90ea4afce822b8b239996602f38d399ef3e",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

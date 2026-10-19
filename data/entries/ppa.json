@@ -1,0 +1,63 @@
+{
+  "id": "ppa",
+  "term": "PPA",
+  "definition": "PPA stands for partially protected area, a type of marine protected area where only some activities or uses are restricted rather than fully prohibited. In the source, the term is used for ocean conservation zones whose protection level is less than that of fully protected marine protected areas, with reported benefits that are variable and not consistently greater than open ocean or fully protected areas.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11706464"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11706464",
+      "revision": "2025; DOI 10.1371/journal.pone.0307324; article XML SHA-256 ec61b2160e1eccde78c1848ab82e3428f5d4f2e2e42e4bed98ccaab50cb1a35c",
+      "scope": "Source record 10.1371/journal.pone.0307324; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0307324"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9af834d9ffa8e934bf135d5f24d2c7d68d42650d836713f7829f89e1375107b9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9d046c3802a4460e8430da2d12a3dbf1",
+    "request_hash": "ad725a14619a7bf51e72f63155d2ecf203736199cac2549cd195a13aee4046f9",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "0c6dc491900869bc56d099be1f33d10d8368edb3a23abc436ba2e07254e9cf08",
+    "packet_hash": "9af834d9ffa8e934bf135d5f24d2c7d68d42650d836713f7829f89e1375107b9"
+  },
+  "hash": "aa5a0d58cffaede4ac3facb3989b82d3e8991f1d5a8fab9ebea9d88644f72c62",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports “partially protected areas (PPAs),” not the singular expansion “partially protected area.”",
+        "The source says PPAs provide only partial protection and that their benefits are ambiguous, but it does not specifically define them as areas where “only some activities or uses are restricted rather than fully prohibited.”"
+      ],
+      "definition_hash": "0c6dc491900869bc56d099be1f33d10d8368edb3a23abc436ba2e07254e9cf08",
+      "packet_hash": "9af834d9ffa8e934bf135d5f24d2c7d68d42650d836713f7829f89e1375107b9",
+      "published_packet_hash": "9af834d9ffa8e934bf135d5f24d2c7d68d42650d836713f7829f89e1375107b9",
+      "receipt_id": "efb18b8376954ecdbe8960ddcefd42b2",
+      "request_hash": "21137865e6b760277c0427c206aaf1248530cc8fe4bc492db21cdf063c552641",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that a PPA is “a type of marine protected area where only some activities or uses are restricted rather than fully prohibited,” but the provided packet text does not supply this specific definition/meaning of PPA (it only notes that a consistent definition is lacking and that the review conducted a definition).",
+        "The packet does support parts of the definition about benefits being ambiguous/variable and not consistently greater than open ocean, and that no PPAs provide greater overall benefits than fully protected MPAs; however, because the key characterization of what “partially protected” means (restricted activities/uses rather than fully prohibited) is not explicitly supported in the packet text, the full definition is not defensible."
+      ],
+      "definition_hash": "0c6dc491900869bc56d099be1f33d10d8368edb3a23abc436ba2e07254e9cf08",
+      "packet_hash": "9af834d9ffa8e934bf135d5f24d2c7d68d42650d836713f7829f89e1375107b9",
+      "published_packet_hash": "9af834d9ffa8e934bf135d5f24d2c7d68d42650d836713f7829f89e1375107b9",
+      "receipt_id": "5ddad7a539ae430a9eb0af44867799b6",
+      "request_hash": "e2f845f0cad860fc51ea6c05982fa298126b668e81eff49e5d78c01b24361fd0",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

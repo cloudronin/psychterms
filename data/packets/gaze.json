@@ -1,0 +1,26 @@
+{
+  "id": "gaze",
+  "term": "gaze",
+  "source": "article-pmc12551874",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0334093",
+  "revision": "2025; DOI 10.1371/journal.pone.0334093; article XML SHA-256 29234f4da1e74eb7d3d3ad232f59a8830ed89881610e3636b00652a93ea4d1f5",
+  "source_snapshot_sha256": "29234f4da1e74eb7d3d3ad232f59a8830ed89881610e3636b00652a93ea4d1f5",
+  "url": "https://doi.org/10.1371/journal.pone.0334093",
+  "text": "Human gaze behavior is crucial for successful goal-directed locomotion. In this study we explore the potential of gaze information to improve predictions of walk mode transitions in real-world urban environments which has not been investigated in great detail, yet. Using a dataset with IMU motion data and gaze data from the Pupil Labs Invisible eye tracker, twenty participants completed three laps of an urban walking track with three walk modes: level walking, stairs (up, down), and ramps (up, down). In agreement with previous findings, we found that participants directed their gaze more towards the ground during challenging transitions. They adjusted their gaze behavior up to four steps before adjusting their gait behavior. We trained a random forest classifier to predict walk mode transitions using gaze parameters, gait parameters, and both. Results showed that the more complex transitions involving stairs were easier to predict than transitions involving ramps, and combining gaze and gait parameters provided the most reliable results. Gaze parameters had a greater impact on classification accuracy than gait parameters in most scenarios. Although prediction performance, as measured by Matthews’ correlation coefficient (MCC), declined with increasing forecasting horizons (from one to four steps ahead), the model still achieved robust classification performance well above chance level (MCC = 0), with an average MCC of 0.60 when predicting transitions from level walking to stairs (either up or down) four steps in advance. The study suggests that gaze behavior changes in anticipation of walk mode transitions and the expected challenge for balance control, and has the potential to significantly improve the prediction of walk mode transitions in real-world gait behavior.",
+  "source_label": "On utilizing gaze behavior to predict movement transitions during natural human walking on different terrains",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1797
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "4fa20ef80e718ea86e84df4131ab71cfa74fa30a17710895347a7e1e78722490"
+}

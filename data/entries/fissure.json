@@ -1,0 +1,64 @@
+{
+  "id": "fissure",
+  "term": "fissure",
+  "definition": "A fissure is a crack or narrow opening in rock; in this source, it refers specifically to a rear-edge vertical crack in a bedding rock slope. Its location and whether it contains water can strongly affect slope stability and sliding risk.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12923064"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12923064",
+      "revision": "2026; DOI 10.1371/journal.pone.0342903; article XML SHA-256 c655eeb6e682eaf23b711df67284d3c14a54672e8ea37e663f3af6c1d11f6924",
+      "scope": "Source record 10.1371/journal.pone.0342903; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342903"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1e9d246a4e562daee25b3151e86e549b2ee6e1a34afae61366bf916f3520cb74",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9108ee51dbc74fe2a885b63d9f4b8c49",
+    "request_hash": "d358b19b71e3a8f87c4e82b920763aaa8bb9ba23fb02c98d98e50b0ba04d9b95",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "62f3fe05e918f273067330416d38ef2db7de1f289e863f9f0ba97ef92f8907fa",
+    "packet_hash": "1e9d246a4e562daee25b3151e86e549b2ee6e1a34afae61366bf916f3520cb74"
+  },
+  "hash": "351eb134f8af16bbc262c6fa3d503941cfea8beb3ded3b7f105555a9458c39e0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition begins with a general description (“a crack or narrow opening in rock”), but the provided packet does not supply that general definition of “fissure”; it only discusses “rear-edge vertical fissures” in bedding rock slopes.",
+        "The specific additional claim that the fissure refers “specifically to a rear-edge vertical crack in a bedding rock slope” is supported in substance by the packet’s repeated focus on “rear-edge vertical fissures” in “bedding rock slopes,” but the first sentence’s general definition is not supported.",
+        "The second sentence’s claims about location and water presence affecting slope stability and sliding risk are only indirectly supported: the packet says fissure position affects stability/hazard prediction and that water pressure significantly alters the most unfavorable fissure position, but it does not explicitly use the wording “sliding risk” or “whether it contains water” as a directly defined determinant."
+      ],
+      "definition_hash": "62f3fe05e918f273067330416d38ef2db7de1f289e863f9f0ba97ef92f8907fa",
+      "packet_hash": "1e9d246a4e562daee25b3151e86e549b2ee6e1a34afae61366bf916f3520cb74",
+      "published_packet_hash": "1e9d246a4e562daee25b3151e86e549b2ee6e1a34afae61366bf916f3520cb74",
+      "receipt_id": "b8cf81dd5c9f4687b51a10284d86ab2d",
+      "request_hash": "a9bade96347d7f1e4ed034ff64fde55ff83e1ff6ff259af10c16187de7396708",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a rear-edge vertical fissure in a gently dipping bedding rock slope, and that water conditions and fissure position affect stability; however, it does not support the broader general definition “a crack or narrow opening in rock.”",
+        "The requested field is listed as learning, but the source packet is about slope/rock engineering rather than psychology or counselling learning terminology, so the field is not defensible from the packet."
+      ],
+      "definition_hash": "62f3fe05e918f273067330416d38ef2db7de1f289e863f9f0ba97ef92f8907fa",
+      "packet_hash": "1e9d246a4e562daee25b3151e86e549b2ee6e1a34afae61366bf916f3520cb74",
+      "published_packet_hash": "1e9d246a4e562daee25b3151e86e549b2ee6e1a34afae61366bf916f3520cb74",
+      "receipt_id": "f278a17abbc944acbb987a2768e97159",
+      "request_hash": "f1cfbe58519f349d7ef5ab18c25674f0580751b5c3211f11aa87b99f77030f3a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

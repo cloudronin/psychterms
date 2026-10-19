@@ -1,0 +1,60 @@
+{
+  "id": "gene-imprinting",
+  "term": "gene imprinting",
+  "definition": "Gene imprinting is a parent-of-origin effect in which a gene’s biological impact depends on whether it was inherited from the father or the mother. In this packet, it is used to explain why paternally inherited variants can be linked to disease risk while the same variants inherited maternally may not be.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13038002"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13038002",
+      "revision": "2026; DOI 10.1371/journal.pone.0336731; article XML SHA-256 37bd61b495102a47175d05135008cd86863253d88e5062a54c489fc9647d5538",
+      "scope": "Source record 10.1371/journal.pone.0336731; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0336731"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7a96d8628180aaf845608aab6bd490842a0b2b0ce097f99a310fed928f9f47cb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7d779e10e339485e890a3eb2299b79d7",
+    "request_hash": "21e34bfa5579f80a0cd3718ff5794c013b9b49977d39c9a74ecd81fbae9f3d05",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "e3e816d44b3f9453032b51d786c4988427219ea5fd9ccb2024210b2168e14c29",
+    "packet_hash": "7a96d8628180aaf845608aab6bd490842a0b2b0ce097f99a310fed928f9f47cb"
+  },
+  "hash": "82be5eda24cc62c29d90cc1dac93eeda8c36c1590e4cf7e41879c2a1d2d9e375",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e3e816d44b3f9453032b51d786c4988427219ea5fd9ccb2024210b2168e14c29",
+      "packet_hash": "7a96d8628180aaf845608aab6bd490842a0b2b0ce097f99a310fed928f9f47cb",
+      "published_packet_hash": "7a96d8628180aaf845608aab6bd490842a0b2b0ce097f99a310fed928f9f47cb",
+      "receipt_id": "0d2a17099ac34f2293487bd517b41b69",
+      "request_hash": "acd2e5d876260116a2cfdab58060f847c5124a7b87b44a02ac8bbfac0d98aa0e",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports parent-of-origin disease risk for SDHD/SDHAF2, but it does not explicitly define or establish “gene imprinting” as a parent-of-origin effect in general.",
+        "The first sentence generalizes beyond the packet by stating a broad biological definition that is not directly supported by the supplied text."
+      ],
+      "definition_hash": "e3e816d44b3f9453032b51d786c4988427219ea5fd9ccb2024210b2168e14c29",
+      "packet_hash": "7a96d8628180aaf845608aab6bd490842a0b2b0ce097f99a310fed928f9f47cb",
+      "published_packet_hash": "7a96d8628180aaf845608aab6bd490842a0b2b0ce097f99a310fed928f9f47cb",
+      "receipt_id": "c1303e165892420cb0ffb03f96e0b0fa",
+      "request_hash": "520ced7697998eae9bdd49d841633c22366c3fd932b8313d0aa6b4fcdae12521",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

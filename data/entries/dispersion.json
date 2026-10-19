@@ -1,0 +1,61 @@
+{
+  "id": "dispersion",
+  "term": "dispersion",
+  "definition": "Dispersion refers to how elements or patterns are distributed across a sequence. In this source, it is used in the sense of the spread and transitions of patterns over time, which can reveal changing or chaotic behavior.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13215508"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13215508",
+      "revision": "2026; DOI 10.1371/journal.pone.0348356; article XML SHA-256 accdd3965881e552a893b5cae1d6a702295d1dc2874636ab4783547c465e2775",
+      "scope": "Source record 10.1371/journal.pone.0348356; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348356"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0857fba78305f2664301bd3e1752f512f23a1fecb56dad0c1849cfbb80affc0e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e251fc35032a4e09982552f3beaf5a85",
+    "request_hash": "eec5d01d6fbf56936757090d2d046e95aa880a739d7e72bf8d942ebc3996f9ab",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "b456628beb8c6e5829e8396d3f5d91b2835c774bcc694e99893a6ab78929e23c",
+    "packet_hash": "0857fba78305f2664301bd3e1752f512f23a1fecb56dad0c1849cfbb80affc0e"
+  },
+  "hash": "44dbe82d4989cbf84b9256b0f363fe9e6df743d192d607095f063627929872ec",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b456628beb8c6e5829e8396d3f5d91b2835c774bcc694e99893a6ab78929e23c",
+      "packet_hash": "0857fba78305f2664301bd3e1752f512f23a1fecb56dad0c1849cfbb80affc0e",
+      "published_packet_hash": "0857fba78305f2664301bd3e1752f512f23a1fecb56dad0c1849cfbb80affc0e",
+      "receipt_id": "0d59ee9e0c3d496cbd65e85a4dc82072",
+      "request_hash": "90cf9e786f5a8cec47b40b44407e2af511c45d0ed7698ea3756b32332b40a7e3",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet discusses “static dispersion patterns” and notes that dispersion entropy is defined from the probability distribution of these static patterns while explicitly ignoring dynamic transitions; the definition’s phrasing that dispersion (as a term) is used for “spread and transitions of patterns over time” is not supported by the packet.",
+        "The definition claims this usage “can reveal changing or chaotic behavior,” which is only supported in the packet specifically by dispersion entropy/transfer dispersion entropy for detecting chaotic features and capturing chaotic changes; the packet does not establish that this is the general meaning of “dispersion” itself.",
+        "The provided packet is about fault diagnosis of aero-engines (e.g., degradation/fault warnings and aero-engine simulation time series), not about “learning” in the psychology sense stated in the field; the match to the requested field is unsupported."
+      ],
+      "definition_hash": "b456628beb8c6e5829e8396d3f5d91b2835c774bcc694e99893a6ab78929e23c",
+      "packet_hash": "0857fba78305f2664301bd3e1752f512f23a1fecb56dad0c1849cfbb80affc0e",
+      "published_packet_hash": "0857fba78305f2664301bd3e1752f512f23a1fecb56dad0c1849cfbb80affc0e",
+      "receipt_id": "803644ea6a7f46839219dded3315fbb7",
+      "request_hash": "b48bafeafc3720e64cf9136145b2712d740e3d6a7b1a5677e12ad6a1e0bba50a",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "contact-behavior",
+  "term": "contact behavior",
+  "definition": "Contact behavior is the pattern of how people come into contact with a relevant source in their environment. In the packet, it refers specifically to human contact with water, which can influence how disease is distributed and transmitted.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9359581"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9359581",
+      "revision": "2022; DOI 10.1371/journal.pone.0272560; article XML SHA-256 1fbd35062c4dd3e0f75b0baf235d186aec89265405ad536094127041f93a6f3e",
+      "scope": "Source record 10.1371/journal.pone.0272560; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0272560"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d02cc3c0783886396711180d34d4ca23f45e0f6b3c4b622858b233e89b2f1e52",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7626cc323bf2450e98432c8869ca952f",
+    "request_hash": "82810ad629ac9e46c277b05e2f85177b17cf8466cd32f90a78b3b8b23652b3fc",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "aa4f7318bfe7806b01b0a27fcc95b30e5cc52aabb00769261dd158fd9da3d474",
+    "packet_hash": "d02cc3c0783886396711180d34d4ca23f45e0f6b3c4b622858b233e89b2f1e52"
+  },
+  "hash": "89f31447b3f7d27eb98e74d9fa86886d0388972912b797125283040f70bcbc1c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a broad, general meaning (“pattern of how people come into contact with a relevant source in their environment”), but the packet only mentions a specific “water contact behavior of humans” in the context of schistosomiasis transmission; it does not support the generalized phrasing."
+      ],
+      "definition_hash": "aa4f7318bfe7806b01b0a27fcc95b30e5cc52aabb00769261dd158fd9da3d474",
+      "packet_hash": "d02cc3c0783886396711180d34d4ca23f45e0f6b3c4b622858b233e89b2f1e52",
+      "published_packet_hash": "d02cc3c0783886396711180d34d4ca23f45e0f6b3c4b622858b233e89b2f1e52",
+      "receipt_id": "9ffcd391024c477589d88a0f39ec3cf3",
+      "request_hash": "485dab59cb2431e8d30fbfa8a5365408968f721f0a787e59f8535f373aa853ea",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening, general definition (“the pattern of how people come into contact with a relevant source in their environment”) is broader than the packet supports; the packet only supports human water contact in the context of schistosomiasis transmission.",
+        "The packet does not support the abstract phrase “relevant source in their environment” or a general learning-field sense for the term beyond the specific epidemiological context given."
+      ],
+      "definition_hash": "aa4f7318bfe7806b01b0a27fcc95b30e5cc52aabb00769261dd158fd9da3d474",
+      "packet_hash": "d02cc3c0783886396711180d34d4ca23f45e0f6b3c4b622858b233e89b2f1e52",
+      "published_packet_hash": "d02cc3c0783886396711180d34d4ca23f45e0f6b3c4b622858b233e89b2f1e52",
+      "receipt_id": "1d5d734e545343e3ab6ba74d05e4c0c5",
+      "request_hash": "4fed93e64053cb339aaad9c5edfa64c708833e0449f8ce4148a3d35f5e69f766",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

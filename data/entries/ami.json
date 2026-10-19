@@ -1,0 +1,60 @@
+{
+  "id": "ami",
+  "term": "AMI",
+  "definition": "AMI stands for acute myocardial infarction, a serious heart condition that begins suddenly, can worsen quickly, and carries major risks of death and disability. In this context, it is discussed as a medical event whose hospital course and recovery may be linked with psychological and social factors.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13317489"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13317489",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1793611; article XML SHA-256 6512191f3230f681f0582bf311be6cf028352c6d433d68f578c59b2dd93e8668",
+      "scope": "Source record 10.3389/fpsyt.2026.1793611; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1793611"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3ff629566b9db00cc55357596057f0b22e341e4292331278da2e8481e5f54bf4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "30cfc760faa8414d8047f283472db306",
+    "request_hash": "ba8eec8849c143f8abb35f7ff0444a8a5685cc734e2ed0374deaaf4db6a58ffa",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "419c2070912b0a387cf38a8bf2a16521fa603c7d7499543ff05d1711dd137d01",
+    "packet_hash": "3ff629566b9db00cc55357596057f0b22e341e4292331278da2e8481e5f54bf4"
+  },
+  "hash": "d9e4c374b243924c82fbc5cb0547c1f2362e0e29cebfa5ac2dc6d67447df8ae9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "419c2070912b0a387cf38a8bf2a16521fa603c7d7499543ff05d1711dd137d01",
+      "packet_hash": "3ff629566b9db00cc55357596057f0b22e341e4292331278da2e8481e5f54bf4",
+      "published_packet_hash": "3ff629566b9db00cc55357596057f0b22e341e4292331278da2e8481e5f54bf4",
+      "receipt_id": "a38839a0381842c0a124dcc80b61772a",
+      "request_hash": "ca16de395f2dd9146ac7f81465f53356f4a5e6d2d430c4c9945501d6ae0949a2",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that the AMI hospital course and recovery “may be linked with psychological and social factors,” but the provided packet excerpt only states general associations with in-hospital complications/outcomes and does not explicitly describe psychological or social factors (e.g., anxiety, depression, perceived social support) as linked to AMI outcomes within the shown text.",
+        "Some parts of the definition are supported (sudden onset, rapid progression, high risks of mortality and disability), but the psychological/social linkage is not supported by the supplied packet excerpt."
+      ],
+      "definition_hash": "419c2070912b0a387cf38a8bf2a16521fa603c7d7499543ff05d1711dd137d01",
+      "packet_hash": "3ff629566b9db00cc55357596057f0b22e341e4292331278da2e8481e5f54bf4",
+      "published_packet_hash": "3ff629566b9db00cc55357596057f0b22e341e4292331278da2e8481e5f54bf4",
+      "receipt_id": "3bec5c76155d40ac8a263f0118bb1903",
+      "request_hash": "22d79ae300d17556b0a105bbba02190dcdfaad24e0f305fbb01de04ef117bade",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

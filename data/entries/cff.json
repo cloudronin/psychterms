@@ -1,0 +1,60 @@
+{
+  "id": "cff",
+  "term": "CFF",
+  "definition": "CFF refers to a cue-driven feature fusion approach used in time series forecasting, where language-based semantic cues are combined with numerical sequence features to guide predictions. In the source, it is described as a parameter-efficient method for adapting forecasting models by using text-derived information to modulate numerical outputs.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13345277"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13345277",
+      "revision": "2026; DOI 10.1371/journal.pone.0353130; article XML SHA-256 31cd7b3496d79c042a026d1d4b3b709cfea07a9a16760b8c9bfb1a7935c0cfbe",
+      "scope": "Source record 10.1371/journal.pone.0353130; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0353130"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6d090ff9ddea4deba4e47e22c48f7110",
+    "request_hash": "6ce2941f27acdf2742d458a6669688d83171f45e68d8b996ee78ba14e90f26a2",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "fcd4a688c9babfca504b91b4b462e559c94a8af22efd34f81430e107d0ed2faa",
+    "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42"
+  },
+  "hash": "f104891419a4cf020a95d5c241b07ccf0013a2ccc9ec18598626085379645fb8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fcd4a688c9babfca504b91b4b462e559c94a8af22efd34f81430e107d0ed2faa",
+      "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42",
+      "published_packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42",
+      "receipt_id": "3ca729c2b9064dd79264247ad5973f14",
+      "request_hash": "6f828b901d9b6677f3153bcf39084db3c02076727a97ca76a387e017ce8adb5f",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports CFF as a cue-driven feature fusion network for time series forecasting, not a psychology/counselling term in cognition.",
+        "The definition’s technical details are broadly supported by the packet, but the requested field is not defensible from the source context because the article is about forecasting models and parameter-efficient adaptation, not cognition."
+      ],
+      "definition_hash": "fcd4a688c9babfca504b91b4b462e559c94a8af22efd34f81430e107d0ed2faa",
+      "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42",
+      "published_packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42",
+      "receipt_id": "ab39b6aa26e145a596167c796d683d75",
+      "request_hash": "0164d3ac404e90164b133b4f45b3f14c7720cb0b799096d471b25bf07e421e06",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

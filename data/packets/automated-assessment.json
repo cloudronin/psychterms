@@ -1,0 +1,26 @@
+{
+  "id": "automated-assessment",
+  "term": "automated assessment",
+  "source": "article-pmc5945052",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0197242",
+  "revision": "2018; DOI 10.1371/journal.pone.0197242; article XML SHA-256 111dae2b43291786c09d740de9997b9d3152e78f4114a3e940cbd04173efa1a8",
+  "source_snapshot_sha256": "111dae2b43291786c09d740de9997b9d3152e78f4114a3e940cbd04173efa1a8",
+  "url": "https://doi.org/10.1371/journal.pone.0197242",
+  "text": "Although mice are commonly used to study different aspects of fatty liver disease, currently there are no validated fully automated methods to assess steatosis in mice. Accurate detection of macro- and microsteatosis in murine models of fatty liver disease is important in studying disease pathogenesis and detecting potential hepatotoxic signature during drug development. Further, precise quantification of macrosteatosis is essential for quantifying effects of therapies. Here, we develop and validate the performance of automated classifiers built using image processing and machine learning methods for detection of macro- and microsteatosis in murine fatty liver disease and study the correlation of automated quantification of macrosteatosis with expert pathologist’s semi-quantitative grades. The analysis is performed on digital images of 27 Hematoxylin & Eosin stained murine liver biopsy samples. An expert liver pathologist scored the amount of macrosteatosis and also annotated macro- and microsteatosis lesions on the biopsy images using a web-application. Using these annotations, supervised machine learning and image processing techniques, we created classifiers to detect macro- and microsteatosis. For macrosteatosis prediction, the model’s precision, sensitivity and area under the receiver operator characteristic (AUROC) were 94.2%, 95%, 99.1% respectively. When correlated with pathologist’s semi-quantitative grade of steatosis, the model fits with a coefficient of determination value of 0.905. For microsteatosis prediction, the model has precision, sensitivity and AUROC of 79.2%, 77%, 78.1% respectively. Validation by the expert pathologist of classifier’s predictions made on unseen images of biopsy samples showed 100% and 63% accuracy for macro- and microsteatosis, respectively. This novel work demonstrates that fully automated assessment of steatosis is feasible in murine liver biopsies images. Our classifier has excellent sensitivity and accuracy for detection of macrosteatosis in murine fatty liver disease.",
+  "source_label": "Automated assessment of steatosis in murine fatty liver",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2047
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "fcaf00c906e8fab24357f5d62ef33eb2b45d72fbd27940d4ee43760e86c5f117"
+}

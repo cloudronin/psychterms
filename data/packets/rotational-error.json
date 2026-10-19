@@ -1,0 +1,26 @@
+{
+  "id": "rotational-error",
+  "term": "rotational error",
+  "source": "article-pmc11813145",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0317371",
+  "revision": "2025; DOI 10.1371/journal.pone.0317371; article XML SHA-256 3b72c0ed530e35bb7d6934ec75aab23be7e057b3c90ba311cd33cb6e518b5cd4",
+  "source_snapshot_sha256": "3b72c0ed530e35bb7d6934ec75aab23be7e057b3c90ba311cd33cb6e518b5cd4",
+  "url": "https://doi.org/10.1371/journal.pone.0317371",
+  "text": "The study proposes a multi-sensor localization and real-timeble mapping method based on the fusion of 3D LiDAR point clouds and visual-inertial data, which addresses the issue of decreased localization accuracy and mapping in complex environments that affect the autonomous navigation of robot dogs. Through the experiments conducted, the proposed method improved the overall localization accuracy by 42.85% compared to the tightly coupled LiDAR-inertial odometry method using smoothing and mapping. In addition, the method achieved lower mean absolute trajectory errors and root mean square errors compared to other algorithms evaluated on the urban navigation dataset. The highest root-mean-square error recorded was 2.72m in five sequences from a multi-modal multi-scene ground robot dataset, which was significantly lower than competing approaches. When applied to a real robot dog, the rotational error was reduced to 1.86°, and the localization error in GPS environments was 0.89m. Furthermore, the proposed approach closely followed the theoretical path, with the smallest average error not exceeding 0.12 m. Overall, the proposed technique effectively improves both autonomous navigation and mapping for robot dogs, significantly increasing their stability.",
+  "source_label": "Application of 3D point cloud and visual-inertial data fusion in Robot dog autonomous navigation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1265
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "adbac1c284d967f3453de98f78918879d5031a98a7b34d486c0ec512c20422a4"
+}

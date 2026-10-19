@@ -1,0 +1,64 @@
+{
+  "id": "error",
+  "term": "error",
+  "definition": "In learning, an error is a mismatch between what is predicted and what is actually perceived. In the packet’s context, these prediction errors arise during face processing and help the brain quickly update its expectations during social interaction.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13614550"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13614550",
+      "revision": "2026; DOI 10.1371/journal.pone.0357956; article XML SHA-256 df567dac00bc7850a370d0f0ad23f14badc45bf155cec68a41808d2647e416a2",
+      "scope": "Source record 10.1371/journal.pone.0357956; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0357956"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5b208b4532ffc8965993b0cc48d97e6c2aeff2481a6e6f8b9d1d4d866d2fe5fe",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1bf690ac890240e993ee0792f72647d4",
+    "request_hash": "220f1e1d03d9dd9e06fcd5c6fc3c55b54a816f897645cf412d745726d3bcb2e2",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "c7167df5a8c033ac7c4d426eeaeda327e7441ad26379645adbd54db9da71ff85",
+    "packet_hash": "5b208b4532ffc8965993b0cc48d97e6c2aeff2481a6e6f8b9d1d4d866d2fe5fe"
+  },
+  "hash": "620a0b7f61c9b2cb4abb6957970ad8634613c38fbd10dad6d008411e474c6dff",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general characterization of “error” as a mismatch between what is predicted and what is perceived, but the packet does not define “error” (or “error” in learning) in these terms.",
+        "The definition adds that “in the packet’s context, these prediction errors arise during face processing,” which is broadly consistent with the packet’s discussion of facial-feature-related prediction errors, but the packet does not explicitly tie the general term “error” to the specific learning mismatch formulation given in the first sentence.",
+        "Because the first sentence’s core definition is not directly supported by the packet, the requested term sense is not fully defensible."
+      ],
+      "definition_hash": "c7167df5a8c033ac7c4d426eeaeda327e7441ad26379645adbd54db9da71ff85",
+      "packet_hash": "5b208b4532ffc8965993b0cc48d97e6c2aeff2481a6e6f8b9d1d4d866d2fe5fe",
+      "published_packet_hash": "5b208b4532ffc8965993b0cc48d97e6c2aeff2481a6e6f8b9d1d4d866d2fe5fe",
+      "receipt_id": "b398733958ad4b26ae5ea4b8909e8cb5",
+      "request_hash": "746473615aaba2dccb6ff336f034ecf23b204783ef64cbdc4cd982913161f7df",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports face-processing prediction errors and their role in updating predictive models during social interaction, but it does not support a general learning-definition claim that an error is a mismatch between what is predicted and what is perceived.",
+        "The definition broadens the packet’s specific EEG/face-processing finding into a general statement about learning without support from the source packet."
+      ],
+      "definition_hash": "c7167df5a8c033ac7c4d426eeaeda327e7441ad26379645adbd54db9da71ff85",
+      "packet_hash": "5b208b4532ffc8965993b0cc48d97e6c2aeff2481a6e6f8b9d1d4d866d2fe5fe",
+      "published_packet_hash": "5b208b4532ffc8965993b0cc48d97e6c2aeff2481a6e6f8b9d1d4d866d2fe5fe",
+      "receipt_id": "f6b9f65449924d858ab105a7af8a444b",
+      "request_hash": "ab313536129024d3590aa65986b1b59b7b936abb40da431f85076f1066a6b234",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

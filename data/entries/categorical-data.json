@@ -1,0 +1,60 @@
+{
+  "id": "categorical-data",
+  "term": "categorical data",
+  "definition": "Categorical data are information sorted into named groups or classifications rather than measured on a continuous scale. These categories may be unordered, ranked, or limited to two possible outcomes.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12622779"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12622779",
+      "revision": "2025; DOI 10.1371/journal.pone.0335143; article XML SHA-256 7da6330d7373c5e80a6711556ab0e6108c6166535638a01d566538229229deac",
+      "scope": "Source record 10.1371/journal.pone.0335143; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335143"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ff397af528d5b06f260872d8348ef370f10840a5fcdcb0ecbcdc0f41f68d84ea",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "447ed283606e4897a375eda50e63b957",
+    "request_hash": "6103ad8bf2efa6854cfeae88cf083289a4d4d317d91fbb85f642904789536c3f",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "4b2b6ef85c2b326aaeccf8f1f91ba1bf99f82cac132eab78fee56a4371364f6f",
+    "packet_hash": "ff397af528d5b06f260872d8348ef370f10840a5fcdcb0ecbcdc0f41f68d84ea"
+  },
+  "hash": "2bb49ba10c8714618f95005a41c41f2c1191e94f02d7fdbf33aade402816849d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4b2b6ef85c2b326aaeccf8f1f91ba1bf99f82cac132eab78fee56a4371364f6f",
+      "packet_hash": "ff397af528d5b06f260872d8348ef370f10840a5fcdcb0ecbcdc0f41f68d84ea",
+      "published_packet_hash": "ff397af528d5b06f260872d8348ef370f10840a5fcdcb0ecbcdc0f41f68d84ea",
+      "receipt_id": "5aac1407b1bd461a9bf005dbfc273c30",
+      "request_hash": "0887eed91e820cd43dcc223c387a68e5acf1856aadc72cb582cf6eecf97b7a15",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims categorical data are “rather than measured on a continuous scale,” but the packet does not support any contrast with continuous measurement.",
+        "While the packet supports that categorical data are described by classification and can be nominal (unordered), ordinal (ranked), and dichotomous (two outcomes), the unsupported continuous-scale comparison prevents acceptance."
+      ],
+      "definition_hash": "4b2b6ef85c2b326aaeccf8f1f91ba1bf99f82cac132eab78fee56a4371364f6f",
+      "packet_hash": "ff397af528d5b06f260872d8348ef370f10840a5fcdcb0ecbcdc0f41f68d84ea",
+      "published_packet_hash": "ff397af528d5b06f260872d8348ef370f10840a5fcdcb0ecbcdc0f41f68d84ea",
+      "receipt_id": "bfa9584b994141c180b34ea92136e7de",
+      "request_hash": "b9d6a366592f3aed857d266ca6af6111cc0177cba15382987d01b26458e68106",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "gp",
+  "term": "GP",
+  "definition": "GP refers to a general practitioner, a doctor working in primary care. In this context, a GP is described as a common professional point of contact for people seeking help with suicidal thoughts and feelings.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12933944"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12933944",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1744949; article XML SHA-256 e4e5f416c8d20cb0a3cb079674c8b1a928a89529640f28bb8ef2481afd0e32f6",
+      "scope": "Source record 10.3389/fpsyt.2026.1744949; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1744949"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5010b3cf154a65899c4448d1bc20cd655e46dda968a24613e0df5ad59c5ace9e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b5224c56afe9437cb0137a396a0c382a",
+    "request_hash": "07bb14580d4895eaddc18cd41ff29d3f6d2defa901ad01d105c9c12eb1c4f7b4",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "33e6fa1dd209c14c27b9a68821edbe13badfd47338a2df415d45b8f6c2dd6721",
+    "packet_hash": "5010b3cf154a65899c4448d1bc20cd655e46dda968a24613e0df5ad59c5ace9e"
+  },
+  "hash": "6bed79a3697af8da07329017b001781cdaa4d7b2140e191a5996e7922144d496",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define GP as “general practitioner” or “a doctor working in primary care,” so the first sentence is unsupported by the supplied source.",
+        "The wording “described as a common professional point of contact” overstates the packet, which says general practice is the “most common last point of contact” and that the study explores talking to a GP about suicide; it does not present GP as a defined role in that form."
+      ],
+      "definition_hash": "33e6fa1dd209c14c27b9a68821edbe13badfd47338a2df415d45b8f6c2dd6721",
+      "packet_hash": "5010b3cf154a65899c4448d1bc20cd655e46dda968a24613e0df5ad59c5ace9e",
+      "published_packet_hash": "5010b3cf154a65899c4448d1bc20cd655e46dda968a24613e0df5ad59c5ace9e",
+      "receipt_id": "3f308c51654841a2812e1933ab50e026",
+      "request_hash": "1a1f2b7b9c60e71fd6b4136d4271d825c052ceb1171c0bea004002c2a87710d6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “GP” as “a general practitioner, a doctor working in primary care”; it only mentions “GP” and “general practice” without stating the term’s meaning.",
+        "The packet supports that general practice/GP is a common last contact for help-seeking related to suicidal thoughts and feelings, but this is not sufficient to substantiate the full definition’s first sentence."
+      ],
+      "definition_hash": "33e6fa1dd209c14c27b9a68821edbe13badfd47338a2df415d45b8f6c2dd6721",
+      "packet_hash": "5010b3cf154a65899c4448d1bc20cd655e46dda968a24613e0df5ad59c5ace9e",
+      "published_packet_hash": "5010b3cf154a65899c4448d1bc20cd655e46dda968a24613e0df5ad59c5ace9e",
+      "receipt_id": "832548a10bae4a43b7a38918e318d907",
+      "request_hash": "f194b01d8defc76000ba181c14234ce4f9ec23b68ba848d2345f621b42c9a5a5",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

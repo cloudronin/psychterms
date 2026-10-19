@@ -1,0 +1,26 @@
+{
+  "id": "one-parameter-model",
+  "term": "one-parameter model",
+  "source": "article-pmc5186779",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnins.2016.00585",
+  "revision": "2016; DOI 10.3389/fnins.2016.00585; article XML SHA-256 c89f534b5bffe5284015bded53113a8d6c8805df0e03cb5cef70fa3d2b403e7d",
+  "source_snapshot_sha256": "c89f534b5bffe5284015bded53113a8d6c8805df0e03cb5cef70fa3d2b403e7d",
+  "url": "https://doi.org/10.3389/fnins.2016.00585",
+  "text": "Anatomical distance has been widely used to predict functional connectivity because of the potential relationship between structural connectivity and functional connectivity. The basic implicit assumption of this method is “distance penalization.” But studies have shown that one-parameter model (anatomical distance) cannot account for the small-worldness, modularity, and degree distribution of normal human brain functional networks. Two local information indices–common neighbor (CN) and preferential attachment index (PA), are introduced into the prediction model as another parameter to emulate many key topological of brain functional networks in the previous study. In addition to these two indices, many other local information indices can be chosen for investigation. Different indices evaluate local similarity from different perspectives. Currently, we still have no idea about how to select local information indices to achieve higher predicted accuracy of functional connectivity. Here, seven local information indices are chosen, including CN, hub depressed index (HDI), hub promoted index (HPI), Leicht-Holme-Newman index (LHN-I), Sørensen index (SI), PA, and resource allocation index (RA). Statistical analyses were performed on eight network topological properties to evaluate the predictions. Analysis shows that different prediction models have different performances in terms of simulating topological properties and most of the predicted network properties are close to the real data. There are four topological properties whose average relative error is less than 5%, including characteristic path length, clustering coefficient, global efficiency, and local efficiency. CN model shows the most accurate predictions. Statistical analysis reveals that five properties within the CN-predicted network do not differ significantly from the real data ( P > 0.05, false-discovery rate method corrected for seven comparisons). PA model shows the worst prediction performance which was first applied in models of growth networks. Our results suggest that PA is not suitable for predicting connectivity in a small-world network. Furthermore, in order to evaluate the predictions rapidly, prediction power was proposed as an evaluation metric. The current study compares the predictions of functional connectivity with seven local information indices and provides a reference of method",
+  "source_label": "Comparison of Local Information Indices Applied in Resting State Functional Brain Network Connectivity Prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2399
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "33ff7b2af7b61a0c7c3f7d17659db5c01145c0ac545b0b73d69d68d8a292776e"
+}

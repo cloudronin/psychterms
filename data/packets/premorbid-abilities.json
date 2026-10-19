@@ -1,0 +1,26 @@
+{
+  "id": "premorbid-abilities",
+  "term": "premorbid abilities",
+  "source": "article-pmc6193671",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0205754",
+  "revision": "2018; DOI 10.1371/journal.pone.0205754; article XML SHA-256 a3d9412d1660d22076267f12ee48d53832c0a845c2d7d8cc69de6555fe97055f",
+  "source_snapshot_sha256": "a3d9412d1660d22076267f12ee48d53832c0a845c2d7d8cc69de6555fe97055f",
+  "url": "https://doi.org/10.1371/journal.pone.0205754",
+  "text": "In clinical neuropsychology the cognitive abilities of neurological patients are commonly estimated using well-established paper-based tests. Typically, scores on some tests remain relatively well preserved, whilst others exhibit a significant and disproportionate decline. Scores on those tests that measure preserved cognitive functions (so-called ‘hold’ tests) may be used to estimate premorbid abilities, including scores in non-hold tests that would have been expected prior to the onset of cognitive impairment. Many hold tests entail word reading, with each word being graded as correctly or incorrectly pronounced. Inevitably, such tests are likely to contain words that provide little or no diagnostic power (i.e., can be eliminated without negatively affecting prediction accuracy). In this paper, a genetic algorithm is developed and demonstrated, using n = 92 neurologically healthy participants, to identify optimal word subsets from the National Adult Reading Test that minimize the mean error in predicting the most widely used clinical measure of IQ and cognitive ability, the Wechsler Adult Intelligence Scale Fourth Edition IQ. In addition to requiring only 17–20 of the original 50 words (suggesting that this test could be revised to be up to 66% shorter) and minimizing mean prediction error, the algorithm increases the proportion of the variance in the predicted variable explained in comparison to using all words (from r 2 = 0.46 to r 2 = 0.61). In a clinical setting this would improve estimates of premorbid cognitive function and, if an abbreviated revision to this test were to be adopted, reduce the arduousness of the test for patients. The proposed method is evaluated with jackknifing and leave one out cross validation. The general approach may be used to optimize the relationship between any two psychological tests by finding the question subset in one test that minimizes the prediction error in a second test by training the genetic algorithm using data collected from participants upon whom both tests have been administered. This approach may also be used to develop new predictive tests, since it provides a method to identify an optimal subset of a set of candidate questions (for which empirical data have been collected) that maximizes prediction accuracy and the proportion of variance in the predicted variable that can be explained.",
+  "source_label": "A genetic algorithm to find optimal reading test word subsets for estimating full-scale IQ",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2380
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 3
+  },
+  "packet_hash": "beb3c89f8fa0a5601c7497b66a73455b874e581263e7e70e076e218a5db4725c"
+}

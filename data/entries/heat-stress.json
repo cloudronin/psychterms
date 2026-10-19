@@ -1,0 +1,64 @@
+{
+  "id": "heat-stress",
+  "term": "heat stress",
+  "definition": "Heat stress is physical strain caused by exposure to hot environmental conditions. In this source, it refers to rabbits kept in high heat and humidity, where the heat was associated with harmful effects on fertility, oxidative stress, immunity, and semen quality.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10337889"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10337889",
+      "revision": "2023; DOI 10.1371/journal.pone.0287644; article XML SHA-256 a3b67ae80bef8307b54a233e2ca2e6bff90e98d712a19f05212dfe26d0ad51e9",
+      "scope": "Source record 10.1371/journal.pone.0287644; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0287644"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9a7368a97232aa26547f417eb8fd58f5aac7976cda2f655db5477fe30631c70e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0be694b606ed430f9a14e8b6f1b306b6",
+    "request_hash": "3b217ac9d7788201aa5fe40676721cf882cb44b2f56ab4a5c4e343ea96622045",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "e34dace63918aaf7612bcde6ff8c9d16ac06969ea154d5e4d287bd74ffd12f6c",
+    "packet_hash": "9a7368a97232aa26547f417eb8fd58f5aac7976cda2f655db5477fe30631c70e"
+  },
+  "hash": "55f91b583803ec3dcb8c212cb284b0c47d2d35e1183e991b17d90f6adf8c0d61",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports heat stress as a condition imposed by hot, humid housing in rabbits and its effects on fertility, oxidative stress, immunity, and semen quality, but it does not define the term as “physical strain.”",
+        "The definition adds a general explanatory claim not stated in the source; a citation or broad background phrasing alone is not enough to support that wording."
+      ],
+      "definition_hash": "e34dace63918aaf7612bcde6ff8c9d16ac06969ea154d5e4d287bd74ffd12f6c",
+      "packet_hash": "9a7368a97232aa26547f417eb8fd58f5aac7976cda2f655db5477fe30631c70e",
+      "published_packet_hash": "9a7368a97232aa26547f417eb8fd58f5aac7976cda2f655db5477fe30631c70e",
+      "receipt_id": "cc9c06594f754ef1a71c5b545b0de794",
+      "request_hash": "2176f3aef6d842f491217b1957a11011ce28c51c97c1c0d8fd2ef8a4a642273c",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide the requested general definition that “heat stress is physical strain caused by exposure to hot environmental conditions.” It only describes that bucks were kept under “heat stress conditions” with specified temperature and humidity.",
+        "The definition’s stated field (“mental health”) is not supported by the packet; the packet discusses animal reproductive physiology and semen/oxidative stress/immune-related measures in rabbit bucks.",
+        "The definition’s second sentence includes multiple specific effects (“harmful effects on fertility, oxidative stress, immunity, and semen quality”), which are largely consistent with what the packet investigates, but the definition still contains unsupported elements from the first sentence and a field mismatch overall."
+      ],
+      "definition_hash": "e34dace63918aaf7612bcde6ff8c9d16ac06969ea154d5e4d287bd74ffd12f6c",
+      "packet_hash": "9a7368a97232aa26547f417eb8fd58f5aac7976cda2f655db5477fe30631c70e",
+      "published_packet_hash": "9a7368a97232aa26547f417eb8fd58f5aac7976cda2f655db5477fe30631c70e",
+      "receipt_id": "85ee464fd87744c8a7bcda84a2479fc4",
+      "request_hash": "f0effc55f03767fc7c9431a5a1d3b5a209c996a2d2d328a815b6be53a228bcad",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

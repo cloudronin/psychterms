@@ -1,0 +1,26 @@
+{
+  "id": "exponential-curve",
+  "term": "exponential curve",
+  "source": "article-pmc11025780",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0299811",
+  "revision": "2024; DOI 10.1371/journal.pone.0299811; article XML SHA-256 665952d19fb3afb3d46d317b918cb085edf54400e9c55f98f3cf691a9b0776b1",
+  "source_snapshot_sha256": "665952d19fb3afb3d46d317b918cb085edf54400e9c55f98f3cf691a9b0776b1",
+  "url": "https://doi.org/10.1371/journal.pone.0299811",
+  "text": "The existence of large volumes of data has considerably alleviated concerns regarding the availability of sufficient data instances for machine learning experiments. Nevertheless, in certain contexts, addressing limited data availability may demand distinct strategies and efforts. Analyzing COVID-19 predictions at pandemic beginning emerged a question: how much data is needed to make reliable predictions? When does the volume of data provide a better understanding of the disease’s evolution and, in turn, offer reliable forecasts? Given these questions, the objective of this study is to analyze learning curves obtained from predicting the incidence of COVID-19 in Brazilian States using ARIMA models with limited available data. To fulfill the objective, a retrospective exploration of COVID-19 incidence across the Brazilian States was performed. After the data acquisition and modeling, the model errors were assessed by employing a learning curve analysis. The asymptotic exponential curve fitting enabled the evaluation of the errors in different points, reflecting the increased available data over time. For a comprehensive understanding of the results at distinct stages of the time evolution, the average derivative of the curves and the equilibrium points were calculated, aimed to identify the convergence of the ARIMA models to a stable pattern. We observed differences in average derivatives and equilibrium values among the multiple samples. While both metrics ultimately confirmed the convergence to stability, the equilibrium points were more sensitive to changes in the models’ accuracy and provided a better indication of the learning progress. The proposed method for constructing learning curves enabled consistent monitoring of prediction results, providing evidence-based understandings required for informed decision-making.",
+  "source_label": "Analysis of learning curves in predictive modeling using exponential curve fitting with an asymptotic approach",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1853
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "8e8c1f6de91c9616b76a12a02da2233554a7410148a504bdddd3c2522ab5eb03"
+}

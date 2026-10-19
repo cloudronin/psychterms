@@ -1,0 +1,60 @@
+{
+  "id": "p300",
+  "term": "P300",
+  "definition": "P300 is a positive brain-response signal seen on EEG about 300 milliseconds after a person notices an expected target that appears rarely and unpredictably. In psychology and brain-computer interface work, it is treated as one type of event-related potential linked to detecting meaningful target stimuli.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13061863"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13061863",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1720969; article XML SHA-256 c74f723a51191db59252355c64966288b0d5e0ffc853a96e4ddd84df8e3f9e17",
+      "scope": "Source record 10.3389/fnhum.2026.1720969; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1720969"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8b8e580233cc998e3a128102e2cd150cd9f69da6d4fdaf2a3bfe20c74b5ced61",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "65da503f6e6b4c32bdbb06919fd3053f",
+    "request_hash": "52b1d6589faa4d2d603531fe532558ff1d9989db2299210cd64114353b2c2729",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "0256286736f14599b229f3ecf5c160f4e829d6f208b39ec21ef5ccc10e01bc8f",
+    "packet_hash": "8b8e580233cc998e3a128102e2cd150cd9f69da6d4fdaf2a3bfe20c74b5ced61"
+  },
+  "hash": "d88ee39ea9fed45e9fa74765a41f60d20ae22de3ff1d6f240cb343d88a69b3d1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0256286736f14599b229f3ecf5c160f4e829d6f208b39ec21ef5ccc10e01bc8f",
+      "packet_hash": "8b8e580233cc998e3a128102e2cd150cd9f69da6d4fdaf2a3bfe20c74b5ced61",
+      "published_packet_hash": "8b8e580233cc998e3a128102e2cd150cd9f69da6d4fdaf2a3bfe20c74b5ced61",
+      "receipt_id": "9311abcd208540a0b93558797550c1ff",
+      "request_hash": "473cea119bbc0b32955dcf520c7841bbb9c39e0f34045fdab9d2dcd1eeb85ca1",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims P300 is “linked to detecting meaningful target stimuli,” but the packet only states it occurs after perception of an expected target stimulus that is infrequent and random, and that a P300-design BCI detects ERP components including the P300; it does not explicitly describe the linkage as to “meaningful” target stimuli.",
+        "The definition says “In psychology and brain-computer interface work,” but the packet discusses P300 in the context of EEG BCI design and does not substantiate a psychology-wide framing."
+      ],
+      "definition_hash": "0256286736f14599b229f3ecf5c160f4e829d6f208b39ec21ef5ccc10e01bc8f",
+      "packet_hash": "8b8e580233cc998e3a128102e2cd150cd9f69da6d4fdaf2a3bfe20c74b5ced61",
+      "published_packet_hash": "8b8e580233cc998e3a128102e2cd150cd9f69da6d4fdaf2a3bfe20c74b5ced61",
+      "receipt_id": "b1d1293217714c66ad670cb9f84bbb45",
+      "request_hash": "ca0d8b7284cde505fd68e4e9710d953793fe737b950b0c76f9ff9fdfc8d6906a",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

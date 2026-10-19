@@ -1,0 +1,61 @@
+{
+  "id": "prospective-validity",
+  "term": "prospective validity",
+  "definition": "Prospective validity is the extent to which a model’s or measure’s predictive performance remains accurate when tested on future cases in real-world prospective use, rather than only in past data. It concerns whether reported prediction results will hold up over time despite temporal changes.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13253388"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13253388",
+      "revision": "2026; DOI 10.3389/fmed.2026.1849735; article XML SHA-256 feaa1991580876ea7581d4167b773132d1bf0ed04e0c3b7d8718b1773fc906c2",
+      "scope": "Source record 10.3389/fmed.2026.1849735; pinned source text",
+      "locator": "https://doi.org/10.3389/fmed.2026.1849735"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "807980ef8eaed6d026cf0e6134e9b1e381047cf14cb6b02502a06908a8afc8e3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7204ae1b9ab24b1da03e0ac1e1eb9d81",
+    "request_hash": "2daf8f41ab08d46f6a996640347bc4c92381709b41f6dfb37da10d608b2b4e80",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "10cc898a5f7c2c5478efccb7346f5b0895b5d789c395a2a0232b81c4f0d9ef2b",
+    "packet_hash": "807980ef8eaed6d026cf0e6134e9b1e381047cf14cb6b02502a06908a8afc8e3"
+  },
+  "hash": "36e3d9ff6e91f0f6b2333a30d3fa012ca790bfa063badedab6f3bbd19dee2f91",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “prospective validity,” so the definition’s core description (e.g., accuracy on future cases in real-world prospective use) is not supported by the supplied source text.",
+        "The packet mentions that predictive performance “may overestimate prospective validity” due to “temporal variations and retrospective design,” but it does not substantiate the full set of claims in the definition (predictive performance remains accurate in future cases; real-world prospective use; “reported prediction results” holding up over time).",
+        "The definition’s framing includes additional elaboration (“instead of only in past data,” “despite temporal changes”) that goes beyond what is directly stated in the packet."
+      ],
+      "definition_hash": "10cc898a5f7c2c5478efccb7346f5b0895b5d789c395a2a0232b81c4f0d9ef2b",
+      "packet_hash": "807980ef8eaed6d026cf0e6134e9b1e381047cf14cb6b02502a06908a8afc8e3",
+      "published_packet_hash": "807980ef8eaed6d026cf0e6134e9b1e381047cf14cb6b02502a06908a8afc8e3",
+      "receipt_id": "39497c89ac8647069cbafee0424d7348",
+      "request_hash": "1a9928badab3be90261ce713fa225427a54ca73b17ebac541cdbc04a19af38c0",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "10cc898a5f7c2c5478efccb7346f5b0895b5d789c395a2a0232b81c4f0d9ef2b",
+      "packet_hash": "807980ef8eaed6d026cf0e6134e9b1e381047cf14cb6b02502a06908a8afc8e3",
+      "published_packet_hash": "807980ef8eaed6d026cf0e6134e9b1e381047cf14cb6b02502a06908a8afc8e3",
+      "receipt_id": "c129a7a0b0a44f14ace3cf45391c3bf7",
+      "request_hash": "9b04492ca227a7069fa26852bdcf1db00e9e96af6d81b32920ba71e3952138a0",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

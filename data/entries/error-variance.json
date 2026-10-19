@@ -1,0 +1,61 @@
+{
+  "id": "error-variance",
+  "term": "error variance",
+  "definition": "Error variance is variation in measurement results that comes from methodological or unwanted influences rather than the true thing being measured. In this source, examples include background assay signals, hemoglobin in serum, differences in plate-coating procedures, and differences between standards, all of which can reduce reproducibility.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4255021"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4255021",
+      "revision": "2014; DOI 10.1371/journal.pone.0114566; article XML SHA-256 74a99740d0ce1d7ce4cb652fec9a6039e54bf79f3d1b395a51b1782565b02d45",
+      "scope": "Source record 10.1371/journal.pone.0114566; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0114566"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "165cf6d2c2efe9da5ae55da949388adfa6901e3623c60817b5a56cc41d871536",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a22c7b16155a4915a327744fd2c37695",
+    "request_hash": "6a3b5841ccfd3ed3826117cd314c4c7577f28a57e24d5c2359cf2fd22365f266",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "108db3a6d102794e125f64215247abf1856a9d7496cf9c02a2d034649271e71e",
+    "packet_hash": "165cf6d2c2efe9da5ae55da949388adfa6901e3623c60817b5a56cc41d871536"
+  },
+  "hash": "3fa11651259a98d4b9811762826ddf17f2c715500d94e1cee80160212e2f0638",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "108db3a6d102794e125f64215247abf1856a9d7496cf9c02a2d034649271e71e",
+      "packet_hash": "165cf6d2c2efe9da5ae55da949388adfa6901e3623c60817b5a56cc41d871536",
+      "published_packet_hash": "165cf6d2c2efe9da5ae55da949388adfa6901e3623c60817b5a56cc41d871536",
+      "receipt_id": "e9a5113844454fbdbb3b91a59cd87d96",
+      "request_hash": "24e66e9eb804c3c7656defa7e08bd03406a650334684936c955e021b122dfd9a",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a general definition of “error variance” as “variation in measurement results” or as “unwanted influences rather than the true thing being measured.”",
+        "The definition adds explanatory framing (“rather than the true thing being measured,” “unwanted influences”) that is not stated in the packet.",
+        "While the packet supports that “potential sources of error variance” include unspecific ELISA background signals, free serum hemoglobin, plate-coating procedures, and differences between standards/batches, the rest of the definition’s conceptual description is not supported."
+      ],
+      "definition_hash": "108db3a6d102794e125f64215247abf1856a9d7496cf9c02a2d034649271e71e",
+      "packet_hash": "165cf6d2c2efe9da5ae55da949388adfa6901e3623c60817b5a56cc41d871536",
+      "published_packet_hash": "165cf6d2c2efe9da5ae55da949388adfa6901e3623c60817b5a56cc41d871536",
+      "receipt_id": "a842d2f4531f48c99ff8af38babd5101",
+      "request_hash": "e3f66b13281e5b8cc47babec35fc7845a34e6b84f7dedc8512f47223e62075a8",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

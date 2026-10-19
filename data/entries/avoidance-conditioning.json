@@ -1,0 +1,61 @@
+{
+  "id": "avoidance-conditioning",
+  "term": "avoidance conditioning",
+  "definition": "Avoidance conditioning is a form of learning in which repeated pairings of a signal with an unpleasant event lead an organism to avoid the signaled item or situation. In the source packet, it refers specifically to taste avoidance learning that occurred only when the cue came before the aversive stimulus, showing that the learned avoidance depended on that pairing order.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3789661"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3789661",
+      "revision": "2013; DOI 10.1371/journal.pone.0075276; article XML SHA-256 f0d095b629cc7218dffa2529c576dc98cbee61f5db86d9d3db8448222e9731b4",
+      "scope": "Source record 10.1371/journal.pone.0075276; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0075276"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "139597c0b3033dabd0f20635c354e0e8deec8cf55f0665297314d95a7308d6dd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e2f0ed9512164a8b838e3bc3c7598bdc",
+    "request_hash": "10379b80202c058dc39a2f054fd2e127fdf2b8d0b551f6f44c1382f33906f631",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "759ced80c4c9dda4d9f44c9facf8ca8e96df1878f43d8890b212e8f423eb414c",
+    "packet_hash": "139597c0b3033dabd0f20635c354e0e8deec8cf55f0665297314d95a7308d6dd"
+  },
+  "hash": "c11e6b3f83d26bdb06d10b3199805be1bac971a4730dce4d8539e2e9011993f4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "759ced80c4c9dda4d9f44c9facf8ca8e96df1878f43d8890b212e8f423eb414c",
+      "packet_hash": "139597c0b3033dabd0f20635c354e0e8deec8cf55f0665297314d95a7308d6dd",
+      "published_packet_hash": "139597c0b3033dabd0f20635c354e0e8deec8cf55f0665297314d95a7308d6dd",
+      "receipt_id": "62de8902d21940e896928290f852d2a4",
+      "request_hash": "e871e0892a2da3fc4b233d646eaea9b293a14d8592a13643562f83531e809b9d",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the signal is paired with an “unpleasant event,” but the packet only specifies an unconditional stimulus as “tactile stimulation to the animal’s head” and does not explicitly characterize it as unpleasant/aversive.",
+        "The definition presents avoidance conditioning as a general learning form (“repeated pairings… lead an organism to avoid the signaled item or situation”), but the packet only describes a specific case: “taste avoidance behavior” in *Lymnaea* under CS-US vs backward (US-CS) pairings; it does not support the broader general formulation.",
+        "Because the packet’s content is confined to taste avoidance conditioning with CS=sucrose and a specific US (tactile head stimulation), the general wording in the first sentence is not fully supported by the supplied source."
+      ],
+      "definition_hash": "759ced80c4c9dda4d9f44c9facf8ca8e96df1878f43d8890b212e8f423eb414c",
+      "packet_hash": "139597c0b3033dabd0f20635c354e0e8deec8cf55f0665297314d95a7308d6dd",
+      "published_packet_hash": "139597c0b3033dabd0f20635c354e0e8deec8cf55f0665297314d95a7308d6dd",
+      "receipt_id": "2686819d01854e9389ded960f7c97380",
+      "request_hash": "b96ee74b0b9dce68766b9901d5d775a0971c3c154ab18f560c5d86c224f8bb6f",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

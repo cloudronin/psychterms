@@ -1,0 +1,60 @@
+{
+  "id": "fixed-interval-schedule",
+  "term": "fixed-interval schedule",
+  "definition": "A fixed-interval schedule is a learning arrangement in which reward delivery depends on a set amount of time passing before reinforcement is available. It is used to study temporal control, or how behavior is guided by timing.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6322252"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6322252",
+      "revision": "2019; DOI 10.1186/s12989-018-0287-8; article XML SHA-256 eac292c416ffe7152865e068453b906314487d2831d9a69a31f2de2466cd0376",
+      "scope": "Source record 10.1186/s12989-018-0287-8; pinned source text",
+      "locator": "https://doi.org/10.1186/s12989-018-0287-8"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c74bb64129b4849532acccaa13c1188991c6325a6b7079c5c5eab6858789d37f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a1fe35e7b0ba4242b753a9b6f4d56715",
+    "request_hash": "58fa743106e772d635f30338906b77b16b4a97450a8492dad1bc41322651192a",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "51e6b0e9ced4d472e36bfa9fd090338c0a2ae41c9b125c23ded59d67e94510dd",
+    "packet_hash": "c74bb64129b4849532acccaa13c1188991c6325a6b7079c5c5eab6858789d37f"
+  },
+  "hash": "2fd49e7159486c0b37ac79047b5c6c71d0bf03bd776b1492253c30bcc36cc303",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "51e6b0e9ced4d472e36bfa9fd090338c0a2ae41c9b125c23ded59d67e94510dd",
+      "packet_hash": "c74bb64129b4849532acccaa13c1188991c6325a6b7079c5c5eab6858789d37f",
+      "published_packet_hash": "c74bb64129b4849532acccaa13c1188991c6325a6b7079c5c5eab6858789d37f",
+      "receipt_id": "9e399e703a4644809b0e1695c996dab3",
+      "request_hash": "8fa9e6ccf96917fc243a442759a9d71252d5d76a3a20d650c1cad066ff264e32",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that temporal control learning is a cognitive domain in which “reward delivery is contingent on a fixed interval schedule,” but it does not explicitly support the definition’s phrasing that temporal control is “how behavior is guided by timing.”",
+        "The packet provides limited support for “reward delivery depends on a set amount of time passing before reinforcement is available” as a general description of fixed-interval schedules; it mentions contingency with a fixed interval but does not clearly describe the “set amount of time passing before reinforcement is available” mechanism in general terms."
+      ],
+      "definition_hash": "51e6b0e9ced4d472e36bfa9fd090338c0a2ae41c9b125c23ded59d67e94510dd",
+      "packet_hash": "c74bb64129b4849532acccaa13c1188991c6325a6b7079c5c5eab6858789d37f",
+      "published_packet_hash": "c74bb64129b4849532acccaa13c1188991c6325a6b7079c5c5eab6858789d37f",
+      "receipt_id": "c52ac0f5fd5a49ee9f970ea6aaed8ede",
+      "request_hash": "fa50da85dcfd5de9252847645a2f01178d331a5e513b45bba516d9161a541a75",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

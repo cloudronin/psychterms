@@ -1,0 +1,61 @@
+{
+  "id": "hearing-aid",
+  "term": "hearing aid",
+  "definition": "A hearing aid is a device used by some people who still have limited usable hearing in one ear, including alongside a cochlear implant in the other ear. In this context, adding a hearing aid to the nonimplanted ear may improve hearing in noise, sound localization, and everyday communication.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10890777"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10890777",
+      "revision": "2024; DOI 10.1371/journal.pone.0293811; article XML SHA-256 b991c1f93510d7a837f209d8808b8affc7288054dcfcae56d074f10d991325de",
+      "scope": "Source record 10.1371/journal.pone.0293811; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0293811"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "760ba3d1318341efac99270293761d71",
+    "request_hash": "4f3c267bf42c8ef682d16a9423f1e53ad9f91e081a055af203f801ceadbfc2b0",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "2dec3f7638339e16ad176beea7f1004dfc733915f6c3cd319d72f956bcd25629",
+    "packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f"
+  },
+  "hash": "80af9812264d338de2e1b123ed4f06d138f4ab7b3c90f1182d1226bb3cdcb9d5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2dec3f7638339e16ad176beea7f1004dfc733915f6c3cd319d72f956bcd25629",
+      "packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f",
+      "published_packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f",
+      "receipt_id": "51e309c7a3f543e1b36c3daa93b82995",
+      "request_hash": "7a1ef9e3b50831526532b2ab49ba5a697a5cbf05f23a07ae28517055c3698684",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “some people who still have limited usable hearing in one ear,” but the provided packet only discusses a specific group: unilateral cochlear implant listeners with limited hearing in the unimplanted (contralateral) ear. The definition’s first sentence is therefore broader than what the packet supports.",
+        "The field specified is “cognition,” but the packet evaluates audiological outcomes (speech perception in noise, lateralization) and subjective questionnaires; it provides no support that this belongs to cognition as such.",
+        "The claim about improving “everyday communication” is only indirectly supported: the packet reports subjective preference for hearing aids in “spatial awareness and communication domains,” not an observed everyday communication improvement."
+      ],
+      "definition_hash": "2dec3f7638339e16ad176beea7f1004dfc733915f6c3cd319d72f956bcd25629",
+      "packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f",
+      "published_packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f",
+      "receipt_id": "6b82b804f54748c8a52ffeb2a6b69eeb",
+      "request_hash": "358046dc03b858045cfd3bed26e7a60e3de87d32f9b95eac608df95ae072f617",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

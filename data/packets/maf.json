@@ -1,0 +1,26 @@
+{
+  "id": "maf",
+  "term": "MAF",
+  "source": "article-pmc13056181",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0345238",
+  "revision": "2026; DOI 10.1371/journal.pone.0345238; article XML SHA-256 fac74f3edc07e63f3d9a1662d0159c00f2851e8f71a1e202c0d3e83d9f6a1d5f",
+  "source_snapshot_sha256": "fac74f3edc07e63f3d9a1662d0159c00f2851e8f71a1e202c0d3e83d9f6a1d5f",
+  "url": "https://doi.org/10.1371/journal.pone.0345238",
+  "text": "Cardiovascular disease ranks among the leading causes of death globally, posing a severe threat to human health. Consequently, rapid and accurate identification of cardiovascular disease has become a critical research endeavor. Electrocardiograms (ECGs), as a non-invasive detection tool, are widely used in cardiovascular disease detection due to their convenience and effectiveness. However, existing methods are often limited to single-modality analysis, neglecting the interaction between clinical data (such as age, gender, weight, etc.) and ECG features in classification tasks, resulting in limited recognition accuracy. Integrating multimodal data is key to improving CVD diagnostic accuracy. To address this, we propose MAF-Net (Multimodal Cross-Attention-based Fusion Network), a multi-class classification model that fuses clinical data features with ECG signal features for cardiovascular disease classification. The model comprises three components: (1) X Branch (Clinical Data Processing): Generates high-order interaction features via a second-order polynomial feature cross-layer and employs channel attention-weighted selection to identify key clinical factors;(2) Y Branch (Multi-scale ECG Feature Extraction): Parallel multi-scale convolutional modules (64@7, 128@3, 256@3) capture local morphological features, while Bi-LSTM models long-range temporal dependencies, supplemented by multi-head attention to focus on pathological segments;(3) Bidirectional Modality Fusion Module: Employing a bidirectional cross-attention mechanism, it uses clinical features as Query and ECG features as Key/Value to deeply fuse clinical and ECG data features. On the dataset, experiments targeting five super-categories of arrhythmias— NORM (Normal), MI (Myocardial Infarction), STTC (ST-T Segment Changes), CD (Conduction Disturbance), HYP (Hypertrophy). showed an accuracy rate of 90.75% ± 0.32%, precision of 84.58% ± 0.41%, and recall of 87.12% ± 0.38%, with an F1 score of 0.8069 ± 0.005 and a ROC-AUC value of 0.9407 ± 0.002. Results indicate that this model outperforms existing methods across key metrics, demonstrating its potential for application in clinical decision support.",
+  "source_label": "MAF-Net: Multimodal cross-attention-based fusion network for cardiovascular disease classification",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2191
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25"
+}

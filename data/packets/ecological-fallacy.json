@@ -1,0 +1,26 @@
+{
+  "id": "ecological-fallacy",
+  "term": "ecological fallacy",
+  "source": "article-pmc11929225",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-025-02504-6",
+  "revision": "2025; DOI 10.1186/s12874-025-02504-6; article XML SHA-256 d1ff78be42745c4e5977ed18d0697f32bed8b2aa8c5356eab9ed1ba5ee9f556e",
+  "source_snapshot_sha256": "d1ff78be42745c4e5977ed18d0697f32bed8b2aa8c5356eab9ed1ba5ee9f556e",
+  "url": "https://doi.org/10.1186/s12874-025-02504-6",
+  "text": "Understanding causality, over mere association, is vital for researchers wishing to inform policy and decision making – for example, when seeking to improve population health outcomes. Yet, contemporary causal inference methods have not fully tackled the complexity of data hierarchies, such as the clustering of people within households, neighbourhoods, cities, or regions. However, complex data hierarchies are the rule rather than the exception. Gaining an understanding of these hierarchies is important for complex population outcomes, such as non-communicable disease, which is impacted by various social determinants at different levels of the data hierarchy. The alternative of analysing aggregated data could introduce well-known biases, such as the ecological fallacy or the modifiable areal unit problem. We devise a hierarchical causal diagram that encodes the multilevel data generating mechanism anticipated when evaluating non-communicable diseases in a population. The causal diagram informs data simulation. We also provide a flexible tool to generate synthetic population data that captures all multilevel causal structures, including a cross-level effect due to cluster size. For the very first time, we can then quantify the ecological fallacy within a formal causal framework to show that individual-level data are essential to assess causal relationships that affect the individual. This study also illustrates the importance of causally structured synthetic data for use with other methods, such as Agent Based Modelling or Microsimulation Modelling. Many methodological challenges remain for robust causal evaluation of multilevel data, but this study provides a foundation to investigate these.",
+  "source_label": "Simulating hierarchical data to assess the utility of ecological versus multilevel analyses in obtaining individual-level causal effects",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1719
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 4
+  },
+  "packet_hash": "9d39d71b72bf17f282d8994b0fd63923e3a4215eb22f43c7a22b051e28baeba3"
+}

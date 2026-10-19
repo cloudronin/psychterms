@@ -1,0 +1,63 @@
+{
+  "id": "optimal-outbreeding",
+  "term": "optimal outbreeding",
+  "definition": "Optimal outbreeding is a form of mate choice in which an individual selects a partner partly according to genetic relatedness or distance. In the source, it is described as females using cues such as male odor to help choose a suitable mate on that basis.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5823451"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5823451",
+      "revision": "2018; DOI 10.1371/journal.pone.0193153; article XML SHA-256 f7d2f296bc9208f2ed7c8f6a03fb8d9754cfcc763a8d3909c0310c7fa91c946e",
+      "scope": "Source record 10.1371/journal.pone.0193153; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0193153"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1d84d60cef8eaffd1bea822a4efd44eb601c40c68c99020f401b6c2c827e8621",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "399227fb549d4b9cbbc18ad84414a50b",
+    "request_hash": "f4f30f809ab71474b376c8b9da72308072c73ad8e774ebea83b09974c5e6b211",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "69a978af91a15d314b28010f399e4aa976427293275eefa05f1305d572971986",
+    "packet_hash": "1d84d60cef8eaffd1bea822a4efd44eb601c40c68c99020f401b6c2c827e8621"
+  },
+  "hash": "a8269ed07a4af3ce183bef9e51ae549da91600c18a9ddce1eabb20c25f0c3a3b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes female mate choice in red mason bees (Osmia bicornis) based on odor, thorax vibrations, and relatedness; it does not provide support that this belongs in a “cognition” field.",
+        "Unsupported generalization: the definition states that partner choice is “partly according to genetic relatedness or distance.” The packet explicitly mentions choice based on “its relatedness to the female,” but it only treats “genetic distance” as a hypothesis/cue to be tested (not established as part of the mate-choice mechanism)."
+      ],
+      "definition_hash": "69a978af91a15d314b28010f399e4aa976427293275eefa05f1305d572971986",
+      "packet_hash": "1d84d60cef8eaffd1bea822a4efd44eb601c40c68c99020f401b6c2c827e8621",
+      "published_packet_hash": "1d84d60cef8eaffd1bea822a4efd44eb601c40c68c99020f401b6c2c827e8621",
+      "receipt_id": "143597239bb14278bee0dde8f4f68ca4",
+      "request_hash": "c592654db2655c894646645f374f983f4539c5f06bd7400f35cb220139f40504",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is about insect mating signals and relatedness, not a psychology/cognition definition.",
+        "The definition adds a generalized formulation (“a form of mate choice in which an individual selects a partner partly according to genetic relatedness or distance”) that is broader than the packet’s wording; the packet only presents this as a putative hypothesis for female choice in red mason bees, not as a general definition or current consensus."
+      ],
+      "definition_hash": "69a978af91a15d314b28010f399e4aa976427293275eefa05f1305d572971986",
+      "packet_hash": "1d84d60cef8eaffd1bea822a4efd44eb601c40c68c99020f401b6c2c827e8621",
+      "published_packet_hash": "1d84d60cef8eaffd1bea822a4efd44eb601c40c68c99020f401b6c2c827e8621",
+      "receipt_id": "27905a49d9c54adc95a3aae3a85e5caa",
+      "request_hash": "74b40b8742fc79e9911d7c524de12b76074751097579bf5ed202c3e381459817",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

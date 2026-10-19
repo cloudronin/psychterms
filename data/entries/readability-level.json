@@ -1,0 +1,65 @@
+{
+  "id": "readability-level",
+  "term": "readability level",
+  "definition": "Readability level is how easy written material is for its intended readers to understand. In this context, it refers to matching educational information to patients’ reading ability so the material is more usable and less likely to cause misunderstanding.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12136319"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12136319",
+      "revision": "2025; DOI 10.1371/journal.pone.0324175; article XML SHA-256 213fa99f8625a6cee6ce8dce30844ecb4f5361ff20207d5d42f3a1f476134caa",
+      "scope": "Source record 10.1371/journal.pone.0324175; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0324175"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2333354945e4872d0146abbcdb823af0e2678fbed60bdafda98a6be26bedc948",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "affad666a4b04f198e3947a2cd4fc7d9",
+    "request_hash": "983c4af2cc86c7def15c381361c9bbb8290b77632bd99d38ef76e1b8e35a0440",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "8215a9296509fc181706a3ae11ad270ec524c0cba9c9f6121c60e066debff156",
+    "packet_hash": "2333354945e4872d0146abbcdb823af0e2678fbed60bdafda98a6be26bedc948"
+  },
+  "hash": "806def82cee58188ec284d38b3e2b3574f07f51996580763a7d026dd575022c6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general dictionary-style meaning that is not supported by the supplied source packet, which only says patient educational materials must be adapted to patients’ readability level.",
+        "The second sentence adds unsupported claims about matching educational information to patients’ reading ability and making material more usable or less likely to cause misunderstanding.",
+        "The packet supports a healthcare/patient-education context, but not the broader explanatory gloss presented here."
+      ],
+      "definition_hash": "8215a9296509fc181706a3ae11ad270ec524c0cba9c9f6121c60e066debff156",
+      "packet_hash": "2333354945e4872d0146abbcdb823af0e2678fbed60bdafda98a6be26bedc948",
+      "published_packet_hash": "2333354945e4872d0146abbcdb823af0e2678fbed60bdafda98a6be26bedc948",
+      "receipt_id": "c34bf869994d44018f8714324411042b",
+      "request_hash": "eda7182b3d11c77386084e203cbdd86d60e52b26894d00f4584bb08c73675e18",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that patient educational materials must be “adapted to the readability level of patients,” but it does not explicitly define “readability level” as “how easy written material is for its intended readers to understand.”",
+        "The definition’s claim about matching educational information to patients’ reading ability is only indirectly supported by the packet’s mention of adaptation to patients’ readability level; the packet does not state the “matching” wording or the reading-ability framing.",
+        "The packet does not support the additional claim that adapting materials is “more usable and less likely to cause misunderstanding.”"
+      ],
+      "definition_hash": "8215a9296509fc181706a3ae11ad270ec524c0cba9c9f6121c60e066debff156",
+      "packet_hash": "2333354945e4872d0146abbcdb823af0e2678fbed60bdafda98a6be26bedc948",
+      "published_packet_hash": "2333354945e4872d0146abbcdb823af0e2678fbed60bdafda98a6be26bedc948",
+      "receipt_id": "cd6515e2f4704f2d9f012e60a477ef24",
+      "request_hash": "2075d9ab3bcb1ec35706ad79cb63165b3a672113ca23d8e8787e99a87390925b",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

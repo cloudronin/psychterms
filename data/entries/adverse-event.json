@@ -1,0 +1,60 @@
+{
+  "id": "adverse-event",
+  "term": "adverse event",
+  "definition": "An adverse event is an unwanted event associated with a drug or treatment that is tracked to assess safety. In this context, it refers to drug-related events reported in a safety reporting system to look for possible safety concerns.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12669228"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12669228",
+      "revision": "2025; DOI 10.3389/fnhum.2025.1676051; article XML SHA-256 7f97413d9d288ed1d65021dd5e6d8e76f02f780f2063d9236d1e415c73560b18",
+      "scope": "Source record 10.3389/fnhum.2025.1676051; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2025.1676051"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d141d2b739aa1dba81b63041222aed2c3f0cdffb536387fce7d1279473b04cab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "719874918ea04668b70d035069203dc4",
+    "request_hash": "e7919a5bbd9233c8a4337b3bf20fac86e2a91ad8a073a8e43cc25535e1d9c690",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "fc9ed0f73b6d052e7379d6a308de6064015cfe6b0f8cd9147932332f7c504d1f",
+    "packet_hash": "d141d2b739aa1dba81b63041222aed2c3f0cdffb536387fce7d1279473b04cab"
+  },
+  "hash": "3b5717e7631ea8c8cfba394863d050b65b037f90ce350c04861a66e9b3db84eb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fc9ed0f73b6d052e7379d6a308de6064015cfe6b0f8cd9147932332f7c504d1f",
+      "packet_hash": "d141d2b739aa1dba81b63041222aed2c3f0cdffb536387fce7d1279473b04cab",
+      "published_packet_hash": "d141d2b739aa1dba81b63041222aed2c3f0cdffb536387fce7d1279473b04cab",
+      "receipt_id": "a3f0d1345c604e54842d8d206b81e107",
+      "request_hash": "ab49767b6d7c6414e071ec468cdecfb323b2339905b6395f4dc5743ed16dfabf",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only mentions using the FDA Adverse Event Reporting System (FAERS) and that it contains adverse drug events (AEs) for signal mining; it does not define “adverse event” as an “unwanted event associated with a drug or treatment” or describe the purpose as “tracked to assess safety.”",
+        "The definition’s phrasing about “reported in a safety reporting system to look for possible safety concerns” goes beyond what the packet text explicitly states (the packet indicates signal mining was performed, but does not provide a definitional description of the term)."
+      ],
+      "definition_hash": "fc9ed0f73b6d052e7379d6a308de6064015cfe6b0f8cd9147932332f7c504d1f",
+      "packet_hash": "d141d2b739aa1dba81b63041222aed2c3f0cdffb536387fce7d1279473b04cab",
+      "published_packet_hash": "d141d2b739aa1dba81b63041222aed2c3f0cdffb536387fce7d1279473b04cab",
+      "receipt_id": "5bc657f241524c90b188a7dce47c83ec",
+      "request_hash": "d323e2cd510bdfea01c24494d6178194a2a9f2e9127466c0f962b01830639849",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

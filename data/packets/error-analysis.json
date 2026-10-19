@@ -1,0 +1,26 @@
+{
+  "id": "error-analysis",
+  "term": "error analysis",
+  "source": "article-pmc13481858",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnhum.2026.1802703",
+  "revision": "2026; DOI 10.3389/fnhum.2026.1802703; article XML SHA-256 1226f118a4f76d7586ca058d3166ccd3fb0078e9028cc9579e4127e9e9812c30",
+  "source_snapshot_sha256": "1226f118a4f76d7586ca058d3166ccd3fb0078e9028cc9579e4127e9e9812c30",
+  "url": "https://doi.org/10.3389/fnhum.2026.1802703",
+  "text": "With this analytic perspective in place, we develop and evaluate a developmentally informed, phoneme-level recognition and error analysis framework for pediatric speech. Using age-stratified child speech with phoneme-level targets, we implement a recurrent sequence model for phoneme recognition from single-word and continuous speech. The model is trained with a monotonic-alignment objective that avoids the need for manually segmented phoneme boundaries, using a BiLSTM acoustic model with connectionist temporal classification (CTC) to produce phoneme sequence predictions. CTC provides a principled objective for learning from unsegmented sequences by marginalizing alignments, and it remains a standard choice for end-to-end speech sequence learning when explicit boundaries are unavailable ( Graves et al., 2006 ). In parallel, we learn complementary latent representations using a variational autoencoder (VAE) to support analyses that are less dependent on categorical transcript agreement ( Kingma and Welling, 2013 ; Girin et al., 2022 ). Guided by three research questions, we evaluate: (1) how accurately the model predicts phoneme sequences in clinically elicited speech as quantified by phoneme error rate (PER) ( Lopes and Perdigao, 2011 ) and age-stratified confusion structure; (2) whether coarticulation dynamics, operationalized via transition-based statistics, provide additional discriminatory and interpretable information beyond segmental outcomes; and (3) the extent to which models developed on structured clinical speech remain robust when applied to long-form, naturalistic child narratives without phoneme-level ground truth. Together, these analyses aim to preserve clinically relevant detail while producing interpretable, developmentally contextualized summaries that enable scalable phoneme-level measurement.",
+  "source_label": "Foundations for pediatric vocal biomarkers: age-aware phoneme recognition and latent-space error analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    8895,
+    10737
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "c6092fe666d846737543a9acd8f4ebd5bf2c89ba0afd321d4bd540a76a377603"
+}

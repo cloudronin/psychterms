@@ -1,0 +1,63 @@
+{
+  "id": "apathy-syndrome",
+  "term": "apathy syndrome",
+  "definition": "In Parkinson’s disease, apathy syndrome refers to clinically significant apathy, meaning reduced motivation or interest as a clinical feature. In the source packet, it usually appeared together with depression and/or anxiety, while a “pure” form without those mood symptoms was rare and showed no distinct cognitive profile.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8645993"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8645993",
+      "revision": "2021; DOI 10.3389/fpsyg.2021.749624; article XML SHA-256 2852a7e3a16b6933ab29c4ff227bb6f8637e650c4fe4c31520bd1e509d7a0b76",
+      "scope": "Source record 10.3389/fpsyg.2021.749624; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2021.749624"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2e674dee594d8f2541ecdb735785dfc85568d128c38ddbacf5e8ebcb56a87a08",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "01ea58c548a84c88abe3e15e2c8ecece",
+    "request_hash": "77f98f0a2441ca76f937ce45b14479aedc77928906602a112c55914e8fa9cbb2",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "f799ee63be2847ccedd34cf2fa958510ea1a5701ab467a6ea6551701bdfd82bc",
+    "packet_hash": "2e674dee594d8f2541ecdb735785dfc85568d128c38ddbacf5e8ebcb56a87a08"
+  },
+  "hash": "a8125046167d8a0343f783fb9bec9b1e03869346084151a64497515626ce4832",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports apathy as a clinically significant feature in Parkinson’s disease, but it does not define apathy as “reduced motivation or interest”; that wording is unsupported by the source packet.",
+        "The summary of the study findings is broadly supported, but the definition goes beyond the packet by turning a study result into a general definitional gloss for “apathy syndrome.”"
+      ],
+      "definition_hash": "f799ee63be2847ccedd34cf2fa958510ea1a5701ab467a6ea6551701bdfd82bc",
+      "packet_hash": "2e674dee594d8f2541ecdb735785dfc85568d128c38ddbacf5e8ebcb56a87a08",
+      "published_packet_hash": "2e674dee594d8f2541ecdb735785dfc85568d128c38ddbacf5e8ebcb56a87a08",
+      "receipt_id": "1869892fe2ad4ca583abfa52ecde44d0",
+      "request_hash": "e5f35583105e24a4373792626c611315ab96e66df864a520dd3708d4d516014b",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that “clinically significant apathy” means “reduced motivation or interest,” but the packet does not provide that meaning/definition of apathy.",
+        "While the packet supports that clinically significant apathy in Parkinson’s disease nearly always co-presented with depression and/or anxiety and that “pure” apathy was very rare (2.8%), it does not support the additional phrasing that it “showed no distinct cognitive profile” in the specific way stated (the packet says apathy greatly overlaps with depression/anxiety and suggests apathy may be an epiphenomenon, with “no specific neuropsychological features,” but it does not directly support the exact wording about cognitive profile. )"
+      ],
+      "definition_hash": "f799ee63be2847ccedd34cf2fa958510ea1a5701ab467a6ea6551701bdfd82bc",
+      "packet_hash": "2e674dee594d8f2541ecdb735785dfc85568d128c38ddbacf5e8ebcb56a87a08",
+      "published_packet_hash": "2e674dee594d8f2541ecdb735785dfc85568d128c38ddbacf5e8ebcb56a87a08",
+      "receipt_id": "b4e6eee502f54e1687ed8cf9e2715d36",
+      "request_hash": "aad2e65edb2cd509aa76917564d20be5ccb25724b52abc68677ba8cf20075592",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

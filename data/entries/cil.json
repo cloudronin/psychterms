@@ -1,0 +1,57 @@
+{
+  "id": "cil",
+  "term": "CIL",
+  "definition": "CIL, or class-incremental learning, is a form of learning in which a model keeps adding new categories over time while trying to retain what it learned about earlier categories. A central challenge is avoiding catastrophic forgetting, where performance on older classes declines as the model adapts to new ones.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13152188"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13152188",
+      "revision": "2026; DOI 10.1371/journal.pone.0348270; article XML SHA-256 1b8902ded275ae48b9e4b79a765b0414ed3f65bccd90ef252a605043b5d0b80f",
+      "scope": "Source record 10.1371/journal.pone.0348270; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348270"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "60fa137e2cc945f4b40afd3546522cd0",
+    "request_hash": "aeec69c28d55df327dfea41e586f764a6185190463a8fd2f5b479c2347d94c75",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "cb661e39ae5136ed6269cd0e0a543f2eceb190bab4447954cf32c246a1478296",
+    "packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177"
+  },
+  "hash": "885e770b4cdbc68d18b5f8d2f15872e9d1506de75f89ea10d4be6af8bfe0a470",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cb661e39ae5136ed6269cd0e0a543f2eceb190bab4447954cf32c246a1478296",
+      "packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177",
+      "published_packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177",
+      "receipt_id": "2d217a72c8174bd5b6955010b8c1d1ef",
+      "request_hash": "9047a1d4fb27de643e586ec13ba92004a74dae62e97183d25626099a91e787d6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cb661e39ae5136ed6269cd0e0a543f2eceb190bab4447954cf32c246a1478296",
+      "packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177",
+      "published_packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177",
+      "receipt_id": "378c601e336641818070c2b741aa9fef",
+      "request_hash": "e937317fa2a3cb1e9f9cea97002515290c0ac6df82e560ce38e3b44314c5c41a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "bot",
+  "term": "BOT",
+  "definition": "BOT refers to a social-platform account treated as an automated or malicious social actor whose activity can threaten the integrity and safety of online networks. In this source, bots are identified by patterns in how they connect and interact with human and bot accounts and by features found in their local online neighborhood.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12912692"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12912692",
+      "revision": "2026; DOI 10.1371/journal.pone.0342686; article XML SHA-256 a787c5be9680e9aa1baefc65123f7fa43793fb15d8095578f896b1c71f94053c",
+      "scope": "Source record 10.1371/journal.pone.0342686; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342686"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0c13009457861036a0cb1de4a08e82681c52f2e77a46c31ea015f7d15110fa0a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8a7fa7182f3a4271810266caae3c774c",
+    "request_hash": "7cd0d4409dcf0bae6d4981b214fb31ee8a2a3438cee244ba2c558c8676ce8fe3",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "9b462cddde55304c970cae6cac46495666599b60a4174f314327af52e2ec6802",
+    "packet_hash": "0c13009457861036a0cb1de4a08e82681c52f2e77a46c31ea015f7d15110fa0a"
+  },
+  "hash": "c513972fcc3fe31f6d0dbdb8c94c68465db014f2d55c16d5adb31496a302a824",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that BOTs are “automated” social actors, but the provided packet describes “malicious bots” and their detection/graph features without explicitly characterizing them as automated.",
+        "The packet supports “malicious” and “undermine integrity and safety of online social platforms,” but parts of the definition (e.g., being “identified by patterns in how they connect and interact with human and bot accounts”) are only partially supported via “local bot-human interaction patterns” and neighborhood statistics, not stated in those exact terms."
+      ],
+      "definition_hash": "9b462cddde55304c970cae6cac46495666599b60a4174f314327af52e2ec6802",
+      "packet_hash": "0c13009457861036a0cb1de4a08e82681c52f2e77a46c31ea015f7d15110fa0a",
+      "published_packet_hash": "0c13009457861036a0cb1de4a08e82681c52f2e77a46c31ea015f7d15110fa0a",
+      "receipt_id": "a2f9b1d24df14b75916db331f5c351bc",
+      "request_hash": "60e96a55f92c86960d8f0d17a24618142155751437a901db3cc40db831152c90",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9b462cddde55304c970cae6cac46495666599b60a4174f314327af52e2ec6802",
+      "packet_hash": "0c13009457861036a0cb1de4a08e82681c52f2e77a46c31ea015f7d15110fa0a",
+      "published_packet_hash": "0c13009457861036a0cb1de4a08e82681c52f2e77a46c31ea015f7d15110fa0a",
+      "receipt_id": "dbeed70f030741f8b79f4f10a0746a61",
+      "request_hash": "7d8cfeba6711d254e20e076d0c11326030ed78d44c8f9bcc0b8801588db7e4dc",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

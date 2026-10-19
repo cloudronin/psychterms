@@ -1,0 +1,26 @@
+{
+  "id": "lgn",
+  "term": "LGN",
+  "source": "article-pmc13016311",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0345649",
+  "revision": "2026; DOI 10.1371/journal.pone.0345649; article XML SHA-256 54c8a7672be59d4749eef04e62c6eaa7bf1c73cc25b3d769f48f08b82e04f18c",
+  "source_snapshot_sha256": "54c8a7672be59d4749eef04e62c6eaa7bf1c73cc25b3d769f48f08b82e04f18c",
+  "url": "https://doi.org/10.1371/journal.pone.0345649",
+  "text": "The thalamus comprises multiple nuclei that support higher-order cognitive functions. However, its internal architecture remains difficult to delineate using conventional T1- or T2-weighted MRI because of limited tissue contrast. Diffusion-weighted MRI provides richer microstructural detail, yet accurate segmentation is still challenged by low anisotropy and tissue heterogeneity. To address these challenges, we present a modified spectral clustering framework for thalamic segmentation. Our approach jointly leverages voxel-wise information and fiber orientation distribution (FOD) features derived from multi-shell multi-tissue constrained spherical deconvolution. When evaluated using spatial probabilistic maps that capture across-subject spatial variability in labels, k-means and spectral clustering exhibit broadly similar group-level variability patterns. However, the spectral clustering framework accommodates smaller thalamic subdivisions, including the lateral and medial geniculate nuclei (LGN and MGN), which required exclusion from the k-means configuration for stable parcellation. Under these conditions, spectral clustering achieved Dice scores of 0.73 for the mediodorsal–parafascicular (MD–Pf) complex and 0.51 for the ventral posterolateral (VPL) nucleus and produce a cluster corresponding to LGN. Furthermore, by combining structural and diffusion information, our approach enabled subdivision of the pulvinar into four distinct regions. These result position our modified spectral clustering as a robust and anatomically informed tool for thalamic clustering and pulvinar sub-segmentation.",
+  "source_label": "Robust thalamic nuclei segmentation using spectral clustering of fiber orientation distributions",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1616
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "743fa00ce2740dfe7f090308532bbff12f64bbfba2765ebc48cb763def42b60d"
+}

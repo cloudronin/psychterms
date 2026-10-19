@@ -1,0 +1,63 @@
+{
+  "id": "nmha",
+  "term": "NMHA",
+  "definition": "NMHA stands for the Network-Mediated Habenular Attenuation model. It is a biological model proposing that exercise can reduce unhealthy overactivity in the lateral habenula by acting across broader brain networks involved in depression.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13482968"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13482968",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1887822; article XML SHA-256 7fb7b8175c23591117d7dd9d38d6d960fb10602a6bd736e3617c96b9ae4991a9",
+      "scope": "Source record 10.3389/fpsyt.2026.1887822; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1887822"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b1076a3ed03c9255a950bf2fef0e41478333db918cb7a5d032e8fb8b046e8d8c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f79c9c0207ef48a6a1cf61b19c33d27e",
+    "request_hash": "0773ac358faa7d0d3b197a266df66b8822b8eed8c7bf15e288bfe4b4e8e1af9e",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "2cca60eb53109a9d10f98f544b4642d1e8e7b7822d9397164ba041f51fc5e19f",
+    "packet_hash": "b1076a3ed03c9255a950bf2fef0e41478333db918cb7a5d032e8fb8b046e8d8c"
+  },
+  "hash": "9a603c4b4a10c944695cfaadd4e714d331e6c1982f2df674f504ac17a0a6e5c7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports NMHA as the “Network-Mediated Habenular Attenuation” model and says it proposes exercise as a systemic regulator of lateral habenula pathology, but it does not support the added claim about “broader brain networks involved in depression.”",
+        "The definition adds interpretive detail (“unhealthy overactivity” and the broader-network mechanism) that is not stated in the supplied source text."
+      ],
+      "definition_hash": "2cca60eb53109a9d10f98f544b4642d1e8e7b7822d9397164ba041f51fc5e19f",
+      "packet_hash": "b1076a3ed03c9255a950bf2fef0e41478333db918cb7a5d032e8fb8b046e8d8c",
+      "published_packet_hash": "b1076a3ed03c9255a950bf2fef0e41478333db918cb7a5d032e8fb8b046e8d8c",
+      "receipt_id": "49ac122739154dee83647be07aea56fc",
+      "request_hash": "32bf316d6eba24b6248a0de97f62b03f7c89502383ce046a1c29824d19f99523",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the claim that NMHA operates “across broader brain networks” (it only states NMHA proposes exercise as a systemic regulator of LHb pathology, without detailing network scope beyond that).",
+        "The packet supports that LHb hyperactivity is involved in depression (“pathological lateral habenula (LHb) hyperactivity”), but it does not explicitly phrase this as “unhealthy overactivity,” so that wording is not directly supported."
+      ],
+      "definition_hash": "2cca60eb53109a9d10f98f544b4642d1e8e7b7822d9397164ba041f51fc5e19f",
+      "packet_hash": "b1076a3ed03c9255a950bf2fef0e41478333db918cb7a5d032e8fb8b046e8d8c",
+      "published_packet_hash": "b1076a3ed03c9255a950bf2fef0e41478333db918cb7a5d032e8fb8b046e8d8c",
+      "receipt_id": "c3d8fa64537540239ae31bef63612890",
+      "request_hash": "3f44b491b7d96f7827e8803d25295deb8fef30b1e3415cf873496e9a59e6a302",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

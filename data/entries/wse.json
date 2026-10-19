@@ -1,0 +1,60 @@
+{
+  "id": "wse",
+  "term": "WSE",
+  "definition": "WSE stands for the Warsaw Stock Exchange, the stock market on which the companies in this study were listed. In this context, it identifies the setting from which the company sample was drawn.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13426988"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13426988",
+      "revision": "2026; DOI 10.1371/journal.pone.0352905; article XML SHA-256 902b0e0c285cf016b20d698f74e524652a146ed6a8ca5246a2f12967742c6b3d",
+      "scope": "Source record 10.1371/journal.pone.0352905; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0352905"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c66be2a325e472a0edabf68b19d3b3ea52c7a1547ebd9feb4bda84e223afa3a7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f710e228bdbe48c9be77170b24f7c98f",
+    "request_hash": "37dc773c1c60521dd0f92792640b664c27fc15b486eababef3548ddaa35740a8",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "ac4b608349205cbd5060550a4470f0cf5829480d764ef340d6525eef075dde54",
+    "packet_hash": "c66be2a325e472a0edabf68b19d3b3ea52c7a1547ebd9feb4bda84e223afa3a7"
+  },
+  "hash": "410f9f27fb613dfc13ce18ec6562c830936d51453575ecce10c111b478f33e79",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ac4b608349205cbd5060550a4470f0cf5829480d764ef340d6525eef075dde54",
+      "packet_hash": "c66be2a325e472a0edabf68b19d3b3ea52c7a1547ebd9feb4bda84e223afa3a7",
+      "published_packet_hash": "c66be2a325e472a0edabf68b19d3b3ea52c7a1547ebd9feb4bda84e223afa3a7",
+      "receipt_id": "001b9f7f70fa452fa41914c7edcb021d",
+      "request_hash": "9d259448c1b4dd86aff5fc8b602049c7792f71a53e19ffaacf968fa3798fecac",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses WSE to mean Warsaw Stock Exchange, but the entry is in the learning field and the requested sense should be supported in that context.",
+        "The definition adds a context-specific explanation about the company sample that is not stated as a definition of WSE itself."
+      ],
+      "definition_hash": "ac4b608349205cbd5060550a4470f0cf5829480d764ef340d6525eef075dde54",
+      "packet_hash": "c66be2a325e472a0edabf68b19d3b3ea52c7a1547ebd9feb4bda84e223afa3a7",
+      "published_packet_hash": "c66be2a325e472a0edabf68b19d3b3ea52c7a1547ebd9feb4bda84e223afa3a7",
+      "receipt_id": "e1dd1010bb7548cbab7a371ef5fe9ec5",
+      "request_hash": "6c26d1d25d5a90b732e89e0a7919b64f17627bca0c28d29a4d10c50cc144f28e",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

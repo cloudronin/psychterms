@@ -1,0 +1,62 @@
+{
+  "id": "flanker-task",
+  "term": "flanker task",
+  "definition": "The flanker task is a psychological task used to assess interference control, a part of inhibitory control. It measures how well a person can suppress distraction from goal-irrelevant surrounding stimuli while responding to a target.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11027223"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11027223",
+      "revision": "2024; DOI 10.1186/s40359-024-01698-6; article XML SHA-256 9605e331f64b2b914da4fe21f31be0850fd3a22fa423d7f93b699679401c0d52",
+      "scope": "Source record 10.1186/s40359-024-01698-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s40359-024-01698-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "33ae0854fd99036de52b82634deb70472ed7943061bc2f1f63fd394f17ebb723",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "52a5b5dbe75a4d20b510214fbbef9ba9",
+    "request_hash": "646a4f7def496d9c4a52391678cb43cfce4dee07379bce01cc87f625ba0f6165",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "9a6745a704196111b385f553515789429e223716e5f775bb74ca57d29f4c8fc2",
+    "packet_hash": "33ae0854fd99036de52b82634deb70472ed7943061bc2f1f63fd394f17ebb723"
+  },
+  "hash": "f1be6bd03cef812d93e5b787edcbeac5706ccb80168883ad3f6d34204a339ec5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided “field” is labeled “diagnosis,” but the definition itself does not state any diagnostic purpose or criteria—only that it is a psychological task assessing interference control. The packet discusses clinical samples in general, yet the definition does not connect the task to diagnosing any condition, so the field label “diagnosis” is not well supported by the definition."
+      ],
+      "definition_hash": "9a6745a704196111b385f553515789429e223716e5f775bb74ca57d29f4c8fc2",
+      "packet_hash": "33ae0854fd99036de52b82634deb70472ed7943061bc2f1f63fd394f17ebb723",
+      "published_packet_hash": "33ae0854fd99036de52b82634deb70472ed7943061bc2f1f63fd394f17ebb723",
+      "receipt_id": "00fd4090aee8499dbb74689747df031a",
+      "request_hash": "57b11375049183b707078e70c07c2a3267422cf5c7e4a6b378ddbc04347431c0",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: the source describes the flanker task as a cognitive task/measure of interference control, not as a diagnosis term.",
+        "The definition’s phrasing is slightly overgeneralized in treating the task as a way to assess inhibitory control directly; the packet specifically says it is used as an index of interference control, a component of inhibitory control."
+      ],
+      "definition_hash": "9a6745a704196111b385f553515789429e223716e5f775bb74ca57d29f4c8fc2",
+      "packet_hash": "33ae0854fd99036de52b82634deb70472ed7943061bc2f1f63fd394f17ebb723",
+      "published_packet_hash": "33ae0854fd99036de52b82634deb70472ed7943061bc2f1f63fd394f17ebb723",
+      "receipt_id": "587adf626eb348f89c42322ff49731a2",
+      "request_hash": "9404fc9ef50642fc14caa9702a7d19ce66a27803a534d36744b17b05433f93f3",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

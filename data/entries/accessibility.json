@@ -1,0 +1,64 @@
+{
+  "id": "accessibility",
+  "term": "accessibility",
+  "definition": "Accessibility is the degree to which places or points in a transport network can be reached efficiently. In this source, it refers to evaluating how road layout, travel time, travel demand, and the importance of network nodes affect ease of movement across a highway system.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12629455"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12629455",
+      "revision": "2025; DOI 10.1371/journal.pone.0336928; article XML SHA-256 12d2a0e010acba1ad842b11221b2d9cae8f7aaa823a5d047b172410817b1cf96",
+      "scope": "Source record 10.1371/journal.pone.0336928; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0336928"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2301daf5067c9afb8224ec65e2caca3dd8245b4bbe8d38469c50616f4f25cadf",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d67a791cec2e44d487473885e754021f",
+    "request_hash": "20d76356d93d49518a12705f549cfe1e5618fd408cbdf67c78d5e6bf75cecc00",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "38092f03d3464eccb44bd95e75c581cd3447e9b55d0defc7ac0bf6b1420d0359",
+    "packet_hash": "2301daf5067c9afb8224ec65e2caca3dd8245b4bbe8d38469c50616f4f25cadf"
+  },
+  "hash": "de70aa904c03bb11266d61f3144be9f19adeb5b7e068cc97118f3b8d49de6016",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly mention “road layout” as an evaluated factor; it discusses highway network accessibility, network efficiency, land use/transport relationships, trip demand, node centrality, connectivity, and shortest paths.",
+        "The definition’s framing as affecting “ease of movement” is not directly supported by the packet’s wording or stated constructs (it describes accessibility measurement and correlations rather than “ease of movement”)."
+      ],
+      "definition_hash": "38092f03d3464eccb44bd95e75c581cd3447e9b55d0defc7ac0bf6b1420d0359",
+      "packet_hash": "2301daf5067c9afb8224ec65e2caca3dd8245b4bbe8d38469c50616f4f25cadf",
+      "published_packet_hash": "2301daf5067c9afb8224ec65e2caca3dd8245b4bbe8d38469c50616f4f25cadf",
+      "receipt_id": "be69b80e0b6b4d178bcb4a7b459a8dad",
+      "request_hash": "fa92044daf63fac719ca17f5081742deb60e10d86656830a3dcb171fbf2afb44",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: the source is about transport geography and highway network accessibility, not a biological sense of the term.",
+        "The definition adds unsupported specifics such as “road layout” and “ease of movement across a highway system” as if these are the source’s meaning; the packet discusses accessibility metrics, trip demand, node centrality, travel time, and network connectivity rather than that broader phrasing.",
+        "The wording overgeneralizes the source’s method into a generic definition of accessibility; the packet describes a specific highway-network accessibility measure (closeness-accessibility), not the general concept as defined here."
+      ],
+      "definition_hash": "38092f03d3464eccb44bd95e75c581cd3447e9b55d0defc7ac0bf6b1420d0359",
+      "packet_hash": "2301daf5067c9afb8224ec65e2caca3dd8245b4bbe8d38469c50616f4f25cadf",
+      "published_packet_hash": "2301daf5067c9afb8224ec65e2caca3dd8245b4bbe8d38469c50616f4f25cadf",
+      "receipt_id": "39b87c369a41461fb1e303d42ee01085",
+      "request_hash": "57d68e8932f486410bace570a7cb78386146bb044cd310b19c535b93a19c9580",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

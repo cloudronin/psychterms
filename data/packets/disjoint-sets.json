@@ -1,0 +1,26 @@
+{
+  "id": "disjoint-sets",
+  "term": "disjoint sets",
+  "source": "article-pmc11086896",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0302425",
+  "revision": "2024; DOI 10.1371/journal.pone.0302425; article XML SHA-256 d80e7483f84cae83ce786cd3dd8f90bc7462d62ab4d0783bfe58b70e6adc71ba",
+  "source_snapshot_sha256": "d80e7483f84cae83ce786cd3dd8f90bc7462d62ab4d0783bfe58b70e6adc71ba",
+  "url": "https://doi.org/10.1371/journal.pone.0302425",
+  "text": "The joint analysis of two datasets X and Y that describe the same phenomena (e.g. the cellular state), but measure disjoint sets of variables (e.g. mRNA vs. protein levels) is currently challenging. Traditional methods typically analyze single interaction patterns such as variance or covariance. However, problem-tailored external knowledge may contain multiple different information about the interaction between the measured variables. We introduce MIASA, a holistic framework for the joint analysis of multiple different variables. It consists of assembling multiple different information such as similarity vs. association, expressed in terms of interaction-scores or distances, for subsequent clustering/classification. In addition, our framework includes a novel qualitative Euclidean embedding method (qEE-Transition) which enables using Euclidean-distance/vector-based clustering/classification methods on datasets that have a non-Euclidean-based interaction structure. As an alternative to conventional optimization-based multidimensional scaling methods which are prone to uncertainties, our qEE-Transition generates a new vector representation for each element of the dataset union X ∪ Y in a common Euclidean space while strictly preserving the original ordering of the assembled interaction-distances. To demonstrate our work, we applied the framework to three types of simulated datasets: samples from families of distributions, samples from correlated random variables, and time-courses of statistical moments for three different types of stochastic two-gene interaction models. We then compared different clustering methods with vs. without the qEE-Transition. For all examples, we found that the qEE-Transition followed by Ward clustering had superior performance compared to non-agglomerative clustering methods but had a varied performance against ultrametric-based agglomerative methods. We also tested the qEE-Transition followed by supervised and unsupervised machine learning methods and found promising results, however, more work is needed for optimal parametrization of these methods. As a future perspective, our framework points to the importance of more developments and validation of distance-distribution models aiming to capture multiple-complex interactions between different variables.",
+  "source_label": "Multi-Input data ASsembly for joint Analysis (MIASA): A framework for the joint analysis of disjoint sets of variables",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2320
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696"
+}

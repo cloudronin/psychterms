@@ -1,0 +1,64 @@
+{
+  "id": "prandial-drinking",
+  "term": "prandial drinking",
+  "definition": "Prandial drinking is drinking that occurs in connection with eating. In the packet, it refers to meal-related drinking that may help prevent dehydration, and in mammals this can be triggered in an anticipatory way by sensations from food or water before body fluid changes occur.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9728915"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9728915",
+      "revision": "2022; DOI 10.1371/journal.pone.0277968; article XML SHA-256 5fdf27bce6c3198378f31dedea4cc7025bd37ae727030b557dbccd4d3dcf4590",
+      "scope": "Source record 10.1371/journal.pone.0277968; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0277968"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d1ec3a8746c195e2b3856c8288d432fccac913d13d898d05aa330147ef88b168",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2ff773761c13449fa56016d2a6ef7c9b",
+    "request_hash": "419581f1828ce6ff2a35b628c20c6b97f1e2c084375aa486449609a40091b93f",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "cdc1dc40fb58c811545f72f30b1e91a080eb3fc9d698f70ac234077086514663",
+    "packet_hash": "d1ec3a8746c195e2b3856c8288d432fccac913d13d898d05aa330147ef88b168"
+  },
+  "hash": "5fc5c2ba4f103bff53a4a277b818a7e8060ee73e9f8a938f629d5b0cd0f037e7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet explicitly links “postprandial thirst” to preventing systemic dehydration, but it does not explicitly state that prandial drinking itself “may help prevent dehydration.”",
+        "The definition attributes the anticipatory mechanism to “prandial drinking,” while the packet describes the anticipatory mechanism specifically for “postprandial thirst” in mammals (buccal sensation affecting brain thirst center before blood parameter changes)."
+      ],
+      "definition_hash": "cdc1dc40fb58c811545f72f30b1e91a080eb3fc9d698f70ac234077086514663",
+      "packet_hash": "d1ec3a8746c195e2b3856c8288d432fccac913d13d898d05aa330147ef88b168",
+      "published_packet_hash": "d1ec3a8746c195e2b3856c8288d432fccac913d13d898d05aa330147ef88b168",
+      "receipt_id": "7d13e2da3e034d1e80163d9a922ade23",
+      "request_hash": "5864c41988595c0ce1c296705c8f4e4db0b3f6cdb75f9cdd4eb817af4a0f5f5a",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition attributes an anticipatory mechanism to prandial drinking in mammals, but the packet says this anticipatory function has not been demonstrated for prandial drinking.",
+        "The packet supports a relation to postprandial thirst and dehydration prevention, but it does not define prandial drinking itself as a mammalian anticipatory response before blood or body-fluid changes occur.",
+        "The field 'learning' is not clearly supported by the packet for this term; the source is about behavioural osmoregulation and drinking behaviour, not learning."
+      ],
+      "definition_hash": "cdc1dc40fb58c811545f72f30b1e91a080eb3fc9d698f70ac234077086514663",
+      "packet_hash": "d1ec3a8746c195e2b3856c8288d432fccac913d13d898d05aa330147ef88b168",
+      "published_packet_hash": "d1ec3a8746c195e2b3856c8288d432fccac913d13d898d05aa330147ef88b168",
+      "receipt_id": "7992541cbf3a45799486c1aed5bc1ea9",
+      "request_hash": "0fdae7ee86b906f2ad15c3f1d83bc09b0f479e6a9901baf83444fdde7f4ec099",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

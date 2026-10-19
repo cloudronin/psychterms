@@ -1,0 +1,62 @@
+{
+  "id": "expertise",
+  "term": "expertise",
+  "definition": "Expertise is being seen as especially knowledgeable or skilled in a particular area. In this research context, people judged expertise partly from spatial cues, such as how close someone was to an object related to that domain.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13547489"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13547489",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1763841; article XML SHA-256 a500e9424bb65090e10d28bf7708bbb82b9b31859daab3de594c3eed62466cae",
+      "scope": "Source record 10.3389/fpsyg.2026.1763841; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1763841"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7a54d4eeb6af24050ce478b48b06fc51fb2efba15aae2cd82cf7bac825e56e6e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b8ccf203af3e4764aecf93a384685921",
+    "request_hash": "e4d524ff2d67d6d521c4d0e62eb40659bb13c36f39722bcc7727121780384282",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "386e28d8aaeaf128af651f604b734b623e072ee47e7dcfce405fb5608e67b7a1",
+    "packet_hash": "7a54d4eeb6af24050ce478b48b06fc51fb2efba15aae2cd82cf7bac825e56e6e"
+  },
+  "hash": "055d2c238effba7882df0d94ae1e335dae68ccecca0314a4aac6b5d934394b62",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (‘Expertise is being seen as especially knowledgeable or skilled in a particular area’) is not explicitly supported by the provided packet text, which instead discusses inferring/attributing ‘domain-specific expertise’ from spatial proximity without defining expertise as knowledgeable/skilled."
+      ],
+      "definition_hash": "386e28d8aaeaf128af651f604b734b623e072ee47e7dcfce405fb5608e67b7a1",
+      "packet_hash": "7a54d4eeb6af24050ce478b48b06fc51fb2efba15aae2cd82cf7bac825e56e6e",
+      "published_packet_hash": "7a54d4eeb6af24050ce478b48b06fc51fb2efba15aae2cd82cf7bac825e56e6e",
+      "receipt_id": "9b00c50ef84d483fb450d2273059e786",
+      "request_hash": "72fc285c0e15f7b8927587afc24f6844f404ede2a603dd22fe66390920fcebd7",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence adds an unsupported gloss (“especially knowledgeable or skilled”); the packet only supports attributed domain-specific expertise, not that definition of the term.",
+        "The response should stick to what the study actually shows about expertise attribution from spatial proximity, rather than broadening the term beyond the supplied text."
+      ],
+      "definition_hash": "386e28d8aaeaf128af651f604b734b623e072ee47e7dcfce405fb5608e67b7a1",
+      "packet_hash": "7a54d4eeb6af24050ce478b48b06fc51fb2efba15aae2cd82cf7bac825e56e6e",
+      "published_packet_hash": "7a54d4eeb6af24050ce478b48b06fc51fb2efba15aae2cd82cf7bac825e56e6e",
+      "receipt_id": "91048664727449b08734fa73b4315ef4",
+      "request_hash": "17c513752f5a73c00eacf272b7c3ae7ebaf0517344eb035f9ad0d088a72bdc1a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "response-strength",
+  "term": "response strength",
+  "definition": "Response strength is the size or intensity of a measured reaction to a stimulus, such as how strongly neurons respond to sound. In this source, it refers to the magnitude of auditory responding, which was higher in a social listening condition.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11922254"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11922254",
+      "revision": "2025; DOI 10.1371/journal.pone.0314795; article XML SHA-256 c0673779e6f2e9a73b330a453e14ea5435ff6c9cdb2044d772e287ac9c2b789c",
+      "scope": "Source record 10.1371/journal.pone.0314795; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0314795"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "678f387edf4f066e9c757e8c9a864ab712af1054dcbe17d8be5e6074898aa164",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "eacaabcafc5042e3b64f76b2d8fa83bf",
+    "request_hash": "fab6620879fdc36870f683ad936db7784585514a1ff10aa9f188ca9fa6648e9a",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "2aec40a87c1e35e76f80b0fee5d7b1633e47f36a679463d610337890b45788ea",
+    "packet_hash": "678f387edf4f066e9c757e8c9a864ab712af1054dcbe17d8be5e6074898aa164"
+  },
+  "hash": "27e1a0099c02ceb4f0d1b1e8fb958a06a3623d754f95e60b87a9694012c7ef3f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence makes a general claim that “response strength” is broadly “the size or intensity of a measured reaction to a stimulus,” but the packet only reports that “response strength … were greater” for a social condition and does not provide a general definitional statement of what response strength means.",
+        "The definition claims the term refers to “the magnitude of auditory responding” and gives an example about “neurons … respond to sound,” but the packet does not explicitly define “response strength” as “magnitude” or provide a stated definition—only that auditory response strength differed by condition."
+      ],
+      "definition_hash": "2aec40a87c1e35e76f80b0fee5d7b1633e47f36a679463d610337890b45788ea",
+      "packet_hash": "678f387edf4f066e9c757e8c9a864ab712af1054dcbe17d8be5e6074898aa164",
+      "published_packet_hash": "678f387edf4f066e9c757e8c9a864ab712af1054dcbe17d8be5e6074898aa164",
+      "receipt_id": "902e76964c2f44c99f1c2c1f12205681",
+      "request_hash": "d85bf32856f061dee20ee7a5b2c0c0b7939cbbc27d2d37e03e5b9fb04dbe2873",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a broad general definition (“size or intensity of a measured reaction to a stimulus”) that is not stated in the packet and goes beyond the source’s usage.",
+        "The example about neurons responding to sound is not supported by the packet; the source only says auditory responses/response strength were greater in a social condition.",
+        "The definition should stay anchored to the article’s specific usage rather than present an unverified generic sense."
+      ],
+      "definition_hash": "2aec40a87c1e35e76f80b0fee5d7b1633e47f36a679463d610337890b45788ea",
+      "packet_hash": "678f387edf4f066e9c757e8c9a864ab712af1054dcbe17d8be5e6074898aa164",
+      "published_packet_hash": "678f387edf4f066e9c757e8c9a864ab712af1054dcbe17d8be5e6074898aa164",
+      "receipt_id": "40ae0fb5fd994ede9cf240d464b52fa8",
+      "request_hash": "36215dd0a32dcee31155de415f0e3aa1c20d935d280bad6e82ce0e46b892de0e",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "frequency-analysis",
+  "term": "frequency analysis",
+  "definition": "Frequency analysis is an analytical method used to examine EEG signals in terms of their frequency content over time. In cognitive neuroscience, it is used to study neurocognitive functioning by showing how patterns in brain activity vary across different frequencies.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12058173"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12058173",
+      "revision": "2025; DOI 10.1371/journal.pone.0323179; article XML SHA-256 6928c3f839c5ed9a191967e30edff474ba7a7149925c7046e68ed02355454d0c",
+      "scope": "Source record 10.1371/journal.pone.0323179; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0323179"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "147881514a87e72351b5413727dc3183832d373e483f5eb153f42bd7f994536e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cf5458f340cd47c899a81a65c8c4104a",
+    "request_hash": "374726c942751f070d3144ed31aa35749ebbd3af71ba275757192b4a05959a51",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "16ffe2e2924395c2c5dae346ed9e9a8637bc8e5f6426ab4a097b55e0ec5465cd",
+    "packet_hash": "147881514a87e72351b5413727dc3183832d373e483f5eb153f42bd7f994536e"
+  },
+  "hash": "5886a4f2b159d65e857b644193a7e1a7aca918fec4b5ef110aab1aec2010cd08",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "16ffe2e2924395c2c5dae346ed9e9a8637bc8e5f6426ab4a097b55e0ec5465cd",
+      "packet_hash": "147881514a87e72351b5413727dc3183832d373e483f5eb153f42bd7f994536e",
+      "published_packet_hash": "147881514a87e72351b5413727dc3183832d373e483f5eb153f42bd7f994536e",
+      "receipt_id": "12fa105fd3de49f597146a7b67e84437",
+      "request_hash": "419ae938d1d448e2f133c09089e1722d61a03966d3d0ff59905803b9007132b2",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes “time-frequency analysis of the EEG” but does not define “frequency analysis” as a standalone method; the definition’s phrasing (“frequency content over time”) aligns specifically with time-frequency analysis, not with frequency analysis in general.",
+        "The packet does not explicitly state that the method is used to “study neurocognitive functioning” by “showing how patterns… vary across different frequencies,” beyond broadly saying time-frequency analysis is widely used in cognitive neuroscience and that the paper focuses on EEG time-frequency analysis."
+      ],
+      "definition_hash": "16ffe2e2924395c2c5dae346ed9e9a8637bc8e5f6426ab4a097b55e0ec5465cd",
+      "packet_hash": "147881514a87e72351b5413727dc3183832d373e483f5eb153f42bd7f994536e",
+      "published_packet_hash": "147881514a87e72351b5413727dc3183832d373e483f5eb153f42bd7f994536e",
+      "receipt_id": "422eb8a0f530436fb48704c8b854df14",
+      "request_hash": "ddc3518154e5fb99de23f9f5c6039659749557024ed2b4758c7d1e80fb642065",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

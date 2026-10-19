@@ -1,0 +1,65 @@
+{
+  "id": "cluster-sampling",
+  "term": "cluster sampling",
+  "definition": "Cluster sampling is a survey sampling method that selects groups, or clusters, rather than sampling every individual directly. A two-stage form is used when complete information about the whole population is not available, with sampling carried out within the chosen clusters.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12614621"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12614621",
+      "revision": "2025; DOI 10.1371/journal.pone.0335586; article XML SHA-256 d391b486280e96c3b1af2e3c2cd6891d7d6d39d780cb86af1502f8bfe4a95dd6",
+      "scope": "Source record 10.1371/journal.pone.0335586; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335586"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "619c5f2a467fe886f266c0df1840d335c793446ce903df3ef5008ae16cb5a7b8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8330cf790cca4ce5a95f5335965bdc05",
+    "request_hash": "c59c02464ae7ed255e20b817c9e4f06ff7b93b501f1f1aa5ff598dbe2eaf08c4",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "6736120fde6be51d4a69981cb6bb688b488066230f7215c006ca99c6a587d35d",
+    "packet_hash": "619c5f2a467fe886f266c0df1840d335c793446ce903df3ef5008ae16cb5a7b8"
+  },
+  "hash": "91e3cab65fa0e28103eca403c5d23984299d249520f3e3d9b552252877f049b1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state the core definition that cluster sampling “selects groups, or clusters, rather than sampling every individual directly.” It only mentions “two-stage cluster sampling” in the context of estimation. ",
+        "The definition’s claim that “A two-stage form is used when complete information about the whole population is not available” is only partially supported: the packet says two-stage cluster sampling is often employed when complete population information is not available, but it does not explicitly frame this as the defining rationale for a two-stage form within cluster sampling.",
+        "The packet does not mention anything about “complete information about the whole population” in the more specific way used in the second sentence (i.e., as a general condition for using a two-stage cluster design), beyond the brief statement about when it is employed."
+      ],
+      "definition_hash": "6736120fde6be51d4a69981cb6bb688b488066230f7215c006ca99c6a587d35d",
+      "packet_hash": "619c5f2a467fe886f266c0df1840d335c793446ce903df3ef5008ae16cb5a7b8",
+      "published_packet_hash": "619c5f2a467fe886f266c0df1840d335c793446ce903df3ef5008ae16cb5a7b8",
+      "receipt_id": "fdbec01163d843c3b7febf90c870657a",
+      "request_hash": "ffeee2177ef5edbfd72e04c8711b4628d625d20898d6538104f8cbe026137695",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports two-stage cluster sampling, but it does not explicitly define cluster sampling in general as selecting groups or clusters instead of individuals.",
+        "The phrase \"rather than sampling every individual directly\" is not supported by the packet.",
+        "The statement about sampling being carried out within chosen clusters is only supported for the two-stage cluster-sampling setting, not as a general definition of cluster sampling."
+      ],
+      "definition_hash": "6736120fde6be51d4a69981cb6bb688b488066230f7215c006ca99c6a587d35d",
+      "packet_hash": "619c5f2a467fe886f266c0df1840d335c793446ce903df3ef5008ae16cb5a7b8",
+      "published_packet_hash": "619c5f2a467fe886f266c0df1840d335c793446ce903df3ef5008ae16cb5a7b8",
+      "receipt_id": "a9176a936ac3473a93378d0431684976",
+      "request_hash": "344fbbab0f52d2b8406c94125cbea9b5cae89809ccd7fa3bfe1fb544d9340d24",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "periodicity-pitch",
+  "term": "periodicity pitch",
+  "source": "article-pmc8959216",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnins.2022.736642",
+  "revision": "2022; DOI 10.3389/fnins.2022.736642; article XML SHA-256 374c6d38f6611dc07e913bcf92b965e072d3f51a78c2a716286b7320883b136a",
+  "source_snapshot_sha256": "374c6d38f6611dc07e913bcf92b965e072d3f51a78c2a716286b7320883b136a",
+  "url": "https://doi.org/10.3389/fnins.2022.736642",
+  "text": "Neuromorphic computer models are used to explain sensory perceptions. Auditory models generate cochleagrams, which resemble the spike distributions in the auditory nerve. Neuron ensembles along the auditory pathway transform sensory inputs step by step and at the end pitch is represented in auditory categorical spaces. In two previous articles in the series on periodicity pitch perception an extended auditory model had been successfully used for explaining periodicity pitch proved for various musical instrument generated tones and sung vowels. In this third part in the series the focus is on octopus cells as they are central sensitivity elements in auditory cognition processes. A powerful numerical model had been devised, in which auditory nerve fibers (ANFs) spike events are the inputs, triggering the impulse responses of the octopus cells. Efficient algorithms are developed and demonstrated to explain the behavior of octopus cells with a focus on a simple event-based hardware implementation of a layer of octopus neurons. The main finding is, that an octopus' cell model in a local receptive field fine-tunes to a specific trajectory by a spike-timing-dependent plasticity (STDP) learning rule with synaptic pre-activation and the dendritic back-propagating signal as post condition. Successful learning explains away the teacher and there is thus no need for a temporally precise control of plasticity that distinguishes between learning and retrieval phases. Pitch learning is cascaded: At first octopus cells respond individually by self-adjustment to specific trajectories in their local receptive fields, then unions of octopus cells are collectively learned for pitch discrimination. Pitch estimation by inter-spike intervals is shown exemplary using two input scenarios: a simple sinus tone and a sung vowel. The model evaluation indicates an improvement in pitch estimation on a fixed time-scale.",
+  "source_label": "Periodicity Pitch Perception Part III: Sensibility and Pachinko Volatility",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1921
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0"
+}

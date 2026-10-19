@@ -1,0 +1,60 @@
+{
+  "id": "color-attribute",
+  "term": "color attribute",
+  "definition": "A color attribute is a conceptual feature of an object that represents its color and can take specific values such as red or yellow. In language production, this feature can be especially important for objects strongly linked to a typical color, where it influences how easily the object’s name is retrieved.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4010786"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4010786",
+      "revision": "2014; DOI 10.3389/fpsyg.2014.00363; article XML SHA-256 9bd6d28105b5b702d4dae8969d2fd2a52c996299beca758a5b3e7e99e5b094d0",
+      "scope": "Source record 10.3389/fpsyg.2014.00363; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2014.00363"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "48be731756444c8c96dcf6794bf6d91c",
+    "request_hash": "de6ac5fd054bf4c6ed0d6591d634d7d55b760ad700f7bbde31f258f3e978edea",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "d99ad88f95591d698b7733a4de5d470d9b77357c428e7fac395d32bfa2712678",
+    "packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90"
+  },
+  "hash": "21b27fca96ef3adbc05620ada55bbebe102eb16713b98aa810fdb2ff105b2507",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d99ad88f95591d698b7733a4de5d470d9b77357c428e7fac395d32bfa2712678",
+      "packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90",
+      "published_packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90",
+      "receipt_id": "563c56cc1e874984b7891641e130f536",
+      "request_hash": "236983841347e748c5e4db487564c22d529d7364a35a2a9338c3dd3ae0040d3b",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that color values can include “red or yellow,” but the packet only gives “red” as an example of a color value and does not mention “yellow.”",
+        "The definition characterizes the color attribute as “a conceptual feature of an object that represents its color”; the packet describes color as a conceptual attribute within frames and its values (e.g., “color” with “red”), but it does not explicitly state that the attribute “represents its color.”"
+      ],
+      "definition_hash": "d99ad88f95591d698b7733a4de5d470d9b77357c428e7fac395d32bfa2712678",
+      "packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90",
+      "published_packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90",
+      "receipt_id": "43c76fcfbb32491ab707eddbb55e2438",
+      "request_hash": "c1f083cf56fb0dd8de9e71b2bbb312643314046d8a3b895489b1ddff61cb8537",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

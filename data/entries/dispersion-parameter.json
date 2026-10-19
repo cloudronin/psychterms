@@ -1,0 +1,63 @@
+{
+  "id": "dispersion-parameter",
+  "term": "dispersion parameter",
+  "definition": "A dispersion parameter is a model value used in route-choice estimation to represent how travelers’ route choice behavior is spread or varies within a network. In this source, it is treated as a dynamic quantity that is estimated along with travel-demand and link-choice values from traffic-count data.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4712001"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4712001",
+      "revision": "2016; DOI 10.1371/journal.pone.0146850; article XML SHA-256 6c4da35ec4570d50dd1b3f3868166b6642b77d08f758369be6e17c12d3c8a857",
+      "scope": "Source record 10.1371/journal.pone.0146850; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0146850"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1c3639c60c2543ec90d038fa08b4ef9c",
+    "request_hash": "790e9bdb578e714bf1342a895211bcf222c642ab09cd9ab74fe12323a3f68d58",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "0e1de9a409386316088cd3098a12e4f9147a9b86f49395cb1e9ec261a728a6b6",
+    "packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079"
+  },
+  "hash": "eb04c66668372893bdcb2ccd65ae4c8a02c58bfb9e9fd1e1d01bb1701c131219",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s field is not supported by the source packet: the source is a traffic/network modeling paper about origin-destination matrices, link choice proportion, and dispersion parameter estimation, not a learning term.",
+        "The phrase “within a network” is too generic here and the definition slightly overgeneralizes the source’s specific setting of a congested traffic network and partial traffic counts."
+      ],
+      "definition_hash": "0e1de9a409386316088cd3098a12e4f9147a9b86f49395cb1e9ec261a728a6b6",
+      "packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079",
+      "published_packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079",
+      "receipt_id": "8a57cec3f6664680b2296d8b8d8b8e16",
+      "request_hash": "39059a3d2d0ba35db089dea1a4f0a983d56f119d21de6ee3ea8f8f9d224d26bf",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the paper estimates an OD matrix, link choice proportion, and a “dynamic dispersion parameter” in a route-choice-related traffic model, but it does not explicitly state that the dispersion parameter “represent[s] how travelers’ route choice behavior is spread or varies within a network,” so that specific interpretation is not directly supported.",
+        "The claim that the dispersion parameter is treated as a “dynamic quantity” estimated “along with travel-demand and link-choice values from traffic-count data” is broadly consistent with the packet (dynamic dispersion parameter; estimation of OD and link-choice via partial traffic counts), but because the definition includes the unsupported “spread or varies within a network” characterization, the definition as written cannot be passed."
+      ],
+      "definition_hash": "0e1de9a409386316088cd3098a12e4f9147a9b86f49395cb1e9ec261a728a6b6",
+      "packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079",
+      "published_packet_hash": "29ea6450b50de0a34ce4e498de30ca1b5404c2125d6d67e36f32cc477e2dc079",
+      "receipt_id": "3cb9dcd9259348d3ac01df3aaa9df567",
+      "request_hash": "84bb7230966e230f82b0d944d80dabd6c60280b2c292d90fcdaf807f682e8788",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

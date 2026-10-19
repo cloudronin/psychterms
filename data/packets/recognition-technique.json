@@ -1,0 +1,26 @@
+{
+  "id": "recognition-technique",
+  "term": "recognition technique",
+  "source": "article-pmc11922251",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0316562",
+  "revision": "2025; DOI 10.1371/journal.pone.0316562; article XML SHA-256 fc30a0f6f9557476d2011fde92701c7192cd8022c11c987ec7a502c958904072",
+  "source_snapshot_sha256": "fc30a0f6f9557476d2011fde92701c7192cd8022c11c987ec7a502c958904072",
+  "url": "https://doi.org/10.1371/journal.pone.0316562",
+  "text": "In this paper, we developed a pose-aware facial expression recognition technique. The proposed technique employed K nearest neighbor for pose detection and a neural network-based extended stacking ensemble model for pose-aware facial expression recognition. For pose-aware facial expression classification, we have extended the stacking ensemble technique from a two-level ensemble model to three-level ensemble model: base-level, meta-level and predictor. The base-level classifier is the binary neural network. The meta-level classifier is a pool of binary neural networks. The outputs of binary neural networks are combined using probability distribution to build the neural network ensemble. A pool of neural network ensembles is trained to learn the similarity between multi-pose facial expressions, where each neural network ensemble represents the presence or absence of a facial expression. The predictor is the Naive Bayes classifier, it takes the binary output of stacked neural network ensembles and classifies the unknown facial image as one of the facial expressions. The facial concentration region was detected using the Voila-Jones face detector. The Radboud faces database was used for stacked ensembles’ training and testing purpose. The experimental results demonstrate that the proposed technique achieved 90% accuracy using Eigen features with 160 stacked neural network ensembles and Naive Bayes classifier. It demonstrates that the proposed techniques performed significantly as compare to state of the art pose-ware facial expression recognition techniques.",
+  "source_label": "Neural network-based ensemble approach for multi-view facial expression recognition",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1581
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "article-requested-concept:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "a529ee44290631f2c7c45e989c28e4781a4f08d0460dbf4b258f4da0aef46276"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "data-types",
+  "term": "data types",
+  "definition": "Data types are different forms of information used in analysis, such as text and images. In cognition-related research, combining multiple data types can provide complementary information and improve tasks like sentiment analysis, though integrating them can be challenging.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12747358"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12747358",
+      "revision": "2025; DOI 10.1371/journal.pone.0333628; article XML SHA-256 52f83975f9135cd24cb90c872d79a7f008c2c208674eb4b0b3a1da44d6693409",
+      "scope": "Source record 10.1371/journal.pone.0333628; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0333628"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "29bce86e362342b8936e8a7b88d60b16159cff79f14607a2b988ec69f19c2b24",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5b108e7e09a849b4b97414d8af50ddae",
+    "request_hash": "7a23f0e92ae76c3cf22678342a815d92b74030a9e3c8e5f7f4f67ca89db8237a",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "ece2e7c84db6981988363002c3a396f287393da71e4c393852de686bb9518e25",
+    "packet_hash": "29bce86e362342b8936e8a7b88d60b16159cff79f14607a2b988ec69f19c2b24"
+  },
+  "hash": "b0f179370780441b4a8628037b9692503127c11211adef33b31016774f02bb6c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general definition that “Data types are different forms of information used in analysis”; it only discusses multimodal sentiment analysis using text and image modalities.",
+        "The claim that this is specific to “cognition-related research” is not supported; the packet describes sentiment analysis and model performance rather than cognition research.",
+        "While the packet supports combining text and image (multi-modal sentiment analysis) and notes challenges in integrating them, it does not clearly support the full framing in the definition (e.g., “provide complementary information” and “improve tasks like sentiment analysis” beyond the asserted sentiment-analysis performance gains in the study context)."
+      ],
+      "definition_hash": "ece2e7c84db6981988363002c3a396f287393da71e4c393852de686bb9518e25",
+      "packet_hash": "29bce86e362342b8936e8a7b88d60b16159cff79f14607a2b988ec69f19c2b24",
+      "published_packet_hash": "29bce86e362342b8936e8a7b88d60b16159cff79f14607a2b988ec69f19c2b24",
+      "receipt_id": "ed93d63efed8447bb882aaa7867a8aea",
+      "request_hash": "6047558f557c49360656b27a2dc0e6620c019436f661737c8e08395fe410c98b",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports text and image modalities in multimodal sentiment analysis, but it does not support the broader claim that this is specifically “in cognition-related research.”",
+        "The statement that combining multiple data types can provide complementary information and improve tasks is only supported in the context of this sentiment-analysis study, not as a general definition across cognition research."
+      ],
+      "definition_hash": "ece2e7c84db6981988363002c3a396f287393da71e4c393852de686bb9518e25",
+      "packet_hash": "29bce86e362342b8936e8a7b88d60b16159cff79f14607a2b988ec69f19c2b24",
+      "published_packet_hash": "29bce86e362342b8936e8a7b88d60b16159cff79f14607a2b988ec69f19c2b24",
+      "receipt_id": "0cb5461a66ec4029848df15fd8f63f27",
+      "request_hash": "3c82630b60a8c3b109e6b9e41e68994cbdb7d7320c588be06fcf855b421c6ae8",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

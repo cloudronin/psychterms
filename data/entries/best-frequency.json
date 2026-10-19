@@ -1,0 +1,63 @@
+{
+  "id": "best-frequency",
+  "term": "best frequency",
+  "definition": "Best frequency is the sound frequency at which a recorded auditory unit, such as a neuron, shows its strongest or most sensitive response. In this context, tones were presented at each unit’s best frequency to test how it responded to timing differences and modulation.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4122409"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4122409",
+      "revision": "2014; DOI 10.1371/journal.pone.0104097; article XML SHA-256 786a2a739e620b01871b26e7fdb7cd64d25d5ab8e080ec6cfaa53c15c303027e",
+      "scope": "Source record 10.1371/journal.pone.0104097; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0104097"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "57822a29fef1224fac413fd7ebf5f67fa6c201074aaac2211bdbdd5b0f2bdf82",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cbc558d0a51044f7aab3b5045b002120",
+    "request_hash": "4fba05bf91b5a09092f16098da5f4f065520144e3afc61dac9b0fa7b4fb9fea7",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "3753eac7d79cddc25ffa144f0a994c0630861f61bffebc503c96565dea5109ef",
+    "packet_hash": "57822a29fef1224fac413fd7ebf5f67fa6c201074aaac2211bdbdd5b0f2bdf82"
+  },
+  "hash": "9935b6f1576bc23b23cc6f23c7655350e68a99808f91eda789bf5fd8d15045db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the term but does not define “best frequency” as the frequency that elicits a unit’s strongest or most sensitive response, so the core definition is unsupported.",
+        "The second sentence adds procedural context about why tones were presented at the best frequency, but the packet only shows that tones were presented at the best frequency in the study; it does not support the broader explanatory phrasing."
+      ],
+      "definition_hash": "3753eac7d79cddc25ffa144f0a994c0630861f61bffebc503c96565dea5109ef",
+      "packet_hash": "57822a29fef1224fac413fd7ebf5f67fa6c201074aaac2211bdbdd5b0f2bdf82",
+      "published_packet_hash": "57822a29fef1224fac413fd7ebf5f67fa6c201074aaac2211bdbdd5b0f2bdf82",
+      "receipt_id": "0ee97955da5a44b39295b4dcc88432e2",
+      "request_hash": "b3dcd1d00ae7147bbdc890ae84476f48ed1fe3f9003b00ae41e25301c53a35c7",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what “best frequency” means (e.g., as the frequency eliciting the strongest or most sensitive response). It only states that stimuli were “presented at the best-frequency of the unit,” without explaining that term’s meaning.",
+        "The claim that the “best frequency” is used specifically to “test how it responded to timing differences and modulation” is not directly stated. The packet says timing sensitivity (ITDs) and modulation frequencies were tested, but it does not explicitly connect that testing to choosing the best frequency beyond the fact of presentation at it."
+      ],
+      "definition_hash": "3753eac7d79cddc25ffa144f0a994c0630861f61bffebc503c96565dea5109ef",
+      "packet_hash": "57822a29fef1224fac413fd7ebf5f67fa6c201074aaac2211bdbdd5b0f2bdf82",
+      "published_packet_hash": "57822a29fef1224fac413fd7ebf5f67fa6c201074aaac2211bdbdd5b0f2bdf82",
+      "receipt_id": "3fa0e5a48dd34533a9a530c081a7de71",
+      "request_hash": "036218d8e29ebafc8aaa79ac18ab3fab5235f567a1554c5a1878940947340a4b",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

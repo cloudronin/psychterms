@@ -1,0 +1,26 @@
+{
+  "id": "citation-analysis",
+  "term": "citation analysis",
+  "source": "article-pmc11132466",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0302304",
+  "revision": "2024; DOI 10.1371/journal.pone.0302304; article XML SHA-256 c7cdfad489b185e9b410a97699acc8161c9ef4c8a95a0d332309a1a7a6deb0b2",
+  "source_snapshot_sha256": "c7cdfad489b185e9b410a97699acc8161c9ef4c8a95a0d332309a1a7a6deb0b2",
+  "url": "https://doi.org/10.1371/journal.pone.0302304",
+  "text": "Citation illustrates the link between citing and cited documents. Different aspects of achievements like the journal’s impact factor, author’s ranking, and peers’ judgment are analyzed using citations. However, citations are given the same weight for determining these important metrics. However academics contend that not all citations can ever have equal weight. Predominantly, such rankings are based on quantitative measures and the qualitative aspect is completely ignored. For a fair evaluation, qualitative evaluation of citations is needed in addition to quantitative ones. Many existing works that use qualitative evaluation consider binary class and categorize citations as important or unimportant. This study considers multi-class tasks for citation sentiments on imbalanced data and presents a novel framework for sentiment analysis in in-text citations of research articles. In the proposed technique, features are retrieved using a convolutional neural network (CNN), and classification is performed using a voting classifier that combines Logistic Regression (LR) and Stochastic Gradient Descent (SGD). The class imbalance problem is handled by the synthetic minority oversampling technique (SMOTE). Extensive experiments are performed in comparison with the proposed approach using SMOTE-generated data and machine learning models by term frequency (TF), and term frequency-inverse document frequency (TF-IDF) to evaluate the efficacy of the proposed approach for citation analysis. It is found that the proposed voting classifier using CNN features achieves an accuracy, precision, recall, and F1 score of 0.99 for all. This work not only advances the field of sentiment analysis in academic citations but also underscores the importance of incorporating qualitative aspects in evaluating the impact and sentiments conveyed through citations.",
+  "source_label": "Scientific text citation analysis using CNN features and ensemble learning model",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1860
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 4
+  },
+  "packet_hash": "09514ddbd3fa2a78d5a0878b8991ea96f672a938b293c7c6c1276bbcf9c65cfc"
+}

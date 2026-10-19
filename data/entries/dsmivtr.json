@@ -1,0 +1,63 @@
+{
+  "id": "dsmivtr",
+  "term": "DSM–IV–TR",
+  "definition": "DSM-IV-TR is the fourth edition, text revision, of the Diagnostic and Statistical Manual of Mental Disorders, a manual used to define mental disorder diagnoses. In the source, it is identified as the version before DSM-5 and is noted for using an ADHD onset rule requiring some impairing symptoms to be present before age 7.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6849294"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6849294",
+      "revision": "2019; DOI 10.1186/s12888-019-2337-7; article XML SHA-256 9d6cd5462afec294d8aac12e2cf560ebf6e29edf8208ed3e6ca29c9a6ce9368f",
+      "scope": "Source record 10.1186/s12888-019-2337-7; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-019-2337-7"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cb692f2fd081632730f4a965cdf4efc7f8ea2a4417b0fd69b97107cfb34fd1ee",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c4156099dcaf4e1885eaecd3f1216a1d",
+    "request_hash": "24f763515da28a92bd1c2115a52bcdf8e5c921cb881af7f876d0200f915fb23a",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "c063ac62caf6fe7d8591d5d01559f019065c84120e3eda8428cf3937c03e399d",
+    "packet_hash": "cb692f2fd081632730f4a965cdf4efc7f8ea2a4417b0fd69b97107cfb34fd1ee"
+  },
+  "hash": "517bd4a18479c2dd67446983e6a328d827ab1f9dbb112118a09e0c349f2767d8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the DSM-IV-TR ADHD age-of-onset rule and that DSM-IV-TR preceded DSM-5, but it does not support identifying DSM-IV-TR as the “fourth edition, text revision” of the manual.",
+        "“A manual used to define mental disorder diagnoses” is broader than what the packet explicitly states and is not directly supported by the provided source text."
+      ],
+      "definition_hash": "c063ac62caf6fe7d8591d5d01559f019065c84120e3eda8428cf3937c03e399d",
+      "packet_hash": "cb692f2fd081632730f4a965cdf4efc7f8ea2a4417b0fd69b97107cfb34fd1ee",
+      "published_packet_hash": "cb692f2fd081632730f4a965cdf4efc7f8ea2a4417b0fd69b97107cfb34fd1ee",
+      "receipt_id": "07815f37c5f94a78af112a210120be52",
+      "request_hash": "4969c78bc9e3bf8af25e5956da56a889940e528b049c6bb5fa35a93e22f13f19",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not state that DSM–IV–TR is the “fourth edition” or specifically a “text revision.”",
+        "The packet does support the ADHD age-of-onset change description (from before age 7 with impairment to before age 12 without that impairment-specific wording), but it does not provide support for the “fourth edition, text revision” characterization."
+      ],
+      "definition_hash": "c063ac62caf6fe7d8591d5d01559f019065c84120e3eda8428cf3937c03e399d",
+      "packet_hash": "cb692f2fd081632730f4a965cdf4efc7f8ea2a4417b0fd69b97107cfb34fd1ee",
+      "published_packet_hash": "cb692f2fd081632730f4a965cdf4efc7f8ea2a4417b0fd69b97107cfb34fd1ee",
+      "receipt_id": "cdf8015d674f4b65963e5e4fdcd61078",
+      "request_hash": "b53b08c74f78d2c5886330b75c6aea56c8db998f2a5d34426ba26f132a06ae7d",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

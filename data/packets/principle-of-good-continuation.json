@@ -1,0 +1,26 @@
+{
+  "id": "principle-of-good-continuation",
+  "term": "principle of good continuation",
+  "source": "article-pmc7864399",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pcbi.1008629",
+  "revision": "2021; DOI 10.1371/journal.pcbi.1008629; article XML SHA-256 3aa33c47d9ccdc7deee5b6024329f75690720f74ec46cc56bf0c6b7699062ed6",
+  "source_snapshot_sha256": "3aa33c47d9ccdc7deee5b6024329f75690720f74ec46cc56bf0c6b7699062ed6",
+  "url": "https://doi.org/10.1371/journal.pcbi.1008629",
+  "text": "Both neurophysiological and psychophysical experiments have pointed out the crucial role of recurrent and feedback connections to process context-dependent information in the early visual cortex. While numerous models have accounted for feedback effects at either neural or representational level, none of them were able to bind those two levels of analysis. Is it possible to describe feedback effects at both levels using the same model? We answer this question by combining Predictive Coding (PC) and Sparse Coding (SC) into a hierarchical and convolutional framework applied to realistic problems. In the Sparse Deep Predictive Coding (SDPC) model, the SC component models the internal recurrent processing within each layer, and the PC component describes the interactions between layers using feedforward and feedback connections. Here, we train a 2-layered SDPC on two different databases of images, and we interpret it as a model of the early visual system (V1 & V2). We first demonstrate that once the training has converged, SDPC exhibits oriented and localized receptive fields in V1 and more complex features in V2. Second, we analyze the effects of feedback on the neural organization beyond the classical receptive field of V1 neurons using interaction maps. These maps are similar to association fields and reflect the Gestalt principle of good continuation. We demonstrate that feedback signals reorganize interaction maps and modulate neural activity to promote contour integration. Third, we demonstrate at the representational level that the SDPC feedback connections are able to overcome noise in input images. Therefore, the SDPC captures the association field principle at the neural level which results in a better reconstruction of blurred images at the representational level.",
+  "source_label": "Sparse deep predictive coding captures contour integration capabilities of the early visual system",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1801
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "613674dc9cc56554a831c42b98cf364ff26584c8633cc278835e1ebbe7414d7d"
+}

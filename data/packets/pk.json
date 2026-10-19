@@ -1,0 +1,26 @@
+{
+  "id": "pk",
+  "term": "PK",
+  "source": "article-pmc13390843",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354029",
+  "revision": "2026; DOI 10.1371/journal.pone.0354029; article XML SHA-256 3867f34b83d3c3f9d4590da1e17dc9d2dc4446d76571b4bb18a4d1734b2cf3bd",
+  "source_snapshot_sha256": "3867f34b83d3c3f9d4590da1e17dc9d2dc4446d76571b4bb18a4d1734b2cf3bd",
+  "url": "https://doi.org/10.1371/journal.pone.0354029",
+  "text": "Oral drug therapy requires achieving a delicate balance between therapeutic efficacy and patient safety, yet current dosing strategies often rely on empirical trial-and-error methods that overlook the complex nonlinear dynamic nature of drug behavior in the human body. Conventional pharmacokinetic/pharmacodynamic (PK–PD) approaches provide valuable insights but lack a systematic method for designing dose sequences and formulations that achieve an optimal therapeutic response. This work introduces a structured optimization framework that combines PK–PD modeling, impulsive dosing concepts, and nonlinear optimization to determine optimal repeated oral dosing regimens. We model each orally administered dose as an impulsive input in a linear compartmental PK system and couple the resulting drug concentration profile with a nonlinear Hill-type PD model. To enable efficient optimization, we derive sensitivity functions describing how the therapeutic effect depends on dose size and adjustable drug-formulation parameters, allowing to construct the Jacobian required by the Gauss–Newton nonlinear least-squares algorithm. The proposed method jointly optimizes dose magnitude and formulation-dependent liberation (release) rate to match a clinically meaningful therapeutic effect trajectory. Using a four-compartment pharmacokinetic model, we demonstrate in silico that the method achieves rapid onset, stable long-term therapeutic effect, and reduced fluctuations of the therapeutic effect across repeated dosing cycles.",
+  "source_label": "Optimal design of dose and drug pharmacokinetic characteristics to achieve the desired pharmacodynamic profile in repeated drug dosing",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1526
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda"
+}

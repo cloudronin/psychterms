@@ -1,0 +1,60 @@
+{
+  "id": "oculomotor-changes",
+  "term": "oculomotor changes",
+  "definition": "Oculomotor changes are changes in eye-movement behavior during tracking, such as shifts in smooth pursuit, saccade timing, or tracking accuracy. In this source, these changes varied with the target’s motion, the visual context, and whether people were only watching the target or also trying to intercept it by hand.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13232861"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13232861",
+      "revision": "2026; DOI 10.1371/journal.pone.0328432; article XML SHA-256 2928159df07eadb32056905b5ea3f8ce085198a1746e0bb8edf0d36c6d36da5e",
+      "scope": "Source record 10.1371/journal.pone.0328432; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0328432"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "989fe5d16c741d5fe683f119df4fda8666895e44b27d026dbbee452b94af1c8c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "de581c03f96049419a8e6fccdee026e5",
+    "request_hash": "7f36834ad8c998b9871db86883fc2d625ec015eb25c6dd5edfe5e0cef2fa7216",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "b7a48732b610fec26482efb2868482dc844e15a88fb509ca67df97abfc0f11d3",
+    "packet_hash": "989fe5d16c741d5fe683f119df4fda8666895e44b27d026dbbee452b94af1c8c"
+  },
+  "hash": "cc00098611e2429b922c62bb4027b6421430d7e4b01f3271a19aaf169c05abfd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b7a48732b610fec26482efb2868482dc844e15a88fb509ca67df97abfc0f11d3",
+      "packet_hash": "989fe5d16c741d5fe683f119df4fda8666895e44b27d026dbbee452b94af1c8c",
+      "published_packet_hash": "989fe5d16c741d5fe683f119df4fda8666895e44b27d026dbbee452b94af1c8c",
+      "receipt_id": "2c71ae4877474de1a0d83c764ffa734a",
+      "request_hash": "d62ba56bf531d80c822c6a204ef6792ad72ece5fd91214b418793faf74399063",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that the changes include “tracking accuracy,” but the packet describes oculomotor indexes such as smooth pursuit and saccadic τ, post-saccadic error, and smooth pursuit gain, without explicitly stating or defining “tracking accuracy.”",
+        "The definition’s reference to “saccade timing” is not stated in those terms; the packet mentions “saccadic τ” as a time-dependent index, which may relate to timing, but the definition asserts timing more generally than the packet supports."
+      ],
+      "definition_hash": "b7a48732b610fec26482efb2868482dc844e15a88fb509ca67df97abfc0f11d3",
+      "packet_hash": "989fe5d16c741d5fe683f119df4fda8666895e44b27d026dbbee452b94af1c8c",
+      "published_packet_hash": "989fe5d16c741d5fe683f119df4fda8666895e44b27d026dbbee452b94af1c8c",
+      "receipt_id": "881b2a90654d459c919386dc331e386c",
+      "request_hash": "5594d721d6b22d27c5d823545aa892d207696572da0c0a1579a96c09112c7852",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

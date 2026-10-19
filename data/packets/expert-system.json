@@ -1,0 +1,26 @@
+{
+  "id": "expert-system",
+  "term": "expert system",
+  "source": "article-pmc12094749",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0323478",
+  "revision": "2025; DOI 10.1371/journal.pone.0323478; article XML SHA-256 f3955dd4b4976442444fc38c427adfd804ddcec2ceb32179ccde5bc208821188",
+  "source_snapshot_sha256": "f3955dd4b4976442444fc38c427adfd804ddcec2ceb32179ccde5bc208821188",
+  "url": "https://doi.org/10.1371/journal.pone.0323478",
+  "text": "In recent decades, automatic train operation (ATO) systems have been gradually adopted by many metro systems, primarily due to their cost-effectiveness and practicality. However, a critical examination reveals computational constraints, adaptability to unforeseen conditions and multi-objective balancing that our research aims to address. In this paper, expert knowledge is combined with deep reinforcement learning algorithm (Proximal Policy Optimization, PPO) and two enhanced intelligent train operation algorithms (EITO) are proposed. The first algorithm, EITO E , is based on an expert system containing expert rules and a heuristic expert inference method. On the basis of EITO E , we propose EITO P algorithm using the PPO algorithm to optimize multiple objectives by designing reinforcement learning strategies, rewards, and value functions. We also develop the double minimal-time distribution (DMTD) calculation method in the EITO implementation to achieve longer coasting distances and further optimize the energy consumption. Compared with previous works, EITO enables the control of continuous train operation without reference to offline speed profiles and optimizes several key performance indicators online. Finally, we conducted comparative tests of the manual driving, intelligent driving algorithm (ITOR, STON), and the algorithms proposed in this paper, EITO, using real line data from the Yizhuang Line of Beijing Metro (YLBS). The test results show that the EITO outperform the current intelligent driving algorithms and manual driving in terms of energy consumption and passengers’ comfort. In addition, we further validated the robustness of EITO by selecting some complex lines with speed limits, gradients and different running times for testing on the YLBS. Overall, the EITO P algorithm has the best performance.",
+  "source_label": "Enhanced intelligent train operation algorithms for metro train based on expert system and deep reinforcement learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1841
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31"
+}

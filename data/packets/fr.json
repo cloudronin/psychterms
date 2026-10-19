@@ -1,0 +1,26 @@
+{
+  "id": "fr",
+  "term": "FR",
+  "source": "article-pmc12591452",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0333499",
+  "revision": "2025; DOI 10.1371/journal.pone.0333499; article XML SHA-256 ba837be1fedb2a85590dff7314485a1e69f5e5ca299e3f056d8ce8ff1fba3ce9",
+  "source_snapshot_sha256": "ba837be1fedb2a85590dff7314485a1e69f5e5ca299e3f056d8ce8ff1fba3ce9",
+  "url": "https://doi.org/10.1371/journal.pone.0333499",
+  "text": "Ultra-high-field 7T MRI provides substantial benefits for neuroimaging, including improved resolution and contrast, but remains limited by high costs and restricted accessibility. In this study, we propose a semi-supervised 3D multi-scale fusion residual U-Net (semi supervised 3D FR-U-Net) to synthesize 7T MRI volumes from 3T input using a patch-based architecture optimized for low-data settings. In addition to evaluating conventional synthesis metrics such as PSNR, SSIM, and NMSE, we introduce a novel segmentation-based assessment using the VolBrain pipeline to quantify anatomical fidelity. Our model outperforms prior methods—even without preprocessing steps like skull stripping—and achieves high fidelity in global brain morphology and basal ganglia structures. However, significant asymmetry errors in hippocampal segmentation highlight limitations in preserving fine, clinically critical anatomy. To address the disconnect between technical performance and clinical applicability, we emphasize the use of interpretable, segmentation-derived metrics to bridge the gap between research advances in synthetic MRI and real-world diagnostic relevance. These findings underscore the importance of region-specific evaluation and demonstrate how structural metrics can guide the real-world applicability of synthetic MRI, particularly when expert radiological review is not feasible.",
+  "source_label": "Semi-supervised synthesis of 7T MRI from 3T using 3D FR-U-Net with anatomical segmentation consistency assessment",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1388
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "e825128862b319d43f4ca1ec4918b99ce11e2a50d35526da51f6fbec57495e74"
+}

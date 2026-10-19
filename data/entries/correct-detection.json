@@ -1,0 +1,63 @@
+{
+  "id": "correct-detection",
+  "term": "correct detection",
+  "definition": "Correct detection means accurately finding and identifying the intended target when testing, rather than mistaking it for a closely related source or producing a false positive. In the packet, it refers to molecular testing that correctly recognizes virulent Bacillus anthracis by confirming the needed markers and distinguishing it from similar bacteria.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4063717"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4063717",
+      "revision": "2014; DOI 10.1371/journal.pone.0098871; article XML SHA-256 e53dc38504ff9e73dcca801ce832dbe86227ec17eaaacaaa68aa14ca302242d3",
+      "scope": "Source record 10.1371/journal.pone.0098871; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0098871"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "365e30bc9c4ad4dfe98bb303c037fa5fec557c368fdff4b91e14bf6728f9ea31",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f5a4df6b5f2f4c3496444c187ab6529b",
+    "request_hash": "61e9b0fc756fbf1f9ba566a3c8ad0ed02c0a4862c58f07070d62a619371a5f9e",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "b1a50c5a522b820f3e8193944cdc00357a898a355729e9f444e0d7cf6ede5c81",
+    "packet_hash": "365e30bc9c4ad4dfe98bb303c037fa5fec557c368fdff4b91e14bf6728f9ea31"
+  },
+  "hash": "e247d9a3bb7d435d8b6e8cf847d24c9e5a7e7063726bf628c8cc41e5cc8bc6fe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence provides a general definition of “correct detection” (accurately finding/identifying an intended target; avoiding mistaking it for a closely related source; preventing false positives) that is not explicitly stated as a definition in the provided packet, which only describes problems/challenges with “correct detection and identification” in molecular methods."
+      ],
+      "definition_hash": "b1a50c5a522b820f3e8193944cdc00357a898a355729e9f444e0d7cf6ede5c81",
+      "packet_hash": "365e30bc9c4ad4dfe98bb303c037fa5fec557c368fdff4b91e14bf6728f9ea31",
+      "published_packet_hash": "365e30bc9c4ad4dfe98bb303c037fa5fec557c368fdff4b91e14bf6728f9ea31",
+      "receipt_id": "a3fa11e43f37498c9eaad1c1e64d16aa",
+      "request_hash": "007daaaaf881e67c9b80afa7e1a1faafdade0937d1cfdff4e5a4499b86a7771c",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the phrase in a specific microbiology article context, but it does not define a general assessment term meaning “accurately finding and identifying the intended target when testing.”",
+        "The added specificity about molecular testing recognizing virulent Bacillus anthracis is contextual and not supported as the term’s dictionary sense.",
+        "The definition narrows the term to Bacillus anthracis detection, which is not justified by the source packet."
+      ],
+      "definition_hash": "b1a50c5a522b820f3e8193944cdc00357a898a355729e9f444e0d7cf6ede5c81",
+      "packet_hash": "365e30bc9c4ad4dfe98bb303c037fa5fec557c368fdff4b91e14bf6728f9ea31",
+      "published_packet_hash": "365e30bc9c4ad4dfe98bb303c037fa5fec557c368fdff4b91e14bf6728f9ea31",
+      "receipt_id": "eb2c179e030f4f469036ba7aced30692",
+      "request_hash": "717279e5b04a93ad9b0ae2c855c14955b5704475768c57961e544066a2855115",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "delayed-alternation-task",
+  "term": "delayed alternation task",
+  "definition": "A delayed alternation task is a prefrontal cortex–dependent test in which rats perform alternating responses after a delay. It is used to examine cognitive function linked to the prefrontal cortex and its sensitivity to catecholamine levels.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc1143775"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc1143775",
+      "revision": "2005; DOI 10.1186/1744-9081-1-2; article XML SHA-256 07774a7ef67127d3713a0d830513ce8ff0ed5748c4571e5edf9126db0634e206",
+      "scope": "Source record 10.1186/1744-9081-1-2; pinned source text",
+      "locator": "https://doi.org/10.1186/1744-9081-1-2"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6932dea977c7838f1ef6228d9572605151f37453e172cda53e120e9c71c3dacc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7ba97f61ee5148b5ab43041009a7da63",
+    "request_hash": "472b728435df53f055b1f71c7f08889590620cd1420a49e4266a1f9cfab94f51",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "62bdb174ff5910282a087b9a48202fa4ea92f5234585ade9e6a295437835fdfd",
+    "packet_hash": "6932dea977c7838f1ef6228d9572605151f37453e172cda53e120e9c71c3dacc"
+  },
+  "hash": "96a3a6bb0b7a692ea72864c7aa9fc71a2250a2b95d3fb51b31a2292861231f3b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible: a delayed alternation task is a behavioral/neuropsychological test, not a diagnosis term.",
+        "The definition adds an unsupported generalization by saying the task is used to examine sensitivity to catecholamine levels; the packet only says the prefrontal cortex is highly sensitive to catecholamine levels, not that this is an established property of the task itself."
+      ],
+      "definition_hash": "62bdb174ff5910282a087b9a48202fa4ea92f5234585ade9e6a295437835fdfd",
+      "packet_hash": "6932dea977c7838f1ef6228d9572605151f37453e172cda53e120e9c71c3dacc",
+      "published_packet_hash": "6932dea977c7838f1ef6228d9572605151f37453e172cda53e120e9c71c3dacc",
+      "receipt_id": "4570c6b56a164587b47d67665d7ae78e",
+      "request_hash": "3acff835da2a4d06821ca16769ddd61dbe2718c5572e232d2239f79dd28659c2",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the specific procedure description “alternating responses after a delay”; it only states that rats perform a “delayed alternation task,” without describing the timing/alternation mechanics.",
+        "The definition’s “used to examine cognitive function linked to the prefrontal cortex” is only indirectly supported; the packet states the task is dependent on prefrontal cortex but does not describe it as being used to examine cognitive function in that way.",
+        "The packet says PFC is “highly sensitive to levels of catecholamines,” but it does not explicitly support the claim that the task is “sensitive” to catecholamine levels (only the PFC is).",
+        "The requested field is “diagnosis,” but the packet is about methylphenidate mechanisms and ADHD relevance; it does not present the term as diagnostic in the sense of diagnosis/diagnostic criteria."
+      ],
+      "definition_hash": "62bdb174ff5910282a087b9a48202fa4ea92f5234585ade9e6a295437835fdfd",
+      "packet_hash": "6932dea977c7838f1ef6228d9572605151f37453e172cda53e120e9c71c3dacc",
+      "published_packet_hash": "6932dea977c7838f1ef6228d9572605151f37453e172cda53e120e9c71c3dacc",
+      "receipt_id": "830d6b8f75bf4d419c3c726883800d8d",
+      "request_hash": "cb4b0ba30752640e7d96a13a371d65704bef521e278ce07dca9d9cd5ad36c2e4",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

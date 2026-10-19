@@ -1,0 +1,64 @@
+{
+  "id": "behavioral-deficit",
+  "term": "behavioral deficit",
+  "definition": "A behavioral deficit is an impairment or disturbance in normal behavior, seen as problematic outcomes such as anxiety-, depression-, or schizophrenia-like changes. In the source packet, it refers to adverse postnatal behavioral effects observed in mice after prenatal exposure.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4746928"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4746928",
+      "revision": "2016; DOI 10.1186/s12868-016-0245-z; article XML SHA-256 ca224e20103d3aef7e9e358287af07e35e18dbd9f917aa7857dafc4af9a5ce83",
+      "scope": "Source record 10.1186/s12868-016-0245-z; pinned source text",
+      "locator": "https://doi.org/10.1186/s12868-016-0245-z"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "044e705f999dfa5d089ef3bfb152db6d4f04017cc2275b8d70787fe02fd4f12a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b5a2a825b57f43e4a292190098c91155",
+    "request_hash": "2e690405ff52755ca3a709741379340dfea4ed7b5489c4381a8f271b797eff36",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "2e59210fe02b25b17fdac80eaf6195cd26c063949d72a613cbed14641eda38d3",
+    "packet_hash": "044e705f999dfa5d089ef3bfb152db6d4f04017cc2275b8d70787fe02fd4f12a"
+  },
+  "hash": "2eddd77c4fd37d612c93b64a7bfea3936061df73633778398eb1b18fb5560d88",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening clause defines the term too broadly as a general impairment or disturbance in normal behavior; the packet only supports a specific research-context use describing adverse postnatal behavioral effects in mice after prenatal LPS exposure.",
+        "The wording ‘anxiety-, depression-, or schizophrenia-like changes’ is only supported as examples in the cited study context, not as a general dictionary sense of the term."
+      ],
+      "definition_hash": "2e59210fe02b25b17fdac80eaf6195cd26c063949d72a613cbed14641eda38d3",
+      "packet_hash": "044e705f999dfa5d089ef3bfb152db6d4f04017cc2275b8d70787fe02fd4f12a",
+      "published_packet_hash": "044e705f999dfa5d089ef3bfb152db6d4f04017cc2275b8d70787fe02fd4f12a",
+      "receipt_id": "497b97bcba0f4903bc5e7099aec9e126",
+      "request_hash": "4db93b606d987e279e2b3c108c5ff9396ef6a626b5606c14aede71095c0f658a",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general characterization (“an impairment or disturbance in normal behavior”) is not explicitly supported by the packet text, which only describes “behavioral deficits” observed after prenatal LPS exposure.",
+        "The definition’s “learning” field connection is not supported: the packet discusses behavioral outcomes (depression/anxiety/schizophrenia-like changes) in mice, but does not describe learning-specific constructs or learning tasks.",
+        "While the packet supports that the deficits include depression, anxiety, and schizophrenia-like outcomes and that they are studied as postnatal behavioral deficits in adult offspring after prenatal exposure, the broader first-sentence wording goes beyond what the packet states."
+      ],
+      "definition_hash": "2e59210fe02b25b17fdac80eaf6195cd26c063949d72a613cbed14641eda38d3",
+      "packet_hash": "044e705f999dfa5d089ef3bfb152db6d4f04017cc2275b8d70787fe02fd4f12a",
+      "published_packet_hash": "044e705f999dfa5d089ef3bfb152db6d4f04017cc2275b8d70787fe02fd4f12a",
+      "receipt_id": "a238e6ee0f04421d9c3f179f910d4490",
+      "request_hash": "a4bc7343326dedbedd555951371466dbc68290f0155fe0eab2dab8958b341504",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

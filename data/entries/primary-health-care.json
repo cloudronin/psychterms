@@ -1,0 +1,65 @@
+{
+  "id": "primary-health-care",
+  "term": "primary health care",
+  "definition": "Primary health care is the basic front line of a health system and is described here as a central part of health care worldwide. In this context, it includes not only clinical care but also the organizational and system-level functions that support how care is delivered.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13614544"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13614544",
+      "revision": "2026; DOI 10.1371/journal.pone.0329426; article XML SHA-256 28fef3db57a1ab4828ea2530562c7cef969fdbfe4d346740912a10abbf110f72",
+      "scope": "Source record 10.1371/journal.pone.0329426; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0329426"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "30ffda2a0300d387f6417d37f2f8e5a64564385e64bfea6daccfc957b77ef9ba",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4e599894dbc648438eae3e041d6f594d",
+    "request_hash": "a366fbef000e6a359bc389b26b9560933c5e41081533a45dca52da41b181c7c7",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "e012398e86a2a032ce9163c2d8b62302cbe4eec0d10ff3d944af6e4cbe58d064",
+    "packet_hash": "30ffda2a0300d387f6417d37f2f8e5a64564385e64bfea6daccfc957b77ef9ba"
+  },
+  "hash": "709def81209a6fd378b0eef2e74d219b5dbc30de720255f8948a7b48136bd1bf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the specific characterization “basic front line of a health system.”",
+        "While the packet states that primary health care (PHC) is “the cornerstone of health systems worldwide,” it does not explicitly describe PHC as “a central part of health care worldwide” in the way the definition phrases it.",
+        "The packet mentions organizational and system-level functions targeted in PHC (for AI/ML purposes), but it does not support the definition’s combined claim that PHC “includes not only clinical care but also the organizational and system-level functions” as a general defining description."
+      ],
+      "definition_hash": "e012398e86a2a032ce9163c2d8b62302cbe4eec0d10ff3d944af6e4cbe58d064",
+      "packet_hash": "30ffda2a0300d387f6417d37f2f8e5a64564385e64bfea6daccfc957b77ef9ba",
+      "published_packet_hash": "30ffda2a0300d387f6417d37f2f8e5a64564385e64bfea6daccfc957b77ef9ba",
+      "receipt_id": "75c3e769ee5e4c41bf6ee199ad4a2286",
+      "request_hash": "288df58d666bbeaa7295ab07785eaf1af0c91ef235d513c68d5ca80d28f36473",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Basic front line” is not supported by the packet’s wording.",
+        "The packet supports PHC as a “cornerstone of health systems worldwide,” but not the broader claim that it is a central part of health care worldwide in that exact sense.",
+        "The statement that primary health care itself includes clinical care as well as organizational and system-level functions overstates the source; the packet says the review targets non-clinical, organizational, and system-level functions in PHC, not that these are definitional components of PHC."
+      ],
+      "definition_hash": "e012398e86a2a032ce9163c2d8b62302cbe4eec0d10ff3d944af6e4cbe58d064",
+      "packet_hash": "30ffda2a0300d387f6417d37f2f8e5a64564385e64bfea6daccfc957b77ef9ba",
+      "published_packet_hash": "30ffda2a0300d387f6417d37f2f8e5a64564385e64bfea6daccfc957b77ef9ba",
+      "receipt_id": "1d5281ccec434c8e91877dd736b7d0e1",
+      "request_hash": "b0410382a0362a4f548b116a8c0154f28a002cb7f78bfb4f39c9a04883274992",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

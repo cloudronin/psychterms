@@ -1,0 +1,64 @@
+{
+  "id": "communal-nursing",
+  "term": "communal nursing",
+  "definition": "Communal nursing refers to a caregiving pattern observed in mice in which nursing of young occurs in a shared social setting. In the source, it is described as part of normal mother-young behavior seen in both wild and laboratory environments.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6961874"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6961874",
+      "revision": "2020; DOI 10.1371/journal.pone.0227034; article XML SHA-256 fa3e53f7b295eabd4a41f79033ada8bc5075d6e0e8e5ea5bff3b9b087843def7",
+      "scope": "Source record 10.1371/journal.pone.0227034; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0227034"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "382c9709c7cf0ebc37e020d98f5df98c8d3f46e419b71052719330a7d56aab9d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a75eb74ab59e49f7930cfc6d5186a45f",
+    "request_hash": "82335713131890b3654dcc24f04c5b1f0f7ea89e19721aa28d1eb271f63fc136",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "38331db8854ab517be154c54c2bc19381d435578b332b5a42b65a1bbf2fbba26",
+    "packet_hash": "382c9709c7cf0ebc37e020d98f5df98c8d3f46e419b71052719330a7d56aab9d"
+  },
+  "hash": "5532b89dc2bcff5593e89987adccc6ae3886a3fc6812f5dad3a7031571dd5d74",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes an ethological observation in mice (communal nursing) rather than a psychological/clinical diagnosis.",
+        "Unsupported characterization: the definition claims this is “normal mother-young behavior”; the packet only states that mice “display … communal nursing in wild and laboratory environments” and does not explicitly frame it as “normal” or “mother-young behavior.”",
+        "Only partially supported wording: “shared social setting” is implied by “communal nursing,” but the packet does not explicitly describe a “shared social setting” in those terms."
+      ],
+      "definition_hash": "38331db8854ab517be154c54c2bc19381d435578b332b5a42b65a1bbf2fbba26",
+      "packet_hash": "382c9709c7cf0ebc37e020d98f5df98c8d3f46e419b71052719330a7d56aab9d",
+      "published_packet_hash": "382c9709c7cf0ebc37e020d98f5df98c8d3f46e419b71052719330a7d56aab9d",
+      "receipt_id": "c2b7fd5903864f6290d7f018d7ab9dcb",
+      "request_hash": "c05fef1710aa7789f4ef5f3e3c01c73026c5237212587549c515290e33fa5679",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that mice display communal nursing in wild and laboratory environments, but it does not support the added claim that this is described as a normal mother-young behavior.",
+        "The definition is framed as a diagnostic/clinical concept, but the source term is a rodent behavioral observation, so the field sense is not defensible here."
+      ],
+      "definition_hash": "38331db8854ab517be154c54c2bc19381d435578b332b5a42b65a1bbf2fbba26",
+      "packet_hash": "382c9709c7cf0ebc37e020d98f5df98c8d3f46e419b71052719330a7d56aab9d",
+      "published_packet_hash": "382c9709c7cf0ebc37e020d98f5df98c8d3f46e419b71052719330a7d56aab9d",
+      "receipt_id": "3eb71e1764ab4240addc64157def28bf",
+      "request_hash": "c0e95ecb77ad3ee157fc0a5ef2eba99754229e79f8854ba909d6684aec754397",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "discovery-method",
+  "term": "discovery method",
+  "definition": "In this context, a discovery method is a way of finding possible treatments or preventives for a disease. The packet describes drug repurposing as one such method, using medicines already in use for other conditions to identify new potential uses.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12091834"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12091834",
+      "revision": "2025; DOI 10.1371/journal.pone.0323761; article XML SHA-256 4b2485c1bcd2df4d568ef1de1003711dbf34802cdb36f97106bd9f14a2626003",
+      "scope": "Source record 10.1371/journal.pone.0323761; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0323761"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "72474590f7048e0f6edd9cd9a80bd6d0a6c55d1ff08d7b4a53ed4fdb860de350",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c9d09aeff4944e49bd4fbabae540e9fb",
+    "request_hash": "cb4ec3e951df43a663c1d13fa982aa2dcbde7a0def29e5b2211231fa867e1c25",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "09950d65bb58d71767eede027d6ca95e728d1ab3be40990720b26e497508152c",
+    "packet_hash": "72474590f7048e0f6edd9cd9a80bd6d0a6c55d1ff08d7b4a53ed4fdb860de350"
+  },
+  "hash": "fdb2a221c6b9591799b8f8522a51079ccc50f31ac906a1ec340d725ed600cfab",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition is about finding treatments/preventives (drug discovery), but the specified field is “diagnosis,” and the packet does not present it as related to diagnosis."
+      ],
+      "definition_hash": "09950d65bb58d71767eede027d6ca95e728d1ab3be40990720b26e497508152c",
+      "packet_hash": "72474590f7048e0f6edd9cd9a80bd6d0a6c55d1ff08d7b4a53ed4fdb860de350",
+      "published_packet_hash": "72474590f7048e0f6edd9cd9a80bd6d0a6c55d1ff08d7b4a53ed4fdb860de350",
+      "receipt_id": "f307ec4fb25a42579a00ae72e88d3dcc",
+      "request_hash": "90e65b666a2d2a7e824a7cfdd442f17ff7b709e99b31c9ebf11130da6e0c454c",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "09950d65bb58d71767eede027d6ca95e728d1ab3be40990720b26e497508152c",
+      "packet_hash": "72474590f7048e0f6edd9cd9a80bd6d0a6c55d1ff08d7b4a53ed4fdb860de350",
+      "published_packet_hash": "72474590f7048e0f6edd9cd9a80bd6d0a6c55d1ff08d7b4a53ed4fdb860de350",
+      "receipt_id": "372f4438debc477f91c963166514a132",
+      "request_hash": "a3037eb7459a792238c161e40de64c74c75a139af511b55a45f010989a49c517",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

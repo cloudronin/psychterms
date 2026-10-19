@@ -1,0 +1,60 @@
+{
+  "id": "nonrandomized-clinical-trial",
+  "term": "nonrandomized clinical trial",
+  "definition": "A nonrandomized clinical trial is a clinical study that tests an intervention or compares groups without assigning participants by chance. In this context, it was used to examine exercise-related effects on brain function measures in older adults.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9269742"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9269742",
+      "revision": "2022; DOI 10.1371/journal.pone.0265860; article XML SHA-256 a69b20974281beab7aab5da574ae3f7d272a1b2a775b255c4638d93185782c0d",
+      "scope": "Source record 10.1371/journal.pone.0265860; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0265860"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0d8efb7d6e5ebda53312c798281ef094a30144bfbba1a06a047cc53ed38f76c2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "44dc9f6de6ae4e7283bc02145e2f801a",
+    "request_hash": "95a7721c6641f4891971ed1119dfe28864cd2bf478263f1390fcda67be4a7e4a",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "1d55c34dc9c479d11ab7ae00bcb01f4d0842c405c0b2c2f07aba9b2f3dcc0ebf",
+    "packet_hash": "0d8efb7d6e5ebda53312c798281ef094a30144bfbba1a06a047cc53ed38f76c2"
+  },
+  "hash": "4343affeb0f061f36e642f11eefefc7e56e4444bc04cf9bd217d6ebc195ef2d7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general characterization (“without assigning participants by chance”) is not explicitly supported anywhere in the provided packet text.",
+        "The packet only states that the study was “a nonrandomized clinical trial” and describes its goal (acute aerobic exercise effects on brain blood flow/neurotrophic factors) in older adults; it does not provide the specific wording or operational details needed to substantiate the first sentence’s general mechanism of nonrandomization."
+      ],
+      "definition_hash": "1d55c34dc9c479d11ab7ae00bcb01f4d0842c405c0b2c2f07aba9b2f3dcc0ebf",
+      "packet_hash": "0d8efb7d6e5ebda53312c798281ef094a30144bfbba1a06a047cc53ed38f76c2",
+      "published_packet_hash": "0d8efb7d6e5ebda53312c798281ef094a30144bfbba1a06a047cc53ed38f76c2",
+      "receipt_id": "d346f420108a400f8845dd34b134da9b",
+      "request_hash": "bb3d23ba96f6de6143f041f3458d0c3f75422f488ebd127ecd022cb0e03ab2aa",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1d55c34dc9c479d11ab7ae00bcb01f4d0842c405c0b2c2f07aba9b2f3dcc0ebf",
+      "packet_hash": "0d8efb7d6e5ebda53312c798281ef094a30144bfbba1a06a047cc53ed38f76c2",
+      "published_packet_hash": "0d8efb7d6e5ebda53312c798281ef094a30144bfbba1a06a047cc53ed38f76c2",
+      "receipt_id": "2f5630fbccff46f695504942bde9752e",
+      "request_hash": "03095686c74fc720f2870a4cad038a12dd2c7483c76e9f64843d5de18b3072b2",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

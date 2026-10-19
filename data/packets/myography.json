@@ -1,0 +1,26 @@
+{
+  "id": "myography",
+  "term": "myography",
+  "source": "article-pmc11984976",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0321319",
+  "revision": "2025; DOI 10.1371/journal.pone.0321319; article XML SHA-256 fab20084c463a2ae66a2062e83450088938dd634ae7f51954ba275ea0dff0b0d",
+  "source_snapshot_sha256": "fab20084c463a2ae66a2062e83450088938dd634ae7f51954ba275ea0dff0b0d",
+  "url": "https://doi.org/10.1371/journal.pone.0321319",
+  "text": "Hand gesture classification is crucial for the control of many modern technologies, ranging from virtual and augmented reality systems to assistive mechatronic devices. A prominent control technique employs surface electromyography (EMG) and pattern recognition algorithms to identify specific patterns in muscle electrical activity and translate these to device commands. While being well established in consumer, clinical, and research applications, this technique suffers from misclassification errors caused by limb movements and the weight of manipulated objects, both vital aspects of how we use our hands in daily life. An emerging alternative control technique is force myography (FMG) which uses pattern recognition algorithms to predict hand gestures from the axial forces present at the skin’s surface created by contractions of the underlying muscles. As EMG and FMG capture different physiological signals associated with muscle contraction, we hypothesized that each may offer unique additional information for gesture classification, potentially improving classification accuracy in the presence of limb position and object loading effects. Thus, we tested the effect of limb position and grasped load on 3 different sensing modalities: EMG, FMG, and the fused combination of the two. 27 able-bodied participants performed a grasp and release task with 4 hand gestures at 8 positions and under 5 object weight conditions. We then examined the effects of limb position and grasped load on gesture classification accuracy across each sensing modality. It was found that position and grasped load had statistically significant effects on the classification performance of the 3 sensing modalities and that the combination of EMG and FMG provided the highest classification accuracy of hand gesture, limb position, and grasped load combinations (97.34%) followed by FMG (92.27%) and then EMG (82.84%). This points to the fact that the addition of FMG to traditional EMG control systems offers unique additional data for more effective device control and can help accommodate different limb positions and grasped object loads.",
+  "source_label": "The effects of limb position and grasped load on hand gesture classification using electromyography, force myography, and their combination",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2136
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "498e6f20d8970203e7dd3e55af8f7b830112ef3cfcd347a43187f3bb35c14f33"
+}

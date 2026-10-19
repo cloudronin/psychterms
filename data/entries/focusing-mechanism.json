@@ -1,0 +1,65 @@
+{
+  "id": "focusing-mechanism",
+  "term": "focusing mechanism",
+  "definition": "A focusing mechanism is a process that assigns attention to information at different scales so a system is more sensitive to changes in location, orientation, and related features. In cognitive terms, it refers to selective focusing that helps handle complex input more accurately.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11849987"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11849987",
+      "revision": "2025; DOI 10.1371/journal.pone.0317852; article XML SHA-256 65c675e74ef9d7f787cb437b9a3170ea0d690bdd669ca29117c5c4d801966158",
+      "scope": "Source record 10.1371/journal.pone.0317852; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0317852"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8493797414391d8acf78ffccfde276f70847db61e26dbd2412d4344adbc09a38",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ed99f7328f834d3c966b824afa0e716c",
+    "request_hash": "bb2fc18b6234265dfe2d8892390a06ad7758494a4fa1185c22a6613594fe8dd2",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "2ee1c0e972bd7af1a3d644801f86e8a412a939d9662a1882f1e236702705d3df",
+    "packet_hash": "8493797414391d8acf78ffccfde276f70847db61e26dbd2412d4344adbc09a38"
+  },
+  "hash": "ebd2a3f4b9f9c73306228b18896ce468ce75e10edbe4a513c393eeba77fd1bb0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses “focusing mechanism” in an object-detection / attention-model context, not as a psychology or cognition term.",
+        "The definition’s claims about “selective focusing” in cognitive terms and handling complex input are not stated in the packet and go beyond the source wording.",
+        "The packet supports allocating attention across scales to improve model responsiveness to channel, spatial orientation, and positional variations, but not the broader generalized definition given."
+      ],
+      "definition_hash": "2ee1c0e972bd7af1a3d644801f86e8a412a939d9662a1882f1e236702705d3df",
+      "packet_hash": "8493797414391d8acf78ffccfde276f70847db61e26dbd2412d4344adbc09a38",
+      "published_packet_hash": "8493797414391d8acf78ffccfde276f70847db61e26dbd2412d4344adbc09a38",
+      "receipt_id": "0d6f65dcdfe34ff7b1cfd0cb2fcac8fb",
+      "request_hash": "a281404efe0daf4bada7372c09263800cba953f7dbba715431294368580f999d",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes a machine-learning “dynamic focusing mechanism” within an object-detection model (using multi-scale attention and wise-IoU), not a clearly defined cognition/psychology process; the definition’s “In cognitive terms” framing is not supported by the packet.",
+        "The definition’s wording is more general (“assigns attention…so a system is more sensitive…”) than the packet, which specifically mentions allocating attention weights across scales to improve responsiveness in a model for object detection (channel, spatial orientation, positional information, and object detection precision).",
+        "While the packet supports multi-scale attention allocating attention weights and responsiveness to spatial orientation/positional information, it does not support the additional interpretation that this constitutes a “selective focusing” cognitive function for handling complex input more accurately as a general cognitive mechanism."
+      ],
+      "definition_hash": "2ee1c0e972bd7af1a3d644801f86e8a412a939d9662a1882f1e236702705d3df",
+      "packet_hash": "8493797414391d8acf78ffccfde276f70847db61e26dbd2412d4344adbc09a38",
+      "published_packet_hash": "8493797414391d8acf78ffccfde276f70847db61e26dbd2412d4344adbc09a38",
+      "receipt_id": "3aadbb4fa9ae40539476134de2c5530e",
+      "request_hash": "c1cfc5626e24fe0a12ec08faa6975c60598d372aa95acd5f58328590951bc5f4",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

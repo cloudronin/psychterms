@@ -11,6 +11,9 @@ class FocusedExcerptTests(unittest.TestCase):
  def test_long_paragraph_is_bounded_and_ranges_reproduce_it(self):
   source='Leading background.\n\n'+'background '*300+'Working memory is temporary storage. '+'context '*500
   text,start,end=focused_excerpt(source,'working memory');self.assertIn('Working memory',text);self.assertLessEqual(len(text),2400);self.assertEqual(source[start:end],text)
+ def test_embedded_substring_cannot_displace_the_requested_whole_word(self):
+  source='database '*400+'Data is information collected for analysis. '+'context '*300
+  text,start,end=focused_excerpt(source,'data');self.assertRegex(text,r'\bData\b');self.assertEqual(source[start:end],text)
  def test_absent_term_never_creates_a_packet(self):
   self.assertEqual(focused_excerpt('Unrelated material.','working memory'),(None,None,None))
 if __name__=='__main__':unittest.main()

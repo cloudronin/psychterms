@@ -1,0 +1,26 @@
+{
+  "id": "convolution",
+  "term": "convolution",
+  "source": "article-pmc13592603",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0358451",
+  "revision": "2026; DOI 10.1371/journal.pone.0358451; article XML SHA-256 70513103a9fb0b8077a6af3510c250a40729419e9476305a6703903ff14a1977",
+  "source_snapshot_sha256": "70513103a9fb0b8077a6af3510c250a40729419e9476305a6703903ff14a1977",
+  "url": "https://doi.org/10.1371/journal.pone.0358451",
+  "text": "Genome prediction is a breeding strategy that predicts crop phenotype through genomic markers. Traditional statistical models cannot accurately capture the complex relationships between genotypes and phenotypes, and deep neural networks have shown significant advantages in capturing nonlinear relationships. Deep learning methods in genome selection primarily utilize sequential convolutional kernels, which can lead to challenges such as gradient disappearance and computational inefficiency. In this study a novel crop genomic prediction method based on a parallel convolutional attention network (PCAGP) is proposed. The constructed deep learning framework uses the convolution kernel to process information through a parallel structure, combined with a coordinate attention mechanism that effectively integrates inter-channel relationships and spatial genomic information. PCAGP was compared with eight widely used genomic prediction methods on four benchmark datasets, including a traditional statistical method, three machine learning methods, and four popular deep learning methods. The experimental results demonstrate that PCAGP outperforms all baseline methods and significantly improves genomic prediction accuracy.",
+  "source_label": "A parallel convolution attention network for crop genomic prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1227
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "3527b739edd6ae4535a05e7b7ac437911c22b3122c754447ee31a6d64089a8b4"
+}

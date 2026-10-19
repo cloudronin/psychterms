@@ -1,0 +1,26 @@
+{
+  "id": "gsr",
+  "term": "GSR",
+  "source": "article-pmc11221693",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0305864",
+  "revision": "2024; DOI 10.1371/journal.pone.0305864; article XML SHA-256 615ffec37e7cc9d86bc483e99d2c298879ef4ebaf594eeb3feee47de5733d3d9",
+  "source_snapshot_sha256": "615ffec37e7cc9d86bc483e99d2c298879ef4ebaf594eeb3feee47de5733d3d9",
+  "url": "https://doi.org/10.1371/journal.pone.0305864",
+  "text": "This research aims to establish a practical stress detection framework by integrating physiological indicators and deep learning techniques. Utilizing a virtual reality (VR) interview paradigm mirroring real-world scenarios, our focus is on classifying stress states through accessible single-channel electroencephalogram (EEG) and galvanic skin response (GSR) data. Thirty participants underwent stress-inducing VR interviews, with biosignals recorded for deep learning models. Five convolutional neural network (CNN) architectures and one Vision Transformer model, including a multiple-column structure combining EEG and GSR features, showed heightened predictive capabilities and an enhanced area under the receiver operating characteristic curve (AUROC) in stress prediction compared to single-column models. Our experimental protocol effectively elicited stress responses, observed through fluctuations in stress visual analogue scale (VAS), EEG, and GSR metrics. In the single-column architecture, ResNet-152 excelled with a GSR AUROC of 0.944 (±0.027), while the Vision Transformer performed well in EEG, achieving peak AUROC values of 0.886 (±0.069) respectively. Notably, the multiple-column structure, based on ResNet-50, achieved the highest AUROC value of 0.954 (±0.018) in stress classification. Through VR-based simulated interviews, our study induced social stress responses, leading to significant modifications in GSR and EEG measurements. Deep learning models precisely classified stress levels, with the multiple-column strategy demonstrating superiority. Additionally, discreetly placing single-channel EEG measurements behind the ear enhances the convenience and accuracy of stress detection in everyday situations.",
+  "source_label": "Deep learning-based stress detection for daily life use using single-channel EEG and GSR in a virtual reality interview paradigm",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1736
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "218ab4a5ee17c9854f81115ed4158caf9f568b0db823bfcdf70e0f183a2412d7"
+}

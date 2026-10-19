@@ -1,0 +1,61 @@
+{
+  "id": "excitation-pattern",
+  "term": "excitation pattern",
+  "definition": "An excitation pattern is a way of modeling how the auditory system responds across a sound band so researchers can predict how other sounds, such as masking noise, change what can be detected. In this study, an excitation-pattern model was used to explain masking effects through changes such as reduced ripple depth and broader auditory filtering at high sound levels.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4604195"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4604195",
+      "revision": "2015; DOI 10.1371/journal.pone.0140313; article XML SHA-256 15bd6ad64fa9fd469c1ac9e8ae24c5c92aaf69d2b8746fbfd6bb7f09aded96d9",
+      "scope": "Source record 10.1371/journal.pone.0140313; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0140313"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bbc500568822b2c51d48a00e20073b951af902866740c8e2a1586c8e4a07f569",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fb144fa861f64c1b8cc45a2fd73b0275",
+    "request_hash": "502ecae77cc1ec08532e5616ee57b467cd4bbb6b1819770440c97c0e96813a7f",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "52593b741d287ecd48a32eb33b33661be2e2a9ee68da8f9670a1632bd60a731e",
+    "packet_hash": "bbc500568822b2c51d48a00e20073b951af902866740c8e2a1586c8e4a07f569"
+  },
+  "hash": "0aff9874b5a7de1d904c91736f515755f89490ebe5c0ee3551a8a9d6690a5739",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only says the data were simulated using an excitation-pattern model; it does not define “excitation pattern” itself as a model or explain it as a general way of predicting detectability across a sound band.",
+        "The added explanation about predicting how masking noise changes what can be detected goes beyond the packet’s wording and states a broader functional definition that is not directly supported.",
+        "The sentence “In this study...” is acceptable as contextualizing the article, but the core definitional claim is not sufficiently supported for the term requested."
+      ],
+      "definition_hash": "52593b741d287ecd48a32eb33b33661be2e2a9ee68da8f9670a1632bd60a731e",
+      "packet_hash": "bbc500568822b2c51d48a00e20073b951af902866740c8e2a1586c8e4a07f569",
+      "published_packet_hash": "bbc500568822b2c51d48a00e20073b951af902866740c8e2a1586c8e4a07f569",
+      "receipt_id": "2779c2994bca4e889e5693e7431fbd56",
+      "request_hash": "c94eb3f8f7dd9c129831d0df3c14a46e048777e30b2ba43893b3d39bf6900ec0",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "52593b741d287ecd48a32eb33b33661be2e2a9ee68da8f9670a1632bd60a731e",
+      "packet_hash": "bbc500568822b2c51d48a00e20073b951af902866740c8e2a1586c8e4a07f569",
+      "published_packet_hash": "bbc500568822b2c51d48a00e20073b951af902866740c8e2a1586c8e4a07f569",
+      "receipt_id": "255f9d0389c84ac895896fe434f4e90c",
+      "request_hash": "a45f2a13123d116221234f932a43333d18e2bddf960114f53e3e92864a13ebd8",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

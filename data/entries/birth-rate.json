@@ -1,0 +1,61 @@
+{
+  "id": "birth-rate",
+  "term": "birth rate",
+  "definition": "Birth rate is the frequency of births in a population or region during a given time period. In the source, it is used as a population measure that varies across places and over time and is influenced by social, economic, educational, urbanization, and age-structure factors.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11687700"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11687700",
+      "revision": "2024; DOI 10.1371/journal.pone.0316139; article XML SHA-256 387efcd4cc9114e572fc4ceaf44c55e6947fb9c627ca2cafd395912c370ae13e",
+      "scope": "Source record 10.1371/journal.pone.0316139; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0316139"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "acd48264af240cf39146b8391723afa006e17f2ca792b4f3cd90df74c365ef0d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "30d0f6ecdd064f9f8e40f734f0248c0e",
+    "request_hash": "418d2affdb62c9e1db4ab13b58d985cda87bec304ccdecece537a13f546fb430",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "5afd2b4c7b0ce4acfb91d277c928d8adece4ac50ac7c464711f2fba404900ed0",
+    "packet_hash": "acd48264af240cf39146b8391723afa006e17f2ca792b4f3cd90df74c365ef0d"
+  },
+  "hash": "ff9e23765a384c10c95d573a9b5711b68975cbb310d8a21b2038f440edd06cc3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5afd2b4c7b0ce4acfb91d277c928d8adece4ac50ac7c464711f2fba404900ed0",
+      "packet_hash": "acd48264af240cf39146b8391723afa006e17f2ca792b4f3cd90df74c365ef0d",
+      "published_packet_hash": "acd48264af240cf39146b8391723afa006e17f2ca792b4f3cd90df74c365ef0d",
+      "receipt_id": "9481b712b17e4b7f887df31618664de8",
+      "request_hash": "ab64b985023781243ef6d9ea07d30ace2a69bd0a531e7011c23af75e71154eb6",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “birth rate” as “the frequency of births in a population or region during a given time period,” nor does it state this as the meaning of the term.",
+        "The definition’s mention of “educational” and “urbanization” and “age-structure factors” being influences is only indirectly supported by the listed influencing factors (e.g., female illiteracy rate, urbanization rate, dependency ratios) and not clearly supported as a general statement that birth rate is “influenced by” those categories in the specified way.",
+        "Overall, the provided definition includes substantive explanatory claims not stated in the packet text; the packet focuses on patterns and a list of influencing factors rather than a direct definitional statement."
+      ],
+      "definition_hash": "5afd2b4c7b0ce4acfb91d277c928d8adece4ac50ac7c464711f2fba404900ed0",
+      "packet_hash": "acd48264af240cf39146b8391723afa006e17f2ca792b4f3cd90df74c365ef0d",
+      "published_packet_hash": "acd48264af240cf39146b8391723afa006e17f2ca792b4f3cd90df74c365ef0d",
+      "receipt_id": "4565a7b27d2e42a29131c5b14d5eb44e",
+      "request_hash": "3b721d4d353e5a657d11c2de6fef0bf9168d4dc7290eab4004cafa1b2ea7359e",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

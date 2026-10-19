@@ -1,0 +1,63 @@
+{
+  "id": "data-set",
+  "term": "data set",
+  "definition": "A data set is a collection of related measurements or signals gathered for analysis. In the source example, it consists of vibration readings from several sensors that are processed and used to train and evaluate a learning model.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13286197"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13286197",
+      "revision": "2026; DOI 10.1371/journal.pone.0350838; article XML SHA-256 1261654be814ef0513627a28bc7a350fdfe028c35e3d055993fdeda8271d1017",
+      "scope": "Source record 10.1371/journal.pone.0350838; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350838"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "05ef56e9d1594395bad8cdb119a98988",
+    "request_hash": "58e37c9076a76339b752fd27941ce1636452a849bd99fda9240ce94e4f633948",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "18896f33d0aa2d0e44076815dbd4ac7528e4bbaae49d0f9eb035f5e4f99b2cb4",
+    "packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b"
+  },
+  "hash": "26fc5f409215212184fabaa4d0ea7b7caa5e245460ca661fda85535a1b229cec",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general description (“A data set is a collection of related measurements or signals gathered for analysis”) is not stated or clearly supported in the provided packet text, which only describes a specific study’s dataset used for gearbox fault diagnosis.",
+        "The parts that refer to vibration readings from several sensors, processing, and use in training/evaluation are supported by the packet, but the unsupported general definition prevents a pass."
+      ],
+      "definition_hash": "18896f33d0aa2d0e44076815dbd4ac7528e4bbaae49d0f9eb035f5e4f99b2cb4",
+      "packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b",
+      "published_packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b",
+      "receipt_id": "ede8c05e3d3d4b6eabba33d759d57303",
+      "request_hash": "4e2fc694cfc51bb8d4c97f9ed90fddf3db858c022f9d0eb1ec6d5febee4ed690",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the Gearbox Fault Diagnosis Data set contains vibration signals from four sensors and that these were processed for deep learning, but it does not support the claim that the model was used to 'train and evaluate' the model; only training is stated.",
+        "The definition adds a broader generalization about what a data set is that is not explicitly established by the packet, which only describes one specific data set."
+      ],
+      "definition_hash": "18896f33d0aa2d0e44076815dbd4ac7528e4bbaae49d0f9eb035f5e4f99b2cb4",
+      "packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b",
+      "published_packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b",
+      "receipt_id": "69ef3ce087dc4908a8ba4e40c1efda4b",
+      "request_hash": "8bd039c0da80fb772ef9cb2d505d6fa4a08518150b53b3c0940f80b13fa3e982",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

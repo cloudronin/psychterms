@@ -1,0 +1,64 @@
+{
+  "id": "large-sample-method",
+  "term": "large-sample method",
+  "definition": "A large-sample method is a statistical approach used when the number of observations is sufficiently large. In this source, it refers to methods for testing whether two correlated proportions are equal and for building confidence intervals for their difference when paired binary data are incomplete.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4788928"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4788928",
+      "revision": "2016; DOI 10.1186/s12874-016-0125-3; article XML SHA-256 fff70f94f53e343fa601523d4efb153ee48f7a32fe2f2e0495d641a548e02b0a",
+      "scope": "Source record 10.1186/s12874-016-0125-3; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-016-0125-3"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fb297625d20ab6e9c85731b0de415c7c5c48f0908fcd5376c4487a7c81e3b06e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3d0d4eafc7284f6f825341340d247ca0",
+    "request_hash": "d5ef5259c20ef98b8cedd34d80445cf1955738365508925a5e88cb6e6af2b06a",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "9cf95b2f6c61f4a66ee2eca3e83aed990614d71bf5b2b5d00692035015c0e4ad",
+    "packet_hash": "fb297625d20ab6e9c85731b0de415c7c5c48f0908fcd5376c4487a7c81e3b06e"
+  },
+  "hash": "e6e34eaeb13e7a4e12badaa2e1794277afa5a973266f17c2d85130f257ecac63",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“used when the number of observations is sufficiently large”) is not explicitly supported anywhere in the provided packet text; the packet only mentions “large sample method” as one referenced method without stating the condition about large observation counts.",
+        "The packet does support that the discussion involves “testing the equality and constructing CI for the difference of two correlated proportions in the presence of incomplete paired binary data,” but the definition adds an additional general characterization of when it is used (“sufficiently large”) that is not evidenced in the packet."
+      ],
+      "definition_hash": "9cf95b2f6c61f4a66ee2eca3e83aed990614d71bf5b2b5d00692035015c0e4ad",
+      "packet_hash": "fb297625d20ab6e9c85731b0de415c7c5c48f0908fcd5376c4487a7c81e3b06e",
+      "published_packet_hash": "fb297625d20ab6e9c85731b0de415c7c5c48f0908fcd5376c4487a7c81e3b06e",
+      "receipt_id": "6991cc6464a5476b9d82605c0995b853",
+      "request_hash": "731cd1441e424cfd3e7660d9b45370fad82262c860c8e5d18c2b34cd7ba16107",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening general definition (“a statistical approach used when the number of observations is sufficiently large”) is not stated in the packet and goes beyond the source text.",
+        "The packet supports only the specific use in the article’s background: a large-sample method for testing equality of two correlated proportions and constructing confidence intervals for their difference with incomplete paired binary data; the definition broadens this into a general statistical category without support.",
+        "The requested field is not well supported by the source, which is a statistics/methods article rather than a cognition reference."
+      ],
+      "definition_hash": "9cf95b2f6c61f4a66ee2eca3e83aed990614d71bf5b2b5d00692035015c0e4ad",
+      "packet_hash": "fb297625d20ab6e9c85731b0de415c7c5c48f0908fcd5376c4487a7c81e3b06e",
+      "published_packet_hash": "fb297625d20ab6e9c85731b0de415c7c5c48f0908fcd5376c4487a7c81e3b06e",
+      "receipt_id": "09d3bae745f74e51bece67f1094a4ade",
+      "request_hash": "f06f918cdaaaae55aba046bff9da8d206b8732a63d56ec338562a0dc26ba8ca6",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

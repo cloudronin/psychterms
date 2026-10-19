@@ -1,0 +1,26 @@
+{
+  "id": "gating-mechanism",
+  "term": "gating mechanism",
+  "source": "article-pmc11671002",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0312856",
+  "revision": "2024; DOI 10.1371/journal.pone.0312856; article XML SHA-256 82f59a069527c2e735d93db0ad4014369ba3fd5fd39d1208ac09639b9bd06295",
+  "source_snapshot_sha256": "82f59a069527c2e735d93db0ad4014369ba3fd5fd39d1208ac09639b9bd06295",
+  "url": "https://doi.org/10.1371/journal.pone.0312856",
+  "text": "As the primary power source for electric vehicles, the accurate estimation of the State of Health (SOH) of lithium-ion batteries is crucial for ensuring the reliable operation of the power system. Long Short-Term Memory (LSTM), a special type of recurrent neural network, achieves sequence information estimation through a gating mechanism. However, traditional LSTM-based SOH estimation methods do not account for the fact that the degradation sequence of battery SOH exhibits trend-like nonlinearity and significant dynamic variations between samples. Therefore, this paper proposes an LSTM-based lithium-ion SOH estimation method incorporating data characteristics and spatio-temporal attention. First, considering the trend-like nonlinearity of the degradation sequence, which is initially gradual and then rapid, input features are filtered and divided into trend and non-trend features. Then, to address the significant dynamic variations between samples, especially for capacity regeneration,a spatio-temporal attention mechanism is designed to extract spatio-temporal features from multidimensional non-trend features. Subsequently, an LSTM model is built with trend features, spatio-temporal features, and actual capacity as inputs to estimate capacity. Finally, the model is trained and tested on different datasets. Experimental results demonstrate that the proposed method outperforms traditional methods in terms of SOH estimation accuracy and robustness.",
+  "source_label": "LSTM-based estimation of lithium-ion battery SOH using data characteristics and spatio-temporal attention",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1468
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "afafe0c7dc37bb28a85c0ab381f7d0198b05f3edec2fc05c9e839659dc4b53c9"
+}

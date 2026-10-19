@@ -1,0 +1,60 @@
+{
+  "id": "genetic-linkage",
+  "term": "genetic linkage",
+  "definition": "Genetic linkage, in this packet’s context, means a possible shared genetic basis connecting two traits so that selection for one is associated with changes in the other. Here it refers to the observed association between intelligence-related performance and longer lifespan in flies, suggesting that some genetic factors may contribute to both.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12221060"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12221060",
+      "revision": "2025; DOI 10.1371/journal.pone.0325154; article XML SHA-256 cb9054b3e86cbec9e02312ed7f7572665c89d464007340e538d6de85640b241a",
+      "scope": "Source record 10.1371/journal.pone.0325154; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0325154"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e0d6a039f999482bb888dda685973bec",
+    "request_hash": "16d232d383187fac6df828f1286a45706ec974ba349b38c3b4ad22e6a4642d4c",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "6d34f9155b4473363165f3c897331af765916a0c46d2c7c5f2eebffd17a3660d",
+    "packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee"
+  },
+  "hash": "4dc8c4883a2c519f1c42b59a4e985a455e92725438a9cdc144fd04751422590a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general meaning of “genetic linkage” (a shared genetic basis connecting traits such that selection for one is associated with changes in the other) that is not explicitly supported or defined in the provided packet; the packet only uses the phrase “suggesting a possible genetic linkage” without stating this general definition.",
+        "The packet provides context that genome stability contributes to both lifespan and intelligence in Drosophila and describes bidirectional selective breeding by intelligence, but it does not justify the added general linkage wording in the first sentence as the requested sense."
+      ],
+      "definition_hash": "6d34f9155b4473363165f3c897331af765916a0c46d2c7c5f2eebffd17a3660d",
+      "packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee",
+      "published_packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee",
+      "receipt_id": "20a7695ae28a40e0986cb19a11903c27",
+      "request_hash": "2831c5822a869ed60a0a7cf0ad3833c3a90fcb2a978eb7b790678d5c23e07a2c",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6d34f9155b4473363165f3c897331af765916a0c46d2c7c5f2eebffd17a3660d",
+      "packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee",
+      "published_packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee",
+      "receipt_id": "4dabfda8459042aba4725f7b6076391c",
+      "request_hash": "6153c5a5a8a45b9ff4bc7b4242c95fd807554ee113f5b07eab62986f634f4630",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

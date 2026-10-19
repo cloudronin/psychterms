@@ -1,0 +1,64 @@
+{
+  "id": "drug-abuse-screening-test",
+  "term": "Drug Abuse Screening Test",
+  "definition": "The Drug Abuse Screening Test is a questionnaire used to screen for drug-related problems and gauge how severe a person’s drug use may be. In the source packet, the DAST-20 is described as a widely used 20-item version that was adapted into Tagalog and shown to have acceptable reliability and validity.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9821478"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9821478",
+      "revision": "2023; DOI 10.1371/journal.pone.0280047; article XML SHA-256 13320384b718502efa2fed5aebfb25ed0313a1f006e7ea764cc3713e5858b670",
+      "scope": "Source record 10.1371/journal.pone.0280047; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0280047"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c4d8e0a8cf923ccec3563caee67e32eedec85ac01a2bc7d816b829446b3f6587",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7a6cee88b03f42a08cf2d6a5c254344c",
+    "request_hash": "aba7211817446895dafb37e462bfa883298929a8a273c5cb163f05bb24e6ff1e",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "d7526f0e98d5aea44e578062133635db72f05686ca664423f7b84dfd2c3e08e8",
+    "packet_hash": "c4d8e0a8cf923ccec3563caee67e32eedec85ac01a2bc7d816b829446b3f6587"
+  },
+  "hash": "7df4fed67dc81bbe0f4520d3eb836eeaa7541cd21fc0e1c8ac9fde9247cc8545",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the Drug Abuse Screening Test is “a questionnaire”; the packet only describes it as a “drug-abuse screening tool” and does not explicitly state that it is a questionnaire.",
+        "The definition states it is used to “gauge how severe a person’s drug use may be.” The packet mentions an “urgent requirement” to understand “the severity of their drug use,” but it does not directly connect that function to DAST-20 as an explicit purpose in the way the definition claims.",
+        "While the packet supports that Tagalog versions of DAST-20 were “confirmed to be reliable and valid,” it does not support the broader framing that the overall Drug Abuse Screening Test (as a general term) is “widely used” and operates specifically as described beyond what is stated about DAST-20 in this study."
+      ],
+      "definition_hash": "d7526f0e98d5aea44e578062133635db72f05686ca664423f7b84dfd2c3e08e8",
+      "packet_hash": "c4d8e0a8cf923ccec3563caee67e32eedec85ac01a2bc7d816b829446b3f6587",
+      "published_packet_hash": "c4d8e0a8cf923ccec3563caee67e32eedec85ac01a2bc7d816b829446b3f6587",
+      "receipt_id": "5510ab2bbbbf46c1a9ea8397a7d3b5a1",
+      "request_hash": "da243a8d899e99d0c5a85eae581b6bf2e1d0e8d4803001e3291fefbef609aabc",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports DAST-20 as a drug-abuse screening tool and reports acceptable reliability/validity for the Tagalog version, but it does not explicitly support the claims that it is a questionnaire or that it gauges how severe a person’s drug use may be.",
+        "The packet does not support the description of DAST-20 as a “widely used 20-item version” in this wording; “20-item” is implied by the title, but “widely used” is not established in the packet text."
+      ],
+      "definition_hash": "d7526f0e98d5aea44e578062133635db72f05686ca664423f7b84dfd2c3e08e8",
+      "packet_hash": "c4d8e0a8cf923ccec3563caee67e32eedec85ac01a2bc7d816b829446b3f6587",
+      "published_packet_hash": "c4d8e0a8cf923ccec3563caee67e32eedec85ac01a2bc7d816b829446b3f6587",
+      "receipt_id": "8912eb739bfe4732bf7cec262360b3a4",
+      "request_hash": "9d76dab6f55186050acccc48f338666d696a77156d1543187a9566cfb5d27666",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

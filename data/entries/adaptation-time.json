@@ -1,0 +1,60 @@
+{
+  "id": "adaptation-time",
+  "term": "adaptation time",
+  "definition": "Adaptation time is the period allowed for the visual system to adjust before testing. In this source, it refers to the pre-test adjustment time needed for rod- and cone-based flicker measurements, which is described as minimal.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7343165"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7343165",
+      "revision": "2020; DOI 10.1371/journal.pone.0232784; article XML SHA-256 61c143b53b97a42b608d88d1102e8e7bc85ced84c475f9d3dcaaa9ecf61a5b9d",
+      "scope": "Source record 10.1371/journal.pone.0232784; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0232784"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "59a0f8239d79a31766edf025fd6f3f376d4c19c88d5068e2d727bad40f202d16",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "814c6e3281de41998bb292eeb3e345b5",
+    "request_hash": "9ccb93c22b44c1af463c8a3d5ea2c53758c758e4c3dc446e4a1b18d2eb0275d1",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "8e2a420237e3e4fe72271e4410a8e00857a09cd5e775233ff9077f62a246f987",
+    "packet_hash": "59a0f8239d79a31766edf025fd6f3f376d4c19c88d5068e2d727bad40f202d16"
+  },
+  "hash": "318e0355f6902add074258505475bcbf0731b8117fd52946ed66e82ffd562fd6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8e2a420237e3e4fe72271e4410a8e00857a09cd5e775233ff9077f62a246f987",
+      "packet_hash": "59a0f8239d79a31766edf025fd6f3f376d4c19c88d5068e2d727bad40f202d16",
+      "published_packet_hash": "59a0f8239d79a31766edf025fd6f3f376d4c19c88d5068e2d727bad40f202d16",
+      "receipt_id": "e92192292d2145baa964fe3c81932eb4",
+      "request_hash": "f8e19873b7940d0d105f6c39e78cf151b05b966a67dee800c570968409d6d0fd",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “adaptation time” as a “period allowed for the visual system to adjust before testing”; it only states that the flicker-threshold test “requires only minimum adaptation time.”",
+        "The definition’s reference to “rod- and cone-based flicker measurements” and the idea that the required adaptation time is “minimal/minimum” are supported, but the broader conceptual definition (visual system adjustment before testing) is not stated in the provided text."
+      ],
+      "definition_hash": "8e2a420237e3e4fe72271e4410a8e00857a09cd5e775233ff9077f62a246f987",
+      "packet_hash": "59a0f8239d79a31766edf025fd6f3f376d4c19c88d5068e2d727bad40f202d16",
+      "published_packet_hash": "59a0f8239d79a31766edf025fd6f3f376d4c19c88d5068e2d727bad40f202d16",
+      "receipt_id": "a45e70aac20f4a07b0f658bbe3a1e423",
+      "request_hash": "85158cd8a98c3ee0ae1c73bc39e25f2d74d4dda10e533c620b39645a99e46bd9",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

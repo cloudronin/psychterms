@@ -1,0 +1,59 @@
+{
+  "id": "channel",
+  "term": "channel",
+  "definition": "In this context, a channel is a protein pathway in a cell membrane that allows specific ions such as calcium or sodium to move into the neuron when the membrane’s electrical state changes or when certain stimuli activate it. This ion flow helps start nerve depolarization or trigger neurotransmitter release, allowing signals such as pain information to be passed along neurons.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13588332"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13588332",
+      "revision": "2026; DOI 10.1371/journal.pone.0357395; article XML SHA-256 314fbe706bb2ebd57a777f9c06049c8623300ec723e5a9c087946025be3817b4",
+      "scope": "Source record 10.1371/journal.pone.0357395; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0357395"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cdab018c1d98760fb086ce9526d6f8869dd576a53e6004d341770bcfd547ef55",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b317592815e34221bd5e57a62f57dec6",
+    "request_hash": "47134180e66430a6b70019bd18b585e92e26b1ae65a7bdb3169831e82ce7ec16",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "31e05776fc14b3ec101a636c1fa84eabc8a7520e48886743da5e3de9aba857cc",
+    "packet_hash": "cdab018c1d98760fb086ce9526d6f8869dd576a53e6004d341770bcfd547ef55"
+  },
+  "hash": "b126c6958c931a96681796cde9a1a4de3559ffc17765f0150a39a58bf0bffef7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "31e05776fc14b3ec101a636c1fa84eabc8a7520e48886743da5e3de9aba857cc",
+      "packet_hash": "cdab018c1d98760fb086ce9526d6f8869dd576a53e6004d341770bcfd547ef55",
+      "published_packet_hash": "cdab018c1d98760fb086ce9526d6f8869dd576a53e6004d341770bcfd547ef55",
+      "receipt_id": "89e0134a29b6423296dd47bcbba27e81",
+      "request_hash": "3a0eab1102d154e00cba303cb6548b88afa604cace794db735ea4f9d3f4ef62a",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “a channel is a protein pathway in a cell membrane.” The packet does not explicitly define ion channels as “protein pathways.” It only discusses “calcium influx through voltage gated calcium channels” and sodium influx through voltage-gated sodium channels, without giving a definitional statement of channels as protein pathways."
+      ],
+      "definition_hash": "31e05776fc14b3ec101a636c1fa84eabc8a7520e48886743da5e3de9aba857cc",
+      "packet_hash": "cdab018c1d98760fb086ce9526d6f8869dd576a53e6004d341770bcfd547ef55",
+      "published_packet_hash": "cdab018c1d98760fb086ce9526d6f8869dd576a53e6004d341770bcfd547ef55",
+      "receipt_id": "3996a31d6bd24d429726ac108c6fb155",
+      "request_hash": "4c68ce9bdfed83ff49c9f0f14eae1bf4ac7c1be50f2e97250fafe1f3134613bd",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

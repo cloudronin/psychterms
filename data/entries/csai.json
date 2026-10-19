@@ -1,0 +1,60 @@
+{
+  "id": "csai",
+  "term": "CSAI",
+  "definition": "CSAI refers to a method that combines compressed sensing, parallel imaging, and AI-based reconstruction to produce high-quality MRI images more quickly. In the source, it is presented as a way to shorten scan time while maintaining image quality.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12002432"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12002432",
+      "revision": "2025; DOI 10.1371/journal.pone.0318599; article XML SHA-256 2c336e340a145672284bb3c27feb15b10b208235d43b242382a318272339b28e",
+      "scope": "Source record 10.1371/journal.pone.0318599; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0318599"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5d5f9ce5bce348edac1b6dd4b29ae106",
+    "request_hash": "2ad600774267dd7ccac72287b43135cc3695ac1ae59751896565ce789b57f09b",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "9dca7eed53d1c8163fe9bc794475f49dc9877d82b7a3e1a29ee9aa5add945272",
+    "packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8"
+  },
+  "hash": "f892a7a80a4b8f82a38a6576af8e8423e8215a409f6ddf9e7d81f206b9d93e0b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9dca7eed53d1c8163fe9bc794475f49dc9877d82b7a3e1a29ee9aa5add945272",
+      "packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8",
+      "published_packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8",
+      "receipt_id": "27ac1ca30e5841bd864e0f5cece01346",
+      "request_hash": "c681ac09882ecf2f3fa428c024de1babebcd324303e662385c0b5983d9b4d089",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is supported for the acronym CSAI in the source, but the requested field is not defensible here: the packet is about MRI acceleration in neuromuscular disease, not psychology/counselling learning.",
+        "The definition should not imply a learning-domain sense of CSAI when the source supports only a medical imaging reconstruction method (compressed sensing + parallel imaging + AI-based reconstruction)."
+      ],
+      "definition_hash": "9dca7eed53d1c8163fe9bc794475f49dc9877d82b7a3e1a29ee9aa5add945272",
+      "packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8",
+      "published_packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8",
+      "receipt_id": "52e39fc90d91445d80d1d330cd1eedc3",
+      "request_hash": "2e0ead17124ab23b8b0af6e7e26e2f013ca0e39434b4607ae219f1ca1b2dba39",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

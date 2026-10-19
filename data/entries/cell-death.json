@@ -1,0 +1,64 @@
+{
+  "id": "cell-death",
+  "term": "cell death",
+  "definition": "Cell death is the process by which a cell stops living, through several biologically distinct forms such as programmed self-destruction or injury-related death. It is a normal part of development and tissue balance, helping control cell numbers, remove abnormal cells, and shape body structures, but abnormal regulation can contribute to disease.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12331116"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12331116",
+      "revision": "2025; DOI 10.1371/journal.pone.0315255; article XML SHA-256 7c22acba9d5720c6da4bfd9bb18671e7fd43262502b479abd33c8dee1bd3bc37",
+      "scope": "Source record 10.1371/journal.pone.0315255; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0315255"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4aa1c642cf9b41689475b4822aaf700331bcaaeb2e6ff31a5f511a47291f8ca1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "256bc86fb3284993b3bc4210b64fadfe",
+    "request_hash": "7023349e5272c6267c0b8c91191bf0c124de599944022e9109d8f26191d4be4f",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "0bd2e5c57b6350c334c68463399b0c4cfd0fc1847ede55c7733810f478de1910",
+    "packet_hash": "4aa1c642cf9b41689475b4822aaf700331bcaaeb2e6ff31a5f511a47291f8ca1"
+  },
+  "hash": "8806f5de71e111194f9c2299183eede3c25e4a3855425bcc34dbaf23058615b2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase \"injury-related death\" is not supported by the packet; the source mentions distinct types such as apoptosis, necrosis, and autophagy, but does not characterize any of them as injury-related.",
+        "The definition slightly generalizes beyond the packet by presenting the forms of cell death as a broad, settled set in a way the source does not explicitly state."
+      ],
+      "definition_hash": "0bd2e5c57b6350c334c68463399b0c4cfd0fc1847ede55c7733810f478de1910",
+      "packet_hash": "4aa1c642cf9b41689475b4822aaf700331bcaaeb2e6ff31a5f511a47291f8ca1",
+      "published_packet_hash": "4aa1c642cf9b41689475b4822aaf700331bcaaeb2e6ff31a5f511a47291f8ca1",
+      "receipt_id": "5a27f4eb27784f27a198a022d1d1ffec",
+      "request_hash": "d3e1fccdd6781ff03c711c53247e9a44949b9723750b8cd860e8b4d6b6ad8bcd",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition mentions “injury-related death” as a biologically distinct form; the packet lists distinct types (e.g., apoptosis, necrosis, autophagy) and discusses programmed cell death, but it does not support the specific characterization “injury-related death.”",
+        "The definition’s phrase “through several biologically distinct forms such as programmed self-destruction” is only partially supported: the packet supports programmed cell death and genetically regulated self-destruction, but the comparison to “injury-related death” is not supported.",
+        "The field requested is “diagnosis,” but the packet provides general biological context about cell death functions and disease associations, not any diagnostic-sense usage."
+      ],
+      "definition_hash": "0bd2e5c57b6350c334c68463399b0c4cfd0fc1847ede55c7733810f478de1910",
+      "packet_hash": "4aa1c642cf9b41689475b4822aaf700331bcaaeb2e6ff31a5f511a47291f8ca1",
+      "published_packet_hash": "4aa1c642cf9b41689475b4822aaf700331bcaaeb2e6ff31a5f511a47291f8ca1",
+      "receipt_id": "8c9a560a09354c4d9ee8e54a5b958961",
+      "request_hash": "f88c2cba2ffda900e1b9b5101d28d15939ce2ca8751d62cc099b0ab9d84956be",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

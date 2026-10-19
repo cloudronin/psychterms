@@ -1,0 +1,60 @@
+{
+  "id": "catastrophe-theory",
+  "term": "catastrophe theory",
+  "definition": "Catastrophe theory is an approach for describing how a system can shift abruptly from a stable state to an unstable one when ongoing change reaches a critical point. In the packet, it is used in cusp form to track stability with an indicator that changes sign as the system crosses that threshold.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13492817"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13492817",
+      "revision": "2026; DOI 10.1371/journal.pone.0354142; article XML SHA-256 b025be69bc7f6a756276c3a49b7830f27087695663f1e88e54b0d5bf521929d7",
+      "scope": "Source record 10.1371/journal.pone.0354142; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354142"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "19399fad05da2064d790a993b21668e526b652dfacff5475d487ec55834dc92e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "df40efcf16994150ab3309291511b097",
+    "request_hash": "4d7c7bb80833e646e58ce8c139a0128ef82f74ae1d863d5c5ca8d345a37eb97c",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "b7f63b752823d100c44277b3799ae71a4314aca034325ece30e06fcbedd09ff8",
+    "packet_hash": "19399fad05da2064d790a993b21668e526b652dfacff5475d487ec55834dc92e"
+  },
+  "hash": "391b33868d38b60f7e1bf5a12338884a1763b25ba85e3a745b2790bc2487f17f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b7f63b752823d100c44277b3799ae71a4314aca034325ece30e06fcbedd09ff8",
+      "packet_hash": "19399fad05da2064d790a993b21668e526b652dfacff5475d487ec55834dc92e",
+      "published_packet_hash": "19399fad05da2064d790a993b21668e526b652dfacff5475d487ec55834dc92e",
+      "receipt_id": "055d41a4098f4871b9ad8620774f7e83",
+      "request_hash": "3d5d6cb2e3b0876382aac1f904a43b48b1d8decabb35d609ff2cc2000cc9e141",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet is about geomechanical slope stability, not the field of learning, so the field assignment is not supported by the source.",
+        "The definition adds a broad general characterization of catastrophe theory that is not stated in the packet in that general form; the packet only supports a cusp-catastrophe-based stability criterion with a sign-changing indicator Δ."
+      ],
+      "definition_hash": "b7f63b752823d100c44277b3799ae71a4314aca034325ece30e06fcbedd09ff8",
+      "packet_hash": "19399fad05da2064d790a993b21668e526b652dfacff5475d487ec55834dc92e",
+      "published_packet_hash": "19399fad05da2064d790a993b21668e526b652dfacff5475d487ec55834dc92e",
+      "receipt_id": "702707011dee4caba0f5cacb9f69439d",
+      "request_hash": "0eca6572bf5c2990d34168e28465fe95d68794f80fea892d5cceaf4f3772b811",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "product-appeal",
+  "term": "product appeal",
+  "definition": "Product appeal is the attractiveness of a product to consumers that can influence their likelihood of trying or choosing it. In the source, it is treated as a factor distinct from product quality and one that can affect market share, especially in the short term.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5528888"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5528888",
+      "revision": "2017; DOI 10.1371/journal.pone.0180040; article XML SHA-256 9af8ebe3f66e9c10c326bec2357edbfdf11c0d72fcc2dd8a0950a549ca1e602f",
+      "scope": "Source record 10.1371/journal.pone.0180040; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0180040"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "786d394087ce47d9e9245cf84b24ea73ad8ccac7a633026548d6de892d5445e1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "be2add84c1e34d37ac1b54b25eff66a8",
+    "request_hash": "9ad0b63ed54985a9d7d8e4875107e63c29c9f88aeb911bf515a303e72c39001d",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "e4b686fc5ed45871845dadce0be66b4a48d5728b0cc0d12c9e01895859bca154",
+    "packet_hash": "786d394087ce47d9e9245cf84b24ea73ad8ccac7a633026548d6de892d5445e1"
+  },
+  "hash": "137a943cd75cdff5cf452608ae072a7196098aef26c02cd9c3aeb9133934d838",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “product appeal” as consumer attractiveness or as influencing consumers’ likelihood of trying/choosing the product; it only refers to “appeal” in the context of a trade-off with quality in market dynamics.",
+        "Although the packet discusses a trade-off between “quality and appeal” and how market share responds over different time horizons, it does not explicitly state that appeal is treated as a distinct factor from quality (only that there is a trade-off).",
+        "The packet supports that time horizon changes the trade-off (short-term vs medium/long-term) and discusses effects on market share, but the claim that this is “especially in the short term” influencing trying/choosing is not directly supported in the supplied text."
+      ],
+      "definition_hash": "e4b686fc5ed45871845dadce0be66b4a48d5728b0cc0d12c9e01895859bca154",
+      "packet_hash": "786d394087ce47d9e9245cf84b24ea73ad8ccac7a633026548d6de892d5445e1",
+      "published_packet_hash": "786d394087ce47d9e9245cf84b24ea73ad8ccac7a633026548d6de892d5445e1",
+      "receipt_id": "46d1e7f702274c4ca2bfc86c3f7a20ca",
+      "request_hash": "f48ed1347f66ab41de5ff370c27ac9c2aaf9c5984337bee8b3d1e808c5b5dada",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported specifics such as consumer likelihood of trying or choosing a product; the packet only supports product appeal as a market parameter affecting market share.",
+        "The packet does support a contrast with product quality and mentions short- vs medium/long-term trade-offs, but it does not support the broader, consumer-behavior wording used here.",
+        "The field context is not clearly psychology/learning in the source; the packet is about trial-offer markets and marketing dynamics, so the sense should be tied more tightly to that usage."
+      ],
+      "definition_hash": "e4b686fc5ed45871845dadce0be66b4a48d5728b0cc0d12c9e01895859bca154",
+      "packet_hash": "786d394087ce47d9e9245cf84b24ea73ad8ccac7a633026548d6de892d5445e1",
+      "published_packet_hash": "786d394087ce47d9e9245cf84b24ea73ad8ccac7a633026548d6de892d5445e1",
+      "receipt_id": "06efd02425db472fb80f148339f770a6",
+      "request_hash": "1650ab4e1dc9d844eb07e987f92821ee3bb48b042fc85eb02ada4272cb34a702",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "architectural-constraints",
+  "term": "architectural constraints",
+  "definition": "Architectural constraints are fixed features or limits of a neural network’s structure that could shape how it learns or behaves. In this source, the term is used to contrast structural design requirements with learning effects that can arise on their own from regularities in the training experience.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5112963"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5112963",
+      "revision": "2016; DOI 10.1371/journal.pone.0166174; article XML SHA-256 fd089916f67142f956cc81bc2903144cf0f96b9aaf8a270c02d3e88b5faeb64d",
+      "scope": "Source record 10.1371/journal.pone.0166174; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0166174"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "22efdd2abb9850745cce62b77ea51d48a7d82b5e6a8acac63c41c3151fbfeee2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "10eb85eadb7b45388a45314781895836",
+    "request_hash": "38c74a709cd0b5a50bda67e6ef89e9b7405158d85623c110fd7efa84bdef5992",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "6fb4499193dd88e9c65d60f3e9fc84e31d5ad51030c0d2af7113d241cd4cb930",
+    "packet_hash": "22efdd2abb9850745cce62b77ea51d48a7d82b5e6a8acac63c41c3151fbfeee2"
+  },
+  "hash": "b216ea059d443cc08ac88b13b6e7d2cd085d951ebb3d0645a1356cd4050c297c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “architectural constraints” as “fixed features or limits of a neural network’s structure.”",
+        "While the packet says selective attention “does not necessarily depend on specific architectural constraints,” it does not directly support the definition’s additional phrasing about contrasting “structural design requirements with learning effects.”",
+        "The definition attributes a specific usage/sense (“In this source, the term is used to contrast…”) that is not stated or clearly evidenced in the provided packet text."
+      ],
+      "definition_hash": "6fb4499193dd88e9c65d60f3e9fc84e31d5ad51030c0d2af7113d241cd4cb930",
+      "packet_hash": "22efdd2abb9850745cce62b77ea51d48a7d82b5e6a8acac63c41c3151fbfeee2",
+      "published_packet_hash": "22efdd2abb9850745cce62b77ea51d48a7d82b5e6a8acac63c41c3151fbfeee2",
+      "receipt_id": "011c9c15854d4ec0a35157036a31fcca",
+      "request_hash": "bfb6d5bd09b482173a5673f6355f4d06ba5375e9a252bf62fc9bba123ae6357a",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6fb4499193dd88e9c65d60f3e9fc84e31d5ad51030c0d2af7113d241cd4cb930",
+      "packet_hash": "22efdd2abb9850745cce62b77ea51d48a7d82b5e6a8acac63c41c3151fbfeee2",
+      "published_packet_hash": "22efdd2abb9850745cce62b77ea51d48a7d82b5e6a8acac63c41c3151fbfeee2",
+      "receipt_id": "b1b454b7917941b28deae038bca8f188",
+      "request_hash": "0911be1e21c3364e81c6f20601a9ee7b6bb893289cd9eb9dd2aa93cf299ca611",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

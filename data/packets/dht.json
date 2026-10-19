@@ -1,0 +1,26 @@
+{
+  "id": "dht",
+  "term": "DHT",
+  "source": "article-pmc12539721",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0327661",
+  "revision": "2025; DOI 10.1371/journal.pone.0327661; article XML SHA-256 f94868b8056885488075e3540cf047d4c21492abc544196035f3dc6626cd58a5",
+  "source_snapshot_sha256": "f94868b8056885488075e3540cf047d4c21492abc544196035f3dc6626cd58a5",
+  "url": "https://doi.org/10.1371/journal.pone.0327661",
+  "text": "Diabetes mellitus presents a significant global health challenge, particularly in regions like Pakistan, India, and Bangladesh. Machine learning (ML) techniques offer promising solutions for diabetes prediction, surpassing traditional methods in reliability and efficiency. This research conducts a comparative analysis of ML algorithms including Random Forest (RF), Decision Tree (DT), Support Vector Machine (SVM), K-nearest neighbors (KNN), Gradient Boosting (GB), RaSK_GraDe (Proposed Voting), and RaSK_GraDeL (Proposed Stacking). Evaluation is performed using datasets, such as PIMA Indian, Frankfurt Hospitals Diabetes, RTML with Insulin, and the proposed Diabetes Health Tracer (DHT) dataset comprising 2877 observations with nine features. Data pre-processing techniques address missing values, outliers, normalization, and class balancing (SMOTE), enhancing model robustness. Hyperparameter tuning via cross-validation and Random Search optimizes model performance. Additionally, ensemble methods—Voting Classifier (RaSK GraDe) and Stacking Model (RaSK GraDeL with Logistic Regression) are applied, achieving notable accuracies of 98.03% and 98.55%, respectively, on the DHT dataset. The study underscores ML’s potential in diabetes prediction, advocating for personalized treatment and healthcare management advancements.",
+  "source_label": "Machine learning-driven Diabetes Health Tracer (DHT): Optimizing prognosis using RaSK_GraDe and RaSK_GraDeL models",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1331
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "8d07c50794413ae9401cc40371f4585097e6f3b1d411301d302edca782b99cbc"
+}

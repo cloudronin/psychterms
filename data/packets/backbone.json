@@ -1,0 +1,26 @@
+{
+  "id": "backbone",
+  "term": "backbone",
+  "source": "article-pmc12091788",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0322298",
+  "revision": "2025; DOI 10.1371/journal.pone.0322298; article XML SHA-256 3b9f21d894ddb781cdb529634bcaed487641b1c975a313f2b848b728945a215b",
+  "source_snapshot_sha256": "3b9f21d894ddb781cdb529634bcaed487641b1c975a313f2b848b728945a215b",
+  "url": "https://doi.org/10.1371/journal.pone.0322298",
+  "text": "Backbone extraction simplifies complex networks while retaining essential features. It reduces complexity without losing critical structural information. However, selecting the most suitable method remains challenging due to the diverse behaviors of existing techniques. This study evaluates eight structural backbone extraction methods designed for weighted networks. These methods leverage network topology rather than statistical weight distributions. A dataset of 33 real-world networks is analyzed, covering diverse sizes, topologies, and domains. Key metrics, such as Jaccard similarity and Overlap Coefficient, reveal distinct method behaviors. A hierarchical relationship emerges among methods. Primary Linkage Analysis (PLAM) captures the most substantial edges, forming the simplest backbone. Minimum Spanning Tree (MSP), Ultrametric Backbone (UMB), and Metric Backbone (MB) build on this structure, progressively adding connectivity and detail. The Doubly Stochastic Filter excels at preserving weight and degree distributions, connectivity, and transitivity. By contrast, the H-Backbone prioritizes high-weight edges but disrupts connectivity. Metric Backbone and Planar Maximally Filtered Graph ensure complete node preservation and maintain high reachability. These insights advance the understanding of structural backbone extraction techniques for weighted networks. They benefit applications in fields like biology, social networks, and transportation. Practitioners can better achieve goals like network simplification for visualization or property preservation for analysis.",
+  "source_label": "Exploring weighted network backbone extraction: A comparative analysis of structural techniques",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1593
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "0be7e89f7e7c6e73e9077a1b26b9846d4c8a1f4eb34241dfb29a4cdacf7c978d"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "biological-therapy",
+  "term": "biological therapy",
+  "definition": "Biological therapy is treatment that uses biological agents, such as tumor necrosis factor alpha (TNFα) inhibitors. In this source, it refers to anti-TNFα treatment used for severe Crohn’s disease.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10650985"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10650985",
+      "revision": "2023; DOI 10.1371/journal.pone.0294441; article XML SHA-256 918ba2c9edc618f28f4ba09f09484f27097cda5f0b1647a12402b1e56c362d86",
+      "scope": "Source record 10.1371/journal.pone.0294441; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0294441"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cca85eff5a13d319b8442f6a1e2d9a4bb7e3f12d557de1d3ff33e9d9659d4327",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0a39954cb38c42129015ac63f61c4fa4",
+    "request_hash": "fdc5df6637250777fdb0fe226275cfef0761691f21ef26d9840c0e57e8538cd5",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "16c7bb0485afa01d2418e5a7ca14ac483dff14d7e9a693f2ad93cb1c66953355",
+    "packet_hash": "cca85eff5a13d319b8442f6a1e2d9a4bb7e3f12d557de1d3ff33e9d9659d4327"
+  },
+  "hash": "170c6be6a75b52a14e0e13a8e03b2b4cf360a20eb6c773686c217e40213b3c50",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “biological therapy” as generally “treatment that uses biological agents” (the definition’s first sentence is unsupported).",
+        "The packet only provides context that the study concerns “severe Crohn’s disease on anti-TNFα biological therapy” and mentions TNFα inhibitors, but it does not support the broader general characterization of biological therapy beyond that usage."
+      ],
+      "definition_hash": "16c7bb0485afa01d2418e5a7ca14ac483dff14d7e9a693f2ad93cb1c66953355",
+      "packet_hash": "cca85eff5a13d319b8442f6a1e2d9a4bb7e3f12d557de1d3ff33e9d9659d4327",
+      "published_packet_hash": "cca85eff5a13d319b8442f6a1e2d9a4bb7e3f12d557de1d3ff33e9d9659d4327",
+      "receipt_id": "7eea3ddf7f73427eb63cd9551e4529a1",
+      "request_hash": "c3c09e2cda72ae40ac597926eb7be09423c2a4c998c0cb0e35fcc2f51ff0a687",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "16c7bb0485afa01d2418e5a7ca14ac483dff14d7e9a693f2ad93cb1c66953355",
+      "packet_hash": "cca85eff5a13d319b8442f6a1e2d9a4bb7e3f12d557de1d3ff33e9d9659d4327",
+      "published_packet_hash": "cca85eff5a13d319b8442f6a1e2d9a4bb7e3f12d557de1d3ff33e9d9659d4327",
+      "receipt_id": "842bfc710b4a4f26893119e051793170",
+      "request_hash": "04c8d2e1b30afb3988ff98e4cc469b2689b6d1538a0e27b48b28b316db3175d8",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

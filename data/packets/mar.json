@@ -1,0 +1,26 @@
+{
+  "id": "mar",
+  "term": "MAR",
+  "source": "article-pmc13623145",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0359577",
+  "revision": "2026; DOI 10.1371/journal.pone.0359577; article XML SHA-256 3115fc68e92d081ff1213ddc55e62912c0be2304ec541415c467d412caa0403b",
+  "source_snapshot_sha256": "3115fc68e92d081ff1213ddc55e62912c0be2304ec541415c467d412caa0403b",
+  "url": "https://doi.org/10.1371/journal.pone.0359577",
+  "text": "Choosing an appropriate imputation strategy for clinical datasets requires understanding which missing data mechanism is operative, yet most imputation benchmarks conflate performance across mechanisms. The present work addresses this gap by conducting the first mechanism-stratified comparison of three imputation approaches—CHIT, Multiple Imputation by Chained Equations via BayesianRidge (MICE), and Random-Forest-based Iterative Imputation—across Missing Completely at Random (MCAR), Missing at Random (MAR), and Missing Not at Random (MNAR) conditions. Three health datasets serve as experimental platforms: the Chronic Kidney Disease (CKD) dataset, the Heart Disease Dataset (HDD), and the Mice Protein Expression Dataset (MPED). Domain-knowledge-driven missingness patterns are constructed for each mechanism (Fig 2) at approximately 20–25% overall rates. Eight classifiers—KNN, Logistic Regression, SVC, Decision Tree, Random Forest, Gaussian Naïve Bayes, MLP, and a deep neural network—are trained on imputed data following GridSearchCV optimisation. Across all conditions, CHIT achieves near-perfect or perfect downstream classification, with SVC reaching up to 100% accuracy on the CKD dataset under MNAR, and 98.75% under MCAR and MAR. Competing methods degrade by up to 19.38 percentage points under MNAR, while CHIT’s accuracy remains stable. Two structural properties account for this resilience: an iterative enrichment of the regression training set as records are completed, and a within-record prioritisation of the most data-scarce features for model-based filling. Taken together, these results provide mechanism-specific guidance for imputation selection in health informatics pipelines. Statistical significance of classifier accuracy differences between CHIT and MICE was assessed using McNemar’s test (two-tailed, continuity-corrected chi-square) applied to the exact binary prediction vectors from each experiment [n_test = 80]. Ninety-five percent confidence intervals for all reported accuracy values were computed using the Wilson score method [z = 1.96]. The 42-configuration mean accuracy and standard deviation for CHIT are reported in Supplementary Table S1 . Full McNemar results with confidence intervals are in Supplementary Table S2 .",
+  "source_label": "Evaluating the Cyclical Hybrid Imputation Technique (CHIT) under MCAR, MAR, and MNAR missing data mechanisms: Evidence from health datasets",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2271
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48"
+}
