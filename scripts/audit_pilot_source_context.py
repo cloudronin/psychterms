@@ -16,19 +16,20 @@ SCHEMA={'type':'object','properties':{'definition_supported':{'type':'boolean'},
 def read(p):return json.loads(p.read_text())
 def prepare():
     if (DEST/'registration.json').exists():raise ValueError('Refusing to overwrite context audit')
-    DEST.mkdir(exist_ok=True);parent=read(PARENT/'report.json');outcomes=read(PARENT/'outcomes.json')
+    DEST.mkdir(parents=True,exist_ok=True);parent=read(PARENT/'report.json');outcomes=read(PARENT/'outcomes.json')
     _,records=corpus();lookup={(r['source_id'],r['record_id']):r for r in records};rows=[]
     for out in outcomes:
         if out['status']!='judged':continue
         a=read(PARENT/'accepted'/(out['new_entry_id']+'.json'));p=a['packet'];r=lookup.get((p['source'],p['source_record']),{})
-        rows.append({'headword_key':out['headword_key'],'stage':out['stage'],'accepted':a,'source_record_label':p.get('source_label',r.get('term','')),'publisher_aliases':r.get('aliases',[])})
+        rows.append({'headword_key':out['headword_key'],'stage':out['stage'],'accepted':a,'source_record_label':p.get('source_label',r.get('term','')),'publisher_aliases':p.get('publisher_aliases',r.get('aliases',[]))})
     atomic(DEST/'cohort.json',rows)
     m={'line':'pilot-source-context-v1','development_only':True,'authorization':'Vishnu authorized API retuning on pilot items; this corrects omitted source-record labels and checks only the provisional proposals.',
        'parent_registration_hash':parent['registration_hash'],'parent_report_hash':digest(parent),'cohort_hash':digest(rows),'models':MODELS,'prompt':PROMPT,'schema':SCHEMA,
        'endpoint':ENDPOINT,'max_completion_tokens':2000,'reasoning_effort':'low','transport_schema_retries':1,'total_redraft_cap_usd':200,
        'shared_budget_ledger':'.private/hybrid-redraft/budget.sqlite','prices_per_million':PRICES,'workers':6,
        'code_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'no_publication':True,'no_next_wave':True}
-    m['registration_hash']=digest(m);atomic(DEST/'registration.json',m);atomic(ROOT/'data/pilot-source-context-registration.json',m)
+    m['report_stem']='pilot-source-context' if PARENT.name=='retune-pilot-v8' else PARENT.name+'-source-context'
+    m['registration_hash']=digest(m);atomic(DEST/'registration.json',m);atomic(ROOT/('data/'+m['report_stem']+'-registration.json'),m)
     print(json.dumps({'proposals':len(rows),'registration_hash':m['registration_hash']}),flush=True)
 
 def body(role,row):
@@ -89,22 +90,25 @@ def run():
         for f in concurrent.futures.as_completed(futures):
             value=f.result();done[value['headword_key']]=value;atomic(outputs,done);atomic(DEST/'progress.json',{'completed':len(done),'proposals':len(rows),'qualified':sum(v['qualified'] for v in done.values())})
     accepted=[r for r in done.values() if r['qualified']];rejected=[r for r in done.values() if not r['qualified']]
-    result={'complete':True,'development_only':True,'headwords':500,'original_passed':16,'before_source_context':128,'qualified':len(accepted),'pass_fraction':len(accepted)/500,
+    result={'complete':True,'development_only':True,'headwords':500,'original_passed':16,'before_source_context':len(rows),'qualified':len(accepted),'pass_fraction':len(accepted)/500,
        'field_review_required':sum(bool(r['field_issues']) for r in accepted),'without_field_flags':sum(not r['field_issues'] for r in accepted),'removed_by_context_audit':len(rejected),
        'by_stage':dict(collections.Counter(r['stage'] for r in accepted)),'total_redraft_budget':budget.summary(),'published_entries':0,'next_wave_started':False,'registration_hash':m['registration_hash']}
-    atomic(DEST/'report.json',result);atomic(ROOT/'reports/pilot-source-context.json',result)
+    atomic(DEST/'report.json',result);atomic(ROOT/('reports/'+m.get('report_stem','pilot-source-context')+'.json'),result)
     lines=['# PsychTerms pilot: source-context qualification','',
       f'Final qualified proposals: **{len(accepted)}/500 ({len(accepted)/500:.1%})**, compared with original **16/500 (3.2%)**.','',
-      f'The initial revised pipeline produced 128 two-reader/copy passes. A sample audit found omitted source-record labels could hide wrong concepts. Both readers independently rechecked all 128 proposals with record labels and publisher aliases. **{len(rejected)}** did not pass that context-aware check. These are development results on an inspected corpus, not held-out validation.','',
+      f'The initial revised pipeline produced {len(rows)} two-reader/copy passes. A sample audit found omitted source-record labels could hide wrong concepts. Both readers independently rechecked all {len(rows)} proposals with record labels and publisher aliases. **{len(rejected)}** did not pass that context-aware check. These are development results on an inspected corpus, not held-out validation.','',
       f'Qualified proposals with field-review flags: **{result["field_review_required"]}**; without such flags: **{result["without_field_flags"]}**. No definitions were published and no later wave started. Original entries and earlier results remain unchanged.','',
       f'Total redraft-line receipted usage cost, including all development and retries: **${budget.summary()["receipted_usd"]:.4f}**; uncertain calls retain **${budget.summary()["unresolved_reservations_usd"]:.4f}** in reservations under the same $200 cap.','',
       '| Headword | Qualified | Field flags / rejection reasons |','|---|---|---|']
     for row in sorted(done.values(),key=lambda r:r['term'].casefold()):
         reasons=row['field_issues'] if row['qualified'] else [reason for s in row['reads'].values() for reason in (['Unresolved context response'] if s.get('unresolved') else s['parsed']['reasons'])]
         lines.append('| '+' | '.join(str(v).replace('|','/').replace('\n',' ') for v in (row['term'],row['qualified'],'; '.join(reasons)))+' |')
-    (ROOT/'reports/pilot-source-context.md').write_text('\n'.join(lines)+'\n')
-    parent_report=ROOT/'reports/retune-pilot-v8.md';text=parent_report.read_text();notice='> Provisional result: source labels were omitted from the original requests. See [the final source-context qualification](pilot-source-context.md) for the corrected qualified count.\n\n'
+    (ROOT/('reports/'+m.get('report_stem','pilot-source-context')+'.md')).write_text('\n'.join(lines)+'\n')
+    parent_report=ROOT/('reports/'+PARENT.name+'.md');text=parent_report.read_text();notice='> Provisional result: source labels were omitted from the original requests. See [the final source-context qualification]('+m.get('report_stem','pilot-source-context')+'.md) for the corrected qualified count.\n\n'
     if notice not in text:parent_report.write_text(text.replace('\n\n','\n\n'+notice,1))
     atomic(DEST/'run-state.json',{'stage':'complete',**result});print(json.dumps(result,indent=2),flush=True)
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('command',choices=['prepare','run']);a=p.parse_args();prepare() if a.command=='prepare' else run()
+    p=argparse.ArgumentParser();p.add_argument('command',choices=['prepare','run']);p.add_argument('--parent',type=Path);p.add_argument('--dest',type=Path);a=p.parse_args()
+    if a.parent:PARENT=a.parent
+    if a.dest:DEST=a.dest
+    prepare() if a.command=='prepare' else run()

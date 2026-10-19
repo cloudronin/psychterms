@@ -30,6 +30,12 @@ class RetuneTests(unittest.TestCase):
   validate_value('reader_a',good,text,definition)
   for support in ([{'claim':definition,'evidence':'An invented quotation.'}],[]):
    with self.assertRaises(ValueError):validate_value('reader_a',{**good,'support':support},text,definition)
+ def test_all_roles_receive_actual_source_labels_and_aliases(self):
+  packet={**controls()[0]['packet'],'source_label':'A different source concept','publisher_aliases':['Publisher alias']}
+  for role in ('fit','draft','reader_a','reader_b'):
+   data=json.loads(request_for(role,packet,'cognition','New definition.' if role.startswith('reader') else None)['messages'][1]['content'])
+   source=data.get('source_packet',data)
+   self.assertEqual(source['source_record_label'],'A different source concept');self.assertEqual(source['publisher_aliases'],['Publisher alias'])
  def test_controls_include_positive_paraphrases_and_deliberate_unsupported_drafts(self):
   c=controls();self.assertEqual(len(c),19)
   self.assertTrue(any(r['expected_fit'] and not r['expected_read'] for r in c))
@@ -62,6 +68,16 @@ class RetuneTests(unittest.TestCase):
  def test_control_separates_dictionary_scope_from_semantic_support(self):
   ribosome=next(r for r in controls() if r['packet']['term']=='ribosome')
   self.assertFalse(ribosome['expected_fit']);self.assertTrue(ribosome['expected_read'])
+ def test_future_run_cannot_finish_without_context_qualification(self):
+  import audit_pilot_source_context as context
+  from retune_pilot import execute
+  from hybrid_redraft import atomic
+  with tempfile.TemporaryDirectory() as tmp:
+   dest=Path(tmp)
+   def qualify():atomic(context.DEST/'report.json',{'qualified':1,'pass_fraction':.002,'field_review_required':0})
+   with patch('retune_pilot.inputs',return_value=({'source_context_qualification_required':True},None,None,None)),patch('retune_pilot.calibrate',return_value={'passed':True}),patch('retune_pilot.run_phase'),patch('retune_pilot.report',return_value={'total_passed':2,'headwords':500}),patch.object(context,'PARENT',context.PARENT),patch.object(context,'DEST',context.DEST),patch.object(context,'prepare') as prepare_context,patch.object(context,'run',side_effect=qualify) as run_context:
+    execute(dest);prepare_context.assert_called_once();run_context.assert_called_once()
+   state=json.loads((dest/'run-state.json').read_text());self.assertEqual(state['qualified'],1);self.assertEqual(state['total_passed'],2)
  def test_receipt_audit_detects_changed_verdict_cost_and_source(self):
   p=controls()[0]['packet'];body=request_for('fit',p,'cognition');value={'answer':'yes','evidence':'retain','reason':'Definition present.'}
   m={'registration_hash':'a'*64};usage={'prompt_tokens':100,'completion_tokens':10}

@@ -23,7 +23,7 @@ def hashes():return {n:hashlib.sha256((ROOT/'scripts'/n).read_bytes()).hexdigest
 
 def request_for(role,packet,field,definition=None):
     kind='read' if role.startswith('reader') else role
-    data={'headword':packet['term'],'field':field,'source':packet.get('source','control'),'source_record':packet.get('source_record','control'),'revision':packet.get('revision','1'),'text':packet['text']}
+    data={'headword':packet['term'],'field':field,'source':packet.get('source','control'),'source_record':packet.get('source_record','control'),'revision':packet.get('revision','1'),'text':packet['text'],'source_record_label':packet.get('source_label',''),'publisher_aliases':packet.get('publisher_aliases',[])}
     if kind=='fit':data={'headword':packet['term'],'taxonomy_hint':field,'source_packet':data}
     if kind=='read':data={'headword':packet['term'],'taxonomy_hint':field,'source_packet':data,'draft_to_check':{'definition':definition}}
     return {'model':MODELS[role],'messages':[{'role':'system','content':PROMPTS[kind]},{'role':'user','content':json.dumps(data,ensure_ascii=False)}],

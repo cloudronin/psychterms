@@ -40,7 +40,7 @@ def finish(dest,wait=False):
     sources={s['id']:s for s in json.loads((ROOT/'data/sources.json').read_text())['sources']}
     csvpath=ROOT/('reports/'+dest.name+'-outcomes.csv')
     with csvpath.open('w') as f:
-        w=csv.DictWriter(f,fieldnames=['term','outcome','stage','reason','field_review_required']);w.writeheader()
+        w=csv.DictWriter(f,fieldnames=['term','outcome','stage','reason','field_review_required'],lineterminator='\n');w.writeheader()
         for row in outcomes:w.writerow({'term':row['term'],'outcome':row['status'],'stage':row['stage'],'reason':row['reason'] or '', 'field_review_required':bool(row['field_issues'])})
     sample=random.Random(20261018).sample(accepted,min(20,len(accepted)))
     lines=['','## Reviewed development proposals for inspection','',

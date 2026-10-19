@@ -1,5 +1,5 @@
 """Development-only pilot replay: controls, fixed-packet comparison, then retrieval rescue."""
-import argparse,collections,math,concurrent.futures,fcntl,hashlib,json,random,sys,time
+import argparse,collections,copy,math,concurrent.futures,fcntl,hashlib,json,random,sys,time
 from pathlib import Path
 from core import ROOT,digest,semantic_hash,load_inputs,validate_entry
 from hybrid_redraft import atomic
@@ -27,14 +27,21 @@ def prepare(dest=DEST):
     additions=read(ROOT/'.private/new-approved-sources/pilot-packet-options.json')
     if additions['source_inventory_hash']!=digest(sources) or additions['original_cohort_hash']!=digest(old):raise ValueError('New-source options binding changed')
     new_by_key={r['headword_key']:r for r in additions['rows']}
+    from prepare_local_redrafts import corpus
+    _,source_records=corpus();record_metadata={(r['source_id'],r['record_id']):r for r in source_records}
     rows=[]
     for r in first:
-        primary=[p['packet'] for p in r['packets']];seen={p['packet_hash'] for p in primary}
-        extra=[p for p in retrieval[r['headword_key']]['packets'] if p['packet_hash'] not in seen]
+        primary=[copy.deepcopy(p['packet']) for p in r['packets']];seen={p['packet_hash'] for p in primary}
+        extra=[copy.deepcopy(p) for p in retrieval[r['headword_key']]['packets'] if p['packet_hash'] not in seen]
         # Rescue only previously retrieved permitted packets; no web text, paid retrieval or padding.
         extras=sorted(extra,key=lambda p:(p['source_label'].casefold()!=r['term'].casefold(),p['packet_hash']))[:max(0,5-len(primary))]
-        for packet in primary+extras:validate_packet(packet,sources)
-        rows.append({**r,'packets':primary,'rescue_packets':extras,'new_source_packets':[p['packet'] for p in new_by_key[r['headword_key']]['packets']],'hpo_references':new_by_key[r['headword_key']]['hpo_references']})
+        new_packets=[copy.deepcopy(p['packet']) for p in new_by_key[r['headword_key']]['packets']]
+        for packet in primary+extras+new_packets:
+            record=record_metadata.get((packet['source'],packet['source_record']),{})
+            packet['publisher_aliases']=record.get('aliases',[])
+            packet['packet_hash']=digest({k:v for k,v in packet.items() if k!='packet_hash'})
+            validate_packet(packet,sources)
+        rows.append({**r,'packets':primary,'rescue_packets':extras,'new_source_packets':new_packets,'hpo_references':new_by_key[r['headword_key']]['hpo_references']})
     cohort={'schema_version':1,'seed':old['seed'],'original_cohort_hash':digest(old),'source_inventory_hash':digest(sources),'original_source_inventory_hash':old['source_inventory_hash'],'approved_source_manifest_hash':additions['manifest_hash'],'rows':rows}
     atomic(dest/'cohort.json',cohort);atomic(dest/'controls.json',controls())
     original_manifest=read(ORIGINAL/'registration.json')
@@ -53,7 +60,7 @@ def prepare(dest=DEST):
        'pass_denominator':500,'copy_words':15,'calibration_required':'All fit controls and all reader negative controls must be correct; at least 90% of positive reader controls must pass. Report every false rejection. Controls are developer examples, not an independent accuracy estimate.',
        'comparison':'Same first 500 and original top-two packets first; rescue separately from up to three unused original retrieval candidates. Results are development, not held-out.',
        'continuation':'No automatic wave two; retain the 60% full-headword rule for any future frozen execution.',
-       'publication':'Private staging only; field issues recorded separately for review, never silently retagged.'}
+       'source_context_qualification_required':True,'publication':'Private staging only; field issues recorded separately for review, never silently retagged.'}
     m['registration_hash']=digest(m);atomic(dest/'registration.json',m)
     atomic(ROOT/("data/"+dest.name+"-registration.json"),m)
     print(json.dumps({'registration_hash':m['registration_hash'],'headwords':len(rows),'models':MODELS,'rescue_packets':sum(len(r['rescue_packets']) for r in rows)}),flush=True)
@@ -219,14 +226,27 @@ def execute(dest=DEST):
     lock=(dest/'run.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     atomic(dest/'run-state.json',{'stage':'calibrating'})
     try:
+        m,_,_,_=inputs(dest)
         calibration=calibrate(dest)
         if not calibration['passed']:
             atomic(dest/'run-state.json',{'stage':'calibration_failed','correct':calibration['correct'],'total':calibration['total']});return
         for phase in ('same-packets','rescue','new-sources'):
             atomic(dest/'run-state.json',{'stage':phase});run_phase(phase,dest)
-        summary=report(dest);atomic(dest/'run-state.json',{'stage':'complete',**summary})
+        summary=report(dest)
+        if m.get('source_context_qualification_required'):
+            import audit_pilot_source_context as context
+            context.PARENT=dest;context.DEST=dest/'source-context'
+            if (context.DEST/'registration.json').exists():
+                frozen=read(context.DEST/'registration.json')
+                if frozen['parent_registration_hash']!=summary['registration_hash']:raise ValueError('Context audit parent registration changed')
+            else:context.prepare()
+            context.run()
+            final=read(context.DEST/'report.json')
+            atomic(dest/'run-state.json',{'stage':'complete',**summary,'qualified':final['qualified'],'qualified_fraction':final['pass_fraction'],'field_review_required':final['field_review_required'],'source_context_report':str(context.DEST/'report.json')})
+        else:atomic(dest/'run-state.json',{'stage':'complete',**summary})
     except Exception:
         atomic(dest/'run-state.json',{'stage':'paused','reason':'See worker log and actual receipts; no automatic paid retries.'});raise
+    finally:lock.close()
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('command',choices=['prepare','calibrate','run','report']);p.add_argument('--dest',type=Path,default=DEST);a=p.parse_args()

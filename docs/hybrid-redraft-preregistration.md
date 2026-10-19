@@ -1,5 +1,7 @@
 # Hybrid redraft preregistration
 
+Historical run. Active development and its corrected source-context result are documented in [the retuned pilot protocol](retune-pilot-preregistration.md) and [the source-context qualification](pilot-source-context-preregistration.md).
+
 Vishnu instructed “then use the API for drafting alone” after the estimate of $10–20 for 2,600 drafts. This supersedes the local-only drafting role, within the previously approved **$200 total redraft cap**. Expected drafting spend is $2–4 for the first 500 headwords and $10–20 for all 2,600 if each needs one drafting call; those are estimates, not acceptance promises. Two yes packets can each receive a draft if the first fails.
 
 | Role | Provider and model | Paid |

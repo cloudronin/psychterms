@@ -15,3 +15,5 @@ The audit used the existing permitted source corpus for labels and aliases. It a
 The sample corpus and its failures informed development. These numbers are development yields, not an independent accuracy estimate. The remaining waves did not start, and no definitions were published. The original 2,600 failed entries remain unchanged.
 
 See [the final context-qualified report](../reports/pilot-source-context.md) for all 128 decisions, including reasons for removing 58 provisional proposals. Total receipted redraft-line usage cost, including the original run and all development, is **$10.242282**; **$0.389117** remains reserved for uncertain attempts under the same **$200** cap.
+
+After this executed audit, the code was generalized to accept an explicit parent/destination and integrated as a required completion stage for future pilot runs. Full source-record labels and publisher aliases also reach fit and drafting requests, and taxonomy hints are kept out of definition boilerplate. The reported 70/500 comes from the completed, retained audit; the later generation-path changes were not represented as another measured whole-pilot run.
