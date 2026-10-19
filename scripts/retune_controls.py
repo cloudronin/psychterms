@@ -24,6 +24,11 @@ def controls():
       ('vermis','The cerebellar vermis is the midline portion of the cerebellum and contributes to coordination of posture and movement.','The vermis is the midline part of the cerebellum involved in coordinating posture and movement.',True,True,'biological'),
       ('receptivity','A 1902 theory described receptivity as receiving mental impressions, and claimed that mind was passive in this process.','Modern neuroscience has established that all minds are passive receivers of impressions.',True,False,'history'),
     ]
+    examples += [
+      ('memory','Memory is the ability to retain and retrieve information. In this study, memory was operationalized as recall of a 20-word list after five minutes.','In this study, memory refers to recall of a 20-word list after five minutes.',True,False,'cognition'),
+      ('memory','Memory is the ability to retain and retrieve information. The study found better recall after sleep.','Memory retains and retrieves information. The study found better recall after sleep.',True,False,'cognition'),
+      ('memory','Memory is the ability to retain and retrieve information. This experiment operationalized memory as recall of a 20-word list after five minutes.','Memory is recall of a 20-word list after five minutes.',True,False,'cognition'),
+    ]
     rows=[]
     for i,(term,text,definition,fit,read,field) in enumerate(examples):
         p={'term':term,'source':'developer-authored-control','source_record':str(i),'revision':'1','text':text};p['packet_hash']=digest(p)

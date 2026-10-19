@@ -37,7 +37,7 @@ class RetuneTests(unittest.TestCase):
    source=data.get('source_packet',data)
    self.assertEqual(source['source_record_label'],'A different source concept');self.assertEqual(source['publisher_aliases'],['Publisher alias'])
  def test_controls_include_positive_paraphrases_and_deliberate_unsupported_drafts(self):
-  c=controls();self.assertEqual(len(c),19)
+  c=controls();self.assertEqual(len(c),22)
   self.assertTrue(any(r['expected_fit'] and not r['expected_read'] for r in c))
   self.assertTrue(any(not r['expected_fit'] for r in c))
   self.assertTrue(next(r for r in c if r['packet']['term']=='authoritative parenting')['expected_read'])

@@ -7,7 +7,7 @@ from hybrid_redraft import atomic,NoRedirect
 from retune_protocol import MODELS,PRICES,PROMPTS,SCHEMAS,MAX_TOKENS,validate_value
 ENDPOINT='https://api.openai.com/v1/chat/completions'
 LEDGER=ROOT/'.private/hybrid-redraft/budget.sqlite'
-CODE=('retune_protocol.py','retune_api.py','retune_pilot.py','retune_controls.py','core.py','check_packets.py','redraft_policy.py','run_candidate_drafts.py','overlap_scan.py','budget.py','recover_approved_sources.py','prepare_reference_packets.py')
+CODE=('revise_pilot_after_claude.py','term_meaning_rule.py','retune_protocol.py','retune_api.py','retune_pilot.py','retune_controls.py','core.py','check_packets.py','redraft_policy.py','run_candidate_drafts.py','overlap_scan.py','budget.py','recover_approved_sources.py','prepare_reference_packets.py')
 class RunError(RuntimeError):pass
 class OutputError(RunError):pass
 
