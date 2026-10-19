@@ -1,6 +1,8 @@
 """Separate immutable failed entries from headwords needing fresh source packets."""
 from collections import defaultdict
-import unicodedata
+import unicodedata,json
+from pathlib import Path
+from core import ROOT
 from core import digest
 
 SCOPE_REASON='No psychology or counselling context established'
@@ -19,8 +21,14 @@ def packet_basis_hash(packet):
                    'source_record':packet.get('source_record'),
                    'text':' '.join(unicodedata.normalize('NFKC',packet.get('text','')).casefold().split())})
 
-def candidate_pool(entries,outcomes=None):
-    groups=defaultdict(list);active=set();out_of_scope=set()
+def headword_exclusions(root=ROOT):
+    path=root/'data/headword-exclusions.json'
+    if not path.exists():return set()
+    rows=json.loads(path.read_text())['exclusions']
+    return {headword_key(name) for row in rows for name in [row['headword_key'],*row.get('aliases',[])]}
+
+def candidate_pool(entries,outcomes=None,exclusions=None):
+    groups=defaultdict(list);active=set();out_of_scope=set(headword_exclusions() if exclusions is None else exclusions)
     for e in entries:
         key=headword_key(e['term'])
         if e['status']=='redraft':groups[key].append(e)

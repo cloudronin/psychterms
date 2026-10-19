@@ -7,7 +7,7 @@ from hybrid_redraft import atomic,NoRedirect
 from retune_protocol import MODELS,PRICES,PROMPTS,SCHEMAS,MAX_TOKENS,validate_value
 ENDPOINT='https://api.openai.com/v1/chat/completions'
 LEDGER=ROOT/'.private/hybrid-redraft/budget.sqlite'
-CODE=('run_redraft_batch.py','revise_pilot_after_claude.py','term_meaning_rule.py','retune_protocol.py','retune_api.py','retune_pilot.py','retune_controls.py','core.py','check_packets.py','redraft_policy.py','run_candidate_drafts.py','overlap_scan.py','budget.py','recover_approved_sources.py','prepare_reference_packets.py')
+CODE=('../data/headword-exclusions.json','../data/field-definitions.json','field_tagger.py','review_wave_two.py','run_redraft_batch.py','revise_pilot_after_claude.py','term_meaning_rule.py','retune_protocol.py','retune_api.py','retune_pilot.py','retune_controls.py','core.py','check_packets.py','redraft_policy.py','run_candidate_drafts.py','overlap_scan.py','budget.py','recover_approved_sources.py','prepare_reference_packets.py')
 class RunError(RuntimeError):pass
 class OutputError(RunError):pass
 
@@ -24,6 +24,7 @@ def hashes():return {n:hashlib.sha256((ROOT/'scripts'/n).read_bytes()).hexdigest
 def request_for(role,packet,field,definition=None):
     kind='read' if role.startswith('reader') else role
     data={'headword':packet['term'],'field':field,'source':packet.get('source','control'),'source_record':packet.get('source_record','control'),'revision':packet.get('revision','1'),'text':packet['text'],'source_record_label':packet.get('source_label',''),'publisher_aliases':packet.get('publisher_aliases',[])}
+    if kind=='field':data={k:v for k,v in data.items() if k!='field'}
     if kind=='fit':data={'headword':packet['term'],'taxonomy_hint':field,'source_packet':data}
     if kind=='read':data={'headword':packet['term'],'taxonomy_hint':field,'source_packet':data,'draft_to_check':{'definition':definition}}
     return {'model':MODELS[role],'messages':[{'role':'system','content':PROMPTS[kind]},{'role':'user','content':json.dumps(data,ensure_ascii=False)}],

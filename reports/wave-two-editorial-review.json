@@ -1,0 +1,71 @@
+{
+  "claude_pass": 74,
+  "claude_fail": 7,
+  "retags": 36,
+  "scope_headwords_excluded": 5,
+  "same_packet_redrafts": 2,
+  "corrections_passing_two_readers_and_copy": 1,
+  "remaining_redraft": 1,
+  "field_tagger": {
+    "comparison_entries": 74,
+    "matching_claude": 37,
+    "confident": 48,
+    "confident_matching_claude": 37,
+    "abstained": 22,
+    "unresolved_responses": 4,
+    "uncertain_routed": 0,
+    "development_comparison_not_held_out": true
+  },
+  "run_receipted_usd": 0.165552,
+  "shared_budget": {
+    "calls_reserved": 4485,
+    "cap_usd": 200.0,
+    "receipted_usd": 16.031413,
+    "unresolved_reservations_usd": 0.820085,
+    "by_category": {
+      "draft": {
+        "calls": 32,
+        "receipted_usd": 0.115081,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-retune-draft": {
+        "calls": 384,
+        "receipted_usd": 1.518482,
+        "unresolved_reservations_usd": 0.034315
+      },
+      "pilot-retune-field": {
+        "calls": 238,
+        "receipted_usd": 0.349239,
+        "unresolved_reservations_usd": 0.030388
+      },
+      "pilot-retune-fit": {
+        "calls": 2712,
+        "receipted_usd": 10.424645,
+        "unresolved_reservations_usd": 0.471457
+      },
+      "pilot-retune-reader_a": {
+        "calls": 473,
+        "receipted_usd": 0.969347,
+        "unresolved_reservations_usd": 0.046349
+      },
+      "pilot-retune-reader_b": {
+        "calls": 386,
+        "receipted_usd": 1.907087,
+        "unresolved_reservations_usd": 0.117423
+      },
+      "pilot-source-context-reader_a": {
+        "calls": 128,
+        "receipted_usd": 0.214783,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-source-context-reader_b": {
+        "calls": 132,
+        "receipted_usd": 0.532749,
+        "unresolved_reservations_usd": 0.120153
+      }
+    }
+  },
+  "published": 0,
+  "wave_three_started": false,
+  "registration_hash": "6b67f089aecf104ab2414b0c4316329f42f0f510048a0050bfb6bcaa0213730d"
+}

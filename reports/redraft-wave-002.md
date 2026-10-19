@@ -1,5 +1,7 @@
 # Redraft wave two: model-reviewed proposals
 
+> Later editorial review: 74 PASS, 7 FAIL and 36 retags. Five headwords are excluded from the candidate pool; two have same-packet correction attempts. See [editorial decisions and tagging results](wave-two-editorial-review.md). The original model-only batch results below remain historical.
+
 Frozen cohort: **500** headwords. **469** have ranked packets. **81** passed two non-drafter readers and the 15-word scan (**16.2%** of the full batch). **22** have separate field-review flags.
 
 The user explicitly authorized this next batch after judging the pilot. Both reader paths apply the named term-meaning check, and drafting excludes study-relative prose, findings and narrow operationalizations. Both readers passed the seeded preflight developer checks. That is an execution check, not evidence of independent accuracy. Model agreement remains subject to Claude/editorial review; no definitions were published and no third batch started.

@@ -101,17 +101,25 @@ def index_for(dest,cohort):
     return index
 
 def process(row,packets,client,sources,fields,index):
-    fits=[];attempts=[];accepted=None;errors=[]
+    fits=[];attempts=[];accepted=None;errors=[];tag_records={};field_holds=[]
     # No old definitions, legacy fixture, judge verdicts or failed drafting prose are passed here.
     yes=[]
-    for p in packets:
+    for original_packet in packets:
+        p=copy.deepcopy(original_packet)
+        if getattr(client,'m',{}).get('field_tagging_required'):
+            try:tag=client.call('field',p,row['field'])
+            except OutputError as error:errors.append({'role':'field','packet_hash':p['packet_hash'],'reason':str(error)});continue
+            if tag['parsed']['field'] is None:
+                field_holds.append({'packet_hash':p['packet_hash'],'tag':tag});continue
+            p['planned_field']=tag['parsed']['field'];p['packet_hash']=digest({k:v for k,v in p.items() if k!='packet_hash'})
+            tag_records[p['packet_hash']]={'saved':tag,'original_packet':original_packet,'original_field':row['field']}
         validate_packet(p,sources)
-        try:fit=client.call('fit',p,row['field'])
+        try:fit=client.call('fit',p,p.get('planned_field',row['field']))
         except OutputError as error:errors.append({'role':'fit','packet_hash':p['packet_hash'],'reason':str(error)});continue
         fits.append({'packet_hash':p['packet_hash'],'saved':fit})
         if fit['parsed']['answer']=='yes':yes.append((p,fit))
     for p,fit in yes:
-        try:draft=client.call('draft',p,row['field'])
+        try:draft=client.call('draft',p,p.get('planned_field',row['field']))
         except OutputError as error:errors.append({'role':'draft','packet_hash':p['packet_hash'],'reason':str(error)});continue
         attempt={'packet_hash':p['packet_hash'],'draft':draft};attempts.append(attempt)
         try:
@@ -119,7 +127,7 @@ def process(row,packets,client,sources,fields,index):
         except ValueError as error:attempt['reason']=str(error);continue
         readers=[]
         for role in ('reader_a','reader_b'):
-            try:saved=client.call(role,p,row['field'],e['definition'])
+            try:saved=client.call(role,p,p.get('planned_field',row['field']),e['definition'])
             except OutputError as error:errors.append({'role':role,'packet_hash':p['packet_hash'],'reason':str(error)});break
             attempt[role]=saved;readers.append(saved)
         if len(readers)!=2 or not all(r['parsed']['passed'] for r in readers):attempt['reason']='reader rejection';continue
@@ -136,9 +144,12 @@ def process(row,packets,client,sources,fields,index):
         validate_entry(e,sources,fields)
         accepted={'entry':e,'packet':p,'fit':fit,'draft':draft,'readers':readers,'field_issues':[r['parsed']['field_issue'] for r in readers if r['parsed']['field_issue']],
                   'registration_hash':client.m['registration_hash'],'development_only':True}
+        if p['packet_hash'] in tag_records:
+            accepted['field_tagging']=tag_records[p['packet_hash']]
+            if not tag_records[p['packet_hash']]['saved']['parsed']['confident']:accepted['field_issues'].append('Uncertain field fallback requires review.')
         break
     return {'headword_key':row['headword_key'],'term':row['term'],'fits':fits,'attempts':attempts,'accepted':accepted,'output_errors':errors,
-            'reason':None if accepted else 'model output could not be verified' if errors and not yes else 'no supporting source found yet' if not yes else 'draft/read/copy failure'}
+            'field_holds':field_holds,'reason':None if accepted else 'field review required' if field_holds else 'model output could not be verified' if errors and not yes else 'no supporting source found yet' if not yes else 'draft/read/copy failure'}
 
 def run_phase(phase,dest=DEST):
     m,c,ctl,client=inputs(dest);cal=read(dest/'calibration.json')
@@ -164,6 +175,11 @@ def run_phase(phase,dest=DEST):
 def audit(accepted,m,dest,index):
     p=accepted['packet'];e=accepted['entry']
     if e['hash']!=semantic_hash(e) or e['version']!=2 or e['packet_hash']!=p['packet_hash'] or accepted['registration_hash']!=m['registration_hash']:raise ValueError('Accepted entry binding changed')
+    if accepted.get('field_tagging'):
+        tag=accepted['field_tagging'];saved=tag['saved'];origin=tag['original_packet']
+        audit_saved(saved,read(dest/'receipts'/(saved['receipt_id']+'.json')),m,'field',origin,tag['original_field'])
+        if saved['parsed']['field']!=e['field']:raise ValueError('Field tag differs from the drafted field')
+        if {k:v for k,v in origin.items() if k not in ('planned_field','packet_hash')}!={k:v for k,v in p.items() if k not in ('planned_field','packet_hash')}:raise ValueError('Field tagging changed source content')
     records=[('fit',accepted['fit'],None),('draft',accepted['draft'],None),('reader_a',accepted['readers'][0],e['definition']),('reader_b',accepted['readers'][1],e['definition'])]
     for role,saved,definition in records:
         receipt=read(dest/'receipts'/(saved['receipt_id']+'.json'));audit_saved(saved,receipt,evidence_manifest(saved,m),role,p,e['field'],definition)

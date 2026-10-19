@@ -3,7 +3,7 @@ import argparse,collections,hashlib,json,re,subprocess
 from core import ROOT,digest,semantic_hash
 from overlap_scan import words
 from scope_rules import decide,independent_records
-from redraft_policy import TERMINAL,disposition,candidate_pool,validate_replacements
+from redraft_policy import TERMINAL,disposition,candidate_pool,validate_replacements,headword_exclusions
 
 RANK={'candidate':0,'reviewed':1,'judged':2,'dropped':3,'redraft':3}
 MIGRATION_SHA256='a1b4069db9154c457d9b95c3ab43b3c762c1ca37bb67563221bd656b1b4c28ba'
@@ -121,7 +121,7 @@ def prepare(entries,root=ROOT,history=None,scope=True):
         hp=root/'data/status-history.json';history=json.loads(hp.read_text())['entries'] if hp.exists() else {}
     check_forward(history,snapshot)
     counts={s:sum(e['status']==s for e in output) for s in RANK};counts['released']=sum(e['released'] for e in output)
-    report={'schema_version':1,'status_counts':counts,'reader_models':sorted(model_names),'copy_threshold_words':15,'copy_scope':'All pinned public source packets and cross-entry definitions','comparison_hash':digest(sorted((k,p['packet_hash']) for k,p in packets.items())),'entries':snapshot,'redraft_candidates':candidate_pool(output,outcomes)}
+    report={'schema_version':1,'status_counts':counts,'reader_models':sorted(model_names),'copy_threshold_words':15,'copy_scope':'All pinned public source packets and cross-entry definitions','comparison_hash':digest(sorted((k,p['packet_hash']) for k,p in packets.items())),'entries':snapshot,'redraft_candidates':candidate_pool(output,outcomes,exclusions=headword_exclusions(root))}
     return output,report
 
 def release_note(report,version='Public review preview'):
