@@ -5,7 +5,7 @@ from core import ROOT,digest,slug
 from hybrid_redraft import atomic
 from source_coverage_audit import norm
 from prepare_candidate_packets import excerpt
-from redraft_policy import packet_basis_hash
+from redraft_policy import packet_rejected,packet_basis_hash
 from check_packets import validate_packet
 from build_also_see import encode
 DEST=ROOT/'.private/new-approved-sources'
@@ -30,6 +30,7 @@ def options(row,records,hpo,sources,failed):
         if content_hash in seen_texts:continue
         packet={'term':row['term'],'source':source['id'],'source_record':record['record_id'],'revision':record['revision'],'text':text}
         if any(packet_basis_hash(packet)==packet_basis_hash(old) for old in failed):continue
+        if packet_rejected(packet,row):continue
         ident=slug(row['term'])+'-v2-'+digest({'basis':packet_basis_hash(packet),'redraft_of':row['failed_entry_ids']})[:10]
         packet.update(id=ident,source_label=record['term'],licence=source['licence'],source_snapshot_sha256=record['snapshot_sha256'],url=record['url'],
             source_kind=record['source_kind'],source_character_range=[start,end],planned_field=row['field'],redraft_of=row['failed_entry_ids'])
@@ -41,6 +42,8 @@ def prepare(all_headwords=False):
     sources={s['id']:s for s in json.loads((ROOT/'data/sources.json').read_text())['sources']}
     records=json.loads((DEST/'records.json').read_text());hpo=json.loads((DEST/'hpo-reference-index.json').read_text())
     frozen=json.loads((ROOT/'.private/hybrid-redraft/cohort.json').read_text());rows=[r for r in frozen['cohort'] if all_headwords or r['wave']==1]
+    outcomes=json.loads((ROOT/'data/redraft-source-outcomes.json').read_text())['outcomes']
+    rows=[{**row,'latest_sourcing':outcomes.get(row['headword_key'],{})} for row in rows]
     embeddings=[];prepared=[]
     for row in rows:
         failed=[json.loads((ROOT/'data/packets'/(i+'.json')).read_text()) for i in row['failed_entry_ids']]

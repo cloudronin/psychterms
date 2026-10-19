@@ -91,8 +91,8 @@ Receipted correction and taxonomy-check usage: **$0.165552**, within the same or
 
 | Term | Result | Reason |
 |---|---|---|
-| preparatory response | model passes |  |
-| redundancy | redraft | draft/read/copy failure |
+| preparatory response | editorial PASS; staged judged | Two verified passing reads; general-sense concern resolved by supplied verdict. |
+| redundancy | editorial FAIL; redraft | Silent narrowing; new general-sense packet required. Zero verified passing reads. |
 
 ## Interpretation and execution history
 
@@ -102,4 +102,8 @@ Version 1 is retained separately with its exact executed code, receipts and regi
 
 Preparatory response produced a fresh model-reviewed proposal. Redundancy produced a new draft but its first reader returned PASS without the required quoted support on both bounded attempts. That response was not counted as a read, and the second reader was not dispatched. Its unresolved status is not a verified reader FAIL. Both fresh texts and unchanged packets were exported for Claude.
 
-The preparatory-response proposal specifically needs editorial review of whether its alertness/timing framing still narrows the general headword. Its model passes do not settle that question.
+The supplied follow-up verdict approves `preparatory-response-v3-aa974c0600`: “All clauses supported; general readiness before an expected event is the term's general sense, not one paper's”. This resolves the earlier editorial question. Across wave two there are now 75 editorial-approved headwords: 74 version-two proposals and this version-three correction. These remain staged, not newly published.
+
+The supplied verdict rejects `redundancy-v3-dfd79156c9` for silently defining construct redundancy under the general headword. Its general-headword sourcing requirement is now “new general-sense packet required”; the rejected normalized source basis is excluded from packet preparation even if its ID or field changes. “Construct redundancy” is a separately named alternative requiring its own scope admission, entry and two verified reads. The external verdict cannot replace missing verified model reads.
+
+Exact follow-up decisions and definition/packet hashes are recorded in `data/wave-two-correction-decisions.json`. Original version-two verdicts, executed metrics and provider receipts remain unchanged. No paid calls or wave-three run were made for this follow-up.

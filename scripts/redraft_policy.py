@@ -21,6 +21,11 @@ def packet_basis_hash(packet):
                    'source_record':packet.get('source_record'),
                    'text':' '.join(unicodedata.normalize('NFKC',packet.get('text','')).casefold().split())})
 
+def packet_rejected(packet,row):
+    excluded=set(row.get('excluded_packet_basis_hashes',[]))
+    excluded.update(row.get('latest_sourcing',{}).get('excluded_packet_basis_hashes',[]))
+    return packet_basis_hash(packet) in excluded
+
 def headword_exclusions(root=ROOT):
     path=root/'data/headword-exclusions.json'
     if not path.exists():return set()
@@ -38,9 +43,11 @@ def candidate_pool(entries,outcomes=None,exclusions=None):
     for key,failed in sorted(groups.items()):
         if key in active or key in out_of_scope:continue
         rows.append({'term':failed[0]['term'],'headword_key':key,'status':'candidate',
-            'requirement':'new packet required','failed_entry_ids':sorted(e['id'] for e in failed),
+            'requirement':outcomes.get(key,{}).get('requirement','new packet required'),'failed_entry_ids':sorted(e['id'] for e in failed),
             'excluded_packet_hashes':sorted({e['packet_hash'] for e in failed}),
-            **({'latest_sourcing':outcomes[key]} if key in outcomes else {})})
+            **({'latest_sourcing':outcomes[key]} if key in outcomes else {}),
+            **({'excluded_packet_basis_hashes':outcomes[key]['excluded_packet_basis_hashes']}
+               if outcomes.get(key,{}).get('excluded_packet_basis_hashes') else {})})
     return {'schema_version':1,'candidates':rows}
 
 def validate_replacements(entries,packets):

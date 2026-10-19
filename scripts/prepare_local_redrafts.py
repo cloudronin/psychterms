@@ -2,7 +2,7 @@
 import argparse,collections,json,os,random,re,sqlite3
 from pathlib import Path
 from core import ROOT,ALLOWED_LICENSES,digest,slug
-from redraft_policy import headword_key,packet_basis_hash
+from redraft_policy import packet_rejected,headword_key,packet_basis_hash
 from source_coverage_audit import load_records,norm
 from prepare_candidate_packets import excerpt
 from check_packets import validate_packet
@@ -64,6 +64,7 @@ def candidates(row,field,db,records,sources,failed,limit=5):
         packet={'term':row['term'],'source':source['id'],'source_record':record['record_id'],
                 'revision':record.get('revision',source['pinned_version']),'text':text}
         if any(packet_basis_hash(packet)==packet_basis_hash(old) for old in failed):continue
+        if packet_rejected(packet,row):continue
         ident=slug(row['term'])+'-v2-'+digest({'basis':packet_basis_hash(packet),'redraft_of':row['failed_entry_ids']})[:10]
         packet.update(id=ident,source_label=record['term'],licence=source['licence'],
                       source_snapshot_sha256=record['snapshot_sha256'],url=record['url'],

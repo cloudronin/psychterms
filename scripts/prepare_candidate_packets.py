@@ -5,7 +5,7 @@ from core import ROOT,digest,slug,load_inputs
 from check_packets import validate_packet
 from source_coverage_audit import load_records,norm
 from scope_rules import decide
-from redraft_policy import packet_basis_hash,headword_key
+from redraft_policy import packet_rejected,packet_basis_hash,headword_key
 
 def excerpt(text,term,limit=4200):
     if len(text)<=limit:return text,0,len(text)
@@ -57,6 +57,7 @@ def prepare(directory,out):
             basis={'term':term,'source':source['id'],'source_record':record['record_id'],
                    'revision':'Flat export snapshot 2026-10-18' if source['id']=='ncit' else source['pinned_version'],'text':text}
             if word_key in redrafts and any(packet_basis_hash(basis)==packet_basis_hash(failed_packets[i]) for i in redrafts[word_key]['failed_entry_ids']):continue
+            if packet_rejected(basis,redrafts.get(word_key,{})):continue
             selected=(source,record,text,start,end);break
         if not selected:
             pending.append({'term':term,'reason':'No sufficiently contextual, admitted source-text packet','retrieval_status':'scope_excluded_before_spend' if scope_rejected else row['status']});continue

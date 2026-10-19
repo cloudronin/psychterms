@@ -26492,12 +26492,30 @@
       "term": "redundancy",
       "headword_key": "redundancy",
       "status": "candidate",
-      "requirement": "new packet required",
+      "requirement": "new general-sense packet required",
       "failed_entry_ids": [
         "redundancy"
       ],
       "excluded_packet_hashes": [
         "9c1803c586ce875823b517449b82cb20b4bb59941b6b3a82a3a298e7e03337c6"
+      ],
+      "latest_sourcing": {
+        "status": "redraft",
+        "reason": "Silent narrowing: defines construct redundancy as if it were the general headword; needs a general-sense packet or the headword 'construct redundancy'",
+        "requirement": "new general-sense packet required",
+        "failed_entry_ids": [
+          "redundancy"
+        ],
+        "rejected_proposal_id": "redundancy-v3-dfd79156c9",
+        "excluded_packet_basis_hashes": [
+          "920d5dbb069edf9e53e28bb015b445bdf6f9dde6deb216ca8be94019431acede"
+        ],
+        "decision_record": "data/wave-two-correction-decisions.json",
+        "alternative_headword": "construct redundancy",
+        "alternative_requires_new_entry_and_two_reads": true
+      },
+      "excluded_packet_basis_hashes": [
+        "920d5dbb069edf9e53e28bb015b445bdf6f9dde6deb216ca8be94019431acede"
       ]
     },
     {
