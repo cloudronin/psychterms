@@ -26,10 +26,18 @@ a:focus-visible,button:focus-visible,input:focus-visible {
   width:min(1120px,calc(100% - 64px));
   margin-inline:auto}
 .site-header {
-  display:flex;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:24px;
   align-items:center;
   justify-content:space-between;
   padding-block:28px}
+.header-credit {
+  margin:0;
+  font-size:13px;
+  color:var(--muted);
+  text-align:center;
+  white-space:nowrap}
 .wordmark {
   display:flex;
   gap:14px;
@@ -46,6 +54,7 @@ a:focus-visible,button:focus-visible,input:focus-visible {
   color:var(--paper);
   width:50px;
   height:50px;
+  flex:none;
   border-radius:50%}
 .mark svg{width:100%;height:100%}
 nav {
@@ -290,6 +299,10 @@ h1 {
 #search-status {
   font-size:13px;
   color:var(--muted)}
+@media(max-width:900px) {
+  .site-header {grid-template-columns:1fr;gap:12px}
+  .header-credit {text-align:left}
+}
 @media(max-width:700px) {
   .wrap {
   width:calc(100% - 36px)}
