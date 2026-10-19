@@ -27,5 +27,36 @@
     "definition_hash": "1c9d1f38c1825bf6bfc310d3dfccaa8dbd8038e89ab57b437489aa77a5c63a2c",
     "packet_hash": "bc4a5b1bfcbd7ea87973ed72d714ec3b8d7134bba5ecf919f0d860c0aeadae5f"
   },
-  "hash": "695c1119db5ca81ed9ed82f6d9e906cba5525320ddc90e8e94daa42027b2ab3e"
+  "hash": "695c1119db5ca81ed9ed82f6d9e906cba5525320ddc90e8e94daa42027b2ab3e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports FI as the Flexibility Index, an index of the Behavior Rating Inventory of Executive Function, Preschool Version that combines the Shift and Emotional Control scales, but it does not support calling it a “score.”",
+        "The claim that it “reflect[s] flexibility-related executive functioning” is an added interpretation not stated in the source text."
+      ],
+      "definition_hash": "1c9d1f38c1825bf6bfc310d3dfccaa8dbd8038e89ab57b437489aa77a5c63a2c",
+      "packet_hash": "bc4a5b1bfcbd7ea87973ed72d714ec3b8d7134bba5ecf919f0d860c0aeadae5f",
+      "published_packet_hash": "bc4a5b1bfcbd7ea87973ed72d714ec3b8d7134bba5ecf919f0d860c0aeadae5f",
+      "receipt_id": "383ef8af3578493cb2c968de39c710f9",
+      "request_hash": "70c10f586b2d3dc117e996d021faea9da2bb6aa878172829d180927707061f19",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says the combined result “reflect[s] flexibility-related executive functioning,” but the packet only states that FI is an index combining the Shift and Emotional Control scales; it does not explicitly describe the construct as “flexibility-related executive functioning.”"
+      ],
+      "definition_hash": "1c9d1f38c1825bf6bfc310d3dfccaa8dbd8038e89ab57b437489aa77a5c63a2c",
+      "packet_hash": "bc4a5b1bfcbd7ea87973ed72d714ec3b8d7134bba5ecf919f0d860c0aeadae5f",
+      "published_packet_hash": "bc4a5b1bfcbd7ea87973ed72d714ec3b8d7134bba5ecf919f0d860c0aeadae5f",
+      "receipt_id": "c1e64fd5c2bc4f7c9149ff89c393a594",
+      "request_hash": "578c0b465f359f146000867a23c8feb9dd04e4ff1da790d85721433a26dad4dc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

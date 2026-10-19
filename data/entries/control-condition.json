@@ -27,5 +27,38 @@
     "definition_hash": "f6c9a565e9c3a04032553f3dc1215374b81a9115f9f2f89aca792e5d0cd789de",
     "packet_hash": "8119d952ad9c7e05489b4beff9c45852b2191b238c51c09d35a58728baec6cdd"
   },
-  "hash": "1bb02e47e9460b1ef0c45a76fe63a63db553d5fd65f9c58641531dd415ba55d7"
+  "hash": "1bb02e47e9460b1ef0c45a76fe63a63db553d5fd65f9c58641531dd415ba55d7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only a specific effect-size standardizer use of “control condition” in Glass’s Δ, not the broader general definition as a comparison group or situation used to judge an experimental manipulation.",
+        "The phrase “comparison group or situation in an independent-groups study” is not stated in the source passage and goes beyond what is supported there."
+      ],
+      "definition_hash": "f6c9a565e9c3a04032553f3dc1215374b81a9115f9f2f89aca792e5d0cd789de",
+      "packet_hash": "8119d952ad9c7e05489b4beff9c45852b2191b238c51c09d35a58728baec6cdd",
+      "published_packet_hash": "8119d952ad9c7e05489b4beff9c45852b2191b238c51c09d35a58728baec6cdd",
+      "receipt_id": "5c12bbcfeb2243b2ad0aec3be1fea710",
+      "request_hash": "18e803c7b8bed155fd9bd1f00e167d1c14c29a915a2c1bc0d9f7b3b75671840d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first claim—“comparison group or situation in an independent-groups study … used as a reference for judging the effects of an experimental manipulation”—is not supported by the provided packet text.",
+        "Although the packet mentions “Glass's Δ SD pre measurement or control condition” and notes this is used when “experimental manipulation might affect the SD,” the packet does not define what a “control condition” is in general terms beyond that usage.",
+        "The definition’s wording about using the control condition’s standard deviation as a reference is only partially supported (the packet supports the idea of using SD from the pre-measurement or control condition), but the full narrative framing is not explicitly stated in the packet."
+      ],
+      "definition_hash": "f6c9a565e9c3a04032553f3dc1215374b81a9115f9f2f89aca792e5d0cd789de",
+      "packet_hash": "8119d952ad9c7e05489b4beff9c45852b2191b238c51c09d35a58728baec6cdd",
+      "published_packet_hash": "8119d952ad9c7e05489b4beff9c45852b2191b238c51c09d35a58728baec6cdd",
+      "receipt_id": "49d7d6754a6249bc9d8d27a67beaa5de",
+      "request_hash": "fbfb4b5a7618200a0d59bb98f9162cd06656889f01bfc8b2347c60516d0152cd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

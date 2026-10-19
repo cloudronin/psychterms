@@ -27,5 +27,35 @@
     "definition_hash": "f87d39069deb5bc779f9c88447d61835036e8dd86e263ad2adcd7484417c4ad3",
     "packet_hash": "180bb0e4f8befce2ef4942d06291d50d09afecabd1c8f1220d8ca9de5c8b4bf9"
   },
-  "hash": "95e54da3cb44ead3827002eb5e32c182360a7c7ed7a4292e4075f1bec4bd2308"
+  "hash": "95e54da3cb44ead3827002eb5e32c182360a7c7ed7a4292e4075f1bec4bd2308",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f87d39069deb5bc779f9c88447d61835036e8dd86e263ad2adcd7484417c4ad3",
+      "packet_hash": "180bb0e4f8befce2ef4942d06291d50d09afecabd1c8f1220d8ca9de5c8b4bf9",
+      "published_packet_hash": "180bb0e4f8befce2ef4942d06291d50d09afecabd1c8f1220d8ca9de5c8b4bf9",
+      "receipt_id": "da45d54f728d480284c7b88bd996447d",
+      "request_hash": "66068a0e68f22274ffb769f2ebe573a4000f4b85c5cf6c9c044c10c72f7c3bcc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define a “directional test” as a significance test or as a procedure that “calculates probability … as extreme as the observed one,” even though it discusses the “last step in significance testing” and computing a “one-tailed probability.”",
+        "The packet does not explicitly state that a “directional test” is the same as a “one-tailed test”/“one-tailed probability.” It describes “one-tailed probability” but does not directly equate that with “directional test.”",
+        "The example given in the definition (“values larger than the null-hypothesized parameter”) is directionally similar to the packet’s example (statistic larger than the parameter) but the specific formulation and equivalence claims for “directional test” are not directly supported."
+      ],
+      "definition_hash": "f87d39069deb5bc779f9c88447d61835036e8dd86e263ad2adcd7484417c4ad3",
+      "packet_hash": "180bb0e4f8befce2ef4942d06291d50d09afecabd1c8f1220d8ca9de5c8b4bf9",
+      "published_packet_hash": "180bb0e4f8befce2ef4942d06291d50d09afecabd1c8f1220d8ca9de5c8b4bf9",
+      "receipt_id": "69b4b367b6dd4b9c981e9872e950cba4",
+      "request_hash": "65f42c428eaccf16a8095e5c1a3b77343be65888d955fcd11df81e06bb200b64",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

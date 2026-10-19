@@ -27,5 +27,39 @@
     "definition_hash": "d5450493e4f90407a1f19895f63d9158e1f2899b9e14557ac134c40220550417",
     "packet_hash": "8d7b2e02049a926c4187fa23d10a52f7dcafbbcac5363a6eab63bf0809dedf8a"
   },
-  "hash": "476859c6294da1b1e65c7307124e245da195133b2f4488ccdb5b18fbbbacfbf8"
+  "hash": "476859c6294da1b1e65c7307124e245da195133b2f4488ccdb5b18fbbbacfbf8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes retinal/retinaldehyde as the active component of the visual cycle, not the visual cycle itself, so the definition uses the wrong sense of the term.",
+        "The opening claim that the visual cycle is the light-driven process in vision is not directly supported by the packet; the packet only states that visible light converts 11-cis-retinal to 11-trans-retinal as part of rhodopsin’s response.",
+        "The definition is more expansive than the packet and turns a descriptor entry for a molecule into a definition of the entire visual cycle."
+      ],
+      "definition_hash": "d5450493e4f90407a1f19895f63d9158e1f2899b9e14557ac134c40220550417",
+      "packet_hash": "8d7b2e02049a926c4187fa23d10a52f7dcafbbcac5363a6eab63bf0809dedf8a",
+      "published_packet_hash": "8d7b2e02049a926c4187fa23d10a52f7dcafbbcac5363a6eab63bf0809dedf8a",
+      "receipt_id": "b52483afa9184ad395b2017529d3266e",
+      "request_hash": "0e75fa60c574498929f19325e3440a830d3f6e7fd414ee36fa23e065745d03c7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “retinal” is “the light-sensitive part of rhodopsin”; the packet describes 11-cis-retinal as the prosthetic group of rhodopsin and the active component of the visual cycle, but does not explicitly call it “the light-sensitive part.”",
+        "The definition says the shape change “starts visual signaling”; the packet says the shape change “trigger[s] the visual process,” but does not explicitly support the term “visual signaling.”",
+        "The clause “so the system can be used again” is not explicitly stated or directly supported; the packet only says energy-requiring enzyme-catalyzed reactions convert 11-trans-retinal back to the cis form."
+      ],
+      "definition_hash": "d5450493e4f90407a1f19895f63d9158e1f2899b9e14557ac134c40220550417",
+      "packet_hash": "8d7b2e02049a926c4187fa23d10a52f7dcafbbcac5363a6eab63bf0809dedf8a",
+      "published_packet_hash": "8d7b2e02049a926c4187fa23d10a52f7dcafbbcac5363a6eab63bf0809dedf8a",
+      "receipt_id": "d13f7853bb5b454d85e099ff20485be3",
+      "request_hash": "874d96f25b22fd8bd8c818155fa299fce136f8a66cac964a443a3b1ccc0141ca",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

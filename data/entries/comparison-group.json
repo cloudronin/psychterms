@@ -27,5 +27,35 @@
     "definition_hash": "c95c5433a5e1fa78bca4c033735e2d87b8e29f7d69615ae3c9cb6a0811a73e18",
     "packet_hash": "a2d7b7149f7e0192637811293e43755949ffbb81840971a0091567af2b90be41"
   },
-  "hash": "d58c0c128544a33f7ad0433c290845a993af9975654a0b4493bd088e18c32829"
+  "hash": "d58c0c128544a33f7ad0433c290845a993af9975654a0b4493bd088e18c32829",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c95c5433a5e1fa78bca4c033735e2d87b8e29f7d69615ae3c9cb6a0811a73e18",
+      "packet_hash": "a2d7b7149f7e0192637811293e43755949ffbb81840971a0091567af2b90be41",
+      "published_packet_hash": "a2d7b7149f7e0192637811293e43755949ffbb81840971a0091567af2b90be41",
+      "receipt_id": "34930278e23942e59a73d44944414fda",
+      "request_hash": "9c0577d17fbb818337b51acd439676602e6fe2f59e06740721f67236952cef39",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text describes matched-pair analysis, not the term ‘comparison group,’ so the requested sense is not supported by the source record.",
+        "The definition adds a general definition of a comparison group as a study group matched on outside factors; the packet only supports individual pairing for comparability and does not define the term as such.",
+        "The statement that the comparison group ‘is used to help make fair comparisons in matched-pair analysis’ is not supported by the packet and appears to reverse the relationship described there."
+      ],
+      "definition_hash": "c95c5433a5e1fa78bca4c033735e2d87b8e29f7d69615ae3c9cb6a0811a73e18",
+      "packet_hash": "a2d7b7149f7e0192637811293e43755949ffbb81840971a0091567af2b90be41",
+      "published_packet_hash": "a2d7b7149f7e0192637811293e43755949ffbb81840971a0091567af2b90be41",
+      "receipt_id": "3ff5cc8f4cc74af996ae48cb033e0917",
+      "request_hash": "c7245d6d410c89f555b12c947ed5f104b46e243a4237e11caebddbc391ed1184",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

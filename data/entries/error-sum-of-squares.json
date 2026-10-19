@@ -27,5 +27,33 @@
     "definition_hash": "195a11c7029960a3e41a13ad5b08038b66d9ce0f4b7d28e7724d4ac802e4486a",
     "packet_hash": "0d4ac3352ec8543e0c5a3b8dacb570f30d4ccf89d6a9e0aefdb994ed87b5884c"
   },
-  "hash": "9bce251998a73aaae27e9a09f22f740871e37b1fc76926079f4b88076c432ef7"
+  "hash": "9bce251998a73aaae27e9a09f22f740871e37b1fc76926079f4b88076c432ef7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "195a11c7029960a3e41a13ad5b08038b66d9ce0f4b7d28e7724d4ac802e4486a",
+      "packet_hash": "0d4ac3352ec8543e0c5a3b8dacb570f30d4ccf89d6a9e0aefdb994ed87b5884c",
+      "published_packet_hash": "0d4ac3352ec8543e0c5a3b8dacb570f30d4ccf89d6a9e0aefdb994ed87b5884c",
+      "receipt_id": "768034b7a31b47b5945a2c9ecfd847ea",
+      "request_hash": "09689e92319f09db67a85a6b86163c1df8e29eed259c4ec08c9b6f0df31e1d3d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The ANOVA portion claims the error sum of squares is “the squared variation not explained by the relevant group means,” but the packet describes it instead as “the sum of squared deviations from cell means” (between-subjects factors) and the “Subjects x Treatment interaction” (within-subject factors). The “not explained by…group means” framing is not supported by the provided text."
+      ],
+      "definition_hash": "195a11c7029960a3e41a13ad5b08038b66d9ce0f4b7d28e7724d4ac802e4486a",
+      "packet_hash": "0d4ac3352ec8543e0c5a3b8dacb570f30d4ccf89d6a9e0aefdb994ed87b5884c",
+      "published_packet_hash": "0d4ac3352ec8543e0c5a3b8dacb570f30d4ccf89d6a9e0aefdb994ed87b5884c",
+      "receipt_id": "73e1a2205c284b8eaaec1f8ae61564de",
+      "request_hash": "d169a6e74d757785900f6a93ddd49bd77f782870c33d177b7bdf40c0f27ca6cd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

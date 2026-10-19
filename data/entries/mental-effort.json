@@ -27,5 +27,35 @@
     "definition_hash": "8de30f31b3d695e6a0a2021ebefbee0dedb07c1a85e0f376238d2cad4d6e084e",
     "packet_hash": "9118048ee395009af22b961535d1d32ef4be1df8bf469ea84245fded300b4c08"
   },
-  "hash": "b08b4f861211bbea40ec1e0cc997dfc3ab74a08a6baa01836afd43f30a3bc3d1"
+  "hash": "b08b4f861211bbea40ec1e0cc997dfc3ab74a08a6baa01836afd43f30a3bc3d1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8de30f31b3d695e6a0a2021ebefbee0dedb07c1a85e0f376238d2cad4d6e084e",
+      "packet_hash": "9118048ee395009af22b961535d1d32ef4be1df8bf469ea84245fded300b4c08",
+      "published_packet_hash": "9118048ee395009af22b961535d1d32ef4be1df8bf469ea84245fded300b4c08",
+      "receipt_id": "46309eb3628f47b992647b3cc91a6bc5",
+      "request_hash": "fdc3265ef3b780a3267c88ff7e1a9b01fa7f66ed23afb74ec481cdc2077e6638",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the concept of recalling/recollecting information, not the term “mental effort” as defined here.",
+        "The definition shifts the head term to a general “use of the mind” explanation and adds an example (“such as when trying to remember something”) that is not stated in the packet.",
+        "The packet’s source label is “Recollect,” so this entry appears to be for recollection rather than the general phrase “mental effort.”"
+      ],
+      "definition_hash": "8de30f31b3d695e6a0a2021ebefbee0dedb07c1a85e0f376238d2cad4d6e084e",
+      "packet_hash": "9118048ee395009af22b961535d1d32ef4be1df8bf469ea84245fded300b4c08",
+      "published_packet_hash": "9118048ee395009af22b961535d1d32ef4be1df8bf469ea84245fded300b4c08",
+      "receipt_id": "fb4fdcdc46704a5a9d3e2b2f1d5ecec0",
+      "request_hash": "7de63d263221cc1a68ad797479aa805c3debcfceabe79818e05be6bc071161e3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

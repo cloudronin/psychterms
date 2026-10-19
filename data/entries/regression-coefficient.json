@@ -27,5 +27,34 @@
     "definition_hash": "4a99285d392059f2619eae8d5645570d089be32a13afa407e7b2e84d0717c42e",
     "packet_hash": "2bf1e398ab3c11db973f0c893f11d4f3dbf210943f7a07b6b67a547e10624879"
   },
-  "hash": "71cb2fd5e7d117cc949715a8341e79ae4d076bfa3612aff75df62e7bd2203ab9"
+  "hash": "71cb2fd5e7d117cc949715a8341e79ae4d076bfa3612aff75df62e7bd2203ab9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4a99285d392059f2619eae8d5645570d089be32a13afa407e7b2e84d0717c42e",
+      "packet_hash": "2bf1e398ab3c11db973f0c893f11d4f3dbf210943f7a07b6b67a547e10624879",
+      "published_packet_hash": "2bf1e398ab3c11db973f0c893f11d4f3dbf210943f7a07b6b67a547e10624879",
+      "receipt_id": "713f7c2f7e6a4a418f45064fa0d19df9",
+      "request_hash": "b878f5fa7a35758e713af5b4c8d7064156b4b2b9fb406bdd1446de747a07c132",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text only states that a regression coefficient is “the slope of the regression line in simple regression or the partial slope in multiple regression.” It does not explicitly support the added clarification that, in multiple regression, it is “for one predictor while the others are taken into account.”",
+        "Because that specific phrasing (“for one predictor while the others are taken into account”) is not present or directly supported in the supplied packet, the definition contains an unsupported substantive claim."
+      ],
+      "definition_hash": "4a99285d392059f2619eae8d5645570d089be32a13afa407e7b2e84d0717c42e",
+      "packet_hash": "2bf1e398ab3c11db973f0c893f11d4f3dbf210943f7a07b6b67a547e10624879",
+      "published_packet_hash": "2bf1e398ab3c11db973f0c893f11d4f3dbf210943f7a07b6b67a547e10624879",
+      "receipt_id": "0bb22f2582894ea7a2229477bdae0f98",
+      "request_hash": "d133b98d16bc115b024787a5aaf2c3bfc582f0d387c24fe58a6d5fd3bb441d4b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

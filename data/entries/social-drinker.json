@@ -27,5 +27,34 @@
     "definition_hash": "7d2a829a98866f78f94209f9a8e085cd30d029fa1a8fc778ba3f99f483ec2c6b",
     "packet_hash": "a5cb9927568d03068ef88f2d173e02e5d975f5e7d98b620c95435500b97f9a89"
   },
-  "hash": "97c9fd45f746d5e2d3cebe0cc3c1ae0961e234a5ef1a77fac13e9cf8c1c5e641"
+  "hash": "97c9fd45f746d5e2d3cebe0cc3c1ae0961e234a5ef1a77fac13e9cf8c1c5e641",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7d2a829a98866f78f94209f9a8e085cd30d029fa1a8fc778ba3f99f483ec2c6b",
+      "packet_hash": "a5cb9927568d03068ef88f2d173e02e5d975f5e7d98b620c95435500b97f9a89",
+      "published_packet_hash": "a5cb9927568d03068ef88f2d173e02e5d975f5e7d98b620c95435500b97f9a89",
+      "receipt_id": "b6ff811c10df497392d907121b057123",
+      "request_hash": "1812bbaccd1d53711f1f2d9e0c55987e39b96563ad63d45d4ee3cceb1d1619a5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds “alcohol,” which is not stated in the source text.",
+        "Broadens “social events” to “social settings,” which is not supported by the packet."
+      ],
+      "definition_hash": "7d2a829a98866f78f94209f9a8e085cd30d029fa1a8fc778ba3f99f483ec2c6b",
+      "packet_hash": "a5cb9927568d03068ef88f2d173e02e5d975f5e7d98b620c95435500b97f9a89",
+      "published_packet_hash": "a5cb9927568d03068ef88f2d173e02e5d975f5e7d98b620c95435500b97f9a89",
+      "receipt_id": "2c03fdfcd0164bb3b27fd37c93a0aeee",
+      "request_hash": "81c48ec5a51b32c452863e5f66bb8b728be7ec772322028d7fd1acbf89cca0ac",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "a371e589d878f98bb0ec54d1ea85eae2131c36f88b2b904363769eedee5684b4",
     "packet_hash": "0782b334369bd3b79c7e7984e72e19eaccf4c47a48cf68894dcbf4dbb14cb19c"
   },
-  "hash": "5b986e707c52806b1094a4e1a2de7d232859dd3ca19bc8813a43800860e0d639"
+  "hash": "5b986e707c52806b1094a4e1a2de7d232859dd3ca19bc8813a43800860e0d639",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a371e589d878f98bb0ec54d1ea85eae2131c36f88b2b904363769eedee5684b4",
+      "packet_hash": "0782b334369bd3b79c7e7984e72e19eaccf4c47a48cf68894dcbf4dbb14cb19c",
+      "published_packet_hash": "0782b334369bd3b79c7e7984e72e19eaccf4c47a48cf68894dcbf4dbb14cb19c",
+      "receipt_id": "967450b09c4d4eab88744fc386d04cb5",
+      "request_hash": "bf9016b409a0f0061ac5f221b555f20400b653947e365395f96900aae9c1a3f0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds the qualifier “deliberately” (“deliberately hurts or harms themselves”), but the provided packet definition only states “hurt or harm themselves” and does not explicitly mention deliberateness."
+      ],
+      "definition_hash": "a371e589d878f98bb0ec54d1ea85eae2131c36f88b2b904363769eedee5684b4",
+      "packet_hash": "0782b334369bd3b79c7e7984e72e19eaccf4c47a48cf68894dcbf4dbb14cb19c",
+      "published_packet_hash": "0782b334369bd3b79c7e7984e72e19eaccf4c47a48cf68894dcbf4dbb14cb19c",
+      "receipt_id": "8528465a8e9342d88064cc5e9013a745",
+      "request_hash": "71057a15da3b797e6d1f679778eb4402a6d81301f499e515bb7f37c2b4d20722",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

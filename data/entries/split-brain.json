@@ -27,5 +27,34 @@
     "definition_hash": "91e9f5d22486122fb1aebffcdf38f0d61fa0c6a8e4708635ed314642b9f2ca1e",
     "packet_hash": "55ce0a452e083bca41ab9ff98e82e0d243c82095a44abefb6e46dda2b6e9c53b"
   },
-  "hash": "10279ce551a2ac37cb0635b6f7dfa0b32c6e20d5b2427d3773582aea66ea2e1c"
+  "hash": "10279ce551a2ac37cb0635b6f7dfa0b32c6e20d5b2427d3773582aea66ea2e1c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "91e9f5d22486122fb1aebffcdf38f0d61fa0c6a8e4708635ed314642b9f2ca1e",
+      "packet_hash": "55ce0a452e083bca41ab9ff98e82e0d243c82095a44abefb6e46dda2b6e9c53b",
+      "published_packet_hash": "55ce0a452e083bca41ab9ff98e82e0d243c82095a44abefb6e46dda2b6e9c53b",
+      "receipt_id": "a063110b6c214c018ec583437fbf2837",
+      "request_hash": "b1c4d1c3bc5657d96e0d3505c3024fc80d8f1c95954cf62c3ad913cf491d51b7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a procedure/preparation, not a “condition.” The source labels this as a split-brain procedure and defines it as complete severing of the corpus callosum.",
+        "The definition should stick to the packet’s sense; adding “condition” broadens the term beyond what is supported."
+      ],
+      "definition_hash": "91e9f5d22486122fb1aebffcdf38f0d61fa0c6a8e4708635ed314642b9f2ca1e",
+      "packet_hash": "55ce0a452e083bca41ab9ff98e82e0d243c82095a44abefb6e46dda2b6e9c53b",
+      "published_packet_hash": "55ce0a452e083bca41ab9ff98e82e0d243c82095a44abefb6e46dda2b6e9c53b",
+      "receipt_id": "c10fb713fdff4f1f89d2bb6c4e91852b",
+      "request_hash": "5f1fc67d6f343e1f66eeb737c4ec71290893b3cf1fe61d0e22aaf4192d1b1d35",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

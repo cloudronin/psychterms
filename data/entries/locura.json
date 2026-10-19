@@ -27,5 +27,34 @@
     "definition_hash": "b8d64b3e32bf080d92e70de34c179f3afa8a0ba81b2833e2b223f1d1f41a4e8a",
     "packet_hash": "3d1a9b0ae592d416103f5d7933428461aaf1e275c9a5b7acad2475bba2a4fab6"
   },
-  "hash": "314e79c34c954ccc54f11e2b1788d1107521c65ceced91536bab985ad3e46f7d"
+  "hash": "314e79c34c954ccc54f11e2b1788d1107521c65ceced91536bab985ad3e46f7d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b8d64b3e32bf080d92e70de34c179f3afa8a0ba81b2833e2b223f1d1f41a4e8a",
+      "packet_hash": "3d1a9b0ae592d416103f5d7933428461aaf1e275c9a5b7acad2475bba2a4fab6",
+      "published_packet_hash": "3d1a9b0ae592d416103f5d7933428461aaf1e275c9a5b7acad2475bba2a4fab6",
+      "receipt_id": "d6b82840571d44b9befc650cf33ba7fb",
+      "request_hash": "b4f6716f9120c8f65f57c15a24525606751b04d8b3d2748d9e912ae542627d09",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet explicitly links the Spanish word “locura” to “insanity” as part of the list of synonyms (“Sp. insania, locura”), but it does not state that “locura” means “madness” in the same way.",
+        "Because “madness” is not substantiated as a requested sense for the term “locura” within the provided excerpt, the definition’s “insanity or madness” wording is only partially supported."
+      ],
+      "definition_hash": "b8d64b3e32bf080d92e70de34c179f3afa8a0ba81b2833e2b223f1d1f41a4e8a",
+      "packet_hash": "3d1a9b0ae592d416103f5d7933428461aaf1e275c9a5b7acad2475bba2a4fab6",
+      "published_packet_hash": "3d1a9b0ae592d416103f5d7933428461aaf1e275c9a5b7acad2475bba2a4fab6",
+      "receipt_id": "98e494b91a074c4fa08c0fe40f93245b",
+      "request_hash": "adf96a5c33bb0cbef1426c4889f930432b307721abc5694cc3e206fde4cae825",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

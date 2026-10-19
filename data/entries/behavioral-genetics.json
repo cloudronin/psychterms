@@ -27,5 +27,34 @@
     "definition_hash": "d7c4b9f726c3d86a0c14a796825a8757a1ed3d693341ffec8cd45ff31a38e5ee",
     "packet_hash": "f7bdc4b2f3917e45534e95dc5d31ca70b17f9e6c755754d984680e8cf6419670"
   },
-  "hash": "2de254b33e60163eab23796b498ddaa9a2a40b463181414c76f577cb2c1f9ed4"
+  "hash": "2de254b33e60163eab23796b498ddaa9a2a40b463181414c76f577cb2c1f9ed4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d7c4b9f726c3d86a0c14a796825a8757a1ed3d693341ffec8cd45ff31a38e5ee",
+      "packet_hash": "f7bdc4b2f3917e45534e95dc5d31ca70b17f9e6c755754d984680e8cf6419670",
+      "published_packet_hash": "f7bdc4b2f3917e45534e95dc5d31ca70b17f9e6c755754d984680e8cf6419670",
+      "receipt_id": "48ae9962777546418253b6c57dbe85e2",
+      "request_hash": "16261e35800e13d1bb50431a919cda6b91d4f24bc9ced8c8d227546ba45de1e8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase \"substance use\" is not supported by the packet, which specifies \"substance abuse.\"",
+        "The definition slightly broadens the source by saying \"patterns of behavior\" rather than the packet's narrower \"behavioral phenotypes.\""
+      ],
+      "definition_hash": "d7c4b9f726c3d86a0c14a796825a8757a1ed3d693341ffec8cd45ff31a38e5ee",
+      "packet_hash": "f7bdc4b2f3917e45534e95dc5d31ca70b17f9e6c755754d984680e8cf6419670",
+      "published_packet_hash": "f7bdc4b2f3917e45534e95dc5d31ca70b17f9e6c755754d984680e8cf6419670",
+      "receipt_id": "382a34db92fc41f399252a66524721ca",
+      "request_hash": "597929a4d3949510a4e57608fe80f4a3fa16e3f18528b5e3d060c3d14089328f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

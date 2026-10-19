@@ -27,5 +27,36 @@
     "definition_hash": "b5d35933a271b4e1026f3a07de96f11f8fdd8676e99a996f71bccf40038676c6",
     "packet_hash": "6b96f37178b7f9aee821246476d3b23eec15c14e49ccbf20d8dfd7e984bd367a"
   },
-  "hash": "e731bc3179afff1c772e3b2a54b0892e2dcd783819f1118828861649f6c07a62"
+  "hash": "e731bc3179afff1c772e3b2a54b0892e2dcd783819f1118828861649f6c07a62",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a suicide attempt or gesture without intent to die, but it does not support the added generalization to “self-harming act.”",
+        "The definition should stay within the packet’s wording and sense; it reads broader than the supported CTCAE finding."
+      ],
+      "definition_hash": "b5d35933a271b4e1026f3a07de96f11f8fdd8676e99a996f71bccf40038676c6",
+      "packet_hash": "6b96f37178b7f9aee821246476d3b23eec15c14e49ccbf20d8dfd7e984bd367a",
+      "published_packet_hash": "6b96f37178b7f9aee821246476d3b23eec15c14e49ccbf20d8dfd7e984bd367a",
+      "receipt_id": "2e16218c0be1444694ee5e8759be1080",
+      "request_hash": "886dbfe10f9d31a9307553d52a0641401425f0a195a9309e0aeb443f21823130",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text supports “suicide attempt or gesture without intent to die,” but it does not explicitly mention “self-harming” acts; the definition adds “self-harming” beyond the packet."
+      ],
+      "definition_hash": "b5d35933a271b4e1026f3a07de96f11f8fdd8676e99a996f71bccf40038676c6",
+      "packet_hash": "6b96f37178b7f9aee821246476d3b23eec15c14e49ccbf20d8dfd7e984bd367a",
+      "published_packet_hash": "6b96f37178b7f9aee821246476d3b23eec15c14e49ccbf20d8dfd7e984bd367a",
+      "receipt_id": "8d6a67e77ed64c759d7f5b66acaf26eb",
+      "request_hash": "0d39ef30b9f161d87ee73561b27a7dc99fcbddfc1bf09d4c95afc9c15f532967",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

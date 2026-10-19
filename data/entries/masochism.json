@@ -27,5 +27,34 @@
     "definition_hash": "ab6131058a66cf5a54a2328d7373c561d1af6bcbdf337eed838f2ba3ae4d6a99",
     "packet_hash": "93fd89dcfaf8773083dd5f73c5df10da61f9511fc7475a3334206cf5f21fcc0a"
   },
-  "hash": "2bb3dfc181e8a5ad2dd1ab2453237d03a11e24758f7260b6c47c6b8328973c26"
+  "hash": "2bb3dfc181e8a5ad2dd1ab2453237d03a11e24758f7260b6c47c6b8328973c26",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ab6131058a66cf5a54a2328d7373c561d1af6bcbdf337eed838f2ba3ae4d6a99",
+      "packet_hash": "93fd89dcfaf8773083dd5f73c5df10da61f9511fc7475a3334206cf5f21fcc0a",
+      "published_packet_hash": "93fd89dcfaf8773083dd5f73c5df10da61f9511fc7475a3334206cf5f21fcc0a",
+      "receipt_id": "2decf69fa21b47358a28a5a47cb9adcd",
+      "request_hash": "e7f96df29a9fa66cbb50638d173c0b3e0028d2a11f70c1fc1b12066a44276444",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “humiliated,” but the packet only states “physically or psychologically abused” and does not mention humiliation explicitly.",
+        "The packet wording is “physically or psychologically abused,” while the definition uses “being physically or psychologically hurt”; the substitution is close but not explicitly supported by the packet’s phrasing."
+      ],
+      "definition_hash": "ab6131058a66cf5a54a2328d7373c561d1af6bcbdf337eed838f2ba3ae4d6a99",
+      "packet_hash": "93fd89dcfaf8773083dd5f73c5df10da61f9511fc7475a3334206cf5f21fcc0a",
+      "published_packet_hash": "93fd89dcfaf8773083dd5f73c5df10da61f9511fc7475a3334206cf5f21fcc0a",
+      "receipt_id": "93cde26bc35c44a9862fc38e51d14600",
+      "request_hash": "5c32e116ff39c11e44d6a832a294c43970bd30bd31d1955dde24156fc2285a08",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

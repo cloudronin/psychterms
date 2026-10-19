@@ -27,5 +27,34 @@
     "definition_hash": "2edbc07cb190db90b1e8a5e61ee00f9bea13fdfdd450aa51a5b7c2b37ad10a0c",
     "packet_hash": "2d4c260296a413e674b49f30c8a6341aada075e934aadc0650d40667432a8307"
   },
-  "hash": "d2bb53a0f0676e367e47687d04f3e970977ba505ca5de70c80ef7cdf2cdc7bbb"
+  "hash": "d2bb53a0f0676e367e47687d04f3e970977ba505ca5de70c80ef7cdf2cdc7bbb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2edbc07cb190db90b1e8a5e61ee00f9bea13fdfdd450aa51a5b7c2b37ad10a0c",
+      "packet_hash": "2d4c260296a413e674b49f30c8a6341aada075e934aadc0650d40667432a8307",
+      "published_packet_hash": "2d4c260296a413e674b49f30c8a6341aada075e934aadc0650d40667432a8307",
+      "receipt_id": "318c27ceca8d4758998acbcb7120fca0",
+      "request_hash": "1a2fe5c3f08ad44adbee345333042f080de206a5adae1db206cd3347110f209d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “between-subjects design” in terms of placing different participants into different conditions/groups versus measuring the same participants across conditions.",
+        "The provided text only mentions “between-subjects designs” and “within-subjects designs” in general, without the specific participant/condition distinction stated in the definition."
+      ],
+      "definition_hash": "2edbc07cb190db90b1e8a5e61ee00f9bea13fdfdd450aa51a5b7c2b37ad10a0c",
+      "packet_hash": "2d4c260296a413e674b49f30c8a6341aada075e934aadc0650d40667432a8307",
+      "published_packet_hash": "2d4c260296a413e674b49f30c8a6341aada075e934aadc0650d40667432a8307",
+      "receipt_id": "329ee5d1aa7e4991b0043e021b350014",
+      "request_hash": "50551b65125cafd5fdba8ae25917aa538d00f5ac73cbd708e3de79bea6948ab3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

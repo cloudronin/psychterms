@@ -27,5 +27,34 @@
     "definition_hash": "97e1a709127c31cf12043d5d2ac1fad31d17dfe3760e0de487034b2a3e02063a",
     "packet_hash": "009866fa5ce2060de97949febf2c49dc9ed5d846cb3431a593db0776b91ec301"
   },
-  "hash": "dbcc5bbaea1e07ec1f82a034eb48b112078c34c8b40d0dea95438b3b6a5aedc3"
+  "hash": "dbcc5bbaea1e07ec1f82a034eb48b112078c34c8b40d0dea95438b3b6a5aedc3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "97e1a709127c31cf12043d5d2ac1fad31d17dfe3760e0de487034b2a3e02063a",
+      "packet_hash": "009866fa5ce2060de97949febf2c49dc9ed5d846cb3431a593db0776b91ec301",
+      "published_packet_hash": "009866fa5ce2060de97949febf2c49dc9ed5d846cb3431a593db0776b91ec301",
+      "receipt_id": "273ba7919d2e4242ae7a50073856cd8d",
+      "request_hash": "2c7eb6125bcefe918e1af561995760a4e8facf9c9723d50eb07141492499495d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an autoimmune systemic arteritis involving arteries supplying the central nervous system, head, and eyes, but it does not explicitly support the added claim that it is a disease of medium and large arteries.",
+        "The definition is otherwise close to the packet, but the unsupported vessel-size generalization prevents a pass."
+      ],
+      "definition_hash": "97e1a709127c31cf12043d5d2ac1fad31d17dfe3760e0de487034b2a3e02063a",
+      "packet_hash": "009866fa5ce2060de97949febf2c49dc9ed5d846cb3431a593db0776b91ec301",
+      "published_packet_hash": "009866fa5ce2060de97949febf2c49dc9ed5d846cb3431a593db0776b91ec301",
+      "receipt_id": "3c1ca5cafc4d4dc4ad2e4e8582afad9f",
+      "request_hash": "83888fb7601271ab35aacfb0d1474d5bd50975f231b178fe5a6a93f7ab4b9aac",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

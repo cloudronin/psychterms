@@ -27,5 +27,34 @@
     "definition_hash": "f90526afaf533bcec374e420bdfc4ce73ed6a91ffd8fc9161842ff3dfc2c622a",
     "packet_hash": "dab59c9600a85c545d5f847ede1efcee15e0c7894524a4dffae9d40903f8cd19"
   },
-  "hash": "bf36483af77ff58a68a1ce11aca3efea6527a0376ebe658f095becf60a7f03f4"
+  "hash": "bf36483af77ff58a68a1ce11aca3efea6527a0376ebe658f095becf60a7f03f4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f90526afaf533bcec374e420bdfc4ce73ed6a91ffd8fc9161842ff3dfc2c622a",
+      "packet_hash": "dab59c9600a85c545d5f847ede1efcee15e0c7894524a4dffae9d40903f8cd19",
+      "published_packet_hash": "dab59c9600a85c545d5f847ede1efcee15e0c7894524a4dffae9d40903f8cd19",
+      "receipt_id": "de553548a40e456f93542820979e4d25",
+      "request_hash": "4ad474364b80d60824214db5cfbab9cb28d26b00b4e9eae5c6155b0a0287bd34",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet contains the phrase “epileptogenic CEREBRAL CORTEX” in the context of hemispherectomy, but it does not define “epileptogenic” as tissue “capable of generating or driving epileptic seizures.”",
+        "The definition’s key mechanism claim (“capable of generating or driving epileptic seizures”) is not explicitly supported by any text in the packet; the packet only describes a procedure involving “epileptogenic” cortex and mentions epilepsy generally."
+      ],
+      "definition_hash": "f90526afaf533bcec374e420bdfc4ce73ed6a91ffd8fc9161842ff3dfc2c622a",
+      "packet_hash": "dab59c9600a85c545d5f847ede1efcee15e0c7894524a4dffae9d40903f8cd19",
+      "published_packet_hash": "dab59c9600a85c545d5f847ede1efcee15e0c7894524a4dffae9d40903f8cd19",
+      "receipt_id": "832884a12470495bb5626996d53d1c62",
+      "request_hash": "440e84ead873f6d1d24e48c4ff6baec84757b5a02cf7557bfaef75e86be3af4d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

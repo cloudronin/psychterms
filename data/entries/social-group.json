@@ -27,5 +27,36 @@
     "definition_hash": "0677ac838b53c52b46696da0eb87a22ae215ec5e90ea9c1e895256d34586180c",
     "packet_hash": "b6b853e57aedea2021c5c94ecb3b8860309e7aa5c7ea921c8b17753e7cf711ed"
   },
-  "hash": "f98bddd7a24550fb5cb053be41b60adf259381ec261a6713c6661d9b058772f9"
+  "hash": "f98bddd7a24550fb5cb053be41b60adf259381ec261a6713c6661d9b058772f9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds unsupported phrasing that a social group is one that people 'see themselves as' sharing and that the identity is 'shaped by' shared beliefs, codes of conduct, culture, and social norms; the packet only supports that the group shares a common identity defined by those factors."
+      ],
+      "definition_hash": "0677ac838b53c52b46696da0eb87a22ae215ec5e90ea9c1e895256d34586180c",
+      "packet_hash": "b6b853e57aedea2021c5c94ecb3b8860309e7aa5c7ea921c8b17753e7cf711ed",
+      "published_packet_hash": "b6b853e57aedea2021c5c94ecb3b8860309e7aa5c7ea921c8b17753e7cf711ed",
+      "receipt_id": "588dd25089a84d6d90499c72c467286d",
+      "request_hash": "e10355d145cfe3da17f333f7560de7a11e9a737c9973de85c6977e5d0aa2cf62",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that members “see themselves” as sharing a common identity; it only says they “share a common identity.”",
+        "The definition’s phrasing that identity is “shaped by shared beliefs, codes of conduct, culture, and social norms” is largely consistent with the packet, but the added “see themselves” component is not supported."
+      ],
+      "definition_hash": "0677ac838b53c52b46696da0eb87a22ae215ec5e90ea9c1e895256d34586180c",
+      "packet_hash": "b6b853e57aedea2021c5c94ecb3b8860309e7aa5c7ea921c8b17753e7cf711ed",
+      "published_packet_hash": "b6b853e57aedea2021c5c94ecb3b8860309e7aa5c7ea921c8b17753e7cf711ed",
+      "receipt_id": "6694a9328a924b8fab88144a37420c40",
+      "request_hash": "e8461f8512238bd8db6a804c1e5771398d93eb80f6b47a48d02078e70af7102e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

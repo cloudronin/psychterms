@@ -27,5 +27,34 @@
     "definition_hash": "62253635964c80707f02a35253214af7683742fb37d60a6b21ca6b5f9201012c",
     "packet_hash": "5f81696a02edac9657719b31507431ee1130c24d84efc86567028c019337664d"
   },
-  "hash": "596004bbf3ffd56c699f6d038abebdc21b407919201b014917bc638ef6159033"
+  "hash": "596004bbf3ffd56c699f6d038abebdc21b407919201b014917bc638ef6159033",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "62253635964c80707f02a35253214af7683742fb37d60a6b21ca6b5f9201012c",
+      "packet_hash": "5f81696a02edac9657719b31507431ee1130c24d84efc86567028c019337664d",
+      "published_packet_hash": "5f81696a02edac9657719b31507431ee1130c24d84efc86567028c019337664d",
+      "receipt_id": "2d52b0c7b8fc4423976ae064b83a4d29",
+      "request_hash": "83ae49896563f039b1f8781157bff519e4d966164bbeb54b6fd44c475b744092",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the agent \"binds neurokinin 1 receptors,\" but the packet only states it is an \"antagonist\" of the neurokinin 1 (substance P) receptor (NK1R); it does not explicitly say \"binds.\"",
+        "The definition’s wording \"used in PET imaging\" is broadly supported (the packet says it functions as a \"positron emission tomography (PET) imaging agent\"), but because one substantive claim (“binds”) is not directly supported, the overall definition cannot be fully accepted."
+      ],
+      "definition_hash": "62253635964c80707f02a35253214af7683742fb37d60a6b21ca6b5f9201012c",
+      "packet_hash": "5f81696a02edac9657719b31507431ee1130c24d84efc86567028c019337664d",
+      "published_packet_hash": "5f81696a02edac9657719b31507431ee1130c24d84efc86567028c019337664d",
+      "receipt_id": "ad8de7c1266f4fbc991cf59f315b25bb",
+      "request_hash": "965d5b9b130fa5d42feda90ffcd88e6a693b89cafa6a42f543b90bfb9b78b695",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

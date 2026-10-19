@@ -27,5 +27,38 @@
     "definition_hash": "db94280c64d1c070e34e78e6f181ad4735b0afd8779460c113c334af7d83ce13",
     "packet_hash": "c7a8db6abc353cb3161fa4fcb9b0f3b3991d8c6a5f4a4b36d29fc16cead93684"
   },
-  "hash": "5f5afb893fcd37d72dd53328cdc79690f77c77b598a8b2396586a94a33d365d3"
+  "hash": "5f5afb893fcd37d72dd53328cdc79690f77c77b598a8b2396586a94a33d365d3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a measurement related to an auditory stimulus, not a definition of the stimulus itself, so the requested sense of the term is not established.",
+        "“Used to trigger or measure a response” is an unsupported generalization beyond the packet text.",
+        "“Average maximum startle response to sound” adds unsupported startle language and changes the packet’s wording."
+      ],
+      "definition_hash": "db94280c64d1c070e34e78e6f181ad4735b0afd8779460c113c334af7d83ce13",
+      "packet_hash": "c7a8db6abc353cb3161fa4fcb9b0f3b3991d8c6a5f4a4b36d29fc16cead93684",
+      "published_packet_hash": "c7a8db6abc353cb3161fa4fcb9b0f3b3991d8c6a5f4a4b36d29fc16cead93684",
+      "receipt_id": "305931b04a2a4e0880bca23672ecbaf6",
+      "request_hash": "0338ef83874b9c197b03a11a7c9cf7f3adb49ca519bdbc13b9a0609f1c617c52",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states: “An auditory stimulus is a sound input used to trigger or measure a response.” The provided packet does not define an auditory stimulus as a sound input or describe its role as triggering responses; it only mentions “an auditory stimulus” in the context of measuring startle responses.",
+        "The packet only supports the idea that the term is used in “the measurement of the average maximal response to an auditory stimulus,” which aligns with the second sentence’s context, but the first sentence contains unsupported generalization."
+      ],
+      "definition_hash": "db94280c64d1c070e34e78e6f181ad4735b0afd8779460c113c334af7d83ce13",
+      "packet_hash": "c7a8db6abc353cb3161fa4fcb9b0f3b3991d8c6a5f4a4b36d29fc16cead93684",
+      "published_packet_hash": "c7a8db6abc353cb3161fa4fcb9b0f3b3991d8c6a5f4a4b36d29fc16cead93684",
+      "receipt_id": "d6d20872968b45d6baa4c0eefbeeee36",
+      "request_hash": "f4d214209dd506037d479aeab96ed4840d09aff3dc9434bddc68cc5731548d00",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

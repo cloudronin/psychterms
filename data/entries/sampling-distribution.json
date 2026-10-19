@@ -27,5 +27,34 @@
     "definition_hash": "498fda98c26ce2b9a9c02905737141fe487a1008002c15e7ca16ba6fb822242b",
     "packet_hash": "182ec12bc2471e7fa374b86d1dcafc7150e97866fcc777ab4a54bc9a5c1c4a7a"
   },
-  "hash": "2bc48a5155419e595a1b95674d7ba0243757a5acb8d58c081e7072791b2a49e6"
+  "hash": "2bc48a5155419e595a1b95674d7ba0243757a5acb8d58c081e7072791b2a49e6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "498fda98c26ce2b9a9c02905737141fe487a1008002c15e7ca16ba6fb822242b",
+      "packet_hash": "182ec12bc2471e7fa374b86d1dcafc7150e97866fcc777ab4a54bc9a5c1c4a7a",
+      "published_packet_hash": "182ec12bc2471e7fa374b86d1dcafc7150e97866fcc777ab4a54bc9a5c1c4a7a",
+      "receipt_id": "a94f46967db24a2e88c59908885ac47c",
+      "request_hash": "377c383ac559ae5383b7f9b5cefb69e2593c728dc6b0daaf9dd89ea64d15e8dd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a sampling distribution for a variable, not for “a statistic or variable,” so the statistic part is unsupported.",
+        "The definition is broadly faithful, but it adds wording about what “you would get” that is not stated in the source; the source instead defines it as a relative frequency distribution approached as the number of samples approaches infinity."
+      ],
+      "definition_hash": "498fda98c26ce2b9a9c02905737141fe487a1008002c15e7ca16ba6fb822242b",
+      "packet_hash": "182ec12bc2471e7fa374b86d1dcafc7150e97866fcc777ab4a54bc9a5c1c4a7a",
+      "published_packet_hash": "182ec12bc2471e7fa374b86d1dcafc7150e97866fcc777ab4a54bc9a5c1c4a7a",
+      "receipt_id": "8a3c11e5e02a4bd889f2a2bb3686204f",
+      "request_hash": "ad0f0269a77e138916c9bc6dc914f0013711a2e840ccacda2974c5521184dff3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

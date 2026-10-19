@@ -27,5 +27,34 @@
     "definition_hash": "e7039391f9b126576c2ad613f0a1fcfe592084947c9da65eea2bedc57660a4f2",
     "packet_hash": "2822cdd0f03421682fb794c1eea489ba3ac18ca013916f1548b6a1fb73394e4a"
   },
-  "hash": "834d4c247d5e5cad056165f5eec6a23dbe02b6a5dd685d2105f2f8576ca34066"
+  "hash": "834d4c247d5e5cad056165f5eec6a23dbe02b6a5dd685d2105f2f8576ca34066",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e7039391f9b126576c2ad613f0a1fcfe592084947c9da65eea2bedc57660a4f2",
+      "packet_hash": "2822cdd0f03421682fb794c1eea489ba3ac18ca013916f1548b6a1fb73394e4a",
+      "published_packet_hash": "2822cdd0f03421682fb794c1eea489ba3ac18ca013916f1548b6a1fb73394e4a",
+      "receipt_id": "1742f06b706348eaa04a544f037d0ae9",
+      "request_hash": "ec148268a1dc5b7e2f02410af92f5e67354a8bff42fc7fe606853372b6c0ebc1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports abnormal sensitivity to light, but it does not explicitly support the broad category “neurological disorders”; it lists migraine, subarachnoid hemorrhage, and meningitis instead.",
+        "The rest of the definition is broadly consistent with the packet, but the unsupported generalization makes the definition fail the required support standard."
+      ],
+      "definition_hash": "e7039391f9b126576c2ad613f0a1fcfe592084947c9da65eea2bedc57660a4f2",
+      "packet_hash": "2822cdd0f03421682fb794c1eea489ba3ac18ca013916f1548b6a1fb73394e4a",
+      "published_packet_hash": "2822cdd0f03421682fb794c1eea489ba3ac18ca013916f1548b6a1fb73394e4a",
+      "receipt_id": "ed5ed74a881a4d9dbf232a0179837531",
+      "request_hash": "6c370668c73deb44286c9f9bb9915e21b55e7a469a090b85fe6c8eb08a2e0fbb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

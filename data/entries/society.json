@@ -27,5 +27,38 @@
     "definition_hash": "fe8efdf680bf76235378803ab5894e9e169e99aaa4bc9b8a90b7e0451cc28208",
     "packet_hash": "07969c52c69169b867ed91890dee45f72f2d805398e84e66d014a51771d2e243"
   },
-  "hash": "5fe841ed16462ec1f165d7128356fe1398fee2a2efae2e30f053fe8adab59a76"
+  "hash": "5fe841ed16462ec1f165d7128356fe1398fee2a2efae2e30f053fe8adab59a76",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is for alcoholism, not for the term society.",
+        "Although the packet supports an alcoholism definition, the requested sense of the term is wrong, so the entry does not match the target term."
+      ],
+      "definition_hash": "fe8efdf680bf76235378803ab5894e9e169e99aaa4bc9b8a90b7e0451cc28208",
+      "packet_hash": "07969c52c69169b867ed91890dee45f72f2d805398e84e66d014a51771d2e243",
+      "published_packet_hash": "07969c52c69169b867ed91890dee45f72f2d805398e84e66d014a51771d2e243",
+      "receipt_id": "2cfcdf1e87334260a538e24a8f406194",
+      "request_hash": "4075ee7b82c4789da4b373a703d9a05def95e1d9585fa864e24a6a4cf4c03e3f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The term provided is \"society,\" but the definition describes \"Alcoholism\" (a different concept than the requested term).",
+        "The definition contains claims not supported by the packet as stated (e.g., \"may be ongoing or come and go over time\" vs. the packet’s \"continuous or periodic\").",
+        "The packet describes a \"primary, chronic\" disease and also states it is \"often progressive and fatal,\" which the definition omits; the omission is substantive enough that the full description is not faithfully supported."
+      ],
+      "definition_hash": "fe8efdf680bf76235378803ab5894e9e169e99aaa4bc9b8a90b7e0451cc28208",
+      "packet_hash": "07969c52c69169b867ed91890dee45f72f2d805398e84e66d014a51771d2e243",
+      "published_packet_hash": "07969c52c69169b867ed91890dee45f72f2d805398e84e66d014a51771d2e243",
+      "receipt_id": "5b26016c4f4847efb89bf4db935564f2",
+      "request_hash": "a7ea6e9991105fb6e361577830eecce15b40bbbdf3c75d4e08e7325c1235632b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "2b4fe42957cada6137e100e850ea09b1bd3d99cd8185142c4fa6d8eb3e01d74f",
     "packet_hash": "614d2b88ad59911d81af9ad7f441bd2e2c239ae859254f382aff6704d4ce074c"
   },
-  "hash": "756376be79e79fbbe50d1c7cc1288a36e7ed3e11ad77062635138c1530e70045"
+  "hash": "756376be79e79fbbe50d1c7cc1288a36e7ed3e11ad77062635138c1530e70045",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2b4fe42957cada6137e100e850ea09b1bd3d99cd8185142c4fa6d8eb3e01d74f",
+      "packet_hash": "614d2b88ad59911d81af9ad7f441bd2e2c239ae859254f382aff6704d4ce074c",
+      "published_packet_hash": "614d2b88ad59911d81af9ad7f441bd2e2c239ae859254f382aff6704d4ce074c",
+      "receipt_id": "59a1fcdfa0a64eae9d6216f0b10bbe1d",
+      "request_hash": "dc07cf063041c7c4cd4ff72087e40216877ba6fadaabf0cd1429e491929c403a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence contains only parts that are supported, but the second sentence (“In historical psychological usage, it refers to discursiveness of thought or talk.”) is not supported by the packet text.",
+        "The packet provides the meaning as “A going astray or rambling in speech or thought,” without the additional phrase “discursiveness of thought or talk.”"
+      ],
+      "definition_hash": "2b4fe42957cada6137e100e850ea09b1bd3d99cd8185142c4fa6d8eb3e01d74f",
+      "packet_hash": "614d2b88ad59911d81af9ad7f441bd2e2c239ae859254f382aff6704d4ce074c",
+      "published_packet_hash": "614d2b88ad59911d81af9ad7f441bd2e2c239ae859254f382aff6704d4ce074c",
+      "receipt_id": "ea1e2bee74d2449c88fe6cb062a6b3bf",
+      "request_hash": "d9f20658c535325aab6fa58f83245666aa2a782286c82ca5aa9308f2ad4d6a0e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

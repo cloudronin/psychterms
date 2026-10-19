@@ -27,5 +27,34 @@
     "definition_hash": "498e94efe890533b86246214896b7fbcac0e41c9d3cbc68123adf7a9697ce09a",
     "packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb"
   },
-  "hash": "70e8f9119fe9aff57bf7e3361177f8b67371d1cbee11b57cb652004974a92a0e"
+  "hash": "70e8f9119fe9aff57bf7e3361177f8b67371d1cbee11b57cb652004974a92a0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "498e94efe890533b86246214896b7fbcac0e41c9d3cbc68123adf7a9697ce09a",
+      "packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb",
+      "published_packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb",
+      "receipt_id": "df6f47990fc24ea8ad0b51ca1d7f4fca",
+      "request_hash": "d316004ac2faa1f433ad777bbeae10b5a83d980d53b1166e7bd2e8e4ca73926a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “sleep–wake cycle” as “the usual 24-hour pattern of sleeping and being awake”; it only describes dyssomnias associated with disruption of the “normal 24 hour sleep wake cycle.”",
+        "The packet supports that disruption is secondary to travel (e.g., jet lag), shift work, or other causes, but the definition’s phrasing about being “associated with circadian rhythm sleep disorders” is not stated in the packet in exactly those terms (it instead refers to dyssomnias under a circadian rhythm sleep disorders taxonomy)."
+      ],
+      "definition_hash": "498e94efe890533b86246214896b7fbcac0e41c9d3cbc68123adf7a9697ce09a",
+      "packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb",
+      "published_packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb",
+      "receipt_id": "97a8f263b70342c5b1edcc3078e7fb70",
+      "request_hash": "2104b15181dbda08140d840ca7f54204ee5e55d4da150a1815b68cf7887b5cc0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

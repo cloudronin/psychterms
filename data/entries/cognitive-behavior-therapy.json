@@ -27,5 +27,34 @@
     "definition_hash": "408e3538f664d790764559a74952ab437bcbe9f8c1c1bc3f96badba9a8905bfe",
     "packet_hash": "c15746f85b0d4555220df7a6d6f85d2ec8305a26851ed55b662815cf46a33112"
   },
-  "hash": "f07e9bc6e3f99beca7fe4456692987d68afd5b88d748b871786b6817ce0eae4a"
+  "hash": "f07e9bc6e3f99beca7fe4456692987d68afd5b88d748b871786b6817ce0eae4a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "408e3538f664d790764559a74952ab437bcbe9f8c1c1bc3f96badba9a8905bfe",
+      "packet_hash": "c15746f85b0d4555220df7a6d6f85d2ec8305a26851ed55b662815cf46a33112",
+      "published_packet_hash": "c15746f85b0d4555220df7a6d6f85d2ec8305a26851ed55b662815cf46a33112",
+      "receipt_id": "1021bcf192d042b3a747c01ca565d0b4",
+      "request_hash": "eea5cf82326d4f5769d277e93f9128b68e8e7ff8ff090fe9809e6cf3e61dddac",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is \"diagnosis\", but the supplied packet describes cognitive behavior therapy as a \"type of psychotherapy\" and labels it as a \"Therapeutic or Preventive Procedure\", not as something diagnostic.",
+        "Although the definition’s content largely matches the packet, the field mismatch makes the requested sense in the \"diagnosis\" context not defensible from the provided source."
+      ],
+      "definition_hash": "408e3538f664d790764559a74952ab437bcbe9f8c1c1bc3f96badba9a8905bfe",
+      "packet_hash": "c15746f85b0d4555220df7a6d6f85d2ec8305a26851ed55b662815cf46a33112",
+      "published_packet_hash": "c15746f85b0d4555220df7a6d6f85d2ec8305a26851ed55b662815cf46a33112",
+      "receipt_id": "64b1f84e898b4e5c8300b3d860369025",
+      "request_hash": "292b88aac82fdd5e65c8d69f8b9e5a82e9f2959ce8b5b3ca998b0fcdfabd57fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

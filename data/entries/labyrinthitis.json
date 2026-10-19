@@ -27,5 +27,34 @@
     "definition_hash": "3ffa2436766cd4aa0c7103fc4041cf9f000ba8bd90bc3b569dae096d5a65a423",
     "packet_hash": "2f9649efbc44967b8be9998e16a1da3737612a3b8bff4678877cd7ede65e2ed6"
   },
-  "hash": "0230fec58c47b4113fc9a2b73d344aebe035da12c39472ad89780a5afc2c24f4"
+  "hash": "0230fec58c47b4113fc9a2b73d344aebe035da12c39472ad89780a5afc2c24f4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3ffa2436766cd4aa0c7103fc4041cf9f000ba8bd90bc3b569dae096d5a65a423",
+      "packet_hash": "2f9649efbc44967b8be9998e16a1da3737612a3b8bff4678877cd7ede65e2ed6",
+      "published_packet_hash": "2f9649efbc44967b8be9998e16a1da3737612a3b8bff4678877cd7ede65e2ed6",
+      "receipt_id": "9ed9b57f6832400683d5d42d435c5a75",
+      "request_hash": "8fba16f52f2dbd8f3e4cd1741b91adf1c11d10bce08492ef4f0e2ca04077ed4d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet defines labyrinthitis as an inner-ear inflammation due to an infectious process (a medical condition), not a primarily mental-health phenomenon; the only mental-health-adjacent element in the packet is that anxiety can occur as a symptom.",
+        "The definition says anxiety is “sometimes” present, but the packet’s symptoms list includes “anxiety” without indicating it is merely occasional (“Symptoms include severe vertigo, nausea, vomiting, anxiety, and pain.”)."
+      ],
+      "definition_hash": "3ffa2436766cd4aa0c7103fc4041cf9f000ba8bd90bc3b569dae096d5a65a423",
+      "packet_hash": "2f9649efbc44967b8be9998e16a1da3737612a3b8bff4678877cd7ede65e2ed6",
+      "published_packet_hash": "2f9649efbc44967b8be9998e16a1da3737612a3b8bff4678877cd7ede65e2ed6",
+      "receipt_id": "a2d0fdc1364e4bdf9597acddf8dc5925",
+      "request_hash": "5e12ed04afbb260954217e7e29df037785d2d5d077a5ac5d679a9c95b6db5d8b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

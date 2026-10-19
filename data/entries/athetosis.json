@@ -27,5 +27,33 @@
     "definition_hash": "422630f37e681eb1e6f0e8b1ad5a4447c53e06a05e35f814224e4c76bbdb268d",
     "packet_hash": "ac0ceac26c054b7f0efbdd9c71e2748de1bab714f578ac5634689c922ffa9850"
   },
-  "hash": "b6955edda52e332132574be7dbef753f2042357d6968490fca51709b66aedd7c"
+  "hash": "b6955edda52e332132574be7dbef753f2042357d6968490fca51709b66aedd7c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "422630f37e681eb1e6f0e8b1ad5a4447c53e06a05e35f814224e4c76bbdb268d",
+      "packet_hash": "ac0ceac26c054b7f0efbdd9c71e2748de1bab714f578ac5634689c922ffa9850",
+      "published_packet_hash": "ac0ceac26c054b7f0efbdd9c71e2748de1bab714f578ac5634689c922ffa9850",
+      "receipt_id": "a929bdefde384713b38eaa4df6399a80",
+      "request_hash": "24d62c084da9f955af8b1e01d827624af94b8d30b2e43fba3c1985e8900d090d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes the descriptor \"writhing\" (\"ongoing slow, writhing, flowing involuntary movements\"), but the packet instead specifies \"continuous slow, sinusoidal, and flowing\" involuntary movements; \"writhing\" is not explicitly supported by the packet text."
+      ],
+      "definition_hash": "422630f37e681eb1e6f0e8b1ad5a4447c53e06a05e35f814224e4c76bbdb268d",
+      "packet_hash": "ac0ceac26c054b7f0efbdd9c71e2748de1bab714f578ac5634689c922ffa9850",
+      "published_packet_hash": "ac0ceac26c054b7f0efbdd9c71e2748de1bab714f578ac5634689c922ffa9850",
+      "receipt_id": "468ff98eaa28427e8a5de3ce7dc3634e",
+      "request_hash": "ba5672974e41a877e0e5d56cffa0dc04124d7f239ccd065727c4ac6c302703ea",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

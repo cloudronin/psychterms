@@ -27,5 +27,34 @@
     "definition_hash": "1a517796af05fbd080f0bacadbd2a701826616717c8385716e40cb03de8a0e01",
     "packet_hash": "f7ec9e53e44ec6f9aed7b78a98476d888d2691d0037f9384466b7bce60d372ed"
   },
-  "hash": "89d0f669851318b2cd7a6c39c6d1441bcd129e357d1854d73b771a07a8b9203f"
+  "hash": "89d0f669851318b2cd7a6c39c6d1441bcd129e357d1854d73b771a07a8b9203f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1a517796af05fbd080f0bacadbd2a701826616717c8385716e40cb03de8a0e01",
+      "packet_hash": "f7ec9e53e44ec6f9aed7b78a98476d888d2691d0037f9384466b7bce60d372ed",
+      "published_packet_hash": "f7ec9e53e44ec6f9aed7b78a98476d888d2691d0037f9384466b7bce60d372ed",
+      "receipt_id": "e78098638a65473ba83abd70a894e931",
+      "request_hash": "9a8a757c23251925460e4e1788e9169ae58986e6c8ce4fcec23bf21a328156c2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states: “In this test three pictures of animals are shown and the individual is asked to name each one.” It does not support describing naming as a “cognitive task that assesses whether a person can identify and say the names,” nor does it explicitly mention the “identify” component.",
+        "The packet does not support the general framing that naming is “a cognitive task” (the packet describes a specific test procedure rather than defining “naming” as a cognitive task. )"
+      ],
+      "definition_hash": "1a517796af05fbd080f0bacadbd2a701826616717c8385716e40cb03de8a0e01",
+      "packet_hash": "f7ec9e53e44ec6f9aed7b78a98476d888d2691d0037f9384466b7bce60d372ed",
+      "published_packet_hash": "f7ec9e53e44ec6f9aed7b78a98476d888d2691d0037f9384466b7bce60d372ed",
+      "receipt_id": "b2ff598acda54bbfab06d0ac58e7b2c3",
+      "request_hash": "7c76ead46813dec2ef5a608b8360337cb8b643f3364bc68172a3b34468a23c41",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "c268fba1658e9deadbafc4478f60b5eda70d509ad0766904fef6b750d70c5998",
     "packet_hash": "cd2b262eeccde6da2869fbadfaad7986db6455777c50ca7e2017c5b85cbcb96f"
   },
-  "hash": "a11c23fe37fd7347dd54b31723babd109c3796bafbfe60c9af26c5f5773d7e89"
+  "hash": "a11c23fe37fd7347dd54b31723babd109c3796bafbfe60c9af26c5f5773d7e89",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c268fba1658e9deadbafc4478f60b5eda70d509ad0766904fef6b750d70c5998",
+      "packet_hash": "cd2b262eeccde6da2869fbadfaad7986db6455777c50ca7e2017c5b85cbcb96f",
+      "published_packet_hash": "cd2b262eeccde6da2869fbadfaad7986db6455777c50ca7e2017c5b85cbcb96f",
+      "receipt_id": "241d8bae9d4f4ae08b1e737a28e00dfe",
+      "request_hash": "37edfc45ce96f0106b2715bca3f8864c2eef56eeac6f81d43b46334ca025d877",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines signal-to-noise ratio as a “comparison of the quantity of meaningful data to the irrelevant or incorrect data,” but it does not explicitly support the wording that it “indicates how much useful signal is present compared with noise.”",
+        "The provided definition introduces additional interpretive framing (“meaningful information,” “useful signal,” “noise”) beyond what is stated in the packet."
+      ],
+      "definition_hash": "c268fba1658e9deadbafc4478f60b5eda70d509ad0766904fef6b750d70c5998",
+      "packet_hash": "cd2b262eeccde6da2869fbadfaad7986db6455777c50ca7e2017c5b85cbcb96f",
+      "published_packet_hash": "cd2b262eeccde6da2869fbadfaad7986db6455777c50ca7e2017c5b85cbcb96f",
+      "receipt_id": "438c41e2c7ee49f6846804d421c39b6b",
+      "request_hash": "7f3529f1434d52328254824877116ca7c6f5a4c8541369201ccb9ab05f1c5753",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

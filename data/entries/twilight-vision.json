@@ -27,5 +27,34 @@
     "definition_hash": "aaa4c947cb4f211d8768f8bd29f82fe5b344ea4f779a0da56d08d0a142262c2f",
     "packet_hash": "e30b312bbf1ce012f5b2a829951c1215e4293835433f9a32c45dadcc979d7afc"
   },
-  "hash": "14bc47ad1bedd26a585256a0a04aaa1db151395ae1b58eab35a0a4b6f995e4ee"
+  "hash": "14bc47ad1bedd26a585256a0a04aaa1db151395ae1b58eab35a0a4b6f995e4ee",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aaa4c947cb4f211d8768f8bd29f82fe5b344ea4f779a0da56d08d0a142262c2f",
+      "packet_hash": "e30b312bbf1ce012f5b2a829951c1215e4293835433f9a32c45dadcc979d7afc",
+      "published_packet_hash": "e30b312bbf1ce012f5b2a829951c1215e4293835433f9a32c45dadcc979d7afc",
+      "receipt_id": "62effbdb355349958ef0c9e05b19eeb8",
+      "request_hash": "20cfb1d2d9549f50e0a4e1e320a6342559213d1e6817f92c9cac23362a53571b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s example “such as at dusk” is not stated in the packet; the packet only mentions “twilight vision (at scotopic intensities).”",
+        "The phrase “very low light” is not explicitly described in the packet; it only specifies scotopic intensities and rod-cell sensitivity (low-light implication is not directly stated as “very low light”)."
+      ],
+      "definition_hash": "aaa4c947cb4f211d8768f8bd29f82fe5b344ea4f779a0da56d08d0a142262c2f",
+      "packet_hash": "e30b312bbf1ce012f5b2a829951c1215e4293835433f9a32c45dadcc979d7afc",
+      "published_packet_hash": "e30b312bbf1ce012f5b2a829951c1215e4293835433f9a32c45dadcc979d7afc",
+      "receipt_id": "97f467e58c024c42adea3046aff9bf30",
+      "request_hash": "41a7ad5ea7d67aa1cfd4f91bf61dbd85d0d5fb5822f6d9d93a517db3783846b5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

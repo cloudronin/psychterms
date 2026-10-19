@@ -27,5 +27,33 @@
     "definition_hash": "e596ba6d65a620bb7b0f6621ab99ddf445d63cde964832f00d1cd4c2df5745da",
     "packet_hash": "da19db41c5a8a6118e499abe382aaaaa3acc8a7cb4e1ffc8d10213cf0e93ed5c"
   },
-  "hash": "3fc8519a5549e59df39cb20df9039beb149df1ac6187f1716d2da1004c066b2e"
+  "hash": "3fc8519a5549e59df39cb20df9039beb149df1ac6187f1716d2da1004c066b2e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e596ba6d65a620bb7b0f6621ab99ddf445d63cde964832f00d1cd4c2df5745da",
+      "packet_hash": "da19db41c5a8a6118e499abe382aaaaa3acc8a7cb4e1ffc8d10213cf0e93ed5c",
+      "published_packet_hash": "da19db41c5a8a6118e499abe382aaaaa3acc8a7cb4e1ffc8d10213cf0e93ed5c",
+      "receipt_id": "24a29d6a2fd64dc0ad8709c043884890",
+      "request_hash": "f56d22bf72a1f5181d4d8e3ad0614c5e607e9a4201cc234de974b48631e4eaf4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines probability as the study of chance processes and/or relative frequency characterizing a chance process, but the provided definition adds “numerical likelihood” and “relative to all opportunities,” which are not stated in the packet."
+      ],
+      "definition_hash": "e596ba6d65a620bb7b0f6621ab99ddf445d63cde964832f00d1cd4c2df5745da",
+      "packet_hash": "da19db41c5a8a6118e499abe382aaaaa3acc8a7cb4e1ffc8d10213cf0e93ed5c",
+      "published_packet_hash": "da19db41c5a8a6118e499abe382aaaaa3acc8a7cb4e1ffc8d10213cf0e93ed5c",
+      "receipt_id": "eee7071787ad420f840abd438b696de8",
+      "request_hash": "ebdc04df4f198d1d0eb3c790bbf6d53b7538b0e0b36bdb330aa5a20a46555d29",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "b42938e92c8b5bb5fd3c71a21a24fb408c1d588fba1751173fdc3796bf6d4b58",
     "packet_hash": "3022bc4b3bebc23f079bbf40a70a9e1b614f4c7d869e190c4b6cccac5f88b16c"
   },
-  "hash": "9ecb07591b58cb3c5d1c09bef4c83e74b1e91ba71acc23bae5d422ec6aaf4f41"
+  "hash": "9ecb07591b58cb3c5d1c09bef4c83e74b1e91ba71acc23bae5d422ec6aaf4f41",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b42938e92c8b5bb5fd3c71a21a24fb408c1d588fba1751173fdc3796bf6d4b58",
+      "packet_hash": "3022bc4b3bebc23f079bbf40a70a9e1b614f4c7d869e190c4b6cccac5f88b16c",
+      "published_packet_hash": "3022bc4b3bebc23f079bbf40a70a9e1b614f4c7d869e190c4b6cccac5f88b16c",
+      "receipt_id": "2704945f0ca748a2b872b81723795955",
+      "request_hash": "9615328ac8f825182c0c9b20cf7dfb43a15a15aefa0975e1493575c2c89fb559",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states the cell “transmits signals from the cerebellar cortex,” but the definition adds that it “sends signals outward,” which is not explicitly supported in the provided source text."
+      ],
+      "definition_hash": "b42938e92c8b5bb5fd3c71a21a24fb408c1d588fba1751173fdc3796bf6d4b58",
+      "packet_hash": "3022bc4b3bebc23f079bbf40a70a9e1b614f4c7d869e190c4b6cccac5f88b16c",
+      "published_packet_hash": "3022bc4b3bebc23f079bbf40a70a9e1b614f4c7d869e190c4b6cccac5f88b16c",
+      "receipt_id": "75f4b088399544b681a0b0d66d4bc195",
+      "request_hash": "afd1a72a41247eb45d2cac70cfefdaf0c0bd8ee0353651aca3e8f4e710ec3858",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

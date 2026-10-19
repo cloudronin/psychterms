@@ -27,5 +27,34 @@
     "definition_hash": "724e3b51b40bc726688286a34dee71c7f760ae04d6c2433f87d927c0a7ad5725",
     "packet_hash": "481e1894105104646ed9f324e210a4ed983d72baa978aa2b95935db533d34e2a"
   },
-  "hash": "8355e987d954e70bacfa19b791179b16f84774308d00224e894f101f615e9dd6"
+  "hash": "8355e987d954e70bacfa19b791179b16f84774308d00224e894f101f615e9dd6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "724e3b51b40bc726688286a34dee71c7f760ae04d6c2433f87d927c0a7ad5725",
+      "packet_hash": "481e1894105104646ed9f324e210a4ed983d72baa978aa2b95935db533d34e2a",
+      "published_packet_hash": "481e1894105104646ed9f324e210a4ed983d72baa978aa2b95935db533d34e2a",
+      "receipt_id": "278a9545860341b19c1b2bacdfb28cd0",
+      "request_hash": "89f0f0548fdcc3eb8ce087e2b31fae09c570008ea891c16e38a75aee3c3fe6e7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes “olanzapine” but does not state that “Zyprexa” is a brand name for olanzapine, so that core identification is unsupported by the provided source.",
+        "The definition is placed in the field “diagnosis,” but the packet content is pharmacologic (a drug and its receptor actions), not a diagnostic concept; this makes the field assignment defensible only if the term is being used as a diagnosis label, which the packet does not support."
+      ],
+      "definition_hash": "724e3b51b40bc726688286a34dee71c7f760ae04d6c2433f87d927c0a7ad5725",
+      "packet_hash": "481e1894105104646ed9f324e210a4ed983d72baa978aa2b95935db533d34e2a",
+      "published_packet_hash": "481e1894105104646ed9f324e210a4ed983d72baa978aa2b95935db533d34e2a",
+      "receipt_id": "8896cf8286ed4e789957d632461f86ff",
+      "request_hash": "24d8fc431b1c319db63b267b0b3ed6854a3ab82b25f73f569d6f585262b0772a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

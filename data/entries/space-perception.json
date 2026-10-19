@@ -27,5 +27,34 @@
     "definition_hash": "f0d8c0fa05c94766d50cd54070af5914eceef9d7b3a2114bab1ea957d24e8cc9",
     "packet_hash": "022d7fc15208b0201462463169dd77c193cd4ecefe139dcc806ddbfa9ce4e34d"
   },
-  "hash": "d7daafec02f01e252cc4ebed6b17472e3f4d2adae219f7d01b3a3af050019452"
+  "hash": "d7daafec02f01e252cc4ebed6b17472e3f4d2adae219f7d01b3a3af050019452",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f0d8c0fa05c94766d50cd54070af5914eceef9d7b3a2114bab1ea957d24e8cc9",
+      "packet_hash": "022d7fc15208b0201462463169dd77c193cd4ecefe139dcc806ddbfa9ce4e34d",
+      "published_packet_hash": "022d7fc15208b0201462463169dd77c193cd4ecefe139dcc806ddbfa9ce4e34d",
+      "receipt_id": "5ebe4b3ad5be437aafff57fbd67f8dd3",
+      "request_hash": "d43a84bd763f858a6751bc84782eb9d834c1a47207e2ed8fb908b3b859b6e011",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states “awareness of the spatial properties of objects; includes physical space,” but it does not explicitly support the added phrase “where objects are.”",
+        "Because “where objects are” is a substantive additional claim beyond the packet’s wording, the requested sense cannot be considered fully supported."
+      ],
+      "definition_hash": "f0d8c0fa05c94766d50cd54070af5914eceef9d7b3a2114bab1ea957d24e8cc9",
+      "packet_hash": "022d7fc15208b0201462463169dd77c193cd4ecefe139dcc806ddbfa9ce4e34d",
+      "published_packet_hash": "022d7fc15208b0201462463169dd77c193cd4ecefe139dcc806ddbfa9ce4e34d",
+      "receipt_id": "b31d9899bf8b4ed2b5dee53242f3624e",
+      "request_hash": "8d4783e56f0ea922795ac54444db3f6bc50fb73d18b8c217ab4083417e386ac7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

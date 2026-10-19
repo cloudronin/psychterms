@@ -27,5 +27,35 @@
     "definition_hash": "48af28f88e93f60eaf0041899f5a36bafd72e20738435f8b29e4b7bb95812a1a",
     "packet_hash": "e18f8334e60bf5464da08d8ed66b657c55e2799eeeccc6e27cf8f34fef4c6002"
   },
-  "hash": "c1bdfaa29a31ec48ea997c9568761c71967ac24228a67edc2ea10e7d9b01e2ca"
+  "hash": "c1bdfaa29a31ec48ea997c9568761c71967ac24228a67edc2ea10e7d9b01e2ca",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a general definition of “allosteric modulation” as “a change in how a protein complex works after a substance binds to it,” so the first sentence is unsupported.",
+        "While the packet states that paroxetine binds to the pre-synaptic serotonin transporter complex resulting in “negative allosteric modulation… thereby blocking reuptake of serotonin,” it does not explicitly equate this with “the serotonin transporter’s activity is reduced” or “takes up less serotonin,” so the second sentence adds wording not directly supported by the packet.",
+        "The definition is explicitly tied to serotonin transporter behavior; the packet supports that for paroxetine’s mechanism, but it does not support the broader, stand-alone general statement as written."
+      ],
+      "definition_hash": "48af28f88e93f60eaf0041899f5a36bafd72e20738435f8b29e4b7bb95812a1a",
+      "packet_hash": "e18f8334e60bf5464da08d8ed66b657c55e2799eeeccc6e27cf8f34fef4c6002",
+      "published_packet_hash": "e18f8334e60bf5464da08d8ed66b657c55e2799eeeccc6e27cf8f34fef4c6002",
+      "receipt_id": "60ee5dad649649b5a4ee6bdcd26dba19",
+      "request_hash": "3ddcb9fde21cc3d288d5241de148268d9c9b9322ee0d31ada0696c004df35812",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "48af28f88e93f60eaf0041899f5a36bafd72e20738435f8b29e4b7bb95812a1a",
+      "packet_hash": "e18f8334e60bf5464da08d8ed66b657c55e2799eeeccc6e27cf8f34fef4c6002",
+      "published_packet_hash": "e18f8334e60bf5464da08d8ed66b657c55e2799eeeccc6e27cf8f34fef4c6002",
+      "receipt_id": "6fe580550099411cadbff70182cfd9ae",
+      "request_hash": "87a60063e41bea44749be0f840934ba993f993b77d3b7431258386501808a4c3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,35 @@
     "definition_hash": "8a0f154daedaf69cd2a3409fe80f43ec214236111e669e0c3567bc48a59d8d46",
     "packet_hash": "11dc77f814d797ccb4455cb3e56f81923d30bb2b1f1f38dff7750bc8e8ec890a"
   },
-  "hash": "2b40ceb2a09ffb430ad4e62de8b464aaa4a604126bbdb215c7fb4b674aa97205"
+  "hash": "2b40ceb2a09ffb430ad4e62de8b464aaa4a604126bbdb215c7fb4b674aa97205",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8a0f154daedaf69cd2a3409fe80f43ec214236111e669e0c3567bc48a59d8d46",
+      "packet_hash": "11dc77f814d797ccb4455cb3e56f81923d30bb2b1f1f38dff7750bc8e8ec890a",
+      "published_packet_hash": "11dc77f814d797ccb4455cb3e56f81923d30bb2b1f1f38dff7750bc8e8ec890a",
+      "receipt_id": "9e0f07211ed34740a8ac6313f4c200fb",
+      "request_hash": "604e166c72233b399bfcf535e7234bf409f798c54210ba5851d33d6cf053bddb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “clustered data” as a type of observations; it describes “The statistical manipulation of hierarchically and non-hierarchically nested data,” and mentions clustered data as an example within that context.",
+        "The definition’s claim that clustered data are “typically analyzed with multilevel statistical methods” is not explicitly stated in the packet; it mentions that “linear and nonlinear regression models are applied,” but does not use the phrase (or a direct equivalent) “multilevel statistical methods.”",
+        "The packet’s wording emphasizes analysis (“models are applied”) rather than the definition-style framing “observations grouped within larger units,” so part of the requested conceptual definition is not directly supported as written."
+      ],
+      "definition_hash": "8a0f154daedaf69cd2a3409fe80f43ec214236111e669e0c3567bc48a59d8d46",
+      "packet_hash": "11dc77f814d797ccb4455cb3e56f81923d30bb2b1f1f38dff7750bc8e8ec890a",
+      "published_packet_hash": "11dc77f814d797ccb4455cb3e56f81923d30bb2b1f1f38dff7750bc8e8ec890a",
+      "receipt_id": "46809217fe7e42449a94f033e258c6bb",
+      "request_hash": "0ee598bc20454b9d88fc700d373400f83719400256a36674ac328bec5513acbc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

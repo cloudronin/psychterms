@@ -27,5 +27,33 @@
     "definition_hash": "cd9100f9caee1d1d27d3e89d3bd71e1386df70e2aa9db8796b9101c7e839992a",
     "packet_hash": "ebe6d450d52e2965568c12603c5acf1fa606fe282ee5d7a5a87fb4bdb4d4213a"
   },
-  "hash": "d94219c8bee9f1ddde911ad1003e08da11664ff31700dd119ecf0d58735434f9"
+  "hash": "d94219c8bee9f1ddde911ad1003e08da11664ff31700dd119ecf0d58735434f9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cd9100f9caee1d1d27d3e89d3bd71e1386df70e2aa9db8796b9101c7e839992a",
+      "packet_hash": "ebe6d450d52e2965568c12603c5acf1fa606fe282ee5d7a5a87fb4bdb4d4213a",
+      "published_packet_hash": "ebe6d450d52e2965568c12603c5acf1fa606fe282ee5d7a5a87fb4bdb4d4213a",
+      "receipt_id": "d18db2b1f9c94fa986f4e7b01ddcc5d1",
+      "request_hash": "3b451539bca7eee9de65e125de290eff85c7312eb2a91bb4304145bcce5e37b5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that a constant is a value that does not change, but it does not support the stronger claim that in research methods it is “the opposite of a variable.” The source only says to compare it with variables."
+      ],
+      "definition_hash": "cd9100f9caee1d1d27d3e89d3bd71e1386df70e2aa9db8796b9101c7e839992a",
+      "packet_hash": "ebe6d450d52e2965568c12603c5acf1fa606fe282ee5d7a5a87fb4bdb4d4213a",
+      "published_packet_hash": "ebe6d450d52e2965568c12603c5acf1fa606fe282ee5d7a5a87fb4bdb4d4213a",
+      "receipt_id": "62b9d78a0f5d407ea63a09e17fe39d68",
+      "request_hash": "822f136f832a7953c5ceac14338dff6f9d07accebb50b75b639e71af46be95cf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

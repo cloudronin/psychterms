@@ -31,5 +31,22 @@
     "published_packet_hash": "feecb216bb2e2ff726b28142b9e021f6a675bb271fb103865950c4fd1b742b8a"
   },
   "editorial_status": "human_review_pending",
-  "hash": "3b64077265894879ef6541024f7e8590780e991c1ce686ad2e2b081460dcb8c2"
+  "hash": "3b64077265894879ef6541024f7e8590780e991c1ce686ad2e2b081460dcb8c2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines auditory perception as selecting, organizing, and interpreting auditory stimuli; the provided definition adds “noticing” and “takes in sounds,” which are not explicitly supported by the packet text.",
+        "While “makes sense of them” loosely aligns with “interpreted” in the packet, the additional framing (“noticing” and “takes in”) goes beyond the packet’s stated process wording."
+      ],
+      "definition_hash": "c19e230a0958fa5e78bdc29c4173aab2a8fe39f60117f9d30140aa84e0a69255",
+      "packet_hash": "eaf327c9e2d72034b3750a22f96b5d3128a8dfb54db16b5963c63f5a154a8f5b",
+      "published_packet_hash": "feecb216bb2e2ff726b28142b9e021f6a675bb271fb103865950c4fd1b742b8a",
+      "receipt_id": "5417285d6821475aa175bd78105f7d05",
+      "request_hash": "4655900ac0def191782414c605007c390e3d8049a524275c8661290b564eade6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

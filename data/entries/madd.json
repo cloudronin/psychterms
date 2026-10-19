@@ -27,5 +27,34 @@
     "definition_hash": "16014a74f12b03d995e10d2861f62ac2a540b248dd973a95add89bb19b07f4a5",
     "packet_hash": "b3c3fd80ebf215991a1599a056a379152deaa3d7311f52244987c402f3b79a4d"
   },
-  "hash": "d26b87f1c0e5726454c12cac22a9d0371ca124cfa77ab1ec127d8a070c63874b"
+  "hash": "d26b87f1c0e5726454c12cac22a9d0371ca124cfa77ab1ec127d8a070c63874b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "16014a74f12b03d995e10d2861f62ac2a540b248dd973a95add89bb19b07f4a5",
+      "packet_hash": "b3c3fd80ebf215991a1599a056a379152deaa3d7311f52244987c402f3b79a4d",
+      "published_packet_hash": "b3c3fd80ebf215991a1599a056a379152deaa3d7311f52244987c402f3b79a4d",
+      "receipt_id": "1582e057cb9d4b2ab947987d7dbac836",
+      "request_hash": "61bd0d9507335ffb74293e1fcc4ad2f1aa059af4ad974e2c2c55a506ae0ce796",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “heart enlargement,” but the packet specifies “dilated cardiomyopathy” rather than heart enlargement, so this wording is not directly supported by the supplied source.",
+        "The definition is not clearly one to three concise sentences as required; it is a single long, multi-clause sentence rather than a concise 1–3 sentence definition."
+      ],
+      "definition_hash": "16014a74f12b03d995e10d2861f62ac2a540b248dd973a95add89bb19b07f4a5",
+      "packet_hash": "b3c3fd80ebf215991a1599a056a379152deaa3d7311f52244987c402f3b79a4d",
+      "published_packet_hash": "b3c3fd80ebf215991a1599a056a379152deaa3d7311f52244987c402f3b79a4d",
+      "receipt_id": "3f87d9de1e8246efb077ab98462a928b",
+      "request_hash": "ae7c2ec616de7badfeb7079edff918814c5ea277f922cd926e628b6277070e33",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

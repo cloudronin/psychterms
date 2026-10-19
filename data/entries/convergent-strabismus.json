@@ -27,5 +27,34 @@
     "definition_hash": "678a036a14c507d4dcee70f45515a74456bdfee8ba50e8a15a2f70a0f0955a71",
     "packet_hash": "1faa92f67599332c2711434bb33aeb2f1628e7fb33889aa4b06c47e21c4ffc72"
   },
-  "hash": "15e928c2d6573c9d81aef8e13fc1c1751911072e79c4a6d7f99787e6e5ae08b6"
+  "hash": "15e928c2d6573c9d81aef8e13fc1c1751911072e79c4a6d7f99787e6e5ae08b6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "678a036a14c507d4dcee70f45515a74456bdfee8ba50e8a15a2f70a0f0955a71",
+      "packet_hash": "1faa92f67599332c2711434bb33aeb2f1628e7fb33889aa4b06c47e21c4ffc72",
+      "published_packet_hash": "1faa92f67599332c2711434bb33aeb2f1628e7fb33889aa4b06c47e21c4ffc72",
+      "receipt_id": "31acc51398ea4631a18e84297c57c9f5",
+      "request_hash": "dc4525fb2ba5cc5c855ff1a4b681d52711af2c1e34b32ec65df7c30d7973ab5f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states it can happen due to “weakness or paralysis of the lateral rectus muscle,” but the provided packet supports only paralysis of the lateral rectus muscle (not weakness).",
+        "Because the definition includes an additional mechanism (“weakness”) not substantiated by the packet, it is not fully supported by the supplied source."
+      ],
+      "definition_hash": "678a036a14c507d4dcee70f45515a74456bdfee8ba50e8a15a2f70a0f0955a71",
+      "packet_hash": "1faa92f67599332c2711434bb33aeb2f1628e7fb33889aa4b06c47e21c4ffc72",
+      "published_packet_hash": "1faa92f67599332c2711434bb33aeb2f1628e7fb33889aa4b06c47e21c4ffc72",
+      "receipt_id": "9e3124e3e3074353afab1d8fac81a9e6",
+      "request_hash": "5be644ee347f0a05f9fd624e36be6543b7c6a08f8871d7a6b066ddb6190603c7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

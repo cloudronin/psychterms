@@ -27,5 +27,33 @@
     "definition_hash": "a394875a12cf2ac5588666f2747a700fbff68681f8810e15a8b984654444826e",
     "packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518"
   },
-  "hash": "f85992247a91ee0eae96f2b9bf720d4770e300a9daa0e580c6197b996aa55874"
+  "hash": "f85992247a91ee0eae96f2b9bf720d4770e300a9daa0e580c6197b996aa55874",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a394875a12cf2ac5588666f2747a700fbff68681f8810e15a8b984654444826e",
+      "packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518",
+      "published_packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518",
+      "receipt_id": "977a9b2fe4b142958238586a084aac23",
+      "request_hash": "8b779102cbeb48c0b65b084624ebb0ba3343ee4e5b61c415373e29425a495ab5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes neuropeptide Y as a “small peptide,” but the packet does not use the wording “small”; it only states it is a “36-amino acid peptide.”"
+      ],
+      "definition_hash": "a394875a12cf2ac5588666f2747a700fbff68681f8810e15a8b984654444826e",
+      "packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518",
+      "published_packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518",
+      "receipt_id": "230939f6027044c481b998fac73d5b26",
+      "request_hash": "41f5b416c762803b53aebf4a8834d63baa1922e93f4fe337029228139c36692d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

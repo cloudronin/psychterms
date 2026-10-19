@@ -27,5 +27,34 @@
     "definition_hash": "18f7f9f362339142670d2d8427547e9cfe47f9652687d36076327430fc36736c",
     "packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213"
   },
-  "hash": "762bb2e791d9e32d1ec8a358de3b3232b151e58c5bc29ca093ea9aa636500483"
+  "hash": "762bb2e791d9e32d1ec8a358de3b3232b151e58c5bc29ca093ea9aa636500483",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "18f7f9f362339142670d2d8427547e9cfe47f9652687d36076327430fc36736c",
+      "packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213",
+      "published_packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213",
+      "receipt_id": "f4d7b5aa57094332a254fdf47d3d8750",
+      "request_hash": "85b610b1831b966ef08cd856c6f55bc5955861283b78b14f02ea9db07880e748",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field ‘cognition’ is not well supported by the packet for this term; the source describes clozapine as a pharmacologic antipsychotic agent rather than a cognition concept.",
+        "The definition adds ‘a distinctive pattern of action in the brain,’ which is broader than the packet’s wording about binding central nervous system receptors and a unique pharmacological profile."
+      ],
+      "definition_hash": "18f7f9f362339142670d2d8427547e9cfe47f9652687d36076327430fc36736c",
+      "packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213",
+      "published_packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213",
+      "receipt_id": "bfc27d3594e0452ebdc880389fd9bc5b",
+      "request_hash": "dde95e72175acd62193765595b1daef3944ed85aa9fa2650c1877a842b4484d3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

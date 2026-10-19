@@ -27,5 +27,34 @@
     "definition_hash": "d08f5aeaaa9cc5e9f8a7c5544bd70b55a1fef7ea5063a1d7cfe7e1e21de3b77b",
     "packet_hash": "9c28e73181dc4dd4982b61ed899ae9fc4edae5b67f77f761f182f736011ebb96"
   },
-  "hash": "2f1c37611532ded5a37a51015c295ecec6f30db05d6c62bd7f5e4d8d86715f6f"
+  "hash": "2f1c37611532ded5a37a51015c295ecec6f30db05d6c62bd7f5e4d8d86715f6f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d08f5aeaaa9cc5e9f8a7c5544bd70b55a1fef7ea5063a1d7cfe7e1e21de3b77b",
+      "packet_hash": "9c28e73181dc4dd4982b61ed899ae9fc4edae5b67f77f761f182f736011ebb96",
+      "published_packet_hash": "9c28e73181dc4dd4982b61ed899ae9fc4edae5b67f77f761f182f736011ebb96",
+      "receipt_id": "30590a1975e14aa3871722ed4bf1532b",
+      "request_hash": "6c22b864659586248c9a802032c2bf64823b9a48f8fdc47aabaced932f53bed7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “change problematic behavior” is not explicitly supported by the packet, which instead states “treatment of behavior disorders.”",
+        "The second sentence is broadly consistent with the packet, but because the first sentence contains an unsupported reformulation, the overall definition is not fully defensible against the provided source text."
+      ],
+      "definition_hash": "d08f5aeaaa9cc5e9f8a7c5544bd70b55a1fef7ea5063a1d7cfe7e1e21de3b77b",
+      "packet_hash": "9c28e73181dc4dd4982b61ed899ae9fc4edae5b67f77f761f182f736011ebb96",
+      "published_packet_hash": "9c28e73181dc4dd4982b61ed899ae9fc4edae5b67f77f761f182f736011ebb96",
+      "receipt_id": "e8f93b25809547c5bd8f636cdc55217b",
+      "request_hash": "cec81d26555c6eefb0725f4106f79ae9e22a0a7e3ae423dbc7aaa58b799274d0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

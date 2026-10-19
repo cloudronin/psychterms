@@ -27,5 +27,35 @@
     "definition_hash": "9caa4f6c82f7cb315e6cd3b1122cb73e0a99a45cece1969569498e62908140b4",
     "packet_hash": "2a7b009673d584e106c24eed09fd9ebf39bbb182a7029a7d0aa3d752d11d9f3c"
   },
-  "hash": "a8bdb92480d7467d22a31452589bc1b501f1e5f5d3e9b184faac407b77b05cac"
+  "hash": "a8bdb92480d7467d22a31452589bc1b501f1e5f5d3e9b184faac407b77b05cac",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported claim that hypoxia can affect behavior; the packet only supports reduced oxygen in the body and symptoms such as impaired judgment, memory loss, impaired motor coordination, seizures, and coma."
+      ],
+      "definition_hash": "9caa4f6c82f7cb315e6cd3b1122cb73e0a99a45cece1969569498e62908140b4",
+      "packet_hash": "2a7b009673d584e106c24eed09fd9ebf39bbb182a7029a7d0aa3d752d11d9f3c",
+      "published_packet_hash": "2a7b009673d584e106c24eed09fd9ebf39bbb182a7029a7d0aa3d752d11d9f3c",
+      "receipt_id": "9115051b377f4301a7bf1581ade1f0ff",
+      "request_hash": "fbd1aef2069ec99929dba3d8cc5f0f407de6749c6340783d49d01224ae106f84",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims hypoxia “can affect thinking and behavior,” but the packet only specifies cognitive/motor impairments (impaired judgment, memory loss, impaired motor coordination) and does not support a general claim about “behavior.”"
+      ],
+      "definition_hash": "9caa4f6c82f7cb315e6cd3b1122cb73e0a99a45cece1969569498e62908140b4",
+      "packet_hash": "2a7b009673d584e106c24eed09fd9ebf39bbb182a7029a7d0aa3d752d11d9f3c",
+      "published_packet_hash": "2a7b009673d584e106c24eed09fd9ebf39bbb182a7029a7d0aa3d752d11d9f3c",
+      "receipt_id": "fff65b9b82ec4d27a6e8e0f701a90896",
+      "request_hash": "b2a091754b1e0d25dc638c1ce0efb4ad1d58e67852e4ed70f9fc002ed117f4a4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

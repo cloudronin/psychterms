@@ -27,5 +27,38 @@
     "definition_hash": "905a4d4702d90cee680a4c96b4fc56d9d9333cc070dcd58b7043550435a2ca78",
     "packet_hash": "d947bcfb9748c9ccbcd6213c4b3cd3cbea02e48dfc5b36764cedfe5ecadd0c26"
   },
-  "hash": "b4f75b4be6947a537f0d78d0340b839425bc6ff0de073e3187c824008d6fd0bf"
+  "hash": "b4f75b4be6947a537f0d78d0340b839425bc6ff0de073e3187c824008d6fd0bf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only says there are “large ganglionic cells of the motor tract”; it does not support defining the motor tract itself as a specific part of the brain or as having movement-related function.",
+        "The epilepsy sentence overstates the source: it reports diseased changes in cells of the motor tract in some cases of epileptic insanity, not that the motor tract as such is a site where these cells may undergo disease changes in epilepsy."
+      ],
+      "definition_hash": "905a4d4702d90cee680a4c96b4fc56d9d9333cc070dcd58b7043550435a2ca78",
+      "packet_hash": "d947bcfb9748c9ccbcd6213c4b3cd3cbea02e48dfc5b36764cedfe5ecadd0c26",
+      "published_packet_hash": "d947bcfb9748c9ccbcd6213c4b3cd3cbea02e48dfc5b36764cedfe5ecadd0c26",
+      "receipt_id": "824745dfa1984c0190fea068f0006ae1",
+      "request_hash": "ea9886a2980aed89b139b466c2c9d1e0f88b61627fe1972235de36757c7d705e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “movement-related function” is not explicitly supported by the packet text; the excerpt mentions “large ganglionic cells of the motor tract” but does not directly describe movement-related function in these terms.",
+        "The definition’s wording that “the motor tract refers to the part of the brain associated with large ganglionic motor cells” is only partially supported: the packet says there is a “large ganglionic … of the motor tract” but it does not clearly define the motor tract as a specific “part of the brain” beyond that reference.",
+        "While the packet supports that these cells are discussed as having a “diseased condition” in relation to epilepsy (“in the brains of the epileptic insane,” and “diseased condition … of the … large ganglionic cells of the motor tract”), the definition includes additional interpretive phrasing (“movement-related function,” “part of the brain associated with”) that goes beyond what is stated."
+      ],
+      "definition_hash": "905a4d4702d90cee680a4c96b4fc56d9d9333cc070dcd58b7043550435a2ca78",
+      "packet_hash": "d947bcfb9748c9ccbcd6213c4b3cd3cbea02e48dfc5b36764cedfe5ecadd0c26",
+      "published_packet_hash": "d947bcfb9748c9ccbcd6213c4b3cd3cbea02e48dfc5b36764cedfe5ecadd0c26",
+      "receipt_id": "b914b5d6e04b44be84c9161f27cdf311",
+      "request_hash": "19f863627985b4c3206d37909fb839e6600e875d722be27aa3ac7d534ce37b5c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

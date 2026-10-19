@@ -27,5 +27,34 @@
     "definition_hash": "8759213b587686cef2f0c963974f985c9d910f32a8ea8af7f35f35977a5459de",
     "packet_hash": "0d5e912f6e508d1094ad925ae5796fe457184ae30729fb25b8d36fdda71e3821"
   },
-  "hash": "71769d5ad0d054351aacf1a08832216c95068aa23ffac1b40451e656a6ca791c"
+  "hash": "71769d5ad0d054351aacf1a08832216c95068aa23ffac1b40451e656a6ca791c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8759213b587686cef2f0c963974f985c9d910f32a8ea8af7f35f35977a5459de",
+      "packet_hash": "0d5e912f6e508d1094ad925ae5796fe457184ae30729fb25b8d36fdda71e3821",
+      "published_packet_hash": "0d5e912f6e508d1094ad925ae5796fe457184ae30729fb25b8d36fdda71e3821",
+      "receipt_id": "bb8ae10345ab43deb6a29cfe4ec53e07",
+      "request_hash": "a0bcf7c1577c00effbd9785e7de6cc4ec5c18c059935560798a8beaf088dadf8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says the pneumogastric nerve (vagus) “carries sensory signals from parts of the ear, throat, chest, and abdomen” and “sends motor and parasympathetic signals to structures in the throat, chest, and abdomen,” but the packet specifies vagus contains somatic afferents from skin in back of the ear and the external auditory meatus, visceral afferents from the pharynx, larynx, thorax, and abdomen, parasympathetic efferents to the thorax and abdomen, and efferents to striated muscle of the larynx and pharynx. The packet does not support the broader “throat, chest, and abdomen” motor statement as written.",
+        "The definition’s mapping of “motor” to “structures in the throat, chest, and abdomen” is not supported by the packet, which specifies motor-type efferents to striated muscle of the larynx and pharynx, not to chest and abdomen broadly."
+      ],
+      "definition_hash": "8759213b587686cef2f0c963974f985c9d910f32a8ea8af7f35f35977a5459de",
+      "packet_hash": "0d5e912f6e508d1094ad925ae5796fe457184ae30729fb25b8d36fdda71e3821",
+      "published_packet_hash": "0d5e912f6e508d1094ad925ae5796fe457184ae30729fb25b8d36fdda71e3821",
+      "receipt_id": "6efbd255117b4a6d86c221d21a182688",
+      "request_hash": "ca87dc1d139a78811b7011b3e78f5d9e7cd986e570ec18194191a0e203f75644",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

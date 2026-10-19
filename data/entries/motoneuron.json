@@ -27,5 +27,33 @@
     "definition_hash": "1ead3ae6d0294353941a68183d8e2c09ca658ddd61251c19ac1153b53ab3a7ed",
     "packet_hash": "97a20e205979689d25764d1f788ab16e3fb186c659e9da0f84202cbac872af6c"
   },
-  "hash": "aadc0217ef081b4d8462728bbb2ca16ce8468aae3007aed719a8516045e6f288"
+  "hash": "aadc0217ef081b4d8462728bbb2ca16ce8468aae3007aed719a8516045e6f288",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1ead3ae6d0294353941a68183d8e2c09ca658ddd61251c19ac1153b53ab3a7ed",
+      "packet_hash": "97a20e205979689d25764d1f788ab16e3fb186c659e9da0f84202cbac872af6c",
+      "published_packet_hash": "97a20e205979689d25764d1f788ab16e3fb186c659e9da0f84202cbac872af6c",
+      "receipt_id": "60e2519cc15b420490a0b386f317e62f",
+      "request_hash": "cc109f7026ae8bec4729901789844c34c266786add4abc842407242b13c9e814",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines a motoneuron as an efferent neuron sending impulses from the central nervous system to skeletal muscles, but it does not mention “helping produce muscle movement,” so that additional claim is not supported by the packet."
+      ],
+      "definition_hash": "1ead3ae6d0294353941a68183d8e2c09ca658ddd61251c19ac1153b53ab3a7ed",
+      "packet_hash": "97a20e205979689d25764d1f788ab16e3fb186c659e9da0f84202cbac872af6c",
+      "published_packet_hash": "97a20e205979689d25764d1f788ab16e3fb186c659e9da0f84202cbac872af6c",
+      "receipt_id": "372be37c7c8240449202625f722daa52",
+      "request_hash": "5619e2dc555ee5eb434c98d25e90d9e06af1ce6cc20573f9cf1531785d6215f4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

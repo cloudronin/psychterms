@@ -27,5 +27,34 @@
     "definition_hash": "b924f63b4c56668cc86f4a8573b7f1a7d07b12789e7aef9cea66e5b67295a745",
     "packet_hash": "fb5ff65660d9c64a12837d1c426e3988b4228912d50d03486c1a8d15f3684051"
   },
-  "hash": "f483c437e2db586fa3463512b8a6e015134d180e9ecb51017e3224d3b87fea4e"
+  "hash": "f483c437e2db586fa3463512b8a6e015134d180e9ecb51017e3224d3b87fea4e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b924f63b4c56668cc86f4a8573b7f1a7d07b12789e7aef9cea66e5b67295a745",
+      "packet_hash": "fb5ff65660d9c64a12837d1c426e3988b4228912d50d03486c1a8d15f3684051",
+      "published_packet_hash": "fb5ff65660d9c64a12837d1c426e3988b4228912d50d03486c1a8d15f3684051",
+      "receipt_id": "2f4a3265731147d7a4d3ee9a22bb6af7",
+      "request_hash": "f401e093a4c2a5512db8824c4d540c02fb1951d910fedf408be6c40640326862",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the term is used “especially for recasting universal and particular propositions into standardized forms”; while the packet does give a “complete rule” to express universal and particular propositions in an “equivalent form,” it does not support the added characterization “especially” or “standardized forms.”",
+        "The packet does not explicitly describe the goal as making “implications about occurrence or existence … more clearly seen”; it discusses implications about what is affirmed/implicated (including “occurrence” vs “existence”) and then gives the expressing-in-equivalent-form convention, but the “more clearly seen” phrasing is not supported."
+      ],
+      "definition_hash": "b924f63b4c56668cc86f4a8573b7f1a7d07b12789e7aef9cea66e5b67295a745",
+      "packet_hash": "fb5ff65660d9c64a12837d1c426e3988b4228912d50d03486c1a8d15f3684051",
+      "published_packet_hash": "fb5ff65660d9c64a12837d1c426e3988b4228912d50d03486c1a8d15f3684051",
+      "receipt_id": "6ad95cc49de74663895430ddc12cccce",
+      "request_hash": "75efb7aca9ab726760a9a666c19e5df1854f5b77c42803ad85eaa3b106921d86",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

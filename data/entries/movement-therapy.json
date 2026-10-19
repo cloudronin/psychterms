@@ -27,5 +27,38 @@
     "definition_hash": "1bf1fe459bce11243214c80551d529561b5328e021cc0ffba6541957fb21134f",
     "packet_hash": "ab03550bb88d0254be284af43592e9920f976853e76909f1e17b13690f2d6b7f"
   },
-  "hash": "9cff5ca71674db98211e9ab8dcd7bd36cf98ed83b28a45cb6c2189aef9d4a09b"
+  "hash": "9cff5ca71674db98211e9ab8dcd7bd36cf98ed83b28a45cb6c2189aef9d4a09b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a health professional (Dance Therapist), not the therapy itself, so the definition targets the wrong sense of the term.",
+        "“Therapeutic approach that uses dance or movement” is broader and differently framed than the supplied source text, which only states that the professional uses dance/movement therapy to improve mental and physical function.",
+        "The field label is not the main issue, but the definition should be supported by the packet’s wording and sense; here it is not."
+      ],
+      "definition_hash": "1bf1fe459bce11243214c80551d529561b5328e021cc0ffba6541957fb21134f",
+      "packet_hash": "ab03550bb88d0254be284af43592e9920f976853e76909f1e17b13690f2d6b7f",
+      "published_packet_hash": "ab03550bb88d0254be284af43592e9920f976853e76909f1e17b13690f2d6b7f",
+      "receipt_id": "286ae9ec8ea0478ca4e864ba8bff1b15",
+      "request_hash": "e1e7de3e403d70eeb1720b07455f5d7b51e0058a9ab33a961505e071e1c45eac",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet content supports that a dance/movement therapy practitioner uses dance/movement therapy to improve mental and physical function, but it does not support that this is a “therapeutic approach” in the abstract (it describes an occupation/discipline: “A health professional who uses dance/movement therapy…”).",
+        "The definition is placed in the cognition field, but the packet does not link movement therapy to cognition specifically—only to mental and physical function more generally."
+      ],
+      "definition_hash": "1bf1fe459bce11243214c80551d529561b5328e021cc0ffba6541957fb21134f",
+      "packet_hash": "ab03550bb88d0254be284af43592e9920f976853e76909f1e17b13690f2d6b7f",
+      "published_packet_hash": "ab03550bb88d0254be284af43592e9920f976853e76909f1e17b13690f2d6b7f",
+      "receipt_id": "bafb39549f5743f5bfc62976445c8473",
+      "request_hash": "eee2e5527986499ea6632ef4c3819f07e6ecf23511c126e1cf022812528cc79a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

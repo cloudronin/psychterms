@@ -27,5 +27,34 @@
     "definition_hash": "d5b9629d95a817d20a8225309f4ac76e8a481786b00f13b91f61073ef1156e73",
     "packet_hash": "8625f203abc7bd87eb9067e3ea0bef94ed652c6fc72903a5c927a4ddc4cac0cc"
   },
-  "hash": "2181614dec219593c8092b9ed84a24544d039ab33bfb0418cb5beb69e691112a"
+  "hash": "2181614dec219593c8092b9ed84a24544d039ab33bfb0418cb5beb69e691112a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d5b9629d95a817d20a8225309f4ac76e8a481786b00f13b91f61073ef1156e73",
+      "packet_hash": "8625f203abc7bd87eb9067e3ea0bef94ed652c6fc72903a5c927a4ddc4cac0cc",
+      "published_packet_hash": "8625f203abc7bd87eb9067e3ea0bef94ed652c6fc72903a5c927a4ddc4cac0cc",
+      "receipt_id": "cccbd4ac9ad943ba96660a13b3dc5bdc",
+      "request_hash": "a7c140660a00e998b8f2846d8ad588878f1a8509676e06364baa55b91fbd3e58",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source text defines a contraceptive method, not a cognition concept.",
+        "The definition is otherwise close to the source, but the field mismatch means the entry should not pass as given."
+      ],
+      "definition_hash": "d5b9629d95a817d20a8225309f4ac76e8a481786b00f13b91f61073ef1156e73",
+      "packet_hash": "8625f203abc7bd87eb9067e3ea0bef94ed652c6fc72903a5c927a4ddc4cac0cc",
+      "published_packet_hash": "8625f203abc7bd87eb9067e3ea0bef94ed652c6fc72903a5c927a4ddc4cac0cc",
+      "receipt_id": "659938dbef83446cb9dae774f540d897",
+      "request_hash": "9e192815ae2a832eb1024c35fe2adcf27cc5a55bc2c4e73ee84300359a75cebc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

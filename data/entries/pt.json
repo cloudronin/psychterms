@@ -27,5 +27,33 @@
     "definition_hash": "8114bae560fc9341b16b731ced031f5ebc7a462b9986e031725dcb01c88ecb3e",
     "packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd"
   },
-  "hash": "b8bfbc1ffd0294c462faabf09b7aa48529e107aeec74df88a71ee9dd7853f196"
+  "hash": "b8bfbc1ffd0294c462faabf09b7aa48529e107aeec74df88a71ee9dd7853f196",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8114bae560fc9341b16b731ced031f5ebc7a462b9986e031725dcb01c88ecb3e",
+      "packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd",
+      "published_packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd",
+      "receipt_id": "61752df9141b4250bc30d0a5560b3ac6",
+      "request_hash": "28416b84c3de5a1720e3b722bae0747a610f8b05a2513f2aefca3b02a080b0df",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition of “PT” in the packet describes a “Patient” (a person receiving/registered for medical care). It does not address cognition, so the provided field label (“cognition”) is not supported/defensible for this term."
+      ],
+      "definition_hash": "8114bae560fc9341b16b731ced031f5ebc7a462b9986e031725dcb01c88ecb3e",
+      "packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd",
+      "published_packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd",
+      "receipt_id": "f08d2c1e20a34d7688eb051742509603",
+      "request_hash": "07ff80e807a05cdbd46b76e0c317fa57608d1cddeac91d298b520603ede49202",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "eab69ff6dc75f75ed61dea2ffaf893b78fd469bf19982c32a8984716fdb915a3",
     "packet_hash": "80931849d18b5e8e9b2df60510458ef509be0b7ded440fd8e2813d88341dc1bb"
   },
-  "hash": "5e65f75ca151838d34f4c5d9d95919a51da97c026945652b850a4002b79fa7fb"
+  "hash": "5e65f75ca151838d34f4c5d9d95919a51da97c026945652b850a4002b79fa7fb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "eab69ff6dc75f75ed61dea2ffaf893b78fd469bf19982c32a8984716fdb915a3",
+      "packet_hash": "80931849d18b5e8e9b2df60510458ef509be0b7ded440fd8e2813d88341dc1bb",
+      "published_packet_hash": "80931849d18b5e8e9b2df60510458ef509be0b7ded440fd8e2813d88341dc1bb",
+      "receipt_id": "c7edcd0f0aa945eabf90f5463e32cf8e",
+      "request_hash": "3b77e317cbce33bf645068bd0e3f879cf60568438c97c4de200a29ef0751a214",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “main way” for the patient and therapist to communicate/expression, but the packet only states play is “a medium” for expression and communication (no claim of “main way”).",
+        "The definition specifies that the patient expresses “thoughts or feelings,” while the packet only mentions “expression” and “communication” and does not explicitly mention thoughts or feelings."
+      ],
+      "definition_hash": "eab69ff6dc75f75ed61dea2ffaf893b78fd469bf19982c32a8984716fdb915a3",
+      "packet_hash": "80931849d18b5e8e9b2df60510458ef509be0b7ded440fd8e2813d88341dc1bb",
+      "published_packet_hash": "80931849d18b5e8e9b2df60510458ef509be0b7ded440fd8e2813d88341dc1bb",
+      "receipt_id": "ce747a57400940539fd2816bfd2b47c5",
+      "request_hash": "276b23423a461d7b750d38cdde6da1889666a80eee3e0d87a4d2d1dd7880a3b3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

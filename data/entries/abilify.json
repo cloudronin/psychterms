@@ -27,5 +27,37 @@
     "definition_hash": "542ebf8d9332ece13f3eadcffb8e4ac0405168571e96958d82324f74b60287b8",
     "packet_hash": "009b570349771f181a6b41225efb2062bed09b71bc34b7623b57aea486c2cb64"
   },
-  "hash": "2e861c629a72ad3bb1740631c0f4d0de5d3a9d0a11526bfbbb048e84ff97ba58"
+  "hash": "2e861c629a72ad3bb1740631c0f4d0de5d3a9d0a11526bfbbb048e84ff97ba58",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports aripiprazole as an atypical antipsychotic and its use for schizophrenia and acute manic or mixed episodes in bipolar I disorder, but it does not support the claim that Abilify is the brand name for aripiprazole.",
+        "The definition presents a brand-name relationship that is not established in the supplied source packet, so the requested sense is not fully supported."
+      ],
+      "definition_hash": "542ebf8d9332ece13f3eadcffb8e4ac0405168571e96958d82324f74b60287b8",
+      "packet_hash": "009b570349771f181a6b41225efb2062bed09b71bc34b7623b57aea486c2cb64",
+      "published_packet_hash": "009b570349771f181a6b41225efb2062bed09b71bc34b7623b57aea486c2cb64",
+      "receipt_id": "7c6b1d2adf5643a5965fd92c0a3cb8ff",
+      "request_hash": "9b43c5f99294e3f1285de8c9d48e6378895aee70a46db4613863683048f63c40",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not explicitly state that “Abilify” is the brand name for aripiprazole; it only describes aripiprazole directly (“Aripiprazole has partial agonistic activity…”).",
+        "Because the definition’s requested sense/identification (“Abilify” = brand name for aripiprazole) is not supported verbatim by the packet, the definition contains an unsupported claim."
+      ],
+      "definition_hash": "542ebf8d9332ece13f3eadcffb8e4ac0405168571e96958d82324f74b60287b8",
+      "packet_hash": "009b570349771f181a6b41225efb2062bed09b71bc34b7623b57aea486c2cb64",
+      "published_packet_hash": "009b570349771f181a6b41225efb2062bed09b71bc34b7623b57aea486c2cb64",
+      "receipt_id": "0784fd1f671647fe84043207da1aa93a",
+      "request_hash": "e28c58f81d4ab0aded493e2ebcd6009a7ff19558223dba43c95b4e5034fb288c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -31,5 +31,22 @@
     "published_packet_hash": "b6b086ba9653c9129bbb7f1d4a7e0ebd5a3166da2c77030ce5d9cd3dbe7d8663"
   },
   "editorial_status": "human_review_pending",
-  "hash": "6d668df7e15380ff8933a11d9bbd7762b86390b731064775806de5ea7b6ca5d4"
+  "hash": "6d668df7e15380ff8933a11d9bbd7762b86390b731064775806de5ea7b6ca5d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition specifies “manuscripts for publication,” but the packet only states “articles and other papers submitted for publication” (it does not explicitly mention manuscripts).",
+        "The definition uses “commonly used,” while the packet does not provide any frequency/recurrence language—only that peer review is used in the stated contexts."
+      ],
+      "definition_hash": "fdaea3ada94cc5b483dd57a91a5d2af15d3d8f65251c21798306f50f266af2bf",
+      "packet_hash": "a766b38d6b67a903a66a388a85fd24d1f4bac9ef5f99199bdd6055773d383f89",
+      "published_packet_hash": "b6b086ba9653c9129bbb7f1d4a7e0ebd5a3166da2c77030ce5d9cd3dbe7d8663",
+      "receipt_id": "7792863c77b749f5a4c0bfe420ca08c0",
+      "request_hash": "30377e5c5399908d5e7ff8b70326507d5ce3991440a27b3ff4823df0e15f255c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

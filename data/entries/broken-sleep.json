@@ -27,5 +27,37 @@
     "definition_hash": "c911f236ea51bc8cdcec94901a7b18a4486d710a310dafa0344d3db584303cd6",
     "packet_hash": "b60a4ba03d51bdfb2158148d30a181bffb8064a3c27650a543772c4e24083367"
   },
-  "hash": "504203d88db565e24f3dd67ced9d67725a3cf60809e8a5100132cccb844c1f1f"
+  "hash": "504203d88db565e24f3dd67ced9d67725a3cf60809e8a5100132cccb844c1f1f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only lists “broken sleep” as a component of “Hamilton Anxiety Rating Scale (HAMA) Insomnia” (with related symptoms), but it does not define “broken sleep” as “sleep that is interrupted rather than continuous through the night.”",
+        "Because the definition’s key characterization of the term is not explicitly supported by the provided packet, the requested sense of the term is not defensible from the supplied source."
+      ],
+      "definition_hash": "c911f236ea51bc8cdcec94901a7b18a4486d710a310dafa0344d3db584303cd6",
+      "packet_hash": "b60a4ba03d51bdfb2158148d30a181bffb8064a3c27650a543772c4e24083367",
+      "published_packet_hash": "b60a4ba03d51bdfb2158148d30a181bffb8064a3c27650a543772c4e24083367",
+      "receipt_id": "760df4e5aed8422c82e53c2c3c7506a8",
+      "request_hash": "1f81f7afeac59b413205b53f63dcb163fa0827c6a47d3927ced7e10865042f2f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “broken sleep” appears in a HAMA insomnia list, but it does not explicitly define broken sleep as sleep that is interrupted rather than continuous through the night.",
+        "The definition adds a general gloss that is not supported by the packet; only the association with insomnia is directly supported."
+      ],
+      "definition_hash": "c911f236ea51bc8cdcec94901a7b18a4486d710a310dafa0344d3db584303cd6",
+      "packet_hash": "b60a4ba03d51bdfb2158148d30a181bffb8064a3c27650a543772c4e24083367",
+      "published_packet_hash": "b60a4ba03d51bdfb2158148d30a181bffb8064a3c27650a543772c4e24083367",
+      "receipt_id": "b1dfc40d48d7418f80ba344ffb3c4fc6",
+      "request_hash": "660cc9913fb973a2d4b3d59aed4005fa84f1ddde709173b14a3f3064c3a7bb88",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

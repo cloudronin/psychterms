@@ -27,5 +27,37 @@
     "definition_hash": "ff633655a8b0ed3faf5d08ffdf9703ff8e73f10f32160bb1ae71660c0690ddac",
     "packet_hash": "ec1f2b3323773a0907ab3bf0c9cc2c6f3f57ffd32ee073cc446ccc311f73308f"
   },
-  "hash": "ff107057c56f9d31884a7f19fe2af44405b6fe9b7a1a978fe8f86f247eaecdb8"
+  "hash": "ff107057c56f9d31884a7f19fe2af44405b6fe9b7a1a978fe8f86f247eaecdb8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a nonprogressive motor disorder caused by chronic brain injuries originating in the prenatal, perinatal, or first few years of life, but it does not support the added claim that cerebral palsy is caused by abnormal brain development.",
+        "The wording \"lifelong\" is not stated in the packet and goes beyond the supplied source."
+      ],
+      "definition_hash": "ff633655a8b0ed3faf5d08ffdf9703ff8e73f10f32160bb1ae71660c0690ddac",
+      "packet_hash": "ec1f2b3323773a0907ab3bf0c9cc2c6f3f57ffd32ee073cc446ccc311f73308f",
+      "published_packet_hash": "ec1f2b3323773a0907ab3bf0c9cc2c6f3f57ffd32ee073cc446ccc311f73308f",
+      "receipt_id": "a75d23dc6ad340ecba6f66a5e70760a9",
+      "request_hash": "6308a1510a9da9d71821c0aa8714050fb80c3dd1b45c113babf4138563fbe7b4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that cerebral palsy is caused by “brain injury or abnormal brain development,” but the packet only describes it as caused by “chronic brain injuries” (originating prenatal/perinatal/first few years) and does not mention abnormal brain development.",
+        "The definition says it is a “group of lifelong movement disorders,” while the packet describes it as “nonprogressive motor disorders” and does not explicitly state “lifelong.”"
+      ],
+      "definition_hash": "ff633655a8b0ed3faf5d08ffdf9703ff8e73f10f32160bb1ae71660c0690ddac",
+      "packet_hash": "ec1f2b3323773a0907ab3bf0c9cc2c6f3f57ffd32ee073cc446ccc311f73308f",
+      "published_packet_hash": "ec1f2b3323773a0907ab3bf0c9cc2c6f3f57ffd32ee073cc446ccc311f73308f",
+      "receipt_id": "b32fa79da44a431c8ea82af6317cfe40",
+      "request_hash": "e83ae55631359e99b9d3f9ecfdeb3ee0755307fce7386f55666531e9160fe1f6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "294091ffef70266f3f5f3ca41dc8dd583d052f8631ec08213630e3ebc259f46b",
     "packet_hash": "81ca2c2da2b42d7ebc7eb052edafc041d6f0a5a3c4de667406d8c541552e55a9"
   },
-  "hash": "bf8e3921a27229dd513905afe58ab9d0f1ca77054b5296ec5ff4ab916a6058fe"
+  "hash": "bf8e3921a27229dd513905afe58ab9d0f1ca77054b5296ec5ff4ab916a6058fe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "294091ffef70266f3f5f3ca41dc8dd583d052f8631ec08213630e3ebc259f46b",
+      "packet_hash": "81ca2c2da2b42d7ebc7eb052edafc041d6f0a5a3c4de667406d8c541552e55a9",
+      "published_packet_hash": "81ca2c2da2b42d7ebc7eb052edafc041d6f0a5a3c4de667406d8c541552e55a9",
+      "receipt_id": "8af61add2a844776ad399e98465c39cc",
+      "request_hash": "c0ae3e1a43c5282fc526a5da4207093bd77b59940201f131c1afc0c85a1fcb6c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states a defect in the focusing of light on the retina (e.g., astigmatism, myopia, hyperopia), but it does not explicitly support the additional claim that this “caus[es] blurred vision.”",
+        "The examples (myopia, hyperopia, astigmatism) are supported, but the requested meaning is weakened by the unsupported “blurred vision” causal phrasing."
+      ],
+      "definition_hash": "294091ffef70266f3f5f3ca41dc8dd583d052f8631ec08213630e3ebc259f46b",
+      "packet_hash": "81ca2c2da2b42d7ebc7eb052edafc041d6f0a5a3c4de667406d8c541552e55a9",
+      "published_packet_hash": "81ca2c2da2b42d7ebc7eb052edafc041d6f0a5a3c4de667406d8c541552e55a9",
+      "receipt_id": "4e411327751e4c3ab144f10f55c580d4",
+      "request_hash": "0366e9b806109e03186334c9a04a591ece9ddf7fc8561420a3ce2326811fb4a5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

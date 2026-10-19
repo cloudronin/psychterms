@@ -27,5 +27,34 @@
     "definition_hash": "763df1e1d58dc3dd22800d41ee3cb510f31e500fef48f2647377a5fe1991c80a",
     "packet_hash": "71f08230278502826bff666c2627a49cc9e6b3f4db1feef07a74ec9ce6c5f4ff"
   },
-  "hash": "0dc3d846331a0fd15135fa0a488387779df5c705dfdfd39a2c54400534a96995"
+  "hash": "0dc3d846331a0fd15135fa0a488387779df5c705dfdfd39a2c54400534a96995",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "763df1e1d58dc3dd22800d41ee3cb510f31e500fef48f2647377a5fe1991c80a",
+      "packet_hash": "71f08230278502826bff666c2627a49cc9e6b3f4db1feef07a74ec9ce6c5f4ff",
+      "published_packet_hash": "71f08230278502826bff666c2627a49cc9e6b3f4db1feef07a74ec9ce6c5f4ff",
+      "receipt_id": "b55fc572e4c24f8daee754235bdeb4c7",
+      "request_hash": "0caa5731bc667fd6270f05951a90410a9a1f3db271e05d82595bd60c123ad7ed",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “reuptake” as the “taking back up” of chemical messengers; it only states that a specific agent works by “blocking the reuptake” of norepinephrine and/or serotonin.",
+        "While the packet supports that reuptake involves norepinephrine and serotonin and that medications can block it, the definition’s general description of reuptake as a specific biological process is not stated in the packet."
+      ],
+      "definition_hash": "763df1e1d58dc3dd22800d41ee3cb510f31e500fef48f2647377a5fe1991c80a",
+      "packet_hash": "71f08230278502826bff666c2627a49cc9e6b3f4db1feef07a74ec9ce6c5f4ff",
+      "published_packet_hash": "71f08230278502826bff666c2627a49cc9e6b3f4db1feef07a74ec9ce6c5f4ff",
+      "receipt_id": "bcf17cff7d054d87a56727799cc68df4",
+      "request_hash": "170ea7cfd5088e585a70fab465fbb9a45b2a72375c633e4b6107e87f6b6b616d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

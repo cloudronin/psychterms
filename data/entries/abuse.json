@@ -27,5 +27,37 @@
     "definition_hash": "1ed43e63d1cc1e75838a26596a5d8f3fb2f0ccb3fe6060ae401cd32131377985",
     "packet_hash": "9f4e567c31f71d6b3dd5353f9d9ce8106040ad822f1083f2323027aa0f943ac9"
   },
-  "hash": "558a53d39047af95bc3313bffb539f27dccd8f0a9a4deb0075065b26943bc5d5"
+  "hash": "558a53d39047af95bc3313bffb539f27dccd8f0a9a4deb0075065b26943bc5d5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines abuse as “Improper use or treatment that is generally considered harmful” and does not specify that the “harmful treatment” is necessarily of a person; the definition’s added focus on “a person” is not directly supported.",
+        "The definition uses “actions” and “generally understood to cause harm,” which are not verbatim or clearly constrained by the packet’s phrasing (the packet says “generally considered harmful”)."
+      ],
+      "definition_hash": "1ed43e63d1cc1e75838a26596a5d8f3fb2f0ccb3fe6060ae401cd32131377985",
+      "packet_hash": "9f4e567c31f71d6b3dd5353f9d9ce8106040ad822f1083f2323027aa0f943ac9",
+      "published_packet_hash": "9f4e567c31f71d6b3dd5353f9d9ce8106040ad822f1083f2323027aa0f943ac9",
+      "receipt_id": "c963edb96f5647c4b8ed9110f283cab1",
+      "request_hash": "fe2fcbd125b6562f04c6234b4644cb00ae739719f90a7aaaf246f0989409b7b1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied field “ethics” is not supported by the packet; the source is an NCI Thesaurus descriptor for “Abuse,” not an ethics-specific entry.",
+        "The definition adds a broad generalization (“actions that are generally understood to cause harm”) that is not needed to match the source text and is less precise than the packet wording."
+      ],
+      "definition_hash": "1ed43e63d1cc1e75838a26596a5d8f3fb2f0ccb3fe6060ae401cd32131377985",
+      "packet_hash": "9f4e567c31f71d6b3dd5353f9d9ce8106040ad822f1083f2323027aa0f943ac9",
+      "published_packet_hash": "9f4e567c31f71d6b3dd5353f9d9ce8106040ad822f1083f2323027aa0f943ac9",
+      "receipt_id": "5e3d4fc0a02f4d53b2f2f90596865b55",
+      "request_hash": "981bf6c271698e1e150dcfdc8b7960f454064c8cfdaa83db5b165ddbb6bf624a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

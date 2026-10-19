@@ -27,5 +27,37 @@
     "definition_hash": "445c106dabc839310225fb36ac07e38955dd6a0dc5a7280da4f251e0bc3ef041",
     "packet_hash": "bd4c6764f733d0fa8eb09740c098d5bacecdfd90703efadce43e3fb3d0c3dc12"
   },
-  "hash": "6efb31a1e034fff2feecbe781359df6bd11f50e172b4f3d786011cff3a419634"
+  "hash": "6efb31a1e034fff2feecbe781359df6bd11f50e172b4f3d786011cff3a419634",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports interruption of neural conduction in peripheral nerves or nerve trunks by injection to manage or treat pain, but it does not explicitly support the claim that the block is temporary."
+      ],
+      "definition_hash": "445c106dabc839310225fb36ac07e38955dd6a0dc5a7280da4f251e0bc3ef041",
+      "packet_hash": "bd4c6764f733d0fa8eb09740c098d5bacecdfd90703efadce43e3fb3d0c3dc12",
+      "published_packet_hash": "bd4c6764f733d0fa8eb09740c098d5bacecdfd90703efadce43e3fb3d0c3dc12",
+      "receipt_id": "e1a736a440224b06ad27c45aee038db7",
+      "request_hash": "55c0bdb315ed7321256ec3df1a187e7a6b96bb1a844679738481da5abfe9ba04",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines nerve block as “interruption of neural conduction” via injection, but it does not explicitly state that this interruption is temporary; the definition’s “temporarily stops” claim is therefore not directly supported.",
+        "The definition includes “usually,” while the packet does not support that frequency qualifier.",
+        "The definition’s “control or treat pain” is broadly consistent with the packet’s “manage or treat pain,” but the unsupported “temporarily” and “usually” prevent a full match."
+      ],
+      "definition_hash": "445c106dabc839310225fb36ac07e38955dd6a0dc5a7280da4f251e0bc3ef041",
+      "packet_hash": "bd4c6764f733d0fa8eb09740c098d5bacecdfd90703efadce43e3fb3d0c3dc12",
+      "published_packet_hash": "bd4c6764f733d0fa8eb09740c098d5bacecdfd90703efadce43e3fb3d0c3dc12",
+      "receipt_id": "78b268abc68d41c2a91ca7ffbe649d75",
+      "request_hash": "44844beadcd029e83af7499ef2ebb92834a36d9aa69432d739f92b154b7cc016",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

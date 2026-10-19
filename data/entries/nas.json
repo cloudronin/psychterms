@@ -27,5 +27,33 @@
     "definition_hash": "48cfd482907a3dbb20a3869e0a5352ba9140041d76e938f1d9a927708f99e83d",
     "packet_hash": "00d6400aa6b4e52a46222b79dd640dd714454beb553b6489e018452d54fb39e1"
   },
-  "hash": "53fb5a4eefc205f592c88f2c5a8e6297e00ba57c8108c5215dfa5cfef015a237"
+  "hash": "53fb5a4eefc205f592c88f2c5a8e6297e00ba57c8108c5215dfa5cfef015a237",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines NAS as a histopathological scoring system for nonalcoholic fatty liver disease/steatohepatitis, which is a liver/medical context rather than mental health; therefore the supplied definition is not defensibly situated in the requested \"mental health\" field."
+      ],
+      "definition_hash": "48cfd482907a3dbb20a3869e0a5352ba9140041d76e938f1d9a927708f99e83d",
+      "packet_hash": "00d6400aa6b4e52a46222b79dd640dd714454beb553b6489e018452d54fb39e1",
+      "published_packet_hash": "00d6400aa6b4e52a46222b79dd640dd714454beb553b6489e018452d54fb39e1",
+      "receipt_id": "f5f7406f7ed9425abc26751a81a5c3ee",
+      "request_hash": "de368b73e0714d9194775c0710db4ad7d33c21fe730ce4903deaf7480669b378",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "48cfd482907a3dbb20a3869e0a5352ba9140041d76e938f1d9a927708f99e83d",
+      "packet_hash": "00d6400aa6b4e52a46222b79dd640dd714454beb553b6489e018452d54fb39e1",
+      "published_packet_hash": "00d6400aa6b4e52a46222b79dd640dd714454beb553b6489e018452d54fb39e1",
+      "receipt_id": "f66ffb52390a4fee89445978ef472693",
+      "request_hash": "21b38cfd340a13989f70bda7a1d45a72cbb40ceaf1684ce4330a78755be8a9d2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

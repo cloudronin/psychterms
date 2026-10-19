@@ -27,5 +27,34 @@
     "definition_hash": "61d69f7a3592d032980dd9db1e805804d453c31ae53ba109f1de6cb06afdbebd",
     "packet_hash": "1288357308938ce465f949bd355b6fc8537370cfa7f22de3ef7d2072c0c21f5f"
   },
-  "hash": "4f000ace5b5da63c36f4192e8c88494172bac8a2d7d9a68932657cd2724917be"
+  "hash": "4f000ace5b5da63c36f4192e8c88494172bac8a2d7d9a68932657cd2724917be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "61d69f7a3592d032980dd9db1e805804d453c31ae53ba109f1de6cb06afdbebd",
+      "packet_hash": "1288357308938ce465f949bd355b6fc8537370cfa7f22de3ef7d2072c0c21f5f",
+      "published_packet_hash": "1288357308938ce465f949bd355b6fc8537370cfa7f22de3ef7d2072c0c21f5f",
+      "receipt_id": "2806d219f1014b508c193f2b7f529b8c",
+      "request_hash": "d33eaed2ed2e8a92e55ccab784a6a6c53422666ace259a371e62b03f32fd2e2c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source record is for polymicrogyria, not micropolygyria, and the packet does not support micropolygyria as the term/sense being defined.",
+        "The definition adds/reshapes wording (“group of brain cortex malformations”) beyond the packet’s phrasing and should not present an unsupported term mapping when only a polymicrogyria record is provided."
+      ],
+      "definition_hash": "61d69f7a3592d032980dd9db1e805804d453c31ae53ba109f1de6cb06afdbebd",
+      "packet_hash": "1288357308938ce465f949bd355b6fc8537370cfa7f22de3ef7d2072c0c21f5f",
+      "published_packet_hash": "1288357308938ce465f949bd355b6fc8537370cfa7f22de3ef7d2072c0c21f5f",
+      "receipt_id": "8c88337ab4f047ca9cf9e7cd9f4e40df",
+      "request_hash": "20a4491ae525f03d2a6131671117359261d3ddbdbe364729b0b05888f165f266",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

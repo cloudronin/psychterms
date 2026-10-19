@@ -27,5 +27,37 @@
     "definition_hash": "f18d11aa3f3e2db75d713b6728bfa40beb1ba7c96e275c455ecb89209a25fbe3",
     "packet_hash": "48efe79132ab53ade295f118700c01978ba7876e2c63c899ea0f17f4edb0e81b"
   },
-  "hash": "56f03b10e88cc2e281830267fab5e6cd1729f31d79fa914f2edecf9cb1bc353a"
+  "hash": "56f03b10e88cc2e281830267fab5e6cd1729f31d79fa914f2edecf9cb1bc353a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence adds unsupported context (“In psychology and learning contexts”) that is not stated in the packet.",
+        "The second sentence also adds unsupported content about “substance use and dependence-related behavior”; the packet only says heroin is a controlled substance and may be habit-forming."
+      ],
+      "definition_hash": "f18d11aa3f3e2db75d713b6728bfa40beb1ba7c96e275c455ecb89209a25fbe3",
+      "packet_hash": "48efe79132ab53ade295f118700c01978ba7876e2c63c899ea0f17f4edb0e81b",
+      "published_packet_hash": "48efe79132ab53ade295f118700c01978ba7876e2c63c899ea0f17f4edb0e81b",
+      "receipt_id": "171339df879a4302a9f092a8a9cb98cc",
+      "request_hash": "bbc8c65cf0353acbf391fa20196a7ef6dd36aec76d7bc3a63ca5cbc94d521d50",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes heroin as a “narcotic analgesic” that “may be habit-forming” and an “opium derivative” controlled substance; the definition’s framing as “pain-relieving” is only indirectly supported by “analgesic,” and the definition adds claims not present in the packet.",
+        "The packet does not state or support that, specifically in “psychology and learning contexts,” heroin is discussed as a controlled substance tied to “substance use and dependence-related behavior.” That psychology/learning-specific claim is not present in the supplied text."
+      ],
+      "definition_hash": "f18d11aa3f3e2db75d713b6728bfa40beb1ba7c96e275c455ecb89209a25fbe3",
+      "packet_hash": "48efe79132ab53ade295f118700c01978ba7876e2c63c899ea0f17f4edb0e81b",
+      "published_packet_hash": "48efe79132ab53ade295f118700c01978ba7876e2c63c899ea0f17f4edb0e81b",
+      "receipt_id": "1a96cbf0500340beb6590fcf4e1763ae",
+      "request_hash": "4e0f9ba4ef5036ce26b3a3b589685ae1ba869130d3840f6760d0530d5eae616c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "21a757e9327bce84fbc565d29e7589a26a78095fb5eb12b385392f23ee0913de",
     "packet_hash": "d97d8b205115cf4a060bb99d57f6f055cf5f1dbe4f2bba06458b1a6c006b0466"
   },
-  "hash": "320f3307645c96bd43d35b18903993f93d35495ceed947d15cf03c9717ff99f8"
+  "hash": "320f3307645c96bd43d35b18903993f93d35495ceed947d15cf03c9717ff99f8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "21a757e9327bce84fbc565d29e7589a26a78095fb5eb12b385392f23ee0913de",
+      "packet_hash": "d97d8b205115cf4a060bb99d57f6f055cf5f1dbe4f2bba06458b1a6c006b0466",
+      "published_packet_hash": "d97d8b205115cf4a060bb99d57f6f055cf5f1dbe4f2bba06458b1a6c006b0466",
+      "receipt_id": "c74be719388b467883d802ee193fd383",
+      "request_hash": "4571fc478953063103a7144976354a0a1ed969f101944b9b4c7b2024aacb0601",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the term refers to a pharmacologic substance (an atypical antipsychotic agent), not a diagnosis, so using the field \"diagnosis\" is not defensible based on the packet contents."
+      ],
+      "definition_hash": "21a757e9327bce84fbc565d29e7589a26a78095fb5eb12b385392f23ee0913de",
+      "packet_hash": "d97d8b205115cf4a060bb99d57f6f055cf5f1dbe4f2bba06458b1a6c006b0466",
+      "published_packet_hash": "d97d8b205115cf4a060bb99d57f6f055cf5f1dbe4f2bba06458b1a6c006b0466",
+      "receipt_id": "7b30b49991d34e2884ff361a26e4e4b4",
+      "request_hash": "e686210036cafcdfef2e1af35808342c4fa8cabfe1d1e60e9dc4e8f0f68a88fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

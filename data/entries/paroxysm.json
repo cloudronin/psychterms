@@ -27,5 +27,38 @@
     "definition_hash": "7e7f86aca1600c837e19ecbacc9a3d5b79c9e3136bce3d68fde6dfb95b73fef8",
     "packet_hash": "93b8f3dc4773d290c2cfdc6ce341102d7d9ac61acd0ade09c0b106af824d9ff0"
   },
-  "hash": "a535ed71da94878884c0e876f39b3f4d399c073772df26acf41b12396f063389"
+  "hash": "a535ed71da94878884c0e876f39b3f4d399c073772df26acf41b12396f063389",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only a medical sense in this source: “a violent and purposeless contraction or paroxysm of a group of muscles.” It does not support the broader general sense “sudden violent attack or outburst.”",
+        "The added gloss “such as an abrupt involuntary contraction of muscles” is not the meaning of paroxysm here; it is the surrounding definition of convulsion, where paroxysm is used as a near-synonym for a muscular contraction.",
+        "The definition overgeneralizes from one historical occurrence and should not present that historical usage as a broad dictionary sense without support from the packet."
+      ],
+      "definition_hash": "7e7f86aca1600c837e19ecbacc9a3d5b79c9e3136bce3d68fde6dfb95b73fef8",
+      "packet_hash": "93b8f3dc4773d290c2cfdc6ce341102d7d9ac61acd0ade09c0b106af824d9ff0",
+      "published_packet_hash": "93b8f3dc4773d290c2cfdc6ce341102d7d9ac61acd0ade09c0b106af824d9ff0",
+      "receipt_id": "14a0e298f41041f4be60a2efb3c4885d",
+      "request_hash": "31acaaf0e0ad00abb53970deb8a9e9a3d18d4e2bab28f9c3ae19c1a616547130",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general sense of “paroxysm” as a “sudden violent attack or outburst”; it only uses “paroxysm” as part of the phrase “A violent and purposeless contraction or paroxysm of a group of muscles.”",
+        "The example in the definition (“abrupt involuntary contraction of muscles”) is broadly consistent with the packet’s wording, but the packet does not explicitly characterize the contraction as “sudden” or “outburst,” so that added phrasing is not directly supported."
+      ],
+      "definition_hash": "7e7f86aca1600c837e19ecbacc9a3d5b79c9e3136bce3d68fde6dfb95b73fef8",
+      "packet_hash": "93b8f3dc4773d290c2cfdc6ce341102d7d9ac61acd0ade09c0b106af824d9ff0",
+      "published_packet_hash": "93b8f3dc4773d290c2cfdc6ce341102d7d9ac61acd0ade09c0b106af824d9ff0",
+      "receipt_id": "9bf689ee50714a9f98461c746ce21586",
+      "request_hash": "79fcf18151258ed58b9064061c11a1cbc52b26b671117d3d0d85c6630ea150c9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

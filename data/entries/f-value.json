@@ -27,5 +27,36 @@
     "definition_hash": "4aeb4b394e0a4f3b5737985d4370db023241a7bea912984b3b8c02111bce9ff0",
     "packet_hash": "e83d5c3adca0f8a5e6bc062fe25d0f68be91988b415c61de9f83699ffe6c167a"
   },
-  "hash": "ea5ab62e178636e000a4490d5363fb932eba1b3861513bb41566ebe4b606587b"
+  "hash": "ea5ab62e178636e000a4490d5363fb932eba1b3861513bb41566ebe4b606587b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence adds an unsupported characterization of an F value as expressing the size of an effect relative to error or unexplained variation; the packet only says an F value and its degrees of freedom can be used to calculate partial eta squared.",
+        "The definition should stay tightly within the supplied source passage; it goes beyond the passage by generalizing to analyses such as ANOVA without that being directly defined for the term here."
+      ],
+      "definition_hash": "4aeb4b394e0a4f3b5737985d4370db023241a7bea912984b3b8c02111bce9ff0",
+      "packet_hash": "e83d5c3adca0f8a5e6bc062fe25d0f68be91988b415c61de9f83699ffe6c167a",
+      "published_packet_hash": "e83d5c3adca0f8a5e6bc062fe25d0f68be91988b415c61de9f83699ffe6c167a",
+      "receipt_id": "373863eef18144dd9c0c0163d9da082b",
+      "request_hash": "b6bc821cb8194de379f7a6dfec5bb7c6de8f331dc0c3d68118e4d6b8532dec3a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what an “F value” is or say that it expresses the size of an effect relative to “error or unexplained variation.” It only discusses how partial eta squared (η²p) can be computed from an F value and its degrees of freedom."
+      ],
+      "definition_hash": "4aeb4b394e0a4f3b5737985d4370db023241a7bea912984b3b8c02111bce9ff0",
+      "packet_hash": "e83d5c3adca0f8a5e6bc062fe25d0f68be91988b415c61de9f83699ffe6c167a",
+      "published_packet_hash": "e83d5c3adca0f8a5e6bc062fe25d0f68be91988b415c61de9f83699ffe6c167a",
+      "receipt_id": "a33e24227c1f489986cd0b858e14eda2",
+      "request_hash": "f5b229f27bfa1f3f5afdda9dbe1fbd3e32650c984c039efee760af94e295fe9e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

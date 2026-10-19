@@ -27,5 +27,34 @@
     "definition_hash": "9dd79c6ac879ce715c5c600346d3d23b9cd00cacb139bdc622fbeec2cef26fc3",
     "packet_hash": "3c5c47a9d53fd10681f526291983dd7b673d2a22acb7a3fb071750f61eb82715"
   },
-  "hash": "19abc606be34844d1a940bf63bda0a7d885badd30553c2c0dd3926f276723dc3"
+  "hash": "19abc606be34844d1a940bf63bda0a7d885badd30553c2c0dd3926f276723dc3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9dd79c6ac879ce715c5c600346d3d23b9cd00cacb139bdc622fbeec2cef26fc3",
+      "packet_hash": "3c5c47a9d53fd10681f526291983dd7b673d2a22acb7a3fb071750f61eb82715",
+      "published_packet_hash": "3c5c47a9d53fd10681f526291983dd7b673d2a22acb7a3fb071750f61eb82715",
+      "receipt_id": "cd4a148e113447f9b2a92fd05fd09282",
+      "request_hash": "5855de7ea434423e22bc65de5c52b78c0a5dfd1bec3944f29aa013df3cc5433c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “In this older usage” is not supported by the packet; the packet presents the usage as a definition without indicating it is “older.”",
+        "The definition says “Dioptrics is the branch of optics concerned with the refraction of light,” which is supported, but the unsupported “older usage” qualifier makes the substantive historical framing defective."
+      ],
+      "definition_hash": "9dd79c6ac879ce715c5c600346d3d23b9cd00cacb139bdc622fbeec2cef26fc3",
+      "packet_hash": "3c5c47a9d53fd10681f526291983dd7b673d2a22acb7a3fb071750f61eb82715",
+      "published_packet_hash": "3c5c47a9d53fd10681f526291983dd7b673d2a22acb7a3fb071750f61eb82715",
+      "receipt_id": "cfb5f13e8fc44c409d49fa926e4802f6",
+      "request_hash": "f2dac8764c7b6da76c9e554d2397622510c4248e6870fecadc337589d2162042",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

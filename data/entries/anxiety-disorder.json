@@ -27,5 +27,34 @@
     "definition_hash": "e8bd1447a3554e4a28e447e018a78cc7e4ac134499c0581f3091e55922843441",
     "packet_hash": "32c2f38a69fdbd8cdc6b9733757d432fe6dd1b417d33566e1d0176c44dee8b88"
   },
-  "hash": "573935f656ab1cb067c7753d37c1a557ab0de70ccddf39a5ae3ffdd2ca24f91d"
+  "hash": "573935f656ab1cb067c7753d37c1a557ab0de70ccddf39a5ae3ffdd2ca24f91d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e8bd1447a3554e4a28e447e018a78cc7e4ac134499c0581f3091e55922843441",
+      "packet_hash": "32c2f38a69fdbd8cdc6b9733757d432fe6dd1b417d33566e1d0176c44dee8b88",
+      "published_packet_hash": "32c2f38a69fdbd8cdc6b9733757d432fe6dd1b417d33566e1d0176c44dee8b88",
+      "receipt_id": "61be3a6c5b324baaaecc143662a9fdb9",
+      "request_hash": "246c270015c26ac152f136df4a90cdc2d99bb5d71b8a418816ce6ff203c2912e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “persistent” anxiety, which is not stated in the source packet.",
+        "The rest is broadly supported, but a pass requires every substantive claim to be supported exactly by the packet."
+      ],
+      "definition_hash": "e8bd1447a3554e4a28e447e018a78cc7e4ac134499c0581f3091e55922843441",
+      "packet_hash": "32c2f38a69fdbd8cdc6b9733757d432fe6dd1b417d33566e1d0176c44dee8b88",
+      "published_packet_hash": "32c2f38a69fdbd8cdc6b9733757d432fe6dd1b417d33566e1d0176c44dee8b88",
+      "receipt_id": "f5c82d79b329496fab7043a8ae6daeab",
+      "request_hash": "0b9a3b8b9f561146969a2c3b141fed927f8a52234a8249d7ad7ddbc1e7b46474",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

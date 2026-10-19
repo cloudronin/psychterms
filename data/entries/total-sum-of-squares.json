@@ -27,5 +27,35 @@
     "definition_hash": "dadf1dd3426c64425fa2540d9e7c9518c25e605eea9f5f80e689b6ea6855b185",
     "packet_hash": "ee3f7240ba8f7b3263552fd13c5f7c64d4a5d237a3612b423ad7787e9c7959d8"
   },
-  "hash": "665d1b710c2b0b4378f2da4fad8e15626dfc6bf68e07bae899f0849af0410144"
+  "hash": "665d1b710c2b0b4378f2da4fad8e15626dfc6bf68e07bae899f0849af0410144",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dadf1dd3426c64425fa2540d9e7c9518c25e605eea9f5f80e689b6ea6855b185",
+      "packet_hash": "ee3f7240ba8f7b3263552fd13c5f7c64d4a5d237a3612b423ad7787e9c7959d8",
+      "published_packet_hash": "ee3f7240ba8f7b3263552fd13c5f7c64d4a5d237a3612b423ad7787e9c7959d8",
+      "receipt_id": "89196fcb8a5a44c284ae596d88a11e42",
+      "request_hash": "29cbea2982d45d79d803511e9d1432859fb328368132ef71c2f814e2ffce15aa",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “total sum of squares” as “the overall amount of variation in a set of scores.”",
+        "The packet mentions that η² is computed as “sum of squares of the effect divided by the total sum of squares,” but it does not provide the requested interpretation of what the total sum of squares represents beyond being the denominator in that fraction.",
+        "Because the definition’s first sentence (“overall amount of variation…”) is unsupported by the packet, the definition is not fully defensible."
+      ],
+      "definition_hash": "dadf1dd3426c64425fa2540d9e7c9518c25e605eea9f5f80e689b6ea6855b185",
+      "packet_hash": "ee3f7240ba8f7b3263552fd13c5f7c64d4a5d237a3612b423ad7787e9c7959d8",
+      "published_packet_hash": "ee3f7240ba8f7b3263552fd13c5f7c64d4a5d237a3612b423ad7787e9c7959d8",
+      "receipt_id": "3ee4dd32d26d484284cc1c1edf8d2773",
+      "request_hash": "303b78c8ad2557818abc9c15976e50b11ca3aeaa02d0a8ebf9488be85e2fc6c9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

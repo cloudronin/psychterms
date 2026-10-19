@@ -27,5 +27,36 @@
     "definition_hash": "af2f8f27380e39f066718f8e6beb742b2441f66d84b2483216c8f26e23bf2fe1",
     "packet_hash": "ecd1424e205b25fd9ce26bb1e922560fa65f86c30ee60ee01961578071ca63ef"
   },
-  "hash": "f5fcb07222c0620cd1aff933236ef5d70337b7bd2b7e0e60ca4968294d0af1c3"
+  "hash": "f5fcb07222c0620cd1aff933236ef5d70337b7bd2b7e0e60ca4968294d0af1c3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase \"using symbols to express thought and reasoning\" is not supported by the packet; the source only identifies Boole’s work as an early treatise in \"mathematical or symbolic logic.\""
+      ],
+      "definition_hash": "af2f8f27380e39f066718f8e6beb742b2441f66d84b2483216c8f26e23bf2fe1",
+      "packet_hash": "ecd1424e205b25fd9ce26bb1e922560fa65f86c30ee60ee01961578071ca63ef",
+      "published_packet_hash": "ecd1424e205b25fd9ce26bb1e922560fa65f86c30ee60ee01961578071ca63ef",
+      "receipt_id": "0fbebed73acc42deb8ce490273f5d0cc",
+      "request_hash": "983184633eb51693fdb68eb98a93d6e390a734bfc7827e6db815a972b1bbbdcf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states: “Symbolic logic is a mathematical form of logic, using symbols to express thought and reasoning.” The provided packet does not define symbolic logic or describe it as using symbols to express thought/reasoning.",
+        "The definition says it “appears as the kind of logic treated in George Boole’s pioneering mathematical work…”. The packet only anchors Boole as an English mathematician/logician and notes that his work *An Investigation into the Laws of Thought* was the first elaborate treatise in mathematical or symbolic logic; it does not support the characterization “pioneering” or explicitly frames the term as “the kind of logic treated” (beyond that general anchor)."
+      ],
+      "definition_hash": "af2f8f27380e39f066718f8e6beb742b2441f66d84b2483216c8f26e23bf2fe1",
+      "packet_hash": "ecd1424e205b25fd9ce26bb1e922560fa65f86c30ee60ee01961578071ca63ef",
+      "published_packet_hash": "ecd1424e205b25fd9ce26bb1e922560fa65f86c30ee60ee01961578071ca63ef",
+      "receipt_id": "e203f722f466479fb839b5051de72615",
+      "request_hash": "103fa6f9cd6ef16cb936ca5dee7c7a31c4cdf82bb66fbb5b596809989d709455",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "67c991db71d69a17519357144e039337394ce752084b486aa4290acf046f16ce",
     "packet_hash": "ab310df0cda258fa524ba152341b412f675bd6aa091d5aeb79c72e2c0053e232"
   },
-  "hash": "a6c1cc0c25ca76234da6606f55a2559a018cb2ca26b6b58c4adfbcea37ebb4be"
+  "hash": "a6c1cc0c25ca76234da6606f55a2559a018cb2ca26b6b58c4adfbcea37ebb4be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define skewness as “a statistical measure of how unevenly values are distributed around the center of a dataset.”",
+        "While the packet mentions using standardized scores of “skewness” (with kurtosis) and the Shapiro-Wilk test to assess violated assumptions of normality, it does not support the definition’s first, descriptive statement about what skewness measures."
+      ],
+      "definition_hash": "67c991db71d69a17519357144e039337394ce752084b486aa4290acf046f16ce",
+      "packet_hash": "ab310df0cda258fa524ba152341b412f675bd6aa091d5aeb79c72e2c0053e232",
+      "published_packet_hash": "ab310df0cda258fa524ba152341b412f675bd6aa091d5aeb79c72e2c0053e232",
+      "receipt_id": "b24f049d727d46d0aa9dcba3256bee65",
+      "request_hash": "22ce35bfe1762031be02b3637f5c4ef3e90334b3cb0326b348a96cafbaf51519",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define skewness as a measure of how unevenly values are distributed around the center of a dataset; it only mentions standardized scores of skewness in the context of testing normality.",
+        "The statement that skewness is used in research methods to check whether data follow a normal distribution is broader than the packet, which only says that skewness contributed to evidence that assumptions of normality were violated in one analysis."
+      ],
+      "definition_hash": "67c991db71d69a17519357144e039337394ce752084b486aa4290acf046f16ce",
+      "packet_hash": "ab310df0cda258fa524ba152341b412f675bd6aa091d5aeb79c72e2c0053e232",
+      "published_packet_hash": "ab310df0cda258fa524ba152341b412f675bd6aa091d5aeb79c72e2c0053e232",
+      "receipt_id": "74d893c4a3dd4e36a7484773e606fce1",
+      "request_hash": "a5ff460b54bf49e3f5a564286bce21bf12c48cb8601355d5c9e9e88f781f231d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

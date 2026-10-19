@@ -27,5 +27,36 @@
     "definition_hash": "b7d463b3b41317af5ff645becb1fe3f6741e5892fb9900273d9951b075c66e7b",
     "packet_hash": "94e6ac518514c28dda14a290b688685b9c1d7e48a27c8c5412e9a4eed55f69ef"
   },
-  "hash": "37ffeed19261ea3f519f59b94de8d68f1e09bab48f25018bfc2c547723e68d42"
+  "hash": "37ffeed19261ea3f519f59b94de8d68f1e09bab48f25018bfc2c547723e68d42",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports methyldopa’s antihypertensive action and its central metabolism to alpha-methylnorepinephrine, but it does not state that Aldomet is a brand name for methyldopa."
+      ],
+      "definition_hash": "b7d463b3b41317af5ff645becb1fe3f6741e5892fb9900273d9951b075c66e7b",
+      "packet_hash": "94e6ac518514c28dda14a290b688685b9c1d7e48a27c8c5412e9a4eed55f69ef",
+      "published_packet_hash": "94e6ac518514c28dda14a290b688685b9c1d7e48a27c8c5412e9a4eed55f69ef",
+      "receipt_id": "7e41aaf2a28b4aa8b96722029e04760c",
+      "request_hash": "84e3cf065c82f33949e35acc0bde583a051ca7c64f2ae8a37b91eacd053848b2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that “Aldomet” is a brand name for methyldopa, so that part of the definition is unsupported by the provided source text.",
+        "While the packet supports that methyldopa is metabolized in the central nervous system and that its antihypertensive action involves decreased sympathetic outflow (via conversion to alpha-methylnorepinephrine and stimulation of central alpha-2 adrenergic receptors), the overall definition is rejected because the brand-name claim is not supported."
+      ],
+      "definition_hash": "b7d463b3b41317af5ff645becb1fe3f6741e5892fb9900273d9951b075c66e7b",
+      "packet_hash": "94e6ac518514c28dda14a290b688685b9c1d7e48a27c8c5412e9a4eed55f69ef",
+      "published_packet_hash": "94e6ac518514c28dda14a290b688685b9c1d7e48a27c8c5412e9a4eed55f69ef",
+      "receipt_id": "b2ae20fc379c40bf8b1eba8bf6a58dc6",
+      "request_hash": "80a24d3d8d3576505ef60a49b80544acc33d2b4ff84be62b588b563524ee36c3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

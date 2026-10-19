@@ -27,5 +27,34 @@
     "definition_hash": "c90e8fda4089ce45e068adb04f050459cf0656f7817243b2ad196e386d92a399",
     "packet_hash": "667c640f5c106e1b5db52a1fb5ecad84911baf0fa94b52f61a99c40281f3b781"
   },
-  "hash": "62ebc1be5fb6aa5a8ca9db274ee85c5c3b1fd842b51cfbf138e8a6a0fa251832"
+  "hash": "62ebc1be5fb6aa5a8ca9db274ee85c5c3b1fd842b51cfbf138e8a6a0fa251832",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c90e8fda4089ce45e068adb04f050459cf0656f7817243b2ad196e386d92a399",
+      "packet_hash": "667c640f5c106e1b5db52a1fb5ecad84911baf0fa94b52f61a99c40281f3b781",
+      "published_packet_hash": "667c640f5c106e1b5db52a1fb5ecad84911baf0fa94b52f61a99c40281f3b781",
+      "receipt_id": "3c7c655d19bd489f83dfe2b44694508e",
+      "request_hash": "644458571cdc64866bda4a65623030dcf5a0d67409ecf20bb6c5a8a9f7685a6c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “contemporaneity” as “occurring at the same time”; it only includes “contemporaneity” as a factor that “are [not] able to fuse thoughts together.”",
+        "Because the first sentence gives an explicit definition not stated in the supplied passage, the requested term sense is not fully supported by the packet."
+      ],
+      "definition_hash": "c90e8fda4089ce45e068adb04f050459cf0656f7817243b2ad196e386d92a399",
+      "packet_hash": "667c640f5c106e1b5db52a1fb5ecad84911baf0fa94b52f61a99c40281f3b781",
+      "published_packet_hash": "667c640f5c106e1b5db52a1fb5ecad84911baf0fa94b52f61a99c40281f3b781",
+      "receipt_id": "e9e04ea6d4db4e1eaac7ddd3884505e0",
+      "request_hash": "e679a1b06257c114587da253dfae3f9190d552eea262873e30645d023e5dd60a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

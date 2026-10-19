@@ -27,5 +27,36 @@
     "definition_hash": "f418c988e0bc8a670740aee95a650fc986e5d2667a74a5dfe67f11c29f4d93cb",
     "packet_hash": "24bfb97ac8a5048cd92f31b8864a268f277df4ea97a415d4bc72f3c2e5dc1954"
   },
-  "hash": "de49d4c51704917665e4b914497d9bbb16b360d01d977a8e562294bd3ecdf444"
+  "hash": "de49d4c51704917665e4b914497d9bbb16b360d01d977a8e562294bd3ecdf444",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports patient-controlled analgesia, but it does not support the field label \"cognition\" for this sense of \"lockout\".",
+        "The definition is otherwise close to the packet, but the requested sense is a medical analgesia term rather than a cognition term."
+      ],
+      "definition_hash": "f418c988e0bc8a670740aee95a650fc986e5d2667a74a5dfe67f11c29f4d93cb",
+      "packet_hash": "24bfb97ac8a5048cd92f31b8864a268f277df4ea97a415d4bc72f3c2e5dc1954",
+      "published_packet_hash": "24bfb97ac8a5048cd92f31b8864a268f277df4ea97a415d4bc72f3c2e5dc1954",
+      "receipt_id": "34aa27988f884d8fb85afccdda05e8e7",
+      "request_hash": "02865e6296b8862714a61ba7c8e93c8c45fffc9dc540022aff5c69f4a746954d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes lockout/“lockout interval” as part of patient-controlled analgesia (a pharmacologic/medical pain-management mechanism), not as something in the domain of cognition (the packet does not support placing this term under the requested field: cognition)."
+      ],
+      "definition_hash": "f418c988e0bc8a670740aee95a650fc986e5d2667a74a5dfe67f11c29f4d93cb",
+      "packet_hash": "24bfb97ac8a5048cd92f31b8864a268f277df4ea97a415d4bc72f3c2e5dc1954",
+      "published_packet_hash": "24bfb97ac8a5048cd92f31b8864a268f277df4ea97a415d4bc72f3c2e5dc1954",
+      "receipt_id": "f58ae5fb062b4acc81b3e5c178d11ac4",
+      "request_hash": "a60af0a4f57520e07670b6f07ac5e2e15a5bfe47d7618a4aabfd113022fc2dda",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

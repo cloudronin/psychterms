@@ -27,5 +27,36 @@
     "definition_hash": "d2bef61b788a1ab1a2f3070f2f4eecc778662afbaab83e549814ad52848f0cb7",
     "packet_hash": "c3c06c2eedc9d9ac4be91b39fbfee60ebbdb396f213c50a3c4a52f2f434d2bbc"
   },
-  "hash": "278d820b65acb7c4cb2b99edd6c82b4805578c10449a46e37c47e8cb8894c822"
+  "hash": "278d820b65acb7c4cb2b99edd6c82b4805578c10449a46e37c47e8cb8894c822",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is supported by the packet’s pharmacology content, but the requested field ‘cognition’ is not defensible for ketamine here; the source describes a pharmacologic substance, not a cognition term.",
+        "The entry should not be treated as a psychology/counselling dictionary sense without a clearer, field-appropriate framing."
+      ],
+      "definition_hash": "d2bef61b788a1ab1a2f3070f2f4eecc778662afbaab83e549814ad52848f0cb7",
+      "packet_hash": "c3c06c2eedc9d9ac4be91b39fbfee60ebbdb396f213c50a3c4a52f2f434d2bbc",
+      "published_packet_hash": "c3c06c2eedc9d9ac4be91b39fbfee60ebbdb396f213c50a3c4a52f2f434d2bbc",
+      "receipt_id": "7d8dc6f9a513437ea64fb7314a0e2575",
+      "request_hash": "31553edae44d737aee986a2846c496aa8177fee2cef9337154965fb13d33b602",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field issue: the packet describes analgesic/anesthetic effects, mechanism (NMDA, opioid receptors, biogenic amine uptake), pain perception, and sedation, but it does not support linking ketamine to the cognition field specifically."
+      ],
+      "definition_hash": "d2bef61b788a1ab1a2f3070f2f4eecc778662afbaab83e549814ad52848f0cb7",
+      "packet_hash": "c3c06c2eedc9d9ac4be91b39fbfee60ebbdb396f213c50a3c4a52f2f434d2bbc",
+      "published_packet_hash": "c3c06c2eedc9d9ac4be91b39fbfee60ebbdb396f213c50a3c4a52f2f434d2bbc",
+      "receipt_id": "a9047ad8beb648bb8346dbebeea74437",
+      "request_hash": "7441013373bd5ee406a0351266a7af148c0a4cba1fd8f1d2cd9449b52c10e41b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

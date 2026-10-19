@@ -27,5 +27,34 @@
     "definition_hash": "cdffe08d8da56f80962c57da4698437ac26acc22a429c627ad239bc5e93a5cc6",
     "packet_hash": "d49bf6aacea6779b1696d6f73d29ba0a86fe89c68b66e55d5e9927f82ef4ae01"
   },
-  "hash": "d9f7bd93db4a046acca5fdfc2436bed6b4960a946f44e0e833ea5ff3e0464f39"
+  "hash": "d9f7bd93db4a046acca5fdfc2436bed6b4960a946f44e0e833ea5ff3e0464f39",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible here: the packet identifies a pharmacologic substance (molindone hydrochloride), not a diagnosis-related term.",
+        "The definition adds a generic clinical-use framing (“medicine” for schizophrenia-related symptoms and behaviors) that goes beyond the packet’s wording and should not be presented as current clinical categorization."
+      ],
+      "definition_hash": "cdffe08d8da56f80962c57da4698437ac26acc22a429c627ad239bc5e93a5cc6",
+      "packet_hash": "d49bf6aacea6779b1696d6f73d29ba0a86fe89c68b66e55d5e9927f82ef4ae01",
+      "published_packet_hash": "d49bf6aacea6779b1696d6f73d29ba0a86fe89c68b66e55d5e9927f82ef4ae01",
+      "receipt_id": "39907806d7234a3d8d3ebe3819064047",
+      "request_hash": "562538d05bee44d1cd514af20af27de474cc4ec414d2b6765b6dfd11b178b8d7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cdffe08d8da56f80962c57da4698437ac26acc22a429c627ad239bc5e93a5cc6",
+      "packet_hash": "d49bf6aacea6779b1696d6f73d29ba0a86fe89c68b66e55d5e9927f82ef4ae01",
+      "published_packet_hash": "d49bf6aacea6779b1696d6f73d29ba0a86fe89c68b66e55d5e9927f82ef4ae01",
+      "receipt_id": "0c3927daccda4cc1bbdfd786d7f19194",
+      "request_hash": "3f4a32b2754f6a444917436f796c3130b50d80572f0f5ddbe48b3cdcb6364076",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "b24d8842633438cd823f0910eaedf6c77bdb0369c342c4e2d08c1a82fef50973",
     "packet_hash": "f9bb1c2d09c7a8bfdd5c019b2c814dea348217b6c93fa48ceb285107e876c1e7"
   },
-  "hash": "46f06a6a28093a33c8dc558c0cf1936159cf44cff7a00dcdc2f2200d87e84435"
+  "hash": "46f06a6a28093a33c8dc558c0cf1936159cf44cff7a00dcdc2f2200d87e84435",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence is supported, but the second overgeneralizes the packet’s examples into “neurological conditions”; the source only lists specific disorders (stroke, motor neuron disorders, Parkinson disease, multiple sclerosis), not the broader category as a supported definition claim."
+      ],
+      "definition_hash": "b24d8842633438cd823f0910eaedf6c77bdb0369c342c4e2d08c1a82fef50973",
+      "packet_hash": "f9bb1c2d09c7a8bfdd5c019b2c814dea348217b6c93fa48ceb285107e876c1e7",
+      "published_packet_hash": "f9bb1c2d09c7a8bfdd5c019b2c814dea348217b6c93fa48ceb285107e876c1e7",
+      "receipt_id": "8d9f1b3957ca41abba581fc571950fa6",
+      "request_hash": "550b5bc30c450c8f358bc9c594565ec468b76528ec02b8390f484800f7483494",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b24d8842633438cd823f0910eaedf6c77bdb0369c342c4e2d08c1a82fef50973",
+      "packet_hash": "f9bb1c2d09c7a8bfdd5c019b2c814dea348217b6c93fa48ceb285107e876c1e7",
+      "published_packet_hash": "f9bb1c2d09c7a8bfdd5c019b2c814dea348217b6c93fa48ceb285107e876c1e7",
+      "receipt_id": "c3d96bb367254f5593eec538869ed0ba",
+      "request_hash": "896846e9a0a7c13cebd7b7e07f70f3fd7f9508ba6a1ce8ffba0932057b3c5b10",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

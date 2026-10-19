@@ -27,5 +27,34 @@
     "definition_hash": "2f1f0baa59dc43dea1c2b21a26c3206a1c8174c2394e062e9c6c85439d014ea0",
     "packet_hash": "d4015c6e9be38e602220941c387bce04c91961ef352099f7ec3022f451aafffc"
   },
-  "hash": "f136a6f55c9e12fbb4ff73baeddaf08a8525dc5cac75b4c6019f8cee2d2367e2"
+  "hash": "f136a6f55c9e12fbb4ff73baeddaf08a8525dc5cac75b4c6019f8cee2d2367e2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2f1f0baa59dc43dea1c2b21a26c3206a1c8174c2394e062e9c6c85439d014ea0",
+      "packet_hash": "d4015c6e9be38e602220941c387bce04c91961ef352099f7ec3022f451aafffc",
+      "published_packet_hash": "d4015c6e9be38e602220941c387bce04c91961ef352099f7ec3022f451aafffc",
+      "receipt_id": "91641ba0840d45bfa11cb36b4d5a1390",
+      "request_hash": "9b6aa873eea12a47e96435ce20f955f649e00d1a2f7636f8637888364e7ffba2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says the “front part of the neural tube does not close,” but the packet specifies “failure of the anterior neuropore to close”; the provided wording is not explicitly supported as written.",
+        "The definition characterizes the condition as “severe,” but the packet does not use or directly support the descriptor “severe.”"
+      ],
+      "definition_hash": "2f1f0baa59dc43dea1c2b21a26c3206a1c8174c2394e062e9c6c85439d014ea0",
+      "packet_hash": "d4015c6e9be38e602220941c387bce04c91961ef352099f7ec3022f451aafffc",
+      "published_packet_hash": "d4015c6e9be38e602220941c387bce04c91961ef352099f7ec3022f451aafffc",
+      "receipt_id": "fe216a9f220e496a9e06a60c31b34f14",
+      "request_hash": "25e1ffab0cea576c59e9675fb63bdbbbb46b268db7122036d32dbddab15a57a5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

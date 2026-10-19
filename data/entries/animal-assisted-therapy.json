@@ -27,5 +27,33 @@
     "definition_hash": "337cde526197b11b1229649879199c540077c4dee374f957912ea13ae5edeefc",
     "packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae"
   },
-  "hash": "96977c183e791075ed1bcc46ad4a768a6d6e2ba992d2f21a99a26b9a734e61dc"
+  "hash": "96977c183e791075ed1bcc46ad4a768a6d6e2ba992d2f21a99a26b9a734e61dc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "337cde526197b11b1229649879199c540077c4dee374f957912ea13ae5edeefc",
+      "packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae",
+      "published_packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae",
+      "receipt_id": "714220549530410c904d726b48fb369c",
+      "request_hash": "3d7bc7b460d4fb55c6f1bf553e232b16a69812953ef9711f797d83178b469feb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “as part of the therapeutic process,” which is not explicitly supported by the packet. The packet states only “The use of live animals as a means of therapy.”"
+      ],
+      "definition_hash": "337cde526197b11b1229649879199c540077c4dee374f957912ea13ae5edeefc",
+      "packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae",
+      "published_packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae",
+      "receipt_id": "473522ea5523456fad25454d523b4777",
+      "request_hash": "b3146fae3edfe59353815bce5c9a429044ac6087afde8ae107aae3f14f465860",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

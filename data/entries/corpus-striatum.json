@@ -27,5 +27,36 @@
     "definition_hash": "b15bf867dd6132cf2d74b7b16c5eb8ba169911830c8cbf85a1a1d5fc1d4bf924",
     "packet_hash": "b2d64dfc0b2371a6fd1ea66238ab32022436adaa44ae5d40fad81cbe43f44644"
   },
-  "hash": "751f3769d93650e0df783896e908ac0c757c6177c7b64b0014bbb2f6e931fc64"
+  "hash": "751f3769d93650e0df783896e908ac0c757c6177c7b64b0014bbb2f6e931fc64",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b15bf867dd6132cf2d74b7b16c5eb8ba169911830c8cbf85a1a1d5fc1d4bf924",
+      "packet_hash": "b2d64dfc0b2371a6fd1ea66238ab32022436adaa44ae5d40fad81cbe43f44644",
+      "published_packet_hash": "b2d64dfc0b2371a6fd1ea66238ab32022436adaa44ae5d40fad81cbe43f44644",
+      "receipt_id": "edac744baf9b4c04acfa9181201f91cd",
+      "request_hash": "e3257e1eb0fe811295feb3a267045051ec09dd2749dbb83d8f6650183d939d54",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition uses “striped gray and white matter” while the packet specifies “Striped GRAY MATTER and WHITE MATTER” (case/phrasing differences aside, “striped” is supported, but the definition’s wording is not the same as the packet’s exact structure).",
+        "The definition states the striped tissue includes the “neostriatum and paleostriatum,” but the packet lists “NEOSTRIATUM and paleostriatum (GLOBUS PALLIDUS)” and then further defines subdivisions (globus pallidus and putamen). The definition does not reflect the packet’s explicit parenthetical identification of paleostriatum as globus pallidus.",
+        "The definition says the gray matter includes “caudate nucleus and lentiform nucleus” and white matter includes “internal capsule”; the packet supports caudate nucleus and lentiform nucleus, but it also defines the lentiform nucleus as globus pallidus and putamen. That added structural specificity is present in the packet; the provided definition omits “putamen” and the internal capsule mapping is supported.",
+        "Despite overall alignment, the requested output requires every substantive claim to be supported. The paleostriatum/globus pallidus relationship is a substantive structural claim that is not explicitly supported in the definition as written (it is asserted only as “paleostriatum”), whereas the packet provides the explicit synonym/identification."
+      ],
+      "definition_hash": "b15bf867dd6132cf2d74b7b16c5eb8ba169911830c8cbf85a1a1d5fc1d4bf924",
+      "packet_hash": "b2d64dfc0b2371a6fd1ea66238ab32022436adaa44ae5d40fad81cbe43f44644",
+      "published_packet_hash": "b2d64dfc0b2371a6fd1ea66238ab32022436adaa44ae5d40fad81cbe43f44644",
+      "receipt_id": "de409f7c4d884166b7a9e68d64d3e637",
+      "request_hash": "292fb815e7fa471f5a366bf7b979da5c5ffe2fb5250acfb0f108b59efe500b1c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

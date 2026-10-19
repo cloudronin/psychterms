@@ -27,5 +27,35 @@
     "definition_hash": "1cd3074027d2ba574f19f80207021d1de9c7f98c8714b0e3c4f62c0fcb95cba0",
     "packet_hash": "05a606d97ee4ba5f07e85689d7a9c64630fc674ff7410f4c383a96f6b6cd34af"
   },
-  "hash": "0be862d1d1e70f64d72aac722869f282a8874e03ada63539ae63a0797155adba"
+  "hash": "0be862d1d1e70f64d72aac722869f282a8874e03ada63539ae63a0797155adba",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1cd3074027d2ba574f19f80207021d1de9c7f98c8714b0e3c4f62c0fcb95cba0",
+      "packet_hash": "05a606d97ee4ba5f07e85689d7a9c64630fc674ff7410f4c383a96f6b6cd34af",
+      "published_packet_hash": "05a606d97ee4ba5f07e85689d7a9c64630fc674ff7410f4c383a96f6b6cd34af",
+      "receipt_id": "1b8e5578c0cf4c21bf45a22089800497",
+      "request_hash": "2c23a6a898c3139203f48abf64ff5c6911e54c094cfd6605e2f78be62f302c4f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that Pearson’s correlation ranges from -1 for a “perfect negative relationship” to +1 for a “perfect positive relationship,” but it does not explicitly define a negative relationship as variables “moving in opposite directions.”",
+        "The definition’s description of a negative relationship as “a linear association between two variables” is only indirectly supported by the packet’s statement that Pearson’s correlation measures the strength of the linear relationship; the packet does not explicitly connect this phrasing to the term “negative relationship.”",
+        "Because at least one substantive element (“move in opposite directions”) is not directly supported by the provided packet text, the definition is not fully defensible."
+      ],
+      "definition_hash": "1cd3074027d2ba574f19f80207021d1de9c7f98c8714b0e3c4f62c0fcb95cba0",
+      "packet_hash": "05a606d97ee4ba5f07e85689d7a9c64630fc674ff7410f4c383a96f6b6cd34af",
+      "published_packet_hash": "05a606d97ee4ba5f07e85689d7a9c64630fc674ff7410f4c383a96f6b6cd34af",
+      "receipt_id": "c978188698a844b4ae83518b3b56189d",
+      "request_hash": "e2424ba154f0c69f6a98b945b729a8c23cc861f6d8433236ff500a5db79602c8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

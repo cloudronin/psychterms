@@ -27,5 +27,33 @@
     "definition_hash": "45cfdfc54f36c5d049f417f9d77e23f96bbd1faa48aa55c7c17edb35482e07c2",
     "packet_hash": "79181d82f2c575c153a0ac0b2e4e9e228b3dad908b3dc4120f46a9e4d7d3a3e8"
   },
-  "hash": "ca731a566ea9abbfb2c03c009858885fb0ab988f30c40367cd24ab7d780072a1"
+  "hash": "ca731a566ea9abbfb2c03c009858885fb0ab988f30c40367cd24ab7d780072a1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "45cfdfc54f36c5d049f417f9d77e23f96bbd1faa48aa55c7c17edb35482e07c2",
+      "packet_hash": "79181d82f2c575c153a0ac0b2e4e9e228b3dad908b3dc4120f46a9e4d7d3a3e8",
+      "published_packet_hash": "79181d82f2c575c153a0ac0b2e4e9e228b3dad908b3dc4120f46a9e4d7d3a3e8",
+      "receipt_id": "90eb1bb8ca464ed1b629ef28214d24c2",
+      "request_hash": "c52ae6ae6ef9623149a74fc88f3a86490a9853a099b32bdc1a4538284fb387fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds the modifier “supposed,” but the provided packet definition does not include or support the “supposed” characterization; it states the concept without that qualifier."
+      ],
+      "definition_hash": "45cfdfc54f36c5d049f417f9d77e23f96bbd1faa48aa55c7c17edb35482e07c2",
+      "packet_hash": "79181d82f2c575c153a0ac0b2e4e9e228b3dad908b3dc4120f46a9e4d7d3a3e8",
+      "published_packet_hash": "79181d82f2c575c153a0ac0b2e4e9e228b3dad908b3dc4120f46a9e4d7d3a3e8",
+      "receipt_id": "3700769d75d44829bb16e9e55f608002",
+      "request_hash": "19eef7d2303056755ef34af73d7551a5ae0375d1911e8a6e30eadc6610b6f9eb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

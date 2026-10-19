@@ -27,5 +27,37 @@
     "definition_hash": "5e1b4fb7a8e7e216a97a0afe2a6549141937128245309dd7fcd8df219a9e8a17",
     "packet_hash": "505ca3f244f1d15b48d0001cb2dedf016be5cdf326f39fa806ce01ab6c7451dd"
   },
-  "hash": "fdd6c59d911ced46db0b9087aea2e7190677a048e66c4e5673423cffa214f212"
+  "hash": "fdd6c59d911ced46db0b9087aea2e7190677a048e66c4e5673423cffa214f212",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text describes an “abuse potential category” to which an active ingredient (or combination) is assigned, regulated by DEA and FDA, but it does not state that the category indicates “how likely” the ingredient is to be misused or abused.",
+        "The definition’s characterization of “misused or abused” likelihood is an unsupported elaboration relative to the provided packet."
+      ],
+      "definition_hash": "5e1b4fb7a8e7e216a97a0afe2a6549141937128245309dd7fcd8df219a9e8a17",
+      "packet_hash": "505ca3f244f1d15b48d0001cb2dedf016be5cdf326f39fa806ce01ab6c7451dd",
+      "published_packet_hash": "505ca3f244f1d15b48d0001cb2dedf016be5cdf326f39fa806ce01ab6c7451dd",
+      "receipt_id": "0a76606720e049b2a6a25ba19aa38b95",
+      "request_hash": "9c37b2db60b603d75ceeaf10d8a370bc1ebd00682fbe6a95ba53e12e9ba84fd3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported meaning—that the category indicates how likely a drug is to be misused or abused; the packet only says the category is assigned to an active ingredient or combination of active ingredients.",
+        "The phrase about U.S. oversight by the DEA and FDA is close, but the packet states it is regulated by both agencies, not that they assign it under oversight in the way stated."
+      ],
+      "definition_hash": "5e1b4fb7a8e7e216a97a0afe2a6549141937128245309dd7fcd8df219a9e8a17",
+      "packet_hash": "505ca3f244f1d15b48d0001cb2dedf016be5cdf326f39fa806ce01ab6c7451dd",
+      "published_packet_hash": "505ca3f244f1d15b48d0001cb2dedf016be5cdf326f39fa806ce01ab6c7451dd",
+      "receipt_id": "f31b4f4915c74c5b88a65d234239943f",
+      "request_hash": "17bd25b55eecab754406ee7c441f784602795becc68fd6df0a526810eaf32b2e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

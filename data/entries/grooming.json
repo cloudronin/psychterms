@@ -27,5 +27,33 @@
     "definition_hash": "fe888a68367c79843f9d4b3ecabb0697b3458a733730ebbb410f5af184c82762",
     "packet_hash": "10ee3aa2724acbd2ec6144847334e5264d3fc173bb47c048c8200f9d21097549"
   },
-  "hash": "5384462df38afbd20991db273ccd8d2f5e122e7a07f13a1b7ebffdc6fc3e9b02"
+  "hash": "5384462df38afbd20991db273ccd8d2f5e122e7a07f13a1b7ebffdc6fc3e9b02",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe888a68367c79843f9d4b3ecabb0697b3458a733730ebbb410f5af184c82762",
+      "packet_hash": "10ee3aa2724acbd2ec6144847334e5264d3fc173bb47c048c8200f9d21097549",
+      "published_packet_hash": "10ee3aa2724acbd2ec6144847334e5264d3fc173bb47c048c8200f9d21097549",
+      "receipt_id": "9d2b3c281cf24bdda5d3d0ef7b8180e4",
+      "request_hash": "07001eaf7e29f3e3ffc5146a8d8bd14a5d2fbb979bf67ba7dba57a5d97a4e175",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet defines “grooming” as an animal’s cleaning/caring of the body surface (e.g., preening, cleaning and oiling feathers/hair), which is behavior/biology rather than something specifically supported as “cognition” in the provided packet."
+      ],
+      "definition_hash": "fe888a68367c79843f9d4b3ecabb0697b3458a733730ebbb410f5af184c82762",
+      "packet_hash": "10ee3aa2724acbd2ec6144847334e5264d3fc173bb47c048c8200f9d21097549",
+      "published_packet_hash": "10ee3aa2724acbd2ec6144847334e5264d3fc173bb47c048c8200f9d21097549",
+      "receipt_id": "860fca3fb7a64f9a9695ce4988d603e3",
+      "request_hash": "65a192c4d2f7794aa7f2bb81cc9d6a1497d62ad20a5a43a464e23fe37532b4b7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

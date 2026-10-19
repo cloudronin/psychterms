@@ -27,5 +27,34 @@
     "definition_hash": "d64bfd3ae1b83e210a8cdcc0a81fba3dcbb7c3c784f159afae2d8fbb6feebe84",
     "packet_hash": "801982403212c142b72c1cf1fde21e1db24b44406d64337538b365aee46a7089"
   },
-  "hash": "86e052373b35fed79b0b65d80a8df3f35ab817a5a6119454604dcda11002b0e0"
+  "hash": "86e052373b35fed79b0b65d80a8df3f35ab817a5a6119454604dcda11002b0e0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d64bfd3ae1b83e210a8cdcc0a81fba3dcbb7c3c784f159afae2d8fbb6feebe84",
+      "packet_hash": "801982403212c142b72c1cf1fde21e1db24b44406d64337538b365aee46a7089",
+      "published_packet_hash": "801982403212c142b72c1cf1fde21e1db24b44406d64337538b365aee46a7089",
+      "receipt_id": "82dd0938abb94896b9476596c3117e9a",
+      "request_hash": "78f647259fe058c826cf31ed19f57957aaa26bf5fb20098528d512a19037f4e7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s linear-regression description says it is the squared differences between “observed values and predicted values,” but the packet only states “the sum of squares error is the sum of squared errors of prediction” and does not explicitly mention observed vs. predicted values.",
+        "The analysis-of-variance portion is more general (“summed squared deviations associated with error within the design”) than what the packet specifies (it names “sum of squared deviations from cell means” for particular factor terms)."
+      ],
+      "definition_hash": "d64bfd3ae1b83e210a8cdcc0a81fba3dcbb7c3c784f159afae2d8fbb6feebe84",
+      "packet_hash": "801982403212c142b72c1cf1fde21e1db24b44406d64337538b365aee46a7089",
+      "published_packet_hash": "801982403212c142b72c1cf1fde21e1db24b44406d64337538b365aee46a7089",
+      "receipt_id": "c4633d08ea624dbda4d7100d51b2cfd9",
+      "request_hash": "07b50df2e31d835ab4b5b92848dcda118b9822fdc5c68a8e8ee23388820492bd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

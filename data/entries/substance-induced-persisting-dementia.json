@@ -27,5 +27,35 @@
     "definition_hash": "efda08a37f0714e12e7e5106531441fcc44a6751a597ec1da0a918fbb8b095bd",
     "packet_hash": "754839a759fdd2b970ee12fd2ad6213df3ebf7fa6012399493fda5afb98b3f1e"
   },
-  "hash": "9e6a313a6d2845a811d81e30cb64f571114ae8399a3edf4e4541e57c5ff25a53"
+  "hash": "9e6a313a6d2845a811d81e30cb64f571114ae8399a3edf4e4541e57c5ff25a53",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "efda08a37f0714e12e7e5106531441fcc44a6751a597ec1da0a918fbb8b095bd",
+      "packet_hash": "754839a759fdd2b970ee12fd2ad6213df3ebf7fa6012399493fda5afb98b3f1e",
+      "published_packet_hash": "754839a759fdd2b970ee12fd2ad6213df3ebf7fa6012399493fda5afb98b3f1e",
+      "receipt_id": "86e2268c679049ecaf03e254a230dfcd",
+      "request_hash": "0ea573eab4fe808e8094d2b7b0001b3b889d13920e2539bd5039cad8ae499f03",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not support the claim that the dementia is “lasting dementia”; it only states “persisiting dementia” without describing duration as “lasting.”",
+        "The definition says the dementia is “caused by the use or abuse of a psychoactive substance,” but the packet only refers to “evidence of … psychoactive substance abuse with psychoactive substance-induced persisting dementia,” which does not explicitly establish causation in the wording used.",
+        "The packet specifies “other psychoactive substance abuse,” while the definition refers more generally to “the use or abuse of a psychoactive substance”; this mismatch is not supported by the packet wording."
+      ],
+      "definition_hash": "efda08a37f0714e12e7e5106531441fcc44a6751a597ec1da0a918fbb8b095bd",
+      "packet_hash": "754839a759fdd2b970ee12fd2ad6213df3ebf7fa6012399493fda5afb98b3f1e",
+      "published_packet_hash": "754839a759fdd2b970ee12fd2ad6213df3ebf7fa6012399493fda5afb98b3f1e",
+      "receipt_id": "80203781739043e6886328f483fd0218",
+      "request_hash": "cab48ecb32a283b0e115d5b6601631c1d29a70f02aa9e3aa78918e79d161e388",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

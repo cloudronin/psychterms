@@ -27,5 +27,33 @@
     "definition_hash": "b978544f9cbb4c1935de1c633bf1fb554f8e5b93430f7e82fb5041e390224280",
     "packet_hash": "e395a9f0584c7c95f6b43cfb2813895c75829da29b51c1d573b221c825cfe916"
   },
-  "hash": "2c2f31775ce0f880ad63e286fd2db139a84f4aa8f77c8e9ea0f8de9fdaf17151"
+  "hash": "2c2f31775ce0f880ad63e286fd2db139a84f4aa8f77c8e9ea0f8de9fdaf17151",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b978544f9cbb4c1935de1c633bf1fb554f8e5b93430f7e82fb5041e390224280",
+      "packet_hash": "e395a9f0584c7c95f6b43cfb2813895c75829da29b51c1d573b221c825cfe916",
+      "published_packet_hash": "e395a9f0584c7c95f6b43cfb2813895c75829da29b51c1d573b221c825cfe916",
+      "receipt_id": "8e2dedac2d194f03b3d251b582285480",
+      "request_hash": "d333d27511285a3af649b488ff81b51e374b08410fb2b482edf7dce17abed9b6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet defines arthritis as an inflammatory disease affecting a joint (a physical/medical condition), and the definition contains no mental-health-related meaning or usage relevant to the mental health field."
+      ],
+      "definition_hash": "b978544f9cbb4c1935de1c633bf1fb554f8e5b93430f7e82fb5041e390224280",
+      "packet_hash": "e395a9f0584c7c95f6b43cfb2813895c75829da29b51c1d573b221c825cfe916",
+      "published_packet_hash": "e395a9f0584c7c95f6b43cfb2813895c75829da29b51c1d573b221c825cfe916",
+      "receipt_id": "fe42965403874268bd037b2938db882b",
+      "request_hash": "9ca7598b142129b3da901df0e90ecdaa6c64c3453c2d7a820c7e5f834ca63174",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

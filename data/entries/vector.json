@@ -27,5 +27,34 @@
     "definition_hash": "e6651fe8480bbc1eda187d49a894aaa76a909796311da7e15bd8ef3750d54e4b",
     "packet_hash": "7760247d0dc271056fb3ee823924dafdd72cf12244602e6986e3b7e329fe7597"
   },
-  "hash": "3ec8c1881a7913a07a0e979367eec4368772997476087a9a80284ce90f7d7f16"
+  "hash": "3ec8c1881a7913a07a0e979367eec4368772997476087a9a80284ce90f7d7f16",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition uses the molecular biology sense of \"vector\" (a cloning vector/DNA carrier), but the requested field is cognition; the sense is not supported for that field.",
+        "The definition is otherwise aligned with the packet, but the field/sense mismatch makes the entry incorrect for this request."
+      ],
+      "definition_hash": "e6651fe8480bbc1eda187d49a894aaa76a909796311da7e15bd8ef3750d54e4b",
+      "packet_hash": "7760247d0dc271056fb3ee823924dafdd72cf12244602e6986e3b7e329fe7597",
+      "published_packet_hash": "7760247d0dc271056fb3ee823924dafdd72cf12244602e6986e3b7e329fe7597",
+      "receipt_id": "a37b2ad52c064bb5964ad55de1d1f02b",
+      "request_hash": "0730ee164a976e0048512d4b39358c619adf19b2827a7753d8ad98857e74263b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e6651fe8480bbc1eda187d49a894aaa76a909796311da7e15bd8ef3750d54e4b",
+      "packet_hash": "7760247d0dc271056fb3ee823924dafdd72cf12244602e6986e3b7e329fe7597",
+      "published_packet_hash": "7760247d0dc271056fb3ee823924dafdd72cf12244602e6986e3b7e329fe7597",
+      "receipt_id": "b6b52a2461f1403ab2f6ef1686bdb365",
+      "request_hash": "45b670b82b4649e88281bc85058bd109cec84fc35a157f1dc587e4627686320b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

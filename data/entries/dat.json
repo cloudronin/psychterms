@@ -27,5 +27,34 @@
     "definition_hash": "5c0ee521b7c22b89e195797f8ff9adc3bfd05b20bc26a4408961de839217d87f",
     "packet_hash": "683b5d809c0b9ff53ad17e770ff5a242dffd5ffb70f827069799738c94296b85"
   },
-  "hash": "b598ec1427a9c690ad054a927c52c6b08dbc886cc3430e1416379233687110ad"
+  "hash": "b598ec1427a9c690ad054a927c52c6b08dbc886cc3430e1416379233687110ad",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that the sodium-dependent dopamine transporter is encoded by the SLC6A3 gene and plays a role in downregulation of dopamine signaling, but it does not explicitly state that the protein reduces dopamine signaling by transporting dopamine in a sodium-dependent way.",
+        "Because the specific mechanism described in the definition (“transporting dopamine in a sodium-dependent way”) is not directly supported by the packet text provided, the definition contains an unsupported substantive claim."
+      ],
+      "definition_hash": "5c0ee521b7c22b89e195797f8ff9adc3bfd05b20bc26a4408961de839217d87f",
+      "packet_hash": "683b5d809c0b9ff53ad17e770ff5a242dffd5ffb70f827069799738c94296b85",
+      "published_packet_hash": "683b5d809c0b9ff53ad17e770ff5a242dffd5ffb70f827069799738c94296b85",
+      "receipt_id": "27bf404196e243a28b38dfbefbce95a8",
+      "request_hash": "3c1d69e098e0c56af1b410c33cf40ee4a97ec100dbe82d118f3f538fb0a15391",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5c0ee521b7c22b89e195797f8ff9adc3bfd05b20bc26a4408961de839217d87f",
+      "packet_hash": "683b5d809c0b9ff53ad17e770ff5a242dffd5ffb70f827069799738c94296b85",
+      "published_packet_hash": "683b5d809c0b9ff53ad17e770ff5a242dffd5ffb70f827069799738c94296b85",
+      "receipt_id": "0e2bb49c1c5441979fa1610cae585ca6",
+      "request_hash": "75ec130764a5969dbe2e8ff0cd7371ef613908cea285ff2a7a991c2016cf430f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

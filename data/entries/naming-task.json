@@ -27,5 +27,34 @@
     "definition_hash": "0ea219d06c2d107f2b0c2f2fe2a4270bdbd6e6d03586fa9bc5c087cb58cf9ea0",
     "packet_hash": "677eb02d3256e5d27deb2a7d254e76ce2f478447d7558ca94799019d2a7f8da9"
   },
-  "hash": "208ef078e67d2edce114a3f709ee395309486de08959fa27fe63791014d8fe9b"
+  "hash": "208ef078e67d2edce114a3f709ee395309486de08959fa27fe63791014d8fe9b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0ea219d06c2d107f2b0c2f2fe2a4270bdbd6e6d03586fa9bc5c087cb58cf9ea0",
+      "packet_hash": "677eb02d3256e5d27deb2a7d254e76ce2f478447d7558ca94799019d2a7f8da9",
+      "published_packet_hash": "677eb02d3256e5d27deb2a7d254e76ce2f478447d7558ca94799019d2a7f8da9",
+      "receipt_id": "5e1a6de10f1e4eb7bfe56ac2b51781ca",
+      "request_hash": "e3529a67a0c82ae4e5430167355ba3342ade47073d1d1ecb4f5a1987a5d03e66",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that “a person is asked to name objects and fingers” (it only provides a descriptor for a “Naming task summary score for object and fingers,” which implies naming but does not directly confirm the “asked to name” formulation).",
+        "Because the definition characterizes the activity as a “cognitive assessment activity” and describes output as a “summary score of performance,” but the packet text does not spell out “cognitive assessment activity” or “performance” (it only mentions a “summary score” tied to objects and fingers), these parts rely on unstated inference rather than being supported by the packet."
+      ],
+      "definition_hash": "0ea219d06c2d107f2b0c2f2fe2a4270bdbd6e6d03586fa9bc5c087cb58cf9ea0",
+      "packet_hash": "677eb02d3256e5d27deb2a7d254e76ce2f478447d7558ca94799019d2a7f8da9",
+      "published_packet_hash": "677eb02d3256e5d27deb2a7d254e76ce2f478447d7558ca94799019d2a7f8da9",
+      "receipt_id": "998eebd76716432daa2fb929707da85e",
+      "request_hash": "3c155255bdd5ba4857598455a738c45f262b291ef69e8d1d7e748f0cfa104223",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

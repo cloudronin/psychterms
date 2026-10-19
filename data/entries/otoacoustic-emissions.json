@@ -27,5 +27,34 @@
     "definition_hash": "84746854217c16c77e312d0eae36346d3cf1c51e52261dffb0aeb7f39d206d1f",
     "packet_hash": "1f973bf7dc19374b9cbce4b28877d325f716c52f58688a91af2b1a8ab0034a81"
   },
-  "hash": "e79570cf89b02d698489d239773ada3dd02d3a717da3b5748feec53d553484e5"
+  "hash": "e79570cf89b02d698489d239773ada3dd02d3a717da3b5748feec53d553484e5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "84746854217c16c77e312d0eae36346d3cf1c51e52261dffb0aeb7f39d206d1f",
+      "packet_hash": "1f973bf7dc19374b9cbce4b28877d325f716c52f58688a91af2b1a8ab0034a81",
+      "published_packet_hash": "1f973bf7dc19374b9cbce4b28877d325f716c52f58688a91af2b1a8ab0034a81",
+      "receipt_id": "c4449c958d9a47b58e7510d4110bb24d",
+      "request_hash": "cdaba0742a8e75d962491cdddab83dacd108642a36c516b7f28060864fe120df",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text specifically describes *distortion-product* otoacoustic emissions (responses to two tones of a given frequency and sound pressure level). The provided definition presents otoacoustic emissions as a general method without limiting it to distortion-product, which is not directly supported by the packet’s wording.",
+        "Because the packet’s support is for distortion-product otoacoustic emissions, the definition’s broader phrasing (“a noninvasive test… before neural processing”) for *otoacoustic emissions* in general is an unsupported generalization beyond what the packet explicitly states."
+      ],
+      "definition_hash": "84746854217c16c77e312d0eae36346d3cf1c51e52261dffb0aeb7f39d206d1f",
+      "packet_hash": "1f973bf7dc19374b9cbce4b28877d325f716c52f58688a91af2b1a8ab0034a81",
+      "published_packet_hash": "1f973bf7dc19374b9cbce4b28877d325f716c52f58688a91af2b1a8ab0034a81",
+      "receipt_id": "edf2106cb5044ec8a07a29c501294d97",
+      "request_hash": "e07ca384e1987d1746b29e5c12c7d4d053d82b5f1e4d4d9d72bfedaefab2829e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

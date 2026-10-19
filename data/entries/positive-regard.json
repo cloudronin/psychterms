@@ -27,5 +27,36 @@
     "definition_hash": "d475d8b6c56b623be4d19d96d3d9743acee2e67f7e7a8747b69a6e202f463252",
     "packet_hash": "2c56f3f13ba3b67202601d62f6fa42a3a774850cb066233ce444a1137fdbbff3"
   },
-  "hash": "32ad73709423dff8f74ddeaab6412b331605d8a3401fbe75db04ed0bff7a76f6"
+  "hash": "32ad73709423dff8f74ddeaab6412b331605d8a3401fbe75db04ed0bff7a76f6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines this as a rating scale in the Behavior Assessment System for Children, not as the underlying feelings themselves.",
+        "The definition shifts the sense from an assessment instrument to a personal attitude, which is not the same term sense supported by the source."
+      ],
+      "definition_hash": "d475d8b6c56b623be4d19d96d3d9743acee2e67f7e7a8747b69a6e202f463252",
+      "packet_hash": "2c56f3f13ba3b67202601d62f6fa42a3a774850cb066233ce444a1137fdbbff3",
+      "published_packet_hash": "2c56f3f13ba3b67202601d62f6fa42a3a774850cb066233ce444a1137fdbbff3",
+      "receipt_id": "63aef063b94f4b26b6c3f8986129b988",
+      "request_hash": "6b9b2f9a9ec9a359740ed4b4d75c2b7423600dfac27736ec9b2997c6b1f0c879",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports measuring a subject’s “positive regard towards parents” and feeling “esteemed” by them, but it does not explicitly support the wording “valued and respected.” In particular, “respected” is not stated in the packet."
+      ],
+      "definition_hash": "d475d8b6c56b623be4d19d96d3d9743acee2e67f7e7a8747b69a6e202f463252",
+      "packet_hash": "2c56f3f13ba3b67202601d62f6fa42a3a774850cb066233ce444a1137fdbbff3",
+      "published_packet_hash": "2c56f3f13ba3b67202601d62f6fa42a3a774850cb066233ce444a1137fdbbff3",
+      "receipt_id": "1b159d68266f467382a161d4dc88b2be",
+      "request_hash": "e2d2e0f4853a0c1521c6b690a59bb19b4db357027eaf29dadcb64781d81d893f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

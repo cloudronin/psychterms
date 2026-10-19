@@ -27,5 +27,35 @@
     "definition_hash": "8217175e6cba717e638de62eeddd045b45af7dfeb5cf697c252bfc264d226f7d",
     "packet_hash": "c74c661e59ced9045101e1b5df9db23e0ce0ee74dd12cbac2d5b6c94728af29b"
   },
-  "hash": "754fe3ce09d7487d829b5285552ab8f0ff4869f5e2730e584fc0616b2ac5ec7d"
+  "hash": "754fe3ce09d7487d829b5285552ab8f0ff4869f5e2730e584fc0616b2ac5ec7d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8217175e6cba717e638de62eeddd045b45af7dfeb5cf697c252bfc264d226f7d",
+      "packet_hash": "c74c661e59ced9045101e1b5df9db23e0ce0ee74dd12cbac2d5b6c94728af29b",
+      "published_packet_hash": "c74c661e59ced9045101e1b5df9db23e0ce0ee74dd12cbac2d5b6c94728af29b",
+      "receipt_id": "14533027e1aa42b8a89f76ce2b51c768",
+      "request_hash": "cb1aa5f069fe4ff4b6e0d49190268c346add2a43e6943bef0c68baed65943d5d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines or anchors “line of direction,” not “nodal point,” so the requested term-sense is not directly supported.",
+        "“Reference point in the reduced eye” is an inference not stated in the packet; the source only says the line connects a luminous point with the nodal point and is prolonged to the retina.",
+        "“It serves to determine where that light source is represented on the retina” is supported in substance, but the definition adds unsupported restatement around the nodal point itself."
+      ],
+      "definition_hash": "8217175e6cba717e638de62eeddd045b45af7dfeb5cf697c252bfc264d226f7d",
+      "packet_hash": "c74c661e59ced9045101e1b5df9db23e0ce0ee74dd12cbac2d5b6c94728af29b",
+      "published_packet_hash": "c74c661e59ced9045101e1b5df9db23e0ce0ee74dd12cbac2d5b6c94728af29b",
+      "receipt_id": "eecd6d6f6c0645d999542f49d77783c6",
+      "request_hash": "5454288e1e3d3f998594f246ec7c7ffcd294471b1c431e64fdfe633a353dde0a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

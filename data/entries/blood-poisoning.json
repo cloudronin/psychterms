@@ -27,5 +27,34 @@
     "definition_hash": "a772632e04dd3bcaa4a5d10c89c0ca29a9b139fcc4b84e958fceec6d33b2ad5c",
     "packet_hash": "ed4e7a50f369979f94023fe24e94d8747e444d7bb3534131f215b72ae32726fd"
   },
-  "hash": "be85c3aa5870b0f5e1b84bf644c8aab3109345c2eb1390447c0415f2b8e5f2db"
+  "hash": "be85c3aa5870b0f5e1b84bf644c8aab3109345c2eb1390447c0415f2b8e5f2db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a772632e04dd3bcaa4a5d10c89c0ca29a9b139fcc4b84e958fceec6d33b2ad5c",
+      "packet_hash": "ed4e7a50f369979f94023fe24e94d8747e444d7bb3534131f215b72ae32726fd",
+      "published_packet_hash": "ed4e7a50f369979f94023fe24e94d8747e444d7bb3534131f215b72ae32726fd",
+      "receipt_id": "9c72051cf08e48c8853265b1483cf500",
+      "request_hash": "a2cf31c817b60804702de180b9fcb59f9446ac7db3e96e3a0bb312adaf2634b3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports septicemia/bloodstream infection and the listed symptoms, but it does not support the historical claim that “blood poisoning” is an older term for septicemia.",
+        "“Shock” is supported as a possible outcome, but the definition’s broader framing as a generally serious condition goes beyond the packet’s wording and should not be treated as established clinical consensus from this source alone."
+      ],
+      "definition_hash": "a772632e04dd3bcaa4a5d10c89c0ca29a9b139fcc4b84e958fceec6d33b2ad5c",
+      "packet_hash": "ed4e7a50f369979f94023fe24e94d8747e444d7bb3534131f215b72ae32726fd",
+      "published_packet_hash": "ed4e7a50f369979f94023fe24e94d8747e444d7bb3534131f215b72ae32726fd",
+      "receipt_id": "28be1cfb553c4185b5d795ce58611acb",
+      "request_hash": "dfc0d7141e5680978866b6015878981e3893f9ecdc56795c7445a5c1299eb99a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

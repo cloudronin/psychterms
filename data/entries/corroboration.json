@@ -27,5 +27,34 @@
     "definition_hash": "f29f1a609558db40d1ab5b88b910ea188504472179e7f35b89c9a795f804136c",
     "packet_hash": "f2b2532611c022e1497ce54eeeb0d038bb39fb76e582df4afe0b951048894900"
   },
-  "hash": "4fe19c7666573ca522af19d30da91ce33b876e76fd4adf841b476f55d275ebaf"
+  "hash": "4fe19c7666573ca522af19d30da91ce33b876e76fd4adf841b476f55d275ebaf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f29f1a609558db40d1ab5b88b910ea188504472179e7f35b89c9a795f804136c",
+      "packet_hash": "f2b2532611c022e1497ce54eeeb0d038bb39fb76e582df4afe0b951048894900",
+      "published_packet_hash": "f2b2532611c022e1497ce54eeeb0d038bb39fb76e582df4afe0b951048894900",
+      "receipt_id": "876cf242b46e4a1aac90d45ee79aac1e",
+      "request_hash": "e9d7531b3c6a51dd6d6689e36b38f1dba430b95d6796efb273d116e39b40f691",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet provides a usage of the word “corroboration” (“received corroboration”) but does not explicitly define “corroboration” as “confirmation or added support,” so that general definitional meaning is not directly supported by the packet.",
+        "Because the first sentence states a general definition, it is an unsupported generalization relative to the supplied historical excerpt."
+      ],
+      "definition_hash": "f29f1a609558db40d1ab5b88b910ea188504472179e7f35b89c9a795f804136c",
+      "packet_hash": "f2b2532611c022e1497ce54eeeb0d038bb39fb76e582df4afe0b951048894900",
+      "published_packet_hash": "f2b2532611c022e1497ce54eeeb0d038bb39fb76e582df4afe0b951048894900",
+      "receipt_id": "be0b3a75420347e0bf7d90572cf5cf46",
+      "request_hash": "8ec57b466c0dcea5963490b35817f2003e676b317cdd5a195bb0466843c0de76",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

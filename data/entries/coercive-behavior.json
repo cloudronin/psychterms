@@ -27,5 +27,34 @@
     "definition_hash": "0ac9cd6d548dc21b0ba67e60c4ea040eea692552275e18a6b3ba65f5b04a2f7b",
     "packet_hash": "38843fc10fcd68c1385c39f49e423599ef55e087f0a5ef3043969a385e64efa2"
   },
-  "hash": "0fd65541a5d5df2f3c7ad8d771c0eae3c6ef60483db4e8c643de321bf03b1ae9"
+  "hash": "0fd65541a5d5df2f3c7ad8d771c0eae3c6ef60483db4e8c643de321bf03b1ae9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0ac9cd6d548dc21b0ba67e60c4ea040eea692552275e18a6b3ba65f5b04a2f7b",
+      "packet_hash": "38843fc10fcd68c1385c39f49e423599ef55e087f0a5ef3043969a385e64efa2",
+      "published_packet_hash": "38843fc10fcd68c1385c39f49e423599ef55e087f0a5ef3043969a385e64efa2",
+      "receipt_id": "00aeafc8a5294e7ba76d1eb2e728f2cb",
+      "request_hash": "162e52263d8b32eca68ffd972ea6a81df0115d6cbbe81e0089b343a2350cf772",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes elements not explicitly supported by the packet—specifically “pressure” and “control” (the packet mentions “assault and coercive behavior” and lists intimidation, stalking, deprivation, progressive isolation, and reproductive coercion, but does not use “pressure” or “control”).",
+        "It states “against a partner or spouse” and frames the behavior as “pressure, intimidation, control, or force”; while “intimidation” and “assault/coercive behavior” are supported, the specific phrasing “pressure” and “control” is not directly supported by the packet text."
+      ],
+      "definition_hash": "0ac9cd6d548dc21b0ba67e60c4ea040eea692552275e18a6b3ba65f5b04a2f7b",
+      "packet_hash": "38843fc10fcd68c1385c39f49e423599ef55e087f0a5ef3043969a385e64efa2",
+      "published_packet_hash": "38843fc10fcd68c1385c39f49e423599ef55e087f0a5ef3043969a385e64efa2",
+      "receipt_id": "54c938dcfbed40eca955e0077f554747",
+      "request_hash": "9053d933b88c96e25d149ee9b3b4095ebe25979fcb9629d244760acfd077b81f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

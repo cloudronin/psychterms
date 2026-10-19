@@ -27,5 +27,37 @@
     "definition_hash": "04c7fbd2972bf1408b8def7a4d7b6a9effb1fe5f98684ea48e3099a550e1e1f6",
     "packet_hash": "f9b9edca5b7826549ecc43b3a2572bd24e82ac30ca5790f9ea335abec46277b0"
   },
-  "hash": "1406472bc22be5806852f3e17cb02e365617b58de47eef5219e7539e58c84eef"
+  "hash": "1406472bc22be5806852f3e17cb02e365617b58de47eef5219e7539e58c84eef",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states “reflex closure of the eyelid occurring as a result of classical conditioning” and does not explicitly support that the reflex is “learned,” that a “previously neutral cue” is used, or that the cue is “linked” through conditioning.",
+        "The packet does not mention “triggers blinking” as an explicit outcome; it only refers to eyelid closure."
+      ],
+      "definition_hash": "04c7fbd2972bf1408b8def7a4d7b6a9effb1fe5f98684ea48e3099a550e1e1f6",
+      "packet_hash": "f9b9edca5b7826549ecc43b3a2572bd24e82ac30ca5790f9ea335abec46277b0",
+      "published_packet_hash": "f9b9edca5b7826549ecc43b3a2572bd24e82ac30ca5790f9ea335abec46277b0",
+      "receipt_id": "3aa8321e25b94db5b9b3b1427f8e6697",
+      "request_hash": "c31f129ea27c6d2ee295f7a0c8a17fbaf1c58b5e5da351f7131783f0b388e02c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported mechanistic detail: a “previously neutral cue” being linked to something that triggers blinking is not stated in the packet.",
+        "The packet supports only “reflex closure of the eyelid occurring as a result of classical conditioning,” so the expanded causal explanation goes beyond the supplied source."
+      ],
+      "definition_hash": "04c7fbd2972bf1408b8def7a4d7b6a9effb1fe5f98684ea48e3099a550e1e1f6",
+      "packet_hash": "f9b9edca5b7826549ecc43b3a2572bd24e82ac30ca5790f9ea335abec46277b0",
+      "published_packet_hash": "f9b9edca5b7826549ecc43b3a2572bd24e82ac30ca5790f9ea335abec46277b0",
+      "receipt_id": "fce450b14b984e5c96c12b8224333aa9",
+      "request_hash": "af830752a549b99de283e6b91d640181e8205338084172b1c469d6b678189aa3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

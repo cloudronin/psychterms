@@ -27,5 +27,34 @@
     "definition_hash": "4eb8430d242ba9fe37fa1e0c224561b7965c0e5bd1a5b1921125f4bba73dd905",
     "packet_hash": "730cfeabe27dac9b4d4ab1a9c0d5113b4a55d3d6cd9c57625a66bf684d13449d"
   },
-  "hash": "48ff34b7e0b9ad7ee2646f6e710ec88f1c7a73a10ecaed0686fd9aa1fe50f351"
+  "hash": "48ff34b7e0b9ad7ee2646f6e710ec88f1c7a73a10ecaed0686fd9aa1fe50f351",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4eb8430d242ba9fe37fa1e0c224561b7965c0e5bd1a5b1921125f4bba73dd905",
+      "packet_hash": "730cfeabe27dac9b4d4ab1a9c0d5113b4a55d3d6cd9c57625a66bf684d13449d",
+      "published_packet_hash": "730cfeabe27dac9b4d4ab1a9c0d5113b4a55d3d6cd9c57625a66bf684d13449d",
+      "receipt_id": "99e16e82659548dab3362d963d4ae113",
+      "request_hash": "4cd0c08c91afc3982fd399725caee276d78beb2f36bd72881c75089b71ccc9b2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet specifies “unconscious emotional conflicts,” but the definition omits “unconscious” and instead says “inner emotional conflict,” which changes the substantive meaning.",
+        "The definition adds “instead of expressing them directly,” which is not stated in the packet (the packet only says they are expressed through overt behavior)."
+      ],
+      "definition_hash": "4eb8430d242ba9fe37fa1e0c224561b7965c0e5bd1a5b1921125f4bba73dd905",
+      "packet_hash": "730cfeabe27dac9b4d4ab1a9c0d5113b4a55d3d6cd9c57625a66bf684d13449d",
+      "published_packet_hash": "730cfeabe27dac9b4d4ab1a9c0d5113b4a55d3d6cd9c57625a66bf684d13449d",
+      "receipt_id": "8a73698fb6b741f7bbc55933b8a823c4",
+      "request_hash": "0967d22f49eefe71a2d4a52156fb84b6950a5893574045efca4e6e999b09867f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

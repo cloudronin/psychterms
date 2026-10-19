@@ -27,5 +27,34 @@
     "definition_hash": "1ced2fab3c5349e76d99cb80be62c5a40d4181075964df1a9410eeb6a2331f9e",
     "packet_hash": "ac29b623110a77f5597f07fc780ffd4c5ea86e430e4f6db17d47e78b9b2634f2"
   },
-  "hash": "5c84ec6f305918df7af2c6b06ca6fa81cc43381fcf86af375fd00bf0a4f862d9"
+  "hash": "5c84ec6f305918df7af2c6b06ca6fa81cc43381fcf86af375fd00bf0a4f862d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1ced2fab3c5349e76d99cb80be62c5a40d4181075964df1a9410eeb6a2331f9e",
+      "packet_hash": "ac29b623110a77f5597f07fc780ffd4c5ea86e430e4f6db17d47e78b9b2634f2",
+      "published_packet_hash": "ac29b623110a77f5597f07fc780ffd4c5ea86e430e4f6db17d47e78b9b2634f2",
+      "receipt_id": "7058e45a8d0b4cadad4c5b02eec951a6",
+      "request_hash": "8f8594363746848783db725c1d0b99f6ab969d5f47d47697ef10bae679b092d3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “delayed muscle relaxation” is not explicitly supported by the packet; the packet only states “MYOTONIA” and does not describe it as delayed muscle relaxation.",
+        "While the packet mentions “MYOTONIA” and “PROGRESSIVE MUSCULAR ATROPHY,” it does not directly map these to the definition’s specific wording about “delayed muscle relaxation,” so that substantive claim is an interpretation beyond the provided text."
+      ],
+      "definition_hash": "1ced2fab3c5349e76d99cb80be62c5a40d4181075964df1a9410eeb6a2331f9e",
+      "packet_hash": "ac29b623110a77f5597f07fc780ffd4c5ea86e430e4f6db17d47e78b9b2634f2",
+      "published_packet_hash": "ac29b623110a77f5597f07fc780ffd4c5ea86e430e4f6db17d47e78b9b2634f2",
+      "receipt_id": "8afd7cbad0c7445689e98af0227168f4",
+      "request_hash": "5fd1f7c30d9d0145a9a47aa8089c781cfa2d2481c280411939bbad5ca8e1a252",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

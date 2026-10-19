@@ -27,5 +27,34 @@
     "definition_hash": "ab43ddb8888cf99abeb0f1e2168329876a8517d88b0bedd9f6a4d87375b37aa2",
     "packet_hash": "cb40bbfcda4c810643bd338fa977ab4ea6e1e377c052a61497bfb5655068cf0c"
   },
-  "hash": "82e1213dcc7e424c7aa63436cea8c895765eaad5bb689487a23b5bdcbafaec27"
+  "hash": "82e1213dcc7e424c7aa63436cea8c895765eaad5bb689487a23b5bdcbafaec27",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ab43ddb8888cf99abeb0f1e2168329876a8517d88b0bedd9f6a4d87375b37aa2",
+      "packet_hash": "cb40bbfcda4c810643bd338fa977ab4ea6e1e377c052a61497bfb5655068cf0c",
+      "published_packet_hash": "cb40bbfcda4c810643bd338fa977ab4ea6e1e377c052a61497bfb5655068cf0c",
+      "receipt_id": "053082236dc246f9a2cc057faa2f0646",
+      "request_hash": "9e20328cd86f8ca8ba30c0ad8b2f28e3eb9ce8849dbcc63a7303052244ff1548",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Chemical messenger” is not stated in the source packet; the packet only says the receptors bind acetylcholine.",
+        "“Start signaling pathways” is a looser rewording, but the packet specifically says “initiate acetylcholine-dependent signaling pathways,” so the definition should stay closer to that wording if it is to be supported exactly."
+      ],
+      "definition_hash": "ab43ddb8888cf99abeb0f1e2168329876a8517d88b0bedd9f6a4d87375b37aa2",
+      "packet_hash": "cb40bbfcda4c810643bd338fa977ab4ea6e1e377c052a61497bfb5655068cf0c",
+      "published_packet_hash": "cb40bbfcda4c810643bd338fa977ab4ea6e1e377c052a61497bfb5655068cf0c",
+      "receipt_id": "42ba0339391a4531838a47278a8e9d94",
+      "request_hash": "23a9aeb12da334c1a2ef3be7912a8a84300497b12e88eae0352d9ea3bf645225",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

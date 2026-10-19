@@ -27,5 +27,34 @@
     "definition_hash": "7342f519eca9fc4582818430b19d9597b5ce7a50af2d0926f6971adb8e55d2e9",
     "packet_hash": "c1332430944abcf386b3062a236ac6f493eb2e9afaaa1f24e6e08c6bb874d386"
   },
-  "hash": "34abfa775ca9f562c4235949c61599f6b51d08e749e0bd96dc694b9c63ad157e"
+  "hash": "34abfa775ca9f562c4235949c61599f6b51d08e749e0bd96dc694b9c63ad157e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7342f519eca9fc4582818430b19d9597b5ce7a50af2d0926f6971adb8e55d2e9",
+      "packet_hash": "c1332430944abcf386b3062a236ac6f493eb2e9afaaa1f24e6e08c6bb874d386",
+      "published_packet_hash": "c1332430944abcf386b3062a236ac6f493eb2e9afaaa1f24e6e08c6bb874d386",
+      "receipt_id": "44fb9813fbf74fecaefd7a9f08f46961",
+      "request_hash": "0a8cce5d9d33f15a1b1032f7f00f7191835155ced2fbfb31d43bf875fc9bef69",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “develop” as an outcome (“develop through…”), but the packet text describes “training, guiding, COUNSELING, and providing support” without explicitly stating “develop” or any development outcome.",
+        "The definition refers to “less experienced or less knowledgeable” persons, but the packet text instead specifies “a less experienced, trained, or knowledgeable person,” which does not cleanly match the “less knowledgeable” phrasing and also includes “trained” rather than “less knowledgeable.”"
+      ],
+      "definition_hash": "7342f519eca9fc4582818430b19d9597b5ce7a50af2d0926f6971adb8e55d2e9",
+      "packet_hash": "c1332430944abcf386b3062a236ac6f493eb2e9afaaa1f24e6e08c6bb874d386",
+      "published_packet_hash": "c1332430944abcf386b3062a236ac6f493eb2e9afaaa1f24e6e08c6bb874d386",
+      "receipt_id": "7a9ceac572074ca7a570093a5820def9",
+      "request_hash": "6aab1c6a73c909b21cc85b0a1e65ded0a6ed998b5e56d7df218902e1c62a108e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

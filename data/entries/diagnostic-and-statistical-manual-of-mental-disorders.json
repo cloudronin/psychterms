@@ -27,5 +27,36 @@
     "definition_hash": "bae8544659a0a6eec99c8f11851cf9da67278c783f2386319e43200a60ee2a86",
     "packet_hash": "8b407084a64395ad826e7ab90893e38141f3ac2b67790b069dbac397598166a7"
   },
-  "hash": "87d3ca4e1bc38925fd7ca33621d4fa63102ca093ebd56f054b2b4d506f4c500a"
+  "hash": "87d3ca4e1bc38925fd7ca33621d4fa63102ca093ebd56f054b2b4d506f4c500a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The claim that it is used as a reference for diagnosis is not supported by the packet; the packet only describes it as a categorical classification of mental disorders based on criteria sets with defining features."
+      ],
+      "definition_hash": "bae8544659a0a6eec99c8f11851cf9da67278c783f2386319e43200a60ee2a86",
+      "packet_hash": "8b407084a64395ad826e7ab90893e38141f3ac2b67790b069dbac397598166a7",
+      "published_packet_hash": "8b407084a64395ad826e7ab90893e38141f3ac2b67790b069dbac397598166a7",
+      "receipt_id": "85aa069c28494b8c8dc8c5e756c86429",
+      "request_hash": "75f5eb43b2c30c7db875319037a9109aed1c19a2e107fc160d3fa0ffa9bf09c6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states it is a “categorical classification of MENTAL DISORDERS based on criteria sets with defining features,” but it does not explicitly support the claim that it “is used as a reference for diagnosis.”",
+        "The definition omits the packet’s explicit point that it is “produced by the American Psychiatric Association,” which is a substantive mismatch, and the missing/changed details are not recoverable from the packet."
+      ],
+      "definition_hash": "bae8544659a0a6eec99c8f11851cf9da67278c783f2386319e43200a60ee2a86",
+      "packet_hash": "8b407084a64395ad826e7ab90893e38141f3ac2b67790b069dbac397598166a7",
+      "published_packet_hash": "8b407084a64395ad826e7ab90893e38141f3ac2b67790b069dbac397598166a7",
+      "receipt_id": "37aa9d321a324016b864a200e3abe290",
+      "request_hash": "4552777ae452a5e375df4a4569913363b0726917b334d2f53978653278a7d723",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "17ee09dfa3bee17eb3c6a48502e8ada5ad48d1d57424a00283f2a83a4c107ea9",
     "packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c"
   },
-  "hash": "3afe651a0132f080f3f85579dc9769a371fcf5f7efccadb6fcd473a7eb41ffbb"
+  "hash": "3afe651a0132f080f3f85579dc9769a371fcf5f7efccadb6fcd473a7eb41ffbb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "17ee09dfa3bee17eb3c6a48502e8ada5ad48d1d57424a00283f2a83a4c107ea9",
+      "packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c",
+      "published_packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c",
+      "receipt_id": "4378f6a94c6449d7a284d0553bc88dce",
+      "request_hash": "5cab24e8e770e04380e6c633a985410108180061d3581f147802e37f591b6706",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the source text: the packet describes a public-health surveillance measure (BRFSS) about adult behavioral risks, not a concept in learning.",
+        "The definition slightly overstates the source by turning “premature morbidity and mortality” into “premature illness or death,” which is close but not directly stated as written."
+      ],
+      "definition_hash": "17ee09dfa3bee17eb3c6a48502e8ada5ad48d1d57424a00283f2a83a4c107ea9",
+      "packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c",
+      "published_packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c",
+      "receipt_id": "f06d29018a7442948a33ed6ab6be0819",
+      "request_hash": "3d0ed3eb0a90023fca71e793023a2f96930bcc669e7a6e4d2088e8f3d2f879c8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

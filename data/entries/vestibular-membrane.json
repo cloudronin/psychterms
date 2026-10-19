@@ -27,5 +27,34 @@
     "definition_hash": "8fa654973117050b0d81c8a2e811bd9ac9583ecda9fe1a16d6e86f3e2ab492c4",
     "packet_hash": "1ee3359c00ecccf81070ac54b84c51c5208534ddfcc0fdf12b01ef5485e61380"
   },
-  "hash": "1f4bb714d322e0d6dd513213614520599d52cd2a7af715919bc5feec2894b029"
+  "hash": "1f4bb714d322e0d6dd513213614520599d52cd2a7af715919bc5feec2894b029",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8fa654973117050b0d81c8a2e811bd9ac9583ecda9fe1a16d6e86f3e2ab492c4",
+      "packet_hash": "1ee3359c00ecccf81070ac54b84c51c5208534ddfcc0fdf12b01ef5485e61380",
+      "published_packet_hash": "1ee3359c00ecccf81070ac54b84c51c5208534ddfcc0fdf12b01ef5485e61380",
+      "receipt_id": "0ec031d5894841f28643403cf97a06ac",
+      "request_hash": "39683815ede4dfc4440c9a38d9a979683e80355251a2a529841ed0eeaf63e362",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported location claim (“in the inner ear”); the packet only says it forms the anterior wall of the cochlear duct and separates it from the vestibular canal.",
+        "The alias “Reissner's membrane” is not stated in the packet text; the packet only provides the source label “Membrane of Reissner.”"
+      ],
+      "definition_hash": "8fa654973117050b0d81c8a2e811bd9ac9583ecda9fe1a16d6e86f3e2ab492c4",
+      "packet_hash": "1ee3359c00ecccf81070ac54b84c51c5208534ddfcc0fdf12b01ef5485e61380",
+      "published_packet_hash": "1ee3359c00ecccf81070ac54b84c51c5208534ddfcc0fdf12b01ef5485e61380",
+      "receipt_id": "9b6445afadea427281749067806d66ad",
+      "request_hash": "54daf4a832524b687eb542fcd0f3a839a90507a89eb608b3f54292a96d7c0b53",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "8b5353c94cb3f1443d3204756f249477028ce6dd9afe01721f55abd5d584d9c0",
     "packet_hash": "65f8a924699a19ab455579a57285510c5541afdcd176fac9e35f360f2b2382d9"
   },
-  "hash": "443e577ac02269617b08dcf8978ff91c100b24e8403f187aac6e19a84b05aa12"
+  "hash": "443e577ac02269617b08dcf8978ff91c100b24e8403f187aac6e19a84b05aa12",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8b5353c94cb3f1443d3204756f249477028ce6dd9afe01721f55abd5d584d9c0",
+      "packet_hash": "65f8a924699a19ab455579a57285510c5541afdcd176fac9e35f360f2b2382d9",
+      "published_packet_hash": "65f8a924699a19ab455579a57285510c5541afdcd176fac9e35f360f2b2382d9",
+      "receipt_id": "95b5d539a2994dc987cfd65789042db8",
+      "request_hash": "8a340dd69015a89ae84d133d010e4558ac34166eb51a1c93ed21bb27957c7fbb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text provided is explicitly labeled for “Phenelzine Sulfate” (source_label) and describes phenelzine sulfate, but it does not state that “Nardil” is the same drug/brand name as phenelzine sulfate. Therefore the opening claim “Nardil is …” is not supported by the packet."
+      ],
+      "definition_hash": "8b5353c94cb3f1443d3204756f249477028ce6dd9afe01721f55abd5d584d9c0",
+      "packet_hash": "65f8a924699a19ab455579a57285510c5541afdcd176fac9e35f360f2b2382d9",
+      "published_packet_hash": "65f8a924699a19ab455579a57285510c5541afdcd176fac9e35f360f2b2382d9",
+      "receipt_id": "e1734230ce7e4f5aaf80de5a1d063dfa",
+      "request_hash": "d11ee705cf87699d362d49dee8537c8e67465b802fadadca56af0f6cc2c41ccc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

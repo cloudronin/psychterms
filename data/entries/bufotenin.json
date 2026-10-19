@@ -27,5 +27,36 @@
     "definition_hash": "966fce5fc48dbfdf2c41e32f38ab3a9f672e0b268972159424e3e8330b0ae710",
     "packet_hash": "f1f27490685941bb53ea91721327c9fa6362d1c0f86c398518e0e1ccdbfad0dd"
   },
-  "hash": "0f1833a6f9d719407f467162476923210a51baac9009d47a1a467d1f4ab28e3d"
+  "hash": "0f1833a6f9d719407f467162476923210a51baac9009d47a1a467d1f4ab28e3d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the term refers to a hallucinogenic substance, not a diagnosis. The provided packet describes bufotenin as a serotonin analog used in CNS studies and misused as a psychedelic, without presenting it as a diagnostic label."
+      ],
+      "definition_hash": "966fce5fc48dbfdf2c41e32f38ab3a9f672e0b268972159424e3e8330b0ae710",
+      "packet_hash": "f1f27490685941bb53ea91721327c9fa6362d1c0f86c398518e0e1ccdbfad0dd",
+      "published_packet_hash": "f1f27490685941bb53ea91721327c9fa6362d1c0f86c398518e0e1ccdbfad0dd",
+      "receipt_id": "ad85808b13a541898acdbbffd082fa53",
+      "request_hash": "3c7887392c52380bffaac70168e7936ccc2307ad622f85bd14de776594395468",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible for this term: bufotenin is a substance/chemical agent, not a diagnosis-term entry.",
+        "The definition adds an unsupported framing of a “mental health context” as though this were a diagnostic concept, which the source packet does not establish."
+      ],
+      "definition_hash": "966fce5fc48dbfdf2c41e32f38ab3a9f672e0b268972159424e3e8330b0ae710",
+      "packet_hash": "f1f27490685941bb53ea91721327c9fa6362d1c0f86c398518e0e1ccdbfad0dd",
+      "published_packet_hash": "f1f27490685941bb53ea91721327c9fa6362d1c0f86c398518e0e1ccdbfad0dd",
+      "receipt_id": "f5ee61cfefe94396845de2a57da29e84",
+      "request_hash": "c722acd2340d88528464bb80fdce3048d5d1977c1ccb27b6fa479b4d6ce48237",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

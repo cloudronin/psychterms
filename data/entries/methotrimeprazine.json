@@ -27,5 +27,35 @@
     "definition_hash": "fd1b604ccbdcda746a9200138690f51dfa3ac3bf8e9fbec6c25e936de68fa347",
     "packet_hash": "1d922490f3bff7823905544212a519d95aacc0b3e0c38fdbea2f377c85ac2764"
   },
-  "hash": "ff256802036c289ec3b1553bf79ced7b9ae75708efdd472b01ed575ae32b0642"
+  "hash": "ff256802036c289ec3b1553bf79ced7b9ae75708efdd472b01ed575ae32b0642",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fd1b604ccbdcda746a9200138690f51dfa3ac3bf8e9fbec6c25e936de68fa347",
+      "packet_hash": "1d922490f3bff7823905544212a519d95aacc0b3e0c38fdbea2f377c85ac2764",
+      "published_packet_hash": "1d922490f3bff7823905544212a519d95aacc0b3e0c38fdbea2f377c85ac2764",
+      "receipt_id": "cb2e1a53fa09441d87759fcc2e900ea0",
+      "request_hash": "12df3b8acac263f4f14d3cbaa59c08079040a1451e098a2ae28041b3f5c62f90",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition refers to “methotrimeprazine,” but the provided packet text is labeled “Levomepromazine” and describes levomepromazine rather than methotrimeprazine.",
+        "The mechanism statement is only supported for levomepromazine (“appears to act as an antagonist… including adrenergic, dopamine, histamine, cholinergic and serotonin receptors”); it is not established in the packet as applying to methotrimeprazine.",
+        "The definition’s inclusion of multiple specific effects (calming/sleep-promoting, anti-anxiety, anti-nausea, pain-relieving, antipsychotic) is supported by the packet only in the context of levomepromazine, not methotrimeprazine."
+      ],
+      "definition_hash": "fd1b604ccbdcda746a9200138690f51dfa3ac3bf8e9fbec6c25e936de68fa347",
+      "packet_hash": "1d922490f3bff7823905544212a519d95aacc0b3e0c38fdbea2f377c85ac2764",
+      "published_packet_hash": "1d922490f3bff7823905544212a519d95aacc0b3e0c38fdbea2f377c85ac2764",
+      "receipt_id": "e9b40b72c0b94383ae9b24218b03abe2",
+      "request_hash": "99af2e3b00e7a506d42377b95be81adc9d25a6614f3d43f8010c080288119f1e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

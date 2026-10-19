@@ -27,5 +27,36 @@
     "definition_hash": "3220cd411888c954bbadc7f77133560ca2f78bfa9e27220b71929bf26e3e182b",
     "packet_hash": "91829e01fb54534b2dfb9d8e4298cf5716935d7116670034a63d5cd10ff72420"
   },
-  "hash": "3ff94202163291f1ab4a47a623d0062221f79e69e503d0b7f18ef2ae145cb42b"
+  "hash": "3ff94202163291f1ab4a47a623d0062221f79e69e503d0b7f18ef2ae145cb42b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds unsupported generalization by saying it involves making sense of social actions and relationships; the packet only supports perception, interpretation, categorizing, and judgment about one's own and others' social behaviors and group position."
+      ],
+      "definition_hash": "3220cd411888c954bbadc7f77133560ca2f78bfa9e27220b71929bf26e3e182b",
+      "packet_hash": "91829e01fb54534b2dfb9d8e4298cf5716935d7116670034a63d5cd10ff72420",
+      "published_packet_hash": "91829e01fb54534b2dfb9d8e4298cf5716935d7116670034a63d5cd10ff72420",
+      "receipt_id": "e32603dafd2a4d879d5208cc2038fae2",
+      "request_hash": "6fca43c17d434f41a71137da5d99398c4035c2b8849999ad7138caf865444159",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition does not explicitly include “relationships” or “social actions”; it only states “perception, interpretation, and categorizing” and “self judgement of one's own social behaviors and group position and those of others.”",
+        "The phrase “sort information” and “place in groups” are not directly stated in the packet (it specifies “categorizing” and “group position,” but not “sorting information” or “place” wording)."
+      ],
+      "definition_hash": "3220cd411888c954bbadc7f77133560ca2f78bfa9e27220b71929bf26e3e182b",
+      "packet_hash": "91829e01fb54534b2dfb9d8e4298cf5716935d7116670034a63d5cd10ff72420",
+      "published_packet_hash": "91829e01fb54534b2dfb9d8e4298cf5716935d7116670034a63d5cd10ff72420",
+      "receipt_id": "b6ff9f08100f4f57b5211aae0a883d87",
+      "request_hash": "cc417ce941ec2be5f9eb93c78aec5dd12bbb53283c60c892d871f8013b7bd805",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

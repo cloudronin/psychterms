@@ -27,5 +27,39 @@
     "definition_hash": "dc50551086dd668de9038376830342ac1de8d3a06d232520ff1aaeea41831390",
     "packet_hash": "1a74e730f13fd64172bdb0062b1180ac0970b5c441f38625d07de1d55959a980"
   },
-  "hash": "a41b6ba30100144a3354475428f972b343045cf7c00cf9e317fef9e24ee63c6d"
+  "hash": "a41b6ba30100144a3354475428f972b343045cf7c00cf9e317fef9e24ee63c6d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines empathy, not sympathy; it only mentions sympathy as usually nonobjective and noncritical, so the submitted definition targets the wrong sense/term.",
+        "“Response to another person’s feelings or behavior” and “generally caring” are not supported by the packet.",
+        "The comparison “less objective and less critical than empathy” is not supported by the packet’s wording and reverses the source relation, which distinguishes empathy from sympathy."
+      ],
+      "definition_hash": "dc50551086dd668de9038376830342ac1de8d3a06d232520ff1aaeea41831390",
+      "packet_hash": "1a74e730f13fd64172bdb0062b1180ac0970b5c441f38625d07de1d55959a980",
+      "published_packet_hash": "1a74e730f13fd64172bdb0062b1180ac0970b5c441f38625d07de1d55959a980",
+      "receipt_id": "e4fb1efff31b49a081f09d3b6b98afe3",
+      "request_hash": "030765afcf656734b0017ce76500ae7f1c24cbde227f6e17718d22d85eaa3ecf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text describes empathy as an objective awareness of another person’s feelings and behavior, and only contrasts sympathy as typically nonobjective and noncritical; it does not explicitly define sympathy as a “response” to another person’s feelings or behavior.",
+        "Although the packet states that sympathy is “usually nonobjective and noncritical” and notes caring in the context of the empathy description, the specific full wording of the provided definition (“response to another person’s feelings or behavior”) is not directly supported by the packet.",
+        "The definition states “generally caring” as a characterization of sympathy; the packet explicitly links caring to the empathy description, while sympathy is only distinguished by being nonobjective/noncritical, so the “caring” element for sympathy is not clearly and explicitly supported."
+      ],
+      "definition_hash": "dc50551086dd668de9038376830342ac1de8d3a06d232520ff1aaeea41831390",
+      "packet_hash": "1a74e730f13fd64172bdb0062b1180ac0970b5c441f38625d07de1d55959a980",
+      "published_packet_hash": "1a74e730f13fd64172bdb0062b1180ac0970b5c441f38625d07de1d55959a980",
+      "receipt_id": "80b854b8670c42aeae8dd5eda5fbd6e3",
+      "request_hash": "8ee37baeb80c01bc945c20627d0d10a665e5577ab8c6601d93188a263a04165b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

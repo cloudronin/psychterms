@@ -27,5 +27,33 @@
     "definition_hash": "769ae632235f78bffba9795b59f5cb1fdb86fd72f41cecace7aab5c2a2e07758",
     "packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab"
   },
-  "hash": "ba86e0a1a834094c462c3fff81826d127a2d36e38554292bef57a492f8d80ca4"
+  "hash": "ba86e0a1a834094c462c3fff81826d127a2d36e38554292bef57a492f8d80ca4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "769ae632235f78bffba9795b59f5cb1fdb86fd72f41cecace7aab5c2a2e07758",
+      "packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab",
+      "published_packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab",
+      "receipt_id": "e0ae6ec650aa463ba895463ae787504f",
+      "request_hash": "88a58a10e72120dbf847ec27f441d52f01a131bae389ef8d6616ae45a87f4a45",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the tool assesses “everyday adaptive behaviors,” but the packet only states it focuses on “adaptive behaviors” (no “everyday” qualifier is supported)."
+      ],
+      "definition_hash": "769ae632235f78bffba9795b59f5cb1fdb86fd72f41cecace7aab5c2a2e07758",
+      "packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab",
+      "published_packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab",
+      "receipt_id": "3a7930ee40f04dfb9e71cfa0fb7913c2",
+      "request_hash": "4c15c4e8d973149b4454cb14a577e97794b2623337b77f407a4386924541f284",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "ba93a96a8ef96b2d0d4bd48447cdc59b7acc46ac71145d601773f2c678a26afb",
     "packet_hash": "d878ef8caccdb0ba968ab64c73ef8ec9819751441e274b13652d21d2c16b8206"
   },
-  "hash": "fafd99fb94a930c57ee48c360b92b04bb5850597a67360dded5728a9682df90a"
+  "hash": "fafd99fb94a930c57ee48c360b92b04bb5850597a67360dded5728a9682df90a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ba93a96a8ef96b2d0d4bd48447cdc59b7acc46ac71145d601773f2c678a26afb",
+      "packet_hash": "d878ef8caccdb0ba968ab64c73ef8ec9819751441e274b13652d21d2c16b8206",
+      "published_packet_hash": "d878ef8caccdb0ba968ab64c73ef8ec9819751441e274b13652d21d2c16b8206",
+      "receipt_id": "23384c1f543d4cf9a29ea6af4238578a",
+      "request_hash": "e68fe7f67d3ae896bd62889882a7b2cf06e75b62e5f149efa823446dfd65afb8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define the Shapiro–Wilk test as checking whether data “fits a normal distribution.” It only mentions it as “the Shapiro-Wilk test of normality” used alongside skewness/kurtosis to conclude normality assumptions were violated.",
+        "Because the packet provides evidence for the normality-assumption/violation context (leading to a non-parametric test), but not for the specific “fits a normal distribution” phrasing, that substantive claim is not fully supported by the supplied packet."
+      ],
+      "definition_hash": "ba93a96a8ef96b2d0d4bd48447cdc59b7acc46ac71145d601773f2c678a26afb",
+      "packet_hash": "d878ef8caccdb0ba968ab64c73ef8ec9819751441e274b13652d21d2c16b8206",
+      "published_packet_hash": "d878ef8caccdb0ba968ab64c73ef8ec9819751441e274b13652d21d2c16b8206",
+      "receipt_id": "b4f316088e1448fe90d2ab0248f2ffe4",
+      "request_hash": "ed8f7ff4034e6541b71df931d5e0ccc2c551fb26284a9501da63690a808f0d50",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

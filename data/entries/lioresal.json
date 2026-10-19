@@ -27,5 +27,35 @@
     "definition_hash": "e561776d8381234ff8338ec71fae202662c797317eb3526f4a00ddc14bd72ecb",
     "packet_hash": "5f2732c15d474a4e302fe0031949c2a656885bc513d188f0e7eedb0c2708ba85"
   },
-  "hash": "fc377bc74ed7b0edfb3c4cebc4737b415151eeadbfea32991c1590a2aa12b104"
+  "hash": "fc377bc74ed7b0edfb3c4cebc4737b415151eeadbfea32991c1590a2aa12b104",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e561776d8381234ff8338ec71fae202662c797317eb3526f4a00ddc14bd72ecb",
+      "packet_hash": "5f2732c15d474a4e302fe0031949c2a656885bc513d188f0e7eedb0c2708ba85",
+      "published_packet_hash": "5f2732c15d474a4e302fe0031949c2a656885bc513d188f0e7eedb0c2708ba85",
+      "receipt_id": "40bc47e6155644adb75a08390b27ee0e",
+      "request_hash": "59805ac25245f189ee37e8221f5a11482408dadd24848720b50ca1707276bc15",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports baclofen as the drug description, but it does not explicitly support the claim that Lioresal is a brand name for baclofen.",
+        "The effect/mechanism wording goes beyond the packet: it mentions the brain and spinal cord directly, while the source says the drug acts at spinal and supraspinal sites and is a GABA-B agonist.",
+        "“Spinal cord injury” is not stated in the packet; the packet says spasms due to spinal cord damage."
+      ],
+      "definition_hash": "e561776d8381234ff8338ec71fae202662c797317eb3526f4a00ddc14bd72ecb",
+      "packet_hash": "5f2732c15d474a4e302fe0031949c2a656885bc513d188f0e7eedb0c2708ba85",
+      "published_packet_hash": "5f2732c15d474a4e302fe0031949c2a656885bc513d188f0e7eedb0c2708ba85",
+      "receipt_id": "ddafff421d15472dbaa09f9a8d9d083b",
+      "request_hash": "675629535f0755e4c566d48dd4c47a3bbb2b20ed982d6889774a3dc3a25478d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

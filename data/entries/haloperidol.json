@@ -27,5 +27,38 @@
     "definition_hash": "48f2724a4db0e545e4554820795cc3d64b94b1dd6fd73ced53acdb5714cfc7bc",
     "packet_hash": "6ed592fd451d8c76cbf400de12feb61e657855bc3022a78df5727e00ebae6ba3"
   },
-  "hash": "4c46a324e6e85879bea33404932cc33878e6096b1b7eee3de475d64b87040fac"
+  "hash": "4c46a324e6e85879bea33404932cc33878e6096b1b7eee3de475d64b87040fac",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "\"Severe nausea\" is not supported by the packet; the packet says haloperidol is a potent antiemetic and is used for intractable hiccups, but it does not specify severe nausea.",
+        "\"Some movement-related conditions\" is an unsupported generalization beyond the packet’s named uses (ballism and the chorea of Huntington disease)."
+      ],
+      "definition_hash": "48f2724a4db0e545e4554820795cc3d64b94b1dd6fd73ced53acdb5714cfc7bc",
+      "packet_hash": "6ed592fd451d8c76cbf400de12feb61e657855bc3022a78df5727e00ebae6ba3",
+      "published_packet_hash": "6ed592fd451d8c76cbf400de12feb61e657855bc3022a78df5727e00ebae6ba3",
+      "receipt_id": "e4fd605766a44ab2866cdbfa99399a29",
+      "request_hash": "9b235e646e576b9e91d6a35bc0bb343566e205d9d773bec980575ac8ecf8b889",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is for a medication (haloperidol) and describes indications/treatment uses rather than providing a term definition in the “diagnosis” field (the term is not itself a diagnostic category).",
+        "The packet does not specify “severe nausea” (it only states it is a “potent antiemetic”).",
+        "The packet does not specify “persistent” hiccups (it states it is used for “intractable HICCUPS,” which is not the same wording/sense as “persistent”)."
+      ],
+      "definition_hash": "48f2724a4db0e545e4554820795cc3d64b94b1dd6fd73ced53acdb5714cfc7bc",
+      "packet_hash": "6ed592fd451d8c76cbf400de12feb61e657855bc3022a78df5727e00ebae6ba3",
+      "published_packet_hash": "6ed592fd451d8c76cbf400de12feb61e657855bc3022a78df5727e00ebae6ba3",
+      "receipt_id": "fcc935f8a13042daab7c5b171f3c83ac",
+      "request_hash": "ce84b704f6ddcdfa50bc9bb3de3723f9e4a4f808ea6283aa070590295c053714",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

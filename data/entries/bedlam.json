@@ -27,5 +27,39 @@
     "definition_hash": "b477b5e2fd3e8355a53bef632710eea0ba11dff4b7c947a266b3c9ba73849077",
     "packet_hash": "78083647fa927adb27554a82bd20ad14d049a87cd817c76a36e90edf841fc785"
   },
-  "hash": "bfa34b4ef768704941e15ac29c6cbf220f7f803fa932f2b830124bfda75549ec"
+  "hash": "bfa34b4ef768704941e15ac29c6cbf220f7f803fa932f2b830124bfda75549ec",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the Bethlem Royal Hospital history and that lunatics were later received there, but it does not explicitly support the claim that “Bedlam” is the historical name for Bethlem Royal Hospital in London.",
+        "The definition adds a linking statement that is not grounded in the supplied passage; the passage names Bethlem Royal Hospital but does not identify it as “Bedlam.”"
+      ],
+      "definition_hash": "b477b5e2fd3e8355a53bef632710eea0ba11dff4b7c947a266b3c9ba73849077",
+      "packet_hash": "78083647fa927adb27554a82bd20ad14d049a87cd817c76a36e90edf841fc785",
+      "published_packet_hash": "78083647fa927adb27554a82bd20ad14d049a87cd817c76a36e90edf841fc785",
+      "receipt_id": "960bc465e5504269bec43c6cba8cdca9",
+      "request_hash": "bccece91fa66e1a342fdee4915fcc3aac0d013503d764646fd501ed5eb266fd0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “Bedlam” as a historical name linked to Bethlem Royal Hospital; it only contains discussion of “BETHLEIVE ROVAI. HOSPZTAI..” and related phrases (e.g., “Tom o' Bedlam”), without stating that “Bedlam” is the name linked to that hospital.",
+        "The portion stating that the hospital “was not originally intended for lunatics” is supported by the packet (“not originally intended for lunatics”).",
+        "The portion stating that it “was later used to receive insane patients” is only partially supported: the packet says the earliest mention of “any insane patients” being there was in 1403, but it does not directly connect this to the phrase “later used” in the way the definition asserts.",
+        "Because the first substantive claim about “Bedlam” as the linking historical name is unsupported by the packet, the definition cannot be accepted as written."
+      ],
+      "definition_hash": "b477b5e2fd3e8355a53bef632710eea0ba11dff4b7c947a266b3c9ba73849077",
+      "packet_hash": "78083647fa927adb27554a82bd20ad14d049a87cd817c76a36e90edf841fc785",
+      "published_packet_hash": "78083647fa927adb27554a82bd20ad14d049a87cd817c76a36e90edf841fc785",
+      "receipt_id": "3ae47980594e40b786e589d94cca2cd3",
+      "request_hash": "9387d5a6d656dc077fd6723a7cd7ebb93565bd02912e7dbcbd3eb1f3392019ec",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

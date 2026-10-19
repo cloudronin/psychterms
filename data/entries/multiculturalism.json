@@ -27,5 +27,33 @@
     "definition_hash": "ece9bcc36fd925a0c6b97e71dead6f11dcaf4b1ed2219f3bd1355fbad7e0f7ed",
     "packet_hash": "6e53b9df7da39bc9a074ac196aa20bf6c311e64c20c025cea61a1e94ad2c5341"
   },
-  "hash": "8c3eb9795ccd7feff984112dd0d1c77d2553c1411cd91b5878e37a1e5398ec63"
+  "hash": "8c3eb9795ccd7feff984112dd0d1c77d2553c1411cd91b5878e37a1e5398ec63",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ece9bcc36fd925a0c6b97e71dead6f11dcaf4b1ed2219f3bd1355fbad7e0f7ed",
+      "packet_hash": "6e53b9df7da39bc9a074ac196aa20bf6c311e64c20c025cea61a1e94ad2c5341",
+      "published_packet_hash": "6e53b9df7da39bc9a074ac196aa20bf6c311e64c20c025cea61a1e94ad2c5341",
+      "receipt_id": "2b256fea32a14aaa83a19ba764036bf4",
+      "request_hash": "f9b788d332f28df91e3fd1720c259159eb634cc10cfe8f55acf8096bf8d1272c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes “ongoing coexistence,” but the packet only states “Coexistence of numerous distinct…” and does not explicitly support the “ongoing” aspect."
+      ],
+      "definition_hash": "ece9bcc36fd925a0c6b97e71dead6f11dcaf4b1ed2219f3bd1355fbad7e0f7ed",
+      "packet_hash": "6e53b9df7da39bc9a074ac196aa20bf6c311e64c20c025cea61a1e94ad2c5341",
+      "published_packet_hash": "6e53b9df7da39bc9a074ac196aa20bf6c311e64c20c025cea61a1e94ad2c5341",
+      "receipt_id": "1c1a02cdc5f243ec8bf842610ce870f5",
+      "request_hash": "2d0462979fc4f9570b3e828e78555f757b95b8a65a0e533a91cc1a141df1f02c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

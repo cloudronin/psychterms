@@ -27,5 +27,33 @@
     "definition_hash": "a5505c82bac0e66de384e8356dd54039a37da448715ffac3043f3f5a1a52cea8",
     "packet_hash": "9fa38ca38b401401f89a5feda3c906d3bff462184f0107b3381c37d9d317c328"
   },
-  "hash": "14a00036e2737868083b71f52a682defe14168bc2c6e27ae604286272ddf5ff2"
+  "hash": "14a00036e2737868083b71f52a682defe14168bc2c6e27ae604286272ddf5ff2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a5505c82bac0e66de384e8356dd54039a37da448715ffac3043f3f5a1a52cea8",
+      "packet_hash": "9fa38ca38b401401f89a5feda3c906d3bff462184f0107b3381c37d9d317c328",
+      "published_packet_hash": "9fa38ca38b401401f89a5feda3c906d3bff462184f0107b3381c37d9d317c328",
+      "receipt_id": "dc71657aba394e1b8d78ddba4219eb12",
+      "request_hash": "aeb23d214736cd2d9b6fe5e8e9dd67a4dd8986b971f578c676491f4c8ed7948b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “other people,” but the supplied source only says awareness of oneself in relation to time, place, and person; that pluralization is not supported exactly by the packet."
+      ],
+      "definition_hash": "a5505c82bac0e66de384e8356dd54039a37da448715ffac3043f3f5a1a52cea8",
+      "packet_hash": "9fa38ca38b401401f89a5feda3c906d3bff462184f0107b3381c37d9d317c328",
+      "published_packet_hash": "9fa38ca38b401401f89a5feda3c906d3bff462184f0107b3381c37d9d317c328",
+      "receipt_id": "ac9548c4acfe4997b5f607cf8389e3d8",
+      "request_hash": "9721b5204b78f3f90a0467bb223b5192a88d83d1245c3fef13d497faf4e164f9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

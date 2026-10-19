@@ -27,5 +27,38 @@
     "definition_hash": "f49a633f854f9392241c0ef4c18be3bb9e042e1cc19c9205d6a741527aafd6b1",
     "packet_hash": "3591d8fcb7bd7ce9d08f07e91947780357f4ac053f12482198d0875f818d8f7d"
   },
-  "hash": "e2ad0b3409cc1f338f29cebe0bc526c1945e65a77370c5956c89435a3619b865"
+  "hash": "e2ad0b3409cc1f338f29cebe0bc526c1945e65a77370c5956c89435a3619b865",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes a clinical psychologist as a professional group, not the term \"psychological treatment\" itself, so the requested sense is not supported.",
+        "The definition adds unsupported generalization by defining psychological treatment as \"care\" provided within a psychologist’s professional practice; the packet only mentions psychological treatment as one competency of a psychologist.",
+        "The phrase \"mental health, behavioral, and emotional disorders\" is supported, but the rest of the definition goes beyond the source and is not defensible from the packet alone."
+      ],
+      "definition_hash": "f49a633f854f9392241c0ef4c18be3bb9e042e1cc19c9205d6a741527aafd6b1",
+      "packet_hash": "3591d8fcb7bd7ce9d08f07e91947780357f4ac053f12482198d0875f818d8f7d",
+      "published_packet_hash": "3591d8fcb7bd7ce9d08f07e91947780357f4ac053f12482198d0875f818d8f7d",
+      "receipt_id": "11df3129c17f4e5f9cae82c329e509e0",
+      "request_hash": "24ea59e342722ff4c49f94814b15861edb4fad326c9d0c7bed514bb4d6aa906a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that a psychologist with accredited training provides psychological treatment of mental health, behavioral, and emotional disorders, but it does not explicitly state that psychological treatment is “care for” such disorders or that it is “provided within a psychologist’s professional practice.”",
+        "“within a psychologist’s professional practice” is added wording not supported in the supplied packet text."
+      ],
+      "definition_hash": "f49a633f854f9392241c0ef4c18be3bb9e042e1cc19c9205d6a741527aafd6b1",
+      "packet_hash": "3591d8fcb7bd7ce9d08f07e91947780357f4ac053f12482198d0875f818d8f7d",
+      "published_packet_hash": "3591d8fcb7bd7ce9d08f07e91947780357f4ac053f12482198d0875f818d8f7d",
+      "receipt_id": "0b9316bd8734432d9f74844f131aea1e",
+      "request_hash": "fde9ec4507a67ad9d21b0b3e1c4186da8635eb0d570a114ab33ea821b22798e3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

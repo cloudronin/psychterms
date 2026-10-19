@@ -27,5 +27,38 @@
     "definition_hash": "5532a6aa2498bd2a807bbf52ae50c629c2d01a271c75c8da1b477b60413cb271",
     "packet_hash": "1a512e1e35cbe4de300af8030348e2e7c4ec032e6f6e17f7aa94e2df9af41b19"
   },
-  "hash": "8019b86543e4cc351f9a6771ee33da2f7e70adbf034d1667d6b8b96fb03745dc"
+  "hash": "8019b86543e4cc351f9a6771ee33da2f7e70adbf034d1667d6b8b96fb03745dc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence (“It expresses an estimate as an interval rather than as a single number.”) is not stated in the packet and goes beyond the supplied source text.",
+        "The packet supports that an interval estimate is a range of scores likely to contain the estimated parameter, but not the added contrast with a single-number estimate."
+      ],
+      "definition_hash": "5532a6aa2498bd2a807bbf52ae50c629c2d01a271c75c8da1b477b60413cb271",
+      "packet_hash": "1a512e1e35cbe4de300af8030348e2e7c4ec032e6f6e17f7aa94e2df9af41b19",
+      "published_packet_hash": "1a512e1e35cbe4de300af8030348e2e7c4ec032e6f6e17f7aa94e2df9af41b19",
+      "receipt_id": "f1c8014191294daa8476d4539859fb2f",
+      "request_hash": "c388b219bb1655ae2f5a6d1a85e3dd1f3cf5032da0bfabea6f6320c61c733728",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the interval is likely to include the “true parameter,” but the packet only says the interval is a range of scores likely to contain the “estimated parameter,” without mentioning “true.”",
+        "The definition adds that it “expresses an estimate as an interval rather than as a single number.” The packet does not state this distinction.",
+        "The packet uses the phrase “range of scores likely to contain the estimated parameter,” while the definition rephrases it as “range of values” and “true parameter being estimated,” which is not directly supported by the packet wording."
+      ],
+      "definition_hash": "5532a6aa2498bd2a807bbf52ae50c629c2d01a271c75c8da1b477b60413cb271",
+      "packet_hash": "1a512e1e35cbe4de300af8030348e2e7c4ec032e6f6e17f7aa94e2df9af41b19",
+      "published_packet_hash": "1a512e1e35cbe4de300af8030348e2e7c4ec032e6f6e17f7aa94e2df9af41b19",
+      "receipt_id": "d77894b4ba8446eaab5414b5d5e6bc91",
+      "request_hash": "abe94c38f747efeac9513c05c11933ba45b674d69ce1dcd165dd8b9544c4b537",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

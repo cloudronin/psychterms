@@ -27,5 +27,33 @@
     "definition_hash": "b4dba9b312f67f9c08b14a4790108e5f2a39ac81600b59b859faf69f2f652599",
     "packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3"
   },
-  "hash": "3a8bafd0399a4b11a286a6543efeaeedeb3e0a0bb0f384e2802697040b2ce9b4"
+  "hash": "3a8bafd0399a4b11a286a6543efeaeedeb3e0a0bb0f384e2802697040b2ce9b4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b4dba9b312f67f9c08b14a4790108e5f2a39ac81600b59b859faf69f2f652599",
+      "packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3",
+      "published_packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3",
+      "receipt_id": "7f9c596f9b9e46cfacadf4396f01e942",
+      "request_hash": "b56c05d7d0867b26aa00fa733c6f3acbe2e235b1615ffdb17982627c3432e24b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s focus includes “mentally,” but the provided packet describes evaluation of “physical, physiological, or mental functioning” in older adults and does not specifically reference cognition or cognitive functioning (so the match to the requested field “cognition” is not explicitly supported)."
+      ],
+      "definition_hash": "b4dba9b312f67f9c08b14a4790108e5f2a39ac81600b59b859faf69f2f652599",
+      "packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3",
+      "published_packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3",
+      "receipt_id": "b436b7b13cc344e48c405851c244f3f0",
+      "request_hash": "ea8612177a6e008ab7c0e1c1e2a17152b01c031480f02192853d391fcd5e8e1f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

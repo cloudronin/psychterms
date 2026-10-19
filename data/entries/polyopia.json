@@ -27,5 +27,34 @@
     "definition_hash": "8481049688d188ce4d5d496caea164bb3795535803ec873e0f073b4f6b6a4f2f",
     "packet_hash": "d67d69dacbdf77d33a8ba97457c7db3a8c8ef6b2f157641dc186787acf5bbdf2"
   },
-  "hash": "b2d20ea0d164244c8a9d6f2abc03638c19f5162624a9c8b08b055ef0cd985ee5"
+  "hash": "b2d20ea0d164244c8a9d6f2abc03638c19f5162624a9c8b08b055ef0cd985ee5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8481049688d188ce4d5d496caea164bb3795535803ec873e0f073b4f6b6a4f2f",
+      "packet_hash": "d67d69dacbdf77d33a8ba97457c7db3a8c8ef6b2f157641dc186787acf5bbdf2",
+      "published_packet_hash": "d67d69dacbdf77d33a8ba97457c7db3a8c8ef6b2f157641dc186787acf5bbdf2",
+      "receipt_id": "742166a6d8264a1abda00d7d2a7574bc",
+      "request_hash": "ed2c8a9f8f5ebbac87cfea880830adc58b26cf9311d1a553a73288fc7031ee05",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Polyopia is the seeing of several images of a single object”) is not stated in the supplied packet; the packet only describes “monocular polyopia” as “the several images which most people see…” in an example, without defining polyopia in general terms.",
+        "The definition specifies the sense “monocular polyopia,” and while the packet supports that monocular polyopia is caused by irregular astigmatism, it does not explicitly present monocular polyopia as a standalone definition of the term polyopia (only as part of the astigmatism entry)."
+      ],
+      "definition_hash": "8481049688d188ce4d5d496caea164bb3795535803ec873e0f073b4f6b6a4f2f",
+      "packet_hash": "d67d69dacbdf77d33a8ba97457c7db3a8c8ef6b2f157641dc186787acf5bbdf2",
+      "published_packet_hash": "d67d69dacbdf77d33a8ba97457c7db3a8c8ef6b2f157641dc186787acf5bbdf2",
+      "receipt_id": "de13bdcb43ac4eeb8d7295a4b4d9ab4c",
+      "request_hash": "4ce8a872a56d07580c1c0c0bb49f789749d29a4d07f98a0f689f243bf0de5351",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

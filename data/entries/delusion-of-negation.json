@@ -27,5 +27,34 @@
     "definition_hash": "e028a480c82f8334b443fc0a4344a3faf2347009b5d2edbb3997156a699a5820",
     "packet_hash": "31f1b0713e899c90989cb8f12d393cc873120e5ad3d979f5e64a33467a9aa024"
   },
-  "hash": "740d7340b8a66e20621857bb47c3c41af9f42e05d84270b9f7bc62e004e7d77e"
+  "hash": "740d7340b8a66e20621857bb47c3c41af9f42e05d84270b9f7bc62e004e7d77e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e028a480c82f8334b443fc0a4344a3faf2347009b5d2edbb3997156a699a5820",
+      "packet_hash": "31f1b0713e899c90989cb8f12d393cc873120e5ad3d979f5e64a33467a9aa024",
+      "published_packet_hash": "31f1b0713e899c90989cb8f12d393cc873120e5ad3d979f5e64a33467a9aa024",
+      "receipt_id": "d4698707bed64818bbf860ccba6aa59e",
+      "request_hash": "088df3d51849cc028331de12e4046dcfe94264f724c0f1575a1f0fb98d392fc9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the condition is a “severe form of melancholic negative thinking” that “can progress from feeling changed or emptied,” but the packet does not support the “emptied” (or the specific “feeling changed or emptied” phrasing) as part of a progression.",
+        "The packet supports progression in general terms (“transition from a sense of the external world being changed” to denial of its existence; some patients imagine they are dead), but the definition adds additional progression wording that is not explicitly present in the supplied passage."
+      ],
+      "definition_hash": "e028a480c82f8334b443fc0a4344a3faf2347009b5d2edbb3997156a699a5820",
+      "packet_hash": "31f1b0713e899c90989cb8f12d393cc873120e5ad3d979f5e64a33467a9aa024",
+      "published_packet_hash": "31f1b0713e899c90989cb8f12d393cc873120e5ad3d979f5e64a33467a9aa024",
+      "receipt_id": "4e7806762cb24b7eaa3210c224dfa8e5",
+      "request_hash": "f3a9faf0e4d3ecdce92c822972db32253caa4c9530f9d9f7b4057b3ff8a9d4ca",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

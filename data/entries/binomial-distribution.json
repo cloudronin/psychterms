@@ -27,5 +27,33 @@
     "definition_hash": "53696af473f786f8d1f70bbdce477c754a52fba557ea9d7a970c533720ec3a23",
     "packet_hash": "437db9d7a442c78a8f4bacc302ed166a9731ba0bb580053d5b1b94c8a3dc9dbb"
   },
-  "hash": "f391438e1d347e1480aac8ce5ccdcef577f76ae9d9ce80f1cf619ce7ecb3b028"
+  "hash": "f391438e1d347e1480aac8ce5ccdcef577f76ae9d9ce80f1cf619ce7ecb3b028",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "53696af473f786f8d1f70bbdce477c754a52fba557ea9d7a970c533720ec3a23",
+      "packet_hash": "437db9d7a442c78a8f4bacc302ed166a9731ba0bb580053d5b1b94c8a3dc9dbb",
+      "published_packet_hash": "437db9d7a442c78a8f4bacc302ed166a9731ba0bb580053d5b1b94c8a3dc9dbb",
+      "receipt_id": "390e5c2165cf4565843329aa5bd869b3",
+      "request_hash": "85b090268ed9b05b37a067e8efd8d2261b8c29487ca558165a5ddff67fb8f4f8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines binomial distribution as associated with “two mutually exclusive outcomes,” but the definition says only “two possible outcomes,” omitting the “mutually exclusive” qualification."
+      ],
+      "definition_hash": "53696af473f786f8d1f70bbdce477c754a52fba557ea9d7a970c533720ec3a23",
+      "packet_hash": "437db9d7a442c78a8f4bacc302ed166a9731ba0bb580053d5b1b94c8a3dc9dbb",
+      "published_packet_hash": "437db9d7a442c78a8f4bacc302ed166a9731ba0bb580053d5b1b94c8a3dc9dbb",
+      "receipt_id": "2168b809b29e4e9fb12abfa7211e9682",
+      "request_hash": "f2139a5b99f935886817ed33b6cab62a847e3aaee5c578e0e16a7929f1549a7e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

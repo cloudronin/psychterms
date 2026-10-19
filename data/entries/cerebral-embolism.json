@@ -27,5 +27,34 @@
     "definition_hash": "a9cfec1fc1634376106f4fa6a6561c2c7f69ddcfc8bd2531e5e4ac46065466da",
     "packet_hash": "d9c887742f7fd062541cdab6697fdfd0c258c4714609256f6571e9831356d7ed"
   },
-  "hash": "3df6bf1c212c48131668445f180eaa205832274772c796d89bb5e0220fc9aef1"
+  "hash": "3df6bf1c212c48131668445f180eaa205832274772c796d89bb5e0220fc9aef1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition gives the broader category (“a cerebrovascular disorder in which blood flow is inadequate in the vessels that supply the brain”), but the packet’s term is the specific example “cerebral embolism,” not the category itself.",
+        "The packet defines the broader disorder as the condition resulting from inadequate blood flow and lists cerebral embolism only as a representative example, so the definition is not for the requested term."
+      ],
+      "definition_hash": "a9cfec1fc1634376106f4fa6a6561c2c7f69ddcfc8bd2531e5e4ac46065466da",
+      "packet_hash": "d9c887742f7fd062541cdab6697fdfd0c258c4714609256f6571e9831356d7ed",
+      "published_packet_hash": "d9c887742f7fd062541cdab6697fdfd0c258c4714609256f6571e9831356d7ed",
+      "receipt_id": "f48ed8b13e4e425c84c5a6be87163b49",
+      "request_hash": "6ff046ec97cd4a65a6ea24b7ea21296824f7ef86d9475cee576bc8abd87d9523",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a9cfec1fc1634376106f4fa6a6561c2c7f69ddcfc8bd2531e5e4ac46065466da",
+      "packet_hash": "d9c887742f7fd062541cdab6697fdfd0c258c4714609256f6571e9831356d7ed",
+      "published_packet_hash": "d9c887742f7fd062541cdab6697fdfd0c258c4714609256f6571e9831356d7ed",
+      "receipt_id": "22ad96a654d74b85b160fe4df236f109",
+      "request_hash": "3b2ed9e76011a7e1654ba8ea5e32af9542f4963f3ad20ffc02d0ae673db75da6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

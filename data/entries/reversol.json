@@ -27,5 +27,38 @@
     "definition_hash": "8b1491fbf08a30fea393c96899a25dbe733b068077adc6e74ed2bd137c6e5163",
     "packet_hash": "86b390df1a3cb608543eef017710fd00c89abe4b3143d0ce02a8bf366b2fe1b3"
   },
-  "hash": "891ed31c1713c4f5b4ea7f14ffed3d96ebd76b232a965b14591e579306a048d9"
+  "hash": "891ed31c1713c4f5b4ea7f14ffed3d96ebd76b232a965b14591e579306a048d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports edrophonium chloride, but it does not support the claim that the term \"Reversol\" is a drug name for edrophonium chloride or that Reversol is the source label/synonym.",
+        "The definition adds a specific naming relationship that is not stated in the packet; only the pharmacologic description of edrophonium chloride is supported."
+      ],
+      "definition_hash": "8b1491fbf08a30fea393c96899a25dbe733b068077adc6e74ed2bd137c6e5163",
+      "packet_hash": "86b390df1a3cb608543eef017710fd00c89abe4b3143d0ce02a8bf366b2fe1b3",
+      "published_packet_hash": "86b390df1a3cb608543eef017710fd00c89abe4b3143d0ce02a8bf366b2fe1b3",
+      "receipt_id": "489cf9319b2a494badf393c8e309dc66",
+      "request_hash": "57ac129c111069f38a766d1b73646c6c733fc02b314094c55e8b59393dab9cae",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that “Reversol” is the drug name for edrophonium chloride; it discusses “edrophonium” without providing a Reversol-to-edrophonium mapping.",
+        "The packet contains an internal inconsistency: it begins by describing edrophonium chloride, but later says “Echothiophate chloride potentiates…” (the definition attributes the described eye effects to Reversol/edrophonium without support for that specific pairing).",
+        "Because the agent identity for the eye-effects portion is not consistently supported in the packet, the statement about using Reversol in the eye to increase fluid outflow and lower intraocular pressure is not fully defensible from the provided text."
+      ],
+      "definition_hash": "8b1491fbf08a30fea393c96899a25dbe733b068077adc6e74ed2bd137c6e5163",
+      "packet_hash": "86b390df1a3cb608543eef017710fd00c89abe4b3143d0ce02a8bf366b2fe1b3",
+      "published_packet_hash": "86b390df1a3cb608543eef017710fd00c89abe4b3143d0ce02a8bf366b2fe1b3",
+      "receipt_id": "bdc211260a9d4ac0b53d126137dc9fd4",
+      "request_hash": "65b2a8eb3fe3b844b1dfb0ca991f794bcaba701df6225dbf8ac3cf7d6b50810c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

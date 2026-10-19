@@ -27,5 +27,37 @@
     "definition_hash": "4f14f57001ca31eb3587b0fc5d0c3c56e73e633ec1e70424ecb4a69441826df5",
     "packet_hash": "550094092595763787e0ca94620ae09583d6d2324f440f767f135c3e87e436bd"
   },
-  "hash": "c806d27af390a4d868479cf74c5e5d0397af072ca2fef756112ee51ae737528d"
+  "hash": "c806d27af390a4d868479cf74c5e5d0397af072ca2fef756112ee51ae737528d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the sample mean is an unbiased estimate of the population mean, but it does not explicitly define the population mean as “the average value for an entire population.”",
+        "The phrase “in research methods” adds a field-specific framing that is not stated in the source text, even though the term fits the field."
+      ],
+      "definition_hash": "4f14f57001ca31eb3587b0fc5d0c3c56e73e633ec1e70424ecb4a69441826df5",
+      "packet_hash": "550094092595763787e0ca94620ae09583d6d2324f440f767f135c3e87e436bd",
+      "published_packet_hash": "550094092595763787e0ca94620ae09583d6d2324f440f767f135c3e87e436bd",
+      "receipt_id": "c410ef27ef144d2fbb7f8c2029bd92ea",
+      "request_hash": "8ee62779b4df2183503c590d494bd420743fc2511832aee6ef4530acb1282fdd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “population mean” as the average value for an entire population; it only mentions “the population mean” in the statement that “The sample mean is an unbiased estimate of the population mean.”",
+        "The packet supports the idea that the sample mean estimates the population mean, but the definition’s first sentence (about what the population mean is) is unsupported by the provided packet."
+      ],
+      "definition_hash": "4f14f57001ca31eb3587b0fc5d0c3c56e73e633ec1e70424ecb4a69441826df5",
+      "packet_hash": "550094092595763787e0ca94620ae09583d6d2324f440f767f135c3e87e436bd",
+      "published_packet_hash": "550094092595763787e0ca94620ae09583d6d2324f440f767f135c3e87e436bd",
+      "receipt_id": "a768970aca334ce9b93bcbfc0efafdfb",
+      "request_hash": "def3b296bb511dd8f6abdc30b1590d9013f9116b0aded14c0a45b714921781f4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "f16004ab178f2adc79ca1e0bd08fede5a6e88d3610f746415e96cadde79d8e2f",
     "packet_hash": "39773cf0a88aa771a6bcbd8e2d9e319219a07207d396c87bbf50a0812680a7bc"
   },
-  "hash": "44bae8710b587be9f04d2a5b4477e3d4653f3879e1b2e2d754dd51288f2fd032"
+  "hash": "44bae8710b587be9f04d2a5b4477e3d4653f3879e1b2e2d754dd51288f2fd032",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported detail by describing the nucleus as a \"group of nerve cells\"; the packet only says it is a nucleus in the anterior part of the hypothalamus.",
+        "The wording \"front part\" is acceptable for \"anterior part,\" but the rest of the definition should not go beyond the packet-supported location claim."
+      ],
+      "definition_hash": "f16004ab178f2adc79ca1e0bd08fede5a6e88d3610f746415e96cadde79d8e2f",
+      "packet_hash": "39773cf0a88aa771a6bcbd8e2d9e319219a07207d396c87bbf50a0812680a7bc",
+      "published_packet_hash": "39773cf0a88aa771a6bcbd8e2d9e319219a07207d396c87bbf50a0812680a7bc",
+      "receipt_id": "698d7170b9cf4fd98db43c0a8c9c91f4",
+      "request_hash": "4373b680107d9c926454b96cec4e0c3ab779eb12e275cf5551d5a833602e905b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states only that it is a “Nucleus in the anterior part of the HYPOTHALAMUS.” It does not explicitly describe it as “a group of nerve cells,” so that substantive wording is not directly supported.",
+        "The definition’s “front part” is consistent with “anterior part,” but the unsupported “group of nerve cells” prevents passing."
+      ],
+      "definition_hash": "f16004ab178f2adc79ca1e0bd08fede5a6e88d3610f746415e96cadde79d8e2f",
+      "packet_hash": "39773cf0a88aa771a6bcbd8e2d9e319219a07207d396c87bbf50a0812680a7bc",
+      "published_packet_hash": "39773cf0a88aa771a6bcbd8e2d9e319219a07207d396c87bbf50a0812680a7bc",
+      "receipt_id": "6046cfa814284a8a938e2810cbadbefb",
+      "request_hash": "470b6a0e0966623227d0a73b9d64839774d438b7400827add141199146909ef7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

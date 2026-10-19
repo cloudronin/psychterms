@@ -27,5 +27,36 @@
     "definition_hash": "89c6c8e99e2001b9115472ae215d21c38c16ffbc322b84c2c225acd60eb653d8",
     "packet_hash": "2773fd1d3188e23c77c59719d9ba0623a7a99b99ee1e0c55b7c74d39319698fd"
   },
-  "hash": "a328cf6b8862922898d02cdfe97d8168372dfa5de454d035f697163735ee3356"
+  "hash": "a328cf6b8862922898d02cdfe97d8168372dfa5de454d035f697163735ee3356",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a diagnostic assessment related to a withdrawal response, not the reflex itself; the definition shifts the sense from 'assessment of an involuntary response' to the response/reflex. ",
+        "The term is placed in the cognition field, but the packet describes a Diagnostic Procedure ('Nociceptive Reflex Assessment'), so the field/sense pairing is not well supported."
+      ],
+      "definition_hash": "89c6c8e99e2001b9115472ae215d21c38c16ffbc322b84c2c225acd60eb653d8",
+      "packet_hash": "2773fd1d3188e23c77c59719d9ba0623a7a99b99ee1e0c55b7c74d39319698fd",
+      "published_packet_hash": "2773fd1d3188e23c77c59719d9ba0623a7a99b99ee1e0c55b7c74d39319698fd",
+      "receipt_id": "5af754cd7f294851b44ff8e441664054",
+      "request_hash": "27eded1712145c270299534b1a6d156e2cce19a18a48dc75ae1321f5e941223a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet characterizes “withdrawal reflex” as an **assessment** (“An assessment of an involuntary response…”; semantic type: “Diagnostic Procedure”), while the provided field is **cognition**, which is not supported by the packet."
+      ],
+      "definition_hash": "89c6c8e99e2001b9115472ae215d21c38c16ffbc322b84c2c225acd60eb653d8",
+      "packet_hash": "2773fd1d3188e23c77c59719d9ba0623a7a99b99ee1e0c55b7c74d39319698fd",
+      "published_packet_hash": "2773fd1d3188e23c77c59719d9ba0623a7a99b99ee1e0c55b7c74d39319698fd",
+      "receipt_id": "a7047cd56aba43d4a872043b41cde87e",
+      "request_hash": "a9b88deabb5df843fd459068b6b6bad02acb2984242d63ba6f000fb1feac2c3b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

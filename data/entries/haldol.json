@@ -27,5 +27,34 @@
     "definition_hash": "a2d3f322a1bce4c22a549fe7f2f58a9a21669a0df3bb03cf81ff24210d9786c8",
     "packet_hash": "afbc83d846d6b0797ca6f6a9ebddb716c35f362ce0e72db6360c1bf002bea29e"
   },
-  "hash": "b13e0e69829fbce08fa0e60c08d6b76c16b283ae01c9fd5c311ee99f00545a68"
+  "hash": "b13e0e69829fbce08fa0e60c08d6b76c16b283ae01c9fd5c311ee99f00545a68",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a2d3f322a1bce4c22a549fe7f2f58a9a21669a0df3bb03cf81ff24210d9786c8",
+      "packet_hash": "afbc83d846d6b0797ca6f6a9ebddb716c35f362ce0e72db6360c1bf002bea29e",
+      "published_packet_hash": "afbc83d846d6b0797ca6f6a9ebddb716c35f362ce0e72db6360c1bf002bea29e",
+      "receipt_id": "72af819d907d4d9eaf05b9515d26e112",
+      "request_hash": "d85ace8833455e48b7ce463dd75602d416166d51d646e41f0318d9136cc027db",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “Haldol is haloperidol,” but the provided packet does not explicitly indicate that Haldol is synonymous with haloperidol; it only presents a descriptor record for “Haldol” with the text describing haloperidol’s properties.",
+        "“Works by blocking dopamine D2 receptors… in the brain” is partially supported (competitive blockade of postsynaptic dopamine D2 receptors in the mesolimbic system is stated), but the definition generalizes to “in the brain” without the packet’s more specific anatomical location (mesolimbic; CTZ for antiemetic)."
+      ],
+      "definition_hash": "a2d3f322a1bce4c22a549fe7f2f58a9a21669a0df3bb03cf81ff24210d9786c8",
+      "packet_hash": "afbc83d846d6b0797ca6f6a9ebddb716c35f362ce0e72db6360c1bf002bea29e",
+      "published_packet_hash": "afbc83d846d6b0797ca6f6a9ebddb716c35f362ce0e72db6360c1bf002bea29e",
+      "receipt_id": "06d423622cc443ceb21baed03a9bccb7",
+      "request_hash": "ec3a1bd31990018777747c50ba2bf6782c7d9dd6efec5263e0b247731c0830ff",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

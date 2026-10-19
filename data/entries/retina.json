@@ -27,5 +27,34 @@
     "definition_hash": "e7b6b1f4cbe6bb551a39a15913e2b304b7a07a91382faf27ae889760a0ce7633",
     "packet_hash": "2adc2c8c24875410fd1da647112f652342fda8f96b53c9d459da5a4999ab0d01"
   },
-  "hash": "8dbdc0fb7a1b4c0aa206d596a7b7cf7df0ac996d7546ff5498bde889686578c5"
+  "hash": "8dbdc0fb7a1b4c0aa206d596a7b7cf7df0ac996d7546ff5498bde889686578c5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e7b6b1f4cbe6bb551a39a15913e2b304b7a07a91382faf27ae889760a0ce7633",
+      "packet_hash": "2adc2c8c24875410fd1da647112f652342fda8f96b53c9d459da5a4999ab0d01",
+      "published_packet_hash": "2adc2c8c24875410fd1da647112f652342fda8f96b53c9d459da5a4999ab0d01",
+      "receipt_id": "c8c4a9fd89a344fabb1069ab0f14ff7e",
+      "request_hash": "675bda6f6368f1a8aae9f847384fa4aeae9529a5e76dec3da8efabda96aac9b0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the retina is “light-sensitive,” but the supplied packet text does not state or describe light-sensitivity.",
+        "All other claims (lining inside of eye, continuity with optic nerve, receiving images and transmitting visual impulses to the brain) are supported by the packet, but the unsupported “light-sensitive” claim is substantive."
+      ],
+      "definition_hash": "e7b6b1f4cbe6bb551a39a15913e2b304b7a07a91382faf27ae889760a0ce7633",
+      "packet_hash": "2adc2c8c24875410fd1da647112f652342fda8f96b53c9d459da5a4999ab0d01",
+      "published_packet_hash": "2adc2c8c24875410fd1da647112f652342fda8f96b53c9d459da5a4999ab0d01",
+      "receipt_id": "a4089a7f3cc748979561a720ec693bc7",
+      "request_hash": "3314ce15adb3abe77a5d975977a2e391e2e1d2fae67763210f7c52c9de428a64",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

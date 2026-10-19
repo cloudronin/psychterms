@@ -27,5 +27,37 @@
     "definition_hash": "4781d45e55e0189abda72bb602c8059679de96719029c954203a5ac7080a795b",
     "packet_hash": "84a66df664cb94e7160cd7a9151b8868ae3014d9efd9e3f709cbde576779b8f8"
   },
-  "hash": "6741bf33177f528f75d36dde0ace730d8539a22303a2d78cfe6508149698facb"
+  "hash": "6741bf33177f528f75d36dde0ace730d8539a22303a2d78cfe6508149698facb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “transection or severing of an axon” but does not explicitly support describing an axon as “the long fiber of a nerve cell.”",
+        "The packet does not explicitly state that axotomy “creates loss of nerve input”; it only says it is a “type of denervation,” which is related but not the same exact claim.",
+        "Because of these unsupported added descriptions, the provided definition is not fully supported by the supplied packet."
+      ],
+      "definition_hash": "4781d45e55e0189abda72bb602c8059679de96719029c954203a5ac7080a795b",
+      "packet_hash": "84a66df664cb94e7160cd7a9151b8868ae3014d9efd9e3f709cbde576779b8f8",
+      "published_packet_hash": "84a66df664cb94e7160cd7a9151b8868ae3014d9efd9e3f709cbde576779b8f8",
+      "receipt_id": "6a898e19d15043859e3ade4c588878a0",
+      "request_hash": "d95f28f7f6fdb40718a40419cab2ee184f92cac617bc702932353b68be79cb88",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds the unsupported claim that axotomy “creates loss of nerve input”; the packet only states that it is transection or severing of an axon and that this type of denervation is used in experimental studies."
+      ],
+      "definition_hash": "4781d45e55e0189abda72bb602c8059679de96719029c954203a5ac7080a795b",
+      "packet_hash": "84a66df664cb94e7160cd7a9151b8868ae3014d9efd9e3f709cbde576779b8f8",
+      "published_packet_hash": "84a66df664cb94e7160cd7a9151b8868ae3014d9efd9e3f709cbde576779b8f8",
+      "receipt_id": "cdaf77b33d534bf7b3958e963b469e46",
+      "request_hash": "58196b1a24e81e69259f17c93b0933b867629d29a54951450881882f0c22190a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

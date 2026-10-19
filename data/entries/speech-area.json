@@ -27,5 +27,39 @@
     "definition_hash": "b5ea11b847498dcb4dcdd493492a6a0a7f7fe9e4d398e54749f112b68fd4da7f",
     "packet_hash": "d061363fd9937ae7d95f3568a373685378e106541b19e591a0c965ed124fd00e"
   },
-  "hash": "0d4bcd9177391e94003aa8feb03b2d1e4fbba53aeac113a3e931bc426b6cfd16"
+  "hash": "0d4bcd9177391e94003aa8feb03b2d1e4fbba53aeac113a3e931bc426b6cfd16",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define the term \"speech area\" as an entry; it only mentions the \"motor speech area\" within the separate article on recurring utterances.",
+        "The definition adds an unsupported gloss by treating \"speech area\" as a general brain region concerned with producing speech; the source only says the lesion involves the motor speech area of the left side and discusses recurring utterances in motor aphasia.",
+        "The wording \"disease may impair voluntary speech and lead to repeated utterances\" goes beyond the source’s phrasing and blends multiple points into a broader clinical summary not presented as such in the historical text."
+      ],
+      "definition_hash": "b5ea11b847498dcb4dcdd493492a6a0a7f7fe9e4d398e54749f112b68fd4da7f",
+      "packet_hash": "d061363fd9937ae7d95f3568a373685378e106541b19e591a0c965ed124fd00e",
+      "published_packet_hash": "d061363fd9937ae7d95f3568a373685378e106541b19e591a0c965ed124fd00e",
+      "receipt_id": "2e592e969b9b44b3a17250de6c81a3b9",
+      "request_hash": "c4bf05463bc1eb98001485e1e9f1ed915ccd56f17039d43fda03714da47e5489",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not contain an explicit definition for the term “speech area.” It only mentions “the motor speech area of the left side” within a section explaining “recurrent utterances.”",
+        "The claim that “speech area” means “the brain region concerned with producing speech” is not stated directly in the packet; it is inferred from the phrase “motor speech area,” so it is not fully supportable as written.",
+        "Because the packet lacks a direct “speech area” entry, the definition’s framing as the meaning of the term (not merely one referenced aspect) is not defensible from the supplied text."
+      ],
+      "definition_hash": "b5ea11b847498dcb4dcdd493492a6a0a7f7fe9e4d398e54749f112b68fd4da7f",
+      "packet_hash": "d061363fd9937ae7d95f3568a373685378e106541b19e591a0c965ed124fd00e",
+      "published_packet_hash": "d061363fd9937ae7d95f3568a373685378e106541b19e591a0c965ed124fd00e",
+      "receipt_id": "e142f908aaf1447fac5d4acf1e024e2b",
+      "request_hash": "436306f017ce66a4d59ddd93f5bc59f0a7919c6786efebe27d6f8c85e13a4012",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "45eb8d91d4dc0da420a4f246e24024ad03b3f1606400f3e7a14a3e897e971a7f",
     "packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933"
   },
-  "hash": "2ae71eff1cb63831063339b81ca4a94642a87e67d846c88f08078bbb14752848"
+  "hash": "2ae71eff1cb63831063339b81ca4a94642a87e67d846c88f08078bbb14752848",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "45eb8d91d4dc0da420a4f246e24024ad03b3f1606400f3e7a14a3e897e971a7f",
+      "packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933",
+      "published_packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933",
+      "receipt_id": "022b5c7a5458428faa13a2af44a1300d",
+      "request_hash": "6ad2c867dabc3e1362b95c195801b89aa0d22d5f10c0f3bd92fc3b2eabc20062",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the supplied packet defines hyperhidrosis as “excessive sweating” with physical triggers/causes (localized emotional cause; generalized environmental/fever/exercise triggers), and nothing in the packet supports treating this as a cognition-related term.",
+        "While the content of the definition is supported by the packet, the requested field (“cognition”) is not defensible from the provided source."
+      ],
+      "definition_hash": "45eb8d91d4dc0da420a4f246e24024ad03b3f1606400f3e7a14a3e897e971a7f",
+      "packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933",
+      "published_packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933",
+      "receipt_id": "0c93483d62b741cda6fb8fbb158e7b18",
+      "request_hash": "49a74c04ec37aec81532bd87504d062ea0f8b1e4817112764859a5e08d7280e0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "7d0cca2044f332483e9442437bd3bf111df80f3ab6bb3074ecb44f3e09107197",
     "packet_hash": "408aa33bbb75af0d656ca3a8f82a85d2b25321e18d34e07e9a8ff4dd87d12381"
   },
-  "hash": "608d8b10a7709ed3ef6473cc19cbcd58f509279edfb137b88eac8651937f96c1"
+  "hash": "608d8b10a7709ed3ef6473cc19cbcd58f509279edfb137b88eac8651937f96c1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7d0cca2044f332483e9442437bd3bf111df80f3ab6bb3074ecb44f3e09107197",
+      "packet_hash": "408aa33bbb75af0d656ca3a8f82a85d2b25321e18d34e07e9a8ff4dd87d12381",
+      "published_packet_hash": "408aa33bbb75af0d656ca3a8f82a85d2b25321e18d34e07e9a8ff4dd87d12381",
+      "receipt_id": "6d92805bee0d490ea5e392119bcc7396",
+      "request_hash": "13d4736c92686da9c6aabf3169078306ca4f6b4da1edb0424338a9c3db288335",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the descriptor concept of drug-induced abnormal movements and specifically mentions tardive dyskinesia, but it does not support defining the standalone term “tardive” itself as these movements.",
+        "The definition broadens the source by presenting the term as a general condition and by adding “involuntary” and other wording not stated in the packet as the definition of “tardive.”"
+      ],
+      "definition_hash": "7d0cca2044f332483e9442437bd3bf111df80f3ab6bb3074ecb44f3e09107197",
+      "packet_hash": "408aa33bbb75af0d656ca3a8f82a85d2b25321e18d34e07e9a8ff4dd87d12381",
+      "published_packet_hash": "408aa33bbb75af0d656ca3a8f82a85d2b25321e18d34e07e9a8ff4dd87d12381",
+      "receipt_id": "f799aa7b45684b8fbf9699e3d8837212",
+      "request_hash": "76319d8881c94f74c4ced0e95b48a772a76d141a0101c238d2982c8ae24b694b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

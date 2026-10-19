@@ -27,5 +27,34 @@
     "definition_hash": "b7b02ba460a718a9baedb779874791762ce12dad2133e1f48ae5dd2152b3c4bb",
     "packet_hash": "dbadc95a57bc783c620ed7b0c1596de6ae8585864d89f48fbc2d2d1eb4d9a227"
   },
-  "hash": "9f3c0fb68e06c4bc1874231f28721681f162abb4c80bb23535527c3c89c4fef9"
+  "hash": "9f3c0fb68e06c4bc1874231f28721681f162abb4c80bb23535527c3c89c4fef9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b7b02ba460a718a9baedb779874791762ce12dad2133e1f48ae5dd2152b3c4bb",
+      "packet_hash": "dbadc95a57bc783c620ed7b0c1596de6ae8585864d89f48fbc2d2d1eb4d9a227",
+      "published_packet_hash": "dbadc95a57bc783c620ed7b0c1596de6ae8585864d89f48fbc2d2d1eb4d9a227",
+      "receipt_id": "415317ba19654b2b9acbbd762d9c350b",
+      "request_hash": "ddfb564dc47812549c79e2138377421a0acda271c946d8090111851404bf5f25",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence adds vertigo, which is not named in the packet; the packet mentions benign paroxysmal positional vertigo, not vertigo as a general linked disorder.",
+        "The definition is otherwise close, but it should not broaden the packet’s disease examples beyond those explicitly listed."
+      ],
+      "definition_hash": "b7b02ba460a718a9baedb779874791762ce12dad2133e1f48ae5dd2152b3c4bb",
+      "packet_hash": "dbadc95a57bc783c620ed7b0c1596de6ae8585864d89f48fbc2d2d1eb4d9a227",
+      "published_packet_hash": "dbadc95a57bc783c620ed7b0c1596de6ae8585864d89f48fbc2d2d1eb4d9a227",
+      "receipt_id": "aafbd3834d4e49dcb4e7e7fd803b794b",
+      "request_hash": "ba4d82abf70e0b59fc6a50f73d6c6a0d3776e0cc64e28eda530a1934f51e2cdf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

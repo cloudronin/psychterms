@@ -27,5 +27,34 @@
     "definition_hash": "dabb6c787efb3f0050440baa43ac13aa8d31d243ca78273f410aa3ea16040824",
     "packet_hash": "3fac63430bf74d9013880a6ac85c791e289677d359567b4b3f18f5782ac6f785"
   },
-  "hash": "5053655b041b2360dda8ad2f3017ddb22a9b6684cc66942f43c0a0fbbeb27a9a"
+  "hash": "5053655b041b2360dda8ad2f3017ddb22a9b6684cc66942f43c0a0fbbeb27a9a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dabb6c787efb3f0050440baa43ac13aa8d31d243ca78273f410aa3ea16040824",
+      "packet_hash": "3fac63430bf74d9013880a6ac85c791e289677d359567b4b3f18f5782ac6f785",
+      "published_packet_hash": "3fac63430bf74d9013880a6ac85c791e289677d359567b4b3f18f5782ac6f785",
+      "receipt_id": "e682d7f717ac4530abf86bf218885231",
+      "request_hash": "b559f540659967a8b079dbbd532a20ae2899dc3bc5de1c08aa337c22a0ed8682",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s provided descriptor text is labeled “Cerebral Aqueduct” and does not mention “Sylvian aqueduct,” so the definition’s requested term/sense (“Sylvian aqueduct”) is not directly supported by the packet.",
+        "While the anatomical description matches (narrow channel in the mesencephalon/midbrain connecting the third and fourth ventricles), the equivalence implied between “Sylvian aqueduct” and the packet’s “Cerebral Aqueduct” is not established in the supplied packet."
+      ],
+      "definition_hash": "dabb6c787efb3f0050440baa43ac13aa8d31d243ca78273f410aa3ea16040824",
+      "packet_hash": "3fac63430bf74d9013880a6ac85c791e289677d359567b4b3f18f5782ac6f785",
+      "published_packet_hash": "3fac63430bf74d9013880a6ac85c791e289677d359567b4b3f18f5782ac6f785",
+      "receipt_id": "ad0cdcf047344b11a4af17fc23dd8ad6",
+      "request_hash": "7874a86fa70ae5af78ab399eeadaf71eab10cb5ca5256e48e9ddafccaa619e6f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

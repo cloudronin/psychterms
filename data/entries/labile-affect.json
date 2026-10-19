@@ -27,5 +27,34 @@
     "definition_hash": "c91216d6b6b00b70be8e72adf9af54e234ae05cbebc9b09be8e65a118ab5f08a",
     "packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d"
   },
-  "hash": "f9d58be4a04d727ce849e5e4632b865b7b1e5e81695cd50753e77cbcdc92f5cd"
+  "hash": "f9d58be4a04d727ce849e5e4632b865b7b1e5e81695cd50753e77cbcdc92f5cd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c91216d6b6b00b70be8e72adf9af54e234ae05cbebc9b09be8e65a118ab5f08a",
+      "packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d",
+      "published_packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d",
+      "receipt_id": "15e10706981a43ee8e74196bf2f4dc55",
+      "request_hash": "b58abeb7ac12b84a92ad26d76b31b8098c1317b88cb42d9e6c9cca10e8225c05",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is “cognition,” but the packet describes “emotional instability”/“mood swings” and does not support a cognition-specific sense for “labile affect.”",
+        "While the substance of the definition matches the packet, the field assignment to cognition is not defensibly supported by the provided packet content."
+      ],
+      "definition_hash": "c91216d6b6b00b70be8e72adf9af54e234ae05cbebc9b09be8e65a118ab5f08a",
+      "packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d",
+      "published_packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d",
+      "receipt_id": "c4367b393122410b9868bac29eaacf80",
+      "request_hash": "ec258f5bb4f983267a0aa0dc2cc8b5c429c45b05d2667542dd7160b490b8bad4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

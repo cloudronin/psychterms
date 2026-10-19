@@ -27,5 +27,34 @@
     "definition_hash": "aea87fdce980d0693a0363c61a66006c97e4d65f73d6a64e7b265bd8beaac7bd",
     "packet_hash": "d66dcbd362042ee151dc022f54f35bf8499b11483c11e9876cd8f830ca4c78bd"
   },
-  "hash": "9ff3fa07003a31a4b5d8510e73e461ff12f07e68354dfd01b56104f462cbdf72"
+  "hash": "9ff3fa07003a31a4b5d8510e73e461ff12f07e68354dfd01b56104f462cbdf72",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aea87fdce980d0693a0363c61a66006c97e4d65f73d6a64e7b265bd8beaac7bd",
+      "packet_hash": "d66dcbd362042ee151dc022f54f35bf8499b11483c11e9876cd8f830ca4c78bd",
+      "published_packet_hash": "d66dcbd362042ee151dc022f54f35bf8499b11483c11e9876cd8f830ca4c78bd",
+      "receipt_id": "c24ccd4c9c364d2abae78ef780ef2f71",
+      "request_hash": "f1f73290d63a62b923c451d8b80e9d54db22884f354181901297aa6bb82436ba",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “front division of the developing forebrain,” but the packet specifies “anterior subdivision of the embryonic PROSENCEPHALON,” not the forebrain generally.",
+        "Because “forebrain” vs “prosencephalon” is not an explicitly supported equivalence in the packet, the requested sense is not fully supported."
+      ],
+      "definition_hash": "aea87fdce980d0693a0363c61a66006c97e4d65f73d6a64e7b265bd8beaac7bd",
+      "packet_hash": "d66dcbd362042ee151dc022f54f35bf8499b11483c11e9876cd8f830ca4c78bd",
+      "published_packet_hash": "d66dcbd362042ee151dc022f54f35bf8499b11483c11e9876cd8f830ca4c78bd",
+      "receipt_id": "3d2ff75f9f9a420dbba18a61e39029aa",
+      "request_hash": "a1e55be213a851945cb93596d111af3cf9e2e5968edba7a17a89a68968953117",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

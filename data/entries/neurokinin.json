@@ -27,5 +27,34 @@
     "definition_hash": "a859f9d77362a9a218163eb08d9c4fbbf45ad52516630b3b9c5279da9aa5d977",
     "packet_hash": "c1f5c39e947868b7e26c3efd59bbea3c0b8bf23c5cb30d85343cf0158a540858"
   },
-  "hash": "c925b5f00e5439eec87445bcb68e83ced6c16514e4c5a5a4880c2e0a47e19095"
+  "hash": "c925b5f00e5439eec87445bcb68e83ced6c16514e4c5a5a4880c2e0a47e19095",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a859f9d77362a9a218163eb08d9c4fbbf45ad52516630b3b9c5279da9aa5d977",
+      "packet_hash": "c1f5c39e947868b7e26c3efd59bbea3c0b8bf23c5cb30d85343cf0158a540858",
+      "published_packet_hash": "c1f5c39e947868b7e26c3efd59bbea3c0b8bf23c5cb30d85343cf0158a540858",
+      "receipt_id": "38b9f6c360c142d79b289bc3891a4e81",
+      "request_hash": "a653008b32db5cf002e406964c21f0a13d20fb3e0aba897cca0ba760b2595f7e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s source label is Neurokinin B, so the definition’s unqualified term “neurokinin” appears to use the wrong sense/name.",
+        "The definition is acceptable in content for the packet text, but the requested term is not supported as written because the packet is specifically about the B form rather than the generic term."
+      ],
+      "definition_hash": "a859f9d77362a9a218163eb08d9c4fbbf45ad52516630b3b9c5279da9aa5d977",
+      "packet_hash": "c1f5c39e947868b7e26c3efd59bbea3c0b8bf23c5cb30d85343cf0158a540858",
+      "published_packet_hash": "c1f5c39e947868b7e26c3efd59bbea3c0b8bf23c5cb30d85343cf0158a540858",
+      "receipt_id": "eb317f159746439e8202d0e0f545d011",
+      "request_hash": "a5ab1e420005b638359526d7ecc20bf38e5a33317aacb214372a4729e8f82ba3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

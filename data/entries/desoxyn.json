@@ -27,5 +27,36 @@
     "definition_hash": "e3d0c4a78050e42a418cb79a61b047684168b76d79828deabdd0829c82644441",
     "packet_hash": "9719c3f5b7236a2d9a478d5a342203c7b57e118aed36552bb502e917cf6c4725"
   },
-  "hash": "ee686b0a35ba252bf2f21eda6402061496f5ee7ef24e0bf225e117f1152369d0"
+  "hash": "ee686b0a35ba252bf2f21eda6402061496f5ee7ef24e0bf225e117f1152369d0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet identifies Desoxyn as methamphetamine hydrochloride, not as a brand name; the opening clause is unsupported and appears to use the wrong sense.",
+        "The definition should not add an unsupported naming/brand claim when the packet only supports the substance and its pharmacologic effects."
+      ],
+      "definition_hash": "e3d0c4a78050e42a418cb79a61b047684168b76d79828deabdd0829c82644441",
+      "packet_hash": "9719c3f5b7236a2d9a478d5a342203c7b57e118aed36552bb502e917cf6c4725",
+      "published_packet_hash": "9719c3f5b7236a2d9a478d5a342203c7b57e118aed36552bb502e917cf6c4725",
+      "receipt_id": "b56e9b85edc64d1c915b28b2df8eefe0",
+      "request_hash": "13f31b636c94f8b50854a211adb61918560c95a942506e88ab9e7c52d1de144e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “Desoxyn is a brand name for methamphetamine hydrochloride,” but the packet text provided only describes methamphetamine hydrochloride itself (its CNS stimulating properties and mechanism) and does not explicitly support the “Desoxyn” branding claim."
+      ],
+      "definition_hash": "e3d0c4a78050e42a418cb79a61b047684168b76d79828deabdd0829c82644441",
+      "packet_hash": "9719c3f5b7236a2d9a478d5a342203c7b57e118aed36552bb502e917cf6c4725",
+      "published_packet_hash": "9719c3f5b7236a2d9a478d5a342203c7b57e118aed36552bb502e917cf6c4725",
+      "receipt_id": "57e0c0efd4c34aabb3653ac6f439e33f",
+      "request_hash": "d77769d525edb29527aa75eaa5c52b7916fbd74f72b01b7fa2e975dff236106b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

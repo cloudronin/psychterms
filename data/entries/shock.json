@@ -27,5 +27,37 @@
     "definition_hash": "4a77a5a6d6b07b445d7a6eaa2ef477d9fc4e354937d7db8abcf23b9c1c84efd7",
     "packet_hash": "c9e779e7fa096dae657c0e9e1e351fd22feced31f8662cbad7a51f5609dd07bc"
   },
-  "hash": "15b4f559ef88e900e0c501478f4516d1b01620f551d5c6afb5625df73c5afed6"
+  "hash": "15b4f559ef88e900e0c501478f4516d1b01620f551d5c6afb5625df73c5afed6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet defines “shock” as an acute life-threatening *medical* condition characterized by reduced blood flow and immediate medical intervention; it does not establish any relevance or use specifically within mental health.",
+        "The definition’s mental-health field assignment is not supported by the packet, which contains no mental-health context or psychological/counselling meaning for “shock.”"
+      ],
+      "definition_hash": "4a77a5a6d6b07b445d7a6eaa2ef477d9fc4e354937d7db8abcf23b9c1c84efd7",
+      "packet_hash": "c9e779e7fa096dae657c0e9e1e351fd22feced31f8662cbad7a51f5609dd07bc",
+      "published_packet_hash": "c9e779e7fa096dae657c0e9e1e351fd22feced31f8662cbad7a51f5609dd07bc",
+      "receipt_id": "42e714011ce14225a07b38c3f2040ddf",
+      "request_hash": "0b5abca94cc3f2bcc1819b57a8318afe67e98bf621cc0b1ebcc9501e13464e67",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is an NCIt medical descriptor for shock, not a psychology/counselling sense.",
+        "The definition is about acute medical shock, so it does not match the stated mental health field."
+      ],
+      "definition_hash": "4a77a5a6d6b07b445d7a6eaa2ef477d9fc4e354937d7db8abcf23b9c1c84efd7",
+      "packet_hash": "c9e779e7fa096dae657c0e9e1e351fd22feced31f8662cbad7a51f5609dd07bc",
+      "published_packet_hash": "c9e779e7fa096dae657c0e9e1e351fd22feced31f8662cbad7a51f5609dd07bc",
+      "receipt_id": "e66b59de93134b0b84f9ad174f9ca9a5",
+      "request_hash": "ad4ec9de41cb63220ec7dab7847722f1f104ad3484a9df18391279fa99168980",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

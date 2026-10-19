@@ -27,5 +27,35 @@
     "definition_hash": "3af64a0bd5bd0b90eb44c7196b5028017688bde68869360ed086d33ad8999bae",
     "packet_hash": "7b92bfa0c3e1b69d98d9537357e48cce1f037f0d8b12406fe01750b3b343182c"
   },
-  "hash": "13b5e3b3a706226934f7b7e3ff625100a8d7ecb25ccb640f289d53ada40faca2"
+  "hash": "13b5e3b3a706226934f7b7e3ff625100a8d7ecb25ccb640f289d53ada40faca2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the EPSP is a “brief” depolarizing change, but the provided packet does not describe EPSPs as brief."
+      ],
+      "definition_hash": "3af64a0bd5bd0b90eb44c7196b5028017688bde68869360ed086d33ad8999bae",
+      "packet_hash": "7b92bfa0c3e1b69d98d9537357e48cce1f037f0d8b12406fe01750b3b343182c",
+      "published_packet_hash": "7b92bfa0c3e1b69d98d9537357e48cce1f037f0d8b12406fe01750b3b343182c",
+      "receipt_id": "b79abbf1b62d490fa1eb9dd97784bc47",
+      "request_hash": "9f98562ed30b33135e0fe92dcb4965a24493bac2db57373601b321bd079dd200",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that an EPSP is “brief,” but the supplied source only supports depolarization of synaptic membrane potentials during neurotransmission and does not state duration."
+      ],
+      "definition_hash": "3af64a0bd5bd0b90eb44c7196b5028017688bde68869360ed086d33ad8999bae",
+      "packet_hash": "7b92bfa0c3e1b69d98d9537357e48cce1f037f0d8b12406fe01750b3b343182c",
+      "published_packet_hash": "7b92bfa0c3e1b69d98d9537357e48cce1f037f0d8b12406fe01750b3b343182c",
+      "receipt_id": "43b6bedf4be345eb8719de1d2b134a2b",
+      "request_hash": "0174cb6091c364bc7ade38a520096351caf25412411d9f27343c96861313dc82",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

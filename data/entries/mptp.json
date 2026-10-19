@@ -27,5 +27,33 @@
     "definition_hash": "fecbd08e52d76819c2396d0443321f0d92457a658c85b93353b895559dd0f4c1",
     "packet_hash": "a77a1ac7e380bb293989f63392db1072a131e21c349c57ec0081691b0ed788a1"
   },
-  "hash": "6534a0338a50cba78bf7731aae030c592050f4670b789e485eb473ea67dbd75c"
+  "hash": "6534a0338a50cba78bf7731aae030c592050f4670b789e485eb473ea67dbd75c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fecbd08e52d76819c2396d0443321f0d92457a658c85b93353b895559dd0f4c1",
+      "packet_hash": "a77a1ac7e380bb293989f63392db1072a131e21c349c57ec0081691b0ed788a1",
+      "published_packet_hash": "a77a1ac7e380bb293989f63392db1072a131e21c349c57ec0081691b0ed788a1",
+      "receipt_id": "a580a287eb0d43ab8518b15c0a03b15c",
+      "request_hash": "b1cd1100fe303e7b74b91f1696924dea9e763615fdd549c7912e6eb62ce3cec8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “tissue changes,” but the packet only describes “pathological alterations” and does not explicitly mention tissue changes."
+      ],
+      "definition_hash": "fecbd08e52d76819c2396d0443321f0d92457a658c85b93353b895559dd0f4c1",
+      "packet_hash": "a77a1ac7e380bb293989f63392db1072a131e21c349c57ec0081691b0ed788a1",
+      "published_packet_hash": "a77a1ac7e380bb293989f63392db1072a131e21c349c57ec0081691b0ed788a1",
+      "receipt_id": "e5d5ed1828814ef48652ce1207d5ebe0",
+      "request_hash": "fc894e7b26cb65131104197a0735a51b660973b72627d33fd66a98ef26013924",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

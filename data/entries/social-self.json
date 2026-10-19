@@ -27,5 +27,35 @@
     "definition_hash": "b3a0c77d0b063e064a390169bf42f7e0f695cda6f849722e1310f69e6ccf6649",
     "packet_hash": "e11809d7b232ab1fb7ec39f655c3cb996130b7849d8006efb6d85fb0aaf66814"
   },
-  "hash": "224a2208759b72b7234b11e62913138e098e9f15499c4ddb4510fde2f6c92f78"
+  "hash": "224a2208759b72b7234b11e62913138e098e9f15499c4ddb4510fde2f6c92f78",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b3a0c77d0b063e064a390169bf42f7e0f695cda6f849722e1310f69e6ccf6649",
+      "packet_hash": "e11809d7b232ab1fb7ec39f655c3cb996130b7849d8006efb6d85fb0aaf66814",
+      "published_packet_hash": "e11809d7b232ab1fb7ec39f655c3cb996130b7849d8006efb6d85fb0aaf66814",
+      "receipt_id": "8466db93bb024b1b8d6a349731a05eb3",
+      "request_hash": "fd98de0a59351df66ff8df8f9883fa9988b3336cc046a87ca9319f04f45e9bd6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition presents “social self” as a general concept (“the self as formed by social influence and the surrounding environment”), but the packet uses the phrase only in the context of conscience (“so that conscience becomes not merely a social self, but an ideal self”).",
+        "The second sentence adds “responses to others,” while the packet specifically describes an “emotional and active response to surrounding conditions” (it does not explicitly say “to others”).",
+        "Because the packet does not support the term as an unrestricted definition of “the self,” the proposed sense is broader than what the supplied source text supports."
+      ],
+      "definition_hash": "b3a0c77d0b063e064a390169bf42f7e0f695cda6f849722e1310f69e6ccf6649",
+      "packet_hash": "e11809d7b232ab1fb7ec39f655c3cb996130b7849d8006efb6d85fb0aaf66814",
+      "published_packet_hash": "e11809d7b232ab1fb7ec39f655c3cb996130b7849d8006efb6d85fb0aaf66814",
+      "receipt_id": "d2252018f14645c19ce1e2adecc9e52f",
+      "request_hash": "71f0e0ac2e0d3858d7d0a74fea23f9d12ed208ea308aed47c951f2280d446ecf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

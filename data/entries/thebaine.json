@@ -27,5 +27,34 @@
     "definition_hash": "b2d6146480bd1b420f6c5d1ad8ec9d7d573c2afd8796fa2910de56a479b35491",
     "packet_hash": "1d88f405fd1d46b35ecb5e4113d9899634368b9c6a135cdc1aec95dde98cf9c6"
   },
-  "hash": "bf9c2f803cf041d92d17db24a1bcc7e761f06f09b4eb00e6177883e7d56b9482"
+  "hash": "bf9c2f803cf041d92d17db24a1bcc7e761f06f09b4eb00e6177883e7d56b9482",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b2d6146480bd1b420f6c5d1ad8ec9d7d573c2afd8796fa2910de56a479b35491",
+      "packet_hash": "1d88f405fd1d46b35ecb5e4113d9899634368b9c6a135cdc1aec95dde98cf9c6",
+      "published_packet_hash": "1d88f405fd1d46b35ecb5e4113d9899634368b9c6a135cdc1aec95dde98cf9c6",
+      "receipt_id": "8f3fc8c94fea41a2af40c095b1343f06",
+      "request_hash": "b1b2d01a0bf182488be56480d9af0b10d50a25cc5ddbcbec8f7c685619256896",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: this is a drug/chemical descriptor, not a learning term.",
+        "“Unlike narcotic opiates” and “rather than sedation” go beyond the packet’s wording; the packet says it produces strychnine-like convulsions rather than narcosis, not that it is contrasted with narcotic opiates or sedation specifically."
+      ],
+      "definition_hash": "b2d6146480bd1b420f6c5d1ad8ec9d7d573c2afd8796fa2910de56a479b35491",
+      "packet_hash": "1d88f405fd1d46b35ecb5e4113d9899634368b9c6a135cdc1aec95dde98cf9c6",
+      "published_packet_hash": "1d88f405fd1d46b35ecb5e4113d9899634368b9c6a135cdc1aec95dde98cf9c6",
+      "receipt_id": "bf356a3667224bbd8f8a521af3df181a",
+      "request_hash": "e03e91a40592fbf8dc844d0158373a99db913f795cd76ec2e5f26e183ebb67b1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

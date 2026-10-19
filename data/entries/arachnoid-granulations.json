@@ -27,5 +27,37 @@
     "definition_hash": "e52f8150555b9c98c16cca757af4cb1fae093ed6dcb7ee6f128f87f0ceee1485",
     "packet_hash": "6219a8d5811f792cbb659391f3945577924fe023e0bb8c5a9baa70a29180e685"
   },
-  "hash": "f2faae75459b70d13c4c4269235d5250bcca16deec385c57a19a74f0a4856ea9"
+  "hash": "f2faae75459b70d13c4c4269235d5250bcca16deec385c57a19a74f0a4856ea9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text defines communicating hydrocephalus, not arachnoid granulations, so the requested sense of the term is mismatched.",
+        "The second sentence adds a causal explanation about impaired reabsorption leading to hydrocephalus; that content belongs to the packet’s disease entry rather than a definition of the term asked for."
+      ],
+      "definition_hash": "e52f8150555b9c98c16cca757af4cb1fae093ed6dcb7ee6f128f87f0ceee1485",
+      "packet_hash": "6219a8d5811f792cbb659391f3945577924fe023e0bb8c5a9baa70a29180e685",
+      "published_packet_hash": "6219a8d5811f792cbb659391f3945577924fe023e0bb8c5a9baa70a29180e685",
+      "receipt_id": "c4aa7609fd394777b44ecc06ddfff016",
+      "request_hash": "5f10b8412b47ed9920b13e5b0628e7aed250cd819153d8896e5dbccac71969d1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not state that impaired CSF reabsorption by arachnoid granulations leads to “communicating hydrocephalus”; it only describes an abnormal accumulation of CSF within the ventricles as a consequence of impaired reabsorption, while “communicating hydrocephalus” appears only as a source_label, not in the provided definition text.",
+        "Because the “communicating hydrocephalus” causal conclusion is not explicitly supported by the packet wording, the definition’s second sentence contains an unsupported substantive claim."
+      ],
+      "definition_hash": "e52f8150555b9c98c16cca757af4cb1fae093ed6dcb7ee6f128f87f0ceee1485",
+      "packet_hash": "6219a8d5811f792cbb659391f3945577924fe023e0bb8c5a9baa70a29180e685",
+      "published_packet_hash": "6219a8d5811f792cbb659391f3945577924fe023e0bb8c5a9baa70a29180e685",
+      "receipt_id": "ff75e829bae1455b8bd05cf49e1bd31a",
+      "request_hash": "51cf47e75b65c4f5c1c5b8af09e95d2ff6aa48e412a098acd1bc0ef16f62d478",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

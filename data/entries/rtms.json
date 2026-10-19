@@ -27,5 +27,34 @@
     "definition_hash": "b233e89d6efb1a6132d8c2ab0ea266242ca9534e222f5490402073b341738bec",
     "packet_hash": "816a19090d03453d91c67619b7a141f6806cb1e77cc25a1aa942bc4a460544d7"
   },
-  "hash": "a90347dad962cfd156380bc0aae16684b7e06ee74cf06180b687b25f732b3197"
+  "hash": "a90347dad962cfd156380bc0aae16684b7e06ee74cf06180b687b25f732b3197",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b233e89d6efb1a6132d8c2ab0ea266242ca9534e222f5490402073b341738bec",
+      "packet_hash": "816a19090d03453d91c67619b7a141f6806cb1e77cc25a1aa942bc4a460544d7",
+      "published_packet_hash": "816a19090d03453d91c67619b7a141f6806cb1e77cc25a1aa942bc4a460544d7",
+      "receipt_id": "d71aba5cf5dc48dd97efe03dbd76c127",
+      "request_hash": "888df8b718818205fc8ff6cca0b194317c5a3bbe5296a19544b29fadb83652de",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes rTMS as a “brain stimulation therapy” studied as a treatment (semantic type: “Therapeutic or Preventive Procedure”), whereas the definition is placed in the “diagnosis” field.",
+        "The definition frames “other mental health conditions,” but the packet only states “other disorders” (it does not explicitly restrict “other disorders” to mental health conditions)."
+      ],
+      "definition_hash": "b233e89d6efb1a6132d8c2ab0ea266242ca9534e222f5490402073b341738bec",
+      "packet_hash": "816a19090d03453d91c67619b7a141f6806cb1e77cc25a1aa942bc4a460544d7",
+      "published_packet_hash": "816a19090d03453d91c67619b7a141f6806cb1e77cc25a1aa942bc4a460544d7",
+      "receipt_id": "2d21454b50834ea9ac2a3b7d76d6c289",
+      "request_hash": "ba32acde720e3e044170505ee70650df95deb7cf9b1d71586fad27d6bc643205",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

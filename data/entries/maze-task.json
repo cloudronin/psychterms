@@ -27,5 +27,34 @@
     "definition_hash": "4714f546c7a84f1a8c0ce29281423faaed3ca5274c007de207ac0064ab1144dd",
     "packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b"
   },
-  "hash": "2c856cefc2ab25831d9be28a8c4e28250918bd50ae7f2965038022c0aadb29a2"
+  "hash": "2c856cefc2ab25831d9be28a8c4e28250918bd50ae7f2965038022c0aadb29a2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4714f546c7a84f1a8c0ce29281423faaed3ca5274c007de207ac0064ab1144dd",
+      "packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b",
+      "published_packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b",
+      "receipt_id": "1d3c7e9f0a9f4c8492478726e2f20fbf",
+      "request_hash": "d47137870bd803d5daa6bd397d65ec6c93b50a53a7ac66aa0131be85ee664dcf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states “ADAS-COG … Maze task/executive function: Summary score” and does not explicitly define the term as a “cognitive test item.”",
+        "While the packet links “maze task” with “executive function” and “summary score,” it does not explicitly support the phrasing that the task is “used to summarize executive function performance” or that it “refers to the score for how a person performs.”"
+      ],
+      "definition_hash": "4714f546c7a84f1a8c0ce29281423faaed3ca5274c007de207ac0064ab1144dd",
+      "packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b",
+      "published_packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b",
+      "receipt_id": "0b1a4a0bc7574a6da6b23388fb9a2a9b",
+      "request_hash": "14693b5a22232a29eb789a54c6548069a0fffc8decee6dd93c483d33ee01be0b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

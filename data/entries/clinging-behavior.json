@@ -27,5 +27,34 @@
     "definition_hash": "f7e927e3541971f12bcfeb92170c2e5f556bda5348b5cc8527b1f88a5e2a1043",
     "packet_hash": "59fd832ac4617cc3976b4f9f56da10dc9d7b3b6c89bd949fdd8886d679972329"
   },
-  "hash": "d0bc6faa045a4e50ef958ebc7f5aec558b98105b3e8e236a28cc13b9ed400446"
+  "hash": "d0bc6faa045a4e50ef958ebc7f5aec558b98105b3e8e236a28cc13b9ed400446",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f7e927e3541971f12bcfeb92170c2e5f556bda5348b5cc8527b1f88a5e2a1043",
+      "packet_hash": "59fd832ac4617cc3976b4f9f56da10dc9d7b3b6c89bd949fdd8886d679972329",
+      "published_packet_hash": "59fd832ac4617cc3976b4f9f56da10dc9d7b3b6c89bd949fdd8886d679972329",
+      "receipt_id": "750237a1634d420089c2ffef36e66b23",
+      "request_hash": "f262eea93d082dfe609df12e66311308beb9bc5da0cbe4b53402cc498706936b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s source label is Dependent Personality Disorder, not a standalone definition of clinging behavior, so the entry appears to use the wrong sense/term for the supplied source.",
+        "The definition treats clinging behavior as a defined diagnostic entity, but the packet only describes it as a behavior within dependent personality disorder; that relationship should not be presented as the term’s own definition without stronger support."
+      ],
+      "definition_hash": "f7e927e3541971f12bcfeb92170c2e5f556bda5348b5cc8527b1f88a5e2a1043",
+      "packet_hash": "59fd832ac4617cc3976b4f9f56da10dc9d7b3b6c89bd949fdd8886d679972329",
+      "published_packet_hash": "59fd832ac4617cc3976b4f9f56da10dc9d7b3b6c89bd949fdd8886d679972329",
+      "receipt_id": "4a59b38b93b440748b5d8e332ecb893b",
+      "request_hash": "85833450680314079844c122d0313811a7c3394664188b4b881bc78107f5ee5d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

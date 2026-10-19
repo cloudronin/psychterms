@@ -27,5 +27,33 @@
     "definition_hash": "1ec5e04b71b742723e932639bbfbbf4c0fd3acc9491637d25c121f2d2b64efe3",
     "packet_hash": "ddefdb4c682939c8fa03fd7cd8d0185a609fc76681bbfbbe36f39b1c8a7610da"
   },
-  "hash": "099c44147241a260a5c91599ec3b5703549ed262a5ae595a1ad4e855a2fbd101"
+  "hash": "099c44147241a260a5c91599ec3b5703549ed262a5ae595a1ad4e855a2fbd101",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1ec5e04b71b742723e932639bbfbbf4c0fd3acc9491637d25c121f2d2b64efe3",
+      "packet_hash": "ddefdb4c682939c8fa03fd7cd8d0185a609fc76681bbfbbe36f39b1c8a7610da",
+      "published_packet_hash": "ddefdb4c682939c8fa03fd7cd8d0185a609fc76681bbfbbe36f39b1c8a7610da",
+      "receipt_id": "b0f0b79131184a379e80d0d762522238",
+      "request_hash": "a69cf28a138d9911f678040b9e5d89c778a021ef12856332e368b7e68ef7fcab",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes “rather than by seeing it,” but the packet only describes perception via TOUCH and KINESTHESIS (tactile stimuli) and does not mention vision or contrast with seeing."
+      ],
+      "definition_hash": "1ec5e04b71b742723e932639bbfbbf4c0fd3acc9491637d25c121f2d2b64efe3",
+      "packet_hash": "ddefdb4c682939c8fa03fd7cd8d0185a609fc76681bbfbbe36f39b1c8a7610da",
+      "published_packet_hash": "ddefdb4c682939c8fa03fd7cd8d0185a609fc76681bbfbbe36f39b1c8a7610da",
+      "receipt_id": "7ab686a3ca5d46a085406d2bc2dcc060",
+      "request_hash": "1b6f9a34197a7871fcf32dee20a1d76cbc64f680ac72748a7748fe77f9fd1cf6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

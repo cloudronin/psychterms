@@ -27,5 +27,37 @@
     "definition_hash": "1e2466985a9565cb8982d933597d7119d458623fe945e026d9cfa42683cbb89d",
     "packet_hash": "adba023692d5e13c00688901c332521c3da8480fbed88b211f25dd4a78b337d8"
   },
-  "hash": "a07d9c4b441e297facb1f6804b3b4349b51b4d89d47e21cdc15450f1657a84cb"
+  "hash": "a07d9c4b441e297facb1f6804b3b4349b51b4d89d47e21cdc15450f1657a84cb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition does not match the supplied term: the packet is for acromegaly, not clinical neurology.",
+        "The definition is acceptable only as a description of acromegaly; it is not a definition of the requested term."
+      ],
+      "definition_hash": "1e2466985a9565cb8982d933597d7119d458623fe945e026d9cfa42683cbb89d",
+      "packet_hash": "adba023692d5e13c00688901c332521c3da8480fbed88b211f25dd4a78b337d8",
+      "published_packet_hash": "adba023692d5e13c00688901c332521c3da8480fbed88b211f25dd4a78b337d8",
+      "receipt_id": "8b30bf5c18ca41d59aaf30dc8c2bb1a0",
+      "request_hash": "10a10afc96ca5570ccf522e38ad7ad0ed3accdab61b1461643221e4b1edf15ec",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition describes **Acromegaly**, not “clinical neurology.”",
+        "The packet content is explicitly for “Acromegaly” (source_label: Acromegaly) and does not support that the term “clinical neurology” should be defined using this text."
+      ],
+      "definition_hash": "1e2466985a9565cb8982d933597d7119d458623fe945e026d9cfa42683cbb89d",
+      "packet_hash": "adba023692d5e13c00688901c332521c3da8480fbed88b211f25dd4a78b337d8",
+      "published_packet_hash": "adba023692d5e13c00688901c332521c3da8480fbed88b211f25dd4a78b337d8",
+      "receipt_id": "2dceff611a7d4f88841f2f15a85c7673",
+      "request_hash": "20f9cb0d27dc28e3cefe27b1db3626d41a4a8576dd59233504778dfcf51654ed",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "a584146b7316d845ac4ba6825a578327a855a3bc501b7414ae52bd93a5b58316",
     "packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985"
   },
-  "hash": "051cfd8c25d2f20fa828f6a0986c11f4feabb20356af53b94b37721f056996ee"
+  "hash": "051cfd8c25d2f20fa828f6a0986c11f4feabb20356af53b94b37721f056996ee",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a584146b7316d845ac4ba6825a578327a855a3bc501b7414ae52bd93a5b58316",
+      "packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985",
+      "published_packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985",
+      "receipt_id": "3211dc3e25da449aa4c444d4bb157816",
+      "request_hash": "bbe311accc33a0ed48ec1db6923530bb76bdcd8fd3d9bd69813214ac41a37956",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes Prolixin as a pharmacologic substance (fluphenazine hydrochloride) with antipsychotic activity, but the provided field is “diagnosis.” The packet classifies it as a “Pharmacologic Substance,” not a diagnostic concept, so the requested sense/field alignment is not supported."
+      ],
+      "definition_hash": "a584146b7316d845ac4ba6825a578327a855a3bc501b7414ae52bd93a5b58316",
+      "packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985",
+      "published_packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985",
+      "receipt_id": "d7d7be0586d2405881a46a7415948df6",
+      "request_hash": "95f12ecfca41bb7f7ecd66afdd408a75623b9fd4175920a16a2e4e152eacf643",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

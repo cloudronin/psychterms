@@ -27,5 +27,34 @@
     "definition_hash": "4fdf9224389d9bcd33afdd5bf5cbbc9338cadb60abd0ddcc779ab7e0c60edfbf",
     "packet_hash": "0f1b9a8cec2511c5b8ffcbe70e8e2713c40826a6acf991219458bc71ecb0499a"
   },
-  "hash": "c2b68bc98a6496d392b613f5935379fd31f6788a1dafbee2e1f5899567a4ae29"
+  "hash": "c2b68bc98a6496d392b613f5935379fd31f6788a1dafbee2e1f5899567a4ae29",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4fdf9224389d9bcd33afdd5bf5cbbc9338cadb60abd0ddcc779ab7e0c60edfbf",
+      "packet_hash": "0f1b9a8cec2511c5b8ffcbe70e8e2713c40826a6acf991219458bc71ecb0499a",
+      "published_packet_hash": "0f1b9a8cec2511c5b8ffcbe70e8e2713c40826a6acf991219458bc71ecb0499a",
+      "receipt_id": "f1e647b5a6324a8da6272d05617e0e28",
+      "request_hash": "dd8f0ba90e8093be0f8f721ea26a17a4fc35f3d2ae4c5704f7f013fc27d004e3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet labels “Emotional instability” as a “Sign or Symptom” (semantic_types), not something clearly in the cognition field as requested.",
+        "The definition adds “changing quickly and intensely” and “sudden” shifts; the packet only states “rapid and dramatic mood swings” and does not explicitly support “intensely” or “sudden.”"
+      ],
+      "definition_hash": "4fdf9224389d9bcd33afdd5bf5cbbc9338cadb60abd0ddcc779ab7e0c60edfbf",
+      "packet_hash": "0f1b9a8cec2511c5b8ffcbe70e8e2713c40826a6acf991219458bc71ecb0499a",
+      "published_packet_hash": "0f1b9a8cec2511c5b8ffcbe70e8e2713c40826a6acf991219458bc71ecb0499a",
+      "receipt_id": "b5b0438ad469469bad69d508a720ac4d",
+      "request_hash": "51841eea448321b28240db2699237be748d094021f4b6c96f28a95dbc90ef17f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

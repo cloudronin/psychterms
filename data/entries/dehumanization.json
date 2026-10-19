@@ -27,5 +27,33 @@
     "definition_hash": "941c2cb4360703db9049af1d27207ace5b211c736382a27370a06fcb261d3970",
     "packet_hash": "b75c5618009953441f580f8ecd49b1292dceec394701efcf883c28c517f6f129"
   },
-  "hash": "06c1361d0d506155c3e343bb8d5e60db4045e508422110b95ea2da4b26a18c13"
+  "hash": "06c1361d0d506155c3e343bb8d5e60db4045e508422110b95ea2da4b26a18c13",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "941c2cb4360703db9049af1d27207ace5b211c736382a27370a06fcb261d3970",
+      "packet_hash": "b75c5618009953441f580f8ecd49b1292dceec394701efcf883c28c517f6f129",
+      "published_packet_hash": "b75c5618009953441f580f8ecd49b1292dceec394701efcf883c28c517f6f129",
+      "receipt_id": "80b90191b55249beadc6dba41886e8f8",
+      "request_hash": "a6c6cccd813876dc0a54beb138b476b25d1ad2ac3d792bb05dfe05d70b2c9e83",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds the qualifier \"normal\" (\"normal human qualities\"), but the packet only states \"lacking in human qualities\" and does not support the notion of \"normal\" human qualities."
+      ],
+      "definition_hash": "941c2cb4360703db9049af1d27207ace5b211c736382a27370a06fcb261d3970",
+      "packet_hash": "b75c5618009953441f580f8ecd49b1292dceec394701efcf883c28c517f6f129",
+      "published_packet_hash": "b75c5618009953441f580f8ecd49b1292dceec394701efcf883c28c517f6f129",
+      "receipt_id": "127f5747a4944d6397756bc09e32f4ca",
+      "request_hash": "de6fff7e72fe9f321b84bfa8b96cf79201674924ca7f81df45909fedfc084316",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

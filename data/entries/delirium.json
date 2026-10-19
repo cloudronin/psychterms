@@ -27,5 +27,34 @@
     "definition_hash": "1cb818314c0ead551185b1a4cf76c1decf9b197964f51976de17f1bbf0871426",
     "packet_hash": "72716bde4b7936dd0b9594280aa7c308d9ffe04e1508ea4bce8ce7464480b771"
   },
-  "hash": "f7da9ad7e671fd2250660b96c5a106d39ec21c84c34640b2887d21ffaba8b3ca"
+  "hash": "f7da9ad7e671fd2250660b96c5a106d39ec21c84c34640b2887d21ffaba8b3ca",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1cb818314c0ead551185b1a4cf76c1decf9b197964f51976de17f1bbf0871426",
+      "packet_hash": "72716bde4b7936dd0b9594280aa7c308d9ffe04e1508ea4bce8ce7464480b771",
+      "published_packet_hash": "72716bde4b7936dd0b9594280aa7c308d9ffe04e1508ea4bce8ce7464480b771",
+      "receipt_id": "e086c787a6164bddb5945435d30d9429",
+      "request_hash": "e2ac19597645bbc727e153aeb1cb320878b3a089e80c4fbd480fd73ba6f92be1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported frequency claim by saying agitation occurs “often”; the packet only says delirium is characterized by agitation, not how common it is.",
+        "The wording is otherwise close to the packet, but this added generalization means it does not fully satisfy the source-only requirement."
+      ],
+      "definition_hash": "1cb818314c0ead551185b1a4cf76c1decf9b197964f51976de17f1bbf0871426",
+      "packet_hash": "72716bde4b7936dd0b9594280aa7c308d9ffe04e1508ea4bce8ce7464480b771",
+      "published_packet_hash": "72716bde4b7936dd0b9594280aa7c308d9ffe04e1508ea4bce8ce7464480b771",
+      "receipt_id": "0eed162c43cc462da8ecfb5a20c13d4f",
+      "request_hash": "96f72f3c5805024da76427aba41a72ba46e7575537a3331daa4863f237f88517",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "716829a059dbd5586065be6bbb23d893a9308b5ecb0ecf394d06c32045d95b4b",
     "packet_hash": "81304b8c0f4d641a989c3b75e09ed89a9550a160438c92d8f236fbf95df02aa4"
   },
-  "hash": "335e9146b74110614e00a58aa4aac2823d49004927755a5227994fbc4f0a0454"
+  "hash": "335e9146b74110614e00a58aa4aac2823d49004927755a5227994fbc4f0a0454",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "716829a059dbd5586065be6bbb23d893a9308b5ecb0ecf394d06c32045d95b4b",
+      "packet_hash": "81304b8c0f4d641a989c3b75e09ed89a9550a160438c92d8f236fbf95df02aa4",
+      "published_packet_hash": "81304b8c0f4d641a989c3b75e09ed89a9550a160438c92d8f236fbf95df02aa4",
+      "receipt_id": "bee45aadf900474e869f7a915e90eb7a",
+      "request_hash": "4e0faf6c26b4c3ccced824e1dfe0148a275664eeae90e33c78d0fbf3b0db3d84",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Unusually excessive” is not supported by the packet, which states “Excessive movement” without the qualifier “unusually.”",
+        "The packet specifies association with “organic or psychological disorders,” while the definition uses “physical or psychological disorders” (where “physical” is not the same wording as “organic” in the packet)."
+      ],
+      "definition_hash": "716829a059dbd5586065be6bbb23d893a9308b5ecb0ecf394d06c32045d95b4b",
+      "packet_hash": "81304b8c0f4d641a989c3b75e09ed89a9550a160438c92d8f236fbf95df02aa4",
+      "published_packet_hash": "81304b8c0f4d641a989c3b75e09ed89a9550a160438c92d8f236fbf95df02aa4",
+      "receipt_id": "455c5390451a49aa8986672238bea5dc",
+      "request_hash": "a4253018a473f4800a11f83ab1e060835670660be6eb67e869c7baa8b15224d8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

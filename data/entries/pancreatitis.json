@@ -27,5 +27,36 @@
     "definition_hash": "0e54e9cebec4340918f6929c56c6c53dc8cf158f7817f1302037059450092ea1",
     "packet_hash": "b284b6d4a4a001aba71057001437c7d8ccc6de30834055bb5cc0e43253a36110"
   },
-  "hash": "b0a209616c719059bb011e75b608227ac350e63c7f4d7894e93e667dc2e54547"
+  "hash": "b0a209616c719059bb011e75b608227ac350e63c7f4d7894e93e667dc2e54547",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible: the packet defines pancreatitis as a medical condition of the pancreas, not a mental health term.",
+        "The definition is otherwise supported by the packet, but the field mismatch fails the requested sense/context requirement."
+      ],
+      "definition_hash": "0e54e9cebec4340918f6929c56c6c53dc8cf158f7817f1302037059450092ea1",
+      "packet_hash": "b284b6d4a4a001aba71057001437c7d8ccc6de30834055bb5cc0e43253a36110",
+      "published_packet_hash": "b284b6d4a4a001aba71057001437c7d8ccc6de30834055bb5cc0e43253a36110",
+      "receipt_id": "c0234db5b59d43c4a40d1203f175ace0",
+      "request_hash": "4e9fb15c23ef433d070f92b3214ab01f36b85e9670524843d88a0d73053f02c4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet definition is purely medical (inflammation of the pancreas, acute vs chronic based on CT/ERCP, causes like alcohol and gallstones) and does not relate to mental health as a field."
+      ],
+      "definition_hash": "0e54e9cebec4340918f6929c56c6c53dc8cf158f7817f1302037059450092ea1",
+      "packet_hash": "b284b6d4a4a001aba71057001437c7d8ccc6de30834055bb5cc0e43253a36110",
+      "published_packet_hash": "b284b6d4a4a001aba71057001437c7d8ccc6de30834055bb5cc0e43253a36110",
+      "receipt_id": "32d841787bb84332b7a46541cf05d158",
+      "request_hash": "175a1caf981e51569d3f8199890c25118c46d4e7bd7ff378ccbc5f56a8101eb3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

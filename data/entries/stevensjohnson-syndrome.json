@@ -27,5 +27,33 @@
     "definition_hash": "763dec236e4cf95ab3bcecd03a9388b3fd6e976515c9138414ac5e2074d1f0c5",
     "packet_hash": "19e625702213798e0de8bd8b8cd467f0a4169909792d5beaae48df7532a8d0c2"
   },
-  "hash": "903b730b85367bdea539dfb611685ddbdf7d8dffd0db6feab27a7ac1d2f27484"
+  "hash": "903b730b85367bdea539dfb611685ddbdf7d8dffd0db6feab27a7ac1d2f27484",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "763dec236e4cf95ab3bcecd03a9388b3fd6e976515c9138414ac5e2074d1f0c5",
+      "packet_hash": "19e625702213798e0de8bd8b8cd467f0a4169909792d5beaae48df7532a8d0c2",
+      "published_packet_hash": "19e625702213798e0de8bd8b8cd467f0a4169909792d5beaae48df7532a8d0c2",
+      "receipt_id": "fa5f1122ed0449f6bc5ebce29c6b721a",
+      "request_hash": "72e5e5a1709866a79ec803864c26153030a54e633f04dc8d641c8ec9fc1424d8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes Stevens–Johnson syndrome as a skin/mucous membrane disorder (“skin area separation of dermis… affecting the skin and the mucous membranes”), but the requested field is “cognition,” which is not supported by the packet."
+      ],
+      "definition_hash": "763dec236e4cf95ab3bcecd03a9388b3fd6e976515c9138414ac5e2074d1f0c5",
+      "packet_hash": "19e625702213798e0de8bd8b8cd467f0a4169909792d5beaae48df7532a8d0c2",
+      "published_packet_hash": "19e625702213798e0de8bd8b8cd467f0a4169909792d5beaae48df7532a8d0c2",
+      "receipt_id": "950954d341734a2e90d8ca88d9c70452",
+      "request_hash": "e17f7f3d3e4ad0958bc0a4a926657835f61729fddd1e0fed596d353a1d1153dd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

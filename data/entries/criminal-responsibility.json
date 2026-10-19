@@ -27,5 +27,34 @@
     "definition_hash": "dfa78d4a508e9b1ae9a1b74a4c4a58b92dbc1338241f6400a92c9eb70633381e",
     "packet_hash": "fa41e3016649ac4bdf559aa74e151e310666d46f8fdb72c282c767d0a2b96ca6"
   },
-  "hash": "c30bd71b36e2b14da294c4faef68e7d0427397daa90faf45a8ef72d605b6853d"
+  "hash": "c30bd71b36e2b14da294c4faef68e7d0427397daa90faf45a8ef72d605b6853d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dfa78d4a508e9b1ae9a1b74a4c4a58b92dbc1338241f6400a92c9eb70633381e",
+      "packet_hash": "fa41e3016649ac4bdf559aa74e151e310666d46f8fdb72c282c767d0a2b96ca6",
+      "published_packet_hash": "fa41e3016649ac4bdf559aa74e151e310666d46f8fdb72c282c767d0a2b96ca6",
+      "receipt_id": "741bc9688e87454c8905c1488e8c6f70",
+      "request_hash": "4d200deeb7bc6e46a750377f94896424bf5b0b8a9438bce4ecee6782daf3f5c3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“the legal question of whether a person can be held answerable for a crime”) is a broad generalization that is not directly stated in the provided Tuke packet text.",
+        "While the packet clearly describes historical rules about what happens when a person becomes insane at different stages (before arraignment, after plea before trial, after trial, after judgment), the packet does not explicitly support the framing that the term itself is defined as a general ‘legal question of answerability’ in the way the definition states."
+      ],
+      "definition_hash": "dfa78d4a508e9b1ae9a1b74a4c4a58b92dbc1338241f6400a92c9eb70633381e",
+      "packet_hash": "fa41e3016649ac4bdf559aa74e151e310666d46f8fdb72c282c767d0a2b96ca6",
+      "published_packet_hash": "fa41e3016649ac4bdf559aa74e151e310666d46f8fdb72c282c767d0a2b96ca6",
+      "receipt_id": "94745eb1262e4a87be150249d4009060",
+      "request_hash": "ff5ac2d9dcb535f59056298d214a4ba7a07759174c1d13745655b34572ab6ec4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

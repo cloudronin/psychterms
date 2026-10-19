@@ -27,5 +27,37 @@
     "definition_hash": "2daeb8ab755de782acb646d278354aef9fd7d9252c0b5d99fc0f85150f12975e",
     "packet_hash": "42b73d601231662095ff01989e892535d5c0bb5ebb388f25976f62440e06e51e"
   },
-  "hash": "daa170fbc07605a524da3704b00ee3184d91be396dba96ad7b0f155fae212fcb"
+  "hash": "daa170fbc07605a524da3704b00ee3184d91be396dba96ad7b0f155fae212fcb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that this is a diagram of a horizontal section of the left eye, drawn to scale; it does not support the added claim that such a section is used to show internal parts in profile.",
+        "The definition presents a broader anatomical/functional description of “horizontal section” that is not given in the source passage and is therefore unsupported by the packet."
+      ],
+      "definition_hash": "2daeb8ab755de782acb646d278354aef9fd7d9252c0b5d99fc0f85150f12975e",
+      "packet_hash": "42b73d601231662095ff01989e892535d5c0bb5ebb388f25976f62440e06e51e",
+      "published_packet_hash": "42b73d601231662095ff01989e892535d5c0bb5ebb388f25976f62440e06e51e",
+      "receipt_id": "771375cc229841faac4bee03996291a0",
+      "request_hash": "46044952e238ecd4a6f0218d0f6cff167e621dccb2510683295f901ea9a8ac85",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet explicitly states “Diagram of a horizontal section of the left eye, drawn to scale,” but it does not support the additional claim that a horizontal section is “a view or cut made through the eye along a horizontal plane” or that it is “used to show its internal parts in profile.”",
+        "Because the definition relies on those unsupported anatomical/functional descriptions, the requested sense is not fully defensible from the provided packet text."
+      ],
+      "definition_hash": "2daeb8ab755de782acb646d278354aef9fd7d9252c0b5d99fc0f85150f12975e",
+      "packet_hash": "42b73d601231662095ff01989e892535d5c0bb5ebb388f25976f62440e06e51e",
+      "published_packet_hash": "42b73d601231662095ff01989e892535d5c0bb5ebb388f25976f62440e06e51e",
+      "receipt_id": "1573823aaaee4720af59609926ff16b8",
+      "request_hash": "22ffb2f10574e45cbbc810695a3655005d2c92ed732cccb005c2f43554032ef4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

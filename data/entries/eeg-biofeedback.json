@@ -27,5 +27,36 @@
     "definition_hash": "045fa2d1e20ca3a0292b12b0cbcd75f45bf1ef16ce851ae09fcec6e537cc504a",
     "packet_hash": "94c79c6e9dd6d489ccd9dc818906bfa2a1dcd9a145c05024431da944235f4d24"
   },
-  "hash": "714822b7382e3b0b7ee3cb4124172aaafeee9b52fafb8501d168cd6f1bb17d2f"
+  "hash": "714822b7382e3b0b7ee3cb4124172aaafeee9b52fafb8501d168cd6f1bb17d2f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The final clause generalizes beyond the packet: it says EEG biofeedback may help with stress and mental side effects in some medical contexts, but the source only mentions cancer patients treated with chemotherapy for breast cancer.",
+        "The definition slightly broadens the studied use from the packet’s specific settings (certain brain disorders and chemotherapy for breast cancer) to a more general claim about medical contexts."
+      ],
+      "definition_hash": "045fa2d1e20ca3a0292b12b0cbcd75f45bf1ef16ce851ae09fcec6e537cc504a",
+      "packet_hash": "94c79c6e9dd6d489ccd9dc818906bfa2a1dcd9a145c05024431da944235f4d24",
+      "published_packet_hash": "94c79c6e9dd6d489ccd9dc818906bfa2a1dcd9a145c05024431da944235f4d24",
+      "receipt_id": "07706c67b0df475eb4bc91179c1d0939",
+      "request_hash": "18f8a564a9b515fb58040d444aa7fecb15d0acaec5586c6ab9a09473e5a4409c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that it “may help with stress and mental side effects in some medical contexts” is broader than the packet, which specifically says it “may help cancer patients deal with the stress and mental side effects of chemotherapy.”"
+      ],
+      "definition_hash": "045fa2d1e20ca3a0292b12b0cbcd75f45bf1ef16ce851ae09fcec6e537cc504a",
+      "packet_hash": "94c79c6e9dd6d489ccd9dc818906bfa2a1dcd9a145c05024431da944235f4d24",
+      "published_packet_hash": "94c79c6e9dd6d489ccd9dc818906bfa2a1dcd9a145c05024431da944235f4d24",
+      "receipt_id": "30d3606e93e349b38e9d9d2943dd025e",
+      "request_hash": "e94998147448c062a494b11bae766051cb72e623daacada370674c1c251ecb58",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

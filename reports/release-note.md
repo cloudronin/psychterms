@@ -4,15 +4,15 @@ Status is set by the build from reader evidence and copy checks. The drafter nev
 
 | Status | Entries |
 |---|---:|
-| Candidate | 4828 |
-| Reviewed | 198 |
-| Judged | 0 |
-| Dropped | 24 |
+| Candidate | 0 |
+| Reviewed | 846 |
+| Judged | 3875 |
+| Dropped | 329 |
 | Included in a numbered release | 0 |
 
 Released is an additional marker, not a fifth review status. Candidate entries are public drafts; a citation is not a reader pass.
 
-Reader models recorded: gpt-5.4-mini-2026-03-17.
+Reader models recorded: gpt-5.4-mini-2026-03-17, gpt-5.4-nano-2026-03-17.
 
 Copy comparison: All pinned public source packets and cross-entry definitions. Fifteen-word threshold; comparison SHA-256: 8749303f11d65af1825ec372aa99e09fb0be5c39b7cbad12ecff8f99a287c839.
 

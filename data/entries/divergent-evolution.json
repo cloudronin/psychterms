@@ -27,5 +27,35 @@
     "definition_hash": "8c4a2d532446e52a88c82e1c0f611b3fbbaeb96b9dea69aff44fce5d4382e508",
     "packet_hash": "375dd67e21c701cd839abdc5ad72037f6cf08a0edec6e1a2dad0da6b71cd9fe5"
   },
-  "hash": "754b2ee7f5869eac6b91be4767ebad2f20d6ff3f8fd444c6c9c611e82430ac59"
+  "hash": "754b2ee7f5869eac6b91be4767ebad2f20d6ff3f8fd444c6c9c611e82430ac59",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8c4a2d532446e52a88c82e1c0f611b3fbbaeb96b9dea69aff44fce5d4382e508",
+      "packet_hash": "375dd67e21c701cd839abdc5ad72037f6cf08a0edec6e1a2dad0da6b71cd9fe5",
+      "published_packet_hash": "375dd67e21c701cd839abdc5ad72037f6cf08a0edec6e1a2dad0da6b71cd9fe5",
+      "receipt_id": "d80681d6206d494592799253c6321e7e",
+      "request_hash": "0ea54e72843c2823fd1ee378557dfe149345d081ddd52bba2572da7356248060",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims divergent evolution is “development of different lines from a common ancestry,” but the provided packet does not mention common ancestry in relation to divergent evolution (it discusses isolation and “polytypic (or divergent) evolution”).",
+        "The definition’s claim that divergent evolution “depends on isolation” is only indirectly supported: the packet says Gulick and Romanes contend that “all polytypic (or divergent) evolution involves isolation,” but the packet does not itself define divergent evolution as a general process conditioned by isolation in those exact terms.",
+        "The packet’s content is anchored to “Isolation” and discusses isolation mechanisms (including geographical isolation and sterility barriers), not a standalone definition of the term “divergent evolution” as such; the supplied definition therefore extends beyond what is explicitly stated."
+      ],
+      "definition_hash": "8c4a2d532446e52a88c82e1c0f611b3fbbaeb96b9dea69aff44fce5d4382e508",
+      "packet_hash": "375dd67e21c701cd839abdc5ad72037f6cf08a0edec6e1a2dad0da6b71cd9fe5",
+      "published_packet_hash": "375dd67e21c701cd839abdc5ad72037f6cf08a0edec6e1a2dad0da6b71cd9fe5",
+      "receipt_id": "0659bfc49a7446ceb46e36c093d76cdf",
+      "request_hash": "2f4d45fcba8d058fef0d6aec9cd926cafe04544abb410f107992196149b9668a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

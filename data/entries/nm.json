@@ -27,5 +27,37 @@
     "definition_hash": "f6a874d1e445ed15728af6b2e4d9f97abb3d1644c0509e276c7a21539ba9db59",
     "packet_hash": "fbb42ce631e66c42ff62fb973c4c884d4fb7ff8c8eeda473e42c6c71cc573eb4"
   },
-  "hash": "89ea585c4317f9a661115d67da3e0c960d932537c44e83537a44940489e1d5ba"
+  "hash": "89ea585c4317f9a661115d67da3e0c960d932537c44e83537a44940489e1d5ba",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is mental health, but the packet identifies this as a diagnostic procedure, not a mental health term.",
+        "The definition introduces a generic “radionuclide imaging” explanation, but the packet’s term is specifically “Radionuclide Imaging” and should not be treated as a psychology/counselling entry without clear field support."
+      ],
+      "definition_hash": "f6a874d1e445ed15728af6b2e4d9f97abb3d1644c0509e276c7a21539ba9db59",
+      "packet_hash": "fbb42ce631e66c42ff62fb973c4c884d4fb7ff8c8eeda473e42c6c71cc573eb4",
+      "published_packet_hash": "fbb42ce631e66c42ff62fb973c4c884d4fb7ff8c8eeda473e42c6c71cc573eb4",
+      "receipt_id": "78e7c3b0b55d4b45909e99f6d7026d17",
+      "request_hash": "0f1f488d3a697b81951d26a2eae9d8fe481795e8ad5c54659847c67f85a79eca",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The term is given as \"nm\", but the packet content describes an imaging technique called \"Radionuclide Imaging\"; the definition does not establish what \"nm\" specifically refers to.",
+        "The provided field is \"mental health\", but the packet only supports diagnostic imaging of cancer growth, trauma, infection, or degenerative disorders; it does not provide any mental-health context or application."
+      ],
+      "definition_hash": "f6a874d1e445ed15728af6b2e4d9f97abb3d1644c0509e276c7a21539ba9db59",
+      "packet_hash": "fbb42ce631e66c42ff62fb973c4c884d4fb7ff8c8eeda473e42c6c71cc573eb4",
+      "published_packet_hash": "fbb42ce631e66c42ff62fb973c4c884d4fb7ff8c8eeda473e42c6c71cc573eb4",
+      "receipt_id": "e903b9d7286a4717b342c606b637e4ae",
+      "request_hash": "8e2611067b51a7057cf490c88c666f0e2b8125124c34f6060bd18abc64d8251a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

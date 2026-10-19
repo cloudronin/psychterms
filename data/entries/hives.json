@@ -27,5 +27,34 @@
     "definition_hash": "9a8a67fa20b700e005c3afbe568aa460009a2eb633cc98099265a99762cb4869",
     "packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11"
   },
-  "hash": "30143cd49c99ceb06c63e98d1b0a18328afedbd670af8db3ed0d0ffd2a3f3d26"
+  "hash": "30143cd49c99ceb06c63e98d1b0a18328afedbd670af8db3ed0d0ffd2a3f3d26",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9a8a67fa20b700e005c3afbe568aa460009a2eb633cc98099265a99762cb4869",
+      "packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11",
+      "published_packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11",
+      "receipt_id": "e060567f7b574b07986916f11fa4cd00",
+      "request_hash": "544df98bc7e22e9e6ebf549264063714287c27387a76a44fa80590bd6dd78d43",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that hives occur because “fluid leaks from small blood vessels”; the packet instead describes “localized increase of vascular permeability” and does not mention fluid leakage or “small” blood vessels.",
+        "The definition is framed as part of the “mental health” field, but the packet only describes a skin/vascular reaction and lists possible causes (allergy, infection, stress) without establishing a mental-health context."
+      ],
+      "definition_hash": "9a8a67fa20b700e005c3afbe568aa460009a2eb633cc98099265a99762cb4869",
+      "packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11",
+      "published_packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11",
+      "receipt_id": "2def6b889489427ba6f9538f0e03bfa8",
+      "request_hash": "0c8c461dbf1416352dc46a0f867c30d6fad33a2abd3d776a878e9589df31bb23",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

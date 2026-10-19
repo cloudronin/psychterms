@@ -27,5 +27,34 @@
     "definition_hash": "4124482ac3ab9d185b64867604b9a58eede73cf915ce7ad0ad28b71f3491a599",
     "packet_hash": "d4039139e2619311c7c5b283a0abe4163c47d8c2a6cd22b56f8e3477b9d828f3"
   },
-  "hash": "80007e595d2cb85b70e3f39b5a798bdc3b8a5ca83a31134b11f9bb0c69ae9542"
+  "hash": "80007e595d2cb85b70e3f39b5a798bdc3b8a5ca83a31134b11f9bb0c69ae9542",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4124482ac3ab9d185b64867604b9a58eede73cf915ce7ad0ad28b71f3491a599",
+      "packet_hash": "d4039139e2619311c7c5b283a0abe4163c47d8c2a6cd22b56f8e3477b9d828f3",
+      "published_packet_hash": "d4039139e2619311c7c5b283a0abe4163c47d8c2a6cd22b56f8e3477b9d828f3",
+      "receipt_id": "211a83b087cb4a52a0aa36935bda3849",
+      "request_hash": "12d57517f94d23042ecce4b5ab2db33729182e0885b735c57b169aa3d5629824",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines reintegration only as “Repeated INTEGRATION (q. v.)” and “See also REDINTEGRATION*.” It does not state “integration carried out again” or “a repeated process of combining parts into a whole,” so those phrases are not fully supported by the packet.",
+        "The “related term” link to redintegration is supported (“See also REDINTEGRATION*”), but the added wording about combining parts into a whole is unsupported by the provided text."
+      ],
+      "definition_hash": "4124482ac3ab9d185b64867604b9a58eede73cf915ce7ad0ad28b71f3491a599",
+      "packet_hash": "d4039139e2619311c7c5b283a0abe4163c47d8c2a6cd22b56f8e3477b9d828f3",
+      "published_packet_hash": "d4039139e2619311c7c5b283a0abe4163c47d8c2a6cd22b56f8e3477b9d828f3",
+      "receipt_id": "f5fbdc6bef3b4b598f46f2750e889ca9",
+      "request_hash": "f8da567f3ca1008ecb694e000307572ee73641e234083627e907d63f936538c9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

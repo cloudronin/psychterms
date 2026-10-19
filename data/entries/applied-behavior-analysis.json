@@ -27,5 +27,33 @@
     "definition_hash": "a31389351ab112ed52ffef72185afdf2510a8c5625b5e200dfbeb26bb9201050",
     "packet_hash": "d6babc4588175f9acc8721e5422e0388b6a29bc27b6627923ad145a4cf21ace9"
   },
-  "hash": "479d1ee1eb80616612d4cabb69197ed4c7c2955c66888335c87986e4df4d18be"
+  "hash": "479d1ee1eb80616612d4cabb69197ed4c7c2955c66888335c87986e4df4d18be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a31389351ab112ed52ffef72185afdf2510a8c5625b5e200dfbeb26bb9201050",
+      "packet_hash": "d6babc4588175f9acc8721e5422e0388b6a29bc27b6627923ad145a4cf21ace9",
+      "published_packet_hash": "d6babc4588175f9acc8721e5422e0388b6a29bc27b6627923ad145a4cf21ace9",
+      "receipt_id": "fb9dc72f1f19410faec517c3f66191a7",
+      "request_hash": "4445ea75af1edeb1c23b4195f64f0620fd13c05367d4c2854df7545e372e5d0a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet defines applied behavior analysis as “behavioral science applied” with the aim of improving issues (i.e., an applied behavioral approach/techniques), not as a diagnostic concept or diagnosis definition."
+      ],
+      "definition_hash": "a31389351ab112ed52ffef72185afdf2510a8c5625b5e200dfbeb26bb9201050",
+      "packet_hash": "d6babc4588175f9acc8721e5422e0388b6a29bc27b6627923ad145a4cf21ace9",
+      "published_packet_hash": "d6babc4588175f9acc8721e5422e0388b6a29bc27b6627923ad145a4cf21ace9",
+      "receipt_id": "991c626b706243578cf71c7c39a460c1",
+      "request_hash": "d8c75a16888e48c1d76b54cd2e6d9314250337c3fea6cf28262167889be54604",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

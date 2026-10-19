@@ -27,5 +27,35 @@
     "definition_hash": "e0c2cd4ce1c5362f34d6ddaac037bc6a14b66472088e86a5957a254cc3324889",
     "packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b"
   },
-  "hash": "a38771d527d02c8e854addb31112ffa48eedb2fb3e4a71bb7b5ad8f221a9a229"
+  "hash": "a38771d527d02c8e854addb31112ffa48eedb2fb3e4a71bb7b5ad8f221a9a229",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e0c2cd4ce1c5362f34d6ddaac037bc6a14b66472088e86a5957a254cc3324889",
+      "packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b",
+      "published_packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b",
+      "receipt_id": "6a6134b0b05f4f39bc63921c2fd86539",
+      "request_hash": "4e83862d4d0f108b49ad92788985df7f0eae62ec98104cda085b08733695a985",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states a timed test where the subject reads a list of words or identifies colors with varying instructions and different degrees of distraction, but it does not support the definition’s claim that the test is “designed to see” how performance is affected under “competing demands.”",
+        "The packet does not describe participants “coping with distractions,” so that wording is not supported by the provided source text.",
+        "The definition adds framing (“changing instructions,” “coping,” “competing demands”) that is not explicitly present in the packet’s wording beyond the general elements of timing, word reading/color identification, varying instructions, and distraction levels."
+      ],
+      "definition_hash": "e0c2cd4ce1c5362f34d6ddaac037bc6a14b66472088e86a5957a254cc3324889",
+      "packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b",
+      "published_packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b",
+      "receipt_id": "c75da5cd7aa54fd595f7efe5b7022546",
+      "request_hash": "482f9ec0b00c896260446539ea058be73d0be8c1a6300830a002d924ca97e95c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

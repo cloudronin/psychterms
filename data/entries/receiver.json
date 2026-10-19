@@ -27,5 +27,33 @@
     "definition_hash": "80aa6b0dfbb77162ea9d0b5900ba3b331b9127fb0e95e38d1bf4876533546f2d",
     "packet_hash": "fba37c76ec48e32240a9c247326a9734cd34ab44ca17e174d6d27d9f219ab410"
   },
-  "hash": "e87b9168d129cf2d7cd769afe3e2f3bdb554a6a66c494d2da1b1b13631a71150"
+  "hash": "e87b9168d129cf2d7cd769afe3e2f3bdb554a6a66c494d2da1b1b13631a71150",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "80aa6b0dfbb77162ea9d0b5900ba3b331b9127fb0e95e38d1bf4876533546f2d",
+      "packet_hash": "fba37c76ec48e32240a9c247326a9734cd34ab44ca17e174d6d27d9f219ab410",
+      "published_packet_hash": "fba37c76ec48e32240a9c247326a9734cd34ab44ca17e174d6d27d9f219ab410",
+      "receipt_id": "d7199b883acf447eac8726799a9fdeec",
+      "request_hash": "40777ff04cdfddaf5b2b7a84461c2ea6a03c7ca41745d5ce157525136368b6d5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an electronic receiver device, but the requested field is \"biological\" and the source classifies it as a manufactured object, so the field is not defensible from the packet."
+      ],
+      "definition_hash": "80aa6b0dfbb77162ea9d0b5900ba3b331b9127fb0e95e38d1bf4876533546f2d",
+      "packet_hash": "fba37c76ec48e32240a9c247326a9734cd34ab44ca17e174d6d27d9f219ab410",
+      "published_packet_hash": "fba37c76ec48e32240a9c247326a9734cd34ab44ca17e174d6d27d9f219ab410",
+      "receipt_id": "b26a7cd38c154a2590bd76b8e5d1c186",
+      "request_hash": "d26112fa0d5f6c4a45bf53dffe52855f780ee2132817cf91eec9dc5722a8fa3f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

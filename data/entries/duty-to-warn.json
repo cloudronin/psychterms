@@ -27,5 +27,37 @@
     "definition_hash": "008ce91d4cc3ebcecac3021238ae773b091061e5bce4c0ca575ddd8166be8f52",
     "packet_hash": "8b5c3acc1b96e82f102504a6b85ad49d16fb00d3b9d11bd56bd4ca69de97b731"
   },
-  "hash": "9bdd02a567bc7d8c5b3720abbf833417efd70ade71a381cab4eaf222be9d66d4"
+  "hash": "9bdd02a567bc7d8c5b3720abbf833417efd70ade71a381cab4eaf222be9d66d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an obligation to breach confidentiality to warn third parties, but it does not mention a legal responsibility; adding “legal” is unsupported.",
+        "The source says the danger is to third parties being assaulted or contracting a serious infection, so the wording should stay anchored to that scope rather than generalizing beyond it."
+      ],
+      "definition_hash": "008ce91d4cc3ebcecac3021238ae773b091061e5bce4c0ca575ddd8166be8f52",
+      "packet_hash": "8b5c3acc1b96e82f102504a6b85ad49d16fb00d3b9d11bd56bd4ca69de97b731",
+      "published_packet_hash": "8b5c3acc1b96e82f102504a6b85ad49d16fb00d3b9d11bd56bd4ca69de97b731",
+      "receipt_id": "2661a2bd97484a66829d63101d5bdbdc",
+      "request_hash": "ce268ad7ee9c30afcf97779decc517b582b158143069bab3cb197217d60e0224",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that the duty is an “ethical and legal” responsibility; the packet only states an “obligation” to breach confidentiality and does not explicitly support ethical and/or legal wording.",
+        "The packet supports warning third parties about being assaulted or contracting a serious infection, but it does not provide support for the specific phrasing “health professional’s ethical and legal responsibility.”"
+      ],
+      "definition_hash": "008ce91d4cc3ebcecac3021238ae773b091061e5bce4c0ca575ddd8166be8f52",
+      "packet_hash": "8b5c3acc1b96e82f102504a6b85ad49d16fb00d3b9d11bd56bd4ca69de97b731",
+      "published_packet_hash": "8b5c3acc1b96e82f102504a6b85ad49d16fb00d3b9d11bd56bd4ca69de97b731",
+      "receipt_id": "ed89f14e14314d639aa93c913c20ce1f",
+      "request_hash": "f35a6b1f9e0b01cf4e996f151d72c2841d2273c0c7b8f9ed06beb1b94942c019",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

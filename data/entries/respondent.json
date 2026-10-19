@@ -27,5 +27,38 @@
     "definition_hash": "ff29306a7f470ec4c680fe2846c5beff6d4463508d9944567ae714f8b19091db",
     "packet_hash": "3ee60cbeb6de44d8c90d56c9387933572ff85f59f1d8ace5d6038725a3ddff72"
   },
-  "hash": "806364b2b670ab74d37d96337377da100b37469bb57bde1e622753937b01b299"
+  "hash": "806364b2b670ab74d37d96337377da100b37469bb57bde1e622753937b01b299",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an Infrequency Scale measure, not the general sense of “respondent” as the person who answers a questionnaire.",
+        "The second sentence introduces an interpretation and wording (“pattern of answers is examined,” “endorsed items in an unusually atypical way”) that is not stated in the packet and does not match the source text’s specific description of atypical responding on a three-item scale.",
+        "The definition is not aligned with the requested sense and is not supported as written by the supplied source packet."
+      ],
+      "definition_hash": "ff29306a7f470ec4c680fe2846c5beff6d4463508d9944567ae714f8b19091db",
+      "packet_hash": "3ee60cbeb6de44d8c90d56c9387933572ff85f59f1d8ace5d6038725a3ddff72",
+      "published_packet_hash": "3ee60cbeb6de44d8c90d56c9387933572ff85f59f1d8ace5d6038725a3ddff72",
+      "receipt_id": "080fea4326ee4b999c292e82c3169e69",
+      "request_hash": "d5600b3b94aac13442ba1d25fcd213c0d5c3b611f579e98b983a2b40a494ec10",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “respondent” as “the person who answers the items on a questionnaire or rating scale.” It only references “the respondent’s” endorsement of items in an atypical fashion.",
+        "The packet supports the idea of assessing atypical endorsement for an Infrequency Scale (e.g., “endorsed items in an atypical fashion”), but it does not support the broader first sentence about what a respondent generally is."
+      ],
+      "definition_hash": "ff29306a7f470ec4c680fe2846c5beff6d4463508d9944567ae714f8b19091db",
+      "packet_hash": "3ee60cbeb6de44d8c90d56c9387933572ff85f59f1d8ace5d6038725a3ddff72",
+      "published_packet_hash": "3ee60cbeb6de44d8c90d56c9387933572ff85f59f1d8ace5d6038725a3ddff72",
+      "receipt_id": "5638d59ca8aa4222b9a87111d262d930",
+      "request_hash": "318cdac931a2a695d5341645061943e98525f963c2391664649412d9e139d097",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

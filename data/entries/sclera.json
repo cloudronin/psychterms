@@ -27,5 +27,34 @@
     "definition_hash": "642b5bdf079f3c57ae2c5e633c43e5f1b6f2ab1abe8d740fd39eedb1d6818a00",
     "packet_hash": "b30d570b3586a07f2dc23306c25ee6ef016107f02ce2fdc04a4bdd35a1c98c5d"
   },
-  "hash": "83dbdc148b087a99a3b192717a9a379ddaed884baec3ef2fd2b6713de7d1c975"
+  "hash": "83dbdc148b087a99a3b192717a9a379ddaed884baec3ef2fd2b6713de7d1c975",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "642b5bdf079f3c57ae2c5e633c43e5f1b6f2ab1abe8d740fd39eedb1d6818a00",
+      "packet_hash": "b30d570b3586a07f2dc23306c25ee6ef016107f02ce2fdc04a4bdd35a1c98c5d",
+      "published_packet_hash": "b30d570b3586a07f2dc23306c25ee6ef016107f02ce2fdc04a4bdd35a1c98c5d",
+      "receipt_id": "654244cfa668463c83effab03e5e23a5",
+      "request_hash": "f5fc9f4a624d652408ca2034512205d5b4aedccb0e6c97f0b89beea8a93df5fc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the sclera is “tough,” but the provided packet describes it as “white, opaque, fibrous” and does not explicitly call it “tough.”",
+        "The definition says the sclera covers “most of the eye,” whereas the packet specifies it covers the eyeball “entirely excepting the segment covered anteriorly by the cornea,” making the “most” wording imprecise compared to the packet."
+      ],
+      "definition_hash": "642b5bdf079f3c57ae2c5e633c43e5f1b6f2ab1abe8d740fd39eedb1d6818a00",
+      "packet_hash": "b30d570b3586a07f2dc23306c25ee6ef016107f02ce2fdc04a4bdd35a1c98c5d",
+      "published_packet_hash": "b30d570b3586a07f2dc23306c25ee6ef016107f02ce2fdc04a4bdd35a1c98c5d",
+      "receipt_id": "baac3d811ba041f79512eb9a826849e5",
+      "request_hash": "64f326fcff3ebcc50fbf6e38fa1db695f9c51fc71b961f4d6aeb9f98c948a75a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

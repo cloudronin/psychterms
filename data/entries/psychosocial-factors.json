@@ -27,5 +27,38 @@
     "definition_hash": "054fa911c6614c96b44ef22379ddbc52699b73a7e934160b1bddc2dc7d62eeaa",
     "packet_hash": "def58de195a1ab1242e2dc83886ec616498ef11509e24f315da2bc39664da8fe"
   },
-  "hash": "c51f15c6ea7c1b3bdb73754fd7e3ce30f7260f6c5352ad32cc6003ba8e9a8d62"
+  "hash": "c51f15c6ea7c1b3bdb73754fd7e3ce30f7260f6c5352ad32cc6003ba8e9a8d62",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define the standalone term “psychosocial factors”; it only says psycho-oncology examines “behavioral and psychosocial factors,” so the requested sense is not directly supported.",
+        "The opening gloss broadens “psychosocial factors” into a general definition of influences involving psychological and social circumstances, which is an unsupported extrapolation from the packet.",
+        "The packet’s context is psycho-oncology/cancer, not ethics, so the field assignment is not supported by the source record."
+      ],
+      "definition_hash": "054fa911c6614c96b44ef22379ddbc52699b73a7e934160b1bddc2dc7d62eeaa",
+      "packet_hash": "def58de195a1ab1242e2dc83886ec616498ef11509e24f315da2bc39664da8fe",
+      "published_packet_hash": "def58de195a1ab1242e2dc83886ec616498ef11509e24f315da2bc39664da8fe",
+      "receipt_id": "c436c09874e848829742a392623e10ff",
+      "request_hash": "1302660b8a9dc82db54468aecead797f06de050bb38860df7ef09e52c2e90af2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet frames psycho-oncology as including ethical aspects of cancer, but the definition provided does not mention ethics and is not supported by the packet as an ethics-related meaning for “psychosocial factors.”",
+        "The first sentence gives a broad, general characterization (“influences that involve a person’s psychological and social circumstances”) that is only indirectly implied by the packet’s phrasing about interrelationships, not stated as the term’s definition in the packet."
+      ],
+      "definition_hash": "054fa911c6614c96b44ef22379ddbc52699b73a7e934160b1bddc2dc7d62eeaa",
+      "packet_hash": "def58de195a1ab1242e2dc83886ec616498ef11509e24f315da2bc39664da8fe",
+      "published_packet_hash": "def58de195a1ab1242e2dc83886ec616498ef11509e24f315da2bc39664da8fe",
+      "receipt_id": "be1dbff3b87a40d18e9993b12410b374",
+      "request_hash": "33fa5e117912693955426e24a583fbea050ce8387632ea800b88da53c4e8aea5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

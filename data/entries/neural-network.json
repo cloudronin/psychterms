@@ -27,5 +27,34 @@
     "definition_hash": "a0bd173e1e83a3e8c6778b13349279164625beb1a88ca1d664101a0ed2afde03",
     "packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3"
   },
-  "hash": "75bb02efeb13b7ab6b33272f1dd2c82503ec604523b80caebc8f66a994bfbde5"
+  "hash": "75bb02efeb13b7ab6b33272f1dd2c82503ec604523b80caebc8f66a994bfbde5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a0bd173e1e83a3e8c6778b13349279164625beb1a88ca1d664101a0ed2afde03",
+      "packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3",
+      "published_packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3",
+      "receipt_id": "55952ec40e034247b500ed9a2285ad8a",
+      "request_hash": "8e7b8cea49b98ba95acaa19ac464aa979c4fafad27370bd4cc66ebd50e3dc5de",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds unsupported detail by calling the optimization problems “complex”; the packet only says “non-linear optimization problems.”",
+        "The wording “designed by analogy” is close to the packet, but the definition should not introduce extra emphasis or paraphrase beyond the supplied source."
+      ],
+      "definition_hash": "a0bd173e1e83a3e8c6778b13349279164625beb1a88ca1d664101a0ed2afde03",
+      "packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3",
+      "published_packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3",
+      "receipt_id": "347db1ac205c4f2193e95af3178192b8",
+      "request_hash": "782192b906db71f905b7d5692654783bf1554502d6861c3ee7ac6842addd9a5a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

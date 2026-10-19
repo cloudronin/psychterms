@@ -27,5 +27,33 @@
     "definition_hash": "18cae9f926ec1a86e7e32844d4750ac6c3f39bb45ac9b69895dc829d0c7ee109",
     "packet_hash": "2f812b3e2eb99f9a21ecc05ae8bdac98c2969be7df153c969c50587c586cc4e2"
   },
-  "hash": "8936bf9c305f648f7694f9a7d5f5ecb0d5990c4ff5c85978bfecb027230df343"
+  "hash": "8936bf9c305f648f7694f9a7d5f5ecb0d5990c4ff5c85978bfecb027230df343",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "18cae9f926ec1a86e7e32844d4750ac6c3f39bb45ac9b69895dc829d0c7ee109",
+      "packet_hash": "2f812b3e2eb99f9a21ecc05ae8bdac98c2969be7df153c969c50587c586cc4e2",
+      "published_packet_hash": "2f812b3e2eb99f9a21ecc05ae8bdac98c2969be7df153c969c50587c586cc4e2",
+      "receipt_id": "219522e95b554ffab2d6593f9a73e163",
+      "request_hash": "5ae6047802dd4c8870f4f4c3e22b8c493de6e18dc8edb1b834e13b625adb554f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims it links “voltage” with current and resistance, but the source passage uses the term “electromotive force E” (and does not use the word “voltage”)."
+      ],
+      "definition_hash": "18cae9f926ec1a86e7e32844d4750ac6c3f39bb45ac9b69895dc829d0c7ee109",
+      "packet_hash": "2f812b3e2eb99f9a21ecc05ae8bdac98c2969be7df153c969c50587c586cc4e2",
+      "published_packet_hash": "2f812b3e2eb99f9a21ecc05ae8bdac98c2969be7df153c969c50587c586cc4e2",
+      "receipt_id": "969535f53eaa45419fdae99677950737",
+      "request_hash": "56775f20c4ff5da2f22e20ad1ccfa4afe70515bb1da1094609fa849e2fe2bd23",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "dd571cc87229bae6c84d57b44a9ac46766b117d133300880630850921d2fda02",
     "packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c"
   },
-  "hash": "25651bc4c638e077a8e4660e24dd819df44dd579734d18ecfb3894cf7423d275"
+  "hash": "25651bc4c638e077a8e4660e24dd819df44dd579734d18ecfb3894cf7423d275",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dd571cc87229bae6c84d57b44a9ac46766b117d133300880630850921d2fda02",
+      "packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c",
+      "published_packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c",
+      "receipt_id": "2ca29ff9422640b38510ec88ac38ce4b",
+      "request_hash": "ca991fc0f35a5fe4225e3f78dc513a43588fb9d4c48e775a5929e7bfcffb8426",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is \"diagnosis\", but the packet describes repetitive transcranial magnetic stimulation as a \"form of brain stimulation therapy\" (i.e., a treatment/procedure), not a diagnostic concept.",
+        "The definition does not include any diagnostic meaning (no criteria, symptom identification, or diagnosis-related framing), so labeling it under diagnosis is not defensible from the packet."
+      ],
+      "definition_hash": "dd571cc87229bae6c84d57b44a9ac46766b117d133300880630850921d2fda02",
+      "packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c",
+      "published_packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c",
+      "receipt_id": "7b19eba5880c44fea60483a9fe02211b",
+      "request_hash": "4b56fc10e378da1c62e1285d32b0458e2916441f136c335b61ccad6ebc577cf9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

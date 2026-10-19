@@ -27,5 +27,38 @@
     "definition_hash": "9e38a195ad0027692a3b3f057082fce7597593fbd0ee4cb3b1092ac34b0c1e78",
     "packet_hash": "74ed46d72fa2562f37640356a7b888f5997cee003809dd1a6b6de1d4de851e85"
   },
-  "hash": "1cc04f5dc17d39f6a90f67921e55fb18ad08f131dcac424dd548c8cadabd006a"
+  "hash": "1cc04f5dc17d39f6a90f67921e55fb18ad08f131dcac424dd548c8cadabd006a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds unsupported detail that positive reinforcement involves giving a reward after the behavior; the packet only says it is for a desired action, behavior, or response.",
+        "The explanatory phrase 'to encourage it' is not stated in the packet and goes beyond the supplied wording."
+      ],
+      "definition_hash": "9e38a195ad0027692a3b3f057082fce7597593fbd0ee4cb3b1092ac34b0c1e78",
+      "packet_hash": "74ed46d72fa2562f37640356a7b888f5997cee003809dd1a6b6de1d4de851e85",
+      "published_packet_hash": "74ed46d72fa2562f37640356a7b888f5997cee003809dd1a6b6de1d4de851e85",
+      "receipt_id": "8fa1658ded584e019d98b2869c339696",
+      "request_hash": "043fb96c8b5779e863e3f6bad023ad5687b6af230592220227cf41d3c2f22acc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only defines “Positive reinforcement for a desired action, behavior or response” and does not explicitly state that it involves “giving a reward after” the action/behavior.",
+        "The packet does not explicitly support the claims that the purpose is “to encourage it.”",
+        "Because key elements of the definition (timing “after” and intent “to encourage”) are not present in the provided packet text, the definition is not fully supported."
+      ],
+      "definition_hash": "9e38a195ad0027692a3b3f057082fce7597593fbd0ee4cb3b1092ac34b0c1e78",
+      "packet_hash": "74ed46d72fa2562f37640356a7b888f5997cee003809dd1a6b6de1d4de851e85",
+      "published_packet_hash": "74ed46d72fa2562f37640356a7b888f5997cee003809dd1a6b6de1d4de851e85",
+      "receipt_id": "a5a94ac042364674b4327c9a3d92ae46",
+      "request_hash": "34d350958cbba8341ff2c8f70cb23ba2606bfb8f3eb40fc71270ed8560753284",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

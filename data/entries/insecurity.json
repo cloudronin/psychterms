@@ -27,5 +27,33 @@
     "definition_hash": "aaf6234bec1201c387dd8de42d14f5181ef8ef772225f2f496866b62500f0134",
     "packet_hash": "7354df43296427a17fb033a8daa353662e0f2540144e47da065d8b2624446461"
   },
-  "hash": "bba4f4c5baf32ac232987f241eb576d7c8a6252b6ba9bad3d6149a5bc746b5f5"
+  "hash": "bba4f4c5baf32ac232987f241eb576d7c8a6252b6ba9bad3d6149a5bc746b5f5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines insecurity as \"Uncertainty or anxiety that things are not fixed or safe.\" The provided definition adds \"not stable\" in addition to \"not fixed or safe,\" which is not supported by the packet text."
+      ],
+      "definition_hash": "aaf6234bec1201c387dd8de42d14f5181ef8ef772225f2f496866b62500f0134",
+      "packet_hash": "7354df43296427a17fb033a8daa353662e0f2540144e47da065d8b2624446461",
+      "published_packet_hash": "7354df43296427a17fb033a8daa353662e0f2540144e47da065d8b2624446461",
+      "receipt_id": "670c823ccde54887b03d9c38660f165c",
+      "request_hash": "ad3ba750948e376b5870dc699a5b3376d14180dc3b4fb8faa7bd0c5d3cba0ad1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aaf6234bec1201c387dd8de42d14f5181ef8ef772225f2f496866b62500f0134",
+      "packet_hash": "7354df43296427a17fb033a8daa353662e0f2540144e47da065d8b2624446461",
+      "published_packet_hash": "7354df43296427a17fb033a8daa353662e0f2540144e47da065d8b2624446461",
+      "receipt_id": "45774727698849799396b6035201f64c",
+      "request_hash": "b619d8f9332090fc32d1e4c390ca34f1a554218d16483c4bd045b7b11a280902",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,36 @@
     "definition_hash": "fa35d8dc9afbc6c39a63604645d24ef0da6374851bba1e8c06ff8a5da1ab88b6",
     "packet_hash": "06f3722e982b92df02195c43e6fa3e2ff0faf639244f0679694f4fc680fd7e70"
   },
-  "hash": "793e6a9332e56045111045c959ff6f417bc5d67c0e6e4a72155ddb3d505bb748"
+  "hash": "793e6a9332e56045111045c959ff6f417bc5d67c0e6e4a72155ddb3d505bb748",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports pimozide as a dopamine antagonist with antipsychotic property, but it does not say that Orap is the brand name for pimozide.",
+        "The definition is otherwise close to the packet, but the unsupported brand-name claim makes it fail as written."
+      ],
+      "definition_hash": "fa35d8dc9afbc6c39a63604645d24ef0da6374851bba1e8c06ff8a5da1ab88b6",
+      "packet_hash": "06f3722e982b92df02195c43e6fa3e2ff0faf639244f0679694f4fc680fd7e70",
+      "published_packet_hash": "06f3722e982b92df02195c43e6fa3e2ff0faf639244f0679694f4fc680fd7e70",
+      "receipt_id": "f6ec81f0dd20495d999edf5044f46043",
+      "request_hash": "1c723ba01a77fd27ed6950d5b6320dc2d1d24fb8fe4e1eeee81d2aa09a21d0a3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that “Orap” is the brand name for pimozide; it only describes a dopamine antagonist/antipsychotic property associated with pimozide."
+      ],
+      "definition_hash": "fa35d8dc9afbc6c39a63604645d24ef0da6374851bba1e8c06ff8a5da1ab88b6",
+      "packet_hash": "06f3722e982b92df02195c43e6fa3e2ff0faf639244f0679694f4fc680fd7e70",
+      "published_packet_hash": "06f3722e982b92df02195c43e6fa3e2ff0faf639244f0679694f4fc680fd7e70",
+      "receipt_id": "2b1e0642ca4640d2a6920f1df2d26124",
+      "request_hash": "1817dc817d9ff6d0c99a91a293d7f36e48b872476965ac23d78a9ef44d8610bb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

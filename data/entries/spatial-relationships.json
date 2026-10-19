@@ -27,5 +27,34 @@
     "definition_hash": "2a0461fdaaf58a01d82c96fd6e7554b00d7aa87ad86799ec8d6e87d5febdd030",
     "packet_hash": "1636ca7aa5c9c28240fe42e3a85ebb62b2aa4ef4d518f0fdd0bf743d893b7458"
   },
-  "hash": "65fb9b2d13dc9dc2a91fbbf90ec4874a0ef77aab987f062984745eec6ab394e3"
+  "hash": "65fb9b2d13dc9dc2a91fbbf90ec4874a0ef77aab987f062984745eec6ab394e3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2a0461fdaaf58a01d82c96fd6e7554b00d7aa87ad86799ec8d6e87d5febdd030",
+      "packet_hash": "1636ca7aa5c9c28240fe42e3a85ebb62b2aa4ef4d518f0fdd0bf743d893b7458",
+      "published_packet_hash": "1636ca7aa5c9c28240fe42e3a85ebb62b2aa4ef4d518f0fdd0bf743d893b7458",
+      "receipt_id": "319a53391de448f280dc0c63b04c5144",
+      "request_hash": "f303f58b6088018b4aaf83d7cbfbada6da8f22c50b0a71cb5b89e0c5841cf8ab",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported wording by describing spatial relationships as connections “across geographic or physical locations”; the packet only says the methods account for spatial autocorrelation, regional variation, and spatial dependency, and provide information on spatial relationships among variables.",
+        "It conflates the descriptor with a broader conceptual definition rather than staying close to the packet’s sense of a regression-analysis method that addresses spatial dependency and variation."
+      ],
+      "definition_hash": "2a0461fdaaf58a01d82c96fd6e7554b00d7aa87ad86799ec8d6e87d5febdd030",
+      "packet_hash": "1636ca7aa5c9c28240fe42e3a85ebb62b2aa4ef4d518f0fdd0bf743d893b7458",
+      "published_packet_hash": "1636ca7aa5c9c28240fe42e3a85ebb62b2aa4ef4d518f0fdd0bf743d893b7458",
+      "receipt_id": "ccc00932c7224c3c9e8e70c6f9ec3a88",
+      "request_hash": "8f189e5a7ae2d206a898fca776f7f252cc656caffd618bf8e486dbdb53f96684",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

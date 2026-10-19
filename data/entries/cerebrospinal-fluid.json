@@ -27,5 +27,36 @@
     "definition_hash": "bc999ddeae1015939927a646a15effb88d28a938b255771cd452a9249c3f9c37",
     "packet_hash": "501e6b1b1f88235bd0cf224d852979c4258f583eb3f2e293750fbf111c0dac82"
   },
-  "hash": "342f1a97f5b643e2cf6642031eedc032508567a5d0232a301b0d28d90bc65e4f"
+  "hash": "342f1a97f5b643e2cf6642031eedc032508567a5d0232a301b0d28d90bc65e4f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states cerebrospinal fluid is “clear,” but the provided packet only describes it as a “watery fluid” and does not mention clarity/being clear."
+      ],
+      "definition_hash": "bc999ddeae1015939927a646a15effb88d28a938b255771cd452a9249c3f9c37",
+      "packet_hash": "501e6b1b1f88235bd0cf224d852979c4258f583eb3f2e293750fbf111c0dac82",
+      "published_packet_hash": "501e6b1b1f88235bd0cf224d852979c4258f583eb3f2e293750fbf111c0dac82",
+      "receipt_id": "4cde2892620c4e15929be71a5857fdb2",
+      "request_hash": "a4185826b935cad5b70f5ffe6dfa2bc8016f6c007a529ecfe080746c014475b3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that cerebrospinal fluid is \"clear\"; the packet supports only that it is a watery fluid.",
+        "The rest of the definition is supported, but the added unsupported property makes it fail under the source-only rule."
+      ],
+      "definition_hash": "bc999ddeae1015939927a646a15effb88d28a938b255771cd452a9249c3f9c37",
+      "packet_hash": "501e6b1b1f88235bd0cf224d852979c4258f583eb3f2e293750fbf111c0dac82",
+      "published_packet_hash": "501e6b1b1f88235bd0cf224d852979c4258f583eb3f2e293750fbf111c0dac82",
+      "receipt_id": "4f5458472516439999b4cf66351eac3d",
+      "request_hash": "b621ca4e874dbe39752af010d489a4302a670e5463101b0c731a8548e06a5d96",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

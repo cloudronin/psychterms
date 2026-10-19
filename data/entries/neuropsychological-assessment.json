@@ -27,5 +27,34 @@
     "definition_hash": "37ae1298553a26121c48f6e8106993c16770fff78d51663b9facc26a44e8cf9b",
     "packet_hash": "293feaefee88950daaf203a12f08984d55d11b801a8030b047b7d59995359fc6"
   },
-  "hash": "b53ddf597981531bbe88a3855fd137d188ac026c78953631d3e6acc583d942b5"
+  "hash": "b53ddf597981531bbe88a3855fd137d188ac026c78953631d3e6acc583d942b5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase \"brain injury\" is not supported by the packet, which says \"brain damage\" instead.",
+        "The definition is otherwise close, but it should not add unsupported synonyms or broaden the source wording."
+      ],
+      "definition_hash": "37ae1298553a26121c48f6e8106993c16770fff78d51663b9facc26a44e8cf9b",
+      "packet_hash": "293feaefee88950daaf203a12f08984d55d11b801a8030b047b7d59995359fc6",
+      "published_packet_hash": "293feaefee88950daaf203a12f08984d55d11b801a8030b047b7d59995359fc6",
+      "receipt_id": "310439a8f1124ef2961da4114d9768f2",
+      "request_hash": "dbcd3fcdad003c944dfaac43d49a3c568c40f4174a586aaa9a064a0d5304fb6e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "37ae1298553a26121c48f6e8106993c16770fff78d51663b9facc26a44e8cf9b",
+      "packet_hash": "293feaefee88950daaf203a12f08984d55d11b801a8030b047b7d59995359fc6",
+      "published_packet_hash": "293feaefee88950daaf203a12f08984d55d11b801a8030b047b7d59995359fc6",
+      "receipt_id": "1d374e68f38b460184ec923d2c18de2d",
+      "request_hash": "9e25788cef9702c0ea1fcb03ca33e8fed6acb779d33d4fee9e4e37fb4717d72a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

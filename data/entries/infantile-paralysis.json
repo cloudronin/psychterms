@@ -27,5 +27,38 @@
     "definition_hash": "5cf210cfbfe6fb6cd634d12135b8a1893c159e7cfd47803a57eeddf5d4f50f25",
     "packet_hash": "b12d94442210dcc10ec83bfac3798f14b962471657f1841cddf3c85c9b2ef772"
   },
-  "hash": "3a184b02dbf8d24eee16a9533388322991cb58e42fcbf229a3b357ea147d07d2"
+  "hash": "3a184b02dbf8d24eee16a9533388322991cb58e42fcbf229a3b357ea147d07d2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “infantile paralysis” is a historical name for poliomyelitis, but it does not support the added explanation “degenerative wasting of the front horns of the spinal cord.” The source wording is “degenerative atrophy of the anterior cornea,” which is not the same phrase.",
+        "The definition goes beyond the packet by stating that the condition is “presented as a diseased condition of the spinal cord occurring in children.” The source only says poliomyelitis occurs as “infantile paralysis” and does not frame it in that full way."
+      ],
+      "definition_hash": "5cf210cfbfe6fb6cd634d12135b8a1893c159e7cfd47803a57eeddf5d4f50f25",
+      "packet_hash": "b12d94442210dcc10ec83bfac3798f14b962471657f1841cddf3c85c9b2ef772",
+      "published_packet_hash": "b12d94442210dcc10ec83bfac3798f14b962471657f1841cddf3c85c9b2ef772",
+      "receipt_id": "81a76030ad4f448196f2d3550266b1b9",
+      "request_hash": "a265c95826e62edca674843a7f245023317e04de05ccebeb3f31ddadf6650e31",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “infantile paralysis” is a name used for poliomyelitis (it states: “Poliomyelitis, or degenerative atrophy of the anterior cornea, occurs as 'infantile paralysis'…”), but the definition’s added phrasing “degenerative wasting of the front horns of the spinal cord” is not supported by the packet.",
+        "The packet does not describe a “front horns” spinal-cord mechanism; it describes a “degenerative atrophy of the anterior cornea,” and provides other general pathology of the spinal cord.",
+        "The definition claims the condition is “occurring in children,” but the packet only labels “chronic anterior poliomyelitis” as occurring in adults and does not explicitly state that “infantile paralysis” occurs in children."
+      ],
+      "definition_hash": "5cf210cfbfe6fb6cd634d12135b8a1893c159e7cfd47803a57eeddf5d4f50f25",
+      "packet_hash": "b12d94442210dcc10ec83bfac3798f14b962471657f1841cddf3c85c9b2ef772",
+      "published_packet_hash": "b12d94442210dcc10ec83bfac3798f14b962471657f1841cddf3c85c9b2ef772",
+      "receipt_id": "57eb5bb2a72d45dba9c7a3706e5b6c43",
+      "request_hash": "dd8461d937e935a2f338bd94ba5423d71cd80bd856109cffac84bd6b09819f45",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

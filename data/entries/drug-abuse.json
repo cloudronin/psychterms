@@ -27,5 +27,34 @@
     "definition_hash": "acb83cf10bf885427241ab0bfbfbd237d41c115c86942ec849619c2a9be1c6d8",
     "packet_hash": "af9b4a092c1c1639760edf248e1a2fc58cf743c8d990e0b85fa97d80eca36e59"
   },
-  "hash": "04722b758d9c41a2426cf18769bd8e26c51cda80b97dec601e0b576110d4e7f0"
+  "hash": "04722b758d9c41a2426cf18769bd8e26c51cda80b97dec601e0b576110d4e7f0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "acb83cf10bf885427241ab0bfbfbd237d41c115c86942ec849619c2a9be1c6d8",
+      "packet_hash": "af9b4a092c1c1639760edf248e1a2fc58cf743c8d990e0b85fa97d80eca36e59",
+      "published_packet_hash": "af9b4a092c1c1639760edf248e1a2fc58cf743c8d990e0b85fa97d80eca36e59",
+      "receipt_id": "f48a293db39e4a629c7b85589bbc0ace",
+      "request_hash": "ae7eb32907eccabe6b9a4a05c5eb96a7a6a556ea3a6f6559fcf452a2b0369695",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “purposes” and “directions” wording that is not a direct match to the packet’s phrasing (“reason other than which it was intended or in a manner or in quantities other than directed”).",
+        "The definition states two linked criteria (“purposes other than intended” OR “ways or amounts that differ from directions”), but the packet does not mention “purposes” explicitly—only “a reason,” so one substantive claim is not supported verbatim by the packet."
+      ],
+      "definition_hash": "acb83cf10bf885427241ab0bfbfbd237d41c115c86942ec849619c2a9be1c6d8",
+      "packet_hash": "af9b4a092c1c1639760edf248e1a2fc58cf743c8d990e0b85fa97d80eca36e59",
+      "published_packet_hash": "af9b4a092c1c1639760edf248e1a2fc58cf743c8d990e0b85fa97d80eca36e59",
+      "receipt_id": "8ce42521d72b43e08c942c60b96d8436",
+      "request_hash": "0484b05cf068cbc7df5c944378a1214c66cbadf5e7bcdee07ef64674d744f983",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

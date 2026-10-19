@@ -27,5 +27,34 @@
     "definition_hash": "02dcfd71d90f14b72bcefbf5ddb10342067c17658c1a660e0ef7d096a7c7016a",
     "packet_hash": "fcf33d63d6c318d245ad81231d56ba2c03aecc1863c80df202cdcf1a97243e36"
   },
-  "hash": "e011d3fbf154a438a031b2d9c9e66a1aa6f9120c13e3949ddc0705c06f920caa"
+  "hash": "e011d3fbf154a438a031b2d9c9e66a1aa6f9120c13e3949ddc0705c06f920caa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "02dcfd71d90f14b72bcefbf5ddb10342067c17658c1a660e0ef7d096a7c7016a",
+      "packet_hash": "fcf33d63d6c318d245ad81231d56ba2c03aecc1863c80df202cdcf1a97243e36",
+      "published_packet_hash": "fcf33d63d6c318d245ad81231d56ba2c03aecc1863c80df202cdcf1a97243e36",
+      "receipt_id": "a2fdaa1cabfc4a48819672369daa244d",
+      "request_hash": "a4a0fd718a8c9a740beac3523e91562fe3650aeab6e6be1c8f387eba1293759c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet explicitly states that “the optical power of any lens is the reciprocal of its focal length,” but it does not provide the claim that “focal length is the distance that characterizes a lens’s focusing action.”",
+        "The definition’s first sentence includes a general conceptual characterization of focal length that is not directly supported by the supplied packet text."
+      ],
+      "definition_hash": "02dcfd71d90f14b72bcefbf5ddb10342067c17658c1a660e0ef7d096a7c7016a",
+      "packet_hash": "fcf33d63d6c318d245ad81231d56ba2c03aecc1863c80df202cdcf1a97243e36",
+      "published_packet_hash": "fcf33d63d6c318d245ad81231d56ba2c03aecc1863c80df202cdcf1a97243e36",
+      "receipt_id": "f464f2fad81048ea9d60d5b7a284a27a",
+      "request_hash": "368351fcdaac542c7750ae305b5b61c5ea80a0e5aa69d6f1f9a590075060aafc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

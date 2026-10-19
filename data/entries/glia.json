@@ -27,5 +27,33 @@
     "definition_hash": "beaba9ba2126c5b36e3dfc2dab46915e8a8332e63a2a7b8a0608634cbad60061",
     "packet_hash": "e01dc46d905d63763ed1a2630b6adec2f5b96f7dbc8dc02bceb35918cd90d2fc"
   },
-  "hash": "0f08102bac42cfe781fdda6c9fd1312edd3739a711ab0005742cfb35f1b0445b"
+  "hash": "0f08102bac42cfe781fdda6c9fd1312edd3739a711ab0005742cfb35f1b0445b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "beaba9ba2126c5b36e3dfc2dab46915e8a8332e63a2a7b8a0608634cbad60061",
+      "packet_hash": "e01dc46d905d63763ed1a2630b6adec2f5b96f7dbc8dc02bceb35918cd90d2fc",
+      "published_packet_hash": "e01dc46d905d63763ed1a2630b6adec2f5b96f7dbc8dc02bceb35918cd90d2fc",
+      "receipt_id": "36ad40823c76425089a2fccb8caaee00",
+      "request_hash": "f35030b78da0e9ff01f5b359a6063f322f9a28be63ed0a02e46041a31521571c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that glia “support and protect nerve tissue,” but the packet only explicitly mentions providing physical support and responding to injury; it does not explicitly support the specific wording “protect nerve tissue.”"
+      ],
+      "definition_hash": "beaba9ba2126c5b36e3dfc2dab46915e8a8332e63a2a7b8a0608634cbad60061",
+      "packet_hash": "e01dc46d905d63763ed1a2630b6adec2f5b96f7dbc8dc02bceb35918cd90d2fc",
+      "published_packet_hash": "e01dc46d905d63763ed1a2630b6adec2f5b96f7dbc8dc02bceb35918cd90d2fc",
+      "receipt_id": "9140762f31c34632a7c4e6fe308db053",
+      "request_hash": "87a005f573c54ca18fc24f546394635382cf48fa1f6fa39bcedeea0a27655d39",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

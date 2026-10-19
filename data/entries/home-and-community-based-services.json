@@ -27,5 +27,34 @@
     "definition_hash": "a41642e94c42a077a1cf95f2192cd73ee8bafa2ce0cf22665aa55cc307e22403",
     "packet_hash": "48e33205e894ccdfe7d4d511ef2a4c78b1cbe6aa8345930772c48d43eb3c5863"
   },
-  "hash": "5e9c8375f7ecbd212fa6834b50cca06bb710b5e3d1a255af8b5a584bf37b2cdc"
+  "hash": "5e9c8375f7ecbd212fa6834b50cca06bb710b5e3d1a255af8b5a584bf37b2cdc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “home and community-based services” as a standalone term; it describes a Social Managed Healthcare Plan organization that includes such services among its benefits.",
+        "The listed examples (homemaking, personal care, adult day care, medical transportation) are supported by the packet, but the opening claim that HCBS are themselves the subject of the definition is not supported by the source text."
+      ],
+      "definition_hash": "a41642e94c42a077a1cf95f2192cd73ee8bafa2ce0cf22665aa55cc307e22403",
+      "packet_hash": "48e33205e894ccdfe7d4d511ef2a4c78b1cbe6aa8345930772c48d43eb3c5863",
+      "published_packet_hash": "48e33205e894ccdfe7d4d511ef2a4c78b1cbe6aa8345930772c48d43eb3c5863",
+      "receipt_id": "ca4cc86598dd4ac98e50b8d60263d787",
+      "request_hash": "c071b11427e68781b077a71551b856be77d21a9ba4b6fcf4301c98edf304b308",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a41642e94c42a077a1cf95f2192cd73ee8bafa2ce0cf22665aa55cc307e22403",
+      "packet_hash": "48e33205e894ccdfe7d4d511ef2a4c78b1cbe6aa8345930772c48d43eb3c5863",
+      "published_packet_hash": "48e33205e894ccdfe7d4d511ef2a4c78b1cbe6aa8345930772c48d43eb3c5863",
+      "receipt_id": "bc93c4e981dc4c47953efbcd9b50ab42",
+      "request_hash": "646274f0aea82d819c87ff633d6600f8c1a3683c5b2940c4e11c641ea8912992",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

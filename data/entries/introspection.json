@@ -27,5 +27,34 @@
     "definition_hash": "22e86061165e44cde0ca9144b310aa7120e55fc6f1a462d844962ffadb8221c9",
     "packet_hash": "6f27624492cd8b8327907234be39c13e3b924172eff3166b80c8847540282e13"
   },
-  "hash": "adec70d52b8f07de3a45985b99e8d4973081d066493181031e6b98e932c506ac"
+  "hash": "adec70d52b8f07de3a45985b99e8d4973081d066493181031e6b98e932c506ac",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "22e86061165e44cde0ca9144b310aa7120e55fc6f1a462d844962ffadb8221c9",
+      "packet_hash": "6f27624492cd8b8327907234be39c13e3b924172eff3166b80c8847540282e13",
+      "published_packet_hash": "6f27624492cd8b8327907234be39c13e3b924172eff3166b80c8847540282e13",
+      "receipt_id": "a284616397bb40febe562341e0a586d9",
+      "request_hash": "c076932fab299d238214d9d0e41f53ce9977b3eacd81b62fe7fc0db9ff95509d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence is supported, but the second sentence adds unsupported framing (“In historical psychology”) that is not stated in the source.",
+        "“inner observation” is not given in the source text; the source mentions reflection, inner sense, inner perception, and self-observation in other languages, but not that English phrasing."
+      ],
+      "definition_hash": "22e86061165e44cde0ca9144b310aa7120e55fc6f1a462d844962ffadb8221c9",
+      "packet_hash": "6f27624492cd8b8327907234be39c13e3b924172eff3166b80c8847540282e13",
+      "published_packet_hash": "6f27624492cd8b8327907234be39c13e3b924172eff3166b80c8847540282e13",
+      "receipt_id": "6b169f32b5524994ae1245186b48b207",
+      "request_hash": "1acb26876b67c06853dc8d52a52e3e03853e2d234a611ce4d70e1999e2bb2915",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

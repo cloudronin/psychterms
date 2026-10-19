@@ -27,5 +27,34 @@
     "definition_hash": "702c729bce4459075c0cfd47fe0b8af9e10ae2bdf8b2a0b26c7e1a9f8dc8e3ca",
     "packet_hash": "a2fd9074154257a935901c9d00d4e617cc503d6aad45b6a92a02ca240f87abe0"
   },
-  "hash": "16d46bbb1505e46e1455e6df4ca2fef50296fc8413c408e4145ca622e76f5745"
+  "hash": "16d46bbb1505e46e1455e6df4ca2fef50296fc8413c408e4145ca622e76f5745",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "702c729bce4459075c0cfd47fe0b8af9e10ae2bdf8b2a0b26c7e1a9f8dc8e3ca",
+      "packet_hash": "a2fd9074154257a935901c9d00d4e617cc503d6aad45b6a92a02ca240f87abe0",
+      "published_packet_hash": "a2fd9074154257a935901c9d00d4e617cc503d6aad45b6a92a02ca240f87abe0",
+      "receipt_id": "6f28eb0e9b8e43149b45f54541f74aea",
+      "request_hash": "960168786e73469a2571388fd06b34a870acf8ea463fb583c1a96b44ef07aa55",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the assessment includes “abstract thinking,” but the packet lists “conceptual thinking” rather than abstract thinking explicitly, so this component is not fully supported by the provided source text.",
+        "The definition’s phrasing “visuospatial construction” is not the exact wording in the packet (which says “visuoconstructional skills”); while likely related, the definition uses different terminology without explicit support for that exact sense in the packet."
+      ],
+      "definition_hash": "702c729bce4459075c0cfd47fe0b8af9e10ae2bdf8b2a0b26c7e1a9f8dc8e3ca",
+      "packet_hash": "a2fd9074154257a935901c9d00d4e617cc503d6aad45b6a92a02ca240f87abe0",
+      "published_packet_hash": "a2fd9074154257a935901c9d00d4e617cc503d6aad45b6a92a02ca240f87abe0",
+      "receipt_id": "7b4ba3b26228422daf04075edc32202a",
+      "request_hash": "1c096329e4c622e9b86813e179975a6a156175683eea986e1443867e37df748f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

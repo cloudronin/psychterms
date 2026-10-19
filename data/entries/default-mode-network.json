@@ -27,5 +27,34 @@
     "definition_hash": "c23a169d40cd7009f0fdae1566fabb1fb360702b140a352091b57f879c24a46f",
     "packet_hash": "4c30a2b0776639f57c9fa685b1127684dfc3a2f4d7a4f3c1ccb93dd1522ecbb7"
   },
-  "hash": "ccffc0b3954ae759155febdc6be39886bcf788ff11bfb92c8b5fe5b486686ed5"
+  "hash": "ccffc0b3954ae759155febdc6be39886bcf788ff11bfb92c8b5fe5b486686ed5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c23a169d40cd7009f0fdae1566fabb1fb360702b140a352091b57f879c24a46f",
+      "packet_hash": "4c30a2b0776639f57c9fa685b1127684dfc3a2f4d7a4f3c1ccb93dd1522ecbb7",
+      "published_packet_hash": "4c30a2b0776639f57c9fa685b1127684dfc3a2f4d7a4f3c1ccb93dd1522ecbb7",
+      "receipt_id": "4ad88d0594ad49b2b516ddd8a06090e2",
+      "request_hash": "a7a95e858e064a79741c07ea799262c2028c40116f3aaa619d4eaed223fa9632",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “goal-directed behavior,” but the provided packet only mentions “task- or attention-oriented behavioral activities” and does not support “goal-directed” specifically.",
+        "All other core elements (functionally connected brain regions; more active at rest; deactivated/less active during task/attention-oriented activities; cognitive imaging often using fMRI) are supported by the packet."
+      ],
+      "definition_hash": "c23a169d40cd7009f0fdae1566fabb1fb360702b140a352091b57f879c24a46f",
+      "packet_hash": "4c30a2b0776639f57c9fa685b1127684dfc3a2f4d7a4f3c1ccb93dd1522ecbb7",
+      "published_packet_hash": "4c30a2b0776639f57c9fa685b1127684dfc3a2f4d7a4f3c1ccb93dd1522ecbb7",
+      "receipt_id": "81c6152d08d64073a32896a9794c4a54",
+      "request_hash": "714db00f5927f1f3e2bd076b8cb0e4b8bb01f6c836397f409e4e3c78a5687b1b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "e9324336c24ac47222a010864eea25357f91a2a6e4954c32c30ff39c77752384",
     "packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786"
   },
-  "hash": "e6fcdc069beb357b64c7abc2ecba3ee28099d9d7ee6927be7c7febfb6a0bc0c2"
+  "hash": "e6fcdc069beb357b64c7abc2ecba3ee28099d9d7ee6927be7c7febfb6a0bc0c2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e9324336c24ac47222a010864eea25357f91a2a6e4954c32c30ff39c77752384",
+      "packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786",
+      "published_packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786",
+      "receipt_id": "b8532c96c93a4526ab806e47dd8b8d42",
+      "request_hash": "06472c027fa56b7b1024d9bdc7b7ad9d98fe25d111d989c0e58d8a88b629f181",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition does not explicitly state “biting the nails” (it only says “habitual body manipulation”).",
+        "The packet supports “an expression of tension,” but it does not support the additional phrasing “a sign or expression of tension.”"
+      ],
+      "definition_hash": "e9324336c24ac47222a010864eea25357f91a2a6e4954c32c30ff39c77752384",
+      "packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786",
+      "published_packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786",
+      "receipt_id": "2a32eed2ec4a4306a51c13ddb3d6da8f",
+      "request_hash": "15c28b29570fcb5cef27a182735d4d688e9c14143bb59a7ebf71ec166f3be5d5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

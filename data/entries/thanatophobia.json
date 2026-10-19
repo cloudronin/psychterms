@@ -27,5 +27,37 @@
     "definition_hash": "bb8f49f57b181516ebe6c8f71f037702a84262f43ac754935c3cd2c1563573bc",
     "packet_hash": "117805375289791f8323b5afdcf20338026084f05c1e2901853f3b8aadd73195"
   },
-  "hash": "f152c4dee7c8821962b2f8e99ce48648ecb952a30878a4a6b32713d8880d5566"
+  "hash": "f152c4dee7c8821962b2f8e99ce48648ecb952a30878a4a6b32713d8880d5566",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “a morbid fear of death,” but not specifically “a dread of dying.”",
+        "The second sentence adds interpretive wording (“abnormal or pathological”) that is not stated in the source, which only says “morbid fear of death.”"
+      ],
+      "definition_hash": "bb8f49f57b181516ebe6c8f71f037702a84262f43ac754935c3cd2c1563573bc",
+      "packet_hash": "117805375289791f8323b5afdcf20338026084f05c1e2901853f3b8aadd73195",
+      "published_packet_hash": "117805375289791f8323b5afdcf20338026084f05c1e2901853f3b8aadd73195",
+      "receipt_id": "10345001f39e46beae9bcdca45077e25",
+      "request_hash": "56ea3bf96ef58a5e69067c1b8afd100074dfed69e1dd4a23eb87e68e761bb326",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a second sense (“abnormal or pathological dread of dying”), but the packet only defines thanatophobia as “A morbid fear of death” and does not state this fear is specifically an abnormal/pathological dread of dying.",
+        "The definition text is longer/less constrained than required (it includes an extra historical-sense characterization not supported by the packet)."
+      ],
+      "definition_hash": "bb8f49f57b181516ebe6c8f71f037702a84262f43ac754935c3cd2c1563573bc",
+      "packet_hash": "117805375289791f8323b5afdcf20338026084f05c1e2901853f3b8aadd73195",
+      "published_packet_hash": "117805375289791f8323b5afdcf20338026084f05c1e2901853f3b8aadd73195",
+      "receipt_id": "1cc03e04d9604d96b51c8f75e2deb8e2",
+      "request_hash": "48c366e34d7607473f50a8233de6567bbd4e70a49ada400eeb7949d4b14490a9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

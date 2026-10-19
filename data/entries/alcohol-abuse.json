@@ -27,5 +27,34 @@
     "definition_hash": "0188c5bd144d77ec31e9dd575fae5254128c398cde72f5ef22e4e6a5513dfe13",
     "packet_hash": "7eaa2a33ceca02d78098e65991b2e6f655ce2e3669b486f1c93cb98f622f45be"
   },
-  "hash": "5518cfc62cc6017fa9cc9cfb73383dd48b0881e63b3d632d359743a39da3fc6e"
+  "hash": "5518cfc62cc6017fa9cc9cfb73383dd48b0881e63b3d632d359743a39da3fc6e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0188c5bd144d77ec31e9dd575fae5254128c398cde72f5ef22e4e6a5513dfe13",
+      "packet_hash": "7eaa2a33ceca02d78098e65991b2e6f655ce2e3669b486f1c93cb98f622f45be",
+      "published_packet_hash": "7eaa2a33ceca02d78098e65991b2e6f655ce2e3669b486f1c93cb98f622f45be",
+      "receipt_id": "05bcf8171991466eb5782f2d6ecdfdb6",
+      "request_hash": "672c1a1fd5e7c60505ac3731fe33baf9dfac981aa4926c7b1cfc4b204c9dc20b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims alcohol abuse “go[es] beyond moderate consumption,” but the packet defines it as “use of alcoholic beverages to excess” without mentioning “moderate” consumption.",
+        "The phrase “either during single episodes such as binge drinking or as an ongoing pattern” is generally consistent with the packet’s “individual occasions (‘binge drinking’) or as a regular practice,” but because the definition contains at least one unsupported substantive claim (“beyond moderate consumption”), the definition cannot be passed."
+      ],
+      "definition_hash": "0188c5bd144d77ec31e9dd575fae5254128c398cde72f5ef22e4e6a5513dfe13",
+      "packet_hash": "7eaa2a33ceca02d78098e65991b2e6f655ce2e3669b486f1c93cb98f622f45be",
+      "published_packet_hash": "7eaa2a33ceca02d78098e65991b2e6f655ce2e3669b486f1c93cb98f622f45be",
+      "receipt_id": "c2dfaee4c47646e0b00b1012ca5e7bdb",
+      "request_hash": "349e9defa6e631a4962031b07b9f6db2ce95669b84f5a29c114e057e4ddbdb5c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

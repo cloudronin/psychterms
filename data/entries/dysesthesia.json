@@ -27,5 +27,34 @@
     "definition_hash": "f7535504a818419517a66c97cf9d6b86ec897f86cc48eb7ffdb18d335f201453",
     "packet_hash": "a45244c8d18c52c81ada6659442db92fc7ca4c9b68dae522d13d1bbf7917bf3b"
   },
-  "hash": "670b4bb4a40cff62ac5378e9fb7323417960f04806fcd1eaa759b73a61db8c2a"
+  "hash": "670b4bb4a40cff62ac5378e9fb7323417960f04806fcd1eaa759b73a61db8c2a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f7535504a818419517a66c97cf9d6b86ec897f86cc48eb7ffdb18d335f201453",
+      "packet_hash": "a45244c8d18c52c81ada6659442db92fc7ca4c9b68dae522d13d1bbf7917bf3b",
+      "published_packet_hash": "a45244c8d18c52c81ada6659442db92fc7ca4c9b68dae522d13d1bbf7917bf3b",
+      "receipt_id": "fb20406f1e9c4cc58fb4da1f129654b9",
+      "request_hash": "23393994b5f97b623890caaa88b9d31a749d6795c51fc45378133b7027792f8f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes dysesthesia as a disorder involving distortion of *sensory perception* and resulting in an abnormal/unpleasant sensation, which aligns with sensory/neurological domains rather than cognition.",
+        "Although the definition’s wording closely matches the packet text, the provided field (“cognition”) is not defensible given the packet content."
+      ],
+      "definition_hash": "f7535504a818419517a66c97cf9d6b86ec897f86cc48eb7ffdb18d335f201453",
+      "packet_hash": "a45244c8d18c52c81ada6659442db92fc7ca4c9b68dae522d13d1bbf7917bf3b",
+      "published_packet_hash": "a45244c8d18c52c81ada6659442db92fc7ca4c9b68dae522d13d1bbf7917bf3b",
+      "receipt_id": "247f54d5140d4a1e89e95f49ed3d8c15",
+      "request_hash": "cd038df94a4132def8f4e6bdc7df998b246c4185ff0c4344e82a20766813d0c1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

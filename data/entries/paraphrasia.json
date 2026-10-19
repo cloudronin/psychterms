@@ -27,5 +27,34 @@
     "definition_hash": "860c9630e96d7ec97070e8b749cddb5cf9b24f4a59dbc1e41de12b12e3163606",
     "packet_hash": "2da02f18f54fe86c6d2efa1ca08f96d3016468f2c4ecd691a25a9413b4c09811"
   },
-  "hash": "f678761ae76edee6d70dc490a96ba2bf20ec6b73601ef3cf6e5288a2bfd84bc8"
+  "hash": "f678761ae76edee6d70dc490a96ba2bf20ec6b73601ef3cf6e5288a2bfd84bc8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "860c9630e96d7ec97070e8b749cddb5cf9b24f4a59dbc1e41de12b12e3163606",
+      "packet_hash": "2da02f18f54fe86c6d2efa1ca08f96d3016468f2c4ecd691a25a9413b4c09811",
+      "published_packet_hash": "2da02f18f54fe86c6d2efa1ca08f96d3016468f2c4ecd691a25a9413b4c09811",
+      "receipt_id": "a8b433b3939d4730bea67bb5fe679c3c",
+      "request_hash": "4e46ec84959612d694ff876b7d737163dfb7fadd3cbf6f2d852d2046fb2dea41",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines **PARAPHRA SIA** as “**Incoherent speech**,” but it does **not** state that, in historical psychological usage, it referred to “disordered expression in speaking.”",
+        "Because the definition’s second sentence adds a meaning (“disordered expression in speaking”) that is not supported anywhere in the provided packet, the requested definition is not fully defensible from the supplied source."
+      ],
+      "definition_hash": "860c9630e96d7ec97070e8b749cddb5cf9b24f4a59dbc1e41de12b12e3163606",
+      "packet_hash": "2da02f18f54fe86c6d2efa1ca08f96d3016468f2c4ecd691a25a9413b4c09811",
+      "published_packet_hash": "2da02f18f54fe86c6d2efa1ca08f96d3016468f2c4ecd691a25a9413b4c09811",
+      "receipt_id": "2aa2e4c7b6074fc7b803187da2937e43",
+      "request_hash": "c1b45e697cbc966f53a86954602ad10533f31032a32002fcc0b0f0b303bafdfb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

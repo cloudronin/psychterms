@@ -27,5 +27,34 @@
     "definition_hash": "47cf8d105da7cf7a6b9d28ef3b3dbc385b6360f90bd51ca5baa351b773895e7f",
     "packet_hash": "823c5421e671029085869086e53ad150ed99057d33d4ddf7cd341d8b3e81eb02"
   },
-  "hash": "55fa851817425ae1a9a49afb027f50a7e590702015cf479f35636d48eed06bd6"
+  "hash": "55fa851817425ae1a9a49afb027f50a7e590702015cf479f35636d48eed06bd6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "47cf8d105da7cf7a6b9d28ef3b3dbc385b6360f90bd51ca5baa351b773895e7f",
+      "packet_hash": "823c5421e671029085869086e53ad150ed99057d33d4ddf7cd341d8b3e81eb02",
+      "published_packet_hash": "823c5421e671029085869086e53ad150ed99057d33d4ddf7cd341d8b3e81eb02",
+      "receipt_id": "220f2518de7a43139270c09b492d4e68",
+      "request_hash": "700386aa87d0bafceb668cd80c7b8bb2e02a7dccf10234d6555e548e67634d2c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided packet describes sepsis as a disease/syndrome (pathogenic microorganisms in the bloodstream with systemic reaction), not something belonging to the “cognition” field.",
+        "The definition’s “life-threatening condition” claim is not explicitly supported by the packet text (the packet states a rapidly progressing systemic reaction that may lead to shock and that it is a medical emergency)."
+      ],
+      "definition_hash": "47cf8d105da7cf7a6b9d28ef3b3dbc385b6360f90bd51ca5baa351b773895e7f",
+      "packet_hash": "823c5421e671029085869086e53ad150ed99057d33d4ddf7cd341d8b3e81eb02",
+      "published_packet_hash": "823c5421e671029085869086e53ad150ed99057d33d4ddf7cd341d8b3e81eb02",
+      "receipt_id": "fafb1086970c4ae3838ddc1a9caf615b",
+      "request_hash": "d4521547440783ebe1220743e691664f536103291edd1a2c693625108ccb05e1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

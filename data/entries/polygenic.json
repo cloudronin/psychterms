@@ -27,5 +27,34 @@
     "definition_hash": "bb07e8c7414fc6976e1c129a851441e6e48be1dabc4829cc8b6a511f00f1662c",
     "packet_hash": "bdacfd889eac7913c9358872f9647fc2080d87bd0b479b8e3bdbd53e70cda5a2"
   },
-  "hash": "501e8e75fca6b7cebca50f94eeec1ebb6a636ad3645bfc0fa269fd7f7949a947"
+  "hash": "501e8e75fca6b7cebca50f94eeec1ebb6a636ad3645bfc0fa269fd7f7949a947",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bb07e8c7414fc6976e1c129a851441e6e48be1dabc4829cc8b6a511f00f1662c",
+      "packet_hash": "bdacfd889eac7913c9358872f9647fc2080d87bd0b479b8e3bdbd53e70cda5a2",
+      "published_packet_hash": "bdacfd889eac7913c9358872f9647fc2080d87bd0b479b8e3bdbd53e70cda5a2",
+      "receipt_id": "cd5a23d8db3d4c9e89f673fd5a8f564e",
+      "request_hash": "70898252c475bb0bb54b067997209eea54a724335e8dbc92206234f96a87d42e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a genetic risk score / polygenic risk score sense, not the adjective “polygenic.”",
+        "The definition shifts the term to an estimate of genetic liability based on genotype profile and GWAS data; that meaning is not supported for the headword as given."
+      ],
+      "definition_hash": "bb07e8c7414fc6976e1c129a851441e6e48be1dabc4829cc8b6a511f00f1662c",
+      "packet_hash": "bdacfd889eac7913c9358872f9647fc2080d87bd0b479b8e3bdbd53e70cda5a2",
+      "published_packet_hash": "bdacfd889eac7913c9358872f9647fc2080d87bd0b479b8e3bdbd53e70cda5a2",
+      "receipt_id": "a60d8a7c8e9d4951bce4092748616da7",
+      "request_hash": "f375c92ab378609b70720aef5bc969d0c51a26e9e867d04087acc22d4d5af61c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

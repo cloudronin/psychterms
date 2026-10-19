@@ -27,5 +27,33 @@
     "definition_hash": "39c6ea612492bc73da33b50b73471288847cb54819f10e18af03a8f31a6187fa",
     "packet_hash": "8cdf39a51d81814e8b948157e2d5efe678b1c11a5a4a509d83fcdd2a31c4ba3f"
   },
-  "hash": "b8411061b75f5cb0da3f2a1f02d9ab02f41a99c026c30580b095e2e2c6c8174b"
+  "hash": "b8411061b75f5cb0da3f2a1f02d9ab02f41a99c026c30580b095e2e2c6c8174b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "39c6ea612492bc73da33b50b73471288847cb54819f10e18af03a8f31a6187fa",
+      "packet_hash": "8cdf39a51d81814e8b948157e2d5efe678b1c11a5a4a509d83fcdd2a31c4ba3f",
+      "published_packet_hash": "8cdf39a51d81814e8b948157e2d5efe678b1c11a5a4a509d83fcdd2a31c4ba3f",
+      "receipt_id": "95ca095cedc843c89b7a5d3a596bc5fe",
+      "request_hash": "da12478d3a61eb144864fdcce682810321579a8031426922618d5194c16f5946",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “sharply” (“severe, sharply localised pain”) but the source text states only “a severe localised pain in the head,” without “sharply.”"
+      ],
+      "definition_hash": "39c6ea612492bc73da33b50b73471288847cb54819f10e18af03a8f31a6187fa",
+      "packet_hash": "8cdf39a51d81814e8b948157e2d5efe678b1c11a5a4a509d83fcdd2a31c4ba3f",
+      "published_packet_hash": "8cdf39a51d81814e8b948157e2d5efe678b1c11a5a4a509d83fcdd2a31c4ba3f",
+      "receipt_id": "ab4178aad1c3465cbed90310c5dcb1fe",
+      "request_hash": "5b33df1591db58baa3c04e998b5f6177be59ae16deacc6bacf490429577c513f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

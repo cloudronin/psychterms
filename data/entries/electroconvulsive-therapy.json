@@ -27,5 +27,35 @@
     "definition_hash": "4e2bc1daf95ef194afe8440e9aea32ca1c96bb05ee98676328f6b5970c6740d0",
     "packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7"
   },
-  "hash": "5fffd6cea15dba45b358ad890f6d00eadd56e8cf09e42b0d3f4be4a83de686fe"
+  "hash": "5fffd6cea15dba45b358ad890f6d00eadd56e8cf09e42b0d3f4be4a83de686fe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4e2bc1daf95ef194afe8440e9aea32ca1c96bb05ee98676328f6b5970c6740d0",
+      "packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7",
+      "published_packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7",
+      "receipt_id": "2c13adf784c840bca3da54b8b318a7f3",
+      "request_hash": "fe252c82458f60cdbfea1a9efc60c4e89bb78003c66752804b004716009c5fa3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s field is given as \"diagnosis,\" but the packet characterizes electroconvulsive therapy as a treatment (“Electrically induced CONVULSIONS primarily used in the treatment…”), not a diagnostic label.",
+        "The definition states it “deliberately produces seizures,” but the packet text specifically says “Electrically induced CONVULSIONS”; “seizures” is not the exact terminology used in the packet.",
+        "The definition says it is used mainly for “severe mood disorders,” while the packet specifies “severe AFFECTIVE DISORDERS”; while closely related, the wording is not an exact match to the packet."
+      ],
+      "definition_hash": "4e2bc1daf95ef194afe8440e9aea32ca1c96bb05ee98676328f6b5970c6740d0",
+      "packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7",
+      "published_packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7",
+      "receipt_id": "46ee24ad3db643bc8608435330b97d59",
+      "request_hash": "6df0980571aae50433abd6b9c702e586a9ae870f185247d48ef9c76e31c5b353",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

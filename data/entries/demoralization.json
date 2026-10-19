@@ -27,5 +27,34 @@
     "definition_hash": "122c73c1b486c6c97ae74e1b30e70cbb9beccf4a4fb853cc72126137ef14cfa8",
     "packet_hash": "4e2f8b0fa68f49005ff18c3f90b01debd9da1bf4ee2c2b63f57341036efdfae1"
   },
-  "hash": "75e12b1ee994d0076ef9746092ad486e510d22872b7ea3937e2f0aaa5ac30efc"
+  "hash": "75e12b1ee994d0076ef9746092ad486e510d22872b7ea3937e2f0aaa5ac30efc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "122c73c1b486c6c97ae74e1b30e70cbb9beccf4a4fb853cc72126137ef14cfa8",
+      "packet_hash": "4e2f8b0fa68f49005ff18c3f90b01debd9da1bf4ee2c2b63f57341036efdfae1",
+      "published_packet_hash": "4e2f8b0fa68f49005ff18c3f90b01debd9da1bf4ee2c2b63f57341036efdfae1",
+      "receipt_id": "0ea8a81236ae4deba84ba304b99deb08",
+      "request_hash": "e7579697b8ff5a6fb201b070a787a0b168bcffe2e0febe6ec4732cc6cb1da769",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“bringing in of moral or mental disorder”) is supported by the packet, but the second sentence (“loss of orderly moral or mental functioning”) is not explicitly stated in the packet. The packet only defines demoralization as “The introduction of moral or mental disorder” and points to related terms (DISORDER (moral), ORDER (moral)) without describing a “loss of orderly” functioning.",
+        "Because the definition includes a substantive claim not supported by the supplied source packet, the definition is not defensible under the given rules."
+      ],
+      "definition_hash": "122c73c1b486c6c97ae74e1b30e70cbb9beccf4a4fb853cc72126137ef14cfa8",
+      "packet_hash": "4e2f8b0fa68f49005ff18c3f90b01debd9da1bf4ee2c2b63f57341036efdfae1",
+      "published_packet_hash": "4e2f8b0fa68f49005ff18c3f90b01debd9da1bf4ee2c2b63f57341036efdfae1",
+      "receipt_id": "f3bc037c1ab3453786367b0afb82097b",
+      "request_hash": "45b6ae6ee282aafaf12daf431284fec109e05f2db41468e8f26e9b42600dd265",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "ad86f8ea5877b259e8da8d069060549c953095206f262c0ef31c633de1270075",
     "packet_hash": "b9eb7fa684905a597ccd93a13a5ab4c203394fd89f9ca2a8036f26a58f2a69a0"
   },
-  "hash": "18614af29de8be507c5eda6f1482542027d728853489780b2ab01d8e8ef7ae69"
+  "hash": "18614af29de8be507c5eda6f1482542027d728853489780b2ab01d8e8ef7ae69",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ad86f8ea5877b259e8da8d069060549c953095206f262c0ef31c633de1270075",
+      "packet_hash": "b9eb7fa684905a597ccd93a13a5ab4c203394fd89f9ca2a8036f26a58f2a69a0",
+      "published_packet_hash": "b9eb7fa684905a597ccd93a13a5ab4c203394fd89f9ca2a8036f26a58f2a69a0",
+      "receipt_id": "b7179c72bb1844fbb4ac54ee4c2cfb86",
+      "request_hash": "20d2e6f8e21aab47a9e32648d706d2661e8ff647899c76a4bd7d6a916db13de5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the arithmetic mean is “found by combining values and dividing by how many there are,” but the packet only defines average as “the (arithmetic) mean” and does not mention the combine-and-divide method.",
+        "Because the first sentence includes an extra procedural description not present in the packet, the definition contains unsupported detail."
+      ],
+      "definition_hash": "ad86f8ea5877b259e8da8d069060549c953095206f262c0ef31c633de1270075",
+      "packet_hash": "b9eb7fa684905a597ccd93a13a5ab4c203394fd89f9ca2a8036f26a58f2a69a0",
+      "published_packet_hash": "b9eb7fa684905a597ccd93a13a5ab4c203394fd89f9ca2a8036f26a58f2a69a0",
+      "receipt_id": "e43e5db12a054ba9a4f0c2c620616751",
+      "request_hash": "47f3e65d492334e6a1ff8deda432939e40fdc4821633c4ecb50b6325f0f52116",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

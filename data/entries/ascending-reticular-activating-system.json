@@ -27,5 +27,35 @@
     "definition_hash": "42560713797ce5c82e45feeacd16c3f55affd341927c5f8e5beed30a16fcf6b3",
     "packet_hash": "6114965005057f5e8a10ec1b9d943a277edb9297017545850342c1bc9fd89b93"
   },
-  "hash": "50d2a27b0223fd0f12fd71f0539eb548f6aff331e2297e89666cfe2364b66e51"
+  "hash": "50d2a27b0223fd0f12fd71f0539eb548f6aff331e2297e89666cfe2364b66e51",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text is about flurazepam, a benzodiazepine drug, not a definition of the ascending reticular activating system itself.",
+        "The claim that the ascending reticular activating system is a central nervous system system involved in arousing the cortical and limbic parts of the brain is not stated as a definition in the packet; the packet only says flurazepam acts on GABA-A receptors in that system to block arousal.",
+        "The sentence about reducing activity through GABA-A receptors producing sedative and hypnotic effects shifts from the source term to drug mechanism and is not supported as the requested sense of the term."
+      ],
+      "definition_hash": "42560713797ce5c82e45feeacd16c3f55affd341927c5f8e5beed30a16fcf6b3",
+      "packet_hash": "6114965005057f5e8a10ec1b9d943a277edb9297017545850342c1bc9fd89b93",
+      "published_packet_hash": "6114965005057f5e8a10ec1b9d943a277edb9297017545850342c1bc9fd89b93",
+      "receipt_id": "282c18993f2b44fea1cf8dd37226eda1",
+      "request_hash": "e954ad2e44a4358a489e888f1ed7f211771a305c721858f54f3843c0befc95bb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "42560713797ce5c82e45feeacd16c3f55affd341927c5f8e5beed30a16fcf6b3",
+      "packet_hash": "6114965005057f5e8a10ec1b9d943a277edb9297017545850342c1bc9fd89b93",
+      "published_packet_hash": "6114965005057f5e8a10ec1b9d943a277edb9297017545850342c1bc9fd89b93",
+      "receipt_id": "6d63bb7dff4842ffbfb151dab09c22f2",
+      "request_hash": "ca91312ae969923a42e9bec973fa269faf94bc5aad68a7d9289afdf62927d700",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -31,5 +31,21 @@
     "published_packet_hash": "07f0ddfc0947ef8bd93c662b3f556c3ed6fec94043b5e8c34875ab2d11678af8"
   },
   "editorial_status": "human_review_pending",
-  "hash": "320df0a0fbb6f96f4cd2478557246744dd57ebe2cb337b4b2de1a6dcea71d85e"
+  "hash": "320df0a0fbb6f96f4cd2478557246744dd57ebe2cb337b4b2de1a6dcea71d85e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states: \"Awareness and understanding of one's own thought processes.\" The definition adds additional elements (“noticing and making sense of how you think”) that are not explicitly supported by the provided packet text."
+      ],
+      "definition_hash": "db69a0af7384d7263eba2a0924a34f00b2053930d12bfa72e42a3b33855dd274",
+      "packet_hash": "05d8a09e7d699dd1a7e180fa687c3c6ceb74ebf3c992fe9f2f5607b5f64ca5c5",
+      "published_packet_hash": "07f0ddfc0947ef8bd93c662b3f556c3ed6fec94043b5e8c34875ab2d11678af8",
+      "receipt_id": "ee12d353a7fb405390182003960c82a1",
+      "request_hash": "77f27b937a1f986dff48fef376fda32944d42b2b827e389147e515ce45d85dc1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "b7dc6deaaf1eb3c8c96a8be7bf51c6870683ca46a6a93e4ccdc034aa36ca3437",
     "packet_hash": "cee10b2d5c2f0571bc3be9ffdd3957ebb27a870b46937aa80cee9f49d633315a"
   },
-  "hash": "8f085a6384e72edac0ccb812400300f0ec60c98b7a710a7d6979f072c517e6ec"
+  "hash": "8f085a6384e72edac0ccb812400300f0ec60c98b7a710a7d6979f072c517e6ec",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b7dc6deaaf1eb3c8c96a8be7bf51c6870683ca46a6a93e4ccdc034aa36ca3437",
+      "packet_hash": "cee10b2d5c2f0571bc3be9ffdd3957ebb27a870b46937aa80cee9f49d633315a",
+      "published_packet_hash": "cee10b2d5c2f0571bc3be9ffdd3957ebb27a870b46937aa80cee9f49d633315a",
+      "receipt_id": "57608404a41c4a048a6c9cd86915ff4c",
+      "request_hash": "c87e14de1836979388d6f6291bb4da25866afbf63fed07cb46afa8a72825d793",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “often noticed as drooling from the mouth” is not supported verbatim by the packet; the packet discusses “flow of saliva from the mouth,” but does not use or clearly equate this with “drooling.”",
+        "The definition uses the qualifier “often” (“excessive secretion or flow… often noticed…”), while the packet only states that increased salivary secretion “is very frequently to be found,” and does not establish the same frequency claim for drooling specifically."
+      ],
+      "definition_hash": "b7dc6deaaf1eb3c8c96a8be7bf51c6870683ca46a6a93e4ccdc034aa36ca3437",
+      "packet_hash": "cee10b2d5c2f0571bc3be9ffdd3957ebb27a870b46937aa80cee9f49d633315a",
+      "published_packet_hash": "cee10b2d5c2f0571bc3be9ffdd3957ebb27a870b46937aa80cee9f49d633315a",
+      "receipt_id": "a646cf5c9b4e4b13a06f5c14955d457d",
+      "request_hash": "3ba2301179fcc183a5df617750f6f34c29a161b407eebafb325636860ca3504a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

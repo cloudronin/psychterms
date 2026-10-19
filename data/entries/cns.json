@@ -27,5 +27,36 @@
     "definition_hash": "602aab5af7a5d377028a8de195c6e1726a62978546a48322335a5fabdee444cb",
     "packet_hash": "a24eb651c27f9fd32842da43bdf77e7ee85bec90568d1d566afb40bba8070141"
   },
-  "hash": "e708b6a65435f95cda07046e1feb45a6498fe75ea9f3d2ad7c98601ecda086af"
+  "hash": "e708b6a65435f95cda07046e1feb45a6498fe75ea9f3d2ad7c98601ecda086af",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines a mouse organ system, but the definition generalizes this to CNS as an organ system without the mouse limitation; that broader claim is not supported by the source text.",
+        "The source text does not explicitly establish that the term is the central nervous system rather than the narrower source wording alone."
+      ],
+      "definition_hash": "602aab5af7a5d377028a8de195c6e1726a62978546a48322335a5fabdee444cb",
+      "packet_hash": "a24eb651c27f9fd32842da43bdf77e7ee85bec90568d1d566afb40bba8070141",
+      "published_packet_hash": "a24eb651c27f9fd32842da43bdf77e7ee85bec90568d1d566afb40bba8070141",
+      "receipt_id": "a166328414d1494aab8891342a1009eb",
+      "request_hash": "028d870672138a45919e41c623c65b36937733a898635495daf4b9d91ec30920",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines CNS specifically as “the organ system of the mouse,” but the provided definition does not limit CNS to the mouse, so the omission is an unsupported generalization beyond the packet’s scope."
+      ],
+      "definition_hash": "602aab5af7a5d377028a8de195c6e1726a62978546a48322335a5fabdee444cb",
+      "packet_hash": "a24eb651c27f9fd32842da43bdf77e7ee85bec90568d1d566afb40bba8070141",
+      "published_packet_hash": "a24eb651c27f9fd32842da43bdf77e7ee85bec90568d1d566afb40bba8070141",
+      "receipt_id": "1b0f2e22aa964340ba537cc50befff54",
+      "request_hash": "91167b9d80dd9e04f46b1644976c308c7cd25591d8c202d81ec3c18a7af202ab",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

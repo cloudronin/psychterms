@@ -27,5 +27,34 @@
     "definition_hash": "19fb9a6763f18f8d8d9c3bc2ec32da035b54bd6a6fa6a724c4f16e6e2ae9b1fd",
     "packet_hash": "13b68b3e79f26e157acef13e0fb0383c780df40f75d1e3a730646bc44d131899"
   },
-  "hash": "d79ed073be6887987a5cc45a7f54641ed02f3772a5fef7d8d75e2887d69f3765"
+  "hash": "d79ed073be6887987a5cc45a7f54641ed02f3772a5fef7d8d75e2887d69f3765",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "19fb9a6763f18f8d8d9c3bc2ec32da035b54bd6a6fa6a724c4f16e6e2ae9b1fd",
+      "packet_hash": "13b68b3e79f26e157acef13e0fb0383c780df40f75d1e3a730646bc44d131899",
+      "published_packet_hash": "13b68b3e79f26e157acef13e0fb0383c780df40f75d1e3a730646bc44d131899",
+      "receipt_id": "4d7985515bb2469db07b2fc3114c6385",
+      "request_hash": "741ff91d5abbd5f528f11336cee70b991c7c11ef5c897fd522cba40b2c9f5272",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that tinnitus occurs “without an external source,” but the packet does not explicitly describe tinnitus as being without any external source; it only specifies that the sensation involves ear noises and distinguishes objective (audible to others) from subjective (audible only to the affected individual).",
+        "Because that “no external source” phrasing is not directly supported by the packet text provided, at least one substantive claim is not defensibly supported."
+      ],
+      "definition_hash": "19fb9a6763f18f8d8d9c3bc2ec32da035b54bd6a6fa6a724c4f16e6e2ae9b1fd",
+      "packet_hash": "13b68b3e79f26e157acef13e0fb0383c780df40f75d1e3a730646bc44d131899",
+      "published_packet_hash": "13b68b3e79f26e157acef13e0fb0383c780df40f75d1e3a730646bc44d131899",
+      "receipt_id": "39408bacaa264c578ded4ba8e437d82d",
+      "request_hash": "2fb88778ef80ab01b578c4f6f6ab808a23997d8624eb732b80acf60a708e9dce",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

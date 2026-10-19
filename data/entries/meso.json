@@ -27,5 +27,34 @@
     "definition_hash": "2c2c416f6672b5cd26a02f28449f1fa17c961f20eadb0cabcdd14675ad757d2b",
     "packet_hash": "bab00f014f82262e755a0f55d3c784d3ce6dfdc829fdbb3afba19e22cc0af6ea"
   },
-  "hash": "df92984f7a86477648ccbda67b65176d57a0c68ddc57a5a0ee33a2a59e9f328d"
+  "hash": "df92984f7a86477648ccbda67b65176d57a0c68ddc57a5a0ee33a2a59e9f328d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2c2c416f6672b5cd26a02f28449f1fa17c961f20eadb0cabcdd14675ad757d2b",
+      "packet_hash": "bab00f014f82262e755a0f55d3c784d3ce6dfdc829fdbb3afba19e22cc0af6ea",
+      "published_packet_hash": "bab00f014f82262e755a0f55d3c784d3ce6dfdc829fdbb3afba19e22cc0af6ea",
+      "receipt_id": "dec401bb6a094405a9492c1a54a61768",
+      "request_hash": "59916de2638f9eca41d5086b2b1f485b56269ddaed3a34516e411e503654cf42",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “middle, moderate, or intermediate” meanings for the prefix. The packet explicitly supports “middle” and “of medium size or position between extremes,” but it does not mention “moderate.”",
+        "The rest of the definition (“between extremes,” “medium length or form”) is broadly consistent with the packet’s wording, but the unsupported “moderate” sense prevents passing."
+      ],
+      "definition_hash": "2c2c416f6672b5cd26a02f28449f1fa17c961f20eadb0cabcdd14675ad757d2b",
+      "packet_hash": "bab00f014f82262e755a0f55d3c784d3ce6dfdc829fdbb3afba19e22cc0af6ea",
+      "published_packet_hash": "bab00f014f82262e755a0f55d3c784d3ce6dfdc829fdbb3afba19e22cc0af6ea",
+      "receipt_id": "b9a042fd49734331b8fda56949856701",
+      "request_hash": "8c78a385bd7af6e90219b9386a026d29f904edf84049e81468dab827317030d7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

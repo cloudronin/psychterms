@@ -27,5 +27,36 @@
     "definition_hash": "e028a0ba379093753a5691f187e26d8c629abb8fbf054801b2a15ce659fd0467",
     "packet_hash": "83b3e00e759c45e40af297cb1ce2489d013aa7a68c0728114e216bdb53842618"
   },
-  "hash": "86b710c5c26ea3c95f4012605ea5ba75054de0ea2e74cba9a44ca953998a06f3"
+  "hash": "86b710c5c26ea3c95f4012605ea5ba75054de0ea2e74cba9a44ca953998a06f3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports commitment as a topic within psychiatry in its legal aspects, including commitment of persons with psychiatric disorders, but it does not support the added contrast that this is “rather than a clinical diagnosis itself.”",
+        "The definition broadens the scope beyond the packet by describing a general “legal handling” of persons with psychiatric disorders; the source only explicitly states that commitment is included among the legal aspects of psychiatry."
+      ],
+      "definition_hash": "e028a0ba379093753a5691f187e26d8c629abb8fbf054801b2a15ce659fd0467",
+      "packet_hash": "83b3e00e759c45e40af297cb1ce2489d013aa7a68c0728114e216bdb53842618",
+      "published_packet_hash": "83b3e00e759c45e40af297cb1ce2489d013aa7a68c0728114e216bdb53842618",
+      "receipt_id": "54665304d89d4e5d9cd362c040b7b684",
+      "request_hash": "027362f827df1da3aefec374ac0ade0e43ca9551f070853575079538455254ba",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that commitment is “understood as a psychiatry-related legal matter rather than a clinical diagnosis itself,” but the provided packet does not explicitly support a contrast against clinical diagnosis; it only describes “Psychiatry in its legal aspects” and lists related topics (including commitment of persons with psychiatric disorders)."
+      ],
+      "definition_hash": "e028a0ba379093753a5691f187e26d8c629abb8fbf054801b2a15ce659fd0467",
+      "packet_hash": "83b3e00e759c45e40af297cb1ce2489d013aa7a68c0728114e216bdb53842618",
+      "published_packet_hash": "83b3e00e759c45e40af297cb1ce2489d013aa7a68c0728114e216bdb53842618",
+      "receipt_id": "d3c4ac52f86e4f4488c01e1fecfaa624",
+      "request_hash": "c25b3e9922235a0d0783d4b6d5e849eff60a2beb0775eddf815e84a684805d9b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }
