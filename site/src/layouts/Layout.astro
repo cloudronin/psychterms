@@ -21,6 +21,7 @@ const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header wrap">
       <a class="wordmark" href={href()} aria-label="PsychTerms home"><span class="mark" aria-hidden="true"><svg viewBox="0 0 100 100" width="50" height="50"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M30 31v18a20 20 0 0 0 40 0V31"/><path d="M44 19h12"/><path d="M50 19v62"/></g></svg></span><span><strong>PsychTerms</strong><br />Psychology &amp; Counseling Dictionary</span></a>
+      <p class="header-credit">built by <a href="https://www.plainword.ai/">Plainword</a>, free forever</p>
       <nav aria-label="Main navigation"><a href={href('#browse')}>Browse A–Z</a><a href={href('fields/')}>Fields</a><a href={href('about/')}>About</a></nav>
     </header>
     <div class="preview-notice"><span class="wrap">Public review preview. Candidate definitions have not yet been read by the two reviewers. Each entry shows its review status.</span></div>

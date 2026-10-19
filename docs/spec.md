@@ -1,6 +1,6 @@
 # PsychTerms, the open psychology dictionary: project spec v0.2
 
-**Which site this is.** This spec is for **psychterms.org**, the open dictionary, repo `cloudronin/psychterms`, hosted on GitHub Pages. It is not plainword.ai, the Plainword Prep site, which has its own spec (`Plainword_Site_Prep_Launch_Spec.md`) and its own session. The only link between the two is one footer line on psychterms.org and one paragraph on plainword.ai.
+**Which site this is.** This spec is for **psychterms.org**, the open dictionary, repo `cloudronin/psychterms`, hosted on GitHub Pages. It is not plainword.ai, the Plainword Prep site, which has its own spec (`Plainword_Site_Prep_Launch_Spec.md`) and its own session. The dictionary carries the same “built by Plainword, free forever” attribution in its header and footer, linked to https://www.plainword.ai/. The header line sits after the wordmark and before Browse A–Z. Plainword’s site has its own linking paragraph.
 
 18 Oct 2026. A standalone project.
 
@@ -112,7 +112,7 @@ What the pipeline does not do: the supervisor read that the Prep exam layer uses
 - One page per term: the term, the definition, "also see" links, the field tag, the CC BY line with a copy-ready citation, "edit this entry" pointing at the repo file, and the entry version and hash.
 - Search in the browser over a small index (term, aliases, first sentence).
 - An A to Z index and a per-field index.
-- psychterms.org, not under plainword.health, so it reads as a public resource. One footer line: "built by Plainword, free forever."
+- psychterms.org, not under plainword.health, so it reads as a public resource. The header and footer carry “built by Plainword, free forever”, with Plainword linked to https://www.plainword.ai/.
 - Free static hosting (GitHub Pages or Cloudflare Pages). A merge to main rebuilds the site.
 - Each page is a stable URL the Prep app links to.
 - Read-aloud is a Prep app feature, not a site feature, in v1.
