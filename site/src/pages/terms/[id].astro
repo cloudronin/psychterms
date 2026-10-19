@@ -1,10 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import TermScene from '../../components/TermScene.astro';
-import {entries,entryReferences,toHref,firstSentence,reviewLabel} from '../../lib';
+import {entries,entryReferences,toHref,firstSentence,reviewLabel,seeAlsoFor} from '../../lib';
 export function getStaticPaths(){return entries.map((entry:any)=>({params:{id:entry.id},props:{entry}}));}
 const {entry}=Astro.props;
-const related=entries.filter((e:any)=>entry.also_see.includes(e.id));
+const related=seeAlsoFor(entry.id);
 const references=entryReferences[entry.id];
 ---
 <Layout title={`${entry.term} | PsychTerms`} description={firstSentence(entry.definition)} entryTitle={true}>
@@ -20,7 +20,7 @@ const references=entryReferences[entry.id];
   <TermScene entry={entry} />
   {entry.editorial_note && <aside class="editorial-note"><strong>Wording review pending.</strong> {entry.editorial_note}</aside>}
   {entry.aliases.length>0&&<p class="small" data-entry-content>Also called: {entry.aliases.join(', ')}</p>}
-  <section class="metadata"><h2>Also see</h2><p>{related.map((e:any,i:number)=><><a href={toHref(`terms/${e.id}/`)}>{e.term}</a>{i<related.length-1?' · ':''}</>)}</p></section>
+  {related.length>0 && <section class="metadata see-also"><h2>See also</h2><ul>{related.map((e:any)=><li><a href={toHref(`terms/${e.id}/`)}>{e.term}</a></li>)}</ul></section>}
   <section class="metadata"><h2>Sources</h2><ul>{references.map((r:any)=><li><strong>{r.role_label}:</strong> <a href={r.url}>{r.citation}</a><p class="small"><a href={r.licence_url}>{r.licence}</a> · {r.adaptation_notice} · Source snapshot SHA-256: {r.source_snapshot_sha256}</p></li>)}</ul><p>These citations identify the drafting sources. {entry.status==='candidate' ? 'This is a candidate definition. It has not yet been read by the two reviewers.' : `${entry.checks.readers} independent reader passes against the pinned source packet. The drafter does not count as a reader.`} Source institutions do not endorse this dictionary.</p></section>
   <section class="metadata"><h2>Cite this entry</h2><p class="citation">PsychTerms (psychterms.org), CC BY 4.0, version {entry.version}. “{entry.term}.” Development preview.</p><p class="small">Version {entry.version} · SHA-256: {entry.hash}</p><p class="small"><a href={`https://github.com/cloudronin/psychterms/edit/main/data/entries/${entry.id}.json`}>Edit this entry on GitHub</a></p></section>
  </article>

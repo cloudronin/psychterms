@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {sceneState, RISK_NOTICE} from '../site/src/scene-state.mjs';
+import {relatedEntries} from '../site/src/also-see.mjs';
 const vignette = {text:'Synthetic renderer test, never site content.',notice:'Synthetic notice.',card_id:'p_19',card_hash:'sha256:'+'a'.repeat(64),builder_commit:'b'.repeat(40)};
 test('definition-only entry omits the scene panel',()=>assert.equal(sceneState({}),'none'));
 test('unbound provenance enables the scene presentation',()=>assert.equal(sceneState({vignette}),'scene'));
@@ -21,4 +22,12 @@ test('brand and displayed citation/breadcrumb domain use agreed casing',()=>{
  assert.ok(term.includes('PsychTerms (psychterms.org)'));
  assert.ok(term.includes('>psychterms.org</a> / <span data-entry-content>{entry.id}</span>'));
  assert.ok(!layout.includes('Psych Terms')&&!term.includes('Psych Terms'));
+});
+test('see-also keeps signal order and hides empty lists',()=>{
+ const index=new Map([['alpha',{id:'alpha'}],['zulu',{id:'zulu'}]]);
+ assert.deepEqual(relatedEntries('source',index,{links:{source:[{to:'zulu'},{to:'alpha'}]}}).map(e=>e.id),['zulu','alpha']);
+ assert.deepEqual(relatedEntries('empty',index,{links:{}}),[]);
+ assert.throws(()=>relatedEntries('source',index,{links:{source:[{to:'dropped'}]}}),/Unpublished/);
+ const term=readFileSync(new URL('../site/src/pages/terms/[id].astro',import.meta.url),'utf8');
+ assert.ok(term.includes('related.length>0')&&term.includes('<h2>See also</h2>'));
 });
