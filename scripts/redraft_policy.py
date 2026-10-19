@@ -19,19 +19,20 @@ def packet_basis_hash(packet):
                    'source_record':packet.get('source_record'),
                    'text':' '.join(unicodedata.normalize('NFKC',packet.get('text','')).casefold().split())})
 
-def candidate_pool(entries):
+def candidate_pool(entries,outcomes=None):
     groups=defaultdict(list);active=set();out_of_scope=set()
     for e in entries:
         key=headword_key(e['term'])
         if e['status']=='redraft':groups[key].append(e)
         elif e['status']=='dropped':out_of_scope.add(key)
         else:active.add(key)
-    rows=[]
+    outcomes=outcomes or {};rows=[]
     for key,failed in sorted(groups.items()):
         if key in active or key in out_of_scope:continue
         rows.append({'term':failed[0]['term'],'headword_key':key,'status':'candidate',
             'requirement':'new packet required','failed_entry_ids':sorted(e['id'] for e in failed),
-            'excluded_packet_hashes':sorted({e['packet_hash'] for e in failed})})
+            'excluded_packet_hashes':sorted({e['packet_hash'] for e in failed}),
+            **({'latest_sourcing':outcomes[key]} if key in outcomes else {})})
     return {'schema_version':1,'candidates':rows}
 
 def validate_replacements(entries,packets):

@@ -35,6 +35,9 @@ def drafter(entry):
     raise ValueError('Missing drafting identity: '+entry['id'])
 
 def readers(entry,packet,root=ROOT):
+    if entry.get('local_run'):
+        from local_receipts import validate as validate_local
+        validate_local(entry,packet,root)
     if packet['id']!=entry['id'] or packet['term']!=entry['term']:raise ValueError('Entry term or ID differs from its source packet')
     records=([entry['model_review']] if entry.get('model_review') else [])+entry.get('reader_reviews',[])
     from external_reader import evidence
@@ -76,13 +79,15 @@ def check_snapshot(history,current):
     if history!=current:raise ValueError('Committed status history is stale; regenerate it with entry_status.py --write-history')
 
 def prepare(entries,root=ROOT,history=None,scope=True):
-    forbidden={'status','checks','released','release_versions','new_packet_required','scope_review'}
+    forbidden={'status','checks','released','release_versions','new_packet_required','scope_review','latest_sourcing'}
     for e in entries:
         if forbidden & e.keys():raise ValueError('Status, checks and released are build-owned')
     packets={e['id']:json.loads((root/'data/packets'/(e['id']+'.json')).read_text()) for e in entries}
     copies=copy_results(entries,packets);independent=independent_records(root) if scope else {}
     drop_path=root/'data/drop-decisions.json';explicit=json.loads(drop_path.read_text())['entries'] if drop_path.exists() else {}
     release_path=root/'data/numbered-releases.json';releases=json.loads(release_path.read_text())['releases'] if release_path.exists() else []
+    outcome_path=root/'data/redraft-source-outcomes.json'
+    outcomes=json.loads(outcome_path.read_text())['outcomes'] if outcome_path.exists() else {}
     output=[];snapshot={};model_names=set()
     for e in entries:
         record=packets[e['id']];proofs=readers(e,record,root);passing=[r for r in proofs if r['passed']];failing=[r for r in proofs if not r['passed']]
@@ -98,7 +103,11 @@ def prepare(entries,root=ROOT,history=None,scope=True):
         current={**e,'status':status,'checks':{'readers':f'{min(len(passing),2)}/2','copy':copies[e['id']]},'released':bool(versions),'release_versions':versions,'drafter':drafter(e)}
         current.pop('review_status',None)
         if reason:current['drop_reason']=reason
-        if status=='redraft':current['new_packet_required']=True
+        if status=='redraft':
+            current['new_packet_required']=True
+            from redraft_policy import headword_key
+            attempt=outcomes.get(headword_key(e['term']))
+            if attempt and e['id'] in attempt['failed_entry_ids']:current['latest_sourcing']=attempt
         elif status=='dropped':current['scope_review']='pending'
         snapshot[e['id']]={'status':status,'term':e['term'],'version':e['version'],'definition_hash':digest(e['definition'])}
         if reason:
@@ -112,7 +121,7 @@ def prepare(entries,root=ROOT,history=None,scope=True):
         hp=root/'data/status-history.json';history=json.loads(hp.read_text())['entries'] if hp.exists() else {}
     check_forward(history,snapshot)
     counts={s:sum(e['status']==s for e in output) for s in RANK};counts['released']=sum(e['released'] for e in output)
-    report={'schema_version':1,'status_counts':counts,'reader_models':sorted(model_names),'copy_threshold_words':15,'copy_scope':'All pinned public source packets and cross-entry definitions','comparison_hash':digest(sorted((k,p['packet_hash']) for k,p in packets.items())),'entries':snapshot,'redraft_candidates':candidate_pool(output)}
+    report={'schema_version':1,'status_counts':counts,'reader_models':sorted(model_names),'copy_threshold_words':15,'copy_scope':'All pinned public source packets and cross-entry definitions','comparison_hash':digest(sorted((k,p['packet_hash']) for k,p in packets.items())),'entries':snapshot,'redraft_candidates':candidate_pool(output,outcomes)}
     return output,report
 
 def release_note(report,version='Public review preview'):

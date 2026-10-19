@@ -10,7 +10,7 @@ def build(entries,release=False,history=None):
  entries,risk_pin=prepare(entries)
  entries,status_report=prepare_status(entries,history=history)
  drop_refs=references([e for e in entries if e['status'] in TERMINAL])
- dropped=[{'id':e['id'],'term':e['term'],'status':e['status'],'new_packet_required':e['status']=='redraft',**({'scope_review':'pending'} if e['status']=='dropped' else {}),'reason':e['drop_reason'],'sources':drop_refs[e['id']]} for e in entries if e['status'] in TERMINAL]
+ dropped=[{'id':e['id'],'term':e['term'],'status':e['status'],'new_packet_required':e['status']=='redraft',**({'scope_review':'pending'} if e['status']=='dropped' else {}),**({'latest_sourcing':e['latest_sourcing']} if e.get('latest_sourcing') else {}),'reason':e['drop_reason'],'sources':drop_refs[e['id']]} for e in entries if e['status'] in TERMINAL]
  ordered=sorted((e for e in entries if e['status'] not in TERMINAL),key=lambda e:e['id'])
  refs=references(ordered)
  release_version='0.0.0-preview'
