@@ -1,0 +1,63 @@
+{
+  "id": "issp",
+  "term": "ISSP",
+  "definition": "ISSP stands for the International Social Survey Programme, a cross-national survey dataset used to compare social and wellbeing-related responses across countries.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12885272"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12885272",
+      "revision": "2026; DOI 10.1371/journal.pone.0341119; article XML SHA-256 15282d8c658f4e421c486b1369fbaccfec5ae842a79c10ae2e4cc6702c81b31f",
+      "scope": "Source record 10.1371/journal.pone.0341119; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341119"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "eee20cb3d85b40764aef5c505b3d46991b48485924ceb37b2f6fc1f3e0ede42b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9975727f42c54fe189ef1d10fca702bf",
+    "request_hash": "fc0acb058aaadd945c543e9f44d459fdef4bb153079e32ec21d6cc0838613842",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "d1638ced3a1860b73ddc7788e88375623b8fd6b4a23c4aadbf6180e4e4c0d195",
+    "packet_hash": "eee20cb3d85b40764aef5c505b3d46991b48485924ceb37b2f6fc1f3e0ede42b"
+  },
+  "hash": "188fac353eff32d7a1d8b73ec1a4bf58402e0ae991252de90fd8f51b1b8f565c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The expansion International Social Survey Programme is supported, but the claim that ISSP is a dataset used to compare social and wellbeing-related responses across countries is broader than the packet states.",
+        "The packet only says the ISSP dataset from 2017 was used in a study of subjective well-being; it does not support the general description of the dataset’s purpose or scope."
+      ],
+      "definition_hash": "d1638ced3a1860b73ddc7788e88375623b8fd6b4a23c4aadbf6180e4e4c0d195",
+      "packet_hash": "eee20cb3d85b40764aef5c505b3d46991b48485924ceb37b2f6fc1f3e0ede42b",
+      "published_packet_hash": "eee20cb3d85b40764aef5c505b3d46991b48485924ceb37b2f6fc1f3e0ede42b",
+      "receipt_id": "21487c946645432ebe60e99e128dc879",
+      "request_hash": "e5a9e0dd0cb65f5ff34d8a72656b2d16337c37ebca5996e74136d27ad3204d25",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define ISSP as a “cross-national survey dataset.” It only states that the “International Social Survey Programme (ISSP) dataset from 2017” is used for seven countries.",
+        "The packet does not support the claim that ISSP is “used to compare social and wellbeing-related responses across countries.” It describes analyses of subjective well-being using the ISSP dataset, but it does not state that ISSP is used for that general purpose (i.e., as a comparative cross-national instrument)."
+      ],
+      "definition_hash": "d1638ced3a1860b73ddc7788e88375623b8fd6b4a23c4aadbf6180e4e4c0d195",
+      "packet_hash": "eee20cb3d85b40764aef5c505b3d46991b48485924ceb37b2f6fc1f3e0ede42b",
+      "published_packet_hash": "eee20cb3d85b40764aef5c505b3d46991b48485924ceb37b2f6fc1f3e0ede42b",
+      "receipt_id": "a2c1231a60c14d79b9a78eedd31b22ae",
+      "request_hash": "48007868808a25215140d42ae54c25837cd76bf2e4fed430624210afa8a757aa",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

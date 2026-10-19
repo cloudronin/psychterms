@@ -1,0 +1,60 @@
+{
+  "id": "dl",
+  "term": "DL",
+  "definition": "DL stands for deep learning, a type of machine learning. In this packet, it refers to the deep-learning part of a hybrid model that uses Long Short-Term Memory networks to improve prediction.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13399517"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13399517",
+      "revision": "2026; DOI 10.1371/journal.pone.0354386; article XML SHA-256 6daf55f3c88812139aa52648ae5709af2ef02401d6aaf403f8a614e31a238d75",
+      "scope": "Source record 10.1371/journal.pone.0354386; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354386"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "36196a8d667a4c988ab0a1168e90db60",
+    "request_hash": "67d7cb928ae88130b15d0dc74cbee20827c28b42424b9512607cdab4c2ec4632",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "e4332acf797429e7b04b7e9afcd0368741b4e43f34e78db12af6f644a07ed377",
+    "packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946"
+  },
+  "hash": "7cbe60a0efba492b0f48b1864dd12ffb01e829ccf43d5ea73b71790feec544c6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e4332acf797429e7b04b7e9afcd0368741b4e43f34e78db12af6f644a07ed377",
+      "packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946",
+      "published_packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946",
+      "receipt_id": "9f85e6ba151a405cbed2f3307a2a5305",
+      "request_hash": "dde68757152c327796a3e7c53f0a651b4ed822a6da8630fa824c5f1aa5f43069",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported generalization by stating that deep learning is “a type of machine learning”; the packet names a “Hybrid Machine Learning and Deep Learning (ML-DL) Model” but does not explicitly define that relationship.",
+        "The field label is only loosely supported by the packet, which is about an ionospheric forecasting model rather than a psychology/counselling sense, so the requested sense is not established by the source packet."
+      ],
+      "definition_hash": "e4332acf797429e7b04b7e9afcd0368741b4e43f34e78db12af6f644a07ed377",
+      "packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946",
+      "published_packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946",
+      "receipt_id": "9e1ce41956ce4d319bfd877a5ab04b66",
+      "request_hash": "7c546fc64527da6a2c082ec4c8e4b52a6cd59b70ffa7f1fdc5901087252abf37",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

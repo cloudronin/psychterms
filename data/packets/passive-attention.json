@@ -1,0 +1,26 @@
+{
+  "id": "passive-attention",
+  "term": "passive attention",
+  "source": "article-pmc6932761",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0226236",
+  "revision": "2019; DOI 10.1371/journal.pone.0226236; article XML SHA-256 bb341b00c980ac071c8873871e0797b13ad8927b904c593e21b8ea1c033024d2",
+  "source_snapshot_sha256": "bb341b00c980ac071c8873871e0797b13ad8927b904c593e21b8ea1c033024d2",
+  "url": "https://doi.org/10.1371/journal.pone.0226236",
+  "text": "stimulus; target and non-target stimuli are repeatedly flashed, and the ERP trials are averaged over time in order to improve their decoding accuracy. To reduce this time-consuming process, previous studies have attempted to evoke stronger ERP responses by changing certain experimental parameters like color, size, or the use of a face image as a target symbol. Since these exogenous potentials can be naturally evoked by merely looking at a target symbol, the BCI system could generate unintended commands while subjects are gazing at one of the symbols in a non-intentional mental state. We approached this problem of unintended command generation by assuming that a greater effort by the user in a short-term imagery task would evoke a discriminative ERP response. Three tasks were defined: passive attention, counting, and pitch-imagery. Users were instructed to passively attend to a target symbol, or to perform a mental tally of the number of target presentations, or to perform the novel task of imagining a high-pitch tone when the target symbol was highlighted. The decoding accuracy were 71.4%, 83.5%, and 89.2% for passive attention, counting, and pitch-imagery, respectively, after the fourth averaging procedure. We found stronger deflections in the N500 component corresponding to the levels of mental effort (passive attention: -1.094 ±0.88 μV , counting: -2.226 ±0.97 μV , and pitch-imagery: -2.883 ±0.74 μV ), which highly influenced the decoding accuracy. In addition, the rate of binary classification between passive attention and pitch-imagery tasks was 73.5%, which is an adequate classification rate that motivated us to propose a two-stage classification strategy wherein the target symbols are estimated in the first stage and the passive or active mental state is decoded in the second stage. In this study, we found that the ERP response and the decoding accuracy are highly influenced by the user’s voluntary mental tasks. This could lead to a useful approach in practical ERP systems in two respects. Firstly, the user-voluntary tasks can be easily utilized in many different types of BCI systems, and performance enhancement is less dependent on the manipulation of the system’s external, visual stimulus parameters. Secondly, we propose an ERP system that classifies the brain state as intended or unintended by considering the measurable differences between",
+  "source_label": "Robust detection of event-related potentials in a user-voluntary short-term imagery task",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    268,
+    2659
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "article-requested-concept:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "c124982ef12b36d0f04bdca7c2bf38ccc3f786aa05972c65fbfcfc702480f4df"
+}

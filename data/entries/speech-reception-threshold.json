@@ -1,0 +1,61 @@
+{
+  "id": "speech-reception-threshold",
+  "term": "speech-reception threshold",
+  "definition": "Speech-reception threshold is a measure of how well a person can understand speech, especially when speech and background noise are presented from different locations. A lower speech-reception threshold means better speech intelligibility under those listening conditions.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7406049"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7406049",
+      "revision": "2020; DOI 10.1371/journal.pone.0236469; article XML SHA-256 5481ee669d6c78573f6f93ca6c5e00fb682858677dc5f6c52772e8105990608e",
+      "scope": "Source record 10.1371/journal.pone.0236469; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0236469"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f1ee0ed8791033c4358339f004954792fcd6ee25bf82f5e2fb9dcefacdef4c8c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cf47749c59a24497beae1eae1ad71cec",
+    "request_hash": "320fc433d6163eb95c0547fb3c951dbe90cdf159fe11bc760ac8bc8373eb7da3",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "53ab342f2dab64a12a407697c706b3a5575cdadfd005b42e9aaa576accc8d69a",
+    "packet_hash": "f1ee0ed8791033c4358339f004954792fcd6ee25bf82f5e2fb9dcefacdef4c8c"
+  },
+  "hash": "41dac32c9c5655d11cc5930e566f077b27c26383f4af4809657a76f84508589f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "53ab342f2dab64a12a407697c706b3a5575cdadfd005b42e9aaa576accc8d69a",
+      "packet_hash": "f1ee0ed8791033c4358339f004954792fcd6ee25bf82f5e2fb9dcefacdef4c8c",
+      "published_packet_hash": "f1ee0ed8791033c4358339f004954792fcd6ee25bf82f5e2fb9dcefacdef4c8c",
+      "receipt_id": "fa0179f8d2654f25be49a8a60f5f323b",
+      "request_hash": "b6d3c7bee673b9c8f7680c16874ff1960fc18bfc78e47a37aec11b8f7639f5d4",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s core characterization—“a measure of how well a person can understand speech”—is not explicitly stated in the provided packet text. The packet discusses SRT being measured using the German matrix sentence test, but it does not define SRT in terms of ‘how well a person can understand speech.’",
+        "While the packet supports the context of separating speech and noise in space (two loudspeakers at different angles; S0N0 separation), the first sentence combines this with an unsupported, general meaning of the metric.",
+        "The packet does support that “lowest (best) SRT” corresponds to improved speech intelligibility, matching the definition’s last sentence about lower SRT meaning better intelligibility under those conditions. However, this alone is insufficient because the definition’s main first claim is unsupported."
+      ],
+      "definition_hash": "53ab342f2dab64a12a407697c706b3a5575cdadfd005b42e9aaa576accc8d69a",
+      "packet_hash": "f1ee0ed8791033c4358339f004954792fcd6ee25bf82f5e2fb9dcefacdef4c8c",
+      "published_packet_hash": "f1ee0ed8791033c4358339f004954792fcd6ee25bf82f5e2fb9dcefacdef4c8c",
+      "receipt_id": "567a19629ca54974a4700cdf8df367ce",
+      "request_hash": "f6c58adf47d27b8ba648bd90b7bac7afe5714808155639268324d84dff9839e8",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

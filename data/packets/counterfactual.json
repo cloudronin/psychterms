@@ -1,0 +1,26 @@
+{
+  "id": "counterfactual",
+  "term": "counterfactual",
+  "source": "article-pmc13600535",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0358643",
+  "revision": "2026; DOI 10.1371/journal.pone.0358643; article XML SHA-256 c8586c23326666fc2840db609cd2d36260ce3f5cc130173f05c6ffd484c7bc13",
+  "source_snapshot_sha256": "c8586c23326666fc2840db609cd2d36260ce3f5cc130173f05c6ffd484c7bc13",
+  "url": "https://doi.org/10.1371/journal.pone.0358643",
+  "text": "Artificial intelligence is increasingly used to support managerial decision-making in domains such as human resource management and customer relationship management; however, the lack of transparency in complex predictive models limits their practical adoption. This paper proposes a counterfactual-guided explainable artificial intelligence framework that integrates deep learning, feature attribution, and counterfactual reasoning to deliver accurate, interpretable, and actionable managerial insights. The proposed model is evaluated on an employee attrition dataset and a customer churn dataset, as well as in a combined multi-domain setting. Experimental results show that the framework achieves classification accuracies of up to 91.4% for employee attrition prediction and 87.3% for customer churn prediction, with corresponding ROC–AUC scores reaching 0.869 and 0.891, respectively. The model also demonstrates improved probability calibration, reducing the Brier score to 0.128 on the attrition dataset and 0.109 on the churn dataset. Furthermore, explainability analysis yields higher SHAP fidelity scores exceeding 0.90, while the counterfactual module generates valid and plausible recommendations with lower action costs compared to baseline approaches. These results indicate that the proposed framework effectively bridges predictive performance, interpretability, and actionability, making it suitable for real-world managerial decision-support systems. The framework is formulated as a constraint-aware optimization problem that integrates predictive modeling, explanation fidelity, and cost-sensitive counterfactual generation into a unified objective, enabling actionable and feasible decision support.",
+  "source_label": "An integrated explainable AI framework with counterfactual optimization for decision support",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1721
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9cd3f62fdccc061b00627ad7e7832b1f1aadd95b74e089e6baba2762b9801ae0"
+}

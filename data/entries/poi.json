@@ -1,0 +1,63 @@
+{
+  "id": "poi",
+  "term": "POI",
+  "definition": "POI stands for point of interest. In this assessment context, POI mix refers to the variety or combination of nearby destination types in an area, which was treated as an environmental factor related to traffic injury risk.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13340810"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13340810",
+      "revision": "2026; DOI 10.1371/journal.pone.0353205; article XML SHA-256 04b156b5571e1077bf9050b299aa2cbe2fa32e794a857c47711d92f85db1cec5",
+      "scope": "Source record 10.1371/journal.pone.0353205; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0353205"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "748c35c7163d61716fff1fbb407420c047e2fd919a095f96234f37842a184ee7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1024dd766b674066afc9cd6977f9ac91",
+    "request_hash": "b9b8d22f7a99ef23eb2a706a5b183a218fb7e22cdeeae2afbaf7c1de2a7dc00e",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "35e238870494a6e383052d734cba178f2ebd3a5e9b14993ee7f67949d06d21a4",
+    "packet_hash": "748c35c7163d61716fff1fbb407420c047e2fd919a095f96234f37842a184ee7"
+  },
+  "hash": "b7badd94d4717efe712b3ce58a555ac321fdb0101bb270dbc0410fb91dc6b0d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that POI means “point of interest” and that POI mix was an influential environmental factor in traffic injury risk analysis, but it does not define POI mix as the “variety or combination of nearby destination types in an area.”",
+        "The definition adds explanatory detail about what POI mix means that is not established by the supplied source packet."
+      ],
+      "definition_hash": "35e238870494a6e383052d734cba178f2ebd3a5e9b14993ee7f67949d06d21a4",
+      "packet_hash": "748c35c7163d61716fff1fbb407420c047e2fd919a095f96234f37842a184ee7",
+      "published_packet_hash": "748c35c7163d61716fff1fbb407420c047e2fd919a095f96234f37842a184ee7",
+      "receipt_id": "21029920a6054384a201a1d883a591e6",
+      "request_hash": "5569075128bc408c5c8537c1a5c2d8a9d4ca0722be2c45a7cab61b61a921d5e1",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what “POI mix” means (e.g., as the variety/combination of nearby destination types). It only states that “point of interest (POI) mix” was an influential factor and that greater POI mix was generally associated with lower injury risk.",
+        "The definition’s claim that POI mix was “treated as an environmental factor related to traffic injury risk” is partly implied by its being an influential factor in a traffic injury risk model, but the packet excerpt does not explicitly describe it as being “treated as” an environmental factor."
+      ],
+      "definition_hash": "35e238870494a6e383052d734cba178f2ebd3a5e9b14993ee7f67949d06d21a4",
+      "packet_hash": "748c35c7163d61716fff1fbb407420c047e2fd919a095f96234f37842a184ee7",
+      "published_packet_hash": "748c35c7163d61716fff1fbb407420c047e2fd919a095f96234f37842a184ee7",
+      "receipt_id": "57c1e5d7757a4b56a5d00ec46d3ff291",
+      "request_hash": "7bc4a9c4b770d7831faef8acd98ce8c6fbfbbe41aee6b8f2208e539e339d4350",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

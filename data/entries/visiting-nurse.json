@@ -1,0 +1,60 @@
+{
+  "id": "visiting-nurse",
+  "term": "visiting nurse",
+  "definition": "A visiting nurse, in this context, is a psychiatric nurse who routinely goes to clients’ homes and works with both the client and family members in the community. Because they already have an ongoing relationship with families, they can tailor support and psychoeducation to the family’s needs.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11177502"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11177502",
+      "revision": "2024; DOI 10.1186/s12888-024-05884-z; article XML SHA-256 8e643c6283469f8f63018b3a7fd2bee20314f440722205c623a73bdbfe69e56f",
+      "scope": "Source record 10.1186/s12888-024-05884-z; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-024-05884-z"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "061b31aefecf41edade3a6f5336274f2",
+    "request_hash": "424b8d9e8d51e766c55be9451165b369429fcb59e0de39559d885eddedeff1fb",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "b0c05c530bf81911d62b34214bc4e7c96dd9c614ce4b7992651102a48907af09",
+    "packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f"
+  },
+  "hash": "8d797355f39ecc31d9f7f962847380f8b6beb47f6aad354e487d04c1ebf0c3ba",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b0c05c530bf81911d62b34214bc4e7c96dd9c614ce4b7992651102a48907af09",
+      "packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f",
+      "published_packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f",
+      "receipt_id": "8d1c7a0390cc4a53987edabc7072831a",
+      "request_hash": "cfd913220bf42c43288f5bf148f60a7c9e09125a2e4c0ce9fcee2ea0543ffda1",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field provided is \"diagnosis\", but the supplied packet defines/describes a type of psychiatric visiting nurse and does not support using this term as a diagnostic concept.",
+        "The definition’s phrase \"both the client and family members in the community\" is not phrased exactly in the packet (the packet specifies visits to clients with schizophrenia and their family members, but does not explicitly describe the setting as \"the community\" in those exact terms)."
+      ],
+      "definition_hash": "b0c05c530bf81911d62b34214bc4e7c96dd9c614ce4b7992651102a48907af09",
+      "packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f",
+      "published_packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f",
+      "receipt_id": "a1539bcaf7944a91ae6bb710e6479d0f",
+      "request_hash": "bd78fc374b5e0728b8f9652535e95585f187e7429944a603946e81d767a7b3cf",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

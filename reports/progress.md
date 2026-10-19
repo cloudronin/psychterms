@@ -2,9 +2,9 @@
 
 The public repository is [cloudronin/psychterms](https://github.com/cloudronin/psychterms). The [GitHub Pages review preview](https://psychterms.org/) uses build-owned candidate, reviewed, judged and dropped statuses. See [the generated release note](release-note.md) for current counts. Reader models are named on About. Human review happens on the live preview; vignettes remain deferred. The publisher footer links to https://www.plainword.ai/.
 
-Fresh definitions are drafted from individually permitted source packets and read independently by the fixed mini and nano readers. The current validated publication contains **7,612 entries: 5,515 judged and 2,097 reviewed**, with 1,200 total drops. Source recovery continues under the original $100 drafting and $25 reader caps. See source-recovery.json and independent-readers.json for this snapshot; the generated release note carries the build counts. Original definition prose and private audit rows are never exported or provided to models. Vignettes remain deferred.
+The source-recovery pass is complete and the final validated preview contains **9,873 active entries: 6,774 judged, 3,099 reviewed and 0 candidate**, with 1,952 total drops. See the generated release note for the build-owned counts, candidate-drafting.json and independent-readers.json for cumulative receipt-reconciled costs, and source-recovery.json for the completed retrieval snapshot. All work retains the original $100 drafting and $25 reader ledgers and caps.
 
-The inventory includes article-specific CC BY decisions and NIMH-owned publication pages with pinned snapshots. A bibliographic lead alone is not an admitted source or a supported definition. No claim is made that unsuccessful searches establish the absence of other usable sources.
+Every new definition comes from a pinned permitted packet; the drafter never counts as a reader. No inherited definition prose, private audit rows or vignettes are exported. Recovery-coverage.json gives aggregate dispositions for all 26,286 private audit labels. The per-label audit stays private. No usable packet remains untried in this retrieved set; this does not establish the absence of other sources on the internet.
 
 ## Historical implementation records
 
@@ -65,3 +65,7 @@ The next completed waves bring the local validated preview to 5,471 active entri
 ## Recovery publication, batch 003
 
 Eleven completed recovery waves bring the validated preview to 7,612 active entries. All 161 Python tests pass; the 7,612 term pages have no broken internal links and the product-copy check is clear. A whole-word excerpt-window regression was fixed before the next paid dispatch. Source retrieval and further drafting continue on the same ledgers.
+
+## Completed recovery publication
+
+25 recovery waves finished. The preview contains 9,873 active entries, an increase of 5,152 over the completed first-reader baseline. Both fixed readers attempted every newly publishable draft. Receipt audits include declined packets, retries, redrafts and withheld outputs; unknown charges retain full reservations.

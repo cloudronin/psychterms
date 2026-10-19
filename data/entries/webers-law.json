@@ -1,0 +1,62 @@
+{
+  "id": "webers-law",
+  "term": "Weber’s law",
+  "definition": "Weber’s law is the idea that discrimination between stimuli depends on their relative, not absolute, difference, so the proportion needed to notice a difference stays constant across stimulus magnitudes. The source also notes that this pattern holds only over a limited range, with very large stimuli often showing better-than-predicted discrimination.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3769339"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3769339",
+      "revision": "2013; DOI 10.1371/journal.pone.0074144; article XML SHA-256 e3c62a04e94c7558b8bd5aba505eff455d4e3772ae006a0c4fd3748157b0343b",
+      "scope": "Source record 10.1371/journal.pone.0074144; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0074144"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1a29018d7c39fe8719a709598202708b6bfe5527318595745481fbc2162c8da3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8565b5625f674caa985a7fa3f5cc5c6f",
+    "request_hash": "ae0e2be1c8e39f37f0a886440f3d20713f0a4608d06960f8dac9f18301ef601e",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "1c069222011ec8969891102b3f280f54883668831e9ad5106b5fac37dd3567e7",
+    "packet_hash": "1a29018d7c39fe8719a709598202708b6bfe5527318595745481fbc2162c8da3"
+  },
+  "hash": "7f0a8569bb051cc8d8c4162f01de5b04c2fe7084d089f89bde26b10ea6ad32c3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the limited-range/near-miss caveat, but it does not explicitly support the definition’s core claim that discrimination depends on relative rather than absolute difference or that the needed proportion stays constant across stimulus magnitudes.",
+        "The field/cognitive framing is defensible, but the definition should not add unsupported explanatory wording beyond what the source states."
+      ],
+      "definition_hash": "1c069222011ec8969891102b3f280f54883668831e9ad5106b5fac37dd3567e7",
+      "packet_hash": "1a29018d7c39fe8719a709598202708b6bfe5527318595745481fbc2162c8da3",
+      "published_packet_hash": "1a29018d7c39fe8719a709598202708b6bfe5527318595745481fbc2162c8da3",
+      "receipt_id": "b0adfa1c704e4951a7fa03d89ae4e391",
+      "request_hash": "cbc8d5fe7ef71ad1a6eed09dff4b43b60500f685053ad37e5ba7571ad4bd37bd",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that Weber’s law is about discrimination depending on “their relative, not absolute, difference” is not explicitly stated in the packet text provided; the packet only mentions that the “Weber fraction remains constant” (and that very high magnitudes can show better-than-predicted performance) without using the relative-vs-absolute phrasing."
+      ],
+      "definition_hash": "1c069222011ec8969891102b3f280f54883668831e9ad5106b5fac37dd3567e7",
+      "packet_hash": "1a29018d7c39fe8719a709598202708b6bfe5527318595745481fbc2162c8da3",
+      "published_packet_hash": "1a29018d7c39fe8719a709598202708b6bfe5527318595745481fbc2162c8da3",
+      "receipt_id": "18c20024693a4dd9b8ee6506245f5982",
+      "request_hash": "9fcd0281746d15981b83fae74fd437c2a38607a3b966354a52f57cc6d75a561b",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

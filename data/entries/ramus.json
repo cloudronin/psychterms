@@ -1,0 +1,64 @@
+{
+  "id": "ramus",
+  "term": "ramus",
+  "definition": "In this context, a ramus is one side of the lower jaw used as the unit of analysis in sagittal split ramus osteotomy. The term refers to the mandibular branch where the surgical split is performed and where nerve-related complications may be assessed.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13138674"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13138674",
+      "revision": "2026; DOI 10.1371/journal.pone.0348209; article XML SHA-256 9aca84a7d15a6c5383d10c1b5648bbd6a79d7d2ba55db9326a70456fd9590d71",
+      "scope": "Source record 10.1371/journal.pone.0348209; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348209"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6979c7dd2bb0e92ee0fb6cd7f3b1e08ffec82d3ef12dc7d7a42823916e33c219",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a4a2bbd5162144b3a477a8c57a0e5a69",
+    "request_hash": "41505b40568568ea91e6b5883e4fd2b490c50daecf083e57395fd38ec320c006",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b344054f5953dd3b59d18bbcc128b767494dabb6e3d7415beece3f9f5f59e3d4",
+    "packet_hash": "6979c7dd2bb0e92ee0fb6cd7f3b1e08ffec82d3ef12dc7d7a42823916e33c219"
+  },
+  "hash": "d78db4be771d07be9af3f81ee768142a5fb9d5468a1ba405adea8e3b77657ca8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports ramus only as a ramus-level unit in SSRO analysis, not as a defined anatomical sense such as “one side of the lower jaw” or “mandibular branch.”",
+        "The claim that nerve-related complications are assessed at the ramus is only indirectly supported; the article measures postoperative NSD at the ramus level, but it does not define ramus itself as the site where such complications are assessed."
+      ],
+      "definition_hash": "b344054f5953dd3b59d18bbcc128b767494dabb6e3d7415beece3f9f5f59e3d4",
+      "packet_hash": "6979c7dd2bb0e92ee0fb6cd7f3b1e08ffec82d3ef12dc7d7a42823916e33c219",
+      "published_packet_hash": "6979c7dd2bb0e92ee0fb6cd7f3b1e08ffec82d3ef12dc7d7a42823916e33c219",
+      "receipt_id": "3cedb997cf03449491e82f5d33e9c03b",
+      "request_hash": "e4e2af7de7732bc66e2edd04b913cddd067f78a79887a5f666683879d45a6f26",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “ramus” as “one side of the lower jaw” or as a “mandibular branch”; it only reports that 463 patients had 873 rami in the context of sagittal split ramus osteotomy (SSRO).",
+        "The packet does not explicitly state that the term refers to the surgical split site or that nerve-related complications may be assessed at the “ramus” level; it only describes that ramus-level variables were extracted and that postoperative inferior alveolar nerve neurosensory disturbance was analyzed at the ramus level.",
+        "The definition includes additional anatomical clarification (“mandibular branch where the surgical split is performed”) that is not supported verbatim or unambiguously by the provided packet text."
+      ],
+      "definition_hash": "b344054f5953dd3b59d18bbcc128b767494dabb6e3d7415beece3f9f5f59e3d4",
+      "packet_hash": "6979c7dd2bb0e92ee0fb6cd7f3b1e08ffec82d3ef12dc7d7a42823916e33c219",
+      "published_packet_hash": "6979c7dd2bb0e92ee0fb6cd7f3b1e08ffec82d3ef12dc7d7a42823916e33c219",
+      "receipt_id": "350b11ef864c4fa9b0ee7e7ab6ce74fd",
+      "request_hash": "3bb4aeaa1ee52a67d122753acc2ae48cce97801fb2f806098d6ad017a5c792e0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

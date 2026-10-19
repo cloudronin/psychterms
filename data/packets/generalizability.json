@@ -1,0 +1,26 @@
+{
+  "id": "generalizability",
+  "term": "generalizability",
+  "source": "article-pmc13492755",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0351225",
+  "revision": "2026; DOI 10.1371/journal.pone.0351225; article XML SHA-256 831d5262c90cb1a85580795376d479990dd78c4f3fea29a30f69c7f49c01fa07",
+  "source_snapshot_sha256": "831d5262c90cb1a85580795376d479990dd78c4f3fea29a30f69c7f49c01fa07",
+  "url": "https://doi.org/10.1371/journal.pone.0351225",
+  "text": "Automated diabetic retinopathy (DR) screening has seen extensive research progress, yet its clinical adoption remains limited, largely due to insufficient attention to model generalizability across diverse populations and imaging conditions. Existing studies often overlook the role of dataset biases, arising from demographic, acquisition, and preprocessing variations that undermine robustness in real-world settings. To address this critical gap, we propose a comprehensive generalizability analysis framework that systematically categorizes dataset biases, evaluates their impact on performance, and introduces robust inter-dataset comparison metrics. The framework is metric-agnostic and extensible to multi-class severity grading, with stage-wise BAG formulations introduced to support more detailed clinical evaluation. Using one primary (EyePACS) and nine secondary datasets, we assessed the generalizability of two distinct architectures: a convolutional neural network (MobileNetV2) and a transformer-based model (CvT). Performance was evaluated through intra-group measures (accuracy, sensitivity, specificity, and AUC) and a newly proposed Bias-Adjusted Generalization (BAG) index designed to quantify resilience to bias-induced domain shifts. Results demonstrate that CvT consistently outperformed MobileNetV2, achieving an average accuracy of 87% and a BAG index of 0.94, compared to MobileNetV2’s 78% accuracy and BAG index of 0.91. Gradient-based explainability visualizations further confirm that both models attend to clinically relevant retinal regions, with architectural differences in activation patterns consistent with their respective generalizability profiles. These findings highlight the inherent bias resilience of transformer architectures, while highlighting their computational demands as a barrier to deployment in low-resource environments. Importantly, the study suggests that integrating transformer-inspired mechanisms into lightweight CNNs could yield clinically scalable models with both efficiency and robustness. Our framework offers a standardized approach for bias-aware evaluation, providing actionable insights for developing equitable, generalizable, and resource-adaptable AI solutions for DR screening.",
+  "source_label": "A generalizability analysis framework for bias resilience in convolution neural network and transformer models for diabetic retinopathy screening",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2250
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26"
+}

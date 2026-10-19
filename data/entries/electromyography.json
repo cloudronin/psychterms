@@ -1,0 +1,61 @@
+{
+  "id": "electromyography",
+  "term": "electromyography",
+  "definition": "Electromyography is a method for recording and studying the electrical activity of muscles, including at rest and during voluntary movement. In this packet, surface electromyography is described as a neuromuscular assessment tool used to examine features such as muscle fatigue, fasciculation patterns, motor unit activity, and signal complexity.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13286138"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13286138",
+      "revision": "2026; DOI 10.1371/journal.pone.0350029; article XML SHA-256 3e3fced71e567b7ae05b714ba1db3ebdb965ffa27d8a436724f5b342a21f91fc",
+      "scope": "Source record 10.1371/journal.pone.0350029; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350029"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1d6e8d55a4384c35bc523d53d5a22059",
+    "request_hash": "fa24241f7f75cce82cf877f1e97ea24b79276bc8160b343360237ff4ae8297db",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "e515914dd8b9d8de57bd8cd30d36d227824dbee707fc9426df970befe60d6369",
+    "packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a"
+  },
+  "hash": "b5a0b7f0b4d861e0eacdfd0157d1edc682711336b0a464f534ca0319fc71033d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e515914dd8b9d8de57bd8cd30d36d227824dbee707fc9426df970befe60d6369",
+      "packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a",
+      "published_packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a",
+      "receipt_id": "3b3354de89a9464abd703030bd0f3ecb",
+      "request_hash": "fc6f01a490f3526185e4ff148d1a1fa37ee8ef0e988fc0b8f1bbcc4f491a3fa7",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence makes a broad general claim about electromyography itself, but the packet only supports surface electromyography (sEMG) in ALS-focused neuromuscular assessment, not a general definition of the technique.",
+        "The packet supports signals recorded at rest and during voluntary contractions, but it does not support the fuller general description of electromyography as a method for studying muscle electrical activity in general.",
+        "The second sentence is mostly supported, but it adds a generalized framing of sEMG as a neuromuscular assessment tool beyond the packet’s specific ALS review context."
+      ],
+      "definition_hash": "e515914dd8b9d8de57bd8cd30d36d227824dbee707fc9426df970befe60d6369",
+      "packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a",
+      "published_packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a",
+      "receipt_id": "76a93f5a2d8b4b588903cf0577b5de6e",
+      "request_hash": "0eef325ed923b5e2bb8f5c90dd9479f6152f7951f4b7545715573fdf99dd7e66",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

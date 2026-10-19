@@ -1,0 +1,63 @@
+{
+  "id": "absenteeism",
+  "term": "absenteeism",
+  "definition": "Absenteeism is the repeated or unscheduled absence of workers from their duties. In the psychology context described here, a co-worker’s absenteeism can add emotional strain to those who remain at work by increasing their workload and affecting the quality of service.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13132692"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13132692",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1768286; article XML SHA-256 ba9ccf579a09dfc30b427c892630db6caee91df5e9892dd6617f9f132ddf258d",
+      "scope": "Source record 10.3389/fpsyg.2026.1768286; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1768286"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1523f13d703e2adbf34da9b0c517dab34d722f084e53fa12aa366dc6446b5c7d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f2e46530e85741aeb371161c12112e4e",
+    "request_hash": "18bd4a8fae51a55d1c8580dbd2a138e96ff8c3839f1d7ace3dd14e81d1fbf8a2",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "cbf86e1c94d5a40599a284700e0a7bfd41024d1204d3fb3698bfe5b6b43948d0",
+    "packet_hash": "1523f13d703e2adbf34da9b0c517dab34d722f084e53fa12aa366dc6446b5c7d"
+  },
+  "hash": "382ce16ec789899d1492a51c8fe9b584ef706f80760aa21ae203739451abf17e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “repeated or unscheduled absence” is not fully supported by the packet text, which describes “unscheduled colleague absenteeism” and “persistent challenge,” but does not explicitly define absenteeism as “repeated” in those terms.",
+        "The provided packet frames the psychology issue as emotional strain and burnout among frontline health workers (affective/occupational outcomes), but the field requested is “cognition”; the packet does not support that this is specifically a cognition sense."
+      ],
+      "definition_hash": "cbf86e1c94d5a40599a284700e0a7bfd41024d1204d3fb3698bfe5b6b43948d0",
+      "packet_hash": "1523f13d703e2adbf34da9b0c517dab34d722f084e53fa12aa366dc6446b5c7d",
+      "published_packet_hash": "1523f13d703e2adbf34da9b0c517dab34d722f084e53fa12aa366dc6446b5c7d",
+      "receipt_id": "ee7171dc9c734fff8a43b5e0db99d6a2",
+      "request_hash": "ff1cb5350bb9f8f05f37f7e8e1d6214c78ac859c40fb59c67d7da6c7850bdf2d",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “repeated” absence, but the packet only supports absenteeism as unscheduled colleague absence; it does not mention repetition as part of the term’s meaning.",
+        "The first sentence is acceptable in part, but the requested sense in the packet is specifically absenteeism among health workers/colleagues in a workplace context, so the definition should not broaden beyond that supported usage."
+      ],
+      "definition_hash": "cbf86e1c94d5a40599a284700e0a7bfd41024d1204d3fb3698bfe5b6b43948d0",
+      "packet_hash": "1523f13d703e2adbf34da9b0c517dab34d722f084e53fa12aa366dc6446b5c7d",
+      "published_packet_hash": "1523f13d703e2adbf34da9b0c517dab34d722f084e53fa12aa366dc6446b5c7d",
+      "receipt_id": "519bb21e93c7443eb7003bdc47a25d13",
+      "request_hash": "d83d257564ad44a9d506482419b653f1aec48c568d6f53d80c06e861f4f63286",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

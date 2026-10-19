@@ -1,0 +1,63 @@
+{
+  "id": "posttest",
+  "term": "posttest",
+  "definition": "A posttest is a measurement taken after a learning period, intervention, or other study interval in a pretest-posttest design. It is compared with the pretest to estimate change, such as group-level growth or learning.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13596068"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13596068",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1901493; article XML SHA-256 e5947923d1dfb222da21b15dd8959fe1ea26069634089a83e6ad64a06410efa9",
+      "scope": "Source record 10.3389/fpsyg.2026.1901493; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1901493"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4e3cbebddbd99317de027285a350b88df9e8000b7b83399d1222c3f0a938787d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "610ade51b3c54e83be3ec4b22f25bffe",
+    "request_hash": "0475c39f40566535e7e8528a682858a4532cc4cd92cbc477fdcf151088202369",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "5ddfa55c5e5ce78a8a1562c0b4daf389259e2ed1a585648fa19370f46a5c1863",
+    "packet_hash": "4e3cbebddbd99317de027285a350b88df9e8000b7b83399d1222c3f0a938787d"
+  },
+  "hash": "c817ddef2d0ae1088adc1e3985a44e9a5a60196f31fb0458181fb8076d74846a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define *posttest* as “a measurement taken after a learning period, intervention, or other study interval.” It only references “pretest-posttest designs” and “pretest and posttest scores” without stating the timing/meaning of the posttest itself.",
+        "While the packet supports the idea of using pretest and posttest (e.g., normalized gains) to “estimate group-level change/learning rates,” it does not provide support for the specific general definition wording about what a posttest is and when it is taken."
+      ],
+      "definition_hash": "5ddfa55c5e5ce78a8a1562c0b4daf389259e2ed1a585648fa19370f46a5c1863",
+      "packet_hash": "4e3cbebddbd99317de027285a350b88df9e8000b7b83399d1222c3f0a938787d",
+      "published_packet_hash": "4e3cbebddbd99317de027285a350b88df9e8000b7b83399d1222c3f0a938787d",
+      "receipt_id": "a1e94c28549f4d0db0dd1a5ffa55e3a2",
+      "request_hash": "d2d602ee8775075f7529fa818320eb9122bba6cc897a295e5ee208e7031e73ea",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a posttest in pretest-posttest designs, but it does not mention interventions or the broader phrase “other study interval.”",
+        "The claim that the posttest is compared with the pretest to estimate change is only indirectly supported by the packet’s discussion of pretest-posttest designs and normalized gains; the definition goes beyond the packet in presenting this as the core definition of posttest."
+      ],
+      "definition_hash": "5ddfa55c5e5ce78a8a1562c0b4daf389259e2ed1a585648fa19370f46a5c1863",
+      "packet_hash": "4e3cbebddbd99317de027285a350b88df9e8000b7b83399d1222c3f0a938787d",
+      "published_packet_hash": "4e3cbebddbd99317de027285a350b88df9e8000b7b83399d1222c3f0a938787d",
+      "receipt_id": "d788172431f2469a9cbf2b2126200025",
+      "request_hash": "466e0a00f241180970d7c328c7ee4f058041fdd510027bee833f2e03b4370bc0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

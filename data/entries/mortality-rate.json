@@ -1,0 +1,66 @@
+{
+  "id": "mortality-rate",
+  "term": "mortality rate",
+  "definition": "Mortality rate is the frequency of deaths in a population over a given time period, often compared across groups such as age, sex, or marital status. In mental health research, it can refer specifically to deaths from a cause such as suicide, and may be age-standardized to allow fairer comparisons between populations with different age distributions.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13038005"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13038005",
+      "revision": "2026; DOI 10.1371/journal.pone.0342843; article XML SHA-256 f9db206153c6704fc330ccb01766a65065bcd23fc1f95f1e2e916fbedf4e04dd",
+      "scope": "Source record 10.1371/journal.pone.0342843; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342843"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4e8a9cfd89d3b5ad351bc30dda9b1d2072b873d0afdacb38cbb0b1cee87d3107",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6835739060a3416281d45b72ef923db2",
+    "request_hash": "fe0a1267e2a9e20fe6c5103f52faa180e80a695a3d307702a482eb7febd97de4",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "209f6fc9e4b47882a76f866d8266687b7dc4ad168d2803ee23c4629b54a06cd5",
+    "packet_hash": "4e8a9cfd89d3b5ad351bc30dda9b1d2072b873d0afdacb38cbb0b1cee87d3107"
+  },
+  "hash": "bd470f897ea3f0d5bd2b38febcf8484cd80daf78f0add3fbda6781a2d6e2d677",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening general definition of mortality rate as the frequency of deaths in a population over a given time period is not stated in the packet and goes beyond the supplied source.",
+        "The packet supports suicide mortality rates and age-standardized mortality rates in a study by age, sex, and marital status, but it does not support presenting this as a general definition of mortality rate across populations.",
+        "The phrase 'In mental health research' is broader than the packet, which is a specific suicide-mortality study; the definition should not generalize beyond that source."
+      ],
+      "definition_hash": "209f6fc9e4b47882a76f866d8266687b7dc4ad168d2803ee23c4629b54a06cd5",
+      "packet_hash": "4e8a9cfd89d3b5ad351bc30dda9b1d2072b873d0afdacb38cbb0b1cee87d3107",
+      "published_packet_hash": "4e8a9cfd89d3b5ad351bc30dda9b1d2072b873d0afdacb38cbb0b1cee87d3107",
+      "receipt_id": "b5be235c6cdb42edbf39be7e9f6dfdeb",
+      "request_hash": "30941c605570dbb63345d81df79d741462de911e012134156db0a561d8007109",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states a general characterization of mortality rate as “the frequency of deaths in a population over a given time period”; the provided packet does not include this definition or an equivalent statement.",
+        "The definition says that comparisons are “often compared across groups such as age, sex, or marital status.” The packet supports comparison by marital status and age groups and stratification by sex for suicide mortality, but it does not substantiate the broader wording “often” or the generalization to age/sex/marital status as common examples.",
+        "The definition claims that in mental health research it “can refer specifically to deaths from a cause such as suicide”; the packet supports the specific study of suicide mortality rates, but it does not explicitly support the phrasing that this is how the term is used “in mental health research” in general.",
+        "The definition claims that mortality may be “age-standardized to allow fairer comparisons between populations with different age distributions.” The packet mentions “age-standardized mortality rates (ASMRs)” but does not state that this is to allow fairer comparisons between differing age distributions."
+      ],
+      "definition_hash": "209f6fc9e4b47882a76f866d8266687b7dc4ad168d2803ee23c4629b54a06cd5",
+      "packet_hash": "4e8a9cfd89d3b5ad351bc30dda9b1d2072b873d0afdacb38cbb0b1cee87d3107",
+      "published_packet_hash": "4e8a9cfd89d3b5ad351bc30dda9b1d2072b873d0afdacb38cbb0b1cee87d3107",
+      "receipt_id": "8c3a5a1b9df64cd6b92d119eeabfc51e",
+      "request_hash": "ef8fc0dad65cb6cc6cfabcde7f60fadf89929b8de9b41326025bdf717068b531",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

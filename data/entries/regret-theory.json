@@ -1,0 +1,61 @@
+{
+  "id": "regret-theory",
+  "term": "regret theory",
+  "definition": "Regret theory is a decision-making approach that considers not only the expected benefit of a choice but also the regret a person may expect to feel if another option would have been better. It is used to account for how anticipated regret can shape choices, including comparisons with similar past cases.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10956882"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10956882",
+      "revision": "2024; DOI 10.1371/journal.pone.0300272; article XML SHA-256 88a2f3b38dee0320f3a87b3a353db85abe106e3789735883f828a4bc3cc54c05",
+      "scope": "Source record 10.1371/journal.pone.0300272; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0300272"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d0ee880e4ec4471ba3b6acd010672773",
+    "request_hash": "8b4c5fa3b58a161286e96e5b9f5ebef40d4bcce48ad86cc9f3498e80919fa066",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "907e180b9c13e2940088c9f5c021247d65a031ba303863b1ab5abadd714c41f4",
+    "packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220"
+  },
+  "hash": "49e0b8e43fa29e1a525081e77f754da8787e8949adbd12a10a36c82ef7ce48c8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "907e180b9c13e2940088c9f5c021247d65a031ba303863b1ab5abadd714c41f4",
+      "packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220",
+      "published_packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220",
+      "receipt_id": "c098b238db8948b1bbbd9a4d97b9551a",
+      "request_hash": "4ea355d7e34b411e7fc0bf709abbcdfed605078d12b0cce16821ff65cd21e8c2",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims regret theory is used to consider “expected benefit” of a choice; the packet instead describes considering “expected utility” (it does not explicitly use “expected benefit” language).",
+        "The definition states regret is expected “if another option would have been better”; the packet discusses regret in the context of “expected regrets of overreacting,” but does not support the broader “another option would have been better” formulation.",
+        "The provided “field” is learning, but the packet content is about emergency decision-making methodology/case-based reasoning and decision-making in group and multi-criteria contexts, not learning as such."
+      ],
+      "definition_hash": "907e180b9c13e2940088c9f5c021247d65a031ba303863b1ab5abadd714c41f4",
+      "packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220",
+      "published_packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220",
+      "receipt_id": "0d59ab6689204e6aa62389a20d92c29f",
+      "request_hash": "ae46c7cb916c217c59b307be1f7d896f3e7b96b615c46e124f889cc4192e67b7",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

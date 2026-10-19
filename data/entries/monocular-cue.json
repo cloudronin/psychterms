@@ -1,0 +1,60 @@
+{
+  "id": "monocular-cue",
+  "term": "monocular cue",
+  "definition": "A monocular cue is a depth signal available from one eye alone. In this source, it refers to increasing retinal size, which makes a sentence appear to loom out from the screen.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3338722"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3338722",
+      "revision": "2012; DOI 10.1371/journal.pone.0035608; article XML SHA-256 29ab09322d367bde9710b1197a48d49a6c675b19d64c77a0c4bb328ebee74e9d",
+      "scope": "Source record 10.1371/journal.pone.0035608; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0035608"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ab7a5f2d1b753cc764fe97768200cd032bd8e1dd5a268f37cd762127621bd617",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cdfb4ea86c8a4e058fdb292a1a032a8e",
+    "request_hash": "36c2eabe5e1808468b0ac487c20a7fea2d12b2c9a8c8893737572caa69f36f06",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "139f4b318332463f66086bb2ecc6f821fb329476b3545a6dcc0d0b3cdf3950eb",
+    "packet_hash": "ab7a5f2d1b753cc764fe97768200cd032bd8e1dd5a268f37cd762127621bd617"
+  },
+  "hash": "76c6310b1ed11ea8060f5ea25349d3e0419fab8ea49ef74d4eb62de23d2fb998",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "139f4b318332463f66086bb2ecc6f821fb329476b3545a6dcc0d0b3cdf3950eb",
+      "packet_hash": "ab7a5f2d1b753cc764fe97768200cd032bd8e1dd5a268f37cd762127621bd617",
+      "published_packet_hash": "ab7a5f2d1b753cc764fe97768200cd032bd8e1dd5a268f37cd762127621bd617",
+      "receipt_id": "ce2affc8950c4683b2b274e466f50c49",
+      "request_hash": "0bf89c5a1f6154f9d3d55eb8e575f2076aa64cc8313ab6e26ac609ceaf0b3cf9",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports a specific monocular depth cue in this study—an increasing retinal-size cue that made the sentence loom out of the screen—but it does not support the broader general definition that a monocular cue is any depth signal available from one eye alone.",
+        "The phrase “from one eye alone” is an unsupported generalization beyond the packet’s wording."
+      ],
+      "definition_hash": "139f4b318332463f66086bb2ecc6f821fb329476b3545a6dcc0d0b3cdf3950eb",
+      "packet_hash": "ab7a5f2d1b753cc764fe97768200cd032bd8e1dd5a268f37cd762127621bd617",
+      "published_packet_hash": "ab7a5f2d1b753cc764fe97768200cd032bd8e1dd5a268f37cd762127621bd617",
+      "receipt_id": "747ea0aa97af470c87029aca3a0b2cdd",
+      "request_hash": "740372fc080e3ecaa57eb9468378b343f782d5e1ddf814472517beb35a10f5fc",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

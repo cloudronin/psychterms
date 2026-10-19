@@ -1,0 +1,59 @@
+{
+  "id": "waggle-dance",
+  "term": "waggle dance",
+  "definition": "A waggle dance is the signal honey bee foragers use to tell other bees the direction and distance of an attractive food source. It includes sound and airflow produced by body vibrations that nestmates can detect with the antenna and Johnston’s organ.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc1794319"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc1794319",
+      "revision": "2007; DOI 10.1371/journal.pone.0000234; article XML SHA-256 caa62b3bc0686135a5803ad8d6f1d21663e8c141fe70c231cc18feecac5e4191",
+      "scope": "Source record 10.1371/journal.pone.0000234; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0000234"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c2dfec89624964366b64975742df823f0fca0aa17501ba534de1dd67bcfc05c4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6695fb7c2091429996cc40ca06e7ad09",
+    "request_hash": "bd8460a7f14c1d5f725b70a08a4be23a9ed48ede53e79745e836d9715641a927",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "f97c99b36e9ed623f3da8139484f21e487d817b609778b29cf6dfe30343042bd",
+    "packet_hash": "c2dfec89624964366b64975742df823f0fca0aa17501ba534de1dd67bcfc05c4"
+  },
+  "hash": "bdf533c8415144c7558ff68a2aa5b9e55b046290a6aa7a1d591fa4cb6cc1ecb4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f97c99b36e9ed623f3da8139484f21e487d817b609778b29cf6dfe30343042bd",
+      "packet_hash": "c2dfec89624964366b64975742df823f0fca0aa17501ba534de1dd67bcfc05c4",
+      "published_packet_hash": "c2dfec89624964366b64975742df823f0fca0aa17501ba534de1dd67bcfc05c4",
+      "receipt_id": "c3f5500ccb504451abb24bff43fc1c8f",
+      "request_hash": "ecfce6b90de33f89ba0b279a40952ad75ad80a6feb57faeabb9d19f516b562d2",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that nestmates “can detect” the sound and airflow via “the antenna and Johnston’s organ,” but the packet text supports antenna/Johnston’s organ involvement for acoustic (“sound”) processing and discusses air flows as implicated cues; it does not explicitly state that airflow detection is performed by the antenna and Johnston’s organ in the way described."
+      ],
+      "definition_hash": "f97c99b36e9ed623f3da8139484f21e487d817b609778b29cf6dfe30343042bd",
+      "packet_hash": "c2dfec89624964366b64975742df823f0fca0aa17501ba534de1dd67bcfc05c4",
+      "published_packet_hash": "c2dfec89624964366b64975742df823f0fca0aa17501ba534de1dd67bcfc05c4",
+      "receipt_id": "b7a71e56b7154fa289a056b54e679353",
+      "request_hash": "f9a6a2e6d0dc92527e2cae067cee5f48a3566b18341f3cc5001f15ba3b7cfd56",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

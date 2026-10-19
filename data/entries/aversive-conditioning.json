@@ -1,0 +1,63 @@
+{
+  "id": "aversive-conditioning",
+  "term": "aversive conditioning",
+  "definition": "Aversive conditioning is a learning method that pairs a person or other cue with an unpleasant experience, such as pain or fear, so the subject becomes more wary and avoids that cue. It is used to reverse habituation by increasing avoidance of humans or related signals.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6016931"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6016931",
+      "revision": "2018; DOI 10.1371/journal.pone.0199216; article XML SHA-256 033737d17998a2c186cf9b1207d7e363874951ec5f8ce76e14a22bbd18277f69",
+      "scope": "Source record 10.1371/journal.pone.0199216; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0199216"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ada0ead1d0ebc1af466e57e785dd3278dfc5a23f96fc9d2c18750cba25cf7379",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "84bc127cf45b4fd9af5c1be8c437c5ed",
+    "request_hash": "e4f0211723adba4efb046165c9d5590d14654f4efc4285de9c4fd7dbee22647a",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "20122122b900d98151b5ba871d347821d31fac1ef967714668fdb5f7b54f9130",
+    "packet_hash": "ada0ead1d0ebc1af466e57e785dd3278dfc5a23f96fc9d2c18750cba25cf7379"
+  },
+  "hash": "1114f50a9844f7f0a94981c290350f81d311bab93dabdc1aff6202a45e3a40f8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that the subject ‘avoids that cue’ and that the method is used to increase avoidance of humans or related signals; the packet only supports increasing wariness after pairing people with a negative stimulus, not avoidance as such.",
+        "The statement is framed too broadly for the source: the packet describes aversive conditioning in habituated wildlife management, specifically associating people with pain or fright to reverse habituation, rather than a general learning definition for ‘a person or other cue’ in all contexts."
+      ],
+      "definition_hash": "20122122b900d98151b5ba871d347821d31fac1ef967714668fdb5f7b54f9130",
+      "packet_hash": "ada0ead1d0ebc1af466e57e785dd3278dfc5a23f96fc9d2c18750cba25cf7379",
+      "published_packet_hash": "ada0ead1d0ebc1af466e57e785dd3278dfc5a23f96fc9d2c18750cba25cf7379",
+      "receipt_id": "febc77dfc0344ebdbd24365ec72f25ed",
+      "request_hash": "252a66bccb538a1642c7de91dcc6a841d1ff85bc61810d618e7165b6e2703574",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the subject “avoids that cue” / “increasing avoidance of humans or related signals,” but the packet only describes increases in “wariness” (measured via flight response distances) and “prevent[ing] the need for lethal wildlife management.” It does not explicitly state that avoidance (as such) is the targeted or outcome behavior.",
+        "Although the packet supports that aversive conditioning “associates people as a conditioned stimulus with a negative, unconditioned stimulus, such as pain or fright, to increase wariness” and is used “to reverse habituation,” the added emphasis on avoidance is not directly supported."
+      ],
+      "definition_hash": "20122122b900d98151b5ba871d347821d31fac1ef967714668fdb5f7b54f9130",
+      "packet_hash": "ada0ead1d0ebc1af466e57e785dd3278dfc5a23f96fc9d2c18750cba25cf7379",
+      "published_packet_hash": "ada0ead1d0ebc1af466e57e785dd3278dfc5a23f96fc9d2c18750cba25cf7379",
+      "receipt_id": "afc0e67e9ed14faa89fc147892f622a2",
+      "request_hash": "7058c92e44a34c4ff9ae47fa0fc92b3416642e136e73306b21d7747a5e7cd195",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

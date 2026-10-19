@@ -1,0 +1,60 @@
+{
+  "id": "object-based-attention",
+  "term": "object-based attention",
+  "definition": "Object-based attention is attention guided by perceived objects or grouped events rather than by isolated sensory parts. In this study, when speech sounds were heard as whole word-like auditory objects, that grouping made it harder to focus on and discriminate changes in one component unless the sounds were reorganized into separate attended and ignored objects.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5783383"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5783383",
+      "revision": "2018; DOI 10.1371/journal.pone.0190956; article XML SHA-256 48ba6c8063bb6c45c1080a526d8b82dcc0620cb50f49762b2bcf4db7a379882a",
+      "scope": "Source record 10.1371/journal.pone.0190956; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0190956"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8b5a25e38b638b536b705a1cae226ff01fa6dfb0e1f8947f37ac4c4b03224a8f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "786a4f63c10547a58c89e02387f0fddd",
+    "request_hash": "d4d57145d216046d49aad26ba29639f5703c5993519b4fd25b7d3f1b6766a83d",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "27361ee1302dcc1e1fdb547c728e40acc8e1d0d094084cd51fa6a81dfa4ca8be",
+    "packet_hash": "8b5a25e38b638b536b705a1cae226ff01fa6dfb0e1f8947f37ac4c4b03224a8f"
+  },
+  "hash": "3eca1ae6429632a37de57eda261130cf9c619fa2a339093aa8f6f0ebe167c37f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "27361ee1302dcc1e1fdb547c728e40acc8e1d0d094084cd51fa6a81dfa4ca8be",
+      "packet_hash": "8b5a25e38b638b536b705a1cae226ff01fa6dfb0e1f8947f37ac4c4b03224a8f",
+      "published_packet_hash": "8b5a25e38b638b536b705a1cae226ff01fa6dfb0e1f8947f37ac4c4b03224a8f",
+      "receipt_id": "830bacd4650441b3a756d94f4366c96d",
+      "request_hash": "3814563fd42113b59f4a14903a5e7c177fb064a320bd107002872d1a61482b9a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s contrast—“rather than by isolated sensory parts”—is not stated in the packet. The packet describes object-based grouping and attentional reorganization affecting discrimination, but it does not explicitly claim that attention is “guided … rather than” by isolated sensory parts.",
+        "The phrase “whole word-like auditory objects” is not used in the packet; the packet describes CvC words being perceived in terms of auditory objects that group bursts and vowels. While conceptually related, the specific wording/“word-like” characterization is not directly supported."
+      ],
+      "definition_hash": "27361ee1302dcc1e1fdb547c728e40acc8e1d0d094084cd51fa6a81dfa4ca8be",
+      "packet_hash": "8b5a25e38b638b536b705a1cae226ff01fa6dfb0e1f8947f37ac4c4b03224a8f",
+      "published_packet_hash": "8b5a25e38b638b536b705a1cae226ff01fa6dfb0e1f8947f37ac4c4b03224a8f",
+      "receipt_id": "358eebc71e5d4b2cb019851aaa2e5c22",
+      "request_hash": "6edaeca4be4fbada2f022b6513875a2f22d1e09f3d57ec06f29afcaf4c703c13",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

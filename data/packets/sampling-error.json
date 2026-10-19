@@ -1,0 +1,26 @@
+{
+  "id": "sampling-error",
+  "term": "sampling error",
+  "source": "article-pmc13432101",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354333",
+  "revision": "2026; DOI 10.1371/journal.pone.0354333; article XML SHA-256 1bdaf065b9ca12ffd86d7596d88be75f936af72db3a88c09973f2cd6b279d6ee",
+  "source_snapshot_sha256": "1bdaf065b9ca12ffd86d7596d88be75f936af72db3a88c09973f2cd6b279d6ee",
+  "url": "https://doi.org/10.1371/journal.pone.0354333",
+  "text": "Social vulnerability indices are widely used to assess communities’ relative vulnerability to environmental hazards. However, existing social vulnerability indices, including the CDC’s Social Vulnerability Index (CDC SVI), rely on deterministic scores that do not account for uncertainty from sampling error in American Community Survey (ACS) data. This study introduces SVI-MC, a probabilistic approach that leverages 10,000 Monte Carlo simulations to quantify aleatoric uncertainty in the SVI. Our method embeds sampling variability directly into index calculations, producing uncertainty aware composite vulnerability estimates. Results from eight southeastern U.S. states using census tract level data reveal that Theme 2 (Household Characteristics) exhibits the highest uncertainty, while Theme 3 (Race & Ethnicity) is the most stable. Rural, mountainous, and coastal areas display greater classification instability, while urban tracts are generally more stable. Additionally, we introduce an entropy-based measure that complements coefficients of variation (CVs) by capturing instability in categorical rankings. Comparisons with the CDC SVI show that while 68% of tracts align in the most and least vulnerable categories, one-third experience ranking shifts in our model. SVI-MC provides a more comprehensive and uncertainty-aware approach to social vulnerability assessment. This method is scalable, replicable, and adaptable, offering future applications for larger study regions or at finer observation units. The findings underscore the need for uncertainty-aware mapping in disaster planning, emergency response, and public health research, supporting more informed decision-making.",
+  "source_label": "Quantifying uncertainty due to sampling error in a social vulnerability index: A Monte Carlo approach",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1695
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 4
+  },
+  "packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hardware",
+  "term": "hardware",
+  "source": "article-pmc13485069",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355179",
+  "revision": "2026; DOI 10.1371/journal.pone.0355179; article XML SHA-256 9f9c17bfaa6546f8713985da16af796088514bd912ea1496533ebe0f0d8f0eda",
+  "source_snapshot_sha256": "9f9c17bfaa6546f8713985da16af796088514bd912ea1496533ebe0f0d8f0eda",
+  "url": "https://doi.org/10.1371/journal.pone.0355179",
+  "text": "The transition to post-quantum cryptography (PQC) raises practical concerns regarding the feasibility of standardized algorithms on resource-constrained embedded platforms. While National Institute of Standards and Technology (NIST)-selected PQC schemes are designed for broad applicability, their real-world performance on low-power microcontrollers remains insufficiently characterized. Using a configurable on-device evaluation framework, we assess the lattice-based key encapsulation mechanism (ML-KEM), lattice-based digital signature scheme (ML-DSA), and the hash-based digital signature scheme (SLH-DSA) implementations from the liboqs library across all NIST-standardized parameter sets and security levels. Our measurements focus on execution latency, key and signature material sizes, and dynamic memory behavior under realistic embedded constraints. Experimental results show that all evaluated ML-KEM, ML-DSA, and SLH-DSA parameter sets execute successfully on the ESP32-C6 without external memory support. ML-KEM exhibits stable and predictable memory usage across parameter sets, with execution time increasing proportionally with the security level. ML-DSA key generation and signing operations incur higher computational cost, while verification remains comparatively efficient. Evaluated SLH-DSA parameter sets demonstrate substantially higher execution latency, reflecting the inherent computational cost of hash-based signature schemes on embedded hardware. Overall, our results indicate that selected NIST PQC algorithms are deployable on modern embedded microcontrollers, provided that performance and latency trade-offs are carefully considered. The presented evaluation framework and empirical results provide practical guidance for the design of post-quantum secure embedded systems.",
+  "source_label": "Exploring hardware implementation feasibility of post-quantum cryptography in embedded systems: Evaluation of NIST-standardized ML-KEM, ML-DSA and SLH-DSA on ESP32-C6",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1807
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b"
+}

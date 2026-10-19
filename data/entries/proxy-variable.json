@@ -1,0 +1,60 @@
+{
+  "id": "proxy-variable",
+  "term": "proxy variable",
+  "definition": "A proxy variable is a measured variable used to represent or indicate other underlying processes. In the source, surface temperature is described this way because it reflects several environmental processes.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9328513"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9328513",
+      "revision": "2022; DOI 10.1371/journal.pone.0270991; article XML SHA-256 ef60bb3b6ad82d13942289fc40b7bd98a98f6e153435b3dc9671a72cc5c4e920",
+      "scope": "Source record 10.1371/journal.pone.0270991; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0270991"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "810c1ac381c80039b8804ae705755d71595b6ef78def3e8be919ffd79258414c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "00fe52ed28b8476e9166ec29dc9f932f",
+    "request_hash": "4958315449a35235c7e5c60f341f8250f8cb91099a9e83aa0fa84843cd1b46b0",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "a0a78f24bfa7181e243e6796ada76377fed001469553117853691a214a152a45",
+    "packet_hash": "810c1ac381c80039b8804ae705755d71595b6ef78def3e8be919ffd79258414c"
+  },
+  "hash": "c3b1c81288d574c1c6656ad4c0ea5c9753732de2e3346afbb591e2f0f092d42f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a0a78f24bfa7181e243e6796ada76377fed001469553117853691a214a152a45",
+      "packet_hash": "810c1ac381c80039b8804ae705755d71595b6ef78def3e8be919ffd79258414c",
+      "published_packet_hash": "810c1ac381c80039b8804ae705755d71595b6ef78def3e8be919ffd79258414c",
+      "receipt_id": "edd01cb291d44b6aa03877436a0edc5c",
+      "request_hash": "9aee3194c07dc4344d5fa0e887c241669f149eacd0442fdb734893c9077e66ed",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence provides a general definition (“A proxy variable is a measured variable used to represent or indicate other underlying processes”), but the packet only states that surface temperature is “a proxy variable for several environmental processes” and does not explicitly define what a proxy variable is in general terms (e.g., that it is measured or that it represents underlying processes).",
+        "The only supported content from the packet is the example/case that surface temperature is a proxy variable for environmental processes in tropical dry forests; the definition’s broader explanatory framing is not explicitly supported by the provided text."
+      ],
+      "definition_hash": "a0a78f24bfa7181e243e6796ada76377fed001469553117853691a214a152a45",
+      "packet_hash": "810c1ac381c80039b8804ae705755d71595b6ef78def3e8be919ffd79258414c",
+      "published_packet_hash": "810c1ac381c80039b8804ae705755d71595b6ef78def3e8be919ffd79258414c",
+      "receipt_id": "55781e39bf6e475e8f1842c89196c65c",
+      "request_hash": "deeabda4d2f4b95b6c9ea8e99da78f13a9327f52a3f2661f2d4555355631d3a2",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

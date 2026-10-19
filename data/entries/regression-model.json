@@ -1,0 +1,61 @@
+{
+  "id": "regression-model",
+  "term": "regression model",
+  "definition": "A regression model is a statistical analysis model used to examine a data set, such as a multiple linear regression model. In the source context, using one involves making a deliberate decision about how to handle values that fall below a lower limit of quantification.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12853717"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12853717",
+      "revision": "2026; DOI 10.1186/s12874-026-02770-y; article XML SHA-256 aea96dc4f3cc6e6d057c76c7d8639c72edccb17238d03361314fb5f675d9a3dd",
+      "scope": "Source record 10.1186/s12874-026-02770-y; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-026-02770-y"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "48c0607bbfe8068df7891ec8876458eacb793fccd34546dfe4201fa47cae0cea",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2f1ef41ddec045bdbbfb11b398cdf840",
+    "request_hash": "67bc4c80d789461f4967fdd8c7355e4e36a6621aa5b523bce4a07774d317cf51",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "65e45eeb3fb06a2b7b06ab743673761da752e482ee8dbc54e0f9eb8056151996",
+    "packet_hash": "48c0607bbfe8068df7891ec8876458eacb793fccd34546dfe4201fa47cae0cea"
+  },
+  "hash": "e3ddb59a6ff53609bca22fecfd280d0fb6c2d0c7e1080a520c3be74e55af0c22",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "65e45eeb3fb06a2b7b06ab743673761da752e482ee8dbc54e0f9eb8056151996",
+      "packet_hash": "48c0607bbfe8068df7891ec8876458eacb793fccd34546dfe4201fa47cae0cea",
+      "published_packet_hash": "48c0607bbfe8068df7891ec8876458eacb793fccd34546dfe4201fa47cae0cea",
+      "receipt_id": "d77b6559a35f42df91b290b7bc7644f2",
+      "request_hash": "78c6c1f71887efc53f48669d844c92a5a09a6aee053fbbfac5fa1e2319688e87",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a regression model in general; it only says that when a multiple linear regression model is chosen as the analysis model for a data set with values below a lower limit of quantification, a conscious choice must be made about how to handle those left-censored data.",
+        "The second sentence adds a procedural claim about handling censored values that is not supported as part of the term’s definition and overgeneralizes beyond the specific source context.",
+        "The requested field is not well supported by the packet, which is about a statistical method in an article on multiple linear regression, not a cognition concept."
+      ],
+      "definition_hash": "65e45eeb3fb06a2b7b06ab743673761da752e482ee8dbc54e0f9eb8056151996",
+      "packet_hash": "48c0607bbfe8068df7891ec8876458eacb793fccd34546dfe4201fa47cae0cea",
+      "published_packet_hash": "48c0607bbfe8068df7891ec8876458eacb793fccd34546dfe4201fa47cae0cea",
+      "receipt_id": "1aa3e69143ab4bc5b5d3239a0bd50317",
+      "request_hash": "39b87ee0e1a58867b0f573908a77954fddb9117710f3d97ae37ffe4efc18a21a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "probation",
+  "term": "probation",
+  "definition": "Probation refers to a community-based criminal justice arrangement for people convicted of an offence, used here as the setting for usual services and treatment follow-up rather than custody. In this context, it means remaining under probation supervision in the community in England and Wales.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13390880"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13390880",
+      "revision": "2026; DOI 10.1371/journal.pone.0352865; article XML SHA-256 0dd3d5eb742ad674fa32cc6fd71b787a5309c67cb900fc128f6b0db8384a5d83",
+      "scope": "Source record 10.1371/journal.pone.0352865; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0352865"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7d225e2729cae79d737fdf875a37843486d60ffdbf03be55f3cd158061925960",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dc74baba3bd341afa3fbf4d84a829cf4",
+    "request_hash": "7f28683cc58a16d375511fda0e354a772659be1039d5680e692cecd99882356a",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b6ec96fed87dc825594857d39102e2c66dade56171439473ae3d133ec37776d5",
+    "packet_hash": "7d225e2729cae79d737fdf875a37843486d60ffdbf03be55f3cd158061925960"
+  },
+  "hash": "08810bdeae0625d845a33a5df7ac2b578656e8e001f1f86a1323a98ed4a76ff4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible: the packet uses “probation” as a criminal justice/community setting in England and Wales, not as a diagnosis term.",
+        "The definition adds an unsupported general definition of probation as a criminal justice arrangement and treatment-follow-up setting; the packet only supports the narrower study context of community probation in England and Wales.",
+        "“Rather than custody” and the broader explanation of usual services/treatment follow-up are not defined in the packet and go beyond what is explicitly supported."
+      ],
+      "definition_hash": "b6ec96fed87dc825594857d39102e2c66dade56171439473ae3d133ec37776d5",
+      "packet_hash": "7d225e2729cae79d737fdf875a37843486d60ffdbf03be55f3cd158061925960",
+      "published_packet_hash": "7d225e2729cae79d737fdf875a37843486d60ffdbf03be55f3cd158061925960",
+      "receipt_id": "36c157e904494ea5b25e278c5421e809",
+      "request_hash": "95fb6234d22dfd7de312debf9dfefd34336cd164a109e965359f3738733b2414",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is given as \"diagnosis\", but the definition describes a criminal-justice supervision arrangement (probation), not a diagnostic concept; the packet does not support using this term in a diagnostic sense.",
+        "The packet mentions \"community probation\" and \"probation as usual\" in a trial context, but it does not provide a general definition of probation as \"a community-based criminal justice arrangement\" or an explicit statement that it is \"used here\" as a general setting for services and treatment follow-up rather than custody.",
+        "The definition’s specific claim that probation supervision is \"in the community in England and Wales\" is only indirectly supported: the packet states the study is in England and Wales and contrasts time in custody, but it does not explicitly define probation supervision in the community in those terms."
+      ],
+      "definition_hash": "b6ec96fed87dc825594857d39102e2c66dade56171439473ae3d133ec37776d5",
+      "packet_hash": "7d225e2729cae79d737fdf875a37843486d60ffdbf03be55f3cd158061925960",
+      "published_packet_hash": "7d225e2729cae79d737fdf875a37843486d60ffdbf03be55f3cd158061925960",
+      "receipt_id": "06896607019a4f23a1455876d4a4d346",
+      "request_hash": "5a4cf788ed2e5bc382fbe814a48d0f5dfad86bed175a765a8e148b3270af272f",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

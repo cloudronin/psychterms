@@ -1,0 +1,26 @@
+{
+  "id": "glycogen",
+  "term": "glycogen",
+  "source": "article-pmc13274865",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0351502",
+  "revision": "2026; DOI 10.1371/journal.pone.0351502; article XML SHA-256 9aa4dd1e891da710a68a9d4a8dfa3fbad50db48b2fdd3640e1f9c8db6bf81e80",
+  "source_snapshot_sha256": "9aa4dd1e891da710a68a9d4a8dfa3fbad50db48b2fdd3640e1f9c8db6bf81e80",
+  "url": "https://doi.org/10.1371/journal.pone.0351502",
+  "text": "Transmission electron microscopy (TEM) is the gold standard for assessing subcellular glycogen localization in skeletal muscle fibres, but conventional manual analysis is extremely time-consuming and limits large-scale studies. Here, we developed and validated a deep learning–based semantic segmentation approach to automate quantification of glycogen particles across defined subcellular compartments in human skeletal muscle. Skeletal muscle biopsies were obtained from seven healthy men under conditions of normal, depleted, and supercompensated glycogen content. TEM images were acquired from myofibrillar and subsarcolemmal regions and manually annotated to train two complementary attention U-Net models: a region model identifying subcellular structures (intermyofibrillar space, intramyofibrillar regions including A-band, I-band and Z-disc, and mitochondria) and a glycogen model detecting individual glycogen particles. Combining the two models enabled estimation of compartment-specific glycogen areal densities. The model’s outcome was evaluated against manual point-counting. At the fibre level, estimates based on 10–12 images per region achieved biases below 15% and coefficient of variation below 26% for all compartments. Importantly, model-derived total glycogen volume density showed strong concordance with biochemically determined muscle glycogen content across biopsies. In conclusion, this validated semantic segmentation workflow provides an objective and highly time-efficient tool for quantifying subcellular glycogen distribution in skeletal muscle. The model substantially reduces analysis time and enables high-throughput investigations of compartmentalized glycogen metabolism, with model weights and code made openly available.",
+  "source_label": "A semantic segmentation model to predict subcellular glycogen localization using transmission electron microscopy images",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1759
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "e865e83a1a4e6d0ba8029d20b7634647bff212f1968c187f587a4d3ba99265e5"
+}

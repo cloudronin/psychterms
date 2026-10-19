@@ -1,0 +1,60 @@
+{
+  "id": "quality-of-care",
+  "term": "quality of care",
+  "definition": "Quality of care is the degree to which health services increase the chance of achieving the health outcomes people want. It refers to providing timely, effective care that is matched to individual needs and supports better long-term health.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13127941"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13127941",
+      "revision": "2026; DOI 10.1371/journal.pone.0345938; article XML SHA-256 2841475956a56250dc82e0bc1565b47c4a1b41b96a2a489c5e555e5af7ad2d9d",
+      "scope": "Source record 10.1371/journal.pone.0345938; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0345938"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "511ddc15a94f40a68c7439ff1bfa12a1",
+    "request_hash": "b81c4f3d333d88e4d00e8ca43752c968f6b4c15935463284278b70d0b64262ec",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "8979243e1d951018b460160706e8d3f7a76c7b19785604873b3fc470f1a6d597",
+    "packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d"
+  },
+  "hash": "43b11ebe36fe87b114be037e90f324cd273f920f1a2e88b826b8f2248f66d125",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8979243e1d951018b460160706e8d3f7a76c7b19785604873b3fc470f1a6d597",
+      "packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d",
+      "published_packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d",
+      "receipt_id": "366ecb0cf9ff41d3bb1967baf6d01387",
+      "request_hash": "6542351f0e7eb6df28e803dfcc986b8ac494473f985125526054087d62333a6d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is “diagnosis,” but the packet describes “quality of care” as an assessment/indicator of health service performance (including a “quality of care index”), not as a diagnostic concept. Therefore the requested sense of the term does not fit the “diagnosis” field.",
+        "Although the definition largely echoes concepts in the packet (WHO’s probability of achieving desired outcomes; timely/effective care; tailored to individual needs; and long-term health prospects), the main mismatch with the specified field (“diagnosis”) prevents a defensible pass."
+      ],
+      "definition_hash": "8979243e1d951018b460160706e8d3f7a76c7b19785604873b3fc470f1a6d597",
+      "packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d",
+      "published_packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d",
+      "receipt_id": "1edc7aebdd3a4ce98c6eb0c77e029f8d",
+      "request_hash": "e5b2c21b62a6359d6c6b70afbae7b2d8f2aa4e4437067aa249c0bed6e206a17d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

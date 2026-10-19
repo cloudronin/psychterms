@@ -1,0 +1,60 @@
+{
+  "id": "sampling-error",
+  "term": "sampling error",
+  "definition": "Sampling error is the uncertainty that occurs because values are estimated from sample data rather than measured exactly for every member of a population. In this context, it means that survey-based estimates can vary by chance, which can make scores or rankings less stable.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13432101"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13432101",
+      "revision": "2026; DOI 10.1371/journal.pone.0354333; article XML SHA-256 1bdaf065b9ca12ffd86d7596d88be75f936af72db3a88c09973f2cd6b279d6ee",
+      "scope": "Source record 10.1371/journal.pone.0354333; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354333"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7c2ab93ba166416f9b323071fbeedd2e",
+    "request_hash": "2c3d2c0f9544e85ccd2afcba7390ba3027244b356ab54b36af4fc8819c2b7ce2",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "9cc5567aec9f80684880b61592dab3647a87249cbfda3c9e8a5a2ea3616b7af2",
+    "packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281"
+  },
+  "hash": "6a96cf884e63f30ecb6f37d0e05fc0552b901775aacea5a1c2daffb8ab9410e8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9cc5567aec9f80684880b61592dab3647a87249cbfda3c9e8a5a2ea3616b7af2",
+      "packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281",
+      "published_packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281",
+      "receipt_id": "8582919f25c7418397ecf1c51ed09f45",
+      "request_hash": "0c7d8bc713d86744382a223968b9a0d8353f165c254ffba260f51eed3acf4037",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state the core statistical definition that sampling error arises because population values are “estimated from sample data rather than measured exactly for every member of a population.” It only discusses uncertainty from sampling error in ACS data in the context of a social vulnerability index.",
+        "While the packet supports the general idea that survey-derived estimates/indices show “instability” (e.g., uncertainty-aware composite estimates, categorical ranking shifts, and theme stability/uncertainty), it does not clearly support the specific phrasing that survey-based estimates “vary by chance” as stated in the definition."
+      ],
+      "definition_hash": "9cc5567aec9f80684880b61592dab3647a87249cbfda3c9e8a5a2ea3616b7af2",
+      "packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281",
+      "published_packet_hash": "c91e496cc32985c6cf3bf634a853763d4cdce260417e03e5290ce2c59fb3c281",
+      "receipt_id": "0d458a7c6d454d15a879666a6cc03ed3",
+      "request_hash": "e76e21bbd3a248326366c7af8dc5d74c02fdb492cd5b3cf61889bcf3624105d4",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

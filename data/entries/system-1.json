@@ -1,0 +1,60 @@
+{
+  "id": "system-1",
+  "term": "System 1",
+  "definition": "System 1 is the fast mode of thinking in dual-process theory. It is described as operating in parallel and delaying firm commitment longer than System 2, which is slower and more sequential.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13167711"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13167711",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1783138; article XML SHA-256 95ba4d82852ac5f96817c62963ed496f848f31e4b0f401d5de826892749858f2",
+      "scope": "Source record 10.3389/fnhum.2026.1783138; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1783138"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "47e1a162336db8882a10312f305effdafa23c4a11b171aa11c0ffaec6c20176f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9b2142c783e74490b7575d43a9a94009",
+    "request_hash": "d5f0ed23852220a48f1a35a8ce205a2cf4145814700331ccebf81ebdf5d84443",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "dc4bf20b5b3d03f1274526393e0b23bd58d67c7d8be61534128075326690a5f7",
+    "packet_hash": "47e1a162336db8882a10312f305effdafa23c4a11b171aa11c0ffaec6c20176f"
+  },
+  "hash": "18e6030ddf61dc345ff7709aa536d99d0431b9e7a0b2cdbef0f75cc4a51d3c00",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dc4bf20b5b3d03f1274526393e0b23bd58d67c7d8be61534128075326690a5f7",
+      "packet_hash": "47e1a162336db8882a10312f305effdafa23c4a11b171aa11c0ffaec6c20176f",
+      "published_packet_hash": "47e1a162336db8882a10312f305effdafa23c4a11b171aa11c0ffaec6c20176f",
+      "receipt_id": "759771bbe6804031ae50e1740e7da6aa",
+      "request_hash": "3b180a006d90849f81f77fd5b012b01415828d14c991323afbdba5acba537525",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states: “System 1 … delaying firm commitment longer than System 2,” but the packet describes System 1 as “late-commitment” cognition and System 2 as “early-commitment” cognition, which does not support the claimed relative direction (“longer” delay for System 1 vs System 2).",
+        "The packet supports that System 1 is fast and parallel and System 2 is slow and sequential, but the commitment-timing comparison in the definition is not consistent with the packet’s wording (late-commitment for System 1 vs early-commitment for System 2)."
+      ],
+      "definition_hash": "dc4bf20b5b3d03f1274526393e0b23bd58d67c7d8be61534128075326690a5f7",
+      "packet_hash": "47e1a162336db8882a10312f305effdafa23c4a11b171aa11c0ffaec6c20176f",
+      "published_packet_hash": "47e1a162336db8882a10312f305effdafa23c4a11b171aa11c0ffaec6c20176f",
+      "receipt_id": "edf0e2cedf094d2dbb4b5e50e17f7896",
+      "request_hash": "d2b33a25816c5657e5ec182bdce8f028ba0177e03d3adcca48341e96d283787d",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

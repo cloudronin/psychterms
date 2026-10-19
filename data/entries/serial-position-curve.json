@@ -1,0 +1,61 @@
+{
+  "id": "serial-position-curve",
+  "term": "serial position curve",
+  "definition": "A serial position curve is the predictable pattern of memory performance across items in an ordered series, such as remembering presidents better depending on where they fall in the sequence. In this packet, recognition of presidents’ names and faces both followed this kind of ordered-memory pattern.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8313295"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8313295",
+      "revision": "2021; DOI 10.1371/journal.pone.0255209; article XML SHA-256 cd8f07a6410921c72458e7862746a61738dc7e293c60c76e8c49e4f2e19e14c6",
+      "scope": "Source record 10.1371/journal.pone.0255209; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0255209"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "53c52584744aafd8cb6aaef356bf73e18234a5ca736891c8eb85218c96a56b1a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "52cf229b7a7e4c338a2fb5f763dc65b7",
+    "request_hash": "f108e5964a0cb5d877cfa8d8f26fd8a1053e0373a7563c82069314db715bec92",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "cd31eb2f7ae81727ab360be2b0fe153b164085c9d6407c82bcd7af950cfdb028",
+    "packet_hash": "53c52584744aafd8cb6aaef356bf73e18234a5ca736891c8eb85218c96a56b1a"
+  },
+  "hash": "98dea4b9412cbe51ccb67ef301e40eb7607186f8a60a2620e22c2bbfc05bd0dc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cd31eb2f7ae81727ab360be2b0fe153b164085c9d6407c82bcd7af950cfdb028",
+      "packet_hash": "53c52584744aafd8cb6aaef356bf73e18234a5ca736891c8eb85218c96a56b1a",
+      "published_packet_hash": "53c52584744aafd8cb6aaef356bf73e18234a5ca736891c8eb85218c96a56b1a",
+      "receipt_id": "cf2e1bf271e34dbf89d3258f219531b6",
+      "request_hash": "5c216f36aaa2ca5fee72944d4c5ca60fc6db47c4d2bb4e12c3949992ebd00554",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general characterization (“predictable pattern of memory performance across items in an ordered series”) is not explicitly stated in the packet; the packet only describes Americans’ president recognition showing a pattern that “can be described as a serial position curve.”",
+        "The example framing (“such as remembering presidents better depending on where they fall in the sequence”) is not directly supported as stated; the packet mentions a serial-position-like pattern but does not describe “better depending on where they fall” in those terms.",
+        "The claim that “recognition of presidents’ names and faces both followed this kind of ordered-memory pattern” is only partially supported: the packet states that the overall facial-recognition pattern “still fit a serial position curve,” and that there was an additional spike in naming studies, but it does not clearly and explicitly state that name recognition and face recognition both independently “followed this kind of ordered-memory pattern” in the same direct wording."
+      ],
+      "definition_hash": "cd31eb2f7ae81727ab360be2b0fe153b164085c9d6407c82bcd7af950cfdb028",
+      "packet_hash": "53c52584744aafd8cb6aaef356bf73e18234a5ca736891c8eb85218c96a56b1a",
+      "published_packet_hash": "53c52584744aafd8cb6aaef356bf73e18234a5ca736891c8eb85218c96a56b1a",
+      "receipt_id": "abf4480a9d0e4669bce007314a77cfcc",
+      "request_hash": "a4966821ac323eb6aa1d8fd288e790912ab648a71ffbdd921f5b107445672ec5",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

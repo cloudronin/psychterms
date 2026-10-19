@@ -1,0 +1,26 @@
+{
+  "id": "two-way-analysis-of-variance",
+  "term": "two-way analysis of variance",
+  "source": "article-pmc10688674",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0295066",
+  "revision": "2023; DOI 10.1371/journal.pone.0295066; article XML SHA-256 319995747a7043e33ea0eda01ebf6a93af08cad68c433fd2ef0d723446ba54bd",
+  "source_snapshot_sha256": "319995747a7043e33ea0eda01ebf6a93af08cad68c433fd2ef0d723446ba54bd",
+  "url": "https://doi.org/10.1371/journal.pone.0295066",
+  "text": "It is commonly believed that if a two-way analysis of variance (ANOVA) is carried out in R, then reported p -values are correct. This article shows that this is not always the case. Results can vary from non-significant to highly significant, depending on the choice of options. The user must know exactly which options result in correct p -values, and which options do not. Furthermore, it is commonly supposed that analyses in SAS and R of simple balanced experiments using mixed-effects models result in correct p -values. However, the simulation study of the current article indicates that frequency of Type I error deviates from the nominal value. The objective of this article is to compare SAS and R with respect to correctness of results when analyzing small experiments. It is concluded that modern functions and procedures for analysis of mixed-effects models are sometimes not as reliable as traditional ANOVA based on simple computations of sums of squares.",
+  "source_label": "Notes on correctness of p -values when analyzing experiments using SAS and R",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    969
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "article-requested-method-concept",
+    "policy_version": 4
+  },
+  "packet_hash": "2d4647bc32cec8f20d4d26df97bb6957263deb89b2357ef2bc3a893f292041c5"
+}

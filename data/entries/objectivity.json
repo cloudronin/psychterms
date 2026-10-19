@@ -1,0 +1,64 @@
+{
+  "id": "objectivity",
+  "term": "objectivity",
+  "definition": "In this psychology context, objectivity is the quality of a method or signal that reflects a person’s state in a more direct way rather than depending on subjective reporting. The packet specifically supports this as a strength of EEG-based emotion recognition, meaning it is harder to fake.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12957252"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12957252",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1723907; article XML SHA-256 204fc8ccd4d23bd8dab9528e4f3ab20b637ea00f444a8ef187282dfbddc02770",
+      "scope": "Source record 10.3389/fnhum.2026.1723907; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1723907"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "70d5828f8cbc86fe7144839530e1bc798ae8a8b12254ed01437f27345a9995e6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "12b0d7d377a4478684a1e3af0b23528a",
+    "request_hash": "66d7a98b4f3b8148adb49d2329e29374726000ccd9df599e588bac9c4f834fb8",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "0eb37a496fab7a6e386c17d8b4ab8165b38c110ccab8b87dc1521ff61e3689a1",
+    "packet_hash": "70d5828f8cbc86fe7144839530e1bc798ae8a8b12254ed01437f27345a9995e6"
+  },
+  "hash": "518f82af277c5e1ca90e38bfaf5da0095c71e2d12f1053afa0e25a374ce373bc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that EEG emotion recognition is described as having “strong objectivity” and “non-forgery,” but it does not support the added explanation that this means the method reflects a person’s state “in a more direct way” than subjective reporting.",
+        "The definition goes beyond the source by generalizing from one EEG application to a general psychology definition of objectivity without support in the packet."
+      ],
+      "definition_hash": "0eb37a496fab7a6e386c17d8b4ab8165b38c110ccab8b87dc1521ff61e3689a1",
+      "packet_hash": "70d5828f8cbc86fe7144839530e1bc798ae8a8b12254ed01437f27345a9995e6",
+      "published_packet_hash": "70d5828f8cbc86fe7144839530e1bc798ae8a8b12254ed01437f27345a9995e6",
+      "receipt_id": "884c0beb6618428a948709805af327a6",
+      "request_hash": "a681d3cb071f71c8695e6f7281a29cf17ca03bbf84ebfe2e7637696d39b79668",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence defines objectivity as directly reflecting a person’s state rather than depending on subjective reporting, but the packet does not provide that conceptual definition or any explanation comparing objective methods to subjective reporting.",
+        "The packet only states that EEG emotion recognition has “strong objectivity and non-forgery.” The definition’s specific phrasing that it is “meaning it is harder to fake” is an unsupported interpretation beyond the packet’s wording.",
+        "The packet refers to objectivity specifically in the context of “EEG emotion recognition,” but the definition presents the concept more generally (“in this psychology context”) without support for the broader/general meaning."
+      ],
+      "definition_hash": "0eb37a496fab7a6e386c17d8b4ab8165b38c110ccab8b87dc1521ff61e3689a1",
+      "packet_hash": "70d5828f8cbc86fe7144839530e1bc798ae8a8b12254ed01437f27345a9995e6",
+      "published_packet_hash": "70d5828f8cbc86fe7144839530e1bc798ae8a8b12254ed01437f27345a9995e6",
+      "receipt_id": "40c81d16ccf14338aa3ed17ab145cdf0",
+      "request_hash": "0cc1d737897dce8b48ee8b59ae1f6ded5abbc0f3bb0f0ad39762030c9f166f85",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

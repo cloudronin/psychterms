@@ -1,0 +1,26 @@
+{
+  "id": "biomedical-informatics",
+  "term": "biomedical informatics",
+  "source": "article-pmc5026362",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0162812",
+  "revision": "2016; DOI 10.1371/journal.pone.0162812; article XML SHA-256 37a5bd794f64b690f0aaa99aa9e17858cf211f18ca2ae3d2027bd26aaf2918be",
+  "source_snapshot_sha256": "37a5bd794f64b690f0aaa99aa9e17858cf211f18ca2ae3d2027bd26aaf2918be",
+  "url": "https://doi.org/10.1371/journal.pone.0162812",
+  "text": "Commonly referred to as predictive modeling, the use of machine learning and statistical methods to improve healthcare outcomes has recently gained traction in biomedical informatics research. Given the vast opportunities enabled by large Electronic Health Records (EHR) data and powerful resources for conducting predictive modeling, we argue that it is yet crucial to first carefully examine the prediction task and then choose predictive methods accordingly. Specifically, we argue that there are at least three distinct prediction tasks that are often conflated in biomedical research: 1) data imputation, where a model fills in the missing values in a dataset, 2) future forecasting, where a model projects the development of a medical condition for a known patient based on existing observations, and 3) new-patient generalization, where a model transfers the knowledge learned from previously observed patients to newly encountered ones. Importantly, the latter two tasks—future forecasting and new-patient generalizations—tend to be more difficult than data imputation as they require predictions to be made on potentially out-of-sample data (i.e., data following a different predictable pattern from what has been learned by the model). Using hearing loss progression as an example, we investigate three regression models and show that the modeling of latent clusters is a robust method for addressing the more challenging prediction scenarios. Overall, our findings suggest that there exist significant differences between various kinds of prediction tasks and that it is important to evaluate the merits of a predictive model relative to the specific purpose of a prediction task.",
+  "source_label": "Latent Patient Cluster Discovery for Robust Future Forecasting and New-Patient Generalization",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1691
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "4b8341ce8e92372db6513b3a2e22bcb8da115597eaad4bdbdbeb3ea2891ca4f2"
+}

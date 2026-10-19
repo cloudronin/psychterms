@@ -1,0 +1,60 @@
+{
+  "id": "regular",
+  "term": "regular",
+  "definition": "In this source, regular refers to a standard two-level full or fractional factorial design used in research to study several factors at once. It is contrasted with non-regular designs, which the paper describes as often more flexible and efficient while still giving similarly reliable estimates.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12954941"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12954941",
+      "revision": "2026; DOI 10.1186/s12874-026-02784-6; article XML SHA-256 47e0b91dd57ff94e8106fa2a2adb69ffa7cf2ffc073daa1883a8f603fdaa8a4c",
+      "scope": "Source record 10.1186/s12874-026-02784-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-026-02784-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ec2274baf7db9065d628975d626e568397deeff5ea461cf20b3d79bf46ac9be2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6792f7806a9f450589aebd42bacef594",
+    "request_hash": "32a1a441e9913ab8d30f336f7030a0b84da83f25b529a8629198b759e7c198b8",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "902c6fbe0822c4a3895793d4e8d8c136c23c0c1ae19e02cfd4caa804b3f33c37",
+    "packet_hash": "ec2274baf7db9065d628975d626e568397deeff5ea461cf20b3d79bf46ac9be2"
+  },
+  "hash": "bbfd2fff52bb4493b402bbf4ae8c7dda129c5814606a3666d9888709b557a04b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “regular” as a “standard two-level full or fractional factorial design”; it mentions “two-level regular designs” and “larger regular designs,” but does not provide the requested definitional equivalence. ",
+        "The rest of the definition is broadly supported (non-regular designs are described as more flexible/cost efficient and yielding similarly reliable estimates), but the first substantive definitional claim (“regular refers to…”) is not directly supported in the provided text."
+      ],
+      "definition_hash": "902c6fbe0822c4a3895793d4e8d8c136c23c0c1ae19e02cfd4caa804b3f33c37",
+      "packet_hash": "ec2274baf7db9065d628975d626e568397deeff5ea461cf20b3d79bf46ac9be2",
+      "published_packet_hash": "ec2274baf7db9065d628975d626e568397deeff5ea461cf20b3d79bf46ac9be2",
+      "receipt_id": "8b551605e6d24fcd8ecf442fd4141129",
+      "request_hash": "4d85b6d23296e59460030a794d333126f73492c4cc352d61423b776aca67f596",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "902c6fbe0822c4a3895793d4e8d8c136c23c0c1ae19e02cfd4caa804b3f33c37",
+      "packet_hash": "ec2274baf7db9065d628975d626e568397deeff5ea461cf20b3d79bf46ac9be2",
+      "published_packet_hash": "ec2274baf7db9065d628975d626e568397deeff5ea461cf20b3d79bf46ac9be2",
+      "receipt_id": "7e175f2d459d4616bd5a2175db0d2ef0",
+      "request_hash": "679166798fc04d9d3fe54c3d5367f512e0b016eb43c389f7c46c1190d87df633",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

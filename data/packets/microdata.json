@@ -1,0 +1,26 @@
+{
+  "id": "microdata",
+  "term": "microdata",
+  "source": "article-pmc13229344",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0341704",
+  "revision": "2026; DOI 10.1371/journal.pone.0341704; article XML SHA-256 79ab85a3fdd257f76047e6e5439d3add7db692f0e25a060d0421da1996c390d0",
+  "source_snapshot_sha256": "79ab85a3fdd257f76047e6e5439d3add7db692f0e25a060d0421da1996c390d0",
+  "url": "https://doi.org/10.1371/journal.pone.0341704",
+  "text": "Synthetic populations provide the demographic foundations for agent-based models in transport, public health, disaster management and other sectors, enabling credible representations of individual characteristics and behaviours. Many established synthesis methods rely on census microdata; however, such data are infrequently collected, privacy-restricted, and usually available only as small public-use samples at coarse geographic scales. This paper introduces a sample-free framework that uses a large language model (LLM) to generate complete, household-structured populations directly from aggregate demographic data. The framework is LLM agnostic and follows a multi-step process: objective definition, input preparation, LLM selection, and synthetic household generation. No model fine-tuning is required, meaning that data requirements are low and the framework is easily accessible. Population synthesis is formulated as an iterative prompting process in which an LLM generates households guided by the discrepancies between synthetic and target distributions. The model draws on prior knowledge encoded during pre-training to propose plausible attribute combinations, resulting in both statistical alignment and structural feasibility. In a global evaluation covering 109 countries, the framework achieved very close alignment on simpler marginals such as gender (SRMSE: 0.003) and household size (SRMSE: 0.026), while more structurally complex attributes such as household composition (SRMSE: 0.062) and age (SRMSE: 0.128) were also reproduced with good accuracy. These results were supported by detailed case studies in Newcastle upon Tyne (UK) and Dar es Salaam (Tanzania). The principal contribution of the framework is to enable the construction of coherent household-structured populations when detailed microdata are unavailable, expanding the applicability of agent-based modelling in data-constrained settings.",
+  "source_label": "A large language model framework for sample-free population synthesis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1929
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8"
+}

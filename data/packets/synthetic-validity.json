@@ -1,0 +1,26 @@
+{
+  "id": "synthetic-validity",
+  "term": "synthetic validity",
+  "source": "article-pmc5186787",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnins.2016.00573",
+  "revision": "2016; DOI 10.3389/fnins.2016.00573; article XML SHA-256 80157c238e283688dd0f3487805a29d58665b1e37023afb0aeee039d2d73e0ba",
+  "source_snapshot_sha256": "80157c238e283688dd0f3487805a29d58665b1e37023afb0aeee039d2d73e0ba",
+  "url": "https://doi.org/10.3389/fnins.2016.00573",
+  "text": "The aim of this study was to analyze how measurement error affects the validity of modeling studies in computational neuroscience. A synthetic validity test was created using simulated P300 event-related potentials as an example. The model space comprised four computational models of single-trial P300 amplitude fluctuations which differed in terms of complexity and dependency. The single-trial fluctuation of simulated P300 amplitudes was computed on the basis of one of the models, at various levels of measurement error and at various numbers of data points. Bayesian model selection was performed based on exceedance probabilities. At very low numbers of data points, the least complex model generally outperformed the data-generating model. Invalid model identification also occurred at low levels of data quality and under low numbers of data points if the winning model's predictors were closely correlated with the predictors from the data-generating model. Given sufficient data quality and numbers of data points, the data-generating model could be correctly identified, even against models which were very similar to the data-generating model. Thus, a number of variables affects the validity of computational modeling studies, and data quality and numbers of data points are among the main factors relevant to the issue. Further, the nature of the model space (i.e., model complexity, model dependency) should not be neglected. This study provided quantitative results which show the importance of ensuring the validity of computational modeling via adequately prepared studies. The accomplishment of synthetic validity tests is recommended for future applications. Beyond that, we propose to render the demonstration of sufficient validity via adequate simulations mandatory to computational modeling studies.",
+  "source_label": "Mind the Noise When Identifying Computational Models of Cognition from Brain Activity",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1824
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "c826fc1fcd9ac45a57b619bd12a3185ea7909908b9fba54c885ea02852ca03cd"
+}

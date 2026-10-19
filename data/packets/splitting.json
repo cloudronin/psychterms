@@ -1,0 +1,26 @@
+{
+  "id": "splitting",
+  "term": "splitting",
+  "source": "article-pmc13289528",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-026-02887-0",
+  "revision": "2026; DOI 10.1186/s12874-026-02887-0; article XML SHA-256 1714b1ecd4f92ba6b3c15af9bc71b8c58c195011203761012cd1fc59bd5ac646",
+  "source_snapshot_sha256": "1714b1ecd4f92ba6b3c15af9bc71b8c58c195011203761012cd1fc59bd5ac646",
+  "url": "https://doi.org/10.1186/s12874-026-02887-0",
+  "text": "Choosing relevant predictors is central to the analysis of biomedical time-to-event data. Classical frequentist inference, however, presumes that the set of covariates is fixed in advance and does not account for data-driven variable selection. As a consequence, naive post-selection inference may be biased and misleading. In right-censored survival settings, these issues may be further exacerbated by the additional uncertainty induced by censoring. We investigate several inference procedures applied after variable selection for the coefficients of the Lasso and its extension, the adaptive Lasso, in the context of the Cox model. The methods considered include sample splitting, post-selection inference procedures that condition explicitly on the Lasso selection event, and the debiased Lasso. Because these methods address different inferential targets, we distinguish selected-submodel targets from full-model targets and interpret empirical coverage, interval width, power, and type I error accordingly. Their performance is examined in a neutral simulation study reflecting realistic covariate structures and censoring rates commonly encountered in biomedical applications. The primary focus is post-selection inference after Cox-Lasso variable selection, not a comprehensive benchmark of very-high-dimensional variable-selection performance. To complement the simulation results, we illustrate the practical behavior of these procedures in an applied example using a publicly available survival dataset.",
+  "source_label": "Statistical inference after variable selection in Cox models: a neutral simulation study",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1515
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77"
+}

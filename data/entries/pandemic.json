@@ -1,0 +1,64 @@
+{
+  "id": "pandemic",
+  "term": "pandemic",
+  "definition": "A pandemic is a disease outbreak that spreads globally and brings broad public-health responses. In the packet, the COVID-19 pandemic is described as a period of worldwide spread that was linked with worsening mental health in many middle-aged and older adults, followed later by a transition toward an endemic phase.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13521375"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13521375",
+      "revision": "2026; DOI 10.1371/journal.pone.0342140; article XML SHA-256 afdd04a511fa9dafa19c2a30c4b2e7e94774b7932c6c11aad2534ee8c4fbb087",
+      "scope": "Source record 10.1371/journal.pone.0342140; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342140"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f763bfcaff63dbe7607f1f828a6799c39ca3b5120b6ed3ecb0d5f7a59790ed26",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8ec86b55dd7e4c7593336ec84fcf245e",
+    "request_hash": "d280d47beb3f286a00c9c37bf2067d681330d7d3daa1ee2541ebc95409c0a448",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "c38c525a927a2b41292af3f03d46a09e9c068342a12bd3eb2821fd4bb026741f",
+    "packet_hash": "f763bfcaff63dbe7607f1f828a6799c39ca3b5120b6ed3ecb0d5f7a59790ed26"
+  },
+  "hash": "87303febb66b1fc15456551dfec8fd4971f544f8942889a0ee005819564bf845",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening sentence gives a general definition of “pandemic” as a globally spreading disease outbreak with broad public-health responses, but the packet only discusses the COVID-19 pandemic and does not support that standalone definition.",
+        "“Broad public-health responses” is not explicitly supported by the packet; it mentions a “global spread and response phase,” but not the broader definitional claim.",
+        "The definition is partly supported by the packet’s description of the COVID-19 pandemic, but it mixes a general dictionary sense with packet-specific findings, so it is not fully supported as written."
+      ],
+      "definition_hash": "c38c525a927a2b41292af3f03d46a09e9c068342a12bd3eb2821fd4bb026741f",
+      "packet_hash": "f763bfcaff63dbe7607f1f828a6799c39ca3b5120b6ed3ecb0d5f7a59790ed26",
+      "published_packet_hash": "f763bfcaff63dbe7607f1f828a6799c39ca3b5120b6ed3ecb0d5f7a59790ed26",
+      "receipt_id": "b4487e05330a431ebb4fe3fbda74ae53",
+      "request_hash": "8135f6d31293cf75e279bb8eb72b5cae63fa640eee4430b6aec7344bf4bf98cd",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“a disease outbreak that spreads globally and brings broad public-health responses”) is not explicitly stated as a definition in the packet; the packet mentions a “global spread and response phase,” but does not clearly define “pandemic” in those terms.",
+        "The remainder of the definition refers to specific content (COVID-19 worldwide spread associated with worsening mental health in middle-aged and older adults, followed by a transition toward an endemic phase), which is supported, but the unsupported definitional first sentence prevents a pass."
+      ],
+      "definition_hash": "c38c525a927a2b41292af3f03d46a09e9c068342a12bd3eb2821fd4bb026741f",
+      "packet_hash": "f763bfcaff63dbe7607f1f828a6799c39ca3b5120b6ed3ecb0d5f7a59790ed26",
+      "published_packet_hash": "f763bfcaff63dbe7607f1f828a6799c39ca3b5120b6ed3ecb0d5f7a59790ed26",
+      "receipt_id": "99b0954f8a274173bf5aac593f2c1378",
+      "request_hash": "db6611316992e9bf7c9f39a4f42908f6d6e070e9bbdd4ba4879936fb16547154",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

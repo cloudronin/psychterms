@@ -1,0 +1,59 @@
+{
+  "id": "generalizability",
+  "term": "generalizability",
+  "definition": "Generalizability is the extent to which a model or finding continues to work well when applied beyond the original dataset, such as in different populations or under different measurement conditions. In this context, it refers to robustness against biases and changes between datasets that can reduce real-world performance.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13492755"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13492755",
+      "revision": "2026; DOI 10.1371/journal.pone.0351225; article XML SHA-256 831d5262c90cb1a85580795376d479990dd78c4f3fea29a30f69c7f49c01fa07",
+      "scope": "Source record 10.1371/journal.pone.0351225; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351225"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cb023e9102a74de1b00fa4b5a60722af",
+    "request_hash": "50ead53dd97fac14f17422aa62c43216f476065892fbe6c926821eaaebc6188d",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "783406b979c66a36eb7a0effe67a1ad90276c4e84f1d0e5daaf01bb62cf79f8d",
+    "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26"
+  },
+  "hash": "bf29ab202c72e7a0aa3bd4f8ab6e8c0b66d11057e7cfc1763adcc55de1ab9dd7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "783406b979c66a36eb7a0effe67a1ad90276c4e84f1d0e5daaf01bb62cf79f8d",
+      "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26",
+      "published_packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26",
+      "receipt_id": "c30b96a78f1b4b6886455f461a8df03b",
+      "request_hash": "ad6b54c668251266cfce8bf2e93dc6ffc91dfb4e61fba61adcbd85b3ccd6e32a",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is \"cognition,\" but the packet content is about diabetic retinopathy screening and evaluation of machine-learning model generalizability across image datasets; it does not support a psychology/cognition context."
+      ],
+      "definition_hash": "783406b979c66a36eb7a0effe67a1ad90276c4e84f1d0e5daaf01bb62cf79f8d",
+      "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26",
+      "published_packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26",
+      "receipt_id": "680f0604999e456f9bd0887c6014ecc4",
+      "request_hash": "95cac4bff6dc5b66278cf4338fc4672ea76920633f8b826a4f22cfbe3ed2b658",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

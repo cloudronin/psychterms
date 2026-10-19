@@ -1,0 +1,26 @@
+{
+  "id": "pressure-ulcer",
+  "term": "pressure ulcer",
+  "source": "article-pmc8853507",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0264139",
+  "revision": "2022; DOI 10.1371/journal.pone.0264139; article XML SHA-256 76d5c10394f5c90c8477cb4b026bda7c53454a94e735142ec99d64790cc3da1e",
+  "source_snapshot_sha256": "76d5c10394f5c90c8477cb4b026bda7c53454a94e735142ec99d64790cc3da1e",
+  "url": "https://doi.org/10.1371/journal.pone.0264139",
+  "text": "A pressure ulcer is an injury of the skin and underlying tissues adjacent to a bony eminence. Patients who suffer from this disease may have difficulty accessing medical care. Recently, the COVID-19 pandemic has exacerbated this situation. Automatic diagnosis based on machine learning (ML) brings promising solutions. Traditional ML requires complicated preprocessing steps for feature extraction. Its clinical applications are thus limited to particular datasets. Deep learning (DL), which extracts features from convolution layers, can embrace larger datasets that might be deliberately excluded in traditional algorithms. However, DL requires large sets of domain specific labeled data for training. Labeling various tissues of pressure ulcers is a challenge even for experienced plastic surgeons. We propose a superpixel-assisted, region-based method of labeling images for tissue classification. The boundary-based method is applied to create a dataset for wound and re-epithelialization (re-ep) segmentation. Five popular DL models (U-Net, DeeplabV3, PsPNet, FPN, and Mask R-CNN) with encoder (ResNet-101) were trained on the two datasets. A total of 2836 images of pressure ulcers were labeled for tissue classification, while 2893 images were labeled for wound and re-ep segmentation. All five models had satisfactory results. DeeplabV3 had the best performance on both tasks with a precision of 0.9915, recall of 0.9915 and accuracy of 0.9957 on the tissue classification; and a precision of 0.9888, recall of 0.9887 and accuracy of 0.9925 on the wound and re-ep segmentation task. Combining segmentation results with clinical data, our algorithm can detect the signs of wound healing, monitor the progress of healing, estimate the wound size, and suggest the need for surgical debridement.",
+  "source_label": "Deep learning approach based on superpixel segmentation assisted labeling for automatic pressure ulcer diagnosis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1800
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "a48f38702e5b346d39b31f97083308ddebbd60461b9abb0033490b885535480d"
+}

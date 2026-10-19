@@ -1,0 +1,64 @@
+{
+  "id": "sa",
+  "term": "SA",
+  "definition": "SA refers to a person’s awareness and mental understanding of a changing situation so they can respond appropriately. In this source, it means rebuilding an accurate picture of the traffic environment during a transfer of control, a process that can be affected by factors such as cognitive load, age, and driving experience.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13553264"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13553264",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1881353; article XML SHA-256 30adcbfcd69a30174f884f917e923eae436f428915480128243a74859422b4a8",
+      "scope": "Source record 10.3389/fpsyg.2026.1881353; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1881353"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "845d58b4abd10ceaaa1d2905c7252d922c5199e1b80ae24b4fd66220c275e62e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "03563feb1b8c45a6a335e7f0b694d504",
+    "request_hash": "b77cc76cd4152b1386b37cd6b0f80e988936fc73758a4d07749aea1a1e337762",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "7873cd4f84271becda4c47daa06c4385492fadcffe09e1372ed64908ac01b369",
+    "packet_hash": "845d58b4abd10ceaaa1d2905c7252d922c5199e1b80ae24b4fd66220c275e62e"
+  },
+  "hash": "120472b3388226d3463964f49336870945cdabb740f9475f314b415954953a18",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support defining SA as “awareness and mental understanding” or as enabling a person to “respond appropriately”; the text instead discusses determinants of SA, SA recovery, and reconstructing a mental representation during takeover.",
+        "The definition’s framing as general awareness/understanding of a “changing situation” is broader than what the packet specifically states (it focuses on reconstructing mental representations of a dynamically changing traffic situation during transition of control)."
+      ],
+      "definition_hash": "7873cd4f84271becda4c47daa06c4385492fadcffe09e1372ed64908ac01b369",
+      "packet_hash": "845d58b4abd10ceaaa1d2905c7252d922c5199e1b80ae24b4fd66220c275e62e",
+      "published_packet_hash": "845d58b4abd10ceaaa1d2905c7252d922c5199e1b80ae24b4fd66220c275e62e",
+      "receipt_id": "d9bbb0778af94aa1b769f442b897ad39",
+      "request_hash": "7ed747dbc4c8a689b3f955f48c3ac27d2a73c5d3b401622f040e125b0cd7bf21",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define SA as a general state of “awareness and mental understanding”; it only discusses SA in the context of automated-vehicle takeover and reconstruction of a mental representation.",
+        "“So they can respond appropriately” is not supported by the packet as a definition of SA.",
+        "The phrase “during a transfer of control” is broadly supported, but the wording “an accurate picture of the traffic environment” goes beyond the packet’s wording and is not established as the source’s definition."
+      ],
+      "definition_hash": "7873cd4f84271becda4c47daa06c4385492fadcffe09e1372ed64908ac01b369",
+      "packet_hash": "845d58b4abd10ceaaa1d2905c7252d922c5199e1b80ae24b4fd66220c275e62e",
+      "published_packet_hash": "845d58b4abd10ceaaa1d2905c7252d922c5199e1b80ae24b4fd66220c275e62e",
+      "receipt_id": "a06c09f3555c42368901e9c8e3babd85",
+      "request_hash": "cab95692d280069602e2b423a7b82d45718a5bcdeba8fce438eca03d6106beeb",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

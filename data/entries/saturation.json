@@ -1,0 +1,64 @@
+{
+  "id": "saturation",
+  "term": "saturation",
+  "definition": "Saturation is the intensity or purity of a color in an image display setting. In this context, changing saturation alters how vividly tissue colors appear and can affect how easily different structures or bleeding are distinguished visually.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12674541"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12674541",
+      "revision": "2025; DOI 10.1371/journal.pone.0337416; article XML SHA-256 b7af34310d3d0a3d3c1e702d8d596898ebceab4230ce7e7126546b06f1b3acc6",
+      "scope": "Source record 10.1371/journal.pone.0337416; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337416"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3e95f2d056b0eec312f41f0e32269be435f5f216e9d0b859a75c597a8af1811d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "90ac024687ef44578fc8f4e6203b7c6d",
+    "request_hash": "d7d496f8eb56a55e7a966aa5b8278b9d3700d58b86968b9d3f7fee8d030c3467",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "094f12d10f1150e28261ca64a4a3020035a2b6a809f254e7415bd6740e36ad95",
+    "packet_hash": "3e95f2d056b0eec312f41f0e32269be435f5f216e9d0b859a75c597a8af1811d"
+  },
+  "hash": "1e8df17395a50efdf19f4f7e7a44a4a69b166d2962940786b265fca86d40c4db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports saturation as a display color setting used in the NGENUITY system, but it does not explicitly support the broad dictionary gloss “the intensity or purity of a color.”",
+        "The statement that changing saturation alters how vividly tissue colors appear is not directly stated in the source; the study reports effects on contrast visibility and distinguishability of retinal hemorrhage, not a general definition of saturation."
+      ],
+      "definition_hash": "094f12d10f1150e28261ca64a4a3020035a2b6a809f254e7415bd6740e36ad95",
+      "packet_hash": "3e95f2d056b0eec312f41f0e32269be435f5f216e9d0b859a75c597a8af1811d",
+      "published_packet_hash": "3e95f2d056b0eec312f41f0e32269be435f5f216e9d0b859a75c597a8af1811d",
+      "receipt_id": "10f5e7b2ddef49e4a067633d3efa6be2",
+      "request_hash": "b836f639300dadecaa4a4f107d0230e24ed79a5e4708d476b7ff650de880f904",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that saturation is the “intensity or purity of a color,” but the packet only reports a specific display parameter (“saturation set to 0…or 20”) on a monitor and does not provide or support a general conceptual definition of saturation as intensity/purity.",
+        "The definition claims that changing saturation “alters how vividly tissue colors appear.” The packet does not describe tissue color vividness generally; it reports effects on measured contrast ratios and visibility of retinal hemorrhage under different monitor saturation settings.",
+        "The definition says this can affect how easily “different structures or bleeding” are distinguished visually. The packet specifically discusses distinguishing retinal hemorrhage, but it does not support a broader claim about “different structures” or “bleeding” in general."
+      ],
+      "definition_hash": "094f12d10f1150e28261ca64a4a3020035a2b6a809f254e7415bd6740e36ad95",
+      "packet_hash": "3e95f2d056b0eec312f41f0e32269be435f5f216e9d0b859a75c597a8af1811d",
+      "published_packet_hash": "3e95f2d056b0eec312f41f0e32269be435f5f216e9d0b859a75c597a8af1811d",
+      "receipt_id": "7fac694471d54a4a9e6dbb569ccda067",
+      "request_hash": "cff01c908e60045f7824e0e7540dd61cd17f10529775ef3ff1c90a9809742582",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

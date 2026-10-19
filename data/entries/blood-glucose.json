@@ -1,0 +1,63 @@
+{
+  "id": "blood-glucose",
+  "term": "blood glucose",
+  "definition": "Blood glucose refers to the amount of glucose in the blood. In this source, it is discussed as a biological measure whose early patterns or changes over time may have prognostic importance in critically ill patients.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12931793"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12931793",
+      "revision": "2026; DOI 10.1371/journal.pone.0342745; article XML SHA-256 a199cdb0e6144fc72e9cd7a8f56198c46f7c4ea0edd4a1a75591242a55fda1f4",
+      "scope": "Source record 10.1371/journal.pone.0342745; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342745"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "af1c3789f3537fc5cb4bf3b0a024ab695b9276eb8c2f1f4c5b485cc4ac0b173f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dd1fb74f8693480ba04fe7ecc70d1176",
+    "request_hash": "b53be3765a92e1310ee26d4f79cab956f5d2a10f59f64dfc3845a3f81aad44a0",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "6c94b3fa1a61d60b86feab2cfb086b62460e0ec0c8e57604225a698798bc8d11",
+    "packet_hash": "af1c3789f3537fc5cb4bf3b0a024ab695b9276eb8c2f1f4c5b485cc4ac0b173f"
+  },
+  "hash": "fbce03f7d40d4c5f4f4184e93a4440075bd8187dea1139226c98cd3736989b97",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text provided does not explicitly define “blood glucose” as “the amount of glucose in the blood,” so this substantive definitional claim is not supported by the supplied packet.",
+        "The packet does support that early blood glucose trajectories/patterns were evaluated in ICU patients with intracerebral hemorrhage and their association with short-term mortality was assessed, but the provided definition includes an unsupported general definition of the term."
+      ],
+      "definition_hash": "6c94b3fa1a61d60b86feab2cfb086b62460e0ec0c8e57604225a698798bc8d11",
+      "packet_hash": "af1c3789f3537fc5cb4bf3b0a024ab695b9276eb8c2f1f4c5b485cc4ac0b173f",
+      "published_packet_hash": "af1c3789f3537fc5cb4bf3b0a024ab695b9276eb8c2f1f4c5b485cc4ac0b173f",
+      "receipt_id": "f8b99009a59645e48eab09ee68590deb",
+      "request_hash": "ee43b095fd14cee6e89b2307caedc9e9c2ad820cee249c69e1a79673cdb1279d",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that early blood glucose trajectories in critically ill patients with intracerebral hemorrhage were studied for association with short-term mortality, but it does not explicitly support the broader definitional claim that blood glucose is the amount of glucose in the blood.",
+        "The definition slightly overgeneralizes beyond the packet by presenting the prognostic relevance as a general property of blood glucose rather than as a study aim in ICU patients with ICH."
+      ],
+      "definition_hash": "6c94b3fa1a61d60b86feab2cfb086b62460e0ec0c8e57604225a698798bc8d11",
+      "packet_hash": "af1c3789f3537fc5cb4bf3b0a024ab695b9276eb8c2f1f4c5b485cc4ac0b173f",
+      "published_packet_hash": "af1c3789f3537fc5cb4bf3b0a024ab695b9276eb8c2f1f4c5b485cc4ac0b173f",
+      "receipt_id": "56d7d286717642b0bc050827e8a4fb28",
+      "request_hash": "b95754b96286e1edfd777ef881195c417b809fda6e15a328f47edaa4474cd7e4",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "bst",
+  "term": "BST",
+  "definition": "BST usually refers to the Block Span Task, a Corsi-block-like test of visuospatial working memory. In this source, it is described as an adapted version designed for use during MRI scanning to study visuospatial difficulties, including in people with Parkinson’s disease.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13059864"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13059864",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1762612; article XML SHA-256 7bcf41ef9582fa7e86be15787193602f5411858877a5662614b6cc57de9eda59",
+      "scope": "Source record 10.3389/fnhum.2026.1762612; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1762612"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "18ac646bcb997d9219cb9235a07d44921b2db50825e1cf6689b8e390c11de711",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2d4437eb71fa447d9c1e9ea2e009a1a0",
+    "request_hash": "4cc4ee42f8586f64430babe27558176370a7dbe0664263d8c4ce1a862b7216f7",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "643ab97f98c19364489e24989b4ab8ff40cab215693db9651e07e9132111b6da",
+    "packet_hash": "18ac646bcb997d9219cb9235a07d44921b2db50825e1cf6689b8e390c11de711"
+  },
+  "hash": "d06d200d929e248d8728a5f7ac954ba53d86846c0dac9aa76ddff516deca0870",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “BST usually refers to the Block Span Task,” but the packet only describes “Block Span Task (BST)” in this specific article and does not support the word “usually.”"
+      ],
+      "definition_hash": "643ab97f98c19364489e24989b4ab8ff40cab215693db9651e07e9132111b6da",
+      "packet_hash": "18ac646bcb997d9219cb9235a07d44921b2db50825e1cf6689b8e390c11de711",
+      "published_packet_hash": "18ac646bcb997d9219cb9235a07d44921b2db50825e1cf6689b8e390c11de711",
+      "receipt_id": "0a5c327cd33a44f6b0524cafe4fdaab3",
+      "request_hash": "3c4e56297cb5a713b28a41a6051c4d9790990a94b8b1314d073bb3db6403f11b",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“BST usually refers to” is an unsupported generalization; the packet only supports this specific meaning in this article, not that it is the usual sense of the acronym.",
+        "“to study visuospatial difficulties” goes beyond the packet, which says the task was adapted for use in MRI to understand the neurophysiological mechanisms underlying visuospatial impairment in Parkinson’s disease."
+      ],
+      "definition_hash": "643ab97f98c19364489e24989b4ab8ff40cab215693db9651e07e9132111b6da",
+      "packet_hash": "18ac646bcb997d9219cb9235a07d44921b2db50825e1cf6689b8e390c11de711",
+      "published_packet_hash": "18ac646bcb997d9219cb9235a07d44921b2db50825e1cf6689b8e390c11de711",
+      "receipt_id": "3faf0a00b2394fd5b9b995c2905f7396",
+      "request_hash": "55c995a1adb9325e05658e8cea2fef8baa7c1c71060086728491f8128d5124ba",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

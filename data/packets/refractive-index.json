@@ -1,0 +1,26 @@
+{
+  "id": "refractive-index",
+  "term": "refractive index",
+  "source": "article-pmc12124567",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0324827",
+  "revision": "2025; DOI 10.1371/journal.pone.0324827; article XML SHA-256 7054f68e814dfb6dc774b7e064e90cab9fbd74c84e1b6cc4fb0d30696267bd3b",
+  "source_snapshot_sha256": "7054f68e814dfb6dc774b7e064e90cab9fbd74c84e1b6cc4fb0d30696267bd3b",
+  "url": "https://doi.org/10.1371/journal.pone.0324827",
+  "text": "Accurately predicting the refractive index of hemoglobin across various wavelengths and concentrations is critical for advancing optical diagnostic techniques in biological and clinical applications. This study introduces a predictive model based on Gaussian Process Regression (GPR) to estimate the refractive index of hemoglobin in both oxygenated and deoxygenated states, covering wavelengths from 400 to 700 nm and concentrations ranging from 0 to 140 g/L. The GPR model effectively captures non-linear relationships, achieving high prediction accuracy with R 2 values of 99.4% for the training dataset and 99.3% for the testing dataset. An independent external dataset was used to validate the model’s robustness further, yielding an R 2 value of 92.80%, RMSE of 0.0042, and MSE of 1.77 × 10 ⁻ ⁵, demonstrating the model’s strong generalizability. To enhance interpretability, Partial Dependence Plots (PDPs) were employed to visualize the influence of wavelength and concentration on refractive index predictions, offering clear insights into hemoglobin’s optical behavior. The model’s ability to provide accurate and interpretable predictions has significant implications for improving the reliability of biophotonic diagnostic tools, such as optical coherence tomography and reflectance spectroscopy, in clinical settings. By combining machine learning with interpretability techniques, this study advances the understanding of hemoglobin’s optical properties and sets a benchmark for predictive modeling in biomedical optics, paving the way for more precise and dependable diagnostic applications.",
+  "source_label": "Predictive modeling of hemoglobin refractive index using Gaussian process regression with interpretability through partial dependence plots",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1606
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9f0d9cfff7caef5f07c639e69b553b9777005e967996832ab2aa07f74f3f56b6"
+}

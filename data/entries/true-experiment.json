@@ -1,0 +1,61 @@
+{
+  "id": "true-experiment",
+  "term": "true experiment",
+  "definition": "A true experiment is a research design that tests an effect by comparing an experimental condition with a control condition and assigning participants by randomization. Its aim is to isolate whether differences between groups are due to the manipulated condition rather than other factors.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11573134"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11573134",
+      "revision": "2024; DOI 10.1371/journal.pone.0301111; article XML SHA-256 82a2723110909e88c1c42af5d9b99ebf5b8040c7a7c6503fd796ceaa356ba0e5",
+      "scope": "Source record 10.1371/journal.pone.0301111; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0301111"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "924dff05f199c9649f3180efab7c9993322aeff19cca66af3609662e21ead9e5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9fbc6e5aa59d4fe6a6476c7bfad9daa5",
+    "request_hash": "d4069bdb588f44ef4aac69f682be206d2091a22bf61d99c86d31bcb30cdbd2cb",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "d6ad6e9e06d9514b03b2a21d1d1431eaee55b7b3ebf890a72e1ce50d1278d721",
+    "packet_hash": "924dff05f199c9649f3180efab7c9993322aeff19cca66af3609662e21ead9e5"
+  },
+  "hash": "2aeee3e982ab9305322c176fb3d757520fc07a1335992250f823d5444f90f32d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims participants are assigned by randomization; the packet only states the study is a “randomized controlled trial” but does not explicitly describe random assignment of participants.",
+        "The definition claims the aim is to isolate whether group differences are due to the manipulated condition rather than other factors; the packet does not state this broader methodological rationale in those terms (it describes the setup and measures instead).",
+        "The packet does not explicitly mention a “control condition” being compared to an “experimental condition” in general terms; it provides an example comparison, but not the general definition-level claim that this is what makes it a “true experiment.”"
+      ],
+      "definition_hash": "d6ad6e9e06d9514b03b2a21d1d1431eaee55b7b3ebf890a72e1ce50d1278d721",
+      "packet_hash": "924dff05f199c9649f3180efab7c9993322aeff19cca66af3609662e21ead9e5",
+      "published_packet_hash": "924dff05f199c9649f3180efab7c9993322aeff19cca66af3609662e21ead9e5",
+      "receipt_id": "63ab30896e0d4e50893b457b40ad90fc",
+      "request_hash": "d5c698508190a46c5e4dafee9fb40d99f1580430f424cbb20f7f597237a251e6",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d6ad6e9e06d9514b03b2a21d1d1431eaee55b7b3ebf890a72e1ce50d1278d721",
+      "packet_hash": "924dff05f199c9649f3180efab7c9993322aeff19cca66af3609662e21ead9e5",
+      "published_packet_hash": "924dff05f199c9649f3180efab7c9993322aeff19cca66af3609662e21ead9e5",
+      "receipt_id": "01f0a4029337416da99f279a781306fd",
+      "request_hash": "9104ce742eaf3939b579ff7cc9303b9e02f670e8d8ab0d9cb96d326b925c2e66",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

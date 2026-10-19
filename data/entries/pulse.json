@@ -1,0 +1,65 @@
+{
+  "id": "pulse",
+  "term": "pulse",
+  "definition": "In this context, pulse means a detectable sign of ongoing cardiovascular activity. Loss of pulse refers to the absence of that sign, which is treated as a critical emergency because quick detection is important for timely help.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12948053"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12948053",
+      "revision": "2026; DOI 10.1371/journal.pone.0342064; article XML SHA-256 ee40197cfb6c02fb28cb3b3c5bdeaee65cded5b36fcaa6bc839c470ff1a8d83e",
+      "scope": "Source record 10.1371/journal.pone.0342064; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342064"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5392f9728c36384f4bbc9cd0b664e96afabc2d5d8f899e06067cf0b025b298d1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7c4ec9476bea4be4b469ef2b220b1fe6",
+    "request_hash": "dc691a67f09d57240772861ee1236069ad551d68a655f3cb1108cffe4082bc9d",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "ec56fd9f153d192ea9c8322270807c44eeb9805a7b3ec23c2afc812a79a77f1d",
+    "packet_hash": "5392f9728c36384f4bbc9cd0b664e96afabc2d5d8f899e06067cf0b025b298d1"
+  },
+  "hash": "79f24ab53712c9c5b9d2bca2aedc9fcdb1cf3ae18132cc3112f3416b243abcfe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the medical phrase “loss of pulse,” but it does not define “pulse” as a cardiovascular sign; that meaning is imported rather than stated in the source.",
+        "The definition adds clinical framing (“critical emergency,” “quick detection is important for timely help”) that is only partially supported and is not presented in the packet as a general definition.",
+        "The requested field is cognition, but the source text is about cardiovascular pulse loss and emergency survival, not a cognition sense of the term."
+      ],
+      "definition_hash": "ec56fd9f153d192ea9c8322270807c44eeb9805a7b3ec23c2afc812a79a77f1d",
+      "packet_hash": "5392f9728c36384f4bbc9cd0b664e96afabc2d5d8f899e06067cf0b025b298d1",
+      "published_packet_hash": "5392f9728c36384f4bbc9cd0b664e96afabc2d5d8f899e06067cf0b025b298d1",
+      "receipt_id": "bec74ebb6a2e415286821898a5c26e1d",
+      "request_hash": "06e098cc32f8681f86608ecc23d0f054fc94e573a1bee32b6cb8a408a59eb21b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “pulse” as a detectable sign of ongoing cardiovascular activity; it only refers to “loss of pulse” as a problem in out-of-hospital cases.",
+        "The packet does not explicitly state that “loss of pulse” is “treated as a critical emergency”; it discusses survival importance and timely detection, but does not use or support the specific framing of emergency treatment.",
+        "The definition introduces additional wording (“absence of that sign,” “quick detection is important for timely help”) that is only broadly implied by the packet’s survival/timeliness statements, but not directly supported as a definitional meaning of the term in the requested sense."
+      ],
+      "definition_hash": "ec56fd9f153d192ea9c8322270807c44eeb9805a7b3ec23c2afc812a79a77f1d",
+      "packet_hash": "5392f9728c36384f4bbc9cd0b664e96afabc2d5d8f899e06067cf0b025b298d1",
+      "published_packet_hash": "5392f9728c36384f4bbc9cd0b664e96afabc2d5d8f899e06067cf0b025b298d1",
+      "receipt_id": "e94cba4578454a1c9288aa76ac4d8277",
+      "request_hash": "b59a50e75838375fdf0356c2e8b4dcb241e9c40f3b347f3739f414541dbf82bb",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

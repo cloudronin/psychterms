@@ -1,0 +1,26 @@
+{
+  "id": "graph",
+  "term": "graph-",
+  "source": "article-pmc12795383",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0339575",
+  "revision": "2026; DOI 10.1371/journal.pone.0339575; article XML SHA-256 dcc6428b274dbc7b0a130ff0fc2526686c47e270306e519ab61b8bcb4f8a8498",
+  "source_snapshot_sha256": "dcc6428b274dbc7b0a130ff0fc2526686c47e270306e519ab61b8bcb4f8a8498",
+  "url": "https://doi.org/10.1371/journal.pone.0339575",
+  "text": "To break through the efficiency and accuracy bottlenecks of manual mode in the compliance review of water conservancy project reports and promote the digital transformation of “Smart Water Conservancy”, this paper proposes a knowledge graph construction method for the compliance review of water conservancy project reports. Firstly, based on natural language processing technology, the BERT-BiLSTM-CRF model is used for named entity recognition to accurately locate key entities such as engineering parameters and normative clauses. Secondly, the context-free grammar (CFG) is used to parse the logical relationships between entities, and the normative clauses are transformed into “head entity + relationship + tail entity” triples through a semantic label system to achieve structured expression of knowledge in the water conservancy field. Finally, the Neo4j graph database is used to store the knowledge graph, and the Py2neo toolkit is used to complete the efficient import and dynamic update of triple data. The research takes the actual review of water conservancy project reports as a case to verify the feasibility of the method. Practice has proved that this method effectively improves the efficiency and accuracy of the compliance review of water conservancy project reports, providing technical support and practical reference for the digital transformation of water conservancy projects, and is of great significance for promoting the intelligent development of the water conservancy industry.",
+  "source_label": "A knowledge graph construction method for compliance review of water conservancy project reports",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1508
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b"
+}

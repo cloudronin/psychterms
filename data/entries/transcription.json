@@ -1,0 +1,64 @@
+{
+  "id": "transcription",
+  "term": "transcription",
+  "definition": "In this source, transcription means the gene-expression process carried out with the help of general transcription factors and RNA Polymerase II. It refers to cellular activity that can be reduced or altered, rather than to a psychological assessment or counselling technique.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13626347"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13626347",
+      "revision": "2026; DOI 10.1371/journal.pone.0349465; article XML SHA-256 3820b309cad3fa36441e58aea2efbfd12a73ff9c9d31a7caafba113ce2e50d1a",
+      "scope": "Source record 10.1371/journal.pone.0349465; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0349465"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d8e4ea3b192173945ddd954272914dfe3277acd8680c468a11cf67aad77408a6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cf2acebbf3624a0fbeb0423779fa5293",
+    "request_hash": "01b43b88b3e23baba2b1760441264b742e423b08bddd6251d4b0cdcf02eb4563",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "18e5f8fe736468d322d92a47301ca216602b45b666b56fe744f10c333efdacde",
+    "packet_hash": "d8e4ea3b192173945ddd954272914dfe3277acd8680c468a11cf67aad77408a6"
+  },
+  "hash": "fe301a0facf8a2ffef31d0db8cb9bdfc9c0c16084302ccdceefb1c93396ef9c7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports transcription in a molecular biology/gene-expression context, not the supplied field of cognition; the field is not defensible here.",
+        "The definition adds specific mechanistic detail about general transcription factors and RNA polymerase II that is not directly defined in the packet.",
+        "The contrast with a psychological assessment or counselling technique is unsupported and out of scope for the source packet."
+      ],
+      "definition_hash": "18e5f8fe736468d322d92a47301ca216602b45b666b56fe744f10c333efdacde",
+      "packet_hash": "d8e4ea3b192173945ddd954272914dfe3277acd8680c468a11cf67aad77408a6",
+      "published_packet_hash": "d8e4ea3b192173945ddd954272914dfe3277acd8680c468a11cf67aad77408a6",
+      "receipt_id": "66463b93865149f8bd5b0009d1515596",
+      "request_hash": "ae68e53da7867c5c9a0ff13864c890c777fd4130f16d7951a4d4af6de49908db",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “transcription” as a gene-expression process carried out with general transcription factors and RNA Polymerase II; it only mentions TFIIA (a general transcription factor), TBP, TFIIB, and RNA polymerase II in the context of suppressing an ORC mutation phenotype.",
+        "The claim that transcription “refers to cellular activity that can be reduced or altered, rather than to a psychological assessment or counselling technique” is not supported anywhere in the packet."
+      ],
+      "definition_hash": "18e5f8fe736468d322d92a47301ca216602b45b666b56fe744f10c333efdacde",
+      "packet_hash": "d8e4ea3b192173945ddd954272914dfe3277acd8680c468a11cf67aad77408a6",
+      "published_packet_hash": "d8e4ea3b192173945ddd954272914dfe3277acd8680c468a11cf67aad77408a6",
+      "receipt_id": "382c30c4162842d99164660ceabe1b22",
+      "request_hash": "08d0e850b4564cade5246dc7cb9730e43e64ac7b41f0dd6ca1d262356e11f047",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

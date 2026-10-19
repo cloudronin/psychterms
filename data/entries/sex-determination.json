@@ -1,0 +1,61 @@
+{
+  "id": "sex-determination",
+  "term": "sex determination",
+  "definition": "Sex determination is the process of identifying a person’s sex from available evidence. In the source context, it refers to using dental and sinus imaging data to improve how accurately this identification is made.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10898185"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10898185",
+      "revision": "2024; DOI 10.1186/s12874-024-02183-9; article XML SHA-256 b9c76bf02abd92a27483138d47fdd3914b424f8968b2b3c945feb2bc2b747786",
+      "scope": "Source record 10.1186/s12874-024-02183-9; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-024-02183-9"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bf51035a53294b9d8c8a6b6c6ba7e2bb",
+    "request_hash": "e384939e4c4621f8a5b8be2f7bb4589187fdd1c664720e3168dcbb529d53ef9a",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "68c0dd2cf1f310493d89c689f4af6753c4bf7c6e0286924647f9d7b5fd499034",
+    "packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46"
+  },
+  "hash": "e5645a314ad2d310b3abff5933edb6a7cc1564ac92e5fecff2bf2eff7e5d4d5b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "68c0dd2cf1f310493d89c689f4af6753c4bf7c6e0286924647f9d7b5fd499034",
+      "packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46",
+      "published_packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46",
+      "receipt_id": "7e28fc91d4f64db88fff0cefcaeb2fdb",
+      "request_hash": "2ab115b4133bbc8e952f24e7738b227b475ebed5d06f0d69c6ad17533e26df35",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports sex determination only in a forensic dentistry context, not the requested psychology/learning sense, so the field/sense is not defensible from the source.",
+        "The definition adds a general description (“identifying a person’s sex from available evidence”) that is not stated in the packet; the source only says a model improves accuracy for sex determination using cone beam CT images of maxillary and frontal sinuses.",
+        "The source does not specifically mention dental and sinus imaging data in the way the definition states, nor does it define the term itself; it only describes an approach that enhances accuracy."
+      ],
+      "definition_hash": "68c0dd2cf1f310493d89c689f4af6753c4bf7c6e0286924647f9d7b5fd499034",
+      "packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46",
+      "published_packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46",
+      "receipt_id": "7500f92b7ddc44d4886c509d9b3f925e",
+      "request_hash": "0b149e64b4a9c71deaa56282ca498fcb96cc1cf3ee0bdf6a2fd0fecb3125b57c",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

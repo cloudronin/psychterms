@@ -1,0 +1,63 @@
+{
+  "id": "psychiatric-diagnosis",
+  "term": "psychiatric diagnosis",
+  "definition": "A psychiatric diagnosis is the identification or labeling of a mental health condition in a person. In this context, it refers to whether someone has had such a condition at any point in their life.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13018109"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13018109",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1775098; article XML SHA-256 addfbca094a8a7837083d2f26afabcd779c3a88f49c2ed056d4be855160ff49d",
+      "scope": "Source record 10.3389/fpsyt.2026.1775098; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1775098"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f399935949b42cf5106a8f53d16144084c86fd9c77449d90fda6d6af8ac7a3f1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bb8e6b51f6f44dfdb341ea5b39b88c6b",
+    "request_hash": "27c361f1c0e715b465b718e755ed6b43fb794f332676f57b127fbfe60a190d3b",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "bbbd0490c70caea88973e3588f872370f4a2af4fce3341796bd92b4f103a4e76",
+    "packet_hash": "f399935949b42cf5106a8f53d16144084c86fd9c77449d90fda6d6af8ac7a3f1"
+  },
+  "hash": "16eb99c82403b5e40dea38e7b14097fc5882a34603ea957c3b60c2222cd7d3bd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the phrase “lifetime psychiatric diagnosis”; it does not support the added definition that this is the identification or labeling of a mental health condition.",
+        "The second sentence introduces an interpretation (“whether someone has had such a condition at any point in their life”) that is broader than the source text and is not directly defined in the packet."
+      ],
+      "definition_hash": "bbbd0490c70caea88973e3588f872370f4a2af4fce3341796bd92b4f103a4e76",
+      "packet_hash": "f399935949b42cf5106a8f53d16144084c86fd9c77449d90fda6d6af8ac7a3f1",
+      "published_packet_hash": "f399935949b42cf5106a8f53d16144084c86fd9c77449d90fda6d6af8ac7a3f1",
+      "receipt_id": "9c5ed1c70aec4d9caf2bb853517f2054",
+      "request_hash": "04af453011bda83763d5b941493c716eeeedc51db431a833773310d8c8f5a9d9",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only uses the phrase “lifetime psychiatric diagnosis” as an outcome of interest; it does not define “psychiatric diagnosis” as the “identification or labeling of a mental health condition.”",
+        "The second sentence (“at any point in their life”) is broadly consistent with the packet’s wording about “lifetime psychiatric diagnosis,” but the full definition includes an additional substantive characterization not supported by the packet."
+      ],
+      "definition_hash": "bbbd0490c70caea88973e3588f872370f4a2af4fce3341796bd92b4f103a4e76",
+      "packet_hash": "f399935949b42cf5106a8f53d16144084c86fd9c77449d90fda6d6af8ac7a3f1",
+      "published_packet_hash": "f399935949b42cf5106a8f53d16144084c86fd9c77449d90fda6d6af8ac7a3f1",
+      "receipt_id": "142217e9c4204a8788ecbf784fb05664",
+      "request_hash": "85e5fbaad3e31076b2dccd25e3d6e32398ce29ebd6631b95782a718d841f9812",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

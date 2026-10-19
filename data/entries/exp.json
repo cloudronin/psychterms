@@ -1,0 +1,64 @@
+{
+  "id": "exp",
+  "term": "exp",
+  "definition": "In this source, EXP refers to expression error, a metric used to measure how well facial expressions are preserved or matched in generated face-swapped images. Lower EXP values indicate smaller differences in expression.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13175384"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13175384",
+      "revision": "2026; DOI 10.1371/journal.pone.0349356; article XML SHA-256 bc6613c62e88fc850c1ec86fa743e67ee92b081e0b2179e035dc58ddc2602dc2",
+      "scope": "Source record 10.1371/journal.pone.0349356; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0349356"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f856b12410a04ec5805957c8b916f09b",
+    "request_hash": "343d0b9773f74793d145c14193522422955195b138d54d15627c3a6b4138d88d",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "0206331d793f330e122d08a8061e53f774d081f8905a46e895b4dddbb4eea98e",
+    "packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde"
+  },
+  "hash": "df9424b5c16144d04aa5382060fda17bdecf52d7aca3ad5924d6f43e3d62de4d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define EXP as “expression error” nor explain what EXP numerically represents beyond listing “Expressions Errors (EXP)” as an evaluation metric.",
+        "The packet does not support the claim that “Lower EXP values indicate smaller differences”; instead, it states the method achieved “the highest scores for Pose and EXP,” which contradicts the idea that lower values are better.",
+        "The packet does not explicitly describe EXP as measuring how well facial expressions are “preserved or matched.”"
+      ],
+      "definition_hash": "0206331d793f330e122d08a8061e53f774d081f8905a46e895b4dddbb4eea98e",
+      "packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde",
+      "published_packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde",
+      "receipt_id": "a33c2c33189f42a196c091b3e2a084d5",
+      "request_hash": "6d957d9900c1d79f804a46af9cee25211e2b31ac55bfe91a1c7ba89f7d3d65d8",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports EXP as an expressions-error metric for face-swapping evaluation, but it does not explicitly support the claim that lower EXP values indicate smaller expression differences.",
+        "The definition adds an interpretation of what the metric measures (“how well facial expressions are preserved or matched”) that is not stated in the source text, which only names EXP among evaluation metrics."
+      ],
+      "definition_hash": "0206331d793f330e122d08a8061e53f774d081f8905a46e895b4dddbb4eea98e",
+      "packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde",
+      "published_packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde",
+      "receipt_id": "91b56218a32240658c0faac2470be1bf",
+      "request_hash": "01e9aec7a6d007dbd4ace14349d97a11be1d0bec7d7c3da1783e035122bc2208",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

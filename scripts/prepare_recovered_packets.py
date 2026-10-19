@@ -11,13 +11,22 @@ from recover_nimh_sources import parse_page
 
 DEST=ROOT/'.private/source-recovery'
 
-def focused_excerpt(text,term,limit=2400):
+def match_flags(term):
+    return 0 if term.isupper() and any(c.isalpha() for c in term) else re.I
+
+def focused_excerpt(text,term,limit=2400,require_explanation=False):
     pattern=r'\b'+r'\W+'.join(re.escape(w) for w in re.findall(r'\w+',term))+r'\b'
     options=[];offset=0
     for paragraph in text.split('\n\n'):
-        for match in re.finditer(pattern,paragraph,re.I):
+        for match in re.finditer(pattern,paragraph,match_flags(term)):
             following=paragraph[match.end():match.end()+120]
             explanatory=bool(re.match(r'\s*(?:\([^)]{0,60}\)\s*)?(?:,?\s*(?:which\s+)?(?:is|are|refers? to|involves?|describes?|means?|denotes?|can be defined as|is defined as))\b',following,re.I))
+            if require_explanation:
+                prefix=paragraph[:match.start()]
+                starts_sentence=bool(re.search(r'(?:^|[.!?]\s+)(?:[Aa]n?\s+)?$',prefix))
+                expanded_acronym=term.isupper() and bool(re.search(r'\(\s*$',prefix)) and bool(re.match(r'\s*\)',following))
+                definition_following=bool(re.match(r'\s*(?:\([^)]{0,60}\)\s*)?(?:is|are)\s+(?:a|an|the)\b|\s*(?:refers? to|means?|denotes?|involves?|describes?|is defined as|can be defined as)\b',following,re.I))
+                if not (expanded_acronym or (starts_sentence and definition_following)):continue
             options.append((not explanatory,offset+match.start(),offset,paragraph,match.end()))
         offset+=len(paragraph)+2
     if not options:return None,None,None
@@ -70,12 +79,12 @@ def prepare():
     for term,options in sorted(available.items()):
         candidates=[];pattern=r'\b'+r'\W+'.join(re.escape(w) for w in re.findall(r'\w+',term))+r'\b'
         for row in options:
-            record=row['record'];match=re.search(pattern,record['text'],re.I)
+            record=row['record'];match=re.search(pattern,record['text'],match_flags(term))
             if not match:continue
-            passage,start,end=focused_excerpt(record['text'],term)
+            passage,start,end=focused_excerpt(record['text'],term,require_explanation=row['source']['id'].startswith('nimh-page-'))
             if not passage or len(passage.split())<12 or excluded_paragraph(passage) or excluded_paragraph(record['term']):continue
             # Prefer explicit explanatory wording; this is retrieval ranking, not semantic acceptance.
-            located=re.search(pattern,passage,re.I)
+            located=re.search(pattern,passage,match_flags(term))
             if located is None:continue
             around=passage[max(0,located.start()-150):located.end()+450]
             explanatory=bool(re.search(r'refers? to|defined as|is (?:a|an|the)\b|characteri[sz]ed|involves?\b|describes?\b',around,re.I))
@@ -88,7 +97,7 @@ def prepare():
             if not decision['eligible']:continue
             packet['planned_field']=decision['field'];packet['scope_decision']=decision
             candidates.append((not explanatory,0 if packet['source'].startswith('nimh-page-') else 1,match.start(),-len(passage),row,packet))
-        if not candidates:gaps.append({'term':term,'reason':'No untried eligible passage remains in the retrieved articles'});continue
+        if not candidates:gaps.append({'term':term,'reason':'No untried eligible definition passage remains in the retrieved sources'});continue
         _,_,_,_,row,packet=min(candidates,key=lambda c:c[:4])
         if packet['id'] in used:packet['id']+='-'+digest({'term':term,'source':packet['source'],'record':packet['source_record']})[:10]
         used.add(packet['id']);packet['packet_hash']=digest(packet)

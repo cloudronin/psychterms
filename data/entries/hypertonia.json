@@ -1,0 +1,63 @@
+{
+  "id": "hypertonia",
+  "term": "hypertonia",
+  "definition": "Hypertonia is a term used here for a possible drug side effect involving muscle spasms and likely increased muscular stiffness or tension. The packet does not provide a more detailed clinical explanation.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7864400"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7864400",
+      "revision": "2021; DOI 10.1371/journal.pone.0246441; article XML SHA-256 e015408f800386a2095262d3376c93e07b02d30811613997988dad67d4634a50",
+      "scope": "Source record 10.1371/journal.pone.0246441; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0246441"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a50157272c04880c78459e488a3cccd343d8cb684fd25d05b49343843ab6a8cc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1a353720b5884738aab53b65de9dabf4",
+    "request_hash": "c708e7e4e26ee88fe5af1e55d7c6d1706113662d9c568115e3134acf029ed1b5",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "a2dfd3564aaa1eebb544f882fe9a4dc9030e304e1fc63af6d5acc0c24a76acab",
+    "packet_hash": "a50157272c04880c78459e488a3cccd343d8cb684fd25d05b49343843ab6a8cc"
+  },
+  "hash": "525495bc46c004311646d544929aa6f7da2d085762f63632d4dfdcc8076f40a8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “hypertonia/muscle spasms” and mentions “possibly stiffness,” but the definition states “likely increased muscular stiffness or tension,” which is stronger than what the packet provides (“possibly”).",
+        "The packet does not provide a more detailed clinical explanation beyond listing hypertonia/muscle spasms as a potential adverse effect, so wording implying a clearer clinical characterization (“muscular stiffness or tension”) is not fully supported."
+      ],
+      "definition_hash": "a2dfd3564aaa1eebb544f882fe9a4dc9030e304e1fc63af6d5acc0c24a76acab",
+      "packet_hash": "a50157272c04880c78459e488a3cccd343d8cb684fd25d05b49343843ab6a8cc",
+      "published_packet_hash": "a50157272c04880c78459e488a3cccd343d8cb684fd25d05b49343843ab6a8cc",
+      "receipt_id": "b7f4a95664b7467f9649512e3f305119",
+      "request_hash": "4e6bb2a53fd41a2d7aaa5b74b1a3db03f5773c7e7c660757ceb30724d0899254",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports hypertonia as a possible adverse effect of bisphosphonate drugs and mentions muscle spasms, but it does not explicitly support the added gloss “increased muscular stiffness or tension.”",
+        "The final sentence adds a meta-claim about the packet not providing a more detailed clinical explanation; that is not stated in the source and is unsupported by the packet."
+      ],
+      "definition_hash": "a2dfd3564aaa1eebb544f882fe9a4dc9030e304e1fc63af6d5acc0c24a76acab",
+      "packet_hash": "a50157272c04880c78459e488a3cccd343d8cb684fd25d05b49343843ab6a8cc",
+      "published_packet_hash": "a50157272c04880c78459e488a3cccd343d8cb684fd25d05b49343843ab6a8cc",
+      "receipt_id": "e77612a9b5764aa98b04e8933a96474e",
+      "request_hash": "60f0f3b633302c9d20b402d6c95aa9491dcd1daa3194bf452c3c9ff7ae606f86",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

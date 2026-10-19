@@ -1,0 +1,26 @@
+{
+  "id": "crash",
+  "term": "crash",
+  "source": "article-pmc13128118",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344623",
+  "revision": "2026; DOI 10.1371/journal.pone.0344623; article XML SHA-256 2a9347b979bf07d46b7a4512bb0f267bdd5297ba678157d350f2303ef2889870",
+  "source_snapshot_sha256": "2a9347b979bf07d46b7a4512bb0f267bdd5297ba678157d350f2303ef2889870",
+  "url": "https://doi.org/10.1371/journal.pone.0344623",
+  "text": "Current real-time crash prediction models (RTCPMs) for freeway diverging areas primarily rely on macroscopic traffic parameters, which inadequately capture how vehicle interactions escalate into crash risks. This study analyzed 12 interchange diverging areas from two multilane freeways in China, employing image recognition technology to extract 48 vehicle motion parameters and surrogate safety measures (SSMs). Extended Time-to-Collision (ETTC)—a validated two-dimensional metric for lateral conflicts—was innovatively applied to establish a refined database with longitudinal/lateral conflict labels at 30-second intervals. Following spatiotemporal conflict analysis, four RTCPM types—Random Forest, Neural Network, Support Vector Machine, and XGBoost—were developed, with SHAP interpretability framework analyzing key risk factor contributions. Results showed: 1) XGBoost achieved optimal performance; 2) lateral conflicts exhibited longer durations and higher crash risks than longitudinal conflicts, with severe conflicts concentrated within 200 meters upstream of exit ramps; 3) SSMs including Modified Time-to-Collision (MTTC)—which incorporates relative acceleration—alongside Stopping Headway Distance and Time-to-Collision, emerged as decisive factors for both crash types, ranking highest in predictive contribution. These findings provide scientific foundations for designing dangerous driving warning systems and implementing proactive traffic safety management at interchange diverging areas.",
+  "source_label": "Two-dimensional ETTC–labeled longitudinal and lateral conflicts for interpretable real-time crash risk prediction in freeway interchange diverging areas",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1508
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147"
+}

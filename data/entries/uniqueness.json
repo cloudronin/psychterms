@@ -1,0 +1,61 @@
+{
+  "id": "uniqueness",
+  "term": "uniqueness",
+  "definition": "In visual statistical learning, uniqueness refers to how specifically one stimulus predicts another, taking into account not just how often the outcome follows the cue but also how exclusively they are linked to each other. It describes the distinctiveness of a predictive relationship rather than simple co-occurrence alone.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12923146"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12923146",
+      "revision": "2026; DOI 10.1371/journal.pone.0342272; article XML SHA-256 34d50835106fdd8e821cb3a85824af0aa6d224df31f87c27e8468d53030a33da",
+      "scope": "Source record 10.1371/journal.pone.0342272; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342272"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5d9465c7f772ca46707cf5c18fd5f478dc6bcc73bf51892171802fd9e6880461",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7005756837964b1389bae126ae3a4ccd",
+    "request_hash": "47f642344ef3f3ec7b2accf0fadaa787e01186839a031edd9c1e9779a0ace9aa",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "cabefab35f9f0013b14413c0beefd3df847749a6962b9c906ac677f5b85b8f38",
+    "packet_hash": "5d9465c7f772ca46707cf5c18fd5f478dc6bcc73bf51892171802fd9e6880461"
+  },
+  "hash": "1d7bfd9c96afe223209bc6af0e8ec8ffc9cd16c6e7f49a13c9dd3df0ec2f5673",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cabefab35f9f0013b14413c0beefd3df847749a6962b9c906ac677f5b85b8f38",
+      "packet_hash": "5d9465c7f772ca46707cf5c18fd5f478dc6bcc73bf51892171802fd9e6880461",
+      "published_packet_hash": "5d9465c7f772ca46707cf5c18fd5f478dc6bcc73bf51892171802fd9e6880461",
+      "receipt_id": "9a00daeb7f2849d3bda7943cba7eb484",
+      "request_hash": "4c678eecbf139b7c1e9341b13667f3ef8a6201a28dc0d346941689441d1b4607",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “uniqueness” matching the proposed meaning (e.g., “exclusively they are linked,” “distinctiveness of a predictive relationship rather than simple co-occurrence”).",
+        "While the packet states that observers may learn the “uniqueness of predictive relationships,” it describes this in terms of comparing three associative-strength metrics and finding that the dual factor heuristic (DFH) predicts learning best; it does not define uniqueness as “specifically predicts another” using the exclusivity framing present in the definition.",
+        "The definition is written as a general concept (“not just how often… but also how exclusively…”) rather than as what the packet supports (a modeling/metric comparison in visual statistical learning)."
+      ],
+      "definition_hash": "cabefab35f9f0013b14413c0beefd3df847749a6962b9c906ac677f5b85b8f38",
+      "packet_hash": "5d9465c7f772ca46707cf5c18fd5f478dc6bcc73bf51892171802fd9e6880461",
+      "published_packet_hash": "5d9465c7f772ca46707cf5c18fd5f478dc6bcc73bf51892171802fd9e6880461",
+      "receipt_id": "a3700706d83842849f81e50e40d22078",
+      "request_hash": "e2ec150a1387ded0d20b6c9b137663c06796455fb61859ac728ff3f32b535400",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

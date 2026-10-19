@@ -1,0 +1,60 @@
+{
+  "id": "running-wheel",
+  "term": "running wheel",
+  "definition": "A running wheel is a motor-driven exercise wheel used in animal research to measure and support sustained running, in this case in rats. In the described infrared-sensing version, sensors track the animal’s position in real time so researchers can record and quantify effective exercise activity objectively.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4395283"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4395283",
+      "revision": "2015; DOI 10.1371/journal.pone.0122394; article XML SHA-256 ae4551e54ddcd07f7d08a7632101ede9018431da0a15ce552dfdc271261d8bc0",
+      "scope": "Source record 10.1371/journal.pone.0122394; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0122394"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cb55963dd71e4c6185897237620ebc5b",
+    "request_hash": "dd32a376b39e487dd3542def2d48345db543ed3422780318e11d1b84798ae5de",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "cd400197843230315a8731f3d7c0729076a29b23d891b639d376d3ec663f0748",
+    "packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7"
+  },
+  "hash": "223d3d6bd5b8ba6c519c0f94abea2494fa4956009139c7ae4fc27cb6dfba9000",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cd400197843230315a8731f3d7c0729076a29b23d891b639d376d3ec663f0748",
+      "packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7",
+      "published_packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7",
+      "receipt_id": "65736da9102a449f801e68d36f05e571",
+      "request_hash": "cb596c0c683d7bec5cf7ce699b8e4f31920e40a0f9c10841b6f6dcdb437522bf",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition overgeneralizes from the source’s specific infrared-sensing running wheel system to all ‘running wheels’ by stating that a running wheel is motor-driven; the packet only supports this for the described system, not as the general sense of the term.",
+        "The packet supports rats, infrared sensors, and automated training/measurement, but the definition adds a broader functional gloss (‘support sustained running’) that is not stated as the term’s definition in the source."
+      ],
+      "definition_hash": "cd400197843230315a8731f3d7c0729076a29b23d891b639d376d3ec663f0748",
+      "packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7",
+      "published_packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7",
+      "receipt_id": "f5df85c76d074b82b0b59e1ec86f91fc",
+      "request_hash": "d00a9968256053e3a9e497ab503d6be8bbbd47bf5f3c88cf419f51885577044f",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "active-therapy",
+  "term": "active therapy",
+  "definition": "In this source, active therapy means a person is currently undergoing medical treatment rather than being in the post-treatment survivor phase. The term is used to distinguish children still receiving leukemia therapy from those assessed after treatment had ended.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13313357"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13313357",
+      "revision": "2026; DOI 10.1371/journal.pone.0352440; article XML SHA-256 be263f4fdda71e383e55a3bebfd163c0f560ff8fa2030c2daf588f62c4b15595",
+      "scope": "Source record 10.1371/journal.pone.0352440; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0352440"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "602c11fe21564002a9fdb9d678a2bbcc",
+    "request_hash": "87ac63e9264c9e88482350af27bcd1faa9194e873f2dcc1d0d8686a9a36a3608",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "e3bac78e88535fa0082c71a4e0e66c4597aafc35f9bc46855f0d65d0c3bfd337",
+    "packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1"
+  },
+  "hash": "412c592b5195f76cbb8d221d2482f13da01938e95f65b93cbd8f07baf1051c20",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e3bac78e88535fa0082c71a4e0e66c4597aafc35f9bc46855f0d65d0c3bfd337",
+      "packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1",
+      "published_packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1",
+      "receipt_id": "bd95730cbac648708d61813b037897e5",
+      "request_hash": "4b7c96cae802dab0fb721a859dbf6e5a36b600049d7ba0b1b525a125fe632e09",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition primarily describes treatment status/study group membership (active treatment vs post-treatment), but it is not supported as a cognition-related term within the packet. The packet uses “on active therapy” in a pediatric leukemia/neuropathy context, not in a cognition domain.",
+        "The definition’s framing as “post-treatment survivor phase” and “assessed after treatment had ended” is only indirectly supported. The packet states there are “post-treatment survivors” and “on active therapy,” but it does not explicitly define “survivor phase” or that participants were “assessed after treatment had ended.”"
+      ],
+      "definition_hash": "e3bac78e88535fa0082c71a4e0e66c4597aafc35f9bc46855f0d65d0c3bfd337",
+      "packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1",
+      "published_packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1",
+      "receipt_id": "e535429cf58a48088dcebf1d1b9eba0d",
+      "request_hash": "833def395601231f9b017e67838bf933c7d92702b3b1bca021ce51cbf5b88c65",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

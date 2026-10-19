@@ -1,0 +1,61 @@
+{
+  "id": "surface-color",
+  "term": "surface color",
+  "definition": "Surface color is the appearance of a patch as the color of a material surface seen under illumination, rather than as light emitted by the patch itself. In this research context, it contrasts with aperture-color or self-luminous appearance, which occurs when the patch is seen as glowing light instead of a surface.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12987584"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12987584",
+      "revision": "2026; DOI 10.1371/journal.pone.0343984; article XML SHA-256 8961fd4d0f9aa873d5fe3a54de860e1f00a6d7ead4eb1c533d7d7b3dc30d7498",
+      "scope": "Source record 10.1371/journal.pone.0343984; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0343984"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "204d19affefcc41e9dbab549adba250288df68a6e27048011987a2acd0ffa441",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c43ae23bef0e4d29bc0c9cc4f5cc3ef8",
+    "request_hash": "12ac340c67dea8cc5d3392b6c71eca57cc2d31fcb90b9b74e8bf722b2c30dc42",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "a1a8fef017b1a06fe4874f5b29ae08197b9b5079df4ba6d646f1043acb6cbee8",
+    "packet_hash": "204d19affefcc41e9dbab549adba250288df68a6e27048011987a2acd0ffa441"
+  },
+  "hash": "ab6cde35d4c9ca550cce1dfc82f5c455ca1c1b3f8f77dbda656166b0af63879c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a1a8fef017b1a06fe4874f5b29ae08197b9b5079df4ba6d646f1043acb6cbee8",
+      "packet_hash": "204d19affefcc41e9dbab549adba250288df68a6e27048011987a2acd0ffa441",
+      "published_packet_hash": "204d19affefcc41e9dbab549adba250288df68a6e27048011987a2acd0ffa441",
+      "receipt_id": "f645f5c4e23a43569025fea55d2dcd09",
+      "request_hash": "9ece2735eab8b07d66198fb8286d245826cff3f5f2a5a1ad25c239ef38d04f34",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “surface color” is the appearance of a patch as the color of a material surface under illumination, rather than light emitted by the patch itself; the provided packet does not explicitly support this contrast or wording about emission vs surface appearance.",
+        "The definition claims an explicit contrast with “aperture-color or self-luminous appearance” as “glowing light”; while the packet mentions a transition between “surface-color and aperture-color (self-luminous) modes,” it does not clearly support the specific “glowing light” characterization or the stated mechanism of “light emitted by the patch itself.”",
+        "The definition attributes the described contrast and inference to “this research context,” but the packet excerpt only discusses luminance/luminosity thresholds and a model about inferred surface reflectance/gamut; it does not provide enough direct support for the definition’s surface-vs-emission framing."
+      ],
+      "definition_hash": "a1a8fef017b1a06fe4874f5b29ae08197b9b5079df4ba6d646f1043acb6cbee8",
+      "packet_hash": "204d19affefcc41e9dbab549adba250288df68a6e27048011987a2acd0ffa441",
+      "published_packet_hash": "204d19affefcc41e9dbab549adba250288df68a6e27048011987a2acd0ffa441",
+      "receipt_id": "fa6cdb354f1d46248ef1d1bad0da26e3",
+      "request_hash": "32a0e0053e130e326aaa52322e3396101c974ab5fe6a37b0f587a1125abebe09",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

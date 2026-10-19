@@ -1,0 +1,63 @@
+{
+  "id": "vasodilator",
+  "term": "vasodilator",
+  "definition": "A vasodilator is something that causes blood vessels to widen, improving their ability to relax and increasing vasodilator function. In this packet, testosterone and its metabolites are described as having vasodilatory effects.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11498709"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11498709",
+      "revision": "2024; DOI 10.1371/journal.pone.0312080; article XML SHA-256 6b5cc6161682c578bc5e930643f80eea5fe6d17febde619a6b72bcceb8d282ab",
+      "scope": "Source record 10.1371/journal.pone.0312080; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0312080"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c1b460e1cf9273841dbcc9822635fac8067efe8c0945599cf4621c71ca682106",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "83c66e26b5fe4ff0902ed7bab8d31f4a",
+    "request_hash": "df0a2e05f0a1c14e1daf0f322f9ad4d8a758e50c979038d8e85107674f91b3aa",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "8bc71a182d682e7f30d1fb9ab5628f8765e5ecbee485417368c822a8318fdf77",
+    "packet_hash": "c1b460e1cf9273841dbcc9822635fac8067efe8c0945599cf4621c71ca682106"
+  },
+  "hash": "a80299ee437fa9b51b6340d3351f8a740820e02b998d537cad53414138e37394",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“causes blood vessels to widen, improving their ability to relax”) is not supported anywhere in the provided packet text.",
+        "The packet supports that testosterone and its reduced metabolites (including 5α- and 5β-dihydrotestosterone) “exert vasodilatory effects” and that 5β-DHT “improves vasodilator function,” but it does not describe vasodilators in terms of widening/relaxation in the way stated."
+      ],
+      "definition_hash": "8bc71a182d682e7f30d1fb9ab5628f8765e5ecbee485417368c822a8318fdf77",
+      "packet_hash": "c1b460e1cf9273841dbcc9822635fac8067efe8c0945599cf4621c71ca682106",
+      "published_packet_hash": "c1b460e1cf9273841dbcc9822635fac8067efe8c0945599cf4621c71ca682106",
+      "receipt_id": "8e8ecbf795294cf5b13c03d4c299203a",
+      "request_hash": "97f47b1b3f9f025e0974cd2d4bc7e627e74dd96a96074d8447d5bf5852ea57d0",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports vasodilatory effects and improved vasodilator function, but it does not explicitly support the added claim that blood vessels’ ability to relax is increased.",
+        "The definition adds a general mechanistic gloss that is broader than the packet evidence, which is limited to 5β-DHT/testosterone-related vasodilatory effects in arteries."
+      ],
+      "definition_hash": "8bc71a182d682e7f30d1fb9ab5628f8765e5ecbee485417368c822a8318fdf77",
+      "packet_hash": "c1b460e1cf9273841dbcc9822635fac8067efe8c0945599cf4621c71ca682106",
+      "published_packet_hash": "c1b460e1cf9273841dbcc9822635fac8067efe8c0945599cf4621c71ca682106",
+      "receipt_id": "41c53341fa724acbaf1caf1d26d98f64",
+      "request_hash": "e2350f9451e9dfd58efee29a278b50f4883b4485e1f9bd3d31494d6f682fbdcd",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

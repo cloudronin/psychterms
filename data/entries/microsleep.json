@@ -1,0 +1,63 @@
+{
+  "id": "microsleep",
+  "term": "microsleep",
+  "definition": "Microsleep is a brief episode of sleep or near-sleep that can happen with fatigue, such as after long periods of driving or during night driving, and is linked to a dangerous drop in vigilance.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7799808"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7799808",
+      "revision": "2021; DOI 10.1371/journal.pone.0245251; article XML SHA-256 26e367b271902bf1d5b2f52c246d3daac8d645824df44788e97db294149f4443",
+      "scope": "Source record 10.1371/journal.pone.0245251; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0245251"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "424d8958bcda51255c257bbfd7108ed3c15e3cce3745194d839b88f6872bda76",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0a047fd0378241f49d8c2d7d030142d3",
+    "request_hash": "801c6cf7dcd985b6735683a0809d6f3a3fab45dd27c27dcf91bca27e997bb339",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "011a849385e72349cee1582e21bd55adb07dcf9a0396faf0c32c5e49bd674f4a",
+    "packet_hash": "424d8958bcda51255c257bbfd7108ed3c15e3cce3745194d839b88f6872bda76"
+  },
+  "hash": "dff4bc073546807f57095ea98e4b756427eb2fdfb0815831f40b90bdf408dc15",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define microsleep as “a brief episode of sleep or near-sleep”; it only mentions microsleep as occurring alongside fatigue (without describing its duration or “near-sleep”).",
+        "Because the requested definition includes this unsupported characterization, the definition is not fully supported by the provided packet."
+      ],
+      "definition_hash": "011a849385e72349cee1582e21bd55adb07dcf9a0396faf0c32c5e49bd674f4a",
+      "packet_hash": "424d8958bcda51255c257bbfd7108ed3c15e3cce3745194d839b88f6872bda76",
+      "published_packet_hash": "424d8958bcda51255c257bbfd7108ed3c15e3cce3745194d839b88f6872bda76",
+      "receipt_id": "0980f174bacb49bc9cffa399bc4e4e93",
+      "request_hash": "d51df1684da7e315a0d3b152080fb20521c55d366875a6c8289a7c190fe5cacb",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports microsleep as something associated with fatigue-related driving situations and a dangerous decrease in vigilance, but it does not define microsleep as a “brief episode of sleep or near-sleep.”",
+        "The phrase “near-sleep” is not supported by the supplied text, and the definition adds an ungrounded characterization beyond the packet’s wording."
+      ],
+      "definition_hash": "011a849385e72349cee1582e21bd55adb07dcf9a0396faf0c32c5e49bd674f4a",
+      "packet_hash": "424d8958bcda51255c257bbfd7108ed3c15e3cce3745194d839b88f6872bda76",
+      "published_packet_hash": "424d8958bcda51255c257bbfd7108ed3c15e3cce3745194d839b88f6872bda76",
+      "receipt_id": "1bfbe6fcb9f04f818e59719feb509bb7",
+      "request_hash": "13d7b69bfe0bd8746edae6f08bee5c5bd4076b1e8335bd2a311cffce1266dd42",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

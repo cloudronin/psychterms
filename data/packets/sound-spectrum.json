@@ -1,0 +1,26 @@
+{
+  "id": "sound-spectrum",
+  "term": "sound spectrum",
+  "source": "article-pmc7660469",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0240915",
+  "revision": "2020; DOI 10.1371/journal.pone.0240915; article XML SHA-256 6183ff712af2c071e6cf0f3b7176ad0ac2b12eb53e9835b4845941f453b25509",
+  "source_snapshot_sha256": "6183ff712af2c071e6cf0f3b7176ad0ac2b12eb53e9835b4845941f453b25509",
+  "url": "https://doi.org/10.1371/journal.pone.0240915",
+  "text": "Most feature extraction algorithms for music audio signals use Fourier transforms to obtain coefficients that describe specific aspects of music information within the sound spectrum, such as the timbral texture, tonal texture and rhythmic activity. In this paper, we introduce a new method for extracting features related to the rhythmic activity of music signals using the topological properties of a graph constructed from an audio signal. We map the local standard deviation of a music signal to a visibility graph and calculate the modularity ( Q ), the number of communities ( Nc ), the average degree (〈 k 〉), and the density (Δ) of this graph. By applying this procedure to each signal in a database of various musical genres, we detected the existence of a hierarchy of rhythmic self-similarities between musical styles given by these four network properties. Using Q , Nc , 〈 k 〉 and Δ as input attributes in a classification experiment based on supervised artificial neural networks, we obtained an accuracy higher than or equal to the beat histogram in 70% of the musical genre pairs, using only four features from the networks. Finally, when performing the attribute selection test with Q , Nc , 〈 k 〉 and Δ, along with the main signal processing field descriptors, we found that the four network properties were among the top-ranking positions given by this test.",
+  "source_label": "Graph-based feature extraction: A new proposal to study the classification of music signals outside the time-frequency domain",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1377
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606"
+}

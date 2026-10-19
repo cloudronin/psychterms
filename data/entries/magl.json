@@ -1,0 +1,64 @@
+{
+  "id": "magl",
+  "term": "MAGL",
+  "definition": "MAGL is an enzyme marker of endocannabinoid metabolism. In this study, it was measured across several brain regions and the spinal cord to examine how chronic cannabidiol changed endocannabinoid signaling in aged mice.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13384326"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13384326",
+      "revision": "2026; DOI 10.1371/journal.pone.0353267; article XML SHA-256 60628472a56bb06307f100bba41e263f187d5564826cf90625ff1a7e93580dd7",
+      "scope": "Source record 10.1371/journal.pone.0353267; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0353267"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f0ff3b8129a1b79c2ae35f98e8fc0021f509bb714ef73991936fdf7c1ccf4d3c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d3731212e8034a08876a1d4fae6c9788",
+    "request_hash": "575dda56edade0fd934d45ed3ada5ee101a61bc127ec5e1e9c6da51349b07b70",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "70dd329c69187db48218b95fbb8c541aeb6d3bc7806b6137d6ebee9e64891768",
+    "packet_hash": "f0ff3b8129a1b79c2ae35f98e8fc0021f509bb714ef73991936fdf7c1ccf4d3c"
+  },
+  "hash": "936300b9c43b6f11949f0d7dd99ac15eb1af6beb869d87ec468c9dd5233deb2d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes MAGL as “an enzyme marker of endocannabinoid metabolism,” but the packet only states that MAGL was measured as a “metabolic enzyme (FAAH, MAGL)”—it does not support the specific phrasing “enzyme marker.”",
+        "The definition attributes the study to “examin[ing] how chronic cannabidiol changed endocannabinoid signaling”; while the packet says chronic CBD “restructured the eCB signaling landscape,” it does not clearly support the narrower phrasing that this change was specifically what was examined “across several brain regions and the spinal cord” in the same way."
+      ],
+      "definition_hash": "70dd329c69187db48218b95fbb8c541aeb6d3bc7806b6137d6ebee9e64891768",
+      "packet_hash": "f0ff3b8129a1b79c2ae35f98e8fc0021f509bb714ef73991936fdf7c1ccf4d3c",
+      "published_packet_hash": "f0ff3b8129a1b79c2ae35f98e8fc0021f509bb714ef73991936fdf7c1ccf4d3c",
+      "receipt_id": "c89b7ea072a24c3fa36041c2973f55b2",
+      "request_hash": "695c71c2722d45272ce6475c624cdee7b1353f1b58b149f141b9ad8619cfb491",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: MAGL is presented as a metabolic enzyme in a neuroscience study, not as a term in learning/psychology.",
+        "\"Enzyme marker\" is not supported by the packet; the source describes MAGL as one of the metabolic enzymes mapped across CNS regions.",
+        "The sentence is close to the source but overstates the study aim as if MAGL itself was used to examine cannabidiol effects, rather than being one of several measured endocannabinoid-system components."
+      ],
+      "definition_hash": "70dd329c69187db48218b95fbb8c541aeb6d3bc7806b6137d6ebee9e64891768",
+      "packet_hash": "f0ff3b8129a1b79c2ae35f98e8fc0021f509bb714ef73991936fdf7c1ccf4d3c",
+      "published_packet_hash": "f0ff3b8129a1b79c2ae35f98e8fc0021f509bb714ef73991936fdf7c1ccf4d3c",
+      "receipt_id": "acf5041ee01d4c388265c14d55ae4254",
+      "request_hash": "3e97da079f99b4f20f493543c3fec11036c20419e9707c3dd128402e0999c345",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

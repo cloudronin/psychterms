@@ -1,0 +1,26 @@
+{
+  "id": "vibration",
+  "term": "vibration",
+  "source": "article-pmc13592726",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0358224",
+  "revision": "2026; DOI 10.1371/journal.pone.0358224; article XML SHA-256 d7da63a91156271fb543c268db01120e42792890d2dc99edc222af3dbf5538c8",
+  "source_snapshot_sha256": "d7da63a91156271fb543c268db01120e42792890d2dc99edc222af3dbf5538c8",
+  "url": "https://doi.org/10.1371/journal.pone.0358224",
+  "text": "Vibration-based structural health monitoring (SHM) detects damage by identifying subtle changes in a structure’s dynamic response. Deep learning models have shown strong potential for automating this classification task. However, most existing architectures share a key limitation: they either process signals purely in the time domain, or apply a global frequency-domain transform that discards information about when each frequency component occurs. This is a serious drawback, because structural damage typically manifests as short, localised events confined to specific frequency bands. This paper proposes SpectralTCN, a temporal convolutional network augmented with a Wavelet Gating Module (WGM) that performs learnable, data-dependent multi-resolution filtering within each convolutional block. The WGM decomposes intermediate features via the Discrete Wavelet Transform (DWT) into physically interpretable sub-bands corresponding to distinct structural vibration modes, applies input-adaptive sigmoid gates independently at each decomposition level, and reconstructs the filtered signal via the Inverse DWT (IDWT) with a learnable residual connection initialised to zero. Unlike FFT-based approaches, the DWT simultaneously preserves both time and frequency information, enabling the network to detect both the timing and the spectral location of damage-induced anomalies. Combined with Generalized Mean (GeM) pooling and large-kernel causal depthwise convolutions, SpectralTCN is evaluated on two benchmark datasets: the Z24 Bridge benchmark and a finite element model (FEM)-derived dataset of the My Thuan cable-stayed bridge. Experiments against 10 baseline models and 4 ablation variants, evaluated via stratified 5-fold cross-validation, demonstrate the effectiveness and generalisation capability of the proposed approach: SpectralTCN attains the highest mean accuracy on both benchmarks (92.2% on Z24 and 92.1% on My Thuan) and outperforms the strongest baseline in the 5-fold cross-validation protocol. In addition, the proposed architecture operates on short, streaming acceleration windows with a purely convolutional backbone of moderate computational cost, making SpectralTCN suitable for near-real-time, online damage detection in continuous bridge monitoring.",
+  "source_label": "SpectralTCN: A multi-resolution wavelet gating network for vibration-based structural damage detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2281
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "d81b7716070d943c78e85c6f1469d81552f88dac4099cb8e1cc3179c206cf36e"
+}

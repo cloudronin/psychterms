@@ -16,4 +16,13 @@ class FocusedExcerptTests(unittest.TestCase):
   text,start,end=focused_excerpt(source,'data');self.assertRegex(text,r'\bData\b');self.assertEqual(source[start:end],text)
  def test_absent_term_never_creates_a_packet(self):
   self.assertEqual(focused_excerpt('Unrelated material.','working memory'),(None,None,None))
+ def test_acronym_never_matches_an_ordinary_lowercase_word(self):
+  self.assertEqual(focused_excerpt('People may attend appointments at a clinic and ask who provides care.','AT'),(None,None,None))
+ def test_government_packet_requires_a_definition_anchor(self):
+  self.assertEqual(focused_excerpt('Find information about mental health. Time with a provider can help.','information',require_explanation=True),(None,None,None))
+  source='A panic attack is a sudden episode of intense fear with physical symptoms.'
+  self.assertEqual(focused_excerpt(source,'panic attack',require_explanation=True),(source,0,len(source)))
+ def test_expanded_acronym_is_a_government_anchor(self):
+  source='Attention-deficit/hyperactivity disorder (ADHD) affects attention and activity.'
+  self.assertEqual(focused_excerpt(source,'ADHD',require_explanation=True),(source,0,len(source)))
 if __name__=='__main__':unittest.main()

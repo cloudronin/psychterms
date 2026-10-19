@@ -1,0 +1,62 @@
+{
+  "id": "inverse-kinematics",
+  "term": "inverse kinematics",
+  "definition": "Inverse kinematics is the mathematical process of working backward from a desired platform position and orientation to calculate the required movements or lengths of its mechanical parts. In this source, it refers to computing the rod displacements needed for a flexible Stewart platform to reach a target pose with high precision.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13336479"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13336479",
+      "revision": "2026; DOI 10.1371/journal.pone.0353154; article XML SHA-256 3c004a2cb71b9d70bdbdeea0a090d4a0434881578c70ec3453634023a05b0110",
+      "scope": "Source record 10.1371/journal.pone.0353154; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0353154"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4fd4acb64a93423d92c9cf9b0b63ec01",
+    "request_hash": "4cabc5bfcff49b1d88a24fb11a2d63a8a586a9dadbfe1c3b845b3e99074120d0",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "9c930e0b2e5985f0aab1e8626e1fab768013f2afb8a91551184251234b7f8292",
+    "packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600"
+  },
+  "hash": "3651c12aed09ed0628c5704875b382324c08e2a68d65c7e1cb9f56b3247ba864",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible for this source; the packet is about robotics/mechanical engineering (a flexible Stewart platform), not biology.",
+        "The definition generalizes inverse kinematics beyond what the packet explicitly supports; the packet only supports its use in modeling the flexible Stewart platform’s forward and inverse kinematic solutions and rod/piezoelectric displacement calculations."
+      ],
+      "definition_hash": "9c930e0b2e5985f0aab1e8626e1fab768013f2afb8a91551184251234b7f8292",
+      "packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600",
+      "published_packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600",
+      "receipt_id": "c74ce1bbf4ba4f468b1eee7587c7a310",
+      "request_hash": "a0e992d80fa6b6b768bdeac84d3aaca02f7bf985486c8b2c4cfe43a1a3510b26",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet content is about a flexible Stewart platform for high-precision positioning (robotics/engineering), not biological/psychology; the field label “biological” is not supported by the packet."
+      ],
+      "definition_hash": "9c930e0b2e5985f0aab1e8626e1fab768013f2afb8a91551184251234b7f8292",
+      "packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600",
+      "published_packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600",
+      "receipt_id": "8b9021cb560f4f32beaaa67bb9eb1c95",
+      "request_hash": "6645cbb151c2fe3959aa3f36fd15e8a7e3acece891062e9fc5aad1dd6a05ab0d",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

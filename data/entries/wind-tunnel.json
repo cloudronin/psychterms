@@ -1,0 +1,60 @@
+{
+  "id": "wind-tunnel",
+  "term": "wind tunnel",
+  "definition": "A wind tunnel is an experimental setup used to study air flow, such as the wind fields around buildings, and to check whether simulation results match measured conditions.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12893547"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12893547",
+      "revision": "2026; DOI 10.1371/journal.pone.0342247; article XML SHA-256 5608667dcee06a5efc001b814199143a94befc3df1b0bb3bf291c3134c033928",
+      "scope": "Source record 10.1371/journal.pone.0342247; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342247"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "700897c0fb954b63ad34402ab7a4a61a",
+    "request_hash": "d551a12adcc4fe0848d2e13b0bf4270f47d0cf6626f058c4d749120e161a199a",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "9c51d4d4959dc97621be43f454192069cf9b17b1a0826225f9a6710f5df5b3ce",
+    "packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13"
+  },
+  "hash": "aa48d1b004812534da8e21a12a46ff71500cfc2fa4a74a4fcf3d236d48b95f90",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9c51d4d4959dc97621be43f454192069cf9b17b1a0826225f9a6710f5df5b3ce",
+      "packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13",
+      "published_packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13",
+      "receipt_id": "5c333a9747e947158035e654bd3bc612",
+      "request_hash": "e2f878a515b7ea41af8b6adbabb477de9c0ddbb7b8129787f6c16311446a1f75",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source is about architectural wind-environment simulation and validation, not a biological concept, so the field is not defensible.",
+        "The definition adds a broad general-purpose description of wind tunnels; the packet only supports their use here as validation experiments for wind-field simulation, not that standalone general definition."
+      ],
+      "definition_hash": "9c51d4d4959dc97621be43f454192069cf9b17b1a0826225f9a6710f5df5b3ce",
+      "packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13",
+      "published_packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13",
+      "receipt_id": "5fc2e62e6f7e4bf2b366a785c5b7829b",
+      "request_hash": "671e7c6d55cde30f3215c84ffb134ac1232897249fc6b65c9a5c6aa40c8f3f73",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

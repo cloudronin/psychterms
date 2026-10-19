@@ -1,0 +1,60 @@
+{
+  "id": "leakage",
+  "term": "leakage",
+  "definition": "In this biological context, leakage refers to bile escaping from the cut liver surface or a biliary stump after hepatectomy. It is described as a clinically important postoperative complication that can increase morbidity, prolong drainage and hospital stay, and lead to further intervention.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13327111"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13327111",
+      "revision": "2026; DOI 10.1371/journal.pone.0346089; article XML SHA-256 f1036179ec70abdf1abeb571c5cb9d0ad4686ccf49d3c23b18028ebbaa54f9fe",
+      "scope": "Source record 10.1371/journal.pone.0346089; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0346089"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4c7666de7eb1fabc65ec67f540aea3336badd67e4b60ef8e4787011904e5dce9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3e2da592d23e41f18d5083037f6a359a",
+    "request_hash": "c52bd03a72ac8c8c51e1f3221f340dd5ac3fb9cc13ee6619de7a2adbd48c4737",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "88869c0db2357eac2cb1108d5dc883c921cd656dae365eb5fe4a7516a30a4092",
+    "packet_hash": "4c7666de7eb1fabc65ec67f540aea3336badd67e4b60ef8e4787011904e5dce9"
+  },
+  "hash": "f81b5f2e467f6333bffb264b5d3821906a886d6cfd0dc3637b4e40e6fd97670b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "88869c0db2357eac2cb1108d5dc883c921cd656dae365eb5fe4a7516a30a4092",
+      "packet_hash": "4c7666de7eb1fabc65ec67f540aea3336badd67e4b60ef8e4787011904e5dce9",
+      "published_packet_hash": "4c7666de7eb1fabc65ec67f540aea3336badd67e4b60ef8e4787011904e5dce9",
+      "receipt_id": "2f7dee91fbdc46aabafe9690625c1892",
+      "request_hash": "cb5aa042a6cfd2c836015e34b8fa1b4e4b70882e2de4796da655b622436bcc5f",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition specifies “bile escaping from the cut liver surface,” but the packet only mentions bile leaks from the “transection plane” or a “biliary stump,” not the “cut liver surface” wording.",
+        "All other substantive elements (post-hepatectomy bile leakage, clinically relevant postoperative complication, increased morbidity, prolonged drainage/extended hospital stay, and need for reintervention) are supported by the packet. The unsupported wording prevents a pass."
+      ],
+      "definition_hash": "88869c0db2357eac2cb1108d5dc883c921cd656dae365eb5fe4a7516a30a4092",
+      "packet_hash": "4c7666de7eb1fabc65ec67f540aea3336badd67e4b60ef8e4787011904e5dce9",
+      "published_packet_hash": "4c7666de7eb1fabc65ec67f540aea3336badd67e4b60ef8e4787011904e5dce9",
+      "receipt_id": "3a527f022c30405991f59ed3332f4aae",
+      "request_hash": "e86dc082d1a71a814364d7b79ee6fb6da8f2e867420910f44ed8ec3c547cb7be",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

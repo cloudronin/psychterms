@@ -1,0 +1,64 @@
+{
+  "id": "measurement-model",
+  "term": "measurement model",
+  "definition": "In psychometric assessment, a measurement model is the way a scale’s scores or dimensions are evaluated to see how well the measure functions. It can be examined overall and for whether it works the same way across groups, such as by gender or age.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13218494"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13218494",
+      "revision": "2026; DOI 10.1371/journal.pone.0350184; article XML SHA-256 50bf45acbc8cea3b6ff7d177e06ed787336d46450ec632ca76b4a9ff06d1eb5e",
+      "scope": "Source record 10.1371/journal.pone.0350184; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350184"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "14a79eb7be73b4a53110acc896b1a5a3b6f4aba4bb85ebc6804a3ecd0e761b3d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "42593a40f1e44b1593a958e224af12d8",
+    "request_hash": "731593a8f7d0406215b036148e2dd6bd48d3fa76283d90ec70db25ef917aab2c",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "9f94ff21bc603f9c0d7ecef74ca0948bd5557a774201fa436b10463fbffb63ac",
+    "packet_hash": "14a79eb7be73b4a53110acc896b1a5a3b6f4aba4bb85ebc6804a3ecd0e761b3d"
+  },
+  "hash": "1e2d71b25ea78a6239d7f238d075fd8420727ea398686b556c6b0a4f78c76f0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general wording (“the way a scale’s scores or dimensions are evaluated to see how well the measure functions”) is not explicitly stated in the packet; the packet only describes that a study evaluated psychometric properties and examined a measurement model globally and for measurement invariance.",
+        "The claim that the measurement model can be examined “overall” is only indirectly supported (the packet says it was “examined globally”), but the first sentence’s broader definition is still not supported.",
+        "The claim about checking whether it “works the same way across groups, such as by gender or age” is supported only insofar as the packet reports measurement invariance across gender and age groups (strict invariance), but this does not cover the definition’s first-sentence characterization."
+      ],
+      "definition_hash": "9f94ff21bc603f9c0d7ecef74ca0948bd5557a774201fa436b10463fbffb63ac",
+      "packet_hash": "14a79eb7be73b4a53110acc896b1a5a3b6f4aba4bb85ebc6804a3ecd0e761b3d",
+      "published_packet_hash": "14a79eb7be73b4a53110acc896b1a5a3b6f4aba4bb85ebc6804a3ecd0e761b3d",
+      "receipt_id": "8c323f7ac1874fe9a7ae1e1499d8afbb",
+      "request_hash": "12b88349b8022eae751eac0d84a51829473f4c0c36bed61420cc96fbb4fd1f2b",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a measurement model as “the way a scale’s scores or dimensions are evaluated” or as a general way to judge how well a measure functions; it only reports that the study examined the French UMCS-22’s measurement model globally and for measurement invariance across gender and age groups.",
+        "The definition overgeneralizes from this single study by presenting overall evaluation and group comparison as the meaning of the term itself, rather than as one application in this article."
+      ],
+      "definition_hash": "9f94ff21bc603f9c0d7ecef74ca0948bd5557a774201fa436b10463fbffb63ac",
+      "packet_hash": "14a79eb7be73b4a53110acc896b1a5a3b6f4aba4bb85ebc6804a3ecd0e761b3d",
+      "published_packet_hash": "14a79eb7be73b4a53110acc896b1a5a3b6f4aba4bb85ebc6804a3ecd0e761b3d",
+      "receipt_id": "a18c305b05bd4383a773558ca9ae4168",
+      "request_hash": "28136685f50c98a1016b43d7b2995d2468ec292a9a139a3238352695fc1fe7f2",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

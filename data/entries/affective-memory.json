@@ -1,0 +1,64 @@
+{
+  "id": "affective-memory",
+  "term": "affective memory",
+  "definition": "Affective memory is memory for emotionally charged experiences, such as positive memories linked to drug taking or negative memories linked to drug withdrawal. The packet indicates that these memories can be expressed and can fade over time through extinction.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4382215"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4382215",
+      "revision": "2015; DOI 10.1371/journal.pone.0121125; article XML SHA-256 6b0b0d78fd258e36a2212c4f3c3902ca19f9cb00cc1c0a536595d97b9da7ef1a",
+      "scope": "Source record 10.1371/journal.pone.0121125; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0121125"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1b6a889639e41ce8c4b2c850019144ad945dbbcca1c16cd0b03d20a27870d9e5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0d8f9f74b8d94da98d89df515bc8df0a",
+    "request_hash": "08baeaea7c52734bef7d1f73a88d5f234c44a4b7508ea1a6f24c60f2a9d9230a",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "ff091c127d44bb3a6afd578b4c4f6081f70ab3b94009c508e306717d81bc981c",
+    "packet_hash": "1b6a889639e41ce8c4b2c850019144ad945dbbcca1c16cd0b03d20a27870d9e5"
+  },
+  "hash": "f52cd337da8634043470a37617c47fdb45318b0d38ae24d3d2e006e25bb75bdd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports affective memory only in the specific addiction context of positive memory of drug taking and negative memory of drug withdrawal; it does not support the broader general definition as memory for emotionally charged experiences.",
+        "“Can fade over time through extinction” overgeneralizes the packet’s mention of an extinction period; it does not define the term as memory that fades over time in general."
+      ],
+      "definition_hash": "ff091c127d44bb3a6afd578b4c4f6081f70ab3b94009c508e306717d81bc981c",
+      "packet_hash": "1b6a889639e41ce8c4b2c850019144ad945dbbcca1c16cd0b03d20a27870d9e5",
+      "published_packet_hash": "1b6a889639e41ce8c4b2c850019144ad945dbbcca1c16cd0b03d20a27870d9e5",
+      "receipt_id": "a432a72adef448be91acfe7bb0221370",
+      "request_hash": "4bebb5286b6f25b07ed72744809812cfd95296e3568970bb27cb6b72c677872e",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “affective memory” as “memory for emotionally charged experiences” in general terms; it only uses the phrase in the context of drug taking/withdrawal (“positive affective memory” and “negative affective memory”).",
+        "The claim that these memories “can be expressed” is not clearly stated in the supplied packet text (the packet mentions investigating expression and extinction, but it is specifically about aversive memory and sex differences rather than a general statement about affective memory).",
+        "The claim that they “can fade over time through extinction” is only partially supported: the packet mentions an “extinction period” and “extinction” of affective memory, but the supplied text does not explicitly state fading over time beyond that phrasing."
+      ],
+      "definition_hash": "ff091c127d44bb3a6afd578b4c4f6081f70ab3b94009c508e306717d81bc981c",
+      "packet_hash": "1b6a889639e41ce8c4b2c850019144ad945dbbcca1c16cd0b03d20a27870d9e5",
+      "published_packet_hash": "1b6a889639e41ce8c4b2c850019144ad945dbbcca1c16cd0b03d20a27870d9e5",
+      "receipt_id": "1be51fdc1d56496d948ff1f790121a2c",
+      "request_hash": "7dc13e74d63d75b6111c8d5baffe7a86160e431f3edc671f1164599d0c3f5343",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

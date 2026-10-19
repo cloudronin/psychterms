@@ -1,0 +1,60 @@
+{
+  "id": "word-count",
+  "term": "word count",
+  "definition": "Word count is the total number of words in a text. In text-based psychological analysis, it can be used as the overall reference for calculating what proportion of the text falls into particular linguistic or psychological categories.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8940168"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8940168",
+      "revision": "2022; DOI 10.3389/fpsyg.2022.841534; article XML SHA-256 e46c972c2c900bd0537806e4aaf0ff3901acfeb83be55cca7b74c2d73bada35c",
+      "scope": "Source record 10.3389/fpsyg.2022.841534; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2022.841534"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f1783471665d466ea83197539ca038b2",
+    "request_hash": "825f70395a359a03ea4ca674a30e21251cdcba69c958e64cedfc0d991b3e2804",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "32867ed06ca380d2f7221d814a9c16abaee18840b2a9b0e53c6b664e73a0c6a1",
+    "packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c"
+  },
+  "hash": "8ec88d96911e72673b331edbe62d4ab019783fa9b1d98f7d1a34881aa3644842",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "32867ed06ca380d2f7221d814a9c16abaee18840b2a9b0e53c6b664e73a0c6a1",
+      "packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c",
+      "published_packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c",
+      "receipt_id": "4864c1b23cca4dad9869f83d9f8cad22",
+      "request_hash": "b16bd9f557445bb2d155f4ad18bcd4ae735c360d9525b3f0785ad62b3c2c655c",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “word count” as “the total number of words in a text.” It only describes that LIWC calculates the proportion of category words relative to the total number of words.",
+        "The definition’s second sentence generalizes “word count” as an overall reference for calculating proportions in psychological categories, but the packet supports proportions being calculated by LIWC (category word proportion to total words), not that “word count” itself is used as an overall reference in that way."
+      ],
+      "definition_hash": "32867ed06ca380d2f7221d814a9c16abaee18840b2a9b0e53c6b664e73a0c6a1",
+      "packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c",
+      "published_packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c",
+      "receipt_id": "e3f64b0faa0f41ab83a88c35dffffd00",
+      "request_hash": "76d561635bf439e47d1d38be148b6b386732938d17746017488990a4b502f8f8",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

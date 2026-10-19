@@ -1,0 +1,60 @@
+{
+  "id": "pd",
+  "term": "PD",
+  "definition": "PD stands for Parkinson disease, a biological condition in which walking can be affected, including slower gait, shorter stride length, and greater variability. In the source, people with PD are described as sometimes improving gait with rhythmic auditory cueing, and these effects are examined in relation to dopaminergic medication status.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13144043"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13144043",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1808526; article XML SHA-256 0f3f38d8f3aa0605cf26f236c1721a0b29891364358803b69d850e16e710fbbd",
+      "scope": "Source record 10.3389/fnhum.2026.1808526; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1808526"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6e1cea5edefb00cd325e6ccc08e88f257f80ee225612e976b4444fe6531cb298",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7fee0b165c6649b9910f6f3cb4587edb",
+    "request_hash": "7cc69b878588672426716852c239e540f037609eba1de0f23909f64ddef58980",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "7d99536151a1bf2db4f9c3e55400b17384631f1385f377313b6386ea0e8557bb",
+    "packet_hash": "6e1cea5edefb00cd325e6ccc08e88f257f80ee225612e976b4444fe6531cb298"
+  },
+  "hash": "4c0cf904eb44db05e0353a6b13d959e77e6c3422b321831226b14cb70a55550d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that in PD walking can be affected with “slower gait, shorter stride length, and greater variability,” but the provided packet does not describe these specific baseline gait impairments as characteristics of PD; it only discusses effects of auditory cueing (e.g., improvements in velocity/stride length and reductions in variability).",
+        "One statement says “people with PD are described as sometimes improving gait with rhythmic auditory cueing”; the packet supports cueing improving gait, but it does not justify the wording “sometimes” or the broader framing as a general description beyond the study context provided."
+      ],
+      "definition_hash": "7d99536151a1bf2db4f9c3e55400b17384631f1385f377313b6386ea0e8557bb",
+      "packet_hash": "6e1cea5edefb00cd325e6ccc08e88f257f80ee225612e976b4444fe6531cb298",
+      "published_packet_hash": "6e1cea5edefb00cd325e6ccc08e88f257f80ee225612e976b4444fe6531cb298",
+      "receipt_id": "d8a4bc79f903438baf8bf786d34d341c",
+      "request_hash": "ab1d7af6a0b2e81083fe50649bb6a98bed82549c518e3ce5d8927044221a18f3",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7d99536151a1bf2db4f9c3e55400b17384631f1385f377313b6386ea0e8557bb",
+      "packet_hash": "6e1cea5edefb00cd325e6ccc08e88f257f80ee225612e976b4444fe6531cb298",
+      "published_packet_hash": "6e1cea5edefb00cd325e6ccc08e88f257f80ee225612e976b4444fe6531cb298",
+      "receipt_id": "1668d32f62b24b6ca9c23f2d6eb7aebb",
+      "request_hash": "a4ad1986785748e50821d88e30293f433f2a302eb9333237a82c3ea598988bfa",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "symptom-checklist",
+  "term": "symptom checklist",
+  "definition": "A symptom checklist is a measure used in psychological evaluation to record reported symptoms. In this source, the Symptom Checklist 90 is discussed as a test whose results may deviate when effort is non-optimal and that may contain an embedded indicator relevant to checking response validity.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10882088"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10882088",
+      "revision": "2024; DOI 10.3389/fpsyg.2024.1320636; article XML SHA-256 8062454d60b552c14e1756ac18a11160c8118be266fdd5b4dc277f65d1980fd6",
+      "scope": "Source record 10.3389/fpsyg.2024.1320636; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2024.1320636"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "295b8d3e34f4c75aae96a34d26706c7c85e9dc30c68bf62e1fd05e3ae56081ae",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c4cc847655574b58bde41b1db7f0a539",
+    "request_hash": "76654c6d0c64bc2514da8296b22e32e96746b8e5d2cf5833b50c71efe1e91412",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "9b9ae084f09d9d26be3c42b763a9fe040a73c6a7d1b5ec6d5ad8ee0f5637798a",
+    "packet_hash": "295b8d3e34f4c75aae96a34d26706c7c85e9dc30c68bf62e1fd05e3ae56081ae"
+  },
+  "hash": "8e07dc3bcdfc8e92e3c92f1668389ec24046d59719fb6da3092d4f105ce50a04",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports discussion of the Symptom Checklist 90 (SCL-90) in a forensic malingering context; it does not support a general definition of “symptom checklist” as a measure used in psychological evaluation to record reported symptoms.",
+        "The sentence adds specifics not supported by the packet, including that the test’s results may deviate when effort is non-optimal and that it contains an embedded indicator relevant to checking response validity; the packet only says CI is a potential candidate to act as an embedded validity indicator of the SCL-90.",
+        "The field label “biological” is not defensible for this psychology/assessment term based on the supplied source."
+      ],
+      "definition_hash": "9b9ae084f09d9d26be3c42b763a9fe040a73c6a7d1b5ec6d5ad8ee0f5637798a",
+      "packet_hash": "295b8d3e34f4c75aae96a34d26706c7c85e9dc30c68bf62e1fd05e3ae56081ae",
+      "published_packet_hash": "295b8d3e34f4c75aae96a34d26706c7c85e9dc30c68bf62e1fd05e3ae56081ae",
+      "receipt_id": "749e43c88b98438c854732e8d5cd0139",
+      "request_hash": "b5a064edcf491c61c0116cae1cb995c11ac016eecb9aefc92a50b8ece28483e2",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that a “symptom checklist” is used “to record reported symptoms,” but the packet only discusses non-optimal effort affecting results and an embedded validity indicator (CI) for the Symptom Checklist 90; it does not explicitly support the “record reported symptoms” characterization.",
+        "The definition’s specificity about the “Symptom Checklist 90” having an “embedded indicator relevant to checking response validity” is only partially supported: the packet mentions CI as a potential embedded validity indicator and links it to identifying malingering, but does not directly state the broader phrase “checking response validity” in that exact way."
+      ],
+      "definition_hash": "9b9ae084f09d9d26be3c42b763a9fe040a73c6a7d1b5ec6d5ad8ee0f5637798a",
+      "packet_hash": "295b8d3e34f4c75aae96a34d26706c7c85e9dc30c68bf62e1fd05e3ae56081ae",
+      "published_packet_hash": "295b8d3e34f4c75aae96a34d26706c7c85e9dc30c68bf62e1fd05e3ae56081ae",
+      "receipt_id": "9bc6f50d959b4ce4b2350eeb09a67f6c",
+      "request_hash": "5f44b1c516575479d673ee0ec740bc40e0ae9f9487a415d6abddc6e45399aa61",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

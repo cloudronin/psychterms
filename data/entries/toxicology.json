@@ -1,0 +1,63 @@
+{
+  "id": "toxicology",
+  "term": "toxicology",
+  "definition": "Toxicology is the study of how toxic substances affect the body, including the biological mechanisms by which exposures can lead to illness. In this context, it is used to examine how an environmental toxin such as aflatoxin B1 may contribute to asthma through specific molecular targets and pathways.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12818737"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12818737",
+      "revision": "2026; DOI 10.1371/journal.pone.0341172; article XML SHA-256 10d2d10ca1430bc85008d50cedc938c8cb85dfbe38a72fc8b1502eacf3276433",
+      "scope": "Source record 10.1371/journal.pone.0341172; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341172"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1aa069eb02b9107cd0a3b772a7d7d6ca6b385aecbae974209241dde0b267327f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "eeeae2b3c2654a30aef375e01389a87b",
+    "request_hash": "8d780646a4e65a5e8c4bb870c8828524e83ee65b9a92af5ca1144cf3c8a171af",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "13c0a9ad5739a6c16d33e2f93142eda352664e74770d3fe210875f36ecb30089",
+    "packet_hash": "1aa069eb02b9107cd0a3b772a7d7d6ca6b385aecbae974209241dde0b267327f"
+  },
+  "hash": "c89ac356f5128d3ce2a40beb0ddff7e4a58f616591ad9ce6aa8f9446cdacbff9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence claims a general characterization of toxicology (“the study of how toxic substances affect the body, including the biological mechanisms…”), but the provided packet does not define toxicology in this general way; it only describes a study using “network toxicology” to explore mechanisms.",
+        "The packet provides support for the portion about using molecular mechanisms/targets/pathways to examine aflatoxin B1’s relationship to asthma (e.g., molecular docking, core targets, and pathway enrichment), but because the general definitional claim is unsupported, the full definition cannot be accepted."
+      ],
+      "definition_hash": "13c0a9ad5739a6c16d33e2f93142eda352664e74770d3fe210875f36ecb30089",
+      "packet_hash": "1aa069eb02b9107cd0a3b772a7d7d6ca6b385aecbae974209241dde0b267327f",
+      "published_packet_hash": "1aa069eb02b9107cd0a3b772a7d7d6ca6b385aecbae974209241dde0b267327f",
+      "receipt_id": "0bf8baabd2604979821227ff9c113447",
+      "request_hash": "3ec6ac99026d0baf34d3a62de0964ff6a77556cf230ae6fdd51d0194cdda570c",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a study of aflatoxin B1, asthma, molecular targets, pathways, and network toxicology, but it does not define toxicology as the general study of how toxic substances affect the body or of biological mechanisms of illness.",
+        "The definition adds a broad generalization about toxicology that is not established by the supplied source packet."
+      ],
+      "definition_hash": "13c0a9ad5739a6c16d33e2f93142eda352664e74770d3fe210875f36ecb30089",
+      "packet_hash": "1aa069eb02b9107cd0a3b772a7d7d6ca6b385aecbae974209241dde0b267327f",
+      "published_packet_hash": "1aa069eb02b9107cd0a3b772a7d7d6ca6b385aecbae974209241dde0b267327f",
+      "receipt_id": "072cedc60dc5402d80f022970e22c9ad",
+      "request_hash": "56c0b6d5e951452a41816904e70110c0cdf71b020181f6cf66b26a0fb6d2479b",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

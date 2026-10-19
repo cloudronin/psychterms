@@ -1,0 +1,64 @@
+{
+  "id": "synaptic-vesicle",
+  "term": "synaptic vesicle",
+  "definition": "A synaptic vesicle is a small vesicle found at synapses that can be grouped into different types and pools. In this source, synaptic vesicles are studied in nerve junctions by classifying forms such as clear-core and dense-core vesicles and comparing features like their distribution and distance from active zones.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6175533"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6175533",
+      "revision": "2018; DOI 10.1371/journal.pone.0205348; article XML SHA-256 f9b479685f54f67026590cf473c4f4cff15b10685bf510a0a961545a2f006560",
+      "scope": "Source record 10.1371/journal.pone.0205348; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0205348"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a15ae4add2b588d9051e323d666f7994847d96ef5899bb53612e86958b8a2618",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a1889571a6d0412789c911ed537f827f",
+    "request_hash": "e9bc54dd23211e40f429e152dcbe222dac6097438b9ea63a8c8d4f47e32e6cac",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "1550adefcae8d73d7745e12c83214374c0f0c98fba9947e37fc1125199dc38c8",
+    "packet_hash": "a15ae4add2b588d9051e323d666f7994847d96ef5899bb53612e86958b8a2618"
+  },
+  "hash": "fe24b38fdc183296d723dc9748d05c885b5a052390fee4ec1a6a485cdb523763",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported generalization by stating that synaptic vesicles are “small” vesicles “found at synapses”; the packet only says the study classifies vesicles in electron tomograms of C. elegans neuromuscular junctions and does not explicitly define the term that way.",
+        "The first sentence presents a broad dictionary-style definition, but the packet supports only the study context and classification of vesicle types/pools, not the general anatomical definition or size claim."
+      ],
+      "definition_hash": "1550adefcae8d73d7745e12c83214374c0f0c98fba9947e37fc1125199dc38c8",
+      "packet_hash": "a15ae4add2b588d9051e323d666f7994847d96ef5899bb53612e86958b8a2618",
+      "published_packet_hash": "a15ae4add2b588d9051e323d666f7994847d96ef5899bb53612e86958b8a2618",
+      "receipt_id": "d45f5eaeab59433d854d541240ed502a",
+      "request_hash": "eeb99232c42b6605a807dc29d4cac2758339ca66d8838688e346ad954da5062a",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the claim that synaptic vesicles are “small” vesicles.",
+        "The packet supports comparing “distance from active zones” (mean distance between DCVs and AZs), but it does not explicitly support “distribution” as a compared feature (only fraction and distance are described in the provided text).",
+        "The definition’s phrasing about “different types and pools” is partially supported (CCVs vs DCVs; and mention of studying “different synaptic vesicle pools”), but because other substantive elements in the definition (“small,” and “distribution”) are not clearly supported, the overall definition cannot be accepted as fully defensible."
+      ],
+      "definition_hash": "1550adefcae8d73d7745e12c83214374c0f0c98fba9947e37fc1125199dc38c8",
+      "packet_hash": "a15ae4add2b588d9051e323d666f7994847d96ef5899bb53612e86958b8a2618",
+      "published_packet_hash": "a15ae4add2b588d9051e323d666f7994847d96ef5899bb53612e86958b8a2618",
+      "receipt_id": "3bfef75659d14d17a0244b11bcefb757",
+      "request_hash": "66ed13715d713b0e6697b05a9736a0d583861b8280ffe471c70730d668edb774",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

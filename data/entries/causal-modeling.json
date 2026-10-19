@@ -1,0 +1,64 @@
+{
+  "id": "causal-modeling",
+  "term": "causal modeling",
+  "definition": "Causal modeling is an approach for estimating how one part of a system influences another by fitting a model to observed data. In this context, dynamic causal modeling was used to estimate changes in brain connectivity and receptor-related signaling between specific brain regions using a biophysical model of local neural structure.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8249755"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8249755",
+      "revision": "2021; DOI 10.3389/fpsyt.2021.673159; article XML SHA-256 999c05077fd5e97cbfdafb56c36a6b80757cfa66003b235be0aa81b7dfa3da61",
+      "scope": "Source record 10.3389/fpsyt.2021.673159; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2021.673159"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "71cc2a568a4ad47f5f5e206b52790e539c13fbff36c604a98e4643d7afd28885",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4c56ac05e72b4429927d2c1434f8e06c",
+    "request_hash": "5af1dcb769835bc674846c42ae1789aa556f1157d1c83a09512ad18a0d4fcd6d",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "5568854e7f0a5b81daae56455dd6fa2b6b47a6b251ad349ffc4a72114e05cccd",
+    "packet_hash": "71cc2a568a4ad47f5f5e206b52790e539c13fbff36c604a98e4643d7afd28885"
+  },
+  "hash": "9e6fa82129a49bd3490be2e443bc424d3d9f9aa82056cfd4b82b42c32b2bfb9e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“an approach for estimating how one part of a system influences another by fitting a model to observed data”) is a general definition not explicitly stated in the provided packet.",
+        "The packet supports that dynamic causal modeling (DCM) was used to measure changes in parameter estimates of connectivity using a biophysical model with realistic local neuronal architecture and receptor/channel signaling, but it does not support the broader general-purpose “causal modeling” wording used in the definition.",
+        "The definition frames receptor-related signaling “between specific brain regions” and links this to “causal modeling” generally; the packet specifically describes DCM for ketamine-related connectivity changes, not a general definition of causal modeling beyond that context."
+      ],
+      "definition_hash": "5568854e7f0a5b81daae56455dd6fa2b6b47a6b251ad349ffc4a72114e05cccd",
+      "packet_hash": "71cc2a568a4ad47f5f5e206b52790e539c13fbff36c604a98e4643d7afd28885",
+      "published_packet_hash": "71cc2a568a4ad47f5f5e206b52790e539c13fbff36c604a98e4643d7afd28885",
+      "receipt_id": "261fe425c28842348d3ca2a4c3f9ae34",
+      "request_hash": "ec165746988cfc2d4af51da22b4a43354c13dd824d9d8b487dab0cdc86141224",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports dynamic causal modeling in a specific study, but it does not define the broader term causal modeling as a general method for estimating influence by fitting a model to observed data.",
+        "The definition generalizes beyond the supplied source by presenting a generic account of causal modeling rather than the specific DCM use described in the article."
+      ],
+      "definition_hash": "5568854e7f0a5b81daae56455dd6fa2b6b47a6b251ad349ffc4a72114e05cccd",
+      "packet_hash": "71cc2a568a4ad47f5f5e206b52790e539c13fbff36c604a98e4643d7afd28885",
+      "published_packet_hash": "71cc2a568a4ad47f5f5e206b52790e539c13fbff36c604a98e4643d7afd28885",
+      "receipt_id": "ad1d9f3113e74664963e9d7ad14dc028",
+      "request_hash": "43a04c9d0925f3d3b0e208fee9f096f0189ade45ce6ac3e6b1b8b809a181ea46",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

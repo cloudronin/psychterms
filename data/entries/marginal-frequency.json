@@ -1,0 +1,63 @@
+{
+  "id": "marginal-frequency",
+  "term": "marginal frequency",
+  "definition": "In this context, marginal frequency refers to a summary of how neural response activity is distributed across sound frequencies, used to compare tuning patterns from different signal types. It captures the frequency-related part of a spectro-temporal response while leaving out the time dimension.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3100317"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3100317",
+      "revision": "2011; DOI 10.1371/journal.pone.0020046; article XML SHA-256 b1a892581e8d8d71661b32e51d58f71ecc62c63c7876751e97f64766716f8221",
+      "scope": "Source record 10.1371/journal.pone.0020046; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0020046"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0caf86df3a54ddf736c6e7105e1bbad93dcd63833be43ae97236451e3f546d54",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9b72a549a7474255be7c672b6bac95c9",
+    "request_hash": "76482f13374ec911d40fbfb02994517cbf602306c2ff8d794c9c5965ea61bf79",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "eb8f4e11d3b13620305d5ae4831db92bec84d66e0d2dbc03cc18004dc20ca59a",
+    "packet_hash": "0caf86df3a54ddf736c6e7105e1bbad93dcd63833be43ae97236451e3f546d54"
+  },
+  "hash": "2ef2d0a60cbe10ae93291593564e7e04491f17507a9200fcdb8b1127e4fc7dbe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions “marginal frequency distributions” but does not define “marginal frequency” as a summary across sound frequencies, nor state that it “leaves out the time dimension.”",
+        "The definition’s comparison purpose (to compare tuning patterns from different signal types) is not explicitly stated in the packet for the term itself; the packet describes comparisons of marginal frequency distributions between spike-based and LFP-based signals but does not provide a definitional statement of what the term means."
+      ],
+      "definition_hash": "eb8f4e11d3b13620305d5ae4831db92bec84d66e0d2dbc03cc18004dc20ca59a",
+      "packet_hash": "0caf86df3a54ddf736c6e7105e1bbad93dcd63833be43ae97236451e3f546d54",
+      "published_packet_hash": "0caf86df3a54ddf736c6e7105e1bbad93dcd63833be43ae97236451e3f546d54",
+      "receipt_id": "47ffebda4f904863804f6700a12f3f47",
+      "request_hash": "37ff7519089627b5f1b7963ef5dbd0e136d1e27c97ac601ba932c4c43da15cdb",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that marginal frequency distributions are used in comparisons between spike-based STRFs and filtered LFPs, but it does not define the term as a general summary of neural response activity across sound frequencies.",
+        "The claim that it \"captures the frequency-related part of a spectro-temporal response while leaving out the time dimension\" is an unsupported extrapolation; the source only says the comparisons were made \"on the basis of their marginal frequency distributions.\""
+      ],
+      "definition_hash": "eb8f4e11d3b13620305d5ae4831db92bec84d66e0d2dbc03cc18004dc20ca59a",
+      "packet_hash": "0caf86df3a54ddf736c6e7105e1bbad93dcd63833be43ae97236451e3f546d54",
+      "published_packet_hash": "0caf86df3a54ddf736c6e7105e1bbad93dcd63833be43ae97236451e3f546d54",
+      "receipt_id": "ef1944974dbb49ffa30edae8e46960cc",
+      "request_hash": "844092f45331b99cc8698fd89e9d122142bea32ade4ecaf8935b3cea4443e1d5",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

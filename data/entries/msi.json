@@ -1,0 +1,60 @@
+{
+  "id": "msi",
+  "term": "MSI",
+  "definition": "MSI, in this source, refers to the Goldsmiths Musical Sophistication Index, a self-report assessment used to measure musical sophistication in adolescence and adulthood. It is presented as an instrument for studying engagement-related aspects of musicality, in contrast to a child-adapted version developed for younger ages.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12829873"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12829873",
+      "revision": "2026; DOI 10.1371/journal.pone.0339261; article XML SHA-256 8dfe08e619c3628ba17579d899e16d50785b65c417bcde930dcd64d913cd8899",
+      "scope": "Source record 10.1371/journal.pone.0339261; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339261"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ffa1df34eed9acc70809e49221240b6915888415ad5d6232463c80b7674916cb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "eb293fe106d542edbe8a4eae68f05b75",
+    "request_hash": "16115757bae5feef4acc7c54ee221a1c668dcb7de90d137fd1a4438895723eda",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "a1346c816c4c18aea83e96ce57dc9f69061e6cf01da811023cc1b12373c8761d",
+    "packet_hash": "ffa1df34eed9acc70809e49221240b6915888415ad5d6232463c80b7674916cb"
+  },
+  "hash": "e19400f41686215742c5537c8fe675059a201e36abeee4ec3b417150aa8b197a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a1346c816c4c18aea83e96ce57dc9f69061e6cf01da811023cc1b12373c8761d",
+      "packet_hash": "ffa1df34eed9acc70809e49221240b6915888415ad5d6232463c80b7674916cb",
+      "published_packet_hash": "ffa1df34eed9acc70809e49221240b6915888415ad5d6232463c80b7674916cb",
+      "receipt_id": "605cd77a6e004c9b9a5070d5cc2983f8",
+      "request_hash": "2049dbec36e150712821ddeec4e811da07a0e9faa6d017e40ddf0abe02adf8e9",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that the Goldsmiths Musical Sophistication Index (Gold-MSI) is a self-report assessment (it explicitly describes the child version, cMI, as a self-report measure, but not Gold-MSI).",
+        "The packet refers to the measure as the “Goldsmiths Musical Sophistication Index (Gold-MSI)” rather than establishing that “MSI” by itself is the referent within the source, so the definition’s premise (“MSI, in this source, refers to…”) is not directly supported."
+      ],
+      "definition_hash": "a1346c816c4c18aea83e96ce57dc9f69061e6cf01da811023cc1b12373c8761d",
+      "packet_hash": "ffa1df34eed9acc70809e49221240b6915888415ad5d6232463c80b7674916cb",
+      "published_packet_hash": "ffa1df34eed9acc70809e49221240b6915888415ad5d6232463c80b7674916cb",
+      "receipt_id": "1b860a2d9ced4099be257a65634ebcc5",
+      "request_hash": "ad29639896d9f94b936e186ae39c564e0206ccbda9bd4672e004eea824f3ccb5",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

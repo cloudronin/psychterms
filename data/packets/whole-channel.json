@@ -1,0 +1,26 @@
+{
+  "id": "whole-channel",
+  "term": "whole-channel",
+  "source": "article-pmc9956019",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0276835",
+  "revision": "2023; DOI 10.1371/journal.pone.0276835; article XML SHA-256 3f2226768211d15e0df7a5448954a2919b05dcfd8318ed49df9c129fd40784df",
+  "source_snapshot_sha256": "3f2226768211d15e0df7a5448954a2919b05dcfd8318ed49df9c129fd40784df",
+  "url": "https://doi.org/10.1371/journal.pone.0276835",
+  "text": "Heart failure (HF) is the final stage of the various heart diseases developing. The mortality rates of prognosis HF patients are highly variable, ranging from 5% to 75%. Evaluating the all-cause mortality of HF patients is an important means to avoid death and positively affect the health of patients. But in fact, machine learning models are difficult to gain good results on missing values, high dimensions, and imbalances HF data. Therefore, a deep learning system is proposed. In this system, we propose an indicator vector to indicate whether the value is true or be padded, which fast solves the missing values and helps expand data dimensions. Then, we use a convolutional neural network with different kernel sizes to obtain the features information. And a multi-head self-attention mechanism is applied to gain whole channel information, which is essential for the system to improve performance. Besides, the focal loss function is introduced to deal with the imbalanced problem better. The experimental data of the system are from the public database MIMIC-III, containing valid data for 10311 patients. The proposed system effectively and fast predicts four death types: death within 30 days, death within 180 days, death within 365 days and death after 365 days. Our study uses Deep SHAP to interpret the deep learning model and obtains the top 15 characteristics. These characteristics further confirm the effectiveness and rationality of the system and help provide a better medical service.",
+  "source_label": "A deep learning system for heart failure mortality prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1506
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4"
+}

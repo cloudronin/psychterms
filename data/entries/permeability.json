@@ -1,0 +1,63 @@
+{
+  "id": "permeability",
+  "term": "permeability",
+  "definition": "Permeability is the extent to which a material, such as soil, allows water to pass through it. In this source, it is described as an important property that is affected by factors like moisture content, dry density, and compaction energy.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13327265"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13327265",
+      "revision": "2026; DOI 10.1371/journal.pone.0352684; article XML SHA-256 cafcdca528d09e930443a18f3d88dbf11ba51e983978763e698fe041b2b8f5ea",
+      "scope": "Source record 10.1371/journal.pone.0352684; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0352684"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2bbfc96fa03af9d48530ed20b2acecdbb3ff145eb1d022a42fdd78cb83f7d44f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "093ee8ad720643169d34c89b8c4309f4",
+    "request_hash": "e14f6ba0fb902fea4b30ee6366548d4ee884966bc83d04642e8de76a838cefd9",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "5a7d20a86d08c86a98f42967178990d837008d6bf3b08abee02bc920f3e22433",
+    "packet_hash": "2bbfc96fa03af9d48530ed20b2acecdbb3ff145eb1d022a42fdd78cb83f7d44f"
+  },
+  "hash": "707b5b39302359ca2ccb59225e6ed8a78fc52c5a2a2090b1e2dbc8bba542a0fc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is about geotechnical/soil engineering, not learning or psychology/counselling content.",
+        "The second sentence overstates support by presenting compaction energy as an established factor affecting permeability; the packet says this coupling is inadequately investigated and absent from many prediction models, not established as settled fact."
+      ],
+      "definition_hash": "5a7d20a86d08c86a98f42967178990d837008d6bf3b08abee02bc920f3e22433",
+      "packet_hash": "2bbfc96fa03af9d48530ed20b2acecdbb3ff145eb1d022a42fdd78cb83f7d44f",
+      "published_packet_hash": "2bbfc96fa03af9d48530ed20b2acecdbb3ff145eb1d022a42fdd78cb83f7d44f",
+      "receipt_id": "61fc412a1b534e8aac2b401667bf66ff",
+      "request_hash": "c571240009ed4ea9a5794b55aad5d1f9e5a6fc2b1bbb93e9afc67d8d40bbf853",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define permeability as “the extent to which a material… allows water to pass through it.” It only mentions “permeability” alongside seepage and soil properties, without stating a definitional meaning.",
+        "The statement that permeability is affected by “dry density and compaction energy” is partly supported by the packet (it says moisture content and dry density have pronounced effects on soil properties including permeability, and that the study investigates permeability evolution under varying compaction energies), but the overall definition includes an unsupported definitional characterization in the first sentence."
+      ],
+      "definition_hash": "5a7d20a86d08c86a98f42967178990d837008d6bf3b08abee02bc920f3e22433",
+      "packet_hash": "2bbfc96fa03af9d48530ed20b2acecdbb3ff145eb1d022a42fdd78cb83f7d44f",
+      "published_packet_hash": "2bbfc96fa03af9d48530ed20b2acecdbb3ff145eb1d022a42fdd78cb83f7d44f",
+      "receipt_id": "e05a0a19d3d7434d9f23889d4c2d4a8b",
+      "request_hash": "e595f6a7ab6852af5853df8df7bd50544c098fe4302b8025709eb86b5948776e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

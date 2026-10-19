@@ -1,0 +1,60 @@
+{
+  "id": "amplitude-modulation",
+  "term": "amplitude modulation",
+  "definition": "Amplitude modulation is a change in a sound’s strength over time, creating rises and falls in loudness. In this context, it describes patterned fluctuations in background noise or tones that can affect how easily another sound is detected.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3277502"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3277502",
+      "revision": "2012; DOI 10.1371/journal.pone.0031589; article XML SHA-256 59cbeaba5d45dbd0006d7e6feb067febcc9f8a3a820a029267f60ee8667053ad",
+      "scope": "Source record 10.1371/journal.pone.0031589; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0031589"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "79dcdcc26ff654dc125121e281759c0352717585447de50a060f98db76c62959",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7bcc106d2d964feeb96ab891b572317b",
+    "request_hash": "fe45a603a4f701740237b71f5e14d3d73f4b60acd75df49964cee402a93a9e84",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "1a584e082e0af980e03c89a469150c11a7e87699b2a0a3b323bdb5bfe2fd6e97",
+    "packet_hash": "79dcdcc26ff654dc125121e281759c0352717585447de50a060f98db76c62959"
+  },
+  "hash": "42a2b53197ce8001f4800fb24518055aeddba8bbafc36b2c501863113ffeeac2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1a584e082e0af980e03c89a469150c11a7e87699b2a0a3b323bdb5bfe2fd6e97",
+      "packet_hash": "79dcdcc26ff654dc125121e281759c0352717585447de50a060f98db76c62959",
+      "published_packet_hash": "79dcdcc26ff654dc125121e281759c0352717585447de50a060f98db76c62959",
+      "receipt_id": "89463cf67d6246a580c0fef24d5a019b",
+      "request_hash": "5df9414731e38da81b264e8a795b1a14fd6f63be4a78c2ae3933f0f58a4b23eb",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s wording that amplitude modulation “creates rises and falls in loudness” is not explicitly supported by the packet, which instead discusses “dips in the noise amplitude.”",
+        "The packet does not directly use or support the “loudness” framing, even though it supports temporal fluctuations in amplitude (e.g., amplitude dips) relevant to detection."
+      ],
+      "definition_hash": "1a584e082e0af980e03c89a469150c11a7e87699b2a0a3b323bdb5bfe2fd6e97",
+      "packet_hash": "79dcdcc26ff654dc125121e281759c0352717585447de50a060f98db76c62959",
+      "published_packet_hash": "79dcdcc26ff654dc125121e281759c0352717585447de50a060f98db76c62959",
+      "receipt_id": "a49fa2c1753b4e57838daf1ae79225ff",
+      "request_hash": "67faf90d72dde392ba5303a60da3be3a90aaf6f1b899e2778e3785267e8738a9",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "prostaglandin",
+  "term": "prostaglandin",
+  "definition": "A prostaglandin is part of a group of body chemicals made through a process regulated by the cyclooxygenase enzymes encoded by PTGS1 and PTGS2. This pathway is important because it is a major target of nonsteroidal anti-inflammatory drugs (NSAIDs).",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13614540"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13614540",
+      "revision": "2026; DOI 10.1371/journal.pone.0358222; article XML SHA-256 a36468eb38b10b4e3276e05132441c777d37541aa32ad524a90d5dc2b8050595",
+      "scope": "Source record 10.1371/journal.pone.0358222; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358222"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "489c950d539ebd1d685c88d85d4ddf16cf702c979eb3a05c7bd82b26545c6830",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bdc06b5fec624d0dbbcd3b71c7f20be6",
+    "request_hash": "6876fed6b4a45a9bedaafb19052bde38cf9abe28d29f4f639924b1d02916a36b",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "8e7a6cf69225b624a9700120e6fb2b1e8502e6e00a55da099995cce3fdd28135",
+    "packet_hash": "489c950d539ebd1d685c88d85d4ddf16cf702c979eb3a05c7bd82b26545c6830"
+  },
+  "hash": "c7ebf18aec7f4d3c3b4125843201ff80162a1cf40df0fc66b3a7f04d9b6923eb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible here: prostaglandin is a biochemical term, not a cognition/psychology/counselling term.",
+        "The packet supports that PTGS1 and PTGS2 regulate prostaglandin biosynthesis and are major NSAID targets, but it does not support the definitional claim that a prostaglandin is itself a group of body chemicals."
+      ],
+      "definition_hash": "8e7a6cf69225b624a9700120e6fb2b1e8502e6e00a55da099995cce3fdd28135",
+      "packet_hash": "489c950d539ebd1d685c88d85d4ddf16cf702c979eb3a05c7bd82b26545c6830",
+      "published_packet_hash": "489c950d539ebd1d685c88d85d4ddf16cf702c979eb3a05c7bd82b26545c6830",
+      "receipt_id": "6aaf39dac92c49249ab5e4100df1bf71",
+      "request_hash": "a41979b68bb8482e0922c0c45cb3980fbc305de71bb3fac5e7a8d58398a669d0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet discusses PTGS1/PTGS2 (cyclooxygenase/paralog) and prostaglandin biosynthesis/NSAID targets, not cognition.",
+        "The definition’s first sentence uses a general description (“part of a group of body chemicals made through a process...”) that is not stated in the packet; the packet only explicitly says PTGS1 and PTGS2 regulate prostaglandin biosynthesis (it does not describe prostaglandins as “part of a group of body chemicals” or specify the “made through a process” phrasing."
+      ],
+      "definition_hash": "8e7a6cf69225b624a9700120e6fb2b1e8502e6e00a55da099995cce3fdd28135",
+      "packet_hash": "489c950d539ebd1d685c88d85d4ddf16cf702c979eb3a05c7bd82b26545c6830",
+      "published_packet_hash": "489c950d539ebd1d685c88d85d4ddf16cf702c979eb3a05c7bd82b26545c6830",
+      "receipt_id": "7f501d5a6a8e473f90f4048baed46cc9",
+      "request_hash": "5dd325fb3c659425ef89387445a94a703f44ebec8ed086d5940a8faecc48aa65",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

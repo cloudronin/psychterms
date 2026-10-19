@@ -1,0 +1,60 @@
+{
+  "id": "collateral",
+  "term": "collateral",
+  "definition": "In diagnosis, collateral refers to information gathered from other sources besides the person being assessed, such as developmental history or supporting documentation. It is used to help anchor clinical judgment and strengthen diagnostic validity, especially when self-report or current presentation may be incomplete or unclear.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13438415"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13438415",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1917652; article XML SHA-256 6cfab6a57bb7d3e0b2cd69949dc746555aef2e1716e3741e54b94833d68f81ec",
+      "scope": "Source record 10.3389/fpsyt.2026.1917652; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1917652"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "48788f17e75f7a5bc3ff057120f94daa9726f2eaeb203c5bad41eca7871462c0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ac9807262b0b497f828093f3491c19ca",
+    "request_hash": "13573071d6149336f6b3ea3d19c5718efaa0e4cf09b72bf51f68f885efbda30c",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "329bc4d8e0bc4a2e49c1e4d26a3badd8ab849785098933e658278f23d0a67666",
+    "packet_hash": "48788f17e75f7a5bc3ff057120f94daa9726f2eaeb203c5bad41eca7871462c0"
+  },
+  "hash": "2b6ff31d5bf1088e6b24985f343aab7dc505573bdb28a1466bb55836885fe15b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "329bc4d8e0bc4a2e49c1e4d26a3badd8ab849785098933e658278f23d0a67666",
+      "packet_hash": "48788f17e75f7a5bc3ff057120f94daa9726f2eaeb203c5bad41eca7871462c0",
+      "published_packet_hash": "48788f17e75f7a5bc3ff057120f94daa9726f2eaeb203c5bad41eca7871462c0",
+      "receipt_id": "29d52104b23940d99e40b925405a9947",
+      "request_hash": "81db323c37346c83685433086642c8a744f16cb3b23a7345032fec64a78ed79f",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that collateral is “information gathered from other sources besides the person being assessed,” but the packet only mentions “collateral information”/“collateral developmental documentation” as part of best-estimate diagnosis; it does not explicitly define collateral as “other sources besides the person being assessed.”",
+        "The definition’s example wording (“such as developmental history or supporting documentation”) is only partially supported: the packet refers to developmental history and “collateral developmental documentation,” but it does not explicitly frame collateral as a category of information “such as developmental history or supporting documentation” in the definitional sense."
+      ],
+      "definition_hash": "329bc4d8e0bc4a2e49c1e4d26a3badd8ab849785098933e658278f23d0a67666",
+      "packet_hash": "48788f17e75f7a5bc3ff057120f94daa9726f2eaeb203c5bad41eca7871462c0",
+      "published_packet_hash": "48788f17e75f7a5bc3ff057120f94daa9726f2eaeb203c5bad41eca7871462c0",
+      "receipt_id": "90da8c79420d4ad18780a2c70aac06d1",
+      "request_hash": "7da7090fe63a92f0f228a14fadcfdd48e67a0d1f6b32aeec87b7c906dbb6f570",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

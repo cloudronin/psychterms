@@ -61,3 +61,63 @@ Reader wave 10: 658 pending calls; frozen registration `a313e407e9d8a9a0eaa57511
 Draft wave 11: 500 packets; frozen registration `9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4`. Original shared $100 cap, all earlier charges and reservations retained.
 
 Reader wave 11: 648 pending calls; frozen registration `88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 12: 500 packets; frozen registration `9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 12: 668 pending calls; frozen registration `780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 13: 500 packets; frozen registration `1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 13: 608 pending calls; frozen registration `79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 14: 500 packets; frozen registration `67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 14: 674 pending calls; frozen registration `7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 15: 1000 packets; frozen registration `4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 15: 1376 pending calls; frozen registration `6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 16: 1000 packets; frozen registration `877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 16: 1368 pending calls; frozen registration `db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 17: 846 packets; frozen registration `ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 17: 1190 pending calls; frozen registration `d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 18: 127 packets; frozen registration `d90473afe9f6da85c2e842a0ef5fe242ddd2442b30a5362b262a2410c5373f53`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 18: 122 pending calls; frozen registration `532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 19: 41 packets; frozen registration `52aa639c95c864232e5406f03010ede94fa31c3ddfb77373226d1b244db107a1`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 19: 16 pending calls; frozen registration `9300f36c85b0c7ad08675434d2fd1f428886d436b5f28e47ce975f7051c0ca78`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 20: 25 packets; frozen registration `c324d97d272c5d1e51e76126f47c1765c1d4aa6cd365a21038546d04dabdc085`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 20: 2 pending calls; frozen registration `0dc7d29b39ad0bfc6082fb5207522988c04f355e42f1f4c19320189e8dcaa0de`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 21: 21 packets; frozen registration `7806eed966d5934817e0de545f55303f25777413d0feed0ee65bac2f8f59362d`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 21: 0 pending calls; frozen registration `d43a4460c9feec1608b53acb12736445fd9fcd24d711fc0366715a2935762952`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 22: 20 packets; frozen registration `ad979d86911145755063ddf81af59dde4326115a47b8ab0d96cbe9dedf6fefb6`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 22: 0 pending calls; frozen registration `38c2dfa18e9e3a8777e75a9f53b2072e796661e942b2e3b06241d4565815a6a5`. Original shared $25 cap, all earlier charges and reservations retained.
+
+## Acronym and government-passage correction
+
+The tail of the recovery queue exposed uppercase acronym labels matching ordinary lowercase words, and generic mentions recurring across NIMH pages. Dispatch was stopped between batches. Acronyms now require literal uppercase matches; NIMH packets additionally require a sentence-leading definition or an explicitly expanded acronym. This is retrieval fit, not semantic acceptance: the drafting and independent reader checks still apply. Failed attempts and all charges remain on the original ledgers. No existing definitions, fields or verdicts are rewritten. Regression tests cover ordinary-word collisions, incidental government mentions, genuine definitions and expanded acronyms.
+
+Draft wave 23: 10 packets; frozen registration `4fe18d7b5b4f073b4bd355acd7be20e44da8f2b506e70f17fde374424a9594d9`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 23: 2 pending calls; frozen registration `5139a9d4b99396cfb4cbd3662ee10d543a7434a4c77e9473a20278b6127ffe76`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 24: 5 packets; frozen registration `93195d75134ef9a3be40f8c2d2ffbcd326a36a04ec4bee1d8f4aad1202067c95`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 24: 0 pending calls; frozen registration `d3f2cc2d20acb68a115234c51b1378871121ee8f5950bb33d056f5a15362cb7e`. Original shared $25 cap, all earlier charges and reservations retained.
+
+Draft wave 25: 1 packets; frozen registration `ae1f89445b260e409c8b04827d26afd0be4acb7c16693bfbeba8b22b062ff501`. Original shared $100 cap, all earlier charges and reservations retained.
+
+Reader wave 25: 0 pending calls; frozen registration `d7d15a6e55a330a9651255c76d0b7b97b1a51a35d8f286f2b4cf55c49afb5aec`. Original shared $25 cap, all earlier charges and reservations retained.

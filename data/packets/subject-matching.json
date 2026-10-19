@@ -1,0 +1,26 @@
+{
+  "id": "subject-matching",
+  "term": "subject matching",
+  "source": "article-pmc5819565",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnins.2018.00064",
+  "revision": "2018; DOI 10.3389/fnins.2018.00064; article XML SHA-256 d874f909dd91bf3ace49415e244259c940ec6d60fe9b934e31f34eb824421981",
+  "source_snapshot_sha256": "d874f909dd91bf3ace49415e244259c940ec6d60fe9b934e31f34eb824421981",
+  "url": "https://doi.org/10.3389/fnins.2018.00064",
+  "text": "In Echo-Planar Imaging (EPI)-based Magnetic Resonance Imaging (MRI), inter-subject registration typically uses the subject's T1-weighted (T1w) anatomical image to learn deformations of the subject's brain onto a template. The estimated deformation fields are then applied to the subject's EPI scans (functional or diffusion-weighted images) to warp the latter to a template space. Historically, such indirect T1w-based registration was motivated by the lack of clear anatomical details in low-resolution EPI images: a direct registration of the EPI scans to template space would be futile. A central prerequisite in such indirect methods is that the anatomical (aka the T1w) image of each subject is well aligned with their EPI images via rigid coregistration. We provide experimental evidence that things have changed: nowadays, there is a decent amount of anatomical contrast in high-resolution EPI data. That notwithstanding, EPI distortions due to B0 inhomogeneities cannot be fully corrected. Residual uncorrected distortions induce non-rigid deformations between the EPI scans and the same subject's anatomical scan. In this manuscript, we contribute a computationally cheap pipeline that leverages the high spatial resolution of modern EPI scans for direct inter-subject matching. Our pipeline is direct and does not rely on the T1w scan to estimate the inter-subject deformation. Results on a large dataset show that this new pipeline outperforms the classical indirect T1w-based registration scheme, across a variety of post-registration quality-assessment metrics including: Normalized Mutual Information, relative variance (variance-to-mean ratio), and to a lesser extent, improved peaks of group-level General Linear Model (GLM) activation maps.",
+  "source_label": "Inter-subject Registration of Functional Images: Do We Need Anatomical Images?",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1757
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "3fdeb7d8b310d52354ac8d5f51d1591c2d1f157724e538e4a68eed162413efd2"
+}

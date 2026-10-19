@@ -1,0 +1,66 @@
+{
+  "id": "aberration",
+  "term": "aberration",
+  "definition": "In this biological context, aberration refers to an optical irregularity of the cornea measured as a wavefront distortion. Higher aberration values indicate a departure from normal light focusing and can be associated with poorer objective visual quality.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13465806"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13465806",
+      "revision": "2026; DOI 10.1371/journal.pone.0355390; article XML SHA-256 a766f3068daf504c0e779fc350b6663321dd620a8f5394dd4e8116506f28dec3",
+      "scope": "Source record 10.1371/journal.pone.0355390; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355390"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ce92a8c8d9ea970c511fa9cdfecd59487d2af6386eb05500c5aaac0654849e14",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5e19efd3042943dda28e1db36c62c3a7",
+    "request_hash": "bc880d38693de9a3f3058febd8e2daccc0c213be12ce87b1209512f18e55bf69",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "4bd1d3f961312b46a7de14670e1657f7f8757b51481f3e3ff8dd4b445e585ea8",
+    "packet_hash": "ce92a8c8d9ea970c511fa9cdfecd59487d2af6386eb05500c5aaac0654849e14"
+  },
+  "hash": "154813cc9ae2b3b36bf04c43dfc0a5ebd7a1d874e7d06c2c8e8c6e4ff9bb0352",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition stating that “aberration” refers to an “optical irregularity of the cornea measured as a wavefront distortion.” It only reports that “corneal wavefront aberrations” were measured using the Pentacam system.",
+        "The claim that “Higher aberration values indicate a departure from normal light focusing” is not explicitly supported in the packet.",
+        "The claim that higher aberration values “can be associated with poorer objective visual quality” is not directly established as a general rule in the packet; it reports specific longitudinal changes (e.g., OSI increased, SR decreased) and changes in aberration RMS values, but does not support the causal/interpretive linkage as stated.",
+        "The definition is written as a general interpretation rather than something the packet explicitly defines for this term."
+      ],
+      "definition_hash": "4bd1d3f961312b46a7de14670e1657f7f8757b51481f3e3ff8dd4b445e585ea8",
+      "packet_hash": "ce92a8c8d9ea970c511fa9cdfecd59487d2af6386eb05500c5aaac0654849e14",
+      "published_packet_hash": "ce92a8c8d9ea970c511fa9cdfecd59487d2af6386eb05500c5aaac0654849e14",
+      "receipt_id": "d4fc94cfa33a45fe994c7d38c908327a",
+      "request_hash": "bb01f919f6f2930e29d376b5da4d5a0d82bdc1f59bdc8149a5758f5b06b306fc",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports corneal wavefront aberrations and their association with objective visual quality, but it does not explicitly support defining aberration as a corneal optical irregularity measured as a wavefront distortion.",
+        "The phrase \"departure from normal light focusing\" is an added explanatory gloss not stated in the source packet.",
+        "The packet supports an association between increased aberration values and worse objective visual quality, but not the broader definitional claims as written."
+      ],
+      "definition_hash": "4bd1d3f961312b46a7de14670e1657f7f8757b51481f3e3ff8dd4b445e585ea8",
+      "packet_hash": "ce92a8c8d9ea970c511fa9cdfecd59487d2af6386eb05500c5aaac0654849e14",
+      "published_packet_hash": "ce92a8c8d9ea970c511fa9cdfecd59487d2af6386eb05500c5aaac0654849e14",
+      "receipt_id": "fe73a6a109734d48b1316727e371cde5",
+      "request_hash": "5ba9ff02c30c48955a728d232ab448f6ba6939d42e73ecff7229680f59d5b34d",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

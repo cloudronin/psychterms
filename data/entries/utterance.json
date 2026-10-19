@@ -1,0 +1,65 @@
+{
+  "id": "utterance",
+  "term": "utterance",
+  "definition": "An utterance is a single unit of speech or conversational expression whose emotion or meaning can be analyzed within the surrounding interaction. In this context, utterances are treated as linked parts of a conversation and may be examined using text, sound, visual, and contextual cues.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13617078"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13617078",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1867034; article XML SHA-256 bf72e9629b0f0ef84f6da1d5e63db1b7e6cee7546cadc20f381f86b6d33706c6",
+      "scope": "Source record 10.3389/fpsyg.2026.1867034; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1867034"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ff38e8d4fc44473a86caa744e91cb7a7",
+    "request_hash": "3f66c2795384da1accff5bff190d74649af969618379ccc67bb28474c4489042",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "12dc2787bb58778f42e7dffb4fca2d744e51c50552d88906e415c71607f893b3",
+    "packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c"
+  },
+  "hash": "7257d658f86aa36fd041d9bccf9acffa6d17e81b295e8b198e83f95c13bb65d2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “utterance” as a “single unit of speech or conversational expression,” nor does it provide an explicit definition matching the requested sense.",
+        "The packet discusses “emotion expressed in each utterance” and “utterance-level emotion classification,” but it does not state that utterances are “treated as linked parts of a conversation” or that their “emotion or meaning can be analyzed within the surrounding interaction.”",
+        "The definition’s claim that utterances “may be examined using text, sound, visual, and contextual cues” is not presented as a definitional characterization of utterances in the packet; the packet instead describes a multimodal emotion-recognition method."
+      ],
+      "definition_hash": "12dc2787bb58778f42e7dffb4fca2d744e51c50552d88906e415c71607f893b3",
+      "packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c",
+      "published_packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c",
+      "receipt_id": "99b2dfef14b640b89aae2c645ad7e723",
+      "request_hash": "df29efefa51efefee88610d31826046ef34bea856da445c7badbd766095681fe",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports utterances as conversational units used for emotion recognition, but it does not support the broader claim that an utterance is a unit whose \"meaning\" is analyzed; the source only mentions emotion expressed in each utterance.",
+        "The packet supports text, acoustic, visual, and contextual information for analysis, but it does not support the added characterization of utterances as \"linked parts of a conversation\" in the definitional sense given here.",
+        "The definition is slightly overgeneralized beyond the source because it presents a general lexicographic sense rather than the narrower research use shown in the packet."
+      ],
+      "definition_hash": "12dc2787bb58778f42e7dffb4fca2d744e51c50552d88906e415c71607f893b3",
+      "packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c",
+      "published_packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c",
+      "receipt_id": "31b896a2b2f74b8495e49da157520699",
+      "request_hash": "42eac6acf0868bb023f6ac4ac6203b3970fc1875b052a75b91b7bb2c580ce03e",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

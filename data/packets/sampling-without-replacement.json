@@ -1,0 +1,26 @@
+{
+  "id": "sampling-without-replacement",
+  "term": "sampling without replacement",
+  "source": "article-pmc9159584",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0256411",
+  "revision": "2022; DOI 10.1371/journal.pone.0256411; article XML SHA-256 886fdb7043c0149e675d2793eed6d8d790673ce79a94c5baf0272f0d5334403b",
+  "source_snapshot_sha256": "886fdb7043c0149e675d2793eed6d8d790673ce79a94c5baf0272f0d5334403b",
+  "url": "https://doi.org/10.1371/journal.pone.0256411",
+  "text": "A number of neurologic diseases associated with expanded nucleotide repeats, including an inherited form of amyotrophic lateral sclerosis, have an unconventional form of translation called repeat-associated non-AUG (RAN) translation. It has been speculated that the repeat regions in the RNA fold into secondary structures in a length-dependent manner, promoting RAN translation. Repeat protein products are translated, accumulate, and may contribute to disease pathogenesis. Nucleotides that flank the repeat region, especially ones closest to the initiation site, are believed to enhance translation initiation. A machine learning model has been published to help identify ATG and near-cognate translation initiation sites; however, this model has diminished predictive power due to its extensive feature selection and limited training data. Here, we overcome this limitation and increase prediction accuracy by the following: a) capture the effect of nucleotides most critical for translation initiation via feature reduction, b) implement an alternative machine learning algorithm better suited for limited data, c) build comprehensive and balanced training data (via sampling without replacement) that includes previously unavailable sequences, and d) split ATG and near-cognate translation initiation codon data to train two separate models. We also design a supplementary scoring system to provide an additional prognostic assessment of model predictions. The resultant models have high performance, with ~85–88% accuracy, exceeding that of the previously published model by >18%. The models presented here are used to identify translation initiation sites in genes associated with a number of neurologic repeat expansion disorders. The results confirm a number of sites of translation initiation upstream of the expanded repeats that have been found experimentally, and predict sites that are not yet established.",
+  "source_label": "Machine learning predicts translation initiation sites in neurologic diseases with nucleotide repeat expansions",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1921
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1f1466db459d820d0f6ff19eccb76adb19653c8df494df7bf844a10c2286b42d"
+}

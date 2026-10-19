@@ -1,0 +1,63 @@
+{
+  "id": "pseudohypoparathyroidism",
+  "term": "pseudohypoparathyroidism",
+  "definition": "Pseudohypoparathyroidism is a genetic condition caused by an inactivating mutation in the GNAS gene; when the mutation is maternally inherited, it can produce pseudohypoparathyroidism type 1a. In the source packet, all studied patients with this form showed intellectual disability, making it relevant to cognition.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3961212"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3961212",
+      "revision": "2014; DOI 10.1371/journal.pone.0090640; article XML SHA-256 f656cbff78f770628dd2c466ef6a36771888ddf7e07e88603e0b834e5c7194a3",
+      "scope": "Source record 10.1371/journal.pone.0090640; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0090640"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4ffe2d7e8eb27b1ac44e3c04563fd173f14c692f2eb4f25fa2a13d3bf9cc8ab4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b533d8909de243139bfe54e80ccdca1b",
+    "request_hash": "2339f7d556a9c3d31ddc3f153b1e63ebba5016df1cf9880709da01f4b0330e2c",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b4c1cedf1571d3074ae164f85f50efc06c9e6ce8244379fcf933e9093a3045c1",
+    "packet_hash": "4ffe2d7e8eb27b1ac44e3c04563fd173f14c692f2eb4f25fa2a13d3bf9cc8ab4"
+  },
+  "hash": "700ba673068a53bb2944fea22e987572ec6fe785cc6cc6ef21562295ab807c9c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “intellectual disability,” but the packet reports “mental retardation” (no explicit equivalence to “intellectual disability” is provided).",
+        "The phrase “making it relevant to cognition” is an interpretive generalization that is not explicitly stated in the packet; the packet only reports cognitive/mental status findings for the studied PHP1A patients."
+      ],
+      "definition_hash": "b4c1cedf1571d3074ae164f85f50efc06c9e6ce8244379fcf933e9093a3045c1",
+      "packet_hash": "4ffe2d7e8eb27b1ac44e3c04563fd173f14c692f2eb4f25fa2a13d3bf9cc8ab4",
+      "published_packet_hash": "4ffe2d7e8eb27b1ac44e3c04563fd173f14c692f2eb4f25fa2a13d3bf9cc8ab4",
+      "receipt_id": "f7ae43b5bb8e42398444d1c4cfcc2f70",
+      "request_hash": "0a469961d395c37275078f8e6489398219ee3e961c13d64759422b0df8f7fbbd",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a GNAS inactivating mutation as a cause of PHP1A/PPHP, but it does not support that pseudohypoparathyroidism in general is caused by that mutation; the definition overgeneralizes from a subtype to the broader term.",
+        "The packet says all PHP1A patients had mental retardation, but it does not establish that this finding makes the disorder broadly “relevant to cognition” as a dictionary sense."
+      ],
+      "definition_hash": "b4c1cedf1571d3074ae164f85f50efc06c9e6ce8244379fcf933e9093a3045c1",
+      "packet_hash": "4ffe2d7e8eb27b1ac44e3c04563fd173f14c692f2eb4f25fa2a13d3bf9cc8ab4",
+      "published_packet_hash": "4ffe2d7e8eb27b1ac44e3c04563fd173f14c692f2eb4f25fa2a13d3bf9cc8ab4",
+      "receipt_id": "a28f9857e22541278051dd44e9bfcbe6",
+      "request_hash": "c55bdadc21af0b2d5bc9d9eaefd6deec309c3adb398beefad2a3a1d5e9501c6e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

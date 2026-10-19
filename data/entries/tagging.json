@@ -1,0 +1,62 @@
+{
+  "id": "tagging",
+  "term": "tagging",
+  "definition": "Tagging is the assignment of descriptive labels to an item so it can be organized and found more easily. In the source context, auto-tagging means a system analyzes a music track and automatically produces labels such as genre, mood, or instruments.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10688627"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10688627",
+      "revision": "2023; DOI 10.1371/journal.pone.0294643; article XML SHA-256 e32b61df35ed4fb195cc8c054b4f56b79a9b30106880f13efbfd2d6167941969",
+      "scope": "Source record 10.1371/journal.pone.0294643; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0294643"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6e8f84748794ed9fd4b9152472bdba7e5f853df0f9e1c9dfec5b5df3214c87ee",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e4f80e3a925e4ec5859364d5c3ab803d",
+    "request_hash": "0ba653fa253e952fe33e0a4abf75b0b0b6cf7491b0a2e6a8a1f91b5028ad59cf",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "a294cba4a4ab3cdcc1ac247fa4a6daba041d9ac235d0d757b44daf084e727778",
+    "packet_hash": "6e8f84748794ed9fd4b9152472bdba7e5f853df0f9e1c9dfec5b5df3214c87ee"
+  },
+  "hash": "270d1e5e834ab5f173de570d8e1787c2d4c8cf4f413eb1356b894f630ee516e6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “tagging” as a general concept (assignment of descriptive labels to an item for organization/search); it only describes “auto-tagging” in the context of music track analysis."
+      ],
+      "definition_hash": "a294cba4a4ab3cdcc1ac247fa4a6daba041d9ac235d0d757b44daf084e727778",
+      "packet_hash": "6e8f84748794ed9fd4b9152472bdba7e5f853df0f9e1c9dfec5b5df3214c87ee",
+      "published_packet_hash": "6e8f84748794ed9fd4b9152472bdba7e5f853df0f9e1c9dfec5b5df3214c87ee",
+      "receipt_id": "ac61f1c94e1a4fc68fa2c656cc87258a",
+      "request_hash": "fe89c121b1ae4143e5b4e1a88da8826382550d7cbbb961c2cdb698168aa0b65f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence is an unsupported general definition: the packet only describes auto-tagging in a music system, not tagging as the general assignment of labels to items for organization and retrieval.",
+        "The source context is narrower than the definition implies; it supports automatic analysis of a music track to output tags such as genre, mood, and instruments, but not the broader organizing/finding explanation."
+      ],
+      "definition_hash": "a294cba4a4ab3cdcc1ac247fa4a6daba041d9ac235d0d757b44daf084e727778",
+      "packet_hash": "6e8f84748794ed9fd4b9152472bdba7e5f853df0f9e1c9dfec5b5df3214c87ee",
+      "published_packet_hash": "6e8f84748794ed9fd4b9152472bdba7e5f853df0f9e1c9dfec5b5df3214c87ee",
+      "receipt_id": "0ae33e9789ad47db94023867fa49b7fb",
+      "request_hash": "a1c6a8ca74ee90c4072641551ddb77ec5032da8932518430b2ac7c7af5e50a5f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

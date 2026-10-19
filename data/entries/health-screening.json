@@ -1,0 +1,62 @@
+{
+  "id": "health-screening",
+  "term": "health screening",
+  "definition": "In this context, health screening means an initial check of mental health using screening tools or questionnaires. In athlete settings, the screening result can be used to decide whether a person should continue to further assessment steps.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13017933"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13017933",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1761749; article XML SHA-256 13597fa0024aba5f6cc9ec9a87890494ad1af2feb1d3fef78c2b5cbeeac2104d",
+      "scope": "Source record 10.3389/fpsyg.2026.1761749; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1761749"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5c51b70e8fc6d6e8177dccb788e80f8e128466be76ef5896eca69caaecab5bb3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7f893d798e47441a8e21438564ca5509",
+    "request_hash": "b401e7071bbf188c53a4216c7bce3222abe3f5176102436efd307f85c3130dae",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "666b25412e014e29cfea1274a6503552985f795a859b9508969367a7005a2c18",
+    "packet_hash": "5c51b70e8fc6d6e8177dccb788e80f8e128466be76ef5896eca69caaecab5bb3"
+  },
+  "hash": "0b063597765ba1113b7ff3cf9d372aa1bee3e3c8d7a2b8d12c71b4aeb49f0281",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided packet discusses mental health screening in athlete settings, but it does not support mapping this term to the requested field of “cognition.”"
+      ],
+      "definition_hash": "666b25412e014e29cfea1274a6503552985f795a859b9508969367a7005a2c18",
+      "packet_hash": "5c51b70e8fc6d6e8177dccb788e80f8e128466be76ef5896eca69caaecab5bb3",
+      "published_packet_hash": "5c51b70e8fc6d6e8177dccb788e80f8e128466be76ef5896eca69caaecab5bb3",
+      "receipt_id": "1f85e39d414b41719559f31074dba00d",
+      "request_hash": "c4be137d7349af9ecda08d512d9bd2bdba7895d642b0a4b98d1b13759583c505",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports athlete mental health screening, but it does not state that health screening means an initial check of mental health using screening tools or questionnaires.",
+        "The packet only supports that an APSQ score determines whether athletes continue with the screening process; the broader explanatory framing is not established by the source."
+      ],
+      "definition_hash": "666b25412e014e29cfea1274a6503552985f795a859b9508969367a7005a2c18",
+      "packet_hash": "5c51b70e8fc6d6e8177dccb788e80f8e128466be76ef5896eca69caaecab5bb3",
+      "published_packet_hash": "5c51b70e8fc6d6e8177dccb788e80f8e128466be76ef5896eca69caaecab5bb3",
+      "receipt_id": "7c6f3bc26b5148d890139d3c680b0eb3",
+      "request_hash": "98cac7a6c99e714cbc92809366ca141f97164ccf2b0c08416135c19dee01bcd3",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

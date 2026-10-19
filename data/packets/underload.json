@@ -1,0 +1,26 @@
+{
+  "id": "underload",
+  "term": "underload",
+  "source": "article-pmc13337876",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnbot.2026.1857548",
+  "revision": "2026; DOI 10.3389/fnbot.2026.1857548; article XML SHA-256 6d55fb25e9aa6e8b7d45a8fb5425ac124af8a157ad3cb6c9afcc0cd9878179fc",
+  "source_snapshot_sha256": "6d55fb25e9aa6e8b7d45a8fb5425ac124af8a157ad3cb6c9afcc0cd9878179fc",
+  "url": "https://doi.org/10.3389/fnbot.2026.1857548",
+  "text": "Driver fatigue constitutes a critical safety hazard in Level 2-3 (L2-3) conditionally automated vehicles, where the paradoxical demand for sustained supervisory vigilance despite minimal active engagement accelerates cognitive underload and impairs timely takeover readiness. Existing vision-based driver monitoring systems are constrained by fixed temporal analysis windows and binary classifiers that neither quantify prediction uncertainty nor adapt to the heterogeneity of real-world fatigue dynamics, resulting in elevated false alarm rates and poor cross-domain generalization. This study introduces a confidence-driven adaptive time window (CDATW) framework: a closed-loop neuro-computational pipeline that couples a lightweight MobileNetV3-CBAM-BiLSTM spatial–temporal encoder with a Monte Carlo Dropout uncertainty estimator to produce simultaneous fatigue probability and epistemic confidence outputs at each inference step. The confidence signal governs a window controller that contracts observation periods to 5–10 s under high certainty (confidence >0.85) for rapid warning, and extends them to 20–30 s under low certainty (confidence <0.60) to suppress spurious alarms—instantiating the feedback-driven adaptive sensing principle central to neurorobotic perception. The framework was validated on four heterogeneous public datasets (NTHU-DDD, YawDD, UTA-RLDD, and DROZY) under single-dataset, cross-dataset transfer, and mixed-dataset training protocols. Single-dataset accuracy ranged from 88.6 to 91.8% with AUC of 0.92–0.95, while the adaptive mechanism reduced false alarm rates by 35.2% relative to fixed 15-s baselines. The architecture sustains 38–45 FPS on an NVIDIA Jetson Xavier NX automotive embedded platform, and confidence calibration achieves an Expected Calibration Error of 0.078, with high-confidence predictions (>0.9) attaining 95.6% accuracy. These results demonstrate that uncertainty-aware adaptive temporal reasoning embedded in a deployable neurorobotic architecture constitutes a computationally efficient and practically viable strategy for driver state monitoring in L2-3 autonomous vehicles, with broader implications for closed-loop perception in safety-critical human-machine systems.",
+  "source_label": "Confidence-driven adaptive time window for real-time driver fatigue detection in Level 2-3 autonomous vehicles: a multi-dataset validation study",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2230
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231"
+}

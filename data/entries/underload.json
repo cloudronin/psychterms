@@ -1,0 +1,64 @@
+{
+  "id": "underload",
+  "term": "underload",
+  "definition": "Underload is a state of too little active mental engagement, such as when a person must keep watching for problems while having very little to do. In this condition, reduced stimulation can contribute to fatigue and weaken readiness to respond quickly when action is suddenly needed.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13337876"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13337876",
+      "revision": "2026; DOI 10.3389/fnbot.2026.1857548; article XML SHA-256 6d55fb25e9aa6e8b7d45a8fb5425ac124af8a157ad3cb6c9afcc0cd9878179fc",
+      "scope": "Source record 10.3389/fnbot.2026.1857548; pinned source text",
+      "locator": "https://doi.org/10.3389/fnbot.2026.1857548"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "909fa543aa3e4727963da9d5dc608674",
+    "request_hash": "ebda98e10f3fd0420a62179f9b3df2295f63b187997e3210de610ba3ea9c2ba5",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "d0ecfb4bac0607f5216e78c3c7c622a224b3317869215c123af53258263caa02",
+    "packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231"
+  },
+  "hash": "9fda57c3f3f4b9f5b42697f49abf2db5c7b986890fb5c9a309bbc8576fe7898e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the definition’s phrasing that underload is a “state of too little active mental engagement” (the packet only states that supervisory vigilance despite minimal active engagement “accelerates cognitive underload”).",
+        "The packet supports that underload “impairs timely takeover readiness,” but it does not explicitly support the claim that “reduced stimulation can contribute to fatigue and weaken readiness to respond quickly when action is suddenly needed.”",
+        "The examples in the definition (“must keep watching for problems while having very little to do,” and the specific fatigue/response wording) are not described in the provided packet as general features of underload."
+      ],
+      "definition_hash": "d0ecfb4bac0607f5216e78c3c7c622a224b3317869215c123af53258263caa02",
+      "packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231",
+      "published_packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231",
+      "receipt_id": "8d0b4974f7f041d4869f632fa3421155",
+      "request_hash": "c26e217f5b5aebb7c4f1eb84fd076be8681b90a00cdbb107011395d12e530ce4",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports minimal active engagement and reduced takeover readiness, but it does not clearly support the added causal claim that reduced stimulation contributes to fatigue in general.",
+        "The definition slightly broadens the source by presenting underload as a general psychology term rather than the article’s specific driver-monitoring context for cognitive underload."
+      ],
+      "definition_hash": "d0ecfb4bac0607f5216e78c3c7c622a224b3317869215c123af53258263caa02",
+      "packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231",
+      "published_packet_hash": "93409c22d943aa90d305a4bd05ab5d961c9b0fe138f7c32a50117227cfa9b231",
+      "receipt_id": "05ad3b6f05334d54aa9867faac44f7d2",
+      "request_hash": "6cbc5b905fbbb448dd0801cea0977c59d7c8f4ee4e224285a145d65506e7518f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

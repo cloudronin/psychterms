@@ -1,0 +1,63 @@
+{
+  "id": "mental-health-services",
+  "term": "mental health services",
+  "definition": "Mental health services are local services related to mental health care or treatment. The source only supports that they are services a person may search for in their area using an online treatment locator.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "nimh-page-8ec919dca10c05f7"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "nimh-page-8ec919dca10c05f7",
+      "revision": "HTML publication snapshot 2026-10-18; SHA-256 d7e3878cd110511a1cab8edfc2803470cfecef390d776a8858330f68a78c0fab",
+      "scope": "Source record https://www.nimh.nih.gov/health/publications/depression-in-women; pinned source text",
+      "locator": "https://www.nimh.nih.gov/health/publications/depression-in-women"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "48050a61c5ac1d0286507a2c7375716e3d9ff8849223e90e67ed6282d466acd7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f2950e2240f9429ea7b2555ea55ac997",
+    "request_hash": "f055049fae2d65d114eff9e86b8e154780f75af594480c5d0b0be35178fb6433",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "e126ecc7c93a45966d1afa702b2963f5d6124cd47b8537959cc5898c7aaa7f81",
+    "packet_hash": "48050a61c5ac1d0286507a2c7375716e3d9ff8849223e90e67ed6282d466acd7"
+  },
+  "hash": "458d4f7750ffb318bd0bbee20f940794a8dc17adbcfcf7de1865feea101112a1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that an online treatment locator can help people find “mental health services in your area.” It does not explicitly define mental health services as “local services related to mental health care or treatment.”",
+        "The definition contains two substantive claims; only the online-locator/find-in-your-area aspect is supported by the packet text."
+      ],
+      "definition_hash": "e126ecc7c93a45966d1afa702b2963f5d6124cd47b8537959cc5898c7aaa7f81",
+      "packet_hash": "48050a61c5ac1d0286507a2c7375716e3d9ff8849223e90e67ed6282d466acd7",
+      "published_packet_hash": "48050a61c5ac1d0286507a2c7375716e3d9ff8849223e90e67ed6282d466acd7",
+      "receipt_id": "9142ca131fa64e6789dbd6e8279fd088",
+      "request_hash": "567f9e47264874afe25f4c5df2010a56a7238c88e304a5eccf4c6226795e378f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only says an online treatment locator helps you find mental health services in your area; it does not support the added definition that these are local services related to mental health care or treatment.",
+        "The second sentence is meta-commentary about the source rather than part of the term’s definition, and it is not supported as a definitional claim."
+      ],
+      "definition_hash": "e126ecc7c93a45966d1afa702b2963f5d6124cd47b8537959cc5898c7aaa7f81",
+      "packet_hash": "48050a61c5ac1d0286507a2c7375716e3d9ff8849223e90e67ed6282d466acd7",
+      "published_packet_hash": "48050a61c5ac1d0286507a2c7375716e3d9ff8849223e90e67ed6282d466acd7",
+      "receipt_id": "563fe8dfd2744a878ab697f04c7b2562",
+      "request_hash": "2bece3a23f86e0675b8e78be3aac25e0dc33c29dd77e6c95e9ba92c115d00627",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

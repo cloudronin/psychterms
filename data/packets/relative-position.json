@@ -1,0 +1,26 @@
+{
+  "id": "relative-position",
+  "term": "relative position",
+  "source": "article-pmc11218980",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0298102",
+  "revision": "2024; DOI 10.1371/journal.pone.0298102; article XML SHA-256 61448cfcf600aa0f36cdab631a86ae5ea54b0cb6a11c06cdfbac1c09e480396e",
+  "source_snapshot_sha256": "61448cfcf600aa0f36cdab631a86ae5ea54b0cb6a11c06cdfbac1c09e480396e",
+  "url": "https://doi.org/10.1371/journal.pone.0298102",
+  "text": "Brain tumors pose a significant threat to health, and their early detection and classification are crucial. Currently, the diagnosis heavily relies on pathologists conducting time-consuming morphological examinations of brain images, leading to subjective outcomes and potential misdiagnoses. In response to these challenges, this study proposes an improved Vision Transformer-based algorithm for human brain tumor classification. To overcome the limitations of small existing datasets, Homomorphic Filtering, Channels Contrast Limited Adaptive Histogram Equalization, and Unsharp Masking techniques are applied to enrich dataset images, enhancing information and improving model generalization. Addressing the limitation of the Vision Transformer’s self-attention structure in capturing input token sequences, a novel relative position encoding method is employed to enhance the overall predictive capabilities of the model. Furthermore, the introduction of residual structures in the Multi-Layer Perceptron tackles convergence degradation during training, leading to faster convergence and enhanced algorithm accuracy. Finally, this study comprehensively analyzes the network model’s performance on validation sets in terms of accuracy, precision, and recall. Experimental results demonstrate that the proposed model achieves a classification accuracy of 91.36% on an augmented open-source brain tumor dataset, surpassing the original VIT-B/16 accuracy by 5.54%. This validates the effectiveness of the proposed approach in brain tumor classification, offering potential reference for clinical diagnoses by medical practitioners.",
+  "source_label": "Brain tumor classification in VIT-B/16 based on relative position encoding and residual MLP",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1631
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052"
+}

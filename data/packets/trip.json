@@ -1,0 +1,26 @@
+{
+  "id": "trip",
+  "term": "trip",
+  "source": "article-pmc12143568",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0325471",
+  "revision": "2025; DOI 10.1371/journal.pone.0325471; article XML SHA-256 92668778f58b885164e9fde39c6ba9f3c45cd45b022a3af6e05136dcdcd3d9f3",
+  "source_snapshot_sha256": "92668778f58b885164e9fde39c6ba9f3c45cd45b022a3af6e05136dcdcd3d9f3",
+  "url": "https://doi.org/10.1371/journal.pone.0325471",
+  "text": "Individual Trip Destination Prediction aims to accurately forecast an individual’s future travel destinations by analyzing their historical trajectory data, holding significant application value in intelligent navigation, personalized recommendations, and urban traffic management. However, challenges such as data sparsity, low quality, and complex spatiotemporal volatility pose substantial difficulties for prediction tasks. Existing studies exhibit notable limitations in insufficient integration of sparsity handling and prediction tasks, constrained modeling capability for local volatility, and inadequate exploration of fine-grained spatial dependencies, struggling to balance global patterns and local features in trajectory data. To address these issues, this paper proposes an individual trip destination prediction method that integrates multi-task learning, a multi-trajectory subsequence alignment attention mechanism, and a spatially consistent constrained cross-entropy loss function. Leveraging a multi-task learning framework(MTSA-SC), our approach collaboratively addresses trajectory recovery and prediction tasks, enhancing prediction accuracy while improving robustness to missing data. The multi-trajectory subsequence alignment attention mechanism incorporates sliding windows and convolutional operations to dynamically capture local volatility and diverse patterns in trajectories. The spatially consistent constrained loss function strengthens spatial feature learning through differential error penalty adjustments. Experimental results on public datasets from Shenzhen and Xiamen demonstrate recall rates of 0.722 and 0.6 under complete and sparse trajectory scenarios, respectively, outperforming state-of-the-art baselines by an average of 15.64%. This research provides robust technical support for intelligent travel recommendations and traffic management.",
+  "source_label": "MTSA-SC: A multi-task learning approach for individual trip destination prediction with multi-trajectory subsequence alignment and space-aware loss functions",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1889
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9"
+}

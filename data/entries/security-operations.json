@@ -1,0 +1,60 @@
+{
+  "id": "security-operations",
+  "term": "security operations",
+  "definition": "Security operations refers to the monitoring and handling of security-related event data in distributed information systems, such as alerts produced by intrusion detection sensors. In this context, it involves interpreting those alerts consistently so machine-learning tools can support reliable security decisions.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12747432"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12747432",
+      "revision": "2025; DOI 10.1371/journal.pone.0338488; article XML SHA-256 50ddc3ed1a689681634644448ff6b594b5df5944be6bf8672abc19eb42148137",
+      "scope": "Source record 10.1371/journal.pone.0338488; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0338488"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a410524c0bcd4c109313f60b0e4be738",
+    "request_hash": "4e2551748e2ce9428d7c81c7f88a51201ac429a6d4f358985a411ec9147534fc",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "157b89a10497c0e2d577ef94292610e82a2c038b8f8a0c1a70577782a9892cdf",
+    "packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312"
+  },
+  "hash": "996fb0dcc6181f62428f5922a69c861eaac7d68fb9f0af30c5398664af760f2c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "157b89a10497c0e2d577ef94292610e82a2c038b8f8a0c1a70577782a9892cdf",
+      "packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312",
+      "published_packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312",
+      "receipt_id": "ca576409714e4389a5cb0f2ac819101a",
+      "request_hash": "c884b4378ad80b769156419ad2cba8667a1491562334c67dda58a9fe399817ff",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the work is in security operations center (SOC) settings and involves classifying/in­terpreting structured IDS alert event records, but it does not explicitly support the phrase “monitoring and handling of security-related event data.”",
+        "Because “handling” (and the broader monitoring/handling framing) is not stated in the provided packet text, that substantive part of the definition is not defensible from the supplied source."
+      ],
+      "definition_hash": "157b89a10497c0e2d577ef94292610e82a2c038b8f8a0c1a70577782a9892cdf",
+      "packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312",
+      "published_packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312",
+      "receipt_id": "05ceca650b7e44f49cefa4a436bd4258",
+      "request_hash": "02fdfbd18b3e995d3c2ca3cbb65937ab2fe32f82ba042283f296262e1d49b110",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

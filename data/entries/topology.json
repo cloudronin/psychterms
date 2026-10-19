@@ -1,0 +1,63 @@
+{
+  "id": "topology",
+  "term": "topology",
+  "definition": "In this packet, topology means the pattern of connections among nodes in a network, including features such as how many links each node has. It is described as an important factor in how well the network performs.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13480605"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13480605",
+      "revision": "2026; DOI 10.1371/journal.pone.0355604; article XML SHA-256 453ad5087d34d62464ff388dd7ae1a9eef4b1d9c6acc85342fd61b073447ff4a",
+      "scope": "Source record 10.1371/journal.pone.0355604; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355604"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ede9fbabf9195cddc38e88e4d8e9516d4b84b92d7a8d3a16041dfa10d4c82ba4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b102c5b4804541d2beb01e03e49696c9",
+    "request_hash": "65104261df46f45ed89ed7eca7dcf0ee2b211361f5a4db7fe1930d28ce2aa006",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "e3425e8f5ec072b55ac79cc5b812d1cedfc21b3ee637f02431cbb4b65cffcd08",
+    "packet_hash": "ede9fbabf9195cddc38e88e4d8e9516d4b84b92d7a8d3a16041dfa10d4c82ba4"
+  },
+  "hash": "a10bcf62d458936d2e217337a870fce905e1bd8b71221da784b04f8e4447b03b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “topology” as “the pattern of connections among nodes in a network”; it only discusses “topology control” and uses node degree/communication range as performance-related quantities.",
+        "While the packet supports the idea that topology affects network performance and references node degree (how connected nodes are) as a target, the specific wording about “how many links each node has” as a defining feature is not directly stated as part of the packet’s definition of topology."
+      ],
+      "definition_hash": "e3425e8f5ec072b55ac79cc5b812d1cedfc21b3ee637f02431cbb4b65cffcd08",
+      "packet_hash": "ede9fbabf9195cddc38e88e4d8e9516d4b84b92d7a8d3a16041dfa10d4c82ba4",
+      "published_packet_hash": "ede9fbabf9195cddc38e88e4d8e9516d4b84b92d7a8d3a16041dfa10d4c82ba4",
+      "receipt_id": "33dcc87d018242998987634c2abc0f21",
+      "request_hash": "65a22dc426f3b42f78c575474f0d1d64b8e91edb7980f7e9093860c765174424",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports topology as an important factor affecting SDWSN performance, but it does not explicitly define topology as the pattern of connections among nodes or mention links per node in those terms.",
+        "The definition adds a broader network-structure gloss that is not stated in the packet; the packet only discusses node degree, communication range, and average degree in the context of a topology control algorithm."
+      ],
+      "definition_hash": "e3425e8f5ec072b55ac79cc5b812d1cedfc21b3ee637f02431cbb4b65cffcd08",
+      "packet_hash": "ede9fbabf9195cddc38e88e4d8e9516d4b84b92d7a8d3a16041dfa10d4c82ba4",
+      "published_packet_hash": "ede9fbabf9195cddc38e88e4d8e9516d4b84b92d7a8d3a16041dfa10d4c82ba4",
+      "receipt_id": "14b6e0c14f214645bee92331d14fa96e",
+      "request_hash": "db33a62c4309ea6c810a93a9b2ec2d241165cf1d9090af3553db87e198fd6baa",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

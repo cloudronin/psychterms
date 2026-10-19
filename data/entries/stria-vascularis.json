@@ -1,0 +1,60 @@
+{
+  "id": "stria-vascularis",
+  "term": "stria vascularis",
+  "definition": "The stria vascularis is a vascularized epithelial structure in the cochlea of the inner ear. In this source, its development is described as being delayed and its cells stretched in mice lacking functional pendrin, linking abnormal stria vascularis development to deafness.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3056798"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3056798",
+      "revision": "2011; DOI 10.1371/journal.pone.0017949; article XML SHA-256 6b6aa489bc76be9edf66b1c2886d5aca358be46eae2e41833989bc181a0b85de",
+      "scope": "Source record 10.1371/journal.pone.0017949; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0017949"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "586a3c984a39ec2086406b870628ee83c44cdc6cb1ba47d6b381f9dbbe924918",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ffd16d4f336640a38507890de075ac6c",
+    "request_hash": "35f1a7c0c7f37eb1150c8ddad5cd5da38d383cc15e92e181de7412b93111ba99",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "5e45f08dc79d3bd5655de03e9f1ebad19a0fb8b9d22cea7a5f3f7bb2b2352979",
+    "packet_hash": "586a3c984a39ec2086406b870628ee83c44cdc6cb1ba47d6b381f9dbbe924918"
+  },
+  "hash": "1ba67020d092b62aa6144bba7a8b28552945357ac16e9f8ae3e5c52d491ba524",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5e45f08dc79d3bd5655de03e9f1ebad19a0fb8b9d22cea7a5f3f7bb2b2352979",
+      "packet_hash": "586a3c984a39ec2086406b870628ee83c44cdc6cb1ba47d6b381f9dbbe924918",
+      "published_packet_hash": "586a3c984a39ec2086406b870628ee83c44cdc6cb1ba47d6b381f9dbbe924918",
+      "receipt_id": "5bec1c0f9a82442fbcc0180d1e746679",
+      "request_hash": "756a2855598b05fcb2122faf9d1cb5e9bf7dff8e7661d7f1a5072a8491f528ff",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the stria vascularis is “a vascularized epithelial structure in the cochlea,” but the packet excerpt does not explicitly define stria vascularis this way; it only reports that “structural development of stria vascularis, including vascularization, was retarded” (i.e., vascularization is mentioned, but not the full stated structural characterization as an epithelial cochlear structure).",
+        "The definition’s overall description is largely consistent with the packet (delayed/retarded development and epithelial cell stretching in Slc26a4 −/− mice, and possible linkage to deafness), but because the first substantive structural characterization is not directly supported by the provided text, the definition is not fully defensible."
+      ],
+      "definition_hash": "5e45f08dc79d3bd5655de03e9f1ebad19a0fb8b9d22cea7a5f3f7bb2b2352979",
+      "packet_hash": "586a3c984a39ec2086406b870628ee83c44cdc6cb1ba47d6b381f9dbbe924918",
+      "published_packet_hash": "586a3c984a39ec2086406b870628ee83c44cdc6cb1ba47d6b381f9dbbe924918",
+      "receipt_id": "1b0cb983bf074444900bd6ecee66fe96",
+      "request_hash": "a7c52baf405a588b29c8595b3033a9b08fe00dda7d2854e789de9a8abb5871cd",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

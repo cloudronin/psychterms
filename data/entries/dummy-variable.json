@@ -1,0 +1,63 @@
+{
+  "id": "dummy-variable",
+  "term": "dummy variable",
+  "definition": "A dummy variable is a simple coded variable used to show whether a condition is present or absent. In the source example, it was coded 1 when heat stress met a set threshold and 0 when it did not.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8516222"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8516222",
+      "revision": "2021; DOI 10.1371/journal.pone.0258216; article XML SHA-256 2d65018bdfa8100b217d564fa083b805dceaef85b33633c6971cffdf26178adf",
+      "scope": "Source record 10.1371/journal.pone.0258216; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0258216"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8cf3836aab8db1fe6b1a462308ab5677ce0dbe6f2298afa443fa7b89d0f0fd22",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3490c4076ecf41e9963520363714e756",
+    "request_hash": "7870c9cbf26a0a5618c3c34f43281e3e3465f0568339fff619c496eca948b258",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "c2dd485f60762a2c39c47835ca6f1711fb6c5b606ba263e637eef74e47d0ea72",
+    "packet_hash": "8cf3836aab8db1fe6b1a462308ab5677ce0dbe6f2298afa443fa7b89d0f0fd22"
+  },
+  "hash": "3baa396d1461ff9e01eb8ae5d06cb54d1c7b0814540640f1a026fbc45e9f8433",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is from a cattle genomics/heat-stress study, not a mental health source, so the requested field is not supported by the evidence.",
+        "The definition is a general statistics usage of 'dummy variable'; the packet supports only the specific binary coding example for heat stress, not a mental-health-specific sense."
+      ],
+      "definition_hash": "c2dd485f60762a2c39c47835ca6f1711fb6c5b606ba263e637eef74e47d0ea72",
+      "packet_hash": "8cf3836aab8db1fe6b1a462308ab5677ce0dbe6f2298afa443fa7b89d0f0fd22",
+      "published_packet_hash": "8cf3836aab8db1fe6b1a462308ab5677ce0dbe6f2298afa443fa7b89d0f0fd22",
+      "receipt_id": "a5523882625249609523e4a4d86c0414",
+      "request_hash": "19428c8e2f721cfb82588736dc4e3c3ac9e5db0f76893c482cb328979c0a0be7",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“A dummy variable is a simple coded variable used to show whether a condition is present or absent.”) is not directly stated in the packet; the packet only describes one specific dummy-variable coding for heat stress (code 1 vs 0).",
+        "The packet’s example is about heat stress in Holstein cattle and does not provide mental-health context for the general definition, so the definition is only partially grounded in the supplied source."
+      ],
+      "definition_hash": "c2dd485f60762a2c39c47835ca6f1711fb6c5b606ba263e637eef74e47d0ea72",
+      "packet_hash": "8cf3836aab8db1fe6b1a462308ab5677ce0dbe6f2298afa443fa7b89d0f0fd22",
+      "published_packet_hash": "8cf3836aab8db1fe6b1a462308ab5677ce0dbe6f2298afa443fa7b89d0f0fd22",
+      "receipt_id": "9fa53bb901ee4fc1b5f9d00a7e5c800c",
+      "request_hash": "a5949930059871ff0824414bf0b3db83d56dbbb1556e496a99715f823f42de8e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

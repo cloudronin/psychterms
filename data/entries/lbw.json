@@ -1,0 +1,65 @@
+{
+  "id": "lbw",
+  "term": "LBW",
+  "definition": "LBW stands for low birthweight, meaning a baby is born weighing less than expected. In the source, it is described as an important public health problem that can be reduced through combined health, nutrition, psychosocial, and sanitation-related support.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12912596"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12912596",
+      "revision": "2026; DOI 10.1371/journal.pone.0341048; article XML SHA-256 ba76a560250ecd757ff75c204993319ea3ebddb4074291d63f22c1c77108db0a",
+      "scope": "Source record 10.1371/journal.pone.0341048; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341048"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "de09252e8e4795ca155ac72eda8175eb2dbc796aee92b754c4061397aae031de",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "01361346403a4370b5a93d6a557efa02",
+    "request_hash": "ed665ad27d0a8519dcd74b9e136702df62a3dcfa476d030da2c8c6862fb5c9d1",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "e6bf0138a86aa1d5d6d85c958761af44b06fdaf090cdae2dce77141ff9885cae",
+    "packet_hash": "de09252e8e4795ca155ac72eda8175eb2dbc796aee92b754c4061397aae031de"
+  },
+  "hash": "b0545dec291ccaaff7306b2c5b31f2475600256066d6add0677063fa565da997",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “LBW” as “a baby is born weighing less than expected,” nor does it provide a threshold or equivalent wording for that meaning.",
+        "The definition states that LBW “can be reduced” through “combined health, nutrition, psychosocial, and sanitation-related support,” which is broadly consistent with the packet’s claim that an integrated package including WaSH reduced LBW, but this does not compensate for the unsupported definition/meaning sentence.",
+        "The provided field is “cognition,” while the packet describes maternal undernutrition/anaemia/low birthweight as public health challenges and an intervention study protocol; this mismatch is not supported by the packet’s content."
+      ],
+      "definition_hash": "e6bf0138a86aa1d5d6d85c958761af44b06fdaf090cdae2dce77141ff9885cae",
+      "packet_hash": "de09252e8e4795ca155ac72eda8175eb2dbc796aee92b754c4061397aae031de",
+      "published_packet_hash": "de09252e8e4795ca155ac72eda8175eb2dbc796aee92b754c4061397aae031de",
+      "receipt_id": "e6e0cfdd5c364ef097de2059c8cec56e",
+      "request_hash": "fa37a5f8d9193fd6440214193cca67f04bf39aa16c5ca08bdd6be4e906f61404",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: the source is a public-health/obstetric article about low birthweight, not a cognition term.",
+        "The definition adds an unsourced gloss (“a baby is born weighing less than expected”) rather than staying within the packet’s wording; the packet only supports the term low birthweight and that an integrated intervention package substantially reduced LBW.",
+        "The phrasing “combined health, nutrition, psychosocial, and sanitation-related support” is a paraphrase of the packet’s “health, nutrition, psychosocial and water, sanitation and hygiene (WaSH) interventions”; the source does not establish this as the definition of the acronym."
+      ],
+      "definition_hash": "e6bf0138a86aa1d5d6d85c958761af44b06fdaf090cdae2dce77141ff9885cae",
+      "packet_hash": "de09252e8e4795ca155ac72eda8175eb2dbc796aee92b754c4061397aae031de",
+      "published_packet_hash": "de09252e8e4795ca155ac72eda8175eb2dbc796aee92b754c4061397aae031de",
+      "receipt_id": "baeb238ed11c474f9b4182e3aef1ed8a",
+      "request_hash": "39401a05e362c5a31a1afd758f703d853236f8368c6519c7c6b1394a6fb9372c",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

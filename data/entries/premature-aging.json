@@ -1,0 +1,61 @@
+{
+  "id": "premature-aging",
+  "term": "premature aging",
+  "definition": "Premature aging, in this context, means signs that the immune system may be showing age-related decline earlier than expected. The packet describes it as a possible pattern of reduced immune function in some people with panic disorder, suggested by biological markers consistent with impaired thymus and regulatory T-cell function.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4928917"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4928917",
+      "revision": "2016; DOI 10.1371/journal.pone.0157930; article XML SHA-256 060735bb65555749be13a0eb1a0d6985410ebac2c5213aad23354c7c0534216a",
+      "scope": "Source record 10.1371/journal.pone.0157930; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0157930"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0066d11f9f32365fbe91285848b7957406b0e755545f266f02f17159b5cd3982",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "067335aabbb24bd990af84c5fb06973a",
+    "request_hash": "7a59e3e6b5aa05b6a10910e22803d8276dd9a8dcd383f83131a7870c66b7361a",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "426dfc0a0afab0eec7616429fddfe4f47b9d884ce6f9d7db583a0d93f111ad48",
+    "packet_hash": "0066d11f9f32365fbe91285848b7957406b0e755545f266f02f17159b5cd3982"
+  },
+  "hash": "de5d378b551d1622057fc3a8b2905ea0edc796e1dc00a0c2f97389909115034d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "426dfc0a0afab0eec7616429fddfe4f47b9d884ce6f9d7db583a0d93f111ad48",
+      "packet_hash": "0066d11f9f32365fbe91285848b7957406b0e755545f266f02f17159b5cd3982",
+      "published_packet_hash": "0066d11f9f32365fbe91285848b7957406b0e755545f266f02f17159b5cd3982",
+      "receipt_id": "add6240d281848159e182ee022855dd4",
+      "request_hash": "696203f7d8128e472a5d1f3022ea42a54ecda61fd9abcc6ab4688848fafde082",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “age-related decline earlier than expected” is not directly supported in the packet text (the packet tests for “premature aging” but does not describe it as “earlier than expected”).",
+        "The definition broadens “biological markers consistent with impaired thymus and regulatory T-cell function” into a broader claim of “signs that the immune system may be showing age-related decline,” while the packet specifically reports reduced TRECs and FOXP3 promoter hypermethylation (and discusses these as potentially reflecting impaired thymus and immunosuppressive Treg function).",
+        "The definition states the pattern is “in some people with panic disorder,” but the packet’s significant findings are described for “female (but not male) patients,” so the “some people” wording is defensible only if kept at that level of specificity; as written it is less precise than the packet supports."
+      ],
+      "definition_hash": "426dfc0a0afab0eec7616429fddfe4f47b9d884ce6f9d7db583a0d93f111ad48",
+      "packet_hash": "0066d11f9f32365fbe91285848b7957406b0e755545f266f02f17159b5cd3982",
+      "published_packet_hash": "0066d11f9f32365fbe91285848b7957406b0e755545f266f02f17159b5cd3982",
+      "receipt_id": "2b6bc30217bd48599fc84611d459632f",
+      "request_hash": "b2823f5cf8b768a7af4a7e817a0a095d3c252237ede2d1688ae02b4356cedfea",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "spatial-coherence",
+  "term": "spatial coherence",
+  "source": "article-pmc13436752",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355190",
+  "revision": "2026; DOI 10.1371/journal.pone.0355190; article XML SHA-256 8337c699f304ca290a3a26b55ff69837ad5306fac39a45480691b4111d31e911",
+  "source_snapshot_sha256": "8337c699f304ca290a3a26b55ff69837ad5306fac39a45480691b4111d31e911",
+  "url": "https://doi.org/10.1371/journal.pone.0355190",
+  "text": "Wideband oscillations in converter-dominated power systems exhibit complex multi-band characteristics, strong nonstationarity, and weak spatial coherence, posing significant challenges to conventional oscillation source localization methods that are primarily designed for narrowband low-frequency scenarios. In particular, medium- and high-frequency components tend to be highly localized and rapidly attenuated, making global-consistency-based approaches less effective. To address these challenges, this paper proposes a novel spatiotemporal graph learning framework, termed LCGS-Net (Local-Contrast Global-Smooth Network), for wideband oscillation source localization. The proposed method introduces a dual-branch representation mechanism that explicitly disentangles globally smooth propagation patterns from locally contrastive high-frequency perturbations. In addition, a hierarchical channel interaction module is developed to capture the coupling relationships among multi-channel measurements, enabling more expressive feature representations. An adaptive fusion strategy is further employed to dynamically balance local and global information. Simulation studies on IEEE benchmark systems demonstrate that the proposed method outperforms several representative temporal and graph-enhanced baseline models. In particular, LCGS-Net shows improved performance under high-frequency oscillation scenarios, where conventional smoothing-oriented graph aggregation methods may suppress localized source-related features. Additional experiments on the IEEE 39-bus system provide an initial validation of the scalability of the proposed framework. The results indicate that LCGS-Net can effectively capture local contrastive spatial characteristics of wideband oscillations in benchmark systems, while further validation on realistic large-scale converter-dominated grids remains necessary.",
+  "source_label": "A measurement-driven graph learning framework for Wideband oscillation localization in power systems",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1891
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "86910a71cc09fb484a3914bf0634260a84da543ecaf448069a72876dcad37cab"
+}

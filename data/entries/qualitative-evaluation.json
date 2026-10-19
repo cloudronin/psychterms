@@ -1,0 +1,61 @@
+{
+  "id": "qualitative-evaluation",
+  "term": "qualitative evaluation",
+  "definition": "Qualitative evaluation is an assessment based on the observed pattern or variability of data rather than relying only on a single numerical average. In the source study, it meant judging whether dynamic recordings showed high or low variability to capture meaningful differences that the mean value alone could miss.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13577391"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13577391",
+      "revision": "2026; DOI 10.1371/journal.pone.0357020; article XML SHA-256 113ad249c997f5bc160b074d74617257e72ce8d0caa770b8589df9770eff63ed",
+      "scope": "Source record 10.1371/journal.pone.0357020; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0357020"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "93fc2cd56706f264a1106b1b0b78fd8545e6396ae9858455c60edc6c1e070783",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cc30ba3671d44c38b794373c009662b0",
+    "request_hash": "128399cb62bd6f916e207cdbe2a36c9d62c8c0ba866a5cbe6f8128c01ee749cf",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "07685da0dac553fcbc111b6c863885563439fbc8f35b4bb3e26454f2a55ac259",
+    "packet_hash": "93fc2cd56706f264a1106b1b0b78fd8545e6396ae9858455c60edc6c1e070783"
+  },
+  "hash": "24875f012fe7deed359257e9595847fd31e43f3618a67b31b5a04c93949574e6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a study-specific classification of LLT trace variability, but it does not support the broad, general definition of “qualitative evaluation” as an assessment based on observed patterns or variability of data in general.",
+        "The definition frames the term as a general methodological concept, whereas the source only shows one retrospective study using high- vs low-variability labels for dynamic recordings; that scope is narrower than the wording implies.",
+        "The requested learning-field sense is not directly supported by the packet, which is about ophthalmology and meibomian gland dysfunction rather than learning or educational evaluation."
+      ],
+      "definition_hash": "07685da0dac553fcbc111b6c863885563439fbc8f35b4bb3e26454f2a55ac259",
+      "packet_hash": "93fc2cd56706f264a1106b1b0b78fd8545e6396ae9858455c60edc6c1e070783",
+      "published_packet_hash": "93fc2cd56706f264a1106b1b0b78fd8545e6396ae9858455c60edc6c1e070783",
+      "receipt_id": "16f8616b0ca34e29a04392090cea98f3",
+      "request_hash": "9dbab2a6b90365af936543236fce9580ca7d5d3eedea08282ef2a233ef82b5d7",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "07685da0dac553fcbc111b6c863885563439fbc8f35b4bb3e26454f2a55ac259",
+      "packet_hash": "93fc2cd56706f264a1106b1b0b78fd8545e6396ae9858455c60edc6c1e070783",
+      "published_packet_hash": "93fc2cd56706f264a1106b1b0b78fd8545e6396ae9858455c60edc6c1e070783",
+      "receipt_id": "b5fff2866866445e9e3c8dbc2455b522",
+      "request_hash": "3e0503fcb3b05fc6ddb6ccd21daf87a4b8f71cc7cdf9e570c45925ce6b0290a6",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ecg",
+  "term": "ECG",
+  "source": "article-pmc13419237",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354834",
+  "revision": "2026; DOI 10.1371/journal.pone.0354834; article XML SHA-256 7612e92f9b59ac694233db402fd311d430c661e2195008cdd61f860cc5598882",
+  "source_snapshot_sha256": "7612e92f9b59ac694233db402fd311d430c661e2195008cdd61f860cc5598882",
+  "url": "https://doi.org/10.1371/journal.pone.0354834",
+  "text": "The electrocardiogram (ECG) is an essential non-invasive tool for detecting cardiac abnormalities; however, accurate interpretation often requires specialized expertise that may be unavailable in resource-limited clinical settings. While deep learning models have demonstrated high classification performance, many existing architectures remain computationally intensive and lack assessments of predictive reliability, hindering their deployment in clinical decision support systems. In this study, we propose a lightweight hybrid framework integrating Convolutional Neural Networks (CNN) and Fast Fourier Transform (FFT) components. This architecture combines time-domain morphological representations learned from raw ECG signals with physiologically relevant spectral features to enable accurate and efficient classification. Unlike previous approaches, this work emphasizes reliable model evaluation by incorporating probability calibration and a rigorous patient-wise validation protocol. The proposed method was evaluated on the publicly available PTB-XL dataset using the official 10-fold cross-validation protocol for both binary and five-class multi-label classification. In addition to conventional discrimination metrics, model reliability was assessed using Expected Calibration Error (ECE). The model achieved an accuracy of 92.42% and an AUC of 97.8% for binary classification, alongside a macro-AUC of 92.46% for five- class multi-label classification. Calibration analysis demonstrated well-calibrated probability estimates with low ECE values. Despite its competitive performance, the architecture is highly efficient, containing only 87K parameters and 0.26 GFLOPs. These findings highlight the potential of lightweight hybrid architectures combined with calibration-aware evaluation to support reliable AI-assisted ECG diagnostics in resource-constrained healthcare settings.",
+  "source_label": "A lightweight hybrid framework integrating convolutional neural networks and fast Fourier transform for reliable and calibrated ECG-based cardiac abnormality detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1894
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "0ac5e679319c7941f5a267a223d6529e05bf9740a7c71a072a12e1524a959132"
+}

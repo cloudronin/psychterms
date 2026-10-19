@@ -1,0 +1,62 @@
+{
+  "id": "hlm",
+  "term": "HLM",
+  "definition": "HLM stands for Hierarchical Linear Modeling, a statistical research method used to examine factors operating at more than one level at the same time, such as within-person and between-person influences. In this context, it helps analyze cross-level relationships in questionnaire data.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13143620"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13143620",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1742931; article XML SHA-256 e0061626b5548b64ff7935207be3621a4d939f36e6d536f15b0be4863c57a343",
+      "scope": "Source record 10.3389/fpsyg.2026.1742931; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1742931"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f8eeb140530954a1fde089e8db56e68a93b800d4966392fb2018b2326aeb327a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bcb322947b8d447197b2293497a71cf1",
+    "request_hash": "9940c0898818c3cfe1425bb10c2f6ea0b5cf3d7f4d9102c01f81e47c83216f3c",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "044d8c4245a10dd3b22b3e45d1a59a59aba87c3eeab219a6ccc900025f4689f5",
+    "packet_hash": "f8eeb140530954a1fde089e8db56e68a93b800d4966392fb2018b2326aeb327a"
+  },
+  "hash": "0d8ed66bfb5f1a7747c02c89f2c2f14dfcc46b88561c6e21881e01cf195afb4b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "044d8c4245a10dd3b22b3e45d1a59a59aba87c3eeab219a6ccc900025f4689f5",
+      "packet_hash": "f8eeb140530954a1fde089e8db56e68a93b800d4966392fb2018b2326aeb327a",
+      "published_packet_hash": "f8eeb140530954a1fde089e8db56e68a93b800d4966392fb2018b2326aeb327a",
+      "receipt_id": "c5f012c87dd14dd1961c516078ef2964",
+      "request_hash": "c958b00928ac0dff4f765eb97d61bc2f96e99297a820af061d8f65db081e4420",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define HLM as a “statistical research method,” only that the study “employs Hierarchical Linear Modeling (HLM) as the research tool.”",
+        "The definition claims HLM examines “factors operating at more than one level at the same time”; the packet mentions a “cross-level design” but does not state simultaneous operation “at the same time.”",
+        "The definition says it helps analyze “cross-level relationships in questionnaire data”; the packet supports use in a questionnaire-based cross-level design, but it does not explicitly describe HLM as analyzing “cross-level relationships.”",
+        "The definition uses the phrasing “within-person and between-person influences,” while the packet specifies “within-individual and between-individual levels,” which is not the same wording."
+      ],
+      "definition_hash": "044d8c4245a10dd3b22b3e45d1a59a59aba87c3eeab219a6ccc900025f4689f5",
+      "packet_hash": "f8eeb140530954a1fde089e8db56e68a93b800d4966392fb2018b2326aeb327a",
+      "published_packet_hash": "f8eeb140530954a1fde089e8db56e68a93b800d4966392fb2018b2326aeb327a",
+      "receipt_id": "35132c7cf96b42e9a7f3155d49c32b3f",
+      "request_hash": "3bb53855747ebc1cf3aa8c3e17a6d189950f280d1196626bbc8a9f1800cabb9b",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

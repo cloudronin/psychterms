@@ -1,0 +1,61 @@
+{
+  "id": "sampling-variability",
+  "term": "sampling variability",
+  "definition": "Sampling variability is the variation in results or parameter estimates that occurs because they are calculated from a particular sample of data. In this packet, it is described as a source of impact on how robust and efficient statistical estimates are.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9154196"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9154196",
+      "revision": "2022; DOI 10.1371/journal.pone.0268602; article XML SHA-256 cb50bb8a90e48b96a915c1c6b55dbf88629b9a0cfd1edbf0599dcd9b65e6472a",
+      "scope": "Source record 10.1371/journal.pone.0268602; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0268602"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4877a3123aab4b05ab113824b766638d",
+    "request_hash": "d5fc874d31dade31e6d7c29d587f41dfcd80b9a23b237b76320ae84fe8ca179b",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "1f3d61334b59c6364ccd05224a42002c50f8b6145bf8a5377a152ecf5073eb27",
+    "packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04"
+  },
+  "hash": "bcbc169887d6646393ce307bd520265da8c613ffeec0eebb69cea90f2a34062e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1f3d61334b59c6364ccd05224a42002c50f8b6145bf8a5377a152ecf5073eb27",
+      "packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04",
+      "published_packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04",
+      "receipt_id": "b09edb968c10421194b69e660f02c7c8",
+      "request_hash": "3c5743f022b9ed94db07f325c236a254dc522f9234435d577f991cd9f39dd741",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“variation in results or parameter estimates … calculated from a particular sample of data”) is a general/statistical characterization of sampling variability that is not explicitly stated in the provided packet text.",
+        "The packet only mentions that the probability-weighted moments (PWM) is “less impacted by sampling variability” and is “more efficient at obtaining robust parameter estimates,” but it does not provide a clear or complete definition of “sampling variability.”",
+        "The requested term sense/field “cognition” is not substantiated by the packet, which discusses entropy theory, probability-weighted moments, and parameter estimation in relation to hydrological/environmental sciences rather than cognition."
+      ],
+      "definition_hash": "1f3d61334b59c6364ccd05224a42002c50f8b6145bf8a5377a152ecf5073eb27",
+      "packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04",
+      "published_packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04",
+      "receipt_id": "dbe5b5aa5c02405aab8ca62e1062aafc",
+      "request_hash": "30f3049a00b92e154015f398108a07928b51b81c6788ac7c40f8706ac2f6ea83",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

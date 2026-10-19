@@ -1,0 +1,59 @@
+{
+  "id": "triage",
+  "term": "triage",
+  "definition": "Triage is the process of sorting referral information so a person is directed into the most appropriate care pathway, such as acute, urgent, or specialist care. In this context, it is a decision step that helps set priority and route cases for further care.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13446580"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13446580",
+      "revision": "2026; DOI 10.1371/journal.pone.0355476; article XML SHA-256 c4f594205ac6bc770c8389e27072b64739d83a572076fc9e857858b927c1f3bc",
+      "scope": "Source record 10.1371/journal.pone.0355476; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355476"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7fd1e45bb5f14784b4dcbbdd55e29d32",
+    "request_hash": "2b3ef981d371fe032686edbd2688f832125130e5e37331e3bb18ce218506ae07",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "abbbde4ab92cd0cd38acf9210dc147d639a414fed55eaa0a358b58722c4d7bd0",
+    "packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b"
+  },
+  "hash": "52a6cde98dcb5b23abcf32f4046da934027c94a7ed84fd8f9ccf4556c74ffe61",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "abbbde4ab92cd0cd38acf9210dc147d639a414fed55eaa0a358b58722c4d7bd0",
+      "packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b",
+      "published_packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b",
+      "receipt_id": "c5d9e9f0f44c4e9ea5e2843c89e69e1e",
+      "request_hash": "12a23477ce6408bc174b78d0875794655fa6e15ad5771fe703727334349dc6a2",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims triage directs a person into the “most appropriate” care pathway, but the packet only states that referral letters direct patients into acute/urgent/specialist pathways; it does not explicitly support the “most appropriate” aspect."
+      ],
+      "definition_hash": "abbbde4ab92cd0cd38acf9210dc147d639a414fed55eaa0a358b58722c4d7bd0",
+      "packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b",
+      "published_packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b",
+      "receipt_id": "d70df5c692a0460fa307a44e18bc3e80",
+      "request_hash": "b5910444f32d441cdc7b223aeeddbc2b110cf3c2e39fd680daae2182b55d6fd2",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

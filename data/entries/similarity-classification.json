@@ -1,0 +1,63 @@
+{
+  "id": "similarity-classification",
+  "term": "similarity classification",
+  "definition": "Similarity classification is a way of organizing sequences or other data by how alike they are. In the source, it refers to using a dissimilarity measure together with multidimensional scaling to distinguish aero-engine time series based on their pattern similarities and differences.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13215508"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13215508",
+      "revision": "2026; DOI 10.1371/journal.pone.0348356; article XML SHA-256 accdd3965881e552a893b5cae1d6a702295d1dc2874636ab4783547c465e2775",
+      "scope": "Source record 10.1371/journal.pone.0348356; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348356"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4ecc601b081c267a9f0a07ab96f4c05c24fa01841a133fc655685c5aaee9e2b7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0033f6191def460780022c402d287f11",
+    "request_hash": "30bf439a66dcafed9b4e3af6f8e1429ba416debc4d19d0bd3d6b89ab10b302fb",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "eff5f95099c73b2b0cb46d5edeeac9f5155d9557608ef47b15f871e3ed9fae08",
+    "packet_hash": "4ecc601b081c267a9f0a07ab96f4c05c24fa01841a133fc655685c5aaee9e2b7"
+  },
+  "hash": "0311b325e3431886a996268249f316e555aae887713fb613ebf60832ed9aa1fa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening generalization that similarity classification is a way of organizing sequences or other data by how alike they are is not stated in the source packet.",
+        "The source only supports a specific application: combining TDDP with multidimensional scaling for similarity classification of aero-engine simulation time series; it does not support the broader, generalized definition or the added explanation about distinguishing data by pattern similarities and differences."
+      ],
+      "definition_hash": "eff5f95099c73b2b0cb46d5edeeac9f5155d9557608ef47b15f871e3ed9fae08",
+      "packet_hash": "4ecc601b081c267a9f0a07ab96f4c05c24fa01841a133fc655685c5aaee9e2b7",
+      "published_packet_hash": "4ecc601b081c267a9f0a07ab96f4c05c24fa01841a133fc655685c5aaee9e2b7",
+      "receipt_id": "e30ca5a2c57e4ec68c72bb4354f00336",
+      "request_hash": "692548f4c2bf3a0fbd390ccc4a2b82e57ea8eebabe0e3f84b09ad229bd5cb479",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state the general characterization that similarity classification is “a way of organizing sequences … by how alike they are”; it only mentions that a specific method (TDDP + multidimensional scaling) is used for “similarity classification” of aero-engine simulation time series.",
+        "While the packet supports that a dissimilarity measure (TDDP) and multidimensional scaling are combined for similarity classification, the definition also adds interpretive wording about “pattern similarities and differences” and a broader organizing/general-purpose description that is not explicitly supported in the provided text."
+      ],
+      "definition_hash": "eff5f95099c73b2b0cb46d5edeeac9f5155d9557608ef47b15f871e3ed9fae08",
+      "packet_hash": "4ecc601b081c267a9f0a07ab96f4c05c24fa01841a133fc655685c5aaee9e2b7",
+      "published_packet_hash": "4ecc601b081c267a9f0a07ab96f4c05c24fa01841a133fc655685c5aaee9e2b7",
+      "receipt_id": "6a70929056264c2e8962bebcf4704642",
+      "request_hash": "adbe8c7e5a728e4ffa77e4970c567c4aa3fead4537ad55d1f9486065a531cb76",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

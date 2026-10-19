@@ -1,0 +1,63 @@
+{
+  "id": "superconducting-quantum-interference-device",
+  "term": "superconducting quantum interference device",
+  "definition": "A superconducting quantum interference device is a highly sensitive magnetic sensor used in standard magnetoencephalography to detect the magnetic fields produced by brain activity. In this context, SQUID gradiometers and magnetometers require cryogenic cooling and are the established comparison system for newer optically pumped magnetometers.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8769297"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8769297",
+      "revision": "2022; DOI 10.1371/journal.pone.0262669; article XML SHA-256 4cc21e7b1d2f633434cf2da8257d7f8b7c6cf774aaca2e09e65081d88daff41c",
+      "scope": "Source record 10.1371/journal.pone.0262669; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0262669"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "280e050b82544b6687e2a15ad67ebcfb",
+    "request_hash": "12d3c737cd18cdd363436b890d7e8803e99b57892da9162b942eef858db2f492",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "46512daa2b7bc9a6f770c65ba5118dee9ac3ec4ec65235076cee7e7a8bd101ef",
+    "packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5"
+  },
+  "hash": "bdfdece19505fe2bbb557aadd31a7f9c9326c0b4e755ce5657b0ac61cdc99e44",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that SQUID gradiometers and magnetometers are used in current standard MEG and that they require cryogenics, but it does not support calling them an established comparison system for newer optically pumped magnetometers.",
+        "The definition adds the functional claim that SQUIDs detect magnetic fields produced by brain activity; the packet only says they are used in MEG and does not state this general explanation in that form."
+      ],
+      "definition_hash": "46512daa2b7bc9a6f770c65ba5118dee9ac3ec4ec65235076cee7e7a8bd101ef",
+      "packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5",
+      "published_packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5",
+      "receipt_id": "768c23af5e7a4b5084823520bbd9bbee",
+      "request_hash": "d5df273ec0aecb6b699b2e74c58983aaee69de682a2aecc622e3b2008fc7ccfa",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The claim that SQUID devices detect “magnetic fields produced by brain activity” is not stated explicitly in the packet; it only references magnetoencephalography measurements of auditory evoked fields without directly describing them as “produced by brain activity.”",
+        "The rest of the definition is largely supported, but the unsupported “produced by brain activity” component means the definition is not fully defensible against the provided packet."
+      ],
+      "definition_hash": "46512daa2b7bc9a6f770c65ba5118dee9ac3ec4ec65235076cee7e7a8bd101ef",
+      "packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5",
+      "published_packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5",
+      "receipt_id": "a55c091661a24e51a5f28563798709ef",
+      "request_hash": "71edbfd9bb1324c02f5a61e6b0c3982802cb2a6c7326f53f8ec54d711d572348",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

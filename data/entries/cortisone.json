@@ -1,0 +1,61 @@
+{
+  "id": "cortisone",
+  "term": "cortisone",
+  "definition": "Cortisone is a hormone produced when cortisol is metabolized during the body’s stress response. It can be converted back into cortisol, and its level helps reflect how the body regulates glucocorticoid activity and processes stress-related hormone signals.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13111363"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13111363",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1720146; article XML SHA-256 f61a236675052846df30f8dadfe4c55343b12519f44cad6556789c772626b2f4",
+      "scope": "Source record 10.3389/fpsyg.2026.1720146; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1720146"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ff13346d29ab4af087c7ec9f6976711f",
+    "request_hash": "d0ea1dcc11457179cc775b63b5577bf7e32ba423b5e98ef8706bd9873b6dad64",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "bedfe0dde33ff7f758ceb2dc330944a8a71620db893d6cd7a1a026abde1c025f",
+    "packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b"
+  },
+  "hash": "88fb89ceed8e725037bcc7791f4a232bc98eccfa08f4d4f24f21972e07df5561",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bedfe0dde33ff7f758ceb2dc330944a8a71620db893d6cd7a1a026abde1c025f",
+      "packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b",
+      "published_packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b",
+      "receipt_id": "ea8a86d05e6040bc8eb66591c9ce4433",
+      "request_hash": "dabdf155003488509cdf832e82f5cc5a908e7e2cbd6e0a665cb07415b7bb3ba0",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports cortisone as a cortisol metabolite/interconversion product, but it does not explicitly support calling cortisone a hormone in this definition.",
+        "“Processes stress-related hormone signals” is not supported by the packet; it only says cortisone concentration reflects cortisol metabolism and interconversion as a marker of glucocorticoid regulation/internal activity.",
+        "The wording generalizes beyond the source by adding broader stress-signal processing language that is not stated in the packet."
+      ],
+      "definition_hash": "bedfe0dde33ff7f758ceb2dc330944a8a71620db893d6cd7a1a026abde1c025f",
+      "packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b",
+      "published_packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b",
+      "receipt_id": "1d77621f9b604736b0d65be284c1a07a",
+      "request_hash": "edec86948310e803373e0a53612acd8d3117b6eb9fb7ec56398d729fbc3fd531",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "brute-force",
+  "term": "brute force",
+  "source": "article-pmc4014471",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0092409",
+  "revision": "2014; DOI 10.1371/journal.pone.0092409; article XML SHA-256 90525b9c35f86528c1e5cad5bd8de8635865adcaace15f28b57015803d1dde93",
+  "source_snapshot_sha256": "90525b9c35f86528c1e5cad5bd8de8635865adcaace15f28b57015803d1dde93",
+  "url": "https://doi.org/10.1371/journal.pone.0092409",
+  "text": "In this paper, we describe a new brute force algorithm for building the -Nearest Neighbor Graph ( k -NNG). The k -NNG algorithm has many applications in areas such as machine learning, bio-informatics, and clustering analysis. While there are very efficient algorithms for data of low dimensions, for high dimensional data the brute force search is the best algorithm. There are two main parts to the algorithm: the first part is finding the distances between the input vectors, which may be formulated as a matrix multiplication problem; the second is the selection of the k -NNs for each of the query vectors. For the second part, we describe a novel graphics processing unit (GPU)-based multi-select algorithm based on quick sort. Our optimization makes clever use of warp voting functions available on the latest GPUs along with user-controlled cache. Benchmarks show significant improvement over state-of-the-art implementations of the k -NN search on GPUs.",
+  "source_label": "Fast k -NNG Construction with GPU-Based Quick Multi-Select",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    962
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35"
+}

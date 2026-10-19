@@ -1,0 +1,63 @@
+{
+  "id": "negative-affect",
+  "term": "negative affect",
+  "definition": "Negative affect is a more negative feeling state. In this source, it is described as something that may increase after exposure to negative news and may then increase attention to food and alcohol cues.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13132201"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13132201",
+      "revision": "2026; DOI 10.1371/journal.pone.0342572; article XML SHA-256 766b22eaf0db7a53f63fcb27b62173f80d9994792c332b6fc13e5b7abd45e700",
+      "scope": "Source record 10.1371/journal.pone.0342572; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342572"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "54cd69158d5e0b12602165461418db91943a057bb10b39d0ffbebe47b09dc6e9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e533f6d282c74a2686663f1e8d8c88a1",
+    "request_hash": "574efae7ca345cf141499352c6db661c6c4e9df98ed421c804c9b170d2b412f7",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "efe5361d6e4cc7efaa134eb2569fe0fb6f117dfc36debe400e25889d445e5e20",
+    "packet_hash": "54cd69158d5e0b12602165461418db91943a057bb10b39d0ffbebe47b09dc6e9"
+  },
+  "hash": "a7389f843c8df206f7ebc8317d8a21cee4bdffa44c73630a3f73e39b32adb5e1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define negative affect as “a more negative feeling state”; it only says negative news exposure may increase negative affect.",
+        "The source presents a hypothesis about a possible mediation pathway, not a confirmed description that negative affect increases attention to food and alcohol cues."
+      ],
+      "definition_hash": "efe5361d6e4cc7efaa134eb2569fe0fb6f117dfc36debe400e25889d445e5e20",
+      "packet_hash": "54cd69158d5e0b12602165461418db91943a057bb10b39d0ffbebe47b09dc6e9",
+      "published_packet_hash": "54cd69158d5e0b12602165461418db91943a057bb10b39d0ffbebe47b09dc6e9",
+      "receipt_id": "5591936847cc4d62a449ffbb662a2746",
+      "request_hash": "8bb0c005ca6898d009f2c6c3205d53618040c75f920ef55406859eb350283021",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Negative affect is a more negative feeling state”) is not supported by the provided packet text, which only describes negative affect as an outcome/mediator of negative news exposure rather than defining its nature as a “more negative feeling state.”",
+        "Although the packet supports the mediation idea (negative news exposure → increase in negative affect → increased attention to food and alcohol cues), that support is for the hypothesis framing, not for the definitional wording in the first sentence."
+      ],
+      "definition_hash": "efe5361d6e4cc7efaa134eb2569fe0fb6f117dfc36debe400e25889d445e5e20",
+      "packet_hash": "54cd69158d5e0b12602165461418db91943a057bb10b39d0ffbebe47b09dc6e9",
+      "published_packet_hash": "54cd69158d5e0b12602165461418db91943a057bb10b39d0ffbebe47b09dc6e9",
+      "receipt_id": "7619601e345543d099afaab41c84121e",
+      "request_hash": "4610184bc189b007f4a557282a24fc6b5ffb5f4e789f89f8ce3a157bd7d61779",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

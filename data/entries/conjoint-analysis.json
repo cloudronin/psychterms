@@ -1,0 +1,60 @@
+{
+  "id": "conjoint-analysis",
+  "term": "conjoint analysis",
+  "definition": "Conjoint analysis is an assessment method used to study how people value different combinations of features or choices by comparing their preferences across alternative scenarios. In this source, it is used to examine which mixes of vaccination statuses people prefer.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8782289"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8782289",
+      "revision": "2022; DOI 10.1371/journal.pone.0261426; article XML SHA-256 54602bae0344794b6385003bc4f2596953358ef989820ccb717a9df76c5afdec",
+      "scope": "Source record 10.1371/journal.pone.0261426; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0261426"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c6a651f758f889d50e666aca9d779f2d03c1932f00b167dc51296153d376b6af",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "99e8e2c97ffb49bea7029580aa7950a1",
+    "request_hash": "c2c044bee12d7aecf3942d18ff1cef3f0d2ff8272508f0562a8dc1aaa42fc0f5",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "db083b2b6bccd2a4f95d7c54a8512f3b1747d88809f2c37889a9619b6c7281c5",
+    "packet_hash": "c6a651f758f889d50e666aca9d779f2d03c1932f00b167dc51296153d376b6af"
+  },
+  "hash": "050fa89d34a14b3ebb11b9057a71f717e179a83ec95e7c00efbb1f6053fa04ad",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "db083b2b6bccd2a4f95d7c54a8512f3b1747d88809f2c37889a9619b6c7281c5",
+      "packet_hash": "c6a651f758f889d50e666aca9d779f2d03c1932f00b167dc51296153d376b6af",
+      "published_packet_hash": "c6a651f758f889d50e666aca9d779f2d03c1932f00b167dc51296153d376b6af",
+      "receipt_id": "7748a71c8f57487280072e2f1319fcca",
+      "request_hash": "2e4b3d95aa2733b24abcef054dcefbc7316b6c081b544c5b45cc3fd8072d2f0b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general description of conjoint analysis as “an assessment method” that studies how people value feature combinations by comparing preferences across scenarios; the packet only states that the study “attempts to identify a preferable social strategic combination” using conjoint analysis, without explicitly defining the method in those terms.",
+        "The definition’s second sentence (“In this source, it is used to examine which mixes of vaccination statuses people prefer”) is supported by the packet’s description of identifying preferred combinations of who is vaccinated, who is not, and who is waiting, but the overall definition fails due to the unsupported methodological description in the first sentence."
+      ],
+      "definition_hash": "db083b2b6bccd2a4f95d7c54a8512f3b1747d88809f2c37889a9619b6c7281c5",
+      "packet_hash": "c6a651f758f889d50e666aca9d779f2d03c1932f00b167dc51296153d376b6af",
+      "published_packet_hash": "c6a651f758f889d50e666aca9d779f2d03c1932f00b167dc51296153d376b6af",
+      "receipt_id": "b161940e6b3449c08a8183d6dc2b6012",
+      "request_hash": "fddacce894a810849e43b6b3916e94e4f99d79828133faacd373529f3530a4ef",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

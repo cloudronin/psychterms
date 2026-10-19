@@ -1,0 +1,59 @@
+{
+  "id": "avm",
+  "term": "AVM",
+  "definition": "AVM refers to around view monitoring, a vehicle system that uses four wide-angle cameras to capture the area around the vehicle. In this source, AVM images are used to help detect nearby obstacles and estimate how far they are from the vehicle.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12768354"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12768354",
+      "revision": "2026; DOI 10.1371/journal.pone.0336851; article XML SHA-256 ccd6130757360a171e41054d19cbc1aa58ed736cce90b17be96a9c562ba90354",
+      "scope": "Source record 10.1371/journal.pone.0336851; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0336851"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bfd8727573a444c1a48ef537d635bef4",
+    "request_hash": "f6c27eb3e96f104edd9d049ba4ed1c21be3dd7bbde13c2d2567bad45d894cce4",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "dbcc77a32d075d5b75264d53a06aae00b90ab635f56b9855db64147b48db28a8",
+    "packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188"
+  },
+  "hash": "c9d21304e063946d86711dd808bd73b2c96452068ae9ff185ca4bf09ce7e46da",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dbcc77a32d075d5b75264d53a06aae00b90ab635f56b9855db64147b48db28a8",
+      "packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188",
+      "published_packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188",
+      "receipt_id": "c0b7434c3b38476cab1755c2284bec73",
+      "request_hash": "f1fccc5b889f784db2cccc491511f17054919d4a614301a83e122d4c7e6259b9",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition describes a vehicle perception/vision system (around-view monitoring and obstacle detection), but the requested field is cognition; the packet does not support any cognition-specific framing."
+      ],
+      "definition_hash": "dbcc77a32d075d5b75264d53a06aae00b90ab635f56b9855db64147b48db28a8",
+      "packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188",
+      "published_packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188",
+      "receipt_id": "f95c8a9f537e4da18d40f52369b0c9d8",
+      "request_hash": "88e66833528aafdf826fb464eae6e81d567af656e3e38cb33257e463f4aa2304",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lumen",
+  "term": "lumen",
+  "source": "article-pmc13600480",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0358945",
+  "revision": "2026; DOI 10.1371/journal.pone.0358945; article XML SHA-256 15e11d15d407668d44b9fae65443cb8ecded0702f2898b79d015045bbdbc6699",
+  "source_snapshot_sha256": "15e11d15d407668d44b9fae65443cb8ecded0702f2898b79d015045bbdbc6699",
+  "url": "https://doi.org/10.1371/journal.pone.0358945",
+  "text": "Intracranial aneurysms are dilatations of cerebral arteries that may rupture, leading to subarachnoid hemorrhage and high mortality. Endovascular coiling is widely used to prevent rupture; however, many treated aneurysms experience recanalization, which often necessitates follow-up interventions or surgical clipping. Despite its clinical importance, the segmentation and morphological characterization of recanalized coiled aneurysms remain largely unexplored. In this study, we introduce an automated framework for the segmentation of recanalized coiled aneurysms from three-dimensional rotational angiography (3D-RA) images and the extraction of morphological descriptors relevant to surgical planning. The method is based on the nnU-Net architecture, trained to segment the vascular tree, coil mass, and recanalized lumen. Quantitative postprocessing enables the computation of clinically relevant parameters, including coil–neck distance, recanalization volume, and maximum neck diameter, which contribute to the assessment of clipping feasibility. Preliminary results show encouraging segmentation performance and consistent estimation of morphological parameters across the evaluated cases, supporting the potential of the proposed framework for preoperative assessment of recanalized coiled aneurysms.",
+  "source_label": "Segmentation and morphological analysis of recanalized coiled aneurysms: Towards an automatic tool for clipping planning in microsurgery",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1310
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "0d9c16c4ed8b68a680cdbf4deccb1d3806bb54571bf035448ab04c80ddde9683"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "herpes-infection",
+  "term": "herpes infection",
+  "definition": "In this packet, herpes infection refers to infection with herpes simplex virus type 1 (HSV-1). It can affect the eye or genital area, and ocular infection may be severe, causing keratitis, corneal clouding, and even blindness.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7004361"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7004361",
+      "revision": "2020; DOI 10.1371/journal.pone.0228252; article XML SHA-256 735d36df418e3afb5129ba54582ce518b50dd3d1e58bb6b0b681e4f13af16344",
+      "scope": "Source record 10.1371/journal.pone.0228252; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0228252"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4ea94c8f461625d7b655b20c4f48a532ba8aaf3d2c11e7a70e6cd6015c9d10ea",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6581147334c74a77b5df288b9a05a1dd",
+    "request_hash": "0ae34fcab282d72dcb08c9f8947b4c4b9093928b2ac9ff0f1b805fb69427b099",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "f3b755acceab460e3460baf5c43e991008b8ea5ea6ba8d4c1210839d2317b01d",
+    "packet_hash": "4ea94c8f461625d7b655b20c4f48a532ba8aaf3d2c11e7a70e6cd6015c9d10ea"
+  },
+  "hash": "57974ff620560049c29fc9092ff30eae6a25cbefc5d259aaebda7e007b5cde73",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet and definition describe a virology/clinical topic (HSV-1 causing ocular/genital disease), not cognition.",
+        "The definition asserts a specific scope (“In this packet, herpes infection refers to infection with HSV-1…”) but the packet text does not explicitly define “herpes infection” as a term; it only discusses HSV-1 causing ocular infection and genital herpes infection in experimental contexts."
+      ],
+      "definition_hash": "f3b755acceab460e3460baf5c43e991008b8ea5ea6ba8d4c1210839d2317b01d",
+      "packet_hash": "4ea94c8f461625d7b655b20c4f48a532ba8aaf3d2c11e7a70e6cd6015c9d10ea",
+      "published_packet_hash": "4ea94c8f461625d7b655b20c4f48a532ba8aaf3d2c11e7a70e6cd6015c9d10ea",
+      "receipt_id": "0d3d76b0f5ca405dbfd390ef6ec2d088",
+      "request_hash": "ba5fa9e3b9aaaa8bf90171cc7a6d95aa36b5a0a8ff0862d32fcf1a0251e8ba56",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define the term as HSV-1 infection only; it mentions HSV-1 causing severe ocular infection and also refers to genital herpes infection following HSV-1 or HSV-2 challenge, so the proposed sense is too narrow and not supported as the term’s full meaning.",
+        "The definition overstates a general clinical definition by presenting specific effects and body sites as if they exhaust the term’s meaning; the packet only describes examples of ocular and genital disease in a vaccine study, not a general dictionary definition.",
+        "The wording \"corneal clouding\" is not supported verbatim; the packet uses \"corneal opacification\" and \"herpetic keratitis.\""
+      ],
+      "definition_hash": "f3b755acceab460e3460baf5c43e991008b8ea5ea6ba8d4c1210839d2317b01d",
+      "packet_hash": "4ea94c8f461625d7b655b20c4f48a532ba8aaf3d2c11e7a70e6cd6015c9d10ea",
+      "published_packet_hash": "4ea94c8f461625d7b655b20c4f48a532ba8aaf3d2c11e7a70e6cd6015c9d10ea",
+      "receipt_id": "62115d2f0c234f18a2f38b48666d1a84",
+      "request_hash": "e1338c2f47eb8d660073c145d656341ec22ba1b465bcf5a3b97edbffd7d5124d",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

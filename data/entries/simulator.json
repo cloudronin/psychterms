@@ -1,0 +1,63 @@
+{
+  "id": "simulator",
+  "term": "simulator",
+  "definition": "In this context, a simulator is a training environment used to carry out instrument flight tasks without actual flight. It provides a setting for studying pilots’ workload, stress responses, adaptation, and operational performance during demanding tasks.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13407283"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13407283",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1898551; article XML SHA-256 f01992d62e94ab73fcff2d239cbb5565c6bf340b2ac7976dcbaf8607e95ec00f",
+      "scope": "Source record 10.3389/fpsyg.2026.1898551; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1898551"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b7818ff3941c2bda32dc365d334cdfce97512e2531ae4330b0e6e1dda377982f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b5cea88f0ff34f4c9985c5fcc8150298",
+    "request_hash": "e61261752057e0cc46d93313a9458f3128bac511c04dbcc57e6a7ac047128d07",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "7024cdcf1959d450a9e369675c140f03d99e6669c3b8cf7998407fa84348429f",
+    "packet_hash": "b7818ff3941c2bda32dc365d334cdfce97512e2531ae4330b0e6e1dda377982f"
+  },
+  "hash": "7495b78a33c427a15bcf1563f732274fae9454449c653fcc13012ac3eee9f80e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a simulator-based training/assessment context, but it does not support the broader claim that a simulator is used to study pilots’ stress responses and adaptation.",
+        "The definition adds specific functions beyond the source’s wording, which only mentions workload assessment and operational performance during simulator-based instrument flight operations."
+      ],
+      "definition_hash": "7024cdcf1959d450a9e369675c140f03d99e6669c3b8cf7998407fa84348429f",
+      "packet_hash": "b7818ff3941c2bda32dc365d334cdfce97512e2531ae4330b0e6e1dda377982f",
+      "published_packet_hash": "b7818ff3941c2bda32dc365d334cdfce97512e2531ae4330b0e6e1dda377982f",
+      "receipt_id": "af20fbbbfac644db9ed13510d78ae8ea",
+      "request_hash": "37da7121c0f53917f87f135075436573e7a9f29f4f0fd41279807569c6e88ece",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that the simulator is used “without actual flight,” i.e., it doesn’t directly support the “without actual flight” component of the definition.",
+        "The definition’s phrasing “stress responses” is not directly supported; the packet mentions “operational stress” and “psychophysiological adaptation,” but does not clearly frame these specifically as “stress responses.”"
+      ],
+      "definition_hash": "7024cdcf1959d450a9e369675c140f03d99e6669c3b8cf7998407fa84348429f",
+      "packet_hash": "b7818ff3941c2bda32dc365d334cdfce97512e2531ae4330b0e6e1dda377982f",
+      "published_packet_hash": "b7818ff3941c2bda32dc365d334cdfce97512e2531ae4330b0e6e1dda377982f",
+      "receipt_id": "cee665bcfa284c81bb6ef03d42cabff2",
+      "request_hash": "0ab838c33f2da6a802f43d7f6ed62d2cadf2f59746c5799ed311463ee7672ba4",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

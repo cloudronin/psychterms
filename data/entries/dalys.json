@@ -1,0 +1,60 @@
+{
+  "id": "dalys",
+  "term": "DALYs",
+  "definition": "DALYs stands for disability-adjusted life years. In this source, it is used as a health measure tracked over time alongside mortality and incidence.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12998816"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12998816",
+      "revision": "2026; DOI 10.1371/journal.pone.0343137; article XML SHA-256 9a4df9c459e6fa055c80967c5082abac52f8fb55c6671585bb5b3cbeb84444f3",
+      "scope": "Source record 10.1371/journal.pone.0343137; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0343137"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bdd450fd365a5252d68bd1638bc50fe5d9b3162794cddcdccdaa789e68a43283",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ba7aa702043c49f792349fa2583807d1",
+    "request_hash": "7b1545ec08bceea63f6e12590bd276faddf09ed73862d8429a3b7f82106e870b",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "7b7ed67db3b524c31e3249f991610ce9395484a353ef857a59284cdf6205025a",
+    "packet_hash": "bdd450fd365a5252d68bd1638bc50fe5d9b3162794cddcdccdaa789e68a43283"
+  },
+  "hash": "5d2399fb119ff1b17607d5f85bcf8b1007fbc195952f603d5bf76fe8a5f4c2cd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7b7ed67db3b524c31e3249f991610ce9395484a353ef857a59284cdf6205025a",
+      "packet_hash": "bdd450fd365a5252d68bd1638bc50fe5d9b3162794cddcdccdaa789e68a43283",
+      "published_packet_hash": "bdd450fd365a5252d68bd1638bc50fe5d9b3162794cddcdccdaa789e68a43283",
+      "receipt_id": "b3a1e5ab2da64a97989cd0afa74ee259",
+      "request_hash": "3bd1d275fe534c497765d3729bea21b2c986f2839b189631cee4a3e7ff3f76b3",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet’s content is about liver cancer attributable to alcohol use, not mental health, so the definition’s field context (“mental health”) is not supported by the packet.",
+        "While the packet does mention analyzing trends of “mortality, incidence, and disability-adjusted life years (DALYs),” it does not indicate any mental health usage; therefore the definition cannot be considered defensibly grounded for the requested field."
+      ],
+      "definition_hash": "7b7ed67db3b524c31e3249f991610ce9395484a353ef857a59284cdf6205025a",
+      "packet_hash": "bdd450fd365a5252d68bd1638bc50fe5d9b3162794cddcdccdaa789e68a43283",
+      "published_packet_hash": "bdd450fd365a5252d68bd1638bc50fe5d9b3162794cddcdccdaa789e68a43283",
+      "receipt_id": "fbb4fdcc294c46d38e49b1a1113e26d9",
+      "request_hash": "6b7a9eff3d9a57a65757e9d987bdd35d3183d3b8444f63335781e3da97c5631b",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "aq",
+  "term": "AQ",
+  "definition": "AQ refers to a measure used to assess autistic traits, including a total score and subscales such as imagination and communication. In the supplied source, higher AQ scores indicate more pronounced autistic traits.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13597859"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13597859",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1933974; article XML SHA-256 90ca77c5c19fa2d0420a35ff380f31550d6c4c1ad114e87fe12df0b98f23504f",
+      "scope": "Source record 10.3389/fpsyt.2026.1933974; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1933974"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f108fcb4513f65a8e8598b85357425cfdc5bef5d21cacca56c73b8ea4a4fcafc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8abb49aa2abd45fd8f0ecdba7975c52f",
+    "request_hash": "4b360f846a349668752196b9aae5accdc6dcf153fd7f1d100eba23f51cdbce52",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "399a3eb4cc14858961e4e1943b9071a366ba7cc2d55bca9417086a9b34909fad",
+    "packet_hash": "f108fcb4513f65a8e8598b85357425cfdc5bef5d21cacca56c73b8ea4a4fcafc"
+  },
+  "hash": "0ea58fdf61faf78a11b65a8b3dbd1e9b0cc40181e6d6b01be899d43aa30782fa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that “higher AQ scores indicate more pronounced autistic traits”; it only reports that autistic traits were more pronounced in certain groups and that differences were “most evident in total AQ scores” (implying direction, but not stating the scoring interpretation).",
+        "While the packet mentions AQ total scores, the Imagination subscale, and that communication difficulties were elevated, it does not explicitly describe AQ as a “measure” with those subscales as part of its general purpose/structure; it reports results using AQ rather than defining the instrument."
+      ],
+      "definition_hash": "399a3eb4cc14858961e4e1943b9071a366ba7cc2d55bca9417086a9b34909fad",
+      "packet_hash": "f108fcb4513f65a8e8598b85357425cfdc5bef5d21cacca56c73b8ea4a4fcafc",
+      "published_packet_hash": "f108fcb4513f65a8e8598b85357425cfdc5bef5d21cacca56c73b8ea4a4fcafc",
+      "receipt_id": "02ad53971f4143edbab2520a2ad888ea",
+      "request_hash": "73407cade9d50bc58ae04645c59f19e759d190c4f1cb8c0cebc087bb53cbf7dc",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define AQ as a measure; it only reports differences in total AQ scores and subscales in one study, so the definition overgeneralizes from a single source.",
+        "The claim that AQ includes a communication subscale is not supported by the packet; the source mentions communication difficulties, not a communication subscale.",
+        "The statement that higher AQ scores indicate more pronounced autistic traits is not directly stated in the packet and is therefore unsupported as written."
+      ],
+      "definition_hash": "399a3eb4cc14858961e4e1943b9071a366ba7cc2d55bca9417086a9b34909fad",
+      "packet_hash": "f108fcb4513f65a8e8598b85357425cfdc5bef5d21cacca56c73b8ea4a4fcafc",
+      "published_packet_hash": "f108fcb4513f65a8e8598b85357425cfdc5bef5d21cacca56c73b8ea4a4fcafc",
+      "receipt_id": "1c3fbeb75c4342a69257771edd96399e",
+      "request_hash": "64bd5f9fed5af6c63e18d477db096f5e115a80b1e0dc0ed9232e34bb092e44a6",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

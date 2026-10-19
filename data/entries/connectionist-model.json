@@ -1,0 +1,60 @@
+{
+  "id": "connectionist-model",
+  "term": "connectionist model",
+  "definition": "A connectionist model is a computational approach that explains behavior as the result of interacting processes that change over time. In this packet, it refers to a dynamic model of intertemporal choice used to represent how factors such as self-control and the way time is framed jointly shape decisions between sooner smaller rewards and later larger rewards.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3502038"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3502038",
+      "revision": "2012; DOI 10.3389/fpsyg.2012.00514; article XML SHA-256 5a44abac38ba5a358650d4276a343929c6378f6fd2c0d324a564e8e0374aed97",
+      "scope": "Source record 10.3389/fpsyg.2012.00514; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2012.00514"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "20d55d6bac4a4ea4a5b7d7dfe6103438",
+    "request_hash": "2d29a52bd6546a8897a7398cedd7b2a6d7d7221efd4ea2899990be93e6899a6e",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "aeec30b630cdb80d89973b885e58e72da8fe6bfff2f2b8aec07bbd76020e059b",
+    "packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63"
+  },
+  "hash": "5db0086128633522eef967a3ef0a0b38d453a61cf8c5bc12e0dc86248a4e5b9b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aeec30b630cdb80d89973b885e58e72da8fe6bfff2f2b8aec07bbd76020e059b",
+      "packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63",
+      "published_packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63",
+      "receipt_id": "10de22ab18444e34986db90e9711ff78",
+      "request_hash": "81b34fd34f23c4d2bd9f6bc0cdc3b04e6b3cba7690ac63d6f1ea28f4f899632a",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“computational approach … interacting processes that change over time”) generalizes beyond what the packet explicitly states about what a connectionist model is in general; the packet only describes its specific “dynamic connectionist model” and focuses on decision-process dynamical properties.",
+        "The definition’s framing (“In this packet, it refers to a dynamic model of intertemporal choice…”) is supported, but the added general definition content is not fully supported by the packet text."
+      ],
+      "definition_hash": "aeec30b630cdb80d89973b885e58e72da8fe6bfff2f2b8aec07bbd76020e059b",
+      "packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63",
+      "published_packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63",
+      "receipt_id": "2725130a1aee47abb469dfa10308c1cd",
+      "request_hash": "8083a013ef6ffa6df231ab58bcbd3515b536ed821bd7ceb40cc826298d090b7b",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

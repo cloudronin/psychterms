@@ -1,0 +1,64 @@
+{
+  "id": "winstay-loseshift-strategy",
+  "term": "win–stay, lose–shift strategy",
+  "definition": "A win–stay, lose–shift strategy is a behavioral pattern in which a person’s next choice depends on the outcome of the previous one, tending to repeat a choice after a favorable result and change it after an unfavorable result. In the source, it is described as a strategy that uses both the other person’s previous action and one’s own previous action.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7676727"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7676727",
+      "revision": "2020; DOI 10.1371/journal.pone.0242607; article XML SHA-256 8a8ff917e245963f672b8aab53eb5e7553cee5422a48bf44dc56c8735dafd3a4",
+      "scope": "Source record 10.1371/journal.pone.0242607; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0242607"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3f54165ebdc78be7c45bfa9063fd924865a3281ace8fd2ff5efb53dfe6a963f6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4835cd19f2b648ae9fbe45db533d2263",
+    "request_hash": "f473299860df59a88d8a04fb66301bd112928c7134e8e2fb5648519337baf1be",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "6ccd19b85a31d2b061f3ff5dbe726b9423b56074f8018888201a89a982a9c286",
+    "packet_hash": "3f54165ebdc78be7c45bfa9063fd924865a3281ace8fd2ff5efb53dfe6a963f6"
+  },
+  "hash": "8c0021e3072724eba478cd59409aa7fb45aa94de8e7bf947e062b7f928bf7677",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the strategy uses both a partner’s previous action and one’s own previous action, but it does not explicitly support the added claim that the next choice depends on a previous outcome or that the person repeats after a favorable result and shifts after an unfavorable result.",
+        "The definition leans on the conventional win–stay/lose–shift meaning rather than the wording actually present in the source packet, so the requested sense is only partially supported by the supplied text."
+      ],
+      "definition_hash": "6ccd19b85a31d2b061f3ff5dbe726b9423b56074f8018888201a89a982a9c286",
+      "packet_hash": "3f54165ebdc78be7c45bfa9063fd924865a3281ace8fd2ff5efb53dfe6a963f6",
+      "published_packet_hash": "3f54165ebdc78be7c45bfa9063fd924865a3281ace8fd2ff5efb53dfe6a963f6",
+      "receipt_id": "1692f25b6adb4f6f90f1b948de54a9cd",
+      "request_hash": "ecfe247c5d3bd1256a52e247466b4c6be56566a18d9a9cc005e730b89decf142",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not describe the defining contingency “repeat a choice after a favorable result and change it after an unfavorable result,” so that substantive part of the definition is unsupported.",
+        "The packet only explicitly supports that the strategy can “take into account…one’s partner’s previous action” and “one’s own previous action,” but it does not provide the favorable/unfavorable win/lose behavior rule requested by the definition.",
+        "Because the definition includes an unsupported characterization of outcome valence (favorable vs. unfavorable), the definition as a whole cannot be considered defensibly supported by the packet."
+      ],
+      "definition_hash": "6ccd19b85a31d2b061f3ff5dbe726b9423b56074f8018888201a89a982a9c286",
+      "packet_hash": "3f54165ebdc78be7c45bfa9063fd924865a3281ace8fd2ff5efb53dfe6a963f6",
+      "published_packet_hash": "3f54165ebdc78be7c45bfa9063fd924865a3281ace8fd2ff5efb53dfe6a963f6",
+      "receipt_id": "8eac30ece75647c5be23553177fbb0ce",
+      "request_hash": "27a9426a92ef2beabd4b73ded5dddbf7d33a9193a2deb20b53ced6b0b8c3bbd7",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

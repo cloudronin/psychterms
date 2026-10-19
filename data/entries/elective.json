@@ -1,0 +1,65 @@
+{
+  "id": "elective",
+  "term": "elective",
+  "definition": "Elective refers to something that is planned in advance rather than done because of an acute traumatic event. In the packet, it describes a scheduled total knee arthroplasty revision contrasted with surgery following a fracture.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13399309"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13399309",
+      "revision": "2026; DOI 10.1371/journal.pone.0354235; article XML SHA-256 0e16530774f25340d589227ac38fa19893c1e12dfb6e1b032d1bebb57ca8116d",
+      "scope": "Source record 10.1371/journal.pone.0354235; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354235"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2e9800cfbeb5d5790dcee02c1934aebc91aef7ea2581e928a098604b2ed16f72",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9cfff437aa894ff5b4ea3a45f70ac7ee",
+    "request_hash": "817fc2c0b31ec2d73b70aefd91b868b8d24ceb65589da36ceabb0f3d1d265569",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "87e77012e9a7bbde8a910684474322d17532f3d02707fd9068d13f4785443168",
+    "packet_hash": "2e9800cfbeb5d5790dcee02c1934aebc91aef7ea2581e928a098604b2ed16f72"
+  },
+  "hash": "507bd4795dc298845e74725745656dec02713fa2bc4db05fa5b5d9e9c6988304",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “elective” as “planned in advance rather than done because of an acute traumatic event.” It only mentions “elective TKA revision” in contrast to “periprosthetic fracture,” without stating a general definition of the term.",
+        "The definition includes a mental-health field framing, but the packet is about orthopedic surgery outcomes and provides no mental-health-related meaning for “elective.”",
+        "Because the requested sense (planned vs acute traumatic event) is not directly supported as a standalone term definition in the packet, the claim is an unsupported generalization beyond the supplied text."
+      ],
+      "definition_hash": "87e77012e9a7bbde8a910684474322d17532f3d02707fd9068d13f4785443168",
+      "packet_hash": "2e9800cfbeb5d5790dcee02c1934aebc91aef7ea2581e928a098604b2ed16f72",
+      "published_packet_hash": "2e9800cfbeb5d5790dcee02c1934aebc91aef7ea2581e928a098604b2ed16f72",
+      "receipt_id": "69fa97d96214469d9af786f7a0fe426e",
+      "request_hash": "19c96b48701096f0fe6227fb542fa2a67ab63ef404674f67be7bf40c4a6a3ec6",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is a surgical/orthopedic article about distal femoral replacement, not a mental health source, so the requested field is not defensible from the supplied evidence.",
+        "The definition adds an explanatory contrast (“planned in advance rather than done because of an acute traumatic event”) that is only partly supported by the packet’s specific comparison of elective TKA revision versus periprosthetic fracture, and it broadens beyond the exact usage shown.",
+        "The wording “In the packet, it describes…” is meta-commentary rather than a dictionary definition and does not cleanly define the term itself."
+      ],
+      "definition_hash": "87e77012e9a7bbde8a910684474322d17532f3d02707fd9068d13f4785443168",
+      "packet_hash": "2e9800cfbeb5d5790dcee02c1934aebc91aef7ea2581e928a098604b2ed16f72",
+      "published_packet_hash": "2e9800cfbeb5d5790dcee02c1934aebc91aef7ea2581e928a098604b2ed16f72",
+      "receipt_id": "cfed5db52b1e41d0aa8deb1b69a4b641",
+      "request_hash": "e1b2e0273de58e9ef7f6b2ee6bd05f0dd32d495905b30fce9a2c40032990998b",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

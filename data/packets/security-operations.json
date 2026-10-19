@@ -1,0 +1,26 @@
+{
+  "id": "security-operations",
+  "term": "security operations",
+  "source": "article-pmc12747432",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0338488",
+  "revision": "2025; DOI 10.1371/journal.pone.0338488; article XML SHA-256 50ddc3ed1a689681634644448ff6b594b5df5944be6bf8672abc19eb42148137",
+  "source_snapshot_sha256": "50ddc3ed1a689681634644448ff6b594b5df5944be6bf8672abc19eb42148137",
+  "url": "https://doi.org/10.1371/journal.pone.0338488",
+  "text": "Federated learning (FL) is emerging as a key approach for collaborative machine learning (ML) in distributed information systems where direct data sharing is infeasible due to policy constraints. In security operations center (SOC) settings, we study FL for the classification of network intrusion detection system (IDS) alerts —structured event records emitted by sensors (e.g., Snort/Suricata)—where consistent interpretation of event data is critical for reliable ML-based decision support. However, differences in labeling criteria across organizations often lead to semantic inconsistencies, undermining the accuracy and generalizability of FL models. This paper presents two key contributions that mitigate this issue without requiring raw data exchange. First, we propose Keyed Feature Hashing (KFH) , a key-dependent obfuscated encoding scheme that enables consistent vectorization of heterogeneous IDS alerts across entities while reducing the risk of model inversion. Second, we introduce a filtering mechanism that leverages KFH representations to identify and exclude alerts likely to be misclassified due to inter-entity label discrepancies. Experiments using a large-scale real-world dataset collected from 14 organizations demonstrate that our method improves classification F1-score by up to 13.36% while maintaining over 99% alert coverage. These contributions enhance the trustworthiness of FL-based decision models in distributed, label-divergent environments.",
+  "source_label": "Mitigating semantic label divergence in federated learning: Obfuscated encoding and alert filtering for security monitoring",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1479
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "5b61ec80e2d96b018c1da3cf5d769499d82c48361bf60ea4a7e3e70850980312"
+}

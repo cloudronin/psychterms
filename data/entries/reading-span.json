@@ -1,0 +1,62 @@
+{
+  "id": "reading-span",
+  "term": "reading span",
+  "definition": "Reading span is a measure of working memory capacity based on a reading task. In the supplied source, a reading span task is used to estimate how much working memory a person can use while processing written language.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7946315"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7946315",
+      "revision": "2021; DOI 10.1371/journal.pone.0248170; article XML SHA-256 ffcbbfcc4adb27e3dd3c9cf41fcd60f2b39a59bbe1d1e6e6b0ee1453c1cd675b",
+      "scope": "Source record 10.1371/journal.pone.0248170; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0248170"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "14495f235528f92a91f4b561ed29fd25b5fd13425fc5c7bbfe7548d5fc0c0ff1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4f17c9f3ea8943f28f9bf76ee55e1cfe",
+    "request_hash": "3ae5fd14194f3b2dd9c6958438925f96d0bd5537cb6fdb45e60d5c3813800c93",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "9832f33fe1b8bacf0d2f0d59d45febde10bc8b9c03c85a28dd102a38c72f43d5",
+    "packet_hash": "14495f235528f92a91f4b561ed29fd25b5fd13425fc5c7bbfe7548d5fc0c0ff1"
+  },
+  "hash": "2c352c100d44c83c71f01b259f34e486bf8b8c254005b7a67d49f112db4ec672",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that a reading span task was used to measure working memory capacity, but it does not support the added claim that it estimates how much working memory a person can use while processing written language.",
+        "The definition goes beyond the source by implying a general mechanism for written-language processing rather than the specific study’s use of a Cantonese-version reading span task to measure WM capacity."
+      ],
+      "definition_hash": "9832f33fe1b8bacf0d2f0d59d45febde10bc8b9c03c85a28dd102a38c72f43d5",
+      "packet_hash": "14495f235528f92a91f4b561ed29fd25b5fd13425fc5c7bbfe7548d5fc0c0ff1",
+      "published_packet_hash": "14495f235528f92a91f4b561ed29fd25b5fd13425fc5c7bbfe7548d5fc0c0ff1",
+      "receipt_id": "798b6c11b11441ed9bd1fe9627053626",
+      "request_hash": "639ae561b5aacc5afe1ba767627d1a3af1286bd36cff42d137dac25e3589beef",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that a “Cantonese-version reading span task” was used to “measure their working memory (WM) capacity,” but it does not explicitly describe reading span as estimating “how much working memory a person can use while processing written language.”"
+      ],
+      "definition_hash": "9832f33fe1b8bacf0d2f0d59d45febde10bc8b9c03c85a28dd102a38c72f43d5",
+      "packet_hash": "14495f235528f92a91f4b561ed29fd25b5fd13425fc5c7bbfe7548d5fc0c0ff1",
+      "published_packet_hash": "14495f235528f92a91f4b561ed29fd25b5fd13425fc5c7bbfe7548d5fc0c0ff1",
+      "receipt_id": "ba1a64373bc741fa9efcbff15e34284d",
+      "request_hash": "f3cdd6a9cd7df893e274ea66d925fc0fcd2775e3656a47f0f05d5b2fde8ac740",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

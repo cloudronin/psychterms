@@ -1,0 +1,64 @@
+{
+  "id": "alarm-call",
+  "term": "alarm call",
+  "definition": "An alarm call is a vocal signal produced in the presence of danger, such as a predator, that alerts other group members. In the supplied source, chimpanzee alarm calls are described as socially directed signals that can be monitored against others’ reactions and continue until others are safe.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3797826"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3797826",
+      "revision": "2013; DOI 10.1371/journal.pone.0076674; article XML SHA-256 f7675322d103b7d95acf63992a5c1a35a4b6e859b37cb6a60d0949e67963cd1e",
+      "scope": "Source record 10.1371/journal.pone.0076674; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0076674"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8356ae02c8b5fc1ab02ae1915ce4c12903f25565cb4943ddb40aa7f825c9b23a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3696f1dbac85401e9f7d8cc5831197bc",
+    "request_hash": "b5e00d82a1dded6b6ce3ebd454524b85f999731505ddd704d3b9173eff6ceaac",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "86ff766aec0239c813dd3eff34c8a86742dc630748505be6267abf0c77b55f3d",
+    "packet_hash": "8356ae02c8b5fc1ab02ae1915ce4c12903f25565cb4943ddb40aa7f825c9b23a"
+  },
+  "hash": "e99147a6f9a0e671017b777f7e83980315e23a06e881b6f6cca59c2e8f8d7178",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “can be monitored against others’ reactions” is not supported by the packet; the source reports visual monitoring of the audience and gaze alternations, not comparison against others’ reactions.",
+        "The definition adds a broad general characterization of alarm calls that is only partially supported by this chimpanzee-specific article, which discusses intentionality in chimpanzee alarm calls rather than defining the term in general."
+      ],
+      "definition_hash": "86ff766aec0239c813dd3eff34c8a86742dc630748505be6267abf0c77b55f3d",
+      "packet_hash": "8356ae02c8b5fc1ab02ae1915ce4c12903f25565cb4943ddb40aa7f825c9b23a",
+      "published_packet_hash": "8356ae02c8b5fc1ab02ae1915ce4c12903f25565cb4943ddb40aa7f825c9b23a",
+      "receipt_id": "73054969dc4c4d6f8e956dd1299323d8",
+      "request_hash": "376401e8e0232bd92f2bc402b180efb21d8aa8422043d6ca14101a874cb267fc",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that an alarm call “alerts other group members” is not explicitly supported in the provided packet text; the packet describes alarm calls with criteria like being socially directed, involving visual monitoring of an audience, and stopping when recipients were safe, but does not explicitly state that the calls function to alert other group members as a general rule.",
+        "The packet specifies that “two of three alarm call types” meet the described criteria, but the definition presents the described properties as applying to “an alarm call” without that qualification.",
+        "The phrase “continue until others are safe from the predator” is broadly supported (calling only stopped when recipients were safe from the predator), but the definition also attributes a more general “monitored against others’ reactions” interpretation than is explicitly stated (the packet mentions visual monitoring and gaze alternations, not direct monitoring “against others’ reactions”)."
+      ],
+      "definition_hash": "86ff766aec0239c813dd3eff34c8a86742dc630748505be6267abf0c77b55f3d",
+      "packet_hash": "8356ae02c8b5fc1ab02ae1915ce4c12903f25565cb4943ddb40aa7f825c9b23a",
+      "published_packet_hash": "8356ae02c8b5fc1ab02ae1915ce4c12903f25565cb4943ddb40aa7f825c9b23a",
+      "receipt_id": "0796952290034deeb163a779479e7701",
+      "request_hash": "d41173856fe3aa6ceec1defa027f1a5e7ff0ad7191a5d5acfad6d71e36ce48c3",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

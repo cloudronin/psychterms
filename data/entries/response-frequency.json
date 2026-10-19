@@ -1,0 +1,61 @@
+{
+  "id": "response-frequency",
+  "term": "response frequency",
+  "definition": "In this learning-study context, response frequency means how often physiological responses are recorded over a period of time. Here it refers specifically to skin conductance response frequency, used as an indicator of how frequently arousal-related activations occurred during different parts of a lesson.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13547506"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13547506",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1872311; article XML SHA-256 a147bab9acea6bf9bfe9d4cb2ed30bdbd80146d7d98d32771415c96d2b7fa7d3",
+      "scope": "Source record 10.3389/fpsyg.2026.1872311; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1872311"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f8699854f9084a9b5ed3141891b362212ad02e87c80802b4451ee336d291a4a3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b8abd913131349b4b74b1154fd447f9f",
+    "request_hash": "e616b9cc50be4e01e5124cdb0908df969c64dadb997977ce847e8058bd61e9dd",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "4fb6d49eef8446e87cbee612113a6c472085d5253ce69a8bf426d91a93bbc76d",
+    "packet_hash": "f8699854f9084a9b5ed3141891b362212ad02e87c80802b4451ee336d291a4a3"
+  },
+  "hash": "5d44a3108bed2c27f45b1d2ecb648355c81ba5c72f7e7be8b0bfaa392cbb4752",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4fb6d49eef8446e87cbee612113a6c472085d5253ce69a8bf426d91a93bbc76d",
+      "packet_hash": "f8699854f9084a9b5ed3141891b362212ad02e87c80802b4451ee336d291a4a3",
+      "published_packet_hash": "f8699854f9084a9b5ed3141891b362212ad02e87c80802b4451ee336d291a4a3",
+      "receipt_id": "82dacb63b1ea4b438f3b9a15079937b8",
+      "request_hash": "4c026184b1ea9e36c41e420c9702f740519cf4f53cf61c8260e09b1232d00c46",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“response frequency means how often physiological responses are recorded over a period of time”) is not explicitly supported in the packet; the packet introduces “skin conductance response frequency (SCRF)” as an operational indicator but does not provide a general definitional statement of response frequency.",
+        "While the packet mentions “activation frequency” and uses SCRF, the definition’s specific phrasing that SCRF is “an indicator of how frequently arousal-related activations occurred during different parts of a lesson” is not clearly spelled out as such; the packet reports SCRF differences and temporal/phase analyses without defining this mapping in the requested terms.",
+        "The definition is not strictly supported by a clear, explicit definition for “response frequency” in the packet beyond its use as SCRF."
+      ],
+      "definition_hash": "4fb6d49eef8446e87cbee612113a6c472085d5253ce69a8bf426d91a93bbc76d",
+      "packet_hash": "f8699854f9084a9b5ed3141891b362212ad02e87c80802b4451ee336d291a4a3",
+      "published_packet_hash": "f8699854f9084a9b5ed3141891b362212ad02e87c80802b4451ee336d291a4a3",
+      "receipt_id": "224d49bf72a745d0b76cee282e06dde8",
+      "request_hash": "97596f1c0445e0615bb780eed1d07f5cd334221d7e8b943c972e21448c2e5e20",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "animal-behavior",
+  "term": "animal behavior",
+  "source": "article-pmc4558030",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0136487",
+  "revision": "2015; DOI 10.1371/journal.pone.0136487; article XML SHA-256 49aa9f5fa60ad673b8e6a41f75d8192068dd84e0d2a5666346f1a0aca0c21772",
+  "source_snapshot_sha256": "49aa9f5fa60ad673b8e6a41f75d8192068dd84e0d2a5666346f1a0aca0c21772",
+  "url": "https://doi.org/10.1371/journal.pone.0136487",
+  "text": "A fundamental challenge common to studies of animal movement, behavior, and ecology is the collection of high-quality datasets on spatial positions of animals as they change through space and time. Recent innovations in tracking technology have allowed researchers to collect large and highly accurate datasets on animal spatiotemporal position while vastly decreasing the time and cost of collecting such data. One technique that is of particular relevance to the study of behavioral ecology involves tracking visual tags that can be uniquely identified in separate images or movie frames. These tags can be located within images that are visually complex, making them particularly well suited for longitudinal studies of animal behavior and movement in naturalistic environments. While several software packages have been developed that use computer vision to identify visual tags, these software packages are either (a) not optimized for identification of single tags, which is generally of the most interest for biologists, or (b) suffer from licensing issues, and therefore their use in the study of animal behavior has been limited. Here, we present BEEtag, an open-source, image-based tracking system in Matlab that allows for unique identification of individual animals or anatomical markers. The primary advantages of this system are that it (a) independently identifies animals or marked points in each frame of a video, limiting error propagation, (b) performs well in images with complex backgrounds, and (c) is low-cost. To validate the use of this tracking system in animal behavior, we mark and track individual bumblebees ( Bombus impatiens ) and recover individual patterns of space use and activity within the nest. Finally, we discuss the advantages and limitations of this software package and its application to the study of animal movement, behavior, and ecology.",
+  "source_label": "BEEtag: A Low-Cost, Image-Based Tracking System for the Study of Animal Behavior and Locomotion",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1885
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "article-requested-concept:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "f49d440a9f86318c8b62361a008f7d30bb0b798729dcaff7c0e591ae1c65dbe4"
+}

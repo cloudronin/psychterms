@@ -1,0 +1,26 @@
+{
+  "id": "ais",
+  "term": "AIS",
+  "source": "article-pmc12978504",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0340021",
+  "revision": "2026; DOI 10.1371/journal.pone.0340021; article XML SHA-256 2f2403619bcb062c87467613bf55fd043895540877a585dc5ad7103b3ab2b197",
+  "source_snapshot_sha256": "2f2403619bcb062c87467613bf55fd043895540877a585dc5ad7103b3ab2b197",
+  "url": "https://doi.org/10.1371/journal.pone.0340021",
+  "text": "Automatic Identification System (AIS) data provides crucial information about vessel trajectories. However, raw AIS data is often highly redundant, containing overlapping and repetitive routes, which complicates its direct use in maritime applications such as navigation planning and route prediction. In this paper, we propose an improved simplification algorithm designed to extract typical routes while preserving vessel movement continuity. Our approach simplifies complex AIS data by applying an enhanced distance threshold pruning technique and analyzing the continuity of vessel operations to address route segment discontinuities and coordinate deviations.We conducted experiments to evaluate the impact of the simplification algorithm on deep learning applications, specifically in trajectory prediction and anomaly detection. The results demonstrate that the simplified data significantly improves both training efficiency and prediction accuracy in trajectory forecasting models using deep learning, while also enhancing anomaly detection capabilities. Compared to models trained on the original AIS data, those trained on the simplified data achieved faster convergence and higher precision, with fewer false positives in anomaly detection tasks.The findings highlight the practical advantages of the proposed simplification method, making it a valuable tool for real-time maritime monitoring and improving overall operational efficiency. Our code and data at https://doi.org/10.5281/zenodo.17568672 .",
+  "source_label": "Improved AIS data simplification algorithm for extracting typical routes considering motion continuity",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1513
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "c1d7ef84ceb67ba4357c21a4a67e796bc0b5e519e336796c6b06840bd2411bad"
+}

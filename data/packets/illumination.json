@@ -1,0 +1,26 @@
+{
+  "id": "illumination",
+  "term": "illumination",
+  "source": "article-pmc13183219",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0337646",
+  "revision": "2026; DOI 10.1371/journal.pone.0337646; article XML SHA-256 17c215352e91952ccd664164d8ca286f9d96167f8f3acaa77c86c78308e60492",
+  "source_snapshot_sha256": "17c215352e91952ccd664164d8ca286f9d96167f8f3acaa77c86c78308e60492",
+  "url": "https://doi.org/10.1371/journal.pone.0337646",
+  "text": "Among many issues, Robot vision experiences illumination challenges very frequently. Existing Human Action Recognition techniques perform excellently in state of the art, instead of scarce consideration on the vital issue of illumination. The illumination concern becomes highly sensitive when the Robot observes a medical-related action. The illumination severely affects the correct recognition of the action. Resultantly, misclassification of a medical action may lead to irreparable loss. To gauge the sensitivity of the concern, the current study proposes a deep learning-based model I2I (Illusion to Illumination). The model effectually identifies medical actions even in dark environments with sufficient accuracy. I2I model depth data has been selected from the NTU RGB+D dataset to judge the efficacy. The features are extracted from depth data using the Histogram of Depth (HoD) and provided to the I2I model to recognize actions. A threshold mechanism is applied to select depth data’s most prominent and valuable features. The efficacy and superiority of the I2I model are proven by comparing its performance with state-of-the-art research and provides 91.15% recognition accuracy.",
+  "source_label": "I2I - From illusion to illumination: A neoteric deep learning model for recognizing medical situation actions using depth sensors data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9b76e6ded6e6949aec6470d3f2c8cc4b3a8e490a49d602cd0e13593eebc9e3dd"
+}

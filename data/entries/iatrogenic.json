@@ -1,0 +1,63 @@
+{
+  "id": "iatrogenic",
+  "term": "iatrogenic",
+  "definition": "Iatrogenic describes harm that is caused by an intervention or helping process itself rather than by the original problem. In this context, it refers to risks created when false-positive labeling produces negative effects.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12953542"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12953542",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1682555; article XML SHA-256 52a26ab5d9d699dd119bf0a40fe143307562d880c583a0198f6bfe6c162dec2b",
+      "scope": "Source record 10.3389/fpsyg.2026.1682555; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1682555"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "becbe01818509a74cf7725dce20a8e652e7df4739ad453acbb9edc6e42100394",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fc7860c989314d53b20fee409dc2fd36",
+    "request_hash": "92d9f486db7ba3b10e735f4156b782a97ba59dfd88449557b6e9716cc3dfd9f1",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "f67dc34e713374f047f3cc8bb7582e203f80150f566a6072a5fbea276dcaee93",
+    "packet_hash": "becbe01818509a74cf7725dce20a8e652e7df4739ad453acbb9edc6e42100394"
+  },
+  "hash": "929d20c34b04afe3e2e33841ce1b6b02b1ad0014b56f159a8b63edf854e6464f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only mentions iatrogenic risks in the context of false-positive labeling, but it does not support the broader, general definition that “iatrogenic describes harm caused by an intervention or helping process itself rather than by the original problem.”",
+        "Because that main definitional claim is not explicitly present in the supplied packet, the requested sense of the term is not fully defensible from the provided source."
+      ],
+      "definition_hash": "f67dc34e713374f047f3cc8bb7582e203f80150f566a6072a5fbea276dcaee93",
+      "packet_hash": "becbe01818509a74cf7725dce20a8e652e7df4739ad453acbb9edc6e42100394",
+      "published_packet_hash": "becbe01818509a74cf7725dce20a8e652e7df4739ad453acbb9edc6e42100394",
+      "receipt_id": "0ebc45f4ae1d40509c32e1b524cac039",
+      "request_hash": "7e41b778c377fcd13455acf11da3723e4867e94e5bf0a9f574ea6669b8fdcc06",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that false-positive labeling may trigger iatrogenic risks; it does not support the broader definition that iatrogenic means harm caused by an intervention or helping process itself rather than by the original problem.",
+        "The field label ‘ethics’ is defensible, but the definition goes beyond the supplied source by generalizing the term’s meaning instead of staying within the packet’s usage."
+      ],
+      "definition_hash": "f67dc34e713374f047f3cc8bb7582e203f80150f566a6072a5fbea276dcaee93",
+      "packet_hash": "becbe01818509a74cf7725dce20a8e652e7df4739ad453acbb9edc6e42100394",
+      "published_packet_hash": "becbe01818509a74cf7725dce20a8e652e7df4739ad453acbb9edc6e42100394",
+      "receipt_id": "19acdd3d97be4380837152fed7bb892c",
+      "request_hash": "fef9f298c259eb71d32c9aa32add7a7ea8f43617fa32464e3d14841b27c40135",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

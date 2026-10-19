@@ -1,0 +1,65 @@
+{
+  "id": "ridge-regression",
+  "term": "ridge regression",
+  "definition": "Ridge regression is a regularized linear regression method used to model and predict outcomes. In this context, it belongs to a group of approaches valued for producing more robust and interpretable results when datasets are small and predictors are highly overlapping.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13558022"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13558022",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1792200; article XML SHA-256 870591678d941c203cf66be9844b6e8c134f3d7b3765e2510f600230b3bf9681",
+      "scope": "Source record 10.3389/fpsyg.2026.1792200; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1792200"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "42564261f19942e7a0c23aefe01008c3",
+    "request_hash": "48ce6b094baf20f77def2b742dd4cf90d6949c3e6ecda1208866138aecd56536",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "8d4f10af9f32251604a0dd6aecb42f3a2e6af52bc61c0fb0e3fafa361ba394ee",
+    "packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403"
+  },
+  "hash": "a9ee46953af616c0009e1122748e95882e74099c9ceacedffdfd4793467c88ff",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions ridge regression only as one of several benchmarked regression algorithms; it does not define ridge regression as a regularized linear regression method or describe its use for modeling and prediction.",
+        "The claim that this method is valued for producing more robust and interpretable results in small datasets with highly overlapping predictors is not supported for ridge regression specifically; the packet discusses that kind of robustness/interpretablility mainly in relation to regularized linear models overall, and explicitly highlights Elastic Net rather than ridge regression.",
+        "The definition adds a broader methodological/general-purpose description that goes beyond the supplied source text, which does not provide enough support for those substantive claims."
+      ],
+      "definition_hash": "8d4f10af9f32251604a0dd6aecb42f3a2e6af52bc61c0fb0e3fafa361ba394ee",
+      "packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403",
+      "published_packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403",
+      "receipt_id": "5362396f6ebf4fba853d363dfd894172",
+      "request_hash": "8def6a3f64441965b3baaaff56f4282794ece167f3cd2513c9ad09b77f71b340",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define ridge regression; it only lists ridge regression as one of several benchmarked algorithms.",
+        "The definition’s claims about ridge regression specifically producing “more robust and interpretable results” under “small” datasets and “highly overlapping” predictors are not supported as statements about ridge regression; the packet reports these advantages for regularized linear models overall and specifically highlights Elastic Net as most stable/interpretable.",
+        "The packet references multicollinearity and limited observations in the context of Elastic Net’s dominance (sparsity + coefficient shrinkage), not ridge regression."
+      ],
+      "definition_hash": "8d4f10af9f32251604a0dd6aecb42f3a2e6af52bc61c0fb0e3fafa361ba394ee",
+      "packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403",
+      "published_packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403",
+      "receipt_id": "6e6c68e646ed4db2b5d542f6eb621bc6",
+      "request_hash": "9fa202d03ae5fb63948827b24148516dc165cd2255b482dc71d6b8275b7c34fa",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

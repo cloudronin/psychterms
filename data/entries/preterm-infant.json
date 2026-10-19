@@ -1,0 +1,63 @@
+{
+  "id": "preterm-infant",
+  "term": "preterm infant",
+  "definition": "A preterm infant is a baby born earlier than the usual length of pregnancy. In this source, the term is used especially for very preterm infants born at or before 32 weeks of gestation, often also with very low birth weight.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12240376"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12240376",
+      "revision": "2025; DOI 10.1371/journal.pone.0327628; article XML SHA-256 c8555b946f2638880b1b43e1b89fd227ceeb5df8cb9f9d74f2b27cb28e5a076b",
+      "scope": "Source record 10.1371/journal.pone.0327628; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0327628"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1b8e052449ff06db51f855d54c279f4cc7c6b9be3603e38ba995d695a47c45ea",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "35a3bddebf384df898cdea2be990264d",
+    "request_hash": "1536337db256f3e54ffffa2f0e580452e7bdff43939bcd29ce87815b3c788d69",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "0720df1edebf1a004f6cec000270e6630550e5772535d4ee38c56782a61760db",
+    "packet_hash": "1b8e052449ff06db51f855d54c279f4cc7c6b9be3603e38ba995d695a47c45ea"
+  },
+  "hash": "90d15ed693da57759dbf0a5f09ee2374666c525a6cfc739bb8583c903ad54c0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general meaning (“a baby born earlier than the usual length of pregnancy”) is not stated in the packet.",
+        "The packet supports a study population of very preterm (≤32 weeks’ gestation) and very low birth weight (≤1500 g) infants, but not the wording that the term is “used especially” for that group or that it is “often also” associated with very low birth weight."
+      ],
+      "definition_hash": "0720df1edebf1a004f6cec000270e6630550e5772535d4ee38c56782a61760db",
+      "packet_hash": "1b8e052449ff06db51f855d54c279f4cc7c6b9be3603e38ba995d695a47c45ea",
+      "published_packet_hash": "1b8e052449ff06db51f855d54c279f4cc7c6b9be3603e38ba995d695a47c45ea",
+      "receipt_id": "ea38e68a6def4c07a8642aa2bd6143fd",
+      "request_hash": "7543430ecce9d9e9ff43ebbadcaaf9f91e5c22f0c2a26d5d1c7561cc180b1454",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that a “preterm infant” is “a baby born earlier than the usual length of pregnancy,” so the general definition is not supported.",
+        "The packet only specifies the study’s focus as “very preterm (≤32 weeks’ gestation) and very low birth weight (≤1500 g) infants,” which supports the ≤32 weeks/very low birth weight emphasis, but it does not establish that this is how the term is used in the source (“used especially for…”) beyond the study’s inclusion criteria."
+      ],
+      "definition_hash": "0720df1edebf1a004f6cec000270e6630550e5772535d4ee38c56782a61760db",
+      "packet_hash": "1b8e052449ff06db51f855d54c279f4cc7c6b9be3603e38ba995d695a47c45ea",
+      "published_packet_hash": "1b8e052449ff06db51f855d54c279f4cc7c6b9be3603e38ba995d695a47c45ea",
+      "receipt_id": "c54eb23c9b164e4ba100fb9df46f0b3b",
+      "request_hash": "0d0f753705c59e6e4273f73c3870d57a8d81c3f8fd9fd01e61293f0b3074263e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

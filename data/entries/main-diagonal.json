@@ -1,0 +1,59 @@
+{
+  "id": "main-diagonal",
+  "term": "main diagonal",
+  "definition": "In a protein distance matrix, the main diagonal is the central line running from one corner to the opposite corner. Features located near this diagonal tend to occur more often than features found farther away in the corners of the matrix.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8815937"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8815937",
+      "revision": "2022; DOI 10.1371/journal.pone.0263566; article XML SHA-256 50896c505b8303f9fae4612c440be3601b690e1984179d6f40a0ade05de64b16",
+      "scope": "Source record 10.1371/journal.pone.0263566; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0263566"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8c33cc561258433b8310ea2fcdeecb9a",
+    "request_hash": "2f55614a051f72917cd10a14dd92efcaceabca502a7394260165f765a5cbb3e1",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "73a820ef38313f6706bba935ee895ad287bbed789d47989550e2cb24e3afde17",
+    "packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d"
+  },
+  "hash": "02b537e23f6bbf0388c09bb6e58fc69e5e3b59e4503d0dbe934c6343a047d34c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "73a820ef38313f6706bba935ee895ad287bbed789d47989550e2cb24e3afde17",
+      "packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d",
+      "published_packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d",
+      "receipt_id": "fec58d6c02a24cfe9ac23413af8d5492",
+      "request_hash": "f2b51bc681518137a5818bf8e7a4272a68cd08fdf730102a0efc12099463c37e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define the main diagonal’s geometry as the “central line running from one corner to the opposite corner.” It only states that more frequent features/codewords are “located closer to the main diagonal” and less frequent ones are in “the corners,” without describing the diagonal’s position in those terms."
+      ],
+      "definition_hash": "73a820ef38313f6706bba935ee895ad287bbed789d47989550e2cb24e3afde17",
+      "packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d",
+      "published_packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d",
+      "receipt_id": "a3cc895a01574f9e9f562a5fd2ec2d5f",
+      "request_hash": "7dfcdffcd01704cf5a630392e3dfaf98e1534e615f7f82ede95763608a5374de",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

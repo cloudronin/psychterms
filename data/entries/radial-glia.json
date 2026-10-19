@@ -1,0 +1,64 @@
+{
+  "id": "radial-glia",
+  "term": "radial glia",
+  "definition": "Radial glia are neural lineage cells; in primates, outer radial glia are noted for having extended developmental lineages that include intermediate neural progenitors. In this packet, they are mentioned only in comparison to Drosophila type II neuroblasts.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9754222"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9754222",
+      "revision": "2022; DOI 10.1371/journal.pone.0272177; article XML SHA-256 6338bef07166ea14e99bad7a2078308cf372bcd3e9f2673685f227681b4e5fec",
+      "scope": "Source record 10.1371/journal.pone.0272177; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0272177"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6894d01461b9302ba3d3183537bac9825434d5f076521bdbd3bceae51e3ecf50",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "782f299ac2e349c0b9f2f0cbad744374",
+    "request_hash": "bfda39c611824ca1933e622535654b28a5da97029697085716eba1a6861e0957",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "2989040cc178be63af18fb9cbca807993a3ce647ee77e178b264634038e5f56e",
+    "packet_hash": "6894d01461b9302ba3d3183537bac9825434d5f076521bdbd3bceae51e3ecf50"
+  },
+  "hash": "b80e9a517ae0d6e85a77560a3647634890f02ecec20725e1ff62ad6c481f3567",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only a comparison between Drosophila type II neuroblasts and primate outer radial glia; it does not define radial glia generally as neural lineage cells.",
+        "The clause about primates is too specific and risks overgeneralizing from outer radial glia in the source to all radial glia.",
+        "The sentence about how the term is “mentioned only in comparison to Drosophila type II neuroblasts” is a commentary on the packet rather than a definition supported by the source text."
+      ],
+      "definition_hash": "2989040cc178be63af18fb9cbca807993a3ce647ee77e178b264634038e5f56e",
+      "packet_hash": "6894d01461b9302ba3d3183537bac9825434d5f076521bdbd3bceae51e3ecf50",
+      "published_packet_hash": "6894d01461b9302ba3d3183537bac9825434d5f076521bdbd3bceae51e3ecf50",
+      "receipt_id": "1a59507e83034009b7ba176db5b00da5",
+      "request_hash": "cf2d0c6bb095afaa7f5b7451fac82212d2ab5f5e8757212046d39dfcecd6cdf5",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims: “Radial glia are neural lineage cells,” but the supplied packet only compares “outer radial glia in primates” to Drosophila type II neuroblasts and does not state that radial glia are neural lineage cells.",
+        "The packet supports only the comparison that “outer radial glia in primates” have extended lineages including intermediate neural progenitors, but it does not support the broader “radial glia” generalization used in the first sentence."
+      ],
+      "definition_hash": "2989040cc178be63af18fb9cbca807993a3ce647ee77e178b264634038e5f56e",
+      "packet_hash": "6894d01461b9302ba3d3183537bac9825434d5f076521bdbd3bceae51e3ecf50",
+      "published_packet_hash": "6894d01461b9302ba3d3183537bac9825434d5f076521bdbd3bceae51e3ecf50",
+      "receipt_id": "0c4b83aaca2d4af1a85c1595f351ee96",
+      "request_hash": "24a73a8244d4f9270f72be044d3a0d7f027820e630eeac7276e46b8d7f59ff7b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

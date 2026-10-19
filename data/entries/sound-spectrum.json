@@ -1,0 +1,63 @@
+{
+  "id": "sound-spectrum",
+  "term": "sound spectrum",
+  "definition": "The sound spectrum is the range of frequency-based information in an audio signal that can be analyzed to describe features of sound. In music research, it is used to capture characteristics such as timbral texture, tonal texture, and rhythmic activity.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7660469"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7660469",
+      "revision": "2020; DOI 10.1371/journal.pone.0240915; article XML SHA-256 6183ff712af2c071e6cf0f3b7176ad0ac2b12eb53e9835b4845941f453b25509",
+      "scope": "Source record 10.1371/journal.pone.0240915; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0240915"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bb695828fd0b43749b393cb2e71ec18d",
+    "request_hash": "2a3705c9ff134af0d0378d9c242cbf8f67dbfb7f3cf1588d2d89f14ae2cac1be",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "eea0a4002d138c8bbc26558819f6e8e02d5f24698f60d5692a51c6eb05558c85",
+    "packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606"
+  },
+  "hash": "1a3cb9209f4b5f528a873814f889a5589b343f81880f66e1967627c3a1a34f9b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general definition of “sound spectrum” as a “range of frequency-based information” in an audio signal, but the packet only supports that feature-extraction algorithms analyze information within the sound spectrum; it does not explicitly define the term that way.",
+        "The packet supports the examples of timbral texture, tonal texture, and rhythmic activity, but not the broader definitional claim that the sound spectrum is specifically a range of analyzable frequency-based information."
+      ],
+      "definition_hash": "eea0a4002d138c8bbc26558819f6e8e02d5f24698f60d5692a51c6eb05558c85",
+      "packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606",
+      "published_packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606",
+      "receipt_id": "6667457ddebf44579314af6f3671995c",
+      "request_hash": "19145dc5df23a146a827ef5dcfcd03bc7a02bfae4ee5426dc8dc5d17aacf5348",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“range of frequency-based information…”) is a general characterization of ‘sound spectrum’ that is not explicitly stated in the provided packet.",
+        "While the packet supports that Fourier-transform coefficients obtained within the ‘sound spectrum’ relate to timbral texture, tonal texture, and rhythmic activity, the packet does not support the broader claim that ‘sound spectrum’ is inherently ‘the range’ of such frequency-based information."
+      ],
+      "definition_hash": "eea0a4002d138c8bbc26558819f6e8e02d5f24698f60d5692a51c6eb05558c85",
+      "packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606",
+      "published_packet_hash": "afde568378266f8b51d3e6c0aeadaafecac4e73ca53a9cf1194d2f909aaf1606",
+      "receipt_id": "ffe8970a49b04a899fd5093e2c5b216a",
+      "request_hash": "75690b15f37ac06028c642e4c531b506d3bc8a884b3adfc1d134c393199605da",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

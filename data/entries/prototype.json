@@ -1,0 +1,60 @@
+{
+  "id": "prototype",
+  "term": "prototype",
+  "definition": "A prototype is a representative pattern or summary example for a class that new items are compared against. In the source, classification is done by measuring how similar a region’s features are to class prototypes.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13618933"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13618933",
+      "revision": "2026; DOI 10.1371/journal.pone.0359400; article XML SHA-256 4f6789304dfd63feec42f7c1d9ec22d3102104ba7b17f6317fd883afa8724086",
+      "scope": "Source record 10.1371/journal.pone.0359400; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0359400"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "778d3752934f42d8a68ad713fd0ebce9",
+    "request_hash": "fe2ae0f0a75713887c6f01b3bdd9e353a4cd5e71f233554bd6e90d108deee9d8",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "72195ff17251e57841b7a9a697e08be7bbb58f371401aef8a1ceffc4383611c4",
+    "packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695"
+  },
+  "hash": "d769c554cf916e363143cecc0bd4e4070bd49e3eb7150103521202fe50da80aa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "72195ff17251e57841b7a9a697e08be7bbb58f371401aef8a1ceffc4383611c4",
+      "packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695",
+      "published_packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695",
+      "receipt_id": "20a4d53f8f8f4f61a14998fb2022285f",
+      "request_hash": "c14a959a89623997095d5e9f894995ef1cc97c0a8cc5d9e5840cf04ed53c331a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions “class prototypes” and “prototype matching” (cosine similarity between RoI features and class prototypes), but it does not define a prototype as a “representative pattern or summary example,” so that part is unsupported.",
+        "Because the definition’s first sentence contains an unsupported general characterization of “prototype,” the requested sense of the term is not fully supported by the supplied packet."
+      ],
+      "definition_hash": "72195ff17251e57841b7a9a697e08be7bbb58f371401aef8a1ceffc4383611c4",
+      "packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695",
+      "published_packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695",
+      "receipt_id": "50e35c6738984957bec85b25c2d7b555",
+      "request_hash": "ee174667198d8d9f5b2277d5e2eca20a900c3ba06efa05b2cdb41ed58b1475b9",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

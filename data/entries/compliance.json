@@ -1,0 +1,61 @@
+{
+  "id": "compliance",
+  "term": "compliance",
+  "definition": "Compliance is the extent to which people follow the prevention and control activities or other evidence-based practices that have been put in place. In this context, low compliance means not consistently carrying out those practices, which is linked to worse health and mental health outcomes.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13258126"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13258126",
+      "revision": "2026; DOI 10.1371/journal.pone.0337254; article XML SHA-256 daee54e2fc89d8988b42e08c4c84f40b461ec3e039ed0f5635837913bd5d0969",
+      "scope": "Source record 10.1371/journal.pone.0337254; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337254"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1991eef7e586dfb4ddda5e7bc5e0671153355f53e97704629f252eba35dde96e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d1e0bc295d904d50b0d21f3fa16cea51",
+    "request_hash": "bc1a1f6c1a10f60bf7576331d0d2b9ff69a314bfac5a5bf5bc730751d0bca342",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "1651981271da5c1fbd36382792dd05327a75f57d8a8149b9383f2e2a781a1295",
+    "packet_hash": "1991eef7e586dfb4ddda5e7bc5e0671153355f53e97704629f252eba35dde96e"
+  },
+  "hash": "1ea4743889a1566d83ca9d958db10f4ed2138c6dd96676518de3027c2f903406",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1651981271da5c1fbd36382792dd05327a75f57d8a8149b9383f2e2a781a1295",
+      "packet_hash": "1991eef7e586dfb4ddda5e7bc5e0671153355f53e97704629f252eba35dde96e",
+      "published_packet_hash": "1991eef7e586dfb4ddda5e7bc5e0671153355f53e97704629f252eba35dde96e",
+      "receipt_id": "bc85085de7cc44aba762aa74a3adea18",
+      "request_hash": "f1de2d4ab90f5f86d00f833d4968be1cb7d78d74a2dfca31b958a5f239276aa5",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “compliance” as “the extent to which people follow … activities”; it only mentions “compliance” in the context of monitoring and links low compliance to adverse outcomes.",
+        "The definition’s claim that low compliance is “linked to worse health and mental health outcomes” is only indirectly supported by the packet’s statements about adverse effects and mental health disorders; the packet does not substantiate the precise causal/association framing used in the definition as a general definition.",
+        "The provided definition is filed under the cognition field, but the packet discusses compliance with infection prevention and control (IPC) practices by healthcare workers, which is more directly behavioral/implementation-related than cognitive as presented."
+      ],
+      "definition_hash": "1651981271da5c1fbd36382792dd05327a75f57d8a8149b9383f2e2a781a1295",
+      "packet_hash": "1991eef7e586dfb4ddda5e7bc5e0671153355f53e97704629f252eba35dde96e",
+      "published_packet_hash": "1991eef7e586dfb4ddda5e7bc5e0671153355f53e97704629f252eba35dde96e",
+      "receipt_id": "08a65dd6dbc24bf09fa537da6667f303",
+      "request_hash": "9e1dbcebaa7bd7e38fe14b86aeb9ff9c3f55268deeacdd27a0cd6da2dc8a1ab2",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

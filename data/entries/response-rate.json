@@ -1,0 +1,63 @@
+{
+  "id": "response-rate",
+  "term": "response rate",
+  "definition": "Response rate is the percentage of the people invited or eligible for a study who actually provide data. In the source study, 1,332 first-year postgraduate taught students made up a 68% response rate.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13577360"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13577360",
+      "revision": "2026; DOI 10.1371/journal.pone.0358341; article XML SHA-256 33b519252c37ceff7076701bf1a86d39effd111657fa0df7f71fd6041748b70e",
+      "scope": "Source record 10.1371/journal.pone.0358341; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358341"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2d2e9f576355adfcdb6a968425c5d267520c00eab0070768244a7e7aa44046e5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e7841220961b4d09b93d1eb2eb40cdf4",
+    "request_hash": "0706140d035c016b7d1517797506cc2571804f45be4621750de5c57ee1bb384d",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "033acd8031d9d793e15d0e341382025a2a916ce676aac714c791368d0706e060",
+    "packet_hash": "2d2e9f576355adfcdb6a968425c5d267520c00eab0070768244a7e7aa44046e5"
+  },
+  "hash": "1aa503d16f4c34821213940192bcd0f875e18b92c4103aa7f3cac64c29b66f54",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that 1,332 first-year postgraduate taught students were associated with a 68% response rate, but it does not define response rate as the percentage of invited or eligible people who actually provide data.",
+        "The definition adds a general methodological explanation that is not stated in the source packet; a citation to the study alone is not sufficient support for that broader claim."
+      ],
+      "definition_hash": "033acd8031d9d793e15d0e341382025a2a916ce676aac714c791368d0706e060",
+      "packet_hash": "2d2e9f576355adfcdb6a968425c5d267520c00eab0070768244a7e7aa44046e5",
+      "published_packet_hash": "2d2e9f576355adfcdb6a968425c5d267520c00eab0070768244a7e7aa44046e5",
+      "receipt_id": "fe28cfae76914f7a9bc469ea63833086",
+      "request_hash": "846590d9e005b5d694c31940ce772816b2172ba005dce52da13b335583693e71",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“percentage of the people invited or eligible for a study who actually provide data”) is not explicitly stated or supported anywhere in the provided packet text.",
+        "The packet only provides the study-specific figure (“1332 first-year PGT students (68% response rate)”) but does not define the term ‘response rate’ or clarify the denominator as “invited or eligible.”"
+      ],
+      "definition_hash": "033acd8031d9d793e15d0e341382025a2a916ce676aac714c791368d0706e060",
+      "packet_hash": "2d2e9f576355adfcdb6a968425c5d267520c00eab0070768244a7e7aa44046e5",
+      "published_packet_hash": "2d2e9f576355adfcdb6a968425c5d267520c00eab0070768244a7e7aa44046e5",
+      "receipt_id": "941232db5a4e4181bea51d7a6fede91b",
+      "request_hash": "ebdf3c8e3331c688add0a8c0a0fb6d83d4b5d4fa3a4c7415180c03bceaa092f8",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

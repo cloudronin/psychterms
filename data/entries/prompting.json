@@ -1,0 +1,64 @@
+{
+  "id": "prompting",
+  "term": "prompting",
+  "definition": "Prompting is the use of embedded cues or questions within instructional support to guide learners during a cognitively demanding task such as experimentation. In this context, it is treated as a component of incremental scaffolds that may add cognitive and affective support beyond giving sample solutions alone.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13125011"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13125011",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1754081; article XML SHA-256 ad73a98afa64c58a8df7cbd6369b16658fde6a425b293e490dbe04bc1da5e834",
+      "scope": "Source record 10.3389/fpsyg.2026.1754081; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1754081"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dfa43a3da27e8514dda6de7a93bc7f45ee20f71cf473300c2a57f577ad399731",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "62c0fc35940e442b9a312cfc85b33ef2",
+    "request_hash": "1ce15291a8aefcff71ce4c08bbbe5f5b0815e2f58e89350e1d18459737f211db",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "92edb8a98b24a86434e5136b667e5b97e7ca16660bf5846549dd4a082d06ee53",
+    "packet_hash": "dfa43a3da27e8514dda6de7a93bc7f45ee20f71cf473300c2a57f577ad399731"
+  },
+  "hash": "e082349361403190d7ae07947d201fa6cba591bdec869dc10e61c9cd10b9d367",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds specifics not stated in the packet, such as prompting being “embedded cues or questions” and a general instructional-support mechanism for guiding learners.",
+        "“Sample solutions alone” and the claim that prompting adds “cognitive and affective support” are only partially supported; the packet says the study examined added value of prompting within incremental scaffolds versus sample solutions, but does not define prompting that broadly."
+      ],
+      "definition_hash": "92edb8a98b24a86434e5136b667e5b97e7ca16660bf5846549dd4a082d06ee53",
+      "packet_hash": "dfa43a3da27e8514dda6de7a93bc7f45ee20f71cf473300c2a57f577ad399731",
+      "published_packet_hash": "dfa43a3da27e8514dda6de7a93bc7f45ee20f71cf473300c2a57f577ad399731",
+      "receipt_id": "9acb5c7c45a443b997e86b698be21fef",
+      "request_hash": "e6c9f4162b35e77daf608d0911a5c75e04e3cf55d7c59f30d6692a8d572a2b19",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “prompting” as “embedded cues or questions,” only that the study compared “incremental scaffolds with embedded prompts” versus sample solutions without prompting.",
+        "The packet mentions “incremental scaffolds” supporting learners “cognitively and affectively,” but it does not explicitly state that prompting is a component that “may add cognitive and affective support beyond giving sample solutions alone.” (It frames the added value as an empirical comparison, rather than establishing that outcome.)",
+        "Claims about prompting “guid[ing] learners during a cognitively demanding task such as experimentation” are only partially supported; the packet indicates experimentation as the cognitively demanding task and that prompts were embedded within scaffolds, but it does not describe prompting’s guiding mechanism in those terms."
+      ],
+      "definition_hash": "92edb8a98b24a86434e5136b667e5b97e7ca16660bf5846549dd4a082d06ee53",
+      "packet_hash": "dfa43a3da27e8514dda6de7a93bc7f45ee20f71cf473300c2a57f577ad399731",
+      "published_packet_hash": "dfa43a3da27e8514dda6de7a93bc7f45ee20f71cf473300c2a57f577ad399731",
+      "receipt_id": "11b1946cde314f319dee3fd99378b72b",
+      "request_hash": "0bac1712de54bbf38e552a796aef7de82e3e834fdf3fc000c51c0b42ba3111b2",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

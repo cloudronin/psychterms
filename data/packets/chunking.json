@@ -1,0 +1,26 @@
+{
+  "id": "chunking",
+  "term": "chunking",
+  "source": "article-pmc7279599",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0234214",
+  "revision": "2020; DOI 10.1371/journal.pone.0234214; article XML SHA-256 aebed5243e73e58af99095e8e34037959ab30fa62550b17e485655a9ad76c404",
+  "source_snapshot_sha256": "aebed5243e73e58af99095e8e34037959ab30fa62550b17e485655a9ad76c404",
+  "url": "https://doi.org/10.1371/journal.pone.0234214",
+  "text": "Symbolic sequential data are produced in huge quantities in numerous contexts, such as text and speech data, biometrics, genomics, financial market indexes, music sheets, and online social media posts. In this paper, an unsupervised approach for the chunking of idiomatic units of sequential text data is presented. Text chunking refers to the task of splitting a string of textual information into non-overlapping groups of related units. This is a fundamental problem in numerous fields where understanding the relation between raw units of symbolic sequential data is relevant. Existing methods are based primarily on supervised and semi-supervised learning approaches; however, in this study, a novel unsupervised approach is proposed based on the existing concept of n-grams, which requires no labeled text as an input. The proposed methodology is applied to two natural language corpora: a Wall Street Journal corpus and a Twitter corpus. In both cases, the corpus length was increased gradually to measure the accuracy with a different number of unitary elements as inputs. Both corpora reveal improvements in accuracy proportional with increases in the number of tokens. For the Twitter corpus, the increase in accuracy follows a linear trend. The results show that the proposed methodology can achieve a higher accuracy with incremental usage. A future study will aim at designing an iterative system for the proposed methodology.",
+  "source_label": "Unsupervised acquisition of idiomatic units of symbolic natural language: An n-gram frequency-based approach for the chunking of news articles and tweets",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1439
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "65e5f8a89400c595cb4d5ce9f4fbdac2d4bbeec1c31522e28a88a92708d27772"
+}

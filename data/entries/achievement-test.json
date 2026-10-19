@@ -1,0 +1,64 @@
+{
+  "id": "achievement-test",
+  "term": "achievement test",
+  "definition": "An achievement test is a test used to measure how well students have performed academically, typically by comparing their scores or results. In this context, it was used to examine students’ knowledge and performance under different learning conditions.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8920276"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8920276",
+      "revision": "2022; DOI 10.1371/journal.pone.0265356; article XML SHA-256 ce03b7feb000ad3cbc236ef784503955150aeaf3442e46c28be5095802e92b91",
+      "scope": "Source record 10.1371/journal.pone.0265356; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0265356"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4f572fee49d98e85dcf969e1315f84f9106eb8d7ce1c5d267e34798f490542ff",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "50594440cb2a4c4bbf1c9a7abf2ef69d",
+    "request_hash": "72a014416027ed4c2a81a04edbf09e54b0ee44593e17438eb464a8454b175465",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b6ea6c828b25979fa7376a4bf3195fb7d649b9f682b220b90c4035621b9b1af4",
+    "packet_hash": "4f572fee49d98e85dcf969e1315f84f9106eb8d7ce1c5d267e34798f490542ff"
+  },
+  "hash": "b42159cdf9b71df77dc8ed0b5b87f14b47730234349de3721e8dcc0acc6b9b84",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported details about achievement tests “typically” comparing scores or results; the packet only shows use of test results/scores in one study, not a general comparison feature.",
+        "“Students’ knowledge” is not stated in the packet as what the achievement test measured; the packet refers to achievement test performance and test results.",
+        "The contextual clause about use “under different learning conditions” is broader than the packet’s wording, which concerns pandemic-related learning changes and performance on achievement tests."
+      ],
+      "definition_hash": "b6ea6c828b25979fa7376a4bf3195fb7d649b9f682b220b90c4035621b9b1af4",
+      "packet_hash": "4f572fee49d98e85dcf969e1315f84f9106eb8d7ce1c5d267e34798f490542ff",
+      "published_packet_hash": "4f572fee49d98e85dcf969e1315f84f9106eb8d7ce1c5d267e34798f490542ff",
+      "receipt_id": "52dd3b443d4f4d65be863148c9c09a0b",
+      "request_hash": "eba7a1ccd86451bc5030b8c9117a13264cca2f6f54111d64a5c358c88d22b6f0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what an “achievement test” is or state that it is “used to measure how well students have performed academically” in general terms; it only describes that the study examined students’ “achievement test performance based on the test results.”",
+        "The packet supports that achievement test scores were compared across groups/conditions (e.g., learning format preference and years), but it does not explicitly support the wording that the test was “typically” used to compare academic performance or that it was used “to examine students’ knowledge,” since it refers to “achievement test performance” rather than knowledge assessment in general."
+      ],
+      "definition_hash": "b6ea6c828b25979fa7376a4bf3195fb7d649b9f682b220b90c4035621b9b1af4",
+      "packet_hash": "4f572fee49d98e85dcf969e1315f84f9106eb8d7ce1c5d267e34798f490542ff",
+      "published_packet_hash": "4f572fee49d98e85dcf969e1315f84f9106eb8d7ce1c5d267e34798f490542ff",
+      "receipt_id": "359c88bc89e147fbb9b640d415750569",
+      "request_hash": "36eff271023f573ba43aed8f5941f3cf40069c6e1f413069a7339146be5dda6e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

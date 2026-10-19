@@ -1,0 +1,26 @@
+{
+  "id": "peptide",
+  "term": "peptide",
+  "source": "article-pmc13521358",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355549",
+  "revision": "2026; DOI 10.1371/journal.pone.0355549; article XML SHA-256 d993d9b05b40e69ed00fa2ff7060107cebc8ea965e20051abe2fa62bd910bb7e",
+  "source_snapshot_sha256": "d993d9b05b40e69ed00fa2ff7060107cebc8ea965e20051abe2fa62bd910bb7e",
+  "url": "https://doi.org/10.1371/journal.pone.0355549",
+  "text": "G protein-coupled receptors (GPCRs) play an ubiquitous role in the transduction of extracellular stimuli into intracellular responses and therefore represent a major target for the development of novel peptide-based therapeutics. In fact, approximately 30% of all non-sensory GPCRs are peptide-targeted, representing a blueprint for the design of de novo peptides, both as pharmacological tools and therapeutics. The recent advances of deep learning-based protein structure generation and structure prediction offer a multitude of peptide design stategies for GPCRs, yet confidence metrics rarely correlate with experimental success. In the context of peptides, this problem is exacerbated due to the lack of elaborate tertiary structures in peptides, raising the question of whether this is due to inadequate sampling or insufficient scoring. In this two-part benchmark, we addressed this question by first simulating the validation process of 91 unique known GPCR-peptide and 22 unique GPCR-protein complexes including four nanobodies (nAbs) using AlphaFold2 Initial Guess, Boltz-2 and RosettaFold3. We then assessed the peptide sampling capabilities of the respective generative methods BindCraft, BoltzGen and RFdiffusion3. Our results indicate that current design pipelines primarily suffer from significant confidence overestimation for misplaced peptides in the validation phase across all three prediction methods. We further highlight occurrences of significant memorization in both prediction as well as generation of peptides. While all generative methods sample backbone space sufficiently, their simultaneous sequence generation remains subpar and can be partially recovered through the use of ProteinMPNN. Taken together, our benchmark offers guidance for the design of peptides specifically using deep learning-based pipelines.",
+  "source_label": "Assessment of generative de novo peptide design methods for G protein-coupled receptors",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1842
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "30aedd1cf781cb06813c1c2e80b39bd3f205c8d3e5fe77656d837f7738cfd49f"
+}

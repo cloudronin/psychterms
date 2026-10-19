@@ -1,0 +1,63 @@
+{
+  "id": "visual-discrimination",
+  "term": "visual discrimination",
+  "definition": "Visual discrimination is the ability to tell visually presented stimuli apart. In the supplied source, it refers to distinguishing between familiar and unfamiliar human faces based on sight alone.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13189301"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13189301",
+      "revision": "2026; DOI 10.1371/journal.pone.0329529; article XML SHA-256 0d1ce1cfcbfcba19d01e08b0dab9f770dd648bb7301dd95d915bfed42c728cdb",
+      "scope": "Source record 10.1371/journal.pone.0329529; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0329529"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f0f97a5d2d93f0f09c7e5264ea3a8416040a18ff421b28b06225b4d39a6b4b42",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e9fc5f3efd774cdc935a32a05a89650d",
+    "request_hash": "9d00e1f53bcffaa4b06a424205964b7b2b9f07978b210b38623c03903f34d1bc",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "47cb3a73945d145581375195fe85968671cd7b7d41ecfc1b24a6900575e3d7b9",
+    "packet_hash": "f0f97a5d2d93f0f09c7e5264ea3a8416040a18ff421b28b06225b4d39a6b4b42"
+  },
+  "hash": "771e48de79a4ef3a36b0b2db23924c5c80e1f4b70b5c17c5e51aafd5c90a61bd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence makes a broad, general claim (“the ability to tell visually presented stimuli apart”), but the packet only provides evidence for discrimination specifically between familiar and unfamiliar human faces in cows; it does not support the general statement for visual discrimination as a whole.",
+        "The definition also states that, in the supplied source, it refers to distinguishing between familiar and unfamiliar human faces based on sight alone; while this specific interpretation is supported by the packet’s visual preference test, the definition as a whole includes the unsupported broad generalization."
+      ],
+      "definition_hash": "47cb3a73945d145581375195fe85968671cd7b7d41ecfc1b24a6900575e3d7b9",
+      "packet_hash": "f0f97a5d2d93f0f09c7e5264ea3a8416040a18ff421b28b06225b4d39a6b4b42",
+      "published_packet_hash": "f0f97a5d2d93f0f09c7e5264ea3a8416040a18ff421b28b06225b4d39a6b4b42",
+      "receipt_id": "4706bab1f9fe41b09fc3d02cb71c61c0",
+      "request_hash": "da57f75112a238facd701081658899b9396792f36d8eca323bdd1f3e35d81bc6",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general dictionary-style definition that is not stated in the source packet and is broader than the study-specific usage provided there.",
+        "The packet supports only the study context: cows visually discriminated between familiar and unfamiliar human faces in videos; it does not by itself establish the broader general definition of the term."
+      ],
+      "definition_hash": "47cb3a73945d145581375195fe85968671cd7b7d41ecfc1b24a6900575e3d7b9",
+      "packet_hash": "f0f97a5d2d93f0f09c7e5264ea3a8416040a18ff421b28b06225b4d39a6b4b42",
+      "published_packet_hash": "f0f97a5d2d93f0f09c7e5264ea3a8416040a18ff421b28b06225b4d39a6b4b42",
+      "receipt_id": "11d113d05a6e45a48dd16b7b4606ece2",
+      "request_hash": "29e8d00b59e6e151a1560b48de9ebd1a3b99bfb9f39a25f48b01f4c7234beaa0",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

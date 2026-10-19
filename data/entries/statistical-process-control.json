@@ -1,0 +1,60 @@
+{
+  "id": "statistical-process-control",
+  "term": "statistical process control",
+  "definition": "Statistical process control is a way of examining data over time with charts to detect meaningful changes in a process. In this packet, it is described through run charts that look for persistent shifts by checking patterns such as long runs of points on one side of the centre line and how often the data cross that centre.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7272012"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7272012",
+      "revision": "2020; DOI 10.1371/journal.pone.0233920; article XML SHA-256 d1dd34b3ba363f6be45dcf0be9b8f9569430012c5e979941f244913d2fa7b60b",
+      "scope": "Source record 10.1371/journal.pone.0233920; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0233920"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8131e06c55b447929d87d7acd9314a70",
+    "request_hash": "70e0412b6e828213e57394422322f79c7361d41ecfe117943ae910554db84785",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "c03e619f7c5bbfcb40ac9f0b1190f3546197d573d66def0ef8f175ef49fca75b",
+    "packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0"
+  },
+  "hash": "bfbd545294c9de99e828f60f1d0efe45bceede3f8db037bd69b90f7452245712",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c03e619f7c5bbfcb40ac9f0b1190f3546197d573d66def0ef8f175ef49fca75b",
+      "packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0",
+      "published_packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0",
+      "receipt_id": "fce4ff2edadc4901aa3754ec120bbee9",
+      "request_hash": "081dea8197d17e56c737800940e42cb33004759eb6e9394b7c7c8ec9a954c369",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that statistical process control detects “meaningful changes in a process,” but the packet specifically describes it (via run charts and Anhøj rules) as useful for detecting “persistent shifts,” without asserting the broader claim about detecting “meaningful changes.”",
+        "Aside from the contested generalization, the rest of the definition (data over time, charts/runs charts, persistent shifts, long runs on one side of the centre line, and crossings of the centre) is supported by the packet."
+      ],
+      "definition_hash": "c03e619f7c5bbfcb40ac9f0b1190f3546197d573d66def0ef8f175ef49fca75b",
+      "packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0",
+      "published_packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0",
+      "receipt_id": "e30a7feffc504e07a0d37f095ca4b7d2",
+      "request_hash": "779f4939c30e3bdc140b39b6ae21b0fa828c6c860ac9f0cabf758fbeccc4ae09",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

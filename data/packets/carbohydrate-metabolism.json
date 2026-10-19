@@ -1,0 +1,26 @@
+{
+  "id": "carbohydrate-metabolism",
+  "term": "carbohydrate metabolism",
+  "source": "article-pmc7064176",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0209725",
+  "revision": "2020; DOI 10.1371/journal.pone.0209725; article XML SHA-256 0dacd02e554b187209af37f15c30f3984e8b87c20b22f7985ace35098a9e9787",
+  "source_snapshot_sha256": "0dacd02e554b187209af37f15c30f3984e8b87c20b22f7985ace35098a9e9787",
+  "url": "https://doi.org/10.1371/journal.pone.0209725",
+  "text": "This paper describes CarbMetSim , a discrete-event simulator that tracks the blood glucose level of a person in response to a timed sequence of diet and exercise activities. CarbMetSim implements broader aspects of carbohydrate metabolism in human beings with the objective of capturing the average impact of various diet/exercise activities on the blood glucose level. Key organs (stomach, intestine, portal vein, liver, kidney, muscles, adipose tissue, brain and heart) are implemented to the extent necessary to capture their impact on the production and consumption of glucose. Key metabolic pathways ( glucose oxidation , glycolysis and gluconeogenesis ) are accounted for in the operation of different organs. The impact of insulin and insulin resistance on the operation of various organs and pathways is captured in accordance with published research. CarbMetSim provides broad flexibility to configure the insulin production ability, the average flux along various metabolic pathways and the impact of insulin resistance on different aspects of carbohydrate metabolism. The simulator does not yet have a detailed implementation of protein and lipid metabolism. This paper contains a preliminary validation of the simulator’s behavior. Significant additional validation is required before the simulator can be considered ready for use by people with Diabetes.",
+  "source_label": "CarbMetSim : A discrete-event simulator for carbohydrate metabolism in humans",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1367
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "a958e3463f7a4c2e11e6c0dc40f6116589b8bcb1181b2ae45bf31885c831782a"
+}

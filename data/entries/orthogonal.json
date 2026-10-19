@@ -1,0 +1,62 @@
+{
+  "id": "orthogonal",
+  "term": "orthogonal",
+  "definition": "Orthogonal describes parts of a structure being set up so they are mathematically independent from one another. In this source, it refers to filters initialized to preserve that independence within their internal spatial arrangement.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12074655"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12074655",
+      "revision": "2025; DOI 10.1371/journal.pone.0320757; article XML SHA-256 b48d5c42ea481a2b7612599b0e11bd6f6bafb55f2e7c1468f0ff984079a1ae9f",
+      "scope": "Source record 10.1371/journal.pone.0320757; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0320757"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2dcb525bff2865b99e1a63393e4209c7ad225107a18482a54101714c73d0ab45",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8cd9e47dd10f4b1bb2c9d58e50c01a1a",
+    "request_hash": "56ae9b13e5e1ce65a938637bee079354fc77580ec6dbff19e3e9a06a7dfc7984",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "2a95d532670e33e91a9dd0a0d861f5d1bebdc8d03fc14a83fabecbdcc7d419b4",
+    "packet_hash": "2dcb525bff2865b99e1a63393e4209c7ad225107a18482a54101714c73d0ab45"
+  },
+  "hash": "d95f53690124a1e93e3da0a99e079940fcc743f0a4200f705f0f21c6a235388d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims orthogonal means “mathematically independent,” but the provided packet only states that the method “utilizes the Special Orthogonal Group process to initialize filters, ensuring orthogonality within their internal spatial structure” and does not explicitly define orthogonality as mathematical independence."
+      ],
+      "definition_hash": "2a95d532670e33e91a9dd0a0d861f5d1bebdc8d03fc14a83fabecbdcc7d419b4",
+      "packet_hash": "2dcb525bff2865b99e1a63393e4209c7ad225107a18482a54101714c73d0ab45",
+      "published_packet_hash": "2dcb525bff2865b99e1a63393e4209c7ad225107a18482a54101714c73d0ab45",
+      "receipt_id": "ea05acf1e0a8484fa8bdcac67f98149b",
+      "request_hash": "e9c6c2df0d85f9c044a5d700887d9cd12cc75e4fae47f94d8707a5d58177a538",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports orthogonality in the filters’ internal spatial structure, but it does not support the added claim that the parts are “mathematically independent” from one another.",
+        "The definition generalizes beyond the packet by presenting orthogonal as a general structural independence relation rather than the specific filter-initialization/orthogonality point described in the article."
+      ],
+      "definition_hash": "2a95d532670e33e91a9dd0a0d861f5d1bebdc8d03fc14a83fabecbdcc7d419b4",
+      "packet_hash": "2dcb525bff2865b99e1a63393e4209c7ad225107a18482a54101714c73d0ab45",
+      "published_packet_hash": "2dcb525bff2865b99e1a63393e4209c7ad225107a18482a54101714c73d0ab45",
+      "receipt_id": "619db7f9c5b04059abd7b431b3e9ee3e",
+      "request_hash": "c4586e349badbe46c315670d5d4c9774c2aed96d7757e748342ad60c2d6937cc",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

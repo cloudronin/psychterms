@@ -1,0 +1,59 @@
+{
+  "id": "vermis",
+  "term": "vermis",
+  "definition": "In this packet, vermis refers to the cerebellar vermis, a part of the cerebellum mentioned as the target of theta-burst patterned repetitive transcranial magnetic stimulation in research on chronic schizophrenia.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12833413"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12833413",
+      "revision": "2026; DOI 10.3389/fpsyt.2025.1729585; article XML SHA-256 dbec1cd373c0c922a67f785134d8cafb6204ea09b1ad7327e7731e2d2f5091b3",
+      "scope": "Source record 10.3389/fpsyt.2025.1729585; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1729585"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "173964213c0a99b16c2aab431e31d742b8067783ce3fb4d5025525ab9e451673",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2f9c1602a6784b0190cb72971df6d517",
+    "request_hash": "26a92293915b67256294429a9fd90d6e3e7992f486e31ad38390a5f20ab16a32",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "23719641db82211f4a44ce26ab41f209144420ca6134efba60d3bd1992d039af",
+    "packet_hash": "173964213c0a99b16c2aab431e31d742b8067783ce3fb4d5025525ab9e451673"
+  },
+  "hash": "73df004338f4ae346f4395271a31ee9e089ee1bd3ed24febc40e54c46bd93b06",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "23719641db82211f4a44ce26ab41f209144420ca6134efba60d3bd1992d039af",
+      "packet_hash": "173964213c0a99b16c2aab431e31d742b8067783ce3fb4d5025525ab9e451673",
+      "published_packet_hash": "173964213c0a99b16c2aab431e31d742b8067783ce3fb4d5025525ab9e451673",
+      "receipt_id": "c94374ef386742308347100f233603b2",
+      "request_hash": "af502997a38901f9d780724eb607b2248929473982d64eca4133d5b473679a16",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is “diagnosis,” but the provided definition is anatomical/neurostimulation-related (cerebellar vermis as an rTMS target) rather than a diagnostic meaning of “vermis,” so the definition does not defensibly match the specified field."
+      ],
+      "definition_hash": "23719641db82211f4a44ce26ab41f209144420ca6134efba60d3bd1992d039af",
+      "packet_hash": "173964213c0a99b16c2aab431e31d742b8067783ce3fb4d5025525ab9e451673",
+      "published_packet_hash": "173964213c0a99b16c2aab431e31d742b8067783ce3fb4d5025525ab9e451673",
+      "receipt_id": "99fc59e861db49bc94886b57b15a3dce",
+      "request_hash": "0f2bc8c7646bb53ad97f5ec034b9f695be26c89af7c665054f160447bade4c3e",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

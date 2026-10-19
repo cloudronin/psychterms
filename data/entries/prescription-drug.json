@@ -1,0 +1,64 @@
+{
+  "id": "prescription-drug",
+  "term": "prescription drug",
+  "definition": "A prescription drug is a medicine that is provided through a clinician’s prescription rather than simply obtained on one’s own. In this source, the term is used for opioids prescribed or given during emergency department care.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4976905"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4976905",
+      "revision": "2016; DOI 10.1371/journal.pone.0159224; article XML SHA-256 a8adb1916a75a5e338cea2ef3c5388165112369e9ffc2598c437fd49dc13ae39",
+      "scope": "Source record 10.1371/journal.pone.0159224; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0159224"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a8b30dca286bea8df3eef0bf7f169b8de56388c06ecfd3ebb055fc61d0935992",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "89c4cf7e022a4fd29255db6716e80c68",
+    "request_hash": "ba35ceed43230e15bc0cde8ca5237e9faa7e761fbc9f26b5d4f0ec91d42fe41b",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b2a2852c403e2dac3d9297ff3aae68e5711be2e2bbd1d5e83dbb64a041cee9b8",
+    "packet_hash": "a8b30dca286bea8df3eef0bf7f169b8de56388c06ecfd3ebb055fc61d0935992"
+  },
+  "hash": "2c43bd86bff9459456a2e7df1be56826f5b91dca34deafd04285080a4c4f6ed9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “prescription drug” as a general medicine obtained through a clinician’s prescription; it only discusses opioid prescriptions and opioid administration in emergency department visits.",
+        "The second sentence narrows the term to opioids prescribed or given during emergency department care, but the source uses “prescription drug” in the phrase “prescription drug abuse,” not as a defined term for ED opioids."
+      ],
+      "definition_hash": "b2a2852c403e2dac3d9297ff3aae68e5711be2e2bbd1d5e83dbb64a041cee9b8",
+      "packet_hash": "a8b30dca286bea8df3eef0bf7f169b8de56388c06ecfd3ebb055fc61d0935992",
+      "published_packet_hash": "a8b30dca286bea8df3eef0bf7f169b8de56388c06ecfd3ebb055fc61d0935992",
+      "receipt_id": "23af2579eb43403cb680cca1cefdced3",
+      "request_hash": "b81c8123e253553dc421bd14173157f4f1574d87512a8cfd7e611e028525cea8",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“provided through a clinician’s prescription rather than simply obtained on one’s own”) is not supported by the provided packet text, which does not offer a general definition of “prescription drug.”",
+        "The definition’s claim about the term’s specific use “for opioids prescribed or given during emergency department care” is only indirectly suggested by the packet’s focus on opioid prescription at discharge and opioid administration in the ED, but the packet does not explicitly state that “prescription drug” is used with that meaning.",
+        "The packet discusses “opioids” and “opioid prescription/administration,” not an explicit mapping from “prescription drug” to “opioids given during ED care.”"
+      ],
+      "definition_hash": "b2a2852c403e2dac3d9297ff3aae68e5711be2e2bbd1d5e83dbb64a041cee9b8",
+      "packet_hash": "a8b30dca286bea8df3eef0bf7f169b8de56388c06ecfd3ebb055fc61d0935992",
+      "published_packet_hash": "a8b30dca286bea8df3eef0bf7f169b8de56388c06ecfd3ebb055fc61d0935992",
+      "receipt_id": "93511d4bdf8f48b6bd3345625d864325",
+      "request_hash": "d6c286ecd1e5ac1e637f67d896fd3fb1e535a5d65afc458c00ab989b7de4f562",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

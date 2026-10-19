@@ -1,0 +1,60 @@
+{
+  "id": "change-blindness",
+  "term": "change blindness",
+  "definition": "Change blindness is a failure to notice a visual change when it happens alongside a disruption such as an eye movement, a blink, a flash, or other distracting input. The packet also indicates that some changed visual information may still be processed implicitly even when the person cannot consciously report the change.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3907519"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3907519",
+      "revision": "2014; DOI 10.1371/journal.pone.0087682; article XML SHA-256 53f0999a97cd14e5778406150f122b5b6b44ebc52af6980edd0ed9e804a3dd19",
+      "scope": "Source record 10.1371/journal.pone.0087682; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0087682"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ecad0af00515463fbcf97adc22c043cf",
+    "request_hash": "b6d1c778588eb07f2c825eff8d1b9520155cd999dd2844dc11888f5d9f44cd7a",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "c2f35605d1fcb0c1526b1609f8a30c3148649d5608aab8f1d5c9881eee530314",
+    "packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0"
+  },
+  "hash": "5d37e4079bfd40aa4e557b7443967f9364a2d586e145961e5368cd28cc2bee6d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c2f35605d1fcb0c1526b1609f8a30c3148649d5608aab8f1d5c9881eee530314",
+      "packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0",
+      "published_packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0",
+      "receipt_id": "f9d815c4e041485da1f767f62dedf053",
+      "request_hash": "dca697ea2022e39eb4bd4099fc6d17509c413760c45586ad0ab63e88a46b9a3a",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field \"learning\" is not supported by the packet: the source describes change blindness in terms of visual perception/attention and implicit change detection, not learning.",
+        "The definition adds \"other distracting input,\" which is broader and less exact than the packet’s wording about \"distracting stimuli.\""
+      ],
+      "definition_hash": "c2f35605d1fcb0c1526b1609f8a30c3148649d5608aab8f1d5c9881eee530314",
+      "packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0",
+      "published_packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0",
+      "receipt_id": "24d9e1df53634f9aa1d42b27f48f5cf9",
+      "request_hash": "881405967731d5ad5c4533680505c8ee0bcdce107e74377e4341eb772bcde6ab",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

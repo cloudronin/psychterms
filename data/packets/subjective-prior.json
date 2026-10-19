@@ -1,0 +1,26 @@
+{
+  "id": "subjective-prior",
+  "term": "subjective prior",
+  "source": "article-pmc3001882",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0015555",
+  "revision": "2010; DOI 10.1371/journal.pone.0015555; article XML SHA-256 12e3e9b8360844afdaefbd32e4bbd8933ae07475fc4259f86cc96ef469da2fe4",
+  "source_snapshot_sha256": "12e3e9b8360844afdaefbd32e4bbd8933ae07475fc4259f86cc96ef469da2fe4",
+  "url": "https://doi.org/10.1371/journal.pone.0015555",
+  "text": "In a companion paper [1] , we have presented a generic approach for inferring how subjects make optimal decisions under uncertainty. From a Bayesian decision theoretic perspective, uncertain representations correspond to “posterior” beliefs, which result from integrating (sensory) information with subjective “prior” beliefs. Preferences and goals are encoded through a “loss” (or “utility”) function, which measures the cost incurred by making any admissible decision for any given (hidden or unknown) state of the world. By assuming that subjects make optimal decisions on the basis of updated (posterior) beliefs and utility (loss) functions, one can evaluate the likelihood of observed behaviour. In this paper, we describe a concrete implementation of this meta-Bayesian approach (i.e. a Bayesian treatment of Bayesian decision theoretic predictions) and demonstrate its utility by applying it to both simulated and empirical reaction time data from an associative learning task. Here, inter-trial variability in reaction times is modelled as reflecting the dynamics of the subjects' internal recognition process, i.e. the updating of representations (posterior densities) of hidden states over trials while subjects learn probabilistic audio-visual associations. We use this paradigm to demonstrate that our meta-Bayesian framework allows for (i) probabilistic inference on the dynamics of the subject's representation of environmental states, and for (ii) model selection to disambiguate between alternative preferences (loss functions) human subjects could employ when dealing with trade-offs, such as between speed and accuracy. Finally, we illustrate how our approach can be used to quantify subjective beliefs and preferences that underlie inter-individual differences in behaviour.",
+  "source_label": "Observing the Observer (II): Deciding When to Decide",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1794
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "4bb38d1ca803810008c8bdfcf36388f573893059dfd5a57dddfe37a1b4599f67"
+}

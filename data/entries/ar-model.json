@@ -1,0 +1,57 @@
+{
+  "id": "ar-model",
+  "term": "AR model",
+  "definition": "An AR model, here meaning a conditional Poisson autoregressive model, is a statistical time-series approach that uses earlier observations to describe how current count data vary over time. In this context, it is used to capture departures from an expected power-law pattern, such as changes in posting activity around social events.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4978406"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4978406",
+      "revision": "2016; DOI 10.1371/journal.pone.0160592; article XML SHA-256 e7a073e3119c60b1d7c7dc04b8d023fa4c1d652ea733f07e784c5e2a9aab69c3",
+      "scope": "Source record 10.1371/journal.pone.0160592; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0160592"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9e9349a18eee350ee829e696694a1142dde77194cd560cd13b2115239bb5feb6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "632584427b634c779143641c2504bead",
+    "request_hash": "50ad8253999380022a38fa9c2031596c430ca42a14fce1e2eaf8c98bc260f1cb",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "145e9a76be3a698d5de174989a0649cb8892f69ec89b4a1eb8797aebce350b95",
+    "packet_hash": "9e9349a18eee350ee829e696694a1142dde77194cd560cd13b2115239bb5feb6"
+  },
+  "hash": "14e14f92e9eae62cd99b0a89f6f99cb738af4313079791ed36fa9e6428a6ef32",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "145e9a76be3a698d5de174989a0649cb8892f69ec89b4a1eb8797aebce350b95",
+      "packet_hash": "9e9349a18eee350ee829e696694a1142dde77194cd560cd13b2115239bb5feb6",
+      "published_packet_hash": "9e9349a18eee350ee829e696694a1142dde77194cd560cd13b2115239bb5feb6",
+      "receipt_id": "ae638cdf720b4430a30d4caa3a885824",
+      "request_hash": "9fc7eceed3d8922a4461b31919dc2afbf1a647565658827b9cd2fa97c9b99400",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "145e9a76be3a698d5de174989a0649cb8892f69ec89b4a1eb8797aebce350b95",
+      "packet_hash": "9e9349a18eee350ee829e696694a1142dde77194cd560cd13b2115239bb5feb6",
+      "published_packet_hash": "9e9349a18eee350ee829e696694a1142dde77194cd560cd13b2115239bb5feb6",
+      "receipt_id": "e22a5a0fe5bd4cb096462cdae7580204",
+      "request_hash": "8b3fe8dbac95fdf5a5b93e6b235c37785c039471cccffff9e5df2344f50bb2b9",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

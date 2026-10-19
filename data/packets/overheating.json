@@ -1,0 +1,26 @@
+{
+  "id": "overheating",
+  "term": "overheating",
+  "source": "article-pmc13422830",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0353276",
+  "revision": "2026; DOI 10.1371/journal.pone.0353276; article XML SHA-256 15ddf1541340dd682d7982bd6d9ed64821e46ab07ef104cb146d74391f207129",
+  "source_snapshot_sha256": "15ddf1541340dd682d7982bd6d9ed64821e46ab07ef104cb146d74391f207129",
+  "url": "https://doi.org/10.1371/journal.pone.0353276",
+  "text": "Orbital TIG welding is critical in precision manufacturing, where weld defects can affect structural reliability. Manual inspection, analysis, and evaluation of welding defect images are complex because defect characteristics vary in shape, position, and size, making the process time-consuming. This study proposes a method that combines ResNet50 feature extraction with Random Forest classification to improve classification accuracy. A total of 3,219 weld image samples collected from controlled orbital TIG experiments were used for model training and evaluation and divided into four classes: normal weld, lack of fusion, overheating, and uneven weld. Using five-fold cross-validation, the method achieved an overall accuracy of 98% and demonstrated improved performance compared with CNN architectures (VGG16, VGG19, ResNet18, ResNet50) and traditional machine learning approaches such as SVM and Random Forest. ResNet50 extracts hierarchical visual representations through deep residual connections, enabling automatic feature learning, while Random Forest performs the final classification with robustness against overfitting on high-dimensional features.",
+  "source_label": "TIG welding defect detection using ResNet and Random Forest",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1163
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "b4a695ec55ed7f5ccda51e83217ef63be4625f39006413cda0756bc7c1cad2c1"
+}

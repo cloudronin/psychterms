@@ -1,0 +1,26 @@
+{
+  "id": "homing",
+  "term": "homing",
+  "source": "article-pmc13056182",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344575",
+  "revision": "2026; DOI 10.1371/journal.pone.0344575; article XML SHA-256 3320f7f3e5e92048d8e6d0c733b7fab1cd6da349897e6b2563ada0dc6c652913",
+  "source_snapshot_sha256": "3320f7f3e5e92048d8e6d0c733b7fab1cd6da349897e6b2563ada0dc6c652913",
+  "url": "https://doi.org/10.1371/journal.pone.0344575",
+  "text": "For many ant species, successful visual navigation is crucial for the survival of the individual and the colony, meaning these small-brained insects have evolved to be exceptional navigators. This makes them an ideal inspiration for biomimetic robotics research. Visual compass-style snapshot models have been used to model visual navigation in ants and have been applied to visual teach-and-repeat style robot navigation. In these models, images or ‘snapshots’ stored when the ant first travels a route are compared to views experienced when recapitulating the route to derive a bearing that will direct the ant along the route (rather than navigating to a discrete goal location as in visual homing). While the majority of visual-compass snapshot models have used raw images, we have shown in preliminary work that visual pre-processing by Haar wavelets that quantify spatial frequencies at every location in an image can improve the snapshot robustness. These wavelets effectively filter images for oriented edges at certain spatial frequencies in a way that mimics the processing seen in natural visual systems. Here, we extend our findings by investigating the properties and limits of bearing recovery in the face of naturalistic perturbations, focusing on comparing wavelets with edge-processed or raw images of different resolutions. We find that: (1) high frequency localised wavelet coefficients highlight distant objects; (2) The effect disappears when the resolution is decreased, as far away objects blur together; (3) If navigating using visual-compass style snapshot navigation, perturbations in the environment can be compensated solely by choosing suitable image processing. Our work extends the corpus of research on spatial frequency-based encodings for snapshot navigation, which has mainly focused on non-localised encodings (such as Fourier Transforms) applied to visual homing. We do this by providing an in-depth analysis of localised spatial-frequency encodings and their dis-/advantages for route following via visual compass style bearing recovery.",
+  "source_label": "Wavelet-based visual compass",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2075
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "c5103ca6c0046bc631bbe79cbe741616515571b562a42e2413cd560ae7676d32"
+}

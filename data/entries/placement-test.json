@@ -1,0 +1,64 @@
+{
+  "id": "placement-test",
+  "term": "placement test",
+  "definition": "A placement test is an academic test students take before being assigned to a school placement, with the results used as a score related to where they are placed. In this study, it was given during a secondary school transition and served as a measure of students’ academic performance.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11493252"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11493252",
+      "revision": "2024; DOI 10.1371/journal.pone.0308376; article XML SHA-256 2e4d5e4237d5a15690f167de80029db47465a501b97c93c23426d53bc237b261",
+      "scope": "Source record 10.1371/journal.pone.0308376; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0308376"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8d37b340067a7b25c5a603e1db09862bb501e6a82c5d19dddcd83a5f64d9ebf8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "37969c69486144619b4e47131f89a518",
+    "request_hash": "5058a03cd8145d652d7a8671b6f2905ab0389672770015703a5f8c61c1ecd270",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b662085c29730218157f8e0e68e9cc761cc37671ba788ebab3cd6606a53b6ffa",
+    "packet_hash": "8d37b340067a7b25c5a603e1db09862bb501e6a82c5d19dddcd83a5f64d9ebf8"
+  },
+  "hash": "90b92ceb0d789c2ef48a23b73fdd917f9d651f1781dc71b524dee286d68b6590",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that placement test scores were collected during a secondary school transition, but it does not state that the results were used to determine where students were placed.",
+        "The definition adds a specific function for the test’s results as a placement score; that use is not established in the source text."
+      ],
+      "definition_hash": "b662085c29730218157f8e0e68e9cc761cc37671ba788ebab3cd6606a53b6ffa",
+      "packet_hash": "8d37b340067a7b25c5a603e1db09862bb501e6a82c5d19dddcd83a5f64d9ebf8",
+      "published_packet_hash": "8d37b340067a7b25c5a603e1db09862bb501e6a82c5d19dddcd83a5f64d9ebf8",
+      "receipt_id": "c1ca3d42eee740dabbb2fd4f17684a4b",
+      "request_hash": "cffc292bb8789c6dd84221cbca8127d01f1eb2e4dcb6c47af307a6b97c25fd5c",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that placement test results are used “as a score related to where they are placed” or that the test directly determines school placement assignment; it only mentions that students later “learn their school placement” (T3) and that they have “placement test scores (T1+).”",
+        "The definition claims the test is “before being assigned to a school placement” and that “results [are] used” for placement; while T1 precedes T3, the packet does not explicitly describe the test’s role in assignment.",
+        "The packet supports that the placement test occurs during a secondary school transition and that placement test scores are used alongside prior grades, but the definition’s placement-assignment mechanism is not clearly supported."
+      ],
+      "definition_hash": "b662085c29730218157f8e0e68e9cc761cc37671ba788ebab3cd6606a53b6ffa",
+      "packet_hash": "8d37b340067a7b25c5a603e1db09862bb501e6a82c5d19dddcd83a5f64d9ebf8",
+      "published_packet_hash": "8d37b340067a7b25c5a603e1db09862bb501e6a82c5d19dddcd83a5f64d9ebf8",
+      "receipt_id": "0dcb13cea64344f29ab91e8d0677caa5",
+      "request_hash": "0fb1e5c2241322d9d9a96560f5da980c495e7deca2aed7691d59ef291d7e7acc",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,58 +1,50 @@
 {
   "line": "candidate-definitions-v1",
-  "current_registration_hash": "daefefd2a6ea457b7fb132bb088926496a8483e4f862d19d78f1987e39a1648a",
-  "draft_registrations": {
-    "ccf30c2b50e89ba708861f3f1f3da783e9b04d822e3a8e481728b41b9421bcc1": 4781,
-    "191886ce45d115a75a333ddf12115b69d3e590e7e9cc85371eeaffdf2dbfea6c": 67,
-    "daefefd2a6ea457b7fb132bb088926496a8483e4f862d19d78f1987e39a1648a": 1
-  },
-  "cap_usd": 100,
+  "current_registration_hash": "ae1f89445b260e409c8b04827d26afd0be4acb7c16693bfbeba8b22b062ff501",
+  "model": "gpt-5.4-2026-03-05",
+  "registration_count": 29,
   "budget": {
-    "calls_reserved": 6532,
+    "calls_reserved": 16379,
     "cap_usd": 100.0,
-    "receipted_usd": 21.823923,
-    "unresolved_reservations_usd": 0.848008,
+    "receipted_usd": 60.179936,
+    "unresolved_reservations_usd": 2.053511,
     "by_category": {
       "draft": {
-        "calls": 6373,
-        "receipted_usd": 21.32294,
-        "unresolved_reservations_usd": 0.848008
+        "calls": 16159,
+        "receipted_usd": 59.4378,
+        "unresolved_reservations_usd": 2.053511
       },
       "redraft": {
-        "calls": 126,
-        "receipted_usd": 0.377147,
+        "calls": 140,
+        "receipted_usd": 0.434248,
         "unresolved_reservations_usd": 0.0
       },
       "transport_schema_retry": {
-        "calls": 33,
-        "receipted_usd": 0.123836,
+        "calls": 80,
+        "receipted_usd": 0.307888,
         "unresolved_reservations_usd": 0.0
       }
     }
   },
-  "registered_source_packets": 6290,
-  "registered_queue_outcomes": {
-    "Source packet insufficient": 1505,
-    "candidate": 4782,
-    "15-word overlap": 3
+  "receipt_usage": {
+    "receipts": 16298,
+    "input_tokens": 12789495,
+    "cached_input_tokens": 0,
+    "output_tokens": 1880139
   },
-  "scope_and_field_before_dispatch": true,
-  "raw_receipt_backed_drafts": 4849,
-  "status_counts": {
-    "candidate": 4828,
-    "dropped": 24,
-    "judged": 0,
-    "released": 0,
-    "reviewed": 198
+  "unique_cached_request_results": 16298,
+  "packet_sufficient_results": 11792,
+  "packet_insufficient_results": 4506,
+  "raw_entries_with_this_line_evidence": 11624,
+  "latest_term_outcomes": {
+    "Source packet insufficient": 2134,
+    "candidate": 11626,
+    "15-word overlap": 2,
+    "Dose-like content": 1
   },
-  "active_entries": 5026,
-  "copy_holds": [
-    "motor-cortex",
-    "receptor-molecule",
-    "subthalamus"
-  ],
-  "drafting_in_progress": false,
-  "reader_dispatch_authorized": false,
-  "paid_reader_calls": 0,
-  "vignettes": 0
+  "receipted_usd_per_raw_entry": 0.005177,
+  "reader_report": "independent-readers.json",
+  "status_report": "release-note.md",
+  "vignettes": 0,
+  "limitations": "Cumulative drafting-line costs include insufficient packets, redrafts, retries and withheld output. Raw entries include later reader drops. Source alternatives can produce multiple request results per term. Unknown charges remain reserved. Earlier pilot costs are separate."
 }

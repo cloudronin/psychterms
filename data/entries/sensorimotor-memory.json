@@ -1,0 +1,60 @@
+{
+  "id": "sensorimotor-memory",
+  "term": "sensorimotor memory",
+  "definition": "Sensorimotor memory is the short-term carryover of information from a recent action that influences how a later movement is planned and performed. In this source, it refers to remembered object weight from a previous lift, which affects predictive fingertip force scaling on a later lift and can transfer between hands.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9746940"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9746940",
+      "revision": "2022; DOI 10.1371/journal.pone.0278133; article XML SHA-256 25ce49aef172fee8a8e234817bd17df8e4d900d813164ca97745094f45e4fc0a",
+      "scope": "Source record 10.1371/journal.pone.0278133; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0278133"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e38eb0a59f337e39a238fcb165e31dbfff3d65863bc8cf36996f3384a7759bb6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f7e65e20b43c4286bb3e76f07c0c7c38",
+    "request_hash": "22ef948b248ea62c2f88e295b35f3a58bb6434cef66953aaddba2a800197bb02",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "8851acaad8baf8c7615d0ce205be475f2c06155a44313d82d78b6fc6fc5f3351",
+    "packet_hash": "e38eb0a59f337e39a238fcb165e31dbfff3d65863bc8cf36996f3384a7759bb6"
+  },
+  "hash": "7bb1a6fda7df55e34d20887d7d202dee12d2e86650ab291f28a2622da3f4d4c9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8851acaad8baf8c7615d0ce205be475f2c06155a44313d82d78b6fc6fc5f3351",
+      "packet_hash": "e38eb0a59f337e39a238fcb165e31dbfff3d65863bc8cf36996f3384a7759bb6",
+      "published_packet_hash": "e38eb0a59f337e39a238fcb165e31dbfff3d65863bc8cf36996f3384a7759bb6",
+      "receipt_id": "532073a8ada44c96aa8a967cbdef547b",
+      "request_hash": "934fdb0083fc644da80bd7b0a34697f6514a4c75a51ac987407a70d6304f01b8",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims sensorimotor memory is specifically “short-term” carryover; the packet only describes effects from a “previously lifted object” in a sequential task, without explicitly stating short-term duration.",
+        "The definition says the carryover “influences how a later movement is planned and performed.” The packet supports influence on “predictively scale fingertip forces,” but it does not explicitly address “planning” (only predictive force scaling and related perceptual estimation)."
+      ],
+      "definition_hash": "8851acaad8baf8c7615d0ce205be475f2c06155a44313d82d78b6fc6fc5f3351",
+      "packet_hash": "e38eb0a59f337e39a238fcb165e31dbfff3d65863bc8cf36996f3384a7759bb6",
+      "published_packet_hash": "e38eb0a59f337e39a238fcb165e31dbfff3d65863bc8cf36996f3384a7759bb6",
+      "receipt_id": "5eb75d67826c4885bc8f092550414d6d",
+      "request_hash": "bede23a12a81d5986e78ad26f0a9e57b93def5bb09e71e58eadfe50b72977c08",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

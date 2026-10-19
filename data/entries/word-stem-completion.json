@@ -1,0 +1,60 @@
+{
+  "id": "word-stem-completion",
+  "term": "word-stem completion",
+  "definition": "Word-stem completion is an implicit memory measure in which memory is assessed through completing the beginning of a word rather than by directly asking a person to recall it. In the source packet, it is used to test implicit memory after people studied words.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8220074"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8220074",
+      "revision": "2021; DOI 10.3389/fpsyg.2021.685756; article XML SHA-256 12e1bbba2bd1c23eb0e9d9631bde5de9f5f5d094cf1814baa0fb7ffdd2cc8333",
+      "scope": "Source record 10.3389/fpsyg.2021.685756; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2021.685756"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "83fabdb2c49c1c648c3f6b4d639f841db0db05d8d74e74095d73a596f4118f0c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "321eba1f1455440b9838717fe63c0ad8",
+    "request_hash": "f5eba0c7192fcf7022aa2b5bf61858c11ccb945cdb574562af382e5b84d857c2",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "503fafc4f70d048907381599a5f4d63d276df7ef854ed6b0e2b8f131d8ba9413",
+    "packet_hash": "83fabdb2c49c1c648c3f6b4d639f841db0db05d8d74e74095d73a596f4118f0c"
+  },
+  "hash": "a876ff7b7577e0d65dc9acbe144b1c9f77539709208dd0cec6abf488b1664566",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "503fafc4f70d048907381599a5f4d63d276df7ef854ed6b0e2b8f131d8ba9413",
+      "packet_hash": "83fabdb2c49c1c648c3f6b4d639f841db0db05d8d74e74095d73a596f4118f0c",
+      "published_packet_hash": "83fabdb2c49c1c648c3f6b4d639f841db0db05d8d74e74095d73a596f4118f0c",
+      "receipt_id": "9393503762ed4d6f8e63d2aca62aa892",
+      "request_hash": "7c935a4cf944a01ddaef491ae65f5ed7a6da600fa10cdbd698feee28bbcb2344",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that word-stem completion measures memory by “completing the beginning of a word,” but the packet only labels it as an “implicit (word stem completion) … memory test” and does not describe the completion task as beginning-of-word completion.",
+        "The packet supports that the implicit test occurred after participants studied words, but the sense of the term as specifically “completing the beginning of a word” is not supported by the provided text."
+      ],
+      "definition_hash": "503fafc4f70d048907381599a5f4d63d276df7ef854ed6b0e2b8f131d8ba9413",
+      "packet_hash": "83fabdb2c49c1c648c3f6b4d639f841db0db05d8d74e74095d73a596f4118f0c",
+      "published_packet_hash": "83fabdb2c49c1c648c3f6b4d639f841db0db05d8d74e74095d73a596f4118f0c",
+      "receipt_id": "c308bd1b52dd4a3da77c0dbe9271089a",
+      "request_hash": "e35cc1f105a4f8892bcc1434138bb3917d7d7fa87fef5dfb6468d3d11fda21d6",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

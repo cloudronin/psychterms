@@ -1,0 +1,26 @@
+{
+  "id": "assistive-software",
+  "term": "assistive software",
+  "source": "article-pmc3880260",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0083251",
+  "revision": "2014; DOI 10.1371/journal.pone.0083251; article XML SHA-256 f14a063d94faee7d57ed772d42658d6326f82e291f26d65333b76c36516c01b9",
+  "source_snapshot_sha256": "f14a063d94faee7d57ed772d42658d6326f82e291f26d65333b76c36516c01b9",
+  "url": "https://doi.org/10.1371/journal.pone.0083251",
+  "text": "Interest in cell heterogeneity and differentiation has recently led to increased use of time-lapse microscopy. Previous studies have shown that cell fate may be determined well in advance of the event. We used a mixture of automation and manual review of time-lapse live cell imaging to track the positions, contours, divisions, deaths and lineage of 44 B-lymphocyte founders and their 631 progeny in vitro over a period of 108 hours. Using this data to train a Support Vector Machine classifier, we were retrospectively able to predict the fates of individual lymphocytes with more than 90% accuracy, using only time-lapse imaging captured prior to mitosis or death of 90% of all cells. The motivation for this paper is to explore the impact of labour-efficient assistive software tools that allow larger and more ambitious live-cell time-lapse microscopy studies. After training on this data, we show that machine learning methods can be used for realtime prediction of individual cell fates. These techniques could lead to realtime cell culture segregation for purposes such as phenotype screening. We were able to produce a large volume of data with less effort than previously reported, due to the image processing, computer vision, tracking and human-computer interaction tools used. We describe the workflow of the software-assisted experiments and the graphical interfaces that were needed. To validate our results we used our methods to reproduce a variety of published data about lymphocyte populations and behaviour. We also make all our data publicly available, including a large quantity of lymphocyte spatio-temporal dynamics and related lineage information.",
+  "source_label": "Labour-Efficient In Vitro Lymphocyte Population Tracking and Fate Prediction Using Automation and Manual Review",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1672
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560"
+}

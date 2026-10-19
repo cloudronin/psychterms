@@ -1,0 +1,26 @@
+{
+  "id": "square-root-transformation",
+  "term": "square-root transformation",
+  "source": "article-pmc12002526",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0320832",
+  "revision": "2025; DOI 10.1371/journal.pone.0320832; article XML SHA-256 4b19a937d9d6aa8ee04d71b0503b8bb9d7ffdb74bdf648c06586c09ed14901c7",
+  "source_snapshot_sha256": "4b19a937d9d6aa8ee04d71b0503b8bb9d7ffdb74bdf648c06586c09ed14901c7",
+  "url": "https://doi.org/10.1371/journal.pone.0320832",
+  "text": "Through the Human Microbiome Project, research on human-associated microbiomes has been conducted in various fields. New sequencing techniques such as Next Generation Sequencing (NGS) and High-Throughput Sequencing (HTS) have enabled the inclusion of a wide range of features of the microbiome. These advancements have also contributed to the development of numerical proxies like Operational Taxonomic Units (OTUs) and Amplicon Sequence Variants (ASVs). Studies involving such microbiome data often encounter zero-inflated and high-dimensional problems. Based on the need to address these two issues and the recent emphasis on compositional interpretation of microbiome data, we conducted our research. To solve the zero-inflated problem in compositional microbiome data, we transformed the data onto the surface of the hypersphere using a square root transformation. Then, to solve the high-dimensional problem, we modified DeepInsight, an image-generating method using Convolutional Neural Networks (CNNs), to fit the hypersphere space. Furthermore, to resolve the common issue of distinguishing between true zero values and fake zero values in zero-inflated images, we added a small value to the true zero values. We validated our approach using pediatric inflammatory bowel disease (IBD) fecal sample data and achieved an area under the curve (AUC) value of 0.847, which is higher than the previous study’s result of 0.83.",
+  "source_label": "Zero inflated high dimensional compositional data with DeepInsight",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1427
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b"
+}

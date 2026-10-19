@@ -1,0 +1,60 @@
+{
+  "id": "centrifugal",
+  "term": "centrifugal",
+  "definition": "In this biological research context, centrifugal refers to the outward acceleration produced by rotational motion in a device such as a random positioning machine. It is treated as a mechanical factor that can affect the conditions experienced by cells during simulated microgravity.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13271463"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13271463",
+      "revision": "2026; DOI 10.1371/journal.pone.0351320; article XML SHA-256 6ee23852e482498140f60cd38c267f90433f87a6448a1ea5ddcf98c6bd22dcd4",
+      "scope": "Source record 10.1371/journal.pone.0351320; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351320"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0e33772ba3270cb75a26ececac88c08e5c6465df906136231b625d15c84999af",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4a885ab5ede54e5b91492475afdb610a",
+    "request_hash": "233d01d033740e34a68f82069ff2a755779251a30f2cf8803ebace144d0ae2e1",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "d82aa43a90e05ebd99e2621b01f43be7eef567ab4de06e79898b2d6b7c45c8b3",
+    "packet_hash": "0e33772ba3270cb75a26ececac88c08e5c6465df906136231b625d15c84999af"
+  },
+  "hash": "dca1366284fa8ecfad1c14e02eaf665c83c9410389b79d8181f18875bf3f8022",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “centrifugal” as “the outward acceleration produced by rotational motion”; it only mentions “centrifugal acceleration” as a quantity calculated/characterized in the RPM simulation.",
+        "While the packet discusses centrifugal accelerations in the context of RPM microgravity simulation and biological exposure, it does not explicitly frame centrifugal as “a mechanical factor that can affect the conditions experienced by cells” in the definitional sense used in the provided definition (the biological findings are reported, but the definition’s wording is broader than what the packet states)."
+      ],
+      "definition_hash": "d82aa43a90e05ebd99e2621b01f43be7eef567ab4de06e79898b2d6b7c45c8b3",
+      "packet_hash": "0e33772ba3270cb75a26ececac88c08e5c6465df906136231b625d15c84999af",
+      "published_packet_hash": "0e33772ba3270cb75a26ececac88c08e5c6465df906136231b625d15c84999af",
+      "receipt_id": "5138af77ae5148929c606d832bd67aec",
+      "request_hash": "8b7cd4bcb7ea4b9e9702cc9413029ce53bbb8b31c2968e19442105776804a0ca",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d82aa43a90e05ebd99e2621b01f43be7eef567ab4de06e79898b2d6b7c45c8b3",
+      "packet_hash": "0e33772ba3270cb75a26ececac88c08e5c6465df906136231b625d15c84999af",
+      "published_packet_hash": "0e33772ba3270cb75a26ececac88c08e5c6465df906136231b625d15c84999af",
+      "receipt_id": "1a2b5d499e794b83a28dcc72a5b5a745",
+      "request_hash": "d04d5edac24f86f3b3f2971bb46fae172c3782f2c93bad67f7e646edac402086",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

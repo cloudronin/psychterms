@@ -1,0 +1,60 @@
+{
+  "id": "aps",
+  "term": "APS",
+  "definition": "APS refers to Astragalus polysaccharide, a biological substance studied for its effects on the gut microbiota and on glutamate/GABA-related metabolites. In this source, applying APS directly to the colon appeared to reduce microbiota and neuroactive-metabolite disruptions linked with major depressive disorder through the gut-brain axis.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12975891"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12975891",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1752933; article XML SHA-256 8e3e0ba9e8763aa6653754edb02005610247b0bc8a50a4d1b8a0cb845ff59baa",
+      "scope": "Source record 10.3389/fpsyt.2026.1752933; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1752933"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "51ac2f617bc3b580a8b6e2d21712ba2c94281d03dc27d3f15cd9328a949ee433",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "de9ed3eb38d748088f644f7df12a6117",
+    "request_hash": "eb84988628d923eff788698b874d8164d0f38ececfa7b00c728356dd28377c11",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "b70b1557f94851df39f3c523c4f7316a72cb16c69b5043b635dcace4b50b349b",
+    "packet_hash": "51ac2f617bc3b580a8b6e2d21712ba2c94281d03dc27d3f15cd9328a949ee433"
+  },
+  "hash": "0652b86294a9e01cffba0ee08480583e4c27888ea6a8c6adfa641484a73ea5a1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b70b1557f94851df39f3c523c4f7316a72cb16c69b5043b635dcace4b50b349b",
+      "packet_hash": "51ac2f617bc3b580a8b6e2d21712ba2c94281d03dc27d3f15cd9328a949ee433",
+      "published_packet_hash": "51ac2f617bc3b580a8b6e2d21712ba2c94281d03dc27d3f15cd9328a949ee433",
+      "receipt_id": "0da7b4d89bdb4d99bb4fc887d41e8c16",
+      "request_hash": "4c74494ea281d67b9e8f74813357f3acf3c5aa8bee7c44bddc172f5b6b11bea4",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that applying APS directly to the colon \"appeared to reduce microbiota,\" but the packet only says APS \"may mitigate these disruptions by modulating microbial composition\" (it does not specifically claim a reduction in microbiota).",
+        "The rest of the definition is broadly supported by the packet (APS as Astragalus polysaccharide; gut microbiota and Glu/GABA-related neuroactive metabolites; colon application; gut-brain axis; effect more pronounced in healthy individuals). However, the unsupported \"reduce microbiota\" claim is substantive enough to fail."
+      ],
+      "definition_hash": "b70b1557f94851df39f3c523c4f7316a72cb16c69b5043b635dcace4b50b349b",
+      "packet_hash": "51ac2f617bc3b580a8b6e2d21712ba2c94281d03dc27d3f15cd9328a949ee433",
+      "published_packet_hash": "51ac2f617bc3b580a8b6e2d21712ba2c94281d03dc27d3f15cd9328a949ee433",
+      "receipt_id": "ed75f6d6f3b14d45a457bc65caf876d7",
+      "request_hash": "f914cf1f532a650f0dbf3fe104909acac75972cb337531a16e55d41c8823cc2e",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "product-image",
+  "term": "product image",
+  "definition": "Product image is the overall perception or impression people have of a country’s products. In this context, it is treated as an outcome that can be influenced by a country’s image.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9580366"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9580366",
+      "revision": "2022; DOI 10.3389/fpsyg.2022.569789; article XML SHA-256 c17247abcd4bff8d36c0dcccd580c6c1fd34024b6d81f4b53864684b964dc5b2",
+      "scope": "Source record 10.3389/fpsyg.2022.569789; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2022.569789"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dcbb00124fb9ec03c200b3c0e23fdddce8b8e6066a2437021074e96e3ed66c64",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bf5f18c84ede45eaa0b7366a28daedd1",
+    "request_hash": "fcb81e180c2b08b7c2a70a65be7e3226fa5ff12d684acf289af37217d0790c3a",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "e90f77fb194c91df1ac5a261f914167f4330674e67b4e8779db1bf04bbc29d2a",
+    "packet_hash": "dcbb00124fb9ec03c200b3c0e23fdddce8b8e6066a2437021074e96e3ed66c64"
+  },
+  "hash": "588d48c02e01a4135339dd3e3cfb5b0e0e8cf5c346d1023cdd210903ec8911f9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet shows that country image predicted product image, but it does not define product image as the overall perception or impression people have of a country’s products.",
+        "The definition adds an explanatory framing (“in this context”) that is not stated in the source packet and is therefore unsupported as written."
+      ],
+      "definition_hash": "e90f77fb194c91df1ac5a261f914167f4330674e67b4e8779db1bf04bbc29d2a",
+      "packet_hash": "dcbb00124fb9ec03c200b3c0e23fdddce8b8e6066a2437021074e96e3ed66c64",
+      "published_packet_hash": "dcbb00124fb9ec03c200b3c0e23fdddce8b8e6066a2437021074e96e3ed66c64",
+      "receipt_id": "f8c736bbaf224575bcd589279ae16d17",
+      "request_hash": "4b279f9a29d09eeabf286ce51b6a21b53ff0b52a581d657ec747bb4a0f40d5f5",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s characterization of “product image” as “the overall perception or impression people have of a country’s products” is not explicitly stated in the provided packet text (the packet only refers to “product image” as a construct/outcome in a study).",
+        "While the packet supports that “a country’s image” (CI) can predict/influence “product image” (regression analysis: CI significantly predicted product image), the definition includes an additional substantive element about what product image specifically is (“overall perception or impression…”) that is not supported by the packet."
+      ],
+      "definition_hash": "e90f77fb194c91df1ac5a261f914167f4330674e67b4e8779db1bf04bbc29d2a",
+      "packet_hash": "dcbb00124fb9ec03c200b3c0e23fdddce8b8e6066a2437021074e96e3ed66c64",
+      "published_packet_hash": "dcbb00124fb9ec03c200b3c0e23fdddce8b8e6066a2437021074e96e3ed66c64",
+      "receipt_id": "fcda2cdddd664835b0836d87c48a1745",
+      "request_hash": "1949ebfc89fa0f111078b8afcde770f189a03b799839f28e347ab05f9643f267",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

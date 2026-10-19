@@ -1,0 +1,26 @@
+{
+  "id": "superconducting-quantum-interference-device",
+  "term": "superconducting quantum interference device",
+  "source": "article-pmc8769297",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0262669",
+  "revision": "2022; DOI 10.1371/journal.pone.0262669; article XML SHA-256 4cc21e7b1d2f633434cf2da8257d7f8b7c6cf774aaca2e09e65081d88daff41c",
+  "source_snapshot_sha256": "4cc21e7b1d2f633434cf2da8257d7f8b7c6cf774aaca2e09e65081d88daff41c",
+  "url": "https://doi.org/10.1371/journal.pone.0262669",
+  "text": "Optically pumped magnetometers (OPMs) have recently become so sensitive that they are suitable for use in magnetoencephalography (MEG). These sensors solve operational problems of the current standard MEG, where superconducting quantum interference device (SQUID) gradiometers and magnetometers are being used. The main advantage of OPMs is that they do not require cryogenics for cooling. Therefore, they can be placed closer to the scalp and are much easier to use. Here, we measured auditory evoked fields (AEFs) with both SQUID- and OPM-based MEG systems for a group of subjects to better understand the usage of a limited sensor count OPM-MEG. We present a theoretical framework that transforms the within subject data and equivalent simulation data from one MEG system to the other. This approach works on the principle of solving the inverse problem with one system, and then using the forward model to calculate the magnetic fields expected for the other system. For the source reconstruction, we used a minimum norm estimate (MNE) of the current distribution. Two different volume conductor models were compared: the homogeneous conducting sphere and the three-shell model of the head. The transformation results are characterized by a relative error and cross-correlation between the measured and the estimated magnetic field maps of the AEFs. The results for both models are encouraging. Since some commercial OPMs measure multiple components of the magnetic field simultaneously, we additionally analyzed the effect of tangential field components. Overall, our dual-axis OPM-MEG with 15 sensors yields similar information to a 62-channel SQUID-MEG with its field of view restricted to the right hemisphere.",
+  "source_label": "Transforming and comparing data between standard SQUID and OPM-MEG systems",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1718
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "b2b9a68e81e8ae6af176769171e49edb168db4151694d49aa125e729496fffa5"
+}

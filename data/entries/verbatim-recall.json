@@ -1,0 +1,61 @@
+{
+  "id": "verbatim-recall",
+  "term": "verbatim recall",
+  "definition": "Verbatim recall is remembering information in its exact or highly specific form rather than only its general meaning. In this source, it refers to recalling details from a narrative with precise detail, contrasted with gist recall of the overall content.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8046210"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8046210",
+      "revision": "2021; DOI 10.1371/journal.pone.0249950; article XML SHA-256 337e2cc5f887cac6d84e4fb01f5233d123fec7af01b538669e02d0dbe43fe7e9",
+      "scope": "Source record 10.1371/journal.pone.0249950; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0249950"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2523548b91f8fe01492e6e4c5c44613e4c2fd6aac237185f82bb72a108bedec0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "107b687bb7684f0c96bc38140186f164",
+    "request_hash": "2354f7b2afb16417197f7544175b719f32e0f650452d5e465fb1b25ddb13c8f1",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "814f6283945a747ead92a7afb09bf5a0f12ee5058b2cd87946b735a8c89b7d95",
+    "packet_hash": "2523548b91f8fe01492e6e4c5c44613e4c2fd6aac237185f82bb72a108bedec0"
+  },
+  "hash": "bae501bba30a5e7f6d114ae63c2db818e9e918b970654c47c9b7a2065b14632b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "814f6283945a747ead92a7afb09bf5a0f12ee5058b2cd87946b735a8c89b7d95",
+      "packet_hash": "2523548b91f8fe01492e6e4c5c44613e4c2fd6aac237185f82bb72a108bedec0",
+      "published_packet_hash": "2523548b91f8fe01492e6e4c5c44613e4c2fd6aac237185f82bb72a108bedec0",
+      "receipt_id": "c5fe0b59a1bf4288a5ad4540bcd9d1e7",
+      "request_hash": "2671671abb433f10b0972db4833fc8f23ed9b0c96881c1ed6bcbac7de084c6df",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims verbatim recall means remembering information in an “exact or highly specific form rather than only its general meaning,” but the provided packet only mentions that recall was scored as “gist or verbatim memory” without defining what “verbatim” specifically entails.",
+        "The definition says the source “refers to recalling details from a narrative with precise detail,” but the packet describes narratives as stimuli and reports scoring of whether recalled details were gist vs verbatim; it does not state that the relevant “verbatim” content is “precise detail.”",
+        "The definition’s contrast (“verbatim recall… rather than only its general meaning”) is not explicitly supported in the packet beyond the existence of “gist” versus “verbatim” categories."
+      ],
+      "definition_hash": "814f6283945a747ead92a7afb09bf5a0f12ee5058b2cd87946b735a8c89b7d95",
+      "packet_hash": "2523548b91f8fe01492e6e4c5c44613e4c2fd6aac237185f82bb72a108bedec0",
+      "published_packet_hash": "2523548b91f8fe01492e6e4c5c44613e4c2fd6aac237185f82bb72a108bedec0",
+      "receipt_id": "67dbc55166f5446a8538b78e96bb4f94",
+      "request_hash": "3a1943d380dfcc4974b74b3cde7cbf3a1ad27d91a0781cd2a674c0d732888745",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

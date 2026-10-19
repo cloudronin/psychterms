@@ -1,0 +1,63 @@
+{
+  "id": "weberfechner-law",
+  "term": "Weber–Fechner law",
+  "definition": "Weber–Fechner law is a non-linear rule describing how responses to changes in sound are represented rather than increasing in a simple one-to-one way. In this source, it is used to explain automatic cortical responses to sound changes in echoic memory within a suprathreshold range.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc2904354"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc2904354",
+      "revision": "2010; DOI 10.1186/1471-2202-11-80; article XML SHA-256 9d9e2d00664de058116896c506fc84f740ec3f2914d00d0676bf4a2056ba0961",
+      "scope": "Source record 10.1186/1471-2202-11-80; pinned source text",
+      "locator": "https://doi.org/10.1186/1471-2202-11-80"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a36acdecac6ba12224ac5a81806de5813aa82ab3bee95fb14c9f03795e2e088f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a13d9fc4bc9d4b30acde6fe93dd751cc",
+    "request_hash": "417c1eb3f4281b6cb1d08b253fa65ce4abb3698740a1c0f030537a2acd7c638a",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "d573fd8b27e267283b3248cdd7c2278f7a6b615ddc6f1c0469ee7d13b84ad576",
+    "packet_hash": "a36acdecac6ba12224ac5a81806de5813aa82ab3bee95fb14c9f03795e2e088f"
+  },
+  "hash": "f25bfff0d14e51a2c16270d206f3fb5dd1b340f5456e0212e0d9e3dc22e9ec01",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence makes a general claim that Weber–Fechner law is a non-linear rule about “responses to changes in sound” being represented “rather than increasing in a simple one-to-one way,” but the packet only states that “Weber-Fechner law holds” for a specific phenomenon (“automatic cortical response to sound changes within a suprathreshold range”) and does not explicitly support the broader one-to-one comparison.",
+        "The definition’s second sentence adds “echoic memory” and “within a suprathreshold range”; while the packet does reference echoic memory and explicitly mentions the suprathreshold range in connection with the Weber–Fechner law application, the overall definition still contains the unsupported generalization from the first sentence."
+      ],
+      "definition_hash": "d573fd8b27e267283b3248cdd7c2278f7a6b615ddc6f1c0469ee7d13b84ad576",
+      "packet_hash": "a36acdecac6ba12224ac5a81806de5813aa82ab3bee95fb14c9f03795e2e088f",
+      "published_packet_hash": "a36acdecac6ba12224ac5a81806de5813aa82ab3bee95fb14c9f03795e2e088f",
+      "receipt_id": "2e659988331642dfb5defe78150301e8",
+      "request_hash": "78ffc5a6ee755b955c6da7e0f5c7ced47bcd7cbb83bcd742ba8485a26aa04eb7",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a general characterization of the Weber–Fechner law as a rule about how responses to sound changes are represented, but the packet only says that temporal representation of echoic memory is non-linear and that the law holds for automatic cortical responses within a suprathreshold range; it does not supply the broader definition.",
+        "The phrase “rather than increasing in a simple one-to-one way” is an unsupported elaboration not stated in the source."
+      ],
+      "definition_hash": "d573fd8b27e267283b3248cdd7c2278f7a6b615ddc6f1c0469ee7d13b84ad576",
+      "packet_hash": "a36acdecac6ba12224ac5a81806de5813aa82ab3bee95fb14c9f03795e2e088f",
+      "published_packet_hash": "a36acdecac6ba12224ac5a81806de5813aa82ab3bee95fb14c9f03795e2e088f",
+      "receipt_id": "d87c07625d1f43d4982fead6eb55b508",
+      "request_hash": "2d56a1c224c8333e516c4950dd4b2661b9684508c1f4444128551329e0afd86d",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

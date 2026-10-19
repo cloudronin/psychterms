@@ -1,0 +1,26 @@
+{
+  "id": "statistical-process-control",
+  "term": "statistical process control",
+  "source": "article-pmc7272012",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0233920",
+  "revision": "2020; DOI 10.1371/journal.pone.0233920; article XML SHA-256 d1dd34b3ba363f6be45dcf0be9b8f9569430012c5e979941f244913d2fa7b60b",
+  "source_snapshot_sha256": "d1dd34b3ba363f6be45dcf0be9b8f9569430012c5e979941f244913d2fa7b60b",
+  "url": "https://doi.org/10.1371/journal.pone.0233920",
+  "text": "The run chart is one form of statistical process control chart that is particularly useful for detecting persistent shifts in data over time. The Anhøj rules test for shifts by looking for unusually long runs (L) of data points on the same side of the process centre (mean or median) and unusually few crossings (C) of the centre depending on the number of available data points (N). Critical values for C and L have mainly been studied in isolation. But what is really of interest is the joint distribution of C and L, which has so far only been studied using simulated data series. We recently released an R package, crossrun that calculates exact values for the joint probabilities of C and L that allowed us to study the diagnostic properties of the Anhøj rules in detail and to suggest minor adjustments to improve their diagnostic value.",
+  "source_label": "Smooth operator: Modifying the Anhøj rules to improve runs analysis in statistical process control",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    843
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "research methods",
+  "scope_decision": {
+    "eligible": true,
+    "field": "research methods",
+    "rule": "article-requested-method-concept",
+    "policy_version": 4
+  },
+  "packet_hash": "d15e08bac35d4535ec965928248c8999fff55c66c9760337690a5cccc3e374f0"
+}

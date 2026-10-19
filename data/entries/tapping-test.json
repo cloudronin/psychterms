@@ -1,0 +1,63 @@
+{
+  "id": "tapping-test",
+  "term": "tapping test",
+  "definition": "A tapping test is a task that uses tapping responses to measure performance in areas such as memory or learning. In this packet, the term refers to the Corsi block-tapping test, which was used to assess visuospatial short-term memory and working memory.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13050894"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13050894",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1757737; article XML SHA-256 6df939f50b253061256b72b19a2f9ec685f75b124952f7625aaa23d4f5100e61",
+      "scope": "Source record 10.3389/fnhum.2026.1757737; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1757737"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8d743781295a075ae62840823bbe6f5cb7418e0848bbfd11df79302c208ff30a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6a94e07fbd084e96a4d266c6d1df438d",
+    "request_hash": "31d820478549bd86773bb66d75c71d622e559ac512d8c19eda9b57359bddbb7a",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "dc3c38d53d4eeeeb5b6bd74a6f361fb3516013a815eb48c14f4f223597c9da5f",
+    "packet_hash": "8d743781295a075ae62840823bbe6f5cb7418e0848bbfd11df79302c208ff30a"
+  },
+  "hash": "a804e6e413a660d9f7c2a49a8110cc4d8d842bf03abccb960f3e768767dfaa64",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening general definition (“a task that uses tapping responses to measure performance in areas such as memory or learning”) is not supported by the packet; the packet only mentions the Corsi block-tapping test as a study measure, without defining a general ‘tapping test’ construct.",
+        "The packet supports only the specific sense of the Corsi block-tapping test and its use to assess visuospatial short-term memory and working memory; it does not support the broader formulation about measuring “memory or learning” in general."
+      ],
+      "definition_hash": "dc3c38d53d4eeeeb5b6bd74a6f361fb3516013a815eb48c14f4f223597c9da5f",
+      "packet_hash": "8d743781295a075ae62840823bbe6f5cb7418e0848bbfd11df79302c208ff30a",
+      "published_packet_hash": "8d743781295a075ae62840823bbe6f5cb7418e0848bbfd11df79302c208ff30a",
+      "receipt_id": "c4defa7550f44d40902b84d55fa7865d",
+      "request_hash": "8fa3d166c0a579346efd70f799036871959f26d206d8aabcabc8b4fcc24a917a",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a general category of “tapping test” as “a task that uses tapping responses to measure performance in areas such as memory or learning”; the text only mentions that the study used the Corsi block-tapping test.",
+        "While the packet supports that, in this study, the “tapping test” refers to the Corsi block-tapping test and that it was used alongside other tasks to assess visuospatial short-term memory and working memory, it does not provide support for the broader, general first sentence about tapping responses and “learning” as such."
+      ],
+      "definition_hash": "dc3c38d53d4eeeeb5b6bd74a6f361fb3516013a815eb48c14f4f223597c9da5f",
+      "packet_hash": "8d743781295a075ae62840823bbe6f5cb7418e0848bbfd11df79302c208ff30a",
+      "published_packet_hash": "8d743781295a075ae62840823bbe6f5cb7418e0848bbfd11df79302c208ff30a",
+      "receipt_id": "efb2309267764a05a494665f8312babc",
+      "request_hash": "5900121ebcd30f6ecbfb30ad33e0b9971854511e608711aa6456e9e78874a519",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ridge-regression",
+  "term": "ridge regression",
+  "source": "article-pmc13558022",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1792200",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1792200; article XML SHA-256 870591678d941c203cf66be9844b6e8c134f3d7b3765e2510f600230b3bf9681",
+  "source_snapshot_sha256": "870591678d941c203cf66be9844b6e8c134f3d7b3765e2510f600230b3bf9681",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1792200",
+  "text": "Burnout is a persistent and growing concern in audit- and control-oriented professions, where prolonged cognitive demands and sustained performance pressure may manifest as observable behavioral withdrawal. This study examines absenteeism as an objective behavioral proxy for burnout and evaluates its determinants using a comparative machine learning framework. Drawing on a real-world human resources dataset, the analysis focuses on a specialized subsample of audit- and control-oriented employees. Multiple regression algorithms were benchmarked, including ordinary least squares, ridge regression, Lasso, Elastic Net, and a nonlinear ensemble method, and model performance was assessed using 5-fold cross-validation. Among the evaluated approaches, regularized linear models demonstrated superior robustness, with Elastic Net regression emerging as the most stable and interpretable model under small-sample conditions. The dominance of Elastic Net highlights the importance of combining sparsity and coefficient shrinkage when analyzing organizational data characterized by multicollinearity and limited observations. Nonlinear modeling provided complementary insights but did not outperform regularized linear methods in predictive accuracy. The results indicate that absenteeism in audit-oriented roles is primarily associated with structural and career-stage factors, rather than short-term behavioral fluctuations. This finding suggests that burnout-related withdrawal reflects cumulative role exposure and systemic work design characteristics, rather than episodic stress responses. From a methodological perspective, the study demonstrates the value of regularization-based machine learning for producing transparent and reliable insights in auditing research, thereby addressing long-standing concerns about model interpretability and overfitting. By integrating performance benchmarking with explainable modeling, this research contributes to the emerging literature on explainable artificial intelligence in auditing. In practice, the findings support the development of preventive, system-level interventions aimed at workload structuring and career-stage support to mitigate burnout-driven absenteeism. Despite its exploratory nature, the study offers a rigorous, reproducible analytical framework applicable to similar professional settings with constrained data availability.",
+  "source_label": "A machine learning approach to behavioral signals of burnout in audit and control professions",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2394
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "a7bf19a8ad955c1e626ad9dc5b044f287c3595c13c184205f559191397eb4403"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "power-spectrum",
+  "term": "power spectrum",
+  "source": "article-pmc11392270",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0308797",
+  "revision": "2024; DOI 10.1371/journal.pone.0308797; article XML SHA-256 55669c499f598f0172c059a3ac4c4a84cd2e5ccc093dabe5c813fc8bc4352c6f",
+  "source_snapshot_sha256": "55669c499f598f0172c059a3ac4c4a84cd2e5ccc093dabe5c813fc8bc4352c6f",
+  "url": "https://doi.org/10.1371/journal.pone.0308797",
+  "text": "The current trends in the development of methods for non-invasive prediction of premature birth based on the electromyogram of the uterus, i.e., electrohysterogram (EHG), suggest an ever-increasing use of large number of features, complex models, and deep learning approaches. These “black-box” approaches rarely provide insights into the underlying physiological mechanisms and are not easily explainable, which may prevent their use in clinical practice. Alternatively, simple methods using meaningful features, preferably using a single feature (biomarker), are highly desirable for assessing the danger of premature birth. To identify suitable biomarker candidates, we performed feature selection using the stabilized sequential-forward feature-selection method employing learning and validation sets, and using multiple standard classifiers and multiple sets of the most widely used features derived from EHG signals. The most promising single feature to classify between premature EHG records and EHG records of all other term delivery modes evaluated on the test sets appears to be Peak Amplitude of the normalized power spectrum ( PA ) of the EHG signal in the low frequency band (0.125-0.575 Hz) which closely matches the known Fast Wave Low (FWL) frequency band. For classification of EHG records of the publicly available TPEHG DB, TPEHGT DS, and ICEHG DS databases, using the Partition-Synthesis evaluation technique, the proposed single feature, PA , achieved Classification Accuracy ( CA ) of 76.5% ( AUC of 0.81). In combination with the second most promising feature, Median Frequency ( MF ) of the power spectrum in the frequency band above 1.0 Hz, which relates to the maternal resting heart rate, CA increased to 78.0% ( AUC of 0.86). The developed method in this study for the prediction of premature birth outperforms single-feature and many multi-feature methods based on the EHG, and existing non-invasive chemical and molecular biomarkers. The developed method is fully automatic, simple, and the two proposed features are explainable.",
+  "source_label": "Peak amplitude of the normalized power spectrum of the electromyogram of the uterus in the low frequency band is an effective predictor of premature birth",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2059
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3"
+}

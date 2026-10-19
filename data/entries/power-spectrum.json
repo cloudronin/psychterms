@@ -1,0 +1,63 @@
+{
+  "id": "power-spectrum",
+  "term": "power spectrum",
+  "definition": "A power spectrum is a way of describing how much of a recorded signal is concentrated at different frequencies. In this study, features such as peak amplitude and median frequency were taken from the power spectrum to summarize uterine electromyogram activity within selected frequency bands.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11392270"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11392270",
+      "revision": "2024; DOI 10.1371/journal.pone.0308797; article XML SHA-256 55669c499f598f0172c059a3ac4c4a84cd2e5ccc093dabe5c813fc8bc4352c6f",
+      "scope": "Source record 10.1371/journal.pone.0308797; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0308797"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ae4230f204b849839658b9129cb27036",
+    "request_hash": "ba55d664ba278c7549a38e7a8ee397a4f33f6dd6a8740ec9577871cbfa567f3f",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "55792f8ad58535b553a7002362c09ce1c9ddfb3f18fd4effbcd9d2e7d73b286f",
+    "packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3"
+  },
+  "hash": "b209077207ab86194df562e11c5e9174e8b3f2b8158fb3a6ac8f793bbde9a4b6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general characterization of a power spectrum (“how much of a recorded signal is concentrated at different frequencies”), but the provided packet does not explicitly state or define power spectrum in those terms—only that features were derived from “the (normalized) power spectrum” in specific frequency bands.",
+        "Because that general definition of the term is unsupported by the packet, the full definition cannot be accepted under the requirement that every substantive claim be supported."
+      ],
+      "definition_hash": "55792f8ad58535b553a7002362c09ce1c9ddfb3f18fd4effbcd9d2e7d73b286f",
+      "packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3",
+      "published_packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3",
+      "receipt_id": "68b4e60a373d4e3982d292e957df67c8",
+      "request_hash": "56c0857941da68f073b8dbc7d4d32ef9fc0515a05514dea4bf593d46e28fc04f",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition gives a general signal-processing explanation of “power spectrum,” but the packet does not supply that standalone definition; it only uses the term in the context of electrohysterogram features.",
+        "The requested field is “learning,” but the source packet is about uterine electromyogram feature extraction and premature-birth prediction, so the field/sense is not supported by the packet."
+      ],
+      "definition_hash": "55792f8ad58535b553a7002362c09ce1c9ddfb3f18fd4effbcd9d2e7d73b286f",
+      "packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3",
+      "published_packet_hash": "90a32b11566a5e901ef963efb74ed7e186af990483a47aed016b09800c7fc1d3",
+      "receipt_id": "2002258768d94dbd9720ac4097b9aa3c",
+      "request_hash": "c9e8bd507a0f6d94de030d0bdfb7e372ad6169f3eba11b0fe21756aef0afde21",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

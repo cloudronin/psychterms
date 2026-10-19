@@ -1,0 +1,63 @@
+{
+  "id": "two-way-interaction",
+  "term": "two-way interaction",
+  "definition": "A two-way interaction is a combined effect of two factors considered together rather than as separate main effects. In this usage, it refers to testing whether the relation between one factor and an outcome changes depending on the level of the other factor.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6837999"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6837999",
+      "revision": "2019; DOI 10.3389/fpsyg.2019.02364; article XML SHA-256 bfdea59de067506ad7aabe36b65b4165aa05a429e019dbf07e5413c222fff5c3",
+      "scope": "Source record 10.3389/fpsyg.2019.02364; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2019.02364"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a3802f885d2da17e269c013eb92d4c426919e10b6153685fa1a6908fb6743def",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "509a0395cec2465e86238e8330fb78fa",
+    "request_hash": "386c53bc8cbdc81725a1968433be5f91c2eaba374536baa9b4a6bcdc684ed05e",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "f2a5857b77eff5ab2bc6800ff5585a735b17c1c7b4db231f9d37d23dd0c5a3d4",
+    "packet_hash": "a3802f885d2da17e269c013eb92d4c426919e10b6153685fa1a6908fb6743def"
+  },
+  "hash": "15ca09dabfa31cd876ec7a07b4dc7a70fc7208833bc0bfbc69f23cb66cb71db4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet does not explicitly define “two-way interaction” in the way the definition states (as a combined effect vs separate main effects, and specifically as testing whether a factor–outcome relation changes across levels of the other factor).",
+        "The packet describes adopting an “interaction concept as defined in log-linear models” and using it for MPT models, but it does not provide the stated general definition or the specific interpretation about changes in the relation depending on the other factor’s level."
+      ],
+      "definition_hash": "f2a5857b77eff5ab2bc6800ff5585a735b17c1c7b4db231f9d37d23dd0c5a3d4",
+      "packet_hash": "a3802f885d2da17e269c013eb92d4c426919e10b6153685fa1a6908fb6743def",
+      "published_packet_hash": "a3802f885d2da17e269c013eb92d4c426919e10b6153685fa1a6908fb6743def",
+      "receipt_id": "71a8912ea1c64249829987c23c0a299a",
+      "request_hash": "d545188cf09341871142a3b464dcbb6e932b3e87ac59a2c9c1187917176ab512",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the paper discusses ordinal and disordinal two-way interaction hypotheses in MPT models, but it does not explicitly define a two-way interaction as a combined effect of two factors or as a case where the relation between one factor and an outcome changes depending on the other factor’s level.",
+        "The wording broadens the source beyond what is shown in the packet; the packet only says the interaction concept from log-linear models is applied to MPT models and tested, not the general explanatory definition given here."
+      ],
+      "definition_hash": "f2a5857b77eff5ab2bc6800ff5585a735b17c1c7b4db231f9d37d23dd0c5a3d4",
+      "packet_hash": "a3802f885d2da17e269c013eb92d4c426919e10b6153685fa1a6908fb6743def",
+      "published_packet_hash": "a3802f885d2da17e269c013eb92d4c426919e10b6153685fa1a6908fb6743def",
+      "receipt_id": "05d6d1b5e3de4fcc8dd6a8919b68985b",
+      "request_hash": "bbdbbe0972e8650ee9c5fbf08102a120bb1c849b71cfdc008484789d2bf085f2",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

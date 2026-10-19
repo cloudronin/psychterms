@@ -1,0 +1,60 @@
+{
+  "id": "biochemical-marker",
+  "term": "biochemical marker",
+  "definition": "A biochemical marker is a measurable body substance used to indicate a physiological change or possible injury. In this study, blood creatine kinase was used as a biochemical marker of muscle injury.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7971490"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7971490",
+      "revision": "2021; DOI 10.1371/journal.pone.0248653; article XML SHA-256 b9b251a2d86c3ee21df3a500e3892216985d8352ecb843567af6eb60d5e46b33",
+      "scope": "Source record 10.1371/journal.pone.0248653; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0248653"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d9ebdc4d7e7a4e52b40dd370065ac761",
+    "request_hash": "ac1fb5f8d001ab73bc5e28c0e6ef24e88577ad2a94804b51fde9b20027ed6b0c",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "cf0ae6990f703436ecf0aa8264c3e1969f0e94253a3819173315af1cb22148c3",
+    "packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a"
+  },
+  "hash": "15fef3db1a934e60a5fe79fea14999ecb1e485d1c3ac87b313940b8fc8118c38",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence provides a general definition of “biochemical marker” (e.g., “measurable body substance” used “to indicate a physiological change or possible injury”) that is not explicitly supported in the supplied packet text.",
+        "The packet supports only the study-specific usage: blood creatine kinase (CK) as a “biochemical marker of muscle injury”; it does not provide the requested general-purpose definitional wording."
+      ],
+      "definition_hash": "cf0ae6990f703436ecf0aa8264c3e1969f0e94253a3819173315af1cb22148c3",
+      "packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a",
+      "published_packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a",
+      "receipt_id": "cd085f1f9e4148ab8950071d42f7e146",
+      "request_hash": "e398973962f3c8323c3684dbfff688ab5294e27a0b28135b5bced572b460887a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cf0ae6990f703436ecf0aa8264c3e1969f0e94253a3819173315af1cb22148c3",
+      "packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a",
+      "published_packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a",
+      "receipt_id": "df9cff8874d143249eac7e658cab6d46",
+      "request_hash": "2ebd69adf1c9875248a3f73df8c8a79c1a727d64dd52c9cd4aabf7eafc27cf59",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

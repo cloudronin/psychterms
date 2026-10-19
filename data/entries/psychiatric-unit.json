@@ -1,0 +1,64 @@
+{
+  "id": "psychiatric-unit",
+  "term": "psychiatric unit",
+  "definition": "A psychiatric unit is an inpatient hospital setting where people with serious mental health problems are cared for. In the source, it is described as a setting where patients may be unpredictable or unstable, creating risks such as violence toward staff.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12640966"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12640966",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1680477; article XML SHA-256 f62e21cd3e49130aea5bb1bd7c8433dc5d14efebc6b8e9a8f973e19825573042",
+      "scope": "Source record 10.3389/fpsyt.2025.1680477; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1680477"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a90e0da64d4a4f88164ae24374e1df3010b0f8c476fa5c1c2c84b8f9880e0115",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b03be9fc085a46bd8814e1191feb8579",
+    "request_hash": "f88db2ad4b3a8f1751cf2ee01628739aae6e8d2f09fd8ce8114a129be70a13ac",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "2808362728bb4b7ca21bf334ae1e5a4697465aa2339ee5f21171db364e7139e7",
+    "packet_hash": "a90e0da64d4a4f88164ae24374e1df3010b0f8c476fa5c1c2c84b8f9880e0115"
+  },
+  "hash": "b633a890f6c45c825d041f8803ba0b33d43e1abe12fff9ad05e6b311e2fe6a65",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported elements not stated in the packet, including that a psychiatric unit is an inpatient hospital setting and that it is where people with serious mental health problems are cared for.",
+        "The packet supports that psychiatric units may involve unpredictable or mentally unstable patients and assault risk to staff, but that is not enough to support the broader definitional wording used here."
+      ],
+      "definition_hash": "2808362728bb4b7ca21bf334ae1e5a4697465aa2339ee5f21171db364e7139e7",
+      "packet_hash": "a90e0da64d4a4f88164ae24374e1df3010b0f8c476fa5c1c2c84b8f9880e0115",
+      "published_packet_hash": "a90e0da64d4a4f88164ae24374e1df3010b0f8c476fa5c1c2c84b8f9880e0115",
+      "receipt_id": "c65b3d6cfc44443aac1c9a67cd55fc87",
+      "request_hash": "391c0d8ea7268a97432bdf691a16ca1b72269e9c9b0c5340946adacef0bc759a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims a “psychiatric unit” is an “inpatient hospital setting,” but the packet text does not explicitly describe psychiatric units as inpatient hospital settings.",
+        "The definition states that people “with serious mental health problems” are cared for, but the packet does not use or support the term “serious” or make that specific claim.",
+        "While the packet supports that psychiatric units include “unpredictable” and “mentally unstable” patients and that this “may increase the risk of physical assault” toward staff, the definition also adds additional unstated elements beyond what is supported (inpatient setting; serious mental health problems)."
+      ],
+      "definition_hash": "2808362728bb4b7ca21bf334ae1e5a4697465aa2339ee5f21171db364e7139e7",
+      "packet_hash": "a90e0da64d4a4f88164ae24374e1df3010b0f8c476fa5c1c2c84b8f9880e0115",
+      "published_packet_hash": "a90e0da64d4a4f88164ae24374e1df3010b0f8c476fa5c1c2c84b8f9880e0115",
+      "receipt_id": "1660df5e2cbc496881cb9f5cbc2a616d",
+      "request_hash": "f47d41445815e32bfb6b7a5db223bca833049f936023254c054feac94cf96e69",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

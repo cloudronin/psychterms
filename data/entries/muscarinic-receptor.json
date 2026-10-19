@@ -1,0 +1,61 @@
+{
+  "id": "muscarinic-receptor",
+  "term": "muscarinic receptor",
+  "definition": "A muscarinic receptor is a cell receptor that responds to acetylcholine. In this source, the M3 muscarinic receptor is described as activating PKC and p38 MAPK signaling, which increased miR-222 expression and cell proliferation, and its effects were blocked by atropine.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9165902"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9165902",
+      "revision": "2022; DOI 10.1371/journal.pone.0269618; article XML SHA-256 40e175d1ebd3b658cff7cbf263e4c75953b77520779d588a8f90ba99c5eb9f26",
+      "scope": "Source record 10.1371/journal.pone.0269618; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0269618"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "572360aeaee66d680b0b2199f73a51c334df528dc3d318afeff8ffc3e73f459b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "be5b374d383840d5abd8e99f181879a7",
+    "request_hash": "c57c6af653eccebcf221cd6ae1b2702c5dff5c78eaa1aad3d5e2988849f1e144",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "31d96a0d359beffe06b63847bbdbdd9bba99fef7b4f0cbac6caafd56680bc899",
+    "packet_hash": "572360aeaee66d680b0b2199f73a51c334df528dc3d318afeff8ffc3e73f459b"
+  },
+  "hash": "f8640f550783c380a9ecfe3da73ab093e3bb12c60f1080bf5872efd952c968c5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "31d96a0d359beffe06b63847bbdbdd9bba99fef7b4f0cbac6caafd56680bc899",
+      "packet_hash": "572360aeaee66d680b0b2199f73a51c334df528dc3d318afeff8ffc3e73f459b",
+      "published_packet_hash": "572360aeaee66d680b0b2199f73a51c334df528dc3d318afeff8ffc3e73f459b",
+      "receipt_id": "bb9ed398e69c48b18a4dd16c8a7120fc",
+      "request_hash": "1f157d4c44def744f8b41315b3978c78b14f97a52de8fc86525c434c72cba1d8",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that acetylcholine acting through M3 muscarinic receptor signaling stimulates PKC/p38 MAPK pathways, increases miR-222 expression, and promotes proliferation, but the definition overstates this as if the receptor itself is directly described as \"activating\" those pathways in the source.",
+        "The statement that \"its effects were blocked by atropine\" is too broad: the packet says atropine attenuated ACh-induced pri-miR-222 increases and blocked ACh-induced proliferation, but not all downstream effects (for example, it did not block miR-222 mimics or the PKC agonist condition).",
+        "The definition compresses multiple experimental conditions into a single generalized claim, which is not fully supported by the source wording."
+      ],
+      "definition_hash": "31d96a0d359beffe06b63847bbdbdd9bba99fef7b4f0cbac6caafd56680bc899",
+      "packet_hash": "572360aeaee66d680b0b2199f73a51c334df528dc3d318afeff8ffc3e73f459b",
+      "published_packet_hash": "572360aeaee66d680b0b2199f73a51c334df528dc3d318afeff8ffc3e73f459b",
+      "receipt_id": "0641e6418881435db54a0ce28b66dd26",
+      "request_hash": "8a897119fcea59e77bdb2c5f845e79a035cb1b4642ae0b085ad11eb26f521558",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

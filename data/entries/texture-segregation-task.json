@@ -1,0 +1,62 @@
+{
+  "id": "texture-segregation-task",
+  "term": "texture segregation task",
+  "definition": "A texture segregation task is a visual test in which a person responds to differences in patterned surfaces while brain activity is recorded. In the source, it is used to examine early visual-cortex input and the functioning of recurrent connections in the visual cortical system.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3187802"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3187802",
+      "revision": "2011; DOI 10.1371/journal.pone.0025882; article XML SHA-256 08133cf517be47dd1578b9afe1c7b528f02713e3d4c762183130c78a0aac6280",
+      "scope": "Source record 10.1371/journal.pone.0025882; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0025882"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d06e987eabf574c23aff40def225023e9f23cfdf904e8d3cfabd4e9632b6ace4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "78ff05af66f54a7797f052cb162b1f2b",
+    "request_hash": "102763ca7f0419714d63dbac02c11636e1052509ac3f8c82fa03ba00a0a4b0da",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "d4cbb74cd1cd62567b3585c74d6346cb91f343530315527eb255e851e012480a",
+    "packet_hash": "d06e987eabf574c23aff40def225023e9f23cfdf904e8d3cfabd4e9632b6ace4"
+  },
+  "hash": "c910a27868b747c5831fa74ea1350ee3f40220dd96b2f7cb84bcc468ad543e6c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d4cbb74cd1cd62567b3585c74d6346cb91f343530315527eb255e851e012480a",
+      "packet_hash": "d06e987eabf574c23aff40def225023e9f23cfdf904e8d3cfabd4e9632b6ace4",
+      "published_packet_hash": "d06e987eabf574c23aff40def225023e9f23cfdf904e8d3cfabd4e9632b6ace4",
+      "receipt_id": "cda5cfb2801a4c48974762c5d4e02def",
+      "request_hash": "c6bae8671c79887952bbc93cca0f775e344ba455d2a8af3c1f78c3b5a32686fa",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says the task is “a visual test in which a person responds to differences in patterned surfaces,” but the provided packet text only states that ERPs were measured “during a texture segregation task” and does not describe what participants do or that stimuli are patterned surfaces requiring responses.",
+        "The definition’s claim that it examines “early visual-cortex input” is not stated in the packet; the packet only specifies that the C1 component was used to index afferent activity of V1.",
+        "The definition’s claim about “the functioning of recurrent connections” is only partially supported: the packet says the “texture negativity wave” provided “a measure for the integrity of recurrent connections,” but it does not directly support wording like “functioning.”",
+        "Because the definition contains at least one key substantive element not supported by the packet (participant responding to patterned-surface differences), it is not defensible under the provided-source constraint."
+      ],
+      "definition_hash": "d4cbb74cd1cd62567b3585c74d6346cb91f343530315527eb255e851e012480a",
+      "packet_hash": "d06e987eabf574c23aff40def225023e9f23cfdf904e8d3cfabd4e9632b6ace4",
+      "published_packet_hash": "d06e987eabf574c23aff40def225023e9f23cfdf904e8d3cfabd4e9632b6ace4",
+      "receipt_id": "b1f732e5d70848a48dbb00512f4d3180",
+      "request_hash": "699f6463ca4770cc9a6620f33ad6d797d00bf6373e889db6e008c7c0795439ef",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

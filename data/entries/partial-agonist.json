@@ -1,0 +1,60 @@
+{
+  "id": "partial-agonist",
+  "term": "partial agonist",
+  "definition": "A partial agonist is a drug that activates a receptor, but only in a limited or selective way rather than producing the full pattern of effects of another agonist. In this packet, AT121 is described as a partial agonist at mu and NOP receptors, triggering some signaling pathways while not acting like morphine in the same way.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13094985"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13094985",
+      "revision": "2026; DOI 10.1371/journal.pone.0347529; article XML SHA-256 1da32c01a89ac07f05f9348b2be7a4784052ab57db94f7ac75a4788be4f71b86",
+      "scope": "Source record 10.1371/journal.pone.0347529; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0347529"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "caf6992696bd6803c122ce44994968a579a77738e435ef362ba69fc777590bc2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "65ca497ecade40b9998669d862053e8e",
+    "request_hash": "a7e136b0d825501b74114c7d0df59bf89c856db15b379b44868dce79a902d9ac",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "e92d95713d9ce58e6ec70f7da67cbd586c2525d6b55253d70909a37915119ecd",
+    "packet_hash": "caf6992696bd6803c122ce44994968a579a77738e435ef362ba69fc777590bc2"
+  },
+  "hash": "451b275bbf11e80fba3add1c33329e6e14d84ef9eefb6de66916a5936593360e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e92d95713d9ce58e6ec70f7da67cbd586c2525d6b55253d70909a37915119ecd",
+      "packet_hash": "caf6992696bd6803c122ce44994968a579a77738e435ef362ba69fc777590bc2",
+      "published_packet_hash": "caf6992696bd6803c122ce44994968a579a77738e435ef362ba69fc777590bc2",
+      "receipt_id": "e9f67fdfa294453cab4d202f609b428c",
+      "request_hash": "153484706fc0962c5ea910951471bd1ae2368e069ed361c95070eb6c1cfb5978",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general, field-wide characterization of “partial agonist” (\"limited or selective\" effects; not producing the full pattern of effects of another agonist) that is not supported anywhere in the provided packet text, which only describes AT121 as a “bifunctional partial agonist.”",
+        "The packet supports that AT121 is described as a partial agonist at Mu and NOP receptors and reports specific pathway effects (e.g., activating G0/Gi and blocking β-arrestin) and contrasts its effects with morphine, but it does not provide the stated general definition of the term in those words."
+      ],
+      "definition_hash": "e92d95713d9ce58e6ec70f7da67cbd586c2525d6b55253d70909a37915119ecd",
+      "packet_hash": "caf6992696bd6803c122ce44994968a579a77738e435ef362ba69fc777590bc2",
+      "published_packet_hash": "caf6992696bd6803c122ce44994968a579a77738e435ef362ba69fc777590bc2",
+      "receipt_id": "1b3ffcb8ab9749fa8ed2d6d1170db516",
+      "request_hash": "f13f874ccab4166181ed22b3a5c4211fa04b1013aaacebb21419cc1a966a8843",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

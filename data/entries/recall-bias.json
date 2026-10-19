@@ -1,0 +1,60 @@
+{
+  "id": "recall-bias",
+  "term": "recall bias",
+  "definition": "Recall bias is a systematic difference between what people later remember and what they originally reported or experienced. In psychology and health research, it refers to memory distortion that can make past symptoms, quality of life, or exposures seem better, worse, or different than they were.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5289621"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5289621",
+      "revision": "2017; DOI 10.1371/journal.pone.0171519; article XML SHA-256 42e810dd3844e9428317beee165f3a425c78e9d8954fc2abd7abfef476f6ca31",
+      "scope": "Source record 10.1371/journal.pone.0171519; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0171519"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d60528cb2868ae5bf7367f360511833fecbe4669e10b679ccb9696969447a36b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0c9362f681e7448687955e90333f1515",
+    "request_hash": "5597ce50b82bec37bd1201de5a8001d17b163a41d98f3bfc6defd31df443622a",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "7875f8ebb7ac028c714976e1ce0d3531ed314978c157fe2362fc33b9f1f8a02c",
+    "packet_hash": "d60528cb2868ae5bf7367f360511833fecbe4669e10b679ccb9696969447a36b"
+  },
+  "hash": "bc5415804c2db4dbcd8f81417c502554699cbb5683b3a6a481be36762521232b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7875f8ebb7ac028c714976e1ce0d3531ed314978c157fe2362fc33b9f1f8a02c",
+      "packet_hash": "d60528cb2868ae5bf7367f360511833fecbe4669e10b679ccb9696969447a36b",
+      "published_packet_hash": "d60528cb2868ae5bf7367f360511833fecbe4669e10b679ccb9696969447a36b",
+      "receipt_id": "227fa4206cd8473cac89c485fdb2603c",
+      "request_hash": "6a53e78328909ec7309ba8ecfa17c81597dd4e4bc4c09d1e7a35235358d06a74",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a broader contrast with what people originally ‘experienced’; the packet supports comparison with remembered versus actually reported data or recalled exposure, not a general original-experience standard.",
+        "The opening phrase ‘In psychology and health research’ goes beyond the packet, which supports use in epidemiologic/health research and a study of quality of life, but not psychology as such."
+      ],
+      "definition_hash": "7875f8ebb7ac028c714976e1ce0d3531ed314978c157fe2362fc33b9f1f8a02c",
+      "packet_hash": "d60528cb2868ae5bf7367f360511833fecbe4669e10b679ccb9696969447a36b",
+      "published_packet_hash": "d60528cb2868ae5bf7367f360511833fecbe4669e10b679ccb9696969447a36b",
+      "receipt_id": "4dbd4b92fa8f410f943d473392914b31",
+      "request_hash": "460353c81ac982771f932722641b13517c949ed024ae130e93b63e26707cbda6",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

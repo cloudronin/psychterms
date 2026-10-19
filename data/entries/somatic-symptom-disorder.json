@@ -1,0 +1,62 @@
+{
+  "id": "somatic-symptom-disorder",
+  "term": "somatic symptom disorder",
+  "definition": "Somatic symptom disorder is a condition marked by distressing preoccupation with bodily symptoms. In this source, it is described as involving biased attention to or interpretation of body signals rather than more accurate perception of them.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9387777"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9387777",
+      "revision": "2022; DOI 10.1371/journal.pone.0271717; article XML SHA-256 9c83098b424d9d40c2165b5a45013e35d9c99ebb282e79a8f63d6a02e7513eb2",
+      "scope": "Source record 10.1371/journal.pone.0271717; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0271717"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5ca4ff8ba4fac6e8af02da6d3640f8ae68f4bbd73246f4bd503ef7e4205e933a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "30d953d1e476464d8fec58fb9a600db5",
+    "request_hash": "5ec7091f5fd676b88b79bae4580e0395126b0abbc682e83baaccd81e1a4ddaa8",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "c5e94301781d51c7ef638d0d2ce46816abb4ad436e2b753865960e02d69ce3d8",
+    "packet_hash": "5ca4ff8ba4fac6e8af02da6d3640f8ae68f4bbd73246f4bd503ef7e4205e933a"
+  },
+  "hash": "42329959a95de04da3e6fa479cec0d7bc9aa085d350327507f38f90965f151c8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the disorder involves “distressing preoccupation,” but the packet states “burdensome preoccupation,” without explicitly using or supporting the term “distressing.”"
+      ],
+      "definition_hash": "c5e94301781d51c7ef638d0d2ce46816abb4ad436e2b753865960e02d69ce3d8",
+      "packet_hash": "5ca4ff8ba4fac6e8af02da6d3640f8ae68f4bbd73246f4bd503ef7e4205e933a",
+      "published_packet_hash": "5ca4ff8ba4fac6e8af02da6d3640f8ae68f4bbd73246f4bd503ef7e4205e933a",
+      "receipt_id": "c7b601fb70da4d0ea70b568d1468c4ba",
+      "request_hash": "5dc690ec23d0d2c21e76df7979c82f4ed435c29e4173997d1bbe4f2b4e255945",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports burdensome preoccupation with somatic symptoms, but it does not state that somatic symptom disorder involves biased attention; it refers instead to biased interoception, response bias, and top-down predictions about sensory events.",
+        "The phrase “rather than more accurate perception of them” is only partly supported: the source says the findings strengthen the notion of biased rather than accurate perception of body signals, but this is presented as a research conclusion from the review, not as a direct definitional statement of the disorder."
+      ],
+      "definition_hash": "c5e94301781d51c7ef638d0d2ce46816abb4ad436e2b753865960e02d69ce3d8",
+      "packet_hash": "5ca4ff8ba4fac6e8af02da6d3640f8ae68f4bbd73246f4bd503ef7e4205e933a",
+      "published_packet_hash": "5ca4ff8ba4fac6e8af02da6d3640f8ae68f4bbd73246f4bd503ef7e4205e933a",
+      "receipt_id": "127058e595cf4a019bac04733cb04d1e",
+      "request_hash": "4fc46bb354bfc91e1333b145ff0cf196cfed59062559717aa742b1eb1e77cc80",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

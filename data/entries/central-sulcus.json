@@ -1,0 +1,63 @@
+{
+  "id": "central-sulcus",
+  "term": "central sulcus",
+  "definition": "The central sulcus is a brain region measured in this study as part of the modality-specific “spokes” involved in semantic processing. Its activity was linked especially to identifying manmade objects, consistent with a contribution from motor-related cortex when object knowledge is retrieved.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5226830"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5226830",
+      "revision": "2017; DOI 10.1371/journal.pone.0169269; article XML SHA-256 9d50f9573f0c4e2845c58a93214127d51e2fb5416c40c686c0105fa0956c53b9",
+      "scope": "Source record 10.1371/journal.pone.0169269; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0169269"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "24fc7f92e32e0cb7bdfc0aa0d5059bcf817150922cd781243e7cbdd494f94458",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "781f398928564c2c87eee9eb3fb2b971",
+    "request_hash": "9fb3a2d486bdea4e8060b04835165ff80ff2c5f0da22e70f675e234971c996b2",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "a10057ff5c959a2e2077026d30871bcad4314e40321ee2387437b34cb542a6b8",
+    "packet_hash": "24fc7f92e32e0cb7bdfc0aa0d5059bcf817150922cd781243e7cbdd494f94458"
+  },
+  "hash": "8272335ead6558509f6aa8625c00e86ad1d409b6e3a217b8537dd046b357579a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported interpretation that central sulcus activity reflects “motor-related cortex when object knowledge is retrieved”; the packet only says motor cortex contributed to identification of tools/manmade objects, not retrieval of object knowledge.",
+        "The phrase “brain region” is imprecise for this term in the source, which identifies the central sulcus as a measured site (CS) rather than defining it as a cognitive construct."
+      ],
+      "definition_hash": "a10057ff5c959a2e2077026d30871bcad4314e40321ee2387437b34cb542a6b8",
+      "packet_hash": "24fc7f92e32e0cb7bdfc0aa0d5059bcf817150922cd781243e7cbdd494f94458",
+      "published_packet_hash": "24fc7f92e32e0cb7bdfc0aa0d5059bcf817150922cd781243e7cbdd494f94458",
+      "receipt_id": "d43e5f29297340bd87953ce3269d3e1c",
+      "request_hash": "d0019a7df1562c6717c6aaa65a8bea570bb156c04b75fc2842d18550d6240dc8",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that central sulcus activity is “consistent with a contribution from motor-related cortex when object knowledge is retrieved,” but the packet only states that motor cortex contributes to identification of tools; it does not directly connect central sulcus activity to motor-related cortex or retrieval of object knowledge in that explicit manner.",
+        "While the packet supports that central sulcus was measured as part of modality-specific ‘spokes’ and that CS showed stronger later effects for specific-level identification of manmade objects, the motor-related consistency clause is an extra interpretive linkage not clearly supported in the provided text."
+      ],
+      "definition_hash": "a10057ff5c959a2e2077026d30871bcad4314e40321ee2387437b34cb542a6b8",
+      "packet_hash": "24fc7f92e32e0cb7bdfc0aa0d5059bcf817150922cd781243e7cbdd494f94458",
+      "published_packet_hash": "24fc7f92e32e0cb7bdfc0aa0d5059bcf817150922cd781243e7cbdd494f94458",
+      "receipt_id": "41e8b96f71d34429975a93736c4675ba",
+      "request_hash": "6d3625188760a6845de2cb121f893225e7f663ebc6177c39d56b367fb46a5179",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

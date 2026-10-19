@@ -1,0 +1,26 @@
+{
+  "id": "therapeutic-window",
+  "term": "therapeutic window",
+  "source": "article-pmc13225435",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0348068",
+  "revision": "2026; DOI 10.1371/journal.pone.0348068; article XML SHA-256 41a252b3cd0457cdaaf84bd75b4f378dcabb3f2f923e8e48856a0088c74eb61c",
+  "source_snapshot_sha256": "41a252b3cd0457cdaaf84bd75b4f378dcabb3f2f923e8e48856a0088c74eb61c",
+  "url": "https://doi.org/10.1371/journal.pone.0348068",
+  "text": "Retinal ganglion cells (RGCs) are vulnerable to excitotoxic damage mediated by excessive NMDA receptor activation and calcium overload. Extracellular magnesium (Mg 2+ ) blocks NMDA receptors in a voltage-dependent manner, offering potential neuroprotection. However, the optimal Mg 2+ concentrations and timing for effective intervention remain poorly defined. We developed a conductance-based computational model of an RGC incorporating Hodgkin-Huxley dynamics, AMPA and NMDA receptor-mediated synaptic transmission, and intracellular calcium dynamics. We systematically varied Mg 2+ concentration (0.2–2.5 mM) and stimulation frequency (10–100 Hz) to identify therapeutic windows balancing neuroprotection with function preservation. At physiological frequencies (10–60 Hz), elevated Mg 2+ reduced calcium (Ca 2+ ) accumulation by 50–85% without affecting spike output. At excitotoxic frequencies (80 Hz), a narrow therapeutic window of 1.6–2.0 mM was identified, lying within a broader 1.4–2.0 mM spike-loss plateau (20% loss), where calcium additionally fell below the toxicity threshold while spike output was preserved. Intervention timing analysis revealed that Mg 2+ protection efficacy is maximal with pre-treatment or immediate intervention (100%), and declines steeply with delay—reflecting the rapid early rise in Ca 2+ rather than a fixed biological deadline (≥50% protection requires intervention within 0.2 s in our abrupt-onset protocol; ∼11% by 0.5 s). Re-analysis in terms of normalized Ca 2+ progress revealed that the critical constraint for ≥50% protection is intervention before ∼35% of peak Ca 2+ accumulation—a state-based threshold reflecting relative phase sensitivity that generalizes across timescales. Sensitivity analyses confirmed robustness of the therapeutic window across physiologically plausible parameter ranges, and numerical validation demonstrated accuracy of the computational approach. These findings demonstrate that Mg 2+ -mediated neuroprotection is highly dependent on both concentration and timing, with implications for therapeutic strategies targeting glutamate excitotoxicity in glaucoma and retinal ischemia.",
+  "source_label": "Magnesium neuroprotection in retinal ganglion cells: A computational study of frequency-dependent therapeutic windows and intervention timing",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2159
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "3525f3572d4f90684e69565985d492ab64186dd1cf5582ce04129c8a11f38b62"
+}

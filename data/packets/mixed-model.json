@@ -1,0 +1,26 @@
+{
+  "id": "mixed-model",
+  "term": "mixed model",
+  "source": "article-pmc12851479",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0340373",
+  "revision": "2026; DOI 10.1371/journal.pone.0340373; article XML SHA-256 57f25d87025f0644c64728f231a7ed92575aafb9fe9002ba5841da3747f27f4c",
+  "source_snapshot_sha256": "57f25d87025f0644c64728f231a7ed92575aafb9fe9002ba5841da3747f27f4c",
+  "url": "https://doi.org/10.1371/journal.pone.0340373",
+  "text": "Time use is compositional in nature because time spent in sleep, sedentary behaviour and physical activity will always sum to 24 h/day meaning any increase in one behaviour will necessarily displace time spent in another behaviour(s). Given the link between time use and health, and its modifiable nature, public health campaigns often aim to change the way people allocate their time. However, relatively few studies have investigated how movement-behaviour compositions change longitudinally (with repeated measures), due to experimental design elements (e.g., intervention effects), or differences due to participant socio-demographic characteristics (e.g., sex, socio-economic status) within clustered sampling designs. This may be because most mixed-model packages that account for the random effects do not natively support a multivariate outcome such as movement-behaviour composition. In the current paper we provide a practical framework of how to implement a compositional multivariate-response linear mixed model that can be used to model the entire 24h movement-behaviour composition as the dependent variable within a multilevel framework. The method accounts for covariances across and within response variables at the grouping (individual, cluster etc.) and covariance between response variables at the observation level. Results are therefore invariant to the chosen log-ratio basis used to construct the response variables (i.e., mathematically equivalent models). The method outlined is applicable to many designs including longitudinal cohort studies, intervention trials, and clustered cross-sectional designs (e.g., students within schools, patients within clinics). In a worked example we show how this approach can be used to investigate how time is reallocated in children across the school year.",
+  "source_label": "When the outcome is compositional: A method for conducting compositional response linear mixed models for physical activity, sedentary behaviour and sleep research",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1820
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "7f864569bb2587ebc9ad0045ad5d63e35780bd2ad64cc15d93f4ca7927abd6f5"
+}

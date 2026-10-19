@@ -1,0 +1,61 @@
+{
+  "id": "fluctuation",
+  "term": "fluctuation",
+  "definition": "Fluctuation is the degree to which a measured behavior or performance pattern varies over time instead of staying steady. In this source, it refers to greater moment-to-moment variation in force output during a multi-finger task.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13574785"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13574785",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1873097; article XML SHA-256 8aae0ee1faa60d812a5a922adccead28babb88d25722006d448e63969d63b089",
+      "scope": "Source record 10.3389/fnhum.2026.1873097; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1873097"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bb0517cd47ba818b10260e54471d115ee8c6581fea6e609346d6e5e82d3194b6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "27c9bcb80abc47c6bdf46b335b064c9f",
+    "request_hash": "57b9b6deb90dc6d495c419b940bfb9fd0917af6ae6ac38a67cc681c5d01a1b29",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "a6270382f16bc722dfa07cc7da6df780171b0f5c109095ffd85c24cd78cbdbb5",
+    "packet_hash": "bb0517cd47ba818b10260e54471d115ee8c6581fea6e609346d6e5e82d3194b6"
+  },
+  "hash": "67be646b2d9f8a994aabdc41f066fcffaec64b77d459f337935794cb3d4aaf56",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a6270382f16bc722dfa07cc7da6df780171b0f5c109095ffd85c24cd78cbdbb5",
+      "packet_hash": "bb0517cd47ba818b10260e54471d115ee8c6581fea6e609346d6e5e82d3194b6",
+      "published_packet_hash": "bb0517cd47ba818b10260e54471d115ee8c6581fea6e609346d6e5e82d3194b6",
+      "receipt_id": "f6873dd12bc74d0990c97d0aef950e20",
+      "request_hash": "25ad76ca2c8397ac21706d9a461f8c562cd356b36a82ced6db28b36d5c1c8d2d",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement (“Fluctuation is the degree to which a measured behavior or performance pattern varies over time instead of staying steady”) is not explicitly supported or defined in the provided packet text; the packet only reports that the MCI group showed “increased fluctuation (CV)” in force patterns.",
+        "The definition’s second sentence claims a specific interpretation (“greater moment-to-moment variation in force output during a multi-finger task”). While the packet does mention increased fluctuation in the context of multi-finger force production, it does not explicitly define fluctuation as “moment-to-moment variation.”",
+        "The definition is labeled for the field “learning,” but the packet describes motor differences in individuals with mild cognitive impairment versus controls and frames potential behavioral markers for MCI screening; it does not support a learning-specific sense of “fluctuation.”"
+      ],
+      "definition_hash": "a6270382f16bc722dfa07cc7da6df780171b0f5c109095ffd85c24cd78cbdbb5",
+      "packet_hash": "bb0517cd47ba818b10260e54471d115ee8c6581fea6e609346d6e5e82d3194b6",
+      "published_packet_hash": "bb0517cd47ba818b10260e54471d115ee8c6581fea6e609346d6e5e82d3194b6",
+      "receipt_id": "0fb43c44a6204baa98c22c7deb2836f1",
+      "request_hash": "7648904619594091fdfeaef92cba94eaf3a931bf891eedd50dcb617162fafa74",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

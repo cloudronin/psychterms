@@ -1,0 +1,61 @@
+{
+  "id": "working-knowledge",
+  "term": "working knowledge",
+  "definition": "Working knowledge means enough practical understanding of a subject or tool to use it, even without advanced expertise. In this source, it refers to the level of familiarity needed to work with command-line computing methods.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4086967"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4086967",
+      "revision": "2014; DOI 10.1371/journal.pone.0101754; article XML SHA-256 245fa685c2689bcfcfb4a529e50f50bd347b665c991d56e272f265c198c6dfc1",
+      "scope": "Source record 10.1371/journal.pone.0101754; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0101754"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1514c1b9b6724502bf43915ad8709051",
+    "request_hash": "f2c2d6c15c6a6827849ced873914a057b3d78ee89676881c9248f2797e768d60",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "d323822f96df1e85a839c9782bd5f236f5f42d76725baf6085337d3ac56bcf8c",
+    "packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f"
+  },
+  "hash": "4cce57ac0e1426014eead6337f109b78e890e1852549d329cfa50f294194260a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general claim that “Working knowledge means enough practical understanding ... even without advanced expertise.”",
+        "The only supported meaning in the packet is that the term is used to describe familiarity with a “command line interface” needed to run SNP/NGS pipelines; the definition’s added general explanation is not evidenced.",
+        "While the second sentence partially aligns with the packet’s mention of “working knowledge of command line interface,” the first sentence introduces an unsupported definition-level generalization."
+      ],
+      "definition_hash": "d323822f96df1e85a839c9782bd5f236f5f42d76725baf6085337d3ac56bcf8c",
+      "packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f",
+      "published_packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f",
+      "receipt_id": "67453d70265149cb826cc28c11c03e61",
+      "request_hash": "6185bad89a595f0663eef0f759509394420618baef7cefa132ec8977be8658df",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d323822f96df1e85a839c9782bd5f236f5f42d76725baf6085337d3ac56bcf8c",
+      "packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f",
+      "published_packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f",
+      "receipt_id": "ad8f103208d246e095dc3f5f6014db70",
+      "request_hash": "5aa7bb49302c81bbfad71cc83f5f17e8155861fcbba762983ddc932b7a2278fa",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

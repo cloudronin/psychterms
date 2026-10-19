@@ -1,0 +1,64 @@
+{
+  "id": "t-maze",
+  "term": "T maze",
+  "definition": "A T maze is a T-shaped task environment used in learning research to study how an animal or model makes choices at a junction and how that behavior changes during learning. In this context, it was used to examine vicarious trial-and-error, which was more frequent early in learning and decreased later.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4106851"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4106851",
+      "revision": "2014; DOI 10.1371/journal.pone.0102708; article XML SHA-256 2e75e063c458fd5aa17c67212b8bc0323996b0605d27b9648d80e33f69dbca48",
+      "scope": "Source record 10.1371/journal.pone.0102708; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0102708"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3f0631d9e211c25d1a07db32c5199e226e562c0e18e0dbd8e82d778d2ddcab19",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f57bd0f2aa8d41ec994412e42cbdbed2",
+    "request_hash": "ed6ae8949a96c421f91d5ab4472a279ec0bc2931c3b226df4b7d6b10617a445f",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "864c1b7d33f82a4aef67ec77589b0a548e21309959fe0631581ee367903c11eb",
+    "packet_hash": "3f0631d9e211c25d1a07db32c5199e226e562c0e18e0dbd8e82d778d2ddcab19"
+  },
+  "hash": "3f13cefa24ad352dbc0c48f74d23cb8d519e067d67d3870d17a14e2c4bdc20be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a T-maze learning task and a learning-related change in observed behavior over time, but it does not explicitly support the added detail about an animal or model making choices at a junction.",
+        "The description of the T maze as a “T-shaped task environment” is not directly stated in the packet and relies on outside background rather than the supplied source text."
+      ],
+      "definition_hash": "864c1b7d33f82a4aef67ec77589b0a548e21309959fe0631581ee367903c11eb",
+      "packet_hash": "3f0631d9e211c25d1a07db32c5199e226e562c0e18e0dbd8e82d778d2ddcab19",
+      "published_packet_hash": "3f0631d9e211c25d1a07db32c5199e226e562c0e18e0dbd8e82d778d2ddcab19",
+      "receipt_id": "0c541b00e8bf4f6eb13136d1a7ebf220",
+      "request_hash": "d79303afa10c3dfb6a5b351e4b01476b2d1fc59e1c2aca58f39e35ca7401d095",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that a T maze is a “T-shaped” environment or describe its structure (e.g., a junction) in those terms.",
+        "The packet does not support the claim that the task is used “to study how an animal or model makes choices at a junction.” It only references a T-maze task/environment used with rats and a robotic model.",
+        "While the packet supports the general pattern that vicarious trial-and-error-related observations are “high at the beginning of learning and lower afterward,” the definition’s additional claims about task purpose and junction choice are not supported by the provided text."
+      ],
+      "definition_hash": "864c1b7d33f82a4aef67ec77589b0a548e21309959fe0631581ee367903c11eb",
+      "packet_hash": "3f0631d9e211c25d1a07db32c5199e226e562c0e18e0dbd8e82d778d2ddcab19",
+      "published_packet_hash": "3f0631d9e211c25d1a07db32c5199e226e562c0e18e0dbd8e82d778d2ddcab19",
+      "receipt_id": "1fa0c932e2e74375bc317f14cbb0f22b",
+      "request_hash": "d0e92838f7058d4de155c4aa1680ca7b1001845702118f2b556548a193bf2e7e",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

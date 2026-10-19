@@ -1,0 +1,63 @@
+{
+  "id": "bp",
+  "term": "BP",
+  "definition": "BP stands for blood pressure, the force of blood against artery walls. In this study context, it is a health outcome tracked to see whether an intervention changes patients’ beliefs, adherence, and hypertension control.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12758789"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12758789",
+      "revision": "2026; DOI 10.1371/journal.pone.0339871; article XML SHA-256 01a741a3b85c88945f57eabd46d75747b37b6fce0b4d2aa833885c7afb94620b",
+      "scope": "Source record 10.1371/journal.pone.0339871; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339871"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4eebb5119bc56266ab5bd0e273b8e11d734e331c48d0495be6a4c5d3a3d67d7d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6d6238efbc0a48b9afa25f79e9a08e01",
+    "request_hash": "447a5b49699081e1ffb4a5f8719ea39f25a7e9ba17f11fad0b6a525290ceec48",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "b134fee0b84ba1fb01cff1a257ee070640c1553ba7165cae9b2da9a0697a35df",
+    "packet_hash": "4eebb5119bc56266ab5bd0e273b8e11d734e331c48d0495be6a4c5d3a3d67d7d"
+  },
+  "hash": "e6590f1d8867284f95824c88a635813777f426fa2144b505e81b1ee1a9b9c59d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that BP is “the force of blood against artery walls,” but the provided packet only uses BP as “blood pressure (BP)” and reports systolic BP; it does not describe BP as a force against artery walls.",
+        "The rest of the definition (that, in the study context, BP is a health outcome tracked to see whether an intervention changes beliefs, adherence, and hypertension control) is broadly consistent with the packet’s aim to explore effects on illness perceptions, medication beliefs, medication adherence, and BP, but the unsupported “force” phrasing prevents the definition from being fully supported."
+      ],
+      "definition_hash": "b134fee0b84ba1fb01cff1a257ee070640c1553ba7165cae9b2da9a0697a35df",
+      "packet_hash": "4eebb5119bc56266ab5bd0e273b8e11d734e331c48d0495be6a4c5d3a3d67d7d",
+      "published_packet_hash": "4eebb5119bc56266ab5bd0e273b8e11d734e331c48d0495be6a4c5d3a3d67d7d",
+      "receipt_id": "7b51ca47a0b644adbd03c8712e12abcd",
+      "request_hash": "7eb02929c3618119066472e7828eb528b432eec68067ad06cb015c1a6e7d6131",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports BP as an abbreviation for blood pressure in the study, but it does not support the added general definition “the force of blood against artery walls.”",
+        "The study context is overstated: the packet says BP was measured alongside illness beliefs, medication adherence, and treatment beliefs, not “hypertension control.”"
+      ],
+      "definition_hash": "b134fee0b84ba1fb01cff1a257ee070640c1553ba7165cae9b2da9a0697a35df",
+      "packet_hash": "4eebb5119bc56266ab5bd0e273b8e11d734e331c48d0495be6a4c5d3a3d67d7d",
+      "published_packet_hash": "4eebb5119bc56266ab5bd0e273b8e11d734e331c48d0495be6a4c5d3a3d67d7d",
+      "receipt_id": "b417a5ba533b490b9bf37596a9a00139",
+      "request_hash": "9d01f483ea02b60eeb0f4791e655909b8a69ea4485ebc278bcad145029cd1ba0",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

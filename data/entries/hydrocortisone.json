@@ -1,0 +1,60 @@
+{
+  "id": "hydrocortisone",
+  "term": "hydrocortisone",
+  "definition": "Hydrocortisone is a glucocorticoid compound studied as a stress-related chemical signal. In the supplied research, it reduced glioblastoma cell migration and increased cell stiffness, contrasting with epinephrine’s stronger invasion-promoting effects.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12893578"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12893578",
+      "revision": "2026; DOI 10.1371/journal.pone.0339764; article XML SHA-256 1ceba2a256631a60bfda37772e4dbb7a040dbb6b0e1a7df77a61a5552d70a463",
+      "scope": "Source record 10.1371/journal.pone.0339764; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339764"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4df4b67c503b456cbcc394003e5f0b82",
+    "request_hash": "ab4c4830511633c03718c20fed62726406efd65daf2aa1acb42bddb75a558e68",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "b15f2315d4c5c076d05514b01fc22c1ab674624ea299c01ba020d45ebe848e48",
+    "packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae"
+  },
+  "hash": "651a39c49a38054a9982fb7446e3d0538832db69184438409a60aec77c3473f8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b15f2315d4c5c076d05514b01fc22c1ab674624ea299c01ba020d45ebe848e48",
+      "packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae",
+      "published_packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae",
+      "receipt_id": "78c4e7c2f93c439491e7b88089215a44",
+      "request_hash": "b38c8d87b0f5d5b7560f08a8042c15d19c61b45e24dba9979207f694321627ee",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied field is not defensible from the packet: the source is a glioblastoma cell-culture study about stress hormones and invasiveness, not a learning-related definition.",
+        "The definition mixes a general chemical definition with very specific experimental findings; while the study claims are supported, the sense requested should be limited to the term as used in the packet rather than framed as a broader glossary definition."
+      ],
+      "definition_hash": "b15f2315d4c5c076d05514b01fc22c1ab674624ea299c01ba020d45ebe848e48",
+      "packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae",
+      "published_packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae",
+      "receipt_id": "e229fd91a2834adf83a2e259ed33e49f",
+      "request_hash": "94d5ad019e43efa42b3d9ba7e00bff496c7f5bc8e702990b2777a49c2483e003",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

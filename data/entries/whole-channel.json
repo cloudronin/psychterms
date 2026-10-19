@@ -1,0 +1,60 @@
+{
+  "id": "whole-channel",
+  "term": "whole-channel",
+  "definition": "Whole-channel information refers to information drawn across all channels or feature streams in a model, rather than from one channel alone. In the source, a multi-head self-attention mechanism is used to capture this across-channel information because it is described as important for improving prediction performance.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9956019"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9956019",
+      "revision": "2023; DOI 10.1371/journal.pone.0276835; article XML SHA-256 3f2226768211d15e0df7a5448954a2919b05dcfd8318ed49df9c129fd40784df",
+      "scope": "Source record 10.1371/journal.pone.0276835; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0276835"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d830ca88fb394d64a9a3d28d2c56d24b",
+    "request_hash": "19e9d0d48d77f3c9939149469206edd958bb2faf2ecf824bf50ee055d302ce64",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "84c8baac1be5d3126a1ddf3499d0fe0bea7bb0b26f0c8a12dd5f39915071087c",
+    "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4"
+  },
+  "hash": "250a56590bff92cd4782902856652a4a9e82cbbaf5c1e47a71c1dc7b164be95a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions “whole channel information” and that a multi-head self-attention mechanism is applied to “gain whole channel information,” but it does not define “whole-channel information” as information drawn across all channels/feature streams or contrast it with using only one channel.",
+        "The phrase in the definition “rather than from one channel alone” is not supported anywhere in the provided packet."
+      ],
+      "definition_hash": "84c8baac1be5d3126a1ddf3499d0fe0bea7bb0b26f0c8a12dd5f39915071087c",
+      "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4",
+      "published_packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4",
+      "receipt_id": "4aa64d7d58a246a88195f9364d6265bf",
+      "request_hash": "dfe71b2244a35e430079666f6c45d315f33f63352ada24cd271692bbba522f9a",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "84c8baac1be5d3126a1ddf3499d0fe0bea7bb0b26f0c8a12dd5f39915071087c",
+      "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4",
+      "published_packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4",
+      "receipt_id": "2f5c30c0ed9b4ca5b35ee96957170d80",
+      "request_hash": "e15a3ce4547a495d6569094c3e44174fbe1cc31ceabe19afa84b077ea4e54cea",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

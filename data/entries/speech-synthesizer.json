@@ -1,0 +1,59 @@
+{
+  "id": "speech-synthesizer",
+  "term": "speech synthesizer",
+  "definition": "A speech synthesizer is a computer-based system that converts input from a neural decoder into spoken sound or other audio output. In this context, it gives the user audio feedback in near real time.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc2784218"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc2784218",
+      "revision": "2009; DOI 10.1371/journal.pone.0008218; article XML SHA-256 3cc2454c1bef43e2339a96247bc1fa7b5a70620ded1255cca5c5fabfa4c82ad7",
+      "scope": "Source record 10.1371/journal.pone.0008218; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0008218"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5b862348bd169c448d739765dc1fc30e3c780f2ae0a11cff6c43aa36c12edbb9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "69b7748538ea43fea031afe373b497dc",
+    "request_hash": "ad9f92fded77f9c6f8ed36911be3eec494f78b2ec6fa24957bc68be7eef95458",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "e819a8397351f7978c86dd74d5dbdc0b1b9df6c5f3cb0ebfe5d28c2acb1c8067",
+    "packet_hash": "5b862348bd169c448d739765dc1fc30e3c780f2ae0a11cff6c43aa36c12edbb9"
+  },
+  "hash": "16b4f3ab065f2166a8d3b1a2cc94fc7a3bdade316c682d366e1b2c2d838dcb53",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e819a8397351f7978c86dd74d5dbdc0b1b9df6c5f3cb0ebfe5d28c2acb1c8067",
+      "packet_hash": "5b862348bd169c448d739765dc1fc30e3c780f2ae0a11cff6c43aa36c12edbb9",
+      "published_packet_hash": "5b862348bd169c448d739765dc1fc30e3c780f2ae0a11cff6c43aa36c12edbb9",
+      "receipt_id": "f9ddae55af054fcf827252046d4b7645",
+      "request_hash": "f8bb46632f2f6d8a0c157b1537ed72cfb44078b405e6d4354e6f2fc4e919169f",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the system converts neural-decoder input into “spoken sound or other audio output,” but the packet only describes a “speech synthesizer” providing the subject with “audio feedback” (it does not support “other audio output” beyond speech)."
+      ],
+      "definition_hash": "e819a8397351f7978c86dd74d5dbdc0b1b9df6c5f3cb0ebfe5d28c2acb1c8067",
+      "packet_hash": "5b862348bd169c448d739765dc1fc30e3c780f2ae0a11cff6c43aa36c12edbb9",
+      "published_packet_hash": "5b862348bd169c448d739765dc1fc30e3c780f2ae0a11cff6c43aa36c12edbb9",
+      "receipt_id": "0b1d678ee7094c9685b9d39374c24a8b",
+      "request_hash": "b1e59b43217cc1e38a4a918413808a4dbd47e81590f9d176d709833d8bb5a76f",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

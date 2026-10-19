@@ -1,0 +1,65 @@
+{
+  "id": "arginine-vasopressin",
+  "term": "arginine vasopressin",
+  "definition": "Arginine vasopressin (AVP) is a biological messenger released from AVP neurons and the posterior pituitary by exocytosis. In this source, AVP secretion is described as being regulated by synaptic proteins such as SNAP25, syntaxin1, and tomosyn-1.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5061411"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5061411",
+      "revision": "2016; DOI 10.1371/journal.pone.0164544; article XML SHA-256 2c2e5023b7adcb7ed589bae3716fb454fc2ec9eb9a38ea37ac3a0e2280c1ba2e",
+      "scope": "Source record 10.1371/journal.pone.0164544; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0164544"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5892d21bd3aa19424fe3d15f1990b2a6929f4ec42938a8819cfb82c2f4a338a5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e623db58bdb84830bbdad9159e218654",
+    "request_hash": "922a1ef4f0244b2d5cf6469cf75dd23aaf000a9671856de562ad385bb36b93d9",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "f0987b3b5640327b493c358716c263ccddbb8ea2dd42fe72b66b1896ab4b4cbf",
+    "packet_hash": "5892d21bd3aa19424fe3d15f1990b2a6929f4ec42938a8819cfb82c2f4a338a5"
+  },
+  "hash": "6f6fafe1b7b1828d5701a491b96faae8c10a053e706db547679c9dde25d8bd01",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition calls arginine vasopressin a “biological messenger,” which is not stated in the provided packet text.",
+        "It states AVP is “released from AVP neurons and the posterior pituitary,” but the packet only clearly describes AVP secretion via exocytosis and discusses posterior pituitary exocytosis/SNAP25 in that context; the specific phrasing that AVP is released from “AVP neurons” as well as the posterior pituitary is not explicitly supported.",
+        "While the packet supports that proteins such as SNAP25 and syntaxin1 form SNARE complexes with tomosyn-1 and that tomosyn-1 affects KCl-stimulated AVP secretion, the definition’s characterization that AVP secretion is “regulated by synaptic proteins such as SNAP25, syntaxin1, and tomosyn-1” is not directly supported in the exact form “regulated … by synaptic proteins” (the packet frames these as exocytosis-related molecular interactions)."
+      ],
+      "definition_hash": "f0987b3b5640327b493c358716c263ccddbb8ea2dd42fe72b66b1896ab4b4cbf",
+      "packet_hash": "5892d21bd3aa19424fe3d15f1990b2a6929f4ec42938a8819cfb82c2f4a338a5",
+      "published_packet_hash": "5892d21bd3aa19424fe3d15f1990b2a6929f4ec42938a8819cfb82c2f4a338a5",
+      "receipt_id": "35729062c9644d9e86c2801dfff8dee7",
+      "request_hash": "b7c4c3a1cd13e712d784b4049f9824027a01c915e8d136bdb3dea9e7fd43bc8b",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Biological messenger” is not stated in the packet and is an unsupported generalization beyond the source text.",
+        "The packet supports that AVP is secreted via exocytosis in the posterior pituitary and in AVP neurons, but it does not support the broader definitional framing as a messenger or hormone.",
+        "The claim that AVP secretion is regulated by SNAP25, syntaxin1, and tomosyn-1 is only partially supported: the packet shows these proteins are involved in binding/complex formation and that tomosyn-1 affects secretion, but it does not establish a general regulatory role for all three in the way the definition states."
+      ],
+      "definition_hash": "f0987b3b5640327b493c358716c263ccddbb8ea2dd42fe72b66b1896ab4b4cbf",
+      "packet_hash": "5892d21bd3aa19424fe3d15f1990b2a6929f4ec42938a8819cfb82c2f4a338a5",
+      "published_packet_hash": "5892d21bd3aa19424fe3d15f1990b2a6929f4ec42938a8819cfb82c2f4a338a5",
+      "receipt_id": "a0b3c199e8d84e83b26b1f8255cd61d6",
+      "request_hash": "10c3ded84d5b2e51524e40a3b4c791f31354d092b388d4b7744343eb5aead00a",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "unbiased-sampling",
+  "term": "unbiased sampling",
+  "definition": "Unbiased sampling is selecting experiences in a way that does not systematically favor some items over others. In this source, it is contrasted with value-based prioritized sampling, which intentionally gives greater weight to certain experiences.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12604787"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12604787",
+      "revision": "2025; DOI 10.1371/journal.pone.0334411; article XML SHA-256 c5cffe7788b0641974c5564fe44741fa83cd4ee64629aaa84c854d9e9b89609d",
+      "scope": "Source record 10.1371/journal.pone.0334411; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0334411"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "56df4f6c71844b9a8fe84745918e0784",
+    "request_hash": "60b40269f58c6139701229bfeeb052efa90c7213c35c470a4367b7ae84d38db0",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "8114217a64c297937f74b9306a73068a672921c5260bbac8f0d63c3ee7d8ee16",
+    "packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704"
+  },
+  "hash": "4782de1d9134baadf47964ef130544b45c567318c0bc087b66f98737610db740",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8114217a64c297937f74b9306a73068a672921c5260bbac8f0d63c3ee7d8ee16",
+      "packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704",
+      "published_packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704",
+      "receipt_id": "cf7804b1204b406abdee99159c5c792d",
+      "request_hash": "5b41bd33063e6b50a4bf8c0146adad8aca14e11125c5e34ad45685574e9e057b",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition of “unbiased sampling” or state that it means selecting experiences without systematically favoring some items over others; the provided text only mentions a trade-off “between unbiased sampling and value-driven prioritization.”",
+        "The definition’s contrast with “value-based prioritized sampling” and the idea that prioritized sampling “intentionally gives greater weight” to certain experiences is not explicitly described in the packet text; the packet mentions “prioritized replay” and “trajectory-level prioritized replay buffer” but does not define the specific weighting relationship in those terms."
+      ],
+      "definition_hash": "8114217a64c297937f74b9306a73068a672921c5260bbac8f0d63c3ee7d8ee16",
+      "packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704",
+      "published_packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704",
+      "receipt_id": "cc29444c76d54986aa2b39b015bdb67b",
+      "request_hash": "b5527bad63a19a68494b51c9463c84e89a03899401c7e6f377c98c2452e4c3b7",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

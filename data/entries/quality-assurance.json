@@ -1,0 +1,64 @@
+{
+  "id": "quality-assurance",
+  "term": "quality assurance",
+  "definition": "Quality assurance is an organised system used in settings such as healthcare to monitor and improve how work is carried out, with the aim of supporting safe, consistent care. In this context, it refers to formal processes introduced during organisational change to maintain and evaluate standards.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12677441"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12677441",
+      "revision": "2025; DOI 10.1371/journal.pone.0327271; article XML SHA-256 d58eb9b114955f7c2e64c55bdec22d3ff5ecdeff5648c7ad0af828a83f61070a",
+      "scope": "Source record 10.1371/journal.pone.0327271; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0327271"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0b16608df7a10164dfef64839d717f7f6621de9a91d9b332a65e3e8757665149",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b6266b0a38af41d5a95a8c41bee12af5",
+    "request_hash": "6578677177d98274e2c8339f8ead225057ead2628ae55d39c585f93c6c66a6dc",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "0344dbf778bcca473b386c11dfd071e631b39478ca3c94c2c21b22b4e4aacb60",
+    "packet_hash": "0b16608df7a10164dfef64839d717f7f6621de9a91d9b332a65e3e8757665149"
+  },
+  "hash": "dee0976b088a1e9473f78f5dfa35a3e88733a0ad9a33266b1e875311b0278302",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds specific functions that are not supported by the packet, such as monitoring and improving how work is carried out, and maintaining and evaluating standards.",
+        "The packet supports a healthcare quality-assurance system and its implementation during organisational change, but it does not define quality assurance generally as the broader organised system described here."
+      ],
+      "definition_hash": "0344dbf778bcca473b386c11dfd071e631b39478ca3c94c2c21b22b4e4aacb60",
+      "packet_hash": "0b16608df7a10164dfef64839d717f7f6621de9a91d9b332a65e3e8757665149",
+      "published_packet_hash": "0b16608df7a10164dfef64839d717f7f6621de9a91d9b332a65e3e8757665149",
+      "receipt_id": "cb7a97ef131443b59bd91ce5fee75adb",
+      "request_hash": "19b656d4f00a5669962e8154ef39cda78641e5b8f71707508b2ad907a7aa55f5",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not provide a dictionary-like definition of “quality assurance” or specify that it is “an organised system…to monitor and improve how work is carried out.”",
+        "The packet mentions implementing a “quality assurance system” in a hospital and examines impact during organisational change/crisis, but it does not support the definition’s claim that it specifically “refers to formal processes introduced during organisational change to maintain and evaluate standards.”",
+        "The definition includes domain-general aims (“safe, consistent care”), which are not stated in the supplied packet text (it only notes interest in “patient safety” and “staff well-being”)."
+      ],
+      "definition_hash": "0344dbf778bcca473b386c11dfd071e631b39478ca3c94c2c21b22b4e4aacb60",
+      "packet_hash": "0b16608df7a10164dfef64839d717f7f6621de9a91d9b332a65e3e8757665149",
+      "published_packet_hash": "0b16608df7a10164dfef64839d717f7f6621de9a91d9b332a65e3e8757665149",
+      "receipt_id": "aa75626d9df941e89e46e78a4f02c873",
+      "request_hash": "e677eaa26dd512b152fecd64f3b7eb86483bdd0d77cfac89d4620a87a3b3ae7b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "moe",
+  "term": "MOE",
+  "definition": "In this source, MOE refers to a model design that conditionally routes information to different specialized experts. Its purpose is to increase the diversity and distinctiveness of the representations the system forms from input data.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13614541"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13614541",
+      "revision": "2026; DOI 10.1371/journal.pone.0358866; article XML SHA-256 13595df32cd177b50b953eda15b85f37b19aafb19457e8a2befd5dd9345d42ae",
+      "scope": "Source record 10.1371/journal.pone.0358866; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358866"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "723b119f33df457988f036670d4034ea",
+    "request_hash": "520e1b6f819a1a9075e2bc1c4a5616442762f7e2fb60bb60b7d633f5adafb1c8",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "889e27c47268a90dd51a214dd9449415dc15c2adfe6895f0914fbbeb54d3c61b",
+    "packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5"
+  },
+  "hash": "ea956316b18ecd32e107c92732546199ee1fc4fde1c2a8f0066f56a6790faf67",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes an MoE-based deep learning model (for steel surface defect detection), not a cognition/psychology concept.",
+        "While the packet supports that an ES-MoE uses a conditional expert routing mechanism to improve diversity/discriminability of feature representations, it does not provide evidence framing this as “cognition” or as a cognition-related term."
+      ],
+      "definition_hash": "889e27c47268a90dd51a214dd9449415dc15c2adfe6895f0914fbbeb54d3c61b",
+      "packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5",
+      "published_packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5",
+      "receipt_id": "98624308302d4078be23e96baa6dc34e",
+      "request_hash": "31266c3045502a58c9dd1aa4dbbd4919a79cdbef62b97b6d9a3fb5f7837df041",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source is about a steel surface defect detection model, not a psychology/counselling or cognition topic, so the requested field is not defensible from the packet.",
+        "The definition’s claim about MOE is only partly supported: the packet supports conditional expert routing and improved diversity/discriminability of feature representations, but not the broader framing as a general cognition concept."
+      ],
+      "definition_hash": "889e27c47268a90dd51a214dd9449415dc15c2adfe6895f0914fbbeb54d3c61b",
+      "packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5",
+      "published_packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5",
+      "receipt_id": "ab7c5a605e994e97bfd9d0934f62ab57",
+      "request_hash": "6360531ee85a6653d2f5adc805598360ce13b3690af3f23d714dec9517bc065e",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "resampling",
+  "term": "resampling",
+  "definition": "Resampling is a preprocessing step in which heart rate data are reorganized into values based on chosen time windows before analysis. In this context, the size of the resampling window can affect how well methods detect coupling between people’s heart rates.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13580983"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13580983",
+      "revision": "2026; DOI 10.1371/journal.pone.0356801; article XML SHA-256 a1062b4a27303a3b9e3c24976ddf64b89a2f3049a004178c4f26ae7977062c05",
+      "scope": "Source record 10.1371/journal.pone.0356801; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0356801"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3ff3cdbd1cfb493c81564e76cb0152af",
+    "request_hash": "9ae9287659948a826218fcda0359498922ea746f7e95ab2c9a354419293a2aee",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "a4a6657ff0944901f4405da05cfd209d1fe9cf0e6ce4d0a938b3c64687f56526",
+    "packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46"
+  },
+  "hash": "5c42079d52cad701b3b90f522bf2b22fcd35bbb2808875543c8add9aee791c29",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that heart rate resampling window size affects coupling detection, but it does not explicitly define resampling as a preprocessing step that reorganizes data into values based on chosen time windows.",
+        "The definition adds explanatory detail about the resampling procedure that is not stated in the source packet."
+      ],
+      "definition_hash": "a4a6657ff0944901f4405da05cfd209d1fe9cf0e6ce4d0a938b3c64687f56526",
+      "packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46",
+      "published_packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46",
+      "receipt_id": "aedae74066c640ef821b6e87cfd0c142",
+      "request_hash": "6622c0df13207c263117c0ada29a681b3bbafaefb5465858c838230652da9d86",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a4a6657ff0944901f4405da05cfd209d1fe9cf0e6ce4d0a938b3c64687f56526",
+      "packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46",
+      "published_packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46",
+      "receipt_id": "a872850659d44a46b71e1b250192dfd1",
+      "request_hash": "0e66367ea1cd2b7b98f50ba9f5d129375f738989f52630f5ff364fce06242a7c",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "bone-age",
+  "term": "bone age",
+  "definition": "Bone age is an estimate of a person’s age based on how mature their bones are. It is closely related to skeletal maturity, which means the current stage of bone development, and differs from chronological age, which is based only on date of birth.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6657881"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6657881",
+      "revision": "2019; DOI 10.1371/journal.pone.0220242; article XML SHA-256 ca07fc468299c7b9e152ad55543606d93d77f34bcbc2579b9c959e9e8c4ffe1f",
+      "scope": "Source record 10.1371/journal.pone.0220242; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0220242"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fbac2607b2f84a52a5b847e36c85e586",
+    "request_hash": "924635d8adfbea8661a8b8b4cfe4d2705573bd89705c8e29ffdbc97c04d535b0",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "bc82b92fbc564e0d5933315f796d78cf8837256867179dfce83fde7a13438ee5",
+    "packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4"
+  },
+  "hash": "49d19cbd1e3ede54dd092e90f2c898008e22a891ac7894390f74471dea10f5dd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bc82b92fbc564e0d5933315f796d78cf8837256867179dfce83fde7a13438ee5",
+      "packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4",
+      "published_packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4",
+      "receipt_id": "3310dacf6d514cda8d4a6f3b0a3e1182",
+      "request_hash": "c30081da11e54dcc89623a74ed0e9d84ef8e357a8940ffaab54e941834880022",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims bone age “is an estimate of a person’s age based on how mature their bones are.” The packet supports that bone age “relates to the estimation of an age based on an individual’s skeletal maturity,” but it does not explicitly define bone maturity as the basis; it only states skeletal maturity as the basis. Therefore the “how mature their bones are” phrasing is not fully supported.",
+        "The definition says bone age is “closely related to skeletal maturity, which means the current stage of bone development.” The packet states skeletal maturity “refers to the stage of development in which the bone is currently in,” which aligns, but the packet does not use the phrase “current stage of bone development” for skeletal maturity; while substantively similar, the exact support is limited to “stage of development … currently in.”",
+        "The definition states bone age “differs from chronological age, which is based only on date of birth.” The packet supports chronological age being “calculated based solely on an individual’s date of birth,” so this part is supported. However, because other parts are not fully supported, the overall definition is not defensible."
+      ],
+      "definition_hash": "bc82b92fbc564e0d5933315f796d78cf8837256867179dfce83fde7a13438ee5",
+      "packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4",
+      "published_packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4",
+      "receipt_id": "bf63e1b0cc3a4e4e9cb8230c4c9adf3d",
+      "request_hash": "67999bd4157ac99c24fffa315c8ea37173f9152cb6ded0aa68c8391a411793ab",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

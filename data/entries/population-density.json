@@ -1,0 +1,60 @@
+{
+  "id": "population-density",
+  "term": "population density",
+  "definition": "Population density is how many individuals are present within a given space, which influences how often they encounter and interact with one another. In social systems, changes in density can alter the stability of cooperation and cheating by changing interaction frequency.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13630254"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13630254",
+      "revision": "2026; DOI 10.1371/journal.pone.0359779; article XML SHA-256 fcb4bed283dc515537a5d65c81260c5148d2778df8339f280d1133633fbfe4d7",
+      "scope": "Source record 10.1371/journal.pone.0359779; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0359779"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "61b8d65178c170caece4fd9f133989468d6cdbd5d744a92872c5bf600db9bb40",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8bb7a2a5236743ff89b898ac133a99fa",
+    "request_hash": "d657bd7822aec20939873b8a242d93d1d2ef166ed3de2fdd042a15d6b4b8176d",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "fa5824efc89eb4c5d6ff8e315cb881a6bd42ff714326dac33401e098c3e3a8ea",
+    "packet_hash": "61b8d65178c170caece4fd9f133989468d6cdbd5d744a92872c5bf600db9bb40"
+  },
+  "hash": "b19d34f0f2c23bde545a331c798b88afb3fd0a4489e8ff24d793e725c533d8e1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fa5824efc89eb4c5d6ff8e315cb881a6bd42ff714326dac33401e098c3e3a8ea",
+      "packet_hash": "61b8d65178c170caece4fd9f133989468d6cdbd5d744a92872c5bf600db9bb40",
+      "published_packet_hash": "61b8d65178c170caece4fd9f133989468d6cdbd5d744a92872c5bf600db9bb40",
+      "receipt_id": "fe161bc990fb4e17ae4338fd3ede8286",
+      "request_hash": "305417ded569423d5628fcc4ab42af5eebb3e8ec07fc33396863be85811f1ea8",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first claim (“how many individuals are present within a given space”) is not explicitly stated or supported anywhere in the provided packet text.",
+        "Although the packet supports the idea that “population density” (here operationalized as manipulated settling density) changes interaction/encounter frequency and thereby affects coexistence of cooperative vs cheating individuals, that support does not extend to the unreferenced, formal definition of density as “number of individuals within a given space.”"
+      ],
+      "definition_hash": "fa5824efc89eb4c5d6ff8e315cb881a6bd42ff714326dac33401e098c3e3a8ea",
+      "packet_hash": "61b8d65178c170caece4fd9f133989468d6cdbd5d744a92872c5bf600db9bb40",
+      "published_packet_hash": "61b8d65178c170caece4fd9f133989468d6cdbd5d744a92872c5bf600db9bb40",
+      "receipt_id": "ad3b4da5b72444afa86dbc062fc72a67",
+      "request_hash": "c957fc799a7be0fd16b4a1742e3bc864a7a2d6b88eb717a6578384cfc5a25af7",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

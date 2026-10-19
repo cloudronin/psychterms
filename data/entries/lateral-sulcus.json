@@ -1,0 +1,64 @@
+{
+  "id": "lateral-sulcus",
+  "term": "lateral sulcus",
+  "definition": "The lateral sulcus is a groove on the surface of the cerebral cortex. In this study, it was one of the cortical folds measured for changes in surface area and cortical thickening after developmental valproic acid exposure.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8057614"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8057614",
+      "revision": "2021; DOI 10.1371/journal.pone.0250262; article XML SHA-256 39dfec25300c6b53058e031348fdecc0b35eafff8fba89019309c0eac543aa43",
+      "scope": "Source record 10.1371/journal.pone.0250262; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0250262"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "228c4937fac9862301404c4475cbf1700379a76c07fb9bedc527cbd459fae403",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "29b3db8cae5f46229fa8da46f060afe7",
+    "request_hash": "765f035a4ef137f2fb08584056c7cfddf6cdb399788315ca49e144d967c37a4c",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "a4c9b3a5a5d891dc1c4ba8f67e148b7110d972986f6eeb633111229f7add7f8b",
+    "packet_hash": "228c4937fac9862301404c4475cbf1700379a76c07fb9bedc527cbd459fae403"
+  },
+  "hash": "f365c0dbf562aa24d210c6aef056c8a75aea621e4b63c1829a9326c5300d656c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the lateral sulcus is “a groove on the surface of the cerebral cortex,” but the provided packet text does not explicitly define the lateral sulcus (or sulci) as a “groove.”",
+        "The definition claims the lateral sulcus was measured for “cortical thickening”; the packet reports “relatively prominent expansion” of cortical strata in the floor of the lateral sulcus, but it does not explicitly describe this as “cortical thickening.”",
+        "The field provided is “diagnosis,” but the packet describes an anatomical measurement in ferrets after valproic acid exposure; no diagnostic sense is supported in the packet."
+      ],
+      "definition_hash": "a4c9b3a5a5d891dc1c4ba8f67e148b7110d972986f6eeb633111229f7add7f8b",
+      "packet_hash": "228c4937fac9862301404c4475cbf1700379a76c07fb9bedc527cbd459fae403",
+      "published_packet_hash": "228c4937fac9862301404c4475cbf1700379a76c07fb9bedc527cbd459fae403",
+      "receipt_id": "ffd3a2519b9146649a3b663689e11a34",
+      "request_hash": "052f099e7c76ef280b2fe279e13950b146cb76fa784ef0a2c3c0b2490e9f1d82",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the lateral sulcus showed a larger surface area after neonatal/developmental VPA exposure, but it does not explicitly support that this study measured the lateral sulcus for changes in cortical thickening.",
+        "The packet does not explicitly define the lateral sulcus as a groove on the cerebral cortex; that anatomical gloss is not stated in the supplied text."
+      ],
+      "definition_hash": "a4c9b3a5a5d891dc1c4ba8f67e148b7110d972986f6eeb633111229f7add7f8b",
+      "packet_hash": "228c4937fac9862301404c4475cbf1700379a76c07fb9bedc527cbd459fae403",
+      "published_packet_hash": "228c4937fac9862301404c4475cbf1700379a76c07fb9bedc527cbd459fae403",
+      "receipt_id": "1ec36a9711b14702b0d23c4888336949",
+      "request_hash": "250956ce4eb498e27b1c72f5af6e9191cb33f688c3b9331e0e0a922520b8d9ca",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

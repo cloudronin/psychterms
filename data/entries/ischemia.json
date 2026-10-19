@@ -1,0 +1,64 @@
+{
+  "id": "ischemia",
+  "term": "ischemia",
+  "definition": "Ischemia is a state in which brain tissue has too little blood supply, often discussed in stroke research. In the packet, it is linked to hypoxia, glutamate buildup, and tissue injury, especially when blood flow is interrupted and then restored.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13262852"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13262852",
+      "revision": "2026; DOI 10.1371/journal.pone.0351107; article XML SHA-256 88101353dfd4ab458a95df8763be5ab1d3d0a15b4e1e60eb22a4b01d99560c63",
+      "scope": "Source record 10.1371/journal.pone.0351107; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351107"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b975fab07224a3ec0b7a07dba467b3250242f0e9d59a76cb3a473d12d2a88c98",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e4f8931f7db54614a982150a5ec52388",
+    "request_hash": "7571c5c790f89361632a6a1284cbddb78e94cbcfd049c15725ae115af9a285dd",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "8b2b9e7119f9c0c918bbdc4b0552a1952a402e06be8906410ce9963cc72ad837",
+    "packet_hash": "b975fab07224a3ec0b7a07dba467b3250242f0e9d59a76cb3a473d12d2a88c98"
+  },
+  "hash": "f89747fb454c3bf97499ce45f3c1475b67d18aeea272829bf6231a10c60ee9b1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define ischemia as “a state in which brain tissue has too little blood supply.” It discusses ischemia/hypoxia in the context of ischemic stroke and uses a middle cerebral artery occlusion-reperfusion model, but the “too little blood supply” phrasing is not directly supported as a definition.",
+        "While the packet supports connections between ischemia/hypoxia and glutamate accumulation/excitotoxicity and describes brain injury in ischemia/reperfusion, the specific first-sentence wording about blood supply is not evidenced in the provided text."
+      ],
+      "definition_hash": "8b2b9e7119f9c0c918bbdc4b0552a1952a402e06be8906410ce9963cc72ad837",
+      "packet_hash": "b975fab07224a3ec0b7a07dba467b3250242f0e9d59a76cb3a473d12d2a88c98",
+      "published_packet_hash": "b975fab07224a3ec0b7a07dba467b3250242f0e9d59a76cb3a473d12d2a88c98",
+      "receipt_id": "c2905ef4452d456ebbf4311e3a3e160b",
+      "request_hash": "f974f6841e0d8380db358ae9bf55bb956efe94008ca4a6c87f2679382237f62c",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports cerebral ischemia/reperfusion in stroke research, but it does not define ischemia as specifically a state of too little blood supply in brain tissue; that narrows the term beyond the supplied source.",
+        "The packet supports associations with hypoxia, glutamate accumulation, and brain injury, but it does not explicitly state that these are defining features of ischemia itself.",
+        "The phrase about blood flow being interrupted and then restored is supported only in the specific ischemia/reperfusion context, not as a general definition of ischemia."
+      ],
+      "definition_hash": "8b2b9e7119f9c0c918bbdc4b0552a1952a402e06be8906410ce9963cc72ad837",
+      "packet_hash": "b975fab07224a3ec0b7a07dba467b3250242f0e9d59a76cb3a473d12d2a88c98",
+      "published_packet_hash": "b975fab07224a3ec0b7a07dba467b3250242f0e9d59a76cb3a473d12d2a88c98",
+      "receipt_id": "1be54ceca13e46c2ac244518af2ae848",
+      "request_hash": "bc2a06bfb00a2230b2cc423187ea4c4464ee8819d3c20f5b7dc82682b488ed3a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

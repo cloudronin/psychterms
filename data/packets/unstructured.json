@@ -1,0 +1,26 @@
+{
+  "id": "unstructured",
+  "term": "unstructured",
+  "source": "article-pmc13309024",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0352325",
+  "revision": "2026; DOI 10.1371/journal.pone.0352325; article XML SHA-256 1b7ea9fd22fe4d41cb3052ad7303a84a765c4591bd9a8fa6fd9ba9fb9536266c",
+  "source_snapshot_sha256": "1b7ea9fd22fe4d41cb3052ad7303a84a765c4591bd9a8fa6fd9ba9fb9536266c",
+  "url": "https://doi.org/10.1371/journal.pone.0352325",
+  "text": "Semantic segmentation provides essential scene understanding for unmanned ground vehicles to identify obstacles and plan paths in unstructured environments. Nevertheless, existing methodologies tailored for these settings typically necessitate linear probing or fine-tuning to accommodate novel scenarios, thereby suffering from a deficiency in zero-shot transferability. In response to this limitation, our study introduces a novel framework designed for robust zero-shot transfer in unstructured domains, capitalizing on the superior visual-linguistic alignment capabilities of the EVA-CLIP architecture. To augment segmentation precision, we initially utilize deep prompt tuning to adapt the visual feature extraction efficacy of the EVA-CLIP image encoder to unstructured terrain features. This strategy not only bolsters adaptability to irregular environments but also preserves the intrinsic zero-shot proficiency of the underlying model. Concurrently, we devise an ensemble prompt engineering scheme customized for unstructured settings to further elevate segmentation outcomes. Moreover, the framework optimizes the correspondence between text and images by integrating global and local representations from the respective encoders, thereby maximizing cross-modal alignment for superior segmentation. Empirical evaluations indicate that our methodology surpasses contemporary state-of-the-art techniques, yielding an increase in mIoU ranging from 1.2% to 43.9% on the Robot Unstructured Ground Driving (RUGD) benchmark. Furthermore, evaluations on the Rellis-3D dataset reveal that the model’s cross-domain zero-shot performance rivals that of supervised fine-tuning approaches, demonstrating robust generalization to previously unseen semantic classes.",
+  "source_label": "Cross-domain zero-shot semantic segmentation for unstructured environments via EVA-CLIP model, ensemble prompt engineering, and optimized text-image matching",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1761
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "645271dff47cb8f8d5149696655dcd2723f9533e50a0a6d94875c42db9a5f8cf"
+}

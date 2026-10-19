@@ -1,0 +1,64 @@
+{
+  "id": "osteomalacia",
+  "term": "osteomalacia",
+  "definition": "Osteomalacia is a bone disorder linked here to vitamin D and calcium deficiency after gastrectomy. In this source, it refers to abnormal bone changes involving excess unmineralized bone tissue and altered mineralization, although the authors note the gastrectomy-related form differed from typical osteomalacia.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3679169"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3679169",
+      "revision": "2013; DOI 10.1371/journal.pone.0065685; article XML SHA-256 3c3da573fc89214680f06692eaa1ca0ca2901446569f5ecb9070cfa4680664ef",
+      "scope": "Source record 10.1371/journal.pone.0065685; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0065685"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b826cfa0d0eb8f29c1ac576a972ef9d3fdd971a381562fe6d0d2662805436d58",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "81ac0e8fd4874a3d89b3aacd0dc99121",
+    "request_hash": "32618d2f0c8d40b823e32fd91afe3e9377a488cca886fa282c1523ea2c10b0c2",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "37d1834d5d62a398910a63225e621c8587ce82084ce84dbd455c7a6438a3cf74",
+    "packet_hash": "b826cfa0d0eb8f29c1ac576a972ef9d3fdd971a381562fe6d0d2662805436d58"
+  },
+  "hash": "5263f6388684ab3a84a175654d8b0841f79b80752282aad52f173a88db8d5d3e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: osteomalacia is a bone disorder in a medical article, not a cognition term.",
+        "The definition adds a generalized description of osteomalacia as having 'excess unmineralized bone tissue and altered mineralization,' which is only partly supported; the packet specifically describes GX-induced high bone turnover with hyperosteoidosis and increased mineralization, and says it differed from typical osteomalacia."
+      ],
+      "definition_hash": "37d1834d5d62a398910a63225e621c8587ce82084ce84dbd455c7a6438a3cf74",
+      "packet_hash": "b826cfa0d0eb8f29c1ac576a972ef9d3fdd971a381562fe6d0d2662805436d58",
+      "published_packet_hash": "b826cfa0d0eb8f29c1ac576a972ef9d3fdd971a381562fe6d0d2662805436d58",
+      "receipt_id": "a0bda696bf2a4da29debc918c74bc9f8",
+      "request_hash": "c07de4839c578c34ce96ce16b024c40bd6734e77c863f8e5115a9784e26c1d41",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims osteomalacia involves “excess unmineralized bone tissue,” but the provided packet does not state that specific feature; it only reports “hyperosteoidosis” and “prominent increase of mineralization.”",
+        "The definition asserts “altered mineralization” and “abnormal bone changes” in general terms, but the packet’s support is specific to the GX rat model findings (high turnover, hyperosteoidosis, increased mineralization) and does not support the broader phrasing about unmineralized bone tissue.",
+        "While the packet does support that the gastrectomy-related form is thought to be due to Vitamin D and Ca deficiencies and is “different from a typical osteomalacia,” the definition’s reference to typical osteomalacia characteristics (via unmineralized bone) is not supported by the packet."
+      ],
+      "definition_hash": "37d1834d5d62a398910a63225e621c8587ce82084ce84dbd455c7a6438a3cf74",
+      "packet_hash": "b826cfa0d0eb8f29c1ac576a972ef9d3fdd971a381562fe6d0d2662805436d58",
+      "published_packet_hash": "b826cfa0d0eb8f29c1ac576a972ef9d3fdd971a381562fe6d0d2662805436d58",
+      "receipt_id": "259a385df3b3426991083cad1fcb7c0a",
+      "request_hash": "bdd8eed3fb595b5f99e2ee1a5d518b99be3dae16703036fc02971f4b1f779666",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

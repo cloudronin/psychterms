@@ -1,0 +1,60 @@
+{
+  "id": "parallax",
+  "term": "parallax",
+  "definition": "Parallax is the apparent shift or mismatch between parts of overlapping images taken from different viewpoints. In image stitching, large parallax makes alignment harder and can produce visible seams or other blending errors.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13175464"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13175464",
+      "revision": "2026; DOI 10.1371/journal.pone.0348616; article XML SHA-256 0087767b9ef773016bf252fb3f704f99a10045587f7e93c15c3af1cb618ad21d",
+      "scope": "Source record 10.1371/journal.pone.0348616; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348616"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c7ab5c67815a414988d3bc8adcd0a001",
+    "request_hash": "82e01e98a32d5954ca0950176f2ea6b0330eb1738c0c591b8ba0fc195715113d",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "02a06ec2c9652c97037ac8667716ecf899fec56e0a400ad66b8c1809e5c7596f",
+    "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40"
+  },
+  "hash": "7f22bfba2782ee87e2bfae32a74daa45f4548296ff5d2eae75892d9d94b18069",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "02a06ec2c9652c97037ac8667716ecf899fec56e0a400ad66b8c1809e5c7596f",
+      "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40",
+      "published_packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40",
+      "receipt_id": "69106d16e6d9400c87386f35e9b1bf6d",
+      "request_hash": "f3078ae0c3cc715ceeb16c5cb585fdd7eb1f58d30e3bb1cf7adbc5921c511337",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet is about UAV image stitching in remote sensing/image processing, not the biological field, so the field label is not defensible from this source.",
+        "The definition adds a general dictionary-style sense of parallax; the packet only supports its relevance as a source of difficulty in image stitching from different viewpoints, not a broader standalone definition."
+      ],
+      "definition_hash": "02a06ec2c9652c97037ac8667716ecf899fec56e0a400ad66b8c1809e5c7596f",
+      "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40",
+      "published_packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40",
+      "receipt_id": "6ffe4520665e44b79132eace6f2ffc82",
+      "request_hash": "a3c5cfc3b53ad78b65f6f1cc6e9b18850622368c726c61f20c90e8c7df404a09",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

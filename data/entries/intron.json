@@ -1,0 +1,65 @@
+{
+  "id": "intron",
+  "term": "intron",
+  "definition": "An intron is a section within a precursor RNA that is involved in splicing, the process that edits the RNA before it is fully used. In this source, the intron is described as having shapes and binding sites that can regulate whether splicing proceeds or is blocked.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13630204"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13630204",
+      "revision": "2026; DOI 10.1371/journal.pone.0359197; article XML SHA-256 4d240b22364d763406ee64c0a1654f708b2dccaf3c1fe3aa0723c6a96739c9cb",
+      "scope": "Source record 10.1371/journal.pone.0359197; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0359197"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2d4ced1781e17773568b8b3edf28eed87cba38f196769b3896e1bbd6a817723e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d96c3aec2ee94e14be862279447eb3f7",
+    "request_hash": "fd3e36d95cf93b9124739924cea17c20566dbb1450c8035d2bea1cbe4d45ea2c",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "a49313353107bb4dd0dfd8908346e440abe141a0957f623a362bb384c43aa546",
+    "packet_hash": "2d4ced1781e17773568b8b3edf28eed87cba38f196769b3896e1bbd6a817723e"
+  },
+  "hash": "ef925a9134a43ce736dabd808d45d3a73310c0c6fc0d4de4240fc1af2a7cb2ac",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: the source is about yeast RPL22 intronic RNA and splicing, not cognition or psychology/counselling.",
+        "The definition adds a broad general description of introns as a section of precursor RNA; the packet supports RPL22 intronic RNA in a specific yeast splicing context, but not a general dictionary sense beyond that source.",
+        "The wording about 'shapes and binding sites' is only loosely supported; the packet describes predicted structures, stem loops, and Rpl22 binding affecting splicing, not a general definition of intron structure across contexts."
+      ],
+      "definition_hash": "a49313353107bb4dd0dfd8908346e440abe141a0957f623a362bb384c43aa546",
+      "packet_hash": "2d4ced1781e17773568b8b3edf28eed87cba38f196769b3896e1bbd6a817723e",
+      "published_packet_hash": "2d4ced1781e17773568b8b3edf28eed87cba38f196769b3896e1bbd6a817723e",
+      "receipt_id": "e2c1db6f745f452fae93ae28de5f2847",
+      "request_hash": "fe013c718eb90e0337e36b77f00eab5878378c750d3ae23597ee7d94164cb2c5",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the claim that splicing ‘edits the RNA before it is fully used’ (this phrasing is general and not stated in the provided text).",
+        "The packet supports intron-mediated effects on splicing and Rpl22–intron binding, but the definition’s wording (“shapes and binding sites”) is not directly phrased that way; it is only indirectly supported via RNAfold-predicted features/conformations and binding experiments.",
+        "The definition’s reference to the field ‘cognition’ is unsupported/misaligned because the packet describes yeast RPL22 introns and splicing, not cognition."
+      ],
+      "definition_hash": "a49313353107bb4dd0dfd8908346e440abe141a0957f623a362bb384c43aa546",
+      "packet_hash": "2d4ced1781e17773568b8b3edf28eed87cba38f196769b3896e1bbd6a817723e",
+      "published_packet_hash": "2d4ced1781e17773568b8b3edf28eed87cba38f196769b3896e1bbd6a817723e",
+      "receipt_id": "3eb61340bd6749e4b1ad109505b2e536",
+      "request_hash": "1c87dbd4bbbb8b695e08e6c22c78036aa2be78933fa669fa664d499bcf8bcdc9",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}
