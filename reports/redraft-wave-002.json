@@ -1,0 +1,70 @@
+{
+  "wave": 2,
+  "headwords": 500,
+  "with_packets": 469,
+  "passed_two_readers_and_copy": 81,
+  "pass_fraction": 0.162,
+  "field_review_flags": 22,
+  "outcome_counts": {
+    "no_packets": 31,
+    "no supporting source found yet": 342,
+    "model_pass": 81,
+    "draft/read/copy failure": 22,
+    "model output could not be verified": 24
+  },
+  "total_redraft_budget": {
+    "calls_reserved": 4239,
+    "cap_usd": 200.0,
+    "receipted_usd": 15.650254,
+    "unresolved_reservations_usd": 0.789697,
+    "by_category": {
+      "draft": {
+        "calls": 32,
+        "receipted_usd": 0.115081,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-retune-draft": {
+        "calls": 382,
+        "receipted_usd": 1.507809,
+        "unresolved_reservations_usd": 0.034315
+      },
+      "pilot-retune-fit": {
+        "calls": 2710,
+        "receipted_usd": 10.414214,
+        "unresolved_reservations_usd": 0.471457
+      },
+      "pilot-retune-reader_a": {
+        "calls": 470,
+        "receipted_usd": 0.96378,
+        "unresolved_reservations_usd": 0.046349
+      },
+      "pilot-retune-reader_b": {
+        "calls": 385,
+        "receipted_usd": 1.901838,
+        "unresolved_reservations_usd": 0.117423
+      },
+      "pilot-source-context-reader_a": {
+        "calls": 128,
+        "receipted_usd": 0.214783,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-source-context-reader_b": {
+        "calls": 132,
+        "receipted_usd": 0.532749,
+        "unresolved_reservations_usd": 0.120153
+      }
+    }
+  },
+  "registration_hash": "468f3bf2af5c8d0c6d279065cb4b790299fb99279fda3a27df54c81ea550c49c",
+  "published": 0,
+  "next_batch_started": false,
+  "run_receipted_usd": 5.078386,
+  "receipt_count": 1239,
+  "control_results": {
+    "passed": true,
+    "correct": 12,
+    "total": 12,
+    "unsupported_acceptances": 0
+  },
+  "development_results_not_accuracy": true
+}

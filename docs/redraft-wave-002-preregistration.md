@@ -20,3 +20,9 @@ Before batch drafting, the two reader models each receive three valid and three 
 - Publish no definitions and start no third batch automatically. Final reports and code go into the existing draft PR.
 
 Commands: `scripts/run_redraft_batch.py prepare`, `verify`, then `run`. Frozen registration: `data/redraft-wave-002-registration.json`. The preparer uses the existing local embedding environment and does not make paid calls.
+
+## Executed result
+
+Executed code: `ee01acad`. All 500 headwords completed. Of 469 with ranked packets, 81 passed both fresh non-drafter readers and the final source/cross-entry copy audit; 22 carry field-review flags. Both readers matched all 12 seeded control labels. There were 31 missing-packet cases, 342 without a supporting yes packet, 22 draft/read/copy failures and 24 unverifiable model-output cases. These are development outcomes, not an independent accuracy estimate.
+
+Receipted batch usage including preflight and retries: $5.078386. Total shared redraft usage: $15.650254; outstanding uncertain reservations: $0.789697, all under the same $200 cap. All 500 original failed-entry hashes remained unchanged. No publication or third batch. The 81 proposals were exported with complete source packets for Claude review. Full outcomes: `reports/redraft-wave-002-outcomes.csv`; summary: `reports/redraft-wave-002.md`.
