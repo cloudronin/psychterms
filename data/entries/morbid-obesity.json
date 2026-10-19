@@ -1,0 +1,62 @@
+{
+  "id": "morbid-obesity",
+  "term": "morbid obesity",
+  "definition": "Morbid obesity is an extreme or very severe form of obesity. In the source, it is described as a growing global public health problem.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5289420"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5289420",
+      "revision": "2017; DOI 10.1371/journal.pone.0169577; article XML SHA-256 e49dc2ff3d6ffacd449bb42fd777213385a8043805ab267900191c013e7df7f7",
+      "scope": "Source record 10.1371/journal.pone.0169577; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0169577"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c7e0c231212a4d94b5a05337c8dc24203008b4eeedd81ac8d4e28f9de2c58f2c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7c2b9c2b3e4d4b69946809d53feb6e20",
+    "request_hash": "d858ed93c2bd9ed489a4bd5ad907165200015ad621c882d51a1640ce056a424b",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "3c817593e4b293fcd260053e1c93b2cbd4f8c60699a09adcde34f07d940f0f85",
+    "packet_hash": "c7e0c231212a4d94b5a05337c8dc24203008b4eeedd81ac8d4e28f9de2c58f2c"
+  },
+  "hash": "b25bc55ae01554d3c7c027be34522ee08c0e5ada718889b4e21e437450a4384e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports morbid obesity as an extreme phenotype/extreme form of obesity, but it does not explicitly support the added claim that it is a “growing” global public health problem. The source says it “has ... become a global problem” and that obesity is a public health issue worldwide, which is weaker than the definition’s wording."
+      ],
+      "definition_hash": "3c817593e4b293fcd260053e1c93b2cbd4f8c60699a09adcde34f07d940f0f85",
+      "packet_hash": "c7e0c231212a4d94b5a05337c8dc24203008b4eeedd81ac8d4e28f9de2c58f2c",
+      "published_packet_hash": "c7e0c231212a4d94b5a05337c8dc24203008b4eeedd81ac8d4e28f9de2c58f2c",
+      "receipt_id": "f5a9af1f66fb42349ac0095948ba5686",
+      "request_hash": "4e226e56605d163242d0b0162479e7e8ae8e1058b41a20ab105de7de8f41d960",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that morbid obesity is an “extreme phenotype” and that it “has … become a global problem,” but it does not explicitly support the specific wording “growing” (i.e., an increase in growth over time) as part of the definition.",
+        "Because the definition’s “growing global public health problem” wording goes beyond what is stated in the provided excerpt, the definition is not fully supported by the packet."
+      ],
+      "definition_hash": "3c817593e4b293fcd260053e1c93b2cbd4f8c60699a09adcde34f07d940f0f85",
+      "packet_hash": "c7e0c231212a4d94b5a05337c8dc24203008b4eeedd81ac8d4e28f9de2c58f2c",
+      "published_packet_hash": "c7e0c231212a4d94b5a05337c8dc24203008b4eeedd81ac8d4e28f9de2c58f2c",
+      "receipt_id": "df92e9011ba64cf4b63bf81961dded47",
+      "request_hash": "3d9886db09aec0a279e362d2901b0f25fee8049addfd98e3e4527efd50ac9881",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "risk-tolerance",
+  "term": "risk tolerance",
+  "definition": "Risk tolerance is the degree to which a person is willing to accept uncertainty or possible weaknesses when judging an option. In this source, it refers to how willing peer reviewers are to accept risk in research proposals rather than favoring safer, more incremental projects.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9417194"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9417194",
+      "revision": "2022; DOI 10.1371/journal.pone.0273813; article XML SHA-256 cbc093f7261c0d23115808334f785fef1341bf6ffde7c82e398f9142717d93b5",
+      "scope": "Source record 10.1371/journal.pone.0273813; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0273813"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "48249e4418724b0e9da33cde05e76c286d05c3017a91545ab8a5fd4ae860ead0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c474fd11de6c414b90eb57ac7ac7f748",
+    "request_hash": "ab4fa23c84dce0d5f006221540bc77829f5b94b1c0aef21a6931ce4132a3ea40",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "54029b204c2d025d7389e2f3e8fdf137daad90ccdfc4bad3da468059e17b811d",
+    "packet_hash": "48249e4418724b0e9da33cde05e76c286d05c3017a91545ab8a5fd4ae860ead0"
+  },
+  "hash": "3a868836be164a4c2ed982b200dd2a960a686cfae4aa1445db7df8f66925f856",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a broad general definition of “risk tolerance” as willingness to accept uncertainty or weaknesses, but the packet does not define the term that way; it only discusses peer reviewers’ risk tolerance in the context of proposal evaluation.",
+        "The definition should stay within the source’s specific sense: peer reviewers’ valuation of risk in research proposals. The broader generalization to how a person judges any option is unsupported by the packet."
+      ],
+      "definition_hash": "54029b204c2d025d7389e2f3e8fdf137daad90ccdfc4bad3da468059e17b811d",
+      "packet_hash": "48249e4418724b0e9da33cde05e76c286d05c3017a91545ab8a5fd4ae860ead0",
+      "published_packet_hash": "48249e4418724b0e9da33cde05e76c286d05c3017a91545ab8a5fd4ae860ead0",
+      "receipt_id": "81db7d6fcce94cfdb139dbbc10ddba6a",
+      "request_hash": "97cd3f96cdcdb2efa62d84cc43f477ef6d8380c9e004781c1f7523dbcb1d087e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Risk tolerance is the degree to which a person is willing to accept uncertainty or possible weaknesses when judging an option.”) is not stated or clearly supported by the packet’s text; the packet discusses risk tolerance in peer review as an unstudied construct, but does not provide this general, person-centered definitional wording.",
+        "The second sentence contains claims about the source’s intended meaning (“...how willing peer reviewers are to accept risk in research proposals rather than favoring safer, more incremental projects.”). While the packet does mention preferences for lower risk, incremental projects and that peer reviewers’ risk tolerance is examined in mock evaluations, it does not explicitly define risk tolerance in exactly these terms, so this specific characterization is not fully supported as a definition."
+      ],
+      "definition_hash": "54029b204c2d025d7389e2f3e8fdf137daad90ccdfc4bad3da468059e17b811d",
+      "packet_hash": "48249e4418724b0e9da33cde05e76c286d05c3017a91545ab8a5fd4ae860ead0",
+      "published_packet_hash": "48249e4418724b0e9da33cde05e76c286d05c3017a91545ab8a5fd4ae860ead0",
+      "receipt_id": "111a5b50299e4b57a7ba3378d20f2f85",
+      "request_hash": "47fe89923ba18c4cfbf4bbb7481a23673de88507f1dac75382f87cde73591a09",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

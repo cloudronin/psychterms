@@ -1,0 +1,63 @@
+{
+  "id": "kainate-receptor",
+  "term": "kainate receptor",
+  "definition": "A kainate receptor is a receptor with subunits such as GluR5 and GluR6/7 that helps regulate how hippocampal GABAergic interneurons fire in response to glutamatergic input. In this packet, changes in its function are linked to abnormal neurotransmission and disturbed oscillatory activity discussed in schizophrenia and bipolar disorder.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3291556"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3291556",
+      "revision": "2012; DOI 10.1371/journal.pone.0032483; article XML SHA-256 b05da0d896d2bf164097d53a3142b04fb2fbda2c4d9042dbd01c729ed1a5e66b",
+      "scope": "Source record 10.1371/journal.pone.0032483; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0032483"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d90f32fa8be3847faaab190166370874295eff760fe4fa7863c033f51193403e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9d6d14d8fc794041a3bd492bb31913e3",
+    "request_hash": "de0b65ccf2d8fae39bfde79c60eacb311592312a86bfd148cd5699b396ef5774",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "d17d999b96221d7d6d33e96464394ea4d3e06a5c784ba413ec888a8899d0b309",
+    "packet_hash": "d90f32fa8be3847faaab190166370874295eff760fe4fa7863c033f51193403e"
+  },
+  "hash": "d7996c3c07007a01377bbaa960f42102318a0f1568774be7aa449e37c0dc5aa8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports involvement of kainate receptor subunits (including GluR5 and GluR6/7) in hippocampal GABAergic interneuron firing, but the wording about how they regulate firing in response to glutamatergic input is more specific than the packet states.",
+        "The final sentence overgeneralizes the evidence: the packet links abnormal GABAergic neurotransmission to schizophrenia and bipolar disorder, but it only connects abnormal oscillatory rhythms to schizophrenia, not bipolar disorder.",
+        "The definition adds a broader functional claim about disturbed oscillatory activity across both disorders that is not fully supported by the packet."
+      ],
+      "definition_hash": "d17d999b96221d7d6d33e96464394ea4d3e06a5c784ba413ec888a8899d0b309",
+      "packet_hash": "d90f32fa8be3847faaab190166370874295eff760fe4fa7863c033f51193403e",
+      "published_packet_hash": "d90f32fa8be3847faaab190166370874295eff760fe4fa7863c033f51193403e",
+      "receipt_id": "2e8129f1cde548fca1e00b6632933d5e",
+      "request_hash": "e9e50d6b4d25372d89dfd7c795d0e2b4371ed3bcc83e3d7a4865290933ceff52",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that changes in kainate receptor function are linked to “disturbed oscillatory activity” “discussed in schizophrenia and bipolar disorder.” The packet explicitly links kainate receptor involvement and gamma synchronization/abnormal oscillatory rhythms to schizophrenia (SZ) subjects, but it does not provide parallel support that disturbed oscillatory activity is discussed for bipolar disorder (Bipolar disorder is mentioned regarding GluR5/6 changes, but oscillatory disturbance is not tied to bipolar disorder in the provided text)."
+      ],
+      "definition_hash": "d17d999b96221d7d6d33e96464394ea4d3e06a5c784ba413ec888a8899d0b309",
+      "packet_hash": "d90f32fa8be3847faaab190166370874295eff760fe4fa7863c033f51193403e",
+      "published_packet_hash": "d90f32fa8be3847faaab190166370874295eff760fe4fa7863c033f51193403e",
+      "receipt_id": "99222a052c614fb4b96072631159e486",
+      "request_hash": "533b5f0d647b9ff41c2b309de439492a2eb1987bde62bfa359c355ebc5212133",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

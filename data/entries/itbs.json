@@ -1,0 +1,63 @@
+{
+  "id": "itbs",
+  "term": "ITBS",
+  "definition": "ITBS stands for intermittent theta burst stimulation, a patterned brain stimulation method studied here in a stroke model. In this source, it was linked with improved neurological recovery and shifts in microglial gene activity after ischemic injury.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13095131"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13095131",
+      "revision": "2026; DOI 10.1371/journal.pone.0346888; article XML SHA-256 058991076b360218bc508da87819e76e12f95315636ef481c6e5bbbc9111a67c",
+      "scope": "Source record 10.1371/journal.pone.0346888; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0346888"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0ef5879999526a5f40cbf0d1bc771adfcf56d3f9c5ab6e2d5db4572c6361f6f8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3187a6b08c1240ba90d54095fd80baf1",
+    "request_hash": "c2924667bb403062901a28a07dc17e1c55ed2e4b2d7db3360278ea50bef8d40c",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "d43a3a5126190f049b719c8d1a3d9bc9258205a6ccea7dc14556adc2a434c1bb",
+    "packet_hash": "0ef5879999526a5f40cbf0d1bc771adfcf56d3f9c5ab6e2d5db4572c6361f6f8"
+  },
+  "hash": "14a8e69bcaf41fff2b6a42ba4d3371c842233f3e3d535a4e1ab39c3fa690214e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source is a neuroscience/stroke article, so the requested field of “learning” is not defensible from the packet.",
+        "Although the expansion of ITBS is supported, the definition adds a generalized characterization (“patterned brain stimulation method”) that is not stated in the source text."
+      ],
+      "definition_hash": "d43a3a5126190f049b719c8d1a3d9bc9258205a6ccea7dc14556adc2a434c1bb",
+      "packet_hash": "0ef5879999526a5f40cbf0d1bc771adfcf56d3f9c5ab6e2d5db4572c6361f6f8",
+      "published_packet_hash": "0ef5879999526a5f40cbf0d1bc771adfcf56d3f9c5ab6e2d5db4572c6361f6f8",
+      "receipt_id": "5cf0fcf62b31423282a67bd4f93593f2",
+      "request_hash": "a735181b60e6982c6770d86138a18b4bb1f7bc5d7f7755d0c14b7493ee732b9e",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided source and definition concern a brain-stimulation intervention and neuroinflammation/neurorecovery after stroke in rats, not learning as a psychological construct.",
+        "Acronym inconsistency: the packet uses “intermittent Theta burst stimulation (iTBS)”, while the definition is written as “ITBS”; the exact acronym form is not directly supported by the supplied text."
+      ],
+      "definition_hash": "d43a3a5126190f049b719c8d1a3d9bc9258205a6ccea7dc14556adc2a434c1bb",
+      "packet_hash": "0ef5879999526a5f40cbf0d1bc771adfcf56d3f9c5ab6e2d5db4572c6361f6f8",
+      "published_packet_hash": "0ef5879999526a5f40cbf0d1bc771adfcf56d3f9c5ab6e2d5db4572c6361f6f8",
+      "receipt_id": "bd9895e539814c6daeaf2f83edb9777b",
+      "request_hash": "03311a7d512048fe5dd1217d0f4ece288f69a11393ebc669f040f6885929800b",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "test-bias",
+  "term": "test bias",
+  "definition": "Test bias is unfairness in a test or in particular test items that can make results differ for groups for reasons other than the ability or skill being measured. Analyses such as differential item functioning can help flag possible bias, but such findings are only a warning sign and need further review to judge whether the items are truly inappropriate or unfair.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8656356"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8656356",
+      "revision": "2021; DOI 10.3389/fpsyg.2021.767244; article XML SHA-256 a94fbd8fe1ff9dfdc91203ce629f71d51c1bc383e660de182889d8c6a4222803",
+      "scope": "Source record 10.3389/fpsyg.2021.767244; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2021.767244"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6bdf7a3f4d25ba14318e95686006b447d07b8dbfa367292909af88bdb11a723b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "28de61e5c26640f5ae58404fe32a0540",
+    "request_hash": "10965bfc4769d80a9ec7dbb37a1510a528b075d952a8b6758619c147cea39f66",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "86f00a8d542c642c2e981238d3249fc0235a999774df290282176ca070131173",
+    "packet_hash": "6bdf7a3f4d25ba14318e95686006b447d07b8dbfa367292909af88bdb11a723b"
+  },
+  "hash": "0adda19a7335715b5081913264e9ade1c32eab73f2eef1a9b36125ade481e0ad",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that DIF analysis can flag possible item or test bias and that such results do not necessarily mean bias, but it does not define test bias as unfairness or as group score differences for reasons other than ability/skill.",
+        "The definition broadens the source’s language-testing context into a general definition of test bias without support from the packet."
+      ],
+      "definition_hash": "86f00a8d542c642c2e981238d3249fc0235a999774df290282176ca070131173",
+      "packet_hash": "6bdf7a3f4d25ba14318e95686006b447d07b8dbfa367292909af88bdb11a723b",
+      "published_packet_hash": "6bdf7a3f4d25ba14318e95686006b447d07b8dbfa367292909af88bdb11a723b",
+      "receipt_id": "0451267b2c2241b7ab82d0c7c73c5d9b",
+      "request_hash": "a42bf2daba11c5cbc71bd26d5cae4dd9ed5dc66b3577b99748855a57c6ca7fc8",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s core characterization (“unfairness in a test or in particular test items” and that it makes results differ for groups “for reasons other than the ability or skill being measured”) is not stated or clearly supported in the provided packet text, which focuses on differential item functioning in a specific language test context rather than providing a general definition of test bias.",
+        "The packet supports the general idea that DIF analysis can serve as an “alarm” and “does not necessarily imply bias,” but it does not provide enough support for the broader first-sentence wording about what test bias is."
+      ],
+      "definition_hash": "86f00a8d542c642c2e981238d3249fc0235a999774df290282176ca070131173",
+      "packet_hash": "6bdf7a3f4d25ba14318e95686006b447d07b8dbfa367292909af88bdb11a723b",
+      "published_packet_hash": "6bdf7a3f4d25ba14318e95686006b447d07b8dbfa367292909af88bdb11a723b",
+      "receipt_id": "6a2018b30c414c85aaa576b76ce5c717",
+      "request_hash": "659e36ef2d0e8ecf9a19dbf4292093fa1a4adbea547f89cc5a2277d6bfd6c061",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

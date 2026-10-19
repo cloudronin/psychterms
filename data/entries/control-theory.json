@@ -1,0 +1,61 @@
+{
+  "id": "control-theory",
+  "term": "control theory",
+  "definition": "In this source, control theory refers to an approach to explaining rapid human movement by assuming that the nervous system organizes motion to optimize goals such as energy efficiency, smoothness, and speed. It is used to predict characteristic movement patterns, including the shape of velocity profiles during fast arm actions.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13255677"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13255677",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1685216; article XML SHA-256 4ef5823c6c1bc4fd8fb83bd1dfdd4a5688f928a658057c232ea051628ae951ad",
+      "scope": "Source record 10.3389/fnhum.2026.1685216; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1685216"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "88a5998572e5df5be9871ae946903cc8664aced264aec1d039b612ff1131a51b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7174c69aa86d44b999e7a89d86a7c499",
+    "request_hash": "bc242026277263345a0a878033b9595d22f41e9a9c768c7ac04fdde886e4e5bf",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "0e96e6132b5430dd984775a4244c1192e35a438495a1a86062d298ce5c9586ba",
+    "packet_hash": "88a5998572e5df5be9871ae946903cc8664aced264aec1d039b612ff1131a51b"
+  },
+  "hash": "74f743db9eaae378a45272f3c012212f62b8f4d764b5a2502ce68a0669991ee7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0e96e6132b5430dd984775a4244c1192e35a438495a1a86062d298ce5c9586ba",
+      "packet_hash": "88a5998572e5df5be9871ae946903cc8664aced264aec1d039b612ff1131a51b",
+      "published_packet_hash": "88a5998572e5df5be9871ae946903cc8664aced264aec1d039b612ff1131a51b",
+      "receipt_id": "ecef7f0c68894efeaeeaf892752eeb7d",
+      "request_hash": "24d31880919bf48dbb45e88800ec1d3c68e2e5c9ac9efb4361689d7c4461c0e6",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the supplied packet describes rapid human movement/neuromuscular control and “optimal control theory” in a biomechanics/neuroscience context, not a clearly social-psychology context.",
+        "The definition claims that “the nervous system organizes motion to optimize goals,” but the packet contrasts Kinematic Theory vs optimal control theory in terms of whether observed invariances result from “optimality,” and it mentions cost components (energy efficiency, movement smoothness, and time) without stating that the nervous system is the organizing mechanism in those terms.",
+        "“Smoothness, and speed” is only partially supported: the packet’s explicit optimization components are energy efficiency, movement smoothness, and time (it does not explicitly list “speed” as an optimization goal)."
+      ],
+      "definition_hash": "0e96e6132b5430dd984775a4244c1192e35a438495a1a86062d298ce5c9586ba",
+      "packet_hash": "88a5998572e5df5be9871ae946903cc8664aced264aec1d039b612ff1131a51b",
+      "published_packet_hash": "88a5998572e5df5be9871ae946903cc8664aced264aec1d039b612ff1131a51b",
+      "receipt_id": "c8137034f3be4d8aa02f00238f93d108",
+      "request_hash": "d1360e0f385ccfa6f6537d54ad0aef276bf03f496ee8df00d972252197d508f3",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

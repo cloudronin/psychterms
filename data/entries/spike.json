@@ -1,0 +1,64 @@
+{
+  "id": "spike",
+  "term": "spike",
+  "definition": "A spike is a neuron's firing event, treated as something that can be timed and counted when studying neural activity. In this context, spike timing means the exact moments when those firing events occur.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12440190"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12440190",
+      "revision": "2025; DOI 10.1371/journal.pone.0330607; article XML SHA-256 22dc6656ca854f654b749a808528717f5a7bb41377702b89d377930f9233b5c3",
+      "scope": "Source record 10.1371/journal.pone.0330607; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0330607"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6923208f3cb84b149b6e903768ccefa3",
+    "request_hash": "61fd2ced5f2193acf6ab3daddf852b62a67bff4626d9d50af09d92eecf9deaaa",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "94c513364073971940e15fe603c9eebbeb9d3624cf2640d369e7deac83fa0829",
+    "packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b"
+  },
+  "hash": "6ed7e76f20423be9518312b0ae44d7ea87b794a0e08e031bee5933ae8c8cbe84",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that spikes are \"counted\" when studying neural activity; the packet supports spike timing control but does not support counting as part of the defined sense.",
+        "The field is not well supported: the packet is about neural spike timing control in noisy neurons, not a clear psychology/learning sense of \"spike\"."
+      ],
+      "definition_hash": "94c513364073971940e15fe603c9eebbeb9d3624cf2640d369e7deac83fa0829",
+      "packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b",
+      "published_packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b",
+      "receipt_id": "de69496074ea499fa5a243917fe10cd2",
+      "request_hash": "98b75ae7ef6428e613377951b61c7e8a21832d3fb7c7ba792aa1ea1ee3355436",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “spike” as a “neuron's firing event” or state that spikes are “counted” for studying neural activity; it only discusses “spike timing control” and minimizing “firing mismatches/timing errors.”",
+        "The definition’s statement that “spike timing means the exact moments when those firing events occur” is only indirectly implied by the phrase “spike timing control” and “timing errors,” not explicitly stated in the provided text.",
+        "The packet’s main focus is a proposed method for controlling spike timing of neurons in noisy environments (neural control/neuroprosthetics), and it does not clearly support framing this term under “learning” in the way the definition suggests."
+      ],
+      "definition_hash": "94c513364073971940e15fe603c9eebbeb9d3624cf2640d369e7deac83fa0829",
+      "packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b",
+      "published_packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b",
+      "receipt_id": "8bcf3938b1524c399131d4614fdbd3de",
+      "request_hash": "56d07b48fea3cc62deaa82c075bb1527a3fa483255cf8ac01729f5afb6425406",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

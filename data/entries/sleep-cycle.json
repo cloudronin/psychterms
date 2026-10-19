@@ -1,0 +1,64 @@
+{
+  "id": "sleep-cycle",
+  "term": "sleep cycle",
+  "definition": "A sleep cycle is a repeating segment of sleep that recurs through the night and ends with rapid eye movement. In this source, it is treated as a period during sleep when brain activity linked to replay of experience and long-term memory formation may occur.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13521931"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13521931",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1777687; article XML SHA-256 a9ca48e91948e03a91c124ff88bc9c9216b68c65f5a4ad33e88ee2916f9062e8",
+      "scope": "Source record 10.3389/fnhum.2026.1777687; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1777687"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b2d4a56ab97af9c3fe0074d166d77943793642c881432088cb3db164fb83067f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f53ac3b0e1b2419ca0cd90b1f6223c91",
+    "request_hash": "ec7a6166612b53324c8c9728087df941b2de340a1e25d833347a6d6462101037",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "6cdaf0b2601829130d59b1d30cb48f5dbbf3206973fc08944d909a9b8a597c30",
+    "packet_hash": "b2d4a56ab97af9c3fe0074d166d77943793642c881432088cb3db164fb83067f"
+  },
+  "hash": "f2f93316e0292d5ec9da2abeb3e9541e0226b299d4e4b53746c21b218e80734b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible: “sleep cycle” is a sleep/physiology term, not a diagnosis.",
+        "The definition adds interpretive claims not cleanly supported by the packet, especially that the cycle is treated as a period “when brain activity linked to replay of experience and long-term memory formation may occur.”",
+        "The wording “ends with rapid eye movement” is supported only as a claim in this speculative article, not as a general or consensus definition of sleep cycle."
+      ],
+      "definition_hash": "6cdaf0b2601829130d59b1d30cb48f5dbbf3206973fc08944d909a9b8a597c30",
+      "packet_hash": "b2d4a56ab97af9c3fe0074d166d77943793642c881432088cb3db164fb83067f",
+      "published_packet_hash": "b2d4a56ab97af9c3fe0074d166d77943793642c881432088cb3db164fb83067f",
+      "receipt_id": "feb74f94a2f8472b915df5bd3f1af582",
+      "request_hash": "75a334b92225ec0f67144450610b1aa2e04b3d942661cb49f31c76222783889d",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition is a general description of a sleep-stage concept and does not include any diagnostic meaning or criteria; the packet does not support treating “sleep cycle” as a term used for diagnosis.",
+        "While the packet mentions “rapid eyes movement observed at the end of every sleep cycle” and that sleep involves hippocampal replay tied to translating traces into long-term memory (“building of long-term memories” / “translation of labile traces into steady imprints”), it does not support specifying “may occur” in a way that is diagnostic-context-specific for the field labeled “diagnosis.”"
+      ],
+      "definition_hash": "6cdaf0b2601829130d59b1d30cb48f5dbbf3206973fc08944d909a9b8a597c30",
+      "packet_hash": "b2d4a56ab97af9c3fe0074d166d77943793642c881432088cb3db164fb83067f",
+      "published_packet_hash": "b2d4a56ab97af9c3fe0074d166d77943793642c881432088cb3db164fb83067f",
+      "receipt_id": "735e4f9f8bd348f99811f8cf16537347",
+      "request_hash": "d7a87d65e7fdd2395809156e785333bc5186489cc7f241c8652b8f655bdee120",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

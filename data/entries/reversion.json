@@ -1,0 +1,64 @@
+{
+  "id": "reversion",
+  "term": "reversion",
+  "definition": "Reversion here means a tendency for values that have moved away from their usual level to drift back toward their long-run average over time. In other words, a departure from the norm is not permanent but is followed by movement back toward the typical level.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13016358"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13016358",
+      "revision": "2026; DOI 10.1371/journal.pone.0337054; article XML SHA-256 9e97d129bbd2fdc1faeb417a9cb9a8a48924e4e572c66b241226ce922d967723",
+      "scope": "Source record 10.1371/journal.pone.0337054; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337054"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dc7d0ca1faea1525bd553836cf7d7f4e57c96048482af47b96ff09b29baed6b4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b1e1f6a1507148dc9dd3945db71f2474",
+    "request_hash": "80ed86650f8aaee006e2edcae56be7fe866400dd63caab0d4d0b2c42d639d0a6",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "358f6507e25808f3c3d09beac74adfd480f9f686e8ac7b0ce06949b940e0902c",
+    "packet_hash": "dc7d0ca1faea1525bd553836cf7d7f4e57c96048482af47b96ff09b29baed6b4"
+  },
+  "hash": "54b6a27e2b61d8cf2c5acc8b5ddbacc115332f6eb5eef0d4dd7a7a5a1ae31110",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports mean reversion in a time-series/economic context, not the psychology/learning field requested here.",
+        "The definition generalizes to “values” and “usual level/typical level,” but the source only explains data points in relation to a long-term average after deviating from the mean; it does not establish the broader wording used here.",
+        "The source describes a statistical phenomenon for egg prices and the PPI, so the requested sense of the term is not sufficiently supported for a learning dictionary entry."
+      ],
+      "definition_hash": "358f6507e25808f3c3d09beac74adfd480f9f686e8ac7b0ce06949b940e0902c",
+      "packet_hash": "dc7d0ca1faea1525bd553836cf7d7f4e57c96048482af47b96ff09b29baed6b4",
+      "published_packet_hash": "dc7d0ca1faea1525bd553836cf7d7f4e57c96048482af47b96ff09b29baed6b4",
+      "receipt_id": "f7192d34bcf644e3b1ae42a37a3a81bd",
+      "request_hash": "365d9fad29db462ec1447b2806407548b09ff698e82941f6b056376b4bcbf423",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet discusses mean reversion as a time-series/statistical concept applied to CPI/egg prices and PPI, and does not support using the term specifically in a “learning” field or as a learning-related construct.",
+        "The definition’s wording is largely compatible with the packet’s description of “mean reversion,” but the provided field (“learning”) is not supported by the packet."
+      ],
+      "definition_hash": "358f6507e25808f3c3d09beac74adfd480f9f686e8ac7b0ce06949b940e0902c",
+      "packet_hash": "dc7d0ca1faea1525bd553836cf7d7f4e57c96048482af47b96ff09b29baed6b4",
+      "published_packet_hash": "dc7d0ca1faea1525bd553836cf7d7f4e57c96048482af47b96ff09b29baed6b4",
+      "receipt_id": "3941f0de1c3c4269a079c3b939e6ff45",
+      "request_hash": "39a17e6b9594c7035d8a37d017ffc847e8e2176c28aa86f2a889b11653d8dd6f",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

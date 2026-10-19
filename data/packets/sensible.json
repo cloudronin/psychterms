@@ -1,0 +1,26 @@
+{
+  "id": "sensible",
+  "term": "sensible",
+  "source": "article-pmc13616713",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnhum.2026.1883543",
+  "revision": "2026; DOI 10.3389/fnhum.2026.1883543; article XML SHA-256 2027edc1371fc1f81bd193e4ea65e6b82f85330459bfce0937c213cc5bd14af6",
+  "source_snapshot_sha256": "2027edc1371fc1f81bd193e4ea65e6b82f85330459bfce0937c213cc5bd14af6",
+  "url": "https://doi.org/10.3389/fnhum.2026.1883543",
+  "text": "Forest (RF), were trained on this set of features and compared with the softmax head of the CNN. The experiments were performed on a publicly available, three-source combined MRI dataset of 7,023 images across glioma, meningioma, pituitary tumor, and normal categories using both hold-out and 5-fold cross-validation setups. In all the evaluated configurations, the hybrid model of CNN and KNN provided the best hold-out accuracy (96.58%), whereas the hybrid model of CNN and SVM offered the best macro-average precision (98.81%) and area under the ROC curve (99.56%). Both hybrids were statistically superior ( p < 0.001) to the softmax head of the CNN in the paired statistical tests. Class Activation visualization based on gradient analysis revealed that the network concentrated on clinically sensible regions of the tumors rather than other irrelevant background regions. With a compact parameter footprint (0.20 MB in half precision) and an inference throughput of approximately 23.7 images per second on the CPU and 220.1 images per second on an NVIDIA A100 GPU at a batch size of 16, the proposed framework offers an accurate, interpretable, and computationally frugal solution that is suitable for computer-aided brain tumor screening in resource-constrained clinical settings.",
+  "source_label": "Toward reliable computer-aided brain tumor diagnosis: a contrast-enhanced deep learning approach with hybrid KNN classification",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    1323,
+    2610
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a"
+}

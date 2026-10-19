@@ -1,0 +1,26 @@
+{
+  "id": "distributed-representation",
+  "term": "distributed representation",
+  "source": "article-pmc4640716",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0141287",
+  "revision": "2015; DOI 10.1371/journal.pone.0141287; article XML SHA-256 9484645d02955d0ac412e4dd0c787e9b898e3e18f9e7ef529bde6a472b018a34",
+  "source_snapshot_sha256": "9484645d02955d0ac412e4dd0c787e9b898e3e18f9e7ef529bde6a472b018a34",
+  "url": "https://doi.org/10.1371/journal.pone.0141287",
+  "text": "Feature extraction is an important step in data analysis, machine learning and NLP. It refers to finding an interpretable representation of data for machines that can increase performance of learning algorithms. Even the most sophisticated algorithms would perform poorly if inappropriate features are used, while simple methods can potentially perform well when they are fed with the appropriate features. Feature extraction can be done manually or in an unsupervised fashion. In this paper, we propose an unsupervised data-driven distributed representation for biological sequences. This method, called bio-vectors (BioVec) in general and more specifically protein-vectors (ProtVec) for proteins, can be applied to a wide range of problems in bioinformatics, such as protein visualization, protein family classification, structure prediction, domain extraction, and interaction prediction. In this approach, each biological sequence is embedded in an n-dimensional vector that characterizes biophysical and biochemical properties of sequences using neural networks. In the following, we first explain how this method works and how it is trained from 546,790 sequences of Swiss-Prot database. Subsequently, we will analyze the biophysical and the biochemical properties of this representation qualitatively and quantitatively. To further evaluate this feature extraction method, we apply it in classification of 7,027 protein families of 324,018 protein sequences in Swiss-Prot. In the next step, we use this approach for visualization and characterization of two categories of disordered sequences: the DisProt database as well as a database of disordered regions of phenylalanine-glycine nucleoporins (FG-Nups). Finally, we classify these protein families using support vector machine (SVM) classifiers [ 5 ]. As a key advantage of the proposed method, the embedding needs to be trained only once and then may be used to encode biological sequences in a given problem. The related data and future updated will be available at: http://llp.berkeley.edu and Harvard Dataverse: http://dx.doi.org/10.7910/DVN/JMFHTN .",
+  "source_label": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    2717,
+    4832
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab"
+}

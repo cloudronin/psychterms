@@ -1,0 +1,60 @@
+{
+  "id": "word-length-effect",
+  "term": "word-length effect",
+  "definition": "The word-length effect is the finding that reading performance changes with the number of letters in a word, so longer words are read more slowly or with greater difficulty than shorter ones. In the packet, it is described as a marked feature of pure alexia and is linked to a serial, letter-by-letter reading style.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4085070"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4085070",
+      "revision": "2014; DOI 10.1371/journal.pone.0100898; article XML SHA-256 87ad99c67cd2df8fbe7fe8a1ab527c1ee7e72127f3a4d965debc3512317f9ebb",
+      "scope": "Source record 10.1371/journal.pone.0100898; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0100898"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fa2eae804de2f23b2f1d497fb0808af9e6509641dc830ad5fda7b1821ca415fd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "39bd2b7190d14c3ba3b2f6d59d01d106",
+    "request_hash": "d687435ee856a7598359ddef7e930688c6871646afdbb9c88527a1a514428aa8",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "c17beef2e22f6debff08b3cf202d27b5cefe14447d5227de8063d0fd9bbba449",
+    "packet_hash": "fa2eae804de2f23b2f1d497fb0808af9e6509641dc830ad5fda7b1821ca415fd"
+  },
+  "hash": "c76baca2da9eba41c6b36b58b2d1181fdedffbf5f3b0e0384f6f577da4eb32f0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c17beef2e22f6debff08b3cf202d27b5cefe14447d5227de8063d0fd9bbba449",
+      "packet_hash": "fa2eae804de2f23b2f1d497fb0808af9e6509641dc830ad5fda7b1821ca415fd",
+      "published_packet_hash": "fa2eae804de2f23b2f1d497fb0808af9e6509641dc830ad5fda7b1821ca415fd",
+      "receipt_id": "1b6f1b040be749d0b208e51957f5c078",
+      "request_hash": "9ec311876e6778c6694d40cdc0eb8e7edcd40ae8bf007abc9c04daa0d5749697",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “longer words are read more slowly or with greater difficulty than shorter ones,” but the packet only says there is a “considerable word length effect” and “differential effects of word length” without explicitly specifying that longer words are read more slowly/more difficultly than shorter ones.",
+        "The packet supports linking the word-length effect to a “serial, letter-by-letter fixation strategy” in pure alexia, but the first sentence’s general characterization of the direction of the effect (longer → slower/more difficult) is not directly stated in the packet."
+      ],
+      "definition_hash": "c17beef2e22f6debff08b3cf202d27b5cefe14447d5227de8063d0fd9bbba449",
+      "packet_hash": "fa2eae804de2f23b2f1d497fb0808af9e6509641dc830ad5fda7b1821ca415fd",
+      "published_packet_hash": "fa2eae804de2f23b2f1d497fb0808af9e6509641dc830ad5fda7b1821ca415fd",
+      "receipt_id": "0a12117f1fca4cb7a829d30be3c84e57",
+      "request_hash": "2be5778dab59bfc8621c2f42c272821ea625867fab2720d6d824b10f24b332a9",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

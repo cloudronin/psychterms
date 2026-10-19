@@ -1,0 +1,65 @@
+{
+  "id": "freezing-behavior",
+  "term": "freezing behavior",
+  "definition": "Freezing behavior is a fear-related response in which an animal remains still, commonly observed during conditioned fear learning and memory retrieval. In this packet, it is described as a behavioral sign that closely tracks activity in hippocampal neurons involved in trace fear memory.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6608968"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6608968",
+      "revision": "2019; DOI 10.1371/journal.pone.0219152; article XML SHA-256 27a7c50a461f3783eabc52e0089e722d25d045289e5c3f8ab88ab6afccd05f93",
+      "scope": "Source record 10.1371/journal.pone.0219152; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0219152"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0c46afc5a7b047c0b857bc96f08432fd495c030cc319085dc2966af53edfe109",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ded2c98956954d97b932d5f8ea1b3e25",
+    "request_hash": "0b3d8a34f60e9edaa51f991246879f3e98b203edeb167e16dbe0bda5ea1edf35",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "1d2f0f57ced7056085e62a3608e8e637c72cf1db98f2b170c7fbabd384fc2cc3",
+    "packet_hash": "0c46afc5a7b047c0b857bc96f08432fd495c030cc319085dc2966af53edfe109"
+  },
+  "hash": "d38b650b6f78c7df79e28b50255e5b5251479486e73a18034be2ac6764706252",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “freezing behavior” as “a fear-related response in which an animal remains still”; it only states that mice “exhibit a high level of freezing behavior” without describing the behavior itself.",
+        "The definition’s claim that freezing behavior is “commonly observed during conditioned fear learning and memory retrieval” is not explicitly supported in the provided text; the packet mentions trace fear conditioning and that freezing is high during the trace period, plus retrieval/extinction effects, but does not make a general “commonly observed” statement.",
+        "The definition’s claim that the packet describes freezing behavior as “closely tracks activity in hippocampal neurons involved in trace fear memory” is only partially supported: the packet says there is a “high degree of correlation” between neuron activity and freezing behavior, but it does not explicitly say that the neurons are “involved” in freezing behavior beyond that correlation language."
+      ],
+      "definition_hash": "1d2f0f57ced7056085e62a3608e8e637c72cf1db98f2b170c7fbabd384fc2cc3",
+      "packet_hash": "0c46afc5a7b047c0b857bc96f08432fd495c030cc319085dc2966af53edfe109",
+      "published_packet_hash": "0c46afc5a7b047c0b857bc96f08432fd495c030cc319085dc2966af53edfe109",
+      "receipt_id": "47120701fc3646598b2f6c86e954c308",
+      "request_hash": "147da2086eb68f5c9d2d6827badab1c1ff6ae967eb2538e4fe8ff00823e0c61d",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general definition of freezing behavior as an animal “remaining still”; it only reports a high level of freezing behavior in conditioned mice during specific fear-conditioning phases.",
+        "“Commonly observed during conditioned fear learning and memory retrieval” overgeneralizes from a single study; the packet only shows this association in trace fear conditioning and retrieval in mice.",
+        "The definition adds a broad behavioral description that is not explicitly defined in the packet, which presents freezing behavior only as a correlated observation alongside CA1 trace-cell activity."
+      ],
+      "definition_hash": "1d2f0f57ced7056085e62a3608e8e637c72cf1db98f2b170c7fbabd384fc2cc3",
+      "packet_hash": "0c46afc5a7b047c0b857bc96f08432fd495c030cc319085dc2966af53edfe109",
+      "published_packet_hash": "0c46afc5a7b047c0b857bc96f08432fd495c030cc319085dc2966af53edfe109",
+      "receipt_id": "f72a120e68074bd8b1377f33fe74ba90",
+      "request_hash": "c0f59bd5cb015b98cc59c6b89cb668bb4d15e554a2a274bd0fe2420f9708d9fb",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "surrogate-variable",
+  "term": "surrogate variable",
+  "definition": "A surrogate variable is a data-derived variable used in Surrogate Variable Analysis to account for hidden variation in a dataset. In this context, it helps adjust for latent sources of variation so gene expression data can be better normalized before analysis.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13082716"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13082716",
+      "revision": "2026; DOI 10.1371/journal.pone.0346663; article XML SHA-256 c4f8ccb6e6e80d789fd28cfa51a125bace1a53fab1777b44469f4aaa931f19df",
+      "scope": "Source record 10.1371/journal.pone.0346663; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0346663"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e209141a08d840c3a7dd69ce5b17a750",
+    "request_hash": "aa8785e501a04dd8952079d5a256f5855ccd8386b5270a1d250cc7ae77b5f118",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "69cbe0015a8b879644a5e7c9172f952d5b59c4a0f7f9b5b6593aacec218663bd",
+    "packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555"
+  },
+  "hash": "56938f54911cd4aa15a6a7252b266f73be884a9ae1038ef981afc37b49146eba",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that the study “preprocess[es] the data using Surrogate Variable Analysis (SVA) to correct for latent variation and normalize gene expression,” but it does not define what a “surrogate variable” is (e.g., that it is specifically a “data-derived variable”).",
+        "The definition’s claim that the surrogate variable “helps adjust for latent sources of variation” is only indirectly supported by the packet’s statement that SVA corrects for “latent variation”; the packet does not explicitly link that correction to surrogate variables themselves or describe their role in that way."
+      ],
+      "definition_hash": "69cbe0015a8b879644a5e7c9172f952d5b59c4a0f7f9b5b6593aacec218663bd",
+      "packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555",
+      "published_packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555",
+      "receipt_id": "c9865db469bb41f089b70467bdd573c8",
+      "request_hash": "e54b4af337c9e690326276132faf50ba61ca04017c65d3eec23b19990e375cee",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports Surrogate Variable Analysis as a preprocessing method that corrects latent variation and normalizes gene expression, but it does not explicitly support defining a “surrogate variable” itself as a data-derived variable or as the named entity being defined here.",
+        "The requested field is diagnosis, but the term in the packet is a statistical/bioinformatics preprocessing concept rather than a diagnosis term; the schizophrenia context does not make the sense itself diagnostic."
+      ],
+      "definition_hash": "69cbe0015a8b879644a5e7c9172f952d5b59c4a0f7f9b5b6593aacec218663bd",
+      "packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555",
+      "published_packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555",
+      "receipt_id": "04cc037a19234adc893d5c2e67222820",
+      "request_hash": "004fdab5266c4eb804cc8bcf36dfc89e3f310a3aa2cd9f38d9e52dcd48dbdca1",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

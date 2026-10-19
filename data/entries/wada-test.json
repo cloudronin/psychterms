@@ -1,0 +1,65 @@
+{
+  "id": "wada-test",
+  "term": "Wada test",
+  "definition": "The Wada test is an assessment used in people with epilepsy to examine which brain hemisphere is responsible for functions such as language and memory. It is used as a functional mapping method to help identify lateralization and estimate the risk of problems after epilepsy surgery.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3853870"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3853870",
+      "revision": "2013; DOI 10.3389/fnhum.2013.00829; article XML SHA-256 f57db0a6c61d8793deab57464926e22ff789ff59d68c6d660d2e7a9212ac6a2c",
+      "scope": "Source record 10.3389/fnhum.2013.00829; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2013.00829"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0f6905fcd762aab1734f2e01bf5f4ddaa959082331daf29e0e21dca0d42abaf0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "14ca540704b34fb59edcf45707fd7f94",
+    "request_hash": "e779ed818a5427ae0f7c4e244978cefc7ef10610b9ebeb943206205e794195d7",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "033e1e26904d0634bd7d86050e80bb3cfa8fa8798443220480e62ea03a2db1af",
+    "packet_hash": "0f6905fcd762aab1734f2e01bf5f4ddaa959082331daf29e0e21dca0d42abaf0"
+  },
+  "hash": "09308d276931aed3be5242d77f61a68f4d99f2a73526cc51caf551a2f57a85c5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about intracarotid propofol procedure (IPP) and only says it is similar to the Wada test; it does not directly define the Wada test itself.",
+        "The claims about being used in people with epilepsy to determine language and memory lateralization and to estimate postoperative risk are only supported for IPP in this article, not for the Wada test as stated.",
+        "The definition presents current clinical use as settled fact, but the packet provides only a study-level description rather than source-supported consensus on the test."
+      ],
+      "definition_hash": "033e1e26904d0634bd7d86050e80bb3cfa8fa8798443220480e62ea03a2db1af",
+      "packet_hash": "0f6905fcd762aab1734f2e01bf5f4ddaa959082331daf29e0e21dca0d42abaf0",
+      "published_packet_hash": "0f6905fcd762aab1734f2e01bf5f4ddaa959082331daf29e0e21dca0d42abaf0",
+      "receipt_id": "20c02b1e29ee4ca9b51a74fad9f53f82",
+      "request_hash": "6d135db58b7cc18b968e8a86edb6256a519c3eeadc490ab91ddc403b9a8ce5ae",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text discusses an intracarotid propofol procedure (IPP) and only describes it as “similar to Wada Test”; it does not directly define the Wada test itself or state that the Wada test is used in epilepsy patients for language/memory mapping in general terms.",
+        "The “functional mapping method to help identify lateralization” part is stated for IPP (“offers a functional mapping approach”), not explicitly for the Wada test.",
+        "The “estimate the risk of problems after epilepsy surgery” claim is also made specifically about IPP (“helps to predict who might be at risk for postoperative … deficits”); the packet does not explicitly attribute this risk-estimation use to the Wada test."
+      ],
+      "definition_hash": "033e1e26904d0634bd7d86050e80bb3cfa8fa8798443220480e62ea03a2db1af",
+      "packet_hash": "0f6905fcd762aab1734f2e01bf5f4ddaa959082331daf29e0e21dca0d42abaf0",
+      "published_packet_hash": "0f6905fcd762aab1734f2e01bf5f4ddaa959082331daf29e0e21dca0d42abaf0",
+      "receipt_id": "1006ba07ad844cc6ab15fec9dca01b63",
+      "request_hash": "f1f23c2c1b2900815a344522e59a7ab6877776fc1da1003fb407c9b4ef77a578",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

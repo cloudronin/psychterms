@@ -1,0 +1,61 @@
+{
+  "id": "sensible",
+  "term": "sensible",
+  "definition": "Sensible means reasonable or appropriate in the situation. In this source, it describes focusing on clinically relevant areas rather than irrelevant background information.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13616713"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13616713",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1883543; article XML SHA-256 2027edc1371fc1f81bd193e4ea65e6b82f85330459bfce0937c213cc5bd14af6",
+      "scope": "Source record 10.3389/fnhum.2026.1883543; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1883543"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "069efb9460fe446d8a4ebbc2f6d432ed",
+    "request_hash": "6f11bf4c4ce25dd282e8fc2d47aef43184ebf39182b05671ffd1522a77ce4ca7",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "df130925e79c0fe104c84da91dc118fd9999965fa81d059fa400bea6dab7fb64",
+    "packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a"
+  },
+  "hash": "ab7f4948b6a31760c24c7c5b5dbe3ff2f1fb67cf0c3c28799b4ea606f71c9f31",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Sensible means reasonable or appropriate in the situation”) is not directly supported by the supplied packet text.",
+        "The packet only uses “clinically sensible regions” to describe where the network focused (clinically relevant tumor regions rather than irrelevant background), but does not provide a general meaning like “reasonable or appropriate” beyond that context.",
+        "Because the definition includes an unsupported general sense of the term, the definition cannot be considered defensible against the provided source."
+      ],
+      "definition_hash": "df130925e79c0fe104c84da91dc118fd9999965fa81d059fa400bea6dab7fb64",
+      "packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a",
+      "published_packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a",
+      "receipt_id": "4aec0dd89bf04fc29ddb22e537aaa9f4",
+      "request_hash": "ccba77174922540021dbbdeaab40e915d79a74085d13d26a5fe8fef53163f90f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "df130925e79c0fe104c84da91dc118fd9999965fa81d059fa400bea6dab7fb64",
+      "packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a",
+      "published_packet_hash": "ac36ef58bdd08ff5253136abcac6b8166627fc771b180eb467502ac63093e90a",
+      "receipt_id": "e9a2b18afab540ee8c53083da9eff54c",
+      "request_hash": "bf7d80c6533b5428adf33ba0373370742c8e00e065a466bc6d4bebdbb34b761d",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

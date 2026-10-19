@@ -1,0 +1,65 @@
+{
+  "id": "verification",
+  "term": "verification",
+  "definition": "Verification is the process of deciding whether a person matches a previously recorded identity signal by comparing a new measurement with that person’s stored signature. In the source example, this is done biometrically by comparing the acoustic response of the oral cavity with a prerecorded acoustic profile.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13614562"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13614562",
+      "revision": "2026; DOI 10.1371/journal.pone.0359160; article XML SHA-256 29a75ac9a7c18fe760440d7db108782118bce4f4a6f5d851d53e9b74958d18ea",
+      "scope": "Source record 10.1371/journal.pone.0359160; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0359160"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5b4f0d190244c7ad9be056f3a6a113dc70410626638ebe88674683f7f84d8358",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7c3a2f1bf29043d6a0c5ea556e83b312",
+    "request_hash": "2a4b1de19193d0efd64bd6db8f8170842bfada1c790996223cf70b177884ffda",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "a4ae9beace4e0127bef9746c2a1b2f4b3eb65d260cf5b5969bd4f559da2a2508",
+    "packet_hash": "5b4f0d190244c7ad9be056f3a6a113dc70410626638ebe88674683f7f84d8358"
+  },
+  "hash": "7648a538910d519630d4995d26fb02b0b01d9385c5d13d84cd7c829123e8192b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports biometric verification, not a mental health or counselling sense of “verification.”",
+        "The definition’s description of “deciding whether a person matches a previously recorded identity signal” is only partially supported; the source describes returning a verification decision by comparing an oral cavity acoustic response with a prerecorded acoustic signature, not the broader generalization given here.",
+        "The wording “stored signature” and “identity signal” is not the source’s terminology and introduces unsupported abstraction beyond the packet.",
+        "The definition is not clearly framed as a dictionary sense in the requested field and instead reads like a technical description from biometric identification literature."
+      ],
+      "definition_hash": "a4ae9beace4e0127bef9746c2a1b2f4b3eb65d260cf5b5969bd4f559da2a2508",
+      "packet_hash": "5b4f0d190244c7ad9be056f3a6a113dc70410626638ebe88674683f7f84d8358",
+      "published_packet_hash": "5b4f0d190244c7ad9be056f3a6a113dc70410626638ebe88674683f7f84d8358",
+      "receipt_id": "44b52874dfcd4db59500812e01d1a538",
+      "request_hash": "e979d94ee35b1801035b0e50334e353bb1a41821d4a7548b36561691fda6088c",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet content is about biometric identity verification (a laboratory testing of Oral Cavity Acoustic Verification) and does not provide support for framing or using “verification” in the mental health field.",
+        "Because the packet does not establish a mental-health context for the term, the field “mental health” is not defensible based on the supplied source."
+      ],
+      "definition_hash": "a4ae9beace4e0127bef9746c2a1b2f4b3eb65d260cf5b5969bd4f559da2a2508",
+      "packet_hash": "5b4f0d190244c7ad9be056f3a6a113dc70410626638ebe88674683f7f84d8358",
+      "published_packet_hash": "5b4f0d190244c7ad9be056f3a6a113dc70410626638ebe88674683f7f84d8358",
+      "receipt_id": "efae45166df5400483b0fb51d7ff0d72",
+      "request_hash": "ac3c597cdf83c6c3ac05f55e9570ffe9c7e0d30e65994badbecd2fe0c043055d",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "predictive-value",
+  "term": "predictive value",
+  "definition": "Predictive value is how useful a measure or combination of measures is for forecasting an outcome. In this context, it refers to the extent to which variables can help predict mental health status.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13537578"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13537578",
+      "revision": "2026; DOI 10.1371/journal.pone.0355937; article XML SHA-256 43cc75fffd32349dac19840b95b65fb5659aaf5156c5f0cc983a5c4eb8ba757d",
+      "scope": "Source record 10.1371/journal.pone.0355937; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355937"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d915297455c5344de7ef738a975d948c0fa47e95ef7de4f5d4b55e4cbe63e4fb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2c17750a701d410785f96a1e4f68bee6",
+    "request_hash": "878da2eaf11b4c93f0eff87e9ba179fed62fa50963797e6b4dcb77dd301ebb36",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "01cda0844b19dfb717e10b9dddf648c2326cb5faa1bc1c1adeb9fe81e899e97e",
+    "packet_hash": "d915297455c5344de7ef738a975d948c0fa47e95ef7de4f5d4b55e4cbe63e4fb"
+  },
+  "hash": "46ad8c34d71334b7faeeaf212bd6df6876bfb27153078fa6eb1c7b306637a9ef",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “predictive value”; it only states that the study “evaluate[s] their predictive value” for mental health using regression and machine learning, without describing what predictive value means conceptually.",
+        "The definition’s phrasing (“useful… for forecasting an outcome” and “extent to which variables can help predict mental health status”) is not supported by any explicit definitional content in the packet.",
+        "No support is provided in the packet for the implied general characterization of predictive value as a property of measures (e.g., usefulness/extent), as opposed to the study-specific usage of the term."
+      ],
+      "definition_hash": "01cda0844b19dfb717e10b9dddf648c2326cb5faa1bc1c1adeb9fe81e899e97e",
+      "packet_hash": "d915297455c5344de7ef738a975d948c0fa47e95ef7de4f5d4b55e4cbe63e4fb",
+      "published_packet_hash": "d915297455c5344de7ef738a975d948c0fa47e95ef7de4f5d4b55e4cbe63e4fb",
+      "receipt_id": "81f3c14e0aaa435f80f115f0670fd9d5",
+      "request_hash": "d616e20eba6691cd15626547cccf94b920ada759740f92e0b641b3b023f60d79",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet shows the term used in a study context, but it does not define “predictive value” as “how useful a measure or combination of measures is for forecasting an outcome.”",
+        "The added clause about variables helping to predict mental health status goes beyond the supplied text, which only says the authors aimed to evaluate predictive value for mental health using regression and machine learning approaches."
+      ],
+      "definition_hash": "01cda0844b19dfb717e10b9dddf648c2326cb5faa1bc1c1adeb9fe81e899e97e",
+      "packet_hash": "d915297455c5344de7ef738a975d948c0fa47e95ef7de4f5d4b55e4cbe63e4fb",
+      "published_packet_hash": "d915297455c5344de7ef738a975d948c0fa47e95ef7de4f5d4b55e4cbe63e4fb",
+      "receipt_id": "43670dc050df401cb5e4bd595c416adb",
+      "request_hash": "d184be626cbf36ac6b1767c79addc3f21b1b9348963ffaf1cab67af0ab9c644a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

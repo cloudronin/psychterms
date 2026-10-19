@@ -1,0 +1,60 @@
+{
+  "id": "substance-use-disorder",
+  "term": "substance use disorder",
+  "definition": "Substance use disorder is a disorder related to the use of substances. In the supplied source, it is described as a major global health problem that contributes substantially to overall disease burden.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13426052"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13426052",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1835709; article XML SHA-256 03343be824d97bb6138cb6f0b0c9a3cd71f4827f93561c2c3979d37810704af1",
+      "scope": "Source record 10.3389/fpsyt.2026.1835709; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1835709"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "457834abef40055017ce7458e6818c08726bf9968d98cf298848f1a63f6ce9fa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "51db115953de495eb72f903a85e536c0",
+    "request_hash": "d2532034eb3ab627a5606ec6e273b7123f8649ba81b029404d9e837c0c43fae3",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "692fec8d3e542a96d445f55484b2bd6e9f7f542bb618e255390185b62ad4a186",
+    "packet_hash": "457834abef40055017ce7458e6818c08726bf9968d98cf298848f1a63f6ce9fa"
+  },
+  "hash": "2539aa55bf8053fef23c063c6b12d1c67ef589647272d2cac6760d72413ec2b2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "692fec8d3e542a96d445f55484b2bd6e9f7f542bb618e255390185b62ad4a186",
+      "packet_hash": "457834abef40055017ce7458e6818c08726bf9968d98cf298848f1a63f6ce9fa",
+      "published_packet_hash": "457834abef40055017ce7458e6818c08726bf9968d98cf298848f1a63f6ce9fa",
+      "receipt_id": "30af3bacfdf2479a84dcf259cff38f89",
+      "request_hash": "97d064a0c214aed2b8e2d9d6f33ac04728f8bef2f1c07c71b7a9f4392c944bf0",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define substance use disorder as “a disorder related to the use of substances”; it only describes SUD as a “major global health issue” and discusses treatment and a systematic review.",
+        "The claim that SUD “contributes substantially to overall disease burden” is supported by the packet, but the overall definition still includes an unsupported substantive definitional element."
+      ],
+      "definition_hash": "692fec8d3e542a96d445f55484b2bd6e9f7f542bb618e255390185b62ad4a186",
+      "packet_hash": "457834abef40055017ce7458e6818c08726bf9968d98cf298848f1a63f6ce9fa",
+      "published_packet_hash": "457834abef40055017ce7458e6818c08726bf9968d98cf298848f1a63f6ce9fa",
+      "receipt_id": "e576e031a95a473db85959348723acc0",
+      "request_hash": "b41660933d1cc04fce977c9503a369090f60a4dcda5a4af2c8e379b393979f70",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "computed-tomography",
+  "term": "computed tomography",
+  "source": "article-pmc13375010",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0352689",
+  "revision": "2026; DOI 10.1371/journal.pone.0352689; article XML SHA-256 4df6322c4e31d0a0c75ab36d70752321a13bad82429300c876e1cc0ed932e8bd",
+  "source_snapshot_sha256": "4df6322c4e31d0a0c75ab36d70752321a13bad82429300c876e1cc0ed932e8bd",
+  "url": "https://doi.org/10.1371/journal.pone.0352689",
+  "text": "Quantitative computed tomography (QCT) based finite element analysis (FEA) models have been used to accurately predict bone strength. However, the process is time-consuming and requires a trained professional to provide manual input during several steps. The aim of this work is to automate the FEA processes of the computed tomography to strength (CT2S) pipeline applied to the paediatric femur, so that use of the pipeline requires less training, is more user-friendly and can be run for a large cohort. A deployable application was built using Python and Qt to create a repeatable, extensible, automatic, and contained platform called pythonic paediatric computed tomography to strength (PyPeCT2S), with specific attention to the development of automatic landmarking for the paediatric cohort. In this study, the computed tomography (CT) scans of 69 children were included, and FEA models were created using the PyPeCT2S pipeline. The models were subjected to four-point bending for both landmarking methods (automatic versus manual). The FEA critical moment against age results showed comparable values to existing experimental research that utilises equivalent boundary conditions, with values from 0.19–167.94 Nm. The automatic landmarking methodology was shown to produce minimal differences in location and FEA results, compared to manual landmarking, but was substantially faster to operate. The overall pipeline performance showed a mean time reduction of 49–61% and a maximum of 70% against the native pipeline, reducing completion time from 35 to 13 min. Time savings came from both process optimisations and improved user interaction pathways. The work demonstrates that a pythonic approach is a step change to speed up the prediction of FE-based bone strength while still allowing interaction and substantially limiting the chance of human error. Overall, the pythonic approach provides simpler operation and time efficiencies, allowing the tool to be used by clinicians and deployed in the clinical setting in future.",
+  "source_label": "PyPeCT2S: Pythonic paediatric computed tomography to strength with automatic landmarking for the automation of bone strength analysis in children",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2032
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4"
+}

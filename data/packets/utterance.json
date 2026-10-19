@@ -1,0 +1,26 @@
+{
+  "id": "utterance",
+  "term": "utterance",
+  "source": "article-pmc13617078",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1867034",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1867034; article XML SHA-256 bf72e9629b0f0ef84f6da1d5e63db1b7e6cee7546cadc20f381f86b6d33706c6",
+  "source_snapshot_sha256": "bf72e9629b0f0ef84f6da1d5e63db1b7e6cee7546cadc20f381f86b6d33706c6",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1867034",
+  "text": "Multimodal emotion recognition in conversations aims to identify the emotion expressed in each utterance by jointly analyzing textual, acoustic, visual, and contextual information. However, existing methods still face challenges in coordinating intra-modal dependency modeling, cross-modal interaction, and graph-based conversational reasoning. To address these challenges, this paper proposes MTG-ERC, a multimodal conversational emotion recognition framework that integrates transformer-based attention mechanisms with directed relational graph learning. First, textual, acoustic, and visual features are projected into a unified representation space. Intra-modal self-attention and cross-modal attention are then employed to capture modality-specific contextual dependencies and complementary interactions among modalities. Subsequently, a directed multi-relational graph module combines relational graph convolution and Graph Transformer operations to model temporal context, speaker-related interactions, and multimodal dependencies among utterances. Finally, global attention-based representations and local graph-based contextual representations are integrated for utterance-level emotion classification. Experiments on the IEMOCAP and MELD datasets show that MTG-ERC achieves competitive performance compared with the evaluated conversational emotion recognition baselines. Ablation results further indicate that intra-modal attention, cross-modal interaction, and directed relational modeling make complementary contributions to the final performance. The proposed framework also has potential applications in college student mental health research, where its multimodal affective modeling capability could support the analysis of emotional patterns in conversational data.",
+  "source_label": "Multimodal transformer and directed relational graph learning for emotion recognition in conversations with potential applications in college student mental health research",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1782
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "afb52b119d7292c01dcde82dc77d8003becf9e1cc1d08276c5b3b786de41925c"
+}

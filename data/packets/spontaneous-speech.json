@@ -1,0 +1,26 @@
+{
+  "id": "spontaneous-speech",
+  "term": "spontaneous speech",
+  "source": "article-pmc12097628",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0324270",
+  "revision": "2025; DOI 10.1371/journal.pone.0324270; article XML SHA-256 958794ce5f8b6aa1d9a9e1353468ff28fd9447a34b34a411d9f51214ffc57c30",
+  "source_snapshot_sha256": "958794ce5f8b6aa1d9a9e1353468ff28fd9447a34b34a411d9f51214ffc57c30",
+  "url": "https://doi.org/10.1371/journal.pone.0324270",
+  "text": "Impairment in the semantic domain is prominent in Alzheimer’s Disease (AD). We analyzed spontaneous speech in English from 148 people with probable AD (pAD) and 143 controls, and aimed to replicate these findings in a smaller Greek dataset of 28 controls and 26 pAD patients, using different language models comparatively. Static models (fastText) represented non-contextual meaning via encoding words as static vectors, while contextual models (BERT) represented the contextual meanings sensitive to syntactic structure. These models calculated semantic similarity at two levels: local similarity (between adjacent words/tokens) and global similarity (across all word/token pairs). Generative contextual models (Mistral) additionally quantified token probability within context, thereby indicating the unexpectedness in speech progression. Given that contextual meaning is syntactically sensitive, we introduced averaged dependency distance as an indicator for formal syntactic complexity. Moreover, bimodal models were introduced to evaluate how speech reflected picture-based stimuli. Results showed significant increases in global semantic similarity in the pAD group, as measured by both fastText and BERT models, which co-occurred with enlarged picture-speech semantic distance and increased in speech perplexity. Only the fastText-based global semantic similarity, which captured the contraction in conceptual semantic space, correlated with the overall cognitive decline in the AD populations. These findings together indicates that semantic space changes in AD differed across different forms of meanings and thus points to the necessity of distinguishing these forms to raveling the underlying mechanism.",
+  "source_label": "The structure of spontaneous speech changes in Alzheimer’s disease: Crosslingual evidence from English and Greek",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1714
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "16749ee6237e5b21b730cf0aa72b8d40d49612b942be264e3ea576395aab1ab0"
+}

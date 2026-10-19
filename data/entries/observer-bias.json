@@ -1,0 +1,64 @@
+{
+  "id": "observer-bias",
+  "term": "observer bias",
+  "definition": "Observer bias is a distortion in measurement or evaluation that comes from the judgments or expectations of the person observing performance. Using automatically recorded digital measures can help reduce this kind of bias.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12884323"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12884323",
+      "revision": "2026; DOI 10.3389/fpsyg.2025.1540936; article XML SHA-256 bf09c7f83f6c5145da8a99b71a5901275bfc6112ea2310f504780c94039d8565",
+      "scope": "Source record 10.3389/fpsyg.2025.1540936; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2025.1540936"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4d8d09ac99e7b1d67111400c07e8298d81d3fcee7853d34dce6cade477b3c8a4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "25eef045b71e4b6c9411eedec301ecdf",
+    "request_hash": "511db4a805d5f9dacc4d238617643cc0690243b43df8eb163822c478447b846b",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "c4a60ee52d0ce05baad10e0417ae840f8c4d5d3e992528d949042839802f7c01",
+    "packet_hash": "4d8d09ac99e7b1d67111400c07e8298d81d3fcee7853d34dce6cade477b3c8a4"
+  },
+  "hash": "37b0a942f65dd27a9b7eb4b4b57d80dae598645947e3a7cd741ab11bb8db055d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports that digitally obtained metrics may help minimize observer bias; it does not define observer bias as a distortion caused by an observer’s judgments or expectations.",
+        "The definition adds a general explanation of the term that is not supported by the supplied source text.",
+        "The second sentence goes beyond the packet’s wording by claiming automatically recorded digital measures can help reduce the bias; the source only says to integrate digitally obtained metrics to minimize observer bias, without specifying automation or the mechanism."
+      ],
+      "definition_hash": "c4a60ee52d0ce05baad10e0417ae840f8c4d5d3e992528d949042839802f7c01",
+      "packet_hash": "4d8d09ac99e7b1d67111400c07e8298d81d3fcee7853d34dce6cade477b3c8a4",
+      "published_packet_hash": "4d8d09ac99e7b1d67111400c07e8298d81d3fcee7853d34dce6cade477b3c8a4",
+      "receipt_id": "815ab689119341cd886d88af82c7752c",
+      "request_hash": "6d10adcf7e4afdcc53c4b9b8a68f010081d6dc119bbe4fc11ea88e8b464bfb12",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the specific claim that observer bias arises from “judgments or expectations of the person observing performance.” It only mentions “minimize observer bias” in relation to digitally obtained metrics.",
+        "While the packet supports the general idea that digitally obtained measures can help minimize observer bias, it does not explicitly support the rest of the definition’s phrasing or the full description of the distortion mechanism."
+      ],
+      "definition_hash": "c4a60ee52d0ce05baad10e0417ae840f8c4d5d3e992528d949042839802f7c01",
+      "packet_hash": "4d8d09ac99e7b1d67111400c07e8298d81d3fcee7853d34dce6cade477b3c8a4",
+      "published_packet_hash": "4d8d09ac99e7b1d67111400c07e8298d81d3fcee7853d34dce6cade477b3c8a4",
+      "receipt_id": "02842d99b8dd4b389e6a0c5ddcf02958",
+      "request_hash": "e921a52a23472c3b528760ad89a995a06780aae85fcb13a1e0002e4fe9a59ebc",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

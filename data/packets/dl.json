@@ -1,0 +1,26 @@
+{
+  "id": "dl",
+  "term": "DL",
+  "source": "article-pmc13399517",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354386",
+  "revision": "2026; DOI 10.1371/journal.pone.0354386; article XML SHA-256 6daf55f3c88812139aa52648ae5709af2ef02401d6aaf403f8a614e31a238d75",
+  "source_snapshot_sha256": "6daf55f3c88812139aa52648ae5709af2ef02401d6aaf403f8a614e31a238d75",
+  "url": "https://doi.org/10.1371/journal.pone.0354386",
+  "text": "of Equatorial Plasma Bubbles and low-density pockets, leading to signal distortion, time delays, and sometimes, loss of signals in satellites. The Global Positioning System (GPS) becomes inaccurate due to these disturbances since GPS uses information on the positions of user locations. Satellite-based services like the internet and telephony may be affected by the disturbances in the ionosphere caused by a high number of electrons. Prediction of these disturbances makes it possible to plan ways of mitigating against them during future eruptions. Total Electron Content (TEC) data used in this research were mainly obtained from the BAKO station in Indonesia, in addition to other latitudes, in order to prove the universality of the model. The Hybrid Machine Learning and Deep Learning (ML-DL) Model, which is a combination of Light Gradient Boosting Machine (LightGBM) and Long Short-Term Memory networks (LSTM) algorithms, was designed based on a weighted average and applied in forecasting TEC values. Performance of the model was compared with other independent models, i.e., individual LightGBM and LSTM, as well as the conventional Autoregressive (AR) and Multiple Linear Regression (MLR) models. Four evaluation measures were used in evaluating the performance of models. This study aims to assess the performance of the Hybrid ML-DL Model in predicting TEC during ionospheric disturbances caused by volcanic eruptions. TEC prediction was done in six major eruptions, including Mt. Kelud (2014), Mt. Sinabung (2016), Mt. Semeru (2021), Mt. Ruang (2024), Mt. Etna (2013), and Mt. La Soufriere (2021). The Hybrid ML-DL Model consistently performs better than the individual LightGBM and LSTM models and the traditional AR and MLR models in predicting TEC values. For example, during the Mt. Ruang eruption, which was the highest eruption disturbance analyzed with a maximum disturbance of 100–110 TECU between April 16th and May 7th, 2024, the Hybrid ML-DL Model scored an RMSE of 2.841 TECU, which was much lower than RMSE values of LightGBM (3.484 TECU), LSTM (5.084 TECU), MLR (5.345 TECU) and AR Model (6.285 TECU). The Hybrid ML-DL Model showed the least value in three performance evaluation criteria, including NRMSE (0.030), MBD (0.546 TECU), and RLE (0.069) among other models.",
+  "source_label": "Ionospheric TEC anomalies analysis and prediction during six volcanic eruptions using a Hybrid ML-DL model and comparison with the AR/MLR Models",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    370,
+    2667
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "eb39de08e88f20449fec55c8308386f0b79bbc507fdf603b454e55172408a946"
+}

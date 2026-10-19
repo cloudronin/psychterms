@@ -1,0 +1,61 @@
+{
+  "id": "synaptic-transmitter",
+  "term": "synaptic transmitter",
+  "definition": "A synaptic transmitter is a chemical signal used at a synapse to activate communication between cells. In this source, it is something that must be packaged and supplied to support repeated high-frequency synaptic activity.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5927439"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5927439",
+      "revision": "2018; DOI 10.1371/journal.pone.0196508; article XML SHA-256 964c3547f25da5aec9d0ce74c38d2bd3d77922a6c14b6a2959b123c611ff9d49",
+      "scope": "Source record 10.1371/journal.pone.0196508; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0196508"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8027f4d5e250fe198f9ed48b251e58aa0775ce4aa879530011b131d580c23e80",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "23f3b257bca249c1a818158f097a5acf",
+    "request_hash": "94ddf381b73655e8f0acd5debde72e762bafe8b7c4f39303fbe68e90bb77fa69",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "fabe2d75b8621d758dc1395efb160d689b575964b8040d44d318104fff0551a7",
+    "packet_hash": "8027f4d5e250fe198f9ed48b251e58aa0775ce4aa879530011b131d580c23e80"
+  },
+  "hash": "93806f9f6b2d1dc7636c4f1434aedc2ba7d275ed5b3b67d07b734d6b8480ce34",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fabe2d75b8621d758dc1395efb160d689b575964b8040d44d318104fff0551a7",
+      "packet_hash": "8027f4d5e250fe198f9ed48b251e58aa0775ce4aa879530011b131d580c23e80",
+      "published_packet_hash": "8027f4d5e250fe198f9ed48b251e58aa0775ce4aa879530011b131d580c23e80",
+      "receipt_id": "9cb08a42f91f4d958bb84551c659f1b3",
+      "request_hash": "6d34dd8b1f03b1e11205727a702e1cb51cc069c55c2be3e8d644e50734b404c7",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a synaptic transmitter as a general chemical signal that activates communication between cells; it only discusses cholinergic synapses and the energetic cost of packaging synaptic transmitter in the context of high-frequency firing.",
+        "The claim that a synaptic transmitter \"must be packaged and supplied\" to support repeated high-frequency synaptic activity is too strong for the source; the article says packaging of synaptic transmitter may substantially exceed direct electrocyte costs, not that this is a defined requirement of the term itself.",
+        "The definition mixes a broad textbook-style meaning with a narrow, article-specific energetic role, so the requested sense is not cleanly supported by the packet."
+      ],
+      "definition_hash": "fabe2d75b8621d758dc1395efb160d689b575964b8040d44d318104fff0551a7",
+      "packet_hash": "8027f4d5e250fe198f9ed48b251e58aa0775ce4aa879530011b131d580c23e80",
+      "published_packet_hash": "8027f4d5e250fe198f9ed48b251e58aa0775ce4aa879530011b131d580c23e80",
+      "receipt_id": "cf04ff3507724d6585b466c957852104",
+      "request_hash": "dc7e13a89c9540a6f52547232fa73664a60ee54e87d04a6bbece7ad9fd861338",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

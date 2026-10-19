@@ -1,0 +1,60 @@
+{
+  "id": "primary-emotion",
+  "term": "primary emotion",
+  "definition": "A primary emotion is a basic emotional system used to describe broad affective tendencies such as SADNESS, FEAR, SEEKING, and PLAY. In this usage, these core emotions are treated as meaningful predictors of how people may experience states like depression, fear, or social joy.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8822792"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8822792",
+      "revision": "2022; DOI 10.1186/s12888-021-03677-2; article XML SHA-256 59aa52d41278e0d708ab78440b1f39cb2158be8e02fb27bd2a5bc6a39b87bc02",
+      "scope": "Source record 10.1186/s12888-021-03677-2; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-021-03677-2"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ac6d86ae431844448dad0c904382f830",
+    "request_hash": "03c824abe89c68102bc85c6e51c4ceb6181d049ca189be5cb70b12a1ae9dd17a",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "b613bb71648ed8456e5d27bf84af44c9fa372a408aabc9fb38c0c4510616e93d",
+    "packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc"
+  },
+  "hash": "711a8258116e23f1e9e7ac786cd6c83f34607a3ff9f2139d6f9511ac5da83288",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b613bb71648ed8456e5d27bf84af44c9fa372a408aabc9fb38c0c4510616e93d",
+      "packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc",
+      "published_packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc",
+      "receipt_id": "86d41d134c01404da467be4ddca0e812",
+      "request_hash": "3c51ff56fa9261ffa08d8a8ed5eef3728f16610d7b70c5d9899a02cfd652291e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that a primary emotion is “a basic emotional system used to describe broad affective tendencies.” The packet does not provide this explicit general definition phrasing or support for “broad affective tendencies” as such.",
+        "The definition states that these core emotions are “treated as meaningful predictors.” While the packet reports associations/models using SADNESS/FEAR/SEEKING/PLAY to predict depression, fear of COVID-19, and happiness, it does not explicitly support the broader characterization that they are “meaningful predictors” in the definitional sense."
+      ],
+      "definition_hash": "b613bb71648ed8456e5d27bf84af44c9fa372a408aabc9fb38c0c4510616e93d",
+      "packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc",
+      "published_packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc",
+      "receipt_id": "da767a06133e4fd39c87b15185d06e52",
+      "request_hash": "fbd378abe11575e968b9f01deb959af6a06514acd5cc6c580e663e340c1f6a66",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

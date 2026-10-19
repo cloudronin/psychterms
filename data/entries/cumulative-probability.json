@@ -1,0 +1,61 @@
+{
+  "id": "cumulative-probability",
+  "term": "cumulative probability",
+  "definition": "Cumulative probability is the accumulated total of probability across the values in a distribution, often shown as a curve. In this context, it describes how the gray-scale pixel values in an image add up progressively, which can help summarize features of a plaque beyond a single summary point such as the median.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5627908"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5627908",
+      "revision": "2017; DOI 10.1371/journal.pone.0185261; article XML SHA-256 ac49af49184030939e018d8a0f076b95d456ae05a0d18602544af7214d156b89",
+      "scope": "Source record 10.1371/journal.pone.0185261; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0185261"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4150a88fcdbb42b196f4657ff688d5b0",
+    "request_hash": "2222c3f0dd82a6f3cceff9ee96fc97cc106419b77211f9debab7c4adeb26392a",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "2e50c59a7e9e0931b400274d81b632c09d654f45039b13e69f59047a54cd2af4",
+    "packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63"
+  },
+  "hash": "111f8a342f75dd25c44eb0ed22d53af1474cebac49692ca4a48323be63f22745",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2e50c59a7e9e0931b400274d81b632c09d654f45039b13e69f59047a54cd2af4",
+      "packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63",
+      "published_packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63",
+      "receipt_id": "cc49f6fe3659421abec7168ca91767a0",
+      "request_hash": "c7159921656c13711aae82a8fe722ee2228a0a83634c2062bb4151b9f83d8e7b",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general characterization (“accumulated total of probability across the values in a distribution, often shown as a curve”) is not explicitly stated in the packet; the packet only refers to “cumulative probability distribution curves” without defining cumulative probability in general terms.",
+        "The packet does not describe cumulative probability as gray-scale pixel values “add[ing] up progressively”; it only states that the “cumulative probability distribution curves” show trends and that the “area under” those curves may be used for plaque echogenicity.",
+        "While the definition’s claim that this can summarize features beyond a single summary point like the median is partly aligned with the packet’s statement that GSM is the fiftieth percentile and “ignores the details of the probability distribution of plaques,” the support for the specific “cumulative probability” beyond-median framing is indirect (it introduces AUCPDC rather than explicitly contrasting it with median in the way the definition suggests)."
+      ],
+      "definition_hash": "2e50c59a7e9e0931b400274d81b632c09d654f45039b13e69f59047a54cd2af4",
+      "packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63",
+      "published_packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63",
+      "receipt_id": "1e5f8a4692a844f0ae4c9b884d71b9bf",
+      "request_hash": "d1ff2cd21143e01e83aa1a226817a4dcf99b0109260f13c51c3ddffefb6dc782",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

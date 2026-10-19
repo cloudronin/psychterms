@@ -1,0 +1,63 @@
+{
+  "id": "similarity-coefficient",
+  "term": "similarity coefficient",
+  "definition": "A similarity coefficient is a measure of how closely two sets or outlines match each other. In this source, the Dice similarity coefficient is used to quantify the spatial agreement between two tumor volumes defined from different imaging methods.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5017760"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5017760",
+      "revision": "2016; DOI 10.1371/journal.pone.0162816; article XML SHA-256 9f3d5a43e528a9afb865281dd07b48ab4b7db131e259ce155f3d8629d84aec3e",
+      "scope": "Source record 10.1371/journal.pone.0162816; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0162816"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "313a257448fedcbab9c6f8d2071e011f26f2f8ecfe52e4c5ffdfab25bc298589",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "333029d9f5614d4b82680a2bd2cd122e",
+    "request_hash": "7dcae5dadd8ac0018a645649eb8a08f050344ac42884002f82c71aa6c6446598",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "be37858a07ea8446627e8d015cae39e6ed8f51edff54ef6eb5055391be2a451d",
+    "packet_hash": "313a257448fedcbab9c6f8d2071e011f26f2f8ecfe52e4c5ffdfab25bc298589"
+  },
+  "hash": "730106459854e5cb28184f2988ced0aec162a76b6f33ae7dc8b61bd80aa58972",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a general explanation that a similarity coefficient measures how closely two sets or outlines match; the packet only says spatial agreement was determined with the Dice Similarity Coefficient and does not support that broader definition.",
+        "The packet supports the Dice Similarity Coefficient being used to assess spatial agreement between two tumor volumes, but it does not support presenting that as a general definition of “similarity coefficient.”"
+      ],
+      "definition_hash": "be37858a07ea8446627e8d015cae39e6ed8f51edff54ef6eb5055391be2a451d",
+      "packet_hash": "313a257448fedcbab9c6f8d2071e011f26f2f8ecfe52e4c5ffdfab25bc298589",
+      "published_packet_hash": "313a257448fedcbab9c6f8d2071e011f26f2f8ecfe52e4c5ffdfab25bc298589",
+      "receipt_id": "9873f2a6285c4dc8ad7c4b77b18c4e94",
+      "request_hash": "6c904b2124d4169504b50dbfd222bfb264b3ace8dbbde26b2e8831824e253a8e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement (“a similarity coefficient is a measure of how closely two sets or outlines match each other”) is not explicitly supported in the provided packet text.",
+        "The definition asserts that the Dice similarity coefficient “is used to quantify the spatial agreement between two tumor volumes defined from different imaging methods.” While the packet does mention using the “Dice Similarity Coefficient” to determine “spatial agreement” between stGTV and dwGTV derived from different imaging, the specific phrasing about “tumor volumes defined from different imaging methods” is not directly stated verbatim and exceeds what is clearly evidenced by the snippet."
+      ],
+      "definition_hash": "be37858a07ea8446627e8d015cae39e6ed8f51edff54ef6eb5055391be2a451d",
+      "packet_hash": "313a257448fedcbab9c6f8d2071e011f26f2f8ecfe52e4c5ffdfab25bc298589",
+      "published_packet_hash": "313a257448fedcbab9c6f8d2071e011f26f2f8ecfe52e4c5ffdfab25bc298589",
+      "receipt_id": "cbc4b4dcdb994b32b198f69dd478060b",
+      "request_hash": "f78c3eb9f60a822c22370cba501821d81ed903b9ebc1974a23554306f02d55ca",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

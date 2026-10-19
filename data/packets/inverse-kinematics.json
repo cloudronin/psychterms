@@ -1,0 +1,26 @@
+{
+  "id": "inverse-kinematics",
+  "term": "inverse kinematics",
+  "source": "article-pmc13336479",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0353154",
+  "revision": "2026; DOI 10.1371/journal.pone.0353154; article XML SHA-256 3c004a2cb71b9d70bdbdeea0a090d4a0434881578c70ec3453634023a05b0110",
+  "source_snapshot_sha256": "3c004a2cb71b9d70bdbdeea0a090d4a0434881578c70ec3453634023a05b0110",
+  "url": "https://doi.org/10.1371/journal.pone.0353154",
+  "text": "Stewart platforms are widely used in flight simulators, precision machining, and other fields due to their advantages in high precision, high dynamic response, and full six-degree-of-freedom spatial motion. However, the positioning accuracy of traditional rigid Stewart platforms is difficult to further improve due to limitations such as the structure of telescopic rods and insufficient kinematic solution accuracy. To address this technical challenge, this study proposes a flexible Stewart platform and conducts modeling and analysis on its forward and inverse kinematic solutions. First, by introducing piezoelectric ceramics to calculate the displacement loss caused by telescopic rods overcoming the inertia of the moving platform and load, a precise mathematical model for inverse kinematics is established based on geometric analysis and kinematic theory. Second, aiming at the problems of low efficiency and low accuracy in solving forward kinematics using the Newton-Raphson method and traditional BP neural networks, an improved BP neural network method based on the Levenberg-Marquardt (L-M) algorithm is innovatively proposed. By constructing a multi-layer feedforward neural network model and using inverse kinematic formulas to generate training datasets, a nonlinear mapping from rod lengths to platform pose is achieved, effectively avoiding the complexity of traditional calculation processes. Finally, MATLAB simulation results show that regarding inverse kinematics, the calculated displacement range of piezoelectric ceramics covers 27.9 nm to 47.4 nm. In terms of forward kinematics, the relative error of pose prediction using the proposed improved algorithm is controlled within 0.5% across the entire domain, with absolute errors in heatmaps controlled around 0.02 mm. The forward and inverse kinematic solution methods proposed in this paper for high-precision positioning flexible Stewart platforms are significantly superior to traditional methods in terms of friction displacement compensation range and pose prediction accuracy. This work not only provides an innovative solution for high-precision positioning technology but also lays an important theoretical foundation for applications in industrial robotics and precision measurement.",
+  "source_label": "Modeling and analysis of forward and inverse kinematics for a flexible Stewart platform",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2269
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "9ca52fcb76ce6a93df9455fdc12f9dcec6c7a46963d1d3506d54722258194600"
+}

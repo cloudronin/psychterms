@@ -1,0 +1,61 @@
+{
+  "id": "transition-probability",
+  "term": "transition probability",
+  "definition": "Transition probability is the likelihood that one pattern in a sequence will be followed by another pattern, describing how states change over time rather than just how often each pattern appears. In this source, it refers specifically to the probabilities of moving between paired dispersion patterns in an ordered sequence.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13215508"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13215508",
+      "revision": "2026; DOI 10.1371/journal.pone.0348356; article XML SHA-256 accdd3965881e552a893b5cae1d6a702295d1dc2874636ab4783547c465e2775",
+      "scope": "Source record 10.1371/journal.pone.0348356; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348356"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e36835b0659845d9b67ea7c7a5d09c78",
+    "request_hash": "f378aa5178cea3befeef4a2e525ace507f8a0b84a6efa51066a2fba24c98aa2f",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "4823588ae8dde503efd9dfa162de974d5095697d0dfad6d905fbc14b8740c962",
+    "packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e"
+  },
+  "hash": "717fbe9a28413d95cbe80a158593cbfddc17b498eeaaeabc86f1d0804a3c0f34",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4823588ae8dde503efd9dfa162de974d5095697d0dfad6d905fbc14b8740c962",
+      "packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e",
+      "published_packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e",
+      "receipt_id": "4f806b123d0a41fdab10dcf6306bbd35",
+      "request_hash": "50c98aa688de33bb2764ce0265c949454194de8e6877d3ab3b41f15bc5ac21ed",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general explanation (“likelihood… describing how states change over time rather than just how often each pattern appears”) is not explicitly stated in the packet. The packet only contrasts “static dispersion patterns” (probability distribution) with “dynamic transitions” and says they introduce “transition probability between pairwise dispersion patterns,” without defining transition probability as a generic likelihood/state-change concept.",
+        "The definition includes framing as “pattern in a sequence… followed by another pattern” and “states change over time,” which are not directly supported by the packet’s wording.",
+        "While the second sentence about “probabilities of moving between paired dispersion patterns in an ordered sequence” is broadly aligned with the packet’s mention of “transition probability between pairwise dispersion patterns,” the first sentence remains unsupported."
+      ],
+      "definition_hash": "4823588ae8dde503efd9dfa162de974d5095697d0dfad6d905fbc14b8740c962",
+      "packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e",
+      "published_packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e",
+      "receipt_id": "05cb114e10d94bc78e42fcacb8e5fc96",
+      "request_hash": "8ac893c1e2c300357afbf7f54b0d824d349f33fb23d03b6db5655505d4f14907",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

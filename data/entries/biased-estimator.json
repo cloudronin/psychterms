@@ -1,0 +1,64 @@
+{
+  "id": "biased-estimator",
+  "term": "biased estimator",
+  "definition": "A biased estimator is an estimation method that systematically gives shifted results because of the way the problem is formulated or solved. In the source packet, the standard least-mean-square method for estimating self-motion is described as biased because it introduces such a systematic error.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4550262"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4550262",
+      "revision": "2015; DOI 10.1371/journal.pone.0128413; article XML SHA-256 87dc5681185deb8b5e1381a9b9d65bf37eae4336618ded4033ee90f4f8c2ead1",
+      "scope": "Source record 10.1371/journal.pone.0128413; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0128413"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6f6a9c4c18bd4bd78189469bf4875c1b",
+    "request_hash": "a5e57ef0458ac36f9571ccac264d14442f562ed84f6cd6f1562507dabfde58b8",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "648eea80109225836248cb03f80e177b5a31a38a0aa8d86c2bfb4209c3e7554a",
+    "packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3"
+  },
+  "hash": "22aeccfd59787d8ad88683b28e5ae9769adea2bb8d1e7f8103e8ee4142bc4507",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general characterization (“systematically gives shifted results”) is not supported verbatim or equivalently by the packet text; the packet only states that the standard least-mean-square approach “leads to a biased estimator” and discusses bias in the self-motion estimation context, not “shifted results” generally.",
+        "While the packet supports that the standard least mean square approach used by the KvD algorithm leads to a biased estimator and is associated with the presence of bias in estimation, it does not explicitly describe this as a “systematically gives shifted results” mechanism."
+      ],
+      "definition_hash": "648eea80109225836248cb03f80e177b5a31a38a0aa8d86c2bfb4209c3e7554a",
+      "packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3",
+      "published_packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3",
+      "receipt_id": "8d708cdcb4814dfd94ef9563a0481954",
+      "request_hash": "55a155be6827f31028c7ea3e679fd7b90850de82520a8854835f905778fc4397",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only a specific claim that the least-mean-square approach used by the KvD algorithm leads to a biased estimator; it does not define the general term “biased estimator” as an estimation method with systematically shifted results.",
+        "The added explanation that the bias arises “because of the way the problem is formulated or solved” is not stated in the packet and goes beyond the source support.",
+        "The definition mixes a general dictionary sense with a paper-specific example, but the source packet does not support that broader formulation."
+      ],
+      "definition_hash": "648eea80109225836248cb03f80e177b5a31a38a0aa8d86c2bfb4209c3e7554a",
+      "packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3",
+      "published_packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3",
+      "receipt_id": "6283943bf3e84a55a77352fbec976928",
+      "request_hash": "0dbb08a2735f2eb393a6f80ed6204c0d2d4d60661376db03aaeb8cb968031211",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

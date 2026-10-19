@@ -1,25 +1,25 @@
 {
-  "stage": "Eleven recovery drafting/reader waves completed; further source retrieval and drafting continue",
+  "stage": "This recovery pass is complete: no further eligible untried packet remains in the retrieved source set",
   "first_wave_packets": 190,
   "first_wave_fresh_drafts": 165,
   "retrieval_snapshot": {
-    "completed": 13425,
+    "completed": 20413,
     "total": 20413,
     "status_counts": {
-      "admitted": 9640,
-      "unavailable": 2241,
-      "already_defined": 1544
+      "admitted": 13510,
+      "unavailable": 4289,
+      "already_defined": 2614
     },
     "paid_calls": 0
   },
   "preparation_snapshot": {
     "source_recovery": "permitted-publication-passages-v2",
-    "prepared_packets": 2554,
-    "packet_set_hash": "22a6053aa869e11233a218f56d677238f821c0ff6f41e6d977ff0ed040caf060",
-    "individually_licensed_sources_used": 2252,
-    "remaining_terms_with_retrieved_candidates": 5523,
-    "no_eligible_passage": 2969,
-    "existing_entries_untouched": 8812,
+    "prepared_packets": 0,
+    "packet_set_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "individually_licensed_sources_used": 0,
+    "remaining_terms_with_retrieved_candidates": 3703,
+    "no_eligible_passage": 3703,
+    "existing_entries_untouched": 11825,
     "legacy_definition_text_used": false,
     "paid_calls": 0
   },
@@ -34,8 +34,8 @@
     "action": "Withheld privately before publication; extraction now excludes long inline quotations and dictionary-definition attribution paragraphs. All charges retained."
   },
   "first_wave_publishable_entries": 119,
-  "clean_live_entries_after_this_batch": 7612,
-  "live_entries_added_since_reader_baseline": 2891,
+  "clean_live_entries_after_this_batch": 9873,
+  "live_entries_added_since_reader_baseline": 5152,
   "search_snapshot": {
     "terms_queried": 17174,
     "completed_batches": 1718,
@@ -54,52 +54,85 @@
     "4.0"
   ],
   "publication_status_counts": {
-    "judged": 5515,
-    "reviewed": 2097,
-    "dropped": 1200
+    "judged": 6774,
+    "reviewed": 3099,
+    "dropped": 1952
   },
   "extraction_window_fix": "Long excerpts now anchor to the whole-word match span. A regression test covers an earlier embedded-substring collision. The failed preparation made no paid dispatch.",
   "cumulative_budget_snapshot": {
     "candidate-drafts": {
-      "calls_reserved": 11758,
+      "calls_reserved": 16379,
       "cap_usd": 100.0,
-      "receipted_usd": 43.140724,
-      "unresolved_reservations_usd": 1.588949,
+      "receipted_usd": 60.179936,
+      "unresolved_reservations_usd": 2.053511,
       "by_category": {
         "draft": {
-          "calls": 11563,
-          "receipted_usd": 42.489319,
-          "unresolved_reservations_usd": 1.588949
+          "calls": 16159,
+          "receipted_usd": 59.4378,
+          "unresolved_reservations_usd": 2.053511
         },
         "redraft": {
-          "calls": 134,
-          "receipted_usd": 0.412934,
+          "calls": 140,
+          "receipted_usd": 0.434248,
           "unresolved_reservations_usd": 0.0
         },
         "transport_schema_retry": {
-          "calls": 61,
-          "receipted_usd": 0.238471,
+          "calls": 80,
+          "receipted_usd": 0.307888,
           "unresolved_reservations_usd": 0.0
         }
       }
     },
     "reader-reviews": {
-      "calls_reserved": 17499,
+      "calls_reserved": 23548,
       "cap_usd": 25.0,
-      "receipted_usd": 16.403962,
-      "unresolved_reservations_usd": 0.346956,
+      "receipted_usd": 22.623287,
+      "unresolved_reservations_usd": 0.486069,
       "by_category": {
         "reader": {
-          "calls": 17422,
-          "receipted_usd": 16.34382,
-          "unresolved_reservations_usd": 0.346956
+          "calls": 23448,
+          "receipted_usd": 22.534302,
+          "unresolved_reservations_usd": 0.486069
         },
         "reader_transport_retry": {
-          "calls": 77,
-          "receipted_usd": 0.060142,
+          "calls": 100,
+          "receipted_usd": 0.088985,
           "unresolved_reservations_usd": 0.0
         }
       }
     }
-  }
+  },
+  "completed_recovery_waves": 25,
+  "recovery_registered_packet_attempts": 9786,
+  "article_inventory_snapshot": {
+    "candidate_articles": 20413,
+    "admitted": 14191,
+    "not_admitted_or_pending": 6222
+  },
+  "coverage_snapshot": {
+    "audit_labels": 26286,
+    "dispositions": {
+      "judged": 6705,
+      "draft_packet_attempts_declined": 2109,
+      "dropped": 1958,
+      "licensed_article_lead_needs_usable_packet": 2090,
+      "no_usable_packet_yet": 8105,
+      "reviewed": 3096,
+      "article_lead_not_admitted": 965,
+      "prior_match_out_of_scope_needs_alternative": 850,
+      "biography_excluded": 408
+    },
+    "production_status_counts": {
+      "judged": 6774,
+      "reviewed": 3099,
+      "dropped": 1952
+    },
+    "private_rows_exported": false,
+    "legacy_definition_text_used": false,
+    "interpretation": "Label matching only, not semantic equivalence to private definitions. Licensed leads may still lack usable passages; a metadata hit is neither permission nor definition support. Model readers assess fresh definitions only against their permitted source packets."
+  },
+  "sources_finished": true,
+  "drafting_in_progress": false,
+  "reader_dispatch_in_progress": false,
+  "limitations": "This is a completed pass through the registered retrieved sources, not an exhaustive search of the internet. Remaining labels have private per-label dispositions; bibliographic or licensed leads can still lack definition support. Biographies remain excluded. No inherited definition prose or vignettes are used."
 }

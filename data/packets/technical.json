@@ -1,0 +1,26 @@
+{
+  "id": "technical",
+  "term": "technical",
+  "source": "article-pmc13341540",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1854812",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1854812; article XML SHA-256 a188dd81214713acb7afd8c2aecaeadda36527e26835fb2cfbb8b0005d6abfb8",
+  "source_snapshot_sha256": "a188dd81214713acb7afd8c2aecaeadda36527e26835fb2cfbb8b0005d6abfb8",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1854812",
+  "text": "To examine the analytical value of football technical and tactical indicators in post-match outcome analysis, this study used post-match data from 240 matches in the 2024 Chinese Super League (CSL) season and constructed an explainable analytical framework integrating machine learning and SHAP (Shapley Additive Explanations). From the home-team perspective, this study aimed to use model comparison and SHAP-based interpretation to identify the relative contribution magnitude, class-specific contribution direction, and potential nonlinear contribution patterns of technical, tactical, contextual, and player-attribute indicators in the classification of home win, draw, and home loss. Based on indicator attributes and the logic of football match performance, the variables were classified into seven dimensions: player attributes, match context, attacking performance, possession and passing performance, duels and contests, defensive performance, and disciplinary performance. Multiple machine learning models were compared in the three-class match outcome classification task, and XGBoost was used as the base model for subsequent SHAP analysis because of its comparatively balanced validation performance and tree-based interpretability. The global SHAP results showed that xG and Value had the highest model contributions, indicating that chance quality and squad-resource-related information were the primary signals used by the model to distinguish match outcome classes. Yellow_C, Round, Long_B, Throw_ins, Blocked_S, GK_Keep_Save, and Recoveries also ranked highly, suggesting that match outcome classification was informed by multidimensional information related to match context, possession progression, defensive events, goalkeeper involvement, and disciplinary performance. The class-specific SHAP results showed that xG and Value exhibited opposite contribution directions between the home win and home loss classes, whereas SHAP values for the draw class were more concentrated around zero, indicating weaker dominance of individual variables in identifying draw outcomes. The SHAP dependence plots further showed that several variables exhibited potential nonlinear contribution patterns and model-derived transition points in the home win class. Overall, this study provides an explainable post-match analytical framework for identifying how technical, tactical, contextual, and",
+  "source_label": "An explainable machine learning analysis of technical and tactical indicators associated with CSL match outcomes",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2399
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "dea18ebb3ae756140c34e4ca890e858c30c39b58ac92c2577cfd785c8806d428"
+}

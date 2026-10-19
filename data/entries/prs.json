@@ -1,0 +1,60 @@
+{
+  "id": "prs",
+  "term": "PRS",
+  "definition": "PRS stands for polygenic risk score, a measure used to estimate an individual’s risk of developing a disease. In the source, it is described as being used for individual disease risk prediction and examined for links with osteoporosis and low-trauma fractures.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12893606"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12893606",
+      "revision": "2026; DOI 10.1371/journal.pone.0342748; article XML SHA-256 969a4abae8ece7a76c2b93917dae2392ca26ec401b281656ed375b04c29f96fd",
+      "scope": "Source record 10.1371/journal.pone.0342748; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342748"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4af929b1a42c4e6498a578e4845c3ec2",
+    "request_hash": "82b1043fbeeeb33596ec3f840d255a5b4fd3e89ffe40fe4f5f8d3b1475aeb555",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "6390a5e1e7304b82c307f76dd406000666beae9f94caea31aab1461cda39d1ad",
+    "packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c"
+  },
+  "hash": "835f3fe3da3785dda8aa83616526aa3c8971fac612668c44e653f016967e9e8f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6390a5e1e7304b82c307f76dd406000666beae9f94caea31aab1461cda39d1ad",
+      "packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c",
+      "published_packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c",
+      "receipt_id": "d40e5aca0b404e8293aad30af1eac7f6",
+      "request_hash": "1a66e4510436ca375fea801a6351eb3c44267b0180d28287d7b257f58d817f94",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about a polygenic risk score in an HIV cohort and bone outcomes, not a mental-health concept, so the requested field is not defensible from the source.",
+        "The definition presents PRS as a general disease-risk measure; that broader framing is not established as a psychology/counselling term by the packet, which only supports the specific article context."
+      ],
+      "definition_hash": "6390a5e1e7304b82c307f76dd406000666beae9f94caea31aab1461cda39d1ad",
+      "packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c",
+      "published_packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c",
+      "receipt_id": "55fa0b72a54d4a82909a8dde2dd9c6dd",
+      "request_hash": "dda764376a28aa94c294b71d4901dfe8621bf4ea9fe6e59c26a735e159870f44",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

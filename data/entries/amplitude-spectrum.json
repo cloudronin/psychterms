@@ -1,0 +1,63 @@
+{
+  "id": "amplitude-spectrum",
+  "term": "amplitude spectrum",
+  "definition": "Amplitude spectrum is an image property that describes how much energy or contrast is present at different spatial frequencies or orientations. In this context, changes in the amplitude spectrum away from the regular pattern typical of natural scenes were linked to greater visual unpleasantness or discomfort.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7308450"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7308450",
+      "revision": "2020; DOI 10.3389/fpsyg.2020.01342; article XML SHA-256 5f022ea6bff00ac368fed8d6e08af7e484cb5475ebc9fe637d45c0b14ba3386a",
+      "scope": "Source record 10.3389/fpsyg.2020.01342; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2020.01342"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "478a8341c7950fdf7b10259b94bf2ee4dbe23a80175b0de8ed26f0261805873f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9b0d4e82ab0440489f9b6ba166a4e98e",
+    "request_hash": "b2c778d1ee431fce06498f71b3ce6d15350521a776e30f7f2dbf7554bf73dbd7",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "41265567d24203994389a8aaa573a9469d9e6b4686d4941474c33396e08421e8",
+    "packet_hash": "478a8341c7950fdf7b10259b94bf2ee4dbe23a80175b0de8ed26f0261805873f"
+  },
+  "hash": "7e636b569e735b5f85d2ea62a11f445003b2747e14c68dffad262497553a4ebb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a direct definition of “amplitude spectrum” as an image property describing “how much energy or contrast” at “spatial frequencies or orientations”; it only discusses that the amplitude spectrum (and related spatial-frequency/orientation spectra) can deviate from natural-scene regularities and affect unpleasantness ratings.",
+        "The claim that “changes in the amplitude spectrum away from the regular pattern typical of natural scenes were linked to greater visual unpleasantness or discomfort” is supported in the packet, but the definition also contains an unsupported general characterization (energy/contrast at spatial frequencies or orientations)."
+      ],
+      "definition_hash": "41265567d24203994389a8aaa573a9469d9e6b4686d4941474c33396e08421e8",
+      "packet_hash": "478a8341c7950fdf7b10259b94bf2ee4dbe23a80175b0de8ed26f0261805873f",
+      "published_packet_hash": "478a8341c7950fdf7b10259b94bf2ee4dbe23a80175b0de8ed26f0261805873f",
+      "receipt_id": "202d4fac8ecf47e3a888eaf6d0205630",
+      "request_hash": "ab60e16a90c27ac05920549d28b4732911a404f87f47dbc97bd01a4f0676ca35",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports amplitude spectrum as a spatial-frequency property, but not the claim that it describes energy or contrast at different orientations; orientation is treated separately in the source as an orientation spectrum.",
+        "The second sentence is supported in broad terms, but the definition overgeneralizes the first sentence beyond the packet’s wording and scope."
+      ],
+      "definition_hash": "41265567d24203994389a8aaa573a9469d9e6b4686d4941474c33396e08421e8",
+      "packet_hash": "478a8341c7950fdf7b10259b94bf2ee4dbe23a80175b0de8ed26f0261805873f",
+      "published_packet_hash": "478a8341c7950fdf7b10259b94bf2ee4dbe23a80175b0de8ed26f0261805873f",
+      "receipt_id": "1edff489b5a6442ab3ce47fa890a5726",
+      "request_hash": "c933eecebae7f2a111ee128c92a20d3c3e64aed1ca59bf63d76793f8bcaec021",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

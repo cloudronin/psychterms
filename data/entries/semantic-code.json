@@ -1,0 +1,64 @@
+{
+  "id": "semantic-code",
+  "term": "semantic code",
+  "definition": "Semantic code refers to the meaning or underlying logic expressed by a piece of code, rather than its exact written form. In this context, different code fragments can count as semantically similar when they perform the same logic even if their syntax has been changed or obfuscated.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12818651"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12818651",
+      "revision": "2026; DOI 10.1371/journal.pone.0340971; article XML SHA-256 887639bcfae4710a9da033e8c9437d50519e879d6aeba20364d9f1ba49942903",
+      "scope": "Source record 10.1371/journal.pone.0340971; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0340971"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fa2659cda1334969b3795e502e9f036e",
+    "request_hash": "20dec3847765e5a5c260e45a190ff33e5719115eb8171fae30b85bf3ff96fb93",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "b89b52c4becd3692244348182c3bdcb2ba13a4efe70469d571197e92e09ee622",
+    "packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a"
+  },
+  "hash": "b401c43d114ca1228936f86df39f6471a087f81ea385e50f0df165092274304e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define the term “semantic code” as such; it discusses “semantic code clone detection” and code fragments expressing the same logic, but it does not provide a dictionary-like definition of “semantic code.”",
+        "The definition’s phrasing (“meaning or underlying logic expressed by a piece of code”) is only an implicit paraphrase of the packet’s description of logic equivalence, not a directly supported “sense of the term” from the packet.",
+        "“Semantic code” in the packet is framed in the specific context of clone detection using intermediate program representations (Baf/Jimple) and BiLSTM; the definition presents a general-purpose meaning without that linkage, which is not explicitly established by the packet."
+      ],
+      "definition_hash": "b89b52c4becd3692244348182c3bdcb2ba13a4efe70469d571197e92e09ee622",
+      "packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a",
+      "published_packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a",
+      "receipt_id": "c53e98e6592046cf9738f4ab2180442e",
+      "request_hash": "12f1dba40062322921df2f2c40f22687f453b2abd98ee1e06c0ff252217753fb",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a software-engineering sense of \"semantic code\" (code fragments with the same logic despite altered syntax or obfuscation), not a learning/psychology field classification.",
+        "The definition is generally supported, but the requested field is not defensible from the source packet."
+      ],
+      "definition_hash": "b89b52c4becd3692244348182c3bdcb2ba13a4efe70469d571197e92e09ee622",
+      "packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a",
+      "published_packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a",
+      "receipt_id": "216dcf1fc7e24a1ba1831b2aeb7b7fc0",
+      "request_hash": "a7baab927a3f45d827bc20188d6e763ffbfcd37e62bcedbf608760bf96140ff4",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

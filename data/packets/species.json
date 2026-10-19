@@ -1,0 +1,26 @@
+{
+  "id": "species",
+  "term": "species",
+  "source": "article-pmc11318847",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0305708",
+  "revision": "2024; DOI 10.1371/journal.pone.0305708; article XML SHA-256 8f42ce4ade639425fda289a012971f460fe1ceccb329acf2d76683358bb65b0c",
+  "source_snapshot_sha256": "8f42ce4ade639425fda289a012971f460fe1ceccb329acf2d76683358bb65b0c",
+  "url": "https://doi.org/10.1371/journal.pone.0305708",
+  "text": "The classification of bird species is of significant importance in the field of ornithology, as it plays an important role in assessing and monitoring environmental dynamics, including habitat modifications, migratory behaviors, levels of pollution, and disease occurrences. Traditional methods of bird classification, such as visual identification, were time-intensive and required a high level of expertise. However, audio-based bird species classification is a promising approach that can be used to automate bird species identification. This study aims to establish an audio-based bird species classification system for 264 Eastern African bird species employing modified deep transfer learning. In particular, the pre-trained EfficientNet technique was utilized for the investigation. The study adapts the fine-tune model to learn the pertinent patterns from mel spectrogram images specific to this bird species classification task. The fine-tuned EfficientNet model combined with a type of Recurrent Neural Networks (RNNs) namely Gated Recurrent Unit (GRU) and Long short-term memory (LSTM). RNNs are employed to capture the temporal dependencies in audio signals, thereby enhancing bird species classification accuracy. The dataset utilized in this work contains nearly 17,000 bird sound recordings across a diverse range of species. The experiment was conducted with several combinations of EfficientNet and RNNs, and EfficientNet-B7 with GRU surpasses other experimental models with an accuracy of 84.03% and a macro-average precision score of 0.8342.",
+  "source_label": "Deep transfer learning-based bird species classification using mel spectrogram images",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1560
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "372e8c5686c1b0038f0e73e910ee5964c0e7875f60717dcf43b2f8ef1ab0fedb"
+}

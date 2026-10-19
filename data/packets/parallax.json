@@ -1,0 +1,26 @@
+{
+  "id": "parallax",
+  "term": "parallax",
+  "source": "article-pmc13175464",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0348616",
+  "revision": "2026; DOI 10.1371/journal.pone.0348616; article XML SHA-256 0087767b9ef773016bf252fb3f704f99a10045587f7e93c15c3af1cb618ad21d",
+  "source_snapshot_sha256": "0087767b9ef773016bf252fb3f704f99a10045587f7e93c15c3af1cb618ad21d",
+  "url": "https://doi.org/10.1371/journal.pone.0348616",
+  "text": "Image stitching is a critical preprocessing step in unmanned aerial vehicle (UAV)-based remote sensing, however, it remains challenging for conventional methods due to large parallax, high resolution, and scene complexity, which often lead to visible seams or high computational overhead. To address these challenges, an unsupervised, mask-based image stitching approach is proposed in this study. The proposed approach reframes UAV image stitching as a 2D dense prediction and assigns the optimal pixel from source images to every pixel in the overlap. The proposed approach comprises two key components, i.e., Siamese-Residual Mask Network (SRMN) and Accelerated Inference via Scale Decoupling (AISD). The SRMN component leverages a Siamese architecture to extract multi-level features and compute residual discrepancies, guided by loss constraints of spatial consistency, smoothness, and quality-aware to generate seamless binary masks. By exploiting the strong entropy stability of binary masks across scales, the AISD component predicts masks at a low resolution. This allows for the accurate restoration of full-resolution masks for blending without requiring network retraining or structural changes. By decoupling mask prediction from high resolution processing, the proposed approach avoids expensive nonlinear operations while preserving fine details. Experiments on four UAV image datasets show that the proposed approach outperforms state-of-the-art methods. The proposed approach improves PSNR by up to 28.58% and SSIM by up to 56.00%, while reducing processing time by up to 88.9% compared to state-of-the-art methods. These results validate the proposed approach as a robust solution for large-scale UAV image stitching, successfully balancing computational efficiency with visual fidelity.",
+  "source_label": "Unsupervised seamless UAV image stitching via dense prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1805
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40"
+}

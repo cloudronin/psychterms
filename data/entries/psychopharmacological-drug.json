@@ -1,0 +1,61 @@
+{
+  "id": "psychopharmacological-drug",
+  "term": "psychopharmacological drug",
+  "definition": "A psychopharmacological drug is a medication used to treat mental disorders, especially when symptoms are more severe. These drugs are generally effective and usually tolerated, but their side effects can vary by the specific drug and dose.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8966219"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8966219",
+      "revision": "2022; DOI 10.3389/fpsyt.2022.831359; article XML SHA-256 6eb444fad724a12781fb5847f88f16e5f85881d9f861c1494507b476a7c55fd9",
+      "scope": "Source record 10.3389/fpsyt.2022.831359; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2022.831359"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "564383bd6f914273a0a70ff9db6b3f3d",
+    "request_hash": "5c35fb854d348c9eb62e855d8a2f58086f6f862aa95e11e8cd4172b29a262ab5",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "b4e4b2778e7c614a6cc676682388ad585463a3d50c82739a06a40010329aee0e",
+    "packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa"
+  },
+  "hash": "336befad200fc3d81467a4fda9c9bd3f399645a80b09a3c3116fa74d000112df",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible here: a psychopharmacological drug is a medication/drug, not a diagnosis.",
+        "The definition goes beyond the source by generalizing to “mental disorders” in general; the packet only says these drugs are frequently used in more severe cases of patients with mental disorders and in the context of comorbid cardiovascular disease.",
+        "The phrase “usually tolerated” is broader than the packet, which says the drugs are generally well tolerated and efficacious but require consideration of drug- and dose-dependent side effects in this specific clinical context."
+      ],
+      "definition_hash": "b4e4b2778e7c614a6cc676682388ad585463a3d50c82739a06a40010329aee0e",
+      "packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa",
+      "published_packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa",
+      "receipt_id": "966c59b22a244918941d8cc1f12b6c0e",
+      "request_hash": "13178bb6ffca3a38eb670345b742a44d229f9f0b1ba90779397dbdddfdcadfbf",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b4e4b2778e7c614a6cc676682388ad585463a3d50c82739a06a40010329aee0e",
+      "packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa",
+      "published_packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa",
+      "receipt_id": "227905293fdf4e589b1b44208f553c6f",
+      "request_hash": "aab8998699dd725cb418b8e23c9d9b3fc15acc9b6a0115f95deb4e4cc8d8c0f0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

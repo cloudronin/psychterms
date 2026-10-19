@@ -1,0 +1,65 @@
+{
+  "id": "side-effect",
+  "term": "side effect",
+  "definition": "A side effect is an additional effect of a medication besides its hoped-for symptom relief. In this source, clozapine is described as having a potentially dangerous side effect that needs regular blood-test monitoring.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "nimh-page-910d7cb28fff2e6d"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "nimh-page-910d7cb28fff2e6d",
+      "revision": "HTML publication snapshot 2026-10-18; SHA-256 43270b4941f013ac9885be92f3b32f1ed64375ff1fb44d589f3cc1975e5a59a1",
+      "scope": "Source record https://www.nimh.nih.gov/health/publications/schizophrenia; pinned source text",
+      "locator": "https://www.nimh.nih.gov/health/publications/schizophrenia"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2443c9d872f470269d2cbfb68fa0ec82c6eada1152551586d69b571e24e456fa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d32228426c0f4eccb9a54e81a964f3cf",
+    "request_hash": "b272ce0c5ffa15b7c4a97b6bf43de0d9a3f6cb1288dbb227d9cc756f0770b12f",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "2da0ee9fea78e131f6eac989caa4f212db529f721b981dc206cbf53d41c7ad3d",
+    "packet_hash": "2443c9d872f470269d2cbfb68fa0ec82c6eada1152551586d69b571e24e456fa"
+  },
+  "hash": "0342f35246d7d66fc1790d5fa304afb1ece3b59351fe9f45aa0401d29469f60f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible here: “side effect” is a medication/treatment term, not a diagnosis term.",
+        "The first sentence gives a general definition of side effect that is not stated in the source packet; the packet only mentions a clozapine side effect requiring blood-test monitoring.",
+        "The definition mixes a general dictionary sense with a source-specific example, which is more than the packet supports."
+      ],
+      "definition_hash": "2da0ee9fea78e131f6eac989caa4f212db529f721b981dc206cbf53d41c7ad3d",
+      "packet_hash": "2443c9d872f470269d2cbfb68fa0ec82c6eada1152551586d69b571e24e456fa",
+      "published_packet_hash": "2443c9d872f470269d2cbfb68fa0ec82c6eada1152551586d69b571e24e456fa",
+      "receipt_id": "f7419ffd24e54d9a8404ee0768c8ca17",
+      "request_hash": "c0bee85b1da119ebe78aabd4f0299e76d322bb4decccaf6263fbe9057816c712",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “side effect” as “an additional effect…besides its hoped-for symptom relief”; it only describes a “potentially dangerous side effect” of clozapine that requires regular blood tests.",
+        "The definition’s framing about “symptom relief” is not supported by the provided packet text.",
+        "The claim that the packet “describes clozapine as having a potentially dangerous side effect that needs regular blood-test monitoring” is supported, but the overall term definition contains unsupported generalization beyond what is in the packet."
+      ],
+      "definition_hash": "2da0ee9fea78e131f6eac989caa4f212db529f721b981dc206cbf53d41c7ad3d",
+      "packet_hash": "2443c9d872f470269d2cbfb68fa0ec82c6eada1152551586d69b571e24e456fa",
+      "published_packet_hash": "2443c9d872f470269d2cbfb68fa0ec82c6eada1152551586d69b571e24e456fa",
+      "receipt_id": "5804a455e92b43aa8e82407036991d4d",
+      "request_hash": "c1c708e3712d04bd8a84f015a895abe3b3f548ac2605715f5dd368376f7db1d3",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

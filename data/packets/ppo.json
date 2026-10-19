@@ -1,0 +1,26 @@
+{
+  "id": "ppo",
+  "term": "PPO",
+  "source": "article-pmc13475878",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354894",
+  "revision": "2026; DOI 10.1371/journal.pone.0354894; article XML SHA-256 c8b122f11dba320ceef0983de3c654e7ee315b4ce22d9cdaf68555def7802c49",
+  "source_snapshot_sha256": "c8b122f11dba320ceef0983de3c654e7ee315b4ce22d9cdaf68555def7802c49",
+  "url": "https://doi.org/10.1371/journal.pone.0354894",
+  "text": "Existing deceptive alignment detection schemes generally follow a three-step strategy: auto-labeling, supervised fine-tuning (SFT), and proximal policy optimization (PPO). In which, the detection is treated as a simple binary classification and rely on heavyweight teacher models for Chain-of-Thought (CoT) annotation, limiting discrimination of nuanced deceptive strategies and creating an oracle dependency that prevents autonomous operation. This paper introduces contrastive representation learning , rather than learning a hard decision boundary (BCE loss), our lightweight monitor (0.1% parameters) projects CoT hidden states into a structured semantic space where deceptive and safe reasoning form separable manifolds. Through Triplet Loss optimization, the monitor captures gradual deceptive transitions, from surface hedging to fundamental objective substitution, that elude binary classifiers. Evaluation on Sycophancy subset of DeceptionBench confirms that contrastive learning outperforms BCE classification by 2.33pp Deception Tendency Rate (DTR, lower better, 39.29% vs. 36.96%). This establishes a geometric foundation for self-supervised deception detection, transforming CoT transparency from vulnerability into forensic evidence.",
+  "source_label": "Contrastive representation learning for self-supervised deception detection in edge LLMs",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1247
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada"
+}

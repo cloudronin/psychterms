@@ -1,0 +1,26 @@
+{
+  "id": "aggressiveness",
+  "term": "aggressiveness",
+  "source": "article-pmc13552954",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0356727",
+  "revision": "2026; DOI 10.1371/journal.pone.0356727; article XML SHA-256 7014b450d56a63dcc8c38c6fc25276c7c8e9051c27c034f6dac9c6bcfe2ba03d",
+  "source_snapshot_sha256": "7014b450d56a63dcc8c38c6fc25276c7c8e9051c27c034f6dac9c6bcfe2ba03d",
+  "url": "https://doi.org/10.1371/journal.pone.0356727",
+  "text": "Accurate risk stratification is essential for guiding treatment decisions and preventing over treatment of prostate cancer, which remains one of the most prevalent cancers among adult men. While the Gleason score, obtained from prostate biopsies, is routinely used to assess tumor aggressiveness, the biopsy procedure carries risks such as pain, infection, and, in some cases, serious complications such as sepsis. In this study, we proposed an artificial intelligence-based framework that integrates mRNA expression profiles with functional interaction networks to classify prostate cancer patients into low-, medium-, and high-risk groups defined by Gleason scores. The pipeline comprised five steps: (1) data collection from The Cancer Genome Atlas (TCGA), (2) preprocessing of gene expression data, (3) two-stage feature selection to identify informative biomarkers, (4) risk classification using a dual-branch graph neural network (GNN) that combines gene-gene interaction graphs with sample-level expression features, and (5) model interpretation using SHAP to quantify feature contributions. Differentially expressed genes were identified in the High (ASPN, GMNN, PEBP4, C2, KNCK17), Medium (C2, IGSF1, ASPN, CDKN3, AMH), and Low (TNMD, VWA5B2, ST6GALNAC5, CYP3A5, PHGR1) risk groups, underscoring the molecular heterogeneity of disease progression. On an independent held-out test set, the model achieved AUCs of 0.86, 0.88, and 0.95 for the low-, medium-, and high-risk groups, respectively, with an overall accuracy of 80%. These results suggest that combining GNN-based modeling with explainable AI can capture both global and local molecular patterns relevant to tumor aggressiveness. However, as the model was developed and evaluated solely on the TCGA cohort, the findings should be regarded as exploratory, and external validation will be required to establish generalizability. Within these limitations, the proposed framework highlights the potential of molecular profiling and graph-based deep learning to support more precise, potentially less invasive, risk assessment and individualized treatment planning in prostate cancer.",
+  "source_label": "Graph neural network-based risk stratification of prostate cancer using gene expression and SHAP interpretability",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2146
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 4
+  },
+  "packet_hash": "adc6f7a4784a0fd705452691614f855273d6e0e8638bac0f768b6b94df5cdea5"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "spectrogram",
+  "term": "spectrogram",
+  "source": "article-pmc12948112",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0343293",
+  "revision": "2026; DOI 10.1371/journal.pone.0343293; article XML SHA-256 ad631e7614f2e49edf6e470669646dbdeb2a57a1138fb12e76a8824ed23734f6",
+  "source_snapshot_sha256": "ad631e7614f2e49edf6e470669646dbdeb2a57a1138fb12e76a8824ed23734f6",
+  "url": "https://doi.org/10.1371/journal.pone.0343293",
+  "text": "In this paper, we aim to learn discriminative and robust binary descriptors for the spectrograms of ECG heartbeats to enhance the representation power of local features. Our motivations are two-fold. First, the spectrogram, as a temporal and frequency domain representation of ECG signals, has demonstrated remarkable performance in various ECG signal tasks, including ECG stress classification [ 12 ], ECG heartbeat classification [ 13 ] and ECG biometric authentication [ 14 ]. This inspires us to explore the time-frequency information from ECG signal for ECG biometric authentication. The spectrogram is generated from an ECG heartbeat based on the idea of dividing the ECG heartbeat into segments and then employing the fast fourier transform (FFT) to each segment. It can better capture the spectral information in ECG heartbeat at different temporal intervals. Several existing studies [ 11 – 15 ] have transformed the ECG signal into spectrogram images and achieved high performance. Second, local feature learning methods have yielded impressive results in numerous vision tasks, such as face recognition [ 16 ], finger vein recognition [ 17 ], palmprint recognition [ 18 ] and few-shot image classification [ 19 , 20 ]. These works motivate us to design a novel local feature learning method for ECG spectrogram images.",
+  "source_label": "Discriminant spectrogram local descriptors for electrocardiography biometric authentication",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    3756,
+    5085
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "b80e3f862678b36fc90121644c54bceafbae2577d05ce4509af500b0f1ed2521"
+}

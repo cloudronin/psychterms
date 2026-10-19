@@ -1,0 +1,64 @@
+{
+  "id": "sampling-unit",
+  "term": "sampling unit",
+  "definition": "A sampling unit is the item or area that a study treats as one whole for data collection or analysis. In the source, each small pond was handled as a single sampling unit.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5417703"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5417703",
+      "revision": "2017; DOI 10.1371/journal.pone.0177317; article XML SHA-256 11c0fe32f7e9cce2652fe33258c01e99da3b07579451313f3ef636b1734109a1",
+      "scope": "Source record 10.1371/journal.pone.0177317; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0177317"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dedaab4bedba5f6db0206b37f754838a8f0fcc95901ea17c7b2ccaf95fb6df13",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "551160b77e0d41f6b0163cddbba7a2f5",
+    "request_hash": "c8f055cc16c04e00657d70da5551c9327de8f39f357f827ce854e83d3f6f8203",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "9190915482477a34be24b542e343e29db1e9558c2a3f5f87bf08d1fc0514a4e9",
+    "packet_hash": "dedaab4bedba5f6db0206b37f754838a8f0fcc95901ea17c7b2ccaf95fb6df13"
+  },
+  "hash": "6b9c321d821a82a83e49b739d59289cad7c952326951a86bdd612ee4fb184e4d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an ecological/statistical sense of “sampling unit” (ponds treated as a single sampling unit), not a mental-health usage, so the field/sense is mismatched.",
+        "The source example is about whole ponds being treated as one sampling unit; the definition’s broader wording (“item or area” in general) is not directly established by the packet."
+      ],
+      "definition_hash": "9190915482477a34be24b542e343e29db1e9558c2a3f5f87bf08d1fc0514a4e9",
+      "packet_hash": "dedaab4bedba5f6db0206b37f754838a8f0fcc95901ea17c7b2ccaf95fb6df13",
+      "published_packet_hash": "dedaab4bedba5f6db0206b37f754838a8f0fcc95901ea17c7b2ccaf95fb6df13",
+      "receipt_id": "a442593022234192830f883bd52ef2b1",
+      "request_hash": "fd50a185ac7364171d30c657ca47212293c5e5c2c1b87a35c1f60d9916063650",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general definition (“the item or area that a study treats as one whole…”) that is not stated in the packet; the packet only provides an example that ponds were “treated as a single sampling unit,” without explicitly defining sampling unit in general terms.",
+        "The provided example in the second sentence (“each small pond…”) is supported by the packet (“ponds are usually treated as a single sampling unit”), but the overall definition is not sufficiently supported because the general wording is not present in the source.",
+        "The packet content is ecological (pond microhabitats, microalgae, zooplankton), not mental-health research; the definition is therefore not defensibly grounded in the requested field based on the supplied source."
+      ],
+      "definition_hash": "9190915482477a34be24b542e343e29db1e9558c2a3f5f87bf08d1fc0514a4e9",
+      "packet_hash": "dedaab4bedba5f6db0206b37f754838a8f0fcc95901ea17c7b2ccaf95fb6df13",
+      "published_packet_hash": "dedaab4bedba5f6db0206b37f754838a8f0fcc95901ea17c7b2ccaf95fb6df13",
+      "receipt_id": "f86cfd0e3bfe4d6abd746b44a86954a2",
+      "request_hash": "c0b5613232f3f1b464a2dd144909b52d878e11cb8cd4f82a2031bfc965c2a774",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

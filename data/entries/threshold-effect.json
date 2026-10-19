@@ -1,0 +1,61 @@
+{
+  "id": "threshold-effect",
+  "term": "threshold effect",
+  "definition": "A threshold effect is a pattern in assessment where a measure becomes especially informative once it reaches a particular level, so that point has practical meaning for estimating risk or outcome. In this sense, the measure’s link to prognosis is not simply gradual across all values but shows an important change around a threshold.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12944745"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12944745",
+      "revision": "2026; DOI 10.1371/journal.pone.0342994; article XML SHA-256 ff577150c7d8347e52352e1bd4872ae6e785d3a13509450b77c589d8784803df",
+      "scope": "Source record 10.1371/journal.pone.0342994; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342994"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "61f7f72b79e941dbbcf079309bccd9f2",
+    "request_hash": "d5a3e73da5181dd89c5ebdea5090b88f65c8509aca438219347529e6c0bcdce2",
+    "registration_hash": "d90473afe9f6da85c2e842a0ef5fe242ddd2442b30a5362b262a2410c5373f53",
+    "definition_hash": "6242a2f07d0a9ca2e8a9db21e675fac31d6ed6c93b0a358b3f2fc95da06354a5",
+    "packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c"
+  },
+  "hash": "99c4f6235ddab0c8b4317a90fe6720f9836afe710b792c56259d219727ced508",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6242a2f07d0a9ca2e8a9db21e675fac31d6ed6c93b0a358b3f2fc95da06354a5",
+      "packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c",
+      "published_packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c",
+      "receipt_id": "beb9bee14a63408491f4ee206e025c0c",
+      "request_hash": "4595ebfd29992cb6a61f56c456f88257d1f76165e59d92e4b4776a9fa02db1ed",
+      "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only provides context that a specific biomarker (Ln_LHR) shows a “clinically meaningful threshold effect” on 28-day mortality in sepsis, and does not support a general definition of “threshold effect” as a pattern in “assessment” across measures.",
+        "The definition’s claim that the prognosis link is “not simply gradual across all values” is not stated or evidenced in the packet.",
+        "The packet does not support the wording about “practical meaning for estimating risk or outcome” as a general feature of the term; it only describes prognostic use in a sepsis mortality setting."
+      ],
+      "definition_hash": "6242a2f07d0a9ca2e8a9db21e675fac31d6ed6c93b0a358b3f2fc95da06354a5",
+      "packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c",
+      "published_packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c",
+      "receipt_id": "de7984e0adb24e2f9c93e6575903f098",
+      "request_hash": "f4ff26a361c4076b2e36337868527105fc940197db75c0ae26ac3aad493104e6",
+      "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
+    }
+  ]
+}

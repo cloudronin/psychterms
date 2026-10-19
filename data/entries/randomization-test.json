@@ -1,0 +1,59 @@
+{
+  "id": "randomization-test",
+  "term": "randomization test",
+  "definition": "A randomization test is a statistical method that builds a reference distribution by calculating the study result across all possible random arrangements allowed by the design. The observed result is then compared with that distribution to estimate a p-value, without relying on standard distributional assumptions such as symmetry or normality.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7004358"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7004358",
+      "revision": "2020; DOI 10.1371/journal.pone.0228355; article XML SHA-256 1e2abf1d3023ca7ed1ab71fb48bc37d1b87945eef9e1c6fbd1404b76649ff552",
+      "scope": "Source record 10.1371/journal.pone.0228355; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0228355"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "74be6e8bc11461de28e8673a174178fab13a21b2df5f98dab83b1b3c3feb99ac",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dfd1863b53084223bdb73f03bff64e92",
+    "request_hash": "5a7b1bbd418cfd28f5f0b1fc1786ec3e49f9b58ad552dab8e07d696b89c6f9e6",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "02021b1de846e93cf5100a7f43b9df810dbb6bc690852a527314a6be70247026",
+    "packet_hash": "74be6e8bc11461de28e8673a174178fab13a21b2df5f98dab83b1b3c3feb99ac"
+  },
+  "hash": "14d00f86300db05d8cb23d930c8d9554d6f21e5cf34a4827843e7d5e367936f6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "02021b1de846e93cf5100a7f43b9df810dbb6bc690852a527314a6be70247026",
+      "packet_hash": "74be6e8bc11461de28e8673a174178fab13a21b2df5f98dab83b1b3c3feb99ac",
+      "published_packet_hash": "74be6e8bc11461de28e8673a174178fab13a21b2df5f98dab83b1b3c3feb99ac",
+      "receipt_id": "a39a122c752b4adc8bc26376c878471d",
+      "request_hash": "be55b5afb17ed831d7786148db89633784947866ff1215a9448ecb90a610f255",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the test avoids relying on distributional assumptions “such as symmetry or normality,” but the packet explicitly mentions no distributional assumptions and that the distribution “is not likely to be symmetric”; it does not mention or support “normality."
+      ],
+      "definition_hash": "02021b1de846e93cf5100a7f43b9df810dbb6bc690852a527314a6be70247026",
+      "packet_hash": "74be6e8bc11461de28e8673a174178fab13a21b2df5f98dab83b1b3c3feb99ac",
+      "published_packet_hash": "74be6e8bc11461de28e8673a174178fab13a21b2df5f98dab83b1b3c3feb99ac",
+      "receipt_id": "bbd27445162b4f94832b8efb3c6a046d",
+      "request_hash": "b5c86e9c5611276d68d5456552a7d8479027dbd092f31f9b10ff1ebdfc89fdcd",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "terminal-event",
+  "term": "terminal event",
+  "definition": "A terminal event is an outcome or development that marks the likely end stage of an illness or treatment course. In this source, multiple drug resistant cancer is described as a predictable and often terminal event in cancer therapy.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5718420"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5718420",
+      "revision": "2017; DOI 10.1371/journal.pone.0187191; article XML SHA-256 8458d5c0027be1323a2e5817ddc15ef399ec0df1214f1cdd89a0b35e9baf5f44",
+      "scope": "Source record 10.1371/journal.pone.0187191; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0187191"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b403c4826f438d730aadf3cb470447e7d5050cf83fa32e1c0729aa3ad478bab9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "533d6cb9b36f44e18c8e784e0e14eb66",
+    "request_hash": "a37247e1298ba115506a8650511d6a70a13e87763265eea61e646f2d07521920",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "ea004f4afed5a70083ec4807d02a601ba3daf3c84f41a7021ceb3b5d5c901b60",
+    "packet_hash": "b403c4826f438d730aadf3cb470447e7d5050cf83fa32e1c0729aa3ad478bab9"
+  },
+  "hash": "116af14bc609d2b60d5caefbfba0cf4e751dca06f94f255383b7799154fa40b8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“marks the likely end stage of an illness or treatment course”) is a general definition that is not supported or stated in the provided packet text.",
+        "The packet discusses “multiple drug resistant (MDR) malignancy” being “predictable and often terminal” in cancer therapy, but it does not provide a general, standalone meaning of “terminal event” beyond that cancer context.",
+        "The definition’s field is listed as mental health, while the packet content is oncology/pharmacology research; the packet does not link “terminal event” to mental-health usage."
+      ],
+      "definition_hash": "ea004f4afed5a70083ec4807d02a601ba3daf3c84f41a7021ceb3b5d5c901b60",
+      "packet_hash": "b403c4826f438d730aadf3cb470447e7d5050cf83fa32e1c0729aa3ad478bab9",
+      "published_packet_hash": "b403c4826f438d730aadf3cb470447e7d5050cf83fa32e1c0729aa3ad478bab9",
+      "receipt_id": "3d34026011204b96bd6a49eb0197c63c",
+      "request_hash": "aa6329b1f3c9cce732384de60693a609e16cd8e2771cfb8d1e5168cd5751dc48",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports the phrase in a cancer-therapy context; it does not establish a general dictionary sense of \"terminal event\" as an outcome or development marking the likely end stage of an illness or treatment course.",
+        "The field is set to mental health, but the supporting source is an oncology article about treatment-resistant breast cancer, so the requested field is not defensible from the packet.",
+        "The definition adds broad generalizations not directly supported by the source packet, which only says multiple drug resistant malignancy is a predictable and often terminal event in cancer therapy."
+      ],
+      "definition_hash": "ea004f4afed5a70083ec4807d02a601ba3daf3c84f41a7021ceb3b5d5c901b60",
+      "packet_hash": "b403c4826f438d730aadf3cb470447e7d5050cf83fa32e1c0729aa3ad478bab9",
+      "published_packet_hash": "b403c4826f438d730aadf3cb470447e7d5050cf83fa32e1c0729aa3ad478bab9",
+      "receipt_id": "f4c9103ec6194013b87de7969a5424cb",
+      "request_hash": "4dbdb44cea415875200819602cf4c0a79679e8505f0aaa4b74e2ada3edacc2ba",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

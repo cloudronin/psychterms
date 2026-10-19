@@ -1,0 +1,60 @@
+{
+  "id": "achromatic",
+  "term": "achromatic",
+  "definition": "Achromatic refers to flicker in a visual test field that changes only in brightness, with equal increases and decreases over time around an average level. In this context, it describes luminance modulation without added color change.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7990305"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7990305",
+      "revision": "2021; DOI 10.1371/journal.pone.0248180; article XML SHA-256 d41c1a2653df73f33169b18f0835731144e8ba059cb90e81adae92e64cdeba99",
+      "scope": "Source record 10.1371/journal.pone.0248180; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0248180"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a67fdf45f43d4d5d87157e90eae78a5a",
+    "request_hash": "fc5d5ffa04e8ac363b0ff7ca1f5e91cc388efe3c1b0d0602d79fde52aafe0f38",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "5c9a82f124c886fd41a58172959ba9eed6bc892ff535230fcf5854f581051661",
+    "packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2"
+  },
+  "hash": "f435e7589aef721ec50956eb55575824715c190e15a8fa348231c75f3f0a216b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5c9a82f124c886fd41a58172959ba9eed6bc892ff535230fcf5854f581051661",
+      "packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2",
+      "published_packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2",
+      "receipt_id": "ea93ce918469440197bfd3085e6d15b4",
+      "request_hash": "55215d9ab20f9892b8ae3e1c7a5454e13f3e6015e589c04181da71c8ed2fb148",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “achromatic” refers to mean-modulated flicker with luminance increments and decrements of equal magnitude applied over time.",
+        "The definition adds that the flicker “changes only in brightness” and “describes luminance modulation without added color change,” but the provided packet does not explicitly state anything about absence of color change or “brightness only.”"
+      ],
+      "definition_hash": "5c9a82f124c886fd41a58172959ba9eed6bc892ff535230fcf5854f581051661",
+      "packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2",
+      "published_packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2",
+      "receipt_id": "4cc6d8182cba4a918afe4679cae9232c",
+      "request_hash": "a13d0051cdc942d59ff8c542c7f30370d5590f82b059388277e588c7a929210a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

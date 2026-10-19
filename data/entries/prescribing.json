@@ -1,0 +1,64 @@
+{
+  "id": "prescribing",
+  "term": "prescribing",
+  "definition": "Prescribing is the clinical act of choosing and ordering medicines for a patient. In this context, it is highlighted as a medication-related process that can become inappropriate when factors such as drug–drug interaction risk increase the chance of harm.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13585254"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13585254",
+      "revision": "2026; DOI 10.1371/journal.pone.0356883; article XML SHA-256 9708b47449d0e996eb4aebc1f2d7be5a9e723d717c5fb5a59e007c6391bb78d6",
+      "scope": "Source record 10.1371/journal.pone.0356883; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0356883"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "90c70533b0bc3d16d69ef6a70b36a6794650281215958ac46f58983ead58d2ac",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d1f2807cd3ba44fca6112b4e67e9dcd6",
+    "request_hash": "502ad38ab36ee8973ca51ad5d290537a0de3ad5757ee618917bc6812d986c089",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "63471136219029a1d2c8118b8ae86db98f3898e857c5649daf2a55f9438f8ef0",
+    "packet_hash": "90c70533b0bc3d16d69ef6a70b36a6794650281215958ac46f58983ead58d2ac"
+  },
+  "hash": "0fd5ecb8e55ade5cfff36e0f7a3add7fbc99358a14566f665aabd311c7301489",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet discusses inappropriate prescribing as a medication-related error, but it does not define “prescribing” as the clinical act of choosing and ordering medicines for a patient.",
+        "The added claim that prescribing “can become inappropriate when factors such as drug–drug interaction risk increase the chance of harm” is only supported for inappropriate prescribing in general, not as a definition of the term itself.",
+        "The requested field is cognition, but the source text frames the topic in medication safety and medical error research rather than a cognition sense of the term."
+      ],
+      "definition_hash": "63471136219029a1d2c8118b8ae86db98f3898e857c5649daf2a55f9438f8ef0",
+      "packet_hash": "90c70533b0bc3d16d69ef6a70b36a6794650281215958ac46f58983ead58d2ac",
+      "published_packet_hash": "90c70533b0bc3d16d69ef6a70b36a6794650281215958ac46f58983ead58d2ac",
+      "receipt_id": "aab26cd4c0a64c16870382cfb4d7b6f2",
+      "request_hash": "6dbf438d1f3c653aa5c7de2f60e42d64cf9d99fc8a938cb795d3af8248495658",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “prescribing” as “the clinical act of choosing and ordering medicines for a patient,” so that substantive definitional claim is unsupported.",
+        "While the packet supports that “inappropriate prescribing” is associated with drug–drug interaction (DDI) risk and adverse drug events, it does not support the full two-sentence formulation as a complete definition."
+      ],
+      "definition_hash": "63471136219029a1d2c8118b8ae86db98f3898e857c5649daf2a55f9438f8ef0",
+      "packet_hash": "90c70533b0bc3d16d69ef6a70b36a6794650281215958ac46f58983ead58d2ac",
+      "published_packet_hash": "90c70533b0bc3d16d69ef6a70b36a6794650281215958ac46f58983ead58d2ac",
+      "receipt_id": "da0442d010614c1aa295a3de49dda843",
+      "request_hash": "e6e4e907e741088d374a5b628174daddb64decf4165fbac77602cf6f6152aede",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

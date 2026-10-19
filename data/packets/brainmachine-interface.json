@@ -1,0 +1,26 @@
+{
+  "id": "brainmachine-interface",
+  "term": "brain–machine interface",
+  "source": "article-pmc3907465",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0087253",
+  "revision": "2014; DOI 10.1371/journal.pone.0087253; article XML SHA-256 1ee76ea79efe1e5892726f9b39c38abc6dedeca79111fe3811c7cb7b006bfc69",
+  "source_snapshot_sha256": "1ee76ea79efe1e5892726f9b39c38abc6dedeca79111fe3811c7cb7b006bfc69",
+  "url": "https://doi.org/10.1371/journal.pone.0087253",
+  "text": "Brain-machine interface (BMI) systems give users direct neural control of robotic, communication, or functional electrical stimulation systems. As BMI systems begin transitioning from laboratory settings into activities of daily living, an important goal is to develop neural decoding algorithms that can be calibrated with a minimal burden on the user, provide stable control for long periods of time, and can be responsive to fluctuations in the decoder’s neural input space (e.g. neurons appearing or being lost amongst electrode recordings). These are significant challenges for static neural decoding algorithms that assume stationary input/output relationships. Here we use an actor-critic reinforcement learning architecture to provide an adaptive BMI controller that can successfully adapt to dramatic neural reorganizations, can maintain its performance over long time periods, and which does not require the user to produce specific kinetic or kinematic activities to calibrate the BMI. Two marmoset monkeys used the Reinforcement Learning BMI (RLBMI) to successfully control a robotic arm during a two-target reaching task. The RLBMI was initialized using random initial conditions, and it quickly learned to control the robot from brain states using only a binary evaluative feedback regarding whether previously chosen robot actions were good or bad. The RLBMI was able to maintain control over the system throughout sessions spanning multiple weeks. Furthermore, the RLBMI was able to quickly adapt and maintain control of the robot despite dramatic perturbations to the neural inputs, including a series of tests in which the neuron input space was deliberately halved or doubled.",
+  "source_label": "Using Reinforcement Learning to Provide Stable Brain-Machine Interface Control Despite Neural Input Reorganization",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1695
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "article-requested-concept:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "e2a7becb82abd9c323064771992f306d993c24170acb6a218327101755c23136"
+}

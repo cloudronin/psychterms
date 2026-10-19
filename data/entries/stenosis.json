@@ -1,0 +1,61 @@
+{
+  "id": "stenosis",
+  "term": "stenosis",
+  "definition": "Stenosis is a narrowing of a blood vessel; in this packet, it refers to narrowing in an intracranial artery such as the middle cerebral artery. The packet indicates that greater narrowing can alter blood flow, pressure, and shear forces, but that its effects depend on both the vessel’s geometry and the blood’s viscosity.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13218500"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13218500",
+      "revision": "2026; DOI 10.1371/journal.pone.0342713; article XML SHA-256 308e040fdbb9ec9e4923e1fe368478dd5778d63dae8e7a289d60f3116a39bd34",
+      "scope": "Source record 10.1371/journal.pone.0342713; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0342713"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "430afc2ae3a0ded07c81e8d404c0b8470e4a3147bb1c8a036f8fd3fd7ce84029",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "54e16575d0e84b129425c215de7074f1",
+    "request_hash": "33a73abc42f255565ef3ad5b5d59cf4ec3cd85c9e1c1b2618d181624e67ea6f5",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "d4974ea67022c6bed9115947f08e0b5e9aa484908ee358ecec58b54a709e6cf1",
+    "packet_hash": "430afc2ae3a0ded07c81e8d404c0b8470e4a3147bb1c8a036f8fd3fd7ce84029"
+  },
+  "hash": "6a209a308bf07ba10af73b8d130d70227acae868e54f5cbd645fdb052c8248ef",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d4974ea67022c6bed9115947f08e0b5e9aa484908ee358ecec58b54a709e6cf1",
+      "packet_hash": "430afc2ae3a0ded07c81e8d404c0b8470e4a3147bb1c8a036f8fd3fd7ce84029",
+      "published_packet_hash": "430afc2ae3a0ded07c81e8d404c0b8470e4a3147bb1c8a036f8fd3fd7ce84029",
+      "receipt_id": "5022b583462c43cf80ae19f583d347e6",
+      "request_hash": "c0131bc24afb25376b371f0c633ddcc7253a3be747dc2485d91f8e31e46cbd3e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible for this term: stenosis is a medical/anatomical term, not a learning-related psychology/counselling term.",
+        "The definition states a broad general meaning (“a narrowing of a blood vessel”) that is not directly defined in the packet; the packet only supports intracranial atherosclerotic stenosis and a middle cerebral artery stenosis model.",
+        "The claim about effects depending on vessel geometry and blood viscosity is close to the packet’s findings, but the packet supports this as a study result in a specific CFD model, not as a general definitional statement."
+      ],
+      "definition_hash": "d4974ea67022c6bed9115947f08e0b5e9aa484908ee358ecec58b54a709e6cf1",
+      "packet_hash": "430afc2ae3a0ded07c81e8d404c0b8470e4a3147bb1c8a036f8fd3fd7ce84029",
+      "published_packet_hash": "430afc2ae3a0ded07c81e8d404c0b8470e4a3147bb1c8a036f8fd3fd7ce84029",
+      "receipt_id": "159b4f61f92346998d7011154600d66a",
+      "request_hash": "f0c331257fae7e655c07408707d078ac21fbe1f81f9646c516dbe8ce648e5e76",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

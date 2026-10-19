@@ -1,0 +1,26 @@
+{
+  "id": "overdispersion",
+  "term": "overdispersion",
+  "source": "article-pmc11253971",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0300565",
+  "revision": "2024; DOI 10.1371/journal.pone.0300565; article XML SHA-256 f9cb3c54de5af53788e73071f1d0ebd01bd987fbbadd6b6d36107a6e6805da21",
+  "source_snapshot_sha256": "f9cb3c54de5af53788e73071f1d0ebd01bd987fbbadd6b6d36107a6e6805da21",
+  "url": "https://doi.org/10.1371/journal.pone.0300565",
+  "text": "The mRNA-seq data analysis is a powerful technology for inferring information from biological systems of interest. Specifically, the sequenced RNA fragments are aligned with genomic reference sequences, and we count the number of sequence fragments corresponding to each gene for each condition. A gene is identified as differentially expressed (DE) if the difference in its count numbers between conditions is statistically significant. Several statistical analysis methods have been developed to detect DE genes based on RNA-seq data. However, the existing methods could suffer decreasing power to identify DE genes arising from overdispersion and limited sample size, where overdispersion refers to the empirical phenomenon that the variance of read counts is larger than the mean of read counts. We propose a new differential expression analysis procedure: heterogeneous overdispersion genes testing (DEHOGT) based on heterogeneous overdispersion modeling and a post-hoc inference procedure. DEHOGT integrates sample information from all conditions and provides a more flexible and adaptive overdispersion modeling for the RNA-seq read count. DEHOGT adopts a gene-wise estimation scheme to enhance the detection power of differentially expressed genes when the number of replicates is limited as long as the number of conditions is large. DEHOGT is tested on the synthetic RNA-seq read count data and outperforms two popular existing methods, DESeq2 and EdgeR, in detecting DE genes. We apply the proposed method to a test dataset using RNAseq data from microglial cells. DEHOGT tends to detect more differently expressed genes potentially related to microglial cells under different stress hormones treatments.",
+  "source_label": "Differentially expressed heterogeneous overdispersion genes testing for count data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1715
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "mental health",
+  "scope_decision": {
+    "eligible": true,
+    "field": "mental health",
+    "rule": "psychology-context:mental health",
+    "policy_version": 4
+  },
+  "packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7"
+}

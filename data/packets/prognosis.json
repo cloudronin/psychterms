@@ -1,0 +1,26 @@
+{
+  "id": "prognosis",
+  "term": "prognosis",
+  "source": "article-pmc13148697",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344600",
+  "revision": "2026; DOI 10.1371/journal.pone.0344600; article XML SHA-256 bb594c338eceacd7ed232a685de9b0a44f3a9288d889037c5f5f4d5259a2668c",
+  "source_snapshot_sha256": "bb594c338eceacd7ed232a685de9b0a44f3a9288d889037c5f5f4d5259a2668c",
+  "url": "https://doi.org/10.1371/journal.pone.0344600",
+  "text": "Accurate disease prognosis is essential for patient care but is often hindered by the scarcity of longitudinal data. This study explores deep learning training strategies that utilize large, accessible diagnostic datasets to pretrain models aimed at predicting future disease progression in knee osteoarthritis (OA), Alzheimer’s disease (AD), and breast cancer (BC). While diagnostic pretraining improves prognostic task performance, naive fine-tuning for prognosis can cause ‘catastrophic forgetting,’ where the model’s original diagnostic accuracy degrades, a significant patient safety concern in real-world settings. To address this, we propose a sequential learning strategy with experience replay. We used cohorts with knee radiographs, brain MRIs, and digital mammograms to predict 4-year structural worsening in OA, 2-year cognitive decline in AD, and 5-year cancer diagnosis in BC. Our results showed that diagnostic pretraining on larger datasets improved prognosis model performance compared to standard baselines, boosting both the Area Under the Receiver Operating Characteristic curve (AUROC) (e.g., Knee OA external: 0.770 vs 0.747; Breast Cancer: 0.874 vs 0.848) and the Area Under the Precision-Recall Curve (AUPRC) (e.g., Alzheimer’s Disease: 0.752 vs 0.683). Additionally, a sequential learning approach with experience replay achieved prognostic performance comparable to dedicated single-task models (e.g., Breast Cancer AUROC 0.876 vs 0.874) while also preserving diagnostic ability. This method maintained high diagnostic accuracy (e.g., Breast Cancer Balanced Accuracy 50.4% vs 50.9% for a dedicated diagnostic model), unlike simpler multitask methods prone to catastrophic forgetting (e.g., 37.7%). Our findings show that leveraging large diagnostic datasets is a reliable and data-efficient way to enhance prognostic models while maintaining essential diagnostic skills.",
+  "source_label": "Robust disease prognosis via diagnostic knowledge preservation: A sequential learning approach",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1896
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "eca66fed5b04a726cb5109f08e3017bba90c3bcd1d0abf356b681eaac1c1c120"
+}

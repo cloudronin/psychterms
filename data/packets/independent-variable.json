@@ -1,0 +1,26 @@
+{
+  "id": "independent-variable",
+  "term": "independent variable",
+  "source": "article-pmc13552720",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0357663",
+  "revision": "2026; DOI 10.1371/journal.pone.0357663; article XML SHA-256 ea38296e625801025f47fe6b46a5033036fce678a7d421892c401f043fef6ebf",
+  "source_snapshot_sha256": "ea38296e625801025f47fe6b46a5033036fce678a7d421892c401f043fef6ebf",
+  "url": "https://doi.org/10.1371/journal.pone.0357663",
+  "text": "Interaction effects in ANOVA provide crucial insights into how the effect of one independent variable depends on the level of another. However, interpreting these interactions, especially three-way interactions, remains a challenge. Firstly, visualisation techniques typically rely on multiple separate two-dimensional plots conditioned on the levels of a third factor; as the number of levels of the third factor increases, so does the number of plots, complicating interpretation. Secondly, routinely applying uncorrected post-hoc pairwise comparisons oversimplifies interaction effects and, by ignoring the multiplicity of tests, inflates Type I error rates, potentially leading to misleading conclusions. Advanced methods, such as partial dependence plots and interaction decomposition models, have partially addressed these limitations; however, they typically require substantial statistical or computational expertise, which limits their accessibility. To address these challenges, this manuscript introduces EXCITE (Enhanced eXploration of Complex Interactions in ANOVA using Trees), an interactive web application developed using the Shiny package within the R statistical environment. EXCITE integrates traditional two- and three-way ANOVA models with decision tree-based visualisations. Decision trees detect interaction patterns via recursive data partitioning and present conditional subgroup relationships through an interpretable tree structure. The advantages of EXCITE include presenting two- and three-way interactions intuitively, enhancing accessibility, and facilitating accurate interpretation of complex statistical interactions. This integration provides researchers and educators across various scientific disciplines with a user-friendly tool for interpreting and visualising ANOVA interactions. We illustrate the capabilities of EXCITE using both simulated examples and a real dataset to demonstrate its practical applicability. The web application is freely available online, requiring no installation or coding expertise, at https://zq9mvv-vub0square.shinyapps.io/EXCITE-research-tool/ .",
+  "source_label": "Integrating decision trees with ANOVA for enhanced interaction visualisations",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2116
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "0c0ed28f155da2a1cad363d93ca598f34f95687067989b69bbefb5bc0bd7dc53"
+}

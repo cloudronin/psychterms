@@ -1,0 +1,63 @@
+{
+  "id": "pressure-gradient",
+  "term": "pressure gradient",
+  "definition": "In this packet, pressure gradient refers to the hepatic venous pressure gradient, a liver-related measure used as an indirect indicator of how severe disease is and how outcomes may progress. The source discusses its prognostic value across different causes of advanced chronic liver disease.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11882044"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11882044",
+      "revision": "2025; DOI 10.1371/journal.pone.0317287; article XML SHA-256 13725c3b136db4d3c8824f769ea79d1e87f11e060801f82189d53ff7d4155023",
+      "scope": "Source record 10.1371/journal.pone.0317287; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0317287"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3fd0ca23267a4c259372021210a75138437966208846ff144247df6d0671e069",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3a98abe35ae2440089510d99bfd4ebca",
+    "request_hash": "6831db0e906ca7d6513ec06f688737cf7b3416b20309eae6d90715500ba001d5",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "98c5a418a523ec2455e232580437819202ed576de947efbfe4ce645ec462ed2f",
+    "packet_hash": "3fd0ca23267a4c259372021210a75138437966208846ff144247df6d0671e069"
+  },
+  "hash": "26f96340c513eb677507f51f492761236d5fdd7af3292d6ac06e081e87f96b39",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is a hepatology article about hepatic venous pressure gradient (HVPG), so the requested field of mental health is not defensible here.",
+        "The definition narrows the term to HVPG, which is supported by the packet, but the entry as a mental-health glossary item is out of scope for the source."
+      ],
+      "definition_hash": "98c5a418a523ec2455e232580437819202ed576de947efbfe4ce645ec462ed2f",
+      "packet_hash": "3fd0ca23267a4c259372021210a75138437966208846ff144247df6d0671e069",
+      "published_packet_hash": "3fd0ca23267a4c259372021210a75138437966208846ff144247df6d0671e069",
+      "receipt_id": "fbba0e070fcb45798e49832b3a021957",
+      "request_hash": "40d97ccc0f9dc975cda3f3f512c8e6d991a044f94ef82ef76bbcde70fbfaaa8c",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet discusses hepatic venous pressure gradient (HVPG) in advanced chronic liver disease, but it does not provide any connection to the requested field of mental health (psychology/counselling context).",
+        "Because the definition is framed for a mental health field, the absence of any mental-health relevance in the supplied packet makes the field placement unsupported."
+      ],
+      "definition_hash": "98c5a418a523ec2455e232580437819202ed576de947efbfe4ce645ec462ed2f",
+      "packet_hash": "3fd0ca23267a4c259372021210a75138437966208846ff144247df6d0671e069",
+      "published_packet_hash": "3fd0ca23267a4c259372021210a75138437966208846ff144247df6d0671e069",
+      "receipt_id": "46219ddd12fe499db8eddf27a396c41b",
+      "request_hash": "56f25645d585800773d5b140f5d1e5f8e1f5e805bedfde0e5f4da9ff41d946a0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

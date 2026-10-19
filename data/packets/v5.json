@@ -1,0 +1,26 @@
+{
+  "id": "v5",
+  "term": "V5",
+  "source": "article-pmc12818691",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0340832",
+  "revision": "2026; DOI 10.1371/journal.pone.0340832; article XML SHA-256 16d74e088f2645f55f85b2f8852ea4e3b89170b925761085ed3d6aaa704cd905",
+  "source_snapshot_sha256": "16d74e088f2645f55f85b2f8852ea4e3b89170b925761085ed3d6aaa704cd905",
+  "url": "https://doi.org/10.1371/journal.pone.0340832",
+  "text": "This study aimed to develop and evaluate a deep learning algorithm for detecting and classifying intrasinus calcifications on paranasal sinus (PNS) computed tomography (CT) for the diagnosis of fungal sinusitis and differentiation of fungal and non-fungal sinusitis. A dataset of 277 PNS CT cases from Korea University Guro Hospital, supplemented by temporal and geographic external test sets, was utilized. A 3D U-Net model was employed to segment maxillary sinus regions. YOLO v5 identified calcifications, followed by classification into three patterns: normal sinus or chronic sinusitis without calcifications, dense peripheral dystrophic calcification, and central punctate fungal calcification. A separate convolutional neural network (CNN) refined the classification to ensure accurate categorization of calcification patterns. The 3D U-Net model achieved a Dice Similarity Coefficient of 0.9674, indicating accurate segmentation. YOLO v5 demonstrated precision of 79.50% and recall of 92.14% in detecting calcifications. The CNN classification model attained F1 scores of 94.73%, 90.60%, and 94.01%, and overall accuracies of 97.48%, 86.87%, and 94.01% for internal, temporal, and geographic test sets, respectively. This study demonstrated the capability of deep learning algorithms to accurately detect and classify fungal sinusitis-related calcifications on PNS CT scans. The developed framework achieved high accuracy in segmentation of sinus area and detection/classification of intrasinus calcifications. The framework also demonstrated its potential for broader application to radiographic imaging.",
+  "source_label": "Deep learning detection and classification of fungal and non-fungal calcifications on paranasal sinus CT imaging",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1613
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9231c5585b3a316c0a24a0739096a0a0a2d064e392addc152913547ea87fefb9"
+}

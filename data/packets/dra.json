@@ -1,0 +1,26 @@
+{
+  "id": "dra",
+  "term": "DRA",
+  "source": "article-pmc13396011",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnhum.2026.1859515",
+  "revision": "2026; DOI 10.3389/fnhum.2026.1859515; article XML SHA-256 ad7b17e34549740c560ee2bb3c183cbf7c2102d2c472c40c1358526511243470",
+  "source_snapshot_sha256": "ad7b17e34549740c560ee2bb3c183cbf7c2102d2c472c40c1358526511243470",
+  "url": "https://doi.org/10.3389/fnhum.2026.1859515",
+  "text": "Parkinson’s disease (PD) is a progressive neurological disorder characterized by motor symptoms, with treatment responses varying widely across patients. To address the growing need for individualized treatment strategies, this paper introduces a practical framework for constructing optimal individualized treatment strategies using weighted support vector machines (SVMs). We construct an optimal rule as a function of patients’ clinical profiles and demographics using two methods: Outcome-Weighted Learning (OWL), which assumes no unmeasured confounders, and Instrumental Variable Outcome-Weighted Learning (IV-OWL), which accounts for potential unmeasured confounders. To illustrate the application of these methods, we use harmonized and curated clinical data from the NET-PD LS1 and PRECEPT/POSTCEPT studies to estimate the optimal second-line therapy decision rule for supplementing levodopa with either monoamine oxidase B (MAO-B) inhibitors or dopamine receptor agonists (DRA) based on patient characteristics. As an illustrative application, we analyzed two cohorts of patients who initiated second-line therapy within 90 and 180 days of baseline, with sample sizes of 84 and 121, respectively. Although the estimated improvements were not statistically significant, likely due in part to the small sample sizes, the learned IV-OWL rule showed improvement in annualized UPDRS III change compared with the observed treatment strategy and other static treatment strategies. This case study demonstrates the feasibility of applying weighted support vector machines to individualized second-line therapy selection in PD and illustrates the potential value of instrumental variable-based methods in addressing unmeasured confounders.",
+  "source_label": "An application of weighted support vector machines to individualized second-line therapy selection after levodopa in Parkinson’s disease",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1739
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490"
+}

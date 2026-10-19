@@ -1,0 +1,61 @@
+{
+  "id": "parasite",
+  "term": "parasite",
+  "definition": "A parasite is an organism that lives in a parasitic relationship with a host and can affect the host’s survival or other outcomes. In the source, parasites are described as widespread in nature, with how common they are and how much impact they have changing with environmental conditions.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12629492"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12629492",
+      "revision": "2025; DOI 10.1371/journal.pone.0335145; article XML SHA-256 2ed1a5bebb53abdf0ce912c87c7e2658eb2353b18eb36396242f7b55e0ad6d53",
+      "scope": "Source record 10.1371/journal.pone.0335145; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335145"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "27a9b0f0597a4bb1b48911ccfe2689f5",
+    "request_hash": "f4cc565cf931278af792a4743ccf41ff1bc5566c93f68ebe3b4b6ba49fb31c4e",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "4f32dc9236fff777f3501811fbd7b3b6d07490bb199d90772061a9f25c32c049",
+    "packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade"
+  },
+  "hash": "a36c9f002af357552acd478b1feb52f50cc0a1fafaaf1bc211997a66b203eb1c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4f32dc9236fff777f3501811fbd7b3b6d07490bb199d90772061a9f25c32c049",
+      "packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade",
+      "published_packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade",
+      "receipt_id": "964d78bf9ab046148c76caf1a71ef84e",
+      "request_hash": "4aecd2677c09d707bd4f7ee677ea0cd5ac343f5972296b1d9e0df6e8f5b27ce5",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is an ecology/parasitology article, not a mental health source, so the requested field is not well supported by the source context.",
+        "The first sentence adds a general dictionary definition (“an organism that lives in a parasitic relationship with a host” and can affect host survival/outcomes) that is not directly defined in the packet.",
+        "The source supports that parasites are common throughout the biosphere and that prevalence/impacts vary with environmental conditions, but it does not support the broader claim that parasites “can affect the host’s survival or other outcomes” as a general definition."
+      ],
+      "definition_hash": "4f32dc9236fff777f3501811fbd7b3b6d07490bb199d90772061a9f25c32c049",
+      "packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade",
+      "published_packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade",
+      "receipt_id": "339d845b2b1f45989493d4d9d5caaea5",
+      "request_hash": "794cfb7d076ce7456a5c7d195500b28c7e45674bb395831581c3d8e653c475ab",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

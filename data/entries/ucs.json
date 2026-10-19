@@ -1,0 +1,64 @@
+{
+  "id": "ucs",
+  "term": "UCS",
+  "definition": "UCS stands for uniaxial compressive strength, a measure of how much one-directional compressive force a material such as sandstone can withstand before failing. In the source, it is treated as a mechanical property that can be predicted from features such as density, porosity, Schmidt hammer rebound, and point load index.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13178931"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13178931",
+      "revision": "2026; DOI 10.1371/journal.pone.0335703; article XML SHA-256 7bcee610e65864c8b2291a3e8c27a5ebfa0205e24212d39146e9feba8e730c65",
+      "scope": "Source record 10.1371/journal.pone.0335703; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335703"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d15e3a56ad67f9c97b7d6fff1f8328318b620f97e8be985ebe5b966d88acd33f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "eedadb8222b74ddab2f2e0fb3c59284a",
+    "request_hash": "433807216ccb86bdc971fcf5213113314b281fdffce15fcc561b8e084d00a314",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "9b778d80b14cbb9da5bc24249b04b5ebea86dc5869e42b23c137756c1e855795",
+    "packet_hash": "d15e3a56ad67f9c97b7d6fff1f8328318b620f97e8be985ebe5b966d88acd33f"
+  },
+  "hash": "5051bcd2e4e2e8578c9027aef942a03e1908e1e353087668ab158ae807f02a0c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports UCS as uniaxial compressive strength in a sandstone mechanics/geotechnical context, not a cognition/psychology sense.",
+        "The definition adds an unsupported explanatory detail (“before failing”) that is not stated in the packet.",
+        "The packet supports prediction from dry unit weight, porosity, Schmidt hammer rebound, and point load index, but the broader phrasing about what UCS “is treated as” goes beyond the source’s wording."
+      ],
+      "definition_hash": "9b778d80b14cbb9da5bc24249b04b5ebea86dc5869e42b23c137756c1e855795",
+      "packet_hash": "d15e3a56ad67f9c97b7d6fff1f8328318b620f97e8be985ebe5b966d88acd33f",
+      "published_packet_hash": "d15e3a56ad67f9c97b7d6fff1f8328318b620f97e8be985ebe5b966d88acd33f",
+      "receipt_id": "fdafaab4e4ea4963a37744b2153caec1",
+      "request_hash": "68ec91bc3da8285622b1ace529ad1657e49564fe9737cfa0fa53168ce3b7d284",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims UCS is predicted from “density,” but the packet describes predictive relationships using physical properties including dry unit weight and porosity (not “density” as such).",
+        "The definition’s phrase “before failing” (i.e., failure criterion) is not explicitly stated in the packet text, which focuses on UCS as a measured mechanical property and on correlations/predictive modeling rather than describing failure timing/criterion."
+      ],
+      "definition_hash": "9b778d80b14cbb9da5bc24249b04b5ebea86dc5869e42b23c137756c1e855795",
+      "packet_hash": "d15e3a56ad67f9c97b7d6fff1f8328318b620f97e8be985ebe5b966d88acd33f",
+      "published_packet_hash": "d15e3a56ad67f9c97b7d6fff1f8328318b620f97e8be985ebe5b966d88acd33f",
+      "receipt_id": "e354dc85eb6c422d9b18812ba1194907",
+      "request_hash": "3dc32943850f71acd2c088fd6779f053ba9b91403b065272cfa76bdc16de0eb7",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

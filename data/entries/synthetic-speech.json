@@ -1,0 +1,63 @@
+{
+  "id": "synthetic-speech",
+  "term": "synthetic speech",
+  "definition": "Synthetic speech is speech that is artificially generated rather than naturally spoken. In learning and perception research, it is used to create controlled speech sounds in which features such as voice onset time or formant onset frequency can be systematically varied.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5451017"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5451017",
+      "revision": "2017; DOI 10.1371/journal.pone.0177676; article XML SHA-256 814ca3a8e5be4838590a23eca8c43e16461b96c19b4218ef57d84aab6557b6cc",
+      "scope": "Source record 10.1371/journal.pone.0177676; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0177676"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2a19d819cb48d677b7336f9a5a364b972fa481d03ad25b1b3cd237554730476c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "eb954e6a9fb2499cbdf5ebc3444e0bfa",
+    "request_hash": "56248d95cbd270e36d6ab65535543cba5909a6f9f673790188809304fc46080d",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "43354f14e3335cbaaf2ed9395bcb063792eb9d2fd3cbd905d05a41eba7f79181",
+    "packet_hash": "2a19d819cb48d677b7336f9a5a364b972fa481d03ad25b1b3cd237554730476c"
+  },
+  "hash": "84f5a1858447e9d9d36edf4b808188c16dedd973f7d32bb94592b6a87040e6e0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide support for the general definitional claim that synthetic speech is “speech that is artificially generated rather than naturally spoken.”",
+        "The packet supports the controlled-variation aspect (e.g., varying voice onset time and first formant onset frequency), but it does not explicitly support the framing that this is how synthetic speech is used “in learning and perception research” (the packet only shows a specific study using synthetic speech in that context)."
+      ],
+      "definition_hash": "43354f14e3335cbaaf2ed9395bcb063792eb9d2fd3cbd905d05a41eba7f79181",
+      "packet_hash": "2a19d819cb48d677b7336f9a5a364b972fa481d03ad25b1b3cd237554730476c",
+      "published_packet_hash": "2a19d819cb48d677b7336f9a5a364b972fa481d03ad25b1b3cd237554730476c",
+      "receipt_id": "42f9857ee4994fec88928bc5f67ac53b",
+      "request_hash": "fd57a91cb09e7c5259711af0b7c2ee8f0d6eabb227feb46d36684506907a85c9",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet shows the term being used for experimentally generated speech sounds, but it does not explicitly support the general definition that synthetic speech is speech “artificially generated rather than naturally spoken.”",
+        "The second sentence is broadly consistent with the study’s use of synthetic speech, but the first sentence overstates the packet by turning a usage example into a dictionary-level definition."
+      ],
+      "definition_hash": "43354f14e3335cbaaf2ed9395bcb063792eb9d2fd3cbd905d05a41eba7f79181",
+      "packet_hash": "2a19d819cb48d677b7336f9a5a364b972fa481d03ad25b1b3cd237554730476c",
+      "published_packet_hash": "2a19d819cb48d677b7336f9a5a364b972fa481d03ad25b1b3cd237554730476c",
+      "receipt_id": "426bd4b9c2dc4e30902f3e50cbe77ed8",
+      "request_hash": "d25556e113a2dd0f7795f421afb57cd7fe5bc2b7e00341f7e62824e028d2aa40",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

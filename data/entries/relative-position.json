@@ -1,0 +1,60 @@
+{
+  "id": "relative-position",
+  "term": "relative position",
+  "definition": "Relative position refers to where one input element is located in relation to others in a sequence. In this source, encoding that information is used to help a model better capture token order and improve prediction.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11218980"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11218980",
+      "revision": "2024; DOI 10.1371/journal.pone.0298102; article XML SHA-256 61448cfcf600aa0f36cdab631a86ae5ea54b0cb6a11c06cdfbac1c09e480396e",
+      "scope": "Source record 10.1371/journal.pone.0298102; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0298102"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c2cda165570e438984231402fe9f8904",
+    "request_hash": "d4b2a2d2e80c174660170a9cff273f3eabda2d29104d8cc18e7b0f0dfc57f23b",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "92b09f04652cf58faf5a15792e31dc26dd95725fac178244f8b35120f48425b0",
+    "packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052"
+  },
+  "hash": "e68f25e3f37bb6f951649e3d50ff23010ec533dd41933019515e59a7da37f82e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "92b09f04652cf58faf5a15792e31dc26dd95725fac178244f8b35120f48425b0",
+      "packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052",
+      "published_packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052",
+      "receipt_id": "a36c2730b15949eaad4c5a7535fbf849",
+      "request_hash": "8dff5b7d633339db904330130b3acc2ab82ae8b48c0fc6e43c512a44258de44a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“where one input element is located in relation to others in a sequence”) is not supported by the provided packet text, which only mentions “relative position encoding” without defining “relative position.”",
+        "The definition claims “In this source, encoding that information is used to help a model better capture token order and improve prediction,” which is only partially supported: the packet says relative position encoding addresses a limitation in capturing input token sequences and improves predictive capabilities, but it does not clearly establish the general concept of “relative position” as the location of an element relative to others."
+      ],
+      "definition_hash": "92b09f04652cf58faf5a15792e31dc26dd95725fac178244f8b35120f48425b0",
+      "packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052",
+      "published_packet_hash": "ff9a879eb741aa2cc54a23da7b388b123da172411368b70612f95a496dc1e052",
+      "receipt_id": "5a97595904454690ac5f31718b6cf77f",
+      "request_hash": "b75327024a174d24d48e08fbacb5535cd9df29298615971d88dabc593a985717",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

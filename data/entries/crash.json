@@ -1,0 +1,60 @@
+{
+  "id": "crash",
+  "term": "crash",
+  "definition": "In this packet, a crash is a harmful traffic event on a freeway that prediction models try to estimate in real time from vehicle movements and conflict patterns. It is treated as the outcome risk that can develop as interactions between vehicles intensify, including longitudinal or lateral conflicts near diverging areas.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13128118"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13128118",
+      "revision": "2026; DOI 10.1371/journal.pone.0344623; article XML SHA-256 2a9347b979bf07d46b7a4512bb0f267bdd5297ba678157d350f2303ef2889870",
+      "scope": "Source record 10.1371/journal.pone.0344623; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0344623"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f726b084930c464e9469fad55771d57f",
+    "request_hash": "13981426a34d0543160f05cdb9534d24f3bac535971be7809d0774e4c0329dd6",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "c41dcff060167aa3b9328d3a0c32fa843d9e5094a28edc8634e0c5a564f9e601",
+    "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147"
+  },
+  "hash": "f18de779e914e3fb9013603ec8611da0ae19e0582656e52536be38faac15af80",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source is a traffic-safety article about real-time crash prediction at freeway diverging areas, so the requested field \"cognition\" is not supported by the packet.",
+        "The definition narrows \"crash\" to a freeway traffic event and prediction-model outcome; that sense is supported by the packet, but the field label makes the entry mismatched to the source context."
+      ],
+      "definition_hash": "c41dcff060167aa3b9328d3a0c32fa843d9e5094a28edc8634e0c5a564f9e601",
+      "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147",
+      "published_packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147",
+      "receipt_id": "5e201c533a41487699af017ec803ce5b",
+      "request_hash": "ab3d744a4b32309811ee1606d2c00ed11f3e192ae086e1617f9dd09f9b920670",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c41dcff060167aa3b9328d3a0c32fa843d9e5094a28edc8634e0c5a564f9e601",
+      "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147",
+      "published_packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147",
+      "receipt_id": "3a94ef31cab04a2b855934e18cd5f2d0",
+      "request_hash": "97b7fe86ed269fe0012b854b53a1521387afd408e318cfda79688051a3b5b246",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

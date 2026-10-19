@@ -1,0 +1,61 @@
+{
+  "id": "reference-population",
+  "term": "reference population",
+  "definition": "A reference population is a comparison group used in a study to judge how outcomes in a target group differ from those in a broader or matched population. In this context, it refers to people compared with the patient group when examining survival and related factors.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4626047"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4626047",
+      "revision": "2015; DOI 10.1371/journal.pone.0141598; article XML SHA-256 61a4cf1a72f8c7381f3d8d82ac17d072fdcf36697c4196203b605f130f850e72",
+      "scope": "Source record 10.1371/journal.pone.0141598; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0141598"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6442413b55aa01a3c63de26836af1248f124c4f614a1ceb033f73b6d50371c94",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "74e5a9bbb6954a6893e615c416faa2c3",
+    "request_hash": "b9c36dba37bec03d8f1710f8b87dd077df361d5bfa694e1848d7542c121cf02e",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "a3b02e5fa25b5ffddfec33e6c1012d291f0f2b3104b7c2ebc44634619f6d02de",
+    "packet_hash": "6442413b55aa01a3c63de26836af1248f124c4f614a1ceb033f73b6d50371c94"
+  },
+  "hash": "5030e545f34ca205586a4e439d6a91ab9371131c019f91e36a7de96fd68c8e96",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a3b02e5fa25b5ffddfec33e6c1012d291f0f2b3104b7c2ebc44634619f6d02de",
+      "packet_hash": "6442413b55aa01a3c63de26836af1248f124c4f614a1ceb033f73b6d50371c94",
+      "published_packet_hash": "6442413b55aa01a3c63de26836af1248f124c4f614a1ceb033f73b6d50371c94",
+      "receipt_id": "dcd22ddfb6544704ba03ef8f0fdd242b",
+      "request_hash": "3b24b3f4f1b32561564c788a414624c4a95bcbe336a93e4823861fcc840a9b4d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition generalizes beyond the packet by presenting a broad methodological meaning (“used in a study to judge how outcomes in a target group differ…”), while the source only shows a specific matched reference population in one survival analysis.",
+        "“Broader” population is not supported by the packet; the source only indicates a matched reference population compared with ACS patients.",
+        "The second sentence is supported, but the overall entry should stay limited to the specific comparative use shown in the source rather than a wider study-definition."
+      ],
+      "definition_hash": "a3b02e5fa25b5ffddfec33e6c1012d291f0f2b3104b7c2ebc44634619f6d02de",
+      "packet_hash": "6442413b55aa01a3c63de26836af1248f124c4f614a1ceb033f73b6d50371c94",
+      "published_packet_hash": "6442413b55aa01a3c63de26836af1248f124c4f614a1ceb033f73b6d50371c94",
+      "receipt_id": "1d04f82d727145fdb63a5643374a29b8",
+      "request_hash": "166dfd580d9b085ce5ba4a16da2563473e7a8f4c1c21bc97080374eed97ae330",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

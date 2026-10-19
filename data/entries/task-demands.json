@@ -1,0 +1,60 @@
+{
+  "id": "task-demands",
+  "term": "task demands",
+  "definition": "Task demands are the specific requirements of an activity that shape how a person controls perception and action while doing it. In this source, they refer to differences such as only tracking a moving target versus tracking it while also intercepting it, which changed how visual feedback and prediction were used during eye movement control.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13232861"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13232861",
+      "revision": "2026; DOI 10.1371/journal.pone.0328432; article XML SHA-256 2928159df07eadb32056905b5ea3f8ce085198a1746e0bb8edf0d36c6d36da5e",
+      "scope": "Source record 10.1371/journal.pone.0328432; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0328432"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a71bf20a494ed7873655d17b678e498347dea7635ad83f98b5c5993badadcbdd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ea5b74fb41bf4eb2a45f34b17a26dac9",
+    "request_hash": "7059725d0e0101bec3028bcb2d6b0dfb055f30b34d145f34d63c9fe98f5b85be",
+    "registration_hash": "d90473afe9f6da85c2e842a0ef5fe242ddd2442b30a5362b262a2410c5373f53",
+    "definition_hash": "4d26ccc09f050bed34983e019d747d095f93db43dec6fcf5ce4a6f3be550d85e",
+    "packet_hash": "a71bf20a494ed7873655d17b678e498347dea7635ad83f98b5c5993badadcbdd"
+  },
+  "hash": "4d0b57b9a65f876befde06bf9589c8849d3576ad340af7f65f023ef915765f6f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4d26ccc09f050bed34983e019d747d095f93db43dec6fcf5ce4a6f3be550d85e",
+      "packet_hash": "a71bf20a494ed7873655d17b678e498347dea7635ad83f98b5c5993badadcbdd",
+      "published_packet_hash": "a71bf20a494ed7873655d17b678e498347dea7635ad83f98b5c5993badadcbdd",
+      "receipt_id": "dc6a989a66df4279b8da631ac9e50707",
+      "request_hash": "5cadddce2d31852295b3552391d3681c9804df761625c460b252ffa315c4a406",
+      "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a broad generalization (“shape how a person controls perception and action”) that is not stated in the packet and goes beyond the source’s narrower focus on ocular tracking and manual interception.",
+        "The source supports differences in task conditions (tracking only versus tracking plus interception) and their effects on sensory feedback and predictive information, but it does not explicitly define “task demands” as the general requirements of an activity."
+      ],
+      "definition_hash": "4d26ccc09f050bed34983e019d747d095f93db43dec6fcf5ce4a6f3be550d85e",
+      "packet_hash": "a71bf20a494ed7873655d17b678e498347dea7635ad83f98b5c5993badadcbdd",
+      "published_packet_hash": "a71bf20a494ed7873655d17b678e498347dea7635ad83f98b5c5993badadcbdd",
+      "receipt_id": "13ba1110f8e448488981577b5f5d4543",
+      "request_hash": "3ebaedc036f8f96bde9e5c7a709a27f03356906ccae6ff313fd87e49074802ce",
+      "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
+    }
+  ]
+}

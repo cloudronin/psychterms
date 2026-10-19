@@ -1,0 +1,65 @@
+{
+  "id": "true-variance",
+  "term": "true variance",
+  "definition": "True variance refers to the real underlying amount of variability in a phenomenon, such as differences in how people change over time, as opposed to variability introduced by imperfect measurement. In longitudinal study planning, it is one of the design features researchers consider when estimating power.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4371588"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4371588",
+      "revision": "2015; DOI 10.3389/fpsyg.2015.00272; article XML SHA-256 4de5c2a0c5e2d6bf0405b1acddf664546cf9158472d957dd62f0b8b0c86da793",
+      "scope": "Source record 10.3389/fpsyg.2015.00272; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2015.00272"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9179a38536cb8fda1addf8ec528a9f4bedd4d53fd3e89e2e64fc60a3d486b402",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4ec5f55652da4329b19a416f87f75ff1",
+    "request_hash": "918d2f39f8944ddc26ab389aaf2f8de90d9a3c8187a6d9d65133f152ae810643",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "4f93709cc5106e6d65e63cc587ce8d0062c6f65d5368d22bf8a064cc1c57f77a",
+    "packet_hash": "9179a38536cb8fda1addf8ec528a9f4bedd4d53fd3e89e2e64fc60a3d486b402"
+  },
+  "hash": "7a30f84468720c0a6c80e48e8b2faffd9a3a1527cfe79403e6be55c96ab4469f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that true variance is “the real underlying amount of variability… as opposed to variability introduced by imperfect measurement.” The packet only mentions “hypothesized true variance in change” as a design-dimension for longitudinal study planning, but does not define any contrast with “imperfect measurement” or measurement error.",
+        "Although the packet supports that researchers consider parameters including “hypothesized true variance in change” when searching for longitudinal study designs and that the framework relates to statistical power (“equal statistical power,” “power equivalence theory,” and tool “geared toward the power to detect variance in change”), the definition’s additional measurement-error contrast is not supported.",
+        "The definition’s framing is not clearly grounded in the provided packet’s “ethical considerations” wording; while ethics are mentioned as a constraint in design search, the packet does not connect the term “true variance” to ethics specifically beyond it being part of the design parameter space."
+      ],
+      "definition_hash": "4f93709cc5106e6d65e63cc587ce8d0062c6f65d5368d22bf8a064cc1c57f77a",
+      "packet_hash": "9179a38536cb8fda1addf8ec528a9f4bedd4d53fd3e89e2e64fc60a3d486b402",
+      "published_packet_hash": "9179a38536cb8fda1addf8ec528a9f4bedd4d53fd3e89e2e64fc60a3d486b402",
+      "receipt_id": "a89f6f5108d64531b52fac50fd008e67",
+      "request_hash": "b2beb24565979418be6a93d3784265641f4045aeaa19196c99bc6535594dac61",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the source: the packet places the term in longitudinal study design/power planning, not ethics.",
+        "The definition adds an unsupported contrast with variability from imperfect measurement; the packet mentions indicator reliability and true variance in change, but does not define true variance as the opposite of measurement error.",
+        "The phrase \"in a phenomenon\" is broader than the packet’s specific sense, which is true variance in change in a longitudinal study design context."
+      ],
+      "definition_hash": "4f93709cc5106e6d65e63cc587ce8d0062c6f65d5368d22bf8a064cc1c57f77a",
+      "packet_hash": "9179a38536cb8fda1addf8ec528a9f4bedd4d53fd3e89e2e64fc60a3d486b402",
+      "published_packet_hash": "9179a38536cb8fda1addf8ec528a9f4bedd4d53fd3e89e2e64fc60a3d486b402",
+      "receipt_id": "fc9fc0b073044cafaa8c27b00ed72ee1",
+      "request_hash": "a057e47cce06c3b0d8bb4e778fc4df3a1dc74a02ea3b54d440dc187be451efb0",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

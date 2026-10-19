@@ -1,0 +1,26 @@
+{
+  "id": "procrustes-analysis",
+  "term": "Procrustes analysis",
+  "source": "article-pmc5245881",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0169663",
+  "revision": "2017; DOI 10.1371/journal.pone.0169663; article XML SHA-256 88c711b56b2849d90940e53cb2efd0aaa342998873ddce5f41bf6957234ef829",
+  "source_snapshot_sha256": "88c711b56b2849d90940e53cb2efd0aaa342998873ddce5f41bf6957234ef829",
+  "url": "https://doi.org/10.1371/journal.pone.0169663",
+  "text": "In the sparse representation model, the design of overcomplete dictionaries plays a key role for the effectiveness and applicability in different domains. Recent research has produced several dictionary learning approaches, being proven that dictionaries learnt by data examples significantly outperform structured ones, e.g. wavelet transforms. In this context, learning consists in adapting the dictionary atoms to a set of training signals in order to promote a sparse representation that minimizes the reconstruction error. Finding the best fitting dictionary remains a very difficult task, leaving the question still open. A well-established heuristic method for tackling this problem is an iterative alternating scheme, adopted for instance in the well-known K-SVD algorithm. Essentially, it consists in repeating two stages; the former promotes sparse coding of the training set and the latter adapts the dictionary to reduce the error. In this paper we present R-SVD, a new method that, while maintaining the alternating scheme, adopts the Orthogonal Procrustes analysis to update the dictionary atoms suitably arranged into groups. Comparative experiments on synthetic data prove the effectiveness of R-SVD with respect to well known dictionary learning algorithms such as K-SVD, ILS-DLA and the online method OSDL. Moreover, experiments on natural data such as ECG compression, EEG sparse representation, and image modeling confirm R-SVD’s robustness and wide applicability.",
+  "source_label": "Orthogonal Procrustes Analysis for Dictionary Learning in Sparse Linear Representation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1484
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "fbe6cc7a17e99e9455a78357d4912bd4a0bd766338ac1766954b5f3d519e5665"
+}

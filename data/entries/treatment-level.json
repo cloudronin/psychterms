@@ -1,0 +1,60 @@
+{
+  "id": "treatment-level",
+  "term": "treatment level",
+  "definition": "Treatment level means an amount or concentration used in therapeutic use, such as the doses commonly used in preclinical or clinical studies, rather than unusually high amounts. In this source, it refers to concentrations intended for treatment and contrasts with extreme concentrations that produced different effects.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10566733"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10566733",
+      "revision": "2023; DOI 10.1371/journal.pone.0292681; article XML SHA-256 9c55528275a6a91d3bbbad930b88d8becb590bd4f555e5265cd92841266974ad",
+      "scope": "Source record 10.1371/journal.pone.0292681; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0292681"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4058dd34a4ed8a912918f9ada097713d9b7afc1271251bfb7dd78b2e301619f6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d06c4ce20449426db0f7f3367ade2e52",
+    "request_hash": "dbaba1e4a356bc1e60ef1c5eaa87d249e28211f0fc945e0e2abdfa8bceb3c81a",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "6abc3e3dad5ef2d26c074cd307c41d24f2d4d36b8c69576d28922eaa20b82cff",
+    "packet_hash": "4058dd34a4ed8a912918f9ada097713d9b7afc1271251bfb7dd78b2e301619f6"
+  },
+  "hash": "d707f573f4f1a27cb3e7bd00d1d68b63ce2549b44681f6f060473125b50be49b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6abc3e3dad5ef2d26c074cd307c41d24f2d4d36b8c69576d28922eaa20b82cff",
+      "packet_hash": "4058dd34a4ed8a912918f9ada097713d9b7afc1271251bfb7dd78b2e301619f6",
+      "published_packet_hash": "4058dd34a4ed8a912918f9ada097713d9b7afc1271251bfb7dd78b2e301619f6",
+      "receipt_id": "bafc098585ae440ea54e6268317c74b0",
+      "request_hash": "b937e1462778288b5c8d70152f0974f09bd89846a8874d842951f36d138e6524",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines the “treatment-level” idea as the “dose … commonly used in preclinical and clinical studies” versus an “extremely high TAT concentration,” but it does not explicitly support the definition’s framing as “therapeutic use” or that the concentrations are “intended for treatment.”",
+        "The definition’s wording is broader (“an amount or concentration used in therapeutic use”) than what is stated in the packet (specifically about TAT doses/concentrations and BBB disruption effects)."
+      ],
+      "definition_hash": "6abc3e3dad5ef2d26c074cd307c41d24f2d4d36b8c69576d28922eaa20b82cff",
+      "packet_hash": "4058dd34a4ed8a912918f9ada097713d9b7afc1271251bfb7dd78b2e301619f6",
+      "published_packet_hash": "4058dd34a4ed8a912918f9ada097713d9b7afc1271251bfb7dd78b2e301619f6",
+      "receipt_id": "df86b03195ab4fe79ef330bef19eef19",
+      "request_hash": "3b51e718fb819afc6110ad9328cde16c46a5fe72bf480ae2d21ea2227d327efc",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

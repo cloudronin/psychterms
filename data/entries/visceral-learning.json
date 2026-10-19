@@ -1,0 +1,59 @@
+{
+  "id": "visceral-learning",
+  "term": "visceral learning",
+  "definition": "Visceral learning is aversive learning in which internal bodily pain, such as rectal pain, acts as the unconditioned stimulus so that previously neutral cues come to predict and acquire unpleasant meaning. It also includes related memory processes such as extinction of the learned response and possible reactivation of the earlier pain-associated memory trace.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3582635"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3582635",
+      "revision": "2013; DOI 10.1371/journal.pone.0051149; article XML SHA-256 66012501e8959a8b3199ca36e6f0bf5dba365dd3d286c505f6dd00165bd328c4",
+      "scope": "Source record 10.1371/journal.pone.0051149; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0051149"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b872356fb1b25544c19cf5aedc78d75207929daf478bf0f96246c2d913ae8454",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cf26a544cf214a43874cc9a56fe052c7",
+    "request_hash": "dc1271420168070d37a700a8b90fcd8db64e836d4336338a822d808569f40feb",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "c021dfc356a75bab0df868fd7d260c8f08edb636a0a409bcfc54e9f4e8b61e04",
+    "packet_hash": "b872356fb1b25544c19cf5aedc78d75207929daf478bf0f96246c2d913ae8454"
+  },
+  "hash": "929e0cd4a76a9b6a5ec2cd85244faa19338a5751ffae360a95906b5f64bcee87",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c021dfc356a75bab0df868fd7d260c8f08edb636a0a409bcfc54e9f4e8b61e04",
+      "packet_hash": "b872356fb1b25544c19cf5aedc78d75207929daf478bf0f96246c2d913ae8454",
+      "published_packet_hash": "b872356fb1b25544c19cf5aedc78d75207929daf478bf0f96246c2d913ae8454",
+      "receipt_id": "abde070f53e44c17bdcc45f2000c8c53",
+      "request_hash": "369de6bdb7cc1d8c0add894678b6fddd144184bfee7befe32d7327c261722e5b",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that internal bodily pain “acts as the unconditioned stimulus”; the packet does not use or explicitly support that “unconditioned stimulus” mapping (it only says fear conditioning with rectal pain stimuli leads to learned unpleasantness)."
+      ],
+      "definition_hash": "c021dfc356a75bab0df868fd7d260c8f08edb636a0a409bcfc54e9f4e8b61e04",
+      "packet_hash": "b872356fb1b25544c19cf5aedc78d75207929daf478bf0f96246c2d913ae8454",
+      "published_packet_hash": "b872356fb1b25544c19cf5aedc78d75207929daf478bf0f96246c2d913ae8454",
+      "receipt_id": "9715fa4455f349aab1a7aba899f972ad",
+      "request_hash": "10c61267144069b269c12816282f0e079396cf580ce26b22679c9269f538cc3b",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

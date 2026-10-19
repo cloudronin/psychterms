@@ -1,0 +1,60 @@
+{
+  "id": "rate-coding",
+  "term": "rate coding",
+  "definition": "Rate coding is a way neural activity can represent information mainly through how often spikes occur, rather than through precise rhythmic timing. In the source packet, irregular and semiregular spike patterns are described as contributing primarily to this kind of coding.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13491656"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13491656",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1896515; article XML SHA-256 c94896c68aec61700dfa044ad82a02cc18b2673ba94091370eef2561fd82a3af",
+      "scope": "Source record 10.3389/fnhum.2026.1896515; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1896515"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0db6acb057dbdeccec9bb593d9531a5986cf744620177c386702ffbcf54c279f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9eb2ba2e9c2a4bb68afd45a54b92d716",
+    "request_hash": "0477374f1329e37975e8e96026c2e201998d358ee667e8c70fbaed6e8b7902c3",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "91d627b2a0c3d3b19064695eb96ef11ad0501854ece1fa046dc49fcfc8326315",
+    "packet_hash": "0db6acb057dbdeccec9bb593d9531a5986cf744620177c386702ffbcf54c279f"
+  },
+  "hash": "cb15c8804e018bebc35a178e8150a215c283fa59fda98682ad03b256bae828a7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "91d627b2a0c3d3b19064695eb96ef11ad0501854ece1fa046dc49fcfc8326315",
+      "packet_hash": "0db6acb057dbdeccec9bb593d9531a5986cf744620177c386702ffbcf54c279f",
+      "published_packet_hash": "0db6acb057dbdeccec9bb593d9531a5986cf744620177c386702ffbcf54c279f",
+      "receipt_id": "95ec675dcb71421e9767b84901b5b286",
+      "request_hash": "10e589c6c5bafafde7e82c1b559f269cdf30644d549957468dc1c92eb57d30f1",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first substantive claim (“Rate coding… mainly through how often spikes occur, rather than through precise rhythmic timing”) is not supported anywhere in the provided packet text.",
+        "Although the packet does state that “Semiregular and irregular inputs… appear to contribute primarily to rate coding,” the packet does not explain what “rate coding” specifically means (e.g., frequency-based vs timing-based), so the requested sense/definition is only partially grounded."
+      ],
+      "definition_hash": "91d627b2a0c3d3b19064695eb96ef11ad0501854ece1fa046dc49fcfc8326315",
+      "packet_hash": "0db6acb057dbdeccec9bb593d9531a5986cf744620177c386702ffbcf54c279f",
+      "published_packet_hash": "0db6acb057dbdeccec9bb593d9531a5986cf744620177c386702ffbcf54c279f",
+      "receipt_id": "954a03f2ac184cbda724e6dcf6d990bb",
+      "request_hash": "aae1276305180017efd05594f4a3c924c0524a66477be1f361b301f5d21f2f83",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

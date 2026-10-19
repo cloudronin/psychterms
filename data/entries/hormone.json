@@ -1,0 +1,63 @@
+{
+  "id": "hormone",
+  "term": "hormone",
+  "definition": "A hormone is a body chemical that can affect mental and physical functioning. In this context, melatonin is a hormone that helps regulate the normal sleep–wake cycle, and altered levels are linked with seasonal affective disorder.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "nimh-page-4ce129366a4f6dba"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "nimh-page-4ce129366a4f6dba",
+      "revision": "HTML publication snapshot 2026-10-18; SHA-256 d89120086a5f01bf70f21f43fbf64f1a5b58f4c35f5185f5dac0c769f3d6317c",
+      "scope": "Source record https://www.nimh.nih.gov/health/publications/seasonal-affective-disorder; pinned source text",
+      "locator": "https://www.nimh.nih.gov/health/publications/seasonal-affective-disorder"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8f1c499de2c45af63a1bb2d8ec77536115a64ae581bf4b730fa354b148270fdc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "411767d6d60f4b28b4f6cc52ad4d4f24",
+    "request_hash": "b27607cad372a7a5de729284e63796c6b30a913b11ac4a7393569e3d8d03264b",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "17b9e844fa7bc05dd29450d852fa6fe3f9a75eb45b833a21466bf8b906e8fb9f",
+    "packet_hash": "8f1c499de2c45af63a1bb2d8ec77536115a64ae581bf4b730fa354b148270fdc"
+  },
+  "hash": "03692baef92e822a7c9d088871fa5d40a3d6e95c3615e3b30c32b6201e9e09fa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general claim that “a hormone is a body chemical that can affect mental and physical functioning” is not supported by the supplied packet text (the packet only describes melatonin as a hormone).",
+        "The packet supports that “altered levels of melatonin” relate to SAD and specifically that winter-pattern SAD involves producing too much melatonin, but the definition states this as a general linkage (“altered levels are linked with seasonal affective disorder”) without enough explicit support for the full phrasing."
+      ],
+      "definition_hash": "17b9e844fa7bc05dd29450d852fa6fe3f9a75eb45b833a21466bf8b906e8fb9f",
+      "packet_hash": "8f1c499de2c45af63a1bb2d8ec77536115a64ae581bf4b730fa354b148270fdc",
+      "published_packet_hash": "8f1c499de2c45af63a1bb2d8ec77536115a64ae581bf4b730fa354b148270fdc",
+      "receipt_id": "e7e6fdf73dbf43978522db4836527252",
+      "request_hash": "b3cf855b805c6c7c2e8171728e986031ebbef86cedd48e3d05d47fa3cc7ff848",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports melatonin as a hormone important for maintaining the normal sleep–wake cycle and notes altered levels in relation to seasonal affective disorder, but it does not support the broad general definition of a hormone as a body chemical that affects mental and physical functioning.",
+        "The definition adds a general statement beyond the supplied source rather than staying within the packet’s specific context."
+      ],
+      "definition_hash": "17b9e844fa7bc05dd29450d852fa6fe3f9a75eb45b833a21466bf8b906e8fb9f",
+      "packet_hash": "8f1c499de2c45af63a1bb2d8ec77536115a64ae581bf4b730fa354b148270fdc",
+      "published_packet_hash": "8f1c499de2c45af63a1bb2d8ec77536115a64ae581bf4b730fa354b148270fdc",
+      "receipt_id": "6ab19fcf1b744e7ea1885d047c0edebb",
+      "request_hash": "ef15decd7b55c1c4b722448d9d57e7314194e9f05fbcf919fcdbf8639b1f3c0c",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

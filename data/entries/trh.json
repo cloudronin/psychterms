@@ -1,0 +1,62 @@
+{
+  "id": "trh",
+  "term": "TRH",
+  "definition": "TRH is a peptide found throughout the central nervous system and in peripheral tissues. In this source, TRH signaling in neurons of the dorsal vagal complex is described as an important part of brain-gut communication, and TRH-related peptides are linked with neuroprotective and other body-wide effects.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8862550"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8862550",
+      "revision": "2022; DOI 10.1186/s12868-022-00694-z; article XML SHA-256 4171b433841da2e868523c5ccf906c813fd5516ea24919fc3268a789a29887df",
+      "scope": "Source record 10.1186/s12868-022-00694-z; pinned source text",
+      "locator": "https://doi.org/10.1186/s12868-022-00694-z"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d33b9707fbfa8689d97597edcff827a83f9753029753f7bfdec8d1baa6b0da37",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6a6089c9508a43329495af3b7dbb9e17",
+    "request_hash": "6ec683059fe2e4f2bb226d32a628a47555259c65d8d861539a3da7e75ea8a28c",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "490a4b52688e15df7356ec2a34ba75b92154bcb19a023df6275e44c8de2e271a",
+    "packet_hash": "d33b9707fbfa8689d97597edcff827a83f9753029753f7bfdec8d1baa6b0da37"
+  },
+  "hash": "d15e13f9fd4a6aeaa2fe080c303e21b141b11ebcdcc2dfd1b1f6e72b5415e375",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible here: TRH is being defined as a peptide/hormone term from a neuroscience/biology article, not as a diagnosis or psychology/counselling term.",
+        "The definition should not be validated as a diagnosis entry when the source only supports biochemical/physiological statements about TRH and TRH-like peptides."
+      ],
+      "definition_hash": "490a4b52688e15df7356ec2a34ba75b92154bcb19a023df6275e44c8de2e271a",
+      "packet_hash": "d33b9707fbfa8689d97597edcff827a83f9753029753f7bfdec8d1baa6b0da37",
+      "published_packet_hash": "d33b9707fbfa8689d97597edcff827a83f9753029753f7bfdec8d1baa6b0da37",
+      "receipt_id": "1a2c3d0ed87e43958b63dd5a3dde3e07",
+      "request_hash": "e22cf93f32709d8402b43b9e40a6a79ef24a019341666a4a07331e9407149a0b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition describes TRH’s biological signaling roles (brain-gut axis, distribution, neuroprotective effects), not any diagnostic meaning of “TRH,” so it does not fit the requested field of “diagnosis.”"
+      ],
+      "definition_hash": "490a4b52688e15df7356ec2a34ba75b92154bcb19a023df6275e44c8de2e271a",
+      "packet_hash": "d33b9707fbfa8689d97597edcff827a83f9753029753f7bfdec8d1baa6b0da37",
+      "published_packet_hash": "d33b9707fbfa8689d97597edcff827a83f9753029753f7bfdec8d1baa6b0da37",
+      "receipt_id": "e5e9832582014cc99a39ffa129ea0187",
+      "request_hash": "a2ab13fb23f02b6d6f2d90daf3dee0994c9bfc11487037ab13c4819fb7a16329",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

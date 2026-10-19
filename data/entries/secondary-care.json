@@ -1,0 +1,64 @@
+{
+  "id": "secondary-care",
+  "term": "secondary care",
+  "definition": "Secondary care refers to specialist health services that sit between initial primary care and later discharge back to primary care. In this context, it means services from which adults with serious mental illness may transition to primary care.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11396452"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11396452",
+      "revision": "2024; DOI 10.1186/s12888-024-06067-6; article XML SHA-256 5c9862e9088c1286e0698a0a420c534cb13eda22c9c82fca8aef85a09bdea869",
+      "scope": "Source record 10.1186/s12888-024-06067-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-024-06067-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "235bdc8f2f36a3dc22e89e0e3ae865a42f76b075f9162d61764e847bfa7df641",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1bb804daddaa427ea9297cd02eda4df3",
+    "request_hash": "273add5f5e311a013f7f7b8ceaed85c109fa3dae2602f332d55b88e9cbb82072",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "453ade69935a720033d6e4495b4bdf0497eccb961aff566617b7146fb18a074c",
+    "packet_hash": "235bdc8f2f36a3dc22e89e0e3ae865a42f76b075f9162d61764e847bfa7df641"
+  },
+  "hash": "2858fa58365c192f3ec787d6ddbde6e6f8011127511dacbbdf0ed6983ebf2716",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence adds unsupported generalization: the packet only supports transitions from secondary care services to primary care, not a full general definition of secondary care as specialist health services between primary care and discharge back to primary care.",
+        "The wording “later discharge back to primary care” is not supported by the packet; the source mentions transitions to primary care from secondary care services, but does not define secondary care in discharge terms."
+      ],
+      "definition_hash": "453ade69935a720033d6e4495b4bdf0497eccb961aff566617b7146fb18a074c",
+      "packet_hash": "235bdc8f2f36a3dc22e89e0e3ae865a42f76b075f9162d61764e847bfa7df641",
+      "published_packet_hash": "235bdc8f2f36a3dc22e89e0e3ae865a42f76b075f9162d61764e847bfa7df641",
+      "receipt_id": "13901883a0d941a7b820a207026ab183",
+      "request_hash": "8783f29047ad9faaa7a19bdfaf6f608b87635882421e76713a3dc0ef62442c23",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that transitions from “Secondary Care Services (SCSs)” to primary care are necessary and focuses on adults with Serious Mental Illness; it does not define secondary care as “specialist health services” that “sit between” primary care and later discharge.",
+        "The packet does not support the claim that secondary care “sits between initial primary care and later discharge back to primary care,” as this broader structural description is not provided.",
+        "The second sentence ties the term to transitions for adults with serious mental illness, but the first sentence’s general definition is unsupported by the provided packet."
+      ],
+      "definition_hash": "453ade69935a720033d6e4495b4bdf0497eccb961aff566617b7146fb18a074c",
+      "packet_hash": "235bdc8f2f36a3dc22e89e0e3ae865a42f76b075f9162d61764e847bfa7df641",
+      "published_packet_hash": "235bdc8f2f36a3dc22e89e0e3ae865a42f76b075f9162d61764e847bfa7df641",
+      "receipt_id": "b5267913131c4c0e90ecc25178e3ece7",
+      "request_hash": "0fc0d18f71788a2ebeb6d794e7bf8b0e68b8f2dabcf587a68f59e52a1b867fd1",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

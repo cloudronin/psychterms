@@ -1,0 +1,60 @@
+{
+  "id": "voltage-gated-ion-channel",
+  "term": "voltage-gated ion channel",
+  "definition": "A voltage-gated ion channel is a membrane channel whose activity changes with membrane voltage and helps control a cell’s electrical behavior. In the packet, these channels include sodium, calcium, and potassium channels involved in generating action potentials and regulating excitability.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4807758"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4807758",
+      "revision": "2016; DOI 10.1371/journal.pone.0152018; article XML SHA-256 69f825c7c7aa5ea232062e1be1cf81dd6de162f9a685ffbc5a56ec1bcf7929f8",
+      "scope": "Source record 10.1371/journal.pone.0152018; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0152018"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c28ec14d1b2464b486d6c91ab6988bbae3e717d6ea9a7464790bb75f0e6bc7fa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ed42e73c63b74050b772be66bf9eab39",
+    "request_hash": "68dd438d865470564d7218fab6329aae291cfd816d3137db716438f0d74c6133",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "9a9353b0b2795822b2d200146112f02fc7e2072716e0a8da8afd0fb705ad8084",
+    "packet_hash": "c28ec14d1b2464b486d6c91ab6988bbae3e717d6ea9a7464790bb75f0e6bc7fa"
+  },
+  "hash": "096fbdd05714fe4bc3f83ac7caccb53cd7f0b994c8d032182b8aff8fb99a1b0a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9a9353b0b2795822b2d200146112f02fc7e2072716e0a8da8afd0fb705ad8084",
+      "packet_hash": "c28ec14d1b2464b486d6c91ab6988bbae3e717d6ea9a7464790bb75f0e6bc7fa",
+      "published_packet_hash": "c28ec14d1b2464b486d6c91ab6988bbae3e717d6ea9a7464790bb75f0e6bc7fa",
+      "receipt_id": "52648fd6ed8b4454844b771f4e90fb70",
+      "request_hash": "ba0d69b841a36d81a171cfd8ac32c4625dc451345cb410a1aa2be333c185822b",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the definition’s first-clause characterization of the term as “a membrane channel” (it discusses voltage-gated ion channels and patch-clamp currents, but does not state that they are membrane channels in a definitional way).",
+        "The packet supports that sodium/calcium/potassium currents are “voltage-dependent” and that membrane potential is controlled by voltage-gated ion channel activity, but it does not explicitly state the general definition that “activity changes with membrane voltage.”"
+      ],
+      "definition_hash": "9a9353b0b2795822b2d200146112f02fc7e2072716e0a8da8afd0fb705ad8084",
+      "packet_hash": "c28ec14d1b2464b486d6c91ab6988bbae3e717d6ea9a7464790bb75f0e6bc7fa",
+      "published_packet_hash": "c28ec14d1b2464b486d6c91ab6988bbae3e717d6ea9a7464790bb75f0e6bc7fa",
+      "receipt_id": "e9b1773b598a4389817956c6831be237",
+      "request_hash": "1bb62e4972f04c00a548093ca6bcabbe3d62f60be11eeb674c456ac3898162d6",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

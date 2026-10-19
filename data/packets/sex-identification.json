@@ -1,0 +1,26 @@
+{
+  "id": "sex-identification",
+  "term": "sex identification",
+  "source": "article-pmc13308874",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0323847",
+  "revision": "2026; DOI 10.1371/journal.pone.0323847; article XML SHA-256 cd01fa33d3c9856138fed29aacc6bdda88f182391fdb1a5a625ab8502a9a29b4",
+  "source_snapshot_sha256": "cd01fa33d3c9856138fed29aacc6bdda88f182391fdb1a5a625ab8502a9a29b4",
+  "url": "https://doi.org/10.1371/journal.pone.0323847",
+  "text": "The ability to image blood flow in early-stage avian embryos has significant applications in developmental biology, drug and vaccine testing, as well as determining sex differentiation. In this project, a recently developed laser speckle contrast imaging (LSCI) system was used to non-invasively image extraembryonic blood vessels and used these images to attempt early sex identification of chick embryos. Specifically, blood vessels images were captured from 1,251 living chicken embryos between day three and day four of incubation. Then, deep neural network (DNN) models were applied to evaluate whether it is possible to differentiate sex based on vascular patterns. Using ResNetBiT and YOLOv5s-cls models, our results indicate that sex differentiation from extraembryonic blood vessel images was not achievable with sufficiently high accuracy or statistical significance for practical use. Specifically, ResNetBiT had a five-fold cross-validated average accuracy of 56% ± 4% (p-value of 0.28 across cross-validation folds) at day 3 and 57% ± 3% (p-value of 0.07 across cross-validation folds) at day 4. YOLOv5s-cls had a five-fold cross-validated average accuracy of 55% ± 2% (p-value of 0.13 across folds) at day 3 and 57% ± 3% (p-value of 0.10 across folds) at day 4. Our findings suggest that under the current experimental conditions and modeling approaches, per-egg evaluation did not produce sufficiently accurate or statistically robust results for early sex classification.",
+  "source_label": "Detection of non-invasive sexing of early chick embryos in intact eggs using laser speckle contrast imaging and deep neural networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1487
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "78598226dfea29f734a90046c83e0b3bdb6d1562b8528148810132d6fc89dcae"
+}

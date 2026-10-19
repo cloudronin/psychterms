@@ -1,0 +1,65 @@
+{
+  "id": "vertex-potential",
+  "term": "vertex potential",
+  "definition": "A vertex potential is an evoked brain response recorded with EEG that appears as a prominent, often double-peaked waveform near the top of the head after somatosensory stimulation. In this source, it is described as one of the waveform patterns triggered by pulsed ultrasound to the fingertip.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3514181"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3514181",
+      "revision": "2012; DOI 10.1371/journal.pone.0051177; article XML SHA-256 e5837f3f45e1934775825e52413fdd9261a195c44174b8115009e55b59c2a959",
+      "scope": "Source record 10.1371/journal.pone.0051177; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0051177"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a58cf17acafe410c44a87cd745e068c1d3bcbde201ec0092cee96ce8889b0ee2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0e58867fe00d4b57a4a7f8e4bf89edbc",
+    "request_hash": "02fa530615e5c6dce6a5ab16da644d87ad66b2a0459d6f79399a151716008887",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "0aa3db9406c55ac235501a74d5a8efb1c725319222a1d6a2848bc28d61754a84",
+    "packet_hash": "a58cf17acafe410c44a87cd745e068c1d3bcbde201ec0092cee96ce8889b0ee2"
+  },
+  "hash": "9faee9065b957a4e4cf4cad852eda7da8131c03805f8b38366019be1f456b551",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that pulsed ultrasound fingertip stimulation triggered evoked potentials with a large double-peaked vertex potential; it does not support the broader general definition about a vertex potential being an EEG response near the top of the head after somatosensory stimulation.",
+        "The wording adds unverified details such as where the waveform is recorded ('near the top of the head') and treats the packet as supporting a general clinical/physiological definition rather than the specific experimental finding described in the source."
+      ],
+      "definition_hash": "0aa3db9406c55ac235501a74d5a8efb1c725319222a1d6a2848bc28d61754a84",
+      "packet_hash": "a58cf17acafe410c44a87cd745e068c1d3bcbde201ec0092cee96ce8889b0ee2",
+      "published_packet_hash": "a58cf17acafe410c44a87cd745e068c1d3bcbde201ec0092cee96ce8889b0ee2",
+      "receipt_id": "593b5367406c42f1ac912c7811895bb3",
+      "request_hash": "a2b2a1e7a33346e9d73eb32eea60ea4d040d4858d1688b4d9317cda3f1d8c263",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that pulsed ultrasound to the fingertip triggered evoked potentials with a “large double-peaked vertex potential,” but it does not state that a vertex potential is “recorded with EEG” in general (it only describes that the study recorded evoked potentials using EEG).",
+        "The packet does not support the description that the waveform appears “near the top of the head” or specify the scalp location (e.g., “vertex”) beyond naming it as a “vertex potential.”",
+        "The definition’s first sentence contains additional descriptive claims (“prominent, often double-peaked waveform near the top of the head”) that are not explicitly supported in the provided text; only the “large double-peaked vertex potential” part is directly supported.",
+        "The second sentence is partially supported (vertex potential triggered by pulsed ultrasound to the fingertip), but the overall definition still includes unsupported characterization from the first sentence."
+      ],
+      "definition_hash": "0aa3db9406c55ac235501a74d5a8efb1c725319222a1d6a2848bc28d61754a84",
+      "packet_hash": "a58cf17acafe410c44a87cd745e068c1d3bcbde201ec0092cee96ce8889b0ee2",
+      "published_packet_hash": "a58cf17acafe410c44a87cd745e068c1d3bcbde201ec0092cee96ce8889b0ee2",
+      "receipt_id": "bc10da56b16f4e2f8b52c5bc1408a667",
+      "request_hash": "7de54e1c24bddabab836a9b286fc5972e290fbec58483411dae320e89e2392b4",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

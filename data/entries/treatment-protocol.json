@@ -1,0 +1,60 @@
+{
+  "id": "treatment-protocol",
+  "term": "treatment protocol",
+  "definition": "A treatment protocol is a planned approach used to treat a condition. In this packet, pharmacotherapy is described as one important treatment protocol for ADHD, meaning medication use is one recognized method of treatment.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13348584"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13348584",
+      "revision": "2026; DOI 10.1186/s12888-026-08147-1; article XML SHA-256 70c78b4976b0621e19c7c438e29091de69150d93ee52e3559071aec0e94b42eb",
+      "scope": "Source record 10.1186/s12888-026-08147-1; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-026-08147-1"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1b1ab18f5a60204674955c4fbcbef4a09b6872eec01b7c11c8710b14c2e965aa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "402a4f5eac164ddaa4dc275348c63ca7",
+    "request_hash": "755688cd86bfd8e99dfa41a4ba2ceed0abfbcb621f6dd4d679e92371162190a5",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "192fa688b045ef5cfc888d9c68eb9c574d68f3af22800423829b48148339a2fc",
+    "packet_hash": "1b1ab18f5a60204674955c4fbcbef4a09b6872eec01b7c11c8710b14c2e965aa"
+  },
+  "hash": "e991b661cf2fafa097aaa92eb7afb0bf288d6e4c980b48ceafed363b1b770cfb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the generic definition “A treatment protocol is a planned approach used to treat a condition.” It only mentions that “pharmacotherapy” is a “significant treatment protocol” for ADHD without defining what a treatment protocol means.",
+        "The claim that pharmacotherapy is “one important treatment protocol” for ADHD is broadly supported, but the definition’s first sentence contains unsupported generalization beyond the packet’s content."
+      ],
+      "definition_hash": "192fa688b045ef5cfc888d9c68eb9c574d68f3af22800423829b48148339a2fc",
+      "packet_hash": "1b1ab18f5a60204674955c4fbcbef4a09b6872eec01b7c11c8710b14c2e965aa",
+      "published_packet_hash": "1b1ab18f5a60204674955c4fbcbef4a09b6872eec01b7c11c8710b14c2e965aa",
+      "receipt_id": "6ea7a413448f406f9bdd5515510967ba",
+      "request_hash": "dff00f8ca1f241064565b046e6cc890a79730801420c6310c6a0c3c3901f7ddb",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "192fa688b045ef5cfc888d9c68eb9c574d68f3af22800423829b48148339a2fc",
+      "packet_hash": "1b1ab18f5a60204674955c4fbcbef4a09b6872eec01b7c11c8710b14c2e965aa",
+      "published_packet_hash": "1b1ab18f5a60204674955c4fbcbef4a09b6872eec01b7c11c8710b14c2e965aa",
+      "receipt_id": "b8be9c053a4e4b0a930526b56793503e",
+      "request_hash": "700085eeea3b95435855b1d8b13061bae6a94dc328ebc03b18f04b97c27bfb87",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

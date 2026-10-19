@@ -1,0 +1,65 @@
+{
+  "id": "volunteerism",
+  "term": "volunteerism",
+  "definition": "Volunteerism is participation in volunteering activities. In the available source, it is described as a form of involvement in midlife and later life that is associated with better individual well-being and stronger communities, while varying across different groups and being shaped by socioeconomic and cultural factors.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13178983"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13178983",
+      "revision": "2026; DOI 10.1371/journal.pone.0347681; article XML SHA-256 d971fe42cbb5d7f47a90f95d9660a3d98d158957b2b53c00ac5766086df88b6c",
+      "scope": "Source record 10.1371/journal.pone.0347681; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0347681"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ed12f8a2d3bd836d8ea4184018a4016a0a241815213df616b6e15ac4d9960798",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3da2714674c04d3cbe123ab61774e8c0",
+    "request_hash": "3ad307de2a80d069956c1cdf4c7b5276eeb9b69d973124a23a62e07cd34a7255",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "e77edeaf68d037799e5855d5ebea970082ceb668f10e5d664007a059a12c33e0",
+    "packet_hash": "ed12f8a2d3bd836d8ea4184018a4016a0a241815213df616b6e15ac4d9960798"
+  },
+  "hash": "5ab5701168872730773dde27ae92800990e47909dfcc3dccd1d05b8de76d90d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s second sentence states that volunteerism is “shaped by socioeconomic and cultural factors.” The packet only says most existing research has focused on socioeconomic factors and that cultural factors have received less attention; it does not support the stronger causal/shape claim as written.",
+        "The definition adds “while varying across different groups” and links this to “better individual well-being” and “stronger communities,” but the packet only frames these as associations without specifying the scope of evidence; the exact phrasing about outcomes is only partially supported.",
+        "The packet does not directly define “volunteerism” as “participation in volunteering activities,” so even the first sentence’s wording is not explicitly supported by the supplied text."
+      ],
+      "definition_hash": "e77edeaf68d037799e5855d5ebea970082ceb668f10e5d664007a059a12c33e0",
+      "packet_hash": "ed12f8a2d3bd836d8ea4184018a4016a0a241815213df616b6e15ac4d9960798",
+      "published_packet_hash": "ed12f8a2d3bd836d8ea4184018a4016a0a241815213df616b6e15ac4d9960798",
+      "receipt_id": "4639ca218e96475e8fd477700cd88c24",
+      "request_hash": "3e8574c8c3c38badd8dbfcbae9bb27771abd2f86821db9c00fbad1d944ab54ea",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports that volunteerism in midlife and later life is linked to improved well-being and stronger communities, but it does not directly define volunteerism as “participation in volunteering activities.”",
+        "The source says participation rates differ across groups and that socioeconomic factors have been studied; it does not state that volunteerism is generally “shaped by socioeconomic and cultural factors.”",
+        "The definition adds a broader explanatory claim about cultural factors that goes beyond the packet’s wording, which only says cultural factors have received less attention and are often narrowly defined."
+      ],
+      "definition_hash": "e77edeaf68d037799e5855d5ebea970082ceb668f10e5d664007a059a12c33e0",
+      "packet_hash": "ed12f8a2d3bd836d8ea4184018a4016a0a241815213df616b6e15ac4d9960798",
+      "published_packet_hash": "ed12f8a2d3bd836d8ea4184018a4016a0a241815213df616b6e15ac4d9960798",
+      "receipt_id": "86e8682c0de34bc3bcf1293cc6393603",
+      "request_hash": "cf20265cde19d4d4daaf1a0fc179bb0f84d4ea15a1050dbf35c4acd9a4f60f44",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "univariate-analysis",
+  "term": "univariate analysis",
+  "definition": "Univariate analysis is an approach that examines one variable or data component at a time. In contrast to multivariate analysis, it does not directly capture how multiple dimensions relate to each other.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11706367"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11706367",
+      "revision": "2025; DOI 10.1371/journal.pone.0312415; article XML SHA-256 4ace5ffb66a23f8004b6a344fd502e33b6989394d5636d422525f6aee4c5fa6c",
+      "scope": "Source record 10.1371/journal.pone.0312415; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0312415"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a9bc9f8140618495b04ce86bcc55384439e3bfb167db8901f581892f7c5a119c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "84596828006d4366b7120379ffe0288b",
+    "request_hash": "a5139b22c4391697a7e47b2fe4933311270cf9bf6710baa6a74466617117a435",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "52a5bd329f230e6fd10806a063db2ead8937a27609bb27f685621753ed6a0a11",
+    "packet_hash": "a9bc9f8140618495b04ce86bcc55384439e3bfb167db8901f581892f7c5a119c"
+  },
+  "hash": "f48a5d9fbb1276daf026919e803ee88082603087cef5dfb9c8aa485beb668f92",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what “univariate analysis” means (e.g., “examines one variable or data component at a time”); it only states that gait data are multi-dimensional and that analyses have been limited to “univariate analysis.”",
+        "The packet supports that univariate approaches have been used despite multi-dimensional gait and that little is known about relationships among components, but it does not explicitly support the definition’s phrasing that it “does not directly capture how multiple dimensions relate to each other.”"
+      ],
+      "definition_hash": "52a5bd329f230e6fd10806a063db2ead8937a27609bb27f685621753ed6a0a11",
+      "packet_hash": "a9bc9f8140618495b04ce86bcc55384439e3bfb167db8901f581892f7c5a119c",
+      "published_packet_hash": "a9bc9f8140618495b04ce86bcc55384439e3bfb167db8901f581892f7c5a119c",
+      "receipt_id": "7464de22b354455cb7638583107bfa4e",
+      "request_hash": "1df29651ff4c148bb6a9ffff5b48159445642663e7a20f7591b006b2c2817fa1",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that the article contrasts univariate analysis with multivariate analysis in multidimensional gait data; it does not explicitly define univariate analysis as examining one variable or data component at a time.",
+        "The definition generalizes beyond the source packet’s context and scope by presenting a broad statistical definition rather than the narrower usage shown in the article."
+      ],
+      "definition_hash": "52a5bd329f230e6fd10806a063db2ead8937a27609bb27f685621753ed6a0a11",
+      "packet_hash": "a9bc9f8140618495b04ce86bcc55384439e3bfb167db8901f581892f7c5a119c",
+      "published_packet_hash": "a9bc9f8140618495b04ce86bcc55384439e3bfb167db8901f581892f7c5a119c",
+      "receipt_id": "27c1aba70b1741e589340d47ecc848b9",
+      "request_hash": "1951c0b3ba664374106e009dd528781e42f67f9afb8d453687b6a2270ee4a939",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

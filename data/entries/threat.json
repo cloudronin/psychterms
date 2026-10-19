@@ -1,0 +1,63 @@
+{
+  "id": "threat",
+  "term": "threat",
+  "definition": "In a mental health context, a threat is something currently present that the body could react to as stress or danger. Anxiety can happen even when no current threat is there.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "nimh-page-2d96e16ce0e08b34"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "nimh-page-2d96e16ce0e08b34",
+      "revision": "HTML publication snapshot 2026-10-18; SHA-256 77e8e3f9797bdd3e545d836e3c7a022d849dbcb9046d75b9663fada09c613399",
+      "scope": "Source record https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad; pinned source text",
+      "locator": "https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "006884c768a4d69ef49526227677bd95c50b285aa192d8d19a41c37e0becdf5b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "42c233e2918f4f91a9b87cd0d769240c",
+    "request_hash": "138f70ba3b3188c8880790e22b5b165fe463bff957e48388a99e6f09ef9b0c83",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "d792fb1b3b41c1d30bf8c7ab9f1517b511f035ca584dbf51b92b8cd857d85f20",
+    "packet_hash": "006884c768a4d69ef49526227677bd95c50b285aa192d8d19a41c37e0becdf5b"
+  },
+  "hash": "27a91759bdf59a188bfab68321c4bfb3b4b0f8c4ebce0c4260c910b1af3e96b6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define the term “threat.” It only states that anxiety can occur “even if there is no current threat,” which does not support the requested sense/meaning of “threat” as something “currently present that the body could react to as stress or danger.”",
+        "The claim that a “threat” is something the body could react to “as stress or danger” is not supported by the provided packet text."
+      ],
+      "definition_hash": "d792fb1b3b41c1d30bf8c7ab9f1517b511f035ca584dbf51b92b8cd857d85f20",
+      "packet_hash": "006884c768a4d69ef49526227677bd95c50b285aa192d8d19a41c37e0becdf5b",
+      "published_packet_hash": "006884c768a4d69ef49526227677bd95c50b285aa192d8d19a41c37e0becdf5b",
+      "receipt_id": "8c01a802d0924bf9a41a0098d3878800",
+      "request_hash": "e27b3fbc5578300dae7353eae786b960d79b1511cb43c1c4f3745db46e8006b5",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports that anxiety is the body’s reaction to stress and can occur even if there is no current threat; it does not define ‘threat’ as something currently present or say the body reacts to threat in that way.",
+        "The second sentence goes beyond the packet by making a general claim about anxiety and current threat that is not presented as a definition of the term ‘threat’."
+      ],
+      "definition_hash": "d792fb1b3b41c1d30bf8c7ab9f1517b511f035ca584dbf51b92b8cd857d85f20",
+      "packet_hash": "006884c768a4d69ef49526227677bd95c50b285aa192d8d19a41c37e0becdf5b",
+      "published_packet_hash": "006884c768a4d69ef49526227677bd95c50b285aa192d8d19a41c37e0becdf5b",
+      "receipt_id": "261ad7d5441e4fea8492a2883cdbc994",
+      "request_hash": "0b6fa05c408c329323c31b57ec3e3d0fdf1706a2de20f9644ae36f3f978e722d",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

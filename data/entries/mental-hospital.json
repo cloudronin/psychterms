@@ -1,0 +1,61 @@
+{
+  "id": "mental-hospital",
+  "term": "mental hospital",
+  "definition": "A mental hospital is a hospital that provides mental healthcare for people with mental disorders. In the packet, it is described as a setting for admissions and outpatient care related to conditions such as psychosis.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12871970"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12871970",
+      "revision": "2026; DOI 10.1371/journal.pone.0340898; article XML SHA-256 35f848517d7be2a2a036aa9fda9333522dbef1ac410cc84d3446c930cddb7c8c",
+      "scope": "Source record 10.1371/journal.pone.0340898; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0340898"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8a0c6b7d228742bda749dc7dc9c57295",
+    "request_hash": "d232a3b2a93d63105de4bd8d3aafb6056197c3ee305311e5b10c2a8f01ddd61a",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "2dbdab840b7ab306f465db1d61607bcbd1b31b6693151b4e1c9b0d3d28c4ce7f",
+    "packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a"
+  },
+  "hash": "71eb678d3eaa431433343df9048ef3978faee3b6172a5d115d9eb0a497d8feaa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2dbdab840b7ab306f465db1d61607bcbd1b31b6693151b4e1c9b0d3d28c4ce7f",
+      "packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a",
+      "published_packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a",
+      "receipt_id": "a8b734993363401dada817cc09d1d387",
+      "request_hash": "327a0f0adfa5d84d45f8041b59788f3a0eefe4a7a76decd74c8f3d6c02699a02",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general claim that a “mental hospital provides mental healthcare for people with mental disorders” is not explicitly stated in the packet; the packet only mentions Butabika National Referral Mental Hospital and gives statistics about admissions and outpatient patients, without a direct definitional statement about what a mental hospital provides.",
+        "The definition’s reference to “admissions and outpatient care related to conditions such as psychosis” is only partially supported: the packet mentions “first time admissions… were psychosis related” and that patients are seeking mental healthcare at an “outpatient department,” but it does not explicitly connect these elements as a general property of all mental hospitals.",
+        "The definition does not match the packet’s content focus: the packet text discusses prevalence and drug-stock-out coping among patients seeking mental healthcare at an outpatient department, not cognition-related content."
+      ],
+      "definition_hash": "2dbdab840b7ab306f465db1d61607bcbd1b31b6693151b4e1c9b0d3d28c4ce7f",
+      "packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a",
+      "published_packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a",
+      "receipt_id": "c92116fe75a14508834ca37cf307ace9",
+      "request_hash": "734f20ab9459a249630801c701c3f68cb51f41c2648c1b56ea71f640552bcd2b",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

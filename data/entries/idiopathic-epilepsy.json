@@ -1,0 +1,64 @@
+{
+  "id": "idiopathic-epilepsy",
+  "term": "idiopathic epilepsy",
+  "definition": "Idiopathic epilepsy is a neurological seizure disorder diagnosed without an identified underlying cause. In the supplied source, it refers to dogs, and it notes that some affected dogs do not respond to antiseizure medicines and may show abnormal immune activity involving the central nervous system.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8757915"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8757915",
+      "revision": "2022; DOI 10.1371/journal.pone.0262285; article XML SHA-256 9d3669f9006cacbfded07f2753da7836c564d63bc0e4adb951d7f7dd10e6ff98",
+      "scope": "Source record 10.1371/journal.pone.0262285; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0262285"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "634216c1b9aa155e74875d1bc5c50c9c0dde5bcf5c5210a51c159a7788fa48f1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "996f019196884d809f1afe15a82b9fe7",
+    "request_hash": "bbfa09474453211bc39a10201b12332cb8076eada3c20063afa5bdce4f6f37d7",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "0a2625d3789688d80d261e878d69aaca29845fd5987aa4dcbc5169edbfd6f894",
+    "packet_hash": "634216c1b9aa155e74875d1bc5c50c9c0dde5bcf5c5210a51c159a7788fa48f1"
+  },
+  "hash": "bc10dcce2e63a7a6feb7a462c99275767d076d3716c11ef17675d09a30e19608",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports canine idiopathic epilepsy as a neurological disease in dogs, but it does not explicitly support the broader definitional claim that it is a seizure disorder diagnosed without an identified underlying cause.",
+        "The source only proposes a hypothesis about a Th17 cell-mediated immune response or abnormal immune response in some dogs; it does not state as fact that affected dogs may show abnormal immune activity involving the central nervous system."
+      ],
+      "definition_hash": "0a2625d3789688d80d261e878d69aaca29845fd5987aa4dcbc5169edbfd6f894",
+      "packet_hash": "634216c1b9aa155e74875d1bc5c50c9c0dde5bcf5c5210a51c159a7788fa48f1",
+      "published_packet_hash": "634216c1b9aa155e74875d1bc5c50c9c0dde5bcf5c5210a51c159a7788fa48f1",
+      "receipt_id": "3e11b4b869574143bab000670762b83d",
+      "request_hash": "ccb75190f3bbebddeba8f96ab5462b4cf1ae42bd17e625252c97297107b5d32d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that idiopathic epilepsy is “diagnosed without an identified underlying cause,” but the provided packet does not define idiopathic epilepsy in that way (it only discusses “Canine idiopathic epilepsy (IE)” and investigates immune correlates).",
+        "The definition’s wording is broader than the packet regarding treatment response: the packet describes a “subpopulation of dogs with IE” that “does not respond to antiseizure drugs,” but does not support the implication as a general property of “some affected dogs” without additional context.",
+        "The immune-related part is only presented as a hypothesis/possible mechanism: the packet says “Non-responder might have an abnormal immune response,” so the definition’s framing (“may show abnormal immune activity”) is not fully supported as an established finding."
+      ],
+      "definition_hash": "0a2625d3789688d80d261e878d69aaca29845fd5987aa4dcbc5169edbfd6f894",
+      "packet_hash": "634216c1b9aa155e74875d1bc5c50c9c0dde5bcf5c5210a51c159a7788fa48f1",
+      "published_packet_hash": "634216c1b9aa155e74875d1bc5c50c9c0dde5bcf5c5210a51c159a7788fa48f1",
+      "receipt_id": "c5109204e9a94c878e10e25bddda81a4",
+      "request_hash": "0976a53d235ad7a52dd1083dbbd0558c206369442265ab942ab9c99b6e793a1a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "microdata",
+  "term": "microdata",
+  "definition": "Microdata are detailed records about individual people or households that are often used to build realistic synthetic populations for modelling. In this source, they are described as limited because they are collected infrequently, restricted for privacy, and usually released only as small samples for broad geographic areas.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13229344"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13229344",
+      "revision": "2026; DOI 10.1371/journal.pone.0341704; article XML SHA-256 79ab85a3fdd257f76047e6e5439d3add7db692f0e25a060d0421da1996c390d0",
+      "scope": "Source record 10.1371/journal.pone.0341704; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341704"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9280243404d541a58fc8cd9c717ea39f",
+    "request_hash": "6d1800ed2d8873d7a5c9f4694877e682a0f8dc4f731f539af4e8136a3c43ae75",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "505dd9a196fda39c00c1a7940da8a48dedb303112dec010c673bf27dc34542be",
+    "packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8"
+  },
+  "hash": "90340e8598394b748896f95cbb93916130bbffc73c8b582ebfcacf62ecb914a3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that census microdata are used in population synthesis, but it does not explicitly define microdata as detailed records about individual people or households.",
+        "The phrase \"used to build realistic synthetic populations for modelling\" is broader than the packet’s wording about enabling synthetic populations for agent-based models; it should not generalize beyond that context."
+      ],
+      "definition_hash": "505dd9a196fda39c00c1a7940da8a48dedb303112dec010c673bf27dc34542be",
+      "packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8",
+      "published_packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8",
+      "receipt_id": "cfdaa08f73854956aa313020167595cf",
+      "request_hash": "2efdaf4fdd523416843e05d9114c42090bc4aef7bb662db648ec6abe5229f16b",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that microdata are “detailed records about individual people or households,” but the packet does not explicitly define microdata in those terms; it only refers to “census microdata” and “detailed microdata” being unavailable.",
+        "While the packet supports that census microdata are “infrequently collected,” “privacy-restricted,” and “usually available only as small public-use samples at coarse geographic scales,” it does not explicitly connect microdata to being “often used to build realistic synthetic populations,” only that synthetic populations provide demographic foundations for agent-based models and that synthesis methods rely on census microdata."
+      ],
+      "definition_hash": "505dd9a196fda39c00c1a7940da8a48dedb303112dec010c673bf27dc34542be",
+      "packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8",
+      "published_packet_hash": "711214eb106a20d852cebb5fd4324c27721710a231c244f95fcdf14dee8a76f8",
+      "receipt_id": "41b999477b33494ebd82605ddc1d16c8",
+      "request_hash": "3f02fccbc5cf07eb858d7e527f80f5da4bbb54023719cc2c3cc55db10f063647",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

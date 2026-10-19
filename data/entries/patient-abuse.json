@@ -1,0 +1,65 @@
+{
+  "id": "patient-abuse",
+  "term": "patient abuse",
+  "definition": "Patient abuse is abusive or harmful behavior directed at a patient by a healthcare worker or caregiver within a care setting. In mental health services, it can arise from a mix of personal and workplace influences.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12682874"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12682874",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1624859; article XML SHA-256 4ad05b017a0bce3130f8af06f509c79832866dfd477fdb8ab3ad805b651c1512",
+      "scope": "Source record 10.3389/fpsyt.2025.1624859; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1624859"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9ab0161c4e48d3014e6ab0c0ddbdf1e64420f46c2546f702cf0b906b01e0ad70",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6376bd9fd15046cb89c6db5eb342894f",
+    "request_hash": "88e0f035f2dcfe46d678404a960541d10089c1f1cfde4eaffcf4d5602214d761",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "948dfc4b3b7512834e521d652273b6b7cccb2560b709f5b30c4fe012ffb51921",
+    "packet_hash": "9ab0161c4e48d3014e6ab0c0ddbdf1e64420f46c2546f702cf0b906b01e0ad70"
+  },
+  "hash": "d47c4e629c3a872f5b67cf693d5f86c4829123a879b6edc7c52a553cff1031fa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports nurse-to-patient abuse in Japanese psychiatric hospitals, but the definition generalizes to any healthcare worker or caregiver in any care setting.",
+        "“Harmful behavior” is broader than what the packet states; the source only refers to abuse.",
+        "The second sentence is only partly supported: the packet mentions individual and workplace factors, but not the broader claim that this applies generally to mental health services."
+      ],
+      "definition_hash": "948dfc4b3b7512834e521d652273b6b7cccb2560b709f5b30c4fe012ffb51921",
+      "packet_hash": "9ab0161c4e48d3014e6ab0c0ddbdf1e64420f46c2546f702cf0b906b01e0ad70",
+      "published_packet_hash": "9ab0161c4e48d3014e6ab0c0ddbdf1e64420f46c2546f702cf0b906b01e0ad70",
+      "receipt_id": "5e409e8b9921414685af3753835c3a07",
+      "request_hash": "f045be26e330b9c818816f933bb70b9968d92b601f76aaae9d7cac71856d9e82",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only mentions nurse-to-patient abuse; it does not support extending the perpetrator to “caregiver” generally.",
+        "The packet does not explicitly define “abusive or harmful behavior” as the nature of the behavior; it refers to “abuse” without stating that it is “abusive or harmful behavior” directed at the patient.",
+        "The claim that this applies “within a care setting” is supported only insofar as the packet discusses psychiatric hospitals; it is not explicitly generalized beyond that setting in the provided text."
+      ],
+      "definition_hash": "948dfc4b3b7512834e521d652273b6b7cccb2560b709f5b30c4fe012ffb51921",
+      "packet_hash": "9ab0161c4e48d3014e6ab0c0ddbdf1e64420f46c2546f702cf0b906b01e0ad70",
+      "published_packet_hash": "9ab0161c4e48d3014e6ab0c0ddbdf1e64420f46c2546f702cf0b906b01e0ad70",
+      "receipt_id": "239f30ca0d3a48289eb9e5f4c24dd56c",
+      "request_hash": "f55b57ccdfe56299167ce078023fb5f7d2c19ecff89ba757d1f1af6014e6e82f",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

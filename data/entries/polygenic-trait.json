@@ -1,0 +1,60 @@
+{
+  "id": "polygenic-trait",
+  "term": "polygenic trait",
+  "definition": "A polygenic trait is a characteristic that is strongly influenced by genetic background through many genetic contributions rather than a single factor. The packet also indicates that such traits can be shaped by environmental and behavioral influences, as illustrated by body mass index.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8523041"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8523041",
+      "revision": "2021; DOI 10.1371/journal.pone.0258748; article XML SHA-256 395637359e11cffef44c87c3d40ec3dc8d7ba3d3538aea668b0384ad9e338d0b",
+      "scope": "Source record 10.1371/journal.pone.0258748; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0258748"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d9fdf051ced17691e5120fbb9742e835c14b9d09db06f03cca75e11acb5b717c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0a9f3251eff64c3c83d6cba59a71f829",
+    "request_hash": "29ac8a199b1ac6139d5f1ffef68c87c1f20b36937ba9c38f5e547ad38589c0cc",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "d8930a2d061f099f6f8fcb28352935ccaa18e504d63622570f0345f81b31435f",
+    "packet_hash": "d9fdf051ced17691e5120fbb9742e835c14b9d09db06f03cca75e11acb5b717c"
+  },
+  "hash": "95f23f576e09fcbd7b73a16b467b579010fb2d7b1ee1352ba0812d3deab5ac3e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d8930a2d061f099f6f8fcb28352935ccaa18e504d63622570f0345f81b31435f",
+      "packet_hash": "d9fdf051ced17691e5120fbb9742e835c14b9d09db06f03cca75e11acb5b717c",
+      "published_packet_hash": "d9fdf051ced17691e5120fbb9742e835c14b9d09db06f03cca75e11acb5b717c",
+      "receipt_id": "24f0670ba2aa4808aa09695c22b16272",
+      "request_hash": "c9214ae0c10927033894c849ac774a25d8919032d39edae5088bcf90bd96970f",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that the trait is influenced “through many genetic contributions rather than a single factor” is not explicitly supported by the packet text; the packet states BMI is a “highly heritable polygenic trait” but does not describe it as involving many contributions “rather than a single factor.”",
+        "Because of the above, not every substantive claim in the definition is directly supported by the provided packet."
+      ],
+      "definition_hash": "d8930a2d061f099f6f8fcb28352935ccaa18e504d63622570f0345f81b31435f",
+      "packet_hash": "d9fdf051ced17691e5120fbb9742e835c14b9d09db06f03cca75e11acb5b717c",
+      "published_packet_hash": "d9fdf051ced17691e5120fbb9742e835c14b9d09db06f03cca75e11acb5b717c",
+      "receipt_id": "96ee59a55d444d4996ae736dca3187f8",
+      "request_hash": "157ce7944af1cffc594ef0b46820821ae22cdb403e2ba7f2d85a11c36124bd1f",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

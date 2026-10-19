@@ -1,0 +1,61 @@
+{
+  "id": "panel-data",
+  "term": "panel data",
+  "definition": "Panel data are information collected from the same study across multiple time points or waves, allowing researchers to examine how things change over time. In this example, the data came from the 2016, 2018, and 2020 waves of the same family study.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12923019"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12923019",
+      "revision": "2026; DOI 10.1371/journal.pone.0343501; article XML SHA-256 864c71c76c29695d1e2da084111b054eb9f6cb3ba870d01eb7e5f52a85dd20f9",
+      "scope": "Source record 10.1371/journal.pone.0343501; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0343501"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f631d033308a3e1fbd9c628aa8205981af829841ed602ed75b803138e358dad9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2e4d49008c7f4ae0a33599e7c5fc8a69",
+    "request_hash": "ce2e7673fadeb77e69714d4b3b098b3b65208f73bfc44ee5f9714081c01d058f",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "49198fd2e2173237731ad29e42f7a8d56fbd7189379a7ba25c9cfbeaed4c746e",
+    "packet_hash": "f631d033308a3e1fbd9c628aa8205981af829841ed602ed75b803138e358dad9"
+  },
+  "hash": "2b56fb54ed88fa9053986d4a99d7bf325a0032771888264715d265b0f64564ed",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "49198fd2e2173237731ad29e42f7a8d56fbd7189379a7ba25c9cfbeaed4c746e",
+      "packet_hash": "f631d033308a3e1fbd9c628aa8205981af829841ed602ed75b803138e358dad9",
+      "published_packet_hash": "f631d033308a3e1fbd9c628aa8205981af829841ed602ed75b803138e358dad9",
+      "receipt_id": "20051e8f59e449869eabb36228e5604c",
+      "request_hash": "b0b40c1f8dee695aac47abd10003f8dc5f918615cfef5d7ad1b366cf83740ee7",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not explicitly define panel data as “information collected from the same study across multiple time points or waves,” nor does it state that this design “allow[s] researchers to examine how things change over time.”",
+        "While the packet mentions that the paper “draw[s] on panel data from the 2016, 2018, and 2020 waves of the China Family Panel Studies (CFPS),” it does not support the broader general characterization used in the definition’s first sentence.",
+        "Because the requested sense of “panel data” is not directly supported by the packet’s wording, the definition includes unsupported generalization."
+      ],
+      "definition_hash": "49198fd2e2173237731ad29e42f7a8d56fbd7189379a7ba25c9cfbeaed4c746e",
+      "packet_hash": "f631d033308a3e1fbd9c628aa8205981af829841ed602ed75b803138e358dad9",
+      "published_packet_hash": "f631d033308a3e1fbd9c628aa8205981af829841ed602ed75b803138e358dad9",
+      "receipt_id": "fb85dbea983942cb97950cd88dfff1ce",
+      "request_hash": "8258abb057707e32d6a946f7f43d0e8cc701fa3727c49986214cdcc08f6967b5",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

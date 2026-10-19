@@ -1,0 +1,61 @@
+{
+  "id": "splitting",
+  "term": "splitting",
+  "definition": "In this source, splitting refers to sample splitting, a statistical approach used after selecting variables from data. The data are divided into parts so one part is used for selection and another for inference, helping reduce bias from drawing conclusions after a data-driven choice.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13289528"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13289528",
+      "revision": "2026; DOI 10.1186/s12874-026-02887-0; article XML SHA-256 1714b1ecd4f92ba6b3c15af9bc71b8c58c195011203761012cd1fc59bd5ac646",
+      "scope": "Source record 10.1186/s12874-026-02887-0; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-026-02887-0"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "755e78461bbc43dcb98f14b2514d1749",
+    "request_hash": "fd511dae0cf9d8bbc2dbdedfea948a6b9f8216068f33690fe2d6bb2f3abd89f2",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "e5163612030bc027588f741d360dc8b4e07d50d36251a54a7aca68b942796b50",
+    "packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77"
+  },
+  "hash": "3c630dca29e52aba3340ec970dbc6a095567d28ee10a51cdaa6728c9f6bb9988",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e5163612030bc027588f741d360dc8b4e07d50d36251a54a7aca68b942796b50",
+      "packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77",
+      "published_packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77",
+      "receipt_id": "1274496c8fd6438d9dbd329e30d6525d",
+      "request_hash": "631f09e1e95f1b85e84d373b58882ca14bb0084206c9a75ad8d7dc9476e2c0be",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet names sample splitting as one of the procedures considered after variable selection, but it does not define splitting as dividing the data into separate parts for selection and inference.",
+        "The claim that splitting helps reduce bias from a data-driven choice is not stated in the packet; the source only says naive post-selection inference may be biased and misleading.",
+        "The definition adds methodological detail not supported by the source text, so the requested sense is only partially substantiated."
+      ],
+      "definition_hash": "e5163612030bc027588f741d360dc8b4e07d50d36251a54a7aca68b942796b50",
+      "packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77",
+      "published_packet_hash": "86003a9f4c9c1734caf22a787762f48bef55ceb0abd908dec2bf8a2c4743da77",
+      "receipt_id": "4874e3be1db74f83915c25fb37eb5c6e",
+      "request_hash": "c2cfac5ca878e3cdfec7a1f0a2b14dbdfdf712c1553e4eafab2c39f60fbb9f2d",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

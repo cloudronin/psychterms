@@ -1,0 +1,64 @@
+{
+  "id": "self-report",
+  "term": "self-report",
+  "definition": "Self-report refers to a way of measuring symptoms in which people provide information about their own experiences by answering items on a questionnaire or scale. In this context, it is used to screen for and estimate the severity of depression-related symptoms based on the person’s own responses.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13640320"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13640320",
+      "revision": "2026; DOI 10.1186/s40359-026-04514-5; article XML SHA-256 59c1d98fe8e40fef74f22eac509115375c628e818a5001e86de8d46646b21594",
+      "scope": "Source record 10.1186/s40359-026-04514-5; pinned source text",
+      "locator": "https://doi.org/10.1186/s40359-026-04514-5"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6be9d952989b783099a2bc7dd7c1034f06dcd18a4ed9987d2a41180e32208a73",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dfbf7054c6614eb7a2d4549651591237",
+    "request_hash": "a9e9ae102653841aed3d1a54a8f095f8cf9f6d3f1f3023c0127d6d780ca50d60",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "f9fc801d102917e54c2bf2fe3705d516f8b23602cd46a386ceaec7eda5e96f66",
+    "packet_hash": "6be9d952989b783099a2bc7dd7c1034f06dcd18a4ed9987d2a41180e32208a73"
+  },
+  "hash": "59e1b847b6e377277fbd2638880f528e6e61ea805352646ef15206d5e3e9a847",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the IDS-SR as a self-report instrument, but it does not support a general dictionary definition of “self-report” as a measurement method in which people answer questionnaire or scale items about their own experiences.",
+        "The added statement that it is used to screen for and estimate the severity of depression-related symptoms is specific to the IDS-SR and is not supported as the general sense of the term “self-report.”",
+        "The definition goes beyond the packet by generalizing from one instrument to the broader term, and it also shifts the sense toward depression screening rather than the cognition-related entry requested."
+      ],
+      "definition_hash": "f9fc801d102917e54c2bf2fe3705d516f8b23602cd46a386ceaec7eda5e96f66",
+      "packet_hash": "6be9d952989b783099a2bc7dd7c1034f06dcd18a4ed9987d2a41180e32208a73",
+      "published_packet_hash": "6be9d952989b783099a2bc7dd7c1034f06dcd18a4ed9987d2a41180e32208a73",
+      "receipt_id": "af54d329de984fbfa164fe973105372d",
+      "request_hash": "4ffa1c5f8ad0b6bc8fa20b85dada4feeff7bac26833ecfca6b0c5fb0e256ebb8",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence makes a general claim that self-report is a method where people provide information about their own experiences; the packet does not explicitly describe self-report in that way (it only describes the IDS-SR instrument as a “self-report instrument” and “scale”).",
+        "Although the packet supports that the specific instrument (IDS-SR) is designed for “screening and assessing depression severity,” it does not support the broader wording that self-report, in general, is “used to screen for and estimate the severity of depression-related symptoms” based on people’s own responses."
+      ],
+      "definition_hash": "f9fc801d102917e54c2bf2fe3705d516f8b23602cd46a386ceaec7eda5e96f66",
+      "packet_hash": "6be9d952989b783099a2bc7dd7c1034f06dcd18a4ed9987d2a41180e32208a73",
+      "published_packet_hash": "6be9d952989b783099a2bc7dd7c1034f06dcd18a4ed9987d2a41180e32208a73",
+      "receipt_id": "2e4cbe15e0074d56b1c3431da9ccd1e3",
+      "request_hash": "35ae16d02dc17b5e77a3d2fb72f9fa6f3d4afcc9badf0c7a5f595519e4e777d1",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

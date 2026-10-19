@@ -1,0 +1,63 @@
+{
+  "id": "spectral-envelope",
+  "term": "spectral envelope",
+  "definition": "A spectral envelope is the overall shape that sets how strong the different frequency components of a sound are. In the Shepard tones described here, it is a fixed bell-shaped pattern centered on a particular frequency range, which changes the tones’ spectral similarity and can influence pitch judgments.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5953344"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5953344",
+      "revision": "2018; DOI 10.3389/fpsyg.2018.00677; article XML SHA-256 2ea16923bfe81ae879d1e037f756cf5065ea76d226f718d242e0d2b6a513bd1f",
+      "scope": "Source record 10.3389/fpsyg.2018.00677; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2018.00677"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4569dacc8f0589cbe4bf20e4afd8ec057036be75ba659ab822fa79619b89c894",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "741b3d26e55b4690b1e0a9e2bcd82667",
+    "request_hash": "6ddde62ec0f8da76aa1380e40c1d38936d4d2211aeade075ea928ddac12c2623",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "7456ae24e6e4b54489dc8b587f25af7880be7c988fc7eb8e1d93b916e9b35a79",
+    "packet_hash": "4569dacc8f0589cbe4bf20e4afd8ec057036be75ba659ab822fa79619b89c894"
+  },
+  "hash": "353d9f732d8f766def37a46f0e1a46be2ddff75caba642bc3b693116a3c532dd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The claim that the spectral envelope \"changes the tones’ spectral similarity\" is not directly supported by the packet; the packet says Shepard tones are generated under fixed bell-shaped spectral envelopes and discusses spectrally similar/dissimilar adaptor-target combinations, but does not state that the envelope itself changes spectral similarity.",
+        "The definition adds a causal influence on pitch judgments that is only partly supported in this packet and should not be generalized beyond the specific Shepard-tone experiment described."
+      ],
+      "definition_hash": "7456ae24e6e4b54489dc8b587f25af7880be7c988fc7eb8e1d93b916e9b35a79",
+      "packet_hash": "4569dacc8f0589cbe4bf20e4afd8ec057036be75ba659ab822fa79619b89c894",
+      "published_packet_hash": "4569dacc8f0589cbe4bf20e4afd8ec057036be75ba659ab822fa79619b89c894",
+      "receipt_id": "06d7bf80be6d49f884abfe0d46508510",
+      "request_hash": "b6b1a63c54e1563f9f4366e0cedf6a7bbbc680036c85e73b6c0d43ec09d1bb26",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the spectral envelope “changes the tones’ spectral similarity”; the packet discusses “spectrally consistent (A3–A3, C6–C6) and inconsistent (A3–C6, C6–A3) adaptor-target combinations,” but it does not state that the envelope specifically changes “spectral similarity.”",
+        "The packet supports that Shepard tones use a “fixed bell-shaped spectral envelope” centered at particular frequencies (A3 and C6) to generate component amplitudes, and that this relates to pitch/judgment effects (e.g., relative pitch height judgments). However, because the “spectral similarity” claim is not explicitly supported, the full definition cannot be accepted."
+      ],
+      "definition_hash": "7456ae24e6e4b54489dc8b587f25af7880be7c988fc7eb8e1d93b916e9b35a79",
+      "packet_hash": "4569dacc8f0589cbe4bf20e4afd8ec057036be75ba659ab822fa79619b89c894",
+      "published_packet_hash": "4569dacc8f0589cbe4bf20e4afd8ec057036be75ba659ab822fa79619b89c894",
+      "receipt_id": "bb7647bdf27141cc8d237f538da4aa9a",
+      "request_hash": "c81f9ad3f20c20aa18fe1bf11740dd80bc39ede67765641e549a518da512a62a",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

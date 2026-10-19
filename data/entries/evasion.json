@@ -1,0 +1,63 @@
+{
+  "id": "evasion",
+  "term": "evasion",
+  "definition": "Evasion is the process of avoiding or escaping a defensive response. In this packet, it refers to a virus using strategies that disrupt the host immune signaling system and reduce antiviral responses so infection can continue.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13581210"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13581210",
+      "revision": "2026; DOI 10.1371/journal.pone.0355499; article XML SHA-256 0826fc2ba166bf934eb650ae9af3f145d8dc54f93e8b9c7e748d485a480e5c92",
+      "scope": "Source record 10.1371/journal.pone.0355499; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355499"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d555453f2e0b4877868056f226902d3f0b3a77aa1ca87108830e597c555e943b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e24eeb8449bd43d181a3b7def9e21400",
+    "request_hash": "f5388bd00bfb99c17553e48f2e3304b77c4c36cabae6edf3d76557b357a40971",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "369bb30ba57ddf455d74ee4468c9740ad8b94bd1ce6c97df18f1905b5204f674",
+    "packet_hash": "d555453f2e0b4877868056f226902d3f0b3a77aa1ca87108830e597c555e943b"
+  },
+  "hash": "2f8ab7b3003935bd79d040ec256c13a5d191cb1a8283ac56215e743078aff512",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“Evasion is the process of avoiding or escaping a defensive response”) is not stated or supported in the provided packet, which instead discusses viral immune evasion mechanisms in HSV-1.",
+        "The provided packet content supports a specific meaning of immune evasion (UL21 disrupts cGAS-STING and suppresses type-I interferon responses, facilitating replication), but the definition presents a broader, general term definition that the packet does not supply."
+      ],
+      "definition_hash": "369bb30ba57ddf455d74ee4468c9740ad8b94bd1ce6c97df18f1905b5204f674",
+      "packet_hash": "d555453f2e0b4877868056f226902d3f0b3a77aa1ca87108830e597c555e943b",
+      "published_packet_hash": "d555453f2e0b4877868056f226902d3f0b3a77aa1ca87108830e597c555e943b",
+      "receipt_id": "9a294c1bb39f495b89d536b3c97bff60",
+      "request_hash": "69a61d81c64fb98bbd2bb2c498bb6d34ec9767db13315c7a0747a96fb08a17d3",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: the source is about HSV-1 immune evasion and antiviral signaling, not a learning/psychology sense of the term.",
+        "The definition’s opening generalization (“the process of avoiding or escaping a defensive response”) is broader than what the packet states and is not supported as a general definition in this source."
+      ],
+      "definition_hash": "369bb30ba57ddf455d74ee4468c9740ad8b94bd1ce6c97df18f1905b5204f674",
+      "packet_hash": "d555453f2e0b4877868056f226902d3f0b3a77aa1ca87108830e597c555e943b",
+      "published_packet_hash": "d555453f2e0b4877868056f226902d3f0b3a77aa1ca87108830e597c555e943b",
+      "receipt_id": "f9979245c68a4a85a01a738f55670020",
+      "request_hash": "2d0d5a882b1b55c207da618f7d1ad1ab0842c17fa4b6615bd22d5fcb0ba35174",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

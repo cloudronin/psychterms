@@ -1,0 +1,64 @@
+{
+  "id": "delivery",
+  "term": "delivery",
+  "definition": "In this context, delivery means the transport of antigens or other cell contents into another cell by extracellular vesicles. It refers to those vesicles carrying material to dendritic cells so it can be taken up and later presented to activate immune responses.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13436743"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13436743",
+      "revision": "2026; DOI 10.1371/journal.pone.0355054; article XML SHA-256 7de9456b0239610a53cef6afd4d89b7368ad3493f2d4e5cc207e35a38dafb40e",
+      "scope": "Source record 10.1371/journal.pone.0355054; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355054"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1f5048ad6f9533aa6168eebe7467c34e4245e8f97f059bb23d4e697d4f89d937",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b490943dcbcd4906a5de1e20e65bd33b",
+    "request_hash": "ddf0f14caf70de34363ae2d9a02531f5f2f03284660554fb33122d770e408088",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "0ff4f90157dad677bd3dac14c0298fcc2e959e50237854d87e9d6d44574ae6fc",
+    "packet_hash": "1f5048ad6f9533aa6168eebe7467c34e4245e8f97f059bb23d4e697d4f89d937"
+  },
+  "hash": "56e7ff0cd809f13a0a69d935515aa539825879330c0596cac55903ebd265b362",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not supported: the packet is about extracellular vesicle uptake and antigen presentation in dendritic cells, not cognition/psychology.",
+        "The definition adds a broader generalization about ‘other cell contents’ and immune activation that goes beyond the packet’s wording; the packet specifically discusses sEV-delivered antigens, cytoplasmic delivery, uptake, and cross-presentation in DCs."
+      ],
+      "definition_hash": "0ff4f90157dad677bd3dac14c0298fcc2e959e50237854d87e9d6d44574ae6fc",
+      "packet_hash": "1f5048ad6f9533aa6168eebe7467c34e4245e8f97f059bb23d4e697d4f89d937",
+      "published_packet_hash": "1f5048ad6f9533aa6168eebe7467c34e4245e8f97f059bb23d4e697d4f89d937",
+      "receipt_id": "b496ed153cf34b6d8ffaab607b297588",
+      "request_hash": "ea5ebc229011aa74046519d6932dd7ceb6ca25b4d6f5b414b51f42af361c92a1",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet provides immunology/EV uptake and antigen cross-presentation details, not anything within the specified field \"cognition\".",
+        "The definition includes “antigens or other cell contents,” but the packet specifically discusses “antigen delivery” and antigen cross-presentation; it does not support that “other cell contents” are included in the meaning as stated.",
+        "The rest of the definition is largely consistent with the packet (EVs carrying antigen to dendritic cells for uptake and antigen presentation), but the unsupported “other cell contents” and the field mismatch are substantive issues."
+      ],
+      "definition_hash": "0ff4f90157dad677bd3dac14c0298fcc2e959e50237854d87e9d6d44574ae6fc",
+      "packet_hash": "1f5048ad6f9533aa6168eebe7467c34e4245e8f97f059bb23d4e697d4f89d937",
+      "published_packet_hash": "1f5048ad6f9533aa6168eebe7467c34e4245e8f97f059bb23d4e697d4f89d937",
+      "receipt_id": "165200e6c82744a0a33e92dc587361bf",
+      "request_hash": "5d0a6f00e61b0e5ff335b83e6f34fff2e1b795a0943de592ae8f49be6967e965",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

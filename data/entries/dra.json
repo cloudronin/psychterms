@@ -1,0 +1,60 @@
+{
+  "id": "dra",
+  "term": "DRA",
+  "definition": "DRA stands for dopamine receptor agonists, a type of medication considered in this study as a second-line add-on to levodopa for people with Parkinson’s disease. Here, it is one of the two treatment options compared when building individualized therapy decision rules.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13396011"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13396011",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1859515; article XML SHA-256 ad7b17e34549740c560ee2bb3c183cbf7c2102d2c472c40c1358526511243470",
+      "scope": "Source record 10.3389/fnhum.2026.1859515; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1859515"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9de7eaefc2a2404fae3ae3d3ec0fccc7",
+    "request_hash": "21caa5ceeaec3d43dc5934e073f81586e2ed4914fb177e784d75033754f87259",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "fbdd5525b6f82d8975ab61d70915cf32cb1375dabf7011b2095a2232916f8b6b",
+    "packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490"
+  },
+  "hash": "ad98413131e16cda1034b78c07ecef7a0b4baf652634845ab659d770d83b2e06",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fbdd5525b6f82d8975ab61d70915cf32cb1375dabf7011b2095a2232916f8b6b",
+      "packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490",
+      "published_packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490",
+      "receipt_id": "29ece243019d4d6d907d7730690a576c",
+      "request_hash": "15a5296911c6d8281b842df4ebf8d6fee56c715d2a133e5c094398a5eff9a158",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that “DRA stands for dopamine receptor agonists,” but the provided packet does not explicitly state this acronym expansion.",
+        "All other substantive elements in the definition (that DRA is used as a second-line option to supplement levodopa in Parkinson’s disease and is compared with MAO-B inhibitors within individualized therapy decision-rule learning) are supported by the packet."
+      ],
+      "definition_hash": "fbdd5525b6f82d8975ab61d70915cf32cb1375dabf7011b2095a2232916f8b6b",
+      "packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490",
+      "published_packet_hash": "d1dd784d90e71c4b2c76116c46313b6aeb6a0a3249856f8f2fc0bc837236c490",
+      "receipt_id": "27dd3a8367cd4f6d80fda4e646392c83",
+      "request_hash": "6be37eaa667e8aaea4319c7321d545778d4424208d7cb2cd3b627b58a4e5fa3e",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

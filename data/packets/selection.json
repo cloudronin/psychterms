@@ -1,0 +1,26 @@
+{
+  "id": "selection",
+  "term": "selection",
+  "source": "article-pmc13340120",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-026-02930-0",
+  "revision": "2026; DOI 10.1186/s12874-026-02930-0; article XML SHA-256 884ac8eccb11cb653cccf6466327754061572f46afd6a9f926ca2f0b4adca15b",
+  "source_snapshot_sha256": "884ac8eccb11cb653cccf6466327754061572f46afd6a9f926ca2f0b4adca15b",
+  "url": "https://doi.org/10.1186/s12874-026-02930-0",
+  "text": "might raise the variance of the predictions, the identification of predictor variables is a crucial aspect of developing a CPM. Indeed, it is important not only to select the relevant variables, but also the choice of the model plays a central role. On the one hand, conventional linear and generalized linear regression models have proven their value in biostatistics. They can also be used as CPMs in combination with variable selection strategies like stepwise selection. Regularized regression methods like lasso [ 6 ] or elastic net [ 7 ] conduct variable selection and address overfitting by shrinking the estimated predictor effects toward the null. On the other hand, machine learning (ML) algorithms such as random forest [ 8 ] or gradient boosting [ 9 – 11 ] with intrinsic variable selection are alternatives to cope with these tasks. Both approaches have their strengths and weaknesses. Regression-based models are well-understood and interpretable, but they demand certain assumptions and requirements about the data, such as a linear relation between the predictors and the outcome. In real data situations, regression models often require adaptions or additional steps, e.g., transformations of the variables and the outcome variable to attain linear relations or imputation of missing values. Without conducting the appropriate adjustments or methods, the regression model will likely suffer from misspecification. ML models are designed to manage complex, e.g., non-linear or non-additive relations, and can handle many candidate variables. Hence, the model architecture and the functional forms are inferred directly from the data, reducing the need for decisions to be made by the user.",
+  "source_label": "Variable selection for clinical prediction models in low-dimensional data - a simulation study comparing traditional regression and machine learning methods",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    3227,
+    4932
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "b77f023958e678dea8fc33cba80937509c1a76c296dea952a9372febcdc85c50"
+}

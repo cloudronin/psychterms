@@ -1,0 +1,26 @@
+{
+  "id": "closed-loop-system",
+  "term": "closed-loop system",
+  "source": "article-pmc12867270",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0340394",
+  "revision": "2026; DOI 10.1371/journal.pone.0340394; article XML SHA-256 f9195cb29efc55fdbf997e6dfcf4ffa246ab3d5835522df9244cfab526b76c28",
+  "source_snapshot_sha256": "f9195cb29efc55fdbf997e6dfcf4ffa246ab3d5835522df9244cfab526b76c28",
+  "url": "https://doi.org/10.1371/journal.pone.0340394",
+  "text": "This paper proposes the PGD model for UAV path planning in complex terrain, addressing key challenges such as high-dimensional state processing, blind path exploration, and poor cross-scene adaptability. The PGD model integrates Transformer, GAN, and DDPG, forming a “compression-generation-optimization\" closed-loop system. The Transformer module compresses high-dimensional terrain data, alleviating training bottlenecks, while the GAN module generates high-quality candidate paths, reducing ineffective exploration. DDPG then optimizes the path planning strategy efficiently. Experimental results demonstrate the superior performance of PGD on the UAVDT (suburban) and AirSim (canyon) datasets. In terms of path length ( P l ), PGD achieves 20.0m/22.0m, compared to baseline models such as PPO-DRL (23.8m) and Soft Actor-Critic (24.0m). PGD also outperforms in collision rate ( C r ) with 2.5%/3.0% and computational efficiency ( T c ) with 13.5s/16.0s, respectively. The PGD model shows significant improvements in path planning efficiency and adaptability, particularly in high-complexity terrains. Compared to traditional models, PGD’s multi-module synergy enhances feature correlation and physical path constraints, offering a novel framework for intelligent planning in complex environments. Future work will focus on enhancing model adaptability to extreme weather and multi-agent collaborative scenarios.",
+  "source_label": "Path planning for UAVs in complex terrain based on the PGD model: Algorithmic improvements combining feature extraction and reinforcement learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1414
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd"
+}

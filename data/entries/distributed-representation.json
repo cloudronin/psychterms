@@ -1,0 +1,60 @@
+{
+  "id": "distributed-representation",
+  "term": "distributed representation",
+  "definition": "A distributed representation is a data-driven way of encoding an item as a vector in many dimensions rather than with a single hand-chosen feature. This kind of representation is learned from data so that the resulting features capture useful properties of the item and can improve later analysis or classification.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4640716"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4640716",
+      "revision": "2015; DOI 10.1371/journal.pone.0141287; article XML SHA-256 9484645d02955d0ac412e4dd0c787e9b898e3e18f9e7ef529bde6a472b018a34",
+      "scope": "Source record 10.1371/journal.pone.0141287; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0141287"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5135ae403892476d8cf61c037f8b28d4",
+    "request_hash": "4bb3d162b4da883427086797abd89991307d013017bcaaf2f880438eacc7a7bb",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "6eb8094a03247d083f28d271e471ae39c2cf651e6ae822e68b10918fb97baeae",
+    "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab"
+  },
+  "hash": "2e78273fe9262a8fcaa56b92704c6c1dd18d252481d0cd819a29b5c4b4e53cb2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6eb8094a03247d083f28d271e471ae39c2cf651e6ae822e68b10918fb97baeae",
+      "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab",
+      "published_packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab",
+      "receipt_id": "59a5bf2f2c764d1795bfa4b32bb74588",
+      "request_hash": "32364766068444dcf7d94a9f44a93fd286c5384ead94ec964f6ed724888f9c4e",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an unsupervised, data-driven embedding into an n-dimensional vector, but it does not support the contrast with “a single hand-chosen feature.”",
+        "The source is specific to biological sequences and feature extraction in that context; the definition broadens the term to any “item” without support from the packet."
+      ],
+      "definition_hash": "6eb8094a03247d083f28d271e471ae39c2cf651e6ae822e68b10918fb97baeae",
+      "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab",
+      "published_packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab",
+      "receipt_id": "57cdccf5cfd14b2a9d0aeb25a347c79d",
+      "request_hash": "028a506a4d145af68ffc5c46e8c477ef6553619ecd57b3e7f8397bf14af7ab6b",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

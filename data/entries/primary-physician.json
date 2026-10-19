@@ -1,0 +1,64 @@
+{
+  "id": "primary-physician",
+  "term": "primary physician",
+  "definition": "A primary physician is a doctor who receives referrals about clinically relevant findings for further medical follow-up, as distinct from a clinical specialist.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4780781"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4780781",
+      "revision": "2016; DOI 10.1371/journal.pone.0151080; article XML SHA-256 60932b8fc6a90d48db14b3e916b88680f86113398dc85d86c4a240c63538f150",
+      "scope": "Source record 10.1371/journal.pone.0151080; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0151080"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3edd514630818aa8d6421a278dfc8ced40401e04645aafdf4d62852fa10659d9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "36eec817b83b4806862ed14a456dea72",
+    "request_hash": "d019e8502d1e7955654d3d1d0027a02e15610c7ba3ca6d6ec4226011c581c156",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "681dd4fbdac8a1819e6812b073365e13f2f178cd0db6e4232de60b62e511cb40",
+    "packet_hash": "3edd514630818aa8d6421a278dfc8ced40401e04645aafdf4d62852fa10659d9"
+  },
+  "hash": "724d010fc43f4384b9c9d684260522521558a2bab7a3d7df97752c7190495422",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a primary physician as a doctor; it only says clinically relevant incidental findings were referred to a primary physician or clinical specialist.",
+        "“For further medical follow-up” is an inference beyond the source text, which only mentions referral and later assessment of follow-up types."
+      ],
+      "definition_hash": "681dd4fbdac8a1819e6812b073365e13f2f178cd0db6e4232de60b62e511cb40",
+      "packet_hash": "3edd514630818aa8d6421a278dfc8ced40401e04645aafdf4d62852fa10659d9",
+      "published_packet_hash": "3edd514630818aa8d6421a278dfc8ced40401e04645aafdf4d62852fa10659d9",
+      "receipt_id": "218a3faeee034ad2b57b6f8c75e573b4",
+      "request_hash": "1564e18fc75793cade957b91183d9ffb79b8e7cf766ff0b8f66bdb965d65afd4",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition of “primary physician”; it only mentions that incidental intracranial findings were referred to “primary physician or clinical specialist.”",
+        "The definition’s specific wording (“receives referrals about clinically relevant findings for further medical follow-up, as distinct from a clinical specialist”) is not explicitly supported by the packet text provided.",
+        "No information in the packet clarifies what “primary physician” means operationally (e.g., role in follow-up) beyond the fact that referrals go to either a primary physician or a specialist."
+      ],
+      "definition_hash": "681dd4fbdac8a1819e6812b073365e13f2f178cd0db6e4232de60b62e511cb40",
+      "packet_hash": "3edd514630818aa8d6421a278dfc8ced40401e04645aafdf4d62852fa10659d9",
+      "published_packet_hash": "3edd514630818aa8d6421a278dfc8ced40401e04645aafdf4d62852fa10659d9",
+      "receipt_id": "ee89c388b8074ccd9dc658ebf0405b03",
+      "request_hash": "06e28d9773a721772a4bbfeb5720a82d5a99ca250267eba4eaae637ba118121d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

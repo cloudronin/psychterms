@@ -1,0 +1,60 @@
+{
+  "id": "prior-distribution",
+  "term": "prior distribution",
+  "definition": "A prior distribution is the brain’s learned expectation about how likely different task outcomes are before current sensory information is taken into account. In Bayesian estimation, this expectation is combined with incoming sensory signals to reduce the impact of sensory noise.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3418635"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3418635",
+      "revision": "2012; DOI 10.3389/fpsyg.2012.00276; article XML SHA-256 9ee452764ce83b7b4a4cc1ed30b91507fb1bdb46fea67c196dd38013903932f7",
+      "scope": "Source record 10.3389/fpsyg.2012.00276; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2012.00276"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8654f85ea0ba4e34a529f39f6b37f79c1a4929a3480e3e4630f0aed301fa0472",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b322aa9327a9420b80eaef6ed7781085",
+    "request_hash": "364a58f61b4e1383828e5d76149a0d626175694496fb0369dffc99949d159e22",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "17bb3bb070ae5427475408a4e4b87a361d798de2aefc0382b107a63df310d7aa",
+    "packet_hash": "8654f85ea0ba4e34a529f39f6b37f79c1a4929a3480e3e4630f0aed301fa0472"
+  },
+  "hash": "6fd591ab7f95d7101d175517bea75ab944daf572daa0e8f413e99bceb8e48aa4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "17bb3bb070ae5427475408a4e4b87a361d798de2aefc0382b107a63df310d7aa",
+      "packet_hash": "8654f85ea0ba4e34a529f39f6b37f79c1a4929a3480e3e4630f0aed301fa0472",
+      "published_packet_hash": "8654f85ea0ba4e34a529f39f6b37f79c1a4929a3480e3e4630f0aed301fa0472",
+      "receipt_id": "e89764c7e41d45b68ae8a7ca80c0b0cc",
+      "request_hash": "7cd79c761beee9fc297d82e2dc2e9ba8094eaec54ae005bcd4817889152a003c",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence adds details not explicitly supported by the packet—specifically that the prior distribution is a “brain’s learned expectation about how likely different task outcomes are,” and that it is about “different task outcomes.” The packet only states that “the brain acquires the prior distribution of a task” (without specifying outcome-likelihood or calling it an explicit learned expectation about likelihoods).",
+        "While the packet supports combining priors with sensory signals to “minimize the effect of sensory noise,” the definition’s wording goes beyond the packet by tying the prior to “different task outcomes” and “before current sensory information” in a more specific way than is stated."
+      ],
+      "definition_hash": "17bb3bb070ae5427475408a4e4b87a361d798de2aefc0382b107a63df310d7aa",
+      "packet_hash": "8654f85ea0ba4e34a529f39f6b37f79c1a4929a3480e3e4630f0aed301fa0472",
+      "published_packet_hash": "8654f85ea0ba4e34a529f39f6b37f79c1a4929a3480e3e4630f0aed301fa0472",
+      "receipt_id": "19718d80bd4346559ac077265af5fac8",
+      "request_hash": "087d9941bcf44aa62b3be5c37206bbdc199c0bdef068637a49db09724dd9b05a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

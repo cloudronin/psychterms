@@ -1,0 +1,63 @@
+{
+  "id": "thermoregulation",
+  "term": "thermoregulation",
+  "definition": "Thermoregulation is the control or maintenance of body temperature. In this source, it refers especially to behaviors such as making clothing to help people stay warm or adapt to cold conditions.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12962513"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12962513",
+      "revision": "2026; DOI 10.1371/journal.pone.0343888; article XML SHA-256 8dd285822be863f949870a9657e9caef5040269b58764af4428d499dc6f95056",
+      "scope": "Source record 10.1371/journal.pone.0343888; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0343888"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6f2349a6f00fe54fd7b173f30e0e3dbbd561e1c5ae98f33a1a83d7d9740e3156",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5c221d58ecfa4ec584cdd0e012efd96c",
+    "request_hash": "8a1b321fd97df8947a9abd3915fd3aece7029d47834f2e735be11e3f3c8f204e",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "25112d83695d82ff7152aa173997b7a28e2ae9587a720de8e2270ef442c7da62",
+    "packet_hash": "6f2349a6f00fe54fd7b173f30e0e3dbbd561e1c5ae98f33a1a83d7d9740e3156"
+  },
+  "hash": "a6d5d21f64832f344b037c28bd7d16da0c90d219a579553384c64ebd343b36db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Thermoregulation is the control or maintenance of body temperature.”) is not explicitly stated in the provided packet text; the packet uses the term in connection with activity choices and temperature effects, but does not define thermoregulation in those terms.",
+        "The second sentence is partly supported (the packet highlights clothing production as a prevalent “thermoregulation” activity and links perforator observations to cold vs warm temperatures), but because the definition’s core meaning/control-and-maintenance claim is unsupported, the overall definition cannot be passed."
+      ],
+      "definition_hash": "25112d83695d82ff7152aa173997b7a28e2ae9587a720de8e2270ef442c7da62",
+      "packet_hash": "6f2349a6f00fe54fd7b173f30e0e3dbbd561e1c5ae98f33a1a83d7d9740e3156",
+      "published_packet_hash": "6f2349a6f00fe54fd7b173f30e0e3dbbd561e1c5ae98f33a1a83d7d9740e3156",
+      "receipt_id": "781c4ee7acee427582eeaf9cb53520ae",
+      "request_hash": "76550abd717387b0f608a4f06dbfe1d997908c7c36971f804d77e95941fa92ac",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports thermoregulation as a hypothesized driver of perforator use and clothing manufacture in colder temperatures, but it does not define thermoregulation as the general control or maintenance of body temperature.",
+        "The definition adds a broad, standard biological meaning that is not established by the supplied source packet; only the source-specific use should be supported here."
+      ],
+      "definition_hash": "25112d83695d82ff7152aa173997b7a28e2ae9587a720de8e2270ef442c7da62",
+      "packet_hash": "6f2349a6f00fe54fd7b173f30e0e3dbbd561e1c5ae98f33a1a83d7d9740e3156",
+      "published_packet_hash": "6f2349a6f00fe54fd7b173f30e0e3dbbd561e1c5ae98f33a1a83d7d9740e3156",
+      "receipt_id": "9a485d07c3f7486fbdb90303259421c5",
+      "request_hash": "90b4c404ab7ba7b5a6bb2e62bb261fe51345a0ded1a888c4579e8404e769f320",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

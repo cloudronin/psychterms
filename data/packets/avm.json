@@ -1,0 +1,26 @@
+{
+  "id": "avm",
+  "term": "AVM",
+  "source": "article-pmc12768354",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0336851",
+  "revision": "2026; DOI 10.1371/journal.pone.0336851; article XML SHA-256 ccd6130757360a171e41054d19cbc1aa58ed736cce90b17be96a9c562ba90354",
+  "source_snapshot_sha256": "ccd6130757360a171e41054d19cbc1aa58ed736cce90b17be96a9c562ba90354",
+  "url": "https://doi.org/10.1371/journal.pone.0336851",
+  "text": "Although state-of-the-art sensors, such as LiDAR, radar, monocular camera, along with detection algorithms for intelligent vehicles, generally exhibit superior performance in object detection and recognition, they still encounter significant challenges in detecting near obstacles due to the blind sensing areas. To address this issue, we propose a near obstacle detection method named NOD-AVM (near object detection based on around view monitoring), which utilizes the four wide-angle cameras of the AVM. From the four wide-angle cameras of the AVM, a total of four NOD-AVMs were developed, whose sensing areas are the intersections of two adjacent cameras. In the context of NOD-AVMs, the application of the inverse perspective mapping (IPM) is used to project images from adjacent cameras onto the ground plane. By analyzing the difference between the two adjacent IPM images, the system can ascertain the presence of obstacles on the ground plane. Once an obstacle is detected, the IPM image also allows us to estimate the distance with respect to the ego-vehicle. To validate the feasibility and effectiveness of the proposed NOD-AVM, we have conducted experiments using real-world data collected by a prototype intelligent vehicle in both campus and urban road environments. Experimental results demonstrate that the proposed method can efficiently detect both static and dynamic obstacles near the ego-vehicle and accurately locate them. Dataset and code were uploaded as Support information.",
+  "source_label": "Near obstacles detection by inverse perspective mapping of AVM for intelligent vehicles",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1499
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "bd5c035e3dae30a4e59c90d2c8654fe5fc2d648b9f3c4670e22b57a18bb31188"
+}

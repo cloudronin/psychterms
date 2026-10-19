@@ -1,0 +1,26 @@
+{
+  "id": "object-identity",
+  "term": "object identity",
+  "source": "article-pmc9239439",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0270667",
+  "revision": "2022; DOI 10.1371/journal.pone.0270667; article XML SHA-256 107e5fb8c19991ac5c3684d567c15a94cb6fd896130958bcd52353d7adfcc625",
+  "source_snapshot_sha256": "107e5fb8c19991ac5c3684d567c15a94cb6fd896130958bcd52353d7adfcc625",
+  "url": "https://doi.org/10.1371/journal.pone.0270667",
+  "text": "Scene perception involves extracting the identities of the objects comprising a scene in conjunction with their configuration (the spatial layout of the objects in the scene). How object identity and configuration information is weighted during scene processing and how this weighting evolves over the course of scene processing however, is not fully understood. Recent developments in convolutional neural networks (CNNs) have demonstrated their aptitude at scene processing tasks and identified correlations between processing in CNNs and in the human brain. Here we examined four CNN architectures (Alexnet, Resnet18, Resnet50, Densenet161) and their sensitivity to changes in object and configuration information over the course of scene processing. Despite differences among the four CNN architectures, across all CNNs, we observed a common pattern in the CNN’s response to object identity and configuration changes. Each CNN demonstrated greater sensitivity to configuration changes in early stages of processing and stronger sensitivity to object identity changes in later stages. This pattern persists regardless of the spatial structure present in the image background, the accuracy of the CNN in classifying the scene, and even the task used to train the CNN. Importantly, CNNs’ sensitivity to a configuration change is not the same as their sensitivity to any type of position change, such as that induced by a uniform translation of the objects without a configuration change. These results provide one of the first documentations of how object identity and configuration information are weighted in CNNs during scene processing.",
+  "source_label": "The contribution of object identity and configuration to scene representation in convolutional neural networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1641
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "197fb3a50d7e045c89ee573261b61a9900c91c72bb4b809852c48cb14b6c79a9"
+}

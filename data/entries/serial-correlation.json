@@ -1,0 +1,60 @@
+{
+  "id": "serial-correlation",
+  "term": "serial correlation",
+  "definition": "Serial correlation is the tendency for repeated measurements from the same person to be related to one another across time rather than acting like independent observations. In N-of-1 data, failing to account for this time-linked pattern can lead simple statistical tests to give misleading results.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6999905"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6999905",
+      "revision": "2020; DOI 10.1371/journal.pone.0228077; article XML SHA-256 85dc9b10b952926a91636f460bed4b50e876466e35bc141908e81b49b8c6f07d",
+      "scope": "Source record 10.1371/journal.pone.0228077; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0228077"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1ee40a9d135346a18601fc694447e5ac",
+    "request_hash": "de045f7a6e2eb97875d7278ae3f5f286025ad245ae196635a42c61c7887f7bda",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "053cda63cfca46a8b08fe8fc625ce91bc61ae4db4a1750df613ca477d422fcd0",
+    "packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd"
+  },
+  "hash": "bb1c38a5621fe44dd014d3e6acbf89c05458b1024deea022e823f629eb0888a2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "053cda63cfca46a8b08fe8fc625ce91bc61ae4db4a1750df613ca477d422fcd0",
+      "packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd",
+      "published_packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd",
+      "receipt_id": "01cfd69d534548628f538e0855d71281",
+      "request_hash": "ccfdb2389cfe40b117f9d7216f5bba7057811d933ae665f5502ea94241eef227",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports serial correlation in repeated observations from an individual, but it does not explicitly define it as a time-linked pattern or as measurements that are related “across time.”",
+        "The claim that failing to account for it makes simple statistical tests give “misleading results” is an unsupported generalization beyond the packet’s wording, which only says usual/simple methods do not account for serial correlation and that accounting for it can change inferences."
+      ],
+      "definition_hash": "053cda63cfca46a8b08fe8fc625ce91bc61ae4db4a1750df613ca477d422fcd0",
+      "packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd",
+      "published_packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd",
+      "receipt_id": "488d49eb400b42bd9922db24d5c28ae8",
+      "request_hash": "e17dc31789e9c0f3b87fb72926d2fc2c00e43fd1b9454d507b5e55c7809fbbbd",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

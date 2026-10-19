@@ -1,0 +1,60 @@
+{
+  "id": "brute-force",
+  "term": "brute force",
+  "definition": "Brute force refers to a search method that directly compares input data to find distances and nearest matches rather than relying on shortcuts. In the source, it is described as the most effective approach for high-dimensional data when building nearest-neighbor graphs.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4014471"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4014471",
+      "revision": "2014; DOI 10.1371/journal.pone.0092409; article XML SHA-256 90525b9c35f86528c1e5cad5bd8de8635865adcaace15f28b57015803d1dde93",
+      "scope": "Source record 10.1371/journal.pone.0092409; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0092409"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6217e9215dd84b9dbe4b3d0a8bdf6ce0",
+    "request_hash": "0ff9a77f5c27ece9a7622d9f9d9613a1307d1507c5ecf3b14580794a815ed6b8",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "aa77442786492eb5bc5880ee2bd909be884227d691dc5d82339de0028e729514",
+    "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35"
+  },
+  "hash": "b5953aaef11a1fea20c218038cd70b26e2d6729c645dbd174194e847afb65f5a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aa77442786492eb5bc5880ee2bd909be884227d691dc5d82339de0028e729514",
+      "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35",
+      "published_packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35",
+      "receipt_id": "d7c4addc7a6942e4957ae6a900e0bcde",
+      "request_hash": "b6b0f88c1b8c4d27d5540d2e0e7249b9a7f423ae91af7c41a2c441d3517d4673",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “rather than relying on shortcuts” is not supported by the packet; the source describes brute-force search and its parts, but does not characterize other methods as “shortcuts.”",
+        "“directly compares input data” is not stated in the packet; the text specifies computing distances between input vectors and selecting k-nearest neighbors, without framing it explicitly as a direct comparison."
+      ],
+      "definition_hash": "aa77442786492eb5bc5880ee2bd909be884227d691dc5d82339de0028e729514",
+      "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35",
+      "published_packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35",
+      "receipt_id": "cda3ce9737d84ca4aaf87f9ca218ffe0",
+      "request_hash": "c08c131388e1a32098c5853d0c54819f5a527a533bd8e53b909743cff035d282",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

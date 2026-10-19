@@ -1,0 +1,63 @@
+{
+  "id": "head-injury",
+  "term": "head injury",
+  "definition": "A head injury is harm to the head. In this packet, the term is used for minor head injury after a ground-level fall in people seen in an emergency department, where clinicians may consider a head CT scan to check for traumatic intracranial bleeding.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12758682"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12758682",
+      "revision": "2026; DOI 10.1371/journal.pone.0334541; article XML SHA-256 fd245486466627495ac9b4252683dc9c09ebd86c1303d2ee64945810fec7f862",
+      "scope": "Source record 10.1371/journal.pone.0334541; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0334541"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cf2cc50f6464b50db34b18aec3b5c129c705d47188b880cda866d71e402cdea6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "81cc48b30a6c442888b883b4ec37b844",
+    "request_hash": "eb21c8f8acdd8e0faafd40e74d1a32f65d09b40dfaa7d369cde9bfb85792fcf2",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "f89b43d452cc3c179cae207bab77a28be57eea005ed6f4049faad124b470c03a",
+    "packet_hash": "cf2cc50f6464b50db34b18aec3b5c129c705d47188b880cda866d71e402cdea6"
+  },
+  "hash": "7d5432297ac1a8b91d2a4fc6d714d9b6be950aa7d81ca9d3e39197e41045cb44",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet is about emergency department CT-scan use for minor head injury after ground-level falls, not about mental health. The definition’s placement in the “mental health” field is therefore not supported by the packet."
+      ],
+      "definition_hash": "f89b43d452cc3c179cae207bab77a28be57eea005ed6f4049faad124b470c03a",
+      "packet_hash": "cf2cc50f6464b50db34b18aec3b5c129c705d47188b880cda866d71e402cdea6",
+      "published_packet_hash": "cf2cc50f6464b50db34b18aec3b5c129c705d47188b880cda866d71e402cdea6",
+      "receipt_id": "bda23e3f821b4afb81c0de679ddd6b70",
+      "request_hash": "60747ef479a8ddc8db5369cf46da10dc83947031d7a4d150a11c1919ad6da307",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a narrow emergency-department sense of minor head injury after a ground-level fall, not the broad gloss “harm to the head.”",
+        "The added claim that clinicians may consider a head CT scan to check for traumatic intracranial bleeding is only loosely inferred from the study aim and is not stated as a definition in the packet.",
+        "The supplied field is mental health, but the packet is about emergency medicine and head CT use rather than a psychology/counselling concept."
+      ],
+      "definition_hash": "f89b43d452cc3c179cae207bab77a28be57eea005ed6f4049faad124b470c03a",
+      "packet_hash": "cf2cc50f6464b50db34b18aec3b5c129c705d47188b880cda866d71e402cdea6",
+      "published_packet_hash": "cf2cc50f6464b50db34b18aec3b5c129c705d47188b880cda866d71e402cdea6",
+      "receipt_id": "add1f3f77b9f497aa04c04d46d954e46",
+      "request_hash": "23c4f7f4afd680065f74baf7851a073c546c32e9d547d4d2044ff062c65f65ec",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

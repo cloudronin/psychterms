@@ -1,0 +1,59 @@
+{
+  "id": "latin-square",
+  "term": "Latin square",
+  "definition": "A Latin square is a block design used to arrange different test conditions across participants rather than giving everyone the same condition order. In this source, it refers to assigning different background conditions in a between-subjects way, which meant participants did not receive directly comparable tests or scores.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7406786"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7406786",
+      "revision": "2020; DOI 10.3389/fnhum.2020.00281; article XML SHA-256 89d49313c3020ffd685b61a075583cd79d6bd615974c767a902df4e986523de6",
+      "scope": "Source record 10.3389/fnhum.2020.00281; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2020.00281"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c54cbfe284c247fe20fffd32bec314cd37483ff545dacd9bb4f28fc7716e34da",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3b0db6f2b5d2448fa9c9efe15cb7cb8b",
+    "request_hash": "fee45ce45f041634e37e1f1b80d832600264e6c512db282fc53191454409399e",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "7d47f21b5413a4a00500c2b41048b2d8a33ea3fa101c55089888fb7e64b6d325",
+    "packet_hash": "c54cbfe284c247fe20fffd32bec314cd37483ff545dacd9bb4f28fc7716e34da"
+  },
+  "hash": "5fabd35fec3996822abff2844fb107f1a3e396465090f24a84c94130d7e5122b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7d47f21b5413a4a00500c2b41048b2d8a33ea3fa101c55089888fb7e64b6d325",
+      "packet_hash": "c54cbfe284c247fe20fffd32bec314cd37483ff545dacd9bb4f28fc7716e34da",
+      "published_packet_hash": "c54cbfe284c247fe20fffd32bec314cd37483ff545dacd9bb4f28fc7716e34da",
+      "receipt_id": "8c53eaceccec4f7b918b000f6680ed08",
+      "request_hash": "49336b05a2c2e687eb2ab1a9a184183d54bc5dd69713469c4d7d61dd93e4d95a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the Latin square is used “rather than giving everyone the same condition order,” but the packet only states it was a “between-subjects Latin square block design for backgrounds” and that participants could not get comparable scores; it does not mention “condition order.”"
+      ],
+      "definition_hash": "7d47f21b5413a4a00500c2b41048b2d8a33ea3fa101c55089888fb7e64b6d325",
+      "packet_hash": "c54cbfe284c247fe20fffd32bec314cd37483ff545dacd9bb4f28fc7716e34da",
+      "published_packet_hash": "c54cbfe284c247fe20fffd32bec314cd37483ff545dacd9bb4f28fc7716e34da",
+      "receipt_id": "1426973f807f49d7bf6b1f1a56d2b6f5",
+      "request_hash": "8f7651f81d3b443eb2e199a8a7634c225ea3f2a914e39b9df06d61b96a842ad4",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

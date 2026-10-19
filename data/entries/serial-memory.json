@@ -1,0 +1,60 @@
+{
+  "id": "serial-memory",
+  "term": "serial memory",
+  "definition": "Serial memory is memory for the order of items or positions in a sequence. In the source packet, it refers to remembering the position of speech segments within syllables during speech planning, where this ordering is shaped by the language’s syllable structure.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13021577"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13021577",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1612386; article XML SHA-256 52bcc4a6904ed135732df7cfbb85511bd5851df895162543951d7a8520823f62",
+      "scope": "Source record 10.3389/fpsyg.2026.1612386; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1612386"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "368e254f4e621c7af3c15b8134d04f412867820556e888d4150e4295c7c9961e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ebfd00209e924daebccd1746c7379a7d",
+    "request_hash": "ee3cab6437a62357b4ebacadb595c9d6e8cc75b593953ca55e07d678bd231e65",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "fe4ef75fd3b3c61634026b830c3b6851ef16fe02de572857b3390af7c7387f1a",
+    "packet_hash": "368e254f4e621c7af3c15b8134d04f412867820556e888d4150e4295c7c9961e"
+  },
+  "hash": "6a205e72a97efc151937dc911184c1639991304d493548f9f93ffdd969f4a708",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe4ef75fd3b3c61634026b830c3b6851ef16fe02de572857b3390af7c7387f1a",
+      "packet_hash": "368e254f4e621c7af3c15b8134d04f412867820556e888d4150e4295c7c9961e",
+      "published_packet_hash": "368e254f4e621c7af3c15b8134d04f412867820556e888d4150e4295c7c9961e",
+      "receipt_id": "b4b2cfb8d1224f0a98254ab89509ae98",
+      "request_hash": "58ba975174a153c6972b0659193dca1c96dc2ec141e766088b21c52e6203e2d0",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general, textbook-style definition of “serial memory” (“memory for the order of items or positions”), but the packet text does not explicitly define serial memory in this general way; it discusses serial order control and “position-specific memory effects” in a Korean speech-production task rather than a broad definition.",
+        "The second sentence adds detail that “ordering is shaped by the language’s syllable structure.” While the packet supports that the study concerns how syllable architecture constrains serial order in Korean (including position-specific effects concentrated in coda slots), the packet does not explicitly frame this specifically as “serial memory … during speech planning” as stated; it supports the role of syllabic hierarchy in serial order control/error patterns rather than that exact phrasing/sense."
+      ],
+      "definition_hash": "fe4ef75fd3b3c61634026b830c3b6851ef16fe02de572857b3390af7c7387f1a",
+      "packet_hash": "368e254f4e621c7af3c15b8134d04f412867820556e888d4150e4295c7c9961e",
+      "published_packet_hash": "368e254f4e621c7af3c15b8134d04f412867820556e888d4150e4295c7c9961e",
+      "receipt_id": "c1e62c6ca15c41bab943605dae7ead8a",
+      "request_hash": "4930bea21ce0dc77089fa6019ffe1939ade9d2e4b195356dec70274fb1bd2237",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

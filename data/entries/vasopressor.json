@@ -1,0 +1,60 @@
+{
+  "id": "vasopressor",
+  "term": "vasopressor",
+  "definition": "A vasopressor is a medication used in shock or other hemodynamically unstable states to help stabilize a critically ill patient. In the source, it is discussed as a treatment that may be started through a peripheral line early, as a temporary measure before transfer or before central venous access is available.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12119013"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12119013",
+      "revision": "2025; DOI 10.1371/journal.pone.0324482; article XML SHA-256 a46775dc2d5af1601d9d691dc66f643e5a4915576f84ebd400df14d439bee86e",
+      "scope": "Source record 10.1371/journal.pone.0324482; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0324482"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c60623817d1136a01e84962573ff7e05761975dfb34b70743cfeca005428f8ab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1d43832fa5814a3c9b211075f7362539",
+    "request_hash": "266a210a0489b1e8fb0df82e2514d97c30d077bf08d6d95bdc76959437ea3e26",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "472c70fa0bf095bd96c756ac8ed539c1a94de18c4eb782dcf8e38a00ffcb4547",
+    "packet_hash": "c60623817d1136a01e84962573ff7e05761975dfb34b70743cfeca005428f8ab"
+  },
+  "hash": "e5f54facd8ffc2f29db3ebae6f926cd1f2807652d4d16be5f15c379d4d63e5f7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "472c70fa0bf095bd96c756ac8ed539c1a94de18c4eb782dcf8e38a00ffcb4547",
+      "packet_hash": "c60623817d1136a01e84962573ff7e05761975dfb34b70743cfeca005428f8ab",
+      "published_packet_hash": "c60623817d1136a01e84962573ff7e05761975dfb34b70743cfeca005428f8ab",
+      "receipt_id": "33146ae8f2764062bd916384badd0120",
+      "request_hash": "d48b01d82f4c0dbcd6962d105db3f737a546e6e5eb42b67fa0e57f7b479e9166",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible here: the packet is about critical care/shock management, not ethics.",
+        "The definition adds clinical framing that is broader than the source support for the term itself; the packet describes peripheral initiation/temporizing use in hemodynamically unstable patients, but not a general definition of vasopressor across settings."
+      ],
+      "definition_hash": "472c70fa0bf095bd96c756ac8ed539c1a94de18c4eb782dcf8e38a00ffcb4547",
+      "packet_hash": "c60623817d1136a01e84962573ff7e05761975dfb34b70743cfeca005428f8ab",
+      "published_packet_hash": "c60623817d1136a01e84962573ff7e05761975dfb34b70743cfeca005428f8ab",
+      "receipt_id": "65b522d6c02e486d8d1e751363555e78",
+      "request_hash": "0edb011bacf533c43ce8f2f2e52b3f8237bb1c8925a223891465cf6e5973d5b6",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

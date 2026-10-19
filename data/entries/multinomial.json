@@ -1,0 +1,59 @@
+{
+  "id": "multinomial",
+  "term": "multinomial",
+  "definition": "In this source, multinomial refers to a model used to compare several possible choices at once rather than only two. It is applied to freight mode choice to estimate how likely each option, such as sea, rail, or road, is to be selected under given conditions.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13588508"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13588508",
+      "revision": "2026; DOI 10.1371/journal.pone.0350972; article XML SHA-256 58b0270f7c8c18774086266a142fb99892248608070f2bd590543b712be6e0ba",
+      "scope": "Source record 10.1371/journal.pone.0350972; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350972"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2acc676fb37b4224af673d088fd09a15",
+    "request_hash": "8cf132547274c2992da49f74b79506b59b713bbb8a2c794c612eb2696e24549d",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "7607e7412718640805bd1821c561a15db09fc657303c88aaf258916cee5da263",
+    "packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8"
+  },
+  "hash": "9a30eb8933fe44b8a9f0bf0cdac3ee57888c883a4269acbe055d9d30cc32976a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7607e7412718640805bd1821c561a15db09fc657303c88aaf258916cee5da263",
+      "packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8",
+      "published_packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8",
+      "receipt_id": "045560df050742beba81573955295311",
+      "request_hash": "f474a9a972eebfd3eca437dcb2354022d6a77c55c5fba2e35cc21dd337ae1ef9",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The claim that “multinomial refers to a model… rather than only two” is not explicitly stated or directly supported in the provided packet text (the packet only describes its use as a “multinomial Logit model” for multiple freight modes, without contrasting it to binary-only models)."
+      ],
+      "definition_hash": "7607e7412718640805bd1821c561a15db09fc657303c88aaf258916cee5da263",
+      "packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8",
+      "published_packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8",
+      "receipt_id": "a6764823dcc147b69075b6a882e4403d",
+      "request_hash": "28a28fd731d081621f3caae1f37af48e4a2ca75914c09d23ebcf045f6c77d238",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

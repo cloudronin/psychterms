@@ -1,0 +1,26 @@
+{
+  "id": "spurious-correlation",
+  "term": "spurious correlation",
+  "source": "article-pmc11584097",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0303415",
+  "revision": "2024; DOI 10.1371/journal.pone.0303415; article XML SHA-256 2227172c6ce31e90d31b060cd925bf60fc7ee6496765e71a21ddfcb9f996d2eb",
+  "source_snapshot_sha256": "2227172c6ce31e90d31b060cd925bf60fc7ee6496765e71a21ddfcb9f996d2eb",
+  "url": "https://doi.org/10.1371/journal.pone.0303415",
+  "text": "Advancement of AI has opened new possibility for accurate diagnosis and prognosis using digital histopathology slides which not only saves hours of expert effort but also makes the estimation more standardized and accurate. However, preserving the AI model performance on the external sites is an extremely challenging problem in the histopathology domain which is primarily due to the difference in data acquisition and/or sampling bias. Although, AI models can also learn spurious correlation, they provide unequal performance across validation population. While it is crucial to detect and remove the bias from the AI model before the clinical application, the cause of the bias is often unknown . We proposed a Causal Survival model that can reduce the effect of unknown bias by leveraging the causal reasoning framework. We use the model to predict recurrence-free survival for the colorectal cancer patients using quantitative histopathology features from seven geographically distributed sites and achieve equalized performance compared to the baseline traditional Cox Proportional Hazards and DeepSurvival model. Through ablation study, we demonstrated benefit of novel addition of latent probability adjustment and auxiliary losses. Although detection of cause of unknown bias is unsolved, we proposed a causal debiasing solution to reduce the bias and improve the AI model generalizibility on the histopathology domain across sites. Open-source codebase for the model training can be accessed from https://github.com/ramon349/fair_survival.git",
+  "source_label": "Causal debiasing for unknown bias in histopathology—A colon cancer use case",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1553
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42"
+}

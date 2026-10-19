@@ -1,0 +1,26 @@
+{
+  "id": "texture-gradient",
+  "term": "texture gradient",
+  "source": "article-pmc5029942",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0160868",
+  "revision": "2016; DOI 10.1371/journal.pone.0160868; article XML SHA-256 5d067e85e834afe4a701de72bdcb05cc50acfe3bb16b50768ef0a4407092345e",
+  "source_snapshot_sha256": "5d067e85e834afe4a701de72bdcb05cc50acfe3bb16b50768ef0a4407092345e",
+  "url": "https://doi.org/10.1371/journal.pone.0160868",
+  "text": "A biologically inspired model architecture for inferring 3D shape from texture is proposed. The model is hierarchically organized into modules roughly corresponding to visual cortical areas in the ventral stream. Initial orientation selective filtering decomposes the input into low-level orientation and spatial frequency representations. Grouping of spatially anisotropic orientation responses builds sketch-like representations of surface shape. Gradients in orientation fields and subsequent integration infers local surface geometry and globally consistent 3D depth. From the distributions in orientation responses summed in frequency, an estimate of the tilt and slant of the local surface can be obtained. The model suggests how 3D shape can be inferred from texture patterns and their image appearance in a hierarchically organized processing cascade along the cortical ventral stream. The proposed model integrates oriented texture gradient information that is encoded in distributed maps of orientation-frequency representations. The texture energy gradient information is defined by changes in the grouped summed normalized orientation-frequency response activity extracted from the textured object image. This activity is integrated by directed fields to generate a 3D shape representation of a complex object with depth ordering proportional to the fields output, with higher activity denoting larger distance in relative depth away from the viewer.",
+  "source_label": "Biologically Inspired Model for Inference of 3D Shape from Texture",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1462
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "af505a4d2deb2f6d1bab4c9b3bb4ebecb24c14cace1558f0be85c6c7b179f952"
+}

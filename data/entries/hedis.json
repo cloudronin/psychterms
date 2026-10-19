@@ -1,0 +1,59 @@
+{
+  "id": "hedis",
+  "term": "HEDIS",
+  "definition": "HEDIS stands for Healthcare Effectiveness Data and Information Set, a set of healthcare quality measures. In the supplied source, it refers specifically to comprehensive diabetes care measures for adults ages 18–75 that include recommended timing of retinal or dilated eye exams.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12904463"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12904463",
+      "revision": "2026; DOI 10.1371/journal.pone.0340804; article XML SHA-256 38c0ae78ff880b08a42def6aa845e4bb14b07bc90945b510b06267091c5b87ff",
+      "scope": "Source record 10.1371/journal.pone.0340804; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0340804"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e0908835b2154157995bedbc3957ce5e",
+    "request_hash": "aca4f4b70575e1390374ce978f5a88fb741b76099c2fa91ea8079a944eabdea2",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "6f74461dd6d0901268d9be1d45d0226f59bd887c573a0da1d23cea69831b2498",
+    "packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29"
+  },
+  "hash": "6046860a811e5143ee0135c9f49aada4763126cd3d608575b97bce937428798a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6f74461dd6d0901268d9be1d45d0226f59bd887c573a0da1d23cea69831b2498",
+      "packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29",
+      "published_packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29",
+      "receipt_id": "ab3f3ff7ec6140b89adfe771498db5f7",
+      "request_hash": "5f9ff85f6a522b18f947cdafc8a56497dcf37444cc63b69603514f5d4399887e",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that HEDIS is “a set of healthcare quality measures,” but the provided packet does not explicitly describe HEDIS as a “set of healthcare quality measures.” It only refers to “HEDIS Comprehensive Diabetes Care measures.”"
+      ],
+      "definition_hash": "6f74461dd6d0901268d9be1d45d0226f59bd887c573a0da1d23cea69831b2498",
+      "packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29",
+      "published_packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29",
+      "receipt_id": "2a70efc25c5e439aa6eed9071c20d736",
+      "request_hash": "d223a5be80752be5d6930d8538da648d208bbd16ee01f3eee96e6555b2e80486",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

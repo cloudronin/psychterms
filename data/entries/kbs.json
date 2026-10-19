@@ -1,0 +1,61 @@
+{
+  "id": "kbs",
+  "term": "KBS",
+  "definition": "KBS refers to a knowledge-based system or knowledge base: a structured body of information that a question-answering system searches to identify relations in a question and generate an answer. In the source, KBS-related methods may also use unstructured text to supplement gaps in the knowledge base.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6169944"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6169944",
+      "revision": "2018; DOI 10.1371/journal.pone.0205097; article XML SHA-256 1d7b4f186aa49ddaddc6326b6a71e9b0ee99b7e8143d1a8982042a25946aca34",
+      "scope": "Source record 10.1371/journal.pone.0205097; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0205097"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3d11d013718249fe8f3392e29f7f2d73",
+    "request_hash": "2de10c5fd7f2b0bb3224b68569da632d6cebaaa4c344ab4d16f9ce56d285fc2a",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "3e49999cf61dae7d913cde72c8e3b464a3de11bf843dd938cb460207ddc61c35",
+    "packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788"
+  },
+  "hash": "488d54592109f1447c160279d7677b5f99476668fb5c3ee318fea1889b86e4af",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3e49999cf61dae7d913cde72c8e3b464a3de11bf843dd938cb460207ddc61c35",
+      "packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788",
+      "published_packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788",
+      "receipt_id": "8dae143680b94693bf5af1cddce71e28",
+      "request_hash": "ce8ba1d9dd1764ca2a4f5a90070ca9a03e07012ccc3a5242d1224dfe73d47ed8",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports KBs/KBQA, not the acronym KBS; expanding KBS as “knowledge-based system” is not grounded in the source text.",
+        "The definition adds a general description of a “structured body of information” and a system that “searches to identify relations in a question and generate an answer”; the source instead says relation detection finds a compatible answer type and generates a structured query over a KB, which is not the same wording or concept.",
+        "The claim that KBS-related methods may use unstructured text “to supplement gaps in the knowledge base” is broader than the packet’s specific point that external unstructured text is used to extract additional supporting evidence because KBs are incomplete."
+      ],
+      "definition_hash": "3e49999cf61dae7d913cde72c8e3b464a3de11bf843dd938cb460207ddc61c35",
+      "packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788",
+      "published_packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788",
+      "receipt_id": "e3d81b34397442d982c91f4e68d8d0ad",
+      "request_hash": "d1b5980534bdab5e5a0756b848be44b58dab7115d8b6d7861e9587b1ac15b23d",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

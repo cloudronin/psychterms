@@ -1,0 +1,26 @@
+{
+  "id": "kriging",
+  "term": "kriging",
+  "source": "article-pmc13160448",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0343624",
+  "revision": "2026; DOI 10.1371/journal.pone.0343624; article XML SHA-256 2a02fab7bd2ad8247bdb7332c0806cae020838430ec34616b4a6158a8a39346c",
+  "source_snapshot_sha256": "2a02fab7bd2ad8247bdb7332c0806cae020838430ec34616b4a6158a8a39346c",
+  "url": "https://doi.org/10.1371/journal.pone.0343624",
+  "text": "Digital soil mapping frameworks provide tools to transform point data into continuous spatial predictions [ 10 , 11 ]. Among these, inverse distance weighting (IDW) and ordinary kriging (OK) are widely applied [ 12 , 13 ]. However, their relative accuracy remains inconsistent across studies [ 14 , 15 ] because both methods rely on assumptions about spatial dependence that may not hold in complex pedological environments. OK requires variogram modeling and dense sampling to characterize spatial autocorrelation, which is often impractical [ 11 ], while IDW applies distance-based weighting without accounting for underlying environmental controls and does not estimate prediction uncertainty [ 16 , 17 ]. Both methods may also generate unrealistic “bulls-eye” artifacts [ 18 ].",
+  "source_label": "A novel methodological framework for predicting and mapping agriculture-related soil attributes using Euclidean distance, regular grids, and machine learning algorithms",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    2694,
+    3475
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "de0667482c0da59e1835569c738c111a596b82878c3ca1bbb137b221611203bc"
+}

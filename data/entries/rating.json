@@ -1,0 +1,64 @@
+{
+  "id": "rating",
+  "term": "rating",
+  "definition": "In this context, rating means judging or scoring symptoms and related problems with standardized scales so changes can be measured and compared. The packet only supports this research-use sense tied to symptom scales.",
+  "field": "counselling skills",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13423873"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13423873",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1845876; article XML SHA-256 fa4d91bb981b8543478833710745f46464fa36e31917bb740eb73ae3d6587cc8",
+      "scope": "Source record 10.3389/fpsyt.2026.1845876; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1845876"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dc62b53e5ed9f66184349ca23e30d5694cb3e4eb7422dc838ae997d8ab75d866",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1ada6c78fcf342a3b67ecc8b8cab1577",
+    "request_hash": "ee966a7f1a57fd5a70454f763eec1cc8ff9d6d02ff4c81060043697e037cab59",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "2715c281a1975f960db883c0d236c9af24a4f0547536cbad47be2e5cf021d561",
+    "packet_hash": "dc62b53e5ed9f66184349ca23e30d5694cb3e4eb7422dc838ae997d8ab75d866"
+  },
+  "hash": "b07124d17d160f2123dd4a00d7cf7f689b10839154728201d96fac4e85d4e58e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions specific rating scales (HAMD, HAMA, SDS, SAS, PSQI) and change scores, but it does not define the term “rating” as judging or scoring symptoms and related problems.",
+        "The definition adds a research-use sense and a general mechanism (“so changes can be measured and compared”) that is not explicitly stated in the packet; that is an unsupported inference rather than a directly supported sense.",
+        "The field is acceptable, but the proposed sense is too interpretive for the limited evidence supplied."
+      ],
+      "definition_hash": "2715c281a1975f960db883c0d236c9af24a4f0547536cbad47be2e5cf021d561",
+      "packet_hash": "dc62b53e5ed9f66184349ca23e30d5694cb3e4eb7422dc838ae997d8ab75d866",
+      "published_packet_hash": "dc62b53e5ed9f66184349ca23e30d5694cb3e4eb7422dc838ae997d8ab75d866",
+      "receipt_id": "d2cafa5bba4d4fa480037a21513a6e62",
+      "request_hash": "eb37303557fcc57624c8aabe76da4bdb464a381b19e8b1e9efa032d66b98f9af",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that “the packet only supports this research-use sense,” but the packet excerpt does not state or justify that any sense is limited to research use.",
+        "The packet mentions “changes in the Hamilton Depression Rating Scale (HAMD), Hamilton Anxiety Rating Scale (HAMA),” etc., but it does not directly define “rating” as “judging or scoring symptoms and related problems with standardized scales” in general terms, nor does it explicitly mention counseling-skills usage or standardization beyond the named scale instruments."
+      ],
+      "definition_hash": "2715c281a1975f960db883c0d236c9af24a4f0547536cbad47be2e5cf021d561",
+      "packet_hash": "dc62b53e5ed9f66184349ca23e30d5694cb3e4eb7422dc838ae997d8ab75d866",
+      "published_packet_hash": "dc62b53e5ed9f66184349ca23e30d5694cb3e4eb7422dc838ae997d8ab75d866",
+      "receipt_id": "7f1b5ac87a254904a8697ddaa39714d1",
+      "request_hash": "72ea73ddb1bab8128d1056a13e2a071ed06b656c2b1514b9fc8c7c88982a4dc4",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

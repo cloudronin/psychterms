@@ -1,0 +1,65 @@
+{
+  "id": "graph",
+  "term": "graph-",
+  "definition": "In this packet, graph- refers to a structured network representation of knowledge in which identified entities and their relationships are organized as linked triples and stored in a graph database. It is used to express information in a form that supports efficient retrieval, updating, and analysis.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12795383"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12795383",
+      "revision": "2026; DOI 10.1371/journal.pone.0339575; article XML SHA-256 dcc6428b274dbc7b0a130ff0fc2526686c47e270306e519ab61b8bcb4f8a8498",
+      "scope": "Source record 10.1371/journal.pone.0339575; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339575"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "79951e77b2974b9fb3c72de416f38ab3",
+    "request_hash": "1d5e6b5330a712b97364f0697c7d7759d910f0b921ba30a8a0f007255b3f7cb6",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "2ad43e13c5d4f86edd898c96f32c286b629ced0f1536a2b55aaff4d608bb8490",
+    "packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b"
+  },
+  "hash": "30e21e10c64728c21602c2e807daef3ef1fe1b74d370b93fb0e9a77819c6b7ad",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that the graph representation is used to support *efficient retrieval*; it mentions efficient import and dynamic update, and improved review efficiency/accuracy, but not retrieval as a stated purpose.",
+        "The packet does not explicitly claim the approach supports *analysis* of information; it describes structured expression via triples and implementation details, not analysis as an expressed use-case.",
+        "The definition asserts that graph- is “In this packet” a cognition-related concept; the packet content is about a knowledge graph construction method in the water conservancy compliance review domain, and it does not substantively ground the term in psychology/cognition content."
+      ],
+      "definition_hash": "2ad43e13c5d4f86edd898c96f32c286b629ced0f1536a2b55aaff4d608bb8490",
+      "packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b",
+      "published_packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b",
+      "receipt_id": "96ce75ed310943f1913eab13509572e8",
+      "request_hash": "c1dcaa3f3b4f5e2536dfca4e434dbe9032b1b9e1c82df29427ebd34439f15718",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about a knowledge-graph construction method for water-conservancy compliance review, not a cognition/psychology term entry, so the field is not supported.",
+        "The claim that the representation is used for “efficient retrieval” and “analysis” is not supported by the packet; the packet explicitly mentions efficient import and dynamic update, but not retrieval or analysis as the intended functions.",
+        "The definition narrows the sense to a general database-backed representation of knowledge; the packet supports a specific knowledge-graph construction workflow, not a broad lexical definition of the prefix term graph-."
+      ],
+      "definition_hash": "2ad43e13c5d4f86edd898c96f32c286b629ced0f1536a2b55aaff4d608bb8490",
+      "packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b",
+      "published_packet_hash": "7ac5d9c4c5a6e0dbf03894b5028c87325f8c76c27e320d00b974f11556547a1b",
+      "receipt_id": "900df5174a014a9e9942f1b9f2545167",
+      "request_hash": "e8ea82bb79b869c75777df520dd5b883cf02b7cae3854f18f033b34077a29428",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

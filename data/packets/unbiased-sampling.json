@@ -1,0 +1,26 @@
+{
+  "id": "unbiased-sampling",
+  "term": "unbiased sampling",
+  "source": "article-pmc12604787",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0334411",
+  "revision": "2025; DOI 10.1371/journal.pone.0334411; article XML SHA-256 c5cffe7788b0641974c5564fe44741fa83cd4ee64629aaa84c854d9e9b89609d",
+  "source_snapshot_sha256": "c5cffe7788b0641974c5564fe44741fa83cd4ee64629aaa84c854d9e9b89609d",
+  "url": "https://doi.org/10.1371/journal.pone.0334411",
+  "text": "To address the inefficiencies in sample utilization and policy instability in asynchronous distributed reinforcement learning, we propose TPDEB—a dual experience replay framework that integrates prioritized sampling and temporal diversity. While recent distributed RL systems have scaled well, they often suffer from instability and inefficient sampling under network-induced delays and stale policy updates—highlighting a gap in robust learning under asynchronous conditions. TPDEB significantly improves convergence speed and robustness by coordinating dual-buffer updates across distributed agents, offering a scalable solution to real-world continuous control tasks. TPDEB addresses these limitations through two key mechanisms: a trajectory-level prioritized replay buffer that captures temporally coherent high-value experiences, and KL-regularized learning that constrains policy drift across actors. Unlike prior approaches relying on a single experience buffer, TPDEB employs a dual-buffer strategy that combines standard and prioritized replay Buffers. This enables better trade-offs between unbiased sampling and value-driven prioritization, improving learning robustness under asynchronous actor updates. Moreover, TPDEB collects more diverse and redundant experience by scaling parallel actor replicas. Empirical evaluations on MuJoCo continuous control benchmarks demonstrate that TPDEB outperforms baseline distributed algorithms in both convergence speed and final performance, especially under constrained actor–learner bandwidth. Ablation studies validate the contribution of each component, showing that trajectory-level prioritization captures high-quality samples more effectively than step-wise methods, and KL-regularization enhances stability across asynchronous updates. These findings support TPDEB as a practical and scalable solution for distributed reinforcement learning systems.",
+  "source_label": "Dual experience replay enhanced deep deterministic policy gradient for efficient continuous data sampling",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1909
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "35379a225132a0522c12709327397dbbcb2397a19a89c7780fda3c1116af4704"
+}

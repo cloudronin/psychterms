@@ -1,0 +1,59 @@
+{
+  "id": "sensory-suppression",
+  "term": "sensory suppression",
+  "definition": "Sensory suppression is a biological process in which the nervous system reduces selected incoming sensory information. In the source packet, it is described as a form of sensory inhibition seen when the response to a second identical auditory or somatosensory stimulus is weaker than the response to the first.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6019261"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6019261",
+      "revision": "2018; DOI 10.1371/journal.pone.0199614; article XML SHA-256 6019b11f7756e9085a68036797e4452df35131feabda45ec07a5bc2cafd20468",
+      "scope": "Source record 10.1371/journal.pone.0199614; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0199614"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "50a707f883ddd781ec8cad69c5d7418393b25d5e91232c5aaa74498bb7741125",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "12da783bb029453d99633073f5cb8eb8",
+    "request_hash": "b4328d2daaba105e38044235c63dec8c3d0cf72209811919c9d730e62e8ce0b9",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "60838fa8a4d84f4a27257f8373bf4fd44eee841152927d72de5beaad105a4dfb",
+    "packet_hash": "50a707f883ddd781ec8cad69c5d7418393b25d5e91232c5aaa74498bb7741125"
+  },
+  "hash": "be492c9a7db3113523dcd2725757bccdf0b9fc07e4aec3516c8d710b2e70b379",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "60838fa8a4d84f4a27257f8373bf4fd44eee841152927d72de5beaad105a4dfb",
+      "packet_hash": "50a707f883ddd781ec8cad69c5d7418393b25d5e91232c5aaa74498bb7741125",
+      "published_packet_hash": "50a707f883ddd781ec8cad69c5d7418393b25d5e91232c5aaa74498bb7741125",
+      "receipt_id": "82c5e9b0def24b148a14e12d419a3cb2",
+      "request_hash": "92a5f6380efa8a8c20554bdb16452882d6cad14aac83670e37ab21f15b4ea8af",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence is supported in broad terms by the packet’s wording that sensory suppression attenuates selective information and reflects sensory inhibition ability, but the second sentence adds a specific comparative claim (“response to a second identical…stimulus is weaker than the response to the first”) that is not explicitly stated in the packet text provided. The packet mentions “paired-pulse suppression” with “2 identical stimuli” spaced by ~500 ms, but does not explicitly describe the first-vs-second response magnitude relationship."
+      ],
+      "definition_hash": "60838fa8a4d84f4a27257f8373bf4fd44eee841152927d72de5beaad105a4dfb",
+      "packet_hash": "50a707f883ddd781ec8cad69c5d7418393b25d5e91232c5aaa74498bb7741125",
+      "published_packet_hash": "50a707f883ddd781ec8cad69c5d7418393b25d5e91232c5aaa74498bb7741125",
+      "receipt_id": "cca2411df4b340aeb3b21ac342c0faf3",
+      "request_hash": "321e4f0d350b1e805b3ac06178e74f4b26e4a19e0275c6ab04cf0cfa3d1b1d06",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

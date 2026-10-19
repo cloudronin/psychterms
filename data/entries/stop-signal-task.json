@@ -1,0 +1,60 @@
+{
+  "id": "stop-signal-task",
+  "term": "stop-signal task",
+  "definition": "The stop-signal task is a cognitive task used to study response inhibition by having a person begin a response to a go signal and sometimes try to stop that response when a later stop signal appears. Performance reflects a race between the go process and the stop process, so stopping becomes harder when the stop signal comes later.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6312320"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6312320",
+      "revision": "2018; DOI 10.1371/journal.pone.0210065; article XML SHA-256 c82043b3404c2b5c7f964081b155e580a18c279fb7a0e531a38ce0bff4b170e6",
+      "scope": "Source record 10.1371/journal.pone.0210065; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0210065"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "624a6737f519101242d008d0644c284cc4d6570dcdfad32399b065c8df4fe719",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "226cd93edabc4806a102a60e03719db3",
+    "request_hash": "1ab13f36d36f5eb0faad55460cf83ce5cc5f7a70d58abac58f98d1480e7fe0c6",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "8288f8ddebce3a41043edf23302fcc70fcf8df22fc3ee207afeae3319ba95ff9",
+    "packet_hash": "624a6737f519101242d008d0644c284cc4d6570dcdfad32399b065c8df4fe719"
+  },
+  "hash": "fc039d38f40f6c625aa3a6fadbc855f6c9f459b7e6e6fa92755474199113f687",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8288f8ddebce3a41043edf23302fcc70fcf8df22fc3ee207afeae3319ba95ff9",
+      "packet_hash": "624a6737f519101242d008d0644c284cc4d6570dcdfad32399b065c8df4fe719",
+      "published_packet_hash": "624a6737f519101242d008d0644c284cc4d6570dcdfad32399b065c8df4fe719",
+      "receipt_id": "9c8dcffc53124376a0905111c6980040",
+      "request_hash": "2eb0a123f89c67dcc371f20bafffef8e663992423eaefc273565fbaf6af0de8f",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that the stop-signal task is used to study “response inhibition”; it describes processes in stop trials (withholding the go response) and the horse-race model, but does not label this as “response inhibition.”",
+        "While the definition’s description of starting a response to a go signal, sometimes trying to stop when a later stop signal appears, and stopping being harder at longer delays is supported by the packet, the unsupported first clause (“used to study response inhibition”) prevents a full pass."
+      ],
+      "definition_hash": "8288f8ddebce3a41043edf23302fcc70fcf8df22fc3ee207afeae3319ba95ff9",
+      "packet_hash": "624a6737f519101242d008d0644c284cc4d6570dcdfad32399b065c8df4fe719",
+      "published_packet_hash": "624a6737f519101242d008d0644c284cc4d6570dcdfad32399b065c8df4fe719",
+      "receipt_id": "770978acfdfc42b0b02f8405a9ab77b4",
+      "request_hash": "2d1d395da8396531e17c04744a56f4d34823dae3d1023a2e19f6ffadea79ff43",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

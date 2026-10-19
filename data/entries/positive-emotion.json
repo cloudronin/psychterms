@@ -1,0 +1,63 @@
+{
+  "id": "positive-emotion",
+  "term": "positive emotion",
+  "definition": "Positive emotion is a pleasant emotional state, such as enjoyment or interest. In this source, it is described as an important factor linked to favorable use outcomes, including judging learning gains positively and wanting to keep using a technology over time.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12974882"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12974882",
+      "revision": "2026; DOI 10.1371/journal.pone.0344382; article XML SHA-256 307d3453283800396823dd72072cb0f599eb4001fe88b5723f32a726b281731d",
+      "scope": "Source record 10.1371/journal.pone.0344382; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0344382"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d47861af7add475faf099886821b0c6ab8c4a88f24ca8bb6489d155c30adcc66",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "52b7d2cef82c4c6d8f9bd4ab244b37d8",
+    "request_hash": "8c92a951e99162bfd34f4ea260f31926b86dc7f20a120cf24da18ac1e0685eed",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "a6ef423c47b724224266f11375d1ef55ae4b50cf31890b25970a581ce10d1807",
+    "packet_hash": "d47861af7add475faf099886821b0c6ab8c4a88f24ca8bb6489d155c30adcc66"
+  },
+  "hash": "98fb8ea7ee55ca29f55ad8e48e5bd9a42e915fa40f42d847505a674b9fe45b94",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence says positive emotion is a “pleasant emotional state”; the provided packet only mentions enjoyment and interest in relation to predictors of continued engagement and intention to use, but does not explicitly define positive emotion as “pleasant.”",
+        "The definition’s mention of “favorable use outcomes, including judging learning gains positively and wanting to keep using a technology over time” is largely supported by the packet (appraisal of learning gains; intention/continued use), but because the core definition sentence is not supported, the overall definition cannot be accepted as written."
+      ],
+      "definition_hash": "a6ef423c47b724224266f11375d1ef55ae4b50cf31890b25970a581ce10d1807",
+      "packet_hash": "d47861af7add475faf099886821b0c6ab8c4a88f24ca8bb6489d155c30adcc66",
+      "published_packet_hash": "d47861af7add475faf099886821b0c6ab8c4a88f24ca8bb6489d155c30adcc66",
+      "receipt_id": "52b69d29754f457f8db6f76d9a7da239",
+      "request_hash": "5eef9be8b572dceb63fedbc5d615235865c12ff3e62b10b8e5f3c4abe9b58188",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports positive emotion as a positive emotional state and links it to outcomes such as appraisal of learning gains and continued use, but it does not explicitly support the gloss ‘a pleasant emotional state.’",
+        "The definition adds a general dictionary-style characterization (“such as enjoyment or interest”) that is only partially supported by the packet’s examples and predictors, so the wording is broader than the source warrants."
+      ],
+      "definition_hash": "a6ef423c47b724224266f11375d1ef55ae4b50cf31890b25970a581ce10d1807",
+      "packet_hash": "d47861af7add475faf099886821b0c6ab8c4a88f24ca8bb6489d155c30adcc66",
+      "published_packet_hash": "d47861af7add475faf099886821b0c6ab8c4a88f24ca8bb6489d155c30adcc66",
+      "receipt_id": "ed31340ff7ed4c6c945deb3af785a4a0",
+      "request_hash": "10f0a79c21be015ed9c5e017597981e2fb59e1e66721f24a7714011c686e2e1e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

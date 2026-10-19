@@ -1,0 +1,62 @@
+{
+  "id": "vitamin-deficiency",
+  "term": "vitamin deficiency",
+  "definition": "In this packet, vitamin deficiency is described as an inherited deficiency involving cobalamin (vitamin B12). It is linked to problems in the vitamin B12 metabolic pathway and can be associated with neurodevelopmental abnormalities.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6944463"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6944463",
+      "revision": "2020; DOI 10.1371/journal.pone.0224646; article XML SHA-256 1cc9486ab11df03991aea6b271cf1f39327718b4fb74f961b1979e3a08f5c11f",
+      "scope": "Source record 10.1371/journal.pone.0224646; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0224646"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1000901ad7ab44e0e6709df5508aa25713b611297ccaceb51b847b7c3c337009",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1721517f7ab84658939e0b26411d737e",
+    "request_hash": "cfe1c5d9dc1e652f2d0ec2e13093ce8e5c1dfee3fe9e9d83fcdcae5238126a35",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "9a55a1ba54c487c11661f8a9bcc344baf44caa3b2a7e63a1042e1dcf99fa2364",
+    "packet_hash": "1000901ad7ab44e0e6709df5508aa25713b611297ccaceb51b847b7c3c337009"
+  },
+  "hash": "3f472dfee634fb90f85fb612f57fbbbf398b03e0b7729b00f90c1b13fd672509",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes an *inborn cobalamin disorder* (a specific vitamin B12-related condition), not “vitamin deficiency” in general; the definition generalizes the packet’s description to the broader term."
+      ],
+      "definition_hash": "9a55a1ba54c487c11661f8a9bcc344baf44caa3b2a7e63a1042e1dcf99fa2364",
+      "packet_hash": "1000901ad7ab44e0e6709df5508aa25713b611297ccaceb51b847b7c3c337009",
+      "published_packet_hash": "1000901ad7ab44e0e6709df5508aa25713b611297ccaceb51b847b7c3c337009",
+      "receipt_id": "c6fa95952b284ee99185e092a5c41502",
+      "request_hash": "8101e8e217e04253ac949b015a2764e7843378ddf34649090d5485f4aa468469",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a specific inborn cobalamin disorder (vitamin B12 deficiency), not the general term \"vitamin deficiency\" as such; the definition overgeneralizes a narrow example to the whole term.",
+        "\"Inherited deficiency\" is too strong as phrased for the packet’s wording: it says \"inborn vitamin deficiency\" and most often due to biallelic MMACHC mutations, which is not the same as defining vitamin deficiency itself as inherited."
+      ],
+      "definition_hash": "9a55a1ba54c487c11661f8a9bcc344baf44caa3b2a7e63a1042e1dcf99fa2364",
+      "packet_hash": "1000901ad7ab44e0e6709df5508aa25713b611297ccaceb51b847b7c3c337009",
+      "published_packet_hash": "1000901ad7ab44e0e6709df5508aa25713b611297ccaceb51b847b7c3c337009",
+      "receipt_id": "fb3eef13b22b4b77af5bb649e9b92d1a",
+      "request_hash": "4f31014011d47d59060322f77a534686c148e35f6ce117f02f0f798f0351f7f8",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

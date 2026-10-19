@@ -1,0 +1,60 @@
+{
+  "id": "patch-clamp-technique",
+  "term": "patch-clamp technique",
+  "definition": "The patch-clamp technique is an electrophysiological method used to record electrical ion currents across a cell membrane. In the whole-cell form described here, it was used to measure calcium-related signals from human atrial muscle cells.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12851451"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12851451",
+      "revision": "2026; DOI 10.1371/journal.pone.0339890; article XML SHA-256 1029e34f8ace885b9a2340b00ff5c7d24fda9fb733fe3b1bf6c5cc56b74d0ef0",
+      "scope": "Source record 10.1371/journal.pone.0339890; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339890"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "77f26738a145c921e732db9c3450bb4a660ee3b96171818a608b66702bbbc585",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a55cb8ee3ec24d6593288a0a5893f6d1",
+    "request_hash": "221a60a42671ca9ad8b80440420bdadf97e90fadbd68386f99da550cb15e834d",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "5c93de7fe535e50d2d283b641f1744e2428b5270006045d3c09d1077ccd1044c",
+    "packet_hash": "77f26738a145c921e732db9c3450bb4a660ee3b96171818a608b66702bbbc585"
+  },
+  "hash": "2e4bca0b3b56e623c6836c3bb0f97c4f5fa8564d3125258220e62ddbe9258d64",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5c93de7fe535e50d2d283b641f1744e2428b5270006045d3c09d1077ccd1044c",
+      "packet_hash": "77f26738a145c921e732db9c3450bb4a660ee3b96171818a608b66702bbbc585",
+      "published_packet_hash": "77f26738a145c921e732db9c3450bb4a660ee3b96171818a608b66702bbbc585",
+      "receipt_id": "0b657a594e764e7e99d9d5abdd53d654",
+      "request_hash": "6ff015a779a966d3a000d789e853e939926382204e6286a21068b3b94186d39f",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The entry is filed under learning, but the packet is about an electrophysiological method in human atrial myocytes, so the field/sense is not supported.",
+        "The definition’s broad claim that the patch-clamp technique is a method used to record electrical ion currents across a cell membrane is not stated as a definition in the packet; the packet only says whole-cell patch clamp was used to record myocyte calcium signals and transmembrane ion currents in this study."
+      ],
+      "definition_hash": "5c93de7fe535e50d2d283b641f1744e2428b5270006045d3c09d1077ccd1044c",
+      "packet_hash": "77f26738a145c921e732db9c3450bb4a660ee3b96171818a608b66702bbbc585",
+      "published_packet_hash": "77f26738a145c921e732db9c3450bb4a660ee3b96171818a608b66702bbbc585",
+      "receipt_id": "9431d65a374f47ec821a9469e8576844",
+      "request_hash": "51bf8205e995f905bddc9b786d32b4863130481e8b15d5944e09f958d65df6b4",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

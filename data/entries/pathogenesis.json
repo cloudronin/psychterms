@@ -1,0 +1,60 @@
+{
+  "id": "pathogenesis",
+  "term": "pathogenesis",
+  "definition": "Pathogenesis is the process by which a disorder or its complications arise and develop through underlying biological mechanisms. In this context, it refers to how HPA-axis dysregulation contributes to post-stroke emotional, cognitive, and systemic complications.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13445429"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13445429",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1836343; article XML SHA-256 e82d7feec47e61b327debef2a9a82caff1cc9f4772511dec36e0e7db8eb7e327",
+      "scope": "Source record 10.3389/fnhum.2026.1836343; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1836343"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7b0886fcf82902f029a82ed0524637645d8758062e876ec3e182df711116e7ec",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f080993af39741fd84b414ba5dfed891",
+    "request_hash": "d476e439284ea34ece8f2849cdd7d3896c44c9ca75080c2004ecdc08e6f4510b",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "31abb601e436767f0660a7535b073a8017ea48d0568e459f405ce3c7c563f9f5",
+    "packet_hash": "7b0886fcf82902f029a82ed0524637645d8758062e876ec3e182df711116e7ec"
+  },
+  "hash": "cb150c6c64a17b931a06832e52be91d8da555148e8446b4c58224d976ce1fc3a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "31abb601e436767f0660a7535b073a8017ea48d0568e459f405ce3c7c563f9f5",
+      "packet_hash": "7b0886fcf82902f029a82ed0524637645d8758062e876ec3e182df711116e7ec",
+      "published_packet_hash": "7b0886fcf82902f029a82ed0524637645d8758062e876ec3e182df711116e7ec",
+      "receipt_id": "54b7039fd6be4dd697542824f071937a",
+      "request_hash": "56534d45e1637bf0c22ad32a13e4e2c8b90ea4ab058f3f4207fbaa312e83d958",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general characterization of “pathogenesis” (“process by which a disorder or its complications arise and develop”) that is not explicitly supported by the provided packet text.",
+        "The second sentence introduces a specific application (“HPA-axis dysregulation contributes to post-stroke emotional, cognitive, and systemic complications”); while the packet discusses HPA-axis dysregulation contributing to post-stroke sequelae (including emotional/cognitive and systemic complications), this does not compensate for the unsupported general definition in the first sentence."
+      ],
+      "definition_hash": "31abb601e436767f0660a7535b073a8017ea48d0568e459f405ce3c7c563f9f5",
+      "packet_hash": "7b0886fcf82902f029a82ed0524637645d8758062e876ec3e182df711116e7ec",
+      "published_packet_hash": "7b0886fcf82902f029a82ed0524637645d8758062e876ec3e182df711116e7ec",
+      "receipt_id": "05939819fc2747c2b3bb6b54caf0baee",
+      "request_hash": "85d3b6ac72c2a16c4d01c850f3ae4a70cb2512eadb34603380581105dc273c61",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

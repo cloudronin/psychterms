@@ -1,0 +1,64 @@
+{
+  "id": "anterior-horn",
+  "term": "anterior horn",
+  "definition": "The anterior horn is the front region of the spinal cord where α-motoneurons are located. In the supplied source, it is described as the part of the spinal cord that shows severe motoneuron loss in ALS/MND.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5017773"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5017773",
+      "revision": "2016; DOI 10.1371/journal.pone.0162260; article XML SHA-256 0328ee860bf63f035c79b18b7f377d03bdf59e112d9b4d1181a479464256954a",
+      "scope": "Source record 10.1371/journal.pone.0162260; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0162260"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "380f87746bba090c430b5873dcd10badd5a75c1709ca4cfa32c052d3c53aade5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "848a8a8e6ac640969a82420392e33f7f",
+    "request_hash": "dfcf61ad7e607ace3c7b5be733d7a940da00d89fd35aa17e0be4afaedbbf2b7e",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "dcd30b8ac730010d8173c7696a0ef7813d1a96bdb05b352d74dae2fa9cd69759",
+    "packet_hash": "380f87746bba090c430b5873dcd10badd5a75c1709ca4cfa32c052d3c53aade5"
+  },
+  "hash": "d201deb164cb42f36fbeb6fd7a5de7c89d1ad19fe1ffa52db6f68a267ae43e3d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first claim (“front region of the spinal cord where α-motoneurons are located”) is not supported by the provided packet text.",
+        "While the packet does state that “Motoneuron loss in the spinal anterior horn is severe in ALS/MND,” the definition adds a broader anatomical description (“front region”) that is not present in the packet.",
+        "The supplied packet does not explicitly define what the “anterior horn” anatomically refers to beyond using the phrase in the context of ALS/MND severity at death."
+      ],
+      "definition_hash": "dcd30b8ac730010d8173c7696a0ef7813d1a96bdb05b352d74dae2fa9cd69759",
+      "packet_hash": "380f87746bba090c430b5873dcd10badd5a75c1709ca4cfa32c052d3c53aade5",
+      "published_packet_hash": "380f87746bba090c430b5873dcd10badd5a75c1709ca4cfa32c052d3c53aade5",
+      "receipt_id": "8bc25c0629b2451090afc8b74e91a0ef",
+      "request_hash": "9df1fb1c429959b36340dd0d1b37dc20260641468b0d1ffdf491a2234bc9bbd2",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that motoneuron loss in the spinal anterior horn is severe in ALS/MND, but it does not support defining the anterior horn as the front region of the spinal cord.",
+        "The packet does not explicitly support the claim that α-motoneurons are located in the anterior horn; it only mentions α-motoneurons as a neuron class identified in spinal cord tissue."
+      ],
+      "definition_hash": "dcd30b8ac730010d8173c7696a0ef7813d1a96bdb05b352d74dae2fa9cd69759",
+      "packet_hash": "380f87746bba090c430b5873dcd10badd5a75c1709ca4cfa32c052d3c53aade5",
+      "published_packet_hash": "380f87746bba090c430b5873dcd10badd5a75c1709ca4cfa32c052d3c53aade5",
+      "receipt_id": "6788214ea3b74c68ab7565203eeee8d4",
+      "request_hash": "9f8d32e1273afe696dc5b30ea1abe04a7df6789c74dbfa56f6232cdf6c75a04b",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

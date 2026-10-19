@@ -1,0 +1,62 @@
+{
+  "id": "vocal-cords",
+  "term": "vocal cords",
+  "definition": "In this packet, the vocal cords are airway structures used as an internal landmark when positioning a nasotracheal tube. Their distance to the carina is measured, and the tube cuff is kept at a safety margin from them during placement.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7939375"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7939375",
+      "revision": "2021; DOI 10.1371/journal.pone.0248296; article XML SHA-256 d6da8b3a33f279885544006136ccb4e9764647cd1fcf15efedd938d9ab9731bb",
+      "scope": "Source record 10.1371/journal.pone.0248296; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0248296"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "40b5b8cdae3c2f01ff047d611094aaf45b1c347f0a4171c13b388550d0887ed3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "651e4f3292a543398e67b8c4f70463e0",
+    "request_hash": "4bc46e218491f1678cb706412ebfebe5fc91a3259d9b82024393c8b2b3d02104",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "1bc54c3cdb2e1a94af65e39a70d8315d46f9660abb85d9d17e1be315b39332dd",
+    "packet_hash": "40b5b8cdae3c2f01ff047d611094aaf45b1c347f0a4171c13b388550d0887ed3"
+  },
+  "hash": "ba075d28ab5e7f6883f99b7c059764546054079148a03501df654e9c555bee6a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition is entirely about airway anatomy and nasotracheal intubation technique (medical procedures/positioning), which is not meaningfully within the specified field of “mental health.”"
+      ],
+      "definition_hash": "1bc54c3cdb2e1a94af65e39a70d8315d46f9660abb85d9d17e1be315b39332dd",
+      "packet_hash": "40b5b8cdae3c2f01ff047d611094aaf45b1c347f0a4171c13b388550d0887ed3",
+      "published_packet_hash": "40b5b8cdae3c2f01ff047d611094aaf45b1c347f0a4171c13b388550d0887ed3",
+      "receipt_id": "f749a48cb121492b99eeb6eeb2f15046",
+      "request_hash": "9ef38190c7767711aff94f27b757670ed541e0ea69e93a179e10dd887f8d36ee",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: this is an airway/anesthesia context, not a mental health term definition.",
+        "The definition overstates the packet by presenting the vocal cords as the specific landmark used for tube positioning without noting that the study measures the vocal cords-to-carina distance to calculate safe cuff and tip margins; the packet supports a procedural measurement context, not a general definitional claim about the term."
+      ],
+      "definition_hash": "1bc54c3cdb2e1a94af65e39a70d8315d46f9660abb85d9d17e1be315b39332dd",
+      "packet_hash": "40b5b8cdae3c2f01ff047d611094aaf45b1c347f0a4171c13b388550d0887ed3",
+      "published_packet_hash": "40b5b8cdae3c2f01ff047d611094aaf45b1c347f0a4171c13b388550d0887ed3",
+      "receipt_id": "e3140ae286f54cec8a5060278a30fe97",
+      "request_hash": "a2e5223fe9e79fca34e9f0bf8eb95e97e5364b43854475533b349a6efef426ff",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

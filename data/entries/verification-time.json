@@ -1,0 +1,63 @@
+{
+  "id": "verification-time",
+  "term": "verification time",
+  "definition": "Verification time is the portion of a visual search task spent checking whether a located item is in fact the target, as distinct from the time spent searching for it. In the source, improvements in performance were linked to shorter search time and shorter target verification time.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4809499"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4809499",
+      "revision": "2016; DOI 10.1371/journal.pone.0152502; article XML SHA-256 75b5c73b1328c6eed954a1c811eaea5097cd1b4d206ff87e8a08e65d1b74bbc9",
+      "scope": "Source record 10.1371/journal.pone.0152502; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0152502"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7bbd253866064c94a4b9b0f9d156f0d6e4ab66b3f0c4543dbb83a9ec1ace6aa2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "907fb1a3dad148fbbfaf4330363dcc20",
+    "request_hash": "b657839059fc8338f54a0a60d4bc5ead67cde096fb6e2f1fa42ce63912962114",
+    "registration_hash": "d90473afe9f6da85c2e842a0ef5fe242ddd2442b30a5362b262a2410c5373f53",
+    "definition_hash": "2146408fdaa5ba1b85ba18bd54e462d44468fe1c33830444f8a42280c758d8ff",
+    "packet_hash": "7bbd253866064c94a4b9b0f9d156f0d6e4ab66b3f0c4543dbb83a9ec1ace6aa2"
+  },
+  "hash": "fef742cd60ca071c0b08d23d890c4b8de865557d311dc357066eda3d0ede2c8b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “verification time” as “the portion of a visual search task spent checking whether a located item is in fact the target, as distinct from the time spent searching for it.” It only mentions “Search and Target Verification time” as components related to performance, without providing a clear definition of the term.",
+        "Because the first sentence’s definition/contrast is not directly supported by the packet’s text, the requested sense of the term is not defensibly grounded in the supplied source."
+      ],
+      "definition_hash": "2146408fdaa5ba1b85ba18bd54e462d44468fe1c33830444f8a42280c758d8ff",
+      "packet_hash": "7bbd253866064c94a4b9b0f9d156f0d6e4ab66b3f0c4543dbb83a9ec1ace6aa2",
+      "published_packet_hash": "7bbd253866064c94a4b9b0f9d156f0d6e4ab66b3f0c4543dbb83a9ec1ace6aa2",
+      "receipt_id": "7343d3ff2a564ba4a8818813330b5516",
+      "request_hash": "a9c2148005bc38e3f9997d3a0b3830048c7f2e8680aa40951b10264a2c04dc56",
+      "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the phrase “Target Verification time” but does not define it as the portion of a visual search task spent checking whether a located item is the target, so that definitional gloss is unsupported.",
+        "The source only says performance benefits were related to improvements in Search and Target Verification time; it does not support the broader explanatory framing about “the portion of a visual search task” or the search-versus-verification distinction as stated."
+      ],
+      "definition_hash": "2146408fdaa5ba1b85ba18bd54e462d44468fe1c33830444f8a42280c758d8ff",
+      "packet_hash": "7bbd253866064c94a4b9b0f9d156f0d6e4ab66b3f0c4543dbb83a9ec1ace6aa2",
+      "published_packet_hash": "7bbd253866064c94a4b9b0f9d156f0d6e4ab66b3f0c4543dbb83a9ec1ace6aa2",
+      "receipt_id": "0e3a6d14b4dd48119e536637b57be7c4",
+      "request_hash": "4e48b2519b1b7d095e924a2d7c7a1edf2d7e3fedb2405cb7eb238b8306a4c582",
+      "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
+    }
+  ]
+}

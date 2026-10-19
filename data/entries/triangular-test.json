@@ -1,0 +1,60 @@
+{
+  "id": "triangular-test",
+  "term": "triangular test",
+  "definition": "A triangular test is a sequential boundaries method used in clinical trials to evaluate results at interim stages rather than only at the end. It is used because it can reduce the expected number of participants while preserving planned statistical standards, which gives it ethical and practical advantages in trial monitoring.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc1382245"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc1382245",
+      "revision": "2006; DOI 10.1186/1471-2288-6-1; article XML SHA-256 97045bcf872b2f3f2c42845f5bc4dac2aac2e13de611920be0aa0a19c6aa2c4c",
+      "scope": "Source record 10.1186/1471-2288-6-1; pinned source text",
+      "locator": "https://doi.org/10.1186/1471-2288-6-1"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "465dcfebe84a49aeee8d7836266b08b0839fc6eaec8115d4d3c2f24049a91533",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a289a711d61f4d65ae5580f48a3db782",
+    "request_hash": "6c535d0ddcfd0a5ccc5d37bc887648fcf984f24e9c11eda0028c3358b3962e96",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "2cee101d15a3e7a578a085cb033a9ae3978c9ea26d37523d8802e926cd926d66",
+    "packet_hash": "465dcfebe84a49aeee8d7836266b08b0839fc6eaec8115d4d3c2f24049a91533"
+  },
+  "hash": "36e3884472a7abeb9c9bafe7c68963ae10c224afe762fefdd0f2d00f0b3c1fc6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2cee101d15a3e7a578a085cb033a9ae3978c9ea26d37523d8802e926cd926d66",
+      "packet_hash": "465dcfebe84a49aeee8d7836266b08b0839fc6eaec8115d4d3c2f24049a91533",
+      "published_packet_hash": "465dcfebe84a49aeee8d7836266b08b0839fc6eaec8115d4d3c2f24049a91533",
+      "receipt_id": "49547d7e1f3e44e98cedde70cb8835d5",
+      "request_hash": "38a58d565aec0e0ced8d858f804fda67a43aa39f1cef24575163a461c6575a3c",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that triangular tests have “ethical and practical advantages”; the packet only explicitly mentions “ethical and economic advantages” and does not support the “practical” advantage wording.",
+        "The definition describes triangular tests as evaluating results “at interim stages rather than only at the end”; the packet supports that sequential designs are used for “interim monitoring,” but it does not directly contrast interim stages “rather than only at the end” in the way the definition implies."
+      ],
+      "definition_hash": "2cee101d15a3e7a578a085cb033a9ae3978c9ea26d37523d8802e926cd926d66",
+      "packet_hash": "465dcfebe84a49aeee8d7836266b08b0839fc6eaec8115d4d3c2f24049a91533",
+      "published_packet_hash": "465dcfebe84a49aeee8d7836266b08b0839fc6eaec8115d4d3c2f24049a91533",
+      "receipt_id": "a11a5eb259084bd5be792359c010bde1",
+      "request_hash": "0e3180310235efabd8a9410d74e90b99ecc32b6c0f84f096efd31d0921e48109",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "spatial-attention",
+  "term": "spatial attention",
+  "definition": "Spatial attention is the focusing of attention on a particular location in space. In the source packet, deploying spatial attention is described as producing measurable patterns of brain activity and as being tracked in a cueing task by whether attention is directed toward one side or another.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12494278"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12494278",
+      "revision": "2025; DOI 10.1371/journal.pone.0332583; article XML SHA-256 620c7dbed8f4fa02792525d0b12ae0029ff7fe346f8fe0343717f5a5d821f8cc",
+      "scope": "Source record 10.1371/journal.pone.0332583; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0332583"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a16e00f6e08ccbed517969b75a5e07dfcd98ba360b483f510614fb30f0b04956",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a52168aaaf914fa19987f6282aeab170",
+    "request_hash": "5502bb0fcb503ec158242fa90b228554d22b109228c90460fd00f15d413ba08f",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "1f91f82eb85709d1c2d18bf8f3d11b610403a43a1bf0238111ab11c440ea4f6c",
+    "packet_hash": "a16e00f6e08ccbed517969b75a5e07dfcd98ba360b483f510614fb30f0b04956"
+  },
+  "hash": "0c81cdef3efe64ab64fec794cd8dc8b00519a00ea572bcae711d18b88182eec7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general dictionary-style definition (“the focusing of attention on a particular location in space”) that is not stated in the packet and is not directly supported by the supplied text alone.",
+        "The second sentence partly paraphrases the study correctly, but it adds “measurable patterns of brain activity” as a general property of spatial attention; the packet only says the deployment of spatial attention generates distinct neural signatures detectable at the scalp in this study, not a general definition.",
+        "The cueing-task description is somewhat overspecified: the packet supports decoding cue direction in a Posner-style cueing design, but it does not explicitly say the task tracks attention as simply being directed toward one side or another."
+      ],
+      "definition_hash": "1f91f82eb85709d1c2d18bf8f3d11b610403a43a1bf0238111ab11c440ea4f6c",
+      "packet_hash": "a16e00f6e08ccbed517969b75a5e07dfcd98ba360b483f510614fb30f0b04956",
+      "published_packet_hash": "a16e00f6e08ccbed517969b75a5e07dfcd98ba360b483f510614fb30f0b04956",
+      "receipt_id": "5bbd447625bf46c79d7b9242e74e9160",
+      "request_hash": "4df71c68883e33507b28ee378002813e5f9538e12f3a7a96896bf7b6dd3d2a34",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state a general definition of spatial attention as “the focusing of attention on a particular location in space”; it only refers to “deployment of spatial attention” in the context of a Posner-style cueing paradigm.",
+        "Because the first sentence contains an unsupported general characterization (beyond what the packet describes about their task and measured EEG/cue direction), the definition as a whole is not fully supported by the packet."
+      ],
+      "definition_hash": "1f91f82eb85709d1c2d18bf8f3d11b610403a43a1bf0238111ab11c440ea4f6c",
+      "packet_hash": "a16e00f6e08ccbed517969b75a5e07dfcd98ba360b483f510614fb30f0b04956",
+      "published_packet_hash": "a16e00f6e08ccbed517969b75a5e07dfcd98ba360b483f510614fb30f0b04956",
+      "receipt_id": "cee0449bdb2d439a82af1b46ab6ea424",
+      "request_hash": "e422ba61160669d79060d4731d0f28334654c340cca421b4f36fc2838c8baa0c",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

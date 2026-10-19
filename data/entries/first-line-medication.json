@@ -1,0 +1,60 @@
+{
+  "id": "first-line-medication",
+  "term": "first-line medication",
+  "definition": "A first-line medication is the medicine typically chosen first for a particular condition. In the packet, methylphenidate is identified as the first medication used for attention-deficit/hyperactivity disorder (ADHD).",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13199321"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13199321",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1794403; article XML SHA-256 e0deb14026f2c504b1a64e57d72026fde9047de6fb74550a6d632d008c52f65b",
+      "scope": "Source record 10.3389/fpsyt.2026.1794403; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1794403"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e543b7ebbd6874a3f7ae401df1b8250621367a6f593fc1acf875d62e90082cc2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "52015afe5ca54e7a8b19e0cde6b47618",
+    "request_hash": "d4e90545c6be19dc0e5377c88a77819e00a2e43675d5cb336d553e02916df9bc",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "68d96638cf01dd3863d887514adcbd315e56c65708b08540121fa4dfcbe41324",
+    "packet_hash": "e543b7ebbd6874a3f7ae401df1b8250621367a6f593fc1acf875d62e90082cc2"
+  },
+  "hash": "40d2fcff09097d6f51c8d8cead282a3aa47321fe5a084182db3f93fdbe47b633",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define or describe the general concept “first-line medication” as “typically chosen first for a particular condition.”",
+        "Only the specific claim that methylphenidate is the first-line medication for ADHD is supported by the packet; the first sentence remains unsupported."
+      ],
+      "definition_hash": "68d96638cf01dd3863d887514adcbd315e56c65708b08540121fa4dfcbe41324",
+      "packet_hash": "e543b7ebbd6874a3f7ae401df1b8250621367a6f593fc1acf875d62e90082cc2",
+      "published_packet_hash": "e543b7ebbd6874a3f7ae401df1b8250621367a6f593fc1acf875d62e90082cc2",
+      "receipt_id": "f71468660ecf46378d637a5e713fb76e",
+      "request_hash": "baa04cd6a9aab64254eb0d473a8a3e63d90130eb6293609e9527120c8b38c8ed",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "68d96638cf01dd3863d887514adcbd315e56c65708b08540121fa4dfcbe41324",
+      "packet_hash": "e543b7ebbd6874a3f7ae401df1b8250621367a6f593fc1acf875d62e90082cc2",
+      "published_packet_hash": "e543b7ebbd6874a3f7ae401df1b8250621367a6f593fc1acf875d62e90082cc2",
+      "receipt_id": "c9e7ab4cf8874e91908615ba4e967d1b",
+      "request_hash": "56cd2e0b2b8204a66cc6ae16d54768e4ca3b450fa24c381aac7df688c3f9850a",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

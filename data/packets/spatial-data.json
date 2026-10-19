@@ -1,0 +1,26 @@
+{
+  "id": "spatial-data",
+  "term": "spatial data",
+  "source": "article-pmc13262850",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0351311",
+  "revision": "2026; DOI 10.1371/journal.pone.0351311; article XML SHA-256 f8e105f6f6d05c363cf8ac7611cf3b43866ed8485e61d21ba27a80e6639a5eb0",
+  "source_snapshot_sha256": "f8e105f6f6d05c363cf8ac7611cf3b43866ed8485e61d21ba27a80e6639a5eb0",
+  "url": "https://doi.org/10.1371/journal.pone.0351311",
+  "text": "Building detection from drone imagery represents a transformative approach to rural governance by enabling precise spatial data acquisition for critical applications including illegal construction monitoring, disaster assessment, and cadastral mapping. However, automated detection systems face persistent challenges including extreme scale variations in rural buildings, complex background interference from vegetation and shadows leading to boundary ambiguity, and severe scarcity of high-quality annotated datasets that limit model generalization. To overcome these limitations, this study introduces an integrated framework featuring three innovative components: the Multi-scale Hybrid Attention module employs parallel convolutional pathways with channel and spatial attention to dynamically capture multi-scale features while suppressing background noise; the Dynamic Feature Pyramid Network utilizes content-aware routing to adaptively fuse hierarchical features for optimal scale-invariant representation; and the Progressive Contrastive Learning strategy leverages both labeled and unlabeled data through hard sample mining to enhance discriminability under data constraints. Extensive experiments validate the model’s efficacy, achieving a mean Intersection over Union (MIoU) of 87.3%, pixel accuracy (PA) of 94.2%, and mean Average Precision (mAP) of 89.6% on the Massachusetts Buildings Dataset, substantially surpassing benchmarks like U-Net (80.1% MIoU), SegNet (78.9% MIoU), and DeepLabV3+ (82.4% MIoU), with ablation studies confirming critical module contributions (e.g., MIoU drops to 81.5% without MHA). The framework demonstrates robust cross-dataset generalization (72.3% MIoU on Chinese rural data) and effective problem resolution, establishing a scalable solution for intelligent rural governance through accurate building extraction. The dataset and code used in this study have been uploaded to the GitHub website: https://github.com/xiexie1234567890/rural_building_detection/tree/main .",
+  "source_label": "Empowering rural governance with digital technology: Deep learning models for automated detection of rural buildings using remote sensing images",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2013
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "8bb88489b5eac5012260b1632842fcba86c1e4232918f855055cef68f0537b15"
+}

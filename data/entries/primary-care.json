@@ -1,0 +1,62 @@
+{
+  "id": "primary-care",
+  "term": "primary care",
+  "definition": "Primary care is basic health care for common medical problems. A primary care provider is the health professional a person may see first, such as a doctor, physician assistant, or nurse practitioner, and may also be someone with whom mental health concerns are discussed.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "nimh-page-62242cc0869c7054"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "nimh-page-62242cc0869c7054",
+      "revision": "HTML publication snapshot 2026-10-18; SHA-256 13e466c66c1ce891732ea22bbe016eaa77b67b36619f36703c1d3cd15b495788",
+      "scope": "Source record https://www.nimh.nih.gov/health/publications/tips-for-talking-with-your-health-care-provider; pinned source text",
+      "locator": "https://www.nimh.nih.gov/health/publications/tips-for-talking-with-your-health-care-provider"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "49ccedacd2ef4b0d8ca04ad55c41250d",
+    "request_hash": "bb8be26765bcf350cc428dd974e274b9fc9b30b325eb951dac7744d19de265d7",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "84a40012f48231ca8a5aa3ac7977797f520ca70c97d337507220ba053529a934",
+    "packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3"
+  },
+  "hash": "b158cdbd8bac8f3b7391707a6734ee30f2d05b96eb7a47118ecc4dd093ccebab",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "84a40012f48231ca8a5aa3ac7977797f520ca70c97d337507220ba053529a934",
+      "packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3",
+      "published_packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3",
+      "receipt_id": "f085d03fd28d45c5a4a9f3925126336c",
+      "request_hash": "7f6ef95b1b9add538e6f82bb0aa4c6656ec1afef9fec11ac43374a1bce489d35",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a primary care provider (PCP), not the broader term “primary care.”",
+        "“Basic health care for common medical problems” is only partially supported; the source says a PCP is a health care practitioner people see for common medical problems, but does not define primary care itself.",
+        "“A primary care provider is the health professional a person may see first” is not stated in the packet and is an unsupported generalization.",
+        "The mental-health sentence is broadly supported, but the overall definition still mismatches the requested term/sense."
+      ],
+      "definition_hash": "84a40012f48231ca8a5aa3ac7977797f520ca70c97d337507220ba053529a934",
+      "packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3",
+      "published_packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3",
+      "receipt_id": "06559a98a88b429b958d031e54f5acde",
+      "request_hash": "db256a4e4f111809485e067796ee1fde760a686a45a9d27f60ab27f43a004d00",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

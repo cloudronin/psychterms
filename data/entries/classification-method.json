@@ -1,0 +1,63 @@
+{
+  "id": "classification-method",
+  "term": "classification method",
+  "definition": "A classification method is a way of sorting data into categories. In this source, it refers to a deep-learning approach that classifies electroencephalography signals by using information about electrode layout and spatial, spectral, and temporal signal features.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9584501"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9584501",
+      "revision": "2022; DOI 10.1371/journal.pone.0276526; article XML SHA-256 a0c759ffbf4ee5b37ed22307f3bf86922f6f1164155b9807d2202794d109fd54",
+      "scope": "Source record 10.1371/journal.pone.0276526; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0276526"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "aa0563d3f95fca1d71ca65ab20b188821540718712be6928892cc010020caaee",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fdc4e7c07c964e98bc6837c1645e41c7",
+    "request_hash": "41dfe8e48e1d6861c05fbca9439b9217fea94e2cd9472d6fffdc74d2777f897e",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "2887c452971e307a4941e5761f3e3a06810f5df6d1186dca658da41431e0399a",
+    "packet_hash": "aa0563d3f95fca1d71ca65ab20b188821540718712be6928892cc010020caaee"
+  },
+  "hash": "f02dd05d8627384fcbb6ee7b15eccd1225a27aa3f6074e3b631d0098e5057ef0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a broad dictionary-style meaning (“a way of sorting data into categories”) that is not supported by the supplied source packet.",
+        "The source supports a specific deep-learning EEG classification method for motion imagination, not a general definition of “classification method.”"
+      ],
+      "definition_hash": "2887c452971e307a4941e5761f3e3a06810f5df6d1186dca658da41431e0399a",
+      "packet_hash": "aa0563d3f95fca1d71ca65ab20b188821540718712be6928892cc010020caaee",
+      "published_packet_hash": "aa0563d3f95fca1d71ca65ab20b188821540718712be6928892cc010020caaee",
+      "receipt_id": "6363c8c159f743ac9081c02a143bc0cb",
+      "request_hash": "5ef0f96996a6d67e466d6026dcf1b8a6d265aea5088cbcecb500b9b641851baf",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“A classification method is a way of sorting data into categories.”) is a general definition not explicitly supported by the provided packet text.",
+        "The packet text supports that a deep-learning “classification method” for EEG uses electrode distribution/layout in a graph structure and extracts spatial-spectral-temporal feature information, but it does not provide the general sorting-into-categories definition used in the first sentence."
+      ],
+      "definition_hash": "2887c452971e307a4941e5761f3e3a06810f5df6d1186dca658da41431e0399a",
+      "packet_hash": "aa0563d3f95fca1d71ca65ab20b188821540718712be6928892cc010020caaee",
+      "published_packet_hash": "aa0563d3f95fca1d71ca65ab20b188821540718712be6928892cc010020caaee",
+      "receipt_id": "167a47ab28524e7aaa5bc76fcbbcf200",
+      "request_hash": "42147699452d2d43358e198b5373a254d3a461d414e0c6090ca57e2ec7a0b78b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

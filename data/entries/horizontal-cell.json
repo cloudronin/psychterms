@@ -1,0 +1,64 @@
+{
+  "id": "horizontal-cell",
+  "term": "horizontal cell",
+  "definition": "A horizontal cell is a retinal nerve cell that receives input from photoreceptors, including cones and, in some cases, rods. In this source, cone horizontal cells are described as postsynaptic to cones and rod horizontal cells as postsynaptic to rods, with their light responses changing across day and night.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6713326"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6713326",
+      "revision": "2019; DOI 10.1371/journal.pone.0218818; article XML SHA-256 1295e24fed79b6da10beeff119fcb134f7bae3ee0ff94b19936ab97575c46088",
+      "scope": "Source record 10.1371/journal.pone.0218818; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0218818"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "53ebeb8cf7323b829b9accce587e233f394b504bfc86ffd1a032010ef9716c5c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ed1cbe62d228428cb236d9084dab37a9",
+    "request_hash": "9e5b6ee61b338f6df0db046903dd4705ddf4a7e92617baccee0606e4b3e56e6b",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "20fb29276ede991c4190a2bf2b080bd1bb3415cae0b0d87c6210fe461c671e68",
+    "packet_hash": "53ebeb8cf7323b829b9accce587e233f394b504bfc86ffd1a032010ef9716c5c"
+  },
+  "hash": "81201417727f5aee8f8da70e0a0fd81b2c9887db8c2608327a73c63977849c4e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that a horizontal cell is “a retinal nerve cell” is not explicitly supported by the packet text, which names cone and rod horizontal cells but does not describe them as “retinal nerve cells.”",
+        "The claim that horizontal cells “receive input from photoreceptors” is not directly stated; the packet discusses light-response changes and that rod signals can be introduced into cones, and it labels horizontal cells as postsynaptic, but it does not explicitly describe the general rule that horizontal cells receive input from photoreceptors."
+      ],
+      "definition_hash": "20fb29276ede991c4190a2bf2b080bd1bb3415cae0b0d87c6210fe461c671e68",
+      "packet_hash": "53ebeb8cf7323b829b9accce587e233f394b504bfc86ffd1a032010ef9716c5c",
+      "published_packet_hash": "53ebeb8cf7323b829b9accce587e233f394b504bfc86ffd1a032010ef9716c5c",
+      "receipt_id": "daa9536970a34bd0a5f916364eaf6818",
+      "request_hash": "dd95adf2ddba244cb0064a2795f016e2c27e99a208d63f6ff50f2437882fd3f6",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support calling a horizontal cell a “retinal nerve cell”; it only describes cone horizontal cells and rod horizontal cells as postsynaptic to cones or rods.",
+        "The day/night change in light responses is supported for cone and cone horizontal cells in this study, not as a general property of horizontal cells.",
+        "The definition generalizes from the packet’s subtype-specific findings (cone horizontal cells and rod horizontal cells) to horizontal cells overall without support."
+      ],
+      "definition_hash": "20fb29276ede991c4190a2bf2b080bd1bb3415cae0b0d87c6210fe461c671e68",
+      "packet_hash": "53ebeb8cf7323b829b9accce587e233f394b504bfc86ffd1a032010ef9716c5c",
+      "published_packet_hash": "53ebeb8cf7323b829b9accce587e233f394b504bfc86ffd1a032010ef9716c5c",
+      "receipt_id": "850fcc32e9c74a589b456c4f23bb867b",
+      "request_hash": "f2cf127f15b155ed070e4fe2a738cde7f16d70ecd622bb2f3d62282905c21f2a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

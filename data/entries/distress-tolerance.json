@@ -1,0 +1,63 @@
+{
+  "id": "distress-tolerance",
+  "term": "distress tolerance",
+  "definition": "Distress tolerance refers to skills used in dialectical behavior therapy to help a person get through intense emotional strain or crisis situations. In the source, these skills are described as helping reduce immediate tension and support coping in difficult interpersonal situations so the person feels more stable and safe.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8205175"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8205175",
+      "revision": "2021; DOI 10.1371/journal.pone.0252403; article XML SHA-256 e0c7ece668ec41382efb50347f74e84de3eb3178b7bfa04d1c53ab6d92c3da8a",
+      "scope": "Source record 10.1371/journal.pone.0252403; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0252403"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f66c173c4b6319e96ae2eb8c68bbb451ac558037649d5e0d9acd5ba0029a1f14",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "28cb5977e6e247c49bd0558bcbd881d2",
+    "request_hash": "76c6bedff60e0cec21f90fcc62d4c8bf754b0d18dd64ecb517c19c36e72c2eb2",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "b4048b6a933c7fdf9283bd3c5f430b9fca0096bc2fcbca36b02eff86904f5233",
+    "packet_hash": "f66c173c4b6319e96ae2eb8c68bbb451ac558037649d5e0d9acd5ba0029a1f14"
+  },
+  "hash": "015c0098f36e654a97e8c4650b3f9d4bcc0c389f1c4ff6f67435bffe2120ba64",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible: ‘distress tolerance’ here is a DBT skill/intervention, not a diagnosis.",
+        "The definition slightly overgeneralizes the source by framing the skills as broadly for ‘crisis situations’ rather than specifically the difficult interpersonal situations and emergencies described in the packet."
+      ],
+      "definition_hash": "b4048b6a933c7fdf9283bd3c5f430b9fca0096bc2fcbca36b02eff86904f5233",
+      "packet_hash": "f66c173c4b6319e96ae2eb8c68bbb451ac558037649d5e0d9acd5ba0029a1f14",
+      "published_packet_hash": "f66c173c4b6319e96ae2eb8c68bbb451ac558037649d5e0d9acd5ba0029a1f14",
+      "receipt_id": "7de2d4db95cb4c45a22f625fc64299a8",
+      "request_hash": "42aa6d969fcb314c1aeb75516a0bdf18451b0f216e54382e3adacdc344ab747d",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “intense emotional strain or crisis situations” is not directly supported by the packet; the packet specifically mentions “difficult interpersonal situations and emergencies” and “immediate reduction of tension,” not “intense emotional strain” or “crisis situations.”",
+        "The definition claims the skills “support coping” in difficult interpersonal situations so the person “feels more stable and safe.” While “cope with difficult interpersonal situations and emergencies” and feeling “stable” and “safe” are supported, the definition also adds “more” (relative change) which is not explicitly stated in the packet."
+      ],
+      "definition_hash": "b4048b6a933c7fdf9283bd3c5f430b9fca0096bc2fcbca36b02eff86904f5233",
+      "packet_hash": "f66c173c4b6319e96ae2eb8c68bbb451ac558037649d5e0d9acd5ba0029a1f14",
+      "published_packet_hash": "f66c173c4b6319e96ae2eb8c68bbb451ac558037649d5e0d9acd5ba0029a1f14",
+      "receipt_id": "5f3c1aad8c564b8b82f000fcabf1c4ab",
+      "request_hash": "1a8e30ed209c4d1346ab407184e220a517acfeff9b54e617628290530c222fd1",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

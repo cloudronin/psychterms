@@ -1,0 +1,26 @@
+{
+  "id": "box-and-whisker-plot",
+  "term": "box-and-whisker plot",
+  "source": "article-pmc5542532",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0181853",
+  "revision": "2017; DOI 10.1371/journal.pone.0181853; article XML SHA-256 2eff8fda75946f74ceaee4fd0bc3472d4cdb73ff6aaca7560d3b945a521bf4bb",
+  "source_snapshot_sha256": "2eff8fda75946f74ceaee4fd0bc3472d4cdb73ff6aaca7560d3b945a521bf4bb",
+  "url": "https://doi.org/10.1371/journal.pone.0181853",
+  "text": "It is difficult for learning models to achieve high classification performances with imbalanced data sets, because with imbalanced data sets, when one of the classes is much larger than the others, most machine learning and data mining classifiers are overly influenced by the larger classes and ignore the smaller ones. As a result, the classification algorithms often have poor learning performances due to slow convergence in the smaller classes. To balance such data sets, this paper presents a strategy that involves reducing the sizes of the majority data and generating synthetic samples for the minority data. In the reducing operation, we use the box-and-whisker plot approach to exclude outliers and the Mega-Trend-Diffusion method to find representative data from the majority data. To generate the synthetic samples, we propose a counterintuitive hypothesis to find the distributed shape of the minority data, and then produce samples according to this distribution. Four real datasets were used to examine the performance of the proposed approach. We used paired t-tests to compare the Accuracy, G-mean, and F-measure scores of the proposed data pre-processing (PPDP) method merging in the D3C method (PPDP+D3C) with those of the one-sided selection (OSS), the well-known SMOTEBoost (SB) study, and the normal distribution-based oversampling (NDO) approach, and the proposed data pre-processing (PPDP) method. The results indicate that the classification performance of the proposed approach is better than that of above-mentioned methods.",
+  "source_label": "Detecting representative data and generating synthetic samples to improve learning accuracy with imbalanced data sets",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1552
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e"
+}

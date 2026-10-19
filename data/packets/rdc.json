@@ -1,0 +1,26 @@
+{
+  "id": "rdc",
+  "term": "RDC",
+  "source": "article-pmc12994839",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0343654",
+  "revision": "2026; DOI 10.1371/journal.pone.0343654; article XML SHA-256 58b2872ca23994aaffa92d0b1b10f9846e729c0c404c72ae80e07740f04bb1dd",
+  "source_snapshot_sha256": "58b2872ca23994aaffa92d0b1b10f9846e729c0c404c72ae80e07740f04bb1dd",
+  "url": "https://doi.org/10.1371/journal.pone.0343654",
+  "text": "Accurately predicting the bioactivity of small molecules against cancer therapeutic targets remains a significant challenge at the intersection of cheminformatics and drug discovery. This study comprehensively evaluates chemical representations, including AtomPair Counts (APC),Avalon (AVN), Extended-Connectivity Fingerprint diameter 4 (ECFP4), Extended-Connectivity Fingerprint diameter 6 (ECFP6), Feature-based Morgan 2 (FM2), Feature-based Morgan 3 (FM3), Mol2Vec (M2V), Molecular ACCess System (MACCS), Mordred 2D Chi Kappa (MK2), RDKFingerprint (RDF), Rdkit PhysChem (RDC), Torsion (TSN) combined with machine learning algorithms (Bayesian Ridge (BRG), Elastic Net (ENT), Extra Trees (ETT), Hist Gradient Boosting (HGT), K-Nearest Neighbors ( k NN), Lasso (LSS), Multi-layer Perceptron (MLP), Partial least squares (PLS), Random Forest (RFT), Ridge (RDG), Support Vector Regressor (SVR), and XGBoost (XGB)) for predicting cancer bioactivities. The results show that while AVN chemical representation, in conjunction with SVR algorithm, achieved the highest predictive accuracy, with R 2 of 0.735 in FGFR1 dataset; The mTOR dataset demonstrated the highest average performance across all models and chemical representations, with an R 2 of 0.592 across various cancer datasets. These findings demonstrate how cheminformatics tools like molecular fingerprints and quantitative structure-activity relationship (QSAR) modeling can significantly enhance bioactivity prediction, ultimately contributing to more efficient and targeted cancer drug discovery.",
+  "source_label": "Enhancing cancer drug discovery: QSAR modeling with machine learning and chemical representations",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1556
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "81cd759c3de14c163e522dfd7ba51d5a437b4f219489aea7480d5f3f2214ddab"
+}

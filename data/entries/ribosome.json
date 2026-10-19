@@ -1,0 +1,64 @@
+{
+  "id": "ribosome",
+  "term": "ribosome",
+  "definition": "A ribosome is a cellular structure involved in reading mRNA, and it can become stalled when an mRNA is defective, such as a non-stop mRNA. In the source, stalled ribosomes are described as targets for factors that promote ribosome splitting or mRNA decay, and their small subunits may carry ubiquitin marks.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13232801"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13232801",
+      "revision": "2026; DOI 10.1371/journal.pone.0348877; article XML SHA-256 6cbb76bbb4cdde43970571d7a67ba7fb625ee732d34d9a41c493377828b1a93e",
+      "scope": "Source record 10.1371/journal.pone.0348877; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348877"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3221b55283f54167ab072d9d83cbab360247b9fe2598aef3a53476ad8369c24c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6c9c827e127e4dd29665388683d0c726",
+    "request_hash": "89df31c92accdec05fa4bda97bf99a5dc9530af14f969d58e426f4aa2465b720",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "a72a1df47e73d2c609ceec4bd904f8cc145217cc2cefec0fda0500573bd29f88",
+    "packet_hash": "3221b55283f54167ab072d9d83cbab360247b9fe2598aef3a53476ad8369c24c"
+  },
+  "hash": "3956cbe5adc1e42f971a581ca01a1dc02adfc38e68850877efad75c521ddf8bb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that ribosomes are “involved in reading mRNA.”",
+        "The packet does support that HBS1L–PELO recognizes “ribosomes stalled on non-stop mRNAs” and promotes ribosome splitting, and that SKI7 mediates mRNA decay on stalled ribosomes, but the definition’s first clause about ribosomes’ mRNA-reading role is unsupported by the packet.",
+        "The packet states that UBAh has been predicted to interact with ubiquitin moieties attached to the small subunits of stalled ribosomes, but also says “evidence for its interaction with ubiquitin is lacking.” The definition presents “small subunits may carry ubiquitin marks” as a general possibility without staying strictly within the packet’s stated prediction/evidence limitations."
+      ],
+      "definition_hash": "a72a1df47e73d2c609ceec4bd904f8cc145217cc2cefec0fda0500573bd29f88",
+      "packet_hash": "3221b55283f54167ab072d9d83cbab360247b9fe2598aef3a53476ad8369c24c",
+      "published_packet_hash": "3221b55283f54167ab072d9d83cbab360247b9fe2598aef3a53476ad8369c24c",
+      "receipt_id": "57d54b4cd6d74c5d84aa648a11911bb3",
+      "request_hash": "a51876eebb51c603fc26a4d61117e653a24d260e484ba365085df6527f99d80f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening clause gives a general definition of ribosome as a cellular structure that reads mRNA, but the supplied packet does not define ribosome in general; it only discusses stalled ribosomes and related factors.",
+        "The wording broadens the source beyond what it states, turning a specific article about stalled-ribosome recognition into a general definition of ribosome."
+      ],
+      "definition_hash": "a72a1df47e73d2c609ceec4bd904f8cc145217cc2cefec0fda0500573bd29f88",
+      "packet_hash": "3221b55283f54167ab072d9d83cbab360247b9fe2598aef3a53476ad8369c24c",
+      "published_packet_hash": "3221b55283f54167ab072d9d83cbab360247b9fe2598aef3a53476ad8369c24c",
+      "receipt_id": "d7dfbeb6d9d94af9b04435343bedf63a",
+      "request_hash": "b6eaf23afa3f2e7eb3d9bc87c54152afc6f54c850d2c39f2be69cb6ee645c72c",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

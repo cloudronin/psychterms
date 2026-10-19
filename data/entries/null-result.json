@@ -1,0 +1,63 @@
+{
+  "id": "null-result",
+  "term": "null result",
+  "definition": "A null result is a finding that shows no evidence of the expected effect or relationship in a study. In this psychology context, it means the predicted difference was not observed even after considering alternative explanations such as low statistical power or measurement limits.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7775060"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7775060",
+      "revision": "2020; DOI 10.1371/journal.pone.0238554; article XML SHA-256 8f950963476e5f814749fd02f1fe8cc7b21c079e3281867d069cee76d99ddd21",
+      "scope": "Source record 10.1371/journal.pone.0238554; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0238554"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1a3b9c2061720398a9fa1d1c02633d4b8db055732e57b3cde81e45385ed77ec9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4773944d0b3847248a18a026156f1765",
+    "request_hash": "2dc9f55ce944ce00b674e619f2f28b14aac8502be39fed987ff7fe9540e6fd25",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "2f7d2fe790ac4d4f4e8e3fc3fa5a203ef00f4e7a54bf92d0fae31d58124174c6",
+    "packet_hash": "1a3b9c2061720398a9fa1d1c02633d4b8db055732e57b3cde81e45385ed77ec9"
+  },
+  "hash": "bb5c3db347ddc8905c365ddf3803aa5a65e5b3cbc513c176ba65cc3b0ecab94b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that a null result means no evidence for the expected effect (e.g., “There was no evidence for either effect”), but the definition adds “measurement limits,” which is not mentioned in the packet. The packet only specifies alternative explanations including “reduced statistical power” and “enhanced floor or ceiling effects,” not measurement limits."
+      ],
+      "definition_hash": "2f7d2fe790ac4d4f4e8e3fc3fa5a203ef00f4e7a54bf92d0fae31d58124174c6",
+      "packet_hash": "1a3b9c2061720398a9fa1d1c02633d4b8db055732e57b3cde81e45385ed77ec9",
+      "published_packet_hash": "1a3b9c2061720398a9fa1d1c02633d4b8db055732e57b3cde81e45385ed77ec9",
+      "receipt_id": "dabdb8d8217f474b931095748c43b4fc",
+      "request_hash": "defd1e3f5c502e44e2af0751044886ee74f63eb8c68363ff8fdf86a82aceb96a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a null result as no evidence for an expected effect in this study, but it does not support the broader wording about a missing “relationship.”",
+        "“Measurement limits” is not supported by the packet; it only mentions reduced statistical power and floor/ceiling effects as alternative explanations that were ruled out.",
+        "The definition adds a general explanatory gloss beyond the packet’s specific study context, so it is slightly overgeneralized for the supplied source."
+      ],
+      "definition_hash": "2f7d2fe790ac4d4f4e8e3fc3fa5a203ef00f4e7a54bf92d0fae31d58124174c6",
+      "packet_hash": "1a3b9c2061720398a9fa1d1c02633d4b8db055732e57b3cde81e45385ed77ec9",
+      "published_packet_hash": "1a3b9c2061720398a9fa1d1c02633d4b8db055732e57b3cde81e45385ed77ec9",
+      "receipt_id": "b3b9b4067d184909bbb36c535349c30d",
+      "request_hash": "6fbe156f7ba0f8fa60ee7c8b4b41573ef50b42bb524bb19dd3f35e6ed42263cb",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "view-invariance",
+  "term": "view invariance",
+  "source": "article-pmc3732294",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0069952",
+  "revision": "2013; DOI 10.1371/journal.pone.0069952; article XML SHA-256 f584dc4743ff6bb56cc328f4acc1842a791b25274aaf9a49875adf203845f0d0",
+  "source_snapshot_sha256": "f584dc4743ff6bb56cc328f4acc1842a791b25274aaf9a49875adf203845f0d0",
+  "url": "https://doi.org/10.1371/journal.pone.0069952",
+  "text": "Over successive stages, the ventral visual system of the primate brain develops neurons that respond selectively to particular objects or faces with translation, size and view invariance. The powerful neural representations found in Inferotemporal cortex form a remarkably rapid and robust basis for object recognition which belies the difficulties faced by the system when learning in natural visual environments. A central issue in understanding the process of biological object recognition is how these neurons learn to form separate representations of objects from complex visual scenes composed of multiple objects. We show how a one-layer competitive network comprised of ‘spiking’ neurons is able to learn separate transformation-invariant representations (exemplified by one-dimensional translations) of visual objects that are always seen together moving in lock-step, but separated in space. This is achieved by combining ‘Mexican hat’ functional lateral connectivity with cell firing-rate adaptation to temporally segment input representations of competing stimuli through anti-phase oscillations (perceptual cycles). These spiking dynamics are quickly and reliably generated, enabling selective modification of the feed-forward connections to neurons in the next layer through Spike-Time-Dependent Plasticity (STDP), resulting in separate translation-invariant representations of each stimulus. Variations in key properties of the model are investigated with respect to the network’s ability to develop appropriate input representations and subsequently output representations through STDP. Contrary to earlier rate-coded models of this learning process, this work shows how spiking neural networks may learn about more than one stimulus together without suffering from the ‘superposition catastrophe’. We take these results to suggest that spiking dynamics are key to understanding biological visual object recognition.",
+  "source_label": "How Lateral Connections and Spiking Dynamics May Separate Multiple Objects Moving Together",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1932
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "38c750b2411b6986980a61f72dd500891ccec31bf5a55c48877df3b472638623"
+}

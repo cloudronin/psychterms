@@ -1,0 +1,26 @@
+{
+  "id": "spike",
+  "term": "spike",
+  "source": "article-pmc12440190",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0330607",
+  "revision": "2025; DOI 10.1371/journal.pone.0330607; article XML SHA-256 22dc6656ca854f654b749a808528717f5a7bb41377702b89d377930f9233b5c3",
+  "source_snapshot_sha256": "22dc6656ca854f654b749a808528717f5a7bb41377702b89d377930f9233b5c3",
+  "url": "https://doi.org/10.1371/journal.pone.0330607",
+  "text": "Controlling the spike timing of individual neurons is a fundamental challenge with significant implications for treating neurological disorders. While much research has focused on neural models in low-noise scenarios, real-world applications, such as implantable therapeutic devices, must operate in noisy environments and address the diverse firing patterns of neurons. Leveraging the Izhikevich model, which captures a broad range of firing behaviors, this study proposes a novel method for spike timing control using Neural Stochastic Differential Equations (Neural SDE). The approach iteratively trains external currents to minimize both firing mismatches and timing errors through stochastic gradient descent and back-propagation techniques. Simulations demonstrate that the method achieves precise spike control across various neuron types and noise levels, including regular spiking, bursting, and fast spiking patterns. The approach remains effective even under strong noise perturbations, with particularly high precision observed in early spike events. Unlike conventional methods relying on deterministic dynamics or simplified models, the proposed Neural SDE framework directly accounts for biological noise and complex intrinsic dynamics. This enables the generation of neuron-specific control signals that align spike timings while adapting to individual firing characteristics. These results highlight the method’s generalizability and suggest its suitability for real-world neural control applications, including neuroprosthetics, adaptive stimulation, and closed-loop therapeutic systems.",
+  "source_label": "Neural SDE-based spike control of noisy neurons",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1605
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "ce5633f5713b430c118ec25deb5ce47c9f423a207f5c7bf93a788da3b3c3db2b"
+}

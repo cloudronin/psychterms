@@ -1,0 +1,60 @@
+{
+  "id": "polyphasic-sleep",
+  "term": "polyphasic sleep",
+  "definition": "Polyphasic sleep is a sleep pattern in which sleep occurs in multiple bouts across the 24-hour day rather than being concentrated in one long period. In the source packet, newborn lambs showed this pattern, sleeping during both daytime and nighttime.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13155606"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13155606",
+      "revision": "2026; DOI 10.1371/journal.pone.0348614; article XML SHA-256 c3525ef0cc6372bee19dc8ffcc0d8e0a1c3bcf432b5e56636146c6bbbe0a3a85",
+      "scope": "Source record 10.1371/journal.pone.0348614; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348614"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a4c84d8505ea8d9c154486899f74b741f9cdd211bc579758d94b507493f58706",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cb6d4da0263247598d50b2190e2e409e",
+    "request_hash": "91d08a226af48c0d58ec604840486802744b4be20b790ac14b104575d5e6a848",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "c9c679260dbbd011c11c284464620006a1b78b63722baf64f8025152ed812bde",
+    "packet_hash": "a4c84d8505ea8d9c154486899f74b741f9cdd211bc579758d94b507493f58706"
+  },
+  "hash": "98c51044904a71a0c5a61c1982f0b7ff518c9fe9ce2f12135c2219423e5ca4d2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c9c679260dbbd011c11c284464620006a1b78b63722baf64f8025152ed812bde",
+      "packet_hash": "a4c84d8505ea8d9c154486899f74b741f9cdd211bc579758d94b507493f58706",
+      "published_packet_hash": "a4c84d8505ea8d9c154486899f74b741f9cdd211bc579758d94b507493f58706",
+      "receipt_id": "62466c2155c1425982804035863104fd",
+      "request_hash": "f1366b4c15afe45efd5855169e7af8e3ff85d3e3bb047665e8044e27e7190c06",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence states a general criterion for “polyphasic sleep” (multiple bouts across the 24-hour day vs one long period), but the provided packet only reports that “PSG results revealed polyphasic sleep” and gives day/night sleep proportions; it does not explicitly define polyphasic sleep using the stated criterion.",
+        "The second sentence (newborn lambs showing this pattern, sleeping during both daytime and nighttime) is supported by the packet’s PSG results showing substantial sleep in both day and night. However, because the overall definition includes an unsupported general definition criterion, the definition cannot pass."
+      ],
+      "definition_hash": "c9c679260dbbd011c11c284464620006a1b78b63722baf64f8025152ed812bde",
+      "packet_hash": "a4c84d8505ea8d9c154486899f74b741f9cdd211bc579758d94b507493f58706",
+      "published_packet_hash": "a4c84d8505ea8d9c154486899f74b741f9cdd211bc579758d94b507493f58706",
+      "receipt_id": "c28127601d8d40e79699d0a6fbd35d14",
+      "request_hash": "e0a412715a3df35998bb13d49cd67c7d64760de187cdffb443814a3b7384203d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

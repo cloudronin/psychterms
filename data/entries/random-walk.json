@@ -1,0 +1,60 @@
+{
+  "id": "random-walk",
+  "term": "random walk",
+  "definition": "A random walk is a way of moving through a network step by step according to probabilistic rules, sometimes with added biases such as favoring or avoiding certain kinds of nodes. In learning applications, random walks can be used to generate sequences from a network for tasks like building embeddings and predicting links.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11540220"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11540220",
+      "revision": "2024; DOI 10.1371/journal.pone.0312863; article XML SHA-256 3920286136d467fa5d0ddf92d439552158e7c8e58b5ed93e1266cb38e4418e09",
+      "scope": "Source record 10.1371/journal.pone.0312863; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0312863"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "585e1af5c7044fabb6923516d155fbe3",
+    "request_hash": "81788c00594363fe4c7dbf4eda8ef02200bb378a4f7f80b9d20d85f39806e55f",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "85bff3910dab23984a628118f4a98ccb541653e5fd8c806cae6b3a661ab85ac4",
+    "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3"
+  },
+  "hash": "2f5e90d8c447081260a007e3e51472d4ff96d4e4a6d3c55dcec24dfd04861ce0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "85bff3910dab23984a628118f4a98ccb541653e5fd8c806cae6b3a661ab85ac4",
+      "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3",
+      "published_packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3",
+      "receipt_id": "beb20fee4928429cb7ef3b9c311fdad7",
+      "request_hash": "a192f0ef95260fa3a2797502fe358b09badcf49eff846ff4969dc824d474957b",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the specific phrasing that a random walk is “moving through a network step by step” (the idea is implied by the term, but the packet text does not state this as a definitional characterization).",
+        "The packet mentions embedding generation and link prediction, and investigates “walk strategies” and “node2vec” adaptations, but it does not explicitly state that random walks “generate sequences from a network,” so that learning-specific mechanism in the definition is not directly supported by the provided text."
+      ],
+      "definition_hash": "85bff3910dab23984a628118f4a98ccb541653e5fd8c806cae6b3a661ab85ac4",
+      "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3",
+      "published_packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3",
+      "receipt_id": "54fd353f41584b1c8aadfe016c273c23",
+      "request_hash": "cf154546cde27be1536e5eb0eeccb7702f3216f052f6a01e3c33d05e94586831",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "paraphrase",
+  "term": "paraphrase",
+  "source": "article-pmc12404545",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0327613",
+  "revision": "2025; DOI 10.1371/journal.pone.0327613; article XML SHA-256 24de2a65a56e6e086d369b963b1b3c6334a6cf00bebfeb5d7df9d61775f99514",
+  "source_snapshot_sha256": "24de2a65a56e6e086d369b963b1b3c6334a6cf00bebfeb5d7df9d61775f99514",
+  "url": "https://doi.org/10.1371/journal.pone.0327613",
+  "text": "The goal of this study is to improve the quality and diversity of text paraphrase generation, a critical task in Natural Language Generation (NLG) that requires producing semantically equivalent sentences with varied structures and expressions. Existing approaches often fail to generate paraphrases that are both high-quality and diverse, limiting their applicability in tasks such as machine translation, dialogue systems, and automated content rewriting. To address this gap, we introduce two self-contrastive learning models designed to enhance paraphrase generation: the Contrastive Generative Adversarial Network (ContraGAN) for supervised learning and the Contrastive Model with Metrics (ContraMetrics) for unsupervised learning. ContraGAN leverages a learnable discriminator within an adversarial framework to refine the quality of generated paraphrases, while ContraMetrics incorporates multi-metric filtering and keyword-guided prompts to improve unsupervised generation diversity. Experiments on benchmark datasets demonstrate that both models achieve significant improvements over state-of-the-art methods. ContraGAN enhances semantic fidelity with a 0.46 gain in BERTScore and improves fluency with a 1.57 reduction in perplexity. In addition, ContraMetrics achieves gains of 0.37 and 3.34 in iBLEU and P-BLEU, respectively, reflecting greater diversity and lexical richness. These results validate the effectiveness of our models in addressing key challenges in paraphrase generation, offering practical solutions for diverse NLG applications.",
+  "source_label": "Research of text paraphrase generation based on self-contrastive learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1557
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "bff19edd2beb18a6befe727a8370ea8f525c0debbd00b25b6b45e8063bbcc53d"
+}

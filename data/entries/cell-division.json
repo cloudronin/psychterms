@@ -1,0 +1,64 @@
+{
+  "id": "cell-division",
+  "term": "cell division",
+  "definition": "Cell division is the process in which a cell undergoes physical splitting, and in this source it is described as being regulated by the bacterial protein FtsZ through changes in its polymerization and interactions with division-control proteins during the cell cycle.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12747378"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12747378",
+      "revision": "2025; DOI 10.1371/journal.pone.0337820; article XML SHA-256 e47b7594a53acfb63758c891ec24f641932067fba76938c8fd0e82eda4299950",
+      "scope": "Source record 10.1371/journal.pone.0337820; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337820"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "087ba850db2fda723d341b2eb0fa018f2bedd185feb43a83512c3da697d2ed96",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7292440ddf7c4432a7ba509b4aed23fa",
+    "request_hash": "4224ac5cf04dfb050d9a7565f9aad04203922866393102462183c6242315e016",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "cc0f0ffae0c8963ccca51b219175883813ccb2e10ad0809c4c223bd98eea23d5",
+    "packet_hash": "087ba850db2fda723d341b2eb0fa018f2bedd185feb43a83512c3da697d2ed96"
+  },
+  "hash": "9a7d3e1e1aab2fc82965b5e0d1c07e794ceb6835edd6c48a0648ba3e0ba632a6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible here: the source is a molecular biology article about the bacterial cell-division protein FtsZ, not a cognition/psychology sense.",
+        "The definition narrows the entry to a source-specific mechanistic account of FtsZ regulation; that is not a standard dictionary sense of the term 'cell division.'"
+      ],
+      "definition_hash": "cc0f0ffae0c8963ccca51b219175883813ccb2e10ad0809c4c223bd98eea23d5",
+      "packet_hash": "087ba850db2fda723d341b2eb0fa018f2bedd185feb43a83512c3da697d2ed96",
+      "published_packet_hash": "087ba850db2fda723d341b2eb0fa018f2bedd185feb43a83512c3da697d2ed96",
+      "receipt_id": "393c9272e8d6427aacfc76fb8d624604",
+      "request_hash": "5fe61edcbe2ad9e1ec610442840c7bcb2ad2add25c58c7688b96d88ee6dde43c",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet is a bacterial cell-division (FtsZ/MinC/PrkC) molecular biology study, not cognition.",
+        "The definition claims cell division “is the process in which a cell undergoes physical splitting,” but the provided packet does not explicitly state that description of cell division.",
+        "While the packet supports that FtsZ phosphorylation affects tail-core binding, polymerization behavior, and interaction with the division inhibitor MinC, it does not directly support the specific phrasing that cell division is “regulated … through changes in its polymerization and interactions with division-control proteins during the cell cycle.” The packet discusses tail gating of access to the polymerization surface and MinC binding, but the requested broad description is not stated in that form."
+      ],
+      "definition_hash": "cc0f0ffae0c8963ccca51b219175883813ccb2e10ad0809c4c223bd98eea23d5",
+      "packet_hash": "087ba850db2fda723d341b2eb0fa018f2bedd185feb43a83512c3da697d2ed96",
+      "published_packet_hash": "087ba850db2fda723d341b2eb0fa018f2bedd185feb43a83512c3da697d2ed96",
+      "receipt_id": "3296ba5df61b48bd871d4e484c3bb752",
+      "request_hash": "9542c302ac63e6f28259fe3d18a7c1d053ecfeb0c6bb3d4281b4dc2bbb150f52",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

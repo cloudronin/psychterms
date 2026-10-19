@@ -1,0 +1,61 @@
+{
+  "id": "perceptron",
+  "term": "perceptron",
+  "definition": "A perceptron, in this packet, is a machine-learning neural network used as a classifier. Here, a multilayer perceptron learns from extracted signal features so it can distinguish fault patterns even when the data are noisy.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13035158"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13035158",
+      "revision": "2026; DOI 10.1371/journal.pone.0345870; article XML SHA-256 48a72eef1036c4a1682eb0edf0c395dc2f463fd553764ef2e1360dbb9fc74dcd",
+      "scope": "Source record 10.1371/journal.pone.0345870; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0345870"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1d9ce1118a8a48998c16a848fb59abb2",
+    "request_hash": "35b47509c743be9c7f21a2a72854727dfeb553a6c236507834897fa03ab7e0ab",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "696e9baedcf24340f5572bc669d0d0a908a7564e1ee94b7f91795ba135bd0a87",
+    "packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158"
+  },
+  "hash": "13f1be85fbd2a223cea77fa672786dc19d43889d39d3cad2193cd6b24169ee32",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "696e9baedcf24340f5572bc669d0d0a908a7564e1ee94b7f91795ba135bd0a87",
+      "packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158",
+      "published_packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158",
+      "receipt_id": "75f8844ff5ae4887a572e8a37756f842",
+      "request_hash": "7a57da931bb2097583dd33967dda57378a0b1e14d7e5c0d6c4137526c881fd48",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes a “multilayer perceptron (MLP) classifier,” but it does not define or explain a “perceptron” as such; the definition’s framing “A perceptron … is a machine-learning neural network” is not directly supported by the provided text.",
+        "The definition’s specific statement that “a multilayer perceptron learns from extracted signal features” is supported, but it is presented under the label “perceptron,” while the packet does not explicitly equate or define “perceptron” as “multilayer perceptron” in this context.",
+        "The definition’s overall term usage (“perceptron”) is therefore not fully defensible from the supplied packet, even though the noisy fault-diagnosis context and MLP classifier are mentioned."
+      ],
+      "definition_hash": "696e9baedcf24340f5572bc669d0d0a908a7564e1ee94b7f91795ba135bd0a87",
+      "packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158",
+      "published_packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158",
+      "receipt_id": "444aecd981f142a3ad8aca7a1bc5b5e6",
+      "request_hash": "351948c156a04151b76e61bb1892a2637d645273d3da14b73a4e8849bd94d968",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

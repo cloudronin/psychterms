@@ -1,0 +1,64 @@
+{
+  "id": "computer-assisted-diagnosis",
+  "term": "computer-assisted diagnosis",
+  "definition": "Computer-assisted diagnosis is the use of computer-based image processing and analysis to support diagnosis, such as extracting features from scans, classifying them, and helping identify structures of interest. In the source material, it refers to using these methods with CT images to aid liver segmentation.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5112808"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5112808",
+      "revision": "2016; DOI 10.1371/journal.pone.0164098; article XML SHA-256 8041d96b704a3405de0b2cebedb8d531c321a1cc65940201201d800bc87e0784",
+      "scope": "Source record 10.1371/journal.pone.0164098; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0164098"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "55c7eff5acca2264fe78f93e46dd76ef53bac4dd7a288d7aa878103a618fc164",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7fcae8d6180a4cd299be804f1f38eda2",
+    "request_hash": "6689d7013519efa52c57f04b6456083ff69568d2f0618c0c2f41e0f2af74aa74",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "f21881523e9cbc9b86758eb70a8781a7a2796612c97c246b8e526a70ecbaa06c",
+    "packet_hash": "55c7eff5acca2264fe78f93e46dd76ef53bac4dd7a288d7aa878103a618fc164"
+  },
+  "hash": "5d39f1f871c0984961d7e987a6a6c24abb87c408a09ded393ebb3583444b7497",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a broad general meaning (“computer-based image processing and analysis to support diagnosis”) that is not stated in the packet; the packet only says liver segmentation is a processing technique for computer-assisted diagnosis.",
+        "The claim that the source material uses the term to mean “using these methods with CT images to aid liver segmentation” overstates the packet, which describes liver segmentation as related to computer-assisted diagnosis but does not define the term that way.",
+        "The requested sense is not well supported by the source packet alone; it reads as a general medical-imaging definition rather than a source-grounded entry."
+      ],
+      "definition_hash": "f21881523e9cbc9b86758eb70a8781a7a2796612c97c246b8e526a70ecbaa06c",
+      "packet_hash": "55c7eff5acca2264fe78f93e46dd76ef53bac4dd7a288d7aa878103a618fc164",
+      "published_packet_hash": "55c7eff5acca2264fe78f93e46dd76ef53bac4dd7a288d7aa878103a618fc164",
+      "receipt_id": "0b75f28de7934992862c2d327ab9021c",
+      "request_hash": "98e03b2d7246acfa03dfebe97dc980389e5bc7214d3c02676095eae09ac67787",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s broad first sentence (“use of computer-based image processing and analysis to support diagnosis…”) is not directly supported by the packet, which does not define computer-assisted diagnosis in those general terms (it only states that liver segmentation is a “significant processing technique for computer-assisted diagnosis”).",
+        "The packet supports CT-based liver segmentation and related steps (feature extraction, classification to get probabilities, and random-walk use), but it does not provide enough explicit support for the specific general phrasing about “helping identify structures of interest” as part of the term’s meaning."
+      ],
+      "definition_hash": "f21881523e9cbc9b86758eb70a8781a7a2796612c97c246b8e526a70ecbaa06c",
+      "packet_hash": "55c7eff5acca2264fe78f93e46dd76ef53bac4dd7a288d7aa878103a618fc164",
+      "published_packet_hash": "55c7eff5acca2264fe78f93e46dd76ef53bac4dd7a288d7aa878103a618fc164",
+      "receipt_id": "963f015ee0704476a298f74e3fdf3673",
+      "request_hash": "a7293e11f65b04fcbf89ad8e6e079e1a2d8a853c4bdfcc7b0e29eb948ec5bfef",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

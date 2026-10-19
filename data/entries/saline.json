@@ -1,0 +1,62 @@
+{
+  "id": "saline",
+  "term": "saline",
+  "definition": "In this source, saline refers to soil or farmland that contains enough dissolved salt to affect agricultural use and productivity. It describes salt-affected coastal land where reducing soil salinity is considered an improvement.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13387516"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13387516",
+      "revision": "2026; DOI 10.1371/journal.pone.0353467; article XML SHA-256 cc9333c93defefde124c69194e75e65e12e2ed9d204d0cbfc30a7a4faef76423",
+      "scope": "Source record 10.1371/journal.pone.0353467; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0353467"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ea3edbfef921195841fb1ba97a0f3bb8186704091b4a11562ed822feca07fa67",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "97c59570a11e47bb92ee910dc01f46bc",
+    "request_hash": "5af26a5e93abbf11db11d8abaffc65d9c2e0d86035729d202589118c42b799b3",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "13156c3c64424461872e3c0027ae61ee69c4b34dc8d5481c18e304143cd0ffee",
+    "packet_hash": "ea3edbfef921195841fb1ba97a0f3bb8186704091b4a11562ed822feca07fa67"
+  },
+  "hash": "71acaf14a09df5bd72de99e23683b5706358b96af92b154694870f573f6639ae",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support using the *social* field for this term; the provided text describes coastal saline-alkali farmland and agricultural outcomes (cropping patterns, soil salinity, productivity), not social psychology or social constructs."
+      ],
+      "definition_hash": "13156c3c64424461872e3c0027ae61ee69c4b34dc8d5481c18e304143cd0ffee",
+      "packet_hash": "ea3edbfef921195841fb1ba97a0f3bb8186704091b4a11562ed822feca07fa67",
+      "published_packet_hash": "ea3edbfef921195841fb1ba97a0f3bb8186704091b4a11562ed822feca07fa67",
+      "receipt_id": "6830e458f4e0424fad0c89ed90b12ded",
+      "request_hash": "6d49b7c94cebac5481187341191b07e5a1ce04f108ba54fb25f37d720771d868",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses saline in an agricultural/soil context (“coastal saline-alkali farmland,” “soil salinization”), not a social/psychology sense, so the field is not defensible here.",
+        "The definition generalizes from the article’s specific setting; the packet supports saline-alkali farmland and reduced soil salinity, but not a broader dictionary sense of saline as any land “that contains enough dissolved salt to affect agricultural use and productivity.”"
+      ],
+      "definition_hash": "13156c3c64424461872e3c0027ae61ee69c4b34dc8d5481c18e304143cd0ffee",
+      "packet_hash": "ea3edbfef921195841fb1ba97a0f3bb8186704091b4a11562ed822feca07fa67",
+      "published_packet_hash": "ea3edbfef921195841fb1ba97a0f3bb8186704091b4a11562ed822feca07fa67",
+      "receipt_id": "83f240e571854bddbfb5d6d28a8c0460",
+      "request_hash": "ceed1af6ef7bb9f658f6a706c0d201fa876a66e873b69bba400bb69179648345",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

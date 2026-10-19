@@ -1,0 +1,26 @@
+{
+  "id": "working-knowledge",
+  "term": "working knowledge",
+  "source": "article-pmc4086967",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0101754",
+  "revision": "2014; DOI 10.1371/journal.pone.0101754; article XML SHA-256 245fa685c2689bcfcfb4a529e50f50bd347b665c991d56e272f265c198c6dfc1",
+  "source_snapshot_sha256": "245fa685c2689bcfcfb4a529e50f50bd347b665c991d56e272f265c198c6dfc1",
+  "url": "https://doi.org/10.1371/journal.pone.0101754",
+  "text": "Open source single nucleotide polymorphism (SNP) discovery pipelines for next generation sequencing data commonly requires working knowledge of command line interface, massive computational resources and expertise which is a daunting task for biologists. Further, the SNP information generated may not be readily used for downstream processes such as genotyping. Hence, a comprehensive pipeline has been developed by integrating several open source next generation sequencing (NGS) tools along with a graphical user interface called Integrated SNP Mining and Utilization (ISMU) for SNP discovery and their utilization by developing genotyping assays. The pipeline features functionalities such as pre-processing of raw data, integration of open source alignment tools (Bowtie2, BWA, Maq, NovoAlign and SOAP2), SNP prediction (SAMtools/SOAPsnp/CNS2snp and CbCC) methods and interfaces for developing genotyping assays. The pipeline outputs a list of high quality SNPs between all pairwise combinations of genotypes analyzed, in addition to the reference genome/sequence. Visualization tools (Tablet and Flapjack) integrated into the pipeline enable inspection of the alignment and errors, if any. The pipeline also provides a confidence score or polymorphism information content value with flanking sequences for identified SNPs in standard format required for developing marker genotyping (KASP and Golden Gate) assays. The pipeline enables users to process a range of NGS datasets such as whole genome re-sequencing, restriction site associated DNA sequencing and transcriptome sequencing data at a fast speed. The pipeline is very useful for plant genetics and breeding community with no computational expertise in order to discover SNPs and utilize in genomics, genetics and breeding studies. The pipeline has been parallelized to process huge datasets of next generation sequencing. It has been developed in Java language and is available at http://hpc.icrisat.cgiar.org/ISMU as a standalone free software.",
+  "source_label": "An Integrated SNP Mining and Utilization (ISMU) Pipeline for Next Generation Sequencing Data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2010
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "422d8891c1fe35c18cd2577b1f7ce59b77d91283af965074e37f2d30e90e860f"
+}

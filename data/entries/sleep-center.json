@@ -1,0 +1,63 @@
+{
+  "id": "sleep-center",
+  "term": "sleep center",
+  "definition": "A sleep center is a clinical referral setting where people with sleep-related conditions are diagnosed and followed over time.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3935943"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3935943",
+      "revision": "2014; DOI 10.1371/journal.pone.0089741; article XML SHA-256 75828be8baabe5ca132765a3787f3ba112edbec4324c20bb84994b8423d870c9",
+      "scope": "Source record 10.1371/journal.pone.0089741; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0089741"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "85d24fc6f76d4d3c1b82d4dd36cd04531c31ce0a3e0faabb20b5c85a8834635b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2366f3966c9e444eaff534fa9b64c94a",
+    "request_hash": "e14ce52f8b68685c4edc21de3c65525539006f0072dc2889d1b0beab0aa2c7d5",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "99bc3fc65e5b87e870b725f74dfc1b71b079812cc2e18d1207be905dee7aa953",
+    "packet_hash": "85d24fc6f76d4d3c1b82d4dd36cd04531c31ce0a3e0faabb20b5c85a8834635b"
+  },
+  "hash": "0ce424c7c587bc95a88d7128c80fbec29478298cb7a105323148df2e3ff254fa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports that this was a tertiary referral sleep center; it does not establish a general dictionary sense that a sleep center is a clinical setting where people are diagnosed and followed over time.",
+        "“Followed over time” is not supported as a property of the center itself; the packet mentions prolonged follow-up of a patient cohort, not the definition of the facility."
+      ],
+      "definition_hash": "99bc3fc65e5b87e870b725f74dfc1b71b079812cc2e18d1207be905dee7aa953",
+      "packet_hash": "85d24fc6f76d4d3c1b82d4dd36cd04531c31ce0a3e0faabb20b5c85a8834635b",
+      "published_packet_hash": "85d24fc6f76d4d3c1b82d4dd36cd04531c31ce0a3e0faabb20b5c85a8834635b",
+      "receipt_id": "36b56e487ec8492ea3513144d1888262",
+      "request_hash": "3d455622ff6f15fdaa0e8a1d0c9200a4fbe69fe0639a2f72fccd43b65277c817",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only mentions a “tertiary referal sleep center” in the context of an idiopathic REM sleep behavior disorder (IRBD) cohort, not a general clinical referral setting for “people with sleep-related conditions.”",
+        "While the packet indicates “prolonged follow-up” and eventual diagnoses, it does not support the broader framing that the center is used to diagnose and follow “sleep-related conditions” in general, as stated in the definition."
+      ],
+      "definition_hash": "99bc3fc65e5b87e870b725f74dfc1b71b079812cc2e18d1207be905dee7aa953",
+      "packet_hash": "85d24fc6f76d4d3c1b82d4dd36cd04531c31ce0a3e0faabb20b5c85a8834635b",
+      "published_packet_hash": "85d24fc6f76d4d3c1b82d4dd36cd04531c31ce0a3e0faabb20b5c85a8834635b",
+      "receipt_id": "e16bca5989a24967b65de3258cf99d5c",
+      "request_hash": "152095d277e421b33985743abcaf3ce8eef4018a9b852919bcaf049c48bcaffc",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kbs",
+  "term": "KBS",
+  "source": "article-pmc6169944",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0205097",
+  "revision": "2018; DOI 10.1371/journal.pone.0205097; article XML SHA-256 1d7b4f186aa49ddaddc6326b6a71e9b0ee99b7e8143d1a8982042a25946aca34",
+  "source_snapshot_sha256": "1d7b4f186aa49ddaddc6326b6a71e9b0ee99b7e8143d1a8982042a25946aca34",
+  "url": "https://doi.org/10.1371/journal.pone.0205097",
+  "text": "With the development of large-scale knowledge bases (KBs), knowledge-based question answering (KBQA) has become an important research topic in recent years. The key task in KBQA is relation detection, which is the process of finding a compatible answer type for a natural language question and generating its corresponding structured query over a KB. However, existing systems often rely on shallow probabilistic methods, which are less expressive than deep semantic representation methods. In addition, since KBs are still far from complete, it is necessary to develop a new strategy that leverages unstructured resources outside of KBs. In this work, we propose a novel Question Answering method with Relation Detection and Textual Evidence (QARDTE). First, to address the semantic gap problem in relation detection, we use bidirectional long-short term memory networks with different levels of abstraction to better capture sentence structures. Our model achieves improved results with robustness against a wide diversity of expressions and questions with multiple relations. Moreover, to help compensate for the incompleteness of KBs, we utilize external unstructured text to extract additional supporting evidence and combine this evidence with relation information during the answer re-ranking process. In experiments on two well-known benchmarks, our system achieves F 1 values of 0.558 (+2.8%) and 0.663 (+5.7%), which are state-of-the-art results that show significant improvement over existing KBQA systems.",
+  "source_label": "Novel knowledge-based system with relation detection and textual evidence for question answering research",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1517
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "0046b674caffbf597f9a493aa583409953335adc2d3f6d6f164a363fab591788"
+}

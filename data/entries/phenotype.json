@@ -1,0 +1,64 @@
+{
+  "id": "phenotype",
+  "term": "phenotype",
+  "definition": "A phenotype is an observable pattern or form that a biological system shows. In this source, it refers to a blood pressure pattern such as a normal nighttime decline (“dipper”) or a reduced decline (“non-dipper”).",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13472411"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13472411",
+      "revision": "2026; DOI 10.1371/journal.pone.0355222; article XML SHA-256 154b6b3efea25132024c256f2a344bd47d378a4f4dfddf02a0e5c7b37d75a8a5",
+      "scope": "Source record 10.1371/journal.pone.0355222; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355222"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "245f662f2e708c277d77a6637210570ec28c1f35a16d7b19735f26f07fbb1d54",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "86527f9203cf4abdb572c5d44fbc0ae3",
+    "request_hash": "11be826e94b1b84249f1dd541121b9e378f7a052b65f5018a283b123e69da342",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "c7a76d6fc26d0c0504c75590b5990f1c66b19443b5d8e0f015cd0872f484140c",
+    "packet_hash": "245f662f2e708c277d77a6637210570ec28c1f35a16d7b19735f26f07fbb1d54"
+  },
+  "hash": "415f3a581f8397e02e1c7d063596a88cf0e447a50a49ed12506c3071411d56e5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not supported: the packet is a biomedical article about blood pressure phenotypes, not a psychology/counselling sense in learning.",
+        "The first sentence is an unsupported broad generalization about phenotype as any observable biological pattern or form; the packet only supports blood pressure phenotype usage.",
+        "The definition should stay within the source’s specific sense of non-dipping/dipping blood pressure phenotypes, rather than presenting a general biological definition."
+      ],
+      "definition_hash": "c7a76d6fc26d0c0504c75590b5990f1c66b19443b5d8e0f015cd0872f484140c",
+      "packet_hash": "245f662f2e708c277d77a6637210570ec28c1f35a16d7b19735f26f07fbb1d54",
+      "published_packet_hash": "245f662f2e708c277d77a6637210570ec28c1f35a16d7b19735f26f07fbb1d54",
+      "receipt_id": "576c7f4697364af88d3bf15bb5e23608",
+      "request_hash": "8e644db33f0b6f6467e9fd5dd71e58df2412ab600c36ff3d358ce200c7df1467",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“phenotype is an observable pattern or form”) is not explicitly supported in the provided packet text.",
+        "The packet supports use of “dipper phenotype” and “non-dipper phenotype” in relation to nocturnal blood pressure reduction, but it does not explicitly define them as “normal” vs “reduced” nighttime decline as stated."
+      ],
+      "definition_hash": "c7a76d6fc26d0c0504c75590b5990f1c66b19443b5d8e0f015cd0872f484140c",
+      "packet_hash": "245f662f2e708c277d77a6637210570ec28c1f35a16d7b19735f26f07fbb1d54",
+      "published_packet_hash": "245f662f2e708c277d77a6637210570ec28c1f35a16d7b19735f26f07fbb1d54",
+      "receipt_id": "24828a0f9a984a7e82179fd22520ebf4",
+      "request_hash": "d5d252cc2150ba32b89deb2a4f6bfbb24cb4ad3b8550e3319378176d8d61159e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

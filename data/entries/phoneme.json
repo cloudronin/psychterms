@@ -1,0 +1,65 @@
+{
+  "id": "phoneme",
+  "term": "phoneme",
+  "definition": "A phoneme is a speech sound element studied in tasks involving its recognition, perception, and pronunciation, such as in language learning. In this context, phonemes are units people must identify and produce, and processing them can be examined through cognitive load.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13311114"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13311114",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1774068; article XML SHA-256 0b064a092c44078b74ce4145a035ecbfead73e2ac28813627790a7bf3aeb0dae",
+      "scope": "Source record 10.3389/fpsyg.2026.1774068; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1774068"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "28d61051fe1ab71098d2d367cfe7aab8c5ee05c79d74fbfa01b4205808543405",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "04bd3db609174f14998587d3d209d5a9",
+    "request_hash": "89a09b55be7ec068d4a0df9b33075ebe2dbc39f569921593e2f3410421f987b1",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "1b9540e6aebed96ae12c1b299dcf341864d129cad278fee425c0c39fe29644bf",
+    "packet_hash": "28d61051fe1ab71098d2d367cfe7aab8c5ee05c79d74fbfa01b4205808543405"
+  },
+  "hash": "192bbaee0e60e2b725c039fe4b6f07bc096c19514ba3b4016698cf988ead8cf2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what a phoneme is (e.g., as a unit of speech sound) and provides no description of phonemes as recognizable/produced units.",
+        "The definition’s claims about “recognition, perception, and pronunciation,” “language learning,” and “units people must identify and produce” are not supported anywhere in the provided packet text.",
+        "The packet only mentions “phoneme recognition” and “cognitive load tracking” in an EEG-based context; it does not support the broader framing of pronunciation tasks or cognitive-load examination through those processes.",
+        "“Processing them can be examined through cognitive load” is only partially aligned: the packet discusses cognitive load modeling in phoneme recognition, but does not support the specific causal/measurement linkage phrased in the definition."
+      ],
+      "definition_hash": "1b9540e6aebed96ae12c1b299dcf341864d129cad278fee425c0c39fe29644bf",
+      "packet_hash": "28d61051fe1ab71098d2d367cfe7aab8c5ee05c79d74fbfa01b4205808543405",
+      "published_packet_hash": "28d61051fe1ab71098d2d367cfe7aab8c5ee05c79d74fbfa01b4205808543405",
+      "receipt_id": "1107a73d6ea84175a3c15231ea32bb6b",
+      "request_hash": "790d87cd61f5f1300523f87ffe3aad9bd3a1aaeee5068c729b7f76172eb2226e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports phoneme recognition/perception/pronunciation in a Korean language-learning context, but it does not support the broader definitional claim that a phoneme is a general “speech sound element” or that people must identify and produce these units.",
+        "The reference to cognitive load is only that the paper tracks cognitive load during phoneme recognition; it does not support the broader claim that phoneme processing is examined through cognitive load in general."
+      ],
+      "definition_hash": "1b9540e6aebed96ae12c1b299dcf341864d129cad278fee425c0c39fe29644bf",
+      "packet_hash": "28d61051fe1ab71098d2d367cfe7aab8c5ee05c79d74fbfa01b4205808543405",
+      "published_packet_hash": "28d61051fe1ab71098d2d367cfe7aab8c5ee05c79d74fbfa01b4205808543405",
+      "receipt_id": "8e84ed0dcbc04ef58966c6407e6d6e80",
+      "request_hash": "f942a16da0089be8062268bec92f61977d593767577c10e75bc96f1081351423",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "square-root-transformation",
+  "term": "square-root transformation",
+  "definition": "A square-root transformation is a way of changing data by taking square roots of the values. In the source, it is used to map compositional microbiome data onto the surface of a hypersphere as part of handling zero-inflated data.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12002526"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12002526",
+      "revision": "2025; DOI 10.1371/journal.pone.0320832; article XML SHA-256 4b19a937d9d6aa8ee04d71b0503b8bb9d7ffdb74bdf648c06586c09ed14901c7",
+      "scope": "Source record 10.1371/journal.pone.0320832; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0320832"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "22700e4501c94ced9f8b68b2cb4aa4ef",
+    "request_hash": "b946c17290068effb8ae5b85480a6a65777053c8ad4999aae7b20b6ea0a562ee",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "7950101133c38ffb10adc40f99f4f7661ac81c3673d4aa7cb516696d6f78637a",
+    "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b"
+  },
+  "hash": "9b68e3fd0f03313caa10f2df2edb024616325e2a39d88f392b4ef08f4512e88d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7950101133c38ffb10adc40f99f4f7661ac81c3673d4aa7cb516696d6f78637a",
+      "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b",
+      "published_packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b",
+      "receipt_id": "41be80396568402cbd48beffc94601f0",
+      "request_hash": "8615fc8eee7c28b973d19727e8eec1f215f7fc25ff418448496a8d42b3fbcffe",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that the method works by “taking square roots of the values,” but the provided source text does not explicitly state that mechanism (it only states that the data were transformed “onto the surface of the hypersphere using a square root transformation”)."
+      ],
+      "definition_hash": "7950101133c38ffb10adc40f99f4f7661ac81c3673d4aa7cb516696d6f78637a",
+      "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b",
+      "published_packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b",
+      "receipt_id": "600226d31ab04b6ba2e4ac81d2795612",
+      "request_hash": "481b4f96d55aa079e7caae410b264e41d99021fcd133c0cf6292dbab942209e7",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

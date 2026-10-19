@@ -1,0 +1,26 @@
+{
+  "id": "surrogate-variable",
+  "term": "surrogate variable",
+  "source": "article-pmc13082716",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0346663",
+  "revision": "2026; DOI 10.1371/journal.pone.0346663; article XML SHA-256 c4f8ccb6e6e80d789fd28cfa51a125bace1a53fab1777b44469f4aaa931f19df",
+  "source_snapshot_sha256": "c4f8ccb6e6e80d789fd28cfa51a125bace1a53fab1777b44469f4aaa931f19df",
+  "url": "https://doi.org/10.1371/journal.pone.0346663",
+  "text": "The PsychENCODE consortium has generated a comprehensive multi-omic dataset from human brain samples, spanning healthy individuals and those with neuropsychiatric disorders. In this study, we focus exclusively on schizophrenia and analyze PsychENCODE transcriptomic data to construct gene regulatory and co-expression networks, aiming to uncover biologically and clinically relevant gene modules. We apply three independent analytical approaches to the same dataset. First, we preprocess the data using Surrogate Variable Analysis (SVA) to correct for latent variation and normalize gene expression. For graph-based analysis, we use Pearson correlation and the igraph package to construct gene co-expression networks and apply Prim’s algorithm to generate minimum spanning trees (MST) and compute centrality measures. Next, we implement Weighted Gene Co-expression Network Analysis (WGCNA), assuming a scale-free topology, to identify modules associated with schizophrenia traits. Dimensionality reduction is performed using Principal Component Analysis (PCA), with visualization aided by t-distributed Stochastic Neighbor Embedding (t-SNE) and Multidimensional Scaling (MDS). Functional enrichment is carried out using Gene Ontology (GO) and KEGG pathway databases. Each method reveals distinct yet complementary biological signatures associated with schizophrenia. The igraph-based approach highlights differentially expressed genes (DEGs) with high centrality, uncovering hub genes involved in mRNA export, synaptic signaling, and ion transport. WGCNA identifies co-expression modules strongly correlated with schizophrenia diagnosis, enriched for immune response, histone modification, and mRNA surveillance pathways. PCA isolates key genes contributing to diagnostic variance, with enrichment in neurotransmitter release cycles and cytokine signaling. Collectively, these results underscore the involvement of immune, synaptic, and epigenetic processes in schizophrenia and demonstrate the power of using multiple, orthogonal analytical lenses.",
+  "source_label": "Exploration of schizophrenia-associated gene modules using graph theory, co-expression networks, and dimensionality reduction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2049
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "diagnosis",
+  "scope_decision": {
+    "eligible": true,
+    "field": "diagnosis",
+    "rule": "psychology-context:diagnosis",
+    "policy_version": 4
+  },
+  "packet_hash": "9514ac599400aa788ada0f54ed1b318b8186692bf8d44ce26811e55a15a76555"
+}

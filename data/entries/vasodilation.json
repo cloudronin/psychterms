@@ -1,0 +1,63 @@
+{
+  "id": "vasodilation",
+  "term": "vasodilation",
+  "definition": "Vasodilation is the widening of blood vessels. In the source context, persistent vasodilation contributes to low blood pressure because the vessels remain poorly responsive even when the body’s usual blood-pressure-raising systems are activated.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12396702"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12396702",
+      "revision": "2025; DOI 10.1371/journal.pone.0331304; article XML SHA-256 77a1185f220f71fe5ccc1a85063a0a09f96e58ae05114679af369d32c3df7cf6",
+      "scope": "Source record 10.1371/journal.pone.0331304; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0331304"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "94d1ded079dbea983a196410a6ab6a2d4c74cb4d15c6e0ea29ca09d2a808e39e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2afed51c89cf436e8bdcd871538d3692",
+    "request_hash": "081d6fb587b6d5e86f1f7338a295474686667f3e725a1e75878af3ecf610eda2",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "be90342fc7108bd7f2016071a17723c17dac6077805abe9599afd20152134ebe",
+    "packet_hash": "94d1ded079dbea983a196410a6ab6a2d4c74cb4d15c6e0ea29ca09d2a808e39e"
+  },
+  "hash": "6c1c2839367c46e61ef0e729a8d776bd50a3127da21f5a11b995aea1631e3812",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports persistent vasodilation as a mechanism in septic shock, but it does not support the general dictionary-style definition that vasodilation is the widening of blood vessels.",
+        "The second sentence is source-specific and narrower than the entry’s wording; it presents the phenomenon in septic shock, not a general definition of vasodilation in all contexts."
+      ],
+      "definition_hash": "be90342fc7108bd7f2016071a17723c17dac6077805abe9599afd20152134ebe",
+      "packet_hash": "94d1ded079dbea983a196410a6ab6a2d4c74cb4d15c6e0ea29ca09d2a808e39e",
+      "published_packet_hash": "94d1ded079dbea983a196410a6ab6a2d4c74cb4d15c6e0ea29ca09d2a808e39e",
+      "receipt_id": "f56f4c71895349f48da7293e5fd7f430",
+      "request_hash": "0af06e5df04a884815b10c4ebf3805a1a8e666694ddc7d24ff5d2f95ef7fe398",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Vasodilation is the widening of blood vessels”) is not explicitly stated or supported in the provided packet text; the packet only mentions “persistent vasodilation” without defining it as vessel widening.",
+        "The packet context supports that persistent vasodilation contributes to hypotension in septic shock despite high endogenous catecholamines/RAAS activation (via “vascular hyporeactivity” and “persistent vasodilation secondary to vascular hyporeactivity despite high endogenous catecholamine levels”), but the full definition includes additional explanatory wording not clearly spelled out beyond that context."
+      ],
+      "definition_hash": "be90342fc7108bd7f2016071a17723c17dac6077805abe9599afd20152134ebe",
+      "packet_hash": "94d1ded079dbea983a196410a6ab6a2d4c74cb4d15c6e0ea29ca09d2a808e39e",
+      "published_packet_hash": "94d1ded079dbea983a196410a6ab6a2d4c74cb4d15c6e0ea29ca09d2a808e39e",
+      "receipt_id": "bbc5217a6f474ed6a791aea66ec3b46f",
+      "request_hash": "2a160964d1a6127b4ee78e26b99f9127515b1af3328c78fc9850d168f8c94fb4",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

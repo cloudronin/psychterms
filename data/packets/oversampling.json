@@ -1,0 +1,26 @@
+{
+  "id": "oversampling",
+  "term": "oversampling",
+  "source": "article-pmc12680363",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0337208",
+  "revision": "2025; DOI 10.1371/journal.pone.0337208; article XML SHA-256 55948484b321df5a4d63e14e69cd4f661752090bbc84bea1a61dc0807a1c6614",
+  "source_snapshot_sha256": "55948484b321df5a4d63e14e69cd4f661752090bbc84bea1a61dc0807a1c6614",
+  "url": "https://doi.org/10.1371/journal.pone.0337208",
+  "text": "This study proposes an advanced Internet fraud transaction detection method, the Temporal-aware Heterogeneous Graph Oversampling and Attention Fusion Network (THG-OAFN), designed to address the increasingly severe fraud issues in EC. The method innovatively abstracts transaction data into a heterogeneous graph structure, captures temporal dynamic features through Gated Recurrent Unit (GRU), and fuses Graph Neural Network (GNN) to process static topological relationships. To address data imbalance, an improved Graph-based Synthetic Minority Oversampling Technique (GraphSMOTE) framework is introduced, maintaining the structural integrity of fraud clusters through k-hop topological constraints. Meanwhile, a multi-layer attention mechanism (including relationship fusion, neighborhood fusion, and information perception modules) is employed to achieve active fraud prevention. Experimental results show that THG-OAFN attains an area under the curve (AUC) of 96.56% (a 7.78% improvement over the best baseline). Moreover, it achieves a recall of 95.21% (a 6.29% improvement) and an F1-score of 94.72% (a 3.96% improvement) on the Amazon dataset. On the YelpChi dataset, these three metrics reach 90.43%, 89.51%, and 90.31%, respectively, remarkably outperforming existing GNN models. This achievement provides a deployable solution for dynamic fraud detection and active defense. Our code is available at https://github.com/wei4zheng/THG-OAFN .",
+  "source_label": "Internet fraud transaction detection based on temporal-aware heterogeneous graph oversampling and attention fusion network",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1449
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "fca585896bedf59c222e9b896a84de023bc99216bd4fd4c3a48012d1d99e0719"
+}

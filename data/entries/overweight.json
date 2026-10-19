@@ -1,0 +1,63 @@
+{
+  "id": "overweight",
+  "term": "overweight",
+  "definition": "Overweight is a health condition often discussed alongside obesity. In the source, it refers to a classified body-weight status that is associated with higher risk of diabetes, stroke, cardiovascular disease, and some cancers.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12863505"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12863505",
+      "revision": "2026; DOI 10.1371/journal.pone.0341821; article XML SHA-256 91b96026ad002f2e76a0737112bb37416f87aa64f72b27ce3289c2fbc70a4dd2",
+      "scope": "Source record 10.1371/journal.pone.0341821; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0341821"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "13dc654d4a5f4e1ea1a3ca7dffa9b61e",
+    "request_hash": "cacc97e7664555a7ef32f70594b80ee5cd3d40fbf28c18bee3b2974374ea969f",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "17dce59ae820d50ade587233b9bbc6b5dc30fd05ea88837d002e716aaafe1e22",
+    "packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd"
+  },
+  "hash": "ff7acee5e9aca7de090a01ce46989df964a40b271040faee3e35e8172dde45b1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define overweight as a “health condition” or a “classified body-weight status”; it only discusses overweight/obesity as conditions in relation to risk and prediction/classification in a study.",
+        "The source supports an association with diabetes, stroke, cardiovascular disease/disorders, and certain cancers, but the definition adds a standalone definitional framing that is not stated in the packet."
+      ],
+      "definition_hash": "17dce59ae820d50ade587233b9bbc6b5dc30fd05ea88837d002e716aaafe1e22",
+      "packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd",
+      "published_packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd",
+      "receipt_id": "7a9b2cc7e02c4fc4a07344392fabd249",
+      "request_hash": "a03552ecfe82e8290ba0e0aff97101dbe7f5ba1a745ae1701b517603baabb10f",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “overweight/obesity” is strongly associated with elevated risk of diabetes, stroke, cardiovascular disorders, and certain types of cancer, but it does not provide an explicit definition of “overweight” as a “classified body-weight status.”",
+        "The phrasing “overweight is a health condition” is not stated directly; the packet describes “overweight/obesity” as a “critical global health issue” and discusses prediction/classification, but does not define “overweight” itself as a health condition in the requested terms."
+      ],
+      "definition_hash": "17dce59ae820d50ade587233b9bbc6b5dc30fd05ea88837d002e716aaafe1e22",
+      "packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd",
+      "published_packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd",
+      "receipt_id": "b8b100268ed948bfb705a761ae978071",
+      "request_hash": "b0d3f0250dafe659d3cb14a5c1212aacbbebec7f71bbd5114812754a7fd8fbb2",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

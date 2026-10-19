@@ -1,0 +1,26 @@
+{
+  "id": "biased-estimator",
+  "term": "biased estimator",
+  "source": "article-pmc4550262",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0128413",
+  "revision": "2015; DOI 10.1371/journal.pone.0128413; article XML SHA-256 87dc5681185deb8b5e1381a9b9d65bf37eae4336618ded4033ee90f4f8c2ead1",
+  "source_snapshot_sha256": "87dc5681185deb8b5e1381a9b9d65bf37eae4336618ded4033ee90f4f8c2ead1",
+  "url": "https://doi.org/10.1371/journal.pone.0128413",
+  "text": "The control of self-motion is a basic, but complex task for both technical and biological systems. Various algorithms have been proposed that allow the estimation of self-motion from the optic flow on the eyes. We show that two apparently very different approaches to solve this task, one technically and one biologically inspired, can be transformed into each other under certain conditions. One estimator of self-motion is based on a matched filter approach; it has been developed to describe the function of motion sensitive cells in the fly brain. The other estimator, the Koenderink and van Doorn (KvD) algorithm, was derived analytically with a technical background. If the distances to the objects in the environment can be assumed to be known, the two estimators are linear and equivalent, but are expressed in different mathematical forms. However, for most situations it is unrealistic to assume that the distances are known. Therefore, the depth structure of the environment needs to be determined in parallel to the self-motion parameters and leads to a non-linear problem. It is shown that the standard least mean square approach that is used by the KvD algorithm leads to a biased estimator. We derive a modification of this algorithm in order to remove the bias and demonstrate its improved performance by means of numerical simulations. For self-motion estimation it is beneficial to have a spherical visual field, similar to many flying insects. We show that in this case the representation of the depth structure of the environment derived from the optic flow can be simplified. Based on this result, we develop an adaptive matched filter approach for systems with a nearly spherical visual field. Then only eight parameters about the environment have to be memorized and updated during self-motion.",
+  "source_label": "Insect-Inspired Self-Motion Estimation with Dense Flow Fields—An Adaptive Matched Filter Approach",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1817
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "7c49a31af04b65bf876f0ef41d021ef434b210eba4e1ebe51d196f88c99adbe3"
+}

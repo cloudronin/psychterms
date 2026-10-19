@@ -1,0 +1,60 @@
+{
+  "id": "kyphosis",
+  "term": "kyphosis",
+  "definition": "Kyphosis is an abnormal spinal alignment marked here by increased curvature in the neck region, producing an exaggerated forward head tilt. In this source, cervical kyphosis commonly occurs alongside spinal cord compression in degenerative cervical myelopathy.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13440797"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13440797",
+      "revision": "2026; DOI 10.1371/journal.pone.0354125; article XML SHA-256 9e6229285f6f14ce6b4bd135f5ca300994bf932b435f72ce1daac232f9cd0d5b",
+      "scope": "Source record 10.1371/journal.pone.0354125; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354125"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "884c6cc6f2210b359e79dac722bd217b7c38be0a6f55cd4c7dd4a7124642054f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b42b2361c0e7489ca88926808b5eb360",
+    "request_hash": "435b802d6c9e0df99900a3cc9e1347d9491180a210ae8e369dc2a25a4e5d45ac",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "7b6e369246d286fe6463770f013edc4d074be0cafacff1f3240bdb40d17c7e74",
+    "packet_hash": "884c6cc6f2210b359e79dac722bd217b7c38be0a6f55cd4c7dd4a7124642054f"
+  },
+  "hash": "29746a89836f60f1672645e392fc7c50f9c9d13ae5bb6380793d2dfbe235d60b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7b6e369246d286fe6463770f013edc4d074be0cafacff1f3240bdb40d17c7e74",
+      "packet_hash": "884c6cc6f2210b359e79dac722bd217b7c38be0a6f55cd4c7dd4a7124642054f",
+      "published_packet_hash": "884c6cc6f2210b359e79dac722bd217b7c38be0a6f55cd4c7dd4a7124642054f",
+      "receipt_id": "60d7d637ad6e4fd08a83b144d8ae6647",
+      "request_hash": "311d0ade3ad3447fa140d604a634c7a1d4756bccfccc4d72a554c9fcd5f58f06",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states kyphosis is “marked … by … increased curvature in the neck region” and “producing an exaggerated forward head tilt,” but the packet only mentions “increased cervical kyphosis” and “exaggerated head tilt” without specifying that the tilt is “forward.”",
+        "The packet does not explicitly define kyphosis itself as “an abnormal spinal alignment marked here by increased curvature,” only that “increased cervical kyphosis is a typical abnormal cervical alignment parameter” in the setting of DCM."
+      ],
+      "definition_hash": "7b6e369246d286fe6463770f013edc4d074be0cafacff1f3240bdb40d17c7e74",
+      "packet_hash": "884c6cc6f2210b359e79dac722bd217b7c38be0a6f55cd4c7dd4a7124642054f",
+      "published_packet_hash": "884c6cc6f2210b359e79dac722bd217b7c38be0a6f55cd4c7dd4a7124642054f",
+      "receipt_id": "39c9c7d32c244af09eca1099cd1ca202",
+      "request_hash": "b94b6e73b459d9e39fa8036b1bd1b40a91205474d576fe70586361683b37d67a",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

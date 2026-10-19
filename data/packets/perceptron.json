@@ -1,0 +1,26 @@
+{
+  "id": "perceptron",
+  "term": "perceptron",
+  "source": "article-pmc13035158",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0345870",
+  "revision": "2026; DOI 10.1371/journal.pone.0345870; article XML SHA-256 48a72eef1036c4a1682eb0edf0c395dc2f463fd553764ef2e1360dbb9fc74dcd",
+  "source_snapshot_sha256": "48a72eef1036c4a1682eb0edf0c395dc2f463fd553764ef2e1360dbb9fc74dcd",
+  "url": "https://doi.org/10.1371/journal.pone.0345870",
+  "text": "Bearings are critical elements in rotating machinery, where failures often accelerated by noise interference can cause severe economic and safety consequences. Reliable fault detection in noisy environments remains a major challenge. This paper proposes a novel approach combining advanced signal processing with machine learning to enhance diagnostic robustness. The matrix pencil (MP) method is applied to vibratory signals to extract matrix pencil mean frequency (MPMF) features, offering a noise-resilient spectral representation that highlights fault signatures. To improve generalization, additive white Gaussian noise (AWGN) is introduced both into the extracted features and directly into the vibratory signals, generating diverse datasets with varying signal-to-noise ratios (SNRs). This dual augmentation strategy effectively simulates real-world conditions and strengthens model resilience. A multilayer perceptron (MLP) classifier trained on the enriched feature set achieves outstanding performance, as validated on the University of Ottawa dataset (UORED-VAFCLS). The results demonstrate that the proposed method significantly enhances fault detection accuracy under noisy conditions, offering a promising solution for real-time, reliable condition monitoring in industrial applications.",
+  "source_label": "Vibration-based bearing fault diagnosis in noisy conditions using matrix pencil mean frequency and multilayer perceptron neural networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1301
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "article-requested-concept:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "99921643179f782b8faa48bf6c64444cc9e2a466f20ada074a88a63143f69158"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "species-recognition",
+  "term": "species recognition",
+  "source": "article-pmc5462350",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0178317",
+  "revision": "2017; DOI 10.1371/journal.pone.0178317; article XML SHA-256 8c7d897f9334d734a2a228dcf47e91e9610b990fd7c5c23307c60500d0c02401",
+  "source_snapshot_sha256": "8c7d897f9334d734a2a228dcf47e91e9610b990fd7c5c23307c60500d0c02401",
+  "url": "https://doi.org/10.1371/journal.pone.0178317",
+  "text": "Leaf based plant species recognition plays an important role in ecological protection, however its application to large and modern leaf databases has been a long-standing obstacle due to the computational cost and feasibility. Recognizing such limitations, we propose a Jaccard distance based sparse representation (JDSR) method which adopts a two-stage, coarse to fine strategy for plant species recognition. In the first stage, we use the Jaccard distance between the test sample and each training sample to coarsely determine the candidate classes of the test sample. The second stage includes a Jaccard distance based weighted sparse representation based classification(WSRC), which aims to approximately represent the test sample in the training space, and classify it by the approximation residuals. Since the training model of our JDSR method involves much fewer but more informative representatives, this method is expected to overcome the limitation of high computational and memory costs in traditional sparse representation based classification. Comparative experimental results on a public leaf image database demonstrate that the proposed method outperforms other existing feature extraction and SRC based plant recognition methods in terms of both accuracy and computational speed.",
+  "source_label": "Jaccard distance based weighted sparse representation for coarse-to-fine plant species recognition",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1295
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "article-requested-concept:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "6fac3d26c7b22542a80ce5a04a9d69d56a56441ded5e81d69642e1dbe945262c"
+}

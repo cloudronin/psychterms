@@ -1,0 +1,61 @@
+{
+  "id": "assistive-software",
+  "term": "assistive software",
+  "definition": "Assistive software is software designed to help people carry out complex tasks more efficiently by combining automated processing with human review. In the source, it refers to tools and interfaces for image processing, tracking, and data review that reduced labour in time-lapse microscopy studies.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3880260"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3880260",
+      "revision": "2014; DOI 10.1371/journal.pone.0083251; article XML SHA-256 f14a063d94faee7d57ed772d42658d6326f82e291f26d65333b76c36516c01b9",
+      "scope": "Source record 10.1371/journal.pone.0083251; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0083251"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7d60ab62ab484e91aef62809631b80ff",
+    "request_hash": "11323d6b6ca18c56c0baba280816980139e41f936f8d342c493b5a393688892f",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "d73836f863d9c4cf7ed6d55bbc8da7d334d2f78990f2529ea48e34b5c41e2f59",
+    "packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560"
+  },
+  "hash": "f50012d43c700638626d981505f5674e1a92c524adc8dc715db42508211a4453",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a narrow, research-specific use: software tools and graphical interfaces used with automation and manual review in live-cell time-lapse microscopy, not a general definition of assistive software for helping people carry out complex tasks more efficiently.",
+        "The definition adds unsupported general claims about combining automated processing with human review as the meaning of the term; the source only describes a workflow that used those elements, not a dictionary definition.",
+        "The sentence about reducing labour in time-lapse microscopy studies is broadly consistent, but the broader wording and implied general applicability go beyond the packet's evidence."
+      ],
+      "definition_hash": "d73836f863d9c4cf7ed6d55bbc8da7d334d2f78990f2529ea48e34b5c41e2f59",
+      "packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560",
+      "published_packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560",
+      "receipt_id": "f6a9c4f1e42d4be2a47e143046c6d14f",
+      "request_hash": "e8e053c83faca6ae0a934ecd35d4019b7e3c897605199ad39251e8f4f230c616",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d73836f863d9c4cf7ed6d55bbc8da7d334d2f78990f2529ea48e34b5c41e2f59",
+      "packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560",
+      "published_packet_hash": "7250f8fbf6691dbb60c18325978d6fb5f838c92cdc16b5680cc98c408c9c8560",
+      "receipt_id": "56c92cd92cbb4614887d6e05a569a187",
+      "request_hash": "85767ee59b78e7ef93b1855a1e4e95423374bfaa7788559efdad0116e9c540ea",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

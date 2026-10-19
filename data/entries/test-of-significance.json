@@ -1,0 +1,63 @@
+{
+  "id": "test-of-significance",
+  "term": "test of significance",
+  "definition": "A test of significance is a statistical method used to judge whether a study finding is unlikely to be due to chance, based on a chosen p-value threshold. In this source, the threshold for statistical significance was set at 0.05.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12448977"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12448977",
+      "revision": "2025; DOI 10.1371/journal.pone.0303410; article XML SHA-256 b1effcdade55427e602f5302d124b0d66180fe99f4300b5426175b1712feb033",
+      "scope": "Source record 10.1371/journal.pone.0303410; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0303410"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e7be1422baae01fff3977d22a9a7b77108bab44c200b8bee71005354b89369fd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dd85c1fd25eb4af99506723e8ba825d2",
+    "request_hash": "d787257bdf173513c0bf18e70c672980324223537728ca9c74cb04265c74ac0e",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "668eab928e46ff20b8290e3979aa1f0e70500dfc4e23853a339aa37e2a63f9d4",
+    "packet_hash": "e7be1422baae01fff3977d22a9a7b77108bab44c200b8bee71005354b89369fd"
+  },
+  "hash": "29a791a1386f75fe03597bd38b4f0a02e1d2e6d39de20fb58f471200186c3a5e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only shows that the study set the test of significance at p-value 0.05; it does not define a test of significance as a statistical method used to judge whether a finding is unlikely to be due to chance.",
+        "The definition adds a general methodological explanation that is not supported by the source text and goes beyond the supplied evidence."
+      ],
+      "definition_hash": "668eab928e46ff20b8290e3979aa1f0e70500dfc4e23853a339aa37e2a63f9d4",
+      "packet_hash": "e7be1422baae01fff3977d22a9a7b77108bab44c200b8bee71005354b89369fd",
+      "published_packet_hash": "e7be1422baae01fff3977d22a9a7b77108bab44c200b8bee71005354b89369fd",
+      "receipt_id": "30ae0e9dfb0943f0ad377ccb8f3a1ce1",
+      "request_hash": "33d22a0c85c639b1b672a38e749f9bf8712b641a43f26ad14f0628bc1061a8bc",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that “test of significance was set at p-value 0.05” and does not define what a “test of significance” is (e.g., judging whether a finding is unlikely due to chance).",
+        "The definition’s explanation of the p-value threshold meaning is an unsupported generalization relative to the provided packet."
+      ],
+      "definition_hash": "668eab928e46ff20b8290e3979aa1f0e70500dfc4e23853a339aa37e2a63f9d4",
+      "packet_hash": "e7be1422baae01fff3977d22a9a7b77108bab44c200b8bee71005354b89369fd",
+      "published_packet_hash": "e7be1422baae01fff3977d22a9a7b77108bab44c200b8bee71005354b89369fd",
+      "receipt_id": "399c1e56e7d54a6bb363da08ba42fba2",
+      "request_hash": "62f4e088e0b6cc655a352a73c6cf2806113c4972c8620f07ce2893f3cd49c8a9",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

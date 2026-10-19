@@ -1,0 +1,64 @@
+{
+  "id": "reflectance",
+  "term": "reflectance",
+  "definition": "Reflectance is the light-reflecting property of surfaces that the visual system uses as part of judging color under different lighting. In color constancy research, the average reflectance of a scene is often treated as a cue, with the scene’s mean reflectance commonly assumed to be neutral or gray.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13183799"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13183799",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1809976; article XML SHA-256 69300aa3aca161998bd70b4450478402ba7e4731f6716fd5a13702424501c50c",
+      "scope": "Source record 10.3389/fnhum.2026.1809976; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1809976"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "de8cc3bd3e0f8d160cd06b62f19ab2c658c529558ffe7cac5edd76987667c13b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6c6f70d9612046f9bc15cb101cf63da1",
+    "request_hash": "53e13f626492449d12e1326a179c5d51555abbe983d105413a2175a7ca885b74",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "d37c6fde8da3cd1b12da8de724c927ebfaa673ce50f3415dc6eda06a1ae895d4",
+    "packet_hash": "de8cc3bd3e0f8d160cd06b62f19ab2c658c529558ffe7cac5edd76987667c13b"
+  },
+  "hash": "ca84032b02bb1cd4bc68f9ecf2c6f1ad3d8cb0cb195beba23ffe3764ff9d136d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the gray-world/average-reflectance cue in color constancy, but it does not directly define reflectance as the light-reflecting property of surfaces or state that the visual system uses reflectance in judging color under different lighting.",
+        "“Mean reflectance commonly assumed to be neutral or gray” is only partially supported: the packet says the scene’s average reflectance is typically achromatic, not that it is commonly assumed neutral in general."
+      ],
+      "definition_hash": "d37c6fde8da3cd1b12da8de724c927ebfaa673ce50f3415dc6eda06a1ae895d4",
+      "packet_hash": "de8cc3bd3e0f8d160cd06b62f19ab2c658c529558ffe7cac5edd76987667c13b",
+      "published_packet_hash": "de8cc3bd3e0f8d160cd06b62f19ab2c658c529558ffe7cac5edd76987667c13b",
+      "receipt_id": "f667d7d57a014179a35ae7d7bd339c2e",
+      "request_hash": "744e301bf301cae71a3bf380a3142b4605de4d15459f83714cde44be9c826f9d",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “reflectance” as a light-reflecting property of surfaces; it only refers to “average reflectance” in the context of color constancy.",
+        "While the packet supports the idea that the spatial mean/“gray world” mechanism assumes the scene’s average reflectance is typically achromatic, it does not state that the mean reflectance is “commonly assumed to be neutral or gray” in the wording used in the definition (the packet’s phrasing is closer to “achromatic”).",
+        "Because the first sentence of the definition is unsupported by the provided packet, the definition cannot be accepted as written."
+      ],
+      "definition_hash": "d37c6fde8da3cd1b12da8de724c927ebfaa673ce50f3415dc6eda06a1ae895d4",
+      "packet_hash": "de8cc3bd3e0f8d160cd06b62f19ab2c658c529558ffe7cac5edd76987667c13b",
+      "published_packet_hash": "de8cc3bd3e0f8d160cd06b62f19ab2c658c529558ffe7cac5edd76987667c13b",
+      "receipt_id": "7541c20acd7a4ed79c63c3dda3b1dd3d",
+      "request_hash": "bbf9056259d448c3c384271bda02550ccbc76aa47750860ef95e2093d9262db0",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

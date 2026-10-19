@@ -1,0 +1,26 @@
+{
+  "id": "fetal-presentation",
+  "term": "fetal presentation",
+  "source": "article-pmc8827457",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0262107",
+  "revision": "2022; DOI 10.1371/journal.pone.0262107; article XML SHA-256 2cc7fd1fff4d596ad54358312645f2f76d2fde37984ca204cbf2a67b32e495f2",
+  "source_snapshot_sha256": "2cc7fd1fff4d596ad54358312645f2f76d2fde37984ca204cbf2a67b32e495f2",
+  "url": "https://doi.org/10.1371/journal.pone.0262107",
+  "text": "Ultrasound imaging is a vital component of high-quality Obstetric care. In rural and under-resourced communities, the scarcity of ultrasound imaging results in a considerable gap in the healthcare of pregnant mothers. To increase access to ultrasound in these communities, we developed a new automated diagnostic framework operated without an experienced sonographer or interpreting provider for assessment of fetal biometric measurements, fetal presentation, and placental position. This approach involves the use of a standardized volume sweep imaging (VSI) protocol based solely on external body landmarks to obtain imaging without an experienced sonographer and application of a deep learning algorithm (U-Net) for diagnostic assessment without a radiologist. Obstetric VSI ultrasound examinations were performed in Peru by an ultrasound operator with no previous ultrasound experience who underwent 8 hours of training on a standard protocol. The U-Net was trained to automatically segment the fetal head and placental location from the VSI ultrasound acquisitions to subsequently evaluate fetal biometry, fetal presentation, and placental position. In comparison to diagnostic interpretation of VSI acquisitions by a specialist, the U-Net model showed 100% agreement for fetal presentation (Cohen’s κ 1 (p<0.0001)) and 76.7% agreement for placental location (Cohen’s κ 0.59 (p<0.0001)). This corresponded to 100% sensitivity and specificity for fetal presentation and 87.5% sensitivity and 85.7% specificity for anterior placental location. The method also achieved a low relative error of 5.6% for biparietal diameter and 7.9% for head circumference. Biometry measurements corresponded to estimated gestational age within 2 weeks of those assigned by standard of care examination with up to 89% accuracy. This system could be deployed in rural and underserved areas to provide vital information about a pregnancy without a trained sonographer or interpreting provider. The resulting increased access to ultrasound imaging and diagnosis could improve disparities in healthcare delivery in under-resourced areas.",
+  "source_label": "No sonographer, no radiologist: New system for automatic prenatal detection of fetal biometry, fetal presentation, and placental location",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2117
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "eb1ed8d94f244e741d535aa94f399519f8014c2d029285229befca02d6124464"
+}

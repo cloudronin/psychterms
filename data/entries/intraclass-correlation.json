@@ -1,0 +1,61 @@
+{
+  "id": "intraclass-correlation",
+  "term": "intraclass correlation",
+  "definition": "Intraclass correlation is a statistical measure used to show how closely scores from different raters or scoring methods agree with each other. In this context, it was used to judge the reliability of AI and human pronunciation ratings across the same speech samples.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13419193"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13419193",
+      "revision": "2026; DOI 10.1371/journal.pone.0354603; article XML SHA-256 f55a9b57e4b934629dca114afff7bc8025ef6141cef7cc606adb59d7a6f91b73",
+      "scope": "Source record 10.1371/journal.pone.0354603; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354603"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f540fd2cb03c469d951cd6e5e9c1441a",
+    "request_hash": "3b5e9d0eb2d85724953bff95fb7da1b8d7a1f7beb2e3908713650a6a5dffc05e",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "5ff896b96a0704f886006d35191a6b4dbf8acc83e86b81d575f3fc0c1da198e1",
+    "packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e"
+  },
+  "hash": "624f1eecd1002ebb7256eeb98d09815b544e74934656c16e49d59b069dfded8e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5ff896b96a0704f886006d35191a6b4dbf8acc83e86b81d575f3fc0c1da198e1",
+      "packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e",
+      "published_packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e",
+      "receipt_id": "da2e4597e9cf4fc3a794fcbfeac1c405",
+      "request_hash": "32e32d4318740841daff55f6f8624d0562da937611779412b67e48909da1425c",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define intraclass correlation as a “statistical measure used to show how closely scores from different raters or scoring methods agree.”",
+        "The packet only states that “intraclass correlation coefficients” were used in quantitative analyses to assess “reliability and bias,” but it does not explicitly support the wording about “how closely scores … agree” or that it applies broadly to “different scoring methods.”",
+        "The second sentence is only partially supported: the packet supports that ICCs were used to assess reliability in the AI vs human rater pronunciation-rating context, but it does not explicitly state that ICCs were used specifically “to judge the reliability” in the exact terms given."
+      ],
+      "definition_hash": "5ff896b96a0704f886006d35191a6b4dbf8acc83e86b81d575f3fc0c1da198e1",
+      "packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e",
+      "published_packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e",
+      "receipt_id": "47537f09660244f0a1107fb61bf0b7a5",
+      "request_hash": "082a6774c91058f35d31e7f92894405278fdbf65aef55b447be978de38d63ad5",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

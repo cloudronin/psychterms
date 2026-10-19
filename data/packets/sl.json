@@ -1,0 +1,26 @@
+{
+  "id": "sl",
+  "term": "sl",
+  "source": "article-pmc13446709",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355367",
+  "revision": "2026; DOI 10.1371/journal.pone.0355367; article XML SHA-256 3ec18067115fde2b1040301c6a3c266386c05405851939bc0b506e9aaf56dd1d",
+  "source_snapshot_sha256": "3ec18067115fde2b1040301c6a3c266386c05405851939bc0b506e9aaf56dd1d",
+  "url": "https://doi.org/10.1371/journal.pone.0355367",
+  "text": "Prion disease is a general term for a disease that causes cognitive disorders due to the accumulation of abnormal prion protein in the brain. Creutzfeldt-Jakob disease (CJD) is the most common case of prion disease, and sporadic Creutzfeldt-Jakob disease (sCJD) accounts for more than 70% of CJD cases. Early and accurate diagnosis of sCJD remains challenging. The aim of this study is to classify 6 sCJD patients from 10 healthy older adults and 23 Alzheimer’s disease (AD) patients using resting-state scalp-recorded electroencephalogram (EEG)-derived indices. Power spectrum, SL values by Synchronization Likelihood (SL), and graph metrics by SL values were calculated for 5 frequency bands as EEG-derived indices. In addition, power spectrum and SL values were standardized and exponentially transformed for each subject and each frequency band. Graph metrics were calculated by these SL values. These indices were used as features for classification. Classifiers were constructed by features selected by Recursive Feature Elimination (RFE). The highest classification accuracy was 97.44% using a 12-dimensional feature. This accuracy was confirmed by indices after standardization and exponential transformation. Additional validation analyses were performed to assess the reliability of the selected classifier. Accuracy of nested LOOCV was 84.62%, supporting meaningful classification ability under a leakage-controlled validation framework. An analysis of robustness removing a group of subjects with high similarity with many others showed that the selected classifier maintained a micro-F1 score of 90.32%. Permutation test indicated that the observed performance was significantly higher than chance level, and repeated stratified 10-fold cross-validation showed relatively stable performance across different data partitions. These findings suggest that resting-state EEG-derived indices may provide useful candidate features for classification of sCJD, AD, and healthy older adults. However, further validation using larger independent cohorts is required to establish the generalizability and clinical reliability of the proposed classifier.",
+  "source_label": "Classification of sporadic Creutzfeldt-Jakob disease based on resting state scalp-recorded electroencephalogram-derived indices",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2155
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "20cb1886e370b38ca9f66e5960e1ee08a0858b896eede788835e00de713cc2d8"
+}

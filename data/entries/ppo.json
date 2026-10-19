@@ -1,0 +1,60 @@
+{
+  "id": "ppo",
+  "term": "PPO",
+  "definition": "PPO stands for proximal policy optimization, a training step used after auto-labeling and supervised fine-tuning in the model-training sequence described in the source. In this context, it is part of how a system is optimized to improve its policy or behavior during learning.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13475878"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13475878",
+      "revision": "2026; DOI 10.1371/journal.pone.0354894; article XML SHA-256 c8b122f11dba320ceef0983de3c654e7ee315b4ce22d9cdaf68555def7802c49",
+      "scope": "Source record 10.1371/journal.pone.0354894; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354894"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f91164ce25fe49bca2f5e7e0e9759ae0",
+    "request_hash": "fefde8fc2aa098e36991210761b87a9ccbe9bb0f69ea3ff0a7628fd72d21cf7b",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "260b7cf691f5312b5ac27530e1cdc92a5a9405d8022b0bfba52fce082ea2ff3b",
+    "packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada"
+  },
+  "hash": "0e64ee9e64833a517479e037c19dfbce839001cfa24f60505db85d65a428753f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "260b7cf691f5312b5ac27530e1cdc92a5a9405d8022b0bfba52fce082ea2ff3b",
+      "packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada",
+      "published_packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada",
+      "receipt_id": "1e74e491e74548a08ccec517203d957d",
+      "request_hash": "2683c485f7c2c3c7ee5348a4782c33fc9624a9607cf0be55563b744938f77d89",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that PPO “stands for proximal policy optimization,” but the provided packet does not expand the acronym or define PPO in those terms.",
+        "The definition claims PPO is “part of how a system is optimized to improve its policy or behavior during learning,” but the packet only lists PPO as the third step in a three-step strategy and does not describe PPO’s role as optimizing policy/behavior in this context."
+      ],
+      "definition_hash": "260b7cf691f5312b5ac27530e1cdc92a5a9405d8022b0bfba52fce082ea2ff3b",
+      "packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada",
+      "published_packet_hash": "e66a014fad0b71306af6581511ad7ddbb2784d42b2b2c9a9fbc575a44e657ada",
+      "receipt_id": "8da685a562314ff0bd8e46079ac7a56f",
+      "request_hash": "a6ac34e1b29f8f767836710db10bcb969a55c5d521eb48baf8bb8e3bd8e0c86f",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

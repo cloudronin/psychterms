@@ -1,0 +1,60 @@
+{
+  "id": "metadate",
+  "term": "Metadate",
+  "definition": "Metadate CD is a once-daily form of methylphenidate used in treating attention-deficit/hyperactivity disorder (ADHD). In the source material, it is described as having a different release pattern from Concerta, with stronger symptom control earlier in the day.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc524494"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc524494",
+      "revision": "2004; DOI 10.1186/1471-244x-4-28; article XML SHA-256 b03bb14d984bbfd8cedc6e7d1ba53609af5e4618b1269d6bc265c62f524a2870",
+      "scope": "Source record 10.1186/1471-244x-4-28; pinned source text",
+      "locator": "https://doi.org/10.1186/1471-244x-4-28"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4280af45adb0d406a7ea5f4b1527243fc8abf55d84d916155fbe75cae9e7701a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c1253b22ba2f43beb6da4eb0feaaaeaa",
+    "request_hash": "f4f419cf52eb0ac295133086e86789b2378a3a41925ddadf38b95cdd7f2069c3",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "fd318b72bb4fe4b1ad52a12f0e6caa60ac0205ba33d38d1f27dd6d1378f141c5",
+    "packet_hash": "4280af45adb0d406a7ea5f4b1527243fc8abf55d84d916155fbe75cae9e7701a"
+  },
+  "hash": "dbb5195e4001cb03d4520f56ab2c45f8ada999717b0934bf21d1dc18f7c48b31",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fd318b72bb4fe4b1ad52a12f0e6caa60ac0205ba33d38d1f27dd6d1378f141c5",
+      "packet_hash": "4280af45adb0d406a7ea5f4b1527243fc8abf55d84d916155fbe75cae9e7701a",
+      "published_packet_hash": "4280af45adb0d406a7ea5f4b1527243fc8abf55d84d916155fbe75cae9e7701a",
+      "receipt_id": "2102d0f013f14b13b2a4a7621c53d5d1",
+      "request_hash": "c309b3af6ddcee0fe2c60533b41760ade619aa09de8808b1fcd20e8611bfd272",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims Metadate CD has a “different release pattern” from Concerta, but the packet supports “different delivery mechanisms resulting in different pharmacokinetic profiles” rather than explicitly stating a release-pattern difference.",
+        "The definition’s “stronger symptom control earlier in the day” is broadly supported (greater morning symptom control), but because the release-pattern wording is not directly supported as written, the definition as a whole is not fully supported by the packet."
+      ],
+      "definition_hash": "fd318b72bb4fe4b1ad52a12f0e6caa60ac0205ba33d38d1f27dd6d1378f141c5",
+      "packet_hash": "4280af45adb0d406a7ea5f4b1527243fc8abf55d84d916155fbe75cae9e7701a",
+      "published_packet_hash": "4280af45adb0d406a7ea5f4b1527243fc8abf55d84d916155fbe75cae9e7701a",
+      "receipt_id": "3b60ac7558ce4bb392c41da31e67d42e",
+      "request_hash": "5af5942a63a169acfb2f87330a980d6beb53923bfd2a3afb6869d11d20fed676",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "spurious-correlation",
+  "term": "spurious correlation",
+  "definition": "A spurious correlation is an apparent relationship that a model learns from biased or site-specific patterns in the data rather than from the true underlying factor of interest. Because it reflects confounding or sampling differences, it can make performance look worse or unequal when the model is used with other populations or settings.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11584097"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11584097",
+      "revision": "2024; DOI 10.1371/journal.pone.0303415; article XML SHA-256 2227172c6ce31e90d31b060cd925bf60fc7ee6496765e71a21ddfcb9f996d2eb",
+      "scope": "Source record 10.1371/journal.pone.0303415; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0303415"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "73a5a502a1264b3ba408e9b353c3ce7d",
+    "request_hash": "fee834a5fbaefa27284d7da06733a837725cbf405378a3091b8bd4855b0d0d80",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "031bc09dbe3209dc0cdb99ef68d48c3840759ca60175a6b9c8922f7a11389ee1",
+    "packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42"
+  },
+  "hash": "51e4feba9ee1793cf0ba582d2aeace40e477bcf493302dea8782265e91a27f88",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "031bc09dbe3209dc0cdb99ef68d48c3840759ca60175a6b9c8922f7a11389ee1",
+      "packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42",
+      "published_packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42",
+      "receipt_id": "5ae97c0319cb418aba24b7af88f20f72",
+      "request_hash": "5d2b67a757136adac134983d0e04bcd63e9101f803984ab40d1d5213108d9688",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “spurious correlation” as an “apparent relationship,” nor does it state that it is specifically an apparent relationship.",
+        "The definition’s claim that the relationship is learned “rather than from the true underlying factor of interest” is not supported verbatim or clearly by the packet text.",
+        "While the packet links performance issues to “difference in data acquisition and/or sampling bias” and says models can “learn spurious correlation,” it does not directly state the causal mechanism described in the definition (learning from biased/site-specific patterns instead of the true factor).",
+        "The definition’s statement that it can make performance look “worse or unequal” is only partially supported: the packet mentions “unequal performance across validation population,” but does not support “worse” or the broader phrasing about appearance."
+      ],
+      "definition_hash": "031bc09dbe3209dc0cdb99ef68d48c3840759ca60175a6b9c8922f7a11389ee1",
+      "packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42",
+      "published_packet_hash": "30558869a4c7e53704b732084ca989c3d382f1ad4bf5dccc93e1e48adbc1bf42",
+      "receipt_id": "ad4a76c039d549dda4cae76b9ccaa9db",
+      "request_hash": "9afffbbd6814ddc311a92b87f4c82d1f7a8ef529ecadc0354e7aa7c11b8fd79a",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

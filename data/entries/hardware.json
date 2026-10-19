@@ -1,0 +1,61 @@
+{
+  "id": "hardware",
+  "term": "hardware",
+  "definition": "Hardware refers to the physical computing equipment on which software runs, such as embedded microcontrollers and their memory resources. In this context, it means the device-level platform whose speed, memory limits, and power constraints affect how well computational tasks can be carried out.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13485069"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13485069",
+      "revision": "2026; DOI 10.1371/journal.pone.0355179; article XML SHA-256 9f9c17bfaa6546f8713985da16af796088514bd912ea1496533ebe0f0d8f0eda",
+      "scope": "Source record 10.1371/journal.pone.0355179; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355179"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8296b7410cbc48b38a45943f731242c7",
+    "request_hash": "94a915151a7d4fe7155ba25e55b729027bccccf2ed80c6e54485f555d3fc325d",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "41cf538dda2da1604e3d65f91376ca124313292de4a6d4256c24d9a71a0e37e5",
+    "packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b"
+  },
+  "hash": "07017f7f641665dc79bbc29b9ee84542a2564529eacb174fa3ceb5345e49f9db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about embedded hardware in post-quantum cryptography on microcontrollers, not a psychology/learning sense of the term.",
+        "The definition adds examples and framing (e.g., embedded microcontrollers, memory resources, speed/power constraints) that are not defined in the packet as the intended sense of this entry.",
+        "The requested field is learning, but the source packet does not support a learning-related dictionary sense for hardware."
+      ],
+      "definition_hash": "41cf538dda2da1604e3d65f91376ca124313292de4a6d4256c24d9a71a0e37e5",
+      "packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b",
+      "published_packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b",
+      "receipt_id": "7d6ca5b52a1c4fd4b20f9040193d4e8c",
+      "request_hash": "bd38efdcb1f8a0b2b8e63408886acb24463eea98c655b70cb312ad05943ebe22",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "41cf538dda2da1604e3d65f91376ca124313292de4a6d4256c24d9a71a0e37e5",
+      "packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b",
+      "published_packet_hash": "27aa872383ba935534144de482733eb4af3ec1f15e8ac358bf568862e405c94b",
+      "receipt_id": "99abc6aea02c4cdbac8eaf5e3ae934b4",
+      "request_hash": "699674d2653ab3e49a62c0417fe9005117e178ef4de01ac5d40e746a13e1561e",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

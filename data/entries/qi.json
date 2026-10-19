@@ -1,0 +1,62 @@
+{
+  "id": "qi",
+  "term": "qi",
+  "definition": "In this learning context, QI means the quality of information provided by a GenAI tool. Higher QI is linked to students finding the tool easier to use and more useful, which in turn supports greater behavioral, cognitive, and emotional engagement.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12963208"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12963208",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1756708; article XML SHA-256 25b0a4afda27ae8f975869f59ff16b613fab2c03a8664297e9156b12f295e67d",
+      "scope": "Source record 10.3389/fpsyg.2026.1756708; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1756708"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "783e798a42dd3b5f828c56e303cc753c7eaf894e082b4614f0d40976867e791d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4022a2634ea2418e8188d386f8ee8ea1",
+    "request_hash": "208b4e7664a34e556df76dd86c5f24d982815f2d7f12b53ffd2a7bbaabf53d08",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "6fcd636659a21386d3a5fac0bb4990eb98924660286b22dd70dcf7ad89d4a825",
+    "packet_hash": "783e798a42dd3b5f828c56e303cc753c7eaf894e082b4614f0d40976867e791d"
+  },
+  "hash": "6460480b0da9222b1f0e6f239eb1b472519b2b2dd4684d40c37b7b58b7ca132b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports QI as “quality of information,” but the definition overstates its effects: the source says QI influences perceived ease of use and perceived usefulness, and that perceived ease of use affects behavioral, cognitive, and emotional engagement, while perceived usefulness directly affects only behavioral engagement.",
+        "The wording “which in turn supports greater behavioral, cognitive, and emotional engagement” is too broad for the source because the packet explicitly says perceived usefulness does not directly influence cognitive or emotional engagement."
+      ],
+      "definition_hash": "6fcd636659a21386d3a5fac0bb4990eb98924660286b22dd70dcf7ad89d4a825",
+      "packet_hash": "783e798a42dd3b5f828c56e303cc753c7eaf894e082b4614f0d40976867e791d",
+      "published_packet_hash": "783e798a42dd3b5f828c56e303cc753c7eaf894e082b4614f0d40976867e791d",
+      "receipt_id": "dad19813b22341808c129521218a7852",
+      "request_hash": "e7f567b87904c1471fed53adcdc4c341f6bfa2aa6e7b6a3e11accc503d3c8ab5",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the increase in both perceived ease of use and perceived usefulness “in turn supports greater behavioral, cognitive, and emotional engagement,” but the packet reports that perceived usefulness drives behavioral engagement and “does not directly influence cognitive or emotional engagement,” so attributing all three engagement types to the “easier to use and more useful” linkage is stronger than what the packet supports."
+      ],
+      "definition_hash": "6fcd636659a21386d3a5fac0bb4990eb98924660286b22dd70dcf7ad89d4a825",
+      "packet_hash": "783e798a42dd3b5f828c56e303cc753c7eaf894e082b4614f0d40976867e791d",
+      "published_packet_hash": "783e798a42dd3b5f828c56e303cc753c7eaf894e082b4614f0d40976867e791d",
+      "receipt_id": "62986cf4cf644d87b9c144cd4c94b60f",
+      "request_hash": "35a74180db3adb8debe897fdd7b5c03852fae3279ab53c433dc5186f8c5db751",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

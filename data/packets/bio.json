@@ -1,0 +1,26 @@
+{
+  "id": "bio",
+  "term": "bio-",
+  "source": "article-pmc13399348",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0354146",
+  "revision": "2026; DOI 10.1371/journal.pone.0354146; article XML SHA-256 130706e24cf1795a01f300f011d1f77f82bea5842078c2b198c1aa18ee985b6b",
+  "source_snapshot_sha256": "130706e24cf1795a01f300f011d1f77f82bea5842078c2b198c1aa18ee985b6b",
+  "url": "https://doi.org/10.1371/journal.pone.0354146",
+  "text": "Bio-logging is a popular method for data collection in animal research, especially for hard-to-observe animals. Newer bio-logger generations utilise WiFi technology, enabling researchers to collect high-resolution data at the cost of higher energy expenditure of the devices. In this study, we elaborate on how state-of-the-art loggers can benefit from even the simplest methods to reduce transmission costs. We employ machine learning techniques, specifically small decision trees, to enable a bio-logger to recognise a chosen behaviour based on its sensor readings. Based on the recognised behaviour, the logger filters which data to transmit, reducing transmission time and, thus, the logger’s overall energy consumption. Using a controlled dataset, we exemplify the training and evaluation of such decision trees. Using those, we evaluate the reduction of energy consumption based on a state-of-the-art bio-logger, the WildFi tag. We demonstrate that for WiFi-enabled bio-loggers, decision trees are highly beneficial when used as a data filter. We illustrate that filtering with decision trees yields energy savings of 14.68% in realistic scenarios for transmitting data. We provide a full pipeline from data collection to deployable software to holistically elaborate on how to use off-the-shelf solutions to achieve practical gains for animal behaviour. Our results suggest that decision trees can be an effective tool for enabling bio-loggers to detect specific behaviours. Lastly, we emphasise that our approach highly benefits from the use of gyroscopes, a sensor type that mostly sees use for off-board instead of on-board labour. We contribute an investigation of energy consumption reduction of WiFi-enabled bio-loggers through the utilisation of controlled data transmission using machine learning. We offer a promising pathway for enhancing the longevity of such a state-of-the-art bio-logger, maintaining WiFi benefits. Ultimately, we support more efficient and, thus, more sustainable wildlife monitoring practices on the example of the WildFi tag.",
+  "source_label": "Resource-efficient data transmission for WiFi-capable bio-loggers based on machine learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2065
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "10dde55ccf6933c1d4af2db0b72eca1b57fb5730a233418a7ce1ee4a9db35f4f"
+}

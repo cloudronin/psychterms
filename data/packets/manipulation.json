@@ -1,0 +1,26 @@
+{
+  "id": "manipulation",
+  "term": "manipulation",
+  "source": "article-pmc13450784",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0343442",
+  "revision": "2026; DOI 10.1371/journal.pone.0343442; article XML SHA-256 d011d6cf7cb8cc26ebc8f2c13e0e0a98844a6d3f7e126cef124ff1c8bd2ca658",
+  "source_snapshot_sha256": "d011d6cf7cb8cc26ebc8f2c13e0e0a98844a6d3f7e126cef124ff1c8bd2ca658",
+  "url": "https://doi.org/10.1371/journal.pone.0343442",
+  "text": "To address these limitations, this study aims to assess stock market manipulation risk by developing a multi-source analytical framework that integrates corporate disclosures, investor sentiment, and market trading behavior. In practice, stock market manipulation involves heterogeneous strategies, including trade-based, information-based, and combined forms. Rather than identifying specific manipulation types, this study focuses on a screening-oriented risk assessment framework that captures common abnormal patterns observable across different manipulation behaviors. Methodologically, the framework combines structured numerical variables with textual features extracted using BERT (Bidirectional Encoder Representations from Transformers), a deep contextual language model, enabling collaborative modeling of heterogeneous features under a unified temporal scale. This approach facilitates the characterization of manipulation risk through the joint dynamics along the “information disclosure–sentiment reaction–trading behavior” chain and produces interpretable risk probabilities. Compared with prior research, this study offers three main contributions. First, it develops a unified multi-source framework that captures manipulation risk through the joint dynamics of information disclosure, sentiment diffusion, and market trading behavior under a consistent temporal structure. Second, it introduces a BERT–Multiple Instance Learning (BERT–MIL) architecture that models multiple announcements within the same period as a set and captures heterogeneous and unevenly distributed information signals that are often diluted in conventional semantic analysis. Third, it formulates stock market manipulation analysis as a probabilistic risk assessment problem that supports risk ranking and tiered screening in regulatory practice, and further enhances interpretability through SHAP (SHapley Additive exPlanations). The findings contribute to a deeper understanding of the observable signal structure associated with stock market manipulation risk and provide empirical support for data-driven risk assessment and regulatory decision-making in the context of regulatory technology.",
+  "source_label": "Risk assessment of stock market manipulation through the fusion of multi-source textual and trading data: Evidence from China’s A-share market",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    4661,
+    6849
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 4
+  },
+  "packet_hash": "a84016097c965e13ea27203c9b6462f4ddd0520d50c377a76b291e2239317e39"
+}

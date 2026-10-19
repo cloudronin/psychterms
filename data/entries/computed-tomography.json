@@ -1,0 +1,64 @@
+{
+  "id": "computed-tomography",
+  "term": "computed tomography",
+  "definition": "Computed tomography is a type of scanning in which CT images are used to build detailed computer-based models of body structures, such as bone. In this source, CT scans of children’s femurs were used in an automated pipeline to estimate bone strength more quickly and with less manual input.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13375010"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13375010",
+      "revision": "2026; DOI 10.1371/journal.pone.0352689; article XML SHA-256 4df6322c4e31d0a0c75ab36d70752321a13bad82429300c876e1cc0ed932e8bd",
+      "scope": "Source record 10.1371/journal.pone.0352689; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0352689"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d0d43613ea7243d4af085a9de3d93324",
+    "request_hash": "1aa7a3d63943aeca61dc378c31fe24f8be8373b64f4eeebb46c10701f80992fb",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "caca12e233493ac33da384d9ecc2fce6e7dfd0556cec34a3e76fcf48443f00fc",
+    "packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4"
+  },
+  "hash": "eb9ccb8256db669973ef79f6c23bb1553f4b13b45159aa49ad218708399319e0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes automating a clinical imaging/analysis pipeline (computed tomography to bone strength via FEA), not cognition as a psychology topic.",
+        "The provided definition’s focus (“cognition”) is therefore not supported by the packet’s content, which concerns time savings, landmarking, and bone-strength prediction rather than cognitive processes."
+      ],
+      "definition_hash": "caca12e233493ac33da384d9ecc2fce6e7dfd0556cec34a3e76fcf48443f00fc",
+      "packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4",
+      "published_packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4",
+      "receipt_id": "6b49be1bf6de4b3a8725e88b6f9e6820",
+      "request_hash": "64f5ead194c1e8b39b59b1a64b8ebd4bea533e16db5568fa6834a7ba145e8439",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition goes beyond the packet by describing computed tomography as building detailed computer-based models of body structures; the packet only says CT scans were used in an FEA pipeline and does not define CT that way.",
+        "The second sentence is article-specific rather than a general dictionary definition of the term; it describes this study’s automated pipeline for children’s femurs and bone-strength estimation instead of the term itself.",
+        "The field is not well matched to the term’s source context, which is medical imaging and bone analysis rather than cognition."
+      ],
+      "definition_hash": "caca12e233493ac33da384d9ecc2fce6e7dfd0556cec34a3e76fcf48443f00fc",
+      "packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4",
+      "published_packet_hash": "236c8a89b04356dbe9bf785e07454ae274b8731998cd11a92222055fcad66bb4",
+      "receipt_id": "7ffddb51a016491f81b6238c7a5bdeaa",
+      "request_hash": "4b1987ab2e061ad35724a00e3fbf4cdc746323981e95186a842e71ee43a90fa8",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "systemic",
+  "term": "systemic",
+  "definition": "In a biological or mental health context, systemic means relating to the body as a whole rather than to one single organ or local area. In this packet, it refers to overall inflammatory status reflected by a blood-based index.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13279539"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13279539",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1817964; article XML SHA-256 ac65eb5d0c046fa6a5d6eafc8d0fbe68fc91ed7e4e0d1cbe8a430d66f08197dc",
+      "scope": "Source record 10.3389/fpsyt.2026.1817964; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1817964"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "29846fb6c7e0eb4503827c50f648f3fd1181b037ec143c1fabeeb0463b8f8052",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1c8776774d5b4834ad764caca408a389",
+    "request_hash": "ff6dae379fc52688d09cd591b6e937dcd0c8f5652493fd6c4ce8b27de6d0a112",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "5cfb893b9c62965dbd9c0d122bfcf1819171d8b1f973f44a98498fc1a2a3f050",
+    "packet_hash": "29846fb6c7e0eb4503827c50f648f3fd1181b037ec143c1fabeeb0463b8f8052"
+  },
+  "hash": "86193f01c8a970d76d27d7e5d2294cb6ca9a6716d0ba1bbcadaf143cee9f20ee",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the phrase \"systemic inflammatory status\" in the context of the systemic immune-inflammation index; it does not support the broader dictionary claim that \"systemic\" means relating to the body as a whole rather than to a single organ or local area.",
+        "The definition adds an extra sense claim about a \"mental health context\" that is not supported by the packet."
+      ],
+      "definition_hash": "5cfb893b9c62965dbd9c0d122bfcf1819171d8b1f973f44a98498fc1a2a3f050",
+      "packet_hash": "29846fb6c7e0eb4503827c50f648f3fd1181b037ec143c1fabeeb0463b8f8052",
+      "published_packet_hash": "29846fb6c7e0eb4503827c50f648f3fd1181b037ec143c1fabeeb0463b8f8052",
+      "receipt_id": "730bc96044884558943e71f9df49e97d",
+      "request_hash": "67726712edec524779e984243d39606b6e64b9f0e1ca3a909fc4a1b3dc864229",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the first sentence’s general meaning of “systemic” as “relating to the body as a whole rather than to one single organ or local area.” It only describes “systemic inflammatory status” in relation to the “systemic immune-inflammation index (SII).”",
+        "The second sentence is partially supported: the packet states that SII “reflects systemic inflammatory status” and is “derived from peripheral blood counts,” but the definition’s broad biological-generalization in sentence 1 is unsupported."
+      ],
+      "definition_hash": "5cfb893b9c62965dbd9c0d122bfcf1819171d8b1f973f44a98498fc1a2a3f050",
+      "packet_hash": "29846fb6c7e0eb4503827c50f648f3fd1181b037ec143c1fabeeb0463b8f8052",
+      "published_packet_hash": "29846fb6c7e0eb4503827c50f648f3fd1181b037ec143c1fabeeb0463b8f8052",
+      "receipt_id": "06ac29ce374147029467a14fce40db86",
+      "request_hash": "81d545aec53c156364990a98354ce21b2468be6a3ce52c075741aff89055a77d",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

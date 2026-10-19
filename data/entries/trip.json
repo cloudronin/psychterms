@@ -1,0 +1,61 @@
+{
+  "id": "trip",
+  "term": "trip",
+  "definition": "In this source, a trip is an instance of a person’s travel, described by the path or trajectory they take and the destination they are heading toward. It is treated as a pattern that can be analyzed from past movement data to predict future destinations.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12143568"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12143568",
+      "revision": "2025; DOI 10.1371/journal.pone.0325471; article XML SHA-256 92668778f58b885164e9fde39c6ba9f3c45cd45b022a3af6e05136dcdcd3d9f3",
+      "scope": "Source record 10.1371/journal.pone.0325471; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0325471"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b260f13cd61b4c33a603e42f6e0cf1ca",
+    "request_hash": "68f472cf769a772745cd697ba3e51ba0da904c9240189b7c0959def86f49a556",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "6aadf6a43e7c9808c53f809bdb77ea5b157a96c0c54f17b3a7928da5e5a756f8",
+    "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9"
+  },
+  "hash": "abe972159dafcba18b6da9e89eb7788708948f6c07f8fb25cae025660323be06",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6aadf6a43e7c9808c53f809bdb77ea5b157a96c0c54f17b3a7928da5e5a756f8",
+      "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9",
+      "published_packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9",
+      "receipt_id": "da12e35165614f64814e2727f872ab2c",
+      "request_hash": "1b351f7c3ed24ace302ad53602a0122072e1e140ada5d49d623fac8d126c682e",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “trip” as an “instance of a person’s travel” described by “path or trajectory” and “destination”; it discusses “individual trip destination prediction” and “historical trajectory data,” but does not provide a standalone definition of the term “trip.”",
+        "The claim that a trip is “treated as a pattern that can be analyzed from past movement data to predict future destinations” is not stated as a definition of “trip” in the packet; the packet describes prediction tasks using historical trajectories, but doesn’t define trips in those terms.",
+        "Because the packet does not clearly ground the requested sense of the term (“trip”) itself, the definition contains unsupported definitional content beyond what the packet provides."
+      ],
+      "definition_hash": "6aadf6a43e7c9808c53f809bdb77ea5b157a96c0c54f17b3a7928da5e5a756f8",
+      "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9",
+      "published_packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9",
+      "receipt_id": "86c8e1160f2849c0a26836758bc037cc",
+      "request_hash": "bc4b3d504c14dd2361bcefed968fdaaf7e7f5f7da933e9ef89b3596a57a1d4f4",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

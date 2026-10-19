@@ -1,0 +1,64 @@
+{
+  "id": "uncertainty-factor",
+  "term": "uncertainty factor",
+  "definition": "An uncertainty factor is an influence that makes outcomes harder to predict, such as changing climate conditions in crop production. In a cognition context, it is something people take into account when judging risk and making later planning decisions.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5538739"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5538739",
+      "revision": "2017; DOI 10.1371/journal.pone.0181954; article XML SHA-256 210361fbbeaef881ef1fb3e0af57def653aba592160a41cb7bf3c8f89ed89702",
+      "scope": "Source record 10.1371/journal.pone.0181954; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0181954"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8ada5d93fa799fcf66b0d0a8487c109a9c1cd9da0b3a2890e2ef706614996298",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6995e4cfbde6448abc429832ad9b3f5e",
+    "request_hash": "aa248186ab7874e477598df353276a9a205079b90500cd3156427df4664c5466",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "5632c5991c99c8a6903a65e106e044d51dc4370ccb5a1b1a93042dffc82d59e4",
+    "packet_hash": "8ada5d93fa799fcf66b0d0a8487c109a9c1cd9da0b3a2890e2ef706614996298"
+  },
+  "hash": "02a5ae0a38ee85468058df116b1aa2e40b645d01d00ed523b955a45095c45b48",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an agricultural/climate-risk sense of “uncertainty factor” (climate variability in crop production), not the added cognition-specific sense about how people judge risk and make planning decisions.",
+        "The definition generalizes beyond the source by presenting “uncertainty factor” as a broad influence on outcomes; in the packet it is a specific example tied to climate variability in crop production."
+      ],
+      "definition_hash": "5632c5991c99c8a6903a65e106e044d51dc4370ccb5a1b1a93042dffc82d59e4",
+      "packet_hash": "8ada5d93fa799fcf66b0d0a8487c109a9c1cd9da0b3a2890e2ef706614996298",
+      "published_packet_hash": "8ada5d93fa799fcf66b0d0a8487c109a9c1cd9da0b3a2890e2ef706614996298",
+      "receipt_id": "5218462a65444cd6b7b23a3daaaa7752",
+      "request_hash": "5e94566404f3190222cc99474cb7a211d98b74aacb9633297afb16a28c10b6c4",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general cognition meaning (“In a cognition context…”) that is not directly supported by the packet. The packet primarily treats “uncertainty factor” as a concept in agricultural production planning, specifically naming “climate variability” as an uncertainty factor in crop production.",
+        "While the packet discusses “attitudes toward climate-induced risk” and “risk perceptions,” it does not describe “uncertainty factor” as something “people take into account when judging risk and making later planning decisions” in a general cognition sense; it instead embeds this discussion in the agricultural risk-perception modeling context.",
+        "The definition includes an example (“changing climate conditions in crop production”) that aligns with the packet’s “climate variability,” but because the cognition-related generalization is not adequately supported, the overall definition is not fully defensible from the supplied source text."
+      ],
+      "definition_hash": "5632c5991c99c8a6903a65e106e044d51dc4370ccb5a1b1a93042dffc82d59e4",
+      "packet_hash": "8ada5d93fa799fcf66b0d0a8487c109a9c1cd9da0b3a2890e2ef706614996298",
+      "published_packet_hash": "8ada5d93fa799fcf66b0d0a8487c109a9c1cd9da0b3a2890e2ef706614996298",
+      "receipt_id": "b0e1861d8c6b413a867c14a83e8b1987",
+      "request_hash": "0bc2eca3eb8e2f593d6d62f41ee4ff05e4dbee031e73cb072b03d2ae5f8961c3",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "statistical-stability",
+  "term": "statistical stability",
+  "definition": "Statistical stability is the quality of a set of measurements or markers showing consistent, reliable behavior across analyses. In this source, it is judged using coefficient of variation and correlation analyses, together with checking whether the findings remain meaningfully linked to the biological function being studied.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9385026"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9385026",
+      "revision": "2022; DOI 10.1371/journal.pone.0273164; article XML SHA-256 0f5b3ca71b4ea71fedc27039f78a5d8f4c59068342423b9221fba1c6816082b1",
+      "scope": "Source record 10.1371/journal.pone.0273164; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0273164"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f1a9daed9b93b2464b21550d9427daf2cef0a8508fe3343123aea671bd1bd942",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5ea62685a2574d868ffa86bb549942a0",
+    "request_hash": "df704fa7f2832443354ccbf8d6b1532a3ff979848d2e16c224a5f08e0e8f7d84",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "cc01d9f0847003bff4bb6a6cc0f39d09e4557e00096119ed4cef25c6bfffa7bf",
+    "packet_hash": "f1a9daed9b93b2464b21550d9427daf2cef0a8508fe3343123aea671bd1bd942"
+  },
+  "hash": "1ac731319af455a41883d4588f1488956e40b77427a0600093836aa7e662a2ed",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cc01d9f0847003bff4bb6a6cc0f39d09e4557e00096119ed4cef25c6bfffa7bf",
+      "packet_hash": "f1a9daed9b93b2464b21550d9427daf2cef0a8508fe3343123aea671bd1bd942",
+      "published_packet_hash": "f1a9daed9b93b2464b21550d9427daf2cef0a8508fe3343123aea671bd1bd942",
+      "receipt_id": "bad667a0d1984967b54e9c845b98bb21",
+      "request_hash": "120049fd018863d0e32778020828ed6cb46cb2251cc6f6960c59b4d03e69e0f6",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“quality of a set of measurements or markers showing consistent, reliable behavior across analyses”) is not explicitly supported by the packet text, which only states that the ERGs “exhibited statistical stability” and then describes specific assessment methods (CV, correlation, and functional association).",
+        "Because the packet provides only the evaluation basis (CV, correlation, functional association) but not this generalized characterization of “consistent, reliable behavior across analyses,” the definition contains substantive generalization beyond the provided source."
+      ],
+      "definition_hash": "cc01d9f0847003bff4bb6a6cc0f39d09e4557e00096119ed4cef25c6bfffa7bf",
+      "packet_hash": "f1a9daed9b93b2464b21550d9427daf2cef0a8508fe3343123aea671bd1bd942",
+      "published_packet_hash": "f1a9daed9b93b2464b21550d9427daf2cef0a8508fe3343123aea671bd1bd942",
+      "receipt_id": "8a608e11f5e644f3bb7f690c11e501e9",
+      "request_hash": "0a90871885722a4bb6c0517bd7b8bdc7ba2d236a655886f2de33f0bbd7e3f579",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

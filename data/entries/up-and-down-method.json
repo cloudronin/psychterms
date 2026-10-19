@@ -1,0 +1,60 @@
+{
+  "id": "up-and-down-method",
+  "term": "up-and-down method",
+  "definition": "The up-and-down method is a dose-finding approach used to estimate the drug concentration needed to produce a target effect in a proportion of patients, such as the concentration that prevents coughing in 50% or 95% of people during emergence from anesthesia. In the source, it was used with isotonic regression to estimate effective remifentanil concentrations.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6559654"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6559654",
+      "revision": "2019; DOI 10.1371/journal.pone.0218074; article XML SHA-256 b80d829f3a907a3105b03ae42f3d9181f442f8855396ff30f82272a5e13524dd",
+      "scope": "Source record 10.1371/journal.pone.0218074; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0218074"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "01eb7b6c2cfba1807ddcd6361caa216dd5fdbdd01aa6e9a3ff3766cd32cd11f8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "baf83cbffaad487ba051343b525c42ec",
+    "request_hash": "759c90025773e33854c7bb1c8445ca58d9c241d55647663135e0882f995484ae",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "88e518522087238349275b8dd562e0f5286235ec39567d73875422b40cdb7e4c",
+    "packet_hash": "01eb7b6c2cfba1807ddcd6361caa216dd5fdbdd01aa6e9a3ff3766cd32cd11f8"
+  },
+  "hash": "b3c3c256ef45d7ea0f9ae4f209cf0bc3aa9d610563f2eb73475635926883a4f0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "88e518522087238349275b8dd562e0f5286235ec39567d73875422b40cdb7e4c",
+      "packet_hash": "01eb7b6c2cfba1807ddcd6361caa216dd5fdbdd01aa6e9a3ff3766cd32cd11f8",
+      "published_packet_hash": "01eb7b6c2cfba1807ddcd6361caa216dd5fdbdd01aa6e9a3ff3766cd32cd11f8",
+      "receipt_id": "d4b674e936c54023898762593d8325d0",
+      "request_hash": "4b9a4e5da23bc4ed350a38479571542b0254a0c6e7bd92f14a669438dfcbd691",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general description that the up-and-down method is “a dose-finding approach used to estimate the drug concentration needed to produce a target effect in a proportion of patients” is not explicitly stated or explained in the provided source text; the packet only describes using it to determine effect-site concentrations (EC50/EC95) for preventing coughing in a specific setting.",
+        "Because the packet does not define the method’s general purpose/mechanism in those terms, the broad formulation “needed to produce a target effect in a proportion of patients” is an unsupported generalization beyond what is directly supported."
+      ],
+      "definition_hash": "88e518522087238349275b8dd562e0f5286235ec39567d73875422b40cdb7e4c",
+      "packet_hash": "01eb7b6c2cfba1807ddcd6361caa216dd5fdbdd01aa6e9a3ff3766cd32cd11f8",
+      "published_packet_hash": "01eb7b6c2cfba1807ddcd6361caa216dd5fdbdd01aa6e9a3ff3766cd32cd11f8",
+      "receipt_id": "c947e9aa86c74e5fbfbee13c9890cfc6",
+      "request_hash": "51b23bc9cbac7e94d4eef6fc69de47d8fda9bcebc683211159283d6016a702bd",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

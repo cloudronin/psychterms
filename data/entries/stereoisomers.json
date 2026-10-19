@@ -1,0 +1,60 @@
+{
+  "id": "stereoisomers",
+  "term": "stereoisomers",
+  "definition": "Stereoisomers are different forms of the same compound that share the same basic makeup but differ in their three-dimensional arrangement. In this source, FSPG has four stereoisomeric forms, distinguished by different spatial configurations and separable by chiral analysis.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7735610"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7735610",
+      "revision": "2020; DOI 10.1371/journal.pone.0243831; article XML SHA-256 545a184c98f657497d549205f7428ab1741e19197280f74f96673d5d6d5317ff",
+      "scope": "Source record 10.1371/journal.pone.0243831; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0243831"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "58bd9e284d1f9b25b18b2793975439da0b7a236606ed93e811f61854e26147be",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2b56199dba1d4000813d713a9951a996",
+    "request_hash": "0a584196b9f156a367725a5a57e8ef033558a909bd3f76bb85d4fc58dbbdb62b",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "31dee338e4f86026282c2e9634cc51cbd128853316478d143707e9e45a32e7cb",
+    "packet_hash": "58bd9e284d1f9b25b18b2793975439da0b7a236606ed93e811f61854e26147be"
+  },
+  "hash": "ac319c2146468566fb039996fa9b4bbc6d7be16c5390955101d34095b381f09b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "31dee338e4f86026282c2e9634cc51cbd128853316478d143707e9e45a32e7cb",
+      "packet_hash": "58bd9e284d1f9b25b18b2793975439da0b7a236606ed93e811f61854e26147be",
+      "published_packet_hash": "58bd9e284d1f9b25b18b2793975439da0b7a236606ed93e811f61854e26147be",
+      "receipt_id": "c27e15f04df84bd7bc7b4e9fe89519dc",
+      "request_hash": "f7e62023d87c786ad3b5435b73dd3b061e2e87dc4b426cb20b057e543bcffa45",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general characterization of stereoisomers (“different forms… same basic makeup but differ in their three-dimensional arrangement”), but the provided packet text does not explicitly define stereoisomers in these terms.",
+        "The second sentence is supported by the packet (it states that “all four nonradioactive stereoisomers of FSPG were prepared as reference standards” and lists four (2S/2R,4S/4R) forms), but because the overall definition includes an unsupported general definition, the definition as given cannot be fully supported."
+      ],
+      "definition_hash": "31dee338e4f86026282c2e9634cc51cbd128853316478d143707e9e45a32e7cb",
+      "packet_hash": "58bd9e284d1f9b25b18b2793975439da0b7a236606ed93e811f61854e26147be",
+      "published_packet_hash": "58bd9e284d1f9b25b18b2793975439da0b7a236606ed93e811f61854e26147be",
+      "receipt_id": "4acdc640b58945fdabaf40bbb97b059f",
+      "request_hash": "c250aa3c9b74fcf97a7c397cd79641591bec8bd10509349f42dcdbc0eccb550e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

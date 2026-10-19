@@ -1,0 +1,26 @@
+{
+  "id": "exp",
+  "term": "exp",
+  "source": "article-pmc13175384",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0349356",
+  "revision": "2026; DOI 10.1371/journal.pone.0349356; article XML SHA-256 bc6613c62e88fc850c1ec86fa743e67ee92b081e0b2179e035dc58ddc2602dc2",
+  "source_snapshot_sha256": "bc6613c62e88fc850c1ec86fa743e67ee92b081e0b2179e035dc58ddc2602dc2",
+  "url": "https://doi.org/10.1371/journal.pone.0349356",
+  "text": "Face swap technology is a field of great interest within generative AI. Users can create a new image by swapping the face in the image they take with another face of their choice. However, existing face swap technologies often produce unnatural facial images, losing the identity of the original source image. In this paper, we propose the CrossSwap model to solve these shortcomings. CrossSwap includes scale-adaptive cross-attention blocks that enable smoother swapping between the source and the target face. Leveraging Shape-Aware Identity Extractor with such architecture, CrossSwap preserves the facial shape of the source face and rich identity features while maintaining properties such as the pose of the target face. We evaluate our method using various metrics including Identity Retention (ID), Fréchet Inception Distance (FID), Pose Errors (Pose) and Expressions Errors (EXP) with three recently introduced methodologies. The quantitative experimental results showed that 3.8 Pose(1 st ), 0.276 ID(2 nd ), 11.5 FID(2 nd ), and 1.37 EXP(1 st ), respectively. The proposed method achieved the highest scores for Pose and EXP.",
+  "source_label": "CrossSwap: A shape-aware identity cross-attention face swapping framework",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1136
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "a75bd6ddd3891d12a30ade92d193ebe4bde493277ffb968546e1094fc97c7fde"
+}

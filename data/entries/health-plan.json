@@ -1,0 +1,61 @@
+{
+  "id": "health-plan",
+  "term": "health plan",
+  "definition": "A health plan is an insurance arrangement that covers beneficiaries’ medical services and may use programs or incentives to guide them toward certain providers. In this study context, it refers to the organization managing coverage and trying to influence choices about routine care to improve quality or reduce costs.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13379028"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13379028",
+      "revision": "2026; DOI 10.1371/journal.pone.0350645; article XML SHA-256 dc4f52dff101bcf447e28f2f4e387cb5e897d13da2ae405a4b22d19eb85508a8",
+      "scope": "Source record 10.1371/journal.pone.0350645; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350645"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3cbc8b44f7ae4a919b6afd5cae019d80",
+    "request_hash": "f62008c07949bc6800a72c4d7d1e4b6663af208cf162e11acd337caea23bedef",
+    "registration_hash": "1cb3f1bf999492c414a6d6e61aa65d23cb1431fe2f58051da3903800d3a01325",
+    "definition_hash": "dbd4d2ea5b7e17095d11cd4a3506d5095971ae2ad67b333e7ee3b850dc80643f",
+    "packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12"
+  },
+  "hash": "718af292b827818f195c8ffa97da74caab1919ea1e1958ebb3b2fac61218512d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dbd4d2ea5b7e17095d11cd4a3506d5095971ae2ad67b333e7ee3b850dc80643f",
+      "packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12",
+      "published_packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12",
+      "receipt_id": "f6bf7dd410c745f096b63e62395f5f50",
+      "request_hash": "602fe1a6f75b0cb652c79a4c9bf19e95a0a212ae11f106bc41b439ea3277df30",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “health plan” as an insurance arrangement that covers medical services; it only mentions insurers, beneficiaries, and health plan managers in the context of steering choices.",
+        "The second sentence adds an organizational sense and claims about managing coverage and routine-care choices that are not supported by the packet’s wording.",
+        "The definition goes beyond the source by generalizing to how a health plan may influence provider choice and reduce costs as a general feature rather than a study-specific context."
+      ],
+      "definition_hash": "dbd4d2ea5b7e17095d11cd4a3506d5095971ae2ad67b333e7ee3b850dc80643f",
+      "packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12",
+      "published_packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12",
+      "receipt_id": "7e06c7d92ce84eb197f4e2129b2ce31a",
+      "request_hash": "29f6ca0492bcf4e30feb53e7ec48de9637df9b454c971764207c650c9c28a671",
+      "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
+    }
+  ]
+}

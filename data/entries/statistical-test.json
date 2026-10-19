@@ -1,0 +1,60 @@
+{
+  "id": "statistical-test",
+  "term": "statistical test",
+  "definition": "A statistical test is a method used to judge whether an observed difference or result is likely to be meaningful rather than due to chance. In this packet, it refers to using McNemar’s test to assess whether competing classifiers differ significantly in performance.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13052908"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13052908",
+      "revision": "2026; DOI 10.1371/journal.pone.0340099; article XML SHA-256 0a4690bba8eb6ebd917b2bc05a401730aec73ccf14e9d21ee9d072c18b070549",
+      "scope": "Source record 10.1371/journal.pone.0340099; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0340099"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dc9596f90c7a0c6aeec7d039f73d9318cccedd64eff987cb8b3e499878a32fc8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "289a9923211f4d00a0e9cc7a3bc5a023",
+    "request_hash": "e4349deeca74ff941cecbf24b180516c9496e74ac118e259f7f16b994312e053",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "81996e01e82b69d9a2497a2c698512b4e813f66bb5470b3fe7c9ea0a1976ce83",
+    "packet_hash": "dc9596f90c7a0c6aeec7d039f73d9318cccedd64eff987cb8b3e499878a32fc8"
+  },
+  "hash": "14b46186dd82de8888a2a667edb9b330d512d72b7f11f3e4de40da4ef4676360",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "81996e01e82b69d9a2497a2c698512b4e813f66bb5470b3fe7c9ea0a1976ce83",
+      "packet_hash": "dc9596f90c7a0c6aeec7d039f73d9318cccedd64eff987cb8b3e499878a32fc8",
+      "published_packet_hash": "dc9596f90c7a0c6aeec7d039f73d9318cccedd64eff987cb8b3e499878a32fc8",
+      "receipt_id": "6580faef678b46c888a8ce4020a40cf2",
+      "request_hash": "b91fe1e18f8ede4db0c542d19b2c5e5e5328031734db4120164b7a55459fdb26",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general definition of a statistical test (“judge whether an observed difference…is likely to be meaningful rather than due to chance”), but the packet only states that “statistical significance between competing classifiers was assessed using McNemar’s Statistical test” and does not explicitly support the broader general-purpose wording about “meaningful rather than due to chance.”",
+        "Because the first sentence contains unsupported generalization beyond what the packet explicitly provides, the overall definition is not fully supported by the supplied packet."
+      ],
+      "definition_hash": "81996e01e82b69d9a2497a2c698512b4e813f66bb5470b3fe7c9ea0a1976ce83",
+      "packet_hash": "dc9596f90c7a0c6aeec7d039f73d9318cccedd64eff987cb8b3e499878a32fc8",
+      "published_packet_hash": "dc9596f90c7a0c6aeec7d039f73d9318cccedd64eff987cb8b3e499878a32fc8",
+      "receipt_id": "1138a2d0eae54d6d89581cd6b4362f1f",
+      "request_hash": "d79a7ea9ccc8724cf2b56c804f8c122408737767a9621023e878ff3252b13a0a",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

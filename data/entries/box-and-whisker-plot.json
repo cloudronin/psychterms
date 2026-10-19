@@ -1,0 +1,64 @@
+{
+  "id": "box-and-whisker-plot",
+  "term": "box-and-whisker plot",
+  "definition": "A box-and-whisker plot is a data-display method used to examine how values are distributed and to identify unusual values or outliers. In the source, it is used as an approach for excluding outliers from a larger dataset.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5542532"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5542532",
+      "revision": "2017; DOI 10.1371/journal.pone.0181853; article XML SHA-256 2eff8fda75946f74ceaee4fd0bc3472d4cdb73ff6aaca7560d3b945a521bf4bb",
+      "scope": "Source record 10.1371/journal.pone.0181853; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0181853"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "11eba5b9e6fe460b97a8e6511b2513b4",
+    "request_hash": "a72fdb43798b452b3c3c68e38e85457605c2e00b5f2636d1af2650d1500981b3",
+    "registration_hash": "67d22a1eb17e5999315bc13528c94760827e6ce804149722f44394eb63cb1828",
+    "definition_hash": "40d587d8bc0ccde8cae307c4c6d60d083331676dcb661f1d0d6b0afef6a5e101",
+    "packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e"
+  },
+  "hash": "900429da6449fdaafd65824d3a8ae9eaaf50dc81ef285272a69e47c83994190f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a general description of what a box-and-whisker plot is and what it is used for, but the packet only supports that the authors used a box-and-whisker plot approach to exclude outliers in a data-reduction step.",
+        "The source does not support the broader claim that the method is used to examine distribution or identify unusual values/outliers as a general definitional statement."
+      ],
+      "definition_hash": "40d587d8bc0ccde8cae307c4c6d60d083331676dcb661f1d0d6b0afef6a5e101",
+      "packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e",
+      "published_packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e",
+      "receipt_id": "061f897db73b41cc822a35541c682a96",
+      "request_hash": "dc03d2a4fcc118f4cbf8b1c6b33c91b53f7751bce1f604be124719a31e4acd21",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a box-and-whisker plot as a “data-display method” or describe it as being used to examine the distribution of values; it only states that the “box-and-whisker plot approach” is used in a reducing operation.",
+        "The packet supports excluding outliers, but the definition’s claim about identifying unusual values/outliers and using the method to examine how values are distributed is not explicitly stated in the provided text.",
+        "The claim that, “In the source, it is used as an approach for excluding outliers from a larger dataset” is only partially supported (the packet says it is used to exclude outliers during reducing), without the broader framing as a larger dataset."
+      ],
+      "definition_hash": "40d587d8bc0ccde8cae307c4c6d60d083331676dcb661f1d0d6b0afef6a5e101",
+      "packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e",
+      "published_packet_hash": "9db18bc955ac8b32a13e55b8afe21677c21639779e7eb83e9f700c6dc9339b9e",
+      "receipt_id": "39ecd9b8e7ca45b2b96bbf04a0af401a",
+      "request_hash": "165217012bda8091967e712d9dbb53e99d4c462762c4c42c813cfef520d67628",
+      "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
+    }
+  ]
+}

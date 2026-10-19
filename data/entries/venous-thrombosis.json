@@ -1,0 +1,65 @@
+{
+  "id": "venous-thrombosis",
+  "term": "venous thrombosis",
+  "definition": "Venous thrombosis is a condition in which a blood clot forms in a vein, such as the deep veins of the lower leg. In this context, it matters because the clot can enlarge or come back over time.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12818628"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12818628",
+      "revision": "2026; DOI 10.1371/journal.pone.0340406; article XML SHA-256 7ec633662c2ceee4a73704e2a481e549361ac1261e792d7dc904131e95b79614",
+      "scope": "Source record 10.1371/journal.pone.0340406; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0340406"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2d09977fae444c2cf39d9c1205d7a04b10953cf54ea2f7836278c8c642985ac9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "626244e01b1a40e8ae11f707cab2aa7d",
+    "request_hash": "ec6518c36cc5a2d60233a9b90c34594f5224efcd7e79847fadc11802a60f6977",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "958f4a0b785fc3600e82e9e812e06ff9cfa55d9421c38e742d22c4dde559f4fe",
+    "packet_hash": "2d09977fae444c2cf39d9c1205d7a04b10953cf54ea2f7836278c8c642985ac9"
+  },
+  "hash": "d49852c4ccac8d3d42b5fb0fb0fb35f3ac6e0a32dc87b6928838796485de7466",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “venous thrombosis” or describe it as a blood clot forming in a vein.",
+        "The packet specifically discusses “lower extremity deep venous thrombosis (LEDVT)” in the context of anticoagulation, but it does not support the definition’s general claim about veins “such as the deep veins of the lower leg.”",
+        "The packet does not support the idea that “the clot can enlarge or come back over time” (it mentions preventing “thrombus progression and recurrence,” but not clot enlargement in general or the phrasing used in the definition).",
+        "Because multiple substantive parts of the definition are not supported by the provided packet, the field is not defensible."
+      ],
+      "definition_hash": "958f4a0b785fc3600e82e9e812e06ff9cfa55d9421c38e742d22c4dde559f4fe",
+      "packet_hash": "2d09977fae444c2cf39d9c1205d7a04b10953cf54ea2f7836278c8c642985ac9",
+      "published_packet_hash": "2d09977fae444c2cf39d9c1205d7a04b10953cf54ea2f7836278c8c642985ac9",
+      "receipt_id": "ddfdb9ae4d6e4ec5b6e30e70748178c2",
+      "request_hash": "22d37bd62d83f71a250d496025c049e93cec6543734b20fbd7c1023e14592e0f",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about lower-extremity deep venous thrombosis and medication adherence, not a learning/psychology sense of the term, so the requested field is not supported.",
+        "The definition’s mention of a clot enlarging or coming back over time is only indirectly related to the packet’s prevention of thrombus progression and recurrence; it overgeneralizes beyond the source text’s scope."
+      ],
+      "definition_hash": "958f4a0b785fc3600e82e9e812e06ff9cfa55d9421c38e742d22c4dde559f4fe",
+      "packet_hash": "2d09977fae444c2cf39d9c1205d7a04b10953cf54ea2f7836278c8c642985ac9",
+      "published_packet_hash": "2d09977fae444c2cf39d9c1205d7a04b10953cf54ea2f7836278c8c642985ac9",
+      "receipt_id": "264a876d38b34009a0aecdfa8d5c1303",
+      "request_hash": "c7fe5fb0d705dae9666372345926262df4514504799a8d34b718bc32fc337d01",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

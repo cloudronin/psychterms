@@ -1,0 +1,65 @@
+{
+  "id": "threat-appraisal",
+  "term": "threat appraisal",
+  "definition": "Threat appraisal is a person’s assessment of how threatening a situation or event feels to them. In the source context, higher threat appraisal means feeling more threatened by a heart attack and is linked with greater rumination and higher depression scores.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3465981"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3465981",
+      "revision": "2012; DOI 10.3389/fpsyg.2012.00365; article XML SHA-256 a881b75497f5614f78f3b96d8d925f16a5658163e0c99f8821cb9c8d50d98a85",
+      "scope": "Source record 10.3389/fpsyg.2012.00365; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2012.00365"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2738368b0d0b13cd2fb2f0ea0385c21add903b96eca33d981ac2cdf17b0d870f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "131ab4b432d64623ab8bc25ae2809435",
+    "request_hash": "b18467d34c01b6ff0780e75c56bf2af8eedb2dc53b9aea245a8537e0ba03111d",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "6dae5085542a22ce88dcf83dd203eee02b0bdf75a8843a85be8c784a6c506358",
+    "packet_hash": "2738368b0d0b13cd2fb2f0ea0385c21add903b96eca33d981ac2cdf17b0d870f"
+  },
+  "hash": "d257c8b830000b0455849492f0ff309bd212253b6a3fb9f86a2d08e70a27037d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “threat appraisal” as a person’s assessment of how threatening a situation feels to them; it only discusses it as a cognitive factor measured in post-myocardial-infarction patients.",
+        "The definition’s general phrasing (“how threatening a situation or event feels”) is not directly supported by the packet text provided.",
+        "While the packet supports that higher threat appraisal is hypothesized to relate to rumination and higher depression scores after a myocardial infarction, the packet does not clearly support the specific wording that higher threat appraisal means “feeling more threatened by a heart attack” (it mentions the MI context but does not define the subjective ‘feeling’ aspect)."
+      ],
+      "definition_hash": "6dae5085542a22ce88dcf83dd203eee02b0bdf75a8843a85be8c784a6c506358",
+      "packet_hash": "2738368b0d0b13cd2fb2f0ea0385c21add903b96eca33d981ac2cdf17b0d870f",
+      "published_packet_hash": "2738368b0d0b13cd2fb2f0ea0385c21add903b96eca33d981ac2cdf17b0d870f",
+      "receipt_id": "6bca153f22834d689952fa5de163695a",
+      "request_hash": "7a3e47ad526bcf4dad0d29ec58d6660ab5beb62c8b9cb188b86ccfdf8fc1c7aa",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The added context about rumination and higher depression scores is drawn from hypotheses in the source article, not established findings, so it should not be presented as a confirmed relationship.",
+        "The definition generalizes a study-specific post-myocardial-infarction use of the term into a broad generic definition without support from the packet.",
+        "The source supports threat appraisal in a cardiac context, but not the broader claim that it is simply a person’s assessment of how threatening any situation or event feels."
+      ],
+      "definition_hash": "6dae5085542a22ce88dcf83dd203eee02b0bdf75a8843a85be8c784a6c506358",
+      "packet_hash": "2738368b0d0b13cd2fb2f0ea0385c21add903b96eca33d981ac2cdf17b0d870f",
+      "published_packet_hash": "2738368b0d0b13cd2fb2f0ea0385c21add903b96eca33d981ac2cdf17b0d870f",
+      "receipt_id": "96243ead506647ca8f13f86f36cb2301",
+      "request_hash": "b41f53a366aa61647c94e69283c7c96456853dbf1718c5c0982ef2279bad53af",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

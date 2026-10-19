@@ -1,0 +1,26 @@
+{
+  "id": "quantitative-trait-loci",
+  "term": "quantitative trait loci",
+  "source": "article-pmc11149833",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0298501",
+  "revision": "2024; DOI 10.1371/journal.pone.0298501; article XML SHA-256 77e605a2d6006994297d8f80772d0f68640afbe6b814c9c0320699dcca66de91",
+  "source_snapshot_sha256": "77e605a2d6006994297d8f80772d0f68640afbe6b814c9c0320699dcca66de91",
+  "url": "https://doi.org/10.1371/journal.pone.0298501",
+  "text": "Quantitative trait loci (QTL) denote regions of DNA whose variation is associated with variations in quantitative traits. QTL discovery is a powerful approach to understand how changes in molecular and clinical phenotypes may be related to DNA sequence changes. However, QTL discovery analysis encompasses multiple analytical steps and the processing of multiple input files, which can be laborious, error prone, and hard to reproduce if performed manually. To facilitate and automate large-scale QTL analysis, we developed the yQTL Pipeline , where the ‘ y’ indicates the dependent quantitative variable being modeled. Prior to the association test, the pipeline supports the calculation or the direct input of pre-defined genome-wide principal components and genetic relationship matrix when applicable. User-specified covariates can also be provided. Depending on whether familial relatedness exists among the subjects, genome-wide association tests will be performed using either a linear mixed-effect model or a linear model. The options to run an ANOVA model or testing the interaction with a covariate are also available. Using the workflow management tool Nextflow, the pipeline parallelizes the analysis steps to optimize run-time and ensure results reproducibility. In addition, a user-friendly R Shiny App is developed to facilitate result visualization. It can generate Manhattan and Miami plots of phenotype traits, genotype-phenotype boxplots, and trait-QTL connection networks. We applied the yQTL Pipeline to analyze metabolomics profiles of blood serum from the New England Centenarians Study (NECS) participants. A total of 9.1M SNPs and 1,052 metabolites across 194 participants were analyzed. Using a p-value cutoff 5e-8, we found 14,983 mQTLs associated with 312 metabolites. The built-in parallelization of our pipeline reduced the run time from ~90 min to ~26 min. Visualization using the R Shiny App revealed multiple mQTLs shared across multiple metabolites. The yQTL Pipeline is available with documentation on GitHub at https://github.com/montilab/yQTLpipeline .",
+  "source_label": "yQTL Pipeline: A structured computational workflow for large scale quantitative trait loci discovery and downstream visualization",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2089
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "e84a60ff7ecee2c9679b82b754d88f181c960cdde92a8ce03f1a10b208b85801"
+}

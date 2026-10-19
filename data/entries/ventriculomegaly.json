@@ -1,0 +1,63 @@
+{
+  "id": "ventriculomegaly",
+  "term": "ventriculomegaly",
+  "definition": "Ventriculomegaly is an enlargement of the brain’s ventricles, the spaces that contain cerebrospinal fluid. In this packet, it is described as a feature of idiopathic normal pressure hydrocephalus and can also occur without that disorder’s symptoms.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12435679"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12435679",
+      "revision": "2025; DOI 10.1371/journal.pone.0330251; article XML SHA-256 b41f4bdec366b4cee5f28ffc9936374f66867ef0a9530adddba10bdd35a690b4",
+      "scope": "Source record 10.1371/journal.pone.0330251; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0330251"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f9364b96d6b92a4f7c325c6876a2aad0a7dd74c54f1a7fce16206a5df1b3181d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3cbb9c6a94fc492ab7bd9785af2f777e",
+    "request_hash": "687f1c2ae02324662fed74bbd137a61ce0cf6b110eb4cf57db1db1c6dd4c5bbb",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "8e4d888fc8d44070119542e9f3a271d9a5fdb571a22f8c7f044e5ebf10df80b7",
+    "packet_hash": "f9364b96d6b92a4f7c325c6876a2aad0a7dd74c54f1a7fce16206a5df1b3181d"
+  },
+  "hash": "b0263f4c2a6bbcae6b26b314eb271366209486f1922890d7489b092216e851e2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that ventricles are “the spaces that contain cerebrospinal fluid,” but this anatomical description is not provided in the supplied packet text.",
+        "While the packet supports that ventriculomegaly is marked in idiopathic normal pressure hydrocephalus and that there is a comparison group with ventriculomegaly but no iNPH symptoms, the definition’s first sentence includes an additional substantive claim not supported by the packet."
+      ],
+      "definition_hash": "8e4d888fc8d44070119542e9f3a271d9a5fdb571a22f8c7f044e5ebf10df80b7",
+      "packet_hash": "f9364b96d6b92a4f7c325c6876a2aad0a7dd74c54f1a7fce16206a5df1b3181d",
+      "published_packet_hash": "f9364b96d6b92a4f7c325c6876a2aad0a7dd74c54f1a7fce16206a5df1b3181d",
+      "receipt_id": "8aab8a5c798c45b58f8fe03738077eb0",
+      "request_hash": "acce81a94a0d673db59037a6a25f0c34388b29a93f455cc6f35e512a7ad961d6",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “the brain’s ventricles” / “the spaces that contain cerebrospinal fluid” is not supported by the packet; the packet only says ventriculomegaly is associated with ventricular enlargement.",
+        "The requested field “cognition” is not well supported for this term; the packet uses ventriculomegaly in an iNPH research context, but the term itself is a structural finding rather than a cognition concept."
+      ],
+      "definition_hash": "8e4d888fc8d44070119542e9f3a271d9a5fdb571a22f8c7f044e5ebf10df80b7",
+      "packet_hash": "f9364b96d6b92a4f7c325c6876a2aad0a7dd74c54f1a7fce16206a5df1b3181d",
+      "published_packet_hash": "f9364b96d6b92a4f7c325c6876a2aad0a7dd74c54f1a7fce16206a5df1b3181d",
+      "receipt_id": "9e80ea4dcd4146c8aa62577cecebd739",
+      "request_hash": "70b59a1456931c203a7972f71f96e141a17b6ff32e279c86488beb5f875ebfc3",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

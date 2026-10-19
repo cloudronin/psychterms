@@ -1,0 +1,26 @@
+{
+  "id": "physiological-age",
+  "term": "physiological age",
+  "source": "article-pmc12459789",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0330184",
+  "revision": "2025; DOI 10.1371/journal.pone.0330184; article XML SHA-256 f5f6d0d95a4d6a94b22898c646cd34a27f9e77b3ccc9b84a084548d6d2c14698",
+  "source_snapshot_sha256": "f5f6d0d95a4d6a94b22898c646cd34a27f9e77b3ccc9b84a084548d6d2c14698",
+  "url": "https://doi.org/10.1371/journal.pone.0330184",
+  "text": "In response to Taiwan’s rapidly aging population and the rising demand for personalized health care, accurately assessing individual physiological aging has become an essential area of study. This research utilizes health examination data to propose a machine learning-based biological age prediction model that quantifies physiological age through residual life estimation. The model leverages LightGBM, which shows an 11.40% improvement in predictive performance (R-squared) compared to the XGBoost model. In the experiments, the use of MICE imputation for missing data significantly enhanced prediction accuracy, resulting in a 23.35% improvement in predictive performance. Kaplan-Meier (K-M) estimator survival analysis revealed that the model effectively differentiates between groups with varying health levels, underscoring the validity of biological age as a health status indicator. Additionally, the model identified the top ten biomarkers most influential in aging for both men and women, with a 69.23% overlap with Taiwan’s leading causes of death and previously identified top health-impact factors, further validating its practical relevance. Through multidimensional health recommendations based on SHAP and PCC interpretations, if the health recommendations provided by the model are implemented, 64.58% of individuals could potentially extend their life expectancy. This study provides new methodological support and data backing for precision health interventions and life extension.",
+  "source_label": "Prediction of biological age using machine learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1501
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "9ddd633d3a1b1aa41d032139cd4dfbc4f85542e03aa2334c6de19ba60f07c948"
+}

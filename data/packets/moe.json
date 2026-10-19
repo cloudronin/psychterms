@@ -1,0 +1,26 @@
+{
+  "id": "moe",
+  "term": "MOE",
+  "source": "article-pmc13614541",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0358866",
+  "revision": "2026; DOI 10.1371/journal.pone.0358866; article XML SHA-256 13595df32cd177b50b953eda15b85f37b19aafb19457e8a2befd5dd9345d42ae",
+  "source_snapshot_sha256": "13595df32cd177b50b953eda15b85f37b19aafb19457e8a2befd5dd9345d42ae",
+  "url": "https://doi.org/10.1371/journal.pone.0358866",
+  "text": "To address the above limitations, this paper proposes an efficient detection framework, termed EMamba, for steel surface defect detection. The goal is to enhance global modeling capability, semantic adaptability, and structural modeling efficiency while preserving practical deployability. Specifically, a CSSBlock is introduced into the backbone network to model long-range spatial dependencies with linear complexity, thereby improving sensitivity to elongated cracks and directionally continuous structural defects. At the high-level semantic stage, an ES-MoE is further integrated, leveraging a conditional expert routing mechanism to enhance the diversity and discriminability of feature representations. Building upon these components, a MSN is proposed to hierarchically and selectively configure high-order feature modeling modules within a multi-branch architecture, achieving a more favorable trade-off between representational capacity and computational efficiency. Finally, a decoupled detection head is adopted to construct the complete detection framework, enabling precise localization and recognition of complex steel surface defects.",
+  "source_label": "EMamba: A MoE-enhanced state space network for robust steel surface defect detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    5266,
+    6416
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "48680578287fc519c12c0aa5175faab4af43894115cf5dc3e2798b29f9a7b7f5"
+}

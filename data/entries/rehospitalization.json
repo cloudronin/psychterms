@@ -1,0 +1,60 @@
+{
+  "id": "rehospitalization",
+  "term": "rehospitalization",
+  "definition": "Rehospitalization means being admitted to the hospital again after a previous hospital stay. In this source, it refers specifically to a new hospital admission for COVID-19 reinfection occurring at least 90 days after the first hospitalization.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13630228"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13630228",
+      "revision": "2026; DOI 10.1371/journal.pone.0332281; article XML SHA-256 c480b4e0986c940293aea05b6b3db3001a821d6fbd8c0bc987ff41dd24a65b83",
+      "scope": "Source record 10.1371/journal.pone.0332281; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0332281"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "860a4599eec440fa975ae1f93b1ac213",
+    "request_hash": "100374bb982a1c3d898d35141fc2b41e1af7cb7a8ef041a3bad0cba42e0b894a",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "49d9a4526c568b500e3ee7a8147e48b4028e10aae01a20147c9242ecb965cced",
+    "packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944"
+  },
+  "hash": "0abe469b492a3d3127d53c2e79dcdfa482a1eed6e2150860d04a3f090d445c9d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "49d9a4526c568b500e3ee7a8147e48b4028e10aae01a20147c9242ecb965cced",
+      "packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944",
+      "published_packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944",
+      "receipt_id": "cc166f5a21a34e56a2d74b113e56ee00",
+      "request_hash": "fd75424bf33298290194b2057c21b1a7da09b240d0bf0ce2614f06f501a8d71e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the source: the packet is a medical/epidemiological study about COVID-19 rehospitalization, not a social/psychology-counselling sense.",
+        "The definition narrows the term to a study-specific COVID-19 reinfection criterion; that sense is supported, but the broader generic sense is not established in the packet as written."
+      ],
+      "definition_hash": "49d9a4526c568b500e3ee7a8147e48b4028e10aae01a20147c9242ecb965cced",
+      "packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944",
+      "published_packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944",
+      "receipt_id": "83fd94b2f5504219858ebacbab99bc89",
+      "request_hash": "e50cd29e8f6059672e41d2b5a4d9ad85ce5e1dac0b7e8a9f31b62f47e019e5ef",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

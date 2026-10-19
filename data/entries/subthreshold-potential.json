@@ -1,0 +1,64 @@
+{
+  "id": "subthreshold-potential",
+  "term": "subthreshold potential",
+  "definition": "Subthreshold potential is the neuron's membrane voltage during periods below the evoked spike. In this context, its mean value is used as a measure that is sensitive to both excitatory and inhibitory synaptic input.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3973923"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3973923",
+      "revision": "2014; DOI 10.3389/fncel.2014.00086; article XML SHA-256 52c72e180b2e083d6563dc50fca2ef723e1ea209d07e7021176b6963c41e5c49",
+      "scope": "Source record 10.3389/fncel.2014.00086; pinned source text",
+      "locator": "https://doi.org/10.3389/fncel.2014.00086"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "42e15c1854e14e77eaf44b629e2e139fa885a77279e39791f703f6cbc715caf4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0c2190fc40c64f1e93d32d02acd200cd",
+    "request_hash": "e8d72cd9b7c1db936ba86474d5cecb43d6046c59d56eabbe32be7f424ba87cfc",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "777c615186bf8f45e1a4775aac7afe523b20abcd3d7be7cc0cfe1b3074405bae",
+    "packet_hash": "42e15c1854e14e77eaf44b629e2e139fa885a77279e39791f703f6cbc715caf4"
+  },
+  "hash": "8bde3ddb9bdbf522007410486a8ad2c5c0ab2b6cf08285818b75878448b2fbe6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states: “Subthreshold potential is the neuron's membrane voltage during periods below the evoked spike.” The packet mentions “mean subthreshold potential” as a parameter but does not explicitly define subthreshold potential as membrane voltage during periods below an evoked spike.",
+        "The claim that “its mean value is used as a measure that is sensitive to both excitatory and inhibitory synaptic input” is supported by the packet (synaptic conductances are estimated from “spike amplitude and the mean subthreshold potential,” which are described as sensitive to both excitatory and inhibitory synaptic input), but this does not rescue the unsupported first sentence.",
+        "Because one substantive part of the definition is not explicitly supported by the provided packet, the definition as a whole does not meet the requirement for complete support."
+      ],
+      "definition_hash": "777c615186bf8f45e1a4775aac7afe523b20abcd3d7be7cc0cfe1b3074405bae",
+      "packet_hash": "42e15c1854e14e77eaf44b629e2e139fa885a77279e39791f703f6cbc715caf4",
+      "published_packet_hash": "42e15c1854e14e77eaf44b629e2e139fa885a77279e39791f703f6cbc715caf4",
+      "receipt_id": "021ed73206b542898cd5bd7ba080211f",
+      "request_hash": "632536230a4cfe2f73a6edabcb06bca1cf1b7b42bcbcd9f540b0580626964496",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the mean subthreshold potential is used as a measure sensitive to both excitatory and inhibitory synaptic input, but it does not define subthreshold potential as the neuron's membrane voltage during periods below the evoked spike.",
+        "The definition adds a general explanatory claim that is not stated in the source; the source only mentions mean subthreshold potential as a feature of artificially evoked probe spikes used for conductance estimation."
+      ],
+      "definition_hash": "777c615186bf8f45e1a4775aac7afe523b20abcd3d7be7cc0cfe1b3074405bae",
+      "packet_hash": "42e15c1854e14e77eaf44b629e2e139fa885a77279e39791f703f6cbc715caf4",
+      "published_packet_hash": "42e15c1854e14e77eaf44b629e2e139fa885a77279e39791f703f6cbc715caf4",
+      "receipt_id": "2615647dc7694e90b32e081012cb3180",
+      "request_hash": "709ca85dddd4ac5a8f677d117a0760bca95362c975e159954155a23eee078de3",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

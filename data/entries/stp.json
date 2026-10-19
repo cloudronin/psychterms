@@ -1,0 +1,63 @@
+{
+  "id": "stp",
+  "term": "STP",
+  "definition": "STP refers to staggered tooth phase in a herringbone planetary gear transmission. In the source, it is a gear-design feature whose angle is examined because it can influence vibration and noise in the transmission system.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13387557"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13387557",
+      "revision": "2026; DOI 10.1371/journal.pone.0354177; article XML SHA-256 683f33443c1257cc5f0c6fdc1e67f487065a7353fc315892c299b0106d36301f",
+      "scope": "Source record 10.1371/journal.pone.0354177; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354177"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d54ea0a62c9c9c2245f34fb1368f2592399afe86711377e106619000c470658b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3e8ad527cd1e4caeaf7a1c9fd6276452",
+    "request_hash": "861c987b1890b3acbc8a505a9a84ae3f707d417e2768ee38b8ad7450520513ee",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "e487e331437a5171841421b9cacabec2c5c16689ab5240e287fd7dc8e846dd71",
+    "packet_hash": "d54ea0a62c9c9c2245f34fb1368f2592399afe86711377e106619000c470658b"
+  },
+  "hash": "4bcd7ae2f4678acf1efb4e3b57340be99638d7365f07092b5477b6053f740937",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Wrong sense/field: the packet defines STP in the context of herringbone planetary gear transmission, not cognition or psychology.",
+        "The definition’s core expansion, 'staggered tooth phase,' is only partly supported; the packet uses 'staggered tooth phase' but does not support the fuller explanatory phrasing as a formal definition of the acronym.",
+        "The definition adds a specific claim about the angle being examined because it influences vibration and noise; while the packet says STP angle and tooth profile error can affect vibrations and noises, it does not support the broader wording about 'the source' presenting STP as a gear-design feature in general."
+      ],
+      "definition_hash": "e487e331437a5171841421b9cacabec2c5c16689ab5240e287fd7dc8e846dd71",
+      "packet_hash": "d54ea0a62c9c9c2245f34fb1368f2592399afe86711377e106619000c470658b",
+      "published_packet_hash": "d54ea0a62c9c9c2245f34fb1368f2592399afe86711377e106619000c470658b",
+      "receipt_id": "0d6f8db9452c45b195a3dec2a112a7fb",
+      "request_hash": "bccf86e4f838983cb6b746125b9794e17fc6edaa53d398831b96ea4c9e292657",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided source packet describes a mechanical/engineering topic (herringbone planetary gear transmission dynamics, mesh stiffness, vibration/noise), not cognition; using the term in a “cognition” field is not supported by the packet."
+      ],
+      "definition_hash": "e487e331437a5171841421b9cacabec2c5c16689ab5240e287fd7dc8e846dd71",
+      "packet_hash": "d54ea0a62c9c9c2245f34fb1368f2592399afe86711377e106619000c470658b",
+      "published_packet_hash": "d54ea0a62c9c9c2245f34fb1368f2592399afe86711377e106619000c470658b",
+      "receipt_id": "48929b03d4df405491848ba10769699f",
+      "request_hash": "87de6985ea383fa6f1094b34f07d18381ad5ddac4be0fbaa62276a1a556b5f9f",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

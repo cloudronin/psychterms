@@ -1,0 +1,26 @@
+{
+  "id": "overweight",
+  "term": "overweight",
+  "source": "article-pmc12863505",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0341821",
+  "revision": "2026; DOI 10.1371/journal.pone.0341821; article XML SHA-256 91b96026ad002f2e76a0737112bb37416f87aa64f72b27ce3289c2fbc70a4dd2",
+  "source_snapshot_sha256": "91b96026ad002f2e76a0737112bb37416f87aa64f72b27ce3289c2fbc70a4dd2",
+  "url": "https://doi.org/10.1371/journal.pone.0341821",
+  "text": "Overweight/obesity has become a critical global health issue, as these conditions are strongly associated with elevated risk of diabetes, stroke, cardiovascular disorders, and certain types of cancer. In recent decades, Bangladesh has faced a notable rise in overweight/obesity prevalence—women are more prone to obesity than men. This study presents a comprehensive strategy for identifying risk factors and predicting overweight and obesity through machine learning (ML) classifiers among ever-married Bangladeshi women aged 15–49 years. Data from the 2017–2018 BDHS, a nationally representative survey, were examined. The data were pre-processed and subsequently balanced using the synthetic minority over-sampling technique and edited nearest neighbors (SMOTE-ENN) approach. Various feature identification techniques, including Chi-Square, LASSO, and Sequential Forward Selection, were employed to determine the key risk features. Later, permutation feature importance and SHAP analysis were employed to assess the influence of these risk factors on overweight/obesity. The classification of overweight and obesity was conducted using seven machine learning models: Support Vector Machine (SVM), Logistic Regression (LR), Random Forest (RF), K-nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Categorical Boosting (CatBoost), and Multilayer Perceptron (MLP). Among the evaluated models, SVM performed best, reaching 95.79% accuracy and 97.32% precision when combined with SMOTE-ENN and hyper-parameter tuning. The study found that key factors contributing to being overweight/obese include age, division, type of residence, educational levels of both the respondent and her partner, number of children, frequency of television viewing, and wealth status; where wealth status, age, and frequency of watching television have strong influences. Therefore, integrating the balancing algorithm with the embedded feature selection strategy was effective in classifying overweight/obese women and could enhance decision-making for preventive measures in public health through timely predictions of overweight/obesity.",
+  "source_label": "National data meets AI: Machine learning for predicting overweight/obesity among ever-married Bangladeshi women",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2127
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 4
+  },
+  "packet_hash": "766fa895e9760af4a62ba967035fb5beca35d6da0a93d1d3ad5679066c6ce0cd"
+}

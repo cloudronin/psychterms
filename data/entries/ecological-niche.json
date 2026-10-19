@@ -1,0 +1,63 @@
+{
+  "id": "ecological-niche",
+  "term": "ecological niche",
+  "definition": "An ecological niche is the pattern of environmental, climatic, and time-and-place conditions linked to where an organism occurs. In this source’s context, it is the basis for modeling and predicting that organism’s distribution.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8500454"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8500454",
+      "revision": "2021; DOI 10.1371/journal.pone.0256868; article XML SHA-256 e9065147742b548522cce2c3a8c5bce1ae700ac09d57d044e15cae77df697c78",
+      "scope": "Source record 10.1371/journal.pone.0256868; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0256868"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f1533aaede288d280dfd70e3ae701c861cedd0eb375790bc35fc9b86344b4f02",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7852f025fd6b4771a78aa817f565d52e",
+    "request_hash": "d1f3cc95ea13693410bb2bc6764d2092ec8dd9c21e9674d3ab91f9ac514c9669",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "5f40298a8cd2ca4472c820850de33923f635907b981c40211854cd2c297163c4",
+    "packet_hash": "f1533aaede288d280dfd70e3ae701c861cedd0eb375790bc35fc9b86344b4f02"
+  },
+  "hash": "323c6f0bb51d3839627b1c9be2627bca6137b25b43e1f3876468c9ae5a11443f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not directly define the term “ecological niche” as a “pattern of environmental, climatic, and time-and-place conditions” linked to where an organism occurs; it only describes “Ecological Niche Modeling” as a process using spatiotemporal, climatic, and environmental data to predict distribution.",
+        "Because the supplied text frames “ecological niche” mainly through the modeling procedure (not as a definitional concept), the first sentence of the provided definition is not explicitly supported by the packet."
+      ],
+      "definition_hash": "5f40298a8cd2ca4472c820850de33923f635907b981c40211854cd2c297163c4",
+      "packet_hash": "f1533aaede288d280dfd70e3ae701c861cedd0eb375790bc35fc9b86344b4f02",
+      "published_packet_hash": "f1533aaede288d280dfd70e3ae701c861cedd0eb375790bc35fc9b86344b4f02",
+      "receipt_id": "239bfa3a2c6641eeb10b4c5400998cdd",
+      "request_hash": "d23e45fb62038bcd2226a5da59bf60406edcb0f9c0efd7f8b47ffec238ac1106",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports ecological niche modeling, not the term ecological niche itself; the definition appears to conflate the niche with the modeling process used to predict distribution.",
+        "The requested field is learning, but the source is an ecology/wildlife disease modeling article, so the field is not defensible from the packet."
+      ],
+      "definition_hash": "5f40298a8cd2ca4472c820850de33923f635907b981c40211854cd2c297163c4",
+      "packet_hash": "f1533aaede288d280dfd70e3ae701c861cedd0eb375790bc35fc9b86344b4f02",
+      "published_packet_hash": "f1533aaede288d280dfd70e3ae701c861cedd0eb375790bc35fc9b86344b4f02",
+      "receipt_id": "9e3fc2eb9abd4ddfb5e8754acc14ed72",
+      "request_hash": "fe64c574251736184433b8f82b92a06130033824cbf4fb4845fcc22c14b458ed",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

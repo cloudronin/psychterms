@@ -1,0 +1,60 @@
+{
+  "id": "snp",
+  "term": "SNP",
+  "definition": "SNP stands for single nucleotide polymorphism, meaning a variation at one DNA building block in the genome. In this packet, SNPs are discussed as genetic differences that may be linked to susceptibility to myasthenia gravis and related biological mechanisms.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13600526"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13600526",
+      "revision": "2026; DOI 10.1371/journal.pone.0359069; article XML SHA-256 d351776eb67ed8bc33003a8917483b0e3bcab937da4e5b7d1f584fd2181906d9",
+      "scope": "Source record 10.1371/journal.pone.0359069; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0359069"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c29faa4ee848442f8c1d783fe8d1fd1c",
+    "request_hash": "7cbb53a87b2d10f2b6777afab9a86b80b294a63b19738e814996e27a1045abe5",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "dd14edfd83f868f77259c5d89619237196bb533e277eb83c03862a22770623e9",
+    "packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22"
+  },
+  "hash": "c50b6b6c0b6d33468a3bc7e9c723e134fd564c41cc5a26c9db503a1ccc8de724",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s explanation of SNPs as “a variation at one DNA building block in the genome” is not explicitly stated in the provided packet text; the packet only uses “single nucleotide polymorphisms (SNPs)” without describing this specific “one DNA building block” characterization.",
+        "The rest of the definition (“discussed as genetic differences that may be linked to susceptibility to myasthenia gravis and related biological mechanisms”) is broadly consistent with the packet’s discussion, but the unsupported first claim prevents a pass."
+      ],
+      "definition_hash": "dd14edfd83f868f77259c5d89619237196bb533e277eb83c03862a22770623e9",
+      "packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22",
+      "published_packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22",
+      "receipt_id": "99efd3fe9cc44f359e031e64d31fff23",
+      "request_hash": "098efca491ec1da670743910f40b02f9f8fdf661b93ddf72f5291b9295fd9b37",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dd14edfd83f868f77259c5d89619237196bb533e277eb83c03862a22770623e9",
+      "packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22",
+      "published_packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22",
+      "receipt_id": "bd0330705c894fbb8df310394617d341",
+      "request_hash": "fa03219c65d32b19432b2c999f276fce5eb00e90e28831f035da0c0603c44210",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

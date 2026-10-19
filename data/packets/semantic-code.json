@@ -1,0 +1,26 @@
+{
+  "id": "semantic-code",
+  "term": "semantic code",
+  "source": "article-pmc12818651",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0340971",
+  "revision": "2026; DOI 10.1371/journal.pone.0340971; article XML SHA-256 887639bcfae4710a9da033e8c9437d50519e879d6aeba20364d9f1ba49942903",
+  "source_snapshot_sha256": "887639bcfae4710a9da033e8c9437d50519e879d6aeba20364d9f1ba49942903",
+  "url": "https://doi.org/10.1371/journal.pone.0340971",
+  "text": "Semantic code clone detection plays an essential role in software maintenance and quality assurance, as it helps uncover fragments of code that express the same logic even when their syntax has been altered or deliberately obfuscated. In this study, we propose a framework that combines hybrid representation learning with deep bidirectional LSTM networks. The model is applied to two intermediate forms of Java programs—Baf and Jimple—extracted through the Soot framework, which together provide both syntactic structure and semantic detail. This design allows the method to cope with difficult obfuscation strategies such as polymorphism and metamorphism. In our experiments, the framework showed strong and stable performance. Training accuracy reached about 98%, while validation accuracy stayed above 95%, with good generalization across the different clone categories described in the Twilight-Zone taxonomy. When compared with other recurrent models, the BiLSTM consistently performed better, especially when combined with multiple intermediate representations and attention mechanisms. On the BigCloneBench dataset, the approach matched or exceeded the results of state-of-the-art tools, achieving recall and F1-scores of up to 97% on challenging clone types. These findings confirm the practical applicability of hybrid intermediate representations for semantic clone detection and suggest promising directions for future research using transformer-based models and large-scale deployment.",
+  "source_label": "Semantic code clone detection using hybrid intermediate representations and BiLSTM networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1498
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1430b9f3d60841867e50250b82580573175c3a433f36fba41d20bca6d5ed8a8a"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "rp",
+  "term": "RP",
+  "definition": "RP stands for retinitis pigmentosa, a serious eye disease in which the retina’s light-sensing cells gradually degenerate. This leads to abnormal pigmentation seen on fundus images, often in the outer retina, and the changes can progress before a person notices clear symptoms.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13399350"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13399350",
+      "revision": "2026; DOI 10.1371/journal.pone.0354452; article XML SHA-256 3eb8f28cb2dad42711a6f654bf77015419561f0f08cc995cf49ebd28d27f730d",
+      "scope": "Source record 10.1371/journal.pone.0354452; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354452"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "29133b9bb85fba2fb46f932b185b80fad31d36b791b530a9481e0216c3fcde86",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "40f3d97c907f496f95f9ddbd49d88fa4",
+    "request_hash": "edaba5cb33a492184a7ed08ad765d1f3a0fdeffe90a61a8e02f1e6343372f38f",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "1e3127820e0d3e3e4c159a5b468adc0eec3665234ae36641738a0b200ddefca5",
+    "packet_hash": "29133b9bb85fba2fb46f932b185b80fad31d36b791b530a9481e0216c3fcde86"
+  },
+  "hash": "f89eae4f9615477fcf81e0a187fb08a3fdc764a31b141f6002eabccdf321b45c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition gives the medical sense “retinitis pigmentosa,” but the requested field is cognition, so the sense is not supported for this entry.",
+        "The packet supports RP as a serious eye disease caused by degeneration of retinal photoreceptors and associated with abnormal peripheral fundus findings, but it does not support the added claim that changes “can progress before a person notices clear symptoms” as a general definitional statement.",
+        "The wording “abnormal pigmentation seen on fundus images, often in the outer retina” overstates and reshapes the packet’s description, which says pigmentation is seen in the periphery on fundus images; “outer retina” is not stated in the source."
+      ],
+      "definition_hash": "1e3127820e0d3e3e4c159a5b468adc0eec3665234ae36641738a0b200ddefca5",
+      "packet_hash": "29133b9bb85fba2fb46f932b185b80fad31d36b791b530a9481e0216c3fcde86",
+      "published_packet_hash": "29133b9bb85fba2fb46f932b185b80fad31d36b791b530a9481e0216c3fcde86",
+      "receipt_id": "7728e65272f54d36a07b929cdc0fd1de",
+      "request_hash": "72728af889af367bc31257bd762461a327db25d269bccd2244c0244197400371",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the light-sensing cells “gradually degenerate,” but the packet only says RP is caused by “degeneration of photoreceptors” and does not explicitly support a gradual course.",
+        "The definition says pigmentation is “often in the outer retina,” while the packet specifies abnormal fundus findings “mainly pigmentation, in the periphery” (it does not support “outer retina”).",
+        "The definition claims disease changes can progress “before a person notices clear symptoms.” The packet mentions “limited subjective symptoms” and that detecting early stages is challenging, but it does not specifically support the phrasing that changes progress before a person notices “clear” symptoms."
+      ],
+      "definition_hash": "1e3127820e0d3e3e4c159a5b468adc0eec3665234ae36641738a0b200ddefca5",
+      "packet_hash": "29133b9bb85fba2fb46f932b185b80fad31d36b791b530a9481e0216c3fcde86",
+      "published_packet_hash": "29133b9bb85fba2fb46f932b185b80fad31d36b791b530a9481e0216c3fcde86",
+      "receipt_id": "05d731fe488b4aa195fb8ba6699901ba",
+      "request_hash": "56c1becbd51701d634d33d627ede8b4cbeb5c27337d7954f508a200b5a101f52",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

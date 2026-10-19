@@ -1,0 +1,26 @@
+{
+  "id": "prototype",
+  "term": "prototype",
+  "source": "article-pmc13618933",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0359400",
+  "revision": "2026; DOI 10.1371/journal.pone.0359400; article XML SHA-256 4f6789304dfd63feec42f7c1d9ec22d3102104ba7b17f6317fd883afa8724086",
+  "source_snapshot_sha256": "4f6789304dfd63feec42f7c1d9ec22d3102104ba7b17f6317fd883afa8724086",
+  "url": "https://doi.org/10.1371/journal.pone.0359400",
+  "text": "Few-shot industrial surface defect detection remains challenging because annotated defect images are scarce, defect scales vary considerably, and textured backgrounds can cause false responses. This study proposes a Prototype-Aligned Multi-Scale Attention Network (PA-MSAN) that integrates multi-receptive-field feature extraction, spatial-channel attention, and region of interest (RoI)-level prototype matching within a two-stage detector. Experiments are conducted on NEU-DET under 1-shot, 3-shot, and 5-shot episode settings, with 5-shot cross-domain evaluation on GC10-DET using target-domain support prototypes. Multi-scale feature-pyramid fusion represents local textures and broader defect morphology, while attention weighting enhances defect-sensitive regions and channels before region proposal network (RPN) proposal generation and RoI Align. Few-shot classification is performed by cosine similarity between RoI features and class prototypes, and training jointly optimizes detection classification, bounding-box regression, region proposal, and Prototype Alignment Loss (PAL). Under the 5-shot NEU-DET setting, PA-MSAN achieves 92.2 ± 0.4% mean average precision (mAP)@0.5, 88.7 ± 0.4% small-object average precision (APsmall), 0.89 ± 0.01 average intersection over union (IoU), and a 4.1 ± 0.2% background false response rate, with 23.4 ms detection time and 18.7 × 10⁶ parameters. Compared with Faster R-CNN, PA-MSAN improves mAP@0.5 by 2.9 percentage points and APsmall by 3.9 percentage points while reducing the background false response rate by 1.7 percentage points. Under the 5-shot target-domain support setting, PA-MSAN achieves 86.4 ± 0.4% mAP@0.5 on GC10-DET, 5.8 percentage points (6.3%) below the corresponding NEU-DET result. The results support region-level prototype alignment for limited-label metallic surface inspection under the evaluated datasets and two-stage configuration.",
+  "source_label": "A prototype-aligned multi-scale attention network for few-shot industrial surface defect detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1911
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "b7178c668587b02e8252a95527fe49e9541ffd1e140695a801881664f3800695"
+}

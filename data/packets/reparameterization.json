@@ -1,0 +1,26 @@
+{
+  "id": "reparameterization",
+  "term": "reparameterization",
+  "source": "article-pmc12700410",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0338432",
+  "revision": "2025; DOI 10.1371/journal.pone.0338432; article XML SHA-256 e5d63dd1b8e3c5b61d373ab3b561e19cf4ee834af0af0ae3bf23f21184f78f0d",
+  "source_snapshot_sha256": "e5d63dd1b8e3c5b61d373ab3b561e19cf4ee834af0af0ae3bf23f21184f78f0d",
+  "url": "https://doi.org/10.1371/journal.pone.0338432",
+  "text": "This study introduces a novel lightweight image super-resolution reconstruction network aimed at mitigating the challenges associated with computational complexity and memory consumption in existing super-resolution reconstruction networks. The proposed network optimizes its architecture through feature reuse and structural reparameterization, rendering it more suitable for deployment in edge computing environments. Specifically, we have developed a new lightweight reparameterization layer that derives redundant features from intrinsic features using low-cost operations and integrates them with reparameterization techniques to enhance efficient feature utilization. Furthermore, an efficient deep feature extraction module named RGAB has been designed, which retains dense connections, local feature integration, and local residual learning mechanisms while incorporating addition operations for feature integration. The resultant network, termed R 2 GDN, exhibits a significant reduction in model parameters and improved inference speed. Compared to performance-oriented super-resolution algorithms, our model reduces the number of parameters by approximately 95% and enhances inference speed by 86.8% on the edge device. When benchmarked against lightweight super-resolution algorithms, our model maintains a lower parameter count and achieves a 0.74% improvement in the structural similarity index (SSIM) on the BSD100 dataset for 4 × super-resolution reconstruction. Experimental results demonstrate that R 2 GDN effectively balances network performance and complexity.",
+  "source_label": "R 2 GDN: RepGhost based residual dense network for image super-resolution",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1581
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "09173e8d5a6870583f69872609a6929123a88031e68c431f00956b4fc2937ba0"
+}

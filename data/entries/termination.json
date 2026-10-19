@@ -1,0 +1,63 @@
+{
+  "id": "termination",
+  "term": "termination",
+  "definition": "In this context, termination refers to ending a pregnancy for medical reasons. The packet describes it as a decision that can be shaped by medical, financial, and system factors and may have lasting emotional, psychological, and social effects, especially when the pregnancy was wanted.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13390496"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13390496",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1840970; article XML SHA-256 afe2962d19f41ea1b9bca166c020ddd90b971b96b4e7044ef3686d5c5f968387",
+      "scope": "Source record 10.3389/fpsyt.2026.1840970; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1840970"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bc48157cf89bd5d355a66607a724974ee0a83716baaee40c07b91c373973a74a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a97f46d1bc914e2d8281bfc39378a5f9",
+    "request_hash": "c458e6a30d2636e4c6213df724240a3bcecf9ccc60f5595c3641912feacf45ad",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "e915edf1cca021f97ad79d69e42226f7ad19b6ffd5a8a2ba18c390c06ac13a1e",
+    "packet_hash": "bc48157cf89bd5d355a66607a724974ee0a83716baaee40c07b91c373973a74a"
+  },
+  "hash": "ff5c55d9520954a43b960fc20111d15cb975c08b044bee915392ac7eb6973b83",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet explicitly mentions financial and systemic factors influencing the decision, but it does not state that “medical” factors (as distinct from the pregnancy being terminated for medical reasons) can shape the decision-making process.",
+        "The definition’s first sentence (“ending a pregnancy for medical reasons”) is supported, but the additional phrasing about the decision being shaped by “medical, financial, and system factors” is not fully supported by the packet (medical factors in that list are not explicitly described)."
+      ],
+      "definition_hash": "e915edf1cca021f97ad79d69e42226f7ad19b6ffd5a8a2ba18c390c06ac13a1e",
+      "packet_hash": "bc48157cf89bd5d355a66607a724974ee0a83716baaee40c07b91c373973a74a",
+      "published_packet_hash": "bc48157cf89bd5d355a66607a724974ee0a83716baaee40c07b91c373973a74a",
+      "receipt_id": "144a75c4bb264a66896fc8ef9c4cc49c",
+      "request_hash": "728213508615ba673b652982995f04252f5b4354d25f34b4c9c1a9f83c437dae",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports termination of pregnancy for medical reasons, but it does not support the added claim that the decision is shaped by “medical” factors; it mentions financial and systemic factors, and medical reasons for the termination itself.",
+        "The wording is slightly too expansive for the packet: it generalizes from one study’s background to a broad definitional statement about “termination” without making clear this is the pregnancy-for-medical-reasons sense."
+      ],
+      "definition_hash": "e915edf1cca021f97ad79d69e42226f7ad19b6ffd5a8a2ba18c390c06ac13a1e",
+      "packet_hash": "bc48157cf89bd5d355a66607a724974ee0a83716baaee40c07b91c373973a74a",
+      "published_packet_hash": "bc48157cf89bd5d355a66607a724974ee0a83716baaee40c07b91c373973a74a",
+      "receipt_id": "3dfd160bdb7b4de3b8e990a7f7257c05",
+      "request_hash": "21fca0138a2493216a75d7f11f197f04bbc50df40f732d49d272e738961531a3",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

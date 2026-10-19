@@ -1,0 +1,63 @@
+{
+  "id": "overdispersion",
+  "term": "overdispersion",
+  "definition": "Overdispersion is a pattern in count data where the observed variability is greater than would be expected if the variance matched the mean. In the source context, it refers to read counts whose variance is larger than their mean, which can make it harder to detect real differences between groups.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11253971"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11253971",
+      "revision": "2024; DOI 10.1371/journal.pone.0300565; article XML SHA-256 f9cb3c54de5af53788e73071f1d0ebd01bd987fbbadd6b6d36107a6e6805da21",
+      "scope": "Source record 10.1371/journal.pone.0300565; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0300565"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8cae9c4f8d964dc686a3cbc8a045735d",
+    "request_hash": "80cea52fb8d4e862fc83adf927cd3d88acedb9568b8987a83bc9c2e3959861a2",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "88af76f6a10f0f8e7fca2262b44842b4a1b7ee0f829507654823ca82adc8c5d1",
+    "packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7"
+  },
+  "hash": "79521083fa0573ca938c7b89e094d873a95d2fc38e80cca77b63fa617c6b3b21",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence claims overdispersion means observed variability is greater than would be expected if the variance matched the mean; the packet only states that overdispersion refers to empirical variance of read counts being larger than the mean, and does not support the “greater than would be expected if … variance matched the mean” phrasing.",
+        "The definition is framed as applying to “mental health,” but the provided packet discusses RNA-seq differential expression methodology (mRNA-seq read counts, genes), not mental health concepts or measures."
+      ],
+      "definition_hash": "88af76f6a10f0f8e7fca2262b44842b4a1b7ee0f829507654823ca82adc8c5d1",
+      "packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7",
+      "published_packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7",
+      "receipt_id": "dc2daf034c7d41faba9112e05867886c",
+      "request_hash": "29ae6476137b62317452cea7e7ab05a96e7b0cf924a17c8e560a9b707ba47039",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field assignment is not well supported by the source text: the packet is about RNA-seq differential expression analysis, not a psychology/counselling or mental-health concept.",
+        "The definition generalizes beyond the packet by turning a specific RNA-seq description into a broader statistical definition without support from the source context."
+      ],
+      "definition_hash": "88af76f6a10f0f8e7fca2262b44842b4a1b7ee0f829507654823ca82adc8c5d1",
+      "packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7",
+      "published_packet_hash": "3054db24163f155fa48188b64908084b884af0acd67695a89475ffa178cdf2d7",
+      "receipt_id": "fcff531efa2f436898f57f0db6ff775f",
+      "request_hash": "7b46f39a77c07bd31962deacdd267b6542c76a8fee83f0955342cbbcbeded118",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

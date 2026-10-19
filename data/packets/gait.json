@@ -1,0 +1,26 @@
+{
+  "id": "gait",
+  "term": "gait",
+  "source": "article-pmc13082664",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344002",
+  "revision": "2026; DOI 10.1371/journal.pone.0344002; article XML SHA-256 9e5ce2a97b047ef098c07ec2bb418eaf2ba0012a9438361de886851c665da86d",
+  "source_snapshot_sha256": "9e5ce2a97b047ef098c07ec2bb418eaf2ba0012a9438361de886851c665da86d",
+  "url": "https://doi.org/10.1371/journal.pone.0344002",
+  "text": "Gait is a key indicator for assessing an individual’s mobility and overall health, and accurate detection of gait cycle phases is essential for precise gait analysis. Most existing gait phase detection approaches rely on multiple wearable sensors, increasing system complexity and limiting real-world applicability. Moreover, rule-based methods, traditional machine learning models, and convolutional neural network (CNN)-based approaches often fail to capture complex temporal dependencies, resulting in limited robustness and real-time performance. And approaching gait phase detection as a classification method enables automatic phase recognition directly from sequential signals, simplifying the processing pipeline and supporting stable performance. In this study, we utilized an end-to-end supervised classification learning approach using a state-of-the-art Transformer model. We utilized the publicly available NONAN GaitPrint dataset, time-series gait recordings from 35 healthy young adults who walked along a 200-meter indoor level-ground track, to train deep learning models for gait phase detection. Using the three-axis acceleration and three-axis angular velocity signals from the shank, we trained and evaluated a variety of classification models, including a one-dimensional CNN, a hybrid long short-term memory and gated recurrent unit (Hybrid LSTM+GRU) model, and a Transformer. The results showed that the Transformer model achieved the F1-score of approximately 92.99%, while the CNN and Hybrid LSTM+GRU models demonstrated comparable performance, indicating no substantial differences among the models. These findings demonstrate that clinically and practically feasible gait phase detection can be achieved using shank-mounted IMUs with an end-to-end learning approach.",
+  "source_label": "Deep learning-based gait phase detection using shank-mounted IMU data: Classification approach",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1793
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "7ed36b92e4ddd6cf468c9a436e4b95ab1039541e61ec47c6f5a1f0e2d0343c4b"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ultrasonic-communication",
+  "term": "ultrasonic communication",
+  "source": "article-pmc7815145",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0244636",
+  "revision": "2021; DOI 10.1371/journal.pone.0244636; article XML SHA-256 7f065cf26f7817be03ae5fb4933f1b1e28c23e26d0f7cbacc0176c0844257575",
+  "source_snapshot_sha256": "7f065cf26f7817be03ae5fb4933f1b1e28c23e26d0f7cbacc0176c0844257575",
+  "url": "https://doi.org/10.1371/journal.pone.0244636",
+  "text": "Ultrasonic vocalizations (USVs) analysis is a well-recognized tool to investigate animal communication. It can be used for behavioral phenotyping of murine models of different disorders. The USVs are usually recorded with a microphone sensitive to ultrasound frequencies and they are analyzed by specific software. Different calls typologies exist, and each ultrasonic call can be manually classified, but the qualitative analysis is highly time-consuming. Considering this framework, in this work we proposed and evaluated a set of supervised learning methods for automatic USVs classification. This could represent a sustainable procedure to deeply analyze the ultrasonic communication, other than a standardized analysis. We used manually built datasets obtained by segmenting the USVs audio tracks analyzed with the Avisoft software, and then by labelling each of them into 10 representative classes. For the automatic classification task, we designed a Convolutional Neural Network that was trained receiving as input the spectrogram images associated to the segmented audio files. In addition, we also tested some other supervised learning algorithms, such as Support Vector Machine, Random Forest and Multilayer Perceptrons, exploiting informative numerical features extracted from the spectrograms. The performance showed how considering the whole time/frequency information of the spectrogram leads to significantly higher performance than considering a subset of numerical features. In the authors’ opinion, the experimental results may represent a valuable benchmark for future work in this research field.",
+  "source_label": "Automatic classification of mice vocalizations using Machine Learning techniques and Convolutional Neural Networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1617
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "0a8ac061050bcbb6968288938feeec5b041914ed627151e31c37a8d245c54a13"
+}

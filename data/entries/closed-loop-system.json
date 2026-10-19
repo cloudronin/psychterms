@@ -1,0 +1,63 @@
+{
+  "id": "closed-loop-system",
+  "term": "closed-loop system",
+  "definition": "A closed-loop system is an arrangement in which connected stages work together as a continuous cycle, with each stage contributing to and shaping the next. In this source, it refers to a compression-generation-optimization loop that links data reduction, candidate creation, and strategy improvement into one coordinated process.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12867270"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12867270",
+      "revision": "2026; DOI 10.1371/journal.pone.0340394; article XML SHA-256 f9195cb29efc55fdbf997e6dfcf4ffa246ab3d5835522df9244cfab526b76c28",
+      "scope": "Source record 10.1371/journal.pone.0340394; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0340394"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a3f041841f0e46d38e918e5d99428c74",
+    "request_hash": "566a4c213d6339ab7adec98b745e79b7a5f806ebea5b443ccb11ef64797cc013",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "cac2245193652a4773791c588c869a463d60404f2c36889071b4dcc07693867b",
+    "packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd"
+  },
+  "hash": "873645820763b2cc35a8475d7f3e86277ec7b0b78ed6b927095fb4e9ca3cdaca",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes the general characterization that stages work together “as a continuous cycle.” The packet does not explicitly describe a continuous cycle or loop structure beyond stating the model “forming a ‘compression-generation-optimization’ closed-loop system.”",
+        "It also frames the meaning as specifically “compression-generation-optimization loop that links data reduction, candidate creation, and strategy improvement.” While the packet describes Transformer compressing high-dimensional data, GAN generating candidate paths, and DDPG optimizing strategy, it does not explicitly use the specific labels “data reduction,” “candidate creation,” or “strategy improvement” as the referent of the term."
+      ],
+      "definition_hash": "cac2245193652a4773791c588c869a463d60404f2c36889071b4dcc07693867b",
+      "packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd",
+      "published_packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd",
+      "receipt_id": "5d3fce451f3b49d09445ae9c21b15740",
+      "request_hash": "1f3f3e2caaf9d39c5b5def76494784b3a222520dab65a0b80a7feca114b424b6",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about UAV path planning and a ‘compression-generation-optimization’ closed-loop system; it does not support the requested psychology/counselling field ‘learning’ as the definitional field.",
+        "The opening sentence gives a broad general definition of a closed-loop system that is not stated in the source packet; the packet only supports the specific three-module loop described in this paper."
+      ],
+      "definition_hash": "cac2245193652a4773791c588c869a463d60404f2c36889071b4dcc07693867b",
+      "packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd",
+      "published_packet_hash": "b419568b5a3fd80d2fb674ef784e1b0f08af9b46507da60a644b1890e31877cd",
+      "receipt_id": "95cd4a0e78f14f8a98fb5b01b06fbf36",
+      "request_hash": "142a90110804cb5e587c3f93cdd263f1f0768f1501ceb77c0137ce7966917735",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

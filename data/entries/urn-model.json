@@ -1,0 +1,63 @@
+{
+  "id": "urn-model",
+  "term": "urn model",
+  "definition": "An urn model is a mathematical framework, originally based on drawing balls from an urn, used to represent how social influence can become self-reinforcing over time. In psychology-related research, it is used to study the dynamics of social influence and related processes in groups.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12700412"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12700412",
+      "revision": "2025; DOI 10.1371/journal.pone.0338598; article XML SHA-256 74b3d914af9c41e611ab5b2280071ea663961cf6e24af1672d3d1bfb6d3bfba5",
+      "scope": "Source record 10.1371/journal.pone.0338598; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0338598"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d234810ca21f4a1d2ee95f776bb9e34664f374c574c61b2911d0115cb3b7b9d6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0d37409767c8465b86b21ec5f2f0c346",
+    "request_hash": "b2809ef1c29b35d89b1af6004b8bd7532e8fe56fb193f43782a32e59d8acc5d3",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "9cc6fa715840c4fbce9c829307c3e04fe5fa12bf9079c86303d0f51974a4aa4c",
+    "packet_hash": "d234810ca21f4a1d2ee95f776bb9e34664f374c574c61b2911d0115cb3b7b9d6"
+  },
+  "hash": "f24d473a37d72a55416061a515a9c38cb0c34678dbdfa08e18f041da544cebbc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“in groups” is not supported by the packet; the source mentions social influence, self-reinforcement, and collective action, but not group processes as a general scope.",
+        "“related processes” is broader than the packet’s support, which is limited to self-reinforcement/self-correction under social influence and a specific application to ethnocentrism in collective action."
+      ],
+      "definition_hash": "9cc6fa715840c4fbce9c829307c3e04fe5fa12bf9079c86303d0f51974a4aa4c",
+      "packet_hash": "d234810ca21f4a1d2ee95f776bb9e34664f374c574c61b2911d0115cb3b7b9d6",
+      "published_packet_hash": "d234810ca21f4a1d2ee95f776bb9e34664f374c574c61b2911d0115cb3b7b9d6",
+      "receipt_id": "fc571d84ae2f463f8cef99688a011d80",
+      "request_hash": "433aca4dd382e92a012dce7a2154e2fae6ed46da4168b49f5562747bdbd078af",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the model is used “in psychology-related research” to study “the dynamics of social influence and related processes in groups,” but the packet does not explicitly state this usage framing (especially “groups” and “psychology-related research” as such).",
+        "While the packet supports that the urn model is a widely used framework for explaining a self-reinforcing mechanism under social influence and is based on a ball-drawing (Pólya) process, it does not provide support for the specific phrase “related processes in groups.”"
+      ],
+      "definition_hash": "9cc6fa715840c4fbce9c829307c3e04fe5fa12bf9079c86303d0f51974a4aa4c",
+      "packet_hash": "d234810ca21f4a1d2ee95f776bb9e34664f374c574c61b2911d0115cb3b7b9d6",
+      "published_packet_hash": "d234810ca21f4a1d2ee95f776bb9e34664f374c574c61b2911d0115cb3b7b9d6",
+      "receipt_id": "a838a7ac15c6445ab97075bde9f1bab6",
+      "request_hash": "05d94d24a9f46e1ec042603d8d68056e6acc2b37fd29d5311c32b62d8c57ed42",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "radiology",
+  "term": "radiology",
+  "definition": "Radiology is the medical imaging field or care setting where diagnostic examinations such as computed tomography (CT) and magnetic resonance imaging (MRI) are performed.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13485982"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13485982",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1864214; article XML SHA-256 5ad876b7391c008a7c807d07701d64c22b0f42ad6226ce0fa273f8e474c2b222",
+      "scope": "Source record 10.3389/fpsyt.2026.1864214; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1864214"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8ce79461385f483a2b854bf09ccf5b89bff4bbfc692c916215ba44feaa3003c9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e31fb429b07149a6baf38925ae4ecd17",
+    "request_hash": "ebe66a6d17fb4f866552b47862e8495200cf01327db87c198cbb0a07323e2d69",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "f75e27ff3be0f77e276402b0ce509ca3de37d7509e5f2a880003f7c545b3bb53",
+    "packet_hash": "8ce79461385f483a2b854bf09ccf5b89bff4bbfc692c916215ba44feaa3003c9"
+  },
+  "hash": "18536ffb68d211b101e8272d38ab743a311705408bd11b8c56727816f2576290",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define radiology as a medical imaging field or care setting; it only says CT and MRI are diagnostic tools and refers to ‘radiology settings’ in the article title/background.",
+        "The definition adds a broader generalization about where diagnostic examinations are performed, which is not explicitly supported by the supplied text."
+      ],
+      "definition_hash": "f75e27ff3be0f77e276402b0ce509ca3de37d7509e5f2a880003f7c545b3bb53",
+      "packet_hash": "8ce79461385f483a2b854bf09ccf5b89bff4bbfc692c916215ba44feaa3003c9",
+      "published_packet_hash": "8ce79461385f483a2b854bf09ccf5b89bff4bbfc692c916215ba44feaa3003c9",
+      "receipt_id": "c4ceb1c8596d4da3b3b202ec1e84ee89",
+      "request_hash": "d9df32ef5b0f13be62a42f27204643ccbe02b6f6e62a7d2b1932b7768f2c665a",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f75e27ff3be0f77e276402b0ce509ca3de37d7509e5f2a880003f7c545b3bb53",
+      "packet_hash": "8ce79461385f483a2b854bf09ccf5b89bff4bbfc692c916215ba44feaa3003c9",
+      "published_packet_hash": "8ce79461385f483a2b854bf09ccf5b89bff4bbfc692c916215ba44feaa3003c9",
+      "receipt_id": "1129213c374044798783295f27a8b562",
+      "request_hash": "f780dc140c18e2f6e2df518fcbfbf14d76effca14dbcd49f16ee934e8e116b6e",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

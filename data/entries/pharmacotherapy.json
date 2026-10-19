@@ -1,0 +1,64 @@
+{
+  "id": "pharmacotherapy",
+  "term": "pharmacotherapy",
+  "definition": "Pharmacotherapy is treatment that uses medications as a main intervention. In the supplied source, it is described as a common approach for mental disorders because it can act quickly and includes hormone therapy and antidepressant medicines, though adverse effects and longer-term risks may occur.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13423873"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13423873",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1845876; article XML SHA-256 fa4d91bb981b8543478833710745f46464fa36e31917bb740eb73ae3d6587cc8",
+      "scope": "Source record 10.3389/fpsyt.2026.1845876; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1845876"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3224f231592c8f7cc86635bacfd7da35906bf05716df4233e9f57b5f2f57989b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c11806f45f3c4b98b9d72b42869deb1e",
+    "request_hash": "bfb003bae26bcd6a7d77c13c9002931938f5e9425195eb9cb4ecf2aa357c800a",
+    "registration_hash": "4ed013ab52ed87515f6842cbec110fef45588e8fcada34dbb420e9458ebcf230",
+    "definition_hash": "a8dcab76a4069ac3e836f31f5b87215328a18d14a32367d769f4e48e59eab057",
+    "packet_hash": "3224f231592c8f7cc86635bacfd7da35906bf05716df4233e9f57b5f2f57989b"
+  },
+  "hash": "967c7d0196bbbd7b9c5ae2a8e3c32b2e5e91be83f64c460ec256543260cab407",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition generalizes beyond the packet’s scope: the source discusses pharmacotherapy specifically for mental disorders in perimenopausal women, not mental disorders in general.",
+        "It adds a broad content claim that pharmacotherapy 'includes hormone therapy and antidepressant medicines' as if this were a general defining feature; the packet only gives these as examples within one study context.",
+        "The phrase 'because it can act quickly' and the mention of longer-term risks/adverse effects are supported in the packet, but the overall wording mixes supported details with unsupported generalization."
+      ],
+      "definition_hash": "a8dcab76a4069ac3e836f31f5b87215328a18d14a32367d769f4e48e59eab057",
+      "packet_hash": "3224f231592c8f7cc86635bacfd7da35906bf05716df4233e9f57b5f2f57989b",
+      "published_packet_hash": "3224f231592c8f7cc86635bacfd7da35906bf05716df4233e9f57b5f2f57989b",
+      "receipt_id": "3c71caf7a2434aff968379a15d5c7b04",
+      "request_hash": "440b8b47730f105d29e01d4dadd2873fb3771ad876dd644f4a3fcb2ac46eaa82",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that pharmacotherapy is a “common approach for mental disorders,” but the source only describes it as the most prevalent intervention method for treating mental disorders in *perimenopausal women* (not “mental disorders” in general).",
+        "The definition’s ethical field framing is not supported: the source provides clinical/safety and efficacy information, not ethics-specific claims relevant to the requested field."
+      ],
+      "definition_hash": "a8dcab76a4069ac3e836f31f5b87215328a18d14a32367d769f4e48e59eab057",
+      "packet_hash": "3224f231592c8f7cc86635bacfd7da35906bf05716df4233e9f57b5f2f57989b",
+      "published_packet_hash": "3224f231592c8f7cc86635bacfd7da35906bf05716df4233e9f57b5f2f57989b",
+      "receipt_id": "d5c0e7cc6785413dbbfe6b776c7b594d",
+      "request_hash": "36a2e10dcfe811743539773eab51d7eb72c9ffdcf473acc73e666743ecc52327",
+      "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
+    }
+  ]
+}

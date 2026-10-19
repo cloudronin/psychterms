@@ -1,0 +1,63 @@
+{
+  "id": "skin-conductance",
+  "term": "skin conductance",
+  "definition": "Skin conductance is a physiological signal that can be passively monitored by wearable devices. In this context, changes in skin conductance are used as real-time bodily data that may help indicate shifts related to stress and emotional state.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12218767"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12218767",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1591871; article XML SHA-256 727cdde3a94b18a63f36bc9ed8f428f96acc0258f4ed0f91501f36f5960ec843",
+      "scope": "Source record 10.3389/fpsyt.2025.1591871; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1591871"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b575849d64db6712f307b8dcdf434b3b9092ade25d2efc0296afdbbffab0033e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6108e9919b4c47d386ce79be906fb935",
+    "request_hash": "078f78b10b7f4cee95a67db10279feec35365f6cb8be647b12ee36d04c504689",
+    "registration_hash": "877195aa15187d0fc8a06bc55de0b33573a9d705dedf63b5772df02e6e15d031",
+    "definition_hash": "a03c79cabc3caa68b6031b4c090894353c67ad41bef8ba526cb7129030ea07d7",
+    "packet_hash": "b575849d64db6712f307b8dcdf434b3b9092ade25d2efc0296afdbbffab0033e"
+  },
+  "hash": "b964580b68eab87435322d899f3a14da941d417d014e8a5cae9d1ddc95dd60f9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports skin conductance as one of several physiological data streams that can be passively monitored by wearables, but it does not specifically support the claim that changes in skin conductance are used to indicate stress or emotional state.",
+        "The definition adds a broader interpretive use (“may help indicate shifts related to stress and emotional state”) that goes beyond the source text’s stated role in biocueing and wearable monitoring."
+      ],
+      "definition_hash": "a03c79cabc3caa68b6031b4c090894353c67ad41bef8ba526cb7129030ea07d7",
+      "packet_hash": "b575849d64db6712f307b8dcdf434b3b9092ade25d2efc0296afdbbffab0033e",
+      "published_packet_hash": "b575849d64db6712f307b8dcdf434b3b9092ade25d2efc0296afdbbffab0033e",
+      "receipt_id": "4669d9bf0bfa4b04b26c6c8e601f76aa",
+      "request_hash": "5e86aaab6fca09bd8223fd090a89a0ac20fd25de9280bce7c71b85d83f42568e",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition frames skin conductance changes as being used to “indicate shifts related to stress and emotional state,” but the packet only states that wearable “biocueing” provides real-time feedback on significant physiological changes (including skin conductance) and that patients (e.g., in borderline personality disorder) report severe stress and emotion-regulation difficulties; it does not explicitly support the specific “indicate shifts related to stress and emotional state” phrasing.",
+        "The packet discusses integration into treatment and real-time feedback/monitoring, not “diagnosis”; the definition does not establish any diagnostic use or diagnostic criteria, so it is not defensibly supported for the requested field (“diagnosis”)."
+      ],
+      "definition_hash": "a03c79cabc3caa68b6031b4c090894353c67ad41bef8ba526cb7129030ea07d7",
+      "packet_hash": "b575849d64db6712f307b8dcdf434b3b9092ade25d2efc0296afdbbffab0033e",
+      "published_packet_hash": "b575849d64db6712f307b8dcdf434b3b9092ade25d2efc0296afdbbffab0033e",
+      "receipt_id": "b4b522cf7b574f3989b4d9295d2635f7",
+      "request_hash": "b0487da33b4744126bde73c1d23c363c535ccd3c70856f9b14dec28d875c3919",
+      "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
+    }
+  ]
+}

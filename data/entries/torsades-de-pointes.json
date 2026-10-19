@@ -1,0 +1,62 @@
+{
+  "id": "torsades-de-pointes",
+  "term": "torsades de pointes",
+  "definition": "Torsades de pointes is a life-threatening abnormal heart rhythm linked to a prolonged QT interval on an electrocardiogram. In the packet, it is described specifically as a drug-induced arrhythmia and as an important risk in medicine safety.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3617128"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3617128",
+      "revision": "2013; DOI 10.1371/journal.pone.0060556; article XML SHA-256 8222e7518b5bac74a4b54e2a46f4a30f36c6c7e6feb6c848bde3b59daec856ca",
+      "scope": "Source record 10.1371/journal.pone.0060556; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0060556"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e8b733639f5298c17af4bf29adc78c0a4f6e6080becde6fdb83226ee0728eaf2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f3e1e7ff6c3845488190b72de43c6852",
+    "request_hash": "020bbcde57a12c7a6a2d4d3ddea068801efcba8a5418f8559f1227381467770e",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "6033f06a0dbd6b0ea44d44e4fb141fa53c3efd129d414b676ec22a8fa341bf0f",
+    "packet_hash": "e8b733639f5298c17af4bf29adc78c0a4f6e6080becde6fdb83226ee0728eaf2"
+  },
+  "hash": "188ae2cffd28eec9fa098034c188df4952a88df897a3949d393f55b1b4be4f9d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is wrong: the packet is about a cardiac arrhythmia and drug safety, not a mental health/counselling concept.",
+        "The definition adds or overstates phrasing not supported as written, including \"life-threatening abnormal heart rhythm\" and \"important risk in medicine safety\"; the packet supports a drug-induced life-threatening arrhythmia associated with QT prolongation and medicine withdrawal, but not that exact framing."
+      ],
+      "definition_hash": "6033f06a0dbd6b0ea44d44e4fb141fa53c3efd129d414b676ec22a8fa341bf0f",
+      "packet_hash": "e8b733639f5298c17af4bf29adc78c0a4f6e6080becde6fdb83226ee0728eaf2",
+      "published_packet_hash": "e8b733639f5298c17af4bf29adc78c0a4f6e6080becde6fdb83226ee0728eaf2",
+      "receipt_id": "01f281cb344c4345a0195e0d412d1c6a",
+      "request_hash": "1e8ac709c88f7854f53554e4d26cc4c8a64f2355eb9c41cc9c3c74f5b4f8dd2a",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet content is about drug-induced cardiac toxicity (torsades de pointes/QT prolongation) and medicine withdrawal risk, not about mental health or psychological counselling context; therefore the requested field “mental health” is not defensible from the provided packet."
+      ],
+      "definition_hash": "6033f06a0dbd6b0ea44d44e4fb141fa53c3efd129d414b676ec22a8fa341bf0f",
+      "packet_hash": "e8b733639f5298c17af4bf29adc78c0a4f6e6080becde6fdb83226ee0728eaf2",
+      "published_packet_hash": "e8b733639f5298c17af4bf29adc78c0a4f6e6080becde6fdb83226ee0728eaf2",
+      "receipt_id": "d244ba1c3bae46299867ee82e2cf6254",
+      "request_hash": "17d3633a8c51eef7b207b08621cd731f4ed2703ee20c47707121131a0b7c4080",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

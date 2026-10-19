@@ -1,0 +1,60 @@
+{
+  "id": "ild",
+  "term": "ILD",
+  "definition": "ILD stands for interstitial lung disease. In this source, it refers to a major but often underrecognized respiratory health problem in which patient education and self-management support are seen as important for improving adherence and outcomes.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13367712"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13367712",
+      "revision": "2026; DOI 10.1371/journal.pone.0353274; article XML SHA-256 11e21d0dfd69029e3446383680487a1ae9a54fbde1b1a02e6943702c38057c9b",
+      "scope": "Source record 10.1371/journal.pone.0353274; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0353274"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6386a54cc4744350ad5c79c4601813e7",
+    "request_hash": "fa2a5155323fc55ec43ce26168346422b0eaf02f2543ac1253d29d8f23679afe",
+    "registration_hash": "9623061979acf775d762df2a06a7404fca6c2e0edd6da307b6b3f061e4f82add",
+    "definition_hash": "c2ee9db36344df7582ee8bfed660a33390f06fc04dee1691a62a06bc25888527",
+    "packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9"
+  },
+  "hash": "110975cb0080e4e1fc4131750df3c54864e660012ec04e5cc36a33b2e0d796aa",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c2ee9db36344df7582ee8bfed660a33390f06fc04dee1691a62a06bc25888527",
+      "packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9",
+      "published_packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9",
+      "receipt_id": "efb7b7d492804374b7b25b4f9946be33",
+      "request_hash": "2c5e461b5c0c3de64f5be967afc2bb8ac210cc833a1e868e1ff085f4f875b175",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that ILD is “interstitial lung disease” (via the article title/wording), but the definition’s phrase “major but often underrecognized respiratory health problem” is not directly supported as stated: the packet says “major but underappreciated healthcare problem in India,” not “often underrecognized,” and it does not specifically describe it as a “respiratory health problem” using that wording.",
+        "The remainder of the definition (that education and self-management are emphasized for adherence and outcomes) is broadly supported by the packet (e.g., potential to “improve therapy adherence” and a planned evaluation of “self-management” and outcomes), but the unsupported first-sentence qualifiers prevent a full pass."
+      ],
+      "definition_hash": "c2ee9db36344df7582ee8bfed660a33390f06fc04dee1691a62a06bc25888527",
+      "packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9",
+      "published_packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9",
+      "receipt_id": "4540ed50e55d408dba400b63809dd006",
+      "request_hash": "ae9c2ecf0fe24f7df725a7bc7801aa4c1c1791b335563e74037ea79d27eaa6d8",
+      "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
+    }
+  ]
+}

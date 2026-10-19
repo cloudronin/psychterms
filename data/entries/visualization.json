@@ -1,0 +1,61 @@
+{
+  "id": "visualization",
+  "term": "visualization",
+  "definition": "Visualization is the process of making a biological substance or process visible in an experimental setting so it can be observed in living tissues or cells. In this source, it refers specifically to labeling neuropeptides so their release and targeting can be seen in vivo.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13489428"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13489428",
+      "revision": "2026; DOI 10.1371/journal.pone.0355191; article XML SHA-256 4abfb76cbafacb64334e7d286dcc44fb0e3f58b810bb5bcede7f3ee8e7ebd263",
+      "scope": "Source record 10.1371/journal.pone.0355191; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355191"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7029b892d4abda65a94bfb965ba83cd8dcdc2902507cbeb8df9a9436c8e252f0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a9e74e5f19224de5a96cce9b15ccb0ff",
+    "request_hash": "041dc5cf82c2c34ba5bed497a3975f90c9755f699914050345af5bd41e14a001",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "529013ded2ee4466d9b3ba69d55dcc2d280349b8c2832c9644be2375c21ca477",
+    "packet_hash": "7029b892d4abda65a94bfb965ba83cd8dcdc2902507cbeb8df9a9436c8e252f0"
+  },
+  "hash": "f60aada4bc370eac1016db23b4fc120c0a16b174a9dc55591888cffe4ec4b9bc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "529013ded2ee4466d9b3ba69d55dcc2d280349b8c2832c9644be2375c21ca477",
+      "packet_hash": "7029b892d4abda65a94bfb965ba83cd8dcdc2902507cbeb8df9a9436c8e252f0",
+      "published_packet_hash": "7029b892d4abda65a94bfb965ba83cd8dcdc2902507cbeb8df9a9436c8e252f0",
+      "receipt_id": "1df3c6e690f2474ead082e9bc84b77f3",
+      "request_hash": "ae93fe4fb0ebfdbd443d8c41558876b58ad00ca5256fc8b5e5eecba2316c51e9",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a general definition of “visualization” as making “a biological substance or process visible in an experimental setting,” but the provided packet does not state or support this general characterization of the term.",
+        "The packet’s content supports only a narrower usage: visualizing neuropeptides in vivo by labeling them (e.g., using antibody-based methods, fluorescent protein tagging, and specifically the split GFP system).",
+        "Because the definition includes an unsupported generalization beyond what the packet explicitly describes, the overall definition does not meet the requirement that every substantive claim be supported by the packet."
+      ],
+      "definition_hash": "529013ded2ee4466d9b3ba69d55dcc2d280349b8c2832c9644be2375c21ca477",
+      "packet_hash": "7029b892d4abda65a94bfb965ba83cd8dcdc2902507cbeb8df9a9436c8e252f0",
+      "published_packet_hash": "7029b892d4abda65a94bfb965ba83cd8dcdc2902507cbeb8df9a9436c8e252f0",
+      "receipt_id": "604f88b87225463cbd1ef7533d650959",
+      "request_hash": "2c63f7568edf783ad6879408af35539e0b228e103c0cf3f1e463611aed5f1671",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

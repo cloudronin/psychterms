@@ -1,0 +1,64 @@
+{
+  "id": "workflow-integration",
+  "term": "workflow integration",
+  "definition": "Workflow integration is the extent to which a tool or system fits into real-world practice so its outputs can be used within routine decisions and actions. In this source, it means evaluating AI not just for prediction accuracy but for how well it works within everyday clinical processes and supports human decision-making.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13102806"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13102806",
+      "revision": "2026; DOI 10.3389/fmed.2026.1811197; article XML SHA-256 dd31788dd643dc88fdc6b2baca884a4b8266c7239e98f122a6a1b6811898e2a5",
+      "scope": "Source record 10.3389/fmed.2026.1811197; pinned source text",
+      "locator": "https://doi.org/10.3389/fmed.2026.1811197"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d7b096703c3e1d46fdb0e3fb5fd163930f83b7c090e9485e618b719c18020223",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "da3f0e000a52490095f6ed13650bad8f",
+    "request_hash": "7d5df8b0733e0551bfe76d734d265f944b861046844de5f144cbb1dfe10fe0e8",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "098ca50c6b261d7e99021103ec757572d3d5e025e5fef13c269bde12dbec2ec2",
+    "packet_hash": "d7b096703c3e1d46fdb0e3fb5fd163930f83b7c090e9485e618b719c18020223"
+  },
+  "hash": "a3483a84bc52f8dadb06c57465c670a46a8baa9498894521ad5c0a16e86b8868",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “workflow integration” as an “extent to which a tool or system fits into real-world practice” or as enabling “routine decisions and actions.”",
+        "The definition’s wording about “how well it works within everyday clinical processes” and “supports human decision-making” is only indirectly related; the packet discusses evaluating perioperative AI as an intervention and includes requirements like “human-in-the-loop design,” but it does not clearly define workflow integration in those terms.",
+        "The definition frames “workflow integration” as evaluating AI beyond “prediction accuracy,” but the packet broadly contrasts study priorities (including “workflow integration”) without stating that workflow integration specifically means evaluation beyond prediction accuracy."
+      ],
+      "definition_hash": "098ca50c6b261d7e99021103ec757572d3d5e025e5fef13c269bde12dbec2ec2",
+      "packet_hash": "d7b096703c3e1d46fdb0e3fb5fd163930f83b7c090e9485e618b719c18020223",
+      "published_packet_hash": "d7b096703c3e1d46fdb0e3fb5fd163930f83b7c090e9485e618b719c18020223",
+      "receipt_id": "aa9e7dc58efd41ed87f5fa373fab97d4",
+      "request_hash": "2194ce700db14680f9a7850708c467ff28852f8ae3f96c292f91ea554f7ad809",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not well supported by the packet: the source is about perioperative clinical AI and workflow integration, not a psychology/learning sense of the term.",
+        "The definition slightly overgeneralizes beyond the source by framing the concept as a general fit with “real-world practice” rather than the article’s specific point about perioperative AI evaluation within clinical workflows and deployment-grade requirements."
+      ],
+      "definition_hash": "098ca50c6b261d7e99021103ec757572d3d5e025e5fef13c269bde12dbec2ec2",
+      "packet_hash": "d7b096703c3e1d46fdb0e3fb5fd163930f83b7c090e9485e618b719c18020223",
+      "published_packet_hash": "d7b096703c3e1d46fdb0e3fb5fd163930f83b7c090e9485e618b719c18020223",
+      "receipt_id": "5fedd75c90c1473ca198de5b005ce634",
+      "request_hash": "0bce566b9f3c7f79c43f5387d7f8124e3245187460f2b6cd02c6a0328eee5f0e",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

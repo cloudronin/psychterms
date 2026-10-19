@@ -1,0 +1,63 @@
+{
+  "id": "visual-recognition",
+  "term": "visual recognition",
+  "definition": "Visual recognition is the process of identifying written forms through sight. In this packet, it refers to recognizing two-character Chinese words by using both whole-word orthographic processing and morphological decomposition, with these routes remaining active even when the words are vertically shown or the character order is jumbled.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13563416"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13563416",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1873297; article XML SHA-256 f09c7cc94cd08e33e3ffee7b161b1ce92aee7d604bb139a393304d8439cd0ebc",
+      "scope": "Source record 10.3389/fpsyg.2026.1873297; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1873297"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8ad93a4d8063f470b0814f6e2c44dfa8a5bc496ff90f47d827067800c10f0258",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "60ad98f471024a1c829ff783ed647f9e",
+    "request_hash": "0b0068180e26d00ec16b32c51e03cf5ecb00c07b0d6b9f6b1ad22ee24afaa754",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "055915223023c7b7b83f98835a4dbd01229d5f582899da4bffd21c4afbb546e1",
+    "packet_hash": "8ad93a4d8063f470b0814f6e2c44dfa8a5bc496ff90f47d827067800c10f0258"
+  },
+  "hash": "4863c71eab1c22a1d31396798438de2cca46b44ff23eb1b3150314906e6d57b2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general description (“identifying written forms through sight”) that is not explicitly stated in the provided packet.",
+        "The rest of the definition is more specific to the packet (dual-route mechanism for recognizing two-character Chinese compound words under horizontal/vertical presentation and canonical/jumbled order) and is supported, but the unsupported general first sentence means the overall definition cannot be accepted as supported by the packet."
+      ],
+      "definition_hash": "055915223023c7b7b83f98835a4dbd01229d5f582899da4bffd21c4afbb546e1",
+      "packet_hash": "8ad93a4d8063f470b0814f6e2c44dfa8a5bc496ff90f47d827067800c10f0258",
+      "published_packet_hash": "8ad93a4d8063f470b0814f6e2c44dfa8a5bc496ff90f47d827067800c10f0258",
+      "receipt_id": "f15469d396ec4fd4a7f97e4132c64bd2",
+      "request_hash": "66dfad0e0908db0417e31c6123d669b5fabc38a79133a62f745eee465d2a24e3",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening general definition (“the process of identifying written forms through sight”) is not supported by the packet; the source only discusses visual recognition in the specific context of two-character Chinese compound words.",
+        "The definition slightly overgeneralizes the packet’s findings beyond the studied stimulus set and task, which were two-character Chinese words/pseudowords under horizontal/vertical and canonical/jumbled conditions."
+      ],
+      "definition_hash": "055915223023c7b7b83f98835a4dbd01229d5f582899da4bffd21c4afbb546e1",
+      "packet_hash": "8ad93a4d8063f470b0814f6e2c44dfa8a5bc496ff90f47d827067800c10f0258",
+      "published_packet_hash": "8ad93a4d8063f470b0814f6e2c44dfa8a5bc496ff90f47d827067800c10f0258",
+      "receipt_id": "e55e9cab9eaf4de196d851c08b31d81f",
+      "request_hash": "9383f8782418b7436d4be3ab8d7e9d2c2dfb5328b569ffd937d33d30b7ca13c5",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

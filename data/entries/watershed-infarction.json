@@ -1,0 +1,64 @@
+{
+  "id": "watershed-infarction",
+  "term": "watershed infarction",
+  "definition": "Watershed infarction is a type of cerebral infarction. It has recognized types and subtypes, and whether these forms differ in their underlying disease process is still debated.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5576255"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5576255",
+      "revision": "2017; DOI 10.1186/s12883-017-0947-6; article XML SHA-256 c7eda44e9480d4b3e8abbee85955c52fe76367f0b001f772e2129cc012ea1424",
+      "scope": "Source record 10.1186/s12883-017-0947-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s12883-017-0947-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2759c417dc0c857482fa6fc089bd70859e81eba904146b01650b35fabd2b129b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fbc41963654e4e039f1b6124308427b4",
+    "request_hash": "7026ab018cb44e533404088564f5da545300a93f23c6094a979d0da39430ef98",
+    "registration_hash": "ee0d152966baa42fd75f5c00f9c174f07a560ec84f2f189926f10de0fc961f1a",
+    "definition_hash": "5d771049ac9f82f43bbac828617b7c112ab50b84e112465f61b9fd9187bfb0d6",
+    "packet_hash": "2759c417dc0c857482fa6fc089bd70859e81eba904146b01650b35fabd2b129b"
+  },
+  "hash": "e5054c8ee9a30805d86f616f89414da4056fbc7638b30fefed443a6a88cb49f5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that watershed infarction is “a type of cerebral infarction,” but the provided packet text does not explicitly support that characterization.",
+        "The definition claims it “has recognized types and subtypes,” which is only indirectly supported; the packet says differences among “different types and subtypes” exist but does not establish that these are definitively “recognized” as types/subtypes in a definitional sense.",
+        "The packet supports only the idea that whether different types/subtypes differ in underlying disease process is controversial; it does not provide support for the other substantive parts of the definition (e.g., being a cerebral infarction type)."
+      ],
+      "definition_hash": "5d771049ac9f82f43bbac828617b7c112ab50b84e112465f61b9fd9187bfb0d6",
+      "packet_hash": "2759c417dc0c857482fa6fc089bd70859e81eba904146b01650b35fabd2b129b",
+      "published_packet_hash": "2759c417dc0c857482fa6fc089bd70859e81eba904146b01650b35fabd2b129b",
+      "receipt_id": "add3bca381654fdda7f856df070b8828",
+      "request_hash": "ac2fe88fb445a011e50f459c0c170265d3dc04e14508717c3bf13effe075002a",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that cerebral watershed infarction has different types and subtypes and that differences in pathogenesis among them are controversial, but it does not support the added claim that these are \"recognized\" types and subtypes.",
+        "The wording also goes beyond the packet by presenting this as a settled definition of watershed infarction being a type of cerebral infarction rather than a limited statement drawn from the source text."
+      ],
+      "definition_hash": "5d771049ac9f82f43bbac828617b7c112ab50b84e112465f61b9fd9187bfb0d6",
+      "packet_hash": "2759c417dc0c857482fa6fc089bd70859e81eba904146b01650b35fabd2b129b",
+      "published_packet_hash": "2759c417dc0c857482fa6fc089bd70859e81eba904146b01650b35fabd2b129b",
+      "receipt_id": "8188870d6281454cb694888b41b5b087",
+      "request_hash": "8186ce862ed4b0b6f23555f21e476a13a18ae328dae9f4cf46ceb87740f9a54d",
+      "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
+    }
+  ]
+}

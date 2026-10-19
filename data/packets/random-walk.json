@@ -1,0 +1,26 @@
+{
+  "id": "random-walk",
+  "term": "random walk",
+  "source": "article-pmc11540220",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0312863",
+  "revision": "2024; DOI 10.1371/journal.pone.0312863; article XML SHA-256 3920286136d467fa5d0ddf92d439552158e7c8e58b5ed93e1266cb38e4418e09",
+  "source_snapshot_sha256": "3920286136d467fa5d0ddf92d439552158e7c8e58b5ed93e1266cb38e4418e09",
+  "url": "https://doi.org/10.1371/journal.pone.0312863",
+  "text": "Random walks find extensive applications across various complex network domains, including embedding generation and link prediction. Despite the widespread utilization of random walks, the precise impact of distinct biases on embedding generation from sequence data and their subsequent effects on link prediction remain elusive. We conduct a comparative analysis of several random walk strategies, including the true self-avoiding random walk and the traditional random walk. We also analyze walks biased towards node degree and those with inverse node degree bias. Diverse adaptations of the node2vec algorithm to induce distinct exploratory behaviors were also investigated. Our empirical findings demonstrate that despite the varied behaviors inherent in these embeddings, only slight performance differences manifest in the context of link prediction. This implies the resilient recovery of network structure, regardless of the specific walk heuristic employed to traverse the network. Consequently, the results suggest that data generated from sequences governed by unknown mechanisms can be successfully reconstructed.",
+  "source_label": "Comparing random walks in graph embedding and link prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1125
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tympanometry",
+  "term": "tympanometry",
+  "source": "article-pmc13533359",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0357492",
+  "revision": "2026; DOI 10.1371/journal.pone.0357492; article XML SHA-256 599c7fce8fa099cba6637d7a09ac30b5e85fc2c0e5d5ee7150ab75a31ec616e4",
+  "source_snapshot_sha256": "599c7fce8fa099cba6637d7a09ac30b5e85fc2c0e5d5ee7150ab75a31ec616e4",
+  "url": "https://doi.org/10.1371/journal.pone.0357492",
+  "text": "Accurate diagnosis of middle ear diseases using otoscopy remains challenging, particularly in primary care settings where clinician experience with otoscopy varies and visual examination alone may not fully capture middle ear physiology. Although AI-based models have shown promise for automated otoscopy interpretation, most rely primarily on visual information, creating an opportunity to improve diagnostic robustness by integrating complementary physiological measurements. Here, we present OtoTymp-AI, a confidence-guided multimodal decision-fusion framework that integrates otoscopy video analysis with conventional 226 Hz tympanometry. A convolutional neural network was trained to classify otoscopy videos, and tympanometric measurements were incorporated through a clinically interpretable, rule-guided decision strategy to refine visually uncertain predictions rather than through jointly trained multimodal representation learning. Within this multi-center otoscopy study, multimodal evaluation was performed in one independent external cohort comprising 104 videos with paired tympanometry across six diagnostic categories. In this exploratory paired-cohort analysis, the video-only CNN achieved an overall accuracy of 63.46% (95% CI, 53.88–72.08), while the hybrid video-plus-tympanometry framework achieved 81.73% accuracy (95% CI, 73.22–87.98) at the best observed threshold of 0.90, corresponding to an observed absolute improvement of 18.27 percentage points over the CNN-only model (95% paired bootstrap CI, 9.62–26.92). Improvements were observed for selected categories represented in this cohort, including effusion and retraction, although confidence intervals were wide for categories with small positive sample sizes. These findings suggest that integrating anatomical video information with physiological tympanometry may improve AI-assisted middle ear diagnosis in this external paired cohort, but the operating threshold and per-class performance require confirmation in larger prospective paired multimodal cohorts.",
+  "source_label": "Confidence-guided integration of otoscopy videos and tympanometry for middle ear disease diagnosis: A multi-center otoscopy study with external paired-cohort evaluation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2043
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1f6f74b519ebc3d18b3e6bbbafcbe578b34b0a0c8fab8d2d1e42fb0988b1665a"
+}

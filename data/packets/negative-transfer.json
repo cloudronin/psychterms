@@ -1,0 +1,26 @@
+{
+  "id": "negative-transfer",
+  "term": "negative transfer",
+  "source": "article-pmc5486154",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnhum.2017.00334",
+  "revision": "2017; DOI 10.3389/fnhum.2017.00334; article XML SHA-256 b06ca48f63d8b3c7b2d0eefda79c603fcc123cf8004389aa4bd0529355816e26",
+  "source_snapshot_sha256": "b06ca48f63d8b3c7b2d0eefda79c603fcc123cf8004389aa4bd0529355816e26",
+  "url": "https://doi.org/10.3389/fnhum.2017.00334",
+  "text": "To overcome the individual differences, an accurate electroencephalogram (EEG)-based emotion-classification system requires a considerable amount of ecological calibration data for each individual, which is labor-intensive and time-consuming. Transfer learning (TL) has drawn increasing attention in the field of EEG signal mining in recent years. The TL leverages existing data collected from other people to build a model for a new individual with little calibration data. However, brute-force transfer to an individual (i.e., blindly leveraged the labeled data from others) may lead to a negative transfer that degrades performance rather than improving it. This study thus proposed a conditional TL (cTL) framework to facilitate a positive transfer (improving subject-specific performance without increasing the labeled data) for each individual. The cTL first assesses an individual’s transferability for positive transfer and then selectively leverages the data from others with comparable feature spaces. The empirical results showed that among 26 individuals, the proposed cTL framework identified 16 and 14 transferable individuals who could benefit from the data from others for emotion valence and arousal classification, respectively. These transferable individuals could then leverage the data from 18 and 12 individuals who had similar EEG signatures to attain maximal TL improvements in valence- and arousal-classification accuracy. The cTL improved the overall classification performance of 26 individuals by ~15% for valence categorization and ~12% for arousal counterpart, as compared to their default performance based solely on the subject-specific data. This study evidently demonstrated the feasibility of the proposed cTL framework for improving an individual’s default emotion-classification performance given a data repository. The cTL framework may shed light on the development of a robust emotion-classification model using fewer labeled subject-specific data toward a real-life affective brain-computer interface (ABCI).",
+  "source_label": "Improving EEG-Based Emotion Classification Using Conditional Transfer Learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2049
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "4fa0c7ce0b97578cdc15cd6902e071c63fba5b99ec952c138dd7d15a0f3eecae"
+}
