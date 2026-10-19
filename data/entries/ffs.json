@@ -1,0 +1,63 @@
+{
+  "id": "ffs",
+  "term": "FFS",
+  "definition": "FFS stands for Functional Field Score, a visual impairment measure calculated from visual field test results according to the AMA Guides. In this study, it was used as a field-based measure of functional vision and showed weaker or less consistent links with reading performance than the Functional Acuity Score.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13567780"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13567780",
+      "revision": "2026; DOI 10.1371/journal.pone.0358323; article XML SHA-256 afc952b6e96ac34fb65bcf2b7a0dccbfc51b71fdd694cecf84a8e929db45fa9e",
+      "scope": "Source record 10.1371/journal.pone.0358323; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358323"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ea91e0efb72b4f5123f2cd44232832f0168b69e857900a939f3a70d0616fb1be",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6f03dc3ae3914c39a315cc14607055f3",
+    "request_hash": "7ca787496b226dc9bf99c039087c99dd2ae585a94af02131734d23098971a9ab",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "386d2881547aa3a677184819888710d36d95df3c119fb450e90c2be9735856a5",
+    "packet_hash": "ea91e0efb72b4f5123f2cd44232832f0168b69e857900a939f3a70d0616fb1be"
+  },
+  "hash": "9fc06ba6d2d7551eb8e4e83e3a7d9d33c270c65c1d770ea3488ccf6b954a6344",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that FFS was calculated according to the AMA Guides, but it does not explicitly define it as a measure calculated from visual field test results.",
+        "The packet says field-based measures showed weak or inconsistent associations with reading parameters, but it does not specifically show that FFS had weaker or less consistent links than the Functional Acuity Score."
+      ],
+      "definition_hash": "386d2881547aa3a677184819888710d36d95df3c119fb450e90c2be9735856a5",
+      "packet_hash": "ea91e0efb72b4f5123f2cd44232832f0168b69e857900a939f3a70d0616fb1be",
+      "published_packet_hash": "ea91e0efb72b4f5123f2cd44232832f0168b69e857900a939f3a70d0616fb1be",
+      "receipt_id": "c4af264ed916459b87dafe0830500c43",
+      "request_hash": "d8c9b83dbcc18d7230290110b6636b5bc8f7d1fc16cf15dd4d8999255a3038d2",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that FFS is “calculated from visual field test results”; the packet only states that FFS was calculated according to the AMA Guides, but it does not explicitly specify the input being visual field test results (e.g., Goldmann perimetry) for FFS.",
+        "The definition’s comparison that FFS had “weaker or less consistent links with reading performance than the Functional Acuity Score” is only indirectly supported: the packet says field-based measures showed weak or inconsistent associations and that FAS showed the strongest associations, but it does not explicitly single out FFS versus FAS for that comparison."
+      ],
+      "definition_hash": "386d2881547aa3a677184819888710d36d95df3c119fb450e90c2be9735856a5",
+      "packet_hash": "ea91e0efb72b4f5123f2cd44232832f0168b69e857900a939f3a70d0616fb1be",
+      "published_packet_hash": "ea91e0efb72b4f5123f2cd44232832f0168b69e857900a939f3a70d0616fb1be",
+      "receipt_id": "b612deb9c9eb426487f709ffdcd08642",
+      "request_hash": "9e25bb94c5c77366b067c5c068f26255a0f1d2b09c025c38bf87934e7e2ee24e",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "anchor-test",
+  "term": "anchor test",
+  "source": "article-pmc13419220",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0353665",
+  "revision": "2026; DOI 10.1371/journal.pone.0353665; article XML SHA-256 a4f0e87ec5577cf3ff002a96cdbd12c3369465e1f1d19e7fc920ca831c940ae1",
+  "source_snapshot_sha256": "a4f0e87ec5577cf3ff002a96cdbd12c3369465e1f1d19e7fc920ca831c940ae1",
+  "url": "https://doi.org/10.1371/journal.pone.0353665",
+  "text": "Maintaining score comparability across different test administrations is essential in large-scale educational and psychological assessment. Two major threats to equating accuracy are item parameter drift (IPD), reflecting changes in anchor item characteristics over time, and missing item responses, which commonly occur in operational testing. Although each factor has been studied separately, their joint impact on equating accuracy has not been systematically evaluated. A Monte Carlo simulation was conducted using a nonequivalent groups with anchor test design. Data were generated under a three-parameter logistic model with 2,000 examinees per form and 500 replications per condition. The Stocking–Lord method was used to estimate equating constants across 25 conditions, varying IPD rate (0%, 10%, 20%), IPD magnitude (0, 0.25, 0.50), missing data mechanism (MCAR vs. MAR), and missing data rate (0%, 10%, 20%). Missing responses were addressed using multiple imputation by chained equations. Equating accuracy was evaluated using bias and root mean square error. Results indicated that the B constant was highly sensitive to the missing data mechanism: MCAR conditions produced near-zero bias, whereas MAR conditions introduced substantial positive bias, particularly at higher missing rates. IPD alone did not result in meaningful bias but increased estimation variability. When IPD and MAR co-occurred, equating error exceeded the sum of their individual effects, indicating an interaction rather than a purely additive relationship. Although multiple imputation reduced error under MCAR, it did not fully eliminate bias under MAR conditions. In contrast, the scale constant remained stable across all conditions. Overall, the missing data mechanism had a stronger impact on equating accuracy than either the rate of missingness or the degree of item drift alone. When both factors were present, their combined influence led to increased error that could not be fully corrected through imputation. These findings underscore the importance of carefully evaluating missing data mechanisms, selecting appropriate imputation strategies, such as MICE, and monitoring anchor item stability to ensure accurate score equating, particularly in psychological assessment contexts where even small errors may affect individual-level decisions.",
+  "source_label": "Examining the joint impact of missing data mechanisms and item parameter drift on the accuracy of item response theory-based test equating",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2342
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 3
+  },
+  "packet_hash": "e16cab8279b0ff54257246ccc06a6587fd9afbce40d904da13553ef8b70857de"
+}

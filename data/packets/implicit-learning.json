@@ -1,0 +1,26 @@
+{
+  "id": "implicit-learning",
+  "term": "implicit learning",
+  "source": "article-pmc13180941",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnhum.2026.1778884",
+  "revision": "2026; DOI 10.3389/fnhum.2026.1778884; article XML SHA-256 adcd3e453291331805d661d405cb32cd23dff98121563d8248d0e210d7af1a2c",
+  "source_snapshot_sha256": "adcd3e453291331805d661d405cb32cd23dff98121563d8248d0e210d7af1a2c",
+  "url": "https://doi.org/10.3389/fnhum.2026.1778884",
+  "text": "Implicit learning is a fundamental cognitive process whose identification is critical for understanding human cognition and developing innovative training methodologies. We propose a generalizable feature selection and sensor optimization framework using simultaneous EEG and fNIRS to identify these events. Our approach leverages a two-stage optimization process driven by a binary multi-neighbor artificial bee colony (BMNABC) algorithm. The BMNABC uses the model’s classification accuracy to guide the heuristic search for the most discriminative feature subset. First, the framework prioritizes optimal features from high-dimensional, multimodal data using a normalized weighted sum (NWS) metric. Second, it implements a recursive backward elimination mechanism to reduce the number of sensors for practical brain-computer interface (BCIs) applications. Our results demonstrate that the BMNABC framework successfully identifies a superior feature set, leading to a significant improvement in classification accuracy over using either modality alone. Critically, the selected features provided neurophysiological validation, isolating key biomarkers in the prefrontal cortex. We also show that a sparse yet highly effective sensor configuration can be achieved, maintaining high performance with up to 66% fewer sensors. This work not only provides a data-driven method for detecting implicit learning but also advances the design of more efficient and user-friendly BCI systems.",
+  "source_label": "Toward practical BCIs: a BMNABC-based feature selection and sensor optimization framework for implicit learning detection from multimodal EEG-fNIRS data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1482
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "article-requested-concept:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e"
+}

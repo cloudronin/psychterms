@@ -1,0 +1,60 @@
+{
+  "id": "coefficient",
+  "term": "coefficient",
+  "definition": "A coefficient, in this packet’s context, refers to the coefficient of variation: a standardized measure of how much values vary relative to one another. It is used to compare variability across datasets even when they are measured in different units or on different scales.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13521577"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13521577",
+      "revision": "2026; DOI 10.1371/journal.pone.0337982; article XML SHA-256 b087e3ebd20538b57279bc1b57fe9b6b68ba8303d58df10010a795f545cc965a",
+      "scope": "Source record 10.1371/journal.pone.0337982; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337982"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0d5c2e7af8f3383a4cb3d1902982728eecae35bc1d5757f3a242f0fd7349745f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b03fa2bd766842d79ae4e16f55b24cfc",
+    "request_hash": "81b9ca0fb1e1a1cf194df3d896e794f1f9970035488d218a60b07c123d8b90c5",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "f777ff3595d8e7e85ed9d5072670a510ad60d41d4ed2ba605c25da3d344f6ce6",
+    "packet_hash": "0d5c2e7af8f3383a4cb3d1902982728eecae35bc1d5757f3a242f0fd7349745f"
+  },
+  "hash": "ca6c600a46c72a95224bcb0fab74691e77220d0687ce17553a4a37e6b5680064",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field ‘cognition’ is not defensible from the packet, which only uses the term in a statistical context about the coefficient of variation.",
+        "The definition is slightly inaccurate: the packet describes the coefficient of variation as a standardized measure of variability that compares datasets across different scales or units, not as a measure of how much values vary ‘relative to one another.’"
+      ],
+      "definition_hash": "f777ff3595d8e7e85ed9d5072670a510ad60d41d4ed2ba605c25da3d344f6ce6",
+      "packet_hash": "0d5c2e7af8f3383a4cb3d1902982728eecae35bc1d5757f3a242f0fd7349745f",
+      "published_packet_hash": "0d5c2e7af8f3383a4cb3d1902982728eecae35bc1d5757f3a242f0fd7349745f",
+      "receipt_id": "7c699ae1a1f14e258d7b24d80f4c5c7f",
+      "request_hash": "26ab280586856a6970fb842b69acaf2ab80bb73293401d23b597b6ca41aaa6a6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f777ff3595d8e7e85ed9d5072670a510ad60d41d4ed2ba605c25da3d344f6ce6",
+      "packet_hash": "0d5c2e7af8f3383a4cb3d1902982728eecae35bc1d5757f3a242f0fd7349745f",
+      "published_packet_hash": "0d5c2e7af8f3383a4cb3d1902982728eecae35bc1d5757f3a242f0fd7349745f",
+      "receipt_id": "47d08d2cb38f4fc6a0a3a6bef8124c09",
+      "request_hash": "8ca0851f8924a9508b8dc44fec54df2ca5700b27d6524026a09ce375e15b7045",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

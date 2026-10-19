@@ -1,0 +1,64 @@
+{
+  "id": "epidemic",
+  "term": "epidemic",
+  "definition": "An epidemic is an outbreak that spreads quickly enough that responses need to keep pace with it. In this context, it refers to a fast-moving public health event that can require measures such as non-pharmaceutical interventions.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13245796"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13245796",
+      "revision": "2026; DOI 10.1371/journal.pone.0351176; article XML SHA-256 9f908c97ebc3ac8d575003b65d22e57cdbaafae37b2fa425cecd603a04f982c0",
+      "scope": "Source record 10.1371/journal.pone.0351176; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351176"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b107d7c53686e62d0ea47887e0fcd5cfba88278cb48c7450e2399305f3adad84",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ee2c1d30625145d3848bebbd8490138a",
+    "request_hash": "2604cdcd959af040a00d3febe506b7cf061f1abfbf082b43cf00e908da166276",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "f296b5ac6dc284f888e0b8a93f38c93727e628226b40d498206857897de52d80",
+    "packet_hash": "b107d7c53686e62d0ea47887e0fcd5cfba88278cb48c7450e2399305f3adad84"
+  },
+  "hash": "7945403c53bf139b9fc9d8fce6f32cff6498aecf98e85a6e71cd1346a0fe18d5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definitional basis for “an outbreak that spreads quickly enough,” “fast-moving,” or any explicit characterization of epidemic speed—only that policymaking needs to “respond at the pace of the outbreak.”",
+        "The packet supports the idea that epidemics involve policymaking that responds to outbreak pace and that there is interest in “non-pharmaceutical interventions (NPIs),” but it does not establish that epidemics are “public health event[s]” as stated (this is only implied by the context).",
+        "Because key parts of the definition (especially the speed/spreading framing) are not explicitly supported by the supplied text, the definition is not fully defensible from the packet."
+      ],
+      "definition_hash": "f296b5ac6dc284f888e0b8a93f38c93727e628226b40d498206857897de52d80",
+      "packet_hash": "b107d7c53686e62d0ea47887e0fcd5cfba88278cb48c7450e2399305f3adad84",
+      "published_packet_hash": "b107d7c53686e62d0ea47887e0fcd5cfba88278cb48c7450e2399305f3adad84",
+      "receipt_id": "6a91c89abcb44359b4ce2509aab5e9cb",
+      "request_hash": "593082967c9a09dc681603d89035b783b3f95317f8df9b4ddc8e3a8b8724c5c6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that epidemic control policies must respond at the pace of the outbreak, but it does not explicitly define an epidemic as an outbreak that spreads quickly enough or as a fast-moving public health event.",
+        "The mention that it can require non-pharmaceutical interventions is supported, but the definition adds a broader explanatory gloss that goes beyond the source text."
+      ],
+      "definition_hash": "f296b5ac6dc284f888e0b8a93f38c93727e628226b40d498206857897de52d80",
+      "packet_hash": "b107d7c53686e62d0ea47887e0fcd5cfba88278cb48c7450e2399305f3adad84",
+      "published_packet_hash": "b107d7c53686e62d0ea47887e0fcd5cfba88278cb48c7450e2399305f3adad84",
+      "receipt_id": "67cb818b5085400e91019a39a0a12c46",
+      "request_hash": "24fe7239586695b71e24126a73225f0749ace72b026d72397a1620a2b63a22d8",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

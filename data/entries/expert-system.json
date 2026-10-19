@@ -1,0 +1,60 @@
+{
+  "id": "expert-system",
+  "term": "expert system",
+  "definition": "An expert system is a computer-based system that uses stored expert rules and a heuristic way of drawing inferences from them to guide decisions or control actions. In this source, it provides expert knowledge for intelligent train operation.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12094749"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12094749",
+      "revision": "2025; DOI 10.1371/journal.pone.0323478; article XML SHA-256 f3955dd4b4976442444fc38c427adfd804ddcec2ceb32179ccde5bc208821188",
+      "scope": "Source record 10.1371/journal.pone.0323478; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0323478"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e712b07d75ca4c2db5b28ab7d83c5526",
+    "request_hash": "d05197659e6927ab2baf94c08198ab7f91087cca33e0ac42adf51151d626e5d6",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "9bc34a652183d1d4c0db3551f5b58d4281e471c612748f3fee03f740299391e3",
+    "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31"
+  },
+  "hash": "19a43120bd6d566ac4aca3541228f56e8ff6c748af78bc5197472ce2141f6e67",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9bc34a652183d1d4c0db3551f5b58d4281e471c612748f3fee03f740299391e3",
+      "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31",
+      "published_packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31",
+      "receipt_id": "9cbcaee765d148b4912541e5400557e8",
+      "request_hash": "ac58500f730e6b03c9e685e5f55a2ce5e9737e230a5ff6321c7efd48a9ac06dd",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “computer-based system,” which is not explicitly supported by the packet text (the packet mentions an “expert system” but does not directly characterize it as computer-based).",
+        "The definition generalizes “to guide decisions or control actions” without an explicit statement that the expert system itself guides decisions; the packet only describes combining an expert system’s rules/inference method within the train-operation algorithms."
+      ],
+      "definition_hash": "9bc34a652183d1d4c0db3551f5b58d4281e471c612748f3fee03f740299391e3",
+      "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31",
+      "published_packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31",
+      "receipt_id": "f2ab4300cc0b4d0cb3fc73d788fcf6c0",
+      "request_hash": "44d34c36566e871a2765713cae8fe297d456597c4976ab6d38a122f5b7945557",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

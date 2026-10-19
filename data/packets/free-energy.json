@@ -1,0 +1,26 @@
+{
+  "id": "free-energy",
+  "term": "free energy",
+  "source": "article-pmc12410762",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0331047",
+  "revision": "2025; DOI 10.1371/journal.pone.0331047; article XML SHA-256 44d621a0f6d3199a8ed1f82710433c56c861e5ff6b94a4d354fabffde6745e36",
+  "source_snapshot_sha256": "44d621a0f6d3199a8ed1f82710433c56c861e5ff6b94a4d354fabffde6745e36",
+  "url": "https://doi.org/10.1371/journal.pone.0331047",
+  "text": "In the last decade, the free energy principle (FEP) and active inference (AIF) have achieved many successes connecting conceptual models of learning and cognition to mathematical models of perception and action. This effort is driven by a multidisciplinary interest in understanding aspects of self-organizing complex adaptive systems, including elements of agency. Various reinforcement learning (RL) models performing active inference have been proposed and trained on standard RL tasks using deep neural networks. Recent work has focused on improving such agents’ performance in complex environments by incorporating the latest machine learning techniques. In this paper, we build upon these techniques. Within the constraints imposed by the FEP and AIF, we attempt to model agents in an interpretable way without deep neural networks by introducing Free Energy Projective Simulation (FEPS). Using internal rewards only, FEPS agents build a representation of their partially observable environments with which they interact. Following AIF, the policy to achieve a given task is derived from this world model by minimizing the expected free energy. Leveraging the interpretability of the model, techniques are introduced to deal with long-term goals and reduce prediction errors caused by erroneous hidden state estimation. We test the FEPS model on two RL environments inspired from behavioral biology: a timed response task and a navigation task in a partially observable grid. Our results show that FEPS agents fully resolve the ambiguity of both environments by appropriately contextualizing their observations based on prediction accuracy only. In addition, they infer optimal policies flexibly for any target observation in the environment.",
+  "source_label": "Free Energy Projective Simulation (FEPS): Active inference with interpretability",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1748
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d"
+}

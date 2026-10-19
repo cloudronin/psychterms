@@ -1,0 +1,63 @@
+{
+  "id": "rl",
+  "term": "RL",
+  "definition": "RL stands for reinforcement learning, a type of learning approach discussed here as a way to design and evaluate policies, such as nonpharmaceutical interventions in epidemic control. In this context, it refers to using learning algorithms to guide decision-making based on how different choices perform.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13245796"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13245796",
+      "revision": "2026; DOI 10.1371/journal.pone.0351176; article XML SHA-256 9f908c97ebc3ac8d575003b65d22e57cdbaafae37b2fa425cecd603a04f982c0",
+      "scope": "Source record 10.1371/journal.pone.0351176; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351176"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "67ab12eec99eb6fc44d44e78ba2dbf0ca49a51e09e189aba2b9850deaaf36de4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "00aaf2969de9478390744907c9119bf1",
+    "request_hash": "12b4a279dad7ac1b19176d001817b3f1ec99f26f9d112731b7747917b27580bf",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "1daa360ca7090c459cc64bc9db2180d1b8f0dbf4b5c3d5851d2a0077f5bcb99d",
+    "packet_hash": "67ab12eec99eb6fc44d44e78ba2dbf0ca49a51e09e189aba2b9850deaaf36de4"
+  },
+  "hash": "c77126b493862c55912d909058c5523928435b734b8e2a6ba19e412a956896cc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not explicitly state that “RL” stands for “reinforcement learning,” nor does it provide the term expansion.",
+        "The packet describes mapping how RL is applied for epidemic NPI design (modeling choices, architectures, evaluation practices), but it does not explicitly support the definition’s characterization of RL as “using learning algorithms to guide decision-making based on how different choices perform.”"
+      ],
+      "definition_hash": "1daa360ca7090c459cc64bc9db2180d1b8f0dbf4b5c3d5851d2a0077f5bcb99d",
+      "packet_hash": "67ab12eec99eb6fc44d44e78ba2dbf0ca49a51e09e189aba2b9850deaaf36de4",
+      "published_packet_hash": "67ab12eec99eb6fc44d44e78ba2dbf0ca49a51e09e189aba2b9850deaaf36de4",
+      "receipt_id": "e00c219e3f9e4c0c9cb90df1b920078b",
+      "request_hash": "23816046493f2f6c031bb4283d92fd71f9abbc837588df6d96c4ab4c82fd0f57",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that RL is being discussed in the context of epidemic NPI design and evaluation practices, but it does not define RL as ‘a learning approach’ that ‘uses learning algorithms to guide decision-making based on how different choices perform.’",
+        "The definition adds general reinforcement-learning theory that is not stated in the supplied source text, so the substantive sense is not fully supported by the packet alone."
+      ],
+      "definition_hash": "1daa360ca7090c459cc64bc9db2180d1b8f0dbf4b5c3d5851d2a0077f5bcb99d",
+      "packet_hash": "67ab12eec99eb6fc44d44e78ba2dbf0ca49a51e09e189aba2b9850deaaf36de4",
+      "published_packet_hash": "67ab12eec99eb6fc44d44e78ba2dbf0ca49a51e09e189aba2b9850deaaf36de4",
+      "receipt_id": "a8c0d841e60a445ea0cdc02d0e81a49a",
+      "request_hash": "13bf1c3a842ae89d8868eb64cee9656dbfc4e7f72d463fc9b0ec27c0a9a65412",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

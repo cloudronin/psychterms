@@ -1,0 +1,64 @@
+{
+  "id": "focused-attention",
+  "term": "focused attention",
+  "definition": "Focused attention is a type of meditation used to direct and sustain attention in a deliberate way. In this source, it is studied as a brief mental practice that may influence decision quality, cognitive bias, and how people deal with difficult trade-offs.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13041059"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13041059",
+      "revision": "2026; DOI 10.1186/s40359-026-04053-z; article XML SHA-256 6f57b8bc84fd2afe8a756883349502e5c2565fc8a20c5d073595947c3efc9aee",
+      "scope": "Source record 10.1186/s40359-026-04053-z; pinned source text",
+      "locator": "https://doi.org/10.1186/s40359-026-04053-z"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c408fcbcc8a38d95a3c9c4122011f3de01a8d7c5e3c2b1c6d23fbebac865f6da",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d6c1483655c04550a3438cf64a509bd4",
+    "request_hash": "2fadfe03898204b994e0b12e89aa2a6a6e9908cebd2e7db7e97a11b24a730651",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "e05323855598785987473f9d87abdf2fde379c0581678407c63754f07fe94456",
+    "packet_hash": "c408fcbcc8a38d95a3c9c4122011f3de01a8d7c5e3c2b1c6d23fbebac865f6da"
+  },
+  "hash": "2769c379c0717c0b3d54ac02304b015d02fc0100cfafe93f07ad55ec799c4cfc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet excerpt does not define focused attention as “a type of meditation used to direct and sustain attention in a deliberate way,” so that substantive characterization is unsupported.",
+        "The definition claims it is “studied as a brief mental practice” and links it to decision quality, cognitive bias, and dealing with difficult trade-offs; the packet mentions a “brief FA induction” and examines decision quality/probability weighting bias and emotional trade-off difficulty, but it does not clearly support the full breadth of this phrasing (e.g., the explicit claim about “how people deal with difficult trade-offs”).",
+        "The definition contains multiple specific claims that are only partially supported by the provided packet text."
+      ],
+      "definition_hash": "e05323855598785987473f9d87abdf2fde379c0581678407c63754f07fe94456",
+      "packet_hash": "c408fcbcc8a38d95a3c9c4122011f3de01a8d7c5e3c2b1c6d23fbebac865f6da",
+      "published_packet_hash": "c408fcbcc8a38d95a3c9c4122011f3de01a8d7c5e3c2b1c6d23fbebac865f6da",
+      "receipt_id": "0b0aba12a514405c9d1f2c437a59367c",
+      "request_hash": "7b48edbbde52050bf37fe2364e9317561153b3ecc68ceec7f60d1c001ea07946",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports focused attention meditation as a brief meditation/induction, but it does not support the added definitional claim that it is a practice “used to direct and sustain attention in a deliberate way.”",
+        "The source discusses proposed effects on decision quality, cognitive bias, probability weighting bias, and emotional trade-off difficulty, but the definition overgeneralizes these study aims into a broader statement about how people deal with difficult trade-offs."
+      ],
+      "definition_hash": "e05323855598785987473f9d87abdf2fde379c0581678407c63754f07fe94456",
+      "packet_hash": "c408fcbcc8a38d95a3c9c4122011f3de01a8d7c5e3c2b1c6d23fbebac865f6da",
+      "published_packet_hash": "c408fcbcc8a38d95a3c9c4122011f3de01a8d7c5e3c2b1c6d23fbebac865f6da",
+      "receipt_id": "e14e6181f47f4b17ab91623122b45991",
+      "request_hash": "1268fa3a45ed94c6ef3aa4ce32f009a548f557a4c9d4ab4668080de23155adf3",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

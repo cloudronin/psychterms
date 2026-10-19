@@ -1,0 +1,59 @@
+{
+  "id": "finite-state-grammar",
+  "term": "finite-state grammar",
+  "definition": "A finite-state grammar is a rule system used in artificial grammar learning to generate example sequences that people can study and later judge as grammatical or not. In this context, such grammars can differ in complexity, with simpler ones generally being learned more easily than more complex ones.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4333800"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4333800",
+      "revision": "2015; DOI 10.3389/fpsyg.2015.00158; article XML SHA-256 fcd632210de69fa2a595df354816daae1d212c64292f103d524e4b6627a3f72f",
+      "scope": "Source record 10.3389/fpsyg.2015.00158; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2015.00158"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5d9945392198f0cfd2d3be0fb9bddb31d0f6f07441c3aa0f3888b957269ddbb2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bf3daaad98e6466fbfd26469dfeed23b",
+    "request_hash": "4d2921b2dbb75f91384e7a70d24283bc6b4151b46276cb5d789ec216c451499b",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "9389b23b5c05724bb92cfb155ea7d22d752a95d8308d1e707a2b696f039a3226",
+    "packet_hash": "5d9945392198f0cfd2d3be0fb9bddb31d0f6f07441c3aa0f3888b957269ddbb2"
+  },
+  "hash": "153b23cf7f773905a6afab9050389a8dcf2bcbcabadd5f00aff73b689f707d54",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9389b23b5c05724bb92cfb155ea7d22d752a95d8308d1e707a2b696f039a3226",
+      "packet_hash": "5d9945392198f0cfd2d3be0fb9bddb31d0f6f07441c3aa0f3888b957269ddbb2",
+      "published_packet_hash": "5d9945392198f0cfd2d3be0fb9bddb31d0f6f07441c3aa0f3888b957269ddbb2",
+      "receipt_id": "ff23327c19154e879737323ce8c57116",
+      "request_hash": "0808aac149da17589b7a881ba3b9c236cd6de64643fb69ce4246a16003140b53",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims a finite-state grammar is “a rule system … used … to generate example sequences.” The packet only states that participants were “exposed to exemplars from a simple or a complex finite state grammar”; it does not explicitly support that finite-state grammars are “used to generate” those sequences."
+      ],
+      "definition_hash": "9389b23b5c05724bb92cfb155ea7d22d752a95d8308d1e707a2b696f039a3226",
+      "packet_hash": "5d9945392198f0cfd2d3be0fb9bddb31d0f6f07441c3aa0f3888b957269ddbb2",
+      "published_packet_hash": "5d9945392198f0cfd2d3be0fb9bddb31d0f6f07441c3aa0f3888b957269ddbb2",
+      "receipt_id": "33c5544ef6334825b21426a423da8ed0",
+      "request_hash": "a48f6482a28f029f2ee5e13d1eb4afa623081345574c3184b6a16a9f15e1c22b",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

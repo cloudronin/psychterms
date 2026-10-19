@@ -1,0 +1,63 @@
+{
+  "id": "gene-therapy",
+  "term": "gene therapy",
+  "definition": "Gene therapy is a biological approach that aims to improve disease by delivering a working gene into affected cells so they can make the needed protein. In this source, it refers to AAV-mediated gene augmentation that introduced human L-opsin cDNA into cone cells and restored retinal structure and function in a mouse model.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13258009"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13258009",
+      "revision": "2026; DOI 10.1371/journal.pone.0332684; article XML SHA-256 cf332c85f9380b2eafdf1e123c2402326cd8e7f36559517ed113c80151e2f71a",
+      "scope": "Source record 10.1371/journal.pone.0332684; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0332684"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bc056dee6c899963491b9feb6a326298d8bb25c18cdf11188fecb4c9aa286ef8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d06235e3981f46b0a041fd7cc23a04fe",
+    "request_hash": "04d57b3097d4d8f61743275080073ceb5c46795217e04b0bfcdac8f38cfae2d4",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "250bc65ca112fd1d08c382714f51062d3d89ffa05b73fc496d327b09612bbd5c",
+    "packet_hash": "bc056dee6c899963491b9feb6a326298d8bb25c18cdf11188fecb4c9aa286ef8"
+  },
+  "hash": "bbf66f6aaad6ed9ef02f53934e470848da20360970d234be0aed626ae75c4cf5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general claim that gene therapy is “a biological approach that aims to improve disease” is not directly supported by the provided packet text (the packet describes a specific preclinical rescue experiment rather than a general disease-improvement definition).",
+        "The definition states the sense “refers to AAV-mediated gene augmentation … introduced human L-opsin cDNA into cone cells and restored retinal structure and function in a mouse model,” which is supported by the packet, but the initial general framing remains unsupported."
+      ],
+      "definition_hash": "250bc65ca112fd1d08c382714f51062d3d89ffa05b73fc496d327b09612bbd5c",
+      "packet_hash": "bc056dee6c899963491b9feb6a326298d8bb25c18cdf11188fecb4c9aa286ef8",
+      "published_packet_hash": "bc056dee6c899963491b9feb6a326298d8bb25c18cdf11188fecb4c9aa286ef8",
+      "receipt_id": "39822b33ffa846ee9304c2e4c1b45b92",
+      "request_hash": "60b0d9a8495b85db300327b8cbeec22fcd1dfa0610061b9c3ddd063c2e4a9912",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence gives a broad general definition of gene therapy (“delivering a working gene into affected cells so they can make the needed protein”) that is not stated in the packet and goes beyond the source’s specific example.",
+        "The source supports only a particular preclinical use case: AAV-mediated delivery of human L-opsin cDNA to cone cells in a mouse model, not a general definition of the term."
+      ],
+      "definition_hash": "250bc65ca112fd1d08c382714f51062d3d89ffa05b73fc496d327b09612bbd5c",
+      "packet_hash": "bc056dee6c899963491b9feb6a326298d8bb25c18cdf11188fecb4c9aa286ef8",
+      "published_packet_hash": "bc056dee6c899963491b9feb6a326298d8bb25c18cdf11188fecb4c9aa286ef8",
+      "receipt_id": "da01f86ccaa44a489af34b825861fec7",
+      "request_hash": "1a1225c77b3f7f50f5577cead2bf39789bac9c0c35523d549946da279cba0dd1",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

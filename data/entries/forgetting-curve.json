@@ -1,0 +1,60 @@
+{
+  "id": "forgetting-curve",
+  "term": "forgetting curve",
+  "definition": "The forgetting curve is a way of representing how memory declines over time after learning. In this source, the Ebbinghaus forgetting curve is used as a function to simulate learners’ forgetting during the learning process.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11524465"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11524465",
+      "revision": "2024; DOI 10.1371/journal.pone.0312022; article XML SHA-256 95ab626108865448de513220dea9f91ca3d24887d63bef701020a0de25b6f8f3",
+      "scope": "Source record 10.1371/journal.pone.0312022; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0312022"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ab8e63b32e814cf39510f1d060131f72",
+    "request_hash": "bf2cb6251053a2d22f5ec2ac595810a08eccae45562d9aef8f8d12e505dc0301",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "fcf42ca630e74756997448d4dc5e15980d3b645ab579231c4fa9fcbbd7316ab1",
+    "packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294"
+  },
+  "hash": "af70b9a5fff4455299288b66397d79e9ab43ee43884ce414b1ddb572f6cd8d57",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fcf42ca630e74756997448d4dc5e15980d3b645ab579231c4fa9fcbbd7316ab1",
+      "packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294",
+      "published_packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294",
+      "receipt_id": "25a9ab1ff9e04b649769059cf1edfaf3",
+      "request_hash": "b1212fa9b7f152b12b1db138bc0182fc5b855b1b5d2573c4b1e9383e97a74635",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“a way of representing how memory declines over time after learning”) is not stated or supported in the provided packet text; the packet only mentions introducing the Ebbinghaus forgetting curve function to simulate learners’ memory forgetting.",
+        "Because the packet does not provide support for the general characterization of the forgetting curve, the definition includes an unsupported substantive claim."
+      ],
+      "definition_hash": "fcf42ca630e74756997448d4dc5e15980d3b645ab579231c4fa9fcbbd7316ab1",
+      "packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294",
+      "published_packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294",
+      "receipt_id": "98927e73a62f457bbeb23349129faa96",
+      "request_hash": "f2d9ed04c99da6de2092b62c7cd8f489c7f35fef0e55a581e0669dcf5b05784c",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

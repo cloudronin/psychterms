@@ -1,0 +1,60 @@
+{
+  "id": "functional-brain-imaging",
+  "term": "functional brain imaging",
+  "definition": "Functional brain imaging is the non-invasive measurement of brain activity to show how the brain is functioning. In this packet, it refers to magnetoencephalography methods that detect magnetic signals from the brain and can locate activity with high spatial accuracy.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6980641"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6980641",
+      "revision": "2020; DOI 10.1371/journal.pone.0227684; article XML SHA-256 9b306e516613987f63c0f543c869ce992d66140b3933615e2f25ed76b7164398",
+      "scope": "Source record 10.1371/journal.pone.0227684; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0227684"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0194e23a273496f3d4372b47ec37ae901862d8528543bd3d09053c7e7e2c348d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "25de354c73be43ccab65f312ba6ce7a3",
+    "request_hash": "060614188230a03f1d91e64490797e264633aec00f5bbd7e2b1d45ae313b7d00",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "5e07e1a6735831efa9f36acf973136855d192faf63e9eed7d5c8a911616d5837",
+    "packet_hash": "0194e23a273496f3d4372b47ec37ae901862d8528543bd3d09053c7e7e2c348d"
+  },
+  "hash": "92eef1c045d53ee26fb543be42b1e8dd175636439cb0ac17f56c3df6a73225a2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5e07e1a6735831efa9f36acf973136855d192faf63e9eed7d5c8a911616d5837",
+      "packet_hash": "0194e23a273496f3d4372b47ec37ae901862d8528543bd3d09053c7e7e2c348d",
+      "published_packet_hash": "0194e23a273496f3d4372b47ec37ae901862d8528543bd3d09053c7e7e2c348d",
+      "receipt_id": "4a73e42596a142d4bf1d85ec02fa83d6",
+      "request_hash": "6759925c07e0abf90a2bba336988db2b287c040f0e448c7fe94d9dc18ab24588",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims MEG “detect magnetic signals from the brain,” but the provided packet text does not explicitly state that magnetic signals are detected (it only describes an OPM-based “magnetoencephalography (MEG) system”).",
+        "The definition states that MEG “can locate activity with high spatial accuracy”; while the packet reports “sub-centimeter accuracy” for dipole locations, it does not explicitly characterize this as “high spatial accuracy” in those terms."
+      ],
+      "definition_hash": "5e07e1a6735831efa9f36acf973136855d192faf63e9eed7d5c8a911616d5837",
+      "packet_hash": "0194e23a273496f3d4372b47ec37ae901862d8528543bd3d09053c7e7e2c348d",
+      "published_packet_hash": "0194e23a273496f3d4372b47ec37ae901862d8528543bd3d09053c7e7e2c348d",
+      "receipt_id": "48ab59d756bc432d964a2cf19f4d6cb2",
+      "request_hash": "94d14a8a571d1a546f2ea8b31e65af25b601d3d4ff19f4b48029683f61a39d57",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

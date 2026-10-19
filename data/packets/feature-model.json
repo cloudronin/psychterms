@@ -1,0 +1,26 @@
+{
+  "id": "feature-model",
+  "term": "feature model",
+  "source": "article-pmc12331098",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0329469",
+  "revision": "2025; DOI 10.1371/journal.pone.0329469; article XML SHA-256 dd5cb90d447f96ad4afa03c013e312c747c35feac656b9f2a58e7d470fb28ad0",
+  "source_snapshot_sha256": "dd5cb90d447f96ad4afa03c013e312c747c35feac656b9f2a58e7d470fb28ad0",
+  "url": "https://doi.org/10.1371/journal.pone.0329469",
+  "text": "In the field of firmware security analysis for Internet of Things (IoT) devices, border binary detection has become an important research focus. However, the existing methods for border binary detection have problems such as insufficient feature characterization, high false-negative rates, and low intelligence levels. To mitigate these issues, we introduce BBDetector, a border binary detection method based on a multidimensional feature model. First, we constructed the first known set of border binaries at a certain scale by collecting and analyzing a diverse set of real-world firmware. To characterize the features of border binaries comprehensively, we proposed a multidimensional feature model (MDFM). Next, we extracted the feature vectors of binaries via the MDFM and designed a novel stacking method to achieve border binary detection. This method involves ensemble learning, combining extreme gradient boosting, light gradient boosting machine, and categorical boosting as base learners with random forest as the meta-learner. Finally, a border binary detection model (XLC-R) was obtained by training with feature vectors. We tested and evaluated BBDetector on two datasets. The experimental results showed that XLC-R achieved a precision of 94.98%, a recall of 91.02%, and an F1 score of 92.84% for the constructed representative Dataset I. Additionally, BBDetector detected 3.25 times and 2.23 times more border binaries in Dataset II than did the state-of-the-art tools Karonte and SaTC, respectively. BBDetector provides an accurate method for border binary detection in IoT firmware security analysis, significantly enhancing the pertinence of vulnerability detection, dramatically reducing the complexity of firmware security analysis, and providing essential technical support for improving IoT device security.",
+  "source_label": "BBDetector: Intelligent border binary detection in IoT device firmware based on a multidimensional feature model",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1831
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1f2175d0f25a501a924fdb6f1f18af4b6eaade87598c14c5a2fa585a0c53a6b6"
+}

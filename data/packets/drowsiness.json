@@ -1,0 +1,26 @@
+{
+  "id": "drowsiness",
+  "term": "drowsiness",
+  "source": "article-pmc12588462",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0332577",
+  "revision": "2025; DOI 10.1371/journal.pone.0332577; article XML SHA-256 6519038ba769e4f59fe53a1f8bf195df352e866cb6cd005f3a672ba2e16d9708",
+  "source_snapshot_sha256": "6519038ba769e4f59fe53a1f8bf195df352e866cb6cd005f3a672ba2e16d9708",
+  "url": "https://doi.org/10.1371/journal.pone.0332577",
+  "text": "Driver drowsiness is a leading cause of traffic accidents and fatalities, highlighting the urgent need for intelligent systems capable of real-time fatigue detection. Although recent advancements in machine learning (ML) and deep learning (DL) have significantly improved detection accuracy, most existing models are computationally demanding and not well-suited for deployment in resource-limited environments such as microcontrollers. While the emerging domain of TinyML presents promising avenues for such applications, there remains a substantial gap in the development of lightweight, interpretable, and high-performance models specifically tailored for embedded automotive systems. This paper introduces FastKAN-DDD, an innovative driver drowsiness detection model grounded in the Fast Kolmogorov-Arnold Network (FastKAN) architecture. The model incorporates learnable nonlinear activation functions based on radial basis functions (RBFs), facilitating efficient function approximation with a minimal number of parameters. To enhance suitability for TinyML deployment, the model is further optimized through post-training quantization techniques, including dynamic range, float-16, and weight-only quantization. Comprehensive experiments were conducted using the UTA-RLDD dataset—a real-world benchmark for driver drowsiness detection—evaluating the model across various input resolutions and quantization schemes. The FastKAN-DDD model achieved a test accuracy of 99.94%, with inference latency as low as 0.04 ms and a total memory footprint of merely 35 KB, rendering it exceptionally well-suited for real-time inference on microcontroller-based systems. Comparative evaluations further confirm that FastKAN surpasses several state-of-the-art TinyML models in terms of accuracy, computational efficiency, and model compactness. Our code’s are publicly available at: https://github.com/sihamess/driver_drowsiness_detection_TinyML .",
+  "source_label": "FastKAN-DDD: A novel fast Kolmogorov-Arnold network-based approach for driver drowsiness detection optimized for TinyML deployment",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1938
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "90c72b618fa365a81e8ac9e4d402db724e57dc5717d5147757093febb59d38e1"
+}

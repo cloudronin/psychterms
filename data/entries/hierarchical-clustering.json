@@ -1,0 +1,59 @@
+{
+  "id": "hierarchical-clustering",
+  "term": "hierarchical clustering",
+  "definition": "Hierarchical clustering is a way of grouping data by building a layered tree of clusters, with smaller local groups organized into larger branches. In this source, it is described as combining centroid-based, model-based, and hierarchical features to form a structure of local units that can split and adapt as new data arrive.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12768385"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12768385",
+      "revision": "2026; DOI 10.1371/journal.pone.0339171; article XML SHA-256 98b8d08c57914cdbfc0105f388b89d38bce461a52b192094ade1cda41efc9480",
+      "scope": "Source record 10.1371/journal.pone.0339171; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0339171"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e1b2239b0614195318b5a0a75c84b7a6550a71c28fab078bc42af56583e8ff44",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e9da3b8c03804f2480a2ff802ca05d78",
+    "request_hash": "4146419b31fd63558180eadae041b3c679417b756916ac3d8c04a7c7aa8d77fa",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "cf8d80c80109ae29fcc207fafaef8ba5c2af2c2276d23766c2b959b393b141eb",
+    "packet_hash": "e1b2239b0614195318b5a0a75c84b7a6550a71c28fab078bc42af56583e8ff44"
+  },
+  "hash": "7622c7b27e9ab109e0978bd596dc4ef6e9c7687b5d11c2e9ff51ad49d5b62ef9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cf8d80c80109ae29fcc207fafaef8ba5c2af2c2276d23766c2b959b393b141eb",
+      "packet_hash": "e1b2239b0614195318b5a0a75c84b7a6550a71c28fab078bc42af56583e8ff44",
+      "published_packet_hash": "e1b2239b0614195318b5a0a75c84b7a6550a71c28fab078bc42af56583e8ff44",
+      "receipt_id": "d0fa5f73306245d098354a9a7d9d5f2c",
+      "request_hash": "2a41ae0c8eef30a866f970ac50670b5053fea4adb3e4775206f33a2cf9cb784b",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening general definition (“Hierarchical clustering is a way of grouping data by building a layered tree of clusters, with smaller local groups organized into larger branches”) is not supported by the provided packet, which focuses on a specific algorithm (H-NGPCA) rather than giving a general definition of hierarchical clustering."
+      ],
+      "definition_hash": "cf8d80c80109ae29fcc207fafaef8ba5c2af2c2276d23766c2b959b393b141eb",
+      "packet_hash": "e1b2239b0614195318b5a0a75c84b7a6550a71c28fab078bc42af56583e8ff44",
+      "published_packet_hash": "e1b2239b0614195318b5a0a75c84b7a6550a71c28fab078bc42af56583e8ff44",
+      "receipt_id": "22c6e09b9ad847adb9d5e6b87e2366c7",
+      "request_hash": "c6a246d9bf9408b73b260a92ff01a3250ad1e4474c479296635195222af28cf5",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

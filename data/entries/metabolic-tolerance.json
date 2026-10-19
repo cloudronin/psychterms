@@ -1,0 +1,65 @@
+{
+  "id": "metabolic-tolerance",
+  "term": "metabolic tolerance",
+  "definition": "Metabolic tolerance refers to how well a person’s body can handle excessive energy intake. In this packet, low metabolic tolerance means being more prone to obesity from overeating, particularly during stress.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4875620"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4875620",
+      "revision": "2016; DOI 10.1186/s12986-016-0096-8; article XML SHA-256 81d5063a5af690cc4c0d35f6429dab4d7a487ba8988f92f74a321208880cc482",
+      "scope": "Source record 10.1186/s12986-016-0096-8; pinned source text",
+      "locator": "https://doi.org/10.1186/s12986-016-0096-8"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bd2959a6cb8db5a2369aeb4d7595fe76570e27247e5b87731c71011a8b2dc84e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "66b248009b694553b0e53b4c75c709b1",
+    "request_hash": "51d05b3d1dfde0eba4406ee684d45ef4aef9f5e06d13fbc8383cce725ccd5a78",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "801b98fc084714dbcd2bc85614ebc724d2112061f94d02dddcb2313c73829a5a",
+    "packet_hash": "bd2959a6cb8db5a2369aeb4d7595fe76570e27247e5b87731c71011a8b2dc84e"
+  },
+  "hash": "e46a54319e5aef9e711611fce706faa3981e9d07bbfbc107e6bc360b4096d5ce",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “metabolic tolerance” as a general measure of “how well a person’s body can handle excessive energy intake”; it only uses the phrase to describe a hypothesized subgroup (“a human subset of people with a low metabolic tolerance for excessive energy intake”), without an explicit definition.",
+        "The packet’s emphasis is on genotype/obesity risk (“MC4R minor allele… increased risk of obesity”) rather than cognition, so assigning the term to the field “cognition” is not supported by the packet.",
+        "The definition’s claim that “low metabolic tolerance means being more prone to obesity from overeating, particularly during stress” is only indirectly supported (it says increased obesity risk, especially when under stress), but the causal framing (“from overeating”) and the implied mechanism are not explicitly established in the provided text."
+      ],
+      "definition_hash": "801b98fc084714dbcd2bc85614ebc724d2112061f94d02dddcb2313c73829a5a",
+      "packet_hash": "bd2959a6cb8db5a2369aeb4d7595fe76570e27247e5b87731c71011a8b2dc84e",
+      "published_packet_hash": "bd2959a6cb8db5a2369aeb4d7595fe76570e27247e5b87731c71011a8b2dc84e",
+      "receipt_id": "3f0e94299c9f4d1894e70d6f98640b88",
+      "request_hash": "dc4eeba160aa96b588e0e17a2649c40384ca983594ffd0c90287d67e65fa1ba8",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only suggests a possible association (“might be associated,” “might identify”), but the definition states the relationship as settled fact.",
+        "It overgeneralizes a study-specific description of a subset with MC4R minor alleles into a broad definition of “metabolic tolerance.”",
+        "“Low metabolic tolerance means being more prone to obesity from overeating” is broader and more categorical than the packet’s wording about increased obesity risk with excessive energy intake, especially under stress."
+      ],
+      "definition_hash": "801b98fc084714dbcd2bc85614ebc724d2112061f94d02dddcb2313c73829a5a",
+      "packet_hash": "bd2959a6cb8db5a2369aeb4d7595fe76570e27247e5b87731c71011a8b2dc84e",
+      "published_packet_hash": "bd2959a6cb8db5a2369aeb4d7595fe76570e27247e5b87731c71011a8b2dc84e",
+      "receipt_id": "ae6ac412e0cb424bbb32cf63c1e82a79",
+      "request_hash": "230ba2508d60e0be5b2cfb88c10910cbf827a130675f6d146f570d66973fa3eb",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

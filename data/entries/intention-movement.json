@@ -1,0 +1,60 @@
+{
+  "id": "intention-movement",
+  "term": "intention movement",
+  "definition": "Intention movement refers to the brain state in which a person intends to make a movement before the movement is carried out. In this state, activity and connectivity in motor-related brain networks differ from resting and execution states, allowing the upcoming movement to be predicted.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5783365"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5783365",
+      "revision": "2018; DOI 10.1371/journal.pone.0191480; article XML SHA-256 63689d77cd11416fb0de5a77a9abacd2645a9365bfd8d1fe661ce432aac67d8e",
+      "scope": "Source record 10.1371/journal.pone.0191480; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0191480"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "584cfd4913ab1a2f6fdb06512a43d36a968fbc69082f34cc528f5b745f93f1b4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dc59f1f6a231494fa968d78f85e110cf",
+    "request_hash": "da296df4867ad34d2362639ef0efe9eac72424f6fe1103db906a168a75949aa9",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "9799d8869e973b6afbd144ea7b86eeba0804d964ecf36e6af7f973589509b35b",
+    "packet_hash": "584cfd4913ab1a2f6fdb06512a43d36a968fbc69082f34cc528f5b745f93f1b4"
+  },
+  "hash": "0aee55c852a29579af132c3a4f19197e8757ac30dd9de131735ffba7bed40341",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9799d8869e973b6afbd144ea7b86eeba0804d964ecf36e6af7f973589509b35b",
+      "packet_hash": "584cfd4913ab1a2f6fdb06512a43d36a968fbc69082f34cc528f5b745f93f1b4",
+      "published_packet_hash": "584cfd4913ab1a2f6fdb06512a43d36a968fbc69082f34cc528f5b745f93f1b4",
+      "receipt_id": "d215e98c3f164f86b7038381f62deb43",
+      "request_hash": "f8313d14e3596f41b781655b3f40cfa3c7c7df1fa8b752b489d422cae881a986",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports prediction from connectivity dynamics across movement states, but it does not explicitly support the added claim that activity differs from resting and execution states.",
+        "The definition broadens the source by presenting a general brain-state account; the packet is specifically about predicting movement intention from connectivity in a BMI/electrocorticography context."
+      ],
+      "definition_hash": "9799d8869e973b6afbd144ea7b86eeba0804d964ecf36e6af7f973589509b35b",
+      "packet_hash": "584cfd4913ab1a2f6fdb06512a43d36a968fbc69082f34cc528f5b745f93f1b4",
+      "published_packet_hash": "584cfd4913ab1a2f6fdb06512a43d36a968fbc69082f34cc528f5b745f93f1b4",
+      "receipt_id": "053e4ed1c4554a9fac02c12dfdc765fa",
+      "request_hash": "f09227e614aafe44c6e051002de0a3c78d1598e8ef53bee7a7d982bff30d9bc1",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

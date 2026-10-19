@@ -1,0 +1,60 @@
+{
+  "id": "molecular-genetics",
+  "term": "molecular genetics",
+  "definition": "Molecular genetics refers to experimental methods used to study and alter genes at the molecular level. In this context, it includes tools for genetic transformation, targeted mutagenesis, and introducing genes to track cellular components or gene expression.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11676576"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11676576",
+      "revision": "2024; DOI 10.1371/journal.pone.0308794; article XML SHA-256 cf4472896e0ce88478a08b89b675691ea49d0b18226c439fd7831462b4c92e4b",
+      "scope": "Source record 10.1371/journal.pone.0308794; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0308794"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "40f28a621444180b4f17439ea24d48af8741701ac227a8d1147b03a750c898db",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "daec61fad1ce4bb29631fb1e9da9e660",
+    "request_hash": "e7802f300d6249ba81b4e6ffea56fd96c242c8110b22fa24761f31ea5ed98a82",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "816ab0f8fd5d27e011bf0769449738685a9eff5ebc9efe918b00a8d5cb1e632a",
+    "packet_hash": "40f28a621444180b4f17439ea24d48af8741701ac227a8d1147b03a750c898db"
+  },
+  "hash": "5208e8d6f4a2d79dd9e0ec65014f368c8cf53f411198aadb9a4cee63b173a9fe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports molecular genetics as a set of experimental tools/protocols in this fungus study, but it does not support the broader general definition that it is about studying and altering genes at the molecular level.",
+        "The claim that it includes introducing genes to track cellular components or gene expression is not directly supported; the packet mentions mCherry tagging of histone H2B for localization and heterologous gene expression, not gene-expression tracking as a general feature."
+      ],
+      "definition_hash": "816ab0f8fd5d27e011bf0769449738685a9eff5ebc9efe918b00a8d5cb1e632a",
+      "packet_hash": "40f28a621444180b4f17439ea24d48af8741701ac227a8d1147b03a750c898db",
+      "published_packet_hash": "40f28a621444180b4f17439ea24d48af8741701ac227a8d1147b03a750c898db",
+      "receipt_id": "a73aa57ad2ee4229b19712fae81537fd",
+      "request_hash": "927ab1e93702bd6a7774c2706bcf7445030e2820e2a11c504bf0c335093925a7",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "816ab0f8fd5d27e011bf0769449738685a9eff5ebc9efe918b00a8d5cb1e632a",
+      "packet_hash": "40f28a621444180b4f17439ea24d48af8741701ac227a8d1147b03a750c898db",
+      "published_packet_hash": "40f28a621444180b4f17439ea24d48af8741701ac227a8d1147b03a750c898db",
+      "receipt_id": "ac04be56a2b34b1eab750c834ace622f",
+      "request_hash": "3e3d6a04044d5db08c49df9b68fa2c603f4df7f51eac3a795c2034492cc9e264",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

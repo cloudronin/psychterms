@@ -1,0 +1,61 @@
+{
+  "id": "computational-model",
+  "term": "computational model",
+  "definition": "A computational model is a computer-based representation of a real system that uses mathematical equations and simulated conditions to predict how that system behaves. In the source, it is used to represent the human eye and estimate drug movement, concentration, and half-life under different physiological scenarios.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13152179"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13152179",
+      "revision": "2026; DOI 10.1371/journal.pone.0348811; article XML SHA-256 487ab228f9e92e7a6ec419c8c6979dafb07e4906cf02f57dc3cf69d0bd55d38f",
+      "scope": "Source record 10.1371/journal.pone.0348811; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348811"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7d8048c34a34919bc492a89fd95268692a43bf7847b38fc068695f33adfa7103",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e45396da5f424bab8419534cf461a70a",
+    "request_hash": "171293c67791dd5a0ee92be1e51538e16eefe654b708a43498d0a01074b594ca",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "beb6cb3bf0377e6c8f5f68e5652a1b42b9118d6688b412d87cf246335d0b0d5d",
+    "packet_hash": "7d8048c34a34919bc492a89fd95268692a43bf7847b38fc068695f33adfa7103"
+  },
+  "hash": "0312725883e6a5b407e700bea7416aaeeb96a88c669847382b6de92dcf724cb5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "beb6cb3bf0377e6c8f5f68e5652a1b42b9118d6688b412d87cf246335d0b0d5d",
+      "packet_hash": "7d8048c34a34919bc492a89fd95268692a43bf7847b38fc068695f33adfa7103",
+      "published_packet_hash": "7d8048c34a34919bc492a89fd95268692a43bf7847b38fc068695f33adfa7103",
+      "receipt_id": "fa7ff6d5965a4d0eb7996aeef7651105",
+      "request_hash": "820a3516fb2a2af9d7c0d65d428b4dcc717cadd6fae41f27c835fa51d71ece53",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement that a computational model is “a computer-based representation of a real system” using “mathematical equations and simulated conditions to predict how that system behaves” is not explicitly supported by the provided packet text (the packet describes one specific pharmacokinetic modeling approach rather than stating this general definition).",
+        "The definition claims the model is used to “estimate drug movement,” but the packet text specifically describes predicting ocular pharmacokinetics, including drug concentration near the macula and intravitreal half-lives; it does not explicitly describe “drug movement.”",
+        "The definition is framed as applicable in the “learning” field, but the packet context is an ocular pharmacokinetics/computational modeling study (ranibizumab eye modeling), not learning."
+      ],
+      "definition_hash": "beb6cb3bf0377e6c8f5f68e5652a1b42b9118d6688b412d87cf246335d0b0d5d",
+      "packet_hash": "7d8048c34a34919bc492a89fd95268692a43bf7847b38fc068695f33adfa7103",
+      "published_packet_hash": "7d8048c34a34919bc492a89fd95268692a43bf7847b38fc068695f33adfa7103",
+      "receipt_id": "e6182ba43aba484cbcdbffd592f134cc",
+      "request_hash": "963efc08b73b94c74c7f882e1794a1b2f9cf4ac392da78b9ece917611d904b9e",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

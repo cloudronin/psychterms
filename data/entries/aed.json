@@ -1,0 +1,60 @@
+{
+  "id": "aed",
+  "term": "AED",
+  "definition": "AED stands for automated external defibrillator, a device placed in public settings to allow early defibrillation during cardiac arrest outside the hospital. In practice, its use is often limited by poor access, lack of public awareness about where it is or how to use it, and negative perceptions.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11864529"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11864529",
+      "revision": "2025; DOI 10.1371/journal.pone.0318065; article XML SHA-256 9b04faa6ada9f343d7a7eebeed86652448f1f1298fef06e5a95b938a7a6f6827",
+      "scope": "Source record 10.1371/journal.pone.0318065; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0318065"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e17f90e14497da8b1f9b2799867112fb99c46d44e827712dfb5936b8c8c0f5f1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8a1b0185812740349cad6bebd62b6173",
+    "request_hash": "930aad7027043466413e20100c28098308a7a849cca62f86b1182294d6d30528",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "25ea9fc31aad67f4863d3ff111cacb8370c15cab0d648d98dd6de067b3a165c7",
+    "packet_hash": "e17f90e14497da8b1f9b2799867112fb99c46d44e827712dfb5936b8c8c0f5f1"
+  },
+  "hash": "893e60d856559e041ed8575bc875da30393291f665e067897b0b628c5b5b8416",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "25ea9fc31aad67f4863d3ff111cacb8370c15cab0d648d98dd6de067b3a165c7",
+      "packet_hash": "e17f90e14497da8b1f9b2799867112fb99c46d44e827712dfb5936b8c8c0f5f1",
+      "published_packet_hash": "e17f90e14497da8b1f9b2799867112fb99c46d44e827712dfb5936b8c8c0f5f1",
+      "receipt_id": "4335b9eabb3b4bdaaf8a71d739c66bb4",
+      "request_hash": "6f5856af9c47ad2b948e7032d45c024e7c07232ab2e694efd0d3e768ca3ecabf",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source supports AED as an automated external defibrillator and discusses public access barriers, but it does not support the requested field 'cognition'; this is a medical/public-health term, not a cognition term.",
+        "The definition goes beyond the packet by framing AEDs as 'placed in public settings' and their use as 'often limited' in a generalized way; the packet only states that public AED access and awareness barriers persist and that use is limited in some settings."
+      ],
+      "definition_hash": "25ea9fc31aad67f4863d3ff111cacb8370c15cab0d648d98dd6de067b3a165c7",
+      "packet_hash": "e17f90e14497da8b1f9b2799867112fb99c46d44e827712dfb5936b8c8c0f5f1",
+      "published_packet_hash": "e17f90e14497da8b1f9b2799867112fb99c46d44e827712dfb5936b8c8c0f5f1",
+      "receipt_id": "cc3035cfd37b426283e7945cd057d7c6",
+      "request_hash": "51ce901991d39987401e5b032be64f69d83e876a75b70b52c1c93b8f21c3274e",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

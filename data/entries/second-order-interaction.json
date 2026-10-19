@@ -1,0 +1,60 @@
+{
+  "id": "second-order-interaction",
+  "term": "second-order interaction",
+  "definition": "Second-order interaction is the pairwise relationship between variables that a model uses to capture how multivariate exponential signals are connected. In this source, it refers to estimating those interactions for the rate intensity parameters in logarithmic space so the underlying correlation structure of the signals can be represented.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12648510"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12648510",
+      "revision": "2025; DOI 10.3389/fncom.2025.1408836; article XML SHA-256 d107c40854eb24deef0a1253a1f35b9cfcb699b11b0e68b6a429b779bb262b41",
+      "scope": "Source record 10.3389/fncom.2025.1408836; pinned source text",
+      "locator": "https://doi.org/10.3389/fncom.2025.1408836"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cefb51ca55c79882d9b7756b4670615b50660cd7efa1eef602e7e5f5ce78f272",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "145bb3dfe8e3495b879bbfd18c774996",
+    "request_hash": "f3c7839ab7aeca4a916e3ee7606647f1c298817fa71f6073a7e6b810dbeb92d4",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "e54a77b275f38601d067d0cc2304ead96a5a55ef1a4f30850fc3731bb83084e8",
+    "packet_hash": "cefb51ca55c79882d9b7756b4670615b50660cd7efa1eef602e7e5f5ce78f272"
+  },
+  "hash": "97ffa240e2053107569ae3b01b8d7add7fcbf2c72cffebebe5937acccc354609",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e54a77b275f38601d067d0cc2304ead96a5a55ef1a4f30850fc3731bb83084e8",
+      "packet_hash": "cefb51ca55c79882d9b7756b4670615b50660cd7efa1eef602e7e5f5ce78f272",
+      "published_packet_hash": "cefb51ca55c79882d9b7756b4670615b50660cd7efa1eef602e7e5f5ce78f272",
+      "receipt_id": "01154098c6294d5a9a57869d6f3e3092",
+      "request_hash": "3be19b147bf0432260c4b24dcff66ed655ca5dcef02ad37d4b9e19d18793a497",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “Second-order interaction is the pairwise relationship between variables.” The packet does not explicitly state that the second-order interaction is pairwise; it only says the model “estimates the second-order interaction of the rate intensity parameter” to account for “complex interactions among multivariate exponential random variables.”",
+        "The definition’s wording that interactions are “to capture how multivariate exponential signals are connected” is not directly stated in the packet (the packet instead describes estimating interactions to handle complex interactions and to evaluate correlation structure)."
+      ],
+      "definition_hash": "e54a77b275f38601d067d0cc2304ead96a5a55ef1a4f30850fc3731bb83084e8",
+      "packet_hash": "cefb51ca55c79882d9b7756b4670615b50660cd7efa1eef602e7e5f5ce78f272",
+      "published_packet_hash": "cefb51ca55c79882d9b7756b4670615b50660cd7efa1eef602e7e5f5ce78f272",
+      "receipt_id": "cfacc2c9339740a4abdc18f3fc32c309",
+      "request_hash": "7bda779148c6603961cb3bafc9ba4cd102190a410acc2b0a199b155ac29488f3",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

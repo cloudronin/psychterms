@@ -1,0 +1,60 @@
+{
+  "id": "blastocyst",
+  "term": "blastocyst",
+  "definition": "In assisted reproductive technology, a blastocyst is an embryo whose tissue structure can be analyzed in images to help judge implantation potential. In this source, the term is used in the context of segmenting its nested, transparent tissues so they can be evaluated more accurately.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13446701"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13446701",
+      "revision": "2026; DOI 10.1371/journal.pone.0355053; article XML SHA-256 5de66230e57ea942337a69e5a4864ee5539d58046f7600ebe056da0db7f7420c",
+      "scope": "Source record 10.1371/journal.pone.0355053; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355053"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4618a7f4e6b142c88e01d98242689a24",
+    "request_hash": "1ccb0ff00f65638ac45f61c6b3bf98e1dedc4dc74ff00ecec6901d8a978be888",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "544a11eb549190a2744a115e1f5a14fea6b4937d126f39c2ce22d79649e7d3c4",
+    "packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac"
+  },
+  "hash": "4855faf51a89646fa59e767f3fe2ada68fac3e63fee1b06b80a92aa827890a03",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "544a11eb549190a2744a115e1f5a14fea6b4937d126f39c2ce22d79649e7d3c4",
+      "packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac",
+      "published_packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac",
+      "receipt_id": "5cd8881dcb324358a0bb2b14fe7ccd4b",
+      "request_hash": "071504b1539d0a7905d1748114e24a2d739a0ab666d2717b200f0163f94dbb85",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that a blastocyst is an embryo, but the packet only discusses blastocyst tissues/images in ART and does not explicitly define the term that way.",
+        "The sentence is slightly more expansive than the packet’s wording and turns a usage context into a general definition; keep the entry limited to what the source actually states."
+      ],
+      "definition_hash": "544a11eb549190a2744a115e1f5a14fea6b4937d126f39c2ce22d79649e7d3c4",
+      "packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac",
+      "published_packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac",
+      "receipt_id": "4f6daa4a51c940ee893c0036cff2cc5c",
+      "request_hash": "ea4d10ed6bd5953eb56fdcd3082ffec3079bb91816c038082faa5a7097cf4c81",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

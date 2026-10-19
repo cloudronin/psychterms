@@ -1,0 +1,60 @@
+{
+  "id": "computer-simulation",
+  "term": "computer simulation",
+  "definition": "A computer simulation is a software-based model that reproduces how a system or organism might behave over time by applying programmed rules. In this source, it is used to generate and study the possible 3D movement paths of artificial worm-like forms on a grid.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13568494"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13568494",
+      "revision": "2026; DOI 10.1371/journal.pone.0358065; article XML SHA-256 eaaadddff638ca747f28188d27ebc6cd6c837072e88feefab19319b8a546991c",
+      "scope": "Source record 10.1371/journal.pone.0358065; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358065"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "28710f9f38124a80b8ade49a4ac75657",
+    "request_hash": "cf6f4db52f2cf325d7b69cb92055b6e6b37a6503cd122b52c333c3b820285c1b",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "1efe1bafc56c922cdc4106bd5b57ceca2d05e1717f196e27388a4cbf92eae672",
+    "packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3"
+  },
+  "hash": "ea8fcddf1290cc434b734a85387d605fbb9b5c209dfc43b77961fd0bd8839bf2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1efe1bafc56c922cdc4106bd5b57ceca2d05e1717f196e27388a4cbf92eae672",
+      "packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3",
+      "published_packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3",
+      "receipt_id": "58ffa30048974cc490ea878b2a346acb",
+      "request_hash": "8ab73b5183906445209a524bce84d4aa3cc8d8a6fa6a4fe14bc550604ba5df06",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the general claim that a “computer simulation” reproduces system/organism behavior over time by “applying programmed rules.” It only describes a specific simulation used to model worm path patterns on a 3D grid, without stating this general definitional phrasing.",
+        "While the second sentence is supported (the study involves custom simulation software to model and analyze 3D worm trace/path patterns on a 3D orthogonal grid), the first sentence contains an additional general definitional characterization not directly supported by the provided text."
+      ],
+      "definition_hash": "1efe1bafc56c922cdc4106bd5b57ceca2d05e1717f196e27388a4cbf92eae672",
+      "packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3",
+      "published_packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3",
+      "receipt_id": "ddd83245d5f646ccae98b5e2323bc46b",
+      "request_hash": "49d05a68c989e677714f9ce660ff44882e8469da547391fa7a1af50688e6d17f",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

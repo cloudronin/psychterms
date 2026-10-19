@@ -1,0 +1,61 @@
+{
+  "id": "broadband-noise",
+  "term": "broadband noise",
+  "definition": "Broadband noise is ambient noise spread across a wide range of frequencies that can mask other sounds, such as social calls. In this context, it reduces the acoustic information available to an animal and can change attention-related behaviour such as vigilance and foraging efficiency.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6312262"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6312262",
+      "revision": "2018; DOI 10.1371/journal.pone.0209471; article XML SHA-256 11d92a987a122d8df5c584f85e1b0766c55835c88d32610d0bf233f2dda44e11",
+      "scope": "Source record 10.1371/journal.pone.0209471; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0209471"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8c0e2a4a15374432bf964f9dfb2cd33a",
+    "request_hash": "e78408edeebc1822d8585df00a696cdc641590d055cc4937d3cf319d630fe788",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "aeb40a80b23c39fb279d7d98355f60a1113be26777b9ea6cf64713227751f8ac",
+    "packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5"
+  },
+  "hash": "3b51094d5e64ca06b66ecafaf68733212f576d38e8757d14319035598948cecd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says “broadband” noise is spread across a wide range of frequencies, but the packet only refers to “ambient broadband noise” and does not explicitly describe broadband as covering a wide range of frequencies.",
+        "The definition frames effects as “attention-related behaviour,” but the packet discusses “vigilant” and “foraging” behaviours without using or supporting the specific “attention-related” characterization.",
+        "While the packet supports that masking noise influences vigilance and foraging efficiency (“spent a significantly more time vigilant… resulting in less efficient foraging”), it does not support the full phrasing about reducing acoustic information “to an animal” as a general statement beyond the described experimental context."
+      ],
+      "definition_hash": "aeb40a80b23c39fb279d7d98355f60a1113be26777b9ea6cf64713227751f8ac",
+      "packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5",
+      "published_packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5",
+      "receipt_id": "e224df2c76e843d293f1a7d3eb7b5c47",
+      "request_hash": "d0f003e65722c25b1e4c0b1beaa1e3cd4e3ecd2ecc919d99eb217127818f7a7e",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aeb40a80b23c39fb279d7d98355f60a1113be26777b9ea6cf64713227751f8ac",
+      "packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5",
+      "published_packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5",
+      "receipt_id": "5a5cd7b3e0654c34a2bb798d41afc4a6",
+      "request_hash": "985082d150b71a903fb41ffa86acdd4b694b79e62879ee3475706a7d5ce1d68b",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

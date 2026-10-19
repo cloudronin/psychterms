@@ -1,0 +1,63 @@
+{
+  "id": "random-control",
+  "term": "random control",
+  "definition": "Random control refers to a trial design that compares a group receiving an intervention with a control group that does not, to see whether the intervention changes outcomes. In the packet, it describes dividing participants into two groups and comparing later adherence and health status between them.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12186925"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12186925",
+      "revision": "2025; DOI 10.1371/journal.pone.0325192; article XML SHA-256 c85de836d03c396c08a0027f5d2eda7569b5c4c3ace08c9727e3fced720d8f50",
+      "scope": "Source record 10.1371/journal.pone.0325192; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0325192"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "06c5c151fcf84a85f4ad7acb7ab7dde8fe003f94f04396ef0a49c1a513fe28f2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1a3a747e3efc4d20acc7e6d5770aeb66",
+    "request_hash": "e134ae5d1aeae0810da77cf7d3fa9c3b7aa73fc7c1aa79c0f11e01d267ffa614",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "0363b4736ac4af99cc481e6256743d7699c07809db7cfdbf1d1aac48207d89ef",
+    "packet_hash": "06c5c151fcf84a85f4ad7acb7ab7dde8fe003f94f04396ef0a49c1a513fe28f2"
+  },
+  "hash": "53007725ce3223cb5b79eea0280c00776d7c193cbb53236ced9bf7464d1b6210",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a randomized controlled trial design, but the term’s requested field of learning is not defensible here because the source is a clinical intervention study rather than a learning/education concept entry.",
+        "The definition overstates the general sense by presenting a generic clinical trial definition for ‘random control’ without establishing that this is the intended dictionary sense rather than the packet’s article title wording."
+      ],
+      "definition_hash": "0363b4736ac4af99cc481e6256743d7699c07809db7cfdbf1d1aac48207d89ef",
+      "packet_hash": "06c5c151fcf84a85f4ad7acb7ab7dde8fe003f94f04396ef0a49c1a513fe28f2",
+      "published_packet_hash": "06c5c151fcf84a85f4ad7acb7ab7dde8fe003f94f04396ef0a49c1a513fe28f2",
+      "receipt_id": "e77ef2dcd66945388c4b2bdec011b4d9",
+      "request_hash": "db3b7e8a5a2890e3b68f1cb0e5c2c168e6071ff0149f92f1bd0ca54bf15d4e99",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the design involves “random” assignment; the packet labels the study as a “random control trial,” but it does not provide details supporting randomization (e.g., how participants were randomized).",
+        "Other parts of the definition (intervention group vs a control group that only joined surveys; comparing adherence and health status after the intervention) are supported by the packet, but the unsupported “random” justification prevents a fully defensible definition."
+      ],
+      "definition_hash": "0363b4736ac4af99cc481e6256743d7699c07809db7cfdbf1d1aac48207d89ef",
+      "packet_hash": "06c5c151fcf84a85f4ad7acb7ab7dde8fe003f94f04396ef0a49c1a513fe28f2",
+      "published_packet_hash": "06c5c151fcf84a85f4ad7acb7ab7dde8fe003f94f04396ef0a49c1a513fe28f2",
+      "receipt_id": "103185d3ea854d25969172abc21e03b5",
+      "request_hash": "40fe72479035846d104660eda8000209c5123fa62fd3ee462e446058f16ee5d5",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

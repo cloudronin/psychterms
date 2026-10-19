@@ -1,0 +1,59 @@
+{
+  "id": "periodicity-pitch",
+  "term": "periodicity pitch",
+  "definition": "Periodicity pitch is pitch perception based on the repeating time pattern of incoming sound signals, represented through neural spike timing along the auditory pathway. In the source, it is explained as being learned in stages, with auditory neurons becoming tuned to temporal input patterns that support pitch discrimination and estimation.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8959216"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8959216",
+      "revision": "2022; DOI 10.3389/fnins.2022.736642; article XML SHA-256 374c6d38f6611dc07e913bcf92b965e072d3f51a78c2a716286b7320883b136a",
+      "scope": "Source record 10.3389/fnins.2022.736642; pinned source text",
+      "locator": "https://doi.org/10.3389/fnins.2022.736642"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c8194023d2ed42b2a154aec2f20d8abb",
+    "request_hash": "4a79f160256af0e3d23a47c2d4fe1123167d8cc43fce9ab35f12e7bebe1137a2",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "0ac1ae1d66a0b772be0d2c52216bd77e5d8f18c8edfcc138608c136cb9f043e4",
+    "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0"
+  },
+  "hash": "33379ad1aa42258a9cc685eda7dd9d1be251f552b85bfad7b54f0a27fcdd6478",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0ac1ae1d66a0b772be0d2c52216bd77e5d8f18c8edfcc138608c136cb9f043e4",
+      "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0",
+      "published_packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0",
+      "receipt_id": "0d9ee3c0ed8d4d419df88dfcaf7f3958",
+      "request_hash": "20ca3a7e50dab1b19863b81c6e7886b37433c43b66b75e998fffb9a24b6d4233",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that periodicity pitch is “based on the repeating time pattern of incoming sound signals,” but the packet does not explicitly describe periodicity pitch in terms of repeating time patterns of incoming sounds (it discusses periodicity pitch in a modeling context and uses temporal/spike-based mechanisms, but the exact “repeating time pattern” framing is not directly supported)."
+      ],
+      "definition_hash": "0ac1ae1d66a0b772be0d2c52216bd77e5d8f18c8edfcc138608c136cb9f043e4",
+      "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0",
+      "published_packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0",
+      "receipt_id": "84a2a0fa93e146ea8c429978ce320706",
+      "request_hash": "794713b4cc11f7d78aaac4068719fe286587dec25f15e7e09e66a3997c6bef8c",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

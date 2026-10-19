@@ -1,0 +1,64 @@
+{
+  "id": "homicide",
+  "term": "homicide",
+  "definition": "Homicide is the killing of one person by another, discussed here as a form of violent death that can involve firearms. In this context, firearm-related homicide is described as becoming more frequent where firearm access is easier.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10675850"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10675850",
+      "revision": "2023; DOI 10.1186/s12888-023-05368-6; article XML SHA-256 7d5b4e2a498aeba6eb3361e2c128a370c245072dd7c7cd09bfe2fb49ccc8daf0",
+      "scope": "Source record 10.1186/s12888-023-05368-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-023-05368-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b7feab04d51d62db2d3ce1f7d090c0f0f4ab455ac37cd3d7cd588fc351dedf12",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "aa583ac1c9e943aea950e677bcb67203",
+    "request_hash": "83211294afd9c3ce13f4bb640c1f65d019a08ac9220e1195aae63928de8efb09",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "e5caf9ccb3d3f162c485b4268bc5ac662d48716df89658237bf0bf3506626f0c",
+    "packet_hash": "b7feab04d51d62db2d3ce1f7d090c0f0f4ab455ac37cd3d7cd588fc351dedf12"
+  },
+  "hash": "726b48d31445f34d40abc54a4b9b50c733e8ded499ce90267e12b22a4b6369c6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only firearm-related homicide and its association with easier firearm access; it does not support the general definition that homicide is the killing of one person by another.",
+        "The phrase ‘a form of violent death’ is an unsupported generalization not stated in the packet.",
+        "The definition mixes a general sense of the term with a narrower firearm-related context, which is not justified by the source packet."
+      ],
+      "definition_hash": "e5caf9ccb3d3f162c485b4268bc5ac662d48716df89658237bf0bf3506626f0c",
+      "packet_hash": "b7feab04d51d62db2d3ce1f7d090c0f0f4ab455ac37cd3d7cd588fc351dedf12",
+      "published_packet_hash": "b7feab04d51d62db2d3ce1f7d090c0f0f4ab455ac37cd3d7cd588fc351dedf12",
+      "receipt_id": "b1246e54322744c8828742bd7730255c",
+      "request_hash": "a1cf2b053c22168d308425346c657a1d12943afebd8b3d6502a6e147490293f0",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first substantive claim—“Homicide is the killing of one person by another”—is not explicitly defined in the provided packet text; the packet references homicide but does not provide that definition.",
+        "Because the first sentence contains an unsupported general definitional statement, the overall definition cannot be considered fully supported by the packet even though the packet discusses firearm availability being linked to firearm-related suicide/homicide frequency."
+      ],
+      "definition_hash": "e5caf9ccb3d3f162c485b4268bc5ac662d48716df89658237bf0bf3506626f0c",
+      "packet_hash": "b7feab04d51d62db2d3ce1f7d090c0f0f4ab455ac37cd3d7cd588fc351dedf12",
+      "published_packet_hash": "b7feab04d51d62db2d3ce1f7d090c0f0f4ab455ac37cd3d7cd588fc351dedf12",
+      "receipt_id": "a1e2d29793c345fb8bcf78c751bd3310",
+      "request_hash": "afd1e3d12c8f941b15a4f52aec9bc94faf5344e36c108cd8e1f4475c8ffcefd9",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "graph-theory",
+  "term": "graph theory",
+  "source": "article-pmc13278587",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344827",
+  "revision": "2026; DOI 10.1371/journal.pone.0344827; article XML SHA-256 8e63bdad2859631f82187e08b52d1fb54921c340151cd1020b731d38cbc6aec2",
+  "source_snapshot_sha256": "8e63bdad2859631f82187e08b52d1fb54921c340151cd1020b731d38cbc6aec2",
+  "url": "https://doi.org/10.1371/journal.pone.0344827",
+  "text": "Predicting the epidemic threshold τ in contact networks is a central challenge in computational epidemiology. Classical structural approaches based on spectral graph theory—most notably Quenched Mean-Field (QMF) and the recently proposed KSEL (K Spectral Energy of Laplacian) method—deliver fast but approximate predictions. We propose a hybrid AI-mathematical framework that integrates spectral graph features, epidemiological parameters, and epidemiologically motivated soft constraints derived from compartmental theory into a physics-guided neural network (PGNN). Rather than claiming state-of-the-art predictive performance, this work makes three complementary contributions: (i) a rigorous stochastic ground-truth estimation procedure with Monte Carlo uncertainty quantification (median σ τ * = 0.0072 , n = 775 networks); (ii) a systematic comparative evaluation of seven methods—including tree-based models (Random Forest, Gradient Boosting) trained on the same feature set—revealing the conditions under which deep learning surpasses and falls short of simpler baselines; and (iii) a full ablation study and SHAP interpretability analysis identifying the role of individual spectral features and physical constraints as structured regularisers. Evaluated on 775 synthetic networks spanning Erdős–Rényi, Barabási–Albert, Watts–Strogatz, and regular topologies, Gradient Boosting achieves the best predictive accuracy ( R 2 = 0.908, RMSE = 0.0731), while the PGNN ( R 2 = 0.093) offers complementary value through physical consistency and interpretability. These results are established on synthetic benchmarks; application to empirical contact networks (hospital, school, workplace settings) is a natural next step but requires dedicated validation beyond the scope of the present study. Ablation results show that the boundedness constraint is a beneficial regulariser while the stability constraint over-regularises in the low-data regime. Automatic gradient-based calibration of the KSEL coefficient yields topology-dependent optimal values ( k * ∈ [ 0.803 , 1.458 ] ), substantially departing from the universal constant k = 0.3 of prior work.",
+  "source_label": "A Hybrid AI-Mathematical approach for epidemic threshold prediction in metapopulation networks: Integrating physics-guided neural networks with spectral graph theory",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2155
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "709a126df0071efb81489f5c90774ab2c8a0a3cb8ae5451723ca922fa04251f6"
+}

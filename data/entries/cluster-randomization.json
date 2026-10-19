@@ -1,0 +1,61 @@
+{
+  "id": "cluster-randomization",
+  "term": "cluster randomization",
+  "definition": "Cluster randomization is a study design in which groups, or clusters, rather than individual people are assigned during an evaluation of interventions such as health-care, screening, or educational programs. In this approach, the sizes of the groups may differ, which can matter when planning the study.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc1513250"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc1513250",
+      "revision": "2006; DOI 10.1186/1471-2288-6-17; article XML SHA-256 84ca15f2a8498293a76f3ea9812cd8249531123371fc7052f957d0db5e193fe5",
+      "scope": "Source record 10.1186/1471-2288-6-17; pinned source text",
+      "locator": "https://doi.org/10.1186/1471-2288-6-17"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "32811bc13bf564601f7442a8d3331caef791b903a275363d929f9ebf7b7a6ed0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "11fcf91112db446a8e933c7d4f591737",
+    "request_hash": "3ac4ed2790aeb578fd9c69bfbd530d9559c46d86c796d30ead0a4fdca22cd7cf",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "f38831fa0cec8e19caa06cfcce75050a64cb8c01d8e6921aed64b4538f396786",
+    "packet_hash": "32811bc13bf564601f7442a8d3331caef791b903a275363d929f9ebf7b7a6ed0"
+  },
+  "hash": "b5debbe0006547574d8af612217da9b84e7c933ebf023b50a8e5b080ad39e426",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f38831fa0cec8e19caa06cfcce75050a64cb8c01d8e6921aed64b4538f396786",
+      "packet_hash": "32811bc13bf564601f7442a8d3331caef791b903a275363d929f9ebf7b7a6ed0",
+      "published_packet_hash": "32811bc13bf564601f7442a8d3331caef791b903a275363d929f9ebf7b7a6ed0",
+      "receipt_id": "c4a01b6544ce47b4be792d795e6c4477",
+      "request_hash": "abd57d0634c5f2d47255da71b05dfc33547f14e4a3d8efbea53b621dd63b231b",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state the core defining feature that, in cluster randomization, clusters/groups are assigned rather than individual people; it only discusses the use of “cluster randomization design” and planning considerations for unequal cluster sizes.",
+        "The packet mentions evaluation of health-care, screening (“screeening” in text), and educational interventions, but the definition’s broader phrasing about assignment “during an evaluation of interventions such as…” is only partially supported.",
+        "The packet supports that cluster sizes can differ and that this can matter for planning/sample size calculations (it notes discrepancies in cluster sizes and that planning may use an average cluster size), but this support does not cover the definition’s unquoted assignment-vs-individuals framing."
+      ],
+      "definition_hash": "f38831fa0cec8e19caa06cfcce75050a64cb8c01d8e6921aed64b4538f396786",
+      "packet_hash": "32811bc13bf564601f7442a8d3331caef791b903a275363d929f9ebf7b7a6ed0",
+      "published_packet_hash": "32811bc13bf564601f7442a8d3331caef791b903a275363d929f9ebf7b7a6ed0",
+      "receipt_id": "cd97022637854875bfdf33b28f3e5603",
+      "request_hash": "a1470a0a9af2632d90322f0ef1fd8af53d61e71f20d7e5999bf2bcf5b3e61597",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "biochemical-defect",
+  "term": "biochemical defect",
+  "definition": "A biochemical defect is an abnormal chemical process in the body that contributes to disease. In the source example, it refers to the unusually rapid production of toxic lipofuscin bisretinoids in retinal pigment epithelium in Stargardt disease.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9560169"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9560169",
+      "revision": "2022; DOI 10.1371/journal.pone.0269437; article XML SHA-256 89f93fe177ef62b9d8556bd0025933d26ce0800187b9de14b8c03374d90a2257",
+      "scope": "Source record 10.1371/journal.pone.0269437; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0269437"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "85c8d5b69c25906509e4059669f7eeec5f6560584f78a8c4d9ab88bf371d91bf",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e10c27e8a18848688cbb37603d132f16",
+    "request_hash": "2bf2360161d78b0b13defc30d91d53385d8c89afa77282fddcb15d99a5ade2e3",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "0b436be29a1c3995938face4dbdd1276c2bfa3f21e4ef1d74db4bb5a6b322c6d",
+    "packet_hash": "85c8d5b69c25906509e4059669f7eeec5f6560584f78a8c4d9ab88bf371d91bf"
+  },
+  "hash": "0048c8fd77f863faff648b35a24df3dc4bee516431b77d9e8bedcbd2373ba850",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement (“an abnormal chemical process in the body that contributes to disease”) is not explicitly supported in the packet. The packet discusses specific biochemical mechanisms (e.g., accelerated synthesis of lipofuscin bisretinoids in Stargardt disease) but does not provide a general definition of “biochemical defect.”",
+        "The Stargardt example portion is supported (accelerated synthesis of cytotoxic lipofuscin bisretinoids in retinal pigment epithelium due to ABCA4 mutations), but because the first, general characterization is unsupported, the overall definition cannot be accepted."
+      ],
+      "definition_hash": "0b436be29a1c3995938face4dbdd1276c2bfa3f21e4ef1d74db4bb5a6b322c6d",
+      "packet_hash": "85c8d5b69c25906509e4059669f7eeec5f6560584f78a8c4d9ab88bf371d91bf",
+      "published_packet_hash": "85c8d5b69c25906509e4059669f7eeec5f6560584f78a8c4d9ab88bf371d91bf",
+      "receipt_id": "56ae967f4e5242b99581f22e70124c46",
+      "request_hash": "35ccea287d1d796abaa180cc56f524832f267978bcad188203041afbbf82d78d",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0b436be29a1c3995938face4dbdd1276c2bfa3f21e4ef1d74db4bb5a6b322c6d",
+      "packet_hash": "85c8d5b69c25906509e4059669f7eeec5f6560584f78a8c4d9ab88bf371d91bf",
+      "published_packet_hash": "85c8d5b69c25906509e4059669f7eeec5f6560584f78a8c4d9ab88bf371d91bf",
+      "receipt_id": "9b9d90a99d1648e1a921abc8d3883315",
+      "request_hash": "831dbfc7f10b240c7b5390fcb29efd272b2b894de420118e4f9015d723587f1a",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

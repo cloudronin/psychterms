@@ -1,0 +1,62 @@
+{
+  "id": "cumulative-probability-distribution",
+  "term": "cumulative probability distribution",
+  "definition": "A cumulative probability distribution is a curve that shows how probabilities add up across values, such as gray-scale pixel intensities in an image. In this context, it describes the accumulated distribution of plaque pixel gray levels and can reflect more of the overall pattern than a single summary value like the median.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5627908"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5627908",
+      "revision": "2017; DOI 10.1371/journal.pone.0185261; article XML SHA-256 ac49af49184030939e018d8a0f076b95d456ae05a0d18602544af7214d156b89",
+      "scope": "Source record 10.1371/journal.pone.0185261; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0185261"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "372eb24d1d1640f4b0517dc6373020e5",
+    "request_hash": "eb671c76d52d9ee5cb478764bbbedf97b3cdb77ebf310d1d0bd1e363ab57c849",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "e04d89b4b79649cfd8e072dee9dfd3fd11550aa91fbe4565a7026ac424363438",
+    "packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89"
+  },
+  "hash": "d03a3c30a0052d90ee4ee9b29d838a03f0845f6c342e619898175aa42215b282",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general statement that a cumulative probability distribution is “a curve that shows how probabilities add up across values” is not explicitly supported by the provided packet text."
+      ],
+      "definition_hash": "e04d89b4b79649cfd8e072dee9dfd3fd11550aa91fbe4565a7026ac424363438",
+      "packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89",
+      "published_packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89",
+      "receipt_id": "62cef4ac010843e5a231fdaef423ebb8",
+      "request_hash": "b02bc70562a8f6995f3b95f96d3158e60c1b5b486e2da92638fac6aa91db28e2",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The comparison that this measure “can reflect more of the overall pattern than a single summary value like the median” is not stated in the packet; the source only says GSM is the fiftieth percentile and that it ignores details of the probability distribution, while suggesting AUCPDC may be useful.",
+        "The definition gives a general statistical explanation of a cumulative probability distribution, but the packet supports only its use as cumulative probability distribution curves for plaque gray-scale images and AUCPDC, not a broad definition of the term in general."
+      ],
+      "definition_hash": "e04d89b4b79649cfd8e072dee9dfd3fd11550aa91fbe4565a7026ac424363438",
+      "packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89",
+      "published_packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89",
+      "receipt_id": "0062193ea9854e599a3b6b5e6ba47421",
+      "request_hash": "66ed16a26c5d49716d5c490e35e1ca965a337f31baef94ea4d1861f6a1407caa",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

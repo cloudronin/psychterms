@@ -1,0 +1,26 @@
+{
+  "id": "experience-sampling-method",
+  "term": "experience-sampling method",
+  "source": "article-pmc5655034",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2017.01849",
+  "revision": "2017; DOI 10.3389/fpsyg.2017.01849; article XML SHA-256 2b5bd069ca7f3a353879102ad7e7c70545a7159296fd3a3b03b4ce3b6ccc54d3",
+  "source_snapshot_sha256": "2b5bd069ca7f3a353879102ad7e7c70545a7159296fd3a3b03b4ce3b6ccc54d3",
+  "url": "https://doi.org/10.3389/fpsyg.2017.01849",
+  "text": "The Experience Sampling Method is a common approach in psychological research for collecting intensive longitudinal data with high ecological validity. One characteristic of ESM data is that it is often unequally spaced, because the measurement intervals within a day are deliberately varied, and measurement continues over several days. This poses a problem for discrete-time (DT) modeling approaches, which are based on the assumption that all measurements are equally spaced. Nevertheless, DT approaches such as (vector) autoregressive modeling are often used to analyze ESM data, for instance in the context of affective dynamics research. There are equivalent continuous-time (CT) models, but they are more difficult to implement. In this paper we take a pragmatic approach and evaluate the practical relevance of the violated model assumption in DT AR(1) and VAR(1) models, for the N = 1 case. We use simulated data under an ESM measurement design to investigate the bias in the parameters of interest under four different model implementations, ranging from the true CT model that accounts for all the exact measurement times, to the crudest possible DT model implementation, where even the nighttime is treated as a regular interval. An analysis of empirical affect data illustrates how the differences between DT and CT modeling can play out in practice. We find that the size and the direction of the bias in DT (V)AR models for unequally spaced ESM data depend quite strongly on the true parameter in addition to data characteristics. Our recommendation is to use CT modeling whenever possible, especially now that new software implementations have become available.",
+  "source_label": "Discrete- vs. Continuous-Time Modeling of Unequally Spaced Experience Sampling Method Data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1677
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "62bbe9dc1fb9093b6712514f0fe75ef52ab879a80bb7122afe4cd8486a495765"
+}

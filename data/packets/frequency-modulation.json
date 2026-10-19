@@ -1,0 +1,26 @@
+{
+  "id": "frequency-modulation",
+  "term": "frequency modulation",
+  "source": "article-pmc11623557",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0315003",
+  "revision": "2024; DOI 10.1371/journal.pone.0315003; article XML SHA-256 ab5a947c07ec11b774c520d670fffa78480d458ded8fa5445fbe74c42af9763a",
+  "source_snapshot_sha256": "ab5a947c07ec11b774c520d670fffa78480d458ded8fa5445fbe74c42af9763a",
+  "url": "https://doi.org/10.1371/journal.pone.0315003",
+  "text": "Computational models of the cell can be used to study the impact of drugs and assess pathological risks. Typically, these models are computationally demanding or challenging to implement in dedicated hardware for real-time emulation. A new Frequency Modulation (FM) model is proposed to address these limitations. This model utilizes a single sine generator with constant amplitude, while phase and frequency are modulated to emulate an action potential (AP). The crucial element of this model is the identification of the modulating signal. Focusing on FPGA implementation, we have employed a piecewise linear polynomial with a fixed number of breakpoints to serve as the modulating signal. The adaptability of this signal permits the emulation of dynamic properties and the coupling of cells. Additionally, we have introduced a state controller that handles both of these requirements. The building blocks of the FM model have direct integer equivalents, making them suitable for implementation on digital platforms like Field Programmable Gate Arrays (FPGA). We have demonstrated wavefront propagation in 1-D and 2-D models of tissue. We have used various parameters to quantify the wavefront propagation in 2-D tissues and emulated specific cellular dysfunctions. The FM model can replicate any detailed cell model and emulate its corresponding tissue model. This model is at its preliminary stage. The FPGA implementation of this model is a work in progress. Overall, the results demonstrate that the FM model has the potential for real-time cell and tissue emulation on an FPGA.",
+  "source_label": "Cell modeling using frequency modulation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1584
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "ad8769a69695a26149256a512cb23811bf765523d9a09cb4dc8c8dd3f5086825"
+}

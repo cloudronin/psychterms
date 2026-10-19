@@ -1,0 +1,63 @@
+{
+  "id": "autopsy",
+  "term": "autopsy",
+  "definition": "In this packet, autopsy refers specifically to psychological autopsy: a method used to build an in-depth understanding of the complex risk factors that may have led to a suicide. The packet does not provide enough information to define autopsy more generally.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13215618"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13215618",
+      "revision": "2026; DOI 10.1371/journal.pone.0348014; article XML SHA-256 c26dabd9bec7ea9b3db751957b6a56168de4a71ad5b00e83b8f6443c055b80c1",
+      "scope": "Source record 10.1371/journal.pone.0348014; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348014"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8e08d9efa303675c6ce89bd67fbf4e028496aba6c337307d90ac4110cb1b7509",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d665682838334a79bdafff2ab6a051f1",
+    "request_hash": "504580c560c08a11c5c2fdb77c29a3404ba92240bd528b28bbeef2e10239f896",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "ee6543ce534366e22d9c5ae5dd6e4a591954fe82bac19fb63e1d65e65fec6a43",
+    "packet_hash": "8e08d9efa303675c6ce89bd67fbf4e028496aba6c337307d90ac4110cb1b7509"
+  },
+  "hash": "4f6ab5362d82b00c3ad4cb520c71b0c3e14003584d760b8ff7c6e7aff4373506",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “psychological autopsy (PA)” methods, not the general term “autopsy,” so the requested sense is not supported.",
+        "The definition’s claim that the packet does not provide enough information to define autopsy more generally is not supported by the packet itself and goes beyond the cited text."
+      ],
+      "definition_hash": "ee6543ce534366e22d9c5ae5dd6e4a591954fe82bac19fb63e1d65e65fec6a43",
+      "packet_hash": "8e08d9efa303675c6ce89bd67fbf4e028496aba6c337307d90ac4110cb1b7509",
+      "published_packet_hash": "8e08d9efa303675c6ce89bd67fbf4e028496aba6c337307d90ac4110cb1b7509",
+      "receipt_id": "0df8cc9ad53e4403a3389749877aeae2",
+      "request_hash": "0e03e71d9c0e1acd75b4d2c3ea1998aa2dc617379e50e9b7a78d1bf6c713e20d",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that the term “autopsy” refers specifically to “psychological autopsy”; it only mentions “Psychological autopsy (PA) methods” as such.",
+        "While the packet supports that psychological autopsy provides “an in-depth understanding” of “complex risk factors leading to suicide,” the definition’s framing that this is the definition of “autopsy” in general is not explicitly supported by the packet."
+      ],
+      "definition_hash": "ee6543ce534366e22d9c5ae5dd6e4a591954fe82bac19fb63e1d65e65fec6a43",
+      "packet_hash": "8e08d9efa303675c6ce89bd67fbf4e028496aba6c337307d90ac4110cb1b7509",
+      "published_packet_hash": "8e08d9efa303675c6ce89bd67fbf4e028496aba6c337307d90ac4110cb1b7509",
+      "receipt_id": "c4525899ef8b4423b678b3e07e423730",
+      "request_hash": "65f63139f17cf3f8d07fe7ea47edc5c541c05cb797635c250f14ef7ee03bd56c",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

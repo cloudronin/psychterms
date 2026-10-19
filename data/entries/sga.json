@@ -1,0 +1,61 @@
+{
+  "id": "sga",
+  "term": "SGA",
+  "definition": "SGA stands for second-generation antipsychotic, a type of medication widely used in schizophrenia. In this source, SGAs are also noted for concerns about side effects involving glucose and lipid metabolism.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12723006"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12723006",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1722760; article XML SHA-256 c3ecc87698922f30783ae4acabea3aa5f8a452463e439572c1e2e8f4ab281520",
+      "scope": "Source record 10.3389/fpsyt.2025.1722760; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1722760"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "907f979eb20ec765fecbfc5d6b4378de0e329a543bc7bc2ead4093dd2f1b0a8a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cd54ede2282d40b8bfb069b863c44a18",
+    "request_hash": "9f9fd35a397c93fb94836ab6a2d7380591568eb3f2cad43946431a52c41f8278",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "80a55e9c66041bb6109f9ad166e3e191640ac65da33e77a6b66c61c728adbcd6",
+    "packet_hash": "907f979eb20ec765fecbfc5d6b4378de0e329a543bc7bc2ead4093dd2f1b0a8a"
+  },
+  "hash": "5105c539a849cb23c9108a3c9252e7ae9d231565a11cc60a3f2389cb2038f367",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes a type of medication (second-generation antipsychotics) used in schizophrenia, but the provided field is “diagnosis,” which does not match the term’s role as a medication rather than a diagnostic concept."
+      ],
+      "definition_hash": "80a55e9c66041bb6109f9ad166e3e191640ac65da33e77a6b66c61c728adbcd6",
+      "packet_hash": "907f979eb20ec765fecbfc5d6b4378de0e329a543bc7bc2ead4093dd2f1b0a8a",
+      "published_packet_hash": "907f979eb20ec765fecbfc5d6b4378de0e329a543bc7bc2ead4093dd2f1b0a8a",
+      "receipt_id": "a4a83606334842fd949334a8ef442d08",
+      "request_hash": "f8e196cd364f3350bee27dc9de53a858e583f50bf5efbea2f710fc4d067fb4f7",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports SGA as an abbreviation for second-generation antipsychotics, which are widely used in schizophrenia and associated with glucose/lipid metabolism concerns, but the requested field is \"diagnosis\" and this term is a medication class, not a diagnosis term."
+      ],
+      "definition_hash": "80a55e9c66041bb6109f9ad166e3e191640ac65da33e77a6b66c61c728adbcd6",
+      "packet_hash": "907f979eb20ec765fecbfc5d6b4378de0e329a543bc7bc2ead4093dd2f1b0a8a",
+      "published_packet_hash": "907f979eb20ec765fecbfc5d6b4378de0e329a543bc7bc2ead4093dd2f1b0a8a",
+      "receipt_id": "33666d541fa04f88a5820d9c290c775c",
+      "request_hash": "7b0bcb2db5172b05fc6acb3cd0baa44588a55e4755769817db39e9445e3ec862",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

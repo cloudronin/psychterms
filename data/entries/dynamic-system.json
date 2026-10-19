@@ -1,0 +1,60 @@
+{
+  "id": "dynamic-system",
+  "term": "dynamic system",
+  "definition": "A dynamic system is a changing environment or process whose conditions vary over time, so prediction methods must adjust as those conditions shift. In the packet, the term refers to systems analyzed for tracking and forecasting in situations where fixed parameters may not work well when circumstances change.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11482711"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11482711",
+      "revision": "2024; DOI 10.1371/journal.pone.0311734; article XML SHA-256 8270c231bfd4439807757c8ab41702e91555bf25e2021cc94a28a11d6ee61b63",
+      "scope": "Source record 10.1371/journal.pone.0311734; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0311734"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "36c7006cd4e4440e9b51c4ede040be28",
+    "request_hash": "270a4d30185a7727230fc8f3e7e23e183b1554481f5cd28db60ccba40fd572e8",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "d387ab27c52469c4583874de98320ce654571fef74dff15a8baeb217d538773f",
+    "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815"
+  },
+  "hash": "a0bc2aea098a216c4ba762a166dabb1a034439c27d3b253a50ec0bd351209eb4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “dynamic system” as “a changing environment or process whose conditions vary over time.” It only describes the paper’s context as “dynamic environments” and the limitation that static parameters cannot adapt.",
+        "The definition’s first sentence (general characterization of the term) is not directly supported by the packet’s wording or described scope for the term itself. The packet discusses prediction/tracking methods and parameter adaptation, but not a dictionary-style definition of the term."
+      ],
+      "definition_hash": "d387ab27c52469c4583874de98320ce654571fef74dff15a8baeb217d538773f",
+      "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815",
+      "published_packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815",
+      "receipt_id": "c683cc3a51ec48a4b027ff7fb431ab85",
+      "request_hash": "477325676043334ac729d8c51e56dcc311e62cae711db4678955dc39ec47337e",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d387ab27c52469c4583874de98320ce654571fef74dff15a8baeb217d538773f",
+      "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815",
+      "published_packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815",
+      "receipt_id": "b1ed6d70077b4dcfb898845e1b7af32a",
+      "request_hash": "96d07f317945d831dcbabe38746fe089a9b85716ccb42cd854ce2b3252736c94",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

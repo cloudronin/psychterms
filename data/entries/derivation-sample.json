@@ -1,0 +1,60 @@
+{
+  "id": "derivation-sample",
+  "term": "derivation sample",
+  "definition": "A derivation sample is the subset of participants used to develop a prediction score or model by identifying which factors to include and how much weight to give them. Its performance is then checked in a separate validation sample.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3307727"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3307727",
+      "revision": "2012; DOI 10.1371/journal.pone.0033437; article XML SHA-256 70bfd4cd9a1fa20e35d1cebab5f3aed44eb2865cb52b4d0aac7a3369d72f058c",
+      "scope": "Source record 10.1371/journal.pone.0033437; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0033437"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f41190392b0ca621482b29b6f2bbc151b7cf30a3cf6fbc656dee01844196c37a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c65e250a1fa1489ea8cc7b045b814bcf",
+    "request_hash": "b665e7c2953741cc7a70b08ec97ca540b4e0a69a4f5853f67011cae0e7825a67",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "7a78d4e699f964241221b6a04b591734d09847b7d2a8367645525c1d036420d3",
+    "packet_hash": "f41190392b0ca621482b29b6f2bbc151b7cf30a3cf6fbc656dee01844196c37a"
+  },
+  "hash": "df8eb1409279efd596ff8c07a9026d4010e573336e41c2bf857e4c901345008c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7a78d4e699f964241221b6a04b591734d09847b7d2a8367645525c1d036420d3",
+      "packet_hash": "f41190392b0ca621482b29b6f2bbc151b7cf30a3cf6fbc656dee01844196c37a",
+      "published_packet_hash": "f41190392b0ca621482b29b6f2bbc151b7cf30a3cf6fbc656dee01844196c37a",
+      "receipt_id": "7674dc8d41cd4ef19bf1f1fb198bc0f7",
+      "request_hash": "88ddf1f3916a979c631bbfcdf9a39f621f5f3e014f3c00d121e7eb3129fe7c12",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet discusses diabetes risk scores (e.g., Cox regression, type 2 diabetes prediction) and does not provide any mental-health context or support for using the term in the “mental health” field.",
+        "While the general description of a derivation sample and a separate validation sample is consistent with the packet’s methodology, that support comes from a diabetes prediction study rather than from mental-health materials, so the requested field is not defensible from the packet."
+      ],
+      "definition_hash": "7a78d4e699f964241221b6a04b591734d09847b7d2a8367645525c1d036420d3",
+      "packet_hash": "f41190392b0ca621482b29b6f2bbc151b7cf30a3cf6fbc656dee01844196c37a",
+      "published_packet_hash": "f41190392b0ca621482b29b6f2bbc151b7cf30a3cf6fbc656dee01844196c37a",
+      "receipt_id": "0b44abb9fce24ed2944724c03b22bd4d",
+      "request_hash": "b3d42474f1359ad5062c0aace6656aac150cc8d6dac05422259513c23a10d0d7",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

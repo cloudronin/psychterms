@@ -1,0 +1,26 @@
+{
+  "id": "u-s-department-of-veterans-affairs",
+  "term": "U.S. Department of Veterans Affairs",
+  "source": "article-pmc6042705",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0199768",
+  "revision": "2018; DOI 10.1371/journal.pone.0199768; article XML SHA-256 363644d5f1c19f2f906336435935e49d836d98e4f773109cd3cbf87f84613011",
+  "source_snapshot_sha256": "363644d5f1c19f2f906336435935e49d836d98e4f773109cd3cbf87f84613011",
+  "url": "https://doi.org/10.1371/journal.pone.0199768",
+  "text": "Over the past few decades, the rise of multiple chronic conditions has become a major concern for clinicians. However, it is still not known precisely how multiple chronic conditions emerge among patients. We propose an unsupervised multi-level temporal Bayesian network to provide a compact representation of the relationship among emergence of multiple chronic conditions and patient level risk factors over time. To improve the efficiency of the learning process, we use an extension of maximum weight spanning tree algorithm and greedy search algorithm to study the structure of the proposed network in three stages, starting with learning the inter-relationship of comorbidities within each year, followed by learning the intra-relationship of comorbidity emergence between consecutive years, and finally learning the hierarchical relationship of comorbidities and patient level risk factors. We also use a longest path algorithm to identify the most likely sequence of comorbidities emerging from and/or leading to specific chronic conditions. Using a de-identified dataset of more than 250,000 patients receiving care from the U.S. Department of Veterans Affairs for a period of five years, we compare the performance of the proposed unsupervised Bayesian network in comparison with those of Bayesian networks developed based on supervised and semi-supervised learning approaches, as well as multivariate probit regression, multinomial logistic regression, and latent regression Markov mixture clustering focusing on traumatic brain injury (TBI), post-traumatic stress disorder (PTSD), depression (Depr), substance abuse (SuAb), and back pain (BaPa). Our findings show that the unsupervised approach has noticeably accurate predictive performance that is comparable to the best performing semi-supervised and the second-best performing supervised approaches. These findings also revealed that the unsupervised approach has improved performance over multivariate probit regression, multinomial logistic regression, and latent regression Markov mixture clustering.",
+  "source_label": "Mining patterns of comorbidity evolution in patients with multiple chronic conditions using unsupervised multi-level temporal Bayesian network",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2069
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "cef63070aab1dc9cbbe497ac06c373d9205d9f49d3c58336077710fa68a2f66c"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ehr",
+  "term": "EHR",
+  "definition": "EHR refers to patient health information recorded in routine care, mainly as a documentation and billing tool rather than a system designed for long-term research. It can include both structured entries and unstructured notes, and its use in research can be limited by missing, inconsistent, or nonrepresentative data.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13480091"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13480091",
+      "revision": "2026; DOI 10.1186/s12874-026-02881-6; article XML SHA-256 cfc9f23946b117a9a2c887b203893e34e33a8e0e673643f563d3fb444240164b",
+      "scope": "Source record 10.1186/s12874-026-02881-6; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-026-02881-6"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "cc9cf944a7a57c10f01fffc288ac53a7ea12053bc8b6e6b2475e4e898b3f427d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "297261a542374ad6b21c661e8d4e770e",
+    "request_hash": "7abf1b66d53af8801a9d8f9d2c3ede21f436f2d54087dd6afd2f396f91768a15",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "9644aff44591e6e8140b811298c670d11a442501db51fbddd0e6722475a09c1b",
+    "packet_hash": "cc9cf944a7a57c10f01fffc288ac53a7ea12053bc8b6e6b2475e4e898b3f427d"
+  },
+  "hash": "4df0096a081a6bf25062f07640e54ae682421123c4a0528086ce54174f83512a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9644aff44591e6e8140b811298c670d11a442501db51fbddd0e6722475a09c1b",
+      "packet_hash": "cc9cf944a7a57c10f01fffc288ac53a7ea12053bc8b6e6b2475e4e898b3f427d",
+      "published_packet_hash": "cc9cf944a7a57c10f01fffc288ac53a7ea12053bc8b6e6b2475e4e898b3f427d",
+      "receipt_id": "0bd86c6cf5104b34b58462a72072939c",
+      "request_hash": "5959024dfd6d3c937799945556ee4b8fb5b8c12b4c8f212914f76136068554e0",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that EHR is “patient health information recorded in routine care,” but the packet does not explicitly support the “routine care” framing (it only describes EHR as a documentation and billing tool).",
+        "The definition’s “mainly as a documentation and billing tool rather than a system designed for long-term research” is broadly supported by the packet’s claim that the EHR is designed for documentation/billing, not for “longitudinal research,” but it does not explicitly use the term “long-term research,” so that phrasing is only indirectly supported."
+      ],
+      "definition_hash": "9644aff44591e6e8140b811298c670d11a442501db51fbddd0e6722475a09c1b",
+      "packet_hash": "cc9cf944a7a57c10f01fffc288ac53a7ea12053bc8b6e6b2475e4e898b3f427d",
+      "published_packet_hash": "cc9cf944a7a57c10f01fffc288ac53a7ea12053bc8b6e6b2475e4e898b3f427d",
+      "receipt_id": "ae412e832231470388d7fae9817685a7",
+      "request_hash": "c956c055d2cfa8525820168a5b1bcb4c29f9287c66da0d57df20993d78fe98d9",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

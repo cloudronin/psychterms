@@ -1,0 +1,62 @@
+{
+  "id": "mean-square-residual",
+  "term": "mean square residual",
+  "definition": "In psychometric assessment, mean square residual refers to a model-fit index used in confirmatory factor analysis. It is one of the statistics examined to judge how well a proposed factor structure matches the observed data.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9612580"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9612580",
+      "revision": "2022; DOI 10.1371/journal.pone.0276837; article XML SHA-256 c68d7523ef08393846bac7900104ec4f04dd353c3a3186dbc58b73504046d13b",
+      "scope": "Source record 10.1371/journal.pone.0276837; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0276837"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0a0f9d5f3772f12dfff183f0268e458a6d2c89538929a96aad8fa570ee0d6958",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "22ff4196861a41c1a96a6be8e830dc97",
+    "request_hash": "fab40280cd17d2f555c8acdee3f48856be71cdf78508b45e99dc88ab92d2fd87",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "80ad97fc46eb7c324297c5c8432cb8a1ccdcd7b7f8424435a41673ed4c833280",
+    "packet_hash": "0a0f9d5f3772f12dfff183f0268e458a6d2c89538929a96aad8fa570ee0d6958"
+  },
+  "hash": "2da72129db0688164b487cb98517755e1aade6bed2687fd38fc5586bb9385137",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only mentions \"standardized root mean square residual\" (SRMR) as a CFA fit index, not \"mean square residual\" itself."
+      ],
+      "definition_hash": "80ad97fc46eb7c324297c5c8432cb8a1ccdcd7b7f8424435a41673ed4c833280",
+      "packet_hash": "0a0f9d5f3772f12dfff183f0268e458a6d2c89538929a96aad8fa570ee0d6958",
+      "published_packet_hash": "0a0f9d5f3772f12dfff183f0268e458a6d2c89538929a96aad8fa570ee0d6958",
+      "receipt_id": "37a7c81af25e4633ab99f6a1e70ae7ca",
+      "request_hash": "04fb4b8ab20c96d9b249aa2b0361d0ef7093771bf09b9196e042cc8d24587fc0",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the standardized root mean square residual as a confirmatory factor analysis fit index, not the term mean square residual itself.",
+        "The definition adds a general psychometric explanation that is not directly supported by the packet and may conflate the term with a related but different statistic."
+      ],
+      "definition_hash": "80ad97fc46eb7c324297c5c8432cb8a1ccdcd7b7f8424435a41673ed4c833280",
+      "packet_hash": "0a0f9d5f3772f12dfff183f0268e458a6d2c89538929a96aad8fa570ee0d6958",
+      "published_packet_hash": "0a0f9d5f3772f12dfff183f0268e458a6d2c89538929a96aad8fa570ee0d6958",
+      "receipt_id": "096d0a1557db414cb7433ea3a7cf2142",
+      "request_hash": "11397b411fcd6ae92ae28cd073cab634c0e1f2fb7a65bcfa64251080c839875c",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

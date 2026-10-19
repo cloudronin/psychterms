@@ -1,0 +1,26 @@
+{
+  "id": "recursive-model",
+  "term": "recursive model",
+  "source": "article-pmc3944395",
+  "licence": "CC-BY-3.0",
+  "source_record": "10.3389/fpsyg.2014.00178",
+  "revision": "2014; DOI 10.3389/fpsyg.2014.00178; article XML SHA-256 cd3b6696eff5f256976fc3522677366485b3e3d8eb47fc3215a47a38430c96dd",
+  "source_snapshot_sha256": "cd3b6696eff5f256976fc3522677366485b3e3d8eb47fc3215a47a38430c96dd",
+  "url": "https://doi.org/10.3389/fpsyg.2014.00178",
+  "text": "Humans are known to discount future rewards hyperbolically in time. Nevertheless, a formal recursive model of hyperbolic discounting has been elusive until recently, with the introduction of the hyperbolically discounted temporal difference (HDTD) model. Prior to that, models of learning (especially reinforcement learning) have relied on exponential discounting, which generally provides poorer fits to behavioral data. Recently, it has been shown that hyperbolic discounting can also be approximated by a summed distribution of exponentially discounted values, instantiated in the μAgents model. The HDTD model and the μAgents model differ in one key respect, namely how they treat sequences of rewards. The μAgents model is a particular implementation of a Parallel discounting model, which values sequences based on the summed value of the individual rewards whereas the HDTD model contains a non-linear interaction. To discriminate among these models, we observed how subjects discounted a sequence of three rewards, and then we tested how well each candidate model fit the subject data. The results show that the Parallel model generally provides a better fit to the human data.",
+  "source_label": "Discounting of reward sequences: a test of competing formal models of hyperbolic discounting",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1185
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "aec3d9f3c7be08cce4c7f8379d75c389699443613c3cb65b7f20ef1c77109b9c"
+}

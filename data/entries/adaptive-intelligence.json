@@ -1,0 +1,64 @@
+{
+  "id": "adaptive-intelligence",
+  "term": "adaptive intelligence",
+  "definition": "Adaptive intelligence is an automatic sound-management feature in the SONNET 2 cochlear implant audio processor. In this context, it is used alongside other noise-reduction features to help listening in noise, with the goal of improving speech perception, reducing perceived listening effort, and improving sound quality.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9477286"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9477286",
+      "revision": "2022; DOI 10.1371/journal.pone.0274446; article XML SHA-256 69752062d05bf2fdcc5c400445012fc036c715fee697b414537ee06b96a29102",
+      "scope": "Source record 10.1371/journal.pone.0274446; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0274446"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9416ae183d9074c90ee3418266787fa91f80c166d4cead8729f2e6b608beb295",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "46e118772c0543878ff619439fdfc839",
+    "request_hash": "875c971e3b72d22786d3937325100531f07302c68e7bc8e98abee2fcc9db8db6",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "76872cf723fb6cd87527c09f5837681f244f5e5b0eedae9d5e548b4e2b32d752",
+    "packet_hash": "9416ae183d9074c90ee3418266787fa91f80c166d4cead8729f2e6b608beb295"
+  },
+  "hash": "81bdbfed35e0ae8055c4d2f113130045f7b25c9f17dd8cc6cab97d1e963556f2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that SONNET 2 has an adaptive intelligence feature, but it does not explicitly support describing adaptive intelligence itself as an automatic sound-management feature.",
+        "The statement that it is used alongside other noise-reduction features to improve speech perception, reduce listening effort, and improve sound quality goes beyond the packet, which only says the study aimed to evaluate whether using ANR, TNR, and adaptive intelligence together improved those outcomes."
+      ],
+      "definition_hash": "76872cf723fb6cd87527c09f5837681f244f5e5b0eedae9d5e548b4e2b32d752",
+      "packet_hash": "9416ae183d9074c90ee3418266787fa91f80c166d4cead8729f2e6b608beb295",
+      "published_packet_hash": "9416ae183d9074c90ee3418266787fa91f80c166d4cead8729f2e6b608beb295",
+      "receipt_id": "306880bc39ec43aa9b767d69d6c00ad9",
+      "request_hash": "78dca3615e5885121132fb7d9bed9f2de6552cfe47848935993dc01bd7da6dc8",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that “adaptive intelligence is an automatic sound-management feature.” It only states that the SONNET 2 audio processor has “ambient noise reduction (ANR), transient-noise reduction (TNR), and adaptive intelligence (AI).”",
+        "The definition says adaptive intelligence is used “alongside other noise-reduction features” to help listening in noise; the packet supports that the study evaluated “using these features” (ANR, TNR, and AI) for speech perception in noise, but it does not explicitly describe AI as being used alongside those features in that specific way or as an intended goal/functional mechanism beyond the study aims.",
+        "Other elements are broadly supported by the packet (improves speech perception in noise; subjective listening effort; sound quality), but because the definition contains unsupported claims, the definition cannot be accepted as written."
+      ],
+      "definition_hash": "76872cf723fb6cd87527c09f5837681f244f5e5b0eedae9d5e548b4e2b32d752",
+      "packet_hash": "9416ae183d9074c90ee3418266787fa91f80c166d4cead8729f2e6b608beb295",
+      "published_packet_hash": "9416ae183d9074c90ee3418266787fa91f80c166d4cead8729f2e6b608beb295",
+      "receipt_id": "cd51dd14bade4d11a6179a5654156ca3",
+      "request_hash": "04140bce7909e9e90dd2e10872b00141aa6b8eabe289ee7e8da0e573cfa96300",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

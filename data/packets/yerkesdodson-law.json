@@ -1,0 +1,26 @@
+{
+  "id": "yerkesdodson-law",
+  "term": "Yerkes–Dodson law",
+  "source": "article-pmc10760677",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0296468",
+  "revision": "2024; DOI 10.1371/journal.pone.0296468; article XML SHA-256 6b90a8a9c3f6765572c2e7869d10ba18a875b9b0f73ae7a8b5cf519904414b59",
+  "source_snapshot_sha256": "6b90a8a9c3f6765572c2e7869d10ba18a875b9b0f73ae7a8b5cf519904414b59",
+  "url": "https://doi.org/10.1371/journal.pone.0296468",
+  "text": "Previous studies have primarily focused on predicting stress arousal, encompassing physiological, behavioral, and psychological responses to stressors, while neglecting the examination of stress appraisal. Stress appraisal involves the cognitive evaluation of a situation as stressful or non-stressful, and as a threat/pressure or a challenge/opportunity. In this study, we investigated several research questions related to the association between states of stress appraisal (i.e., boredom, eustress, coexisting eustress-distress, distress) and various factors such as stress levels, mood, productivity, physiological and behavioral responses, as well as the most effective ML algorithms and data signals for predicting stress appraisal. The results support the Yerkes-Dodson law, showing that a moderate stress level is associated with increased productivity and positive mood, while low and high levels of stress are related to decreased productivity and negative mood, with distress overpowering eustress when they coexist. Changes in stress appraisal relative to physiological and behavioral features were examined through the lenses of stress arousal, activity engagement, and performance. An XGBOOST model achieved the best prediction accuracies of stress appraisal, reaching 82.78% when combining physiological and behavioral features and 79.55% using only the physiological dataset. The small accuracy difference of 3% indicates that physiological data alone may be adequate to accurately predict stress appraisal, and the feature importance results identified electrodermal activity, skin temperature, and blood volume pulse as the most useful physiologic features. Implementing these models within work environments can serve as a foundation for designing workplace policies, practices, and stress management strategies that prioritize the promotion of eustress while reducing distress and boredom. Such efforts can foster a supportive work environment to enhance employee well-being and productivity.",
+  "source_label": "Stress appraisal in the workplace and its associations with productivity and mood: Insights from a multimodal machine learning analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2012
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "b6d5d1b78da8eb0ff51f142ee81f8d439f80d34e0ada7a000d806f11504f6258"
+}

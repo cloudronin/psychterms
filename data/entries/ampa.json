@@ -1,0 +1,60 @@
+{
+  "id": "ampa",
+  "term": "AMPA",
+  "definition": "In this packet, AMPA refers to the glutamatergic side of brain signaling that is contrasted with NMDA activity. An “AMPA-dominant” state is described as part of the circuit shift linked to very rapid antidepressant effects.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13036191"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13036191",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1751605; article XML SHA-256 fabef3beb476028f98cac3ed62d095825f2a79034844d6e7592398c442de17aa",
+      "scope": "Source record 10.3389/fpsyt.2026.1751605; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1751605"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ec05db6ed2f7aebbaab3e99d114d21c857aaa8d0a892791956311bff3bc003cc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d9aa2b2f03dd487682ba6ddf9f9a22d8",
+    "request_hash": "562bba2b95e0d5cb4d0e3e0ca09c9cd06b4dc56da5e2b4d7c2a7cd956891891d",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "897c9886a1ae1a9272f2d773a6b96ebc376b363ecd4423804dfd8738ea0dcfce",
+    "packet_hash": "ec05db6ed2f7aebbaab3e99d114d21c857aaa8d0a892791956311bff3bc003cc"
+  },
+  "hash": "c7b29f7292c488804387a72a2ef57ee0c8ee53d2b96e72470afa64af2e81711e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "897c9886a1ae1a9272f2d773a6b96ebc376b363ecd4423804dfd8738ea0dcfce",
+      "packet_hash": "ec05db6ed2f7aebbaab3e99d114d21c857aaa8d0a892791956311bff3bc003cc",
+      "published_packet_hash": "ec05db6ed2f7aebbaab3e99d114d21c857aaa8d0a892791956311bff3bc003cc",
+      "receipt_id": "8cb5d5b26c0e4b3ebc381f48967ec105",
+      "request_hash": "ed5a149bd1424bac82bf61ee7b5da51011e98c4d4c4d7bc48bb3f4fc267250d8",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition overgeneralizes AMPA as “the glutamatergic side of brain signaling”; the packet only supports AMPA as part of an AMPA-dominant state in glutamatergic circuits, not that broader characterization.",
+        "The wording is slightly interpretive rather than strictly supported by the packet, which describes a shift from “NMDA-dominant” to “AMPA-dominant” states but does not define AMPA itself in the way stated."
+      ],
+      "definition_hash": "897c9886a1ae1a9272f2d773a6b96ebc376b363ecd4423804dfd8738ea0dcfce",
+      "packet_hash": "ec05db6ed2f7aebbaab3e99d114d21c857aaa8d0a892791956311bff3bc003cc",
+      "published_packet_hash": "ec05db6ed2f7aebbaab3e99d114d21c857aaa8d0a892791956311bff3bc003cc",
+      "receipt_id": "e2bcaf24557c4a8ea6cfd40d9463281d",
+      "request_hash": "582143966e8db763e2117cf9aa4d8ed058d2f61b7228b2ee05d2fc854c8d3644",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

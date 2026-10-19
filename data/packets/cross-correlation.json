@@ -1,0 +1,26 @@
+{
+  "id": "cross-correlation",
+  "term": "cross-correlation",
+  "source": "article-pmc13580983",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0356801",
+  "revision": "2026; DOI 10.1371/journal.pone.0356801; article XML SHA-256 a1062b4a27303a3b9e3c24976ddf64b89a2f3049a004178c4f26ae7977062c05",
+  "source_snapshot_sha256": "a1062b4a27303a3b9e3c24976ddf64b89a2f3049a004178c4f26ae7977062c05",
+  "url": "https://doi.org/10.1371/journal.pone.0356801",
+  "text": "Both methods, CC and MdRQA are frequently applied to assess behavioral and physiological synchrony, but they differ in terms of their assumptions and their outcome variables (parameter estimates). Perhaps most critically in the current context, CC assumes linearity and homogeneity of variances (e.g., [ 18 ]). Meaning that if we correlate two people’s heart rate measures, we expect that the relation between them is sufficiently captured by a straight line and that the deviations of participants’ heart rate are random and of similar magnitude, no matter whether average heart rate is low or high. However, heart rate is often non-stationary and contains long-range autocorrelations, so that the relationship between two time series differs systematically from a linear relationship [ 17 ]. Also, for heart rate, the average level of heart rate is confounded with the magnitude of its variance, so that a higher level or heart rate often goes along with higher variance as well [ 19 ]. Together, this can lead to systematic mischaracterizations of the relationship between two heart rate signals and impacts the standard errors of the estimated parameters. Also, CC is a bivariate method that can only be applied to pairs of time series (dyads). If applied to larger groups, then all possible pairwise correlations need to be run, which do not include information about higher-order group dynamics and inflate the degrees of freedom. However, CC yields a well understood parameter, the correlation coefficient ranging from −1–1, which provides information about positive and negative relationships (in- or anti-synchrony) – if the assumptions of the method are reasonably met. In case there is a violation of the linear correlation assumptions, or a substantial autocorrelation in the signal, windowed cross-correlation (WCC) is often used. By segmenting the signal into shorter windows, one can reduce the long term autocorrelation that might inflate the cross correlation values.",
+  "source_label": "Evaluating heart rate coupling with Multi-dimensional Recurrence Quantification Analysis (MdRQA) and Cross-Correlation (CC): Analytical decisions and implications",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    5053,
+    7037
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "0cc5dcfc0595a0a66a8b8d3b84e5ff218c944624d915375ff76e653ced8f77bd"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "apparent-magnitude",
+  "term": "apparent magnitude",
+  "source": "article-pmc10550141",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0291908",
+  "revision": "2023; DOI 10.1371/journal.pone.0291908; article XML SHA-256 c83e28970c0faf73763ff5188298afb9c8b1d97786fa59e4f342fe9a13d60fcc",
+  "source_snapshot_sha256": "c83e28970c0faf73763ff5188298afb9c8b1d97786fa59e4f342fe9a13d60fcc",
+  "url": "https://doi.org/10.1371/journal.pone.0291908",
+  "text": "The accuracy of a classification is fundamental to its interpretation, use and ultimately decision making. Unfortunately, the apparent accuracy assessed can differ greatly from the true accuracy. Mis-estimation of classification accuracy metrics and associated mis-interpretations are often due to variations in prevalence and the use of an imperfect reference standard. The fundamental issues underlying the problems associated with variations in prevalence and reference standard quality are revisited here for binary classifications with particular attention focused on the use of the Matthews correlation coefficient (MCC). A key attribute claimed of the MCC is that a high value can only be attained when the classification performed well on both classes in a binary classification. However, it is shown here that the apparent magnitude of a set of popular accuracy metrics used in fields such as computer science medicine and environmental science (Recall, Precision, Specificity, Negative Predictive Value, J, F 1 , likelihood ratios and MCC) and one key attribute (prevalence) were all influenced greatly by variations in prevalence and use of an imperfect reference standard. Simulations using realistic values for data quality in applications such as remote sensing showed each metric varied over the range of possible prevalence and at differing levels of reference standard quality. The direction and magnitude of accuracy metric mis-estimation were a function of prevalence and the size and nature of the imperfections in the reference standard. It was evident that the apparent MCC could be substantially under- or over-estimated. Additionally, a high apparent MCC arose from an unquestionably poor classification. As with some other metrics of accuracy, the utility of the MCC may be overstated and apparent values need to be interpreted with caution. Apparent accuracy and prevalence values can be mis-leading and calls for the issues to be recognised and addressed should be heeded.",
+  "source_label": "Challenges in the real world use of classification accuracy metrics: From recall and precision to the Matthews correlation coefficient",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1999
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "aa004a1a8bea53a7c4984219cb4fd805f775fcf5c25b9f6f7712aa043c63cdc9"
+}

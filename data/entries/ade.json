@@ -1,0 +1,60 @@
+{
+  "id": "ade",
+  "term": "ADE",
+  "definition": "ADE stands for adverse drug event: an unwanted harmful effect or safety problem linked to a medication. In this context, ADEs are tracked through post-marketing safety reports to monitor drug safety, including serious or rare events.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11744949"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11744949",
+      "revision": "2025; DOI 10.1186/s12888-025-06493-0; article XML SHA-256 bd4488335a989f23555b2617add03ba73e526945f235a854835e242ff7742182",
+      "scope": "Source record 10.1186/s12888-025-06493-0; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-025-06493-0"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "807a572dba1e467b81e72bcbd21a6aae",
+    "request_hash": "3434aa9a44413e87a816715e3a9313692cd0bc0eca0d08e95d1151e4d1f9f9ef",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "444fcd11d89e92ee038754c18e82e10e8b32cd0dd0eaaf2fb718a59c7bff1798",
+    "packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2"
+  },
+  "hash": "b5572ada3644bcec593b5234fa5b7d14525178bc7ba5b0a573b611bcf094509b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "444fcd11d89e92ee038754c18e82e10e8b32cd0dd0eaaf2fb718a59c7bff1798",
+      "packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2",
+      "published_packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2",
+      "receipt_id": "7904f7cf10de4ab683df5f9d09bc3315",
+      "request_hash": "c9b088a83c54e25f2d32e431ecb838a3bd2a800a7c328975affad3eae373d966",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define ADE as “an unwanted harmful effect or safety problem linked to a medication”; it only refers to “adverse drug events (ADEs)” in the context of drug safety surveillance, without that explicit definition wording.",
+        "The packet content is about pharmacovigilance databases (FAERS/JADER) and analyzing ADE reports for paliperidone palmitate; it does not support that this term is being used in a psychology “cognition” context, making the requested field defensibility weak."
+      ],
+      "definition_hash": "444fcd11d89e92ee038754c18e82e10e8b32cd0dd0eaaf2fb718a59c7bff1798",
+      "packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2",
+      "published_packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2",
+      "receipt_id": "3d77692f2c47426fbb92aa46b31cca6f",
+      "request_hash": "2353c795e43fcd7f50848089795729a455e4078dcb2f58499af3ce7b87f8c334",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

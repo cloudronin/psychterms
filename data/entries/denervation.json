@@ -1,0 +1,64 @@
+{
+  "id": "denervation",
+  "term": "denervation",
+  "definition": "Denervation is the removal or interruption of nerve supply to a body area or organ. In this source, it refers to cutting or disabling nerves around the renal pedicle, which improved urine flow.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13098930"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13098930",
+      "revision": "2026; DOI 10.1371/journal.pone.0343693; article XML SHA-256 fd160bc3f71d9b5f984b506cac32a86db0afe7efb183f8041f9efbf6bf843519",
+      "scope": "Source record 10.1371/journal.pone.0343693; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0343693"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dcbc120df63711715ecf2f2f35ac115658b920180451ea433cd68693a9b25181",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c00999ca68c84ea1869e395a6b0826a5",
+    "request_hash": "3510285b54bee17a137b0cc8f64c1ed59d308b285f2c313225d65372858e77b5",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "f3227d75f37a2e6b410e26bc9c4c40640d366b763c4a68f2126b0e26fd33a5bf",
+    "packet_hash": "dcbc120df63711715ecf2f2f35ac115658b920180451ea433cd68693a9b25181"
+  },
+  "hash": "629f016bc0188549121c130fac400ddbf66f917327eb059280602676d6e12773",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Denervation is the removal or interruption of nerve supply…”) is not explicitly supported by the provided packet text.",
+        "While the packet does mention “Denervation of nerves around the renal pedicle” and that it “improved urine flow,” the packet does not support the broader general characterization of denervation given in the first sentence.",
+        "The second sentence adds interpretive framing (“cutting or disabling nerves around the renal pedicle”) that is not explicitly stated in the packet; the packet only says “Denervation of nerves” without detailing the mechanism as cutting or disabling."
+      ],
+      "definition_hash": "f3227d75f37a2e6b410e26bc9c4c40640d366b763c4a68f2126b0e26fd33a5bf",
+      "packet_hash": "dcbc120df63711715ecf2f2f35ac115658b920180451ea433cd68693a9b25181",
+      "published_packet_hash": "dcbc120df63711715ecf2f2f35ac115658b920180451ea433cd68693a9b25181",
+      "receipt_id": "8ece270c1b1f4dee85de26746001f51d",
+      "request_hash": "2b55878a7514e6bc69fc918d3358fb36ed280bb6097879ac6c87315066e6a7e1",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports renal pedicle denervation improving urine flow, but it does not support the added mechanism wording “cutting or disabling nerves”; that is more specific than the source states.",
+        "The definition makes the source-specific claim sound like the term refers to this particular experimental procedure, but the packet only uses denervation descriptively in a study and does not establish a special in-source sense."
+      ],
+      "definition_hash": "f3227d75f37a2e6b410e26bc9c4c40640d366b763c4a68f2126b0e26fd33a5bf",
+      "packet_hash": "dcbc120df63711715ecf2f2f35ac115658b920180451ea433cd68693a9b25181",
+      "published_packet_hash": "dcbc120df63711715ecf2f2f35ac115658b920180451ea433cd68693a9b25181",
+      "receipt_id": "086c421c37ea405dbf3b7f4e989c3e11",
+      "request_hash": "adf36a5dfaa2e72745c0d725997ee5d9c61eb09bebb772dd85570bc15ddc3f8c",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

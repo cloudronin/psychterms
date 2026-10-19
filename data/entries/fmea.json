@@ -1,0 +1,60 @@
+{
+  "id": "fmea",
+  "term": "FMEA",
+  "definition": "FMEA, or Failure Modes and Effects Analysis, is a risk assessment method used to identify possible failures and judge their impact. In the supplied source, it is described as a conventional approach that rates risk using occurrence, severity, and detectability, and serves as the basis for a more detailed variant called FMEA+.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12510507"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12510507",
+      "revision": "2025; DOI 10.1371/journal.pone.0331748; article XML SHA-256 dc70764a7f019541871dab14c8d884644352a8f9a313411d6d5e896f496b26fc",
+      "scope": "Source record 10.1371/journal.pone.0331748; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0331748"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a1d7eabe14fc4e479dafab522c45b84d",
+    "request_hash": "1c9816af3e81ad69ca11e0bd1540a014258772d10be3135b93a9372f266e7a34",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "2851deeeb2fe1a627a05dcb8daa7bc25869e88b8583a13540d5adbc72901e1d5",
+    "packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af"
+  },
+  "hash": "f509554cd924f5f1a933b25a5e3b05cc36fb12445417c08780a7cf89cd158f8f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2851deeeb2fe1a627a05dcb8daa7bc25869e88b8583a13540d5adbc72901e1d5",
+      "packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af",
+      "published_packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af",
+      "receipt_id": "8949d1bab9294a3498b7bb803cc9cd12",
+      "request_hash": "3cc220532b62e448051ebf6a6c91ebf2d50961c22c1531738627875ab7a17bc7",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports FMEA as the conventional Failure Modes and Effects Analysis underlying FMEA+, and it does mention the factors occurrence, severity, and detectability, but it does not explicitly support the added description that FMEA is a method used to identify possible failures and judge their impact.",
+        "The definition goes beyond the packet by presenting a general functional summary of FMEA rather than staying within the source’s narrower description of it as the conventional basis for FMEA+."
+      ],
+      "definition_hash": "2851deeeb2fe1a627a05dcb8daa7bc25869e88b8583a13540d5adbc72901e1d5",
+      "packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af",
+      "published_packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af",
+      "receipt_id": "2ef269fe74dd457fa7a43e6422166477",
+      "request_hash": "59c47ecbec4dfc69157f70f85e8922a9a9e4006262deb67ce86feca31049e2b5",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

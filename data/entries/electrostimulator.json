@@ -1,0 +1,61 @@
+{
+  "id": "electrostimulator",
+  "term": "electrostimulator",
+  "definition": "An electrostimulator is a device or circuit used to apply electric fields to cells so their activity or growth can be monitored or influenced. In this source, its track geometry affects the strength and uniformity of the field it produces.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7487618"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7487618",
+      "revision": "2020; DOI 10.1186/s40824-020-00195-2; article XML SHA-256 d20aed2511cd8cb15868b702b39c49d6e678dd7265a6ddbfbabb7a4f70b97e63",
+      "scope": "Source record 10.1186/s40824-020-00195-2; pinned source text",
+      "locator": "https://doi.org/10.1186/s40824-020-00195-2"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8b45a9da4e1248a6a6668c4c46c081d1",
+    "request_hash": "94fcf5b306c0e98f932ce889e405213415d39d3f7959eecb28e9491716e3465a",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "51a6810aaebc81a63d4aa231145d449382a129b36f40022744f2b445746ebcbb",
+    "packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2"
+  },
+  "hash": "ff2f979139d292ea1550df3a0b956641a4d1dd1c94ddf2f044f26b670b9654ea",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "51a6810aaebc81a63d4aa231145d449382a129b36f40022744f2b445746ebcbb",
+      "packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2",
+      "published_packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2",
+      "receipt_id": "c50f760d43e548b8b29cc98fe93ddd57",
+      "request_hash": "43d7e26e6758d691ba436519fe187998dee2cb8d061702bbfd7eb0cb567cb426",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a bioelectronics/cell-culture meaning of electrostimulator, not a learning or psychology/counselling sense, so the requested field is not defensible from the source.",
+        "The definition adds a general purpose statement (“used to apply electric fields to cells so their activity or growth can be monitored or influenced”) that is broader than the packet’s specific claim about electrical stimulation of H9c2 cardiomyoblast cells and modulation of cellular behavior.",
+        "The source supports the circuit-track geometry affecting the electric field’s strength and homogeneity, but not the broader phrasing that it is the electrostimulator’s field uniformity in general beyond this specific device/context."
+      ],
+      "definition_hash": "51a6810aaebc81a63d4aa231145d449382a129b36f40022744f2b445746ebcbb",
+      "packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2",
+      "published_packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2",
+      "receipt_id": "2bfc5d0f33f345189b00d990bcf51d18",
+      "request_hash": "009f436813cdc3df5bca5d52d276bef6d9873c254ba99d0fc1741cacec6bde28",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

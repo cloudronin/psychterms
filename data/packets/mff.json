@@ -1,0 +1,26 @@
+{
+  "id": "mff",
+  "term": "MFF",
+  "source": "article-pmc12548917",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0333805",
+  "revision": "2025; DOI 10.1371/journal.pone.0333805; article XML SHA-256 01d6e31b3cadecff2048be31c4c50c9ded2b8b1f4d75ed9d58bdbc117e29caec",
+  "source_snapshot_sha256": "01d6e31b3cadecff2048be31c4c50c9ded2b8b1f4d75ed9d58bdbc117e29caec",
+  "url": "https://doi.org/10.1371/journal.pone.0333805",
+  "text": "Motor imagery (MI) is a brain-computer interface (BCI) technology with the potential to change human life in the future. MI signals have been widely applied in various BCI applications, including neurorehabilitation, smart home control, and prosthetic control. However, the limited accuracy of MI signals decoding remains a significant barrier to the broader growth of the BCI applications. In this study, we propose the SMMTM model, which combines spatiotemporal convolution (SC), multi-branch separable convolution (MSC), multi-head self-attention (MSA), temporal convolution network (TCN), and multimodal feature fusion (MFF). Specifically, we use the SC module to capture both temporal and spatial features. We design a MSC to capture temporal features at multiple scales. In addition, MSA is designed to extract valuable global features with long-term dependence. The TCN is employed to capture higher-level temporal features. The MFF consists of feature fusion and decision fusion, using the features output from the SMMTM to improve robustness. The SMMTM was evaluated on the public benchmark BCI Comparison IV 2a and 2b datasets, the results showed that the within-subject classification accuracies for the datasets were 84.96% and 89.26% respectively, with kappa values of 0.797 and 0.756. The cross-subject classification accuracy for the 2a dataset was 69.21%, with a kappa value of 0.584. These results indicate that the SMMTM significantly enhances decoding performance, providing a strong foundation for advancing practical BCI implementations.",
+  "source_label": "SMMTM: Motor imagery EEG decoding algorithm using a hybrid multi-branch separable convolutional self-attention temporal convolutional network",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1558
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "0fc6f8a8f5229409170652a94df822ee329065612b8404b75a27777881d7b1b1"
+}

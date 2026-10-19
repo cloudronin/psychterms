@@ -1,0 +1,64 @@
+{
+  "id": "bayesian-inference",
+  "term": "Bayesian inference",
+  "definition": "Bayesian inference is a way of estimating what is most likely by combining current sensory information with prior expectations. In psychology and neuroscience, it is used to explain how perception and behavior can adapt when the reliability of sensory input changes.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11108143"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11108143",
+      "revision": "2024; DOI 10.1371/journal.pone.0303843; article XML SHA-256 cc0badbea1a915f3c18d1fcacb669ede953e97711864024b4a8a907499bb9e12",
+      "scope": "Source record 10.1371/journal.pone.0303843; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0303843"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "67c736953a698150c8b030cb602a9cac4208ebb337c3237480a0dc7455c59deb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "394eb31a063b436f83d04b3fa7ae1437",
+    "request_hash": "d0a7150fc009ea338415d92ad0cea831f693f968cc786249cfbee34463e5908f",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "61fa5c22d2eeee475fab0f036bd4405dc6f015def02ccde0ca35290e6d8322fc",
+    "packet_hash": "67c736953a698150c8b030cb602a9cac4208ebb337c3237480a0dc7455c59deb"
+  },
+  "hash": "0725647282fc34306e25ac929188750b4385c8826273702d3ea8ea20821b5945",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a general explanation of Bayesian inference as combining current sensory information with prior expectations, which is not stated in the supplied source packet.",
+        "It broadens the source beyond the barn owl sound-localization context into general psychology and neuroscience claims about perception and behavior adapting to changing sensory reliability; the packet only supports that Bayesian models have been effective in characterizing those phenomena and that this specific model approximates a Bayesian estimate under varying sensory reliability.",
+        "The requested field is 'learning,' but the packet evidence is about perception, behavior, and neural encoding in sound localization rather than learning."
+      ],
+      "definition_hash": "61fa5c22d2eeee475fab0f036bd4405dc6f015def02ccde0ca35290e6d8322fc",
+      "packet_hash": "67c736953a698150c8b030cb602a9cac4208ebb337c3237480a0dc7455c59deb",
+      "published_packet_hash": "67c736953a698150c8b030cb602a9cac4208ebb337c3237480a0dc7455c59deb",
+      "receipt_id": "c95d1bb8eb154976a90b7532308313d5",
+      "request_hash": "256e2de0201a497b3bfa541ef9bb514007c1115d59033e42306bef487dc925e6",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that Bayesian inference is “estimating what is most likely by combining current sensory information with prior expectations” is not explicitly stated or supported in the provided packet text.",
+        "While the packet supports that Bayesian inference is used to characterize perception/behavior and that sensory reliability varies in the context of single-trial approximation, it does not provide the specific mechanism described in the first sentence (combining sensory information with prior expectations to estimate the most likely outcome)."
+      ],
+      "definition_hash": "61fa5c22d2eeee475fab0f036bd4405dc6f015def02ccde0ca35290e6d8322fc",
+      "packet_hash": "67c736953a698150c8b030cb602a9cac4208ebb337c3237480a0dc7455c59deb",
+      "published_packet_hash": "67c736953a698150c8b030cb602a9cac4208ebb337c3237480a0dc7455c59deb",
+      "receipt_id": "ed000fa5171741dc8ac6b821962622e4",
+      "request_hash": "018d2fafed7ab4d599927be305892c54b198f19dee8afe43ca7efbde17c6ba0b",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

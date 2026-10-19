@@ -1,0 +1,60 @@
+{
+  "id": "nasa-task-load-index",
+  "term": "NASA Task Load Index",
+  "definition": "The NASA Task Load Index is a self-report measure used to rate how demanding a task felt in terms of mental workload. In the source, it was used after a driving task to capture participants’ perceived workload.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5415047"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5415047",
+      "revision": "2017; DOI 10.1371/journal.pone.0176962; article XML SHA-256 934215387697560d53143efb964bb94939c0c1f62970967e8d21e1765c461a59",
+      "scope": "Source record 10.1371/journal.pone.0176962; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0176962"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2b93ceabdb702ba0b2db28e462f5f30a96bee061f565969fafb91025eadd351b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "47758e35763644d6b9ed884df478b067",
+    "request_hash": "cd547c62311381ef1067d302f919cb9668aa9e0de25425a9fff476bf9b83e51d",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "f817b79f65bf0a61e13c0a6412d37ec6878f2abc2ac0addcb196efcb28dcd61e",
+    "packet_hash": "2b93ceabdb702ba0b2db28e462f5f30a96bee061f565969fafb91025eadd351b"
+  },
+  "hash": "f1e468463447f9d51643c23d3938ba5b25a559aad7e0e3bc6816702929b8a9c5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f817b79f65bf0a61e13c0a6412d37ec6878f2abc2ac0addcb196efcb28dcd61e",
+      "packet_hash": "2b93ceabdb702ba0b2db28e462f5f30a96bee061f565969fafb91025eadd351b",
+      "published_packet_hash": "2b93ceabdb702ba0b2db28e462f5f30a96bee061f565969fafb91025eadd351b",
+      "receipt_id": "8f753e5abb6a410c8e634a5912babd6c",
+      "request_hash": "d93705996349285085731ab2289ed4ff82931ef87ebcab6aa0138954cad9395f",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s characterization of the NASA Task Load Index as measuring “how demanding a task felt” (i.e., task-demand appraisal) is not explicitly stated in the provided packet text; the packet only says participants “reported their workload using the NASA-Task Load Index (TLX).”",
+        "The definition states it is “a self-report measure used to rate … mental workload.” The packet supports that participants reported workload after the driving task, but it does not explicitly describe what the scale rates (e.g., “how demanding” or the specific construct framing as “mental workload” beyond the generic term “workload”)."
+      ],
+      "definition_hash": "f817b79f65bf0a61e13c0a6412d37ec6878f2abc2ac0addcb196efcb28dcd61e",
+      "packet_hash": "2b93ceabdb702ba0b2db28e462f5f30a96bee061f565969fafb91025eadd351b",
+      "published_packet_hash": "2b93ceabdb702ba0b2db28e462f5f30a96bee061f565969fafb91025eadd351b",
+      "receipt_id": "28283fab274448a58d4e922cecda9f1d",
+      "request_hash": "1595bbcab62587d0764d25801e40900752a3ebc8eceab0776beb2137a69b121c",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

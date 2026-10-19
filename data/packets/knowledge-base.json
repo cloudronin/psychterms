@@ -1,0 +1,26 @@
+{
+  "id": "knowledge-base",
+  "term": "knowledge base",
+  "source": "article-pmc13269062",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1843444",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1843444; article XML SHA-256 fbeee1dc70a5ff27a53f1a0b10535e3b7211d0a179209c1eddfed9e142a44355",
+  "source_snapshot_sha256": "fbeee1dc70a5ff27a53f1a0b10535e3b7211d0a179209c1eddfed9e142a44355",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1843444",
+  "text": "This study investigates the deployment of artificial intelligence (AI) knowledge-base assistants using open educational resources (OER) for computer science education, demonstrating the feasibility of providing AI-assisted technical support in resource-constrained environments. Our methodology combines structured knowledge extraction from 82 open-licensed Markdown documents, systematic benchmarking of Qwen-7B and DeepSeek-MoE on consumer-grade GPUs (NVIDIA RTX 3060, 12 GB VRAM), and a multi-criteria evaluation framework incorporating response accuracy, computational efficiency, retrieval-augmented generation (RAG)-specific metrics, and energy sustainability. Key results show that Qwen-7B (FP16) achieves 71.5% overall accuracy with 1.4 s average latency, while DeepSeek-MoE (FP16) achieves 79.8% overall accuracy and 82.3% accuracy on multi-hop reasoning tasks. NF4 4-bit quantization reduces VRAM usage by 38.7% for Qwen-7B (6.2 GB → 3.8 GB) and 37.9% for DeepSeek-MoE (5.8 GB → 3.6 GB). Our most energy-efficient configuration consumes 1.8 mWh per query (1.8 Wh per 1,000 queries), measured at the GPU device rail with idle power subtracted. This work makes four contributions: (1) systematic multi-dimensional benchmarks for on-premise, OER-aligned AI knowledge-base assistants in introductory computer science education; (2) hardware-specific deployment guidelines for consumer-grade GPUs without cloud dependency; (3) quantitative evidence that NF4 4-bit quantization-aware fine-tuning preserves educational response utility within 2 percentage points of accuracy degradation while reducing VRAM by 38.7%; and (4) a reproducible evaluation protocol serving as a reference design for future research. The system is characterized as a knowledge-base assistant rather than a validated intelligent tutor; comprehensive pedagogical validation with controlled learner studies remains a priority for future work.",
+  "source_label": "Towards sustainable AI knowledge-base assistants in computer science education: on-premise deployment and optimization with open educational resources",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1919
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 4
+  },
+  "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85"
+}

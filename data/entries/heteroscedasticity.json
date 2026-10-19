@@ -1,0 +1,64 @@
+{
+  "id": "heteroscedasticity",
+  "term": "heteroscedasticity",
+  "definition": "Heteroscedasticity is variation in data that remains in a model’s residuals and carries useful information rather than random noise. In the source, it refers to leftover volatility-related patterns that can be used to improve prediction of future stock price movement.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11125562"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11125562",
+      "revision": "2024; DOI 10.1371/journal.pone.0297641; article XML SHA-256 cf1f2f46f6d21c920accc73ea4f0bda0b7dd36272a63cadb5cd83954750fb94b",
+      "scope": "Source record 10.1371/journal.pone.0297641; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0297641"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f3ced7dc948447e8864c2dff6f9469a6",
+    "request_hash": "f23cb5b6c49d34810571140be7043302183bd1cc27cf1224dedecba4d87ad0c3",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "e78176a7f88f9244048d1ba3c80f47a8989d1db88e64b216c7129394b255ab32",
+    "packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9"
+  },
+  "hash": "fde7e1372045a9443099d8d7360cbeb942fb2b97c5a58b1d12ab8e556f07ebc2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is a stock-volatility forecasting paper, not a cognition/psychology source.",
+        "The definition narrows the term to a residual-pattern concept used for stock prediction; the packet supports that applied meaning, but not as a cognition-field entry."
+      ],
+      "definition_hash": "e78176a7f88f9244048d1ba3c80f47a8989d1db88e64b216c7129394b255ab32",
+      "packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9",
+      "published_packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9",
+      "receipt_id": "4fac65760c6448bbaae0ce77cd0d31e7",
+      "request_hash": "c624d632d35690de122d661d89ea70d9e5f861d3b31cdca7bf2e4987df052de3",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states a general statistical meaning (“variation in data that remains in a model’s residuals”) that is not directly given in the packet; the packet instead discusses “heteroscedasticity element” and “valuable information remaining in the residual” after an ARCH test, without explicitly defining heteroscedasticity as “variation in data” in general terms.",
+        "The definition claims the remaining residual variation is “rather than random noise”; the packet mentions “valuable information remaining in the residual,” but it does not explicitly contrast this with “random noise.”",
+        "The definition’s first sentence presents the concept as broadly applicable to residuals; the packet only supports this in the specific study context of forecasting stock volatility using a GARCH-LSTM hybrid, not as an overall definitional characterization."
+      ],
+      "definition_hash": "e78176a7f88f9244048d1ba3c80f47a8989d1db88e64b216c7129394b255ab32",
+      "packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9",
+      "published_packet_hash": "d4c1fb7989fc8e60bdd5e7675298b6d23f123ebad20fd825d0fc4580219bc4c9",
+      "receipt_id": "5801b44362ed47d2991803d39dd86d00",
+      "request_hash": "be6e884b8f141e5fde709706e511374b047b6c3e746da29db0678483566ac97d",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

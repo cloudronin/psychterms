@@ -1,0 +1,63 @@
+{
+  "id": "grade-point-average",
+  "term": "grade-point average",
+  "definition": "Grade-point average (GPA) is a summary measure of a student’s academic outcomes or performance. In this packet, it refers to engineering students’ university GPA as recorded by the registrar.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9363761"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9363761",
+      "revision": "2022; DOI 10.3389/fpsyg.2022.937153; article XML SHA-256 13499b6c3296406cd7a50c19cbc14873c5d565b4e86275c1af05a2365c35038c",
+      "scope": "Source record 10.3389/fpsyg.2022.937153; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2022.937153"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0ffb68ebfd39c8e6f0d7dcda2ea77e88bc6fde3dd48490678fbfef01abcc783b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6e3416f06ad44540b7572024efed9224",
+    "request_hash": "bb818de627e4b42ed86db80aca7047d9cf7d427cb7e17ce8bfde665a6cc77047",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "559d07bee2f51281b55b0793db337466edc90850a316fffc6d4693c2587b92a3",
+    "packet_hash": "0ffb68ebfd39c8e6f0d7dcda2ea77e88bc6fde3dd48490678fbfef01abcc783b"
+  },
+  "hash": "1962fe0a46dc3270d728cb559813d3faffc6fe599b211234ab9a5b8541dfc922",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds an unsupported generalization by characterizing GPA as a “summary measure of a student’s academic outcomes or performance”; the packet only shows GPA as engineering grade point average obtained from the university registrar’s office.",
+        "The requested sense is too broad relative to the packet: the source supports only this study’s use of engineering students’ university GPA, not a general dictionary definition of GPA across settings."
+      ],
+      "definition_hash": "559d07bee2f51281b55b0793db337466edc90850a316fffc6d4693c2587b92a3",
+      "packet_hash": "0ffb68ebfd39c8e6f0d7dcda2ea77e88bc6fde3dd48490678fbfef01abcc783b",
+      "published_packet_hash": "0ffb68ebfd39c8e6f0d7dcda2ea77e88bc6fde3dd48490678fbfef01abcc783b",
+      "receipt_id": "8a400628004145c99516fcd07c568495",
+      "request_hash": "5753e617ba20a735f7d98e730f7325cd6599bccb2bcc1bb0c5caf0d8c0b86c20",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first claim that GPA is “a summary measure of a student’s academic outcomes or performance” is not explicitly supported in the packet text provided.",
+        "The second sentence (that, in this packet, GPA refers to engineering students’ university GPA obtained from the university registrar’s office) is supported by the packet."
+      ],
+      "definition_hash": "559d07bee2f51281b55b0793db337466edc90850a316fffc6d4693c2587b92a3",
+      "packet_hash": "0ffb68ebfd39c8e6f0d7dcda2ea77e88bc6fde3dd48490678fbfef01abcc783b",
+      "published_packet_hash": "0ffb68ebfd39c8e6f0d7dcda2ea77e88bc6fde3dd48490678fbfef01abcc783b",
+      "receipt_id": "5d2e42db999a444f9f5b1d19f75f4ee7",
+      "request_hash": "46551bbec082d76311bc5b326efd20ccb669ad4bdf9dc2c52a9ed2833a6fbb97",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

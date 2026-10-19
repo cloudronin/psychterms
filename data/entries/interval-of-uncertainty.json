@@ -1,0 +1,65 @@
+{
+  "id": "interval-of-uncertainty",
+  "term": "interval of uncertainty",
+  "definition": "In diagnosis, an interval of uncertainty is a range of test decision thresholds where the result is not clear enough to support a confident classification. It can be identified alongside ROC-based methods to improve prediction by marking values that are diagnostically uncertain.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9673390"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9673390",
+      "revision": "2022; DOI 10.1186/s12888-022-04375-3; article XML SHA-256 18c63081b5453736e34965d94d6445ed7789e0e8794340106b8995e05367605b",
+      "scope": "Source record 10.1186/s12888-022-04375-3; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-022-04375-3"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ef2e92d58fb54635361009b5b980866b7b8aae76f2e8b5b10cb429125102d083",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ccb84faa2bed4d3d88e59abf897020a7",
+    "request_hash": "eb43ef984435e513839a53949862f6b3add063d350763bda351d55ac8f643993",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "80d6b4d938a20f6167a9a75e24f4382c5dcf2b0684f22404cc522bfc5d449db3",
+    "packet_hash": "ef2e92d58fb54635361009b5b980866b7b8aae76f2e8b5b10cb429125102d083"
+  },
+  "hash": "c9bf50cbca50daad1533dceb3dfecf66258ca0f04b4e776e7bb57a0329638446",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define the term as a range of test decision thresholds where the result is not clear enough to support a confident classification; it only says the interval of uncertainty was used to identify thresholds of uncertainty and enhance prediction.",
+        "The added claim that it is identified alongside ROC-based methods to improve prediction is only partially supported and is stated too generally; the source mentions two-graph ROC in a specific study, not a general definitional relationship for the term."
+      ],
+      "definition_hash": "80d6b4d938a20f6167a9a75e24f4382c5dcf2b0684f22404cc522bfc5d449db3",
+      "packet_hash": "ef2e92d58fb54635361009b5b980866b7b8aae76f2e8b5b10cb429125102d083",
+      "published_packet_hash": "ef2e92d58fb54635361009b5b980866b7b8aae76f2e8b5b10cb429125102d083",
+      "receipt_id": "8c7d1919b7954f1cb4fd08d49eff1659",
+      "request_hash": "b84901c75742ab0f452dab049f4e441355f989835f03ebb5e6e046a06957a1c1",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition of “interval of uncertainty”; it only mentions “thresholds of uncertainty … and the interval of uncertainty” in the context of enhancing prediction.",
+        "The definition’s claims about “a range of test decision thresholds” and “not clear enough to support a confident classification” are not stated or supported in the supplied packet.",
+        "The definition’s attribution to being “identified alongside ROC-based methods” is only partially supported: the packet mentions ROC/“two-graph ROC” thresholds of uncertainty, but does not describe this as “diagnostically uncertain” or as an identifiable “range” for diagnosis.",
+        "The packet does not support the wording that the interval is “used … to improve prediction by marking values that are diagnostically uncertain.” It only indicates it was used “to enhance prediction” and mentions uncertainty thresholds, without the described diagnostic-certainty rationale."
+      ],
+      "definition_hash": "80d6b4d938a20f6167a9a75e24f4382c5dcf2b0684f22404cc522bfc5d449db3",
+      "packet_hash": "ef2e92d58fb54635361009b5b980866b7b8aae76f2e8b5b10cb429125102d083",
+      "published_packet_hash": "ef2e92d58fb54635361009b5b980866b7b8aae76f2e8b5b10cb429125102d083",
+      "receipt_id": "99c81dcd1731462498c7c3afa9fbfa1e",
+      "request_hash": "5e0ca7b761e4611c243700e6a96305d63c2f6161e8b1925afa6bca6ed6c967cf",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

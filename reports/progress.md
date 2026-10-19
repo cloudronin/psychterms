@@ -2,9 +2,9 @@
 
 The public repository is [cloudronin/psychterms](https://github.com/cloudronin/psychterms). The [GitHub Pages review preview](https://psychterms.org/) uses build-owned candidate, reviewed, judged and dropped statuses. See [the generated release note](release-note.md) for current counts. Reader models are named on About. Human review happens on the live preview; vignettes remain deferred. The publisher footer links to https://www.plainword.ai/.
 
-Current priority is fresh, cited candidate definitions published before judging, under Vishnu’s latest direct decision. The first private queue contains 10,522 source-text packets; Vishnu approved a $100 drafting-only hard cap. No old definition text is used and raw audit rows remain private. Retrieval matches alone are not supported citations; candidates without suitable packets still need source preparation.
+Fresh definitions are drafted from individually permitted source packets and read independently by the fixed mini and nano readers. The current validated publication contains **7,612 entries: 5,515 judged and 2,097 reviewed**, with 1,200 total drops. Source recovery continues under the original $100 drafting and $25 reader caps. See source-recovery.json and independent-readers.json for this snapshot; the generated release note carries the build counts. Original definition prose and private audit rows are never exported or provided to models. Vignettes remain deferred.
 
-The source inventory now has 37 candidates: 19 scoped yes decisions and 18 no decisions. It adds the publisher-declared public-domain Online Statistics Education v2 and original US editions of Baldwin volume II (1902) and Tuke (1892). Additional research articles remain discovery candidates until individually checked. Paid dispatch remains disabled; no new paid calls were made for this audit.
+The inventory includes article-specific CC BY decisions and NIMH-owned publication pages with pinned snapshots. A bibliographic lead alone is not an admitted source or a supported definition. No claim is made that unsuccessful searches establish the absence of other usable sources.
 
 ## Historical implementation records
 
@@ -61,3 +61,7 @@ Before source-recovery publication, an extraction check found long external quot
 ## Further recovered definitions
 
 The next completed waves bring the local validated preview to 5,471 active entries: 4,318 judged and 1,153 reviewed, with 521 total drops. Source retrieval and expanded bibliographic discovery continue. See recovery-coverage.json for aggregate dispositions of every private audit label; the private term list is not exported. Original CC BY licences are linked on term pages and beside drop reasons, and the contribution notice marks new wording.
+
+## Recovery publication, batch 003
+
+Eleven completed recovery waves bring the validated preview to 7,612 active entries. All 161 Python tests pass; the 7,612 term pages have no broken internal links and the product-copy check is clear. A whole-word excerpt-window regression was fixed before the next paid dispatch. Source retrieval and further drafting continue on the same ledgers.

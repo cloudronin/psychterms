@@ -1,0 +1,64 @@
+{
+  "id": "client",
+  "term": "client",
+  "definition": "In counselling, a client is the person who takes part in counselling sessions and whose experiences, behaviors, or outcomes are the focus of the work. In research, the term can also refer to the individual level when comparing differences between people receiving counselling.",
+  "field": "counselling skills",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11657086"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11657086",
+      "revision": "2024; DOI 10.1186/s40359-024-02260-0; article XML SHA-256 bea4f7b12601f42ef4553731b8496a60e6719466ae6b0aeeb77958e82a4e9923",
+      "scope": "Source record 10.1186/s40359-024-02260-0; pinned source text",
+      "locator": "https://doi.org/10.1186/s40359-024-02260-0"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "020f08dee02b72097718ed2550dd2356238dbcced6f3b03c478c7ea917ba7710",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0336e62c28e044358507f75ddfa4582c",
+    "request_hash": "8842d439de7804cfa09fe7dc2da2ba3c1f045ff3cd8d1258b0e1a914afbd0010",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "092363c139bcd25f55e52599da3c75db6abe21b477767e099acb0f1e2cdde0c1",
+    "packet_hash": "020f08dee02b72097718ed2550dd2356238dbcced6f3b03c478c7ea917ba7710"
+  },
+  "hash": "e872f762f62474a1e59a08c2d330ece8b71382ac22fbb107b5a032eed12e5e23",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported generalization: the packet only shows clients participating in counselling sessions and being analyzed at the session/client level, not that their experiences, behaviors, or outcomes are generally the focus of counselling work.",
+        "The research sense is only partly supported: the packet supports a client-level or between-clients comparison in a multilevel analysis, but not the broader phrasing about comparing differences between people receiving counselling."
+      ],
+      "definition_hash": "092363c139bcd25f55e52599da3c75db6abe21b477767e099acb0f1e2cdde0c1",
+      "packet_hash": "020f08dee02b72097718ed2550dd2356238dbcced6f3b03c478c7ea917ba7710",
+      "published_packet_hash": "020f08dee02b72097718ed2550dd2356238dbcced6f3b03c478c7ea917ba7710",
+      "receipt_id": "b5060575d058488597553ade99e041bf",
+      "request_hash": "dd9ef72312d5bd53103b6517811f00ae107eec3b88e8dfb126e32c4d8cbaa436",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “client” as “the person who takes part in counselling sessions”; it only refers to “clients” as units in a study dataset (e.g., “159 sessions nested among 26 clients”).",
+        "The packet does not support the claim that clients’ “experiences, behaviors, or outcomes are the focus of the work”; the text specifically examines relationships between “client laughter” and “session outcomes,” not a general definition of counseling focus.",
+        "The research-related part (“individual level when comparing differences between people receiving counselling”) is only partially supported: the packet describes a multilevel analysis separating “session-level (between-sessions) and client-level (between-clients),” but does not explicitly state that this is about “comparing differences” between people receiving counselling."
+      ],
+      "definition_hash": "092363c139bcd25f55e52599da3c75db6abe21b477767e099acb0f1e2cdde0c1",
+      "packet_hash": "020f08dee02b72097718ed2550dd2356238dbcced6f3b03c478c7ea917ba7710",
+      "published_packet_hash": "020f08dee02b72097718ed2550dd2356238dbcced6f3b03c478c7ea917ba7710",
+      "receipt_id": "f6c896e979ca4a8cbfd0c5fb4c99dd6f",
+      "request_hash": "5659850fe49f45ec17e3f25fd17c9227cb93826010b2d6bff0b4a26236ea8b2f",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "lickometer",
+  "term": "lickometer",
+  "definition": "A lickometer is a device used in animal research to monitor drinking behavior by recording each lick an animal makes while fluids are available. It is used to study patterns of intake, such as how often and when drinking bouts occur.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3701123"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3701123",
+      "revision": "2013; DOI 10.3389/fphar.2013.00084; article XML SHA-256 a5386ab5eea545a7cf58d70572d245688dee98e318a23e042f7e047cb26bfde4",
+      "scope": "Source record 10.3389/fphar.2013.00084; pinned source text",
+      "locator": "https://doi.org/10.3389/fphar.2013.00084"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "03aa3b76e463c0818e7f46f422a946959a55270c69dd975b7ba0f97fa03bc2e3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ca403fc802f04827a1403dfc77d850be",
+    "request_hash": "7832e0de7887c209dd66d255eb5b108f55b53296e50a8498320403748f637c42",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "dab9fe787f291cf9ad4172aba8e718ccb1eae2b2e17be8799f8fd5bf7cb0a1b1",
+    "packet_hash": "03aa3b76e463c0818e7f46f422a946959a55270c69dd975b7ba0f97fa03bc2e3"
+  },
+  "hash": "38ed3947900f8ecb29ddf6d2b611a8cfb8c42f0af4dcf8f1ee0972dc8ef03291",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dab9fe787f291cf9ad4172aba8e718ccb1eae2b2e17be8799f8fd5bf7cb0a1b1",
+      "packet_hash": "03aa3b76e463c0818e7f46f422a946959a55270c69dd975b7ba0f97fa03bc2e3",
+      "published_packet_hash": "03aa3b76e463c0818e7f46f422a946959a55270c69dd975b7ba0f97fa03bc2e3",
+      "receipt_id": "55d3916ffda3408690b62b64b7519807",
+      "request_hash": "f91da8742bd289cc75da4fff232a0021393cb5217eaaad89dd6e2e69dbe7af72",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the lickometer is used to study “how often and when drinking bouts occur.” The packet explicitly describes recording each lick and analyzing “the number of ethanol drinking bouts” (how often), but it does not support the “when” aspect of bout occurrence (timing) with the supplied text."
+      ],
+      "definition_hash": "dab9fe787f291cf9ad4172aba8e718ccb1eae2b2e17be8799f8fd5bf7cb0a1b1",
+      "packet_hash": "03aa3b76e463c0818e7f46f422a946959a55270c69dd975b7ba0f97fa03bc2e3",
+      "published_packet_hash": "03aa3b76e463c0818e7f46f422a946959a55270c69dd975b7ba0f97fa03bc2e3",
+      "receipt_id": "9059bd30a6b54540a71b80583063f465",
+      "request_hash": "4e7d571eb265d8fef10e16eec39d573ad74cfdf2276040f687011c32e9fe10a6",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "amplitude",
+  "term": "amplitude",
+  "definition": "In this biological imaging context, amplitude means the magnitude or strength of resting-state neural signal activity measured across brain voxels with fMRI. It is used as one of the voxel-wise measures for detecting altered brain function.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12540480"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12540480",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1660550; article XML SHA-256 b8794ad05f1e49e8fcb56da94358b23fda0acd3c05cf24a63945271cc0e01566",
+      "scope": "Source record 10.3389/fpsyt.2025.1660550; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1660550"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f0bd7656514b846556541622218460a19646594aa05d876f73f502df764825f6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3b160628b6d8432699b96daff59af1af",
+    "request_hash": "9814c9d2f6dfab0ff16fd5146ebd27e599bd6dbb8b0fd0dffebe32ef72befaba",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "76cc8a04f8532330fd136beff1a2959188bc8b037af03cf277a08d1067b7c1ff",
+    "packet_hash": "f0bd7656514b846556541622218460a19646594aa05d876f73f502df764825f6"
+  },
+  "hash": "f092d537158b287ab9e61458379fbf0ee708512cc4f15a3b905e50b0ee92fcf7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not define “amplitude” as a magnitude/strength measure of resting-state neural signal activity.",
+        "The packet does not support that amplitude is measured “across brain voxels with fMRI” or that it is “one of the voxel-wise measures for detecting altered brain function.”",
+        "The packet provides a general statement that studies report “voxel-wise alterations in measures of neural amplitude,” but it does not substantiate the specific meaning and usage described in the definition."
+      ],
+      "definition_hash": "76cc8a04f8532330fd136beff1a2959188bc8b037af03cf277a08d1067b7c1ff",
+      "packet_hash": "f0bd7656514b846556541622218460a19646594aa05d876f73f502df764825f6",
+      "published_packet_hash": "f0bd7656514b846556541622218460a19646594aa05d876f73f502df764825f6",
+      "receipt_id": "f804657116714e27915596193955bb4e",
+      "request_hash": "abb944f08d7c7407852e82d223b6befbddf39cbdb4d443bf004bc89ef6894481",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define amplitude as the magnitude or strength of resting-state neural signal activity; it only says resting-state fMRI studies reported voxel-wise alterations in measures of neural amplitude and synchronization.",
+        "The claim that amplitude is measured across brain voxels with fMRI is broader than the source supports; the source mentions voxel-wise analyses in resting-state fMRI but does not provide a definition of the measure itself.",
+        "The statement that amplitude is used to detect altered brain function is an unsupported generalization beyond the packet’s wording about identifying convergent amplitude and synchronization dysfunction in postpartum depression."
+      ],
+      "definition_hash": "76cc8a04f8532330fd136beff1a2959188bc8b037af03cf277a08d1067b7c1ff",
+      "packet_hash": "f0bd7656514b846556541622218460a19646594aa05d876f73f502df764825f6",
+      "published_packet_hash": "f0bd7656514b846556541622218460a19646594aa05d876f73f502df764825f6",
+      "receipt_id": "628e8b2fe4f940649e517593d7b3df40",
+      "request_hash": "64d72d5f223b6ab38cbd99e6ca4924f3143cf9acbbf4fb9158535693ddf515da",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

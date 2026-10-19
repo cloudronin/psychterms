@@ -1,0 +1,26 @@
+{
+  "id": "heterogeneous",
+  "term": "heterogeneous",
+  "source": "article-pmc12912692",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0342686",
+  "revision": "2026; DOI 10.1371/journal.pone.0342686; article XML SHA-256 a787c5be9680e9aa1baefc65123f7fa43793fb15d8095578f896b1c71f94053c",
+  "source_snapshot_sha256": "a787c5be9680e9aa1baefc65123f7fa43793fb15d8095578f896b1c71f94053c",
+  "url": "https://doi.org/10.1371/journal.pone.0342686",
+  "text": "Malicious bots undermine the integrity and safety of online social platforms, making their detection an urgent priority. This work aims to address the limitations of existing GNN-based bot detection approaches, particularly their inability to adapt the aggregation process to local feature distributions and heterogeneous relational structures. Our proposed framework, NeighborSense, exploits both relational graph structures and node features for detecting social bots. The approach involves an analysis of local bot-human interaction patterns, leading to the development of two local metrics based on neighborhood statistics. We then use a dynamically maintained shortcut module to integrate the above two metrics into a relational graph convolutional neural network (R-GCN) learning process, enabling gated aggregation control for different users based on the feature distribution of their neighbors. We confirmed that the proposed R-GCN backbone along with the metric-based adaptive gating mechanism achieves relational heterogeneity awareness, local entropy awareness, and local feature heterogeneity awareness. Benchmarking against state-of-the-art methods reveals that NeighborSense consistently achieves higher detection accuracy.",
+  "source_label": "Neighborhood perceivable graph neural network for relational heterogeneous Twitter bot detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1238
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "1778b379b5a873bacb02460e5e4853c02716558420cf554103bd7a4d4ecfc3f7"
+}

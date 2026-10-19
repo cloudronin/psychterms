@@ -1,0 +1,62 @@
+{
+  "id": "action-potential",
+  "term": "action potential",
+  "definition": "An action potential is the brief electrical spike a neuron produces when it fires. In recordings, these spikes appear as waveforms, and if nearby neurons fire at the same time their action-potential signals can overlap.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11620616"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11620616",
+      "revision": "2024; DOI 10.1371/journal.pone.0312438; article XML SHA-256 252d16af49769c45b1bd3f600724d236073bf9b317817f54adf802fb0e29d1bf",
+      "scope": "Source record 10.1371/journal.pone.0312438; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0312438"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c302bcd9379a5e519855281c46513b54270ce0e112a9c2e03ec8de4db538dcaf",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ecb0ed97664b4653ba0217fc986d6f14",
+    "request_hash": "e595f963cefdbd00cc35e632ff48d1c1bd6a8b99f58ee3a242ea31215b012a91",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "e4b88e6acf83ac2e283476e528d1a9b8ce316b1c35f4dcba5f51515e9bf051ef",
+    "packet_hash": "c302bcd9379a5e519855281c46513b54270ce0e112a9c2e03ec8de4db538dcaf"
+  },
+  "hash": "92d45b70a6d4c3e1917dab4994d1b009caf0595a547d7f6d665ee651bc701de2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first clause (“the brief electrical spike a neuron produces when it fires”) is not supported anywhere in the provided packet text.",
+        "Only the claim that overlapping action-potential signals/waveforms can occur when two nearby neurons fire at the same time (and thus overlap in the recorded signal) is supported by the packet."
+      ],
+      "definition_hash": "e4b88e6acf83ac2e283476e528d1a9b8ce316b1c35f4dcba5f51515e9bf051ef",
+      "packet_hash": "c302bcd9379a5e519855281c46513b54270ce0e112a9c2e03ec8de4db538dcaf",
+      "published_packet_hash": "c302bcd9379a5e519855281c46513b54270ce0e112a9c2e03ec8de4db538dcaf",
+      "receipt_id": "258990aaf86248e4bf0b327156c2c0f0",
+      "request_hash": "b1a1427503d651426f9f53e9dc9887ac3939cc5b7962e52707b72d1a35373493",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports overlap of waveforms when two nearby neurons fire an action potential at the same time, but it does not explicitly support defining an action potential itself as a “brief electrical spike” or saying that a neuron “produces” it when it fires."
+      ],
+      "definition_hash": "e4b88e6acf83ac2e283476e528d1a9b8ce316b1c35f4dcba5f51515e9bf051ef",
+      "packet_hash": "c302bcd9379a5e519855281c46513b54270ce0e112a9c2e03ec8de4db538dcaf",
+      "published_packet_hash": "c302bcd9379a5e519855281c46513b54270ce0e112a9c2e03ec8de4db538dcaf",
+      "receipt_id": "47625c60459a4a84a2a3936db2129f21",
+      "request_hash": "4881c7b881caf0badb324299e18653d5891680c3b25599d7878c0d816d050977",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

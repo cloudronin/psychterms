@@ -1,0 +1,63 @@
+{
+  "id": "maf",
+  "term": "MAF",
+  "definition": "MAF refers here to MAF-Net, a multimodal cross-attention fusion model that combines clinical information with electrocardiogram data to classify cardiovascular disease. It is designed to improve recognition by modeling how these different sources of information relate to each other.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13056181"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13056181",
+      "revision": "2026; DOI 10.1371/journal.pone.0345238; article XML SHA-256 fac74f3edc07e63f3d9a1662d0159c00f2851e8f71a1e202c0d3e83d9f6a1d5f",
+      "scope": "Source record 10.1371/journal.pone.0345238; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0345238"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "37b503e8af3540b18572c305f1f8827d",
+    "request_hash": "d530b811847ffb16eeee74da445b4a330056b604661223dd292cc72b979d6718",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "531d714d9c9d97957ac2e05e07583aab9fa21ba07617a85d16127d210edfcc47",
+    "packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25"
+  },
+  "hash": "ae773963e6fc3de8c62c51b64459d528e05d5785aed64dc9a3374327d9415b8f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about a multimodal cardiovascular disease classification model (MAF-Net), not a cognition/psychology concept, so the requested field is not defensible.",
+        "The definition’s expansion to MAF-Net is supported, but the entry as written does not fit the supplied field scope."
+      ],
+      "definition_hash": "531d714d9c9d97957ac2e05e07583aab9fa21ba07617a85d16127d210edfcc47",
+      "packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25",
+      "published_packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25",
+      "receipt_id": "a6233c35830d4b309a95a162c3dae258",
+      "request_hash": "e1a0a8222b56594666e85726c9d8b0077e8c0f85c1eb7e37c1e55aebdda23244",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes MAF-Net as a machine-learning model for cardiovascular disease classification, not something within the cognition domain.",
+        "The definition’s framing as “improve recognition” is somewhat imprecise relative to the packet, which emphasizes improving cardiovascular disease diagnostic accuracy rather than general “recognition” in a cognition context."
+      ],
+      "definition_hash": "531d714d9c9d97957ac2e05e07583aab9fa21ba07617a85d16127d210edfcc47",
+      "packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25",
+      "published_packet_hash": "9e93d7f745928b94c8af88d118e27e501fd49b5d4849a5bcbf7ed7c2bf8ede25",
+      "receipt_id": "27fc72c7d94f42b39543e41dff9e2864",
+      "request_hash": "25d6adcc9c2b21e7aa04135294c4307941dfb1546453a2cb2e4fa4bb425f6f13",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "secondary-somatosensory-area",
+  "term": "secondary somatosensory area",
+  "definition": "The secondary somatosensory area, or S2, is a cortical region within the sensorimotor network that becomes active during movement and sensory stimulation. In this source, it is described as one of the brain areas activated during voluntary wrist movement and neuromuscular electrical stimulation.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4497661"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4497661",
+      "revision": "2015; DOI 10.1371/journal.pone.0131951; article XML SHA-256 b9cc6ae9ce23ba23ef33b1bf32c68088a1b6ddb75868e2040175833fa446c3a3",
+      "scope": "Source record 10.1371/journal.pone.0131951; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0131951"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0dfe1cdcb01ff0ecc990091064f09f6219e00d95aee190b64b6dc29e7a05e3b2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0dff0589cc8b433d8f6c273f04666379",
+    "request_hash": "6041efa2c09b6cd3fdbd699977236b95eea7c3e00a2be775957c49a0c940f860",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "cffc81741163551483c7951b2dfd17da07b6edd0864d52948bf3b16f4e7fc531",
+    "packet_hash": "0dfe1cdcb01ff0ecc990091064f09f6219e00d95aee190b64b6dc29e7a05e3b2"
+  },
+  "hash": "9501089493056a0dea00a3369ac7f635f9ad77b4a2db6e218fba28bf894b236f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Sensory stimulation” is not supported by the packet; the source describes activation during voluntary wrist movement and NMES-evoked movements, not general sensory stimulation.",
+        "The definition generalizes beyond the packet by presenting S2’s role as a broad clinical/neuroscience fact rather than limiting it to the specific study’s finding about cortical activation in this experiment."
+      ],
+      "definition_hash": "cffc81741163551483c7951b2dfd17da07b6edd0864d52948bf3b16f4e7fc531",
+      "packet_hash": "0dfe1cdcb01ff0ecc990091064f09f6219e00d95aee190b64b6dc29e7a05e3b2",
+      "published_packet_hash": "0dfe1cdcb01ff0ecc990091064f09f6219e00d95aee190b64b6dc29e7a05e3b2",
+      "receipt_id": "ee12bb17848e44e58b6515ee5c6383ef",
+      "request_hash": "0e8b98173e1b7d23f4d73e8238e4f48b37f147e0826633746be59c4625d8d9b8",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims S2 “becomes active during movement and sensory stimulation,” but the packet only directly supports activation during NMES-evoked movements and voluntary wrist extension movements; it does not explicitly describe S2 activation during sensory stimulation in general.",
+        "“Within the sensorimotor network” is supported, but the broader wording about “sensory stimulation” is not clearly supported by the provided text."
+      ],
+      "definition_hash": "cffc81741163551483c7951b2dfd17da07b6edd0864d52948bf3b16f4e7fc531",
+      "packet_hash": "0dfe1cdcb01ff0ecc990091064f09f6219e00d95aee190b64b6dc29e7a05e3b2",
+      "published_packet_hash": "0dfe1cdcb01ff0ecc990091064f09f6219e00d95aee190b64b6dc29e7a05e3b2",
+      "receipt_id": "cb86fc7afc974348a92e8b109f1f2c42",
+      "request_hash": "c1e6dbd6e58dd1684081482604c61f4dbbc6d6dcf9922eee2d6bea929aec2214",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

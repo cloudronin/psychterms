@@ -1,0 +1,63 @@
+{
+  "id": "human-error",
+  "term": "human error",
+  "definition": "Human error is a person's mistake or action that creates risk in a system and can contribute to unsafe incidents or accidents. In assessment, it is treated as a risk factor by considering how likely the error is, how likely it is to affect the system, and how serious its consequences could be.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11057747"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11057747",
+      "revision": "2024; DOI 10.1371/journal.pone.0302511; article XML SHA-256 3728cdfacaee791546fc5b084e6235f7fdffed86b63448a1d9680d6b1a797ad9",
+      "scope": "Source record 10.1371/journal.pone.0302511; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0302511"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a271005352d7d4ebe910f72e57eac352850bd2e3c0de9e653700da459119a988",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3ce2338f865c4226be3167d8f851bf7c",
+    "request_hash": "71c9a3a14986e9494b88a0e7d0cacc4b1e567d83084e1064110f992e10232fd9",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "ac89ec5782a37ae3ed5c4887a9b46959d9188767eeea51839c068ba8d5843c3b",
+    "packet_hash": "a271005352d7d4ebe910f72e57eac352850bd2e3c0de9e653700da459119a988"
+  },
+  "hash": "294030152d6554d81ad4adc351ae81916ea6c58fcc56f89915baae838e6b3706",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports human error as a risk to be quantified in aviation safety assessment, but it does not define the term as a person's mistake or action; that wording is an unsupported generalization.",
+        "The source is specific to aviation risk assessment, so the definition should stay anchored to that context rather than presenting a broader general definition of human error."
+      ],
+      "definition_hash": "ac89ec5782a37ae3ed5c4887a9b46959d9188767eeea51839c068ba8d5843c3b",
+      "packet_hash": "a271005352d7d4ebe910f72e57eac352850bd2e3c0de9e653700da459119a988",
+      "published_packet_hash": "a271005352d7d4ebe910f72e57eac352850bd2e3c0de9e653700da459119a988",
+      "receipt_id": "729b94b2fd9644948853a4d15c81da7d",
+      "request_hash": "b10d815d768558907e6d9f2c8fcd9893e2080d7dfcb915c637c7ca107206286f",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that human error is “a person's mistake or action.” The provided packet discusses “human errors” in aviation risk assessment but does not explicitly define human error as a “person’s mistake or action.”",
+        "The rest of the definition (that assessment considers human error probability, impact on the system, and severity/consequences) is broadly supported by the packet’s description of a model accounting for “human error probability,” “impacts…on the system,” and “human error consequence,” but the unsupported first-sentence phrasing prevents a full pass."
+      ],
+      "definition_hash": "ac89ec5782a37ae3ed5c4887a9b46959d9188767eeea51839c068ba8d5843c3b",
+      "packet_hash": "a271005352d7d4ebe910f72e57eac352850bd2e3c0de9e653700da459119a988",
+      "published_packet_hash": "a271005352d7d4ebe910f72e57eac352850bd2e3c0de9e653700da459119a988",
+      "receipt_id": "798b14a732074d7f9bdc270df2be64f2",
+      "request_hash": "f25061e4515cbc971a77dd2b1bccf3652bffd89473af336f397bcc14f34bbde9",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

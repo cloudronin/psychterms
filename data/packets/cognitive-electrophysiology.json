@@ -1,0 +1,26 @@
+{
+  "id": "cognitive-electrophysiology",
+  "term": "cognitive electrophysiology",
+  "source": "article-pmc13533352",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0357213",
+  "revision": "2026; DOI 10.1371/journal.pone.0357213; article XML SHA-256 af44fa1bc2fd04b1c5d7e475677abe126f388dbc4823267ac0a142ca07933eca",
+  "source_snapshot_sha256": "af44fa1bc2fd04b1c5d7e475677abe126f388dbc4823267ac0a142ca07933eca",
+  "url": "https://doi.org/10.1371/journal.pone.0357213",
+  "text": "(ADHD) affects millions globally, yet current diagnostic approaches rely on subjective behavioral assessments without objective neurophysiological markers. While machine learning on electroencephalogram (EEG) data shows promise for automated ADHD risk screening, current methods focus only on brain signals and ignore socioeconomic factors that strongly affect neurodevelopment and ADHD risk. We introduce a novel multimodal deep learning architecture integrating three complementary streams: temporal EEG dynamics via one-dimensional convolutional-recurrent networks, spectro-temporal patterns via two-dimensional convolutional networks with spatial and channel attention, and socioeconomic context via feedforward processing, combined through an attention-based fusion mechanism. Using the Cognitive Electrophysiology in Socioeconomic Context dataset, we evaluate performance across four cognitive tasks with 5-fold stratified cross-validation, ablation studies and benchmarking against a state-of-the-art EEG classification model. Under epoch-level cross-validation, the multimodal approach outperforms EEG-only baselines across all four tasks, achieving accuracy improvements of 2.1–5.9% and sensitivity gains up to 12.2%, with strong positive-class F1-scores (96.4–99.8%). Results showed higher epoch-level performance when socioeconomic context was incorporated alongside neurophysiological signals, a pattern that held across diverse cognitive paradigms. Leave-One-Subject-Out Cross-Validation across all four tasks yielded accuracy of 0.86–0.91 for the EEG-only model and 0.92–0.96 for the multimodal model, with sensitivity of 0.71–0.96 and specificity of 0.95–1.00 for the multimodal model. These subject-independent estimates are more modest than the epoch-level figures and McNemar’s test on paired predictions did not reach significance on any task. The EEG backbone, evaluated without modification on an independent paediatric dataset, also achieved 80.4% subject-independent accuracy, outperforming the prior benchmark. Labels derive from a validated self-report screening instrument rather than clinical diagnosis; this model should be understood as a proof-of-concept for ADHD risk screening, not a diagnostic tool. This work suggests the feasibility of context-aware ADHD risk screening that accounts for environmental influences on neurodevelopment alongside",
+  "source_label": "Integrating socioeconomic context with multimodal EEG data for improved ADHD risk screening",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    41,
+    2418
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "article-requested-concept:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "cdf6c0a855bd54d1b20d2998bafa119ce29ab81bd12323a7e151be7c4358ee04"
+}

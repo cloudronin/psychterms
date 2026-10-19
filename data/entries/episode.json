@@ -1,0 +1,64 @@
+{
+  "id": "episode",
+  "term": "episode",
+  "definition": "In diagnosis, an episode is a distinct period in which a disorder or its symptoms are present. In this source, first episode psychosis means the initial occurrence of psychotic symptoms.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13106474"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13106474",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1782134; article XML SHA-256 b96b679a6d7dce098d45e700f8c27ed3536e5666c641744315d445d32ccba9f6",
+      "scope": "Source record 10.3389/fpsyt.2026.1782134; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1782134"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "486f6bcca2c11e5cb0dd0ea8d584f1c9562c55558a09f7d0d5c6b8b3761102ce",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2542343765334ef69c48b4fe8eeb1bb0",
+    "request_hash": "1bac9efbda077deb27376ac6965ae12d28cf12a3fcdb85a4b32ddf54b5ebd8ab",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "78b502c2a4ca1e25285771e25d8774c2770c5f5963ab6448845ab2446ffb6105",
+    "packet_hash": "486f6bcca2c11e5cb0dd0ea8d584f1c9562c55558a09f7d0d5c6b8b3761102ce"
+  },
+  "hash": "190ef57e3d101cfe78db5676842d5a3d15f6bd0e2a66fbe5a593f66682be129a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not define the term “episode” as a distinct period when a disorder or its symptoms are present.",
+        "The packet only mentions “first episode of psychosis (FEP)” but does not explain what “first episode” means (e.g., that it is the initial occurrence of psychotic symptoms).",
+        "Because the key definitional claims are not supported by the provided packet text, the requested sense of “episode” in diagnosis is not defensible."
+      ],
+      "definition_hash": "78b502c2a4ca1e25285771e25d8774c2770c5f5963ab6448845ab2446ffb6105",
+      "packet_hash": "486f6bcca2c11e5cb0dd0ea8d584f1c9562c55558a09f7d0d5c6b8b3761102ce",
+      "published_packet_hash": "486f6bcca2c11e5cb0dd0ea8d584f1c9562c55558a09f7d0d5c6b8b3761102ce",
+      "receipt_id": "28851f1fb3b741568ab06e23ebce1a4f",
+      "request_hash": "8c38c9facdaf796fda6fcb3e8a703121870ff908e2824fd371fb874d91687141",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the phrase “first episode of psychosis” only as a reference to psychosis presenting at the first episode, not a general diagnostic definition of an “episode” as a distinct period in which a disorder or its symptoms are present.",
+        "The definition adds an explanatory claim (“In this source, first episode psychosis means the initial occurrence of psychotic symptoms”) that is broader and more interpretive than the packet text, which only says negative symptoms are evident from the first episode of psychosis."
+      ],
+      "definition_hash": "78b502c2a4ca1e25285771e25d8774c2770c5f5963ab6448845ab2446ffb6105",
+      "packet_hash": "486f6bcca2c11e5cb0dd0ea8d584f1c9562c55558a09f7d0d5c6b8b3761102ce",
+      "published_packet_hash": "486f6bcca2c11e5cb0dd0ea8d584f1c9562c55558a09f7d0d5c6b8b3761102ce",
+      "receipt_id": "89c12156f7fc48fd80eb7e09ce9eecba",
+      "request_hash": "d6ec2b526fea8dbf4b097312b97d6e30a0d350c4ecf60e04a6170c0bacb3176d",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

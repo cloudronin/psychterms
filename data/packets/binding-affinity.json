@@ -1,0 +1,26 @@
+{
+  "id": "binding-affinity",
+  "term": "binding affinity",
+  "source": "article-pmc11977954",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0320465",
+  "revision": "2025; DOI 10.1371/journal.pone.0320465; article XML SHA-256 d62eecbdba706995d9f7767c0d2b6ba003f100acf40837f51c2d09c273de9744",
+  "source_snapshot_sha256": "d62eecbdba706995d9f7767c0d2b6ba003f100acf40837f51c2d09c273de9744",
+  "url": "https://doi.org/10.1371/journal.pone.0320465",
+  "text": "Protein-ligand interactions are crucial in drug discovery. Accurately predicting protein-ligand binding affinity is essential for screening potential drugs. Graph neural networks have proven highly effective in modeling spatial relationships and three-dimensional structures within intermolecular. In this paper, we introduce a graph neural network-based model named EIGN to predict protein-ligand binding affinity. The model consists of three main components: the normalized adaptive encoder, the molecular information propagation module, and the output module. Experimental results indicate that EIGN achieves root mean squared error of 1.126 and Pearson correlation coefficient of 0.861 on CASF-2016. Additionally, our model outperforms state-of-the-art methods on CASF-2013, CASF-2016, and the CSAR-NRC set, showing exceptional accuracy and robust generalization ability. To further validate the effectiveness of EIGN, we conducted several experiments, including ablation studies, feature importance analysis, data similarity analysis, and others, to evaluate its performance and applicability.",
+  "source_label": "Edge-enhanced interaction graph network for protein-ligand binding affinity prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1098
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "a98aed4857b4cc5b3da66c833112d3f7a0e8f97190d9c6df0f30e1423e65ed8c"
+}

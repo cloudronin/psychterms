@@ -1,0 +1,64 @@
+{
+  "id": "mha",
+  "term": "MHA",
+  "definition": "MHA stands for multi-head attention, a computation method that lets a system attend to multiple parts of input information at the same time. In this source, it is described as a traditional attention-based approach that can be effective but is costly in processing time and memory.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12755748"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12755748",
+      "revision": "2025; DOI 10.1371/journal.pone.0335240; article XML SHA-256 c0da39b309ba116934f5cac70cacbf66cd80eb8ba8473cc5b76f39eb31b8abaa",
+      "scope": "Source record 10.1371/journal.pone.0335240; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335240"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e87e48a0680966a0a5bc498cecf471b93c189a233fecc29205bbc19dca570dab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1993f8992efc43608a00a7ec7be5aa72",
+    "request_hash": "7e4b69aff09002f62f4c0fe9e18268de331379367092b4ed6eabe4775df28ef9",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "1e78f10248c953a25b182d983730cdc1aa6518c0ace23ea1c85c26e70a052051",
+    "packet_hash": "e87e48a0680966a0a5bc498cecf471b93c189a233fecc29205bbc19dca570dab"
+  },
+  "hash": "a7c7c2d8d154446f184fbf742700763aee8c4cce1ff7243ff448aeba1c139777",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that MHA “lets a system attend to multiple parts of input information at the same time,” but the packet only refers to “Multi-Head Attention (MHA)” and does not describe this “attend to multiple parts … at the same time” mechanism.",
+        "The definition describes MHA as “a traditional attention-based approach,” but the packet specifically characterizes MHA-based methods as “computationally intensive,” with “quadratic complexity” and “high memory demands,” without explicitly framing it as a general “traditional attention-based approach.”",
+        "The packet content is about spoof detection for automatic speaker verification (audio systems), not cognition; the provided field label “cognition” is not supported by the packet."
+      ],
+      "definition_hash": "1e78f10248c953a25b182d983730cdc1aa6518c0ace23ea1c85c26e70a052051",
+      "packet_hash": "e87e48a0680966a0a5bc498cecf471b93c189a233fecc29205bbc19dca570dab",
+      "published_packet_hash": "e87e48a0680966a0a5bc498cecf471b93c189a233fecc29205bbc19dca570dab",
+      "receipt_id": "f0a580fd33314bc1acf8fb75228dbb1e",
+      "request_hash": "efaad640ce0b446e2c00a753fd1bc58715657d15eb9dd252079f455e73dd1e8d",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that MHA refers to multi-head attention and that it is computationally intensive with quadratic complexity and high memory demands, but it does not explicitly support the claim that it 'lets a system attend to multiple parts of input information at the same time.'",
+        "The definition slightly overgeneralizes beyond the source by presenting a generic functional explanation rather than sticking to the source’s wording about MHA as a traditional attention-based method used in spoof detection."
+      ],
+      "definition_hash": "1e78f10248c953a25b182d983730cdc1aa6518c0ace23ea1c85c26e70a052051",
+      "packet_hash": "e87e48a0680966a0a5bc498cecf471b93c189a233fecc29205bbc19dca570dab",
+      "published_packet_hash": "e87e48a0680966a0a5bc498cecf471b93c189a233fecc29205bbc19dca570dab",
+      "receipt_id": "23947242d751462c99a3cd60b828e973",
+      "request_hash": "b9fa74e825b11e66ccea03a13fce79d941370122eb60a5fc68aefaf7bf2c16e0",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

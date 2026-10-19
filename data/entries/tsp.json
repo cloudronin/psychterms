@@ -1,0 +1,63 @@
+{
+  "id": "tsp",
+  "term": "TSP",
+  "definition": "TSP usually refers to thrombospondin-1, a naturally occurring protein in the body that helps regulate several biological processes. In this source, it is described mainly as an inhibitor of new blood vessel growth.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12180637"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12180637",
+      "revision": "2025; DOI 10.1371/journal.pone.0325661; article XML SHA-256 700c14f4e5f6796e61591934c0185885a56497ca4f6807721ca64ca0f2431837",
+      "scope": "Source record 10.1371/journal.pone.0325661; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0325661"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f37b941ee1c530c462b06d7b49a2e4e1212e3e78fb4e92610f44f7446dcac0f9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0f01fc6a4ebe47eda88f4edec8ccf11e",
+    "request_hash": "5924818e6875b881be4ed55c29dd29dc9405069a113490ada2c70e4193d16f4f",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "8b7d1d79660ca53af9299ce32dd5bce4abf7faede3a9fa9bf96a31fa348d0257",
+    "packet_hash": "f37b941ee1c530c462b06d7b49a2e4e1212e3e78fb4e92610f44f7446dcac0f9"
+  },
+  "hash": "6ab5922640ce18fce963f925c675e8296f16d41de683ec253d79681960e10180",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that “TSP usually refers to thrombospondin-1”; it only states “Thrombospondin-1 (TSP-1)” in this source.",
+        "The definition uses “TSP” (without the “-1”), while the packet’s abbreviation is explicitly “TSP-1”; the mapping from “TSP” to “thrombospondin-1” is not explicitly established in the provided text."
+      ],
+      "definition_hash": "8b7d1d79660ca53af9299ce32dd5bce4abf7faede3a9fa9bf96a31fa348d0257",
+      "packet_hash": "f37b941ee1c530c462b06d7b49a2e4e1212e3e78fb4e92610f44f7446dcac0f9",
+      "published_packet_hash": "f37b941ee1c530c462b06d7b49a2e4e1212e3e78fb4e92610f44f7446dcac0f9",
+      "receipt_id": "064f1ee5c270488e8123912cf72b2927",
+      "request_hash": "bd1b04ea915e8741453b1d3b4b445d41f26a423ff12992aee548a95cfb442230",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports thrombospondin-1 (TSP-1), not the standalone abbreviation TSP, so the requested term/sense is not firmly matched.",
+        "“Usually refers to” is not supported by the source packet; the packet only says that thrombospondin-1 is an endogenous protein with multiple biological roles and an inhibitory effect on neovascularization."
+      ],
+      "definition_hash": "8b7d1d79660ca53af9299ce32dd5bce4abf7faede3a9fa9bf96a31fa348d0257",
+      "packet_hash": "f37b941ee1c530c462b06d7b49a2e4e1212e3e78fb4e92610f44f7446dcac0f9",
+      "published_packet_hash": "f37b941ee1c530c462b06d7b49a2e4e1212e3e78fb4e92610f44f7446dcac0f9",
+      "receipt_id": "ccb12fbbe42b488782c5abe3a5ced0a0",
+      "request_hash": "6550c6fbcfd7e46df332c9127e803a3dab46c9c5a6d22fc7fe36ffc4b233c316",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

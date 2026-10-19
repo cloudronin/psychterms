@@ -1,0 +1,61 @@
+{
+  "id": "turner-syndrome",
+  "term": "Turner syndrome",
+  "definition": "Turner syndrome, also called Ullrich-Turner syndrome, is an endocrine disorder. In the supplied source, it is described as a condition that can negatively affect bone metabolism during puberty and adolescence, which may reduce the development of peak bone mass and increase later osteoporosis risk.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12677445"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12677445",
+      "revision": "2025; DOI 10.1371/journal.pone.0337842; article XML SHA-256 e6a7b8a73338c845505d7e09a8ebae3ef392119fdf9fb706e15bf59875e7cc02",
+      "scope": "Source record 10.1371/journal.pone.0337842; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337842"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4ee102ea1f568f16f61a48d8ac6f2aeaa79c43d48e7e794bd0d1e90354c24728",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fd8fe38865c14963add261f945220ca9",
+    "request_hash": "2e9b01f8f68b1ddb9cdcdd44fe9ca1d79a326b293d7cf972d4f14a238c569726",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "4bb5e485ec29b53d9afd454de75dd8ea6ff35594d2896bcc744dc70eefc2b6d0",
+    "packet_hash": "4ee102ea1f568f16f61a48d8ac6f2aeaa79c43d48e7e794bd0d1e90354c24728"
+  },
+  "hash": "aabe31cb1a9294cd6ce96d7cf51691ed57d59df1e2b2a967894a0e122db0e99a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4bb5e485ec29b53d9afd454de75dd8ea6ff35594d2896bcc744dc70eefc2b6d0",
+      "packet_hash": "4ee102ea1f568f16f61a48d8ac6f2aeaa79c43d48e7e794bd0d1e90354c24728",
+      "published_packet_hash": "4ee102ea1f568f16f61a48d8ac6f2aeaa79c43d48e7e794bd0d1e90354c24728",
+      "receipt_id": "99a26f0d4f7a4409ab1810dcc247135c",
+      "request_hash": "b6d49ee7f53c0c861a8ec46358f78373f7f08c24815a1fc5b2bacfa0308fd590",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch/defensibility: the packet’s content is about bone health, bone metabolism, peak bone mass, and osteoporosis risk, not cognition.",
+        "While the packet supports that Ullrich-Turner syndrome (listed as ‘Ullrich-Turner syndrome’) can negatively affect bone metabolism and thereby reduce development of eventual peak bone mass, it does not explicitly state that this reduction increases later osteoporosis risk (the phrase ‘lifetime risk of osteoporosis’ is mentioned as a topic, but the causal link to later osteoporosis risk is not spelled out in the provided text).",
+        "The alternative name ‘Ullrich-Turner syndrome’ is supported by the packet, but the remaining asserted causal outcome (‘increase later osteoporosis risk’) is not fully supported by the supplied source text."
+      ],
+      "definition_hash": "4bb5e485ec29b53d9afd454de75dd8ea6ff35594d2896bcc744dc70eefc2b6d0",
+      "packet_hash": "4ee102ea1f568f16f61a48d8ac6f2aeaa79c43d48e7e794bd0d1e90354c24728",
+      "published_packet_hash": "4ee102ea1f568f16f61a48d8ac6f2aeaa79c43d48e7e794bd0d1e90354c24728",
+      "receipt_id": "4f2d63e951db4bd9b036aaf3c3e29623",
+      "request_hash": "7e23a5a200904bb4765115b7e44174602a8a69b810bb90ce54a7e2c6d491d3fa",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

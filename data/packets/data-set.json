@@ -1,0 +1,26 @@
+{
+  "id": "data-set",
+  "term": "data set",
+  "source": "article-pmc13286197",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0350838",
+  "revision": "2026; DOI 10.1371/journal.pone.0350838; article XML SHA-256 1261654be814ef0513627a28bc7a350fdfe028c35e3d055993fdeda8271d1017",
+  "source_snapshot_sha256": "1261654be814ef0513627a28bc7a350fdfe028c35e3d055993fdeda8271d1017",
+  "url": "https://doi.org/10.1371/journal.pone.0350838",
+  "text": "This study presents an innovative approach for diagnosing gearbox gear faults by enabling numerical vibration data analysis using image-based deep learning models. The Gearbox Fault Diagnosis Data set available on Kaggle was used to collect vibration signals from four different sensors (a1, a2, a3, a4). The maximum, minimum, and mean values of these signals were calculated and normalized within the [0–255] range and then mapped to the red, green, and blue (RGB) color channels, respectively. As a result, 500 images of 256 × 256 pixels were generated for each category. Then, these image representations were used to train a pre-trained U-Net deep learning model for segmentation, with only 10 training epochs. The model achieved a classification accuracy of 99.87% and an mean average precision (mAP) score of 99.74%. These high-performance metrics demonstrate that converting non-visual numerical data into RGB images and analyzing them using convolutional neural networks (CNNs) offers significant advantages over commonly used machine learning and text-based deep learning methods.To the best of our knowledge, this is the first study to classify numerical sensor data with such high accuracy by converting it into a visual format. The proposed method not only advances the field of gearbox fault detection and introduces a new paradigm for solving similar signal-based engineering problems in the literature.",
+  "source_label": "RGB-based visual encoding of vibration data for gearbox fault diagnosis using U-Net segmentation model",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1417
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "1979a2a350d54162813ec0a3eedae21660d46d7a0ae1266576aeaa65429f091b"
+}

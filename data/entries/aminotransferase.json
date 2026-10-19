@@ -1,0 +1,60 @@
+{
+  "id": "aminotransferase",
+  "term": "aminotransferase",
+  "definition": "Aminotransferases are enzymes that include AST and ALT, measured in relation to liver and other tissue function. ALT is mainly associated with liver cell problems, while AST is found in several organs and may also reflect broader tissue stress such as oxidative or mitochondrial dysfunction.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10621830"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10621830",
+      "revision": "2023; DOI 10.1371/journal.pone.0293749; article XML SHA-256 9d46e6b57266f7e4060d93e6a9d738847b9b3f7c0898642300db6a1985c43f3e",
+      "scope": "Source record 10.1371/journal.pone.0293749; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0293749"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "be478572e52e44ca9cc59ee45f5e257b",
+    "request_hash": "21b9a7563ebf046ab51669e80064073d47c35a7c75d2184ee8e3fc2f716d7a32",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "892a580bbd9711d85b3a74bcbd5255c8bab5cb1c38b26ba67848b5a4b91541d3",
+    "packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e"
+  },
+  "hash": "e70b33b5c892a35c2edbd659a70508eb5ea25805124ef0126ae4aa9d071e0f00",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "892a580bbd9711d85b3a74bcbd5255c8bab5cb1c38b26ba67848b5a4b91541d3",
+      "packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e",
+      "published_packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e",
+      "receipt_id": "2dc33281d4f142cf9faa26b956b7c424",
+      "request_hash": "aea3684c6913b1e17de828bfba99a4c26b3ec8d909c9920f3f4d86169f2f387e",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s stated field is “cognition,” but the supplied packet discusses biochemical markers (AST/ALT, oxidative stress, ischemic injury, outcomes in medical conditions) and provides no support that this term is being used in a cognition context.",
+        "“Measured in relation to liver and other tissue function” is not explicitly supported by the packet text; the packet describes locations and interpretations of AST/ALT (e.g., liver-specific malfunction vs mitochondrial dysfunction) but does not state measurement framing in those terms."
+      ],
+      "definition_hash": "892a580bbd9711d85b3a74bcbd5255c8bab5cb1c38b26ba67848b5a4b91541d3",
+      "packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e",
+      "published_packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e",
+      "receipt_id": "0c5c8899698b48e89b91a830111e5a32",
+      "request_hash": "40fd022dea00eafaba3793d537d9255682bccf59b31ed2d02d58ec93b9e57c28",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "estradiol",
+  "term": "estradiol",
+  "definition": "Estradiol is presented here as a sex-hormone-based adjunctive agent proposed for males with treatment-resistant bipolar disorder. In this framework, it is intended to act on brain estrogen receptors linked to neuroplasticity, inflammatory signaling, and stress response, with the goal of reducing mood instability and related cognitive or stress-related problems when buffered by a selective estrogen receptor modulator.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12454395"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12454395",
+      "revision": "2025; DOI 10.3389/fpsyt.2025.1644175; article XML SHA-256 18bac106b421f27e297c3ff2dea1af984f0dd8eb7f7b1703dbcdd8d3482ddc8a",
+      "scope": "Source record 10.3389/fpsyt.2025.1644175; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1644175"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b8754b4870cd0a3967886a825cf56196620b49e3ff117f7b0e96f3907f933421",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c3592a2f080d43528c1779a112b0d38e",
+    "request_hash": "75393b3617506599129994e1a747df95ce5894e09aed9195719ee6a6d2473339",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "052be6f43bd664ec1705dd1cd95047c8393d06977b592fa06d5dc7fd997ca238",
+    "packet_hash": "b8754b4870cd0a3967886a825cf56196620b49e3ff117f7b0e96f3907f933421"
+  },
+  "hash": "d8ab3264cca1ca7597df9aff933bf15c0970d06beca8bd0367d0eff97fc4c3fd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition treats estradiol as a proposed adjunctive treatment strategy for male treatment-resistant bipolar disorder, but the packet supports only a theoretical therapeutic hypothesis, not a dictionary sense for the term itself.",
+        "The requested field is \"diagnosis,\" but the source is about a putative treatment framework; this is a mismatch in sense/field.",
+        "The wording adds unsupported specificity such as a goal of reducing \"mood instability and related cognitive or stress-related problems when buffered by a selective estrogen receptor modulator\" as a settled role, whereas the packet presents this only as a hypothesis to be tested.",
+        "The definition overstates the evidence by implying a defined clinical use, while the packet explicitly frames the proposal as theoretical and invites translational trials."
+      ],
+      "definition_hash": "052be6f43bd664ec1705dd1cd95047c8393d06977b592fa06d5dc7fd997ca238",
+      "packet_hash": "b8754b4870cd0a3967886a825cf56196620b49e3ff117f7b0e96f3907f933421",
+      "published_packet_hash": "b8754b4870cd0a3967886a825cf56196620b49e3ff117f7b0e96f3907f933421",
+      "receipt_id": "1b5bae1a8d4a4bb29d02a4c3166b4dc5",
+      "request_hash": "201fabc9d5493d712a75229a3222a4cfd5cbd5d4d221aa86cfb68ed0f6fc88de",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "052be6f43bd664ec1705dd1cd95047c8393d06977b592fa06d5dc7fd997ca238",
+      "packet_hash": "b8754b4870cd0a3967886a825cf56196620b49e3ff117f7b0e96f3907f933421",
+      "published_packet_hash": "b8754b4870cd0a3967886a825cf56196620b49e3ff117f7b0e96f3907f933421",
+      "receipt_id": "759e6ff1e2924db2b4be49faff766811",
+      "request_hash": "3887750f6ea028315f620a5e6f6bff6d1bda7465145fe4c0026111410e6aabbe",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

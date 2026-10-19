@@ -1,0 +1,61 @@
+{
+  "id": "mean-effect-size",
+  "term": "mean effect size",
+  "definition": "Mean effect size is the average magnitude of the effect being studied across the set of studies included in a meta-analysis. It is used to summarize the overall size of the investigated effect, distinct from heterogeneity, which reflects how consistent that effect is across studies.",
+  "field": "research methods",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8812955"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8812955",
+      "revision": "2022; DOI 10.1371/journal.pone.0262809; article XML SHA-256 e7d02afdb2a94d32de304f1b28c5939f1c9f8f6aa1388a5b06e43b2fa5edf515",
+      "scope": "Source record 10.1371/journal.pone.0262809; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0262809"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7bf2e48b7f294be4130fc09113bac6031c7bf305295290f42eeb47bd628449c2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5b54de82bbfb4760805baaaac622ee59",
+    "request_hash": "2040ffd92892cdbd7efde21a389615de1f58e4d1617f61e9e8ce4af601f6fe75",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "56a8561b2cc48dfa2efecdc8462afa6296ad301300e852d387e724ff61e7e727",
+    "packet_hash": "7bf2e48b7f294be4130fc09113bac6031c7bf305295290f42eeb47bd628449c2"
+  },
+  "hash": "b3da3785f9a951242a7408a2b7dbfec1e52ed8b508a17a5082ef53d80cf900bb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "56a8561b2cc48dfa2efecdc8462afa6296ad301300e852d387e724ff61e7e727",
+      "packet_hash": "7bf2e48b7f294be4130fc09113bac6031c7bf305295290f42eeb47bd628449c2",
+      "published_packet_hash": "7bf2e48b7f294be4130fc09113bac6031c7bf305295290f42eeb47bd628449c2",
+      "receipt_id": "9c9868c89c5c481585c12dda1723f016",
+      "request_hash": "479f0226e89d75a044dbe4011ff1d4228dda3fa9820313c95c4365091f36bdb4",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not define “mean effect size” or state that it is the “average magnitude” of an effect across studies in a meta-analysis.",
+        "The packet does not explicitly support the distinction as written between mean effect size and “heterogeneity” (i.e., that heterogeneity reflects consistency across studies) in a way that matches the definition’s wording.",
+        "Although the packet mentions simulations assessing the impact of biases on “estimates of both mean effect size and heterogeneity,” it does not provide the requested definitional description of mean effect size."
+      ],
+      "definition_hash": "56a8561b2cc48dfa2efecdc8462afa6296ad301300e852d387e724ff61e7e727",
+      "packet_hash": "7bf2e48b7f294be4130fc09113bac6031c7bf305295290f42eeb47bd628449c2",
+      "published_packet_hash": "7bf2e48b7f294be4130fc09113bac6031c7bf305295290f42eeb47bd628449c2",
+      "receipt_id": "5b5fb56fd57142b9aac644fc8b278ba9",
+      "request_hash": "3286fc704b7d30b82b36edcd77cbfa21614904b1abbb48352f4f213cb4399529",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

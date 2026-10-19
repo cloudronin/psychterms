@@ -1,0 +1,60 @@
+{
+  "id": "deletion",
+  "term": "deletion",
+  "definition": "In this source, deletion refers to the absence of genetic material from a gene. Specifically, spinal muscular atrophy is described as being caused when both copies of the SMN1 gene are deleted or otherwise lose normal function.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13457646"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13457646",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1833269; article XML SHA-256 b8eace0fa49d383ec7ce1f27cff38e2a7caf06f45c304988d64e5568dfbe21b3",
+      "scope": "Source record 10.3389/fnhum.2026.1833269; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1833269"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4f7a0082432931b892d3bec662a104382fff8c9eb6f41f5d43ffe277fefae442",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e95cffe44480437eab808e9ce8947409",
+    "request_hash": "aedefe3264cbe445f98961dd5d4f76ee73690a540ab6cd2f82838695a66c4af1",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "5e0abebe523b429496849dcd0560be7c4c03847dbc6e661c047e2d07e1b1f730",
+    "packet_hash": "4f7a0082432931b892d3bec662a104382fff8c9eb6f41f5d43ffe277fefae442"
+  },
+  "hash": "307d1662fd1739de8b50b3d8ab65644e8756aeddf3125263d6c29f3c0ffbc478",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only explicitly describes SMA as being caused by “homozygous deletion” of the SMN1 gene; it does not define “deletion” in general as the “absence of genetic material from a gene.”",
+        "Because the first sentence states a general definition not directly supported by the provided text, the requested definition is not fully grounded in the packet."
+      ],
+      "definition_hash": "5e0abebe523b429496849dcd0560be7c4c03847dbc6e661c047e2d07e1b1f730",
+      "packet_hash": "4f7a0082432931b892d3bec662a104382fff8c9eb6f41f5d43ffe277fefae442",
+      "published_packet_hash": "4f7a0082432931b892d3bec662a104382fff8c9eb6f41f5d43ffe277fefae442",
+      "receipt_id": "16a3534bd274485cb5c09ded694c532e",
+      "request_hash": "f26a5643a17a0eb87f6fec1bd8f497912cf4bc8b452763ee947f7b0f9d7ccdc1",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5e0abebe523b429496849dcd0560be7c4c03847dbc6e661c047e2d07e1b1f730",
+      "packet_hash": "4f7a0082432931b892d3bec662a104382fff8c9eb6f41f5d43ffe277fefae442",
+      "published_packet_hash": "4f7a0082432931b892d3bec662a104382fff8c9eb6f41f5d43ffe277fefae442",
+      "receipt_id": "04932b02f6854dd8bde108b4730007b3",
+      "request_hash": "8267fb7d6fb71ce38421f160c94a2bab6b68ef2f34fd81a69b2661b840f01853",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "brain-pathology",
+  "term": "brain pathology",
+  "definition": "Brain pathology refers to disease-related or injury-related abnormal changes in the brain that can alter its usual structure and function. In this context, it is significant enough to make brain imaging analyses, such as tractography and structure-function mapping, more difficult and less reliable.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4972431"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4972431",
+      "revision": "2016; DOI 10.1371/journal.pone.0159540; article XML SHA-256 86d182bc86768bbe54eee0bc3d334d139a30aa4ec005e4f2ed3986520ac707b7",
+      "scope": "Source record 10.1371/journal.pone.0159540; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0159540"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dd665ba3642a46d18c7002360071a089",
+    "request_hash": "ac75f8c713df598a5fb06b8dfb0734d007ebd21d010be1a6bcf50bd352ae9804",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "f8a3e517ebae8bd442f8489e33dbe6336ba3f6d66bdceaa8a502125af6b6cf6a",
+    "packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903"
+  },
+  "hash": "c32db80b5e5d7cd2abd1b280a2b7c69204b3e725a397b8c01fdeafe3f21c0b8a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s characterization of brain pathology as “disease-related or injury-related abnormal changes” is not stated in the provided packet text.",
+        "The claim that brain pathology “can alter its usual structure and function” is only indirectly suggested by mentions of “cortical reorganisation” and assumptions about structure-function relationships, but the exact phrasing about altering usual structure/function is not directly supported.",
+        "The definition asserts that imaging analyses become “more difficult and less reliable”; the packet supports that tractography analyses are difficult and that methods can fail or introduce confounds, but it does not explicitly support the word “less reliable.”"
+      ],
+      "definition_hash": "f8a3e517ebae8bd442f8489e33dbe6336ba3f6d66bdceaa8a502125af6b6cf6a",
+      "packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903",
+      "published_packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903",
+      "receipt_id": "6552a453c73749d4ad3723a555471939",
+      "request_hash": "6971a42c04b2be914b86195b4b41d9dd5d0a960060ebd867ae961a16867652ae",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that brain pathology can make diffusion tractography analyses difficult and less reliable, but it does not define the term as disease-related or injury-related abnormal changes in the brain.",
+        "The packet does not explicitly support the broader claim that brain pathology alters usual brain structure and function in general; it only notes that assumptions about structure-function relationships may not hold after cortical reorganisation in the study context."
+      ],
+      "definition_hash": "f8a3e517ebae8bd442f8489e33dbe6336ba3f6d66bdceaa8a502125af6b6cf6a",
+      "packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903",
+      "published_packet_hash": "4b4e6985052f7e604b0a53e46997782113e5f615eaa9bd654707b2de021f8903",
+      "receipt_id": "8045caad9235461e926e90490e21c3d6",
+      "request_hash": "daff1238deeb5c3a889ea8dfd30f01e747d265fa014a16ba0c187e8a81e5b695",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

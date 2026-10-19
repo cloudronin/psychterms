@@ -1,0 +1,65 @@
+{
+  "id": "efficacy",
+  "term": "efficacy",
+  "definition": "Efficacy is how well a treatment works in producing its intended benefit. In this context, it refers to how effective an added medicine is when combined with another treatment for depressive disorder.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13522133"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13522133",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1872413; article XML SHA-256 2e057f26fc1c72b50a2bb0b2e53b4078c729acdedd8c69e3f20fcc99ddf793d2",
+      "scope": "Source record 10.3389/fpsyt.2026.1872413; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1872413"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4eb1cd9895afedd8933e60b46f29055f0f9c9db86c45ba87bc1aad682b5a17ad",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "de6bfb5fe4ed44c9b7d474fe63f301f6",
+    "request_hash": "e741c86ce0c3d125ac7a39ae21432ddb82b7714074949a068dfb8f3a3e79b122",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "a068b2189ae8282abd3dff8639bbaa3fbbd1575bc27c367eb16165c9d1ba0568",
+    "packet_hash": "4eb1cd9895afedd8933e60b46f29055f0f9c9db86c45ba87bc1aad682b5a17ad"
+  },
+  "hash": "e73b6f5b01f29a89547f51348b93eb59cddf49bebe742c516fe127dd7124bd1f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a dictionary-style or explicit definition of the term “efficacy”; it only uses the word “efficacy” in the background context of a study (“efficacy and safety… have not been systematically evaluated”).",
+        "The definition’s first sentence (“how well a treatment works in producing its intended benefit”) is a general definitional claim not supported by the supplied packet text.",
+        "The second sentence narrows efficacy to “an added medicine… combined with another treatment for depressive disorder”; while the packet mentions adjunctive addition of Chinese patent medicines to SSRIs for depressive disorder, it does not define efficacy in those terms."
+      ],
+      "definition_hash": "a068b2189ae8282abd3dff8639bbaa3fbbd1575bc27c367eb16165c9d1ba0568",
+      "packet_hash": "4eb1cd9895afedd8933e60b46f29055f0f9c9db86c45ba87bc1aad682b5a17ad",
+      "published_packet_hash": "4eb1cd9895afedd8933e60b46f29055f0f9c9db86c45ba87bc1aad682b5a17ad",
+      "receipt_id": "6c22a5ac852449048ae351ba468ed8f2",
+      "request_hash": "33be6e62e831ae5cb8e0e729c10fe7eed612b4ffcd702565da6d95406689c792",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the word 'efficacy' in a study context but does not define it as 'how well a treatment works in producing its intended benefit.'",
+        "The packet only supports a specific research question about the efficacy of adding Chinese patent medicines to SSRIs for depressive disorder; it does not support the broader explanatory definition or the claim that this is what efficacy means.",
+        "The wording 'in this context' is acceptable only as a topic context, but the definition still overstates the source by turning a study objective into a dictionary definition."
+      ],
+      "definition_hash": "a068b2189ae8282abd3dff8639bbaa3fbbd1575bc27c367eb16165c9d1ba0568",
+      "packet_hash": "4eb1cd9895afedd8933e60b46f29055f0f9c9db86c45ba87bc1aad682b5a17ad",
+      "published_packet_hash": "4eb1cd9895afedd8933e60b46f29055f0f9c9db86c45ba87bc1aad682b5a17ad",
+      "receipt_id": "7437a98fb431461799eff2c306e0f2a9",
+      "request_hash": "9ea918561cf20f9bce773f9b9e9a35e4c98e452ad9ba695a61cd38417f3fd830",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

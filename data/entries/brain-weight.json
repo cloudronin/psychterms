@@ -1,0 +1,63 @@
+{
+  "id": "brain-weight",
+  "term": "brain weight",
+  "definition": "Brain weight is the measured mass of the brain. In biological research, it can be used as a basic indicator when comparing brain development or the effects of an exposure between groups.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11896034"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11896034",
+      "revision": "2025; DOI 10.1371/journal.pone.0310482; article XML SHA-256 4c95e88af7a9eb81f62e51336a5f4fa085f7ae6cc595fb6489e805a90553d5ac",
+      "scope": "Source record 10.1371/journal.pone.0310482; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0310482"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0f0c6c4fcd9fcd096a6b52182b3d21d08e8aa26dcdc8646ee4cea2abbab67d29",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3143e532db4e47799b1c22a214c8014f",
+    "request_hash": "6da08f6e6f940753502e45a8e9e4c9a39ebcc676a4dbc9e9af7633c94d4b9f8e",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "600574c5c3740b4ed1c4de6c8bbf09423d15be9003ae28c619740bfd3a9777dc",
+    "packet_hash": "0f0c6c4fcd9fcd096a6b52182b3d21d08e8aa26dcdc8646ee4cea2abbab67d29"
+  },
+  "hash": "4a14c3c3a30023d83b55f5fe658001e42523b901d641d999fd0d9807b244fddc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that brain weight was measured in a specific mouse study, but it does not establish the general definition “the measured mass of the brain.”",
+        "The second sentence generalizes beyond the packet: the article shows a single exposure experiment where pup brain weight differed between groups, but it does not support the broader claim that brain weight is generally used as a basic indicator for comparing brain development or exposures in biological research."
+      ],
+      "definition_hash": "600574c5c3740b4ed1c4de6c8bbf09423d15be9003ae28c619740bfd3a9777dc",
+      "packet_hash": "0f0c6c4fcd9fcd096a6b52182b3d21d08e8aa26dcdc8646ee4cea2abbab67d29",
+      "published_packet_hash": "0f0c6c4fcd9fcd096a6b52182b3d21d08e8aa26dcdc8646ee4cea2abbab67d29",
+      "receipt_id": "8c7eeb9b5be94547a3ec478c5df5e05a",
+      "request_hash": "7efa4faf58a2920784a18541e2cc23f3d7743f543f497785ac0fde2c76cb3e7b",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that brain weight is used as a “basic indicator” for comparing brain development or exposure effects between groups; it only reports that pup brain weight was measured and differed between treated and control mice.",
+        "Because that comparative-use/generalization is not explicitly supported by the supplied packet text, the requested sense of the term is not fully defensible from the provided source."
+      ],
+      "definition_hash": "600574c5c3740b4ed1c4de6c8bbf09423d15be9003ae28c619740bfd3a9777dc",
+      "packet_hash": "0f0c6c4fcd9fcd096a6b52182b3d21d08e8aa26dcdc8646ee4cea2abbab67d29",
+      "published_packet_hash": "0f0c6c4fcd9fcd096a6b52182b3d21d08e8aa26dcdc8646ee4cea2abbab67d29",
+      "receipt_id": "1873efd28e734e7f84d19c9e4c7994e4",
+      "request_hash": "7b80c85f884d9e447420f6cb30bdbfc181f56b7aff9a07ef2e4d9c52cbdc459f",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

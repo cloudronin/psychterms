@@ -1,0 +1,59 @@
+{
+  "id": "chd",
+  "term": "CHD",
+  "definition": "CHD stands for congenital heart disease, meaning a heart condition present from birth. In this source, the term is used in the context of medical imaging research on segmenting cardiac CT scans in people with CHD.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13623130"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13623130",
+      "revision": "2026; DOI 10.1371/journal.pone.0357600; article XML SHA-256 cc8759af4e0d7902fa7df7aa683ef6115baad7e339303111a1cb8d5a0b78b03b",
+      "scope": "Source record 10.1371/journal.pone.0357600; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0357600"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f5b25de27d7da8591b064fe6c9aa3dc92e680bce31081d307a72a0c3d58409ab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "665598abad074d0cb055aa2acbb07aac",
+    "request_hash": "76a51af678865fca1ccd3eee7454470c06d9466e72eeb943a4e152728aab673c",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "ba300aa80b6a89222aa6635fd7eedc7eebe620f9047c7b936b886c45c24502b8",
+    "packet_hash": "f5b25de27d7da8591b064fe6c9aa3dc92e680bce31081d307a72a0c3d58409ab"
+  },
+  "hash": "2df968a585d14ccc49d56f4548dbecc10eea57aac93133045ca407eb16c4c12e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet mentions “congenital heart disease (CHD)” and discusses cardiac CT segmentation, but it does not explicitly define CHD as “present from birth,” so that part of the definition is unsupported by the provided source."
+      ],
+      "definition_hash": "ba300aa80b6a89222aa6635fd7eedc7eebe620f9047c7b936b886c45c24502b8",
+      "packet_hash": "f5b25de27d7da8591b064fe6c9aa3dc92e680bce31081d307a72a0c3d58409ab",
+      "published_packet_hash": "f5b25de27d7da8591b064fe6c9aa3dc92e680bce31081d307a72a0c3d58409ab",
+      "receipt_id": "7e91eb6f1e7d49a5b1a782cd3eb101ca",
+      "request_hash": "9a4b3a11c06b332bd98cc884358c78ca0d171463662df5a4609f53a156a8f9ca",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ba300aa80b6a89222aa6635fd7eedc7eebe620f9047c7b936b886c45c24502b8",
+      "packet_hash": "f5b25de27d7da8591b064fe6c9aa3dc92e680bce31081d307a72a0c3d58409ab",
+      "published_packet_hash": "f5b25de27d7da8591b064fe6c9aa3dc92e680bce31081d307a72a0c3d58409ab",
+      "receipt_id": "f3b2d12cfc5342beb0955d6386148e5a",
+      "request_hash": "2070f4acb7758dc26f8ae2205d373531e790048573a0c791fd0f2e4a473da2ab",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

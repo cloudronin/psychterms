@@ -1,0 +1,63 @@
+{
+  "id": "g-protein",
+  "term": "G protein",
+  "definition": "A G protein is a signaling molecule involved in regulating cell activity through G-protein-coupled receptor pathways. In the supplied source, G proteins help control CaV2.2 N-type calcium channels through both a fast, voltage-dependent mechanism and a slower, voltage-independent mechanism.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11805433"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11805433",
+      "revision": "2025; DOI 10.1371/journal.pone.0314839; article XML SHA-256 eab1ec0327acd1914e6562fe0693d0a6cc1b29ef4d215b26d22b8a194e8b356b",
+      "scope": "Source record 10.1371/journal.pone.0314839; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0314839"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b540c4cb876933bc1ef865ba6aae24453f63a0209db305054fc1e461358e8c21",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "544a0e39794a4c2f8f4e98b2288e68a1",
+    "request_hash": "5c16731b4e8367bf5a349037ef93902a28088da47ee26a580cba95a07ef9de59",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "82315d44e7223201d5f14c2d632b56a4b7340d46fd3baf1ce3b6760bf04ced86",
+    "packet_hash": "b540c4cb876933bc1ef865ba6aae24453f63a0209db305054fc1e461358e8c21"
+  },
+  "hash": "7288f560477bed7f2781401a69fcd43c89fc6bc71725be82525fb4f0cd8b415a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“A G protein is a signaling molecule involved in regulating cell activity through G-protein-coupled receptor pathways”) is not explicitly supported by the supplied source packet text.",
+        "The packet only describes specific effects of G-protein-coupled receptors on CaV2.2 N-type Ca2+ channels via fast/slow pathways and does not provide the general definition of what a “G protein” is as a standalone signaling molecule."
+      ],
+      "definition_hash": "82315d44e7223201d5f14c2d632b56a4b7340d46fd3baf1ce3b6760bf04ced86",
+      "packet_hash": "b540c4cb876933bc1ef865ba6aae24453f63a0209db305054fc1e461358e8c21",
+      "published_packet_hash": "b540c4cb876933bc1ef865ba6aae24453f63a0209db305054fc1e461358e8c21",
+      "receipt_id": "9d93bd214a58416aa8d4387b1ca2bbdf",
+      "request_hash": "49653bb21fd6fc3adc1bd563d18bea0dbdb37d5ec4e8a94a8c41124d232f50fd",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence adds a broad general definition (“a signaling molecule involved in regulating cell activity through G-protein-coupled receptor pathways”) that is not stated in the supplied source packet.",
+        "The packet supports only the specific role of G-proteins in regulating CaV2.2 N-type Ca2+ channels via fast voltage-dependent and slow voltage-independent pathways; it does not support the broader generalization about cell activity regulation."
+      ],
+      "definition_hash": "82315d44e7223201d5f14c2d632b56a4b7340d46fd3baf1ce3b6760bf04ced86",
+      "packet_hash": "b540c4cb876933bc1ef865ba6aae24453f63a0209db305054fc1e461358e8c21",
+      "published_packet_hash": "b540c4cb876933bc1ef865ba6aae24453f63a0209db305054fc1e461358e8c21",
+      "receipt_id": "28184427616e4e92849b37c656b2cc3f",
+      "request_hash": "a38845fd0f11fa9a3b5677e090f153595681358a2208fc5b72b80eebd83d4047",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

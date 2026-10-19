@@ -1,0 +1,26 @@
+{
+  "id": "data-mining",
+  "term": "data mining",
+  "source": "article-pmc13606946",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0328634",
+  "revision": "2026; DOI 10.1371/journal.pone.0328634; article XML SHA-256 1838505128d41494b75bd265ec5f3bdcc94afbebfd52c520db2fd1aaca2e7107",
+  "source_snapshot_sha256": "1838505128d41494b75bd265ec5f3bdcc94afbebfd52c520db2fd1aaca2e7107",
+  "url": "https://doi.org/10.1371/journal.pone.0328634",
+  "text": "Predicting student academic performance is of significant importance for enabling timely educational interventions and improving educational outcomes in secondary education. However, existing predictive models in educational data mining often face the dual challenges of limited interpretability and suboptimal performance on small to medium-sized datasets. This study introduces the Prior-Data Fitted Network (TabPFN) combined with SHapley Additive exPlanations (SHAP) to construct an interpretable machine learning framework for predicting student achievement. Utilizing a publicly available dataset of 4,000 Spanish high school students (SAP-4000), we employed 10-fold cross-validation to train and compare eight machine learning models. The results demonstrate that TabPFN achieves superior predictive performance, with an RMSE of 4.8454, an R 2 of 0.9216, and an MAE of 3.7950, outperforming traditional models. Comparative analyses across varying data scales indicate that TabPFN maintains high accuracy even when sample sizes are reduced to 500 samples, achieving performance comparable to or better than what traditional models attained at 3,500 samples, exhibiting stronger robustness than commonly used ensemble learning methods such as XGBoost. SHAP analysis reveals that learning behavior and study habit features—specifically weekly study hours, attendance rate, and tutoring status—play a decisive role in predicting academic performance. The proposed framework combines strong predictive performance with interpretability, overcoming the “black-box” limitation prevalent in existing algorithms. It is well-suited for small to medium-scale data modeling tasks in the educational domain, providing technical support for personalized instruction and intervention, while also offering methodological references for future research. An additional case study on a distinct student performance dataset further confirms the model’s robustness and generalizability across different educational prediction tasks.",
+  "source_label": "Predicting student academic performance using TabPFN and SHAP: An interpretable machine learning approach",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2017
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 4
+  },
+  "packet_hash": "e3128aaa356d8a3a545c82faad67084ad0ccb3b4bcc2e33c6258f20dc9a51b6c"
+}

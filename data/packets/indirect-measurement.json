@@ -1,0 +1,26 @@
+{
+  "id": "indirect-measurement",
+  "term": "indirect measurement",
+  "source": "article-pmc12867920",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2025.1707539",
+  "revision": "2026; DOI 10.3389/fpsyg.2025.1707539; article XML SHA-256 10b32d433ba45916aba04462d68fc4b38815f255e42b51ff81bfd37c21abb9be",
+  "source_snapshot_sha256": "10b32d433ba45916aba04462d68fc4b38815f255e42b51ff81bfd37c21abb9be",
+  "url": "https://doi.org/10.3389/fpsyg.2025.1707539",
+  "text": "Dance posture estimation and cognitive load assessment are crucial for optimizing dance training outcomes and promoting rehabilitation applications. Traditional methods often suffer from problems such as reliance on subjective judgment in cognitive load assessment and insufficient modeling of dance temporal features. This study proposes a T 2 W-CogLoadNet model, which integrates Temporal Convolutional Network (TCN)-Transformer temporal feature extraction with Whale Optimization (WOA) hyperparameter optimization to achieve 3D dance posture estimation and cognitive load modeling (indirect measurement). In this model, TCN captures local dynamic details of dance movements, Transformer handles long-range temporal dependencies, and WOA simultaneously optimizes feature subsets and model parameters to improve performance. Experimental validation on the AIST++ professional dance dataset and the Kinetics 400 generalized motion dataset demonstrates that the model significantly outperforms baseline models such as High Resolution Network (HRNet) and OpenPose estimation. On the AIST++ dataset, its mean absolute error (MAE) for cognitive load estimation reaches 0.23, root mean square error (RMSE) reaches 0.26, and mean mean joint error (MPJPE) for 3D joints reaches 0.45. On the Kinetics 400 dataset, MAE, RMSE, and MPJPE reach 0.25, 0.28, and 0.48, respectively. Even under interference scenarios such as noise injection and temporal scaling, the model maintains robust performance, with its MAE consistently lower than the aforementioned baseline models. Future research will focus on integrating multimodal inputs to improve assessment reliability, enhancing the model's adaptability to different dance styles, and developing lightweight real-time monitoring tools to promote the widespread application of this technology in dance education and rehabilitation.",
+  "source_label": "T 2 W-CogLoadNet: a framework for cognitive load assessment of dance movements based on deep learning-powered human pose estimation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1868
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "342b893acbea20c6a5cf2b024f6203db3f7cc2d67afcafda3d48f4897714385e"
+}

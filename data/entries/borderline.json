@@ -1,0 +1,65 @@
+{
+  "id": "borderline",
+  "term": "borderline",
+  "definition": "In psychology, “borderline” usually refers to borderline personality disorder, a mental health condition linked with intense emotional upheaval, major relationship distress, and episodes of suicidal or other self-harming behavior that can lead to crisis care. It is associated with substantial clinical severity and a heightened risk of suicide.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13390497"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13390497",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1820717; article XML SHA-256 1f899207786fa3bf2c17e994f0b9ca4971f28683fcf046564d26ac73f47335b8",
+      "scope": "Source record 10.3389/fpsyt.2026.1820717; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1820717"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7c96ad8bca27e79fcf56eb1d28d7e5e6d264637f4e40b3b5f3f09cc0963cfcd8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ca3515dcb40a4232bf5d3c957e4c3be7",
+    "request_hash": "9035af2a7933e60995038fa4902f6ab789027e8f045b8c1e97b2ed52918110cd",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "bd53a96761c05c912fa2085d954f84fed0b6fd02938611c5f5389863bb6becba",
+    "packet_hash": "7c96ad8bca27e79fcf56eb1d28d7e5e6d264637f4e40b3b5f3f09cc0963cfcd8"
+  },
+  "hash": "6aba40b8eeeb03f374a60909196bb83245c57b6ac12e6878994ef5c819c2705d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports suicidal behaviors and acute emotional crises, but it does not explicitly mention “other self-harming behavior,” so that part of the definition is not supported.",
+        "The packet indicates emergency-department care is precipitated by crises and distress, but it does not explicitly state that episodes “can lead to crisis care,” so that phrasing is not directly supported.",
+        "The definition’s phrasing “major relationship distress” is broader than the packet’s “severe interpersonal distress”; the packet supports interpersonal distress but does not specifically frame it as “major relationship” distress."
+      ],
+      "definition_hash": "bd53a96761c05c912fa2085d954f84fed0b6fd02938611c5f5389863bb6becba",
+      "packet_hash": "7c96ad8bca27e79fcf56eb1d28d7e5e6d264637f4e40b3b5f3f09cc0963cfcd8",
+      "published_packet_hash": "7c96ad8bca27e79fcf56eb1d28d7e5e6d264637f4e40b3b5f3f09cc0963cfcd8",
+      "receipt_id": "31f9094cb6734c2780e5f94b8d768148",
+      "request_hash": "361f55e19e137a26bc24080f550f2b74a6a1fba995d1d52c381df82038b7ec84",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports borderline personality disorder (BPD), but not the broader lexicographic claim that the standalone term “borderline” usually refers to BPD.",
+        "“Other self-harming behavior” is not stated in the packet; it mentions suicidal behaviors, acute emotional crises, severe interpersonal distress, and elevated suicide risk only.",
+        "The wording adds a generalized clinical characterization (“major relationship distress,” “can lead to crisis care”) that is only partly supported and goes beyond the packet’s narrower emergency-department context."
+      ],
+      "definition_hash": "bd53a96761c05c912fa2085d954f84fed0b6fd02938611c5f5389863bb6becba",
+      "packet_hash": "7c96ad8bca27e79fcf56eb1d28d7e5e6d264637f4e40b3b5f3f09cc0963cfcd8",
+      "published_packet_hash": "7c96ad8bca27e79fcf56eb1d28d7e5e6d264637f4e40b3b5f3f09cc0963cfcd8",
+      "receipt_id": "3915c0c6618744d798835e26d189da51",
+      "request_hash": "4bc93eb867b30370867042e0090ac77a0dea9ee784e0de273f96221798c97c39",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

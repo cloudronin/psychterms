@@ -1,0 +1,60 @@
+{
+  "id": "geometric-distribution",
+  "term": "geometric distribution",
+  "definition": "A geometric distribution is a probability distribution used to describe how many Bernoulli trials occur before the first success is observed. It is the discrete counterpart of the exponential distribution.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11687809"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11687809",
+      "revision": "2024; DOI 10.1371/journal.pone.0315855; article XML SHA-256 6af7f007c94127f67acb780a04fa499f7027579982d2c84c8da7928ccf4f5a99",
+      "scope": "Source record 10.1371/journal.pone.0315855; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0315855"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "16fd69484f6f4f688ca1ab03bf805c41",
+    "request_hash": "09b66474229e301bd4904ab2c56ff782026ce387e6fe503b8298c0a58221bfb8",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "72aa283e201cb98611ee9b41f7056e73a293f31f1814340feb37eac1206fb7f1",
+    "packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2"
+  },
+  "hash": "8210492ad42ed226de7648e72041eb8a8f9d531ef9b5cffee7ccad931439f814",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "72aa283e201cb98611ee9b41f7056e73a293f31f1814340feb37eac1206fb7f1",
+      "packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2",
+      "published_packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2",
+      "receipt_id": "f079dfbf46454b7fa7d206962dcb0faf",
+      "request_hash": "59132a918a97a20fd050affe34173e3bbe4d096c08847c1cce39ce28fc2d585f",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the geometric distribution “is a probability distribution,” but the packet describes it as being used to “model” the number of Bernoulli trials until the first success and as the “discrete case of the exponential distribution” without explicitly calling it a probability distribution.",
+        "The definition is framed as “cognition,” but the packet provides statistical/mathematical context and multiple application domains (e.g., hydrology, robotics, reliability, medicine), without support that this term/sense is specifically in the cognition field."
+      ],
+      "definition_hash": "72aa283e201cb98611ee9b41f7056e73a293f31f1814340feb37eac1206fb7f1",
+      "packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2",
+      "published_packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2",
+      "receipt_id": "ef7e0ce90fcf482f947bf69e6fdb7afb",
+      "request_hash": "b0dba7afeb4c0f2bf0b59362a5f98962b03879766d9af2f69a51e7bc94075ee1",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

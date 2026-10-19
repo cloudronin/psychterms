@@ -1,0 +1,60 @@
+{
+  "id": "dependent-model",
+  "term": "dependent model",
+  "definition": "In this source, a dependent model refers to a time-based prediction model in which the outcome changes with features that vary over time. It was used to estimate aesthetic appeal in dynamic visual art by combining visual image features with their changes across the generation process.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10513343"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10513343",
+      "revision": "2023; DOI 10.1371/journal.pone.0291647; article XML SHA-256 205a70e8e0c2c8d6146860c50c1791134c23b746de2ed93fc2a738f59e44da4e",
+      "scope": "Source record 10.1371/journal.pone.0291647; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0291647"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8bb511b41d51db56329d21e517562c70cc048beaa5006f37ab8974a49eac4324",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "56addf6bfd33412cb035742f4e3603a9",
+    "request_hash": "5e579422b971304605f0299ccd169190ee07810e4ae87073ac63152cf029d110",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "87ebc3706c90fccab3a1d8bb2a3314dcec572cd7b39d02909ebae9a943b597aa",
+    "packet_hash": "8bb511b41d51db56329d21e517562c70cc048beaa5006f37ab8974a49eac4324"
+  },
+  "hash": "f343d17e7bb69781188b9348526a672b4086e1c620f60fd8f2fb9c62736e2131",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s wording is broader than what the packet explicitly states. The packet says the authors “established a time-dependent model to predict the aesthetics based on visual features” and that it uses “features… during the generation process,” but it does not clearly define “dependent model” as a general “time-based prediction model” in the requested sense.",
+        "The definition claims the model was used “to estimate aesthetic appeal in dynamic visual art” and “by combining visual image features with their changes across the generation process.” While the packet supports predicting aesthetics for dynamic generative artworks and using time-varying/image features during generation, the specific phrasing about “visual image features with their changes” is not directly provided as an explicit definition of the term."
+      ],
+      "definition_hash": "87ebc3706c90fccab3a1d8bb2a3314dcec572cd7b39d02909ebae9a943b597aa",
+      "packet_hash": "8bb511b41d51db56329d21e517562c70cc048beaa5006f37ab8974a49eac4324",
+      "published_packet_hash": "8bb511b41d51db56329d21e517562c70cc048beaa5006f37ab8974a49eac4324",
+      "receipt_id": "6b8bd493cf644013ae420124909cdf90",
+      "request_hash": "cb8f9bc53d0194e0a4bd3c7cdb5de76b8066ee3a9571ef984248484f2cda41be",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "87ebc3706c90fccab3a1d8bb2a3314dcec572cd7b39d02909ebae9a943b597aa",
+      "packet_hash": "8bb511b41d51db56329d21e517562c70cc048beaa5006f37ab8974a49eac4324",
+      "published_packet_hash": "8bb511b41d51db56329d21e517562c70cc048beaa5006f37ab8974a49eac4324",
+      "receipt_id": "6198f8f96b9249f3bfdfa8c0b5f385cf",
+      "request_hash": "e652eeed0387cde40860339b1ba08d9d486c4fa792559dd596db86940487d1c5",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

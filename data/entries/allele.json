@@ -1,0 +1,64 @@
+{
+  "id": "allele",
+  "term": "allele",
+  "definition": "An allele is a particular genetic variant tracked at a specific location in DNA. In this packet, alleles are compared by how common they are in different populations and by whether they are linked to differences in transcripts or proteins.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13614540"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13614540",
+      "revision": "2026; DOI 10.1371/journal.pone.0358222; article XML SHA-256 a36468eb38b10b4e3276e05132441c777d37541aa32ad524a90d5dc2b8050595",
+      "scope": "Source record 10.1371/journal.pone.0358222; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358222"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "58b9281f41bd31f3e693c49d56b90c572c2ddd7fdd172cd96bc92dd8e433e10a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "90df0e18ff9b4628a1a47fdf8c851a46",
+    "request_hash": "2c811d48095d9ce324657803ec32fd26859a24397638a5ce10b5b44eee5f1975",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "6ade300c9756fd9043f79ac72ce1c9a1c607efbcdb5ed04e6897481ef7c1d45b",
+    "packet_hash": "58b9281f41bd31f3e693c49d56b90c572c2ddd7fdd172cd96bc92dd8e433e10a"
+  },
+  "hash": "75c471f9f2d121b3a8047e1ff2dda6b849e7a5072aa12423bcd9cc31a8d88664",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define what an “allele” is (e.g., as a genetic variant at a specific DNA location).",
+        "The definition’s second sentence claims alleles are compared by commonness in populations and by whether they are linked to differences in transcripts or proteins; while the packet discusses population-differentiated PTGS variation and transcript consequence/protein context analyses, it does not state this as a general characterization of how “alleles” are compared in the packet (it reports specific study methods and candidates rather than defining the term.)",
+        "The definition suggests a direct concept-level linkage (“whether they are linked to differences in transcripts or proteins”), but the packet text frames this as analysis evidence and prioritization/candidate evaluation rather than stating that allele-tracking fundamentally includes such linkage."
+      ],
+      "definition_hash": "6ade300c9756fd9043f79ac72ce1c9a1c607efbcdb5ed04e6897481ef7c1d45b",
+      "packet_hash": "58b9281f41bd31f3e693c49d56b90c572c2ddd7fdd172cd96bc92dd8e433e10a",
+      "published_packet_hash": "58b9281f41bd31f3e693c49d56b90c572c2ddd7fdd172cd96bc92dd8e433e10a",
+      "receipt_id": "6c2f008fbe194e64a5714ec99e3395d6",
+      "request_hash": "dbb103e11fdf1d5f20bc348958525b5a5996619a68c8896bfefcf57ae148a7a1",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The field is not defensible from the packet: the source is about population genetics and protein/coding variation, not cognition.",
+        "The definition’s second sentence is a contextual claim about what this packet does; while broadly supported, it is too packet-specific for a general dictionary definition of the term."
+      ],
+      "definition_hash": "6ade300c9756fd9043f79ac72ce1c9a1c607efbcdb5ed04e6897481ef7c1d45b",
+      "packet_hash": "58b9281f41bd31f3e693c49d56b90c572c2ddd7fdd172cd96bc92dd8e433e10a",
+      "published_packet_hash": "58b9281f41bd31f3e693c49d56b90c572c2ddd7fdd172cd96bc92dd8e433e10a",
+      "receipt_id": "920358920fee4e60b2018e00ae587d40",
+      "request_hash": "7dbbe1bfe42c4889eef4b44b996d9ca9fc48d92edb71b4234520621fd253c1e6",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

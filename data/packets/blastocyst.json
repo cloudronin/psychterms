@@ -1,0 +1,26 @@
+{
+  "id": "blastocyst",
+  "term": "blastocyst",
+  "source": "article-pmc13446701",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355053",
+  "revision": "2026; DOI 10.1371/journal.pone.0355053; article XML SHA-256 5de66230e57ea942337a69e5a4864ee5539d58046f7600ebe056da0db7f7420c",
+  "source_snapshot_sha256": "5de66230e57ea942337a69e5a4864ee5539d58046f7600ebe056da0db7f7420c",
+  "url": "https://doi.org/10.1371/journal.pone.0355053",
+  "text": "In the field of assisted reproductive technology (ART), accurate segmentation of blastocyst tissues is crucial for evaluating embryo implantation potential. However, existing semi-supervised learning (SSL) methods often suffer from issues such as structural ambiguity, scale confusion, and insufficient utilization of unlabeled data, while the complex nested structure and inherent transparency of blastocyst images further exacerbate these challenges. To address these challenges, this study proposes a Topology-Guided Dual-Backbone Network (TGDBN), a novel semi-supervised segmentation framework featuring a single-model dual-head architecture : one head for pixel-level segmentation and the other for topology-guided structural optimization. Unlike traditional SSL methods that rely solely on feature consistency, TGDBN incorporates two core innovations within its topology-guided head: 1) Decoder Intra-Class Enhancement (DICE) module: Targeting the last three layers of the decoder (where fine-grained structural information is concentrated), this module adaptively strengthens class-specific “hard features” ( e.g. , low-contrast boundaries between TE and blastocoel) through category-channel mapping and Gaussian weighting; 2) Multi-Scale Feature Aggregation (MSFA) module: This module upsamples DICE-enhanced multi-scale features to the original image resolution, concatenates them to capture hierarchical structural cues, and feeds the aggregated features into a regression sub-layer to generate explicit topology-guided structural guidance. Experimental validation on a public blastocyst dataset demonstrates that TGDBN outperforms 11 state-of-the-art SSL methods. Visualization results confirm that the network effectively mitigates boundary ambiguity and improves intra-class consistency. Further tests on the left atrial (LA) dataset shows that TGDBN exhibits robust generalization capability. These results verify that TGDBN can effectively leverage unlabeled data to enhance blastocyst segmentation accuracy and structural continuity.",
+  "source_label": "TGDBN: Topology-guided dual-backbone network for semi-supervised blastocyst segmentation in assisted reproductive technology",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2049
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "1564218676cb680407472144050bbb3eefacce3fbd5e3c5caf65935405aaf4ac"
+}

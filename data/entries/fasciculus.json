@@ -1,0 +1,61 @@
+{
+  "id": "fasciculus",
+  "term": "fasciculus",
+  "definition": "A fasciculus is a white matter pathway in the brain, meaning a bundle of nerve fibers that connects different brain regions. In the packet, fasciculi are described as tracts linking areas involved in language comprehension, language production, and social communication.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12864472"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12864472",
+      "revision": "2026; DOI 10.3389/fpsyt.2025.1731647; article XML SHA-256 25331cba548c385f29bb8565c7fd8b2fb258513aabcc346b175194e3ef245aeb",
+      "scope": "Source record 10.3389/fpsyt.2025.1731647; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2025.1731647"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d8ccae63a4f8f987126b26f657b00997acbd7e13f6cfcb28d50094007342ffac",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "1e5790503f31425abf84413837f3b2c5",
+    "request_hash": "213c5006bd3df12c07b691a1fb0731c37dd4ba1b691297292483846add3e0dda",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "7bdd2d14b29eae474851ae5f6d6b2e822bd2b6a78f45e63f02040d7fbfa1fca9",
+    "packet_hash": "d8ccae63a4f8f987126b26f657b00997acbd7e13f6cfcb28d50094007342ffac"
+  },
+  "hash": "e1c16720d0b55266b7a6c4ceccae0bd7301ee3cd27cfa3bea2b1863dd5195b93",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7bdd2d14b29eae474851ae5f6d6b2e822bd2b6a78f45e63f02040d7fbfa1fca9",
+      "packet_hash": "d8ccae63a4f8f987126b26f657b00997acbd7e13f6cfcb28d50094007342ffac",
+      "published_packet_hash": "d8ccae63a4f8f987126b26f657b00997acbd7e13f6cfcb28d50094007342ffac",
+      "receipt_id": "79bea821885a4f49829aea376b67548a",
+      "request_hash": "bd4e1edef2e7b630dad0b719aeb70fadf028697fb1ffc9191012cfe76f7016ce",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: this is an anatomy/neuroimaging term about white-matter tracts, not a diagnosis term.",
+        "The packet supports specific tracts (arcuate fasciculus, inferior longitudinal fasciculus, superior longitudinal fasciculus, inferior fronto-occipital fasciculus) and says they connect brain regions responsible for language and social communication, but it does not support a general definition of all fasciculi as linking those functions.",
+        "The definition adds a generalized explanation ('bundle of nerve fibers that connects different brain regions') that is broader than what the packet explicitly states."
+      ],
+      "definition_hash": "7bdd2d14b29eae474851ae5f6d6b2e822bd2b6a78f45e63f02040d7fbfa1fca9",
+      "packet_hash": "d8ccae63a4f8f987126b26f657b00997acbd7e13f6cfcb28d50094007342ffac",
+      "published_packet_hash": "d8ccae63a4f8f987126b26f657b00997acbd7e13f6cfcb28d50094007342ffac",
+      "receipt_id": "019229e1e3cf43418104e1032615be14",
+      "request_hash": "c2165bd77f5d56c1b9fca2663f2571ac401b202931f72e8dd70a5a33af7277eb",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

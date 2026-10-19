@@ -1,0 +1,63 @@
+{
+  "id": "implicit-learning",
+  "term": "implicit learning",
+  "definition": "Implicit learning is a basic cognitive process that contributes to human cognition. In this source, it is described as producing identifiable patterns in brain activity, including signals linked to the prefrontal cortex.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13180941"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13180941",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1778884; article XML SHA-256 adcd3e453291331805d661d405cb32cd23dff98121563d8248d0e210d7af1a2c",
+      "scope": "Source record 10.3389/fnhum.2026.1778884; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1778884"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "67b4d35b9c5d409b9cc0d1e9bbfe7a59",
+    "request_hash": "217067d0c2ccde1af68aa0fa75012b77981a63ab8659eac965f3d1f55cc05d61",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "c70a0bc85db74d489543b94144246076c3b0ffa590ac8d0ca8e450e682549dc1",
+    "packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e"
+  },
+  "hash": "d87df67e69b3361c8bbc0215fc7c840d510c583723ce6c4c6958e4dbab371118",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition overstates the source by saying implicit learning “produces identifiable patterns in brain activity”; the packet instead says the study proposes a method to detect implicit learning events and reports selected features/biomarkers in the prefrontal cortex.",
+        "“Basic cognitive process” is broader than the packet’s wording, which calls implicit learning a “fundamental cognitive process” and does not specifically support the extra generalization."
+      ],
+      "definition_hash": "c70a0bc85db74d489543b94144246076c3b0ffa590ac8d0ca8e450e682549dc1",
+      "packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e",
+      "published_packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e",
+      "receipt_id": "5624e907feb94779b8d9045e47f7175a",
+      "request_hash": "b0770a6cc48cad9b84195812c90b3633d6e6c2f71b471ce41a42dc5558bc066f",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that implicit learning “produces identifiable patterns in brain activity”; it describes identifying biomarkers/features for detection/validation, but the specific claim about “identifiable patterns in brain activity” is not directly supported by the provided text.",
+        "The rest of the definition (“basic/fundamental cognitive process that contributes to human cognition” and “signals linked to the prefrontal cortex”) is broadly consistent with the packet’s description of neurophysiological validation in the prefrontal cortex, but the unsupported “identifiable patterns in brain activity” wording prevents passing."
+      ],
+      "definition_hash": "c70a0bc85db74d489543b94144246076c3b0ffa590ac8d0ca8e450e682549dc1",
+      "packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e",
+      "published_packet_hash": "f41aa3a6eb6e7416b2dc52a3e03d66bfe4e66ebe8f0c8cfe7f3f9cabb36cea8e",
+      "receipt_id": "5bf50d9181d9431d9452e010d70ca8d3",
+      "request_hash": "44ffb9c2a3175664e93278ab09bc4886c83d11dd9ae7bcd6c5234d26acceb5d1",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

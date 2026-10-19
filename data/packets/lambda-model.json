@@ -1,0 +1,26 @@
+{
+  "id": "lambda-model",
+  "term": "lambda model",
+  "source": "article-pmc6509177",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnins.2019.00398",
+  "revision": "2019; DOI 10.3389/fnins.2019.00398; article XML SHA-256 94bcf0406ca225e4ac163ca727bd25596199f4795db9753306c032e6d6a932bc",
+  "source_snapshot_sha256": "94bcf0406ca225e4ac163ca727bd25596199f4795db9753306c032e6d6a932bc",
+  "url": "https://doi.org/10.3389/fnins.2019.00398",
+  "text": "There have always been practical demands for objective and accurate assessment of muscle spasticity beyond its clinical routine. A novel regression-based framework for quantitative assessment of muscle spasticity is proposed in this paper using wearable surface electromyogram (EMG) and inertial sensors combined with a simple examination procedure. Sixteen subjects with elbow flexor or extensor (i.e., biceps brachii muscle or triceps brachii muscle) spasticity and eight healthy subjects were recruited for the study. The EMG and inertial data were recorded from each subject when a series of passive elbow stretches with different stretch velocities were conducted. In the proposed framework, both lambda model and kinematic model were constructed from the recorded data, and biomarkers were extracted respectively from the two models to describe the neurogenic component and biomechanical component of the muscle spasticity, respectively. Subsequently, three evaluation methods using supervised machine learning algorithms including single-/multi-variable linear regression and support vector regression (SVR) were applied to calibrate biomarkers from each single model or combination of two models into evaluation scores. Each of these evaluation scores can be regarded as a prediction of the modified Ashworth scale (MAS) grade for spasticity assessment with the same meaning and clinical interpretation. In order to validate performance of three proposed methods within the framework, a 24-fold leave-one-out cross validation was conducted for all subjects. Both methods with each individual model achieved satisfactory performance, with low mean square error (MSE, 0.14 and 0.47) between the resultant evaluation score and the MAS. By contrast, the method using SVR to fuse biomarkers from both models outperformed other two methods with the lowest MSE at 0.059. The experimental results demonstrated the usability and feasibility of the proposed framework, and it provides an objective, quantitative and convenient solution to spasticity assessment, suitable for clinical, community, and home-based rehabilitation.",
+  "source_label": "A Regression-Based Framework for Quantitative Assessment of Muscle Spasticity Using Combined EMG and Inertial Data From Wearable Sensors",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2124
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "4d76798128b31e820698c96a507504f5fcdc0596b6620beee346fdf37cb95e08"
+}

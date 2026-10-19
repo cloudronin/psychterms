@@ -1,0 +1,65 @@
+{
+  "id": "paired-associates-learning",
+  "term": "paired-associates learning",
+  "definition": "Paired-associates learning is learning to link two items together so that one helps recall the other. In the visuo-spatial form described here, it means learning associations between visual patterns and their locations, and task performance reflects visuo-spatial learning.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5736175"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5736175",
+      "revision": "2017; DOI 10.1371/journal.pone.0187609; article XML SHA-256 4d8f21f6234d80a0591d649eb4c49486c7c1f4b6ca5e9d2ec250456b6f5d4103",
+      "scope": "Source record 10.1371/journal.pone.0187609; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0187609"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e4c1c27dbb3314fe58d454b6933d9fde8bfe227436437d4243916c7acafd7dfb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7ced5cc5e888446ea9e3315312fc2a4f",
+    "request_hash": "143c4bac53cb91253a341d69ae981baca3f52fea2a5ebeef01db3015cdc1e980",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "8772fa51418c02207febb9259ee50a5d7ec7366d3bb5065a9bb92fab4c509682",
+    "packet_hash": "e4c1c27dbb3314fe58d454b6933d9fde8bfe227436437d4243916c7acafd7dfb"
+  },
+  "hash": "b6095701da37b04a2bacb427dff0af21f2a451b4efb3bc03a0462a72e8cdf9c6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports visuo-spatial paired associates learning as a task and as a measure of visuo-spatial learning; it does not define paired-associates learning generally as learning to link two items so one helps recall the other.",
+        "The added claim that the visuo-spatial form means learning associations between visual patterns and their locations is not stated in the packet.",
+        "The final clause about task performance reflecting visuo-spatial learning is only partly supported; the packet says eventual accuracy is a measure of visuo-spatial learning during the task, but not the broader definition given here."
+      ],
+      "definition_hash": "8772fa51418c02207febb9259ee50a5d7ec7366d3bb5065a9bb92fab4c509682",
+      "packet_hash": "e4c1c27dbb3314fe58d454b6933d9fde8bfe227436437d4243916c7acafd7dfb",
+      "published_packet_hash": "e4c1c27dbb3314fe58d454b6933d9fde8bfe227436437d4243916c7acafd7dfb",
+      "receipt_id": "0be47d92ecac4d6f8d69f86d796742ce",
+      "request_hash": "64ba17aa191e051178082f422760ee2f31fbed05545c1d337d3cd259f0488a94",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “paired-associates learning” generally as “learning to link two items together so that one helps recall the other,” nor does it provide this requested sense of the term outside the visuo-spatial task context.",
+        "The packet does not state that the visuo-spatial form specifically involves “associations between visual patterns and their locations”; it only describes “visuo-spatial paired associates learning (vsPAL)” and refers to performance/accuracy as reflecting “visuo-spatial learning,” without specifying the visual-pattern-and-location pairing.",
+        "Because the definition includes substantive details not explicitly supported by the packet, it cannot be accepted under the requirement that every substantive claim be supported."
+      ],
+      "definition_hash": "8772fa51418c02207febb9259ee50a5d7ec7366d3bb5065a9bb92fab4c509682",
+      "packet_hash": "e4c1c27dbb3314fe58d454b6933d9fde8bfe227436437d4243916c7acafd7dfb",
+      "published_packet_hash": "e4c1c27dbb3314fe58d454b6933d9fde8bfe227436437d4243916c7acafd7dfb",
+      "receipt_id": "5c465b73deff400ba1b15738755ca426",
+      "request_hash": "61d0afb4cee43f9110dc40893d26f684fd81961a0c019bdd81b26614b6650c67",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

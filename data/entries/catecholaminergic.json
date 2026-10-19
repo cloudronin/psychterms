@@ -1,0 +1,63 @@
+{
+  "id": "catecholaminergic",
+  "term": "catecholaminergic",
+  "definition": "Catecholaminergic means involving catecholamines, a group of chemical messengers in the nervous system. In this context, it refers to inputs to hippocampal area CA1 that use these chemicals and can influence activity important for object-location learning and memory.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12677530"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12677530",
+      "revision": "2025; DOI 10.1371/journal.pone.0337834; article XML SHA-256 0ade106e33931a9b8bf44d5714a94d6723e51991329f09590488619901a3f9ff",
+      "scope": "Source record 10.1371/journal.pone.0337834; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337834"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8f61d23c0dedac34f74ff37ea32566d8c437ba2eb67b146e2dc70ab71825f4ba",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b1cbdbcc2167459095be8d7b11a32e43",
+    "request_hash": "914ca69f2ae806c512f88d703990b78cf9f3926bad14d59ae4a2e4e64cf4bfc4",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "b59314acefa1ee0608dcd842496102f23de1e4656e6b5313e255d6eea55a5885",
+    "packet_hash": "8f61d23c0dedac34f74ff37ea32566d8c437ba2eb67b146e2dc70ab71825f4ba"
+  },
+  "hash": "2d05e92c62a9d990a4b4051606090a0417c67666ef3d98641de83991f7409b59",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define catecholamines as “a group of chemical messengers in the nervous system,” so the first sentence’s characterization is unsupported by the provided source.",
+        "The packet supports that the study “lesioned the catecholaminergic inputs to CA1,” and that this affected c-Fos levels and impaired object location memory, but it does not support the full wording of the definition’s first sentence."
+      ],
+      "definition_hash": "b59314acefa1ee0608dcd842496102f23de1e4656e6b5313e255d6eea55a5885",
+      "packet_hash": "8f61d23c0dedac34f74ff37ea32566d8c437ba2eb67b146e2dc70ab71825f4ba",
+      "published_packet_hash": "8f61d23c0dedac34f74ff37ea32566d8c437ba2eb67b146e2dc70ab71825f4ba",
+      "receipt_id": "c4ab43d6820743158a9c8d33d87aeaef",
+      "request_hash": "425e9ab2b3301ccd7857d7d984c4b14bcc9f3ee3666f247c156961d065c63642",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports catecholaminergic inputs to CA1, but it does not define catecholamines as “a group of chemical messengers in the nervous system.”",
+        "The definition adds a general meaning for the term beyond the packet’s specific study context; the supported sense here is only that catecholaminergic inputs to CA1 were lesioned and were associated with reduced CA1 activity and impaired object-location memory."
+      ],
+      "definition_hash": "b59314acefa1ee0608dcd842496102f23de1e4656e6b5313e255d6eea55a5885",
+      "packet_hash": "8f61d23c0dedac34f74ff37ea32566d8c437ba2eb67b146e2dc70ab71825f4ba",
+      "published_packet_hash": "8f61d23c0dedac34f74ff37ea32566d8c437ba2eb67b146e2dc70ab71825f4ba",
+      "receipt_id": "0251ecf98fb64e5faa7321da643f0bb2",
+      "request_hash": "367bb4270f089497c28196b42202d7eda877ebcd652aa8cf296bb76578c442a3",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

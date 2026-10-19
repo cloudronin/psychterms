@@ -1,0 +1,65 @@
+{
+  "id": "fixed-action-pattern",
+  "term": "fixed action pattern",
+  "definition": "A fixed action pattern is a highly stereotyped sequence of behavior that is carried out in a consistent, species-specific way. In the source packet, the term is used for repetitive startle-like movements whose form stays notably uniform.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8612528"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8612528",
+      "revision": "2021; DOI 10.1371/journal.pone.0252359; article XML SHA-256 a13050239359fe81acd201d4805d7b9aced7f74d2210cd33a9fee1ebaed4618c",
+      "scope": "Source record 10.1371/journal.pone.0252359; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0252359"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "88ad43f6d25359a8019d80e39358bbf27a7d3b2c7da08c08a6b2f2bbe384a6cd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "89ffd083620947c2b2782bae3799ba48",
+    "request_hash": "70c01fe8bbaf3e9be10d08aec6e6c86e2ba8116994982cfa4508e98496cb96d1",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "ed2f06e387e2de56d33a21a410268c7fec79c858918716686cefc306c39eefc5",
+    "packet_hash": "88ad43f6d25359a8019d80e39358bbf27a7d3b2c7da08c08a6b2f2bbe384a6cd"
+  },
+  "hash": "f9e4f85cae7087f2626db69717e0b6d81b70ddeeb610a68c89ac62ce680e72ae",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence describes fixed action patterns as a “highly stereotyped sequence… carried out in a consistent, species-specific way,” but the packet only states that certain repetitive startle-like maneuvers have a “highly stereotyped appearance resembling Fixed Action Pattern sequences.”",
+        "The packet does not provide enough information to support the “sequence of behavior” and “consistent, species-specific” framing as the requested meaning of the term within this dataset.",
+        "While the definition’s second sentence (repetitive startle-like movements with notably uniform form) is broadly aligned with the packet’s “repetitive startle-like maneuvers” and “highly stereotyped appearance,” the unsupported first sentence prevents a pass."
+      ],
+      "definition_hash": "ed2f06e387e2de56d33a21a410268c7fec79c858918716686cefc306c39eefc5",
+      "packet_hash": "88ad43f6d25359a8019d80e39358bbf27a7d3b2c7da08c08a6b2f2bbe384a6cd",
+      "published_packet_hash": "88ad43f6d25359a8019d80e39358bbf27a7d3b2c7da08c08a6b2f2bbe384a6cd",
+      "receipt_id": "f889d2701b8b4b8a852b3327cad17b51",
+      "request_hash": "9848f821a1b26680f905e912e4c3658bfb07f7d39daed94b9c938090e12d534b",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define fixed action pattern as a general behavioral category; it only says the fish’s repetitive startle-like maneuvers had a highly stereotyped appearance resembling fixed action pattern sequences.",
+        "The added claim that the form is carried out in a consistent, species-specific way is not stated in the packet as the definition of the term.",
+        "The requested field \"learning\" is not supported by the packet, which is about fish behavioral responses to acute warming rather than a learning concept."
+      ],
+      "definition_hash": "ed2f06e387e2de56d33a21a410268c7fec79c858918716686cefc306c39eefc5",
+      "packet_hash": "88ad43f6d25359a8019d80e39358bbf27a7d3b2c7da08c08a6b2f2bbe384a6cd",
+      "published_packet_hash": "88ad43f6d25359a8019d80e39358bbf27a7d3b2c7da08c08a6b2f2bbe384a6cd",
+      "receipt_id": "cd4dc2c11afc4c25aeb7725200882c44",
+      "request_hash": "c6e3cda64038943f00d64fb8d1af5689b60427ed98d39f2ce136e940635de879",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

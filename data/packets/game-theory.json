@@ -1,0 +1,26 @@
+{
+  "id": "game-theory",
+  "term": "game theory",
+  "source": "article-pmc12349079",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0328967",
+  "revision": "2025; DOI 10.1371/journal.pone.0328967; article XML SHA-256 36cd63afb3c24f3a8b1895f0149331664eee5511e72223b523af929c838489ad",
+  "source_snapshot_sha256": "36cd63afb3c24f3a8b1895f0149331664eee5511e72223b523af929c838489ad",
+  "url": "https://doi.org/10.1371/journal.pone.0328967",
+  "text": "Stroke analysis using game theory and machine learning techniques. The study investigates the use of the Shapley value in predictive ischemic brain stroke analysis. Initially, preference algorithms identify the most important features in various machine learning models, including logistic regression, K-nearest neighbor, decision tree, support vector machine (linear kernel), support vector machine ( RBF kernel), neural networks, etc. For each sample, the top 3, 4, and 5 features are evaluated and selected to evaluate their performance. The Shapley value method was used to rank the models using their best four features based on their predictive capabilities. As a result, better-performing models were found. Afterward, ensemble machine learning methods were used to find the most accurate predictions using the top 5 models ranked by shapely value. The research demonstrates an impressive accuracy of 92.39%, surpassing other proposed models’ performance. This study highlights the utility of combining game theory and machine learning in Ischemic stroke prediction and the potential of ensemble learning methods to increase predictive accuracy in ischemic stroke analysis.",
+  "source_label": "OptiSelect and EnShap: Integrating machine learning and game theory for ischemic stroke prediction",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1180
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "d915eed84986ef574ee70ae9417793851f98b6affefa75ced2558c94a21ea50e"
+}

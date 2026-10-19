@@ -1,0 +1,63 @@
+{
+  "id": "positive-contrast",
+  "term": "positive contrast",
+  "definition": "Positive contrast refers to MRI methods that make implants or devices stand out as visible bright or distinct signals so they can be separated from areas that look empty because of susceptibility effects or lack of protons.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4871409"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4871409",
+      "revision": "2016; DOI 10.1371/journal.pone.0155717; article XML SHA-256 21d96f0a71e70f37a74941fffdf077acd513ace908ec4b4a6ec1824da8b1e223",
+      "scope": "Source record 10.1371/journal.pone.0155717; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0155717"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "774c003e6f681c107f5725af2243df14605fa4337a02c75b6e0ab3cb6c184e7b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "09a4ba11387f4e3890f24d4fe5b030de",
+    "request_hash": "a427c1f8acedc834203b3b53ae0c9a5a80719886c7016a4772a4c9ad085d1d88",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "2ff6dca4416cad07852d0849eab3fd6238d557c3df8a1e4840497a3772f077ee",
+    "packet_hash": "774c003e6f681c107f5725af2243df14605fa4337a02c75b6e0ab3cb6c184e7b"
+  },
+  "hash": "8f11e1781376efd180b5a99b78e45a764de3484b1531dd105903f007bcb72956",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the specific claim that implants/devices are made to “stand out as visible bright” signals; it only says implants/devices can be delineated and that “positive contrast techniques” were implemented to discriminate susceptibility voids from proton-free structures.",
+        "The definition’s phrasing “empty because of susceptibility effects or lack of protons” is only partially supported: the packet explicitly contrasts “susceptibility voids” with “proton-free structures,” but does not describe “empty” areas in those exact terms."
+      ],
+      "definition_hash": "2ff6dca4416cad07852d0849eab3fd6238d557c3df8a1e4840497a3772f077ee",
+      "packet_hash": "774c003e6f681c107f5725af2243df14605fa4337a02c75b6e0ab3cb6c184e7b",
+      "published_packet_hash": "774c003e6f681c107f5725af2243df14605fa4337a02c75b6e0ab3cb6c184e7b",
+      "receipt_id": "0eb54688037f4cb88afdad5e611af988",
+      "request_hash": "ad3fd9ae6d259c6dcbc331690bdf2b470ba6b751b3b1afd73f15a1b0f99016e2",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports using positive contrast techniques to visualize or delineate implants/devices and to discriminate susceptibility voids from proton-free structures, but it does not support the added claim that they create “bright” signals.",
+        "The definition slightly overstates the mechanism by presenting a general MRI method description rather than the packet’s narrower point about distinguishing susceptibility artefacts/voids from proton-free structures."
+      ],
+      "definition_hash": "2ff6dca4416cad07852d0849eab3fd6238d557c3df8a1e4840497a3772f077ee",
+      "packet_hash": "774c003e6f681c107f5725af2243df14605fa4337a02c75b6e0ab3cb6c184e7b",
+      "published_packet_hash": "774c003e6f681c107f5725af2243df14605fa4337a02c75b6e0ab3cb6c184e7b",
+      "receipt_id": "26cbd46f0a26442c8d3af638f8a1a218",
+      "request_hash": "ccc2500e4b52d1e1c81709f3e05aedd8550a86fb17be4dfc15005a8d5ccc53a3",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

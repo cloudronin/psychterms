@@ -1,0 +1,60 @@
+{
+  "id": "sbs",
+  "term": "SBS",
+  "definition": "SBS stands for stimulated Brillouin scattering, an optical effect used in devices such as filters, sensing systems, and spectrum analysis. In this packet, it refers to a light-based process in fiber systems whose performance can be affected by polarization changes unless compensated.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13581196"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13581196",
+      "revision": "2026; DOI 10.1371/journal.pone.0357986; article XML SHA-256 8daffc34518b9049e15128253523c8e11c4422a4549558297501f1ecc7f5439f",
+      "scope": "Source record 10.1371/journal.pone.0357986; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0357986"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c338a006c7c0ce0e317ff61f926fb1291cbbdb889e59f4135e6a2a5fea139082",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ad7b963e73ab4d038555355672ffea0c",
+    "request_hash": "c08d55e69819b19493e7875cf9511a517d5311b3440dd54dffb140bc4bc52aa8",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "c126601ce590f8e4c9cd8f329411891e3807a65546b1bbd62da4ebee99892166",
+    "packet_hash": "c338a006c7c0ce0e317ff61f926fb1291cbbdb889e59f4135e6a2a5fea139082"
+  },
+  "hash": "1d29941c481c1c438d3d780fdb9a63c256e20562f01d595cc32ec3d076f586e6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c126601ce590f8e4c9cd8f329411891e3807a65546b1bbd62da4ebee99892166",
+      "packet_hash": "c338a006c7c0ce0e317ff61f926fb1291cbbdb889e59f4135e6a2a5fea139082",
+      "published_packet_hash": "c338a006c7c0ce0e317ff61f926fb1291cbbdb889e59f4135e6a2a5fea139082",
+      "receipt_id": "c1efa4dcb9cd44d7931198de606d6b8e",
+      "request_hash": "ddb47773ad5628cf45ce071692a0f3300cf1a9c810badbf947a8519d43c5682d",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet describes SBS as an optical/photonic effect in fiber systems (filters, sensing, spectrum analysis), not something in a biological context; the definition’s specified field (“biological”) is not supported by the packet.",
+        "While the definition’s technical claims (SBS meaning, light-based process in fibers, polarization-dependent gain fluctuations/birefringence, and the idea of compensation) align with the packet, the definition is not defensible as “biological” given the packet content."
+      ],
+      "definition_hash": "c126601ce590f8e4c9cd8f329411891e3807a65546b1bbd62da4ebee99892166",
+      "packet_hash": "c338a006c7c0ce0e317ff61f926fb1291cbbdb889e59f4135e6a2a5fea139082",
+      "published_packet_hash": "c338a006c7c0ce0e317ff61f926fb1291cbbdb889e59f4135e6a2a5fea139082",
+      "receipt_id": "46d69dfe0bbe40e290684d48a87850bd",
+      "request_hash": "ae3a24b18b25834d5240560b927899137112d157c6f3631de2cbc6878f6c4dee",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

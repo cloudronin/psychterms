@@ -1,0 +1,26 @@
+{
+  "id": "cumulative-probability-distribution",
+  "term": "cumulative probability distribution",
+  "source": "article-pmc5627908",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0185261",
+  "revision": "2017; DOI 10.1371/journal.pone.0185261; article XML SHA-256 ac49af49184030939e018d8a0f076b95d456ae05a0d18602544af7214d156b89",
+  "source_snapshot_sha256": "ac49af49184030939e018d8a0f076b95d456ae05a0d18602544af7214d156b89",
+  "url": "https://doi.org/10.1371/journal.pone.0185261",
+  "text": "It is well-known that ultrasound imaging is a non-invasive technique for carotid atherosclerosis plaque examination. Ultrasound measurement of plaque echogenicity can provide a risk factor for predicting cardiovascular events [ 9 – 11 ]. Visual classification has been used to assess the plaque echogenicity in many previous studies [ 11 – 13 ], however, the results are operator-dependent. Recent studies have shown that computer assisted methods of plaque characterization using B-mode images can provide measurements in predicting clinical outcome [ 4 , 14 – 19 ]. Percentage white (PW) has been proposed as a metric for evaluation of echogenicity in carotid plaques, but it needs an intensity threshold to determine which pixels are echogenic (white) [ 14 ]. The process of PW feature extraction is relatively complex because the intensity threshold of each image is different. Texture analysis has been utilized to characterize carotid atherosclerotic plaques in symptomatic and asymptomatic patients [ 15 – 17 ], and it shows promise in the assessment of plaque echogenicity by combining the morphological characteristics of plaques [ 20 ]. However, the extraction of texture features requires high computational complexity. Recent studies have indicated that computerized measurement of the gray-scale median (GSM) is an objective and useful metric for assessment of the plaque echogenicity [ 4 , 18 , 19 ]. It is worthwhile noting that GSM is the fiftieth percentile of the probability distribution of gray-scale pixels, and it ignores the details of the probability distribution of plaques. Shankar et al. proposed a method to model the statistics of the pixels in the gray-level images of soft and hard plaques [ 21 ]. The cumulative probability distribution curves showed significant trends for these two types of plaques. Therefore, we suggest that the area under the cumulative probability distribution curve (AUCPDC) may be an effective parameter for evaluating plaque echogenicity.",
+  "source_label": "Evaluation of carotid plaque echogenicity based on the integral of the cumulative probability distribution using gray-scale ultrasound images",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    1416,
+    3412
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "535e9b1c22abfc6583a436e8c6ad4ea52423a660d690c3886acf7414102c7b89"
+}

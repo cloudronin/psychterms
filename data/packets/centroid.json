@@ -1,0 +1,26 @@
+{
+  "id": "centroid",
+  "term": "centroid",
+  "source": "article-pmc12768385",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0339171",
+  "revision": "2026; DOI 10.1371/journal.pone.0339171; article XML SHA-256 98b8d08c57914cdbfc0105f388b89d38bce461a52b192094ade1cda41efc9480",
+  "source_snapshot_sha256": "98b8d08c57914cdbfc0105f388b89d38bce461a52b192094ade1cda41efc9480",
+  "url": "https://doi.org/10.1371/journal.pone.0339171",
+  "text": "We present H-NGPCA, a hierarchical clustering algorithm for data streams that integrates an adaptive unit number growth and local dimensionality control. Unlike existing algorithm, H-NGPCA combines the characteristics of centroid-based, model-based and hierarchical clustering. H-NGPCA builds a hierarchical structure of local Principal Component Analysis (PCA) units, where each unit is a hyper-ellipsoid whose shape is updated by a neural network-based online PCA method. The re-positioning of each unit is handled by Neural Gas, a centroid-based clustering algorithm. In the hierarchical tree structure, new units are created in a branch if suggested by a splitting criterion. In addition, each unit determines its own dimensionality based on the data represented by the unit. In extensive benchmarks, H-NGPCA not only surpasses all competing online algorithms with adaptive unit numbers but also achieves competitive performance with state-of-the-art offline methods, reaching an average NMI = 0.87 and CI = 0.26. This demonstrates that H-NGPCA achieves both online adaptability and offline-level accuracy.",
+  "source_label": "H-NGPCA: Hierarchical clustering of data streams with adaptive number of clusters and adaptive dimensionality",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1110
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 3
+  },
+  "packet_hash": "2552168f38603ef5a16fb8ecdc2c3e1135bc2766bf5cb10218003de4f9baabb1"
+}

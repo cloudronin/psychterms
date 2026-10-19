@@ -1,0 +1,65 @@
+{
+  "id": "consolidation",
+  "term": "consolidation",
+  "definition": "In cognition, consolidation is the process by which a newly learned motor memory becomes more stable after practice, including during offline periods after training. It may be linked to changes in rhythmic brain activity and communication between premotor and primary motor areas.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12946050"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12946050",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1698460; article XML SHA-256 a78a21a3ccd09be7466f10a3ba9026dc40c35651ae1d2018d77167b1ddb3f710",
+      "scope": "Source record 10.3389/fnhum.2026.1698460; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1698460"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7c595a77869c479a90e186a5a05379b66b9ee64be4b576480d0e1c6a49d3fc81",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dd6377586a67432483280c295ba9106b",
+    "request_hash": "66697eef2b923baff906767d4d05449619fa38d5ea4fb939ebdde6b0c7bf8faa",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "49f334181eacf0f28497106fe2b16ab8c17f91a62cbb4c57c7e066ff266f639f",
+    "packet_hash": "7c595a77869c479a90e186a5a05379b66b9ee64be4b576480d0e1c6a49d3fc81"
+  },
+  "hash": "f5d79cc756316f0a326ccbf0de28432d923f5df930f460c875a1122a830ad5cf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define consolidation as a general cognitive process by which a newly learned motor memory becomes more stable after practice; it only says motor memory consolidation may be influenced by offline non-invasive brain stimulation.",
+        "The packet does not support the added timing claim that consolidation occurs \"during offline periods after training\" as part of the definition; it only mentions offline application of stimulation in relation to motor memory consolidation.",
+        "The mechanism claim is only weakly supported and narrower in the packet: it says one potential mechanism involves oscillatory neuronal activity in premotor and primary motor cortices and their interaction, not the broader phrasing about \"rhythmic brain activity and communication\"."
+      ],
+      "definition_hash": "49f334181eacf0f28497106fe2b16ab8c17f91a62cbb4c57c7e066ff266f639f",
+      "packet_hash": "7c595a77869c479a90e186a5a05379b66b9ee64be4b576480d0e1c6a49d3fc81",
+      "published_packet_hash": "7c595a77869c479a90e186a5a05379b66b9ee64be4b576480d0e1c6a49d3fc81",
+      "receipt_id": "4421dd920c124e0c82e585814f4643d5",
+      "request_hash": "4db43b8a6a1537b4a59e87c7c96768e1d5488c7f593f39752e666c42acaafbe6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that consolidation is “the process by which a newly learned motor memory becomes more stable after practice,” so this core characterization of the term is unsupported by the supplied text.",
+        "The packet mentions “offline application” of brain stimulation, but it does not explicitly support the broader phrasing “during offline periods after training.”",
+        "The packet supports that a potential mechanism involves “changes in oscillatory neuronal activity” in premotor and primary motor cortices and their interaction, but it does not specifically justify the wording “communication between premotor and primary motor areas.”"
+      ],
+      "definition_hash": "49f334181eacf0f28497106fe2b16ab8c17f91a62cbb4c57c7e066ff266f639f",
+      "packet_hash": "7c595a77869c479a90e186a5a05379b66b9ee64be4b576480d0e1c6a49d3fc81",
+      "published_packet_hash": "7c595a77869c479a90e186a5a05379b66b9ee64be4b576480d0e1c6a49d3fc81",
+      "receipt_id": "ddb37b35fb9d40b68457f7bdc9a42884",
+      "request_hash": "f1b61809079c624ea894573d30653a3107957ee12eb5a2eea22e9d6cd8485210",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

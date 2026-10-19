@@ -1,0 +1,63 @@
+{
+  "id": "npc",
+  "term": "NPC",
+  "definition": "NPC stands for no-prevention couples: HIV-serodiscordant heterosexual couples in which the female partner is HIV-negative and the relationship is described as involving no prevention. In this study context, the term is used for examining psychosocial and mental health factors linked to sexual health risk.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13150753"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13150753",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1775933; article XML SHA-256 14d6422ff5e1b0df36b2cfb4b08008fd6ea7f10a28220ae9a3834efff9643c3c",
+      "scope": "Source record 10.3389/fpsyt.2026.1775933; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1775933"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "97dadd1a299f91c961849dd3973dae6a678f5e595e3adb7d83872f05fc2dac19",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3ed513fb87f54a1ba559272be7b5c368",
+    "request_hash": "f8d8237aeb12b96deab47915dc7bd45f8c85126e7fda3556c8e2cca0282f0df5",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "edb9845d07d7c20880f0a9088ac487cf22c70fbf4105a323f2ea55b615b58112",
+    "packet_hash": "97dadd1a299f91c961849dd3973dae6a678f5e595e3adb7d83872f05fc2dac19"
+  },
+  "hash": "9270e9b07e7ed5449a49a057f3db4f82bd4b39d2606c9bb21299426b2139b850",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes “no-prevention couples (NPC)” as a category/type of HIV-serodiscordant heterosexual couples (defined by partners’ serostatus and “no-prevention” context), not as a diagnostic term.",
+        "Some elements are only indirectly supported: the packet mentions “psychopathology,” “illness behaviors,” and “psychosocial factors” related to transmission of sexually transmitted diseases, but does not explicitly define NPC as being used specifically to examine “mental health factors” (as distinct from psychopathology) in the way the definition states."
+      ],
+      "definition_hash": "edb9845d07d7c20880f0a9088ac487cf22c70fbf4105a323f2ea55b615b58112",
+      "packet_hash": "97dadd1a299f91c961849dd3973dae6a678f5e595e3adb7d83872f05fc2dac19",
+      "published_packet_hash": "97dadd1a299f91c961849dd3973dae6a678f5e595e3adb7d83872f05fc2dac19",
+      "receipt_id": "f61233fe3a9f402888a8c9c4fef8d391",
+      "request_hash": "e78815d2ec7859b1454a5c28d26b3dc7ddbfe054bb7e9de10a9a41f6ce9be04d",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible here: NPC in the packet is a study abbreviation for “no-prevention couples,” not a diagnosis term.",
+        "The definition adds a broader framing about “mental health factors linked to sexual health risk” that is only loosely supported; the packet specifically mentions psychosocial factors, health behaviors, psychopathology, and STD transmission, not that exact usage."
+      ],
+      "definition_hash": "edb9845d07d7c20880f0a9088ac487cf22c70fbf4105a323f2ea55b615b58112",
+      "packet_hash": "97dadd1a299f91c961849dd3973dae6a678f5e595e3adb7d83872f05fc2dac19",
+      "published_packet_hash": "97dadd1a299f91c961849dd3973dae6a678f5e595e3adb7d83872f05fc2dac19",
+      "receipt_id": "98a07ef2219443d280a63c52e5cef974",
+      "request_hash": "d944b57d27964c3990112b2670a1ffa0c59d65395843c0ae60086fe59655d2af",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

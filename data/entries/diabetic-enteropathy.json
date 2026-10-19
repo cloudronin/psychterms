@@ -1,0 +1,64 @@
+{
+  "id": "diabetic-enteropathy",
+  "term": "diabetic enteropathy",
+  "definition": "Diabetic enteropathy is an intestinal complication of diabetes mellitus that has mainly been described as a functional change linked to diabetic autonomic neuropathy. The packet also indicates that inflammation, gut microbiota changes, and abnormal differentiation of intestinal epithelial cells may contribute to it.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8186182"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8186182",
+      "revision": "2021; DOI 10.1186/s13287-021-02385-8; article XML SHA-256 de8d0354abfd96604bb93fad00945ec416346037747bd62edadb208992e38726",
+      "scope": "Source record 10.1186/s13287-021-02385-8; pinned source text",
+      "locator": "https://doi.org/10.1186/s13287-021-02385-8"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fdacee7f53013a2dccecd50ed28eaf6a9fbd2a0b0f0b340ab34e25ba9fdb63a4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "544bbbc3aee84cb6a91b2c7f2c75b0aa",
+    "request_hash": "add6a86f1f51b100638e05b126deae01b53adeebf7cdd19ad153c12b5f1048b6",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "4ee0e54d0416e721f857b8f0a0d50200d3ccc9c0f61d1d2e3c3a3d7966f4239a",
+    "packet_hash": "fdacee7f53013a2dccecd50ed28eaf6a9fbd2a0b0f0b340ab34e25ba9fdb63a4"
+  },
+  "hash": "c4731bce9b5dfe4550548f3ae9c16bb5912b8954103c42896aa7345a1da44c1d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that diabetic enteropathy is “an intestinal complication of diabetes mellitus,” but the packet does not explicitly describe diabetic enteropathy as a “complication” (it only refers to it as a functional change in the context of diabetic autonomic neuropathy and mentions intestinal epithelial cell differentiation).",
+        "The definition refers to “gut microbiota changes,” while the packet only mentions “the microbiota” without explicitly describing it as “gut” microbiota."
+      ],
+      "definition_hash": "4ee0e54d0416e721f857b8f0a0d50200d3ccc9c0f61d1d2e3c3a3d7966f4239a",
+      "packet_hash": "fdacee7f53013a2dccecd50ed28eaf6a9fbd2a0b0f0b340ab34e25ba9fdb63a4",
+      "published_packet_hash": "fdacee7f53013a2dccecd50ed28eaf6a9fbd2a0b0f0b340ab34e25ba9fdb63a4",
+      "receipt_id": "fc9275fcd38e4b02a22bf1941ce83481",
+      "request_hash": "4632030a257c63a2ca36c446c975142c581dcaa094c3b7539677ec2f04709fa4",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports diabetic enteropathy as mainly a functional change caused by diabetic autonomic neuropathy, but it does not explicitly support calling it an intestinal complication of diabetes mellitus.",
+        "The packet mentions inflammation and the microbiota as precipitating factors, but it does not specifically support the broader claim that gut microbiota changes contribute to it.",
+        "The packet says abnormal differentiation of intestinal epithelial cells is an early phenotypic change and the focus of the study, but it does not clearly support it as a confirmed contributing factor to diabetic enteropathy."
+      ],
+      "definition_hash": "4ee0e54d0416e721f857b8f0a0d50200d3ccc9c0f61d1d2e3c3a3d7966f4239a",
+      "packet_hash": "fdacee7f53013a2dccecd50ed28eaf6a9fbd2a0b0f0b340ab34e25ba9fdb63a4",
+      "published_packet_hash": "fdacee7f53013a2dccecd50ed28eaf6a9fbd2a0b0f0b340ab34e25ba9fdb63a4",
+      "receipt_id": "b4f50888748b452c94b0f058e222664c",
+      "request_hash": "6bf4bd63b514196fcee055f66416b4cdf64ac39bd0192998f377187a6812808c",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

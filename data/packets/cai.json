@@ -1,0 +1,26 @@
+{
+  "id": "cai",
+  "term": "CAI",
+  "source": "article-pmc12148154",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0324182",
+  "revision": "2025; DOI 10.1371/journal.pone.0324182; article XML SHA-256 55ce1c978fb3bd29f7cf93a818c28e4f57b158fb692add70865975a3a5faaeb1",
+  "source_snapshot_sha256": "55ce1c978fb3bd29f7cf93a818c28e4f57b158fb692add70865975a3a5faaeb1",
+  "url": "https://doi.org/10.1371/journal.pone.0324182",
+  "text": "Ensuring both cast-as-intended (CAI) verifiability and coercion-resistance in e-voting remains a critical challenge. The e-voting scheme proposed by Finogina and Herranz in 2023 represents the first notable advancement in reconciling these conflicting requirements. CAI verifiability allows voters to confirm that their intended vote has been correctly recorded, even without a secure channel to the election committee, while coercion-resistance prevents external influence and vote-selling. However, essential security properties such as confidentiality, anonymity, unforgeability, and double-voting prevention fall outside the scope of Finogina and Herranz’s e-voting scheme, leaving significant gaps in its security guarantees. To address this limitation, we propose a novel e-voting scheme that simultaneously achieves CAI verifiability, coercion-resistance, confidentiality, anonymity, unforgeability, and double-voting prevention while maintaining an asymptotic complexity of 𝒪 ( n ) . To the best of our knowledge, no existing scheme satisfies all these properties concurrently. Moreover, we establish that anonymity inherently implies CAI verifiability in e-voting schemes, a result of independent interest. By strengthening security and privacy guarantees, our work bridges existing gaps and provides a comprehensive security model that serves as a foundation for the design of future e-voting systems.",
+  "source_label": "A provably secure coercion-resistant e-voting scheme with confidentiality, anonymity, unforgeability, and CAI verifiability",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1411
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "ethics",
+  "scope_decision": {
+    "eligible": true,
+    "field": "ethics",
+    "rule": "psychology-context:ethics",
+    "policy_version": 3
+  },
+  "packet_hash": "59f5c653e2d0846d3939864911f8ef891e26e8c191637ab3af5986113eda1721"
+}

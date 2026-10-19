@@ -1,0 +1,63 @@
+{
+  "id": "homology",
+  "term": "homology",
+  "definition": "In this context, homology refers to a topological approach used to represent patterns in brain function. The source supports it as a robust, informative framework for studying individual differences and links between brain activity and behavior in neuroimaging.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12163041"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12163041",
+      "revision": "2025; DOI 10.3389/fnhum.2025.1607941; article XML SHA-256 30b6856f6009f339d1ef56b34924ac7e549184d16e9683c00e5247f52ba8f684",
+      "scope": "Source record 10.3389/fnhum.2025.1607941; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2025.1607941"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7dfbaa58e9788ccbae1dc7a2db350be20121ad32a6f5b96f39f8348e705550b7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3a65c57154f3427d82d2fcb3e6d08b18",
+    "request_hash": "9e02f0b06aa61ea68d276aba3870f469d9b02c3a91e3a20fc9cdb46011007287",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "851f1076250c1cf4c41d199219dc6f3eaf89184a03bb4951ab5fe473d5bfba0d",
+    "packet_hash": "7dfbaa58e9788ccbae1dc7a2db350be20121ad32a6f5b96f39f8348e705550b7"
+  },
+  "hash": "3bd3eb8cbc72510d086d81fbfa9b33498ea82c2939daefc8b7fedbc545465d28",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports persistent homology, not homology in general, so the target sense is misstated.",
+        "The claim about links between brain activity and behavior is not supported by the packet; it only mentions modeling individual differences in brain function and personalized neuroimaging analysis."
+      ],
+      "definition_hash": "851f1076250c1cf4c41d199219dc6f3eaf89184a03bb4951ab5fe473d5bfba0d",
+      "packet_hash": "7dfbaa58e9788ccbae1dc7a2db350be20121ad32a6f5b96f39f8348e705550b7",
+      "published_packet_hash": "7dfbaa58e9788ccbae1dc7a2db350be20121ad32a6f5b96f39f8348e705550b7",
+      "receipt_id": "19c58594b0b84217b4cd9c3b95def39e",
+      "request_hash": "ebe0ffd84e1c351f8aed1c6c8924e8a47a47a0ffc4229b35c991b04e0e9e9609",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only explicitly mentions “persistent homology” as a “robust and informative framework” for modeling “individual differences in brain function” and suggests “brain–behavior links”; it does not explicitly support the broader phrasing that homology is a “topological approach used to represent patterns in brain function.”",
+        "The packet supports “brain–behavior links” in the source text, but it does not explicitly justify the specific formulation “links between brain activity and behavior in neuroimaging,” beyond that brief mention."
+      ],
+      "definition_hash": "851f1076250c1cf4c41d199219dc6f3eaf89184a03bb4951ab5fe473d5bfba0d",
+      "packet_hash": "7dfbaa58e9788ccbae1dc7a2db350be20121ad32a6f5b96f39f8348e705550b7",
+      "published_packet_hash": "7dfbaa58e9788ccbae1dc7a2db350be20121ad32a6f5b96f39f8348e705550b7",
+      "receipt_id": "393ee9d65d5c422890be4c4042fd380e",
+      "request_hash": "f7425e3af976c63f8767b6df812c625ac0fb6642fa3fd5b56595527d61d86e40",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

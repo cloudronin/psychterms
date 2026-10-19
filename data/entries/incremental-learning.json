@@ -1,0 +1,60 @@
+{
+  "id": "incremental-learning",
+  "term": "incremental learning",
+  "definition": "Incremental learning is a way for a model to keep learning new categories over time while trying to retain what it learned earlier. In this packet, it specifically refers to class-incremental learning, where the challenge is to add new classes without old knowledge drifting or being forgotten.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13152188"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13152188",
+      "revision": "2026; DOI 10.1371/journal.pone.0348270; article XML SHA-256 1b8902ded275ae48b9e4b79a765b0414ed3f65bccd90ef252a605043b5d0b80f",
+      "scope": "Source record 10.1371/journal.pone.0348270; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0348270"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "21f334f16ea58b6273d86e19baf5fc63a9db03ad15cfd939d1d6867658ea2f10",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "6e3bac96c31741e0b0377adad45a3ba0",
+    "request_hash": "f13a50161b5f09792071066e21e535ff854e1a3b0dae02910a20fdf35975c833",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "ec41ce88bf9a02c1d92659a037377015db23c11526bf98539c5e66c6e5caee2b",
+    "packet_hash": "21f334f16ea58b6273d86e19baf5fc63a9db03ad15cfd939d1d6867658ea2f10"
+  },
+  "hash": "3039c0483ad0e100bb7fe8327d3b7a24a8d48b298cffb4f2a2ed1b1efb5c914a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ec41ce88bf9a02c1d92659a037377015db23c11526bf98539c5e66c6e5caee2b",
+      "packet_hash": "21f334f16ea58b6273d86e19baf5fc63a9db03ad15cfd939d1d6867658ea2f10",
+      "published_packet_hash": "21f334f16ea58b6273d86e19baf5fc63a9db03ad15cfd939d1d6867658ea2f10",
+      "receipt_id": "14b7129609ac4406a14fccec0ebc92cc",
+      "request_hash": "961abe20629463a3716d65e230ab7662358cba9d035b0cb0f33408d2d30ed81c",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet provided does not define “incremental learning” in general terms (e.g., as a general method for a model to keep learning new categories over time). It only explicitly discusses “Class-Incremental Learning (CIL)”.",
+        "Because the first sentence’s general description is not directly supported by the packet text, the definition cannot be considered fully supported by the supplied source."
+      ],
+      "definition_hash": "ec41ce88bf9a02c1d92659a037377015db23c11526bf98539c5e66c6e5caee2b",
+      "packet_hash": "21f334f16ea58b6273d86e19baf5fc63a9db03ad15cfd939d1d6867658ea2f10",
+      "published_packet_hash": "21f334f16ea58b6273d86e19baf5fc63a9db03ad15cfd939d1d6867658ea2f10",
+      "receipt_id": "05dc159d172c4832b4975818e8e7d909",
+      "request_hash": "61a80f4092085dff26ab2bdbd6352977008e609472b81387b58697cb5733513e",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

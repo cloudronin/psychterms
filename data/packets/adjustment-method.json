@@ -1,0 +1,26 @@
+{
+  "id": "adjustment-method",
+  "term": "adjustment method",
+  "source": "article-pmc11253496",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-024-02279-2",
+  "revision": "2024; DOI 10.1186/s12874-024-02279-2; article XML SHA-256 29e70e0a6434dc226a4df865ca04c2d7e2d2023872fac4fcbe7b6c239b5ddb26",
+  "source_snapshot_sha256": "29e70e0a6434dc226a4df865ca04c2d7e2d2023872fac4fcbe7b6c239b5ddb26",
+  "url": "https://doi.org/10.1186/s12874-024-02279-2",
+  "text": "When different researchers study the same research question using the same dataset they may obtain different and potentially even conflicting results. This is because there is often substantial flexibility in researchers’ analytical choices, an issue also referred to as “researcher degrees of freedom”. Combined with selective reporting of the smallest p -value or largest effect, researcher degrees of freedom may lead to an increased rate of false positive and overoptimistic results. In this paper, we address this issue by formalizing the multiplicity of analysis strategies as a multiple testing problem. As the test statistics of different analysis strategies are usually highly dependent, a naive approach such as the Bonferroni correction is inappropriate because it leads to an unacceptable loss of power. Instead, we propose using the “minP” adjustment method, which takes potential test dependencies into account and approximates the underlying null distribution of the minimal p -value through a permutation-based procedure. This procedure is known to achieve more power than simpler approaches while ensuring a weak control of the family-wise error rate. We illustrate our approach for addressing researcher degrees of freedom by applying it to a study on the impact of perioperative p a O 2 on post-operative complications after neurosurgery. A total of 48 analysis strategies are considered and adjusted using the minP procedure. This approach allows to selectively report the result of the analysis strategy yielding the most convincing evidence, while controlling the type 1 error—and thus the risk of publishing false positive results that may not be replicable.",
+  "source_label": "Addressing researcher degrees of freedom through minP adjustment",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1681
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 4
+  },
+  "packet_hash": "b66021c7d0bcfedb58ffcfbe24b5d766872899808955543046cedd89ef8b7ea5"
+}

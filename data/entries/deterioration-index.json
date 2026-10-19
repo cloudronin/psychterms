@@ -1,0 +1,64 @@
+{
+  "id": "deterioration-index",
+  "term": "deterioration index",
+  "definition": "A deterioration index is a scoring measure used to estimate the likelihood that a hospitalized patient’s condition will worsen. In this source, existing deterioration index scores were used as prediction inputs in machine learning models of clinical deterioration.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8846502"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8846502",
+      "revision": "2022; DOI 10.1371/journal.pone.0263922; article XML SHA-256 b36bcf78315f7ca127b942825509e0d63865b27f18b9324788f07e1ae9f3b6b1",
+      "scope": "Source record 10.1371/journal.pone.0263922; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0263922"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "73de383831f9c02fd112ac1499ef19c3b668fc2276cb081411736073582f32ae",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5c84352c51004fa8ae2131354836cc8f",
+    "request_hash": "536ba3bb8904e794b5859e0e454f4e0c06053ad4d3d959bafd9c946e57ba9766",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "9002b706b8296d805204292fdd1bafdb9350d8937131859df57b136fcb297e2f",
+    "packet_hash": "73de383831f9c02fd112ac1499ef19c3b668fc2276cb081411736073582f32ae"
+  },
+  "hash": "a31f3dde23936610f192910925b02b8a7b0141dca27864733b298c72ab345289",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define a deterioration index as a scoring measure; it only says existing deterioration index scores were used as inputs to machine-learning models.",
+        "“Used to estimate the likelihood that a hospitalized patient’s condition will worsen” is an unsupported generalization beyond the packet.",
+        "The requested sense is not clearly a psychology/learning dictionary sense; the source is a clinical machine-learning study rather than a definitional source."
+      ],
+      "definition_hash": "9002b706b8296d805204292fdd1bafdb9350d8937131859df57b136fcb297e2f",
+      "packet_hash": "73de383831f9c02fd112ac1499ef19c3b668fc2276cb081411736073582f32ae",
+      "published_packet_hash": "73de383831f9c02fd112ac1499ef19c3b668fc2276cb081411736073582f32ae",
+      "receipt_id": "9118c7c36092400f9e94532209ce114b",
+      "request_hash": "21b96ce287f9a37d05f7e5ae12ad7b0d9f1fa76306f68c87b17e381ca4b0fe78",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define what a “deterioration index” is (e.g., that it is a “scoring measure” estimating “likelihood” of worsening); it only states that the ML models used “existing deterioration index scores” as inputs.",
+        "Because the definition’s first sentence contains general explanatory claims not directly supported by the provided packet text, the overall definition is not defensible from the supplied source."
+      ],
+      "definition_hash": "9002b706b8296d805204292fdd1bafdb9350d8937131859df57b136fcb297e2f",
+      "packet_hash": "73de383831f9c02fd112ac1499ef19c3b668fc2276cb081411736073582f32ae",
+      "published_packet_hash": "73de383831f9c02fd112ac1499ef19c3b668fc2276cb081411736073582f32ae",
+      "receipt_id": "54abe86789554415b98a0158bdba2ea8",
+      "request_hash": "3b53c4c9965f4322de1a986d80abd850abe75a09474c0a6c8245c3d7d137fb2f",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

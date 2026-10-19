@@ -1,0 +1,60 @@
+{
+  "id": "concordance",
+  "term": "concordance",
+  "definition": "In diagnosis, concordance is the degree to which a result or judgment agrees with a clinical benchmark. Here, it refers to how closely an AI system’s diagnostic conclusions match established clinical standards.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13619823"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13619823",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1941175; article XML SHA-256 c06afc790ef2b86541b608393350680caf28bab9e694c2b29ec8593e9629ecb6",
+      "scope": "Source record 10.3389/fpsyt.2026.1941175; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1941175"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d7b033eb90124e13868f3bae0c8d3621",
+    "request_hash": "709f5a4746b19fe7b6a64159efd8271f627cf330cdced1af7cee9e395fcf51cf",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "ffb747da3d3399469cb1bd3a93d0bf291f4a029f213159a4b64beef4e1f39329",
+    "packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f"
+  },
+  "hash": "cabcc7a75b412f208abe94fd3345b6e83919e81fd2e8c1f4e0d575791499c0da",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ffb747da3d3399469cb1bd3a93d0bf291f4a029f213159a4b64beef4e1f39329",
+      "packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f",
+      "published_packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f",
+      "receipt_id": "055116a6c9164ec689ef7172367543c6",
+      "request_hash": "947ae5276e23ebde88c1d51f59af88711a24688050a7882e597c198da0e716c1",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “concordance” as a concept (e.g., “degree to which a result or judgment agrees with a clinical benchmark”); it only mentions “concordance with clinical benchmarks” as one evaluation dimension.",
+        "The claim that “it refers to how closely an AI system’s diagnostic conclusions match established clinical standards” is not explicitly stated in the packet; the packet mentions evaluating AI performance and a concordance dimension, but does not provide that interpretation as a definition."
+      ],
+      "definition_hash": "ffb747da3d3399469cb1bd3a93d0bf291f4a029f213159a4b64beef4e1f39329",
+      "packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f",
+      "published_packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f",
+      "receipt_id": "32b9f1113cfa4408b9d7e9a716c5af80",
+      "request_hash": "68ca050c8b5cb9345f9de35fa467b68cf2f5b0664cfab9cc35ad9b6283917e35",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

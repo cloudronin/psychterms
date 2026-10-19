@@ -1,0 +1,65 @@
+{
+  "id": "protective-reflex",
+  "term": "protective reflex",
+  "definition": "A protective reflex is an automatic response that helps defend the body from potentially harmful stimulation. In this packet, it refers specifically to reflex cough produced by airway receptors, which can be increased or decreased by allergic inflammation.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6936810"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6936810",
+      "revision": "2019; DOI 10.1371/journal.pone.0226442; article XML SHA-256 af3f6b23de1fa2b73f1977a824f6138b107e46b1a8a5774cd3ea82bcb73539e8",
+      "scope": "Source record 10.1371/journal.pone.0226442; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0226442"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6f3329e89e9063a5fc93602504538cc58c13b7cf4daa5a0484429f586fdccd56",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4b0a3f071a494d22ac01c136717f6ab0",
+    "request_hash": "b192e57641d9b30bcc1af33e94bfb55513af2c0caa56e3424d8b634ea97128be",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "f1990cb9b137a2161c2394a709602686806f33599664c8707c333b1f6edb8d0c",
+    "packet_hash": "6f3329e89e9063a5fc93602504538cc58c13b7cf4daa5a0484429f586fdccd56"
+  },
+  "hash": "11578687c9888f189fdb7d42d2fbc2735d2897f4787021d68bfb862d0fac7e28",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening general definition (“an automatic response that helps defend the body from potentially harmful stimulation”) is not stated or directly defined in the packet; the packet only discusses protective reflex cough in the respiratory tract.",
+        "The packet supports a specific sense of protective reflex cough, but the definition broadens it beyond that cough-specific context into a general reflex category without packet support."
+      ],
+      "definition_hash": "f1990cb9b137a2161c2394a709602686806f33599664c8707c333b1f6edb8d0c",
+      "packet_hash": "6f3329e89e9063a5fc93602504538cc58c13b7cf4daa5a0484429f586fdccd56",
+      "published_packet_hash": "6f3329e89e9063a5fc93602504538cc58c13b7cf4daa5a0484429f586fdccd56",
+      "receipt_id": "f8ddd47fecbc45789b0a2ce1d4f477d0",
+      "request_hash": "af8c105ee153c867bbef2592fcb548b8890b91417678ab29582a511021af8001",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims a general function: that a protective reflex “helps defend the body from potentially harmful stimulation.” The packet does not explicitly state this defensive/protective function in general terms; it only discusses “protective reflex cough” in the context of airway stimulation.",
+        "The definition says that, in this packet, the term refers specifically to “reflex cough produced by airway receptors.” While the packet mentions “protective reflex cough” and “cough receptors,” it does not explicitly present the phrase “reflex cough produced by airway receptors” as the definition of the term.",
+        "The definition claims the response “can be increased or decreased by allergic inflammation.” The packet supports modulation in both directions (up-regulated or down-regulated cough reflex threshold) during acute allergic airway inflammation, so this part is defensible, but the other substantive claims are not sufficiently supported.",
+        "The definition’s overall framing (“protective reflex” as an automatic, body-defending response) is broader than what the packet explicitly provides, so it fails the ‘every substantive claim’ support requirement."
+      ],
+      "definition_hash": "f1990cb9b137a2161c2394a709602686806f33599664c8707c333b1f6edb8d0c",
+      "packet_hash": "6f3329e89e9063a5fc93602504538cc58c13b7cf4daa5a0484429f586fdccd56",
+      "published_packet_hash": "6f3329e89e9063a5fc93602504538cc58c13b7cf4daa5a0484429f586fdccd56",
+      "receipt_id": "f6b701bc8e68493e9d9c306bfa891304",
+      "request_hash": "399125badc3d672929080491febf5b929eb3c4c20a10f3ccfe8405953b23bdaa",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

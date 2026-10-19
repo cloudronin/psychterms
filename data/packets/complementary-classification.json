@@ -1,0 +1,26 @@
+{
+  "id": "complementary-classification",
+  "term": "complementary classification",
+  "source": "article-pmc6699796",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0220631",
+  "revision": "2019; DOI 10.1371/journal.pone.0220631; article XML SHA-256 48f71349d42afae0824dc1b828008f29f225a3e93e4e85892426d5551e0a98fa",
+  "source_snapshot_sha256": "48f71349d42afae0824dc1b828008f29f225a3e93e4e85892426d5551e0a98fa",
+  "url": "https://doi.org/10.1371/journal.pone.0220631",
+  "text": "Classifying bank accounts by using transaction data is encouraging in cracking down on illegal financial activities. However, few research simultaneously use heterogenous features, which are embedded in the time series data. In this paper, a two route convolution neural network TRHD-CNN model, fed with two types of heterogeneous feature matrices, is proposed for classifying the bank accounts. TRHD-CNN adopts divide and conquer strategy to extract characteristics from two types of data source independently. The strategy is proved able in mining complementary classification characteristics. We firstly transfer the original log data into a directed and dynamic transaction network. On the basis of that, two feature generation methods are devised for extracting information from local topological structure and time series transaction respectively. A DirectedWalk method is developed in this paper to learning the network vector of vertices used for embedding the neighbor relationship of bank account. The extensive experimental results, conducted on a real bank transaction dataset that contains illegal pyramid selling accounts, show the significant advantage of TRHD-CNN over the existing methods. TRHD-CNN can provide recall scores up to 5.15% higher than competing methods. In addition, the two-route architecture of TRHD-CNN is easy to extend to multi-route scenarios and other fields.",
+  "source_label": "A two-route CNN model for bank account classification with heterogeneous data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1397
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "2514f3afa658ae5c02a666dfdc49ab74af465b67c2cf8f0ef52a752bbcd4ad03"
+}

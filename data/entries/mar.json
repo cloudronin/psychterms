@@ -1,0 +1,61 @@
+{
+  "id": "mar",
+  "term": "MAR",
+  "definition": "MAR stands for missing at random, a missing-data mechanism used when comparing how methods handle incomplete clinical datasets. It refers to one of the main patterns of missingness considered alongside missing completely at random and missing not at random.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13623145"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13623145",
+      "revision": "2026; DOI 10.1371/journal.pone.0359577; article XML SHA-256 3115fc68e92d081ff1213ddc55e62912c0be2304ec541415c467d412caa0403b",
+      "scope": "Source record 10.1371/journal.pone.0359577; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0359577"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "645dc900ff9a4bd5bfa6c411c11f1dfb",
+    "request_hash": "7122451ae727de689c4ff57bc2c09e91693ec826be96f18e353ecc8b1664d1f3",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "c4aee9a9a9bb46c8889317439a18f76b937f35b8c5f952c9f64e7034347b7a68",
+    "packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48"
+  },
+  "hash": "dd30fef662025dc6a11c64fb257c114fa96ca732d76f1bf70328014766a74a60",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c4aee9a9a9bb46c8889317439a18f76b937f35b8c5f952c9f64e7034347b7a68",
+      "packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48",
+      "published_packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48",
+      "receipt_id": "ea41a09d30c24c1babe0fcc4775db968",
+      "request_hash": "1fceb5b6fe22f1f12eb52ec1c2ee33a388b1fbaca7f0430de534728b26f023f8",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define what “MAR” stands for (e.g., it mentions “Missing at Random (MAR)” but does not provide the acronym expansion as a definition).",
+        "The claim that MAR is “used when comparing how methods handle incomplete clinical datasets” is not explicitly stated in the packet; the packet discusses an evaluation of imputation approaches under MCAR/MAR/MNAR but does not phrase MAR’s “use” that way.",
+        "The definition’s statement that MAR “refers to one of the main patterns of missingness considered alongside missing completely at random and missing not at random” is only implicitly supported by the packet’s comparison across MCAR, MAR, and MNAR conditions; the packet does not describe these as “main patterns” of missingness."
+      ],
+      "definition_hash": "c4aee9a9a9bb46c8889317439a18f76b937f35b8c5f952c9f64e7034347b7a68",
+      "packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48",
+      "published_packet_hash": "2b79f7c934c1ad6036816ffa7e7c12e71b08d683999cad5d1ea00ce51e80db48",
+      "receipt_id": "57396fdf39cd4ef9afa8cfff09e29beb",
+      "request_hash": "feb05f8b320c950b65d7c8f4f902d42c1c055e6cd3f41a13a9ee8d0a20ec8a7d",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

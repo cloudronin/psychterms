@@ -1,0 +1,64 @@
+{
+  "id": "nociceptor",
+  "term": "nociceptor",
+  "definition": "A nociceptor is a pain-related sensory nerve fiber that can be activated when depolarization reaches a high enough level to trigger action potentials. In this source, nociceptors are described as C-fibers, including heat- and mechanosensitive polymodal fibers.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12674544"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12674544",
+      "revision": "2025; DOI 10.1371/journal.pone.0335081; article XML SHA-256 7c80dc4ea310577fe6401f43555ac3adeca10c5fa2e6f4e6b03803996f3ffc98",
+      "scope": "Source record 10.1371/journal.pone.0335081; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335081"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "40e0702db863ae6d172fe3ec4d0d53bf06a0cf093577e66b34c526872e7fc887",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "99d3ca371ec94e088707db6ca22d8745",
+    "request_hash": "a3b675309556052723352ab4055386d384c1911bce16eb79c89e9d9e09784a37",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "191a1d75338657dcc0a6678ff23b1f282876938abe0edcfd5a7ec476fefeade2",
+    "packet_hash": "40e0702db863ae6d172fe3ec4d0d53bf06a0cf093577e66b34c526872e7fc887"
+  },
+  "hash": "9b0bedb8f01d18cb6240e279499763dad82e897f7b417c989bfdc8dbdd4ec8c8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define a nociceptor as a “pain-related sensory nerve fiber.” It uses the term “nociceptors” and discusses relevance to pain clinically, but it does not provide that definitional phrasing.",
+        "The definition’s claim that a nociceptor “can be activated when depolarization reaches a high enough level to trigger action potentials” is not stated as a general definition in the packet. The packet discusses VGSC NaV1.7 facilitating action potential generation upon slow depolarization, but it does not describe this as the defining activation threshold for nociceptors.",
+        "The parts of the definition about nociceptors being C-fibers and including heat- and mechanosensitive polymodal fibers are consistent with the packet, but the above unsupported definitional elements prevent a full pass."
+      ],
+      "definition_hash": "191a1d75338657dcc0a6678ff23b1f282876938abe0edcfd5a7ec476fefeade2",
+      "packet_hash": "40e0702db863ae6d172fe3ec4d0d53bf06a0cf093577e66b34c526872e7fc887",
+      "published_packet_hash": "40e0702db863ae6d172fe3ec4d0d53bf06a0cf093577e66b34c526872e7fc887",
+      "receipt_id": "e2c35f28c98e4a9d9f324ff1c51ad753",
+      "request_hash": "253f94f9e53cf2712f1d09853b0aa4c72beed85f1d1a199e159ad1eaab24d7b9",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a study of pig C-HT nociceptors/C-fibers, but it does not establish as a general source definition that nociceptors are pain-related sensory nerve fibers.",
+        "The packet does not support the broad claim that nociceptors, as such, are C-fibers; it only mentions heat-mechanosensitive polymodal nociceptors (C-HT) in this study."
+      ],
+      "definition_hash": "191a1d75338657dcc0a6678ff23b1f282876938abe0edcfd5a7ec476fefeade2",
+      "packet_hash": "40e0702db863ae6d172fe3ec4d0d53bf06a0cf093577e66b34c526872e7fc887",
+      "published_packet_hash": "40e0702db863ae6d172fe3ec4d0d53bf06a0cf093577e66b34c526872e7fc887",
+      "receipt_id": "15d2023c04ae4102a040b61a351dcad9",
+      "request_hash": "a4ea3a416e35ba6e95134aaf0177f7b580d85357ca5e0278029049882b28bc7c",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

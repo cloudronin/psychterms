@@ -1,0 +1,63 @@
+{
+  "id": "feasibility-test",
+  "term": "feasibility test",
+  "definition": "A feasibility test is an initial tryout used to see whether a proposed method or procedure can be carried out in practice. In this source, it refers to testing whether a new way of visualizing moving tumour and dose patterns could be produced and used meaningfully.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3542278"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3542278",
+      "revision": "2013; DOI 10.1371/journal.pone.0053799; article XML SHA-256 4cb8bd675934aff46ae2eeeb5b3784c27ad37381d44e95f35aeecb807b31d33a",
+      "scope": "Source record 10.1371/journal.pone.0053799; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0053799"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2e09a4552825d1c7adc1e2e9bd968c007bcf31c94ea4cbc8029288eb3e38d562",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0f8c2bcb31f94c8c994f2888bcc30d32",
+    "request_hash": "faf4438379d776fed09d775b5c621b823b07fa9ac3e24d48547a1ee75465e55f",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "9990575b53a5c4d2750b03385d74f5c9de819d1c59ef3f838d07403495a6b3d9",
+    "packet_hash": "2e09a4552825d1c7adc1e2e9bd968c007bcf31c94ea4cbc8029288eb3e38d562"
+  },
+  "hash": "184514e3bff439900d9b7217c87e2f5b349306c8255ffc9c1cfeb7c3fb820a91",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general characterization “initial tryout used to see whether a proposed method or procedure can be carried out in practice.” It only states that the described work “is a feasibility test for a visualisation of tumour and isodose motion,” without defining feasibility test in general terms.",
+        "The definition’s second-sentence referent (“testing whether a new way of visualizing moving tumour and dose patterns could be produced and used meaningfully”) is not fully supported as written: the packet describes producing a movie visualization technique and discussing consequences, but does not explicitly claim the test was “used meaningfully.”"
+      ],
+      "definition_hash": "9990575b53a5c4d2750b03385d74f5c9de819d1c59ef3f838d07403495a6b3d9",
+      "packet_hash": "2e09a4552825d1c7adc1e2e9bd968c007bcf31c94ea4cbc8029288eb3e38d562",
+      "published_packet_hash": "2e09a4552825d1c7adc1e2e9bd968c007bcf31c94ea4cbc8029288eb3e38d562",
+      "receipt_id": "f55769bc8705496b930636446d760896",
+      "request_hash": "2285b0a70cfde13155710233fe393c4c9c79fb8b84d60c6d5f9830de8976af52",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that this was a feasibility test, but it does not support placing the term in the cognition field; the source is a radiotherapy/medical-imaging article, not a cognition context.",
+        "The second sentence narrows the meaning to a specific visualization of moving tumour and dose patterns, which is source-specific rather than a general dictionary definition of the term."
+      ],
+      "definition_hash": "9990575b53a5c4d2750b03385d74f5c9de819d1c59ef3f838d07403495a6b3d9",
+      "packet_hash": "2e09a4552825d1c7adc1e2e9bd968c007bcf31c94ea4cbc8029288eb3e38d562",
+      "published_packet_hash": "2e09a4552825d1c7adc1e2e9bd968c007bcf31c94ea4cbc8029288eb3e38d562",
+      "receipt_id": "f6287e62abf7452d80146cd6496b590c",
+      "request_hash": "f26eb462f09cab0a24f841ed5768df3682fb0a0e2bc90331ccf7294650910e33",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

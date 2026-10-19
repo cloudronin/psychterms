@@ -1,0 +1,60 @@
+{
+  "id": "pain-pathway",
+  "term": "pain pathway",
+  "definition": "A pain pathway is the system by which pain is controlled through two linked processes: signals that carry or amplify pain upward and signals that reduce or inhibit pain from above. In the source, this idea is used to describe pain regulation in mammals and similar pain modulation mechanisms observed in flies.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9934396"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9934396",
+      "revision": "2023; DOI 10.1371/journal.pone.0281874; article XML SHA-256 4231b27038058396a677487ffd25e22ee68d083926712e4be01bf07b901eb8b5",
+      "scope": "Source record 10.1371/journal.pone.0281874; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0281874"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "145abc41460243c5938c2f153fa2c2b9",
+    "request_hash": "667cb5d7eba55298396b6d7b4709f4864c0fe5c391c5521ca5f48e7f3d50b2f8",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "2388e0d1bd15c32d6229f889ece3498dff36cd4fc0d89a20e3bfcf9d8878be82",
+    "packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99"
+  },
+  "hash": "5d40c7e7495afbc0ba95b5bb79f07f5a453f628def5134b04eba7d4fda57d7c8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that ascending pain signals “carry or amplify pain upward,” but the packet only describes an “ascending stimulating” pathway and does not explicitly support the additional claim that signals amplify pain.",
+        "The phrase “signals that reduce or inhibit pain from above” is broadly consistent with “descending inhibitory,” but the definition’s wording is not directly supported verbatim as a two-step mechanism description beyond the ascending/descending characterization in the packet; therefore the “two linked processes” framing is only partially supported."
+      ],
+      "definition_hash": "2388e0d1bd15c32d6229f889ece3498dff36cd4fc0d89a20e3bfcf9d8878be82",
+      "packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99",
+      "published_packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99",
+      "receipt_id": "93caeb8f054b4b24ad16a542ff0f60ea",
+      "request_hash": "c006990c47659af444212d0e809b6b326ac99af0fc48f1baa6401438902a747f",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2388e0d1bd15c32d6229f889ece3498dff36cd4fc0d89a20e3bfcf9d8878be82",
+      "packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99",
+      "published_packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99",
+      "receipt_id": "9092cac7821e4c8c856ed515f63eb867",
+      "request_hash": "84faa0ccdff1418ac20f050f15a73e101f9047041499fdfaa383a2c9b35ab5f3",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

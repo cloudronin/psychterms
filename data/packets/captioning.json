@@ -1,0 +1,26 @@
+{
+  "id": "captioning",
+  "term": "captioning",
+  "source": "article-pmc11825021",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0309364",
+  "revision": "2025; DOI 10.1371/journal.pone.0309364; article XML SHA-256 18634d90dd4ac84d9b46d2ccc8fe702b3bd79f352782b357485ab1072fbf0756",
+  "source_snapshot_sha256": "18634d90dd4ac84d9b46d2ccc8fe702b3bd79f352782b357485ab1072fbf0756",
+  "url": "https://doi.org/10.1371/journal.pone.0309364",
+  "text": "Automatically generating image captions poses one of the most challenging applications within artificial intelligence due to its integration of computer vision and natural language processing algorithms. This task becomes notably more formidable when dealing with a language as intricate as Bengali and the overall scarcity of Bengali-captioned image databases. In this investigation, a meticulously human-annotated dataset of Bengali captions has been curated specifically for the encompassing collection of pictures. Simultaneously, an innovative end-to-end architecture has been introduced to craft pertinent image descriptions in the Bengali language, leveraging an attention-driven decoder. Initially, the amalgamation of images’ spatial and temporal attributes is facilitated by Gated Recurrent Units, constituting the input features. These features are subsequently fed into the attention layer alongside embedded caption features. The attention mechanism scrutinizes the interrelation between visual and linguistic representations, encompassing both categories of representations. Later, a comprehensive recursive unit comprising two layers employs the amalgamated attention traits to construct coherent sentences. Utilizing our furnished dataset, this model undergoes training, culminating in achievements of a 43% BLEU-4 score, a 39% METEOR score, and a 47% ROUGE score. Compared to all preceding endeavors in Bengali image captioning, these outcomes signify the pinnacle of current attainable standards.",
+  "source_label": "Image captioning in Bengali language using visual attention",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1514
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "4f87aefba08e1975c21267178bd579a54a6c0e1c5051d9650e507b1c2c6f5d48"
+}

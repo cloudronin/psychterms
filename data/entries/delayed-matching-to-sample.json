@@ -1,0 +1,60 @@
+{
+  "id": "delayed-matching-to-sample",
+  "term": "delayed matching to sample",
+  "definition": "Delayed matching to sample is a learning or memory task in which an organism is shown a sample stimulus and, after a delay period, must choose the matching stimulus. Performance on the task can be affected by events that occur during the delay, because they may disrupt how the sample is retained or used to guide the later choice.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4775060"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4775060",
+      "revision": "2016; DOI 10.1371/journal.pone.0150510; article XML SHA-256 7f91cf058d33c03a17942253f9f6af4b97ded1a0800308faea60ceeea98441a0",
+      "scope": "Source record 10.1371/journal.pone.0150510; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0150510"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0d8fc8cdc5cb5b00567aa6d8b3cabf82521f216995a3f67b522b81c02d0146aa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "74aaf6c2ef274d0b9ea4419b116ae5cc",
+    "request_hash": "3d5cc4d70d73f40009e94d34a70b881ad27d61dad803523b02f2677719326340",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "605cd184963e247ba28bb00c8939b2c27a74f0a90040bbd038cbd3e830af99a5",
+    "packet_hash": "0d8fc8cdc5cb5b00567aa6d8b3cabf82521f216995a3f67b522b81c02d0146aa"
+  },
+  "hash": "69ae5401be7f2eb1d85a4697233aaa3e629dbdf8761e9bdd87e245b953038b07",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "605cd184963e247ba28bb00c8939b2c27a74f0a90040bbd038cbd3e830af99a5",
+      "packet_hash": "0d8fc8cdc5cb5b00567aa6d8b3cabf82521f216995a3f67b522b81c02d0146aa",
+      "published_packet_hash": "0d8fc8cdc5cb5b00567aa6d8b3cabf82521f216995a3f67b522b81c02d0146aa",
+      "receipt_id": "7a552b725f114eeebca48bf61cb8e67f",
+      "request_hash": "784ed3988d15a2126f15c0526b2d77632a5d607ef4b45b0b483b378c28a2b8db",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not explicitly state the core procedure of the task as “shown a sample stimulus” and “after a delay period, must choose the matching stimulus.” It only refers to “a delayed matching-to-sample (DMS) task” and mentions interference during the delay period.",
+        "The claim that “Performance on the task can be affected by events that occur during the delay” is supported by the packet’s description that visual interference during the delay impaired performance, but the overall definition also includes procedural details not evidenced in the supplied packet."
+      ],
+      "definition_hash": "605cd184963e247ba28bb00c8939b2c27a74f0a90040bbd038cbd3e830af99a5",
+      "packet_hash": "0d8fc8cdc5cb5b00567aa6d8b3cabf82521f216995a3f67b522b81c02d0146aa",
+      "published_packet_hash": "0d8fc8cdc5cb5b00567aa6d8b3cabf82521f216995a3f67b522b81c02d0146aa",
+      "receipt_id": "d4283928eb404caaa2c28115da332037",
+      "request_hash": "c12b7dc1c6f195cce677ecaade6e1f7773e5fef53ffa140e9a6ec14950accc54",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

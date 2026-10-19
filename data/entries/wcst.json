@@ -1,0 +1,60 @@
+{
+  "id": "wcst",
+  "term": "WCST",
+  "definition": "WCST stands for the Wisconsin Card Sorting Test, a psychological test used to detect executive functioning problems, especially difficulties with cognitive flexibility and planning. It can highlight patterns such as perseverative responding, where a person keeps using the same approach despite changing demands.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12819240"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12819240",
+      "revision": "2026; DOI 10.3389/fpsyg.2025.1733356; article XML SHA-256 264240cb3491dcedbce7f110c25ab6487a69316cc67c0d39c44e92f216096448",
+      "scope": "Source record 10.3389/fpsyg.2025.1733356; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2025.1733356"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "44f9b70f843443c98f8ac90583f57348",
+    "request_hash": "c438fb997f228232b06735e87a10c795f434141a59e4af995be7c91ac684e0a9",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "63279b35d61e1415d17f5300fc03f36827bb399e6c4ba1cf0fca42f04699b4d9",
+    "packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae"
+  },
+  "hash": "0f699e63708017a040c0e32ad65b75d6a5967c7955544cbc2f870bcf140f6249",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "63279b35d61e1415d17f5300fc03f36827bb399e6c4ba1cf0fca42f04699b4d9",
+      "packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae",
+      "published_packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae",
+      "receipt_id": "c9922ebb9e274506ae605d1ac996ed8e",
+      "request_hash": "c8f528469a9573c961f41214274c52b4ec1c399b0b3a969e120af676ac26f2d3",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s description of perseverative responding as “keeps using the same approach despite changing demands” is not explicitly supported by the packet, which only states that the WCST can identify “perseverative responses.”",
+        "The definition frames the WCST as being “used to detect executive functioning problems” in a way that implies a broader diagnostic role; the packet only states it is used to identify deficits in the study context (“used in the present study” / “identifying such deficits”) and does not support the specific field framing as a diagnostic instrument."
+      ],
+      "definition_hash": "63279b35d61e1415d17f5300fc03f36827bb399e6c4ba1cf0fca42f04699b4d9",
+      "packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae",
+      "published_packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae",
+      "receipt_id": "049123c2d5744bccbccd9e27be29804b",
+      "request_hash": "64821f0677e7ea6203feabab7de2ea3617ead86c9f566b4c464039d711df24ab",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

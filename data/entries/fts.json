@@ -1,0 +1,60 @@
+{
+  "id": "fts",
+  "term": "FTS",
+  "definition": "FTS stands for field-trial studies. In this context, it refers to the group of studies used during the field-trial phase to examine clinicians’ experiences with the Cultural Formulation Interview before later post-field-trial studies.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13582338"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13582338",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1895098; article XML SHA-256 4ad1345c1df0e40d82854eae04b068bf5d32e3ca0f7cec234e6828281c22ae72",
+      "scope": "Source record 10.3389/fpsyt.2026.1895098; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1895098"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f895d48114deef9f2706a26bfec3c87a95bb0d77c1409ef91649f4fecb7fd85f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c7827ef783b64a4bafc8e44adb5d939d",
+    "request_hash": "f3332cedc9073d1dc800f12d20619227ed7f3816a24058dcca94d35473c6157c",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "7e40a830ee1c5352261ec581f35758cabc8403a143b076d33e656a1b31d10d29",
+    "packet_hash": "f895d48114deef9f2706a26bfec3c87a95bb0d77c1409ef91649f4fecb7fd85f"
+  },
+  "hash": "c1f3ae76eb1f38d19be3675cdb71b216ac3f55fcdefe47029ec87fa6a971e967",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7e40a830ee1c5352261ec581f35758cabc8403a143b076d33e656a1b31d10d29",
+      "packet_hash": "f895d48114deef9f2706a26bfec3c87a95bb0d77c1409ef91649f4fecb7fd85f",
+      "published_packet_hash": "f895d48114deef9f2706a26bfec3c87a95bb0d77c1409ef91649f4fecb7fd85f",
+      "receipt_id": "4002385c308a4cdcaca0cb7f7b17346d",
+      "request_hash": "fa6e75ab9c5927ce57b54d2369b6be74c2ae818c13312594fce422338c494c2e",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet is about the Cultural Formulation Interview and implementation studies in psychiatry, not the cognition field, so the requested field is not defensible here.",
+        "The definition adds contextual framing (“used during the field-trial phase to examine clinicians’ experiences with the Cultural Formulation Interview before later post-field-trial studies”) that is only partially supported; the packet only explicitly says the authors synthesized clinician narratives from six field-trial studies and four post-field-trial studies."
+      ],
+      "definition_hash": "7e40a830ee1c5352261ec581f35758cabc8403a143b076d33e656a1b31d10d29",
+      "packet_hash": "f895d48114deef9f2706a26bfec3c87a95bb0d77c1409ef91649f4fecb7fd85f",
+      "published_packet_hash": "f895d48114deef9f2706a26bfec3c87a95bb0d77c1409ef91649f4fecb7fd85f",
+      "receipt_id": "a9c02cd9902e4b6ba89d9dc450e17a6b",
+      "request_hash": "7b5458f5ae21e2a99de5a5f409ea5514d60246654717bd3ba610d53e4dca37f8",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

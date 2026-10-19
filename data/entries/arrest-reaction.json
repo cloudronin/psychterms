@@ -1,0 +1,61 @@
+{
+  "id": "arrest-reaction",
+  "term": "arrest reaction",
+  "definition": "Arrest reaction is the change in brain electrical activity measured during the transition between closing and opening the eyes. In this context, it is used as an EEG-based test of alpha and theta oscillations across repeated eyes-closed/eyes-open trials.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8929400"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8929400",
+      "revision": "2022; DOI 10.3389/fpsyg.2022.792872; article XML SHA-256 3209dcc3b60cb1c73a7bccab536827add9cc6c651ab900f55cfcedf5b3168f2a",
+      "scope": "Source record 10.3389/fpsyg.2022.792872; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2022.792872"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "eacf48dddb9266d05b0b82095f5039ad9d4b8808fed8439090f8dcd66c87481b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7c2923938aa446e4bd839043324b075c",
+    "request_hash": "9620f1ee0b40995db30084aa4fd0c17fda340744658daa02e4ad5f6fb55687dc",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "e901c4eb90156aeefa419b366edc124b87ec4067180345bb89c5cc2d187ee3dc",
+    "packet_hash": "eacf48dddb9266d05b0b82095f5039ad9d4b8808fed8439090f8dcd66c87481b"
+  },
+  "hash": "a1bcf57410c4d89dc0f0c81a10c1a732ab98ede60748ad5503d2d33e40470523",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e901c4eb90156aeefa419b366edc124b87ec4067180345bb89c5cc2d187ee3dc",
+      "packet_hash": "eacf48dddb9266d05b0b82095f5039ad9d4b8808fed8439090f8dcd66c87481b",
+      "published_packet_hash": "eacf48dddb9266d05b0b82095f5039ad9d4b8808fed8439090f8dcd66c87481b",
+      "receipt_id": "7d62387489cd4de3806d1bdcb6bc62f5",
+      "request_hash": "824c562e9de3078f3b1e2a25cd4c6323353dfd2075067e7ecb189977259a6fa2",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports arrest reaction as the eyes-close/eyes-open transition, but it does not define it as a general “change in brain electrical activity”; that wording goes beyond the source and turns a study-specific usage into a definition.",
+        "The claim that it is “used as an EEG-based test” is unsupported by the packet; the article says alpha and theta oscillations were analyzed during repeated ARs, not that AR itself is a test.",
+        "“Across repeated eyes-closed/eyes-open trials” is not established as the term’s definition in the source; the packet only describes repeated AR testing within one study context."
+      ],
+      "definition_hash": "e901c4eb90156aeefa419b366edc124b87ec4067180345bb89c5cc2d187ee3dc",
+      "packet_hash": "eacf48dddb9266d05b0b82095f5039ad9d4b8808fed8439090f8dcd66c87481b",
+      "published_packet_hash": "eacf48dddb9266d05b0b82095f5039ad9d4b8808fed8439090f8dcd66c87481b",
+      "receipt_id": "63b03d4557d5457da66527ae91380370",
+      "request_hash": "817fc9cbad16100049e94a4b2471152a60eee703198cfbef44933d21e0bff118",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

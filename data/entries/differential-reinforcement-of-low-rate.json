@@ -1,0 +1,60 @@
+{
+  "id": "differential-reinforcement-of-low-rate",
+  "term": "differential reinforcement of low rate",
+  "definition": "Differential reinforcement of low rate is an operant learning procedure in which reward is available only when responses are kept infrequent, typically by waiting a fixed amount of time before responding. Responding too often lowers performance because it reduces access to reinforcement.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc2923628"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc2923628",
+      "revision": "2010; DOI 10.1186/1471-2202-11-87; article XML SHA-256 7093246fb98cc548c8d814c4ab728e53c2760e8d5386eecdb9bd5d52cf9352ae",
+      "scope": "Source record 10.1186/1471-2202-11-87; pinned source text",
+      "locator": "https://doi.org/10.1186/1471-2202-11-87"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5c9a334e03c3bf7438d24f1163efa4792338ed6172bba1528961701feccdcbcf",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "914154c7b2134171a31ec4693bf24890",
+    "request_hash": "629c355449bdc7014834d34c8ef1b26c196c34154810e4b288971d202e8bf721",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "769747c50a2dd7e36f32a323c07024ac82e9d033f95e03bef013c0a5b1a54806",
+    "packet_hash": "5c9a334e03c3bf7438d24f1163efa4792338ed6172bba1528961701feccdcbcf"
+  },
+  "hash": "58406cfaa305ed3e070938d5e3c1f9d471058333f1bd436a5c112e18fa875d48",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "769747c50a2dd7e36f32a323c07024ac82e9d033f95e03bef013c0a5b1a54806",
+      "packet_hash": "5c9a334e03c3bf7438d24f1163efa4792338ed6172bba1528961701feccdcbcf",
+      "published_packet_hash": "5c9a334e03c3bf7438d24f1163efa4792338ed6172bba1528961701feccdcbcf",
+      "receipt_id": "c288e1786e24478ab4d37cedb069973e",
+      "request_hash": "7160bb786588a511c539bab5d9793848cdceefd2766e72bfda50f2658e2ff50b",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that DRL performance depends on withholding a response for a fixed interval and that responding too often reduces access to food reward, but it does not explicitly state that “reward is available only when responses are kept infrequent.”",
+        "The definition’s wording that the procedure “typically” involves waiting a fixed amount before responding is only partially supported by the packet’s description of withholding for a fixed interval; the “typically” qualifier and the “reward only when …” formulation are not directly evidenced."
+      ],
+      "definition_hash": "769747c50a2dd7e36f32a323c07024ac82e9d033f95e03bef013c0a5b1a54806",
+      "packet_hash": "5c9a334e03c3bf7438d24f1163efa4792338ed6172bba1528961701feccdcbcf",
+      "published_packet_hash": "5c9a334e03c3bf7438d24f1163efa4792338ed6172bba1528961701feccdcbcf",
+      "receipt_id": "5aac5292ef884197b7805620b9724fab",
+      "request_hash": "519b072463426d04cd2bd946b8c1940a0bd06b57b2f786fdefa6f7b6b67af7cd",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

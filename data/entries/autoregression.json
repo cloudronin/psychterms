@@ -1,0 +1,60 @@
+{
+  "id": "autoregression",
+  "term": "autoregression",
+  "definition": "Autoregression is a time-series forecasting approach that predicts future values from patterns in earlier values of the same measure over time. In this context, it refers to methods such as neural network autoregression used to estimate future trends or clinical events from past data.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10830046"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10830046",
+      "revision": "2024; DOI 10.1371/journal.pone.0296064; article XML SHA-256 9242ff8339226865ec50fbd26156c577347b28afb9405a0496bac0676e2fc424",
+      "scope": "Source record 10.1371/journal.pone.0296064; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0296064"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "db9ee8ed927447ce9dd270a3809d56b9",
+    "request_hash": "98b2bbacc02074f626eda29b788850cbb489b9d95d565f1450feab52291a0254",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "7ea594b9f32bccbd5fb1b2cde327ba03ed1ba3bb3a6cddc28ba2856e0437546e",
+    "packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9"
+  },
+  "hash": "815b4381d6f398dbe84bb64e214099170d9ebd381fdf8d5c6886172fc89a1927",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7ea594b9f32bccbd5fb1b2cde327ba03ed1ba3bb3a6cddc28ba2856e0437546e",
+      "packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9",
+      "published_packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9",
+      "receipt_id": "5fdf6fa33a974bf3a5bc252cb5c07892",
+      "request_hash": "b92d5ffe77f30920d6312b466146170d8eda02a44eb068364a1ca988ed383b20",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes a specific mechanism—“predicts future values from patterns in earlier values of the same measure over time”—but the provided packet only mentions that time-series models (including ARIMA and Neural Network Autoregression) are used for forecasting; it does not explicitly describe this “earlier values of the same measure” mechanism.",
+        "The packet discusses Neural Network Autoregression as a novel forecasting method and gives examples of forecasting clinical events, but it does not support the broader phrasing “estimate future trends or clinical events from past data” as a general characterization of autoregression itself."
+      ],
+      "definition_hash": "7ea594b9f32bccbd5fb1b2cde327ba03ed1ba3bb3a6cddc28ba2856e0437546e",
+      "packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9",
+      "published_packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9",
+      "receipt_id": "41eb09e0f50242db8a03885e4752c2bb",
+      "request_hash": "939d5ff77e49a5c4c837f884400ee961558a67568c0e67b2a36db662098caeee",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

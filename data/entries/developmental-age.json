@@ -1,0 +1,64 @@
+{
+  "id": "developmental-age",
+  "term": "developmental age",
+  "definition": "Developmental age is an estimate of developmental maturity early in life, derived from a DNA methylation measure of gestational age. In this context, it is used to study how prenatal social and neighborhood conditions relate to neonatal development.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11244791"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11244791",
+      "revision": "2024; DOI 10.1371/journal.pone.0306452; article XML SHA-256 e30f011aa8e6a788d28808837f5245873b337223e0ca3dce75d2c6befb2b7fbf",
+      "scope": "Source record 10.1371/journal.pone.0306452; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0306452"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "25c2e95971e8dc7b1947b116c42ba6d2ae9cb12683e7f4ad4107870979f63cab",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0390ff0d7268485982c8357be8e93c8b",
+    "request_hash": "6237246cbc4dc8331ee33dcdf99bf1493b7b8f047c28f8b8076084cce60ee23a",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "b0cd14e8fde49d234a4a5a544f77bac42ab5696b2afdb32ea94a613c5e62ed11",
+    "packet_hash": "25c2e95971e8dc7b1947b116c42ba6d2ae9cb12683e7f4ad4107870979f63cab"
+  },
+  "hash": "407368f9a9787856c190a36e12d60bd615847187cf88a05f618a2ff8bf93c50e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “developmental age” as “an estimate of developmental maturity early in life, derived from a DNA methylation measure of gestational age.” It describes a DNA-methylation-based biomarker of gestational age (DNAm GA) and a derived metric called “gestational age acceleration,” but it does not state that this corresponds to “developmental age” in the exact way the definition claims.",
+        "The packet says DNAm GA can be used to calculate “gestational age acceleration” (a residual between DNAm GA and clinically estimated gestational age). It does not support the definition’s phrasing that developmental age itself is derived from DNAm-measured gestational age.",
+        "While the packet discusses prenatal influences (maternal income/HI and neighborhood opportunity types) on neonatal outcomes via gestational age acceleration at birth, it does not clearly support the definition’s wording that “developmental age” (as defined) is used specifically to relate “prenatal social and neighborhood conditions” to “neonatal development.”"
+      ],
+      "definition_hash": "b0cd14e8fde49d234a4a5a544f77bac42ab5696b2afdb32ea94a613c5e62ed11",
+      "packet_hash": "25c2e95971e8dc7b1947b116c42ba6d2ae9cb12683e7f4ad4107870979f63cab",
+      "published_packet_hash": "25c2e95971e8dc7b1947b116c42ba6d2ae9cb12683e7f4ad4107870979f63cab",
+      "receipt_id": "4e486574988d4f7ca6e976185e2b213a",
+      "request_hash": "fa6165f66a0bf07aac740b417f1748f092ec06ef2ee25b3b7cabed0751852d86",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define developmental age as a DNA methylation-based estimate of gestational age; it only says DNAm GA is the biomarker and that gestational age acceleration is a metric of developmental maturity derived from it.",
+        "The statement that developmental age is used to study how prenatal social and neighborhood conditions relate to neonatal development is broader than what the packet supports; the article discusses associations with maternal income/Medicaid status and neighborhood opportunity in relation to developmental maturity, not a general definition of the term."
+      ],
+      "definition_hash": "b0cd14e8fde49d234a4a5a544f77bac42ab5696b2afdb32ea94a613c5e62ed11",
+      "packet_hash": "25c2e95971e8dc7b1947b116c42ba6d2ae9cb12683e7f4ad4107870979f63cab",
+      "published_packet_hash": "25c2e95971e8dc7b1947b116c42ba6d2ae9cb12683e7f4ad4107870979f63cab",
+      "receipt_id": "76b8cdfd39f04e27ac90d75c0e314c8e",
+      "request_hash": "42f57ea510e7106e3fb66b7ec445c4363fb7b34c1e1fbdbbfe6013b3bee6a880",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

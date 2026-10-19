@@ -1,0 +1,59 @@
+{
+  "id": "mst",
+  "term": "MST",
+  "definition": "MST refers to magnetic seizure therapy, a psychiatric treatment that uses high-intensity, high-frequency repetitive transcranial magnetic stimulation to trigger therapeutic seizure activity. In the source, it is described as an approach for severe psychiatric disorders that aims to stimulate more targeted areas of the cerebral cortex than electroconvulsive therapy.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13440948"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13440948",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1886955; article XML SHA-256 14a50bfc4231af479371a3159dfc11033c84d73bbfa2c94496f32e5ba65a04ed",
+      "scope": "Source record 10.3389/fpsyt.2026.1886955; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1886955"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0122d48287da49f0ad02702d525c04d3",
+    "request_hash": "cda5ec5eb6a0ba986d20dff904d7f4ae4f11ca381c08a6b7cbb373409c353594",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "4b03d5aebb797a87be67ed9b334adc3e31fb68a43b61827ba27b731bbffb2129",
+    "packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8"
+  },
+  "hash": "b53e21245fb82dcabe8106cb57231cffafd889b422a6f5b64c5e7e068865dce5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4b03d5aebb797a87be67ed9b334adc3e31fb68a43b61827ba27b731bbffb2129",
+      "packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8",
+      "published_packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8",
+      "receipt_id": "802f94713b864134883bce4b6c0ac933",
+      "request_hash": "eaa7a932074c416a3cfab8e118d1466af31a868a821dbd2ea4a0641344dd3da9",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is \"diagnosis\", but the packet describes MST as a treatment method (it induces epileptic discharges/convulsive seizures and compares efficacy/safety to ECT), not a diagnostic term."
+      ],
+      "definition_hash": "4b03d5aebb797a87be67ed9b334adc3e31fb68a43b61827ba27b731bbffb2129",
+      "packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8",
+      "published_packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8",
+      "receipt_id": "6d27583c893d4300be1ddd88c02a63bd",
+      "request_hash": "79da48c9cd29ca339016ec9653fff447b102745f3b6c04f3c92363b2ccdae901",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

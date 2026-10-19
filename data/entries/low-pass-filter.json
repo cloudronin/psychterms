@@ -1,0 +1,59 @@
+{
+  "id": "low-pass-filter",
+  "term": "low-pass filter",
+  "definition": "A low-pass filter is something that reduces higher-frequency parts of a sound while letting lower-frequency parts pass through more easily. In this context, face masks were described as acting like a low-pass filter because they dampen higher-frequency speech sounds.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10456191"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10456191",
+      "revision": "2023; DOI 10.1371/journal.pone.0285009; article XML SHA-256 1183c0c82e61686df9cf7b89512c63395d4efaebbc4af237c91f1289f732f6c6",
+      "scope": "Source record 10.1371/journal.pone.0285009; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0285009"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0e55f62189d847e19bb184e2955c839e",
+    "request_hash": "c6720887301feab0997903b583c77401dd045f808adb96c6f4e9691347f9668a",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "b99bbf84a19785f1d600350bfdc2365e176844eefce2a473addba56123d4b8ba",
+    "packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2"
+  },
+  "hash": "ed97266a26ed7a73e528ec7f7ff4f70e3a2d10e3b779d53dda8a5f1d82d56367",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence makes a general definition claim (“reduces higher-frequency parts… while letting lower-frequency parts pass through more easily”) that is not explicitly supported by the provided packet; the packet only states that face masks “act as a low pass filter, dampening sounds at higher frequencies,” without describing lower-frequency passage."
+      ],
+      "definition_hash": "b99bbf84a19785f1d600350bfdc2365e176844eefce2a473addba56123d4b8ba",
+      "packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2",
+      "published_packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2",
+      "receipt_id": "921a606a35634128a8ed22436b61499b",
+      "request_hash": "c1a95fc03d5108863fb5a179b612c2ea7288ecde2c37d323c40a27b22eeee1d6",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b99bbf84a19785f1d600350bfdc2365e176844eefce2a473addba56123d4b8ba",
+      "packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2",
+      "published_packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2",
+      "receipt_id": "1aa7b32942b448499ec01b77a651e95b",
+      "request_hash": "b1fd12c8e070577368157fc5926b913ac89776ac94b4fbb8076257f292afc907",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

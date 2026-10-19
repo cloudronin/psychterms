@@ -1,0 +1,26 @@
+{
+  "id": "aspect",
+  "term": "aspect",
+  "source": "article-pmc12539747",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0328839",
+  "revision": "2025; DOI 10.1371/journal.pone.0328839; article XML SHA-256 71224d7c795264dbcf9fa33262cd34c240c10f4a02fc27d3abda78a29819a874",
+  "source_snapshot_sha256": "71224d7c795264dbcf9fa33262cd34c240c10f4a02fc27d3abda78a29819a874",
+  "url": "https://doi.org/10.1371/journal.pone.0328839",
+  "text": "Aspect-level sentiment analysis is a significant task in the field of natural language processing. It can process text in a fine-grained manner to predict the sentiment polarity of a specific aspect word in a sentence. However, existing single-channel models often ignore high-dimensional local feature information in syntactic dependencies, have a single structure, and cannot fully extract text features. At the same time, there are often multiple opinion words with diverse sentiment attitudes in a sentence, so there is a certain amount of noise when processing features, which interferes with the model’s understanding of the sentiment semantics related to aspect terms. To address the problems, this paper proposes an aspect-level sentiment analysis model (MSDC) based on multi-scale dual-channel feature fusion. First, through multi-head gated self-attention channels and graph neural network channels, the model further enhances its understanding of the spatial hierarchical structure of text data and improves the expressiveness of features. Then, we design an adaptive feature fusion mechanism that dynamically adjusts the weight ratio of aspect words to context according to a given aspect. Hence, the task pays more attention to key information. Finally, the data is integrated and processed through a capsule network. The results indicate that our model exhibits superior effectiveness on multiple public datasets, especially when processing fine-grained text sentiment analysis tasks, significantly improving the accuracy and F1 value compared to existing technologies.",
+  "source_label": "MSDC: Aspect-level sentiment analysis model based on multi-scale dual-channel feature fusion",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1583
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "0cc449b4ee38f2f7155a6014553318c187285af90c6120c9395ff5dd080671a7"
+}

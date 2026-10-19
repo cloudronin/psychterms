@@ -1,0 +1,61 @@
+{
+  "id": "risk-metrics",
+  "term": "risk metrics",
+  "definition": "Risk metrics are measures used to estimate how much risk is involved in a decision scenario. In the source, they refer specifically to volatility-based measures used to compare investment options and help balance risk, return, and regret in decision-making.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11034657"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11034657",
+      "revision": "2024; DOI 10.1371/journal.pone.0299699; article XML SHA-256 7cccd9171495b8e7a61e29d062311c2d24d1a04ca0e0fb5e7d8abeaf53907ab5",
+      "scope": "Source record 10.1371/journal.pone.0299699; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0299699"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9802b56bca4042298b4720c6ff0798a2",
+    "request_hash": "62a03ee02224121a980a9ce79bfd8e17d06badc981499c042f6ede2cc32afbd7",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "58bfd4da004ab79788b6d65c613c88edae0373ed34941495c30e3d27ce3f0b61",
+    "packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52"
+  },
+  "hash": "42f6ec8fd795cf513246bd745cc98fb1bf1137ef5b7690c0d2fe88dcf567568e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "58bfd4da004ab79788b6d65c613c88edae0373ed34941495c30e3d27ce3f0b61",
+      "packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52",
+      "published_packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52",
+      "receipt_id": "3c032da4cef349ad9c69cbd815408b77",
+      "request_hash": "4a7d193fbdaf66e509461877629e7e0ce59856a67eb651e98d235c273d5af917",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a finance/investment sense of “risk metrics,” not a psychology or learning sense, so the field is not defensible here.",
+        "The definition generalizes beyond the source by presenting risk metrics as a broad decision-scenario measure; the packet only describes volatility risk measures used in portfolio optimization and comparing investment scenarios.",
+        "The phrase “help balance risk, return, and regret” is broadly consistent with the article, but it should not be framed as a general definition of the term outside that investment context."
+      ],
+      "definition_hash": "58bfd4da004ab79788b6d65c613c88edae0373ed34941495c30e3d27ce3f0b61",
+      "packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52",
+      "published_packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52",
+      "receipt_id": "73f10fe6f9e94c8296ad39c54dc442b1",
+      "request_hash": "3cc24e50b98b190a0cde79002f5f294bcef6103a2601c2af9fb45fb7361fec92",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

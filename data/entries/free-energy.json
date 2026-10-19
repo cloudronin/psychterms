@@ -1,0 +1,65 @@
+{
+  "id": "free-energy",
+  "term": "free energy",
+  "definition": "In active inference, free energy is a quantity an agent seeks to reduce as it builds and updates a model of its environment from limited observations. Expected free energy refers to the predicted amount of this quantity under different possible actions, and minimizing it is used to derive a policy for perception and action.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12410762"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12410762",
+      "revision": "2025; DOI 10.1371/journal.pone.0331047; article XML SHA-256 44d621a0f6d3199a8ed1f82710433c56c861e5ff6b94a4d354fabffde6745e36",
+      "scope": "Source record 10.1371/journal.pone.0331047; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0331047"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b3e87e1bdc0746998393c2d510456a49",
+    "request_hash": "8cb24b4f5620aaf3b5110bad68f8cc67a497d5a5d8f356ef0ab570701c721975",
+    "registration_hash": "9c30b4adc33f7077ee744830289afaa86fcc5406814010cdf32f58487e3d30b4",
+    "definition_hash": "9d731df7b6e3485082c10c41ba7b285ce5594688978321dbc335eb1e78b0c8a1",
+    "packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d"
+  },
+  "hash": "eb681e14293aae92fd0227aa590b06126ae3f2299faea9ac1103f5a7d5c7bff3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “free energy is a quantity an agent seeks to reduce” while building and updating a model, but the provided packet text only explicitly mentions deriving a policy by “minimizing the expected free energy.” It does not define free energy itself as a reducible quantity in that manner.",
+        "The definition’s distinction and phrasing about “Expected free energy refers to the predicted amount of this quantity under different possible actions” is not supported by the packet text; the packet only says the policy is derived by minimizing expected free energy, without describing what expected free energy represents in terms of predicted amounts across actions.",
+        "While the packet supports that agents interact with a “world model” built from “partially observable environments” and that policies come from minimizing expected free energy, the additional claims about free-energy reduction during model building and the specific interpretation of “expected free energy” are not substantiated in the supplied excerpt."
+      ],
+      "definition_hash": "9d731df7b6e3485082c10c41ba7b285ce5594688978321dbc335eb1e78b0c8a1",
+      "packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d",
+      "published_packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d",
+      "receipt_id": "993f4a17b73b483cb5ada3c505b0dbe4",
+      "request_hash": "398252db9c65dbab6a72a12c23106eac5a65bfa1dd515b9fc4c1e37f5d2f9734",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports minimizing expected free energy to derive a policy, but it does not define free energy itself as a quantity an agent seeks to reduce while building and updating a model from limited observations.",
+        "The definition shifts from the term “free energy” to “expected free energy” without the packet clearly establishing that sense as the intended entry for this term.",
+        "The wording goes beyond the packet’s claims by presenting a general active-inference explanation of perception and action as if it were a definitional account."
+      ],
+      "definition_hash": "9d731df7b6e3485082c10c41ba7b285ce5594688978321dbc335eb1e78b0c8a1",
+      "packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d",
+      "published_packet_hash": "1a3628b904a33b60e46703a4926cf30c66a4ced1e079871a9f0ca02f9ab80a1d",
+      "receipt_id": "335de7c17b214d119936e46bd0d19684",
+      "request_hash": "7286f7a3b5991743c9f64f025d8d431812df160168df1adc8279d63874c9c12c",
+      "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
+    }
+  ]
+}

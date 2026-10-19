@@ -1,0 +1,64 @@
+{
+  "id": "habitability",
+  "term": "habitability",
+  "definition": "Habitability is the degree to which a living environment is suitable for people to inhabit with an acceptable quality of life. In this source, it is used alongside sustainability to assess urban living conditions and the risks that can undermine them.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10508601"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10508601",
+      "revision": "2023; DOI 10.1371/journal.pone.0291794; article XML SHA-256 e383dbdfb630729eb1317784cdd019ccd226fb8e2430ab404043c2513d1231f5",
+      "scope": "Source record 10.1371/journal.pone.0291794; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0291794"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "547f6356c6d94abd702488c858d7bb50ef704720a57313d741fba7efaffe72fa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9f9c3352514e409da7ecbdd4c1e6cbed",
+    "request_hash": "330efc43700851abe637304e416ff7e54c6d1d46cbe7ed450d7f8c2700deca4e",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "bf47f3264aa0b997465a694e2c4a53eb2ad6d42f1a32c16d4e5bd39e0ce20622",
+    "packet_hash": "547f6356c6d94abd702488c858d7bb50ef704720a57313d741fba7efaffe72fa"
+  },
+  "hash": "3bcad0fd5c65fdc2477dd0a3d2e424823b563090982fe913d510f52667b7a13b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define habitability as the degree to which an environment is suitable for people to inhabit with an acceptable quality of life; it only says the paper uses sustainability and habitability to define and measure ecological urbanism in informal settlements.",
+        "The added claim that habitability is used to assess urban living conditions and the risks that can undermine them is broader than the source text, which instead discusses obstacles to ecological urbanism and the quality-of-life impacts of development projects in one case study."
+      ],
+      "definition_hash": "bf47f3264aa0b997465a694e2c4a53eb2ad6d42f1a32c16d4e5bd39e0ce20622",
+      "packet_hash": "547f6356c6d94abd702488c858d7bb50ef704720a57313d741fba7efaffe72fa",
+      "published_packet_hash": "547f6356c6d94abd702488c858d7bb50ef704720a57313d741fba7efaffe72fa",
+      "receipt_id": "0df51526fa014ccf899d5318a42345cf",
+      "request_hash": "011f72d9c9b830d85051f20b2f3e365c811bb5e9c6039cefb7ad11bc98ebaf5e",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a general definition of “habitability” (e.g., as a “degree” or “suitable … with an acceptable quality of life”); it only states that the paper “employs the concepts of sustainability and habitability to define and measure ecological urbanism.”",
+        "The packet does not explicitly support the phrase “used alongside sustainability to assess urban living conditions and the risks that can undermine them” as a definition-level characterization of habitability; it describes a specific case study context (La Primavera) and how development projects affect quality of life and risks, but not a general definitional usage of habitability.",
+        "Several details in the definition (e.g., “acceptable quality of life”) are not directly stated in the provided packet text."
+      ],
+      "definition_hash": "bf47f3264aa0b997465a694e2c4a53eb2ad6d42f1a32c16d4e5bd39e0ce20622",
+      "packet_hash": "547f6356c6d94abd702488c858d7bb50ef704720a57313d741fba7efaffe72fa",
+      "published_packet_hash": "547f6356c6d94abd702488c858d7bb50ef704720a57313d741fba7efaffe72fa",
+      "receipt_id": "4a3178c439b148f3bcec91f9b5ce831a",
+      "request_hash": "e5fb4de6811a53a58a1fd6ccb2dc72ddcab23a7b2f6c2b2c463d7e9b6aa734c0",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sids",
+  "term": "SIDS",
+  "source": "article-pmc13581202",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0357014",
+  "revision": "2026; DOI 10.1371/journal.pone.0357014; article XML SHA-256 31932a965ee2ecef2bd3082df5aa7ae07c45a1d63e138c3289a4d27813831452",
+  "source_snapshot_sha256": "31932a965ee2ecef2bd3082df5aa7ae07c45a1d63e138c3289a4d27813831452",
+  "url": "https://doi.org/10.1371/journal.pone.0357014",
+  "text": "Small Island Developing States (SIDS) face unique challenges for microplastics (MPs) monitoring due to limited infrastructure and resources. In this context, we propose and test innovative approaches toward a standardized, low-cost methodology for quantifying MPs in SIDS. We evaluate the giant clam T. maxima as a bio-integrator, combining Nile red (NR) fluorescence staining with automated machine-learning detection. We optimized a digestion protocol using KOH and HNO 3 for T. maxima viscera, and developed a DAPI-guided multi-spectra composite imaging approach based on triband fluorescence (DAPI, FITC, TRITC), to enhance polymer detection while reducing blooming artifacts. A semi-automated annotation pipeline using Labkit interactive segmentation with CLIP/UMAP clustering efficiently generated training data from 6711 fluorescence images. A U-Net model was trained on composite images to segment fluorescent particles. The workflow was applied to giant clams from three French Polynesian islands (Makemo, Hao, Tubuai), and NR-based estimates were validated against µFTIR spectroscopy. The model achieved F1-scores of 0.741 for giant clam samples and 0.657 for controls, comparable to human annotation (F1 = 0.680). MPs were detected across all islands, with highest concentrations in gills (16.9–52.7 particles·g −1 wet weight) compared to viscera (2.5–11.0 particles·g −1 ww). µFTIR validation revealed that NR overestimates MP counts (µFTIR: 0.80 ± 0.16 particles·g −1 ww at Tubuai), primarily due to false positives from proteins, cellulose, and stearates. In Tubuai, polyamide (28.9%), PVC (12.6%), and polystyrene (10.7%) were the dominant polymers, suggesting contributions from fishing gear, agriculture, and household waste. While NR-based quantification overestimates absolute MP counts, the automated pipeline demonstrates potential for high-throughput image processing, reproducible sample analysis, and methodological standardization. This workflow represents a first step toward scalable, low-cost approaches for MPs monitoring in insular systems, highlighting areas for further calibration and optimization. Future work should refine fluorescence thresholds and expand validation across species and locations.",
+  "source_label": "Exploring Nile Red and machine learning for microplastics detection in Tridacna maxima",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2233
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "961463b6475cbe87b629703585a84f298cbc865a194555a986c603777044225b"
+}

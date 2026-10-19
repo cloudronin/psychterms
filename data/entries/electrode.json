@@ -1,0 +1,62 @@
+{
+  "id": "electrode",
+  "term": "electrode",
+  "definition": "An electrode is a recording point or sensor used in electroencephalogram (EEG) measurement. In this context, electrode location refers to where those EEG recording points are placed for a brain-computer interface.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13061863"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13061863",
+      "revision": "2026; DOI 10.3389/fnhum.2026.1720969; article XML SHA-256 c74f723a51191db59252355c64966288b0d5e0ffc853a96e4ddd84df8e3f9e17",
+      "scope": "Source record 10.3389/fnhum.2026.1720969; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2026.1720969"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "028d3b38b406ddb6b4a81f93368a9c7452aff0c9474536d7ed36988279d0a1fb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e1dc70937fa64800b1d789ccde284f91",
+    "request_hash": "66a89a277ac17713bd9dd5b76dd7852c361edbd9e0fb118252258840bd6843f3",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "c87ac2c23140fbd4aa3661f8d129abf0e30fd9f401340e8379b130e6855ec341",
+    "packet_hash": "028d3b38b406ddb6b4a81f93368a9c7452aff0c9474536d7ed36988279d0a1fb"
+  },
+  "hash": "9a96551de9ed4479f6eab045b4a68356217890af1aac5226f2af46adf736e884",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define an “electrode” as a “recording point or sensor” used in EEG measurement; it only references “EEG electrode location selection” in the context of P300-design BCIs."
+      ],
+      "definition_hash": "c87ac2c23140fbd4aa3661f8d129abf0e30fd9f401340e8379b130e6855ec341",
+      "packet_hash": "028d3b38b406ddb6b4a81f93368a9c7452aff0c9474536d7ed36988279d0a1fb",
+      "published_packet_hash": "028d3b38b406ddb6b4a81f93368a9c7452aff0c9474536d7ed36988279d0a1fb",
+      "receipt_id": "4e4c13c10e8a4377b49f5e881600d52a",
+      "request_hash": "b80f389d46192e348ad419b510408afa4eb659f40f192ef4224e89d9075faabe",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports EEG electrode location selection in a non-invasive P300 brain-computer interface, but it does not explicitly define an electrode as a “recording point or sensor” used in EEG measurement.",
+        "The second sentence adds a gloss about electrode location “for a brain-computer interface” that is only partially supported and reads like an extrapolation from the study context rather than a definition grounded in the packet."
+      ],
+      "definition_hash": "c87ac2c23140fbd4aa3661f8d129abf0e30fd9f401340e8379b130e6855ec341",
+      "packet_hash": "028d3b38b406ddb6b4a81f93368a9c7452aff0c9474536d7ed36988279d0a1fb",
+      "published_packet_hash": "028d3b38b406ddb6b4a81f93368a9c7452aff0c9474536d7ed36988279d0a1fb",
+      "receipt_id": "89b3499d5bee425984980ec3320bd8db",
+      "request_hash": "5b20817bf86ddfed180b36448950305f30d2b4930ec57e4f99e08a6465a35839",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dendritic-spine",
+  "term": "dendritic spine",
+  "source": "article-pmc13229348",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0349775",
+  "revision": "2026; DOI 10.1371/journal.pone.0349775; article XML SHA-256 ffa689646ae36226f7223d32e96e817d69b8d4eda1e109e1a70898297d8f6089",
+  "source_snapshot_sha256": "ffa689646ae36226f7223d32e96e817d69b8d4eda1e109e1a70898297d8f6089",
+  "url": "https://doi.org/10.1371/journal.pone.0349775",
+  "text": "Dendritic spines are dynamic extensions of dendrites that change in shape and distribution in response to neuronal activity, playing central roles in memory and learning. Computational methods are widely used to characterize spine morphology, yet feature selection, dimensionality reduction, and clustering choices are often made a priori and evaluated independently, and as a result it remains unclear how analysis decisions influence low-dimensional representations of spine shape and the biological interpretations drawn from them. We present a decision-based visual characterization framework that systematically evaluates dimensionality reduction and probabilistic clustering strategies for dendritic spine morphometry. Using a labeled two-photon laser scanning microscopy (2PLSM) dataset and a secondary dataset with differing imaging conditions to assess generalization, we compare PCA, ISOMAP, t-SNE, UMAP, and PCUMAP alongside hierarchical clustering, Fuzzy C-Means, and Gaussian Mixture Models. We additionally introduce a Biological Transition Score (BTS) to quantify how well low-dimensional embeddings reflect known developmental and functional relationships among spine types. Across datasets, dimensionality reduction methods capture complementary aspects of spine morphology. On the primary dataset, nonlinear approaches better preserve fine-scale structure, with PCUMAP providing a favorable balance between local structure preservation and global continuity. In contrast, analysis of a lower-resolution secondary dataset shows that PCA is more robust under increased feature-level noise. These findings demonstrate that the optimal dimensionality reduction strategy is dataset-dependent, underscoring the importance of systematic, data-driven method selection. When paired with probabilistic clustering, these representations reveal a morphological continuum that bridges classical “mushroom,” “stubby,” and “thin” spine categories. Increasing the number of identified sub-groups preserves or strengthens structural organization relative to expert-labeled classes, demonstrating that weakly supervised representations can resolve intra-class heterogeneity beyond discrete manual classifications. This framework provides a structured, quantitative approach for selecting dimensionality reduction and clustering strategies, enabling more consistent and biologically grounded",
+  "source_label": "A data-driven framework for modeling the dendritic spine continuum using dimensionality reduction and clustering toward understanding synaptic plasticity",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2390
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "0d1dcda8e2e8fec850439895d6239213352bbf81a84b3d9cd4407fc2d9518242"
+}

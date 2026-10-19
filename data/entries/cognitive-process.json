@@ -1,0 +1,64 @@
+{
+  "id": "cognitive-process",
+  "term": "cognitive process",
+  "definition": "A cognitive process is a mental activity involved in handling knowledge-related information so a person can understand and adapt to complex social situations. It can be shaped by biases and by features of incoming information, such as another person’s voice.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12951778"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12951778",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1700278; article XML SHA-256 3a2c4990798487ded02c8ca055bb310bc00d990ad3a0d6e583633db0064028d3",
+      "scope": "Source record 10.3389/fpsyg.2026.1700278; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1700278"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "bb49b8c62a14e839339e551511e594f220d17043474f880eca6edbf89f4faf41",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3bb30ae3f6214ed7b6d208928c411569",
+    "request_hash": "37dc53ebb23e8a84c083c7a3a0789022375b99157e38452544655a7ee3b50d46",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "f2d084ca0948a5324055621b6b7269a72f600c47a914dbe008f73dc348bc9583",
+    "packet_hash": "bb49b8c62a14e839339e551511e594f220d17043474f880eca6edbf89f4faf41"
+  },
+  "hash": "8b64655feb1a9df5d76b64128c07c49cc7a277857d6734d3be984b03900b4761",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the wording that the cognitive process enables a person to “understand” (it mentions adaptation to complex social environments, but not “understand”).",
+        "Some parts of the definition (“handling knowledge-related information” as a general description, and “mental activity involved in…”) are not stated in the packet in that form; the packet instead frames the cognitive process in terms of epistemic trust linked to adaptation to complex social environments."
+      ],
+      "definition_hash": "f2d084ca0948a5324055621b6b7269a72f600c47a914dbe008f73dc348bc9583",
+      "packet_hash": "bb49b8c62a14e839339e551511e594f220d17043474f880eca6edbf89f4faf41",
+      "published_packet_hash": "bb49b8c62a14e839339e551511e594f220d17043474f880eca6edbf89f4faf41",
+      "receipt_id": "dcd081f3321444b58ae91c11c103f65c",
+      "request_hash": "cbac4dfb63adf35b8f4904835c3fcd8c11554cc7e84d6664798b3173a158c39a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a link between epistemic trust and a cognitive process involving information with knowledge and adaptation to complex social environments, but it does not define a cognitive process as a general mental activity.",
+        "“Understand” is not supported by the packet; the source only mentions adaptation to complex social environments.",
+        "The claim that the process is shaped by “features of incoming information” is broader than the packet’s wording, which only says it can be influenced by cognitive biases and external traits such as a stranger’s voice."
+      ],
+      "definition_hash": "f2d084ca0948a5324055621b6b7269a72f600c47a914dbe008f73dc348bc9583",
+      "packet_hash": "bb49b8c62a14e839339e551511e594f220d17043474f880eca6edbf89f4faf41",
+      "published_packet_hash": "bb49b8c62a14e839339e551511e594f220d17043474f880eca6edbf89f4faf41",
+      "receipt_id": "8942a26528254cdeb61a998dcdea55fa",
+      "request_hash": "f7b5267c0983f4b776f073d0a5eb395f5aa32626b671eef1b2e6d207aa75ff73",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

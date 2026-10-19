@@ -1,0 +1,60 @@
+{
+  "id": "knowledge-base",
+  "term": "knowledge base",
+  "definition": "A knowledge base is an organized collection of information drawn from source documents so an AI assistant can retrieve and use it to answer questions or provide technical support. In this context, it is built from structured extraction of educational materials rather than functioning as a fully validated tutor.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13269062"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13269062",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1843444; article XML SHA-256 fbeee1dc70a5ff27a53f1a0b10535e3b7211d0a179209c1eddfed9e142a44355",
+      "scope": "Source record 10.3389/fpsyg.2026.1843444; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1843444"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "33f17fd550a94554b3c4c9c6b0e87ea9",
+    "request_hash": "d4dc09e570a33c6fda1b34698636b67ca578395a066fa3ac303df62f24411029",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "7cbcfc60e820a1862da69926111c24d0d626ac6669e2f1d815faba24b1b1927d",
+    "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85"
+  },
+  "hash": "3bdfd3e0e57abafcec672805b7d0bd2d4e76825eb0ab2e4c0501383e32785f2f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7cbcfc60e820a1862da69926111c24d0d626ac6669e2f1d815faba24b1b1927d",
+      "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85",
+      "published_packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85",
+      "receipt_id": "94445156ac8543aa9ac4c1e8469b781e",
+      "request_hash": "88221605b31da72b31a8afb0a3d1d25ccfb88d66b0b6208ac50557bb7c04aa9f",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrasing “so an AI assistant can retrieve and use it to answer questions” is not explicitly supported by the packet; the packet mentions “structured knowledge extraction” and “AI-assisted technical support,” but does not clearly state “retrieve and use” or “answer questions” as defining functions.",
+        "Several elements are inferred or generalized (“organized collection of information,” “retrieve and use it”) rather than directly stated in the provided source text, which makes the requested definitional claims not fully supported by the packet."
+      ],
+      "definition_hash": "7cbcfc60e820a1862da69926111c24d0d626ac6669e2f1d815faba24b1b1927d",
+      "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85",
+      "published_packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85",
+      "receipt_id": "bc41d19a19dc4057adcaea26a74879ec",
+      "request_hash": "e023ed3db3f6b1f023846987de8ea70a3f736c855e029ca3350a59353fdd0731",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

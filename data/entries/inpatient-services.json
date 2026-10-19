@@ -1,0 +1,63 @@
+{
+  "id": "inpatient-services",
+  "term": "inpatient services",
+  "definition": "Inpatient services are hospital-based mental health services where people are admitted for acute psychiatric care. In the source context, these services also had to manage infection-control requirements while continuing care.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10374153"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10374153",
+      "revision": "2023; DOI 10.1371/journal.pone.0289310; article XML SHA-256 0bae611239927726ec5cbf569199e3b94125a6c371c74f21a4f943ffb29a8f9d",
+      "scope": "Source record 10.1371/journal.pone.0289310; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0289310"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "166d52251c7548000284e03bddeb9c3d1f117d72e400f03c16f86b48739f0d27",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5195e2a2bbd641898587dd26d27140fe",
+    "request_hash": "04c36aee9cb6fccc456cd50c4532f7c1de3de2137d4ee1ced0e64de3a5088237",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "c925ab4c462d3b3aa994a60a8f2b79c23e8486e9fdfe01ab8ddf29c717c5d09d",
+    "packet_hash": "166d52251c7548000284e03bddeb9c3d1f117d72e400f03c16f86b48739f0d27"
+  },
+  "hash": "45341e40b35177c54125c9d62618dcb1c7ce4770ee8f357c0badbe605138285d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported specifics not stated in the source, including that inpatient services are hospital-based and that people are admitted for care.",
+        "The source supports acute psychiatric care and strict infection-control measures, but not the fuller two-sentence gloss as written."
+      ],
+      "definition_hash": "c925ab4c462d3b3aa994a60a8f2b79c23e8486e9fdfe01ab8ddf29c717c5d09d",
+      "packet_hash": "166d52251c7548000284e03bddeb9c3d1f117d72e400f03c16f86b48739f0d27",
+      "published_packet_hash": "166d52251c7548000284e03bddeb9c3d1f117d72e400f03c16f86b48739f0d27",
+      "receipt_id": "96edd0537e6c4a8580c92f4e19877251",
+      "request_hash": "62701c320c0587281d1a1a4e33e67438bc9e07ea514b3258a6cec528e7f07f56",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that “Inpatient services” faced the challenge of offering “acute psychiatric” care while implementing “strict infection control measures,” but it does not explicitly define inpatient services as “hospital-based mental health services where people are admitted.”",
+        "The definition’s framing about the required infection-control “while continuing care” is not stated in those terms; the packet only mentions offering acute psychiatric care alongside strict infection control measures during the pandemic."
+      ],
+      "definition_hash": "c925ab4c462d3b3aa994a60a8f2b79c23e8486e9fdfe01ab8ddf29c717c5d09d",
+      "packet_hash": "166d52251c7548000284e03bddeb9c3d1f117d72e400f03c16f86b48739f0d27",
+      "published_packet_hash": "166d52251c7548000284e03bddeb9c3d1f117d72e400f03c16f86b48739f0d27",
+      "receipt_id": "e758c544b9d9473685f6c16f32204ee4",
+      "request_hash": "9cd8f578a8b0cd7aeb82f734e81cc47633ad6e9d2c968cf5f9d45f5b207a18b0",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

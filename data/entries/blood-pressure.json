@@ -1,0 +1,61 @@
+{
+  "id": "blood-pressure",
+  "term": "blood pressure",
+  "definition": "Blood pressure is a bodily measure that is regulated over time by interacting cardiovascular, kidney, circadian, autonomic, and sleep-wake systems. In a healthy dipping pattern, it falls during the night, whereas a non-dipping pattern means this normal nighttime reduction is reduced or absent.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13472411"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13472411",
+      "revision": "2026; DOI 10.1371/journal.pone.0355222; article XML SHA-256 154b6b3efea25132024c256f2a344bd47d378a4f4dfddf02a0e5c7b37d75a8a5",
+      "scope": "Source record 10.1371/journal.pone.0355222; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355222"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e3d0db9d720909ab7b88ed598a77b6be6e13ae56660bf3abe154872af2ff5cf9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "074a8e6a71f143beb91790a268a4d29e",
+    "request_hash": "2047b32244dacc75a80cc314abf1203fc7a9d8f24e1a7d2159e759dd866fc59c",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "42f6e1ec0a0e139a26190dfe38afdf3c2e63166a502e6ed04dbd9e707de2e40b",
+    "packet_hash": "e3d0db9d720909ab7b88ed598a77b6be6e13ae56660bf3abe154872af2ff5cf9"
+  },
+  "hash": "6293aa363a86bb4e2129bd39406cf1b71fd641ad294eadd2d6a28aba4203b7dd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "42f6e1ec0a0e139a26190dfe38afdf3c2e63166a502e6ed04dbd9e707de2e40b",
+      "packet_hash": "e3d0db9d720909ab7b88ed598a77b6be6e13ae56660bf3abe154872af2ff5cf9",
+      "published_packet_hash": "e3d0db9d720909ab7b88ed598a77b6be6e13ae56660bf3abe154872af2ff5cf9",
+      "receipt_id": "9d2e51f5d0574f41980d884ee8e0baf6",
+      "request_hash": "850a0c62cb0ccc48d7541bdea6b79f26535f00ff7928a7ec8ac16cd677994eac",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The selected field is not defensible from the source packet: the packet is about blood pressure physiology and nocturnal dipping, not the psychology/learning sense.",
+        "The definition generalizes the packet’s computational-model findings into a broad claim that blood pressure is regulated over time by interacting cardiovascular, kidney, circadian, autonomic, and sleep-wake systems; the packet supports these as modeled/experimental determinants, but not as a general definition of blood pressure.",
+        "The phrasing about a “healthy dipping pattern” and “non-dipping pattern” is acceptable only as a description of nocturnal BP phenotypes, but the overall entry does not stay within the requested sense because it defines a physiological phenomenon rather than the term’s basic meaning."
+      ],
+      "definition_hash": "42f6e1ec0a0e139a26190dfe38afdf3c2e63166a502e6ed04dbd9e707de2e40b",
+      "packet_hash": "e3d0db9d720909ab7b88ed598a77b6be6e13ae56660bf3abe154872af2ff5cf9",
+      "published_packet_hash": "e3d0db9d720909ab7b88ed598a77b6be6e13ae56660bf3abe154872af2ff5cf9",
+      "receipt_id": "b1f5de493d7a4d1aa7cdd2cb933f3014",
+      "request_hash": "5f9c00486b9293fa7a7f1e12a85231a4113835630df1a5d72ee6b1f3ba65ec23",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

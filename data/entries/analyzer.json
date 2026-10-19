@@ -1,0 +1,59 @@
+{
+  "id": "analyzer",
+  "term": "analyzer",
+  "definition": "An analyzer is an automated system used to examine information; in this source, it refers to a patient review analyzer that uses natural language processing and machine learning to assess healthcare feedback more efficiently, fairly, and accurately.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13138667"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13138667",
+      "revision": "2026; DOI 10.1371/journal.pone.0337676; article XML SHA-256 bc83b33953e6a28246736622fb744dcd9de70f3f6779524d533aa84262204e19",
+      "scope": "Source record 10.1371/journal.pone.0337676; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0337676"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c5382a12c82547328a607f59b2f1756e",
+    "request_hash": "2a0ac4df6eccf019fd9a3eb7b67d808a385f9be89a68e6f743ab1533941eaecf",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "cf8ba535ca9788ff5170bb8eee814d251767cb8f4ad3b93e0525d6f1671ebf84",
+    "packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256"
+  },
+  "hash": "cbef12e6e7e52c7a34c13c498fb22cfa0202c98091ff9c0c34afb4ba4b76f59d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s generic claim that an “analyzer” is an “automated system used to examine information” is not explicitly supported by the provided packet text; the packet specifically describes an “automatic patient review analyzer” for healthcare feedback analysis."
+      ],
+      "definition_hash": "cf8ba535ca9788ff5170bb8eee814d251767cb8f4ad3b93e0525d6f1671ebf84",
+      "packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256",
+      "published_packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256",
+      "receipt_id": "16bc503da920460495e22ac59b254151",
+      "request_hash": "f42514c50dd064ab2928d0d1e09300cf6657f46e5422d666b14acb4783396939",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cf8ba535ca9788ff5170bb8eee814d251767cb8f4ad3b93e0525d6f1671ebf84",
+      "packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256",
+      "published_packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256",
+      "receipt_id": "ad5ed4b37cb14e32b824743b1e0f2ace",
+      "request_hash": "cccd42046d4daf146252bedf060cc1d74b398e07b2c7d995cabb7ff6dd593c4e",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

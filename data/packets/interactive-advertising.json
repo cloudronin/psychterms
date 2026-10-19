@@ -1,0 +1,26 @@
+{
+  "id": "interactive-advertising",
+  "term": "interactive advertising",
+  "source": "article-pmc10540975",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0285838",
+  "revision": "2023; DOI 10.1371/journal.pone.0285838; article XML SHA-256 1df4538d148b6ddb6091107d05b5497be083092e09a1557f5fdd37f06ffa8449",
+  "source_snapshot_sha256": "1df4538d148b6ddb6091107d05b5497be083092e09a1557f5fdd37f06ffa8449",
+  "url": "https://doi.org/10.1371/journal.pone.0285838",
+  "text": "In this paper, we present an interactive advertising system based on augmented reality(AR) called ARIAS, which is manipulated with gestures for displaying advertising videos. Two-dimensional markers are defined in the system. The system captures the frame data through the camera in real time, uses OpenCV library to identify the predefined markers, and calculates the pose of markers captured by the camera. With OpenGL library, a virtual cubic model is created at the position of the marker, and thus videos or images are displayed on the six faces of the cube. The virtual cube, together with the original frame data collected by the camera, is displayed in the interactive window to achieve the augmented reality effect. Customers are accessible to various advertising content by observing the marker from different positions. The system, meanwhile, supports gesture operation in order to make the customers pay attention to the content they are interested in with one hand. The MediaPipe Hand framework is used to extract the landmarks of hands, based on which, a series of gestures are designed for interactive operation. The efficiency and accuracy of the system are tested and analyzed with the result, indicating that the system has high reliability and good interactiveness. This system is open at https://github.com/wanzhuxie/ARIAS/tree/PLOS-ONE .",
+  "source_label": "ARIAS: An AR-based interactive advertising system",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1358
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 4
+  },
+  "packet_hash": "6835be5c98b34d261a3d3db49e952d9c67679b76ede9bd0dda7f222fa36572f5"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "deltoid",
+  "term": "deltoid",
+  "definition": "The deltoid is a shoulder muscle involved in lifting the arm away from the body, such as during shoulder abduction. In this context, its activity was measured as an indicator of how shoulder movement was initiated and carried out.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13068219"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13068219",
+      "revision": "2026; DOI 10.1371/journal.pone.0346615; article XML SHA-256 9be1576d2704e86ea0c4e087680e04b3a78a4188fceed73d515aa473515a00e8",
+      "scope": "Source record 10.1371/journal.pone.0346615; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0346615"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5328f2e1e541f5994c145b62212a147eccb79e24528199b7d6a543a5c0602c58",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dbf5c6add9ad43c2b66f4d4f0ee9163f",
+    "request_hash": "2335b24ff7316db3dcbd9bc89933a4243ce8baf81cab3b972d8d232c915f6a85",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "eb80e29c430bc83703c1c9c74a14b2260f3707cd758fc70402b934de75121e69",
+    "packet_hash": "5328f2e1e541f5994c145b62212a147eccb79e24528199b7d6a543a5c0602c58"
+  },
+  "hash": "d371fe432082ac9aa26b215c1b07a5d73ebb97b41c0e7f2928370f16e1ba2c92",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that deltoid activity was recorded during shoulder abduction, but it does not support the claim that deltoid activity was used as an indicator of how shoulder movement was initiated and carried out.",
+        "The definition adds a functional explanation of the muscle that is only indirectly implied by the study context; the packet itself does not explicitly define the deltoid as the shoulder muscle responsible for lifting the arm away from the body."
+      ],
+      "definition_hash": "eb80e29c430bc83703c1c9c74a14b2260f3707cd758fc70402b934de75121e69",
+      "packet_hash": "5328f2e1e541f5994c145b62212a147eccb79e24528199b7d6a543a5c0602c58",
+      "published_packet_hash": "5328f2e1e541f5994c145b62212a147eccb79e24528199b7d6a543a5c0602c58",
+      "receipt_id": "8228248b33a0429e9977ee83e79e3617",
+      "request_hash": "1bdab9151c3aa45581ebf6055e3506ec6546059a8bae4c181598b05057d5c68c",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that the deltoid is a shoulder muscle whose function is lifting the arm away from the body (shoulder abduction); it only mentions recording “Middle deltoid (DELT) activity” during unilateral shoulder abduction movements.",
+        "The definition claims deltoid activity was measured as an indicator of how shoulder movement was “initiated and carried out,” but the packet specifies that muscle activity was recorded from the sternocleidomastoid (SCM) “as an indicator of startReact” (i.e., initiation-related effects). The packet does not describe DELT activity as an indicator of initiation in the same way.",
+        "The packet reports outcomes such as DELT onset and movement timing/kinematics, but it does not support the specific causal framing that deltoid activity indicates how movement was initiated and carried out."
+      ],
+      "definition_hash": "eb80e29c430bc83703c1c9c74a14b2260f3707cd758fc70402b934de75121e69",
+      "packet_hash": "5328f2e1e541f5994c145b62212a147eccb79e24528199b7d6a543a5c0602c58",
+      "published_packet_hash": "5328f2e1e541f5994c145b62212a147eccb79e24528199b7d6a543a5c0602c58",
+      "receipt_id": "2ad0ca81b32b435d86a1d755adeaf8ce",
+      "request_hash": "6648fbf9aa22a65edcde333e39e26d3b786303e8d041dc3b31bc3beb4ad56b0a",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

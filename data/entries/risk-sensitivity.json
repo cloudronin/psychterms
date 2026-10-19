@@ -1,0 +1,64 @@
+{
+  "id": "risk-sensitivity",
+  "term": "risk sensitivity",
+  "definition": "Risk sensitivity is a person’s awareness of danger or ability to notice and respond to risky situations. In this source, it is used as part of a checklist for identifying unsafe behavior and workers’ awareness of hazards.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11602037"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11602037",
+      "revision": "2024; DOI 10.1371/journal.pone.0314571; article XML SHA-256 9cba9024030319a311bdc0ebb5bcadcc96ac15c488e73fd616cd32d8dd71bdc5",
+      "scope": "Source record 10.1371/journal.pone.0314571; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0314571"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c98b1f5a50ae3052cc05b60d330b3298e9f266243bbedc2893f88f7e690bac7a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fb015bda17f34762acd6bea04431adab",
+    "request_hash": "3bfe762c70621e61ac4af0189fe37c2cc493ef7f4442312d492921df373c8781",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "042ffa6ec5693c9e0e47f3c526e543f7194232079720948c4d75bbd4588b7c9c",
+    "packet_hash": "c98b1f5a50ae3052cc05b60d330b3298e9f266243bbedc2893f88f7e690bac7a"
+  },
+  "hash": "e7ac41e35c8e3796b470b95714dfe2b9e58caa2d4818823aba3e26dc46079b30",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The proposed field is not well supported by the source, which is about an industrial unsafe-behavior checklist rather than learning as a psychology topic.",
+        "The first sentence adds a general definition of risk sensitivity as an ability to notice and respond to risky situations; the packet only supports its use in a checklist as an indicator of workers’ awareness of dangers, not that broader sense."
+      ],
+      "definition_hash": "042ffa6ec5693c9e0e47f3c526e543f7194232079720948c4d75bbd4588b7c9c",
+      "packet_hash": "c98b1f5a50ae3052cc05b60d330b3298e9f266243bbedc2893f88f7e690bac7a",
+      "published_packet_hash": "c98b1f5a50ae3052cc05b60d330b3298e9f266243bbedc2893f88f7e690bac7a",
+      "receipt_id": "1313c9667af54473b9c0a435b8ef15b4",
+      "request_hash": "d1d7444652a8c16c5020a038073d6d9bc21c15237805f136cd48f87fc7a71d33",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “risk sensitivity” as a person’s “ability to notice and respond to risky situations”; it only states that a “risk sensitivity and risk-taking checklist” was used.",
+        "The packet supports that the checklist relates to workers’ awareness of dangers in industrial workplaces, but the definition’s broader phrasing about “awareness of danger” as a general personal capacity is not explicitly stated.",
+        "The packet does not provide enough detail to justify the definition’s framing as “risk sensitivity” being used specifically for “identifying unsafe behavior and workers’ awareness of hazards” (it says it was used to identify unsafe behavior types and to assess awareness of dangers, but the exact “hazards/unsafe behavior checklist” linkage is not directly described beyond that context)."
+      ],
+      "definition_hash": "042ffa6ec5693c9e0e47f3c526e543f7194232079720948c4d75bbd4588b7c9c",
+      "packet_hash": "c98b1f5a50ae3052cc05b60d330b3298e9f266243bbedc2893f88f7e690bac7a",
+      "published_packet_hash": "c98b1f5a50ae3052cc05b60d330b3298e9f266243bbedc2893f88f7e690bac7a",
+      "receipt_id": "637f6ac0bc3b4ce38e780b71f910a10b",
+      "request_hash": "e5992d8dad238f1dfb3dc328310b247c0a107d8f39e759d458e010c60de90119",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "epileptiform",
+  "term": "epileptiform",
+  "definition": "Epileptiform describes an EEG pattern associated with epilepsy-like brain activity. In this packet, it refers to diagnostically important EEG abnormalities seen between seizures, called interictal epileptiform discharges.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13596800"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13596800",
+      "revision": "2026; DOI 10.1371/journal.pone.0358782; article XML SHA-256 8d6727ab6037cedbb0f7af1a59fab3ac8e79eda5d8d81b9f98f72d0dd8df837f",
+      "scope": "Source record 10.1371/journal.pone.0358782; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0358782"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "3a7d5a28dfd74f5fab0c6871512ae70b",
+    "request_hash": "6a0cdd6880caf4785bb57f0280f259a3b5f4a77fdd0ffb4fd412df6bd584e597",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "9977373401ef155891d226cbc8d55b6b7bcca99d92fd775265ef255f46f82b98",
+    "packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69"
+  },
+  "hash": "a61a5b0ad72f37447fdc772d6bb4a68b11064cb9cef9feb5bd20755b79219051",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not support the claim that “epileptiform” describes “an EEG pattern associated with epilepsy-like brain activity.”",
+        "The packet text does not state that the relevant abnormalities occur “between seizures.”",
+        "While the packet does discuss “interictal epileptiform discharges (IEDs)” and describes them as “diagnostically important EEG abnormalities,” the provided definition adds multiple substantive details (“epilepsy-like brain activity” and “between seizures”) that are not explicitly supported in the supplied packet.",
+        "The definition asserts a specific meaning linkage (“it refers to … interictal epileptiform discharges”) that is directionally consistent with the packet’s focus, but the additional unsupported wording prevents full support."
+      ],
+      "definition_hash": "9977373401ef155891d226cbc8d55b6b7bcca99d92fd775265ef255f46f82b98",
+      "packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69",
+      "published_packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69",
+      "receipt_id": "464f799085664f56b29856f375a4118e",
+      "request_hash": "8df6b2fcee86f6857d106812f9b3d7d1414172429dcf55293a29784cfba21eda",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports interictal epileptiform discharges as diagnostically important EEG abnormalities, but it does not define the standalone term “epileptiform” as an EEG pattern associated with epilepsy-like brain activity.",
+        "The definition adds a between-seizures gloss that fits “interictal,” but that temporal detail is not explicitly given as the meaning of “epileptiform” itself in the packet.",
+        "The field is not supported by the packet, which is about EEG/epileptiform discharges rather than learning."
+      ],
+      "definition_hash": "9977373401ef155891d226cbc8d55b6b7bcca99d92fd775265ef255f46f82b98",
+      "packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69",
+      "published_packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69",
+      "receipt_id": "b538269bba5844809522c71ee5997632",
+      "request_hash": "f9d8c87c0c3906d0c4b69afca01fe7c6ec054077627538a52914b8f2deda7a86",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

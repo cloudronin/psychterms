@@ -1,0 +1,64 @@
+{
+  "id": "death-anxiety",
+  "term": "death anxiety",
+  "definition": "Death anxiety is emotional distress or fear connected to death. In the supplied source, it is described as an important reaction in older adults with chronic illness that may influence how they think, feel, and act.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12728577"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12728577",
+      "revision": "2025; DOI 10.3389/fpsyg.2025.1684385; article XML SHA-256 fe227ef1826487354f3e20012fe184c45e860debe2ce22e3312eebdb70d40988",
+      "scope": "Source record 10.3389/fpsyg.2025.1684385; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2025.1684385"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "04f3a0d732625f63688683069610d9173ba359e98b5421d4ff4b27702f71bbbc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "dce3d48362bd44a78d27d06bbccd3c3e",
+    "request_hash": "88e8eb6649982531580a5d4d402cf96de5666b4aa22324145439d0876d37ff5f",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "9d0e7bb89cf379eba47a9cb383a0b05a8666755efa98bc1d67c063458fcfe8ac",
+    "packet_hash": "04f3a0d732625f63688683069610d9173ba359e98b5421d4ff4b27702f71bbbc"
+  },
+  "hash": "32ecca6dcf5f23e15b23fa77700aee217ee0ee4b4b4fd25995d8d4eedd76af46",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that death anxiety is specifically “emotional distress or fear connected to death”; it only states it is an “emotional response” in older adults with chronic illness.",
+        "While the packet mentions that its role in shaping “psychological and behavioural responses” remains underexplored, it does not directly support the definition’s wording that it “may influence how they think, feel, and act,” nor does it describe it as an “important reaction.”"
+      ],
+      "definition_hash": "9d0e7bb89cf379eba47a9cb383a0b05a8666755efa98bc1d67c063458fcfe8ac",
+      "packet_hash": "04f3a0d732625f63688683069610d9173ba359e98b5421d4ff4b27702f71bbbc",
+      "published_packet_hash": "04f3a0d732625f63688683069610d9173ba359e98b5421d4ff4b27702f71bbbc",
+      "receipt_id": "7226838333d240168147e63d52bc138c",
+      "request_hash": "19a43cab6af0b1094ad6521bdefd3d6bcd815f628edf49faf40527635d946143",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that death anxiety is a relevant emotional response in older adults with chronic illness; it does not define it as “emotional distress or fear connected to death.”",
+        "The second sentence adds unsupported claims: that it is an “important reaction” and that it may influence how people think, feel, and act.",
+        "The definition goes beyond the source by generalizing from older adults with chronic illness to a broader dictionary-style meaning without support in the packet."
+      ],
+      "definition_hash": "9d0e7bb89cf379eba47a9cb383a0b05a8666755efa98bc1d67c063458fcfe8ac",
+      "packet_hash": "04f3a0d732625f63688683069610d9173ba359e98b5421d4ff4b27702f71bbbc",
+      "published_packet_hash": "04f3a0d732625f63688683069610d9173ba359e98b5421d4ff4b27702f71bbbc",
+      "receipt_id": "895c7094acf7443ca0dbc74716830b87",
+      "request_hash": "83fb56c11fc1a08b32c342a2f960c7cc3b93a88de328f6c75aa93a66f6f63902",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

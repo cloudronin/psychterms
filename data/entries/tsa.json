@@ -1,0 +1,57 @@
+{
+  "id": "tsa",
+  "term": "TSA",
+  "definition": "TSA stands for two-stage attention, a learning approach used with an LSTM time-series model. It first focuses the model on the most relevant input features, then adjusts attention based on performance over time to improve prediction quality.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11841919"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11841919",
+      "revision": "2025; DOI 10.1371/journal.pone.0317148; article XML SHA-256 caf55ee4ce1b4ecfb19d620c687b7e6b5b0b0491b7fb869f689c92a93d8f3871",
+      "scope": "Source record 10.1371/journal.pone.0317148; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0317148"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d6d8983492f855a628187f6df039ea33c4163a766066bc8552213597aa4b31de",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0c8fca250e63445a8c4e0ab2314224a5",
+    "request_hash": "f22ddddd43ec7689ae41043b690dffef200c2966da3e8c0fbb7bbe2f90c13b75",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "ca6087f224c5a3e3ee31395917e2ff9b3aa6de37a1793c36061b8f2b45c8a3b8",
+    "packet_hash": "d6d8983492f855a628187f6df039ea33c4163a766066bc8552213597aa4b31de"
+  },
+  "hash": "8c67c6e5cdb8b914530933906076120341f190ffb782f3d5ce13d0de6799bba5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ca6087f224c5a3e3ee31395917e2ff9b3aa6de37a1793c36061b8f2b45c8a3b8",
+      "packet_hash": "d6d8983492f855a628187f6df039ea33c4163a766066bc8552213597aa4b31de",
+      "published_packet_hash": "d6d8983492f855a628187f6df039ea33c4163a766066bc8552213597aa4b31de",
+      "receipt_id": "6bd1e334dd9c403c80cde173d106f656",
+      "request_hash": "5656e3e8a492c12f881273d2602a78a22fea9044a379db42912ef9307c78708a",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ca6087f224c5a3e3ee31395917e2ff9b3aa6de37a1793c36061b8f2b45c8a3b8",
+      "packet_hash": "d6d8983492f855a628187f6df039ea33c4163a766066bc8552213597aa4b31de",
+      "published_packet_hash": "d6d8983492f855a628187f6df039ea33c4163a766066bc8552213597aa4b31de",
+      "receipt_id": "5f9072555de64685b6aa70526e9de571",
+      "request_hash": "ef5e7e2f36b5e9bc11c5112d1dea5e16188c92d9056933b51a69cf2a768b67f4",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

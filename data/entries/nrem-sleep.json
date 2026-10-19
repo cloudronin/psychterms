@@ -1,0 +1,63 @@
+{
+  "id": "nrem-sleep",
+  "term": "NREM sleep",
+  "definition": "NREM sleep is non-rapid eye movement sleep, a sleep–wake state described as being under neural regulation. In the supplied source, activity in a pathway from the suprachiasmatic nucleus to the horizontal limb of the diagonal band increased NREM sleep during the dark phase in mice.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11265431"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11265431",
+      "revision": "2024; DOI 10.1186/s12868-024-00881-0; article XML SHA-256 d42a79cd75fada762334fb3f514a0db872cce04731a951bf96ae9d0c0a0f8c7e",
+      "scope": "Source record 10.1186/s12868-024-00881-0; pinned source text",
+      "locator": "https://doi.org/10.1186/s12868-024-00881-0"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "33a26a1c5f99bb2fd618a4af8c08546000fb4f95dd015893966abaddf427a6d7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fad282b3e8974b4e97b373cc64cbbdda",
+    "request_hash": "63bc3f76422d0e91aa62f54c5f27edd4d6e9d97c39e66903dc9efa97c7f59fca",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "f5898bf103f0a1528f8cdf20c8a5539e6fa3ea9fffb4bc66923ea161678fed8f",
+    "packet_hash": "33a26a1c5f99bb2fd618a4af8c08546000fb4f95dd015893966abaddf427a6d7"
+  },
+  "hash": "105387a65bb7345d44b7b3809742a4219eb071e9d039e9ccdbfff37df32d5c9a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that NREM sleep is non-rapid eye movement sleep and that activation of the SCN–HDB pathway increased NREM sleep during the dark phase in mice, but it does not support the added characterization that NREM sleep is a sleep–wake state \"described as being under neural regulation.\"",
+        "The requested field is \"learning,\" but the supplied source is a sleep/neuroscience article rather than a learning-related psychology/counselling sense, so the field is not defensible from the packet."
+      ],
+      "definition_hash": "f5898bf103f0a1528f8cdf20c8a5539e6fa3ea9fffb4bc66923ea161678fed8f",
+      "packet_hash": "33a26a1c5f99bb2fd618a4af8c08546000fb4f95dd015893966abaddf427a6d7",
+      "published_packet_hash": "33a26a1c5f99bb2fd618a4af8c08546000fb4f95dd015893966abaddf427a6d7",
+      "receipt_id": "562233d566ef483db0e9c90368508b9b",
+      "request_hash": "7ff37f0d9e0ef08cf5d0d7a55c93f57f75f10bcc8b0af303647ba36203936234",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence asserts a definition (“NREM sleep is … a sleep–wake state described as being under neural regulation”), but the packet does not provide an explicit definitional description of NREM sleep in those terms; it only discusses neural circuits involved in sleep–wake regulation.",
+        "The second sentence’s specific claim about increased NREM sleep during the dark phase in mice via activation of the SCN→HDB pathway is supported, but the overall definition is not purely grounded in the packet because the definitional portion goes beyond what is stated."
+      ],
+      "definition_hash": "f5898bf103f0a1528f8cdf20c8a5539e6fa3ea9fffb4bc66923ea161678fed8f",
+      "packet_hash": "33a26a1c5f99bb2fd618a4af8c08546000fb4f95dd015893966abaddf427a6d7",
+      "published_packet_hash": "33a26a1c5f99bb2fd618a4af8c08546000fb4f95dd015893966abaddf427a6d7",
+      "receipt_id": "f487af94922445a78ee5815a58f2627a",
+      "request_hash": "a4904605ffde4b227fd6c6a0bc4954d2759c8bf492b8c74c882b6703fe4608ca",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "clinical-significance",
+  "term": "clinical significance",
+  "definition": "Clinical significance is the practical importance of a symptom or clinical presentation in real-world care, especially for how it may affect understanding of the problem and its treatment implications. In this source, the clinical significance of insomnia symptoms varies depending on whether they occur during active major depressive disorder or as residual symptoms in partial remission.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13595994"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13595994",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1928430; article XML SHA-256 1c9fa748e0466c86cb60f6a1ac5339b98270f43f15021da67707e7a5ec042cc2",
+      "scope": "Source record 10.3389/fpsyt.2026.1928430; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1928430"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "115f03c38fb321b2af0d2a9b64f8a1d6a1f47a5b210a01a1c96df1fb834324b6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "177988be9ee24298a7699eff1cbd0fe4",
+    "request_hash": "f0b163040acf97514336c9882bdfbaff153994ab373bdb98b226b25d0693771c",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "a8f0ed39a4bf9f1ec0ad20bc4eae833247acf979ee88624df3beb3b9b40693ec",
+    "packet_hash": "115f03c38fb321b2af0d2a9b64f8a1d6a1f47a5b210a01a1c96df1fb834324b6"
+  },
+  "hash": "6eaa3b50c56d529b8ff401e7fb4413c4aac22e7de632d4068e9e6d85ffc8a03a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “practical importance … in real-world care” and “how it may affect understanding of the problem,” neither of which are explicitly stated in the packet.",
+        "The packet discusses that clinical significance and treatment implications “may also differ between active MDD and residual insomnia symptoms during partial remission,” but it does not provide enough support for the broader framing about real-world care and understanding."
+      ],
+      "definition_hash": "a8f0ed39a4bf9f1ec0ad20bc4eae833247acf979ee88624df3beb3b9b40693ec",
+      "packet_hash": "115f03c38fb321b2af0d2a9b64f8a1d6a1f47a5b210a01a1c96df1fb834324b6",
+      "published_packet_hash": "115f03c38fb321b2af0d2a9b64f8a1d6a1f47a5b210a01a1c96df1fb834324b6",
+      "receipt_id": "1480ee42d5284f5089023a81b6b9009e",
+      "request_hash": "841582a65da0b6bbd32e9b0348a73d3b7f07dd76268bc26911e5d9e992148fc5",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence adds an unsupported general gloss (“especially for how it may affect understanding of the problem”), which is not stated in the packet.",
+        "The packet supports that clinical significance and treatment implications may differ between active MDD and residual insomnia during partial remission, but it does not support the broader claim that clinical significance generally means the practical importance of a symptom in real-world care."
+      ],
+      "definition_hash": "a8f0ed39a4bf9f1ec0ad20bc4eae833247acf979ee88624df3beb3b9b40693ec",
+      "packet_hash": "115f03c38fb321b2af0d2a9b64f8a1d6a1f47a5b210a01a1c96df1fb834324b6",
+      "published_packet_hash": "115f03c38fb321b2af0d2a9b64f8a1d6a1f47a5b210a01a1c96df1fb834324b6",
+      "receipt_id": "511e2340ad774e1d8ab5cbf33f0a4cc8",
+      "request_hash": "0e81c36826fb92c3f4af7342839205a36cb90275113ac83991e26e74279644df",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

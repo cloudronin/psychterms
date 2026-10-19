@@ -1,0 +1,64 @@
+{
+  "id": "implicit-measure",
+  "term": "implicit measure",
+  "definition": "An implicit measure is a way of assessing automatic associations indirectly, usually by examining how quickly and accurately a person sorts stimuli rather than relying on direct self-report. In this source, it refers to an Implicit Association Test used to capture underlying response-latency patterns linked to semantic associations.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4084979"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4084979",
+      "revision": "2014; DOI 10.1371/journal.pone.0101911; article XML SHA-256 be9c48ac2971a5c4cb2560d4de92c83f99b899f7c60212e67ff32a613c38c07d",
+      "scope": "Source record 10.1371/journal.pone.0101911; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0101911"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7f8894fa0bf8fa761ed1c56974e2f150aaac6155234f52ae9baabe2c83a9d794",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "336a001d7b34470aa0be98b4aada6594",
+    "request_hash": "43b89ab0257122ca95bda5f9971571ebcfebc301a3cd6125932ce49dc7ca9d04",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "09e9b34f8d153ca8817c82f3e4fe03e59de24d6753b8d079110ec51921c9b1e5",
+    "packet_hash": "7f8894fa0bf8fa761ed1c56974e2f150aaac6155234f52ae9baabe2c83a9d794"
+  },
+  "hash": "0dfaa8351ff0325c7d45a945cd058a664108f2f64bd5bf556b502c459b6c71ca",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Generalizes beyond the packet by saying implicit measures are \"usually\" based on sorting speed and accuracy rather than self-report; the source only describes one Implicit Association Test and its latency/accuracy modeling.",
+        "\"Semantic associations\" is not directly supported by the packet; the source describes automatic associations between mental illness/physical illness and psychosocial/biogenetic causal attributes."
+      ],
+      "definition_hash": "09e9b34f8d153ca8817c82f3e4fe03e59de24d6753b8d079110ec51921c9b1e5",
+      "packet_hash": "7f8894fa0bf8fa761ed1c56974e2f150aaac6155234f52ae9baabe2c83a9d794",
+      "published_packet_hash": "7f8894fa0bf8fa761ed1c56974e2f150aaac6155234f52ae9baabe2c83a9d794",
+      "receipt_id": "db28afa568cb4d9eb8511e0104e7ac49",
+      "request_hash": "43581e69443c3cf6876e1cf0c86d70d2a0c232d2eda6754f3939e473478795e5",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims implicit measures “assess[ ] automatic associations indirectly” and contrast this with “direct self-report,” but the packet does not mention self-report or directly describe indirectness versus self-report.",
+        "The definition states it is “usually” done via sorting stimuli; the packet describes categorizing stimuli within an IAT, but does not support the “usually” qualifier.",
+        "The packet supports that the implicit measure is operationalized via an Implicit Association Test (IAT) and that response latency is analyzed (including decomposition of latency parameters), but it does not provide enough support for the first sentence’s general characterization beyond the specific IAT/categorization and latency framing."
+      ],
+      "definition_hash": "09e9b34f8d153ca8817c82f3e4fe03e59de24d6753b8d079110ec51921c9b1e5",
+      "packet_hash": "7f8894fa0bf8fa761ed1c56974e2f150aaac6155234f52ae9baabe2c83a9d794",
+      "published_packet_hash": "7f8894fa0bf8fa761ed1c56974e2f150aaac6155234f52ae9baabe2c83a9d794",
+      "receipt_id": "1fba7f3dd0524d5c8b14c1e5ffa50df4",
+      "request_hash": "ec3d31e353319070a18c28346f646f7d71fc514829a4f549d66c049e776214c3",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

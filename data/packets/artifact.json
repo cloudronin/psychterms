@@ -1,0 +1,26 @@
+{
+  "id": "artifact",
+  "term": "artifact",
+  "source": "article-pmc11257361",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0305902",
+  "revision": "2024; DOI 10.1371/journal.pone.0305902; article XML SHA-256 58fa50fa492613661ba6abeb2dae180769ee115be672d094803eaad5188d034d",
+  "source_snapshot_sha256": "58fa50fa492613661ba6abeb2dae180769ee115be672d094803eaad5188d034d",
+  "url": "https://doi.org/10.1371/journal.pone.0305902",
+  "text": "Eye movement during blinking can be a significant artifact in Event-Related Potentials (ERP) analysis. Blinks produce a positive potential in the vertical electrooculogram (VEOG), spreading towards the posterior direction. Two methods are frequently used to suppress VEOGs: linear regression to subtract the VEOG signal from the electroencephalogram (EEG) and Independent Component Analysis (ICA). However, some information is lost in both. The present algorithm (1) statistically identifies the position of VEOGs in the frontopolar channels; (2) performs EEG averaging for each channel, which results in ’blink templates’; (3) subtracts each template from the respective EEG at each VEOG position, only when the linear correlation index between the template and the segment is greater than a chosen threshold L. The signals from twenty subjects were acquired using a behavioral test and were treated using FilterBlink for subsequent ERP analysis. A model was designed to test the method for each subject using twenty copies of the EEG signal from the subject’s mid-central channel (with nearly no VEOG) representing the EEG channels and their respective blink templates. At the same 200 equidistant time points (marks), a signal (2.5 sinusoidal cycles at 1050 ms emulating an ERP) was mixed with each model channel and the respective blink template of that channel, between 500 to 1200 ms after each mark. According to the model, VEOGs interfered with both ERPs and the ongoing EEG, mainly on the anterior medial leads, and no significant effect was observed on the mid-central channel (Cz). FilterBlink recovered approximately 90% (Fp1) to 98% (Fz) of the original ERP and EEG signals for L = 0.1. The method reduced the VEOG effect on the EEG after ERP and blink-artifact averaging in analyzing real signals. The method is straightforward and effective for VEOG attenuation without significant distortion in the EEG signal and embedded ERPs.",
+  "source_label": "Conservative method for vertical electrooculogram attenuation based on local suppression of ongoing EEG artifact templates",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1944
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "99700ef877946bec9c430e9525000a94734b5eee02a844bad0ab48fc13b727a9"
+}

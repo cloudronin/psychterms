@@ -1,0 +1,63 @@
+{
+  "id": "life-stress",
+  "term": "life stress",
+  "definition": "Life stress is the strain a person experiences from stressors in everyday life, including work-related pressures. In this source, it is described as a factor that may worsen sleep problems and, through disturbed sleep, contribute to depressive symptoms.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11210821"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11210821",
+      "revision": "2024; DOI 10.1371/journal.pone.0305936; article XML SHA-256 902b5c5180dd5fada8335d873626f3fbe88b20d92835679bff7922a6d4bd263c",
+      "scope": "Source record 10.1371/journal.pone.0305936; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0305936"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "37708d50ee19a9b308211ca182d13bdd2545f44b49b53c61b2d37165ed538571",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9c25084252574bcbb2de43e39a99520e",
+    "request_hash": "ea68fd8677b3882d2a57b360cf0695c8bba903986fa2754733d4d1604882b7f1",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "3fbf4e1f242142aabc0c009e252705301c585331832279fdf558f4656f21da6a",
+    "packet_hash": "37708d50ee19a9b308211ca182d13bdd2545f44b49b53c61b2d37165ed538571"
+  },
+  "hash": "29e1c51481cdb3770d274b14829f3efc58e7cf7eafa93025f545259843c056be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports work-related life stress/stressors, not the broader gloss “stressors in everyday life.”",
+        "The causal phrasing should stay closer to the study’s model: it proposed that work-related life stress may indirectly increase depressive symptoms via sleep disturbance, rather than stating a general settled effect on sleep problems and depression."
+      ],
+      "definition_hash": "3fbf4e1f242142aabc0c009e252705301c585331832279fdf558f4656f21da6a",
+      "packet_hash": "37708d50ee19a9b308211ca182d13bdd2545f44b49b53c61b2d37165ed538571",
+      "published_packet_hash": "37708d50ee19a9b308211ca182d13bdd2545f44b49b53c61b2d37165ed538571",
+      "receipt_id": "9a7270f1a74743bc8e81986ecce29cd5",
+      "request_hash": "3a4a260284b5a2e07ee489514593dbd6e207f4384f2549365518acbded0d4f20",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes life stress as strain from stressors in “everyday life, including work-related pressures,” but the packet specifically operationalizes and measures “work-related stressors” and does not support the broader “everyday life” framing.",
+        "While the packet supports that work-related life stressors are modeled to increase depressive symptoms indirectly by worsening “sleep disturbance,” it does not explicitly describe this as “a factor that may worsen sleep problems” in the general sense used by the definition."
+      ],
+      "definition_hash": "3fbf4e1f242142aabc0c009e252705301c585331832279fdf558f4656f21da6a",
+      "packet_hash": "37708d50ee19a9b308211ca182d13bdd2545f44b49b53c61b2d37165ed538571",
+      "published_packet_hash": "37708d50ee19a9b308211ca182d13bdd2545f44b49b53c61b2d37165ed538571",
+      "receipt_id": "4056105fa7fe4873a64dbeeabb1aeeca",
+      "request_hash": "18ebf72f5c29a677acdbbd5728a27a29f820482e20bbda05e482da99224d5a6f",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

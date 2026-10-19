@@ -1,0 +1,60 @@
+{
+  "id": "animal-model",
+  "term": "animal model",
+  "definition": "An animal model is the use of animals in an experimental setup to try to reproduce features of a human disorder. It is intended as a research tool for studying the disorder’s underlying mechanisms, although a given procedure may or may not successfully produce the expected condition or symptoms.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13345465"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13345465",
+      "revision": "2026; DOI 10.1371/journal.pone.0317638; article XML SHA-256 533fed5d73eba0afc41a4aebbbb4f71a817353c7ccf95dcc3b71e31c69f5590a",
+      "scope": "Source record 10.1371/journal.pone.0317638; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0317638"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6c1f108c5fd26063f77f45845e4c2fa9c5a0934a1fafb48c6a2a18f4c132b5eb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a15ea180dd844fad8a4ee05a4648f90f",
+    "request_hash": "b442534ce359f971c3f9b477782db0453902dcc9e6100c2ef30375d6b3524a26",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "026c258d79fd6b742b2fb47c6ce64bc76c10c16d2a3bfc058c1e3d8118b3b5c9",
+    "packet_hash": "6c1f108c5fd26063f77f45845e4c2fa9c5a0934a1fafb48c6a2a18f4c132b5eb"
+  },
+  "hash": "e928b7c129f00e1fb9cc24a1a35937a723f83385807fa0b37f21ead4145ec41d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "026c258d79fd6b742b2fb47c6ce64bc76c10c16d2a3bfc058c1e3d8118b3b5c9",
+      "packet_hash": "6c1f108c5fd26063f77f45845e4c2fa9c5a0934a1fafb48c6a2a18f4c132b5eb",
+      "published_packet_hash": "6c1f108c5fd26063f77f45845e4c2fa9c5a0934a1fafb48c6a2a18f4c132b5eb",
+      "receipt_id": "efcf7c3c80fa4bbb8ffc4c4a921ecd8f",
+      "request_hash": "aa68fb540153b4c5aca5edf02cb5fc8dc9ee4027fc3a029ec584335486d578a1",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that an animal model is intended “as a research tool for studying the disorder’s underlying mechanisms.” It only describes an attempt to develop an animal model for Lance-Adams syndrome and mentions that mechanisms are unknown.",
+        "The clause that “a given procedure may or may not successfully produce the expected condition or symptoms” is not clearly supported in the packet as a general principle; the packet reports negative results for specific procedures, but does not define the term in those general terms."
+      ],
+      "definition_hash": "026c258d79fd6b742b2fb47c6ce64bc76c10c16d2a3bfc058c1e3d8118b3b5c9",
+      "packet_hash": "6c1f108c5fd26063f77f45845e4c2fa9c5a0934a1fafb48c6a2a18f4c132b5eb",
+      "published_packet_hash": "6c1f108c5fd26063f77f45845e4c2fa9c5a0934a1fafb48c6a2a18f4c132b5eb",
+      "receipt_id": "b8ad7c439dab4701af008cf3c2497429",
+      "request_hash": "4b488524cecdbc9821cf2d871bf67c8b1541e2d398038c4ea87ab868d44e15c2",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

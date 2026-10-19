@@ -1,0 +1,26 @@
+{
+  "id": "misclassification-cost",
+  "term": "misclassification cost",
+  "source": "article-pmc8962101",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12911-022-01821-w",
+  "revision": "2022; DOI 10.1186/s12911-022-01821-w; article XML SHA-256 8169e9ec68abd9886cb885b5d9f1f45cf5b22a5678f39303bf6aa5a43a18dde0",
+  "source_snapshot_sha256": "8169e9ec68abd9886cb885b5d9f1f45cf5b22a5678f39303bf6aa5a43a18dde0",
+  "url": "https://doi.org/10.1186/s12911-022-01821-w",
+  "text": "2015 and 2019, which concluded that ensemble techniques based on deep learning techniques performed better than a single method. Ashish [ 27 ] applied SVM and the extreme gradient boosting method to detect ischemic heart disease using the Z-Alizadeh Sani dataset. Among various ML algorithms, SVM has proven to be one of the most outstanding methods [ 28 ]. The main idea of SVM [ 29 ] is to establish an optimal decision hyperplane to maximize the distance between the two types of samples closest to the plane, thereby providing good generalization for classification problems. However, SVM does not take into consideration the class distribution and class imbalance problem. In order to handle this problem, Veropoulos et al. [ 30 ] adjusted the loss function of SVM by modifying two different misclassification cost values. Kang et al. [ 31 ] proposed a weighted undersampling method for SVM; the improved algorithm performed well on imbalanced data sets. Hazarika [ 32 ] proposed a SVM that weights the training points based on their class distributions. Recently, the use of ensemble learning on SVM has been useful and has attracted much attention [ 33 ]. Pouriyeh et al. [ 34 ] investigated different ML methods for heart disease prediction. Then ensemble learning techniques, including stacking, bagging and boosting, were applied to optimize performance. The SVM method using the boosting approach performed best. Huang et al. [ 35 ] applied different ML methods to classify supraventricular ectopic and ventricular ectopic beats. The SVM ensemble method outperformed other methods. Shorewala et al. [ 36 ] compared the performance of base ML classifiers and their ensemble techniques in detecting coronary heart disease, and the stacking model involving SVM, RF and KNN performed best. Alsafi et al. [ 37 ] proposed a ML system to diagnose coronary heart disease. They integrated RF, SVM and XGBoost techniques to build a diagnosis model after feature selection and optimized oversampling on an unbalanced dataset.",
+  "source_label": "Solving the class imbalance problem using ensemble algorithm: application of screening for aortic dissection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    8527,
+    10552
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "locked-ward",
+  "term": "locked ward",
+  "definition": "A locked ward is a type of inpatient psychiatric ward that is distinguished from an open ward as a treatment setting. In the source, it is described as a place where legally accommodated patients may spend part of their treatment.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8298815"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8298815",
+      "revision": "2021; DOI 10.3389/fpsyt.2021.685779; article XML SHA-256 423b42777c3fdff90951a49c19a48c6394321d63549451eae582191cf8c363bc",
+      "scope": "Source record 10.3389/fpsyt.2021.685779; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2021.685779"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d0511dabb06aebde79658931623375446acb11fac9fe49b9e0622a25fbe9f464",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "38626a738c0c4e65abc78a890dbe585f",
+    "request_hash": "dc1b1b56e8819d02e3916e4247f06db843731dddddbff566fe3abcd37ef1b299",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "7903e32a0af57d931be9194c217b92faa340b200b83799ef9739c7345f144cdb",
+    "packet_hash": "d0511dabb06aebde79658931623375446acb11fac9fe49b9e0622a25fbe9f464"
+  },
+  "hash": "b4ef64160562929630fe9f0c2fea3e07aff53bfdf1ae6fee1f3e956d83b87761",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that treatment occurred in an open or locked ward and involved legally accommodated patients, but it does not explicitly support defining a locked ward as a psychiatric inpatient ward.",
+        "The phrase 'as a treatment setting' is only partly supported; the source mentions duration of treatment in an open or locked ward, not a definitional statement about what a locked ward is."
+      ],
+      "definition_hash": "7903e32a0af57d931be9194c217b92faa340b200b83799ef9739c7345f144cdb",
+      "packet_hash": "d0511dabb06aebde79658931623375446acb11fac9fe49b9e0622a25fbe9f464",
+      "published_packet_hash": "d0511dabb06aebde79658931623375446acb11fac9fe49b9e0622a25fbe9f464",
+      "receipt_id": "0b29b66a0e884ec3b5de48c5f4264cfd",
+      "request_hash": "06c0109ab9962b7223a2ef0d90143c974a501e65e909532a814005f0812a3df4",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what a “locked ward” is (e.g., as a specific type of inpatient psychiatric ward); it only mentions “open or locked ward” as categories in the study parameters.",
+        "The packet does not explicitly state that a locked ward is “distinguished from an open ward” as a treatment setting; it only refers to “duration of treatment in open or locked ward.”",
+        "The packet mentions “legally accommodated patients” and “duration of treatment in open or locked ward,” but it does not explicitly describe the locked ward as “a place where legally accommodated patients may spend part of their treatment.”"
+      ],
+      "definition_hash": "7903e32a0af57d931be9194c217b92faa340b200b83799ef9739c7345f144cdb",
+      "packet_hash": "d0511dabb06aebde79658931623375446acb11fac9fe49b9e0622a25fbe9f464",
+      "published_packet_hash": "d0511dabb06aebde79658931623375446acb11fac9fe49b9e0622a25fbe9f464",
+      "receipt_id": "ca1b0f8deec24edfa1621ecec369f1ab",
+      "request_hash": "a4b60cd97c1a4e4e6e86754ee08f4c14aa7a9fd9711222d32fbcea6626545c50",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

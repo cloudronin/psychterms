@@ -1,0 +1,60 @@
+{
+  "id": "pk",
+  "term": "PK",
+  "definition": "PK refers to pharmacokinetics, the way a drug behaves in the body over time after it is given, including how its concentration changes. In the packet, PK is used as part of PK–PD modeling to link dosing and drug concentration with the resulting therapeutic effect.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13390843"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13390843",
+      "revision": "2026; DOI 10.1371/journal.pone.0354029; article XML SHA-256 3867f34b83d3c3f9d4590da1e17dc9d2dc4446d76571b4bb18a4d1734b2cf3bd",
+      "scope": "Source record 10.1371/journal.pone.0354029; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354029"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "81fb9f00f8984473a8ac4f8d0c7c207f",
+    "request_hash": "f229f3dc66be850a88c5371c82cc0849836e2ba18f3298493acde1e60916b4b8",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "8aa809e454e63d643baff05ac48a944a16a7b3c1f6231e7ab2b53eaecd5807d4",
+    "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda"
+  },
+  "hash": "581729a1801ba0617687bd4278ee133598d46379efea9acdd3c06c8285b48c8e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8aa809e454e63d643baff05ac48a944a16a7b3c1f6231e7ab2b53eaecd5807d4",
+      "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda",
+      "published_packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda",
+      "receipt_id": "dd682377b9d7498ba5a2bcad6f4d2258",
+      "request_hash": "9a8fa11c7fc7e87b440a4b3dc63cc8d6ead5113395821486a231212c3c864424",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports PK as pharmacokinetics in a pharmacokinetic/pharmacodynamic drug-modeling context, but not as a term in the field of learning.",
+        "The definition attributes a learning-context sense to PK without support from the packet, which is about oral drug dosing and PK–PD modeling rather than psychology or education."
+      ],
+      "definition_hash": "8aa809e454e63d643baff05ac48a944a16a7b3c1f6231e7ab2b53eaecd5807d4",
+      "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda",
+      "published_packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda",
+      "receipt_id": "1bc7a0bd828f431b987b7edfd870cb1b",
+      "request_hash": "f5d3cee7f147a71212d60a19d023b2ee191960b2ee30ecffbde05ff1aba6609f",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

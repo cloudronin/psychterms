@@ -1,0 +1,65 @@
+{
+  "id": "afferent-stimulation",
+  "term": "afferent stimulation",
+  "definition": "Afferent stimulation is the activation of afferent nerve fibers, meaning incoming sensory pathways that carry signals toward the central nervous system. In this source, it refers to stimulating visceral sensory afferents to produce spinal reflex and synaptic responses.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3489886"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3489886",
+      "revision": "2012; DOI 10.1371/journal.pone.0047213; article XML SHA-256 a23ba951dc479a96fc18c268f1be90ebd808db7165055e106374f5c349562eb2",
+      "scope": "Source record 10.1371/journal.pone.0047213; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0047213"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3fe294899069e9bb66af9e45626a82ccf4bdfa89c54a7aeb12d519ea0b37f4b9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "91b1e341f79448278e9d054a21704680",
+    "request_hash": "4200a9de43c63dfceb98f1bd65842616610072f0d83fa3da8431ffc4006e6981",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "d46bbc99f69cee58a044264436e7f4ae7cb723c412b9a9bf45059655c70098d6",
+    "packet_hash": "3fe294899069e9bb66af9e45626a82ccf4bdfa89c54a7aeb12d519ea0b37f4b9"
+  },
+  "hash": "4b3da9582d03ec8ce71fbd5b65559d9546638292816395d026bb7dc2b98b7d23",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a general description of afferent pathways (“incoming sensory pathways that carry signals toward the central nervous system”), but the provided packet does not explicitly support this meaning or explain afferents in those terms.",
+        "The definition claims that this source “refers to stimulating visceral sensory afferents to produce spinal reflex and synaptic responses”; while the packet does describe stimulating splanchnic nerve visceral afferents and observing reflexes and dorsal root/synaptic potentials, it does not justify the broader “visceral sensory afferents” framing as a defined meaning of the term beyond the specific experimental context.",
+        "The packet is about neonatal mouse thoracic spinal cord physiology (viscero-sympathetic function, afferent stimulation, monoaminergic modulation), which is not supported as belonging to the requested field “cognition.”"
+      ],
+      "definition_hash": "d46bbc99f69cee58a044264436e7f4ae7cb723c412b9a9bf45059655c70098d6",
+      "packet_hash": "3fe294899069e9bb66af9e45626a82ccf4bdfa89c54a7aeb12d519ea0b37f4b9",
+      "published_packet_hash": "3fe294899069e9bb66af9e45626a82ccf4bdfa89c54a7aeb12d519ea0b37f4b9",
+      "receipt_id": "f1e2a5036979447d800eaf2c6b850391",
+      "request_hash": "9fbb17a6d18360f0cc6a2d9ed56902d686bf32557274d82a5981a6daff4f4ce7",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition generalizes beyond the packet by defining afferent stimulation as activation of afferent nerve fibers in general; the source only describes stimulation of splanchnic nerve visceral afferents in a spinal preparation. ",
+        "The field label \"cognition\" is not supported by the packet, which is about spinal visceral afferent modulation and autonomic/sympathetic function rather than cognition. ",
+        "The phrase \"to produce spinal reflex and synaptic responses\" is partly supported, but the packet frames these as observed effects of visceral afferent stimulation; it does not define the term that way."
+      ],
+      "definition_hash": "d46bbc99f69cee58a044264436e7f4ae7cb723c412b9a9bf45059655c70098d6",
+      "packet_hash": "3fe294899069e9bb66af9e45626a82ccf4bdfa89c54a7aeb12d519ea0b37f4b9",
+      "published_packet_hash": "3fe294899069e9bb66af9e45626a82ccf4bdfa89c54a7aeb12d519ea0b37f4b9",
+      "receipt_id": "f4892a910d944d9ea647bd8d0f33358a",
+      "request_hash": "6c7b515ed79d68ec36df32963d17773d9c0674740c279de8aca47691555286a0",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

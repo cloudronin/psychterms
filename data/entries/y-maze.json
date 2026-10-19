@@ -1,0 +1,60 @@
+{
+  "id": "y-maze",
+  "term": "Y maze",
+  "definition": "A Y maze is a behavioral task used in mice to assess declarative memory. In the supplied study, performance on this task was indexed by exploration rate and was examined in relation to motor learning performance.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13322532"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13322532",
+      "revision": "2026; DOI 10.1371/journal.pone.0352676; article XML SHA-256 2493bf1b15d9001f45ac2c377b87043157f5c90557b8d2a32b2b0e6669a3d481",
+      "scope": "Source record 10.1371/journal.pone.0352676; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0352676"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b39df75e5430d3a41c12fabdd615d3d126463561c2cb73502e33a76c7e5a0d38",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "92ec8c22946a4522be370825593d961c",
+    "request_hash": "87786b5201a1baf191098ccd5f22b02e16b626dbf35d034c110242efbd6104ad",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "21caf69803fc625f718af8140de4cdb6f3999b3c984fcddbcd41c2f473ae0d3f",
+    "packet_hash": "b39df75e5430d3a41c12fabdd615d3d126463561c2cb73502e33a76c7e5a0d38"
+  },
+  "hash": "c82e11a10bda42b48518779bc85106cb376b794a953c2a69c5c3976696a0b660",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "21caf69803fc625f718af8140de4cdb6f3999b3c984fcddbcd41c2f473ae0d3f",
+      "packet_hash": "b39df75e5430d3a41c12fabdd615d3d126463561c2cb73502e33a76c7e5a0d38",
+      "published_packet_hash": "b39df75e5430d3a41c12fabdd615d3d126463561c2cb73502e33a76c7e5a0d38",
+      "receipt_id": "873cabe965d049dfbcd906a733ccb64c",
+      "request_hash": "d8e86ec1b775816cf00e4b01bc51385abc25027c4d82905330f730144fe4fa71",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports Y-maze as a behavioral task in mice used to assess declarative memory, but it does not clearly support the claim that Y-maze performance itself was indexed by exploration rate; it only says that a higher exploration rate was associated with higher pellet-reaching success.",
+        "The sentence about how the task was examined in relation to motor learning is supported in substance, but the definition adds an unsupported measurement detail that makes the definition too specific for the packet."
+      ],
+      "definition_hash": "21caf69803fc625f718af8140de4cdb6f3999b3c984fcddbcd41c2f473ae0d3f",
+      "packet_hash": "b39df75e5430d3a41c12fabdd615d3d126463561c2cb73502e33a76c7e5a0d38",
+      "published_packet_hash": "b39df75e5430d3a41c12fabdd615d3d126463561c2cb73502e33a76c7e5a0d38",
+      "receipt_id": "792de593b32246c9b2491e07243fd80a",
+      "request_hash": "00290dc90a2f3e828a016b519863d9afd6fcf16b4735bee2204cf7ded3fa0045",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

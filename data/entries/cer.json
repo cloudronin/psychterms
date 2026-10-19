@@ -1,0 +1,60 @@
+{
+  "id": "cer",
+  "term": "CER",
+  "definition": "CER refers to the cerebellar network in brain connectivity research. In the supplied source, it is discussed as a network whose functional connectivity changes with working-memory load and is examined for possible altered cerebellar-cortical integration in schizophrenia.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13083132"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13083132",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1796599; article XML SHA-256 67a98e7cc30aed6c5ce192846eb1ce9d0d7bcd10ea25167326b0bc1eef599fa6",
+      "scope": "Source record 10.3389/fpsyt.2026.1796599; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1796599"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c9e2689f76d34fdeb3f46b3ff64bc996",
+    "request_hash": "4f054771bddc736eb602735619fb47ba7d1bb1bbc53cbc6b731bc5e16dc25ee1",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "b779cd0953cce10cb00b87076adcc7c91708a44f4c48436de25c831531532789",
+    "packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551"
+  },
+  "hash": "ac9d65fcd6a2a8625f430598c4ac233b4ad2c015e50d1860519a953d1ef442ce",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b779cd0953cce10cb00b87076adcc7c91708a44f4c48436de25c831531532789",
+      "packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551",
+      "published_packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551",
+      "receipt_id": "b0c3741f3fc443b293adb10142ca6c49",
+      "request_hash": "dbc4a1127c378b12c58014d2a62fe9532307cab6fd8ad4f0d428afd7bc4e50f6",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is incorrect: the packet uses CER as a research network label in cognitive neuroscience, not a diagnosis term.",
+        "The definition frames CER as being discussed specifically in schizophrenia research, but the packet supports this only as one study context; it does not establish CER as a diagnostic concept."
+      ],
+      "definition_hash": "b779cd0953cce10cb00b87076adcc7c91708a44f4c48436de25c831531532789",
+      "packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551",
+      "published_packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551",
+      "receipt_id": "63f256df41874682a10399ab9b403c2a",
+      "request_hash": "0deaac398acb23f75049fc8773cfc233bab10513d6517741024f86f7129eb3aa",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

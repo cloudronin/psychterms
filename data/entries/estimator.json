@@ -1,0 +1,60 @@
+{
+  "id": "estimator",
+  "term": "estimator",
+  "definition": "An estimator is a statistical method used to infer a population value, such as a mean, from sample data. In this source, it refers to using study data together with related auxiliary variables to produce a more precise estimate of the population mean.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11407636"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11407636",
+      "revision": "2024; DOI 10.1371/journal.pone.0307607; article XML SHA-256 fe246b01ba17e4cf9d6d9048a8f4d5d6ff886a3486c910193f781e875cd9bacd",
+      "scope": "Source record 10.1371/journal.pone.0307607; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0307607"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "52029dcc74eba62ddaba294f939c65314540c264faafa8ce9f7e01a8cb8b7c83",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2751d23e86554a17966f758d5776b081",
+    "request_hash": "b62216aa0b6491c9ee5f0b28b6683dc63b1cf412e38cfff40a08285b18ee8492",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "0fbf7df7eed0cc193f13255142d31dfd7d5381c04bbbda11328dcc8cd2ca0934",
+    "packet_hash": "52029dcc74eba62ddaba294f939c65314540c264faafa8ce9f7e01a8cb8b7c83"
+  },
+  "hash": "1d1b1abf3ccb2b3476be81f9ee234579fddb787e60a88f53ca29aaff901fa59c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0fbf7df7eed0cc193f13255142d31dfd7d5381c04bbbda11328dcc8cd2ca0934",
+      "packet_hash": "52029dcc74eba62ddaba294f939c65314540c264faafa8ce9f7e01a8cb8b7c83",
+      "published_packet_hash": "52029dcc74eba62ddaba294f939c65314540c264faafa8ce9f7e01a8cb8b7c83",
+      "receipt_id": "151791e3cc3344c2b19b6cdb885826a8",
+      "request_hash": "bf0c2c6de17ac87683ab4fde564b2bd51148e6f5413a0d29d8e0de5404190833",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening sentence adds a general statistical definition (“used to infer a population value…from sample data”) that is not stated in the supplied packet.",
+        "The packet supports only the specific mixture-estimator use for estimating a study variable’s population mean with auxiliary variables; it does not establish the broader generalization to all estimators."
+      ],
+      "definition_hash": "0fbf7df7eed0cc193f13255142d31dfd7d5381c04bbbda11328dcc8cd2ca0934",
+      "packet_hash": "52029dcc74eba62ddaba294f939c65314540c264faafa8ce9f7e01a8cb8b7c83",
+      "published_packet_hash": "52029dcc74eba62ddaba294f939c65314540c264faafa8ce9f7e01a8cb8b7c83",
+      "receipt_id": "895e97791dab4df39c6fd61295e89ee7",
+      "request_hash": "2c13bb8d859d54501c74fef61326529d6dafc3c53eff59b2866a66a19ccbbef0",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

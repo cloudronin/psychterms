@@ -1,0 +1,59 @@
+{
+  "id": "numerical-variable",
+  "term": "numerical variable",
+  "definition": "A numerical variable is a variable expressed in numbers. In this source, it refers to a count that can take non-negative values, such as the number of deceased children within a family.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11809813"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11809813",
+      "revision": "2025; DOI 10.1371/journal.pone.0318787; article XML SHA-256 f542beb67781ccf85d63217942213745b406e03a8686ad11cede9547d4b164c3",
+      "scope": "Source record 10.1371/journal.pone.0318787; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0318787"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "5415a9eb5365aa4937d1a647ac4b4eadc6a2e0631642a79b97af402ee6e15c77",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a225175b8cfd4b10b2d6c499424e588d",
+    "request_hash": "6da9983358680c1dd2fc0a5bc5d7b1039e7e7cf43547a796f10b62c14b6c7cb3",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "b77818f2540863d8ca553072c3aef4a1c4bfb55a910e01b614a302def05e798c",
+    "packet_hash": "5415a9eb5365aa4937d1a647ac4b4eadc6a2e0631642a79b97af402ee6e15c77"
+  },
+  "hash": "bb6bb39380be9bcf61fe80bfe4fe898e5d831d164bd73c873e9c5e3bc063e6a6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b77818f2540863d8ca553072c3aef4a1c4bfb55a910e01b614a302def05e798c",
+      "packet_hash": "5415a9eb5365aa4937d1a647ac4b4eadc6a2e0631642a79b97af402ee6e15c77",
+      "published_packet_hash": "5415a9eb5365aa4937d1a647ac4b4eadc6a2e0631642a79b97af402ee6e15c77",
+      "receipt_id": "ee1fb3126eae4ac5944dba6c4a947e4a",
+      "request_hash": "3d62e6541e71acd0c3601792fdc4c1d49a6ecb522503fba8d76f727804f1d602",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“A numerical variable is a variable expressed in numbers.”) is a general statement that is not explicitly supported by the provided packet text."
+      ],
+      "definition_hash": "b77818f2540863d8ca553072c3aef4a1c4bfb55a910e01b614a302def05e798c",
+      "packet_hash": "5415a9eb5365aa4937d1a647ac4b4eadc6a2e0631642a79b97af402ee6e15c77",
+      "published_packet_hash": "5415a9eb5365aa4937d1a647ac4b4eadc6a2e0631642a79b97af402ee6e15c77",
+      "receipt_id": "066584a22bd84c73a3a1bc4ac44f973d",
+      "request_hash": "ad0e0f91bd56874390cb1366344210c0f0e9c3260539e06ba9e92f8b466387b0",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

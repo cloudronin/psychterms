@@ -1,0 +1,61 @@
+{
+  "id": "gls",
+  "term": "GLS",
+  "definition": "GLS stands for Generalized Least Squares. It is a statistical modeling approach used to examine how measured factors are related to an outcome, such as estimating how changes in one variable are associated with changes in another while accounting for the data structure.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13557397"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13557397",
+      "revision": "2026; DOI 10.1371/journal.pone.0344649; article XML SHA-256 5a4f5654bf8d4cd21a800ad4038ad5543ec41670034eccf8f6a2a5ae87c8f132",
+      "scope": "Source record 10.1371/journal.pone.0344649; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0344649"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a32bbcf09bfb4afb97958e3ee4b048cf",
+    "request_hash": "d28a90df138b6686ca870169099af3292cce8b88fd67e13cddc7a26f48d733ce",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "18b347e9493811bd75c70aa078a3d774ebfadd128eb2fe7b72e9ba94e3b296ff",
+    "packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc"
+  },
+  "hash": "47873b325594e529b009def4df4de81ffea3c3d340587c130bb1058de2c1c640",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "18b347e9493811bd75c70aa078a3d774ebfadd128eb2fe7b72e9ba94e3b296ff",
+      "packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc",
+      "published_packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc",
+      "receipt_id": "60359937ac81467ba922ff1baadd8af5",
+      "request_hash": "d1272fabbb4815217a3393f06f884d45ac5aad60708b202b4788b3d71fc00974",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define GLS or provide the meaning of the acronym beyond using it as a method name (“Generalized Least Squares (GLS) models”).",
+        "The definition’s description (e.g., that GLS is for examining relationships between “measured factors” and an “outcome,” and that it “accounts for the data structure”) is not stated in the provided packet text.",
+        "The packet only reports that GLS models were used to assess relationships between vessel noise levels and fish chorus sound levels; it does not support the general explanatory wording used in the definition."
+      ],
+      "definition_hash": "18b347e9493811bd75c70aa078a3d774ebfadd128eb2fe7b72e9ba94e3b296ff",
+      "packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc",
+      "published_packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc",
+      "receipt_id": "ee0c910a296348e1bcbd6020b8a8def4",
+      "request_hash": "5536d29ae2e0c3184e0c31f7d836cbbbdea90c4030b0cc81a95417ff6351109b",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

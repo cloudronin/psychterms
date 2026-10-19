@@ -1,0 +1,64 @@
+{
+  "id": "excitatory-postsynaptic-potential",
+  "term": "excitatory postsynaptic potential",
+  "definition": "An excitatory postsynaptic potential is the voltage change produced in a postsynaptic neuron by excitatory input. In the source, it is the excitatory component of neuronal signaling, associated with glutamatergic input and measured as a voltage value at its peak.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3538611"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3538611",
+      "revision": "2013; DOI 10.1371/journal.pone.0053508; article XML SHA-256 b453d9b4221456b78064da5da819beb2b15de09d3b775a51e28861cb23d11f8f",
+      "scope": "Source record 10.1371/journal.pone.0053508; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0053508"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "04b10c825b59de245107a3abed1546b7e52f8d225361113f4bf888f0a50b78f3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c6a97658ccad4a9e9f5a53155159c424",
+    "request_hash": "bfad04b3216419054c190e3b79a55a870f3ad76ad71ca6a7a5e7590e3aeb8111",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "c314d6172d072bc5dca2463f070e4de02e32e57da6311b263209e9cd79f63a0b",
+    "packet_hash": "04b10c825b59de245107a3abed1546b7e52f8d225361113f4bf888f0a50b78f3"
+  },
+  "hash": "5a2061231e87582e0f00f7acd539290157e640ed29f57bb2cadcbc51eff37a80",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “the excitatory component of neuronal signaling” is broader than what the packet states; the source only describes the excitatory postsynaptic potential (EPSP) as a voltage value in a dendritic integration rule.",
+        "The definition adds an association with glutamatergic input, which is supported, but it presents this as a general definitional feature rather than the packet’s specific experimental context.",
+        "The wording is otherwise close, but it should stay tightly tied to the source’s statement that the EPSP is measured as a voltage value at the time it reaches its peak."
+      ],
+      "definition_hash": "c314d6172d072bc5dca2463f070e4de02e32e57da6311b263209e9cd79f63a0b",
+      "packet_hash": "04b10c825b59de245107a3abed1546b7e52f8d225361113f4bf888f0a50b78f3",
+      "published_packet_hash": "04b10c825b59de245107a3abed1546b7e52f8d225361113f4bf888f0a50b78f3",
+      "receipt_id": "8152ce4cf1e2490a81a7518c0b5a77c3",
+      "request_hash": "dba021c4875c9b4dd399300f97c1b9c7f5dc213660d74d51952f804f9dd5971f",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the term is “the excitatory component of neuronal signaling,” but the packet only describes EPSP in the context of dendritic integration experiments/models and does not explicitly support this phrasing as a definitional characterization.",
+        "While the packet supports that the EPSP is a voltage value associated with excitatory glutamatergic input and that it is measured at the time when it reaches its peak, it does not explicitly define EPSP as “the voltage change produced in a postsynaptic neuron by excitatory input” in those exact terms."
+      ],
+      "definition_hash": "c314d6172d072bc5dca2463f070e4de02e32e57da6311b263209e9cd79f63a0b",
+      "packet_hash": "04b10c825b59de245107a3abed1546b7e52f8d225361113f4bf888f0a50b78f3",
+      "published_packet_hash": "04b10c825b59de245107a3abed1546b7e52f8d225361113f4bf888f0a50b78f3",
+      "receipt_id": "432996d2281a4d24a0fa9579b994b5c8",
+      "request_hash": "dfe9b7aa0bc1d00d9f984acd393784ecd6591a914acc4422cba929c601bc80d3",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "loci",
+  "term": "loci",
+  "definition": "In this genetics context, loci are specific positions on chromosomes where genetic variation is studied for links to a trait or disorder. A locus may show a strong association on its own, or many loci may each contribute a small part to a complex inherited pattern.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13558399"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13558399",
+      "revision": "2026; DOI 10.3389/fpsyt.2026.1911755; article XML SHA-256 a3ace38f299e845892b6d9ae8c582b5d479941c7d29443e2a3b9f5ff28d40eb8",
+      "scope": "Source record 10.3389/fpsyt.2026.1911755; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyt.2026.1911755"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "97b372ea9fba8da92bdc99bf4e286c6dcef0cc39f97e52f90ece455fa7ce489b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b2a19c6e6e6c40c4abceacddd0b2a6ca",
+    "request_hash": "8a5f1795e0c05a78166014471bafd7913a0f998831685196367b5e488665c9b6",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "fcf29f9ffbacea688e7df86a75efa7809aec4cdc3c4c0f033dfe7a4acb15069c",
+    "packet_hash": "97b372ea9fba8da92bdc99bf4e286c6dcef0cc39f97e52f90ece455fa7ce489b"
+  },
+  "hash": "271e5716b40c5d18ba10b41ed62757d03587813e499e65d5239d7f0b1ed2835d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “loci” as specific positions on chromosomes, nor does it state how loci are used to study genetic variation for links to traits/disorders.",
+        "The packet mentions “genome-wide significant loci” associated with PPH and describes polygenic architecture, but it does not support the definition’s broader claims about loci being “specific positions” and about studying genetic variation for disorder/trait links in general terms."
+      ],
+      "definition_hash": "fcf29f9ffbacea688e7df86a75efa7809aec4cdc3c4c0f033dfe7a4acb15069c",
+      "packet_hash": "97b372ea9fba8da92bdc99bf4e286c6dcef0cc39f97e52f90ece455fa7ce489b",
+      "published_packet_hash": "97b372ea9fba8da92bdc99bf4e286c6dcef0cc39f97e52f90ece455fa7ce489b",
+      "receipt_id": "932f90dcd67f4dc1a33a047e6ef5f3e9",
+      "request_hash": "045f829b1331b627bce2c8f46afb01a67bec968c83676ecfef5ccc13637e674b",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports GWAS-identified loci associated with pregnancy-related bleeding, but it does not define loci as specific positions on chromosomes.",
+        "The definition adds a broader genetics explanation and trait/disorder framing that is only partly supported by the packet and is not stated in the source.",
+        "The phrase about a locus showing a strong association on its own versus many loci contributing small effects is only indirectly suggested; the packet does not provide a general definition of loci."
+      ],
+      "definition_hash": "fcf29f9ffbacea688e7df86a75efa7809aec4cdc3c4c0f033dfe7a4acb15069c",
+      "packet_hash": "97b372ea9fba8da92bdc99bf4e286c6dcef0cc39f97e52f90ece455fa7ce489b",
+      "published_packet_hash": "97b372ea9fba8da92bdc99bf4e286c6dcef0cc39f97e52f90ece455fa7ce489b",
+      "receipt_id": "68d48e18638b4256a03b5344d7dec296",
+      "request_hash": "c67bc74ac77af552b4b8c545e9fc962f9cffaa758e53217a27aee7a2c5b7099c",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

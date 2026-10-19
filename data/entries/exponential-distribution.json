@@ -1,0 +1,60 @@
+{
+  "id": "exponential-distribution",
+  "term": "exponential distribution",
+  "definition": "The exponential distribution is a statistical distribution often used to describe how long it takes until an event occurs, such as the lifetime of a manufactured item or the time until disease remission. A key feature is its memoryless property, meaning the future waiting time does not depend on how much time has already passed.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10645298"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10645298",
+      "revision": "2023; DOI 10.1371/journal.pone.0285992; article XML SHA-256 dffe21586bb4f7fc556c4136eb8abe4f98c37fa9ad07f2fb711334c93acff4a6",
+      "scope": "Source record 10.1371/journal.pone.0285992; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0285992"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "779e88eaaec143bb88fe541e2613a601",
+    "request_hash": "7fd9dbd5174d84df421dccb897aede06bd4cd316228db1bd80e74089fa58090b",
+    "registration_hash": "9c04ed92736bd1b1d9f94adbacdbc92af7a2ba2664706449bdbedb5a52f16d88",
+    "definition_hash": "0a0ab8f4caa41ba93d4e41478cbd9bf21c9f568a37cb37739c488c9fa11d4973",
+    "packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6"
+  },
+  "hash": "ed87a611d4774f09d4232aba8ebfefab64670510af974f60040a9494a0543871",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0a0ab8f4caa41ba93d4e41478cbd9bf21c9f568a37cb37739c488c9fa11d4973",
+      "packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6",
+      "published_packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6",
+      "receipt_id": "f873fd4681914bb7a6fb94dc97d2ab36",
+      "request_hash": "287f3080474f3cbaba824a7558d1d63d368e13b12a17a3079d58baae81a5f1e7",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the definition’s specific explanation of the memoryless property as “future waiting time does not depend on how much time has already passed.” It only mentions a “memory less property” without describing this dependence (or independence).",
+        "The packet provides examples of modeling lifetimes and remission times, but it does not support framing this as being “often used to describe how long it takes until an event occurs” in a psychology/cognition context."
+      ],
+      "definition_hash": "0a0ab8f4caa41ba93d4e41478cbd9bf21c9f568a37cb37739c488c9fa11d4973",
+      "packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6",
+      "published_packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6",
+      "receipt_id": "20d3812fe03d4218918ea7d4287b9d28",
+      "request_hash": "6d4b753dfe0afd619122502e36b0256f603c9e20e4e6228a51e610b06c37412d",
+      "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
+    }
+  ]
+}

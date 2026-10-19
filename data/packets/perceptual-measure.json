@@ -1,0 +1,26 @@
+{
+  "id": "perceptual-measure",
+  "term": "perceptual measure",
+  "source": "article-pmc9071145",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0267056",
+  "revision": "2022; DOI 10.1371/journal.pone.0267056; article XML SHA-256 506a5f162c9f2778815d291e815feed178ad45394badf093260e8fc6baf31f00",
+  "source_snapshot_sha256": "506a5f162c9f2778815d291e815feed178ad45394badf093260e8fc6baf31f00",
+  "url": "https://doi.org/10.1371/journal.pone.0267056",
+  "text": "Image processing algorithms are used to improve digital image representations in either their appearance or storage efficiency. The merit of these algorithms depends, in part, on visual perception by human observers. However, in practice, most are assessed numerically, and the perceptual metrics that do exist are criterion sensitive with several shortcomings. Here we propose an objective performance-based perceptual measure of image quality and demonstrate this by comparing the efficacy of a denoising algorithm for a variety of filters. For baseline, we measured detection thresholds for a white noise signal added to one of a pair of natural images in a two-alternative forced-choice (2AFC) paradigm where each image was selected randomly from a set of n = 308 on each trial. In a series of experimental conditions, the stimulus image pairs were passed through various configurations of a denoising algorithm. The differences in noise detection thresholds with and without denoising are objective perceptual measures of the ability of the algorithm to render noise invisible. This was a factor of two (6dB) in our experiment and consistent across a range of filter bandwidths and types. We also found that thresholds in all conditions converged on a common value of PSNR, offering support for this metric. We discuss how the 2AFC approach might be used for other algorithms including compression, deblurring and edge-detection. Finally, we provide a derivation for our Cartesian-separable log-Gabor filters, with polar parameters. For the biological vision community this has some advantages over the more typical (i) polar-separable variety and (ii) Cartesian-separable variety with Cartesian parameters.",
+  "source_label": "A psychophysical performance-based approach to the quality assessment of image processing algorithms",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1712
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "article-requested-concept:cognition",
+    "policy_version": 3
+  },
+  "packet_hash": "ec27b90ebd47ebcad12d0217535e2da2014e89535c1b8b156b8fdc7ebf39ea39"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "drug-metabolism",
+  "term": "drug metabolism",
+  "definition": "Drug metabolism is the body’s processing of a medication, especially in the liver, which can change how effective it is and how toxic it becomes. By turning a drug into other compounds, metabolism can lower or raise risks such as harmful side effects, including effects that depend on drug–drug interactions.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11666010"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11666010",
+      "revision": "2024; DOI 10.1371/journal.pone.0315997; article XML SHA-256 0f93d5653056509536034368dc0bfcf626cf51eae9587a3a471c7dcd4fbb558c",
+      "scope": "Source record 10.1371/journal.pone.0315997; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0315997"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c82b20faf531403fa71aa5586144300f",
+    "request_hash": "3bcdaff14b3536672ffb18aba5c15ae390a1a1d4ffe6fda98f061a0fbf5ffca3",
+    "registration_hash": "5c490b681daeaf182d38c4329d8d3eef885f9a2af23c9be8197c6f7a3cc13c21",
+    "definition_hash": "bd37342826683d7418ca30c93c61c0596886485798b425c5ec170d1e15082573",
+    "packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c"
+  },
+  "hash": "23ca6ea54b31717254f397de9edf16516b86d736a448654fb101f548a9257b9e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bd37342826683d7418ca30c93c61c0596886485798b425c5ec170d1e15082573",
+      "packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c",
+      "published_packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c",
+      "receipt_id": "800b7c806cc94a379735c7c950ef4bd4",
+      "request_hash": "ef8fbe231d2e69896eaa1dcafa8e09082856834949cde5af862b4f893c5445fe",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that metabolism “can lower or raise risks such as harmful side effects” is not supported by the packet, which specifically discusses drug efficacy and cardiotoxicity (e.g., cardiotoxicity risk, torsades de pointes/QT prolongation), not general “harmful side effects.”"
+      ],
+      "definition_hash": "bd37342826683d7418ca30c93c61c0596886485798b425c5ec170d1e15082573",
+      "packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c",
+      "published_packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c",
+      "receipt_id": "a038b7c6b27c40bb830a50cb53b495ce",
+      "request_hash": "635241e2d73c7e39324b9cbbed86c42b46bb777537a83f5d6fe9ec33df095fda",
+      "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
+    }
+  ]
+}

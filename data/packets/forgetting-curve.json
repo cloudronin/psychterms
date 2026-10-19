@@ -1,0 +1,26 @@
+{
+  "id": "forgetting-curve",
+  "term": "forgetting curve",
+  "source": "article-pmc11524465",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0312022",
+  "revision": "2024; DOI 10.1371/journal.pone.0312022; article XML SHA-256 95ab626108865448de513220dea9f91ca3d24887d63bef701020a0de25b6f8f3",
+  "source_snapshot_sha256": "95ab626108865448de513220dea9f91ca3d24887d63bef701020a0de25b6f8f3",
+  "url": "https://doi.org/10.1371/journal.pone.0312022",
+  "text": "Knowledge tracing is a technology that models students’ changing knowledge state over learning time based on their historical answer records, thus predicting their learning ability. It is the core module that supports the intelligent education system. To address the problems of sparse input data, lack of interpretability and weak capacity to capture the relationship between exercises in the existing models, this paper build a deep knowledge tracing model DKVMN&MRI based on the Dynamic Key-Value Memory Network (DKVMN) that incorporates multiple relationship information including exercise-knowledge point relations, exercise-exercise relations, and learning-forgetting relations. In the model, firstly, the Q-matrix is utilized to map the link between knowledge points and exercises to the input layer; secondly, improved DKVMN and LSTM are used to model the learning process of learners, then the Ebbinghaus forgetting curve function is introduced to simulate the process of memory forgetting in learners, and finally, the prediction strategies of Item Response Theory (IRT) and attention mechanism are used to combine the similarity relationship between learners’ knowledge state and exercises to calculate the probability that learners would correctly respond during the subsequent time step. Through extensive experiments on three real-world datasets, we demonstrate that DKVMN&MRI has significant improvements in both AUC and ACC metrics contrast with the latest models. Furthermore, the study provides explanations at both the exercise level and learner knowledge state level, demonstrating the interpretability and efficacy of the proposed model.",
+  "source_label": "DKVMN&MRI: A new deep knowledge tracing model based on DKVMN incorporating multi-relational information",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1658
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "d782d66c1f5f6ea041bb68bcd2f82138d96c488ac69eee2091e23ec99da43294"
+}

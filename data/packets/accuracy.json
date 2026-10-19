@@ -1,0 +1,26 @@
+{
+  "id": "accuracy",
+  "term": "accuracy",
+  "source": "article-pmc13513995",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0356987",
+  "revision": "2026; DOI 10.1371/journal.pone.0356987; article XML SHA-256 4b06541ed8f7e64145d59ca56a793fe23d1e0b9d4b6bfe40a684e299a401d342",
+  "source_snapshot_sha256": "4b06541ed8f7e64145d59ca56a793fe23d1e0b9d4b6bfe40a684e299a401d342",
+  "url": "https://doi.org/10.1371/journal.pone.0356987",
+  "text": "Three-dimensional reconstruction of the knee plays an important role in orthopedic surgery and clinical decision-making, enabling precise implant planning, evaluation of joint mechanics, and personalized treatment. Computed tomography remains the reference standard for generating 3D bone models, but its use is limited by high radiation dose, cost, and restricted accessibility. This has driven growing interest in reconstructing knee anatomy from two-dimensional radiographs or fluoroscopy as a safer and more widely available alternative. However, the performance of these approaches has not been systematically compared to support clinical translation. This systematic review evaluated methods for 3D knee reconstruction from 2D imaging and compared their accuracy, imaging requirements, computational performance, and clinical applicability. A comprehensive search of seven scientific databases and grey literature sources identified 28 eligible studies spanning statistical shape modeling, deep learning, model-based registration, and hybrid methods. Data extracted included input modality, number of views, validation design, dataset size, accuracy relative to volumetric ground truth, and processing time. Due to variability in reporting and evaluation protocols, a narrative synthesis was performed. Accuracy has improved substantially over three decades, with recent approaches achieving approximately 0.5–1.0 mm root-mean-square error and processing times ranging from under one second to several minutes. Increasing the number of projection views improved reconstruction performance, although clinically acceptable accuracy was often achievable with two orthogonal radiographs. Key limitations included small validation cohorts, limited pathological representation, heterogeneous accuracy metrics, and a lack of public benchmark datasets. Our findings indicate that 3D reconstruction from radiography can achieve accuracy potentially suitable for surgical planning, intraoperative guidance, and longitudinal monitoring, but this is tempered by small validation cohorts, limited pathological representation, and frequent reliance on simulated or digitally reconstructed radiograph (DRR) validation. Future progress requires larger multi-center evaluations, standardized reporting, uncertainty quantification, and integration with clinical workflow systems. With these advances,",
+  "source_label": "Two-dimensional to three-dimensional knee reconstruction from radiographs and fluoroscopy: A systematic review of methods and accuracy (1995–2025)",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    2388
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e"
+}

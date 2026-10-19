@@ -1,0 +1,64 @@
+{
+  "id": "inpatient",
+  "term": "inpatient",
+  "definition": "In this context, an inpatient is a person admitted to a hospital or psychiatric ward for care and treatment, rather than being seen only during visits. Psychiatric inpatient hospitalisation means staying in hospital while receiving mental health care.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13577376"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13577376",
+      "revision": "2026; DOI 10.1371/journal.pone.0355693; article XML SHA-256 10696aa5bfc65fe9ce9222e255b27946453d7f5a423bfc5b0e7a84d663444dd6",
+      "scope": "Source record 10.1371/journal.pone.0355693; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0355693"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d85192461170e67fe8fa57a02829067d3b1a4f7b57d9f0f2adb91c59777e4892",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "7425f46f5f59454d9af5d62fc9ea176b",
+    "request_hash": "dc6f740a0ad9a8a543c662d105008d7df0914a6c9f3480e896477c86185e643b",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "c31df5c261e6f4e556ce0e9b2ced05ed00b1a4b188ee1de1e1de5512c1494291",
+    "packet_hash": "d85192461170e67fe8fa57a02829067d3b1a4f7b57d9f0f2adb91c59777e4892"
+  },
+  "hash": "9cb8641fbf43150a141b3ef42892d7022d19adf5eb8a44067c2a5145b0b8fdb6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds an unsupported contrast (“rather than being seen only during visits”) that is not supported by the packet.",
+        "Uses a broader general definition of inpatient than the packet supplies; the source only supports psychiatric inpatient admissions/hospitalisation, not the full hospital/ward sense across settings."
+      ],
+      "definition_hash": "c31df5c261e6f4e556ce0e9b2ced05ed00b1a4b188ee1de1e1de5512c1494291",
+      "packet_hash": "d85192461170e67fe8fa57a02829067d3b1a4f7b57d9f0f2adb91c59777e4892",
+      "published_packet_hash": "d85192461170e67fe8fa57a02829067d3b1a4f7b57d9f0f2adb91c59777e4892",
+      "receipt_id": "76094e75147145d491d05eead79a7514",
+      "request_hash": "0d8e00a64f5c04998a3bd9a2714f35a515b1d74c968aa7fae901ccacd9103259",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define what “inpatient” means (e.g., admitted for care/treatment rather than only attending visits). It only mentions “psychiatric inpatient admissions” and “hospitalisation,” without stating the general definition or the contrast with outpatient/visits.",
+        "The definition’s wording (“a person admitted to a hospital or psychiatric ward for care and treatment”) is not directly supported by the packet’s text.",
+        "The definition’s claim that psychiatric inpatient hospitalisation specifically means “staying in hospital while receiving mental health care” is not explicitly stated in the packet; the packet discusses consequences of psychiatric hospitalisation but does not define the term in those terms."
+      ],
+      "definition_hash": "c31df5c261e6f4e556ce0e9b2ced05ed00b1a4b188ee1de1e1de5512c1494291",
+      "packet_hash": "d85192461170e67fe8fa57a02829067d3b1a4f7b57d9f0f2adb91c59777e4892",
+      "published_packet_hash": "d85192461170e67fe8fa57a02829067d3b1a4f7b57d9f0f2adb91c59777e4892",
+      "receipt_id": "4bf05a672bd342fd9d40b05868cb7579",
+      "request_hash": "a14ae59955855f9af5b1e4544d9853558433caed293c8e621f89acd137020e34",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

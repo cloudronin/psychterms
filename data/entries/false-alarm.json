@@ -1,0 +1,61 @@
+{
+  "id": "false-alarm",
+  "term": "false alarm",
+  "definition": "A false alarm is an incorrect signal or classification that identifies an abnormal event or disturbance when ordinary operations have produced the data pattern instead. In this source, it refers to routine mine activities creating wind-velocity changes that are mistakenly recognized as disturbances.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10112794"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10112794",
+      "revision": "2023; DOI 10.1371/journal.pone.0284316; article XML SHA-256 aa16af8ef7217d196ff706906017351185219671e9f801897700b8691589b255",
+      "scope": "Source record 10.1371/journal.pone.0284316; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0284316"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0b48e449da80299616e2c91655dfab8ac5dbe9456cd5d881de201c19c9e582cc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "56ad7b54240b432e88d72fc73216ada0",
+    "request_hash": "2a4a2f899204e295e6e4d08a8e2c5541f87d2e6143021de326e2eb80e1258900",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "3fe9f48ab27d351f764c424215c02c080bee76a796d3f4248709042fa8c80ea4",
+    "packet_hash": "0b48e449da80299616e2c91655dfab8ac5dbe9456cd5d881de201c19c9e582cc"
+  },
+  "hash": "ce3f4752fb6a18ebf7f1acf36cdbf06ab001882c3748a37f4c1b514e13be7882",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3fe9f48ab27d351f764c424215c02c080bee76a796d3f4248709042fa8c80ea4",
+      "packet_hash": "0b48e449da80299616e2c91655dfab8ac5dbe9456cd5d881de201c19c9e582cc",
+      "published_packet_hash": "0b48e449da80299616e2c91655dfab8ac5dbe9456cd5d881de201c19c9e582cc",
+      "receipt_id": "8019abfee0ba4d52a3cd88e371203e9c",
+      "request_hash": "02e8aafafc5c494b8dda45e4543499d67e0310a80a8d0097558a93f119b05075",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence contains a general psychological/cognitive characterization (“incorrect signal or classification… abnormal event”) that is not stated or supported by the packet text, which only mentions a “false alarm problem” in mine wind-velocity sensing.",
+        "The provided “source” text frames the issue as a mine wind-velocity sensor problem caused by “air-door and mine-car operation,” not as a cognition-related concept.",
+        "The specific claim that routine mine activities create wind-velocity changes mistakenly recognized as disturbances is only indirectly supported (air-door and mine-car operation are mentioned as causes of the false alarm problem) and is presented as a definitional detail not explicitly defined in the packet."
+      ],
+      "definition_hash": "3fe9f48ab27d351f764c424215c02c080bee76a796d3f4248709042fa8c80ea4",
+      "packet_hash": "0b48e449da80299616e2c91655dfab8ac5dbe9456cd5d881de201c19c9e582cc",
+      "published_packet_hash": "0b48e449da80299616e2c91655dfab8ac5dbe9456cd5d881de201c19c9e582cc",
+      "receipt_id": "f5c6a7baa53b4b4388397a908981f86e",
+      "request_hash": "6c9acae48200798303cf6bb5dd7ccbc7436c922209476aa9af1d8f30175d2572",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cil",
+  "term": "CIL",
+  "source": "article-pmc13152188",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0348270",
+  "revision": "2026; DOI 10.1371/journal.pone.0348270; article XML SHA-256 1b8902ded275ae48b9e4b79a765b0414ed3f65bccd90ef252a605043b5d0b80f",
+  "source_snapshot_sha256": "1b8902ded275ae48b9e4b79a765b0414ed3f65bccd90ef252a605043b5d0b80f",
+  "url": "https://doi.org/10.1371/journal.pone.0348270",
+  "text": "Class-Incremental Learning (CIL) aims to enable models to continuously learn new categories while preserving existing knowledge and avoiding catastrophic forgetting. Although parameter-expansion architectures can alleviate task interference to some extent, the representations of previously learned classes often drift or degrade as the feature subspaces continuously evolve and expand, resulting in decreased recognition performance for old classes. To address this issue, we propose an efficient CIL method—Dynamic Gated Adapter for Subspace Alignment (DGASA). Based on a frozen pre-trained backbone, DGASA introduces lightweight adapters with attention-based gating for each task to construct task-specific subspaces, while dynamically fusing cross-task information via attention mechanisms. In addition, DGASA learns a linear mapping between the old and new subspaces to achieve consistent alignment of old class prototypes in the current subspace without accessing past data. Extensive experiments demonstrate that DGASA significantly improves classification accuracy and resistance to forgetting on multiple benchmark datasets, offering strong generalization and computational efficiency.",
+  "source_label": "Gated subspace alignment with drift compensation for parameter-efficient Class-Incremental Learning",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1194
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "634db66d98edd67d5d3a9978fef4879c8e525d878c534bb553d0b6bedb62d177"
+}

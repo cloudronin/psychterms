@@ -1,0 +1,64 @@
+{
+  "id": "edge-detector",
+  "term": "edge detector",
+  "definition": "An edge detector is an image-analysis feature used to pick out boundaries or corner-like changes in signal within an image. In this study, corner-edge detector measures based on a Harris-Stephens filtered signal were used as radiomic features from brain lesion images.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10984536"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10984536",
+      "revision": "2024; DOI 10.1371/journal.pone.0296958; article XML SHA-256 8a1eddf8d2816db93f63345a80249bee41f2cb19885ad148e12d3c9fbbe8d4ab",
+      "scope": "Source record 10.1371/journal.pone.0296958; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0296958"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ddff67142695a0f3d3a8560b621fdc3c3fac163b0433c478ae1efe4bd1c3b334",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "83a8fac2575747419529c0225f7b5f0b",
+    "request_hash": "85846e1f044abf9233b0bc19e24166654f8bddfbb4e12037f3c3a3a6f28b7641",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "ca8be4d66c1cab9027841c14018cf001514254534a23f4929425d61700c3ad29",
+    "packet_hash": "ddff67142695a0f3d3a8560b621fdc3c3fac163b0433c478ae1efe4bd1c3b334"
+  },
+  "hash": "2c8a02cd97f53e8f6220fd3b88d0dd3aa4600185d14095e93b36dcf0cc71ee22",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define an edge detector as an image-analysis feature for boundaries or corner-like changes; it only reports that corner-edge detector features with Harris-Stephens filtered signal were used in radiomic analysis.",
+        "The second sentence is too specific and partially unsupported in wording: the packet mentions corner-edge detector features with Harris-Stephens filtered signal, but not that these were 'measures' or that the study used them exactly as described."
+      ],
+      "definition_hash": "ca8be4d66c1cab9027841c14018cf001514254534a23f4929425d61700c3ad29",
+      "packet_hash": "ddff67142695a0f3d3a8560b621fdc3c3fac163b0433c478ae1efe4bd1c3b334",
+      "published_packet_hash": "ddff67142695a0f3d3a8560b621fdc3c3fac163b0433c478ae1efe4bd1c3b334",
+      "receipt_id": "cbf69d90c0ea48afbe882b42ab80b375",
+      "request_hash": "8ba0e8fb6a3d46d3f6ac2133e9f59e40b7f62a2931c77ea7478dee4eff2e3759",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s initial general explanation (“pick out boundaries or corner-like changes”) is not stated in the provided packet; the packet only mentions that “corner-edge detector features” were used.",
+        "The definition refers to “edge detector,” but the packet specifies “corner-edge detector features” (Harris-Stephens filtered signal). The requested sense/specificity in the definition is not fully supported.",
+        "While the packet supports that Harris-Stephens filtered signal and radiomic features from brain lesion ROIs were used in this study, the definition’s broader characterization of what an edge detector does is not directly supported by the packet."
+      ],
+      "definition_hash": "ca8be4d66c1cab9027841c14018cf001514254534a23f4929425d61700c3ad29",
+      "packet_hash": "ddff67142695a0f3d3a8560b621fdc3c3fac163b0433c478ae1efe4bd1c3b334",
+      "published_packet_hash": "ddff67142695a0f3d3a8560b621fdc3c3fac163b0433c478ae1efe4bd1c3b334",
+      "receipt_id": "a2511cda1b5e4eeeb5a749409bee55c0",
+      "request_hash": "c7ee5dc7ed22a5d86ec11ed1b676195fad212e40c288bde8a90bfad6dc352864",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

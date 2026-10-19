@@ -1,0 +1,26 @@
+{
+  "id": "epileptiform",
+  "term": "epileptiform",
+  "source": "article-pmc13596800",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0358782",
+  "revision": "2026; DOI 10.1371/journal.pone.0358782; article XML SHA-256 8d6727ab6037cedbb0f7af1a59fab3ac8e79eda5d8d81b9f98f72d0dd8df837f",
+  "source_snapshot_sha256": "8d6727ab6037cedbb0f7af1a59fab3ac8e79eda5d8d81b9f98f72d0dd8df837f",
+  "url": "https://doi.org/10.1371/journal.pone.0358782",
+  "text": "Interictal epileptiform discharges (IEDs) are diagnostically important EEG abnormalities, but after an epoch has already been confirmed as containing IED, a separate methodological question remains whether its scalp distribution can be assigned among predefined categories, and do routinely co-recorded auxiliary channels alter that classification. This conditional five-class tasks were evaluated using 2,514 expert-confirmed four-second IED epochs labelled as generalized, frontal, temporal, occipital, or centro-parietal. Identical stratified epoch-level partitions, training-only SMOTE, 26 handcrafted features per included channel, and multiple machine-learning classifiers were used across a staged channel ablation comparing 19-channel scalp EEG, 21-channel EEG with two ECG channels, and the complete 29-channel input containing scalp EEG, referential, ECG, and EMG channels. Linear discriminant analysis achieved the best EEG-only test accuracy (88.89%), whereas CatBoost achieved 93.25% on EEG with ECG signals and 94.44% with the whole channel. All eight directly comparable classifiers showed numerically higher test accuracy after ECG was added, although these differences were descriptive and were not subjected to formal paired significance testing. SHAP analysis identified the key channel-feature variables influencing the fitted models, complementing performance ablation. In the EEG with ECG on CatBoost model, ECG channels RA and LA contributed 15.79% and 15.12% of normalized global attribution, respectively, while beta-band power was the most important feature family, accounting for 18.76%. The study therefore provides a controlled analysis of downstream spatial categorization and auxiliary-channel dependence within expert-confirmed IED epochs. The results do not establish physiological localization, unseen-patient generalization, or a clinically validated ECG biomarker.",
+  "source_label": "Conditional spatial classification of expert-confirmed interictal epileptiform discharge epochs: An EEG-ECG ablation and SHAP analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1900
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "3fc06b7f2fc934d6081f56e2cd55b040bb45d7f15ecc3684345aabb084ca8e69"
+}

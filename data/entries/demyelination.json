@@ -1,0 +1,63 @@
+{
+  "id": "demyelination",
+  "term": "demyelination",
+  "definition": "Demyelination is the loss or damage of myelin, the protective covering of nerve fibers, within the central nervous system. In the packet, it is described as a feature of multiple sclerosis and as a process that can be experimentally induced in a mouse model.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10635499"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10635499",
+      "revision": "2023; DOI 10.1371/journal.pone.0293908; article XML SHA-256 c7e1b65dcdc6432bfa454fb61569c0a51eca8cde88bcdb81b9aefd1f6ec1c163",
+      "scope": "Source record 10.1371/journal.pone.0293908; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0293908"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "88318bb5765e6c52cb4afc8378634f23a100236a85153ba721448987b8857104",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "df3a06ad2cf74f1ca1a70b7807b932c3",
+    "request_hash": "aadca3904e895bdbebb65ea247a1f1330727d2ed7afeb27206a6541c378e60fa",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "f7b7c9067bef260e6465dfb69ca4dccbc4e1b19ba21942b5b7f51bb22436ecb4",
+    "packet_hash": "88318bb5765e6c52cb4afc8378634f23a100236a85153ba721448987b8857104"
+  },
+  "hash": "e2bbaa188e8aecfac2f2da173f1b553eeae4b7a7552a15b5f347af822d9f953a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that demyelination is “the loss or damage of myelin” and that myelin is “the protective covering of nerve fibers,” but the packet does not define demyelination as loss/damage of myelin or describe myelin’s protective role.",
+        "While the packet links demyelination to “within the central nervous system (CNS)” and mentions demyelination occurring in multiple sclerosis and being induced in the cuprizone mouse model, it does not provide the specific mechanistic/definitional wording used in the definition."
+      ],
+      "definition_hash": "f7b7c9067bef260e6465dfb69ca4dccbc4e1b19ba21942b5b7f51bb22436ecb4",
+      "packet_hash": "88318bb5765e6c52cb4afc8378634f23a100236a85153ba721448987b8857104",
+      "published_packet_hash": "88318bb5765e6c52cb4afc8378634f23a100236a85153ba721448987b8857104",
+      "receipt_id": "9c010067048d4af19040481818d0279b",
+      "request_hash": "9d2f1ef43059b45cc5e0cfb91d03d4f286ac8c27428efb123496656b3df8bb54",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports demyelination as a feature of multiple sclerosis in the central nervous system and as a process induced in a murine cuprizone model, but it does not define demyelination as the loss or damage of myelin or describe myelin as the protective covering of nerve fibers.",
+        "The definition adds a general biological gloss that is not stated in the source packet, so the core definitional claim is unsupported by the supplied text."
+      ],
+      "definition_hash": "f7b7c9067bef260e6465dfb69ca4dccbc4e1b19ba21942b5b7f51bb22436ecb4",
+      "packet_hash": "88318bb5765e6c52cb4afc8378634f23a100236a85153ba721448987b8857104",
+      "published_packet_hash": "88318bb5765e6c52cb4afc8378634f23a100236a85153ba721448987b8857104",
+      "receipt_id": "4130144bde9b450a85f4b10f233bf896",
+      "request_hash": "c193bf372db10a8e2f5113d48d9cd3af3da0b09b0e627d3110d8721a6992a586",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

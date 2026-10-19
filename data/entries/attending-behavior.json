@@ -1,0 +1,63 @@
+{
+  "id": "attending-behavior",
+  "term": "attending behavior",
+  "definition": "Attending behavior here means a person’s tendency or willingness to go to a hospital or clinic for care. In the source, poorer hospital-attending behavior is described as making some health problems more likely to be missed or underestimated.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4488987"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4488987",
+      "revision": "2015; DOI 10.1186/s12886-015-0053-8; article XML SHA-256 0f97e571e02a15b89567eac6a55ddb6a7d1aca73523e28e967ca2ed1887a71b0",
+      "scope": "Source record 10.1186/s12886-015-0053-8; pinned source text",
+      "locator": "https://doi.org/10.1186/s12886-015-0053-8"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fcec180e589758d2049b950d564f8f38f839e66c158ee5f61c651fa514e8b2f7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "49be6be1c13b42e1b706d425b7a55b8a",
+    "request_hash": "a40d9bb208f27a37d9e971d65b836cc15b5deb900cbce1250194efe58a981302",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "57a3c34f234e6987f8704832f04e6655a9ecb3dfe4670b35c21bcda910270f87",
+    "packet_hash": "fcec180e589758d2049b950d564f8f38f839e66c158ee5f61c651fa514e8b2f7"
+  },
+  "hash": "ec9b078ac0fa5674deab006e7e7596d01540b030939ff28761ada9214acb8882",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “attending behavior” as a person’s “tendency or willingness to go to a hospital or clinic for care.” It only mentions “poor hospital-attending behavior” in relation to underdiagnosis/underestimation.",
+        "The definition’s first sentence contains an unverified characterization (tendency/willingness) that is not directly stated in the provided packet text."
+      ],
+      "definition_hash": "57a3c34f234e6987f8704832f04e6655a9ecb3dfe4670b35c21bcda910270f87",
+      "packet_hash": "fcec180e589758d2049b950d564f8f38f839e66c158ee5f61c651fa514e8b2f7",
+      "published_packet_hash": "fcec180e589758d2049b950d564f8f38f839e66c158ee5f61c651fa514e8b2f7",
+      "receipt_id": "9645f6370fd34f1f8cd46ed3ff33d623",
+      "request_hash": "e50cecfddf5bbcbc4b7a2dc56e36b97c6d18d917fad080d526e2c6bf4bcdef0e",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports hospital-attending behavior, but not the broadened wording “hospital or clinic”; clinic is not mentioned in the packet.",
+        "The packet links poor hospital-attending behavior specifically to underdiagnosis and underestimation of allergic conjunctivitis, not generally to “some health problems.”"
+      ],
+      "definition_hash": "57a3c34f234e6987f8704832f04e6655a9ecb3dfe4670b35c21bcda910270f87",
+      "packet_hash": "fcec180e589758d2049b950d564f8f38f839e66c158ee5f61c651fa514e8b2f7",
+      "published_packet_hash": "fcec180e589758d2049b950d564f8f38f839e66c158ee5f61c651fa514e8b2f7",
+      "receipt_id": "9461cd132ad04970b8b1469b556cbd01",
+      "request_hash": "8e5b7e8ee0e5ae8a781315c01318c298ad7e2e18064deb450e56a5bcd5c96aab",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

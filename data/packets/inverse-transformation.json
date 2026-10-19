@@ -1,0 +1,26 @@
+{
+  "id": "inverse-transformation",
+  "term": "inverse transformation",
+  "source": "article-pmc9551625",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0275117",
+  "revision": "2022; DOI 10.1371/journal.pone.0275117; article XML SHA-256 2649fe218bf9b140805020d25363be2b2427e62c4be68f1f555aca696cd9b566",
+  "source_snapshot_sha256": "2649fe218bf9b140805020d25363be2b2427e62c4be68f1f555aca696cd9b566",
+  "url": "https://doi.org/10.1371/journal.pone.0275117",
+  "text": "This study proposes a neural network framework for modeling the foam effects found in liquid simulation without noise. The position and advection of the foam particles are calculated using the existing screen projection method, and the noise problem that occurs in this process is prevented by using the neural network. A significant problem in the screen projection approach is the noise generated in the projection map during the projecting of momentum onto the discretized screen space. We efficiently solve this problem by utilizing a denoising neural network. Following the selection of the foam generation area using a projection map, the foam particles are generated through the inverse transformation of the 2D space into 3D space. This solves the problem of small-sized foam dissipation that occurs in conventional denoising networks. Furthermore, by integrating the proposed algorithm with the screen-space projection framework, it is able to maintain all the advantages of this approach. In conclusion, the denoising process and clean foam effects enable the proposed network to model the foam effects stably.",
+  "source_label": "Efficient learning representation of noise-reduced foam effects with convolutional denoising networks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1120
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 3
+  },
+  "packet_hash": "d7de0fe861336043a7f399c2f65df6f2e713a07cea812d9648f288a217496efa"
+}

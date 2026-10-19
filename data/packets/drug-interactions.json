@@ -1,0 +1,26 @@
+{
+  "id": "drug-interactions",
+  "term": "drug interactions",
+  "source": "article-pmc11730380",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0316021",
+  "revision": "2025; DOI 10.1371/journal.pone.0316021; article XML SHA-256 7a5a84644ed868983d9692e72ad5f9a612eea1e1a23fc11dd1729a9170ec557a",
+  "source_snapshot_sha256": "7a5a84644ed868983d9692e72ad5f9a612eea1e1a23fc11dd1729a9170ec557a",
+  "url": "https://doi.org/10.1371/journal.pone.0316021",
+  "text": "Predicting Drug-Drug Interactions (DDIs) enables cost reduction and time savings in the drug discovery process, while effectively screening and optimizing drugs. The intensification of societal aging and the increase in life stress have led to a growing number of patients suffering from both heart disease and depression. These patients often need to use cardiovascular drugs and antidepressants for polypharmacy, but potential DDIs may compromise treatment effectiveness and patient safety. To predict interactions between drugs used to treat these two diseases, we propose a method named Multi-Drug Features Learning with Drug Relation Regularization (MDFLDRR). First, we map feature vectors representing drugs in different feature spaces to the same. Second, we propose drug relation regularization to determine drug pair relationships in the interaction space. Experimental results demonstrate that MDFLDRR can be effectively applied to two DDI prediction goals: predicting unobserved interactions among drugs within the drug network and predicting interactions between drugs inside and outside the network. Publicly available evidence confirms that MDFLDRR can accurately identify DDIs between cardiovascular drugs and antidepressants. Lastly, by utilizing drug structure calculations, we ascertained the severity of newly discovered DDIs to mine the potential co-medication risks and aid in the smart management of pharmaceuticals.",
+  "source_label": "Drug-Drug interactions prediction calculations between cardiovascular drugs and antidepressants for discovering the potential co-medication risks",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    1438
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 4
+  },
+  "packet_hash": "3ca5fe92b677b3e5664f3f90f24fb754913ed2c860b8c7f01aedddd1cfc6ba41"
+}

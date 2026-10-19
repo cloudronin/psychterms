@@ -1,0 +1,59 @@
+{
+  "id": "primary-sensory-area",
+  "term": "primary sensory area",
+  "definition": "A primary sensory area is a brain region in which activity triggered by a sensory cue can continue after the cue has ended. In this source, the primary visual cortex is an example, showing persistent activity related to visual cues and their learned associations with later outcomes.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7973048"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7973048",
+      "revision": "2021; DOI 10.3389/fnsys.2021.611744; article XML SHA-256 4eb3d99fed97bf636a27800414f74b7ecc1d98a086a8b3e45aa91818f0398e8d",
+      "scope": "Source record 10.3389/fnsys.2021.611744; pinned source text",
+      "locator": "https://doi.org/10.3389/fnsys.2021.611744"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4979e1c2fe8a412fb3b6e1e741b6171c",
+    "request_hash": "0007384324ff658137f3f98c97cfbd8803658e4205ee7dcfac5d60beeb3430ad",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "46b4160ee49f98adbfe1f59130c9cd2d4a05f75162abf43c7da31efa53f2d705",
+    "packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c"
+  },
+  "hash": "3a918efde95880d153cca541520bc870b44c0b515607586a82d49ca28fb5ca39",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "46b4160ee49f98adbfe1f59130c9cd2d4a05f75162abf43c7da31efa53f2d705",
+      "packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c",
+      "published_packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c",
+      "receipt_id": "6bf3815a9bca4d28bde29309cce24730",
+      "request_hash": "eec4fa25b30861f2edb5d24955456c71ce14470f15af1712aa27c36cd363a5a1",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s second sentence claims that the primary visual cortex shows “persistent activity related to visual cues and their learned associations with later outcomes.” The packet supports cue-evoked persistent activity in V1 after conditioning with delayed outcomes (including reward), and discusses “reward timing activity,” but it does not explicitly support the wording about “learned associations” with later outcomes."
+      ],
+      "definition_hash": "46b4160ee49f98adbfe1f59130c9cd2d4a05f75162abf43c7da31efa53f2d705",
+      "packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c",
+      "published_packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c",
+      "receipt_id": "e75c182b259243fe83aa493e0e9eb8c5",
+      "request_hash": "91546c8bceb6d15d2222cf954226f72cc5a816ade2e255de57d0b307b84c7b01",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}

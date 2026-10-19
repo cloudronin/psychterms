@@ -1,0 +1,60 @@
+{
+  "id": "accident-analysis",
+  "term": "accident analysis",
+  "definition": "Accident analysis is the process of examining past accidents to organize knowledge about how they happened and the factors involved, so that responses to new accidents can be better informed. In this source, it is described as representing accident information and relationships among contributing elements in a structured way to help retrieve and compare similar cases.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10629649"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10629649",
+      "revision": "2023; DOI 10.1371/journal.pone.0294130; article XML SHA-256 b46788280459accb6443c69a890fababc78e58a7cd5044bd94694500f66c5c9a",
+      "scope": "Source record 10.1371/journal.pone.0294130; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0294130"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "11f1d612a965d4ddf11725043481b99eaddd0829c1aaa4ebc1d0990f39ca6ce1",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d361198a2de641d0ad8b243f9871f8d7",
+    "request_hash": "68c6bf591f6a87ee45325f9828c902096176f338b8da81ce121bb0db44b267f4",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "140c487a66a0d9829697b5b801a931f99db3e4eceaf2a5b8c3279fd7c427dab8",
+    "packet_hash": "11f1d612a965d4ddf11725043481b99eaddd0829c1aaa4ebc1d0990f39ca6ce1"
+  },
+  "hash": "091f487fdf12c49890e812dad61fd0c1a8fe77a046bed8e3e97ae6d482fe9849",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "140c487a66a0d9829697b5b801a931f99db3e4eceaf2a5b8c3279fd7c427dab8",
+      "packet_hash": "11f1d612a965d4ddf11725043481b99eaddd0829c1aaa4ebc1d0990f39ca6ce1",
+      "published_packet_hash": "11f1d612a965d4ddf11725043481b99eaddd0829c1aaa4ebc1d0990f39ca6ce1",
+      "receipt_id": "8daef5538a644a21a3b8ff790de3344f",
+      "request_hash": "61679e4cf09a260c6b0c5e9e605823848d2112281e53c656696b3f680e043196",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The claim that the approach helps “compare similar cases” is not supported by the packet; the packet supports case retrieval and similar-case retrieval, but not comparison as a stated function.",
+        "The definition broadens the source beyond bridge operational accidents into a general accident-analysis definition; the packet only supports this sense in the context of bridge operational accident analysis and its knowledge representation/retrieval method."
+      ],
+      "definition_hash": "140c487a66a0d9829697b5b801a931f99db3e4eceaf2a5b8c3279fd7c427dab8",
+      "packet_hash": "11f1d612a965d4ddf11725043481b99eaddd0829c1aaa4ebc1d0990f39ca6ce1",
+      "published_packet_hash": "11f1d612a965d4ddf11725043481b99eaddd0829c1aaa4ebc1d0990f39ca6ce1",
+      "receipt_id": "bb8074e276ce4f30bc67f97e5a9c1e0e",
+      "request_hash": "511f686b0631f3c00bca0ff0a325fa5479d81d11b9b540eabfefee8df7a380ee",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cognitive-model",
+  "term": "cognitive model",
+  "definition": "A cognitive model is a model used in cognitive diagnosis research to represent cognitive processes or structure and compare that representation with observed data. Its quality is judged by how well it fits the data, and revising it can be difficult because qualitative changes may be biased and quantitative methods may show misfit without showing how to improve it.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13223082"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13223082",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1758968; article XML SHA-256 504b0fb3da31d7c678180e3f910ac4e57d82009e646c48f8b32dbb1791bfea6a",
+      "scope": "Source record 10.3389/fpsyg.2026.1758968; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1758968"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a80442ee6fe81d539639af3210fe0766d6d25e8c0f0ed42a018c4cd0ffd546c8",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f5e8593b9b634e15b2f74dac62fc3051",
+    "request_hash": "16e7f313aa12e372e5bafa1c6e2f573606edcffc7396d9b5d0da538ebccb390a",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "122167e87cd11ea8ee1cf857b4f2476f0bbd207ceffa7645c883f19c65957e51",
+    "packet_hash": "a80442ee6fe81d539639af3210fe0766d6d25e8c0f0ed42a018c4cd0ffd546c8"
+  },
+  "hash": "c934aac22b0c9b57c4f536fab9acefd3d6511fb6a66914141666eb0110637d44",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the definition’s core characterization that a “cognitive model” is “used in cognitive diagnosis research” to “represent cognitive processes or structure” and be compared with “observed data.”",
+        "The packet supports only parts about revision difficulty/bias (qualitative revision prone to subjective bias) and that quantitative methods may indicate model–data misfit without offering specific revision guidance; the broader claims about judging quality by fit and revising difficulty are not fully supported beyond these excerpts.",
+        "No information in the packet substantiates the specific phrasing that “Its quality is judged by how well it fits the data” (as a general rule) or that misfit relates to “showing how to improve it” in the exact way stated."
+      ],
+      "definition_hash": "122167e87cd11ea8ee1cf857b4f2476f0bbd207ceffa7645c883f19c65957e51",
+      "packet_hash": "a80442ee6fe81d539639af3210fe0766d6d25e8c0f0ed42a018c4cd0ffd546c8",
+      "published_packet_hash": "a80442ee6fe81d539639af3210fe0766d6d25e8c0f0ed42a018c4cd0ffd546c8",
+      "receipt_id": "ef4a63a917ad47c9b6d60c10d1b10ed1",
+      "request_hash": "dd42ec0a59713268eee2fad0523fcde394b4c767daf6ef61c5ce8ce2ab2fbd0b",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that qualitative revision of the cognitive model can be biased and that quantitative methods may show model-data misfit without specific revision guidance; it does not support the added claim that the model represents cognitive processes or structure in a way that is compared with observed data.",
+        "The statement that a model’s quality is judged by how well it fits the data is broader than the packet’s wording and is not directly supported as written.",
+        "The definition goes beyond the packet by generalizing the scope of the term to a full description of cognitive diagnosis modeling rather than the limited revision/misfit context provided."
+      ],
+      "definition_hash": "122167e87cd11ea8ee1cf857b4f2476f0bbd207ceffa7645c883f19c65957e51",
+      "packet_hash": "a80442ee6fe81d539639af3210fe0766d6d25e8c0f0ed42a018c4cd0ffd546c8",
+      "published_packet_hash": "a80442ee6fe81d539639af3210fe0766d6d25e8c0f0ed42a018c4cd0ffd546c8",
+      "receipt_id": "6b35a02c7b7140e7b7d199172295ecdc",
+      "request_hash": "387cb32cad7a458408c93aef0b073ccf2d2cf49dc3dbcb73553be997afd6871a",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

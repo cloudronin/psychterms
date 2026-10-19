@@ -1,0 +1,60 @@
+{
+  "id": "fixed-time-schedule",
+  "term": "fixed-time schedule",
+  "definition": "A fixed-time schedule is a feeding arrangement in which food is delivered at set times rather than being continuously available. In the described animal model, this timed food delivery is linked with reduced eating and increased wheel-running activity.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc8487535"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc8487535",
+      "revision": "2021; DOI 10.1186/s40337-021-00481-x; article XML SHA-256 5bd94715170aa7a8cd334fbee912b1e579ba499c7ce518e1cb309700554a524d",
+      "scope": "Source record 10.1186/s40337-021-00481-x; pinned source text",
+      "locator": "https://doi.org/10.1186/s40337-021-00481-x"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3390414cc361d64b292623689f7c31fe9c010a11d4130fbcd13aa64522a2f538",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "112e336859754845bbc1ca2d9166ecaa",
+    "request_hash": "217a8cfa41b438a1a56f8e80f113016fe7bdfea3cf99dd08170cf0d365caf4a2",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "69a42c2aa48a2f528e499eccf28733f18f1efce9458801b4ac5ed78b36c5bb62",
+    "packet_hash": "3390414cc361d64b292623689f7c31fe9c010a11d4130fbcd13aa64522a2f538"
+  },
+  "hash": "4b5a8cd482bc20dabe49edc0467f55cf2b9c50f545b0e67251ef51af96fde914",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "69a42c2aa48a2f528e499eccf28733f18f1efce9458801b4ac5ed78b36c5bb62",
+      "packet_hash": "3390414cc361d64b292623689f7c31fe9c010a11d4130fbcd13aa64522a2f538",
+      "published_packet_hash": "3390414cc361d64b292623689f7c31fe9c010a11d4130fbcd13aa64522a2f538",
+      "receipt_id": "fb03de89c75f452e9735a20d0dd13bec",
+      "request_hash": "645195f4b50887a508060ebfd873e94733ca3f24455fe0bc9271ebb2b59e26e8",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the comparison that the schedule is “rather than being continuously available,” only that food delivery occurs under a “fixed time schedule.”",
+        "The definition’s wording adds a specificity about feeding arrangement (continuous availability alternative) not stated in the provided source text."
+      ],
+      "definition_hash": "69a42c2aa48a2f528e499eccf28733f18f1efce9458801b4ac5ed78b36c5bb62",
+      "packet_hash": "3390414cc361d64b292623689f7c31fe9c010a11d4130fbcd13aa64522a2f538",
+      "published_packet_hash": "3390414cc361d64b292623689f7c31fe9c010a11d4130fbcd13aa64522a2f538",
+      "receipt_id": "402b81473c2e4c0a9894d2a76884b72f",
+      "request_hash": "d5f69865c4eb8cdf61a6f40170cdf0e57572f8d16c383563b9b1e96b08fe19de",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

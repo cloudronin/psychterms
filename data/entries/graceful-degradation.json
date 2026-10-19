@@ -1,0 +1,60 @@
+{
+  "id": "graceful-degradation",
+  "term": "graceful degradation",
+  "definition": "In cognition and neural network accounts, graceful degradation refers to a gradual reduction in performance when a system is damaged or when input is noisy or distorted, with some function still preserved rather than failing all at once. It is used to describe patterns of impairment seen in language and other cognitive functions.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc7080985"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc7080985",
+      "revision": "2020; DOI 10.3389/fnhum.2020.00050; article XML SHA-256 4e8dcda47a9b4cf23729c6ff08507f96e5473ece4102111d6a7fdf844eb86f32",
+      "scope": "Source record 10.3389/fnhum.2020.00050; pinned source text",
+      "locator": "https://doi.org/10.3389/fnhum.2020.00050"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "946df23b1160de0e9649509324c6f27570b104d9c45d48e9ff4b0c9f98ecaed2",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5a75e0b69af9489ab17c4493b85e9e5c",
+    "request_hash": "d995658f8603c5b86524e7fb7c83e52b05ed66e3566a36759cb0c50dfa3d6d7e",
+    "registration_hash": "1a78303cf32b1ccaf218eb77a83c9050697c692d752a2323fc6e511cb359880b",
+    "definition_hash": "c6b2295617f1cbae4ca51c923f700352d2abc15413ce965f10fc983ef55f76c9",
+    "packet_hash": "946df23b1160de0e9649509324c6f27570b104d9c45d48e9ff4b0c9f98ecaed2"
+  },
+  "hash": "7b8c1d3ab2a3a01b4c3d873ff48cdb2bbfc50d9cd3cc3e818eb219cca5b269c9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the idea that PDP accounts for “preservation of function in the face of noisy or distorted input” and mentions “the phenomenon of graceful degradation” in language impairment studies (e.g., from stroke or dementia), but it does not explicitly state that the performance reduction is “gradual” or describe the reduction as gradual.",
+        "The definition’s framing “when a system is damaged or when input is noisy or distorted” is only partially supported: the packet mentions impairment from stroke/dementia and preservation with noisy/distorted input, but it does not connect these to the specific “gradual reduction in performance” phrasing."
+      ],
+      "definition_hash": "c6b2295617f1cbae4ca51c923f700352d2abc15413ce965f10fc983ef55f76c9",
+      "packet_hash": "946df23b1160de0e9649509324c6f27570b104d9c45d48e9ff4b0c9f98ecaed2",
+      "published_packet_hash": "946df23b1160de0e9649509324c6f27570b104d9c45d48e9ff4b0c9f98ecaed2",
+      "receipt_id": "0f97e22f02444843af8966d1f88659cf",
+      "request_hash": "7b0402c9b438a4c607fd6387f04d38ce22cee70ae4a2f058956ea1185e205d9e",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c6b2295617f1cbae4ca51c923f700352d2abc15413ce965f10fc983ef55f76c9",
+      "packet_hash": "946df23b1160de0e9649509324c6f27570b104d9c45d48e9ff4b0c9f98ecaed2",
+      "published_packet_hash": "946df23b1160de0e9649509324c6f27570b104d9c45d48e9ff4b0c9f98ecaed2",
+      "receipt_id": "c41c946c1acc466fa0dcdec805aef21c",
+      "request_hash": "1520459a046871da3d51f1b1bf90441ae247541ac5c12c3d1a17d003f9ae59fb",
+      "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
+    }
+  ]
+}

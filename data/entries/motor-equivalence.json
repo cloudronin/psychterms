@@ -1,0 +1,59 @@
+{
+  "id": "motor-equivalence",
+  "term": "motor equivalence",
+  "definition": "Motor equivalence is the principle that the same action goal can be achieved by using different body parts as the movement’s effective end point. In the source, this is illustrated by reaching or avoidance behavior that can be directed through arbitrary selected body parts.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5053419"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5053419",
+      "revision": "2016; DOI 10.1371/journal.pone.0163713; article XML SHA-256 dec0245d2e1ad38d5fd8b17c64709ee1802c992dc7122aab0e5fa2d053da7544",
+      "scope": "Source record 10.1371/journal.pone.0163713; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0163713"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c7fd2d1906fc2b15275cedc75cff1833210d3566a5a93dd9f28c8f499ed7e483",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8f4f64240e3e4221a40b17e23667b486",
+    "request_hash": "9f579a2158f82fb3b1d75d4f2c90e4c245c7506e3ef222649564887eb6ae2ec6",
+    "registration_hash": "36f5e498dcb61cfe3df520264d01e4052170d6f97730c3d0ec61f0a4c2e7f3d3",
+    "definition_hash": "6c896076075a7c4334117f7056033138b407a068b85b259bacb91346a4b36111",
+    "packet_hash": "c7fd2d1906fc2b15275cedc75cff1833210d3566a5a93dd9f28c8f499ed7e483"
+  },
+  "hash": "4fae8af138202aa8171b7b4b2b125bab1e41cdef1c02a88da532948bfd4eced2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6c896076075a7c4334117f7056033138b407a068b85b259bacb91346a4b36111",
+      "packet_hash": "c7fd2d1906fc2b15275cedc75cff1833210d3566a5a93dd9f28c8f499ed7e483",
+      "published_packet_hash": "c7fd2d1906fc2b15275cedc75cff1833210d3566a5a93dd9f28c8f499ed7e483",
+      "receipt_id": "218fddb50ad145b197c473d88e0ed5c5",
+      "request_hash": "118c53cab421ed4538c1127f9ef2608be974151d217d90f31d7b0df7cb58e60b",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence states a general principle: “the same action goal can be achieved by using different body parts as the movement’s effective end point.” The packet only explicitly says the model can generate “avoidance and reaching” and that the robot “can select arbitrary body parts as the controlled end-point,” but it does not clearly support the broader formulation about achieving the “same action goal” across body parts."
+      ],
+      "definition_hash": "6c896076075a7c4334117f7056033138b407a068b85b259bacb91346a4b36111",
+      "packet_hash": "c7fd2d1906fc2b15275cedc75cff1833210d3566a5a93dd9f28c8f499ed7e483",
+      "published_packet_hash": "c7fd2d1906fc2b15275cedc75cff1833210d3566a5a93dd9f28c8f499ed7e483",
+      "receipt_id": "7871254a47c445eea39efaaf684f8959",
+      "request_hash": "037873af7edcef926190398020500829383f830fe506ede36ae3735d10198825",
+      "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
+    }
+  ]
+}

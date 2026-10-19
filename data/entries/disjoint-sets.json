@@ -1,0 +1,60 @@
+{
+  "id": "disjoint-sets",
+  "term": "disjoint sets",
+  "definition": "Disjoint sets are groups that do not overlap, so the elements or variables in one set are different from those in the other. In the source context, two datasets can describe the same phenomenon while measuring separate, nonshared variables.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11086896"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11086896",
+      "revision": "2024; DOI 10.1371/journal.pone.0302425; article XML SHA-256 d80e7483f84cae83ce786cd3dd8f90bc7462d62ab4d0783bfe58b70e6adc71ba",
+      "scope": "Source record 10.1371/journal.pone.0302425; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0302425"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5b3d589da8e447838cc9bb9f80930cd8",
+    "request_hash": "9bd4b16a0bdfd4b29bf1970002fe89d22a7041ed223429df2ab4f0a4e6859a1a",
+    "registration_hash": "c57989f3fbb5d448687075c46c328c2495dfc9d8fed88acfa5c6b0d69a91e974",
+    "definition_hash": "4b972e60a17ac7207a032d915f3dc3364fb9d269f759c8acde8b3bb1d3f6b5ff",
+    "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696"
+  },
+  "hash": "38e957fdf20fd1db915111afac8a5f9ec283745518ded3f8f976c28714ecfb82",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4b972e60a17ac7207a032d915f3dc3364fb9d269f759c8acde8b3bb1d3f6b5ff",
+      "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696",
+      "published_packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696",
+      "receipt_id": "7a967faa4a7f4d84b002a63f471dd9c6",
+      "request_hash": "9caa4b6576468da94b088dfdc705ec867435e0b1cb354d207ef5795c8b7916f1",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition begins with a general set-theory claim (“Disjoint sets are groups that do not overlap”) that is not explicitly stated in the provided packet text.",
+        "The packet only supports the context-specific meaning that two datasets can involve “disjoint sets of variables” (e.g., measuring different variable types such as mRNA vs. protein), rather than the broader “groups that do not overlap” formulation."
+      ],
+      "definition_hash": "4b972e60a17ac7207a032d915f3dc3364fb9d269f759c8acde8b3bb1d3f6b5ff",
+      "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696",
+      "published_packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696",
+      "receipt_id": "6585a1e8e5f2427fb38739c19e95766e",
+      "request_hash": "0d88f0b9059b35b5e236d1e36ea79204a90a95d2aa97338ff65c33c8310c926c",
+      "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
+    }
+  ]
+}

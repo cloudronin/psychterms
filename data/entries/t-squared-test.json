@@ -1,0 +1,60 @@
+{
+  "id": "t-squared-test",
+  "term": "T-squared test",
+  "definition": "A T-squared test, in this context, is a statistical test used to determine whether an observed brain response is significantly locked to a repeating visual stimulus. Here, the circular Hotelling’s T-squared test was used to show that many participants had strong stimulus-synchronized visual evoked responses.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3378577"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3378577",
+      "revision": "2012; DOI 10.1371/journal.pone.0039707; article XML SHA-256 2c21785ea9c7e29e983458ff1aaee1aef1f1c6d62d9203f02ce04534460ed559",
+      "scope": "Source record 10.1371/journal.pone.0039707; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0039707"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "8a14d91cab63ca7e0ce500b7573f57a7324a429e1e95b615b2d8914a9efc20f9",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ea95e557722d4e0eadf6627c308cd89b",
+    "request_hash": "8813d90f18746dd3315d8461626d9f24b4c3a55f4c082fe74d9299b8a9bcd9aa",
+    "registration_hash": "c055b22820bdafdcd43b9adda6b32a1870552428cbf2bc72128e227ba2b51e7d",
+    "definition_hash": "4133f020c4aa10040393e9e05bc87f72476cf29761b884008c1185245a928fa3",
+    "packet_hash": "8a14d91cab63ca7e0ce500b7573f57a7324a429e1e95b615b2d8914a9efc20f9"
+  },
+  "hash": "5ba38c89b86f5bc31e9b353e4d77947b1d83cf48248894c7d00fb2f600c758f0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4133f020c4aa10040393e9e05bc87f72476cf29761b884008c1185245a928fa3",
+      "packet_hash": "8a14d91cab63ca7e0ce500b7573f57a7324a429e1e95b615b2d8914a9efc20f9",
+      "published_packet_hash": "8a14d91cab63ca7e0ce500b7573f57a7324a429e1e95b615b2d8914a9efc20f9",
+      "receipt_id": "c0b74a57ab094e6b854f15a7d18563b9",
+      "request_hash": "39353d04356b14821123424160d9459c2c566b71d513ccdc09e62a7623e31b18",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the test determines whether an observed brain response is “significantly locked to a repeating visual stimulus.” The packet supports “significantly strong stimulus-locked SSMVEP responses,” but it does not explicitly describe the stimulus as “repeating” (beyond mentioning tested frequencies in the motion reversal protocol).",
+        "While the packet supports that “Circular Hotelling’s T-squared test” demonstrated most subjects had significantly strong stimulus-locked responses, the definition’s wording “many participants had strong stimulus-synchronized visual evoked responses” is a paraphrase that introduces “stimulus-synchronized” and “participants” without direct phrasing support (though the underlying meaning is close)."
+      ],
+      "definition_hash": "4133f020c4aa10040393e9e05bc87f72476cf29761b884008c1185245a928fa3",
+      "packet_hash": "8a14d91cab63ca7e0ce500b7573f57a7324a429e1e95b615b2d8914a9efc20f9",
+      "published_packet_hash": "8a14d91cab63ca7e0ce500b7573f57a7324a429e1e95b615b2d8914a9efc20f9",
+      "receipt_id": "af7c96eb6c0b4ca89766dfb2d9a69699",
+      "request_hash": "2826c65b3989925b17a040fc1fc977284bd1e9cf7f73cdbf0fff8ece6749d32d",
+      "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
+    }
+  ]
+}

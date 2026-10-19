@@ -1,0 +1,63 @@
+{
+  "id": "random-effects-model",
+  "term": "random-effects model",
+  "definition": "A random-effects model is a statistical approach used in a meta-analysis to combine effect sizes across multiple studies. In this context, it was used with standardized mean differences to estimate the overall effects of an intervention while accounting for variation across the included studies.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13395370"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13395370",
+      "revision": "2026; DOI 10.1371/journal.pone.0354522; article XML SHA-256 e5614fdd7a29f5066e8c17a9075e9004511601414dd641c1a54824c217875aac",
+      "scope": "Source record 10.1371/journal.pone.0354522; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0354522"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f7f214a049a412e4c34e5b4fb8f852190134fcd988a6c418b1511117e06b32bb",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "57148d8c8b8d4b26ae2ba260b296ab77",
+    "request_hash": "e45c97da891d5603a67fbe1bc8cfa13a10e32b568055b64c3ede8c45da8ac29c",
+    "registration_hash": "bac653085dc1f21c041c4ca31d3aa630098b546d1dd02481eda5a2a098bc9e16",
+    "definition_hash": "d2211c9043f2c4b2691bcbedce40ab213d032e21f15227a96bd4742e25d1181c",
+    "packet_hash": "f7f214a049a412e4c34e5b4fb8f852190134fcd988a6c418b1511117e06b32bb"
+  },
+  "hash": "ef6313be0aa68050be4537e04ed68823c8b20d7c95338bf039839e777de65a1e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that a random-effects model was used in a meta-analysis with standardized mean differences (Hedges’ g), but it does not explicitly support the added claim that it was used specifically \"while accounting for variation across the included studies.\""
+      ],
+      "definition_hash": "d2211c9043f2c4b2691bcbedce40ab213d032e21f15227a96bd4742e25d1181c",
+      "packet_hash": "f7f214a049a412e4c34e5b4fb8f852190134fcd988a6c418b1511117e06b32bb",
+      "published_packet_hash": "f7f214a049a412e4c34e5b4fb8f852190134fcd988a6c418b1511117e06b32bb",
+      "receipt_id": "97b3ac732c1644abab1710914f7d4c3a",
+      "request_hash": "d0e00efc5e8288d93ca2d17cbfe1f5909a344d922b730867be81556d715aa514",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state what a “random-effects model” means (e.g., that it “account[s] for variation across the included studies”). It only reports that the authors constructed one.",
+        "The definition’s explanation of its purpose in general terms (“combine effect sizes across multiple studies”) is not directly supported by the packet’s text.",
+        "While the packet supports that the random-effects model was constructed and used with standardized mean difference (Hedges’ g), the definition includes additional substantive claims beyond what is stated."
+      ],
+      "definition_hash": "d2211c9043f2c4b2691bcbedce40ab213d032e21f15227a96bd4742e25d1181c",
+      "packet_hash": "f7f214a049a412e4c34e5b4fb8f852190134fcd988a6c418b1511117e06b32bb",
+      "published_packet_hash": "f7f214a049a412e4c34e5b4fb8f852190134fcd988a6c418b1511117e06b32bb",
+      "receipt_id": "92fb38cff73d4915a4068ba2a91e924b",
+      "request_hash": "ea44df6f685f9a745490c7a85048412c6ef4a391ce458e8748ee865c53085257",
+      "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
+    }
+  ]
+}
