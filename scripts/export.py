@@ -36,6 +36,8 @@ def build(entries,release=False,history=None):
  return dictionary,'\n'.join(md),{'schema_version':1,'status':mode,'entry_count':len(ordered),'corpus_hash':digest(ordered),'data_hash':digest(dictionary),'risk_register':risk_pin,'status_counts':status_report['status_counts'],'release_note':release_note(status_report,release_version if release else 'Public review preview')}
 
 if __name__=='__main__':
+ from also_see import check_file
+ check_file()
  p=argparse.ArgumentParser();p.add_argument('--preview',action='store_true');a=p.parse_args()
  entries,sources,fields=load_inputs()
  validate_corpus(entries,sources,fields,release=False)

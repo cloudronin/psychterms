@@ -4,7 +4,7 @@ import json,re,subprocess
 from core import ROOT
 ALLOW_FILES={'README.md','PROJECT-PLAN.md','LICENSE','LICENSE-DATA','NOTICE.md','CONTRIBUTING.md','.gitignore','package.json','package-lock.json','requirements-dev.txt'}
 ALLOW_DIRS={'scripts','schema','data','docs','tests','site','.github','reports'}
-EXCLUDED={'node_modules','.git','.private','__pycache__','.astro','dist','dist-data','.venv'}
+EXCLUDED={'node_modules','.git','.private','.cache','__pycache__','.astro','dist','dist-data','.venv'}
 def public_paths():
  for p in ROOT.rglob('*'):
   rel=p.relative_to(ROOT)

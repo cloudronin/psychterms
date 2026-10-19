@@ -1,7 +1,11 @@
 import distribution from '../../dist-data/dictionary.json';
 import registry from '../../data/sources.json';
 import taxonomy from '../../data/fields.json';
+import seeAlsoGraph from '../../data/also_see.json';
+import {relatedEntries} from './also-see.mjs';
 export const entries=distribution.entries;
+const entryIndex=new Map(entries.map((entry:any)=>[entry.id,entry]));
+export const seeAlsoFor=(id:string)=>relatedEntries(id,entryIndex,seeAlsoGraph);
 export const sourceRegistry=registry.sources;
 export const fieldList=taxonomy.fields;
 export const toHref=(value='')=>`${import.meta.env.BASE_URL}${value}`.replace(/\/+/g,'/');
