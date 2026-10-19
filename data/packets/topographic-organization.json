@@ -1,0 +1,26 @@
+{
+  "id": "topographic-organization",
+  "term": "topographic organization",
+  "source": "article-pmc2809738",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0008778",
+  "revision": "2010; DOI 10.1371/journal.pone.0008778; article XML SHA-256 14b2a26714ca119e3df2c3c72a2c2d085db257b5e76489700e5db7408fb3adef",
+  "source_snapshot_sha256": "14b2a26714ca119e3df2c3c72a2c2d085db257b5e76489700e5db7408fb3adef",
+  "url": "https://doi.org/10.1371/journal.pone.0008778",
+  "text": "Based on measuring responses to rat whiskers as they are mechanically stimulated, one recent study suggests that barrel-related areas in layer 2/3 rat primary somatosensory cortex (S1) contain a pinwheel map of whisker motion directions. Because this map is reminiscent of topographic organization for visual direction in primary visual cortex (V1) of higher mammals, we asked whether the S1 pinwheels could be explained by an input-driven developmental process as is often suggested for V1. We developed a computational model to capture how whisker stimuli are conveyed to supragranular S1, and simulate lateral cortical interactions using an established self-organizing algorithm. Inputs to the model each represent the deflection of a subset of 25 whiskers as they are contacted by a moving stimulus object. The subset of deflected whiskers corresponds with the shape of the stimulus, and the deflection direction corresponds with the movement direction of the stimulus. If these two features of the inputs are correlated during the training of the model, a somatotopically aligned map of direction emerges for each whisker in S1. Predictions of the model that are immediately testable include (1) that somatotopic pinwheel maps of whisker direction exist in adult layer 2/3 barrel cortex for every large whisker on the rat's face, even peripheral whiskers; and (2) in the adult, neurons with similar directional tuning are interconnected by a network of horizontal connections, spanning distances of many whisker representations. We also propose specific experiments for testing the predictions of the model by manipulating patterns of whisker inputs experienced during early development. The results suggest that similar intracortical mechanisms guide the development of primate V1 and rat S1.\n\nMammalian sensory cortex is organized firstly by modality, and secondly into topographic maps of the corresponding sensory apparatus. The prototypical example is the map of the retina in primary visual cortex (V1). Within this retinotopic map, finer scale feature maps have been found, such as for the motion direction of visual stimuli, with nearby neurons responding to similar directions [1] , [2] .\n\nDirection maps in ferret V1 emerge postnatally, and are sensitive to early visual experience [3] , [4] , suggesting that they result from a self-organizing process driven by visual input. Map self-organization has been modeled using networks of neurons that develop receptive fields (RFs) by Hebbian learning of correlations between input and cortical activities [5] – [7] . In such models, a balance between intracortical excitation and inhibition ensures the emergence of RFs that collectively cover the full range of motion directions; essentially, the neurons compete to respond to directions in the visual scene.\n\nDirection maps in both real and simulated V1 are punctuated by pinwheels, where all directions are represented continuously around a central point. A similar pinwheel map has recently been measured in rat primary somatosensory cortex (S1) for the direction of deflection of the rat's whiskers [8] , [9] . Andermann & Moore [8] found a pinwheel map of directions spanning the domain of layer 2/3 (L2/3) neurons most responsive to one principal whisker (PW). This domain will henceforth be referred to as the supra-barrel region or just the supra-barrel, as it is located above the L4 ‘barrel’ structure which receives thalamic input primarily from the PW. The map is somatotopically aligned to echo the overall pattern of barrels: deflection of whisker A towards whisker B evokes the strongest responses in neurons of whisker/supra-barrel A that are nearest to whisker/supra-barrel B (see Fig. 1 ).\n\nA The whiskers are arranged on the snout of a 10 day old rat pup in an orderly grid pattern. B This pattern is reproduced in barrel clusters, revealed here in a tangential section in L4 barrel cortex stained for cytochrome oxidase, such that neurons in each cluster respond preferentially to stimulation of the whisker in the corresponding position in the whiskerpad. C Within a supra-barrel, a pinwheel map has been measured for the direction in which the corresponding",
+  "source_label": "Modeling the Emergence of Whisker Direction Maps in Rat Barrel Cortex",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4192
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "40489a7dd3222feed4b0f1e7d9b5337ce4ef83fb7735974137db6cf063e0e2c5"
+}

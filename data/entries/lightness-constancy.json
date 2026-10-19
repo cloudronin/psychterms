@@ -1,0 +1,64 @@
+{
+  "id": "lightness-constancy",
+  "term": "lightness constancy",
+  "definition": "Lightness constancy is the tendency to perceive an object’s surface shade or reflectance as relatively stable, even when changes in viewing conditions or perceived depth could alter the light reaching the eye. In the packet, shifts in apparent depth are discussed as changing perceived lightness despite no critical change in the retinal image.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6799905"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6799905",
+      "revision": "2019; DOI 10.1371/journal.pone.0224192; article XML SHA-256 b488fbc8af795442bad5c423e1903f75599ac51cbd248ef2f18382ccfcb798d4",
+      "scope": "Source record 10.1371/journal.pone.0224192; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0224192"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "d85104b4e76a6dbd29d96ba1153a326590c9cc5f6600e1fa5c0a5e6f4099332c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "efa4d71b01cc4ddd8097c1852d2cf97d",
+    "request_hash": "58c65e5702e96c8f16f199ec052d460c535768005e5b304936e8ca0dd9ce13eb",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "80c59aadd4d63e43ef041b6dd1e39268babf706a2abb5f7111c9ec2baf8c64e5",
+    "packet_hash": "d85104b4e76a6dbd29d96ba1153a326590c9cc5f6600e1fa5c0a5e6f4099332c"
+  },
+  "hash": "d0ed7e9e918b428c15b9f68feac39a5f7ca8d1f3398a1c375a54fcb8911e0fbb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a broad generalization about stable appearance across changing viewing conditions that is not stated in the packet; the packet specifically discusses depth inversion and perceived spatial position, not lightness constancy under viewing-condition changes in general.",
+        "The second sentence is awkwardly framed as an in-packet claim rather than a definition, and it is not clearly original to the source packet’s wording."
+      ],
+      "definition_hash": "80c59aadd4d63e43ef041b6dd1e39268babf706a2abb5f7111c9ec2baf8c64e5",
+      "packet_hash": "d85104b4e76a6dbd29d96ba1153a326590c9cc5f6600e1fa5c0a5e6f4099332c",
+      "published_packet_hash": "d85104b4e76a6dbd29d96ba1153a326590c9cc5f6600e1fa5c0a5e6f4099332c",
+      "receipt_id": "48f60e69c0f24e46b96795063c96243c",
+      "request_hash": "0a34c1596ef6ebb82c0685d0662ab4cfff326bad8dc878f9996e80b5fc3953f1",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “lightness constancy” as a general “tendency” to perceive surface shade/reflectance as stable; it only notes that some studies interpreted depth-inversion results “in terms of lightness constancy.”",
+        "Parts of the definition are not supported by the packet, including the claim about “changes in viewing conditions” altering the light reaching the eye; the packet discusses depth perception and retinal-image invariance in specific experiments rather than changes in viewing conditions.",
+        "The definition’s phrasing about “relatively stable” perceived surface shade/reflectance is not directly stated in the packet; the packet discusses principles/assumptions (e.g., coplanar ratio) and empirical findings, not a concise behavioral definition of constancy."
+      ],
+      "definition_hash": "80c59aadd4d63e43ef041b6dd1e39268babf706a2abb5f7111c9ec2baf8c64e5",
+      "packet_hash": "d85104b4e76a6dbd29d96ba1153a326590c9cc5f6600e1fa5c0a5e6f4099332c",
+      "published_packet_hash": "d85104b4e76a6dbd29d96ba1153a326590c9cc5f6600e1fa5c0a5e6f4099332c",
+      "receipt_id": "8b629d60ec1a4c338d920e59cc480386",
+      "request_hash": "8c94f8f257c4634b09740d0d1a915a00a864119a7f65e35e99ab7a5ab3511c8b",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

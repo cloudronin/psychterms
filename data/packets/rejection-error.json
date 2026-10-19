@@ -1,0 +1,26 @@
+{
+  "id": "rejection-error",
+  "term": "rejection error",
+  "source": "article-pmc4709094",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0145640",
+  "revision": "2016; DOI 10.1371/journal.pone.0145640; article XML SHA-256 5b090773af58e960baa41e829ab6c03c2023b551a80bca60ba453fa82d09f8d9",
+  "source_snapshot_sha256": "5b090773af58e960baa41e829ab6c03c2023b551a80bca60ba453fa82d09f8d9",
+  "url": "https://doi.org/10.1371/journal.pone.0145640",
+  "text": "We simulated multistate capture histories (CHs) by varying state survival (ϕ), detection ( p ) and transition (ψ), number of total capture occasions and releases per capture occasion and then modified these scenarios to mimic false rejection error (FRE), a common misidentification error, resulting from the failure to match samples of the same individual. We then fit a multistate model and estimated accuracy, bias and precision of state-specific ϕ, p and ψ to better understand the effects of FRE on different simulation scenarios. As expected, ϕ, and p , decreased in accuracy with FRE, with lower accuracy when CHs were simulated under a shorter-term study and a lower number of releases per capture occasion (lower sample size). Accuracy of ψ estimates were robust to FRE except in those CH scenarios simulated using low sample size. The effect of FRE on bias was not consistent among parameters and differed by CH scenario. As expected, ϕ was negatively biased with increased FRE (except for the low ϕ low p CH scenario simulated with a low sample size), but we found that the magnitude of bias differed by scenario (high p CH scenarios were more negatively biased). State transition was relatively unbiased, except for the low p CH scenarios simulated with a low sample size, which were positively biased with FRE, and high p CH scenarios simulated with a low sample size. The effect of FRE on precision was not consistent among parameters and differed by scenario and sample size. Precision of ϕ decreased with FRE and was lowest with the low ϕ low p CH scenarios. Precision of p estimates also decreased with FRE under all scenarios, except the low ϕ high p CH scenarios. However, precision of ψ increased with FRE, except for those CH scenarios simulated with a low sample size. Our results demonstrate how FRE leads to loss of accuracy in parameter estimates in a multistate model with the exception of ψ when estimated using an adequate sample size.\n\nKnowledge of wildlife population dynamics is a crucial step towards species conservation and necessary if we wish to improve our understanding of the potential effects of climate change and future land use change. Accurate and precise parameter estimates of population vital rates (e.g., adult and juvenile survival rates, fecundity, etc.) are necessary for deciphering population dynamics and in forecasting future population projections. Survival (ϕ) can be estimated using capture-mark-recapture (CMR) models, but accuracy of the estimates relies on meeting model assumptions, which include: 1) individuals in a population all have an equal probability of being marked and recaptured; and 2) marks are permanent and they are observed, identified and recorded accurately at recaptures [ 1 – 3 ]. Traditional CMR techniques depend on physical capture, tagging and subsequent recapture, resighting or recovery. Photo and genotype-based CMR are less invasive, not requiring physical capture, but, photo-based CMR depends on focal species having unique visual markings [ 4 – 5 ] and genotype-based CMR relies on the presence of highly polymorphic molecular markers [ 6 – 8 ].\n\nPhoto and genotype-based CMR are now more feasible due to readily available software packages, which match large libraries of photo or genetic samples [ 4 , 9 – 13 ]. With photo-based CMR software, the matching process is typically not completely automated (although see [ 14 – 15 ]), but relies on the user manually reviewing each photo with the most similar photos in the dataset to identify matches, with the specific measure of similarity being the major differences among software [ 4 , 12 – 13 ]. Once photos are reviewed, individual capture histories (CHs) can be inferred from photo matches, which is required data input for CMR models. Unlike photo-based CMR, genotype-based CMR is not limited to species with distinct individual markings, as DNA samples can be collected without physical capture from hair samples or feces and with physical capture from saliva or tissues [ 6 , 8 , 16 – 17 ]. Individual identification is possible with polymorphic molecular markers, such as microsatellite loci or single nucleotide polymorphisms [ 8 , 18",
+  "source_label": "Effects of Photo and Genotype-Based Misidentification Error on Estimates of Survival, Detection and State Transition using Multistate Survival Models",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4187
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "2ad7ee43ad37d8b5c5305aa889eb53efce2892a416a2162d41803f901bfb8f25"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "diagnosticity",
+  "term": "diagnosticity",
+  "definition": "In this context, diagnosticity means how strongly a particular feature helps identify or represent an object or concept. For example, high color-diagnosticity objects are closely linked to one typical color, whereas low color-diagnosticity objects can occur in many colors.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4010786"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4010786",
+      "revision": "2014; DOI 10.3389/fpsyg.2014.00363; article XML SHA-256 9bd6d28105b5b702d4dae8969d2fd2a52c996299beca758a5b3e7e99e5b094d0",
+      "scope": "Source record 10.3389/fpsyg.2014.00363; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2014.00363"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4009785784b0a2d74c375015d55cfbf742d96d38efdf265abfc7dfa8242e1995",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "764ad561ea5b41d7b2825eebc30c30ea",
+    "request_hash": "c7b08d6a699b715f9c62f1a21c0e7442024e38be7743c7d6af0a26a91ad31647",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "a24f1705e15d4fe540f0efad6d4a513d0ced5f2fc1ad89feddf9aee78b51519b",
+    "packet_hash": "4009785784b0a2d74c375015d55cfbf742d96d38efdf265abfc7dfa8242e1995"
+  },
+  "hash": "d49cc9854c70e36e39779a11e54065064af54fd17eb61da6ca5444fdf8bc2f41",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports color-diagnosticity in a language-production/ERP study, not the broader general definition of diagnosticity across arbitrary features and objects.",
+        "The definition’s broader wording about helping “identify or represent an object or concept” goes beyond what is stated in the packet, which focuses on whether color is a core conceptual component for high color-diagnostic objects.",
+        "The assigned field ‘biological’ is not supported by the source packet, which is in psychology/psycholinguistics."
+      ],
+      "definition_hash": "a24f1705e15d4fe540f0efad6d4a513d0ced5f2fc1ad89feddf9aee78b51519b",
+      "packet_hash": "4009785784b0a2d74c375015d55cfbf742d96d38efdf265abfc7dfa8242e1995",
+      "published_packet_hash": "4009785784b0a2d74c375015d55cfbf742d96d38efdf265abfc7dfa8242e1995",
+      "receipt_id": "7949d4f65e144eca9cb7cebfca86803c",
+      "request_hash": "58b5992ad785ce5c18d377c9aa14564c48ca0da56b0980831f20f3e15c314f9d",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s generalization that diagnosticity “means how strongly a particular feature helps identify or represent an object or concept” is broader than what the packet explicitly states. The packet specifically describes that a “core conceptual component” (e.g., color) is strongly associated with a typical color for HCD objects and less so for LCD objects, and relates this to effects on lexical access; it does not directly define diagnosticity in terms of “identifying or representing” objects/concepts in general.",
+        "The definition discusses “color-diagnosticity” in terms of a typical color vs many colors, which matches the packet’s HCD vs LCD examples, but the first sentence’s framing (“helps identify or represent”) is not directly supported."
+      ],
+      "definition_hash": "a24f1705e15d4fe540f0efad6d4a513d0ced5f2fc1ad89feddf9aee78b51519b",
+      "packet_hash": "4009785784b0a2d74c375015d55cfbf742d96d38efdf265abfc7dfa8242e1995",
+      "published_packet_hash": "4009785784b0a2d74c375015d55cfbf742d96d38efdf265abfc7dfa8242e1995",
+      "receipt_id": "215a1ce1000e45518793a9c2de662c4a",
+      "request_hash": "3af2aca37ca618499a3ae5e9015d6585e4b8f38537666814d7e7d3b80657b223",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

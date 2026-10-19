@@ -1,0 +1,60 @@
+{
+  "id": "sorting-test",
+  "term": "sorting test",
+  "definition": "A sorting test is a neurobehavioral assessment in which a person works through a set of cards or card-like images, and performance is scored from response patterns such as errors, repeated responding, and categories completed. It is used to measure executive function, including mental flexibility, and can help detect impairment related to brain disorder or damage.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3653789"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3653789",
+      "revision": "2013; DOI 10.1371/journal.pone.0063885; article XML SHA-256 796c589459fb961af52d715e176483ba2f17a775a608a94e8ea05a3ed159f87e",
+      "scope": "Source record 10.1371/journal.pone.0063885; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0063885"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "3fd7afba5e088321ddcdcbb133fdf7afcd2448a9199847938c97e76882683402",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "136ae8b3075340b084d8ed9399b9a066",
+    "request_hash": "e07740a38fbd1109a1949f83b927c34c37ec2c326159526f4d5f175555b22f1a",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "727fc1bc7203a5ea7e20c389240eef4869ced4c7dea0e17041b64a8b58cde9e3",
+    "packet_hash": "3fd7afba5e088321ddcdcbb133fdf7afcd2448a9199847938c97e76882683402"
+  },
+  "hash": "948f640eda9ec9a5e4bb6d37d8899a9aa3406ada6b4c82bd666ad7685316d556",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "727fc1bc7203a5ea7e20c389240eef4869ced4c7dea0e17041b64a8b58cde9e3",
+      "packet_hash": "3fd7afba5e088321ddcdcbb133fdf7afcd2448a9199847938c97e76882683402",
+      "published_packet_hash": "3fd7afba5e088321ddcdcbb133fdf7afcd2448a9199847938c97e76882683402",
+      "receipt_id": "a161ee83a89c432499771b0393b8d935",
+      "request_hash": "339bee4f84d726c9d224c5937d2f90dca04af2c4d83a2057ea088083cf0244d5",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet specifically describes the Berg Card Sorting Test (BCST), but the definition uses the broader label “A sorting test” without establishing that this general term (as opposed to the Berg/Wisconsin card sorting tests) is the intended sense supported by the packet.",
+        "The definition states the assessment is used to measure “executive function, including mental flexibility,” which is supported in the packet, but because the packet does not support a generalized definition for “sorting test” beyond the Berg Card Sorting Test context, the requested term-sense is not fully defensible from the provided source text."
+      ],
+      "definition_hash": "727fc1bc7203a5ea7e20c389240eef4869ced4c7dea0e17041b64a8b58cde9e3",
+      "packet_hash": "3fd7afba5e088321ddcdcbb133fdf7afcd2448a9199847938c97e76882683402",
+      "published_packet_hash": "3fd7afba5e088321ddcdcbb133fdf7afcd2448a9199847938c97e76882683402",
+      "receipt_id": "d3055efefbd84df5ba39dd31e4820dfb",
+      "request_hash": "53af013b27d8b586d91df4eb64d39b48ce989b5bf16fe69eb44d7e3e17562ba9",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

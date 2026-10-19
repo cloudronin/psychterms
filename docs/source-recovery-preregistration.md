@@ -1,0 +1,9 @@
+# Source-recovery continuation
+
+Vishnu instructed recovery, fresh drafting and independent reading of the eligible remainder. This continuation keeps the original $100 drafting and $25 reader hard caps and their existing ledgers. All charges, retries and uncertain reservations remain counted. No new spending line, model substitution, inherited definition text, scene generation or publication of failed definitions is authorized here.
+
+Before each paid batch, archive the prior queue and registration, pin the new queue and its article-specific source packets, and record its registration below. Drafting uses the same fixed GPT-5.4 snapshot and prompt. Reading uses the same fixed mini and nano snapshots and prompts. The drafter never counts as a reader. Unknown charges retain reservations. A cap stop ends paid dispatch on that line.
+
+Only an article's own explicit CC BY 3.0/4.0 notice admits original abstract/introduction/background passages, with author attribution and an XML hash. Cases, results sections, tables, references, block quotations, long inline quotations and dictionary-definition attribution paragraphs are excluded. A metadata search hit remains a lead; it is neither permission nor semantic support. Unsuitable packets are declined. Biographies and existing terminal drops remain excluded. All model outputs still require the 15-word copy check and build-derived status.
+
+The initial recovery batch drafted 165 definitions from 190 packets and obtained both readers. Before publication, 22 unpublished records were quarantined after long external quotations were found in their source passages. Their receipts remain charged and private; the extraction regression test prevents reuse. Clean re-extraction must precede fresh drafting from those articles. The first clean batch contributes 119 public entries.

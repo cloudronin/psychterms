@@ -50,4 +50,10 @@ AI is permitted in Prep, PsychTerms and site copy; Session and Desk retain the b
 
 ## Completed candidate drafting continuation
 
-The source-ready queue is finished and the final publication contains 5,026 active entries (4,828 candidate, 198 reviewed), plus 24 recorded earlier scope drops. The build writes current counts in the release note. Three copy holds remain unpublished; insufficient source packets were declined rather than forced. See candidate-drafting.json for the $100 line receipts and held reservations. Independent readers are prepared on a separate proposed $25 line; no reader paid call is authorized yet.
+The source-ready queue is finished and the final publication contains 5,026 active entries (4,828 candidate, 198 reviewed), plus 24 recorded earlier scope drops. The build writes current counts in the release note. Three copy holds remain unpublished; insufficient source packets were declined rather than forced. See candidate-drafting.json for the $100 line receipts and held reservations. Historical drafting-stage counts above preceded the now-completed independent-reader run. See the build-written release note and independent-readers.json for current status and costs.
+
+## Source recovery underway
+
+Vishnu instructed recovery of usable permitted packets for the eligible remainder. Article-specific CC BY background passages are being retrieved and pinned, with authors retained and cases, quotations, tables, references and results sections excluded. The first recovered wave prepared 190 packets and drafted 165 definitions; both readers have now attempted each definition. Bibliographic discovery also covers terms previously represented only by anchors. Original $100 drafting and $25 reader ledgers retain all charges and reservations. See source-recovery.json for the current retrieval snapshot and release-note.md for published counts. No inherited definition prose or scenes are used.
+
+Before source-recovery publication, an extraction check found long external quotations in 24 packets. The 22 affected unpublished entries were quarantined privately, including their packets and receipts; nothing from them is published. Extraction now rejects these paragraphs before drafting. The clean first wave adds 119 live entries, with all original charges retained.

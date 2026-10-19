@@ -1,0 +1,61 @@
+{
+  "id": "kendalls-tau",
+  "term": "Kendall’s tau",
+  "definition": "Kendall’s tau is a statistical coefficient used to show how closely two rank orderings correspond. In this source, it measures the strength of rank-order correlation between groups’ ratings.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13151159"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13151159",
+      "revision": "2026; DOI 10.1186/s12998-026-00635-1; article XML SHA-256 6aa814dc06cecdb4af37d4b5c2314ed3ae7e3afccdf8ddadbdea583f75781185",
+      "scope": "Source record 10.1186/s12998-026-00635-1; pinned source text",
+      "locator": "https://doi.org/10.1186/s12998-026-00635-1"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "509f90c4d3e5475293763e43e58fafc1",
+    "request_hash": "70d3d772a38d63a24461f99bd9235f866c862a134be8de4463add2a4ec8975ef",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "8355e16788797003deece1597b79e3868de1007f73443666ee218d0eeff82912",
+    "packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc"
+  },
+  "hash": "83143d11f89877e5f924ab6bde983ea675c70afab32608f78e6285d421faec53",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8355e16788797003deece1597b79e3868de1007f73443666ee218d0eeff82912",
+      "packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc",
+      "published_packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc",
+      "receipt_id": "50b90335b39540b8b43ceffbfd2df903",
+      "request_hash": "058666909caabbee78e16829bb6a8b212a6491eea70757eca6b53db493e0b6c0",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define Kendall’s tau conceptually (e.g., “how closely two rank orderings correspond”).",
+        "The only supported description is that the study used “Kendall’s Tau correlation coefficient” to assess “rank-order correlation between subgroups,” but it does not provide a general definition of the statistic.",
+        "The definition’s wording about “two rank orderings” and the generalized claim about “strength of rank-order correlation between groups’ ratings” goes beyond what the packet explicitly states."
+      ],
+      "definition_hash": "8355e16788797003deece1597b79e3868de1007f73443666ee218d0eeff82912",
+      "packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc",
+      "published_packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc",
+      "receipt_id": "a9aec4f117fc4f658452f8e36d57cf96",
+      "request_hash": "7be6240ad8eeffdb166e17619a47fbf25a11f03c1ce29ca20c3f56b189674f23",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "kendalls-coefficient-of-concordance",
+  "term": "Kendall’s coefficient of concordance",
+  "definition": "Kendall’s coefficient of concordance is a statistical measure of how much agreement there is across a group of raters or experts. In Delphi-style studies, it is used to show how consistently panel members rank or rate items, with higher values indicating stronger agreement.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13251043"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13251043",
+      "revision": "2026; DOI 10.1186/s12912-026-04694-w; article XML SHA-256 94c31867ea0a1a17a4fea6595017d608b762d9d4d3ed20feb70d09b568ac1f0a",
+      "scope": "Source record 10.1186/s12912-026-04694-w; pinned source text",
+      "locator": "https://doi.org/10.1186/s12912-026-04694-w"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a6055076e7284cd783ab2219ad850d48",
+    "request_hash": "f3943df028a649ac99fff8396aa8698aa836d00e585e158c048b0f9423f3d9fc",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "ab880ce4c251f02bd6706579c9e0ca6855c5a717d5c7aa75afb685b61aec69d6",
+    "packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38"
+  },
+  "hash": "c9abf950838210fc41723c5d63b5b24428257e691e8438f31b721b10360637e1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ab880ce4c251f02bd6706579c9e0ca6855c5a717d5c7aa75afb685b61aec69d6",
+      "packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38",
+      "published_packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38",
+      "receipt_id": "ba5ab4d8eed444dabb913765f125573f",
+      "request_hash": "1e68cec7fb973e924429f0df3e253e27c5db284168239cbdb632bd6f38c2c56b",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states Kendall’s coefficient of concordance (W) was used to assess “panel agreement,” but it does not explicitly describe Delphi usage as specifically for “ranking or rating items.”",
+        "The definition’s claim that “higher values indicate stronger agreement” is not stated directly in the packet (the packet reports W values improving across rounds, but does not explicitly define the directionality of W in those terms).",
+        "The packet describes the measure being used within a Delphi process for a pressure-injury care-bundle context, not within a mental-health-specific context; the definition does not rely on field context, so the provided field label does not help support the definition."
+      ],
+      "definition_hash": "ab880ce4c251f02bd6706579c9e0ca6855c5a717d5c7aa75afb685b61aec69d6",
+      "packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38",
+      "published_packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38",
+      "receipt_id": "4db12230dae24834bbfd303b9fe9a641",
+      "request_hash": "49dc7b89b8763e68d7e04bcda611cd4237a4c83bf1622515d9651bdaea7113c5",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

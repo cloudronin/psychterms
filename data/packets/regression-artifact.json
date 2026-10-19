@@ -1,0 +1,26 @@
+{
+  "id": "regression-artifact",
+  "term": "regression artifact",
+  "source": "article-pmc3994136",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0095949",
+  "revision": "2014; DOI 10.1371/journal.pone.0095949; article XML SHA-256 95f0d4df6ca7f62304780c4d4913d7955933d516c80790889a140ad64c83f008",
+  "source_snapshot_sha256": "95f0d4df6ca7f62304780c4d4913d7955933d516c80790889a140ad64c83f008",
+  "url": "https://doi.org/10.1371/journal.pone.0095949",
+  "text": "In this paper we review, and elaborate on, the literature on a regression artifact related to Lord’s paradox in a continuous setting. Specifically, the question is whether a continuous property of individuals predicts improvement from training between a pretest and a posttest. If the pretest score is included as a covariate, regression to the mean will lead to biased results if two critical conditions are satisfied: (1) the property is correlated with pretest scores and (2) pretest scores include random errors. We discuss how these conditions apply to the analysis in a published experimental study, the authors of which concluded that linearity of children’s estimations of numerical magnitudes predicts arithmetic learning from a training program. However, the two critical conditions were clearly met in that study. In a reanalysis we find that the bias in the method can fully account for the effect found in the original study. In other words, data are consistent with the null hypothesis that numerical magnitude estimations are unrelated to arithmetic learning.\n\nSuppose that a researcher wants to study individual differences in how children respond to a training program. The predictor is a continuous measure of some individual property P. The dependent variable is improvement in ability, measured by a pre-training test and a post-training test. However, test scores are not perfect measures of ability. The same improvement in test scores from different pretest scores may therefore reflect different changes in ability. To control for this possibility the researcher may include the pretest score as a covariate in a regression analysis, thereby investigating whether property P predicts test score improvement among children with equal pretest scores . The topic of our paper is how this statistical adjustment may lead to incorrect conclusions because of regression artifacts arising from biased regression to the mean.\n\nIn 1999, Campbell and Kenny [1] devoted an entire book to warning about the dangers of statistical adjustments in comparisons of treatment effects between non-randomized groups. The basic problem was pointed out already thirty years earlier in a classic paper by Campbell and Erlebacher [2] . The problem has continued to attract attention, see [3] for a review of the literature and a novel analysis. One reason to write yet another paper on this topic is that the literature has focused on comparisons between groups. Although the logic is the same for analysis of a continuous individual property, this case deserves an explicit discussion. The direct motivation comes from a rather recent empirical study in numerical cognition [4] , which analyzed the influence of a continuous property on learning. That study is particularly interesting because, in addition to a pre-training test and an end-of-training test, it included a follow-up test two weeks after the end of training with no training between end-of-training and follow-up. This feature will prove useful in assessing the size of the regression artifact.\n\nLet us formalize the abovementioned setup: A researcher wants to study individual differences in how children respond to a training program. The predictor is a continuous measure of some individual property P. The dependent variable is improvement in ability, (imperfectly) measured by a pre-training test score and a post-training test score . The researcher includes the pretest score as a covariate in a regression analysis. Denoting the property P level of child i by , this means estimating the following regression model: (1)\n\nHere, K is the coefficient of interest, measuring the influence of property P on test score change. D is the intercept, L is a coefficient measuring the influence of pretest score on test score change, and the residual.\n\nAs discussed by other authors [3] it is irrelevant whether the dependent variable is test score change or simply the posttest score, because addition of the pretest score to both sides yields an equivalent model predicting posttest score instead of change: (1′)\n\nAlthough inclusion of the pretest score as a covariate may seem both innocuous and sensible, it will lead to biased",
+  "source_label": "Lord’s Paradox in a Continuous Setting and a Regression Artifact in Numerical Cognition Research",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4195
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "bc9c731ed3c0e854f25c5b42a6d9d2952ec9e9edeafa9804a6d414b673d5b1aa"
+}

@@ -30,3 +30,9 @@ Approved registration SHA-256: `7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e61
 All 9,854 new reader calls returned valid verdicts, completing pairs for all 5,026 registered entries. There were 3,875 pairs with two passes, 846 disagreements and 305 pairs with two rejections. Together with the 24 prior scope drops, the build reports 3,875 judged, 846 reviewed, 329 dropped and zero candidates. No numbered release is marked.
 
 Receipt-backed cost is **$8.036780**, including retries, with **$0.229910** retained for 46 uncertain transport attempts. No explicit provider refusals or unfinished responses occurred. The new reader cost per registered entry is **$0.001599**, excluding the 198 reused pilot passes. Model-specific costs and token usage are in the aggregate receipt report. No definitions were rewritten on this line.
+
+## Source-recovery continuation
+
+Vishnu instructed source recovery, fresh drafting and independent review of the eligible remainder. The first continuation registered 330 calls for 165 newly drafted definitions at `7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738`. Model snapshots and prompts are unchanged; every previous charge and uncertain reservation remains on the original **$25 ledger**. This is a queue amendment, not a new cap. Cumulative outcomes and cost are regenerated in `reports/independent-readers.json`.
+
+Before publication, 22 first-wave entries were quarantined after a source extraction check found external quotations. Their verdicts and costs remain in the private audit and cumulative cost report, but they do not contribute to public entry statuses. Clean re-extraction must precede any new definition from these articles.

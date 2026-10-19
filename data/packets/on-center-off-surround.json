@@ -1,0 +1,26 @@
+{
+  "id": "on-center-off-surround",
+  "term": "on-center/off-surround",
+  "source": "article-pmc4186345",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2014.01053",
+  "revision": "2014; DOI 10.3389/fpsyg.2014.01053; article XML SHA-256 d820e6e4a969bbbbac560d11e6a6e1f11c934435aace132be936b37e6e212be7",
+  "source_snapshot_sha256": "d820e6e4a969bbbbac560d11e6a6e1f11c934435aace132be936b37e6e212be7",
+  "url": "https://doi.org/10.3389/fpsyg.2014.01053",
+  "text": "How are sequences of events that are temporarily stored in a cognitive working memory unitized, or chunked, through learning? Such sequential learning is needed by the brain in order to enable language, spatial understanding, and motor skills to develop. In particular, how does the brain learn categories, or list chunks, that become selectively tuned to different temporal sequences of items in lists of variable length as they are stored in working memory, and how does this learning process occur in real time? The present article introduces a neural model that simulates learning of such list chunks. In this model, sequences of items are temporarily stored in an Item-and-Order, or competitive queuing, working memory before learning categorizes them using a categorization network, called a Masking Field, which is a self-similar, multiple-scale, recurrent on-center off-surround network that can weigh the evidence for variable-length sequences of items as they are stored in the working memory through time. A Masking Field hereby activates the learned list chunks that represent the most predictive item groupings at any time, while suppressing less predictive chunks. In a network with a given number of input items, all possible ordered sets of these item sequences, up to a fixed length, can be learned with unsupervised or supervised learning. The self-similar multiple-scale properties of Masking Fields interacting with an Item-and-Order working memory provide a natural explanation of George Miller's Magical Number Seven and Nelson Cowan's Magical Number Four. The article explains why linguistic, spatial, and action event sequences may all be stored by Item-and-Order working memories that obey similar design principles, and thus how the current results may apply across modalities. Item-and-Order properties may readily be extended to Item-Order-Rank working memories in which the same item can be stored in multiple list positions, or ranks, as in the list ABADBD. Comparisons with other models, including TRACE, MERGE, and TISK, are made.\n\nTwo critical processes in many intelligent behaviors are the temporary storage of sequences of items in a working memory, and the learned unitization of these sequences into recognition categories, also called list chunks . The former process uses fast activations of cells and storage of these activities in short-term memory, or STM. The latter process learns to compress, or unitize, the events stored in STM into list chunks, and remembers them using long-term memory, or LTM. These working memory STM and list chunking LTM processes are needed for linguistic, spatial, and motor behaviors. For example, during speech and language, the stored sequence may be derived from pre-processed auditory signals, and the learned list chunks may represent phonemes, syllables, words, and other familiar linguistic units. During motor control, the stored sequence may be motor gestures, and the learned list chunks may represent skilled action sequences. During spatial navigation, the stored sequence may be the locations of desired goal objects on a route, and the learned list chunks may represent plans to carry out the movements to attain a desired goal via this route.\n\nThis article develops a model of how sequences of items that are temporarily stored in a working memory are unitized through learning into list chunks. It simulates how learning enables list chunks to become selectively tuned to different temporal sequences of items, and simulates how STM storage and chunk LTM may be carried out in real time in response to lists of variable length. In a network with a given number of input items in a list, model simulations show how all possible ordered sets of these item sequences, up to a fixed length, can be learned with unsupervised or supervised learning.\n\nThe present article builds upon established neural models of working memory and list chunking. Previous articles have not shown, however, how list chunk learning can occur in real time as events are stored sequentially in working memory. Providing this crucial missing piece is the current article's main accomplishment.\n\nThe article justifies the choice of its",
+  "source_label": "Real-time learning of predictive recognition categories that chunk sequences of items stored in working memory",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "3d9820bb0236c982a858e70b33404a4edc54a113ebdb759fcee2f9f6c996652a"
+}

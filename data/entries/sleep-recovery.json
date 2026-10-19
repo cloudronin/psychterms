@@ -1,0 +1,60 @@
+{
+  "id": "sleep-recovery",
+  "term": "sleep recovery",
+  "definition": "Sleep recovery is the compensatory period of sleep that follows sleep loss or forced wakefulness, when sleep rebounds to make up for what was missed. In this context, it refers to the recovery period after REM sleep deprivation, during which REM and sometimes non-REM sleep can increase as part of sleep homeostasis.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3646744"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3646744",
+      "revision": "2013; DOI 10.1371/journal.pone.0063520; article XML SHA-256 f88d958d00ae54b583fd0eb9b63e6b93ce873da88de3e148eeb02cc3213013ef",
+      "scope": "Source record 10.1371/journal.pone.0063520; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0063520"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "379e10c859f9122e8902a827f93c19e997f59d42a121df6038590e791a15763b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8844cd230ac04d9daaa2deb58d7eb1b6",
+    "request_hash": "e2c286fb39352eec0e96dc44aaec8f449388541f1f567f727af3b663545bb7f2",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "829998af81558a52915c4eaffc8f2eebbf44eec1fdcec9d2b4b39b9ff595a61f",
+    "packet_hash": "379e10c859f9122e8902a827f93c19e997f59d42a121df6038590e791a15763b"
+  },
+  "hash": "1a5ce1c2f5d183fc76d3deb29d6fd72289a57d6ba21b9d3b1d09cdaee96fc183",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "829998af81558a52915c4eaffc8f2eebbf44eec1fdcec9d2b4b39b9ff595a61f",
+      "packet_hash": "379e10c859f9122e8902a827f93c19e997f59d42a121df6038590e791a15763b",
+      "published_packet_hash": "379e10c859f9122e8902a827f93c19e997f59d42a121df6038590e791a15763b",
+      "receipt_id": "a191dc5123d44a3eb782b9b41139abf2",
+      "request_hash": "b41f89e44157f777db9ca12cdf6c0cf41c2eb45af159b84f1ae90e2d4301359b",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that sleep recovery is when sleep “rebounds to make up for what was missed.” The packet uses terms like “compensatory sleep” and “augmented” NREM/REM during recovery, but it does not explicitly support the specific phrasing/claim that it is “making up for what was missed.”",
+        "The remainder of the definition (compensatory/recovery after sleep loss/forced awakening; after REM sleep deprivation there is a rebound of REM sleep, with NREM sometimes also involved) is broadly supported by the packet, but the unsupported “make up for what was missed” element prevents a pass."
+      ],
+      "definition_hash": "829998af81558a52915c4eaffc8f2eebbf44eec1fdcec9d2b4b39b9ff595a61f",
+      "packet_hash": "379e10c859f9122e8902a827f93c19e997f59d42a121df6038590e791a15763b",
+      "published_packet_hash": "379e10c859f9122e8902a827f93c19e997f59d42a121df6038590e791a15763b",
+      "receipt_id": "e39a0ea1c0184cc18505d9cdf12c957d",
+      "request_hash": "fac9c25cf7f0a4269f7f773e039db003a94a34e1f7718dbaf3647a3cbc421a6a",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

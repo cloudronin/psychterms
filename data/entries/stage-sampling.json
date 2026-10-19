@@ -1,0 +1,61 @@
+{
+  "id": "stage-sampling",
+  "term": "stage sampling",
+  "definition": "Stage sampling is a survey sampling approach carried out in steps rather than all at once. In the two-stage form described here, researchers first randomly select clusters or groups from the population, then randomly select individual elements from within each chosen cluster.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12614621"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12614621",
+      "revision": "2025; DOI 10.1371/journal.pone.0335586; article XML SHA-256 d391b486280e96c3b1af2e3c2cd6891d7d6d39d780cb86af1502f8bfe4a95dd6",
+      "scope": "Source record 10.1371/journal.pone.0335586; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335586"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ace95d33cd5145e398344555e7efa1af",
+    "request_hash": "27ee363fe2f66fb6e8ff1cbbc9f3c7f4afd677d062afe502c62c944ca6327601",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "2791c87efb52234251ce3593af373c0c7ba1722ab26ad2cb66e6af3c72725962",
+    "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4"
+  },
+  "hash": "2fa3ee99777fe2f7c9d8291596e0c81cedc7094fe1f26b5aea1fb552ac6baf57",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2791c87efb52234251ce3593af373c0c7ba1722ab26ad2cb66e6af3c72725962",
+      "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4",
+      "published_packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4",
+      "receipt_id": "70d6d271b84e40138faa02e94ecd0f02",
+      "request_hash": "d2691a370dc1e6d3b60c8dbae1aa3ac2002cca02e477b248d45d0e43a9d845d9",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source supports a survey-sampling meaning, specifically two-stage cluster sampling; it does not support the requested field of cognition.",
+        "The definition’s opening generalization (“carried out in steps rather than all at once”) is broader than the packet, which only describes the two-stage cluster-sampling form.",
+        "The packet supports selecting clusters first and then elements within those clusters, but it does not support presenting this as a psychology/counselling term."
+      ],
+      "definition_hash": "2791c87efb52234251ce3593af373c0c7ba1722ab26ad2cb66e6af3c72725962",
+      "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4",
+      "published_packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4",
+      "receipt_id": "80de07f52fef43db8756191cc4da3afd",
+      "request_hash": "2908c4132321769d402f8c569bb349e61071c7ac5ce119f4686b9d4a057b1a00",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

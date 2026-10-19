@@ -1,0 +1,60 @@
+{
+  "id": "crossed-disparity",
+  "term": "crossed disparity",
+  "definition": "Crossed disparity is a type of binocular disparity used to signal near space in three-dimensional vision. In the source, a negative crossed disparity value was used to make targets appear nearer than those defined by uncrossed disparity.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc4801215"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc4801215",
+      "revision": "2016; DOI 10.1371/journal.pone.0151838; article XML SHA-256 26cf071bf085a5e159b3e94cb3f9bfb1d2a076fa06b09b2a75b40ad33a284394",
+      "scope": "Source record 10.1371/journal.pone.0151838; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0151838"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e498ee329f3e7f00d5bcb1b7eb2eaf3e51bbcf69f91bb2b8fd6ec49edfcec23d",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "caf7eda5b2a1491abf45576e3c051c33",
+    "request_hash": "b73599409f78cb645fe80abb6ac589c837537f04c6a86b77054a2060e772baad",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "76b486a91b4840f34a76bda40a86982fe2b8a528801d2e47e2a3ce8f2ba30c3d",
+    "packet_hash": "e498ee329f3e7f00d5bcb1b7eb2eaf3e51bbcf69f91bb2b8fd6ec49edfcec23d"
+  },
+  "hash": "9f44df63fd387bef7deae876e324f534b058e12a5535c9d75eac0cb91243fc78",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "76b486a91b4840f34a76bda40a86982fe2b8a528801d2e47e2a3ce8f2ba30c3d",
+      "packet_hash": "e498ee329f3e7f00d5bcb1b7eb2eaf3e51bbcf69f91bb2b8fd6ec49edfcec23d",
+      "published_packet_hash": "e498ee329f3e7f00d5bcb1b7eb2eaf3e51bbcf69f91bb2b8fd6ec49edfcec23d",
+      "receipt_id": "36b6fb99d70c43068704fb62057793eb",
+      "request_hash": "22812d2309d7aa82d3eb192b05ae26f90d52e37b434d21e3975b7f9986527fd8",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports crossed disparity as a stimulus setting used in one virtual three-dimensional near/far-space paradigm, but it does not establish the broader definitional claim that crossed disparity is a general type of binocular disparity used to signal near space in three-dimensional vision.",
+        "The statement that a negative crossed disparity value made targets appear nearer than those defined by uncrossed disparity is not explicitly supported by the packet; the text only contrasts the near-space crossed disparity value with the uncrossed disparity condition."
+      ],
+      "definition_hash": "76b486a91b4840f34a76bda40a86982fe2b8a528801d2e47e2a3ce8f2ba30c3d",
+      "packet_hash": "e498ee329f3e7f00d5bcb1b7eb2eaf3e51bbcf69f91bb2b8fd6ec49edfcec23d",
+      "published_packet_hash": "e498ee329f3e7f00d5bcb1b7eb2eaf3e51bbcf69f91bb2b8fd6ec49edfcec23d",
+      "receipt_id": "612b41eefeb34c14a567f58f194c5c4c",
+      "request_hash": "5b5cb852fad034c777c4a33cf0c2d2ffb7464b07a8f54ffc6e167c66e4e369c5",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

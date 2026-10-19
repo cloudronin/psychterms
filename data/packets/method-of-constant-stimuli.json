@@ -1,0 +1,26 @@
+{
+  "id": "method-of-constant-stimuli",
+  "term": "method of constant stimuli",
+  "source": "article-pmc6927926",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2019.02793",
+  "revision": "2019; DOI 10.3389/fpsyg.2019.02793; article XML SHA-256 994f2419d0ffacdbec8b55637272a766581e5ab7968061fd6021ab22b34a6888",
+  "source_snapshot_sha256": "994f2419d0ffacdbec8b55637272a766581e5ab7968061fd6021ab22b34a6888",
+  "url": "https://doi.org/10.3389/fpsyg.2019.02793",
+  "text": "In psychophysics, the point of subject equality (PSE) is any of the points along a stimulus dimension at which a variable stimulus (visual, tactile, auditory, and so on) is judged by an observer to be equal to a standard stimulus. Rasch models have been found to offer a valid solution for computing the PSE when the method of constant stimuli is applied in the version of the method of transitions. The present work provides an overview of the procedures for computing the PSE using Rasch models and proposes some new developments. An adaptive procedure is described that allows for estimating the PSE of an observer without presenting him/her with all stimuli pairs. This procedure can be particularly useful in those situations in which psychophysical conditions of the individuals require that the number of trials is limited. Moreover, it allows for saving time that can be used to scrutinize the results of the experiment or to run other experiments. Also, the possibility of using Rasch-based fit statistics for identifying observers who gave unexpected judgments is explored. They could be individuals who, instead of carefully evaluating the presented stimuli pairs, gave random, inattentive, or careless responses, or gave the same response to many consecutive stimuli pairs. Otherwise, they could be atypical and clinically relevant individuals who deserve further investigation. The aforementioned developments are implemented using procedures and statistics that are well established in the framework of Rasch models. In particular, computerized adaptive testing procedures are used for efficiently estimating the PSE of the observers, whereas infit and outfit mean-squares statistics are used for detecting observers who gave unexpected judgments. Results of the analyses carried out on simulated data sets suggest that the proposed developments can be used in psychophysical experiments.\n\nIn psychophysics, the point of subject equality (PSE) is any of the points along a stimulus dimension at which a variable stimulus (visual, tactile, auditory, and so on) is judged by an observer to be equal to a standard stimulus. When the method of constant stimuli (see, e.g., Laming and Laming, 1992 ) is used to measure the PSE, the observer is presented with a number I of variable stimuli, each of which is denoted by VS i , i = 1, 2, …, I . The variable stimuli are placed at equal intervals along the physical continuum, and are chosen in such a way that the stimulus at the inferior extreme is perceived little more than 0–5% of the times it is presented, whereas a stimulus at the superior extreme is perceived a little less than 95–100% of the times. The variable stimuli are presented, one at a time and in random order, paired with a standard stimulus ( SS ). The number of presentations for each pair ( VS i , SS ) typically varies from 20 to 200. The observer judges each pair ( VS i , SS ) and says which of the two stimuli has a greater (or a fewer) quantity of the attribute under consideration (e.g., volume, roughness, loudness, and so on). The PSE is the value of a comparison stimulus that, for a particular observer, is equally likely to be judged as higher or lower than that of a standard stimulus ( Guilford, 1954 ; Bock and Jones, 1968 ).\n\nAs an example of method of constant stimuli, let us consider an experiment of sound perception in which SS is a 50-decibel sound and the variable stimuli are I = 9 sounds from 30 to 70 decibels, at the distance of 5 decibels one from the next (i.e., VS = 30, 35, 40, 45, 50, 55, 60, 65, 70 decibels). Pairs of sounds are presented in succession, the former sound being the SS and the latter sound being the VS . The subject is asked to report whether or not the second sound (the VS ) is louder than the first sound (the SS ). In the experiment at hand, sound loudness is the target attribute. The PSE is the level (in decibel) of a comparison stimulus at which this stimulus is judged by the observer to be as loud as SS .\n\nWhen the method of constant stimuli is used, the classical solution for obtaining the PSE is the least square method ( Müller, 1879 ). The proportion P ( VS i > SS ) of times in which VS i is judged",
+  "source_label": "New Perspectives in Computing the Point of Subjective Equality Using Rasch Models",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4194
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "9232c667a87c9ca18f904c6a9d37411965aeb377864885b912436880fe50ffe6"
+}

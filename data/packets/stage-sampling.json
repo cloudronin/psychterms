@@ -1,0 +1,26 @@
+{
+  "id": "stage-sampling",
+  "term": "stage sampling",
+  "source": "article-pmc12614621",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0335586",
+  "revision": "2025; DOI 10.1371/journal.pone.0335586; article XML SHA-256 d391b486280e96c3b1af2e3c2cd6891d7d6d39d780cb86af1502f8bfe4a95dd6",
+  "source_snapshot_sha256": "d391b486280e96c3b1af2e3c2cd6891d7d6d39d780cb86af1502f8bfe4a95dd6",
+  "url": "https://doi.org/10.1371/journal.pone.0335586",
+  "text": "were also considered and compared with existing two-stage estimators. The analysis was performed under different values of the EWMA smoothing constant ( λ = 0 . 3 , 0 . 5 , 0 . 75 , 0 . 9 ). Both simulation and empirical results consistently show that the proposed memory-type two-stage ratio estimators outperform existing approaches, providing improved efficiency with minimum MSE.\n\nIn survey sampling, when population information is not fully available, the cluster sampling technique is often ideal for selecting a random sample. When this procedure is implemented in two stages, it becomes two-stage cluster sampling [ 1 ]. In this design, a random sample of nnn clusters, referred to as first-stage units (FSUs), is selected from the total of N clusters. Subsequently, from each of the nnn selected clusters of size M i ( i = 1, 2… n ), a random sample of m i elements is drawn, known as the second-stage units (SSUs) [ 2 ].\n\n[ 3 ] suggested general families of factor-type estimators for the population mean under the condition that non-response occurs either on the study variable alone or on both the study and auxiliary variables, making use of auxiliary variable information. Further [ 4 ], recommended calibration based estimation of finite population total in two stage random sampling. [ 5 , 6 ] proposed generalized ratio estimators using single and two auxiliary variables in two-stage sampling and exponential estimators to estimate population mean using two-phase scheme of sampling considering two auxiliary variables in two-stage sampling. The problem of estimating population mean in the presence of non-response under two stage technique of sampling was suggested by [ 7 ]. By using [ 8 ] technique, the estimator under two non-response models has been established. Moreover [ 9 ], proposed five different two-stage sampling designs based on neoteric ranked set sampling (NRSS). In another study [ 10 ], introduced a new two-stage cluster sampling design in which the first-stage sampling was carried out using probability proportional to size (PPS) and the second stage employed RSS to address variability in population unit sizes at the first stage. Similarly [ 11 ], analyzed clustered data under two-stage informative sampling within two-level models. Their investigation provided a new method to estimate cluster effects while accounting for design weights using a normal approximation. Furthermore [ 12 ], investigated a general class of exponential and chain ratio-type estimators for estimating the population mean under two-stage sampling with two auxiliary variables in the presence of measurement error. In addition [ 13 ], proposed a new generalized class of estimators based on PPS sampling with two auxiliary variables for estimating the finite population mean.\n\nSeveral studies have extended memory-type estimators using the EWMA statistic in different sampling settings. For time-based surveys, memory-type ratio and product estimators were proposed in [ 14 – 16 ], while their application under ranked-based sampling (RBS) schemes such as extreme, median, and quartile RSS was also investigated. A hybrid EWMA approach was introduced in [ 17 ] to improve process mean estimation using secondary information. Further extensions include memory-type estimators with auxiliary variables in two-phase simple random sampling [ 18 ], logarithmic estimators using EWMA [ 19 ], and hybrid EWMA-based logarithmic estimators [ 20 ]. Variance estimation in the presence of measurement errors was addressed in [ 21 ] through memory-type ratio and product estimators with EWMA. Additional developments include the use of auxiliary variables with extended EWMA statistics [ 22 ] and optimal classes of memory-type simple ratio estimators in two-stage sampling [ 23 ].\n\nSeveral extensions of the EWMA statistic have been proposed in recent studies. A homogeneously weighted moving average chart for variance was developed in [ 24 ] for rapid detection of process shifts using auxiliary information, while [ 25 ] introduced an adaptive EWMA-based control chart for the coefficient of variation under time-varying process means and linearly changing standard deviations. In",
+  "source_label": "Multiscale study of memory type simple ratio estimators in two stage sampling under exponentially weighted moving averages",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    743,
+    4937
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4"
+}
