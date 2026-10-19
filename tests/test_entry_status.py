@@ -32,10 +32,23 @@ class StatusTests(unittest.TestCase):
  def test_stale_packet_or_definition_proof_cannot_promote(self):
   self.entry['reader_reviews']=[self.reader()];self.entry['definition']+=' Edited.'
   with self.assertRaisesRegex(ValueError,'Stale reader'):self.build()
- def test_two_failures_drop_with_reason_even_after_pass(self):
+ def test_two_failures_require_redraft_with_reason_even_after_pass(self):
   self.entry['reader_reviews']=[self.reader(),self.reader('no-one',False),self.reader('no-two',False)]
-  entries,report=self.build();self.assertEqual(entries[0]['status'],'dropped');self.assertIn('not supported',entries[0]['drop_reason'])
-  self.assertIn('| Dropped | 1 |',release_note(report))
+  entries,report=self.build();self.assertEqual(entries[0]['status'],'redraft');self.assertIn('not supported',entries[0]['drop_reason'])
+  self.assertIn('| Redraft | 1 |',release_note(report))
+ def test_scope_failure_stays_dropped_pending_scope_read(self):
+  from redraft_policy import LEGACY_SCOPE_REASON
+  with patch('entry_status.decide',return_value={'eligible':False,'reason':LEGACY_SCOPE_REASON}):
+   entries,report=prepare([self.entry],history={})
+  self.assertEqual(entries[0]['status'],'dropped');self.assertEqual(entries[0]['scope_review'],'pending')
+  self.assertEqual(report['redraft_candidates']['candidates'],[])
+ def test_build_derived_risk_flag_does_not_change_terminal_source_identity(self):
+  from core import semantic_hash
+  self.entry['reader_reviews']=[self.reader('one',False),self.reader('two',False)]
+  _,before=self.build()
+  built=copy.deepcopy(self.entry);built['risk']=True;built['hash']=semantic_hash(built)
+  _,after=prepare([built],history=before['entries'],scope=False)
+  self.assertEqual(before['entries'],after['entries'])
  def test_copy_hit_blocks_publication_even_with_readers(self):
   self.entry['definition']=' '.join(self.packet['text'].split()[:20])
   self.entry['reader_reviews']=[self.reader()]
@@ -47,9 +60,10 @@ class StatusTests(unittest.TestCase):
    del self.entry[key]
  def test_backward_or_disappeared_entries_rejected(self):
   for old,new in [('reviewed','candidate'),('judged','reviewed'),('dropped','judged')]:
-   with self.assertRaisesRegex(ValueError,'backward'):check_forward({'x':{'status':old}},{'x':{'status':new}})
+   with self.assertRaisesRegex(ValueError,'backward|terminal'):check_forward({'x':{'status':old}},{'x':{'status':new}})
   with self.assertRaises(ValueError):check_forward({'x':{'status':'candidate'}},{})
   check_forward({'x':{'status':'reviewed'}},{'x':{'status':'dropped'}})
+  check_forward({'x':{'status':'reviewed'}},{'x':{'status':'redraft'}})
  def test_committed_history_cannot_omit_new_or_changed_status(self):
   current={'x':{'status':'reviewed'}}
   for history in ({},{'x':{'status':'candidate'}}):
@@ -67,11 +81,14 @@ class StatusTests(unittest.TestCase):
   entries,_=self.build();entry=entries[0];entry['released']=True;entry['release_versions']=['1.0.0']
   _,sources,fields=load_inputs();validate_entry(entry,sources,fields,release=True,built=True)
   self.assertEqual(entry['status'],'candidate')
- def test_dropped_definitions_excluded_from_public_exports(self):
+ def test_failed_definitions_excluded_from_public_exports(self):
   from export import build
   self.entry['reader_reviews']=[self.reader('one',False),self.reader('two',False)]
   data,md,_=build([self.entry],history={})
   self.assertEqual(data['entries'],[]);self.assertEqual(data['dropped'][0]['id'],self.entry['id'])
+  self.assertEqual(data['dropped'][0]['status'],'redraft')
+  self.assertTrue(data['dropped'][0]['new_packet_required'])
+  self.assertEqual(data['redraft_candidates'][0]['requirement'],'new packet required')
   self.assertNotIn(self.entry['definition'],md)
   self.assertTrue(data['dropped'][0]['sources'][0]['licence_url'])
   self.assertIn(data['dropped'][0]['sources'][0]['citation'],md)

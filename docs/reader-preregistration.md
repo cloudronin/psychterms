@@ -36,3 +36,7 @@ Receipt-backed cost is **$8.036780**, including retries, with **$0.229910** reta
 Vishnu instructed source recovery, fresh drafting and independent review of the eligible remainder. The first continuation registered 330 calls for 165 newly drafted definitions at `7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738`. Model snapshots and prompts are unchanged; every previous charge and uncertain reservation remains on the original **$25 ledger**. This is a queue amendment, not a new cap. Cumulative outcomes and cost are regenerated in `reports/independent-readers.json`.
 
 Before publication, 22 first-wave entries were quarantined after a source extraction check found external quotations. Their verdicts and costs remain in the private audit and cumulative cost report, but they do not contribute to public entry statuses. Clean re-extraction must precede any new definition from these articles.
+
+## Status policy amendment: dropped and redraft
+
+The later human instruction supersedes the historical use of “dropped” above for definition failures. `dropped` is for out-of-scope headwords, pending a scope read for the current exclusions; they are not redrafted. `redraft` is for in-scope headwords whose definitions failed their packets. Those headwords return to the candidate pool marked “new packet required”. A replacement is a new entry with new provenance and its own two independent reads. Forward-only state applies to entries, not headwords; existing receipts and verdicts remain unchanged.

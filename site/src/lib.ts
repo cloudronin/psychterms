@@ -16,4 +16,4 @@ export const entryReferences=distribution.references;
 export const dropped=distribution.dropped;
 export const statusCounts=distribution.status_counts;
 export const readerModels=distribution.reader_models;
-export const reviewLabel=(entry:any)=>entry.status==='candidate'?'Candidate: drafted from the sources shown, not yet read by the two reviewers.':entry.status==='reviewed'?'Reviewed: one independent reader; copy check clear.':entry.status==='judged'?'Judged: two independent readers; copy check clear.':'Dropped: reason recorded.';
+export const reviewLabel=(entry:any)=>entry.status==='candidate'?'Candidate: drafted from the sources shown, not yet read by the two reviewers.':entry.status==='reviewed'?'Reviewed: one independent reader; copy check clear.':entry.status==='judged'?'Judged: two independent readers; copy check clear.':entry.status==='redraft'?'Redraft: new packet required.':'Dropped: scope read pending.';

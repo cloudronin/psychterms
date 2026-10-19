@@ -6,7 +6,7 @@ import re
 import unicodedata
 
 ROOT=Path(__file__).resolve().parents[1]
-SEMANTIC=('id','term','definition','also_see','field','aliases','sources','provenance','exam_layer_id','risk')
+SEMANTIC=('id','term','definition','also_see','field','aliases','sources','provenance','exam_layer_id','risk','redraft_of')
 ALLOWED_LICENSES={'public-domain-US-government','public-domain-US','CC0-1.0','CC-BY-2.0','CC-BY-2.5','CC-BY-3.0','CC-BY-4.0','OGL-UK-3.0'}
 
 def canonical(value): return json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
@@ -51,15 +51,17 @@ def validate_entry(entry, sources, fields, release=False, built=False):
             if item['role'] not in source['roles']:raise ValueError('Source role not allowed')
         if item['role']=='draft_basis':basis=True
     if not basis:raise ValueError('No permitted drafting basis')
-    computed={'status','checks','released','release_versions','drafter','drop_reason'}
+    computed={'status','checks','released','release_versions','drafter','drop_reason','new_packet_required','scope_review'}
     if 'review_status' in entry:raise ValueError('Legacy review_status is forbidden; status is build-owned')
     if not built and computed & entry.keys():raise ValueError('Status and release markers are build-owned')
     if built:
-        if entry.get('status') not in {'candidate','reviewed','judged','dropped'} or type(entry.get('released')) is not bool or 'checks' not in entry:raise ValueError('Missing build-owned review state')
+        if entry.get('status') not in {'candidate','reviewed','judged','dropped','redraft'} or type(entry.get('released')) is not bool or 'checks' not in entry:raise ValueError('Missing build-owned review state')
+    if 'redraft_of' in entry:
+        if not isinstance(entry['redraft_of'],list) or not entry['redraft_of'] or any(not isinstance(i,str) or i==entry['id'] for i in entry['redraft_of']) or len(set(entry['redraft_of']))!=len(entry['redraft_of']):raise ValueError('Invalid redraft lineage')
     if entry.get('draft_evidence'):validate_draft_evidence(entry)
     elif entry.get('model_review'):validate_model_review(entry)
     elif entry.get('fixture') is not True or entry['id'] not in {'attention','memory','psychotherapy'}:raise ValueError('Missing drafting evidence')
-    if release and (not built or entry.get('released') is not True or entry.get('status')=='dropped'):
+    if release and (not built or entry.get('released') is not True or entry.get('status') in {'dropped','redraft'}):
         raise ValueError('Preview entry needs a build-assigned numbered-release marker')
 
 

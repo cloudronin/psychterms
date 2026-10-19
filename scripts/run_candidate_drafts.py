@@ -10,7 +10,7 @@ from risk_registry import load_registry,matches,required_tests
 from scope_rules import decide
 
 DEST=ROOT/'.private/candidate-drafts'
-PINNED_CODE=('core.py','scope_rules.py','check_packets.py','budget.py','risk_registry.py','overlap_scan.py')
+PINNED_CODE=('core.py','scope_rules.py','check_packets.py','budget.py','risk_registry.py','overlap_scan.py','redraft_policy.py')
 
 def source_content_hash(packet):
     return digest({key:packet.get(key) for key in ('term','source','source_record','revision','text')})
@@ -127,6 +127,9 @@ def candidate_entry(packet,saved,sources,fields,index):
         'sources':[packet['source']],'provenance':[{'role':'draft_basis','source':packet['source'],'revision':packet['revision'],'scope':f'Source record {packet["source_record"]}; pinned source text','locator':packet['url']}],
         'version':1,'packet_hash':packet['packet_hash'],
         'draft_evidence':{'model':saved['model'],'receipt_id':saved['receipt_id'],'request_hash':saved['request_hash'],'registration_hash':saved['registration_hash'],'definition_hash':digest(draft),'packet_hash':packet['packet_hash']}}
+    if packet.get('redraft_of'):
+        entry['redraft_of']=packet['redraft_of']
+        entry['provenance'][0]['scope']+='; replacement packet SHA-256 '+packet['packet_hash']
     entry['hash']=semantic_hash(entry);validate_entry(entry,sources,fields);return entry
 
 def draft_packet(client,packet,sources,fields,index):

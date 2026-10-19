@@ -5,6 +5,7 @@ from core import ROOT,digest,slug,load_inputs
 from check_packets import validate_packet
 from source_coverage_audit import load_records,norm
 from scope_rules import decide
+from redraft_policy import packet_basis_hash,headword_key
 
 def excerpt(text,term,limit=4200):
     if len(text)<=limit:return text,0,len(text)
@@ -21,14 +22,20 @@ def excerpt(text,term,limit=4200):
 
 def prepare(directory,out):
     if '.private' not in out.resolve().relative_to(ROOT).parts:raise ValueError('Queue must remain private')
-    entries,sources,_=load_inputs();existing={norm(e['term']) for e in entries}
+    entries,sources,_=load_inputs()
+    pool_path=ROOT/'data/redraft-candidates.json'
+    pool=json.loads(pool_path.read_text())['candidates'] if pool_path.exists() else []
+    redrafts={headword_key(row['term']):row for row in pool}
+    existing={headword_key(e['term']) for e in entries}-set(redrafts)
+    failed_packets={ident:json.loads((ROOT/'data/packets'/(ident+'.json')).read_text())
+                    for row in pool for ident in row['failed_entry_ids']}
     records=load_records(directory);index={(r['source_id'],r['record_id']):r for r in records}
     rows=json.loads((directory/'coverage.json').read_text());packets=[];pending=[];seen=set();used={e['id'] for e in entries}
     priority={'mesh-2026':0,'ncit':1,'onlinestatbook-v2':2}
     for row in rows:
         if row['production_scope']=='excluded_biography':continue
-        term=row['term'];key=norm(term)
-        if key in existing or key in seen:continue
+        term=row['term'];key=norm(term);word_key=headword_key(term)
+        if word_key in existing or word_key in seen:continue
         if row['status'] not in ('exact_label_source_candidate','source_passage_candidate'):
             pending.append({'term':term,'reason':'No admitted source-text packet yet','retrieval_status':row['status']});continue
         selected=None;scope_rejected=False
@@ -47,13 +54,17 @@ def prepare(directory,out):
             if not text or len(text.split())<8:continue
             decision=decide({'source':source['id'],'source_record':record['record_id'],'term':term,'source_label':record['term'],'text':text,'tree_numbers':record.get('tree_numbers',[]),'semantic_types':record.get('semantic_types',[])})
             if not decision['eligible']:scope_rejected=True;continue
+            basis={'term':term,'source':source['id'],'source_record':record['record_id'],
+                   'revision':'Flat export snapshot 2026-10-18' if source['id']=='ncit' else source['pinned_version'],'text':text}
+            if word_key in redrafts and any(packet_basis_hash(basis)==packet_basis_hash(failed_packets[i]) for i in redrafts[word_key]['failed_entry_ids']):continue
             selected=(source,record,text,start,end);break
         if not selected:
             pending.append({'term':term,'reason':'No sufficiently contextual, admitted source-text packet','retrieval_status':'scope_excluded_before_spend' if scope_rejected else row['status']});continue
         source,record,text,start,end=selected
         ident=slug(term)
-        if ident in used:ident+='-'+digest({'term':term,'source':record['source_id'],'record':record['record_id']})[:10]
-        used.add(ident);seen.add(key)
+        if ident in used:ident+='-'+digest({'term':term,'source':record['source_id'],'record':record['record_id'],'text':text,'revision':source['pinned_version'],'redraft_of':redrafts.get(word_key,{}).get('failed_entry_ids',[])})[:10]
+        if ident in used:raise ValueError('Replacement entry ID collision')
+        used.add(ident);seen.add(word_key)
         packet={'id':ident,'term':term,'source':source['id'],'licence':source['licence'],'source_record':record['record_id'],
             'revision':'Flat export snapshot 2026-10-18' if source['id']=='ncit' else source['pinned_version'],'source_snapshot_sha256':record['snapshot_sha256'],'url':record['url'],'text':text,
             'source_label':record['term'],'tree_numbers':record.get('tree_numbers',[]),'semantic_types':record.get('semantic_types',[]),'source_kind':record.get('source_kind','descriptor_record_candidate'),
@@ -61,6 +72,7 @@ def prepare(directory,out):
         decision=decide(packet)
         if not decision['eligible']:
             pending.append({'term':term,'reason':decision['reason'],'retrieval_status':'scope_excluded_before_spend'});continue
+        if word_key in redrafts:packet['redraft_of']=redrafts[word_key]['failed_entry_ids']
         packet['planned_field']=decision['field'];packet['scope_decision']=decision
         packet['packet_hash']=digest(packet);validate_packet(packet,sources);packets.append(packet)
     out.mkdir(parents=True,exist_ok=True)
