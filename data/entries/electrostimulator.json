@@ -2,7 +2,7 @@
   "id": "electrostimulator",
   "term": "electrostimulator",
   "definition": "An electrostimulator is a device or circuit used to apply electric fields to cells so their activity or growth can be monitored or influenced. In this source, its track geometry affects the strength and uniformity of the field it produces.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40824-020-00195-2"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "51a6810aaebc81a63d4aa231145d449382a129b36f40022744f2b445746ebcbb",
     "packet_hash": "c3138fa66bb3fff5466a45640a946aa264ad5e6cf6a745ad4f3d22129879d9c2"
   },
-  "hash": "ff2f979139d292ea1550df3a0b956641a4d1dd1c94ddf2f044f26b670b9654ea",
+  "hash": "65f2d1e679b660ca5ec777abc9c34f59806f47fb318d841202bcaea18835148d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "009f436813cdc3df5bca5d52d276bef6d9873c254ba99d0fc1741cacec6bde28",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

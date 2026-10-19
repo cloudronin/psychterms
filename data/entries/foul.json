@@ -2,7 +2,7 @@
   "id": "foul",
   "term": "foul",
   "definition": "In this context, a foul is a football play or contact situation that a referee must judge as either violating the rules or not. It refers to the kinds of on-field incidents used to study how accurately and quickly referees make decisions.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1871146"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0add60fc1ad06331c9830eef6e984affeb1d95f5289f26a288a1156947756000",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f8d0ad8f7a85da701e6ca90c137aee92c3a7105750ebe1d91c44c5ee36859b19",
     "packet_hash": "0add60fc1ad06331c9830eef6e984affeb1d95f5289f26a288a1156947756000"
   },
-  "hash": "67142d1891663b72ab00eaa7af6b1b3092c16e69ae26ebfa4f8aefc5baf51e49",
+  "hash": "5cf23ee6c6ebedc1102a125b49ef3bdc1f734e40afd6bbbabb619cc24aa99fd8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "a03fa89fbe1f5edb176fe93d345ed6d6b13a3bdb16813c6cd59997760de02211",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

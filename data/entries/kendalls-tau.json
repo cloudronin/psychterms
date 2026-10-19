@@ -2,7 +2,7 @@
   "id": "kendalls-tau",
   "term": "Kendall’s tau",
   "definition": "Kendall’s tau is a statistical coefficient used to show how closely two rank orderings correspond. In this source, it measures the strength of rank-order correlation between groups’ ratings.",
-  "field": "social",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12998-026-00635-1"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8355e16788797003deece1597b79e3868de1007f73443666ee218d0eeff82912",
     "packet_hash": "90779c108420e02a859bdc41c45a99a9d52ab4bec9faa7896d43e0e5421659bc"
   },
-  "hash": "83143d11f89877e5f924ab6bde983ea675c70afab32608f78e6285d421faec53",
+  "hash": "f271bb139c99b48544dd68a7d94ab1a9cc653bb8348675f382d2a1035ebb6597",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "7be6240ad8eeffdb166e17619a47fbf25a11f03c1ce29ca20c3f56b189674f23",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

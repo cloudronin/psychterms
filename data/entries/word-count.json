@@ -2,7 +2,7 @@
   "id": "word-count",
   "term": "word count",
   "definition": "Word count is the total number of words in a text. In text-based psychological analysis, it can be used as the overall reference for calculating what proportion of the text falls into particular linguistic or psychological categories.",
-  "field": "social",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2022.841534"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "32867ed06ca380d2f7221d814a9c16abaee18840b2a9b0e53c6b664e73a0c6a1",
     "packet_hash": "8c53124dc3fa9841a694f44307f7988d7b54867700bb9f165c21de0e993ad28c"
   },
-  "hash": "8ec88d96911e72673b331edbe62d4ab019783fa9b1d98f7d1a34881aa3644842",
+  "hash": "0be42431b0eed8e30b262eeaeff77c2e18ebaaa082a91c04d6989e172d65e1d4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "76d561635bf439e47d1d38be148b6b386732938d17746017488990a4b502f8f8",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "taurine",
   "term": "taurine",
   "definition": "Taurine is a beta-amino acid involved in energy metabolism, inhibitory neurotransmission, calcium balance, and antioxidant protection. In autism research, low taurine levels have been proposed as a possible finding in some individuals, although study results are mixed.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1700059"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "104aff981e969a5dfc7b66d8b6949c06bae03d513d3926d6383288ab1b553eb5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4844558211d499d0d0d7eae2670dc92383846d2dcf49e8ea6f3e3d45308e68f4",
     "packet_hash": "104aff981e969a5dfc7b66d8b6949c06bae03d513d3926d6383288ab1b553eb5"
   },
-  "hash": "f5840a410dcb2326b84c01dada3966cfc0944a53fc1c84f4f67c0dd950d7d2b9",
+  "hash": "ecaae5ac833b17b86480ec0b8b2a3ba882619991422aa40f3d66c3e824674a7a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "86b96b1d5feab8d60c6a302ce768d0aa1b3dfa9594a55520fce55059f8ec96ac",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "risk-metrics",
   "term": "risk metrics",
   "definition": "Risk metrics are measures used to estimate how much risk is involved in a decision scenario. In the source, they refer specifically to volatility-based measures used to compare investment options and help balance risk, return, and regret in decision-making.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0299699"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "58bfd4da004ab79788b6d65c613c88edae0373ed34941495c30e3d27ce3f0b61",
     "packet_hash": "983e14a7829a0a200805a2486b49f211e78bb134bb8c2ed5d9fccd838ee42f52"
   },
-  "hash": "42f6ec8fd795cf513246bd745cc98fb1bf1137ef5b7690c0d2fe88dcf567568e",
+  "hash": "37930083daba23544262160e44551d26962e50b8a03e0c3e958b56ee4fb5c291",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "3cc24e50b98b190a0cde79002f5f294bcef6103a2601c2af9fb45fb7361fec92",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

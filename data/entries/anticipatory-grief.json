@@ -2,7 +2,7 @@
   "id": "anticipatory-grief",
   "term": "anticipatory grief",
   "definition": "Anticipatory grief is grief that a person with a life-threatening illness, or that person’s caregiver, can experience before an actual death or other loss has happened. It involves grief symptoms arising in response to the serious illness itself.",
-  "field": "assessment",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1709822"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f9767a797559c1e4d72e2a5562c9018ab01cfb624cf7b10dcae3ea0e757f5c1a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9efebb538979dce8c73ca07a60cffb492d1c3e1b3776e8d4280aac6d1c75c9bb",
     "packet_hash": "f9767a797559c1e4d72e2a5562c9018ab01cfb624cf7b10dcae3ea0e757f5c1a"
   },
-  "hash": "55622b78c185204c067f6db240dab73b5a57ba030ad926df497311c0b35f32d7",
+  "hash": "46e07682b7ddc9f283f4f0d4076da8a5e2f241c49358b0de6dc0597742af985d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "03cdf4a2372b81566de1dcd22af043f79e82729a50df9de68308a266b595aa24",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

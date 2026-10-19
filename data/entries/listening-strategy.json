@@ -2,7 +2,7 @@
   "id": "listening-strategy",
   "term": "listening strategy",
   "definition": "A listening strategy is the way a person approaches and organizes what they hear when trying to make sense of speech. In this source, it refers especially to whether someone listens in a more discrete, category-based way or a more gradient, flexible way, with the latter helping more in difficult, noisy speech settings.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0318600"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e4328c2c50d5e984f132388ca5de3a6e84558debe214fafd07004b2341a106ba",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "71c8d79be58db65d25a4ba9fed2940b4292b2391687c01ec8f2dfe3317cb5d50",
     "packet_hash": "e4328c2c50d5e984f132388ca5de3a6e84558debe214fafd07004b2341a106ba"
   },
-  "hash": "7789fc1ed03630daacc96920018d84d2a3838e1c5d9891238cc6f76aa82d7f70",
+  "hash": "3431f3a085b2acb8e0b11593b51c398e73b1197c7e6ee801a3b5aff368e5694b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9eea2028d4f95af4f7801a4e717fceff7e17213e60b96586ec69c8893220ccd9",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

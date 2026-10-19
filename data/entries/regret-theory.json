@@ -2,7 +2,7 @@
   "id": "regret-theory",
   "term": "regret theory",
   "definition": "Regret theory is a decision-making approach that considers not only the expected benefit of a choice but also the regret a person may expect to feel if another option would have been better. It is used to account for how anticipated regret can shape choices, including comparisons with similar past cases.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0300272"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "907e180b9c13e2940088c9f5c021247d65a031ba303863b1ab5abadd714c41f4",
     "packet_hash": "888dffac4bcda599be1d46c3c504590c972b880fca990bf9f9af0d683e4ab220"
   },
-  "hash": "49e0b8e43fa29e1a525081e77f754da8787e8949adbd12a10a36c82ef7ce48c8",
+  "hash": "121ceb07a21b653b0b357ca91a638108582b653c62520d235550e1129eb7f95a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "ae46c7cb916c217c59b307be1f7d896f3e7b96b615c46e124f889cc4192e67b7",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

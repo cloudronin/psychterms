@@ -2,7 +2,7 @@
   "id": "change-blindness",
   "term": "change blindness",
   "definition": "Change blindness is a failure to notice a visual change when it happens alongside a disruption such as an eye movement, a blink, a flash, or other distracting input. The packet also indicates that some changed visual information may still be processed implicitly even when the person cannot consciously report the change.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0087682"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c2f35605d1fcb0c1526b1609f8a30c3148649d5608aab8f1d5c9881eee530314",
     "packet_hash": "7a9b95927fca8e061cd835c5a2a5b7701fe34b7ab24f0cf72b21f860632401a0"
   },
-  "hash": "5d37e4079bfd40aa4e557b7443967f9364a2d586e145961e5368cd28cc2bee6d",
+  "hash": "22e7008409fbead3b23be42a4482db2d4f2e5119d60aa1c4bb055d22c2da4cba",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "881405967731d5ad5c4533680505c8ee0bcdce107e74377e4341eb772bcde6ab",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "cognitive-processing-therapy",
   "term": "cognitive processing therapy",
   "definition": "Cognitive processing therapy is a psychotherapy with established benefit for posttraumatic stress disorder, including chronic PTSD. In the source, it is described as a treatment that can be delivered in a massed format, meaning the full 12 sessions are completed on an accelerated schedule such as within 7 days.",
-  "field": "diagnosis",
+  "field": "counselling skills",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0313741"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5b7d5a6243fe91dcaa95b40993f2d8a5e191b373be4720b2e858979a024d4f97",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "18460c3026be8e14f9f01dc16c580479e571e3577610f8f250758ec61b6cbc5a",
     "packet_hash": "5b7d5a6243fe91dcaa95b40993f2d8a5e191b373be4720b2e858979a024d4f97"
   },
-  "hash": "e59358aef8d271d75b6754b1e099dc9be134a810af17ded534bde791a9fa3cde",
+  "hash": "488a8dd7eb5c3ff8e728caf0b9b359c112367adc2466bc73ec5339e6e06a050b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "14962251d82697ade903bdd71f5695813962b75a73b353dfdd6fc894285ecf8c",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

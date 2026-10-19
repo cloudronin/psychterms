@@ -2,7 +2,7 @@
   "id": "victim-blaming",
   "term": "victim blaming",
   "definition": "Victim blaming is the act of shifting responsibility for wrongdoing onto the person who was harmed instead of the perpetrator. In this context, it appears as part of a defensive response that deflects blame and distorts the events in the wrongdoer’s favor.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0313642"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "82b4f2b8d39d300c18fc4f7702f587740ca16e902d0b082a2aa2335e3c7618bf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b8b9ca310e95c25c0acd0460efbf8ae49bf38925544b8f1ad3a2acdefd8a351d",
     "packet_hash": "82b4f2b8d39d300c18fc4f7702f587740ca16e902d0b082a2aa2335e3c7618bf"
   },
-  "hash": "ebb44c99f1a63b0bde733313fb96cf5043699b6426859dd262104619f8b9aa80",
+  "hash": "5e6fd0644b62d14eaa93035eb5896710fde448ff16b6b96640d0e4f1db286abd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "5efd6408d066c9499f5ea85ebd58b491539af3855c061483f14a88c216f15355",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "fetal-activity",
   "term": "fetal activity",
   "definition": "Fetal activity is movement shown by the fetus before birth. In the source, it is used as one of the main observable patterns before 32 weeks of gestation, contrasted with quiescence, and later considered together with heart rate variability to help identify fetal behavioral states.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2015.00147"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f30fdd2ced56cc0e749ef0228ff0fc5bc6ad6339a48d3e421f9efe752283b3c0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6a9a14fe503e145f069bfed390023bd32e92f589577e78cdab8554167651737c",
     "packet_hash": "f30fdd2ced56cc0e749ef0228ff0fc5bc6ad6339a48d3e421f9efe752283b3c0"
   },
-  "hash": "c1b92152e4d97c9861c51cd0238a4899071919d74fdabea0c8662923fe7680f8",
+  "hash": "a1078bb7a2875eb520ac0f98be367a551f28abd281c4a310e738737cdeb8a461",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fbd92650ed4adc79b250b77e1083719dd504619e8a8f4cf49ba9acc3d31e6d81",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

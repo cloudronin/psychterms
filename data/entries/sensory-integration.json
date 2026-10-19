@@ -2,7 +2,7 @@
   "id": "sensory-integration",
   "term": "sensory integration",
   "definition": "Sensory integration is the process of combining information from different senses so the central nervous system can make sense of the body and the surrounding environment and support appropriate physical responses. When this process is disrupted, a person may misprocess sensory input and have related difficulties in areas such as touch, balance, movement, hearing-language, or spatial perception.",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1623149"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "095c55af314da6895651bf6907031d33a175e1a4a90e5d66b2d80e79ca79128e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ac187719fa8452df3af517910764aece7635a84c25f2a1e655fa73818a0e17ba",
     "packet_hash": "095c55af314da6895651bf6907031d33a175e1a4a90e5d66b2d80e79ca79128e"
   },
-  "hash": "0b26804164a428d1bcac7caa65611d9d8660364327457fdb39450d3043e6b3e6",
+  "hash": "ca9caa7a534dc5346f2e1ec38c73bffe4a2fc3593cf7a6f5e56522596ccd6e12",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "be960e9f2fc93de9f7f9edfdb8b232db97d0b3c971a8aaa4d1e675dbf3da3f0f",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

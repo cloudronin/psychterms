@@ -2,7 +2,7 @@
   "id": "morals",
   "term": "morals",
   "definition": "Morals are standards for behavior that people use to judge what is right and what is wrong.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D009014"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cd2e9c9fda9daf0fb6df9cd3118d114d6dcab651e046ac20bde85eeccf6c5bdf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f3934330785e6ee6b916fa1d9aa9f6f4fb7e25aeff12301e374fe5db5e74abb9",
     "packet_hash": "cd2e9c9fda9daf0fb6df9cd3118d114d6dcab651e046ac20bde85eeccf6c5bdf"
   },
-  "hash": "90b46c245d7e40fb2373fb7d5d8747566df9c203988c3db746a02e0537011cb4",
+  "hash": "4f57dd743d613013fa5492eeb270277bcfd072d84d9f19b00418a1bc7c9b5a00",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "287d6fd062bc333ccff6baa7038e1ce546672299e8d191d6c556e32ddbeeb69a",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

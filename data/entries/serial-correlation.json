@@ -2,7 +2,7 @@
   "id": "serial-correlation",
   "term": "serial correlation",
   "definition": "Serial correlation is the tendency for repeated measurements from the same person to be related to one another across time rather than acting like independent observations. In N-of-1 data, failing to account for this time-linked pattern can lead simple statistical tests to give misleading results.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0228077"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "053cda63cfca46a8b08fe8fc625ce91bc61ae4db4a1750df613ca477d422fcd0",
     "packet_hash": "8d10152be0dc5808e0208ce40475ec760c369c3a2b08db316f31c2e62ad9f3dd"
   },
-  "hash": "bb1c38a5621fe44dd014d3e6acbf89c05458b1024deea022e823f629eb0888a2",
+  "hash": "4733a93c7ad8f7bed0f5d41b6caa961aa0a70f623429098cdcedc17af282b8b5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e17dc31789e9c0f3b87fb72926d2fc2c00e43fd1b9454d507b5e55c7809fbbbd",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

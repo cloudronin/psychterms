@@ -2,7 +2,7 @@
   "id": "countermeasure",
   "term": "countermeasure",
   "definition": "A countermeasure is a response or protective action used to reduce or offset a problem or harmful effect. In this context, contact with urban green space is presented as a restorative countermeasure for mental health burdens linked to rapid urbanisation.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1907289"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "37eece8ac6d17c027ad1278445444c265a95dcc9c76657575c03796d08d40ea1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5939e2f0e5ef260798e3baa1395f9de9a3bc77fa9eac2bb2f207a2084d5700df",
     "packet_hash": "37eece8ac6d17c027ad1278445444c265a95dcc9c76657575c03796d08d40ea1"
   },
-  "hash": "745c353368ed76f4b734ca7bd787ca5f78760949a96b1f0a5fbbfe357e9d5ae0",
+  "hash": "a933d95ec25b214657c3a4c316e4b1b69a8a99c98961b4408416a3e8b983ef65",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fd6634da802b99f8bdbcf82a1cd0e489335a628408c85140ac16a75b027ec6bd",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

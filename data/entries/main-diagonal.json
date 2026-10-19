@@ -2,7 +2,7 @@
   "id": "main-diagonal",
   "term": "main diagonal",
   "definition": "In a protein distance matrix, the main diagonal is the central line running from one corner to the opposite corner. Features located near this diagonal tend to occur more often than features found farther away in the corners of the matrix.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0263566"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "73a820ef38313f6706bba935ee895ad287bbed789d47989550e2cb24e3afde17",
     "packet_hash": "3ead8c8f0672106fbbd0ab9f4b36182feff07d9b7a634d766fbbf2ba1c71f32d"
   },
-  "hash": "02b537e23f6bbf0388c09bb6e58fc69e5e3b59e4503d0dbe934c6343a047d34c",
+  "hash": "de5eef607c0efee78030342d5f2c6f484cb4c107b054bcde0f9cc77fc325a136",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "7dfcdffcd01704cf5a630392e3dfaf98e1534e615f7f82ede95763608a5374de",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

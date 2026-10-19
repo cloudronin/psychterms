@@ -2,7 +2,7 @@
   "id": "anxiety",
   "term": "anxiety",
   "definition": "Anxiety is an emotional state marked by worry, fear, or a sense that something bad may happen. In this use, it refers to these feelings when they are not severely impairing like an anxiety disorder.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D001007"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f0a963816b1f1c7a134482cf86e6086e01c422d914e8bc473ba96ed0a79ba330",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2cf1ad9cd18c11cd1162eea9fc90bd6898bd361af2e2e1583e1df06290593379",
     "packet_hash": "f0a963816b1f1c7a134482cf86e6086e01c422d914e8bc473ba96ed0a79ba330"
   },
-  "hash": "00a20c0ba4d4b35dd45e0900c12e3cad0532006a6108aa9a1ea27955104e057f",
+  "hash": "f60c02bb0d5fe08d59a764860a5d43220410753a210fabffeaec6a23e73015a8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "07139392594fa8d9f770347aa903373155f55449b36603a78d9eb468b9fb94cf",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

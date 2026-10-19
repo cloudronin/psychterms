@@ -2,7 +2,7 @@
   "id": "auditory-training",
   "term": "auditory training",
   "definition": "Auditory training is practice designed to help people cope with a degraded or hard-to-hear sound signal. In the supplied source, it is described as improving listening-related functioning in adults with hearing loss, especially when auditory tasks also engage broader cognitive skills such as attention or working memory.",
-  "field": "biological",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2015.00556"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4c533242c7e748c2a914247590dc090409484017d280efafa282583066b90d54",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d3d313572cb75f4153bb5d9bcdab54b22fec7aca45e7e2678e10b1fc83552fdf",
     "packet_hash": "4c533242c7e748c2a914247590dc090409484017d280efafa282583066b90d54"
   },
-  "hash": "3191e585a5c69bf72d95d5cd89655f8da927d3d9830eeaa3f2487f55b06111f6",
+  "hash": "31cbb1b5d1786157389bba32c63343ae95fad971b02308a7ed4b72fa877572b6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ec46a0adcbecc176404f062ec3c50a1d8c18e76930fa4f46a171b6dee8d46a9e",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

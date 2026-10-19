@@ -2,7 +2,7 @@
   "id": "emotional-disturbance",
   "term": "emotional disturbance",
   "definition": "Emotional disturbance is an IDEA disability classification used in schools. In this source, it is described as the category most commonly linked with behavioral difficulties and school disciplinary action.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0346338"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0ab45d50f299338e3115f1a5c480bd090d64e9b149dc5755717378b7da4a28b5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "29984974ad4715692c170786bd3c77fa6f68c86649716cc9880f3b82ff2a387f",
     "packet_hash": "0ab45d50f299338e3115f1a5c480bd090d64e9b149dc5755717378b7da4a28b5"
   },
-  "hash": "8d82d2134ef28796202809cee9174e3a2727d99f8a651fcf6d1469e9e287de5a",
+  "hash": "aad2be8dd989f2e98f0aa16ef01f378186cca3fe07c5d41c995bc333085159c9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8ef5493fc225fe426998e926768409906ac64c24d544038b1c95397ec24513dd",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

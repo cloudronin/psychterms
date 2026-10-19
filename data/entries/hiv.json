@@ -2,7 +2,7 @@
   "id": "hiv",
   "term": "HIV",
   "definition": "HIV is listed here as an example of a chronic disease. In this context, that means it is a long-lasting condition that may require ongoing medical care, limit daily activities, or both.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/chronic-illness-mental-health"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7f7bcee1009dda440e38ab1740797b470d70d18697b569ae1214995fd8c61085",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1fc063024a9f31b9741947c1050fe16b503ef47dc437ac7ed606d8425aa2e75e",
     "packet_hash": "7f7bcee1009dda440e38ab1740797b470d70d18697b569ae1214995fd8c61085"
   },
-  "hash": "470bf2813d548a77d7e414ac785c29409d5af91cc3c12495067fbc915c8da73a",
+  "hash": "fc2f797d5a19b27601ff184c06acaffa07c4e5b130eaa50bad5bbb581c297e35",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1727e5b2fa61b58984d2489c96ff81a48a67e1a0407c26200e474af9aa5e9ef8",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

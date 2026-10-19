@@ -2,7 +2,7 @@
   "id": "delayed-reflex",
   "term": "delayed reflex",
   "definition": "Delayed reflex refers to slower-than-expected development of reflex responses, meaning normal reflex behaviors appear later or mature more slowly during early development. In this packet, it is described as part of impaired reflex development in mouse pups.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0239738"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a12fc8fedfd026f6746abdc4cb0fb3b43ea10396cf03594599d85cd174817ce8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0c0128908e2755e90c37c16c9ce9f7a83f9ad58a3358a63ea9287b21740be149",
     "packet_hash": "a12fc8fedfd026f6746abdc4cb0fb3b43ea10396cf03594599d85cd174817ce8"
   },
-  "hash": "41b4f05266516ce4081820b16733eea4a1cde933dc61b03b5b883d8aeba1f267",
+  "hash": "9da54c826c1434a9dac75093707d424c2bda053a62a28c38ad118caffc184b97",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "d3136bd7ba75633ef1a1bd4fcf895f8a446f24f4ce289814e79f96eb6afcf219",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "metabolic-rate",
   "term": "metabolic rate",
   "definition": "In this packet, metabolic rate refers to the body’s energy expenditure, especially resting metabolic rate, which is a major part of total daily energy use. It can vary with factors such as age, sex, and body composition.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0354973"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "324a003dcc1a641689a52d53f11d49218f55343eb0ef970cc01918fead62b066",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0d9ac3e0d3744c4bbff75d07009498fd78be1a58cb9c2d92f5e096badcebd0b7",
     "packet_hash": "324a003dcc1a641689a52d53f11d49218f55343eb0ef970cc01918fead62b066"
   },
-  "hash": "28d1c65d920a1e29b9b5dc91f4b95778d02067035593eb876fdc2126f0afeb75",
+  "hash": "bb6847355459ed25f1e34b853d51d8a6748b9a64b33ca7a4f87ba9bc3afee69f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d3a930181d9c5a23f28fc5ac616a509b078fa35e95c21324c0fbdfaf79437c67",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

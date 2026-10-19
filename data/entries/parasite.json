@@ -2,7 +2,7 @@
   "id": "parasite",
   "term": "parasite",
   "definition": "A parasite is an organism that lives in a parasitic relationship with a host and can affect the host’s survival or other outcomes. In the source, parasites are described as widespread in nature, with how common they are and how much impact they have changing with environmental conditions.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0335145"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4f32dc9236fff777f3501811fbd7b3b6d07490bb199d90772061a9f25c32c049",
     "packet_hash": "9fae13d35ed4989391f84f6f55ba4ac206437130c2e6a7edc6cfe743085efade"
   },
-  "hash": "a36c9f002af357552acd478b1feb52f50cc0a1fafaaf1bc211997a66b203eb1c",
+  "hash": "234115303882a53f3e152b1b82ca5866d70537c2103e2902fddb29c39aca3819",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "794cfb7d076ce7456a5c7d195500b28c7e45674bb395831581c3d8e653c475ab",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

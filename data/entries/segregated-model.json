@@ -2,7 +2,7 @@
   "id": "segregated-model",
   "term": "segregated model",
   "definition": "In this context, a segregated model is an educational approach in which students with disabilities are taught separately rather than within inclusive schooling. It is contrasted with a more inclusive form of education.",
-  "field": "development",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s13104-021-05882-4"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0413c97ec9cbf5b642484e4bc0a23911268f5106856cd674a5dff86d4eb27873",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cd259372b11fd8a8490455b154e6743966d09be015ec39f974356919074641e2",
     "packet_hash": "0413c97ec9cbf5b642484e4bc0a23911268f5106856cd674a5dff86d4eb27873"
   },
-  "hash": "ac2860f4cdf68c6813e88b0f73be461778773af3941fc895d8793eb83b196695",
+  "hash": "28a47f95d5005cb767f414bd27cf83a763613902053323e3db16ff6353f65496",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9f416bf4efbd850bdcaf263e89d23a2082ccd8932a2085127c4a85b614f466ac",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

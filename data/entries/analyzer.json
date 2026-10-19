@@ -2,7 +2,7 @@
   "id": "analyzer",
   "term": "analyzer",
   "definition": "An analyzer is an automated system used to examine information; in this source, it refers to a patient review analyzer that uses natural language processing and machine learning to assess healthcare feedback more efficiently, fairly, and accurately.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0337676"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cf8ba535ca9788ff5170bb8eee814d251767cb8f4ad3b93e0525d6f1671ebf84",
     "packet_hash": "373e9b5a83412df24a89a35d7f5be26e6c1cb275f2b4d82c5ac34b05397da256"
   },
-  "hash": "cbef12e6e7e52c7a34c13c498fb22cfa0202c98091ff9c0c34afb4ba4b76f59d",
+  "hash": "ddaa175e2f821b7d58bdb4397fbc0323a89425f0e9c2db3bb3d1463201c3a911",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "cccd42046d4daf146252bedf060cc1d74b398e07b2c7d995cabb7ff6dd593c4e",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

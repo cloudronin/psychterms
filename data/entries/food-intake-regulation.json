@@ -2,7 +2,7 @@
   "id": "food-intake-regulation",
   "term": "food-intake regulation",
   "definition": "Food-intake regulation is the control of feeding behavior, including influences on how much food is eaten. In this packet, it refers to brain signaling involving neuromodulators such as CART peptide and cholecystokinin acting in shared brain targets related to feeding.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/1471-2202-9-101"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7a52481ca12153cc87155dd91281376cbc1c57c8056b027bd06f14b77b421112",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "45a26aef3575f9e47edfbe3f6f7043bfb433fc45a422ed0667f74122389f510e",
     "packet_hash": "7a52481ca12153cc87155dd91281376cbc1c57c8056b027bd06f14b77b421112"
   },
-  "hash": "5f6c85956fe345e34dd9958094bb62dbcd9b238f86192ddef495c56d81662fa9",
+  "hash": "b1dd642c9f3fd090bd8103724bea85e2cd6cfd322d326bc2eafa24f0fed8cc4a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "0aa9bff17820716762de8eed4233391c6381d8e5e04c48b1e495df0913c22ab9",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

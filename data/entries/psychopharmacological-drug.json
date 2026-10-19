@@ -2,7 +2,7 @@
   "id": "psychopharmacological-drug",
   "term": "psychopharmacological drug",
   "definition": "A psychopharmacological drug is a medication used to treat mental disorders, especially when symptoms are more severe. These drugs are generally effective and usually tolerated, but their side effects can vary by the specific drug and dose.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2022.831359"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b4e4b2778e7c614a6cc676682388ad585463a3d50c82739a06a40010329aee0e",
     "packet_hash": "ebf702856bf17955d4446e983901154b45fbeb5f0bdf6904cff50cc155a4d7fa"
   },
-  "hash": "336befad200fc3d81467a4fda9c9bd3f399645a80b09a3c3116fa74d000112df",
+  "hash": "b7cd40368120b835491abda008dfd49230a3cdb1ca1538e921a879a6c6d00e02",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "aab8998699dd725cb418b8e23c9d9b3fc15acc9b6a0115f95deb4e4cc8d8c0f0",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

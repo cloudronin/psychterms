@@ -2,7 +2,7 @@
   "id": "occupation",
   "term": "occupation",
   "definition": "In this mental-health context, occupation means a person’s type of work or job. It is used to group people by their work and to examine how job-related risks may be linked with psychological distress, depression, or anxiety symptoms.",
-  "field": "mental health",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0346871"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0cb7f0afdd1b15362eb6c854d552d848b51d57aefb15b3ce6d9ac04d6c0b0bf7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4c264050245d4a02730a761da3f46e0bc3cfb6c4755da18a34316506a2616767",
     "packet_hash": "0cb7f0afdd1b15362eb6c854d552d848b51d57aefb15b3ce6d9ac04d6c0b0bf7"
   },
-  "hash": "5cc5cd946f00003d96d0625e298974a92eb498018aacb2f2561e8a341ea5a82f",
+  "hash": "8e31b04ba4836ed077e5be7188dae58eca90cf95c6141daafc428f7a6d985004",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c213ef6a1f27549fd418c215dcea230163feebf65b2e10877bfdd3e60606c81b",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

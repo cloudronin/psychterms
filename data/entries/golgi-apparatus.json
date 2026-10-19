@@ -2,7 +2,7 @@
   "id": "golgi-apparatus",
   "term": "Golgi apparatus",
   "definition": "The Golgi apparatus is a cell structure involved in moving secretory cargo and in glycosylation, a major process that modifies proteins after they are made. In the source, disruption of Golgi-related O-glycosylation led to Golgi stress, and the Golgi apparatus later became disassembled as cell-death pathways were activated.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0069732"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5f1af672bc03cc3119b174e68529aa39577b905d6bd2c723b472808b6ccfc5e6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e2d5798f3634e2fdf362124dd17e1976c57fc8a7125f521ff327d623930c52b0",
     "packet_hash": "5f1af672bc03cc3119b174e68529aa39577b905d6bd2c723b472808b6ccfc5e6"
   },
-  "hash": "778fa1cc016d39f4b41d041750d5d144b38133373f7a01aef3a0d5e70f70a28c",
+  "hash": "996fddead6c820d6c18199eb832884e0f3a85556753ad111e8d8051ffaf6bc64",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c07905d5bb35497cf7f118eda4196d0b770b0820ea51526bd306c26d0d8462d1",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

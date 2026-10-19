@@ -2,7 +2,7 @@
   "id": "temporal-stability",
   "term": "temporal stability",
   "definition": "Temporal stability is the extent to which a psychological measure or trait shows similar results when assessed again over time. In this context, it refers to consistency across repeated time points, often examined through test–retest reliability and stability coefficients.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2022.1094701"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e1c0d1d70a1e981f5392de890ddd5564365d6578e14b2dabea5f5aa184f818ac",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "899e60b5697d2a5b26d857f5943aa7cccc164dda36566c750c9583d6d3a137f5",
     "packet_hash": "e1c0d1d70a1e981f5392de890ddd5564365d6578e14b2dabea5f5aa184f818ac"
   },
-  "hash": "792613a6bae15a8d14788077c30e4f33ccf81bd1a1d13135b961ed2f2dbeead2",
+  "hash": "ba6815146532ab05d8bcbce6c645ef2e56d4ebe9a8910f2854eb5ca35649f980",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "9e0db0bbb4399035a9eeb64618548218ccfbef5e9d8e12976109748daddce69a",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

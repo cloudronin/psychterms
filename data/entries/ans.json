@@ -2,7 +2,7 @@
   "id": "ans",
   "term": "ANS",
   "definition": "ANS stands for autonomic nervous system. In this context, it refers to a body system involved in physical stress responses and bodily functioning.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2025.1676863"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "162c519c479bc43acd96d9466355c4fa3f91fc4e592309fba512051b38f10968",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "feeb0c7941ffc24e30d0638f7a8e004cf78cfaa56bc0705046fa46c2f97ee1dd",
     "packet_hash": "162c519c479bc43acd96d9466355c4fa3f91fc4e592309fba512051b38f10968"
   },
-  "hash": "2145326bb5ba138c9d2acc5eda338bed262a0cd02fcd7eb1deb7d810a90d5283",
+  "hash": "f4ef4747aa3dd22a8ce78195080672c8d5a6ea9f17210c778c87e9a288ac14ea",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "14f0e38dc73fc70e9efaeff2ee54243b3378c01c184d967d8940daa1a829c143",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

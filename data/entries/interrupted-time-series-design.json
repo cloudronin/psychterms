@@ -2,7 +2,7 @@
   "id": "interrupted-time-series-design",
   "term": "interrupted time-series design",
   "definition": "An interrupted time-series design is a way of evaluating a change by tracking measures repeatedly over time and then examining how they shift after a clearly defined intervention or policy is introduced. It is used to look for immediate changes or changes in the pattern over time following that interruption.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0078942"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ad0256e6382bf7bff700db6517949d6a7488c874f768a73588d3d65e59aa358b",
     "packet_hash": "7574c39897d10c49734957f249db9c2bed2d8832fbda84c059eb067e367959b7"
   },
-  "hash": "ccbdcd88408777036404c3e2f99fa1a63bcee223844232d5f51adb219a5134a1",
+  "hash": "d0e42a43d6497a63f4a31acb31027534f6d64f0c32b5207848e6c433701ae4ee",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "44f2216398f172d5ac4c2c8c8e9e032c178f656da95a558bc12038bbac3df5b6",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

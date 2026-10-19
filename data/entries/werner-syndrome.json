@@ -2,7 +2,7 @@
   "id": "werner-syndrome",
   "term": "Werner syndrome",
   "definition": "Werner syndrome is a disorder of premature aging caused by mutations affecting a protein with DNA exonuclease and DNA helicase functions. In the supplied source, it is linked with endoplasmic reticulum stress responses and changes in metabolic pathways, especially in the liver of mutant mice.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0193170"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d2b2fbefcacce6b93420a8e88b5ad3154cdca154d1faa11e7b144d3fc64c74b8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d4bf2947ea95decaf5e6382b302043449fdbc047f5f383660ba277f52e8a2b41",
     "packet_hash": "d2b2fbefcacce6b93420a8e88b5ad3154cdca154d1faa11e7b144d3fc64c74b8"
   },
-  "hash": "9d574a0924062e96a18d72dd01875a140cd0487cd62da99c3683bad50e98c8d6",
+  "hash": "9889bedee031f26c352bbc6b4ddd4cc6361a7b3ccbffaebc94895694329a81f7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b3da13f563ef0ec8c732fcb093fd860fb60df63fbad3140528a6c09f1acff23e",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

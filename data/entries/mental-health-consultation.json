@@ -2,7 +2,7 @@
   "id": "mental-health-consultation",
   "term": "mental health consultation",
   "definition": "Mental health consultation is the use of consultation for mental health concerns. In this source, it refers to whether people with suicidal ideation make use of such consultations.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-020-02724-8"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2f3fc77b84fa921924cf6ee9cdf8ec8ba0f49b65d01c4406c79b225ec2f5a6a8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9d5d52f182f06fe821f4966ec29a408dd1e1c3c5a41d2e934b240e6d10e9a422",
     "packet_hash": "2f3fc77b84fa921924cf6ee9cdf8ec8ba0f49b65d01c4406c79b225ec2f5a6a8"
   },
-  "hash": "26617d6721e132f2041019383668595444ca437d1fc6f2328af01929e2749aa2",
+  "hash": "b714364882b81fb489cb8859d1b3e858f306f7d94d614499c47628b2301d8d5c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "5f3bcd54976bb4a0aefa0e430b24b30f56fac05db513d61fe5a6f55ba0c00d5c",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

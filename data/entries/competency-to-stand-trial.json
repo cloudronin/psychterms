@@ -2,7 +2,7 @@
   "id": "competency-to-stand-trial",
   "term": "competency to stand trial",
   "definition": "In forensic psychology and psychiatry, competency to stand trial is a legally important question that may be examined in an evaluation for the court. It refers to whether a person is considered able to undergo trial, although the packet does not give the specific standards used to decide this.",
-  "field": "ethics",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1825338"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "82c7b3e1c0a4453630f728a6dd86802abdb585637c7933c40a38c010ac892826",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e313cc1c983f5e95d8912e3e444e94e793e47cfd4ec234ca6fb3d8f8084d2d66",
     "packet_hash": "82c7b3e1c0a4453630f728a6dd86802abdb585637c7933c40a38c010ac892826"
   },
-  "hash": "154b49f61b5dc3f32697d617e6b9a1ec3ffb5a1934fa9b30c9ed01e68e2398ad",
+  "hash": "42d06d7a8438eb1a53dafe273613bc3a30f64048e85853af98c2e69a79a41f89",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a069b1f73cda0afd8eae5212cfa5496c77db6b7c278e1cd6e57ab56eddab56a3",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

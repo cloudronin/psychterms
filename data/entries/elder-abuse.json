@@ -2,7 +2,7 @@
   "id": "elder-abuse",
   "term": "elder abuse",
   "definition": "Elder abuse is the mistreatment, exploitation, or abandonment of an older person. It can be emotional, nutritional, financial, or physical and is often carried out by family members or institutional staff.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D004552"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "46cdb9dd90fbd3d12e338612b524301c9981566623a52f5582b3a3b0915c9434",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7e56b8c1988e5ede499d28e8cbc452084046f56a38bff8d9b1522b1104c1b1c5",
     "packet_hash": "46cdb9dd90fbd3d12e338612b524301c9981566623a52f5582b3a3b0915c9434"
   },
-  "hash": "c0ed9d3b8f2a5b4500f95d657e46a853b5b4cf27c4daf99654536aa0e980babe",
+  "hash": "41fa2d125b173ff4eb8da2ac361295c1eb4bfba2607a4ba0718a5858a51c03ca",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "87e8062725dc5c7a472c73d4293e2775a24868cad242594be254a99d847ca449",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

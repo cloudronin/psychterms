@@ -2,7 +2,7 @@
   "id": "expert-testimony",
   "term": "expert testimony",
   "definition": "In this source, expert testimony refers to specialist evidence used in forensic practice to help identify unknown deceased persons. It is presented as an important part of personal identification when technical measurements, such as body-height estimation from imaging, are used.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0339125"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7984a0a095888145f2170a989673a2bfd6bc12bbac29ed950e3478d171743922",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "05b537eef4b89b6fc9cfd1a0c1e59686eda080ba805a6f0d39a8fb7b0a64a442",
     "packet_hash": "7984a0a095888145f2170a989673a2bfd6bc12bbac29ed950e3478d171743922"
   },
-  "hash": "2d700701caa2634f5793376e4477bea120fd76fbd73a00406e0310bcd8ffe615",
+  "hash": "f0c54c350af071125fd02347acf30a0b1ab6587d5c0a567a22c6f3ef6195835b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b82f150738a2723c37bbd3e8cce5ef21cff34d7d27efb85ea4dabce313e1cb7d",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "alcohol-drug-abuse-and-mental-health-administration",
   "term": "Alcohol, Drug Abuse and Mental Health Administration",
   "definition": "The Alcohol, Drug Abuse and Mental Health Administration was a U.S. Public Health Service agency that oversaw the planning, support, and management of substance use and mental health programs. After October 1, 1992, it became known as SAMHSA.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D014482"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "467b94ed05d6a7798ba041e8886e8bf5e8b9daa67b4a6930f56fd2935676fa84",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f8609f897fa4e797d73e97f64ab21b864b00af34d7a791b9faa87c495db54c44",
     "packet_hash": "467b94ed05d6a7798ba041e8886e8bf5e8b9daa67b4a6930f56fd2935676fa84"
   },
-  "hash": "6eced289b37d826cc98f5cc8212e8ec2525081e5cd077892648c1ff9158f38b5",
+  "hash": "083ac7349e94335ca171d70ffadde5da6e08c49f4ee54145c021371384693314",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "ad79f21bd6290884e2004eefff3c36d3580146df79312e9a15a2ee362b2b31ef",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

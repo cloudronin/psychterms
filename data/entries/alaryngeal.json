@@ -2,7 +2,7 @@
   "id": "alaryngeal",
   "term": "alaryngeal",
   "definition": "Alaryngeal refers to voice or speech produced without the natural larynx, usually after its loss through treatments such as laryngectomy. In this context, it describes recovered ways of communicating following voice loss.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1747218"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f14e28e0cb27ca377edac903020bdaca57de6f82688b96bb3e3876813d3a70b7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3820bd3cef6d7d97a875e3904a21a528cdbcdb58f000e85c7670e1ce03b0a2a7",
     "packet_hash": "f14e28e0cb27ca377edac903020bdaca57de6f82688b96bb3e3876813d3a70b7"
   },
-  "hash": "8105349e627d5073431353ede9a34bd2a8f11792f245e4ba72ffacd9f3053037",
+  "hash": "c23cb87240e9ad7f5cab616ce9c98b379c1cb0b740b000e49cbcceeb8537e3ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "10992d17b1764434225c62abd08b01b2099c587a37718a9bdb5557604a9d8e67",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

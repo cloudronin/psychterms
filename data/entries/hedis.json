@@ -2,7 +2,7 @@
   "id": "hedis",
   "term": "HEDIS",
   "definition": "HEDIS stands for Healthcare Effectiveness Data and Information Set, a set of healthcare quality measures. In the supplied source, it refers specifically to comprehensive diabetes care measures for adults ages 18–75 that include recommended timing of retinal or dilated eye exams.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0340804"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6f74461dd6d0901268d9be1d45d0226f59bd887c573a0da1d23cea69831b2498",
     "packet_hash": "482762b1b11842e4072f7f3e210e5091cecdf57bcb7e44ae4c1e75acdba33c29"
   },
-  "hash": "6046860a811e5143ee0135c9f49aada4763126cd3d608575b97bce937428798a",
+  "hash": "8830a2f634e20a7c74129969227fca81bb43a96eb6823c04db699c20898a0c55",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "d223a5be80752be5d6930d8538da648d208bbd16ee01f3eee96e6555b2e80486",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

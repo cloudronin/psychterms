@@ -2,7 +2,7 @@
   "id": "color-attribute",
   "term": "color attribute",
   "definition": "A color attribute is a conceptual feature of an object that represents its color and can take specific values such as red or yellow. In language production, this feature can be especially important for objects strongly linked to a typical color, where it influences how easily the object’s name is retrieved.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2014.00363"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d99ad88f95591d698b7733a4de5d470d9b77357c428e7fac395d32bfa2712678",
     "packet_hash": "ad9d7ba34285fa94119e5e05b24d388cc901b05b4d504210f0be6d87f05e3a90"
   },
-  "hash": "21b27fca96ef3adbc05620ada55bbebe102eb16713b98aa810fdb2ff105b2507",
+  "hash": "c4675acaa20c3eedbcb49c0a9db0bcd1666ce1eb0a1fb978644d69f620d3c418",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c1f083cf56fb0dd8de9e71b2bbb312643314046d8a3b895489b1ddff61cb8537",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

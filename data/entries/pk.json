@@ -2,7 +2,7 @@
   "id": "pk",
   "term": "PK",
   "definition": "PK refers to pharmacokinetics, the way a drug behaves in the body over time after it is given, including how its concentration changes. In the packet, PK is used as part of PK–PD modeling to link dosing and drug concentration with the resulting therapeutic effect.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0354029"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8aa809e454e63d643baff05ac48a944a16a7b3c1f6231e7ab2b53eaecd5807d4",
     "packet_hash": "fb53d20b22679c33058f74869637affb6dd39f1a4c86b87b87b6cf4b7a980cda"
   },
-  "hash": "581729a1801ba0617687bd4278ee133598d46379efea9acdd3c06c8285b48c8e",
+  "hash": "4ef02cdde3848882b920da48935f1f7c792b211c92791c38be9e5f246841bbe5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f5d3cee7f147a71212d60a19d023b2ee191960b2ee30ecffbde05ff1aba6609f",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

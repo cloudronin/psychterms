@@ -2,7 +2,7 @@
   "id": "relational-aggression",
   "term": "relational aggression",
   "definition": "Relational aggression is a form of aggression that targets a person’s social ties, status, or reputation rather than using direct physical harm. It involves intentionally manipulating relationships, such as through rumors, threats within peer relationships, ignoring someone on purpose, or excluding them from a group.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2024.1487970"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "95b5e1a4d417e1171c26e61bf61cbf1f21d5f1137b056fd6e04f878cd417dcf4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ae6555f6fac3932aa3245ebe6fa85bdcab566e835f655a922a749e055855119b",
     "packet_hash": "95b5e1a4d417e1171c26e61bf61cbf1f21d5f1137b056fd6e04f878cd417dcf4"
   },
-  "hash": "5a358a7dc2ed11fdef18edafd71b16b5e667501a50c9f8904218dd4520ee446e",
+  "hash": "a1816e8ceb9c7b33b33053f8d7ffdaca80c3b537e9b2c200df93bf89711f97ba",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "901017a459b3de2c48ae24a0db36835294f678a8423fb8813b85399d20639671",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

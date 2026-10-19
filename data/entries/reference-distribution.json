@@ -2,7 +2,7 @@
   "id": "reference-distribution",
   "term": "reference distribution",
   "definition": "A reference distribution is a comparison distribution used to judge whether the heights of branch points in a hierarchical clustering dendrogram are unlikely to have occurred by chance. In this context, it provides the basis for assigning a significance level when choosing where to cut the dendrogram into groups.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fgene.2016.00144"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1e0061811b48780e21536c4d416a8c99310f6f1e8487b3e6205f38b6a3a76c93",
     "packet_hash": "10a5303fc9b3f49e159c6bf2472218e5893de0986a1a84b562c4d2b2fb46b988"
   },
-  "hash": "bac2e6f84d62bc291fe61cae5ef40fc367e0abc47b21c98786536cd4f9d31010",
+  "hash": "5252fdd4c7023436c30b62596f14920fc60fa868a3eebcae5e4b4e5ec4a88aae",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3731fec877e6a631c194bc01e67b77307661cf443b1aa9c5f63fff1d673cfbe3",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

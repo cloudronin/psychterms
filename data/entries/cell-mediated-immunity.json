@@ -2,7 +2,7 @@
   "id": "cell-mediated-immunity",
   "term": "cell-mediated immunity",
   "definition": "Cell-mediated immunity is the part of the immune response, especially involving T-cell pathways, that is described here as the main way the body controls cytomegalovirus infection. In this context, it is more informative than antibody status alone for judging protection, because antibodies may help limit spread but are not enough by themselves to control latency or prevent reactivation.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0349292"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1de421bdd4cea355bb7aca564989bb4fd094ec6878f402e70657882a01482bae",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c6b8c5a65faaea9de9bdccd0c1e1c4eb0b715385d4b44de40174600376e7ecb3",
     "packet_hash": "1de421bdd4cea355bb7aca564989bb4fd094ec6878f402e70657882a01482bae"
   },
-  "hash": "fad4fd6bb51d7d27a0e784a26c0e60eb7b6c0d8a0780869f200b1b8f3d4c224a",
+  "hash": "96fc3ff8cacbdc8b66504614fb6bd398a2f52d639009d35ed89d01f39cda9d7a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c85816209054d77da1344984e368deca577b48f4e2daabc0e5efd463ae54fc6a",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

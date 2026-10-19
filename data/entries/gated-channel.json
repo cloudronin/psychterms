@@ -2,7 +2,7 @@
   "id": "gated-channel",
   "term": "gated channel",
   "definition": "A gated channel is a model component used in a gated channel-spatial attention mechanism to regulate how channel-based information is emphasized during processing. In the source, it is part of a hybrid network designed to improve discriminative feature learning and more efficient feature integration.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0344606"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "35b32ba4177270164008a65b4226777ffc17a0c9722133ab1434e4d84aa3deaf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "58db8db50cfba4f21d2f216a410c15876e45a4f0a4e603c7ba0c2726b2aa21e1",
     "packet_hash": "35b32ba4177270164008a65b4226777ffc17a0c9722133ab1434e4d84aa3deaf"
   },
-  "hash": "cbd4f01bf0036629ac74df124eefb2ebd560db8186ae3c1d0b55fc128bf2f3af",
+  "hash": "0e86ef033d33d4fb711596b2b9a40162ed9799a447e070e9b10d69f367e64e0e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "209d8e094b6d8b84d94aa37af4643e657b0c4351ed41437373e3f32e3ac2303a",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

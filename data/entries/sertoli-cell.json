@@ -2,7 +2,7 @@
   "id": "sertoli-cell",
   "term": "Sertoli cell",
   "definition": "A Sertoli cell is a cell in the developing testis that helps guide testis formation. In XY embryos, early Sertoli cells respond to Sry and gather around germ cells to form testis cords, while also interacting with other testicular cell types during compartmentalization.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0167920"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "801f825dec0d241bc0216db5e228c23aca78fcf1d19fada3a709d3246c3cb280",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6c1639786772081bc4ba859d367ec78aafcd033dd940bf6bcb48d1f91136b47f",
     "packet_hash": "801f825dec0d241bc0216db5e228c23aca78fcf1d19fada3a709d3246c3cb280"
   },
-  "hash": "eb5549735ab1daf6b0e083d14382f474e7370d5c4391507a608e3e572b8e0b70",
+  "hash": "d2560951673e538b465c5e7074abdeabe43b062446f5c89152ea66934a14cf0e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "14e344a5ed5b4097ba79de6d4658b59daa20de326c80a25848fe4d7df4714a31",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

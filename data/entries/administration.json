@@ -2,7 +2,7 @@
   "id": "administration",
   "term": "administration",
   "definition": "In this context, Administration refers to the Substance Abuse and Mental Health Services Administration, a public agency mentioned as providing an online locator to help people find mental health services nearby.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/depression-in-women"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6481e95585cb414df4b62fb5ab96c8520917395ed1105e772bed32d9fc29ef5b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "dec7fa109f1b1b600b925407b1954eec93e54279259a0201ebd843385e338ebc",
     "packet_hash": "6481e95585cb414df4b62fb5ab96c8520917395ed1105e772bed32d9fc29ef5b"
   },
-  "hash": "6f5c98970821bb5d2c6a8a32c80793a96ae8f0d412eea5dda0ffd9f27c0584b8",
+  "hash": "3cdebc09d75c3af76a36f6984645b730e113e3e853ceb3532eee95ade0d8806b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "852a064ff7323a29f8592a4e664a84e5f3cc7abeac328ac240da76fa3808b746",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

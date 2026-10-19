@@ -2,7 +2,7 @@
   "id": "dowry",
   "term": "dowry",
   "definition": "Dowry is a marriage-related transfer or demand, often involving money, gold, or other assets, within the marriage arrangement. In the supplied source, it is described as a common practice in South Asia and India that is linked to violence against women, including domestic, emotional, and other gender-based violence, especially when payment is demanded, delayed, or judged insufficient.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0312341"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "78f195c0831aece0eefedc9a09f25bd594ac367b360a7160a8e1cebe1ff3d02a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c94be4abbcdb6ed546c93fa35d6f6a367a3eca25ce6b79e7815b0bd098c0b626",
     "packet_hash": "78f195c0831aece0eefedc9a09f25bd594ac367b360a7160a8e1cebe1ff3d02a"
   },
-  "hash": "6ae0c7b9e72c4cbf40a51d22ebb317555ecbfdf16be8435d7f8b0470d780a137",
+  "hash": "b44de129a7e68266e86b360f4bf91a42d23f9bb642bbd64cff92199fe7000f61",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "88616f81bc424e9213b229f7561a800d3c07a3747ed987733a3b25ea72aed778",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "equal-weighting",
   "term": "equal weighting",
   "definition": "Equal weighting is a way of combining several measured factors into one overall score by giving each factor the same importance. In the source, it is used to build a comprehensive growth indicator from separate growth measures.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0299362"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "707b10026e80627f9934946e10d5c7e15faa4569afc280ec9876eb318885e995",
     "packet_hash": "e4772dda444cbe3634b6e7d86ffd605b5741b3decf1434d4f35e22e9a7619d23"
   },
-  "hash": "2e06f232b2f5d106f06df1007539dc7a2ad7d129f27e0856e211327f2b2333be",
+  "hash": "cb68fc9eec7190c82f8c960334dd7593b15a020fb9a43680ca5cd416558f58c2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a2dcc8344c8ff8ac6521406a7ad6064d732daa395dbe40f26b6a5576c5488477",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

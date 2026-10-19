@@ -2,7 +2,7 @@
   "id": "genital-mutilation",
   "term": "genital mutilation",
   "definition": "In this source, genital mutilation refers specifically to female genital mutilation/cutting, a practice reported in some communities in Asia and Africa. It is described as a human rights violation that can harm the physical and mental well-being of affected people.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0304671"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1b8f2bba3dce8530e0bf6657373cb16f7f6872a49d58ad82200998c8cf880651",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a99355ee25a6cf8c8dfff2036113f722dbed6ce29d35ac672067f264758c3ac5",
     "packet_hash": "1b8f2bba3dce8530e0bf6657373cb16f7f6872a49d58ad82200998c8cf880651"
   },
-  "hash": "bfe747c531e94c46ceb724aa2938c7dfecf3254f1032fc58dc5a5bc13151a71f",
+  "hash": "d9db0e7cee621fd325974e2e2a509f157e21a078c1db8e11c8338ba8e5c0f278",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "7666a7f1102a3e44e94f961edf87d8eb1f8756c39e53c261452f30cbb5062a9a",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

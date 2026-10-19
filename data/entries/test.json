@@ -2,7 +2,7 @@
   "id": "test",
   "term": "test",
   "definition": "In this context, a test is a method or procedure that may be studied in a clinical trial to find out whether it works and is safe for preventing, detecting, or treating conditions such as psychosis.",
-  "field": "diagnosis",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/understanding-psychosis"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cd467308065fdcc27106344bc96eae06b5788b0855e8a2ab1200f92207bf163d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9b261f188c7e621f67272a496af59f574fb50196d70d20ee7cb1f188376c58b8",
     "packet_hash": "cd467308065fdcc27106344bc96eae06b5788b0855e8a2ab1200f92207bf163d"
   },
-  "hash": "071a06e8b1e26bb74a1ce8951c58dfb821f1b2a5f3eead5f76a60b9e2b437edd",
+  "hash": "c76500885148d31a3100ad1acc2143d2c8c556407f6fabfb05fcfd9f6d9e6ac7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "01dd63ff129b541045a8da1b1f16dfaa41c9901e2d6967aaf13835d0b6882986",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

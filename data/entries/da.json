@@ -2,7 +2,7 @@
   "id": "da",
   "term": "DA",
   "definition": "DA, or dynamic assessment, is an approach that combines assessment with instruction by using responsive, individualized mediation during the evaluation process. In the source context, it is described as a powerful way to assess learning while also supporting development, though traditional forms can be difficult to use at scale.",
-  "field": "development",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1798029"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e1159783d1d5eadd8bc4de53d380b5970b46a075bc6cff315686a6c983a1a776",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "addf1734a4800ef6e0ddebe458010d4dc5ea4caad0e9a37f9b37513bd1700e34",
     "packet_hash": "e1159783d1d5eadd8bc4de53d380b5970b46a075bc6cff315686a6c983a1a776"
   },
-  "hash": "10daf2a0fb918d74a610625937364bb92ff4ec8257ca3a748ec6b9c22bd03637",
+  "hash": "8b3032f8274c70d324e087ef631fbd3648cd2e7eb03b56aea2986f6ee484407a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "742af2c3a9dfc2552744db244b828a8e8c5f1a3f4ead49e74b55e4f5b228dcc4",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

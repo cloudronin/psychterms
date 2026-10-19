@@ -2,7 +2,7 @@
   "id": "noise-abatement",
   "term": "noise abatement",
   "definition": "Noise abatement is the reduction or control of environmental noise, especially in settings such as schools or around aircraft, to lessen its harmful effects on children’s learning and cognitive performance. In this context, it refers to policy or environmental measures aimed at limiting noise exposure because it is linked with poorer speech perception, reading, and other verbal tasks.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2013.00578"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a43fc0438537ba31eb6f6baf03b7b3bb5373be2bef130ecc5790658647d47c9e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2585863e66503e03998546d04aeaa520bf68ad429e321fd61ce1f2c8884e7dad",
     "packet_hash": "a43fc0438537ba31eb6f6baf03b7b3bb5373be2bef130ecc5790658647d47c9e"
   },
-  "hash": "eef352c93db8e1ace79329f5c3f07e7b76f7eb2144d301bc2dbd5be253f23aa0",
+  "hash": "2b3387ec1bd2a5a8cdbaec0f244ee0716703d389b2f1eb5287fd2c455fb9fd7f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b603a8fe356c3c4124c4e3d0efad016ec1118191d2037b468aef9c68a1a7fa97",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

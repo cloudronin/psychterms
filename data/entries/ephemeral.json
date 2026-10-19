@@ -2,7 +2,7 @@
   "id": "ephemeral",
   "term": "ephemeral",
   "definition": "In this context, ephemeral refers to environmental conditions or resource patches that are short-lived and change over time, so they may only be available briefly.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0337589"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8fe8f8f2add497b8153c9b2e66880a58167a649337ea3261f738105c07780964",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3733afe8accb5a5f2c54ca9cb9612af6a007fa3740bc94ed5214c636e33604a4",
     "packet_hash": "8fe8f8f2add497b8153c9b2e66880a58167a649337ea3261f738105c07780964"
   },
-  "hash": "f3fd1a0b481139ee8c3f500515d87223c8e9bc37821bfa60db3b2efc38f22471",
+  "hash": "9f75606cf7b967c54b59b4a6916d3ad8f3062d0b78c847b65598a37c101c191c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "73b82efa3202c20108b583a3c6055d3f53ff3c50f8caa34b532d2c5860a6ef09",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

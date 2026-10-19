@@ -2,7 +2,7 @@
   "id": "physiological-assessment",
   "term": "physiological assessment",
   "definition": "Physiological assessment is the evaluation of a person’s bodily responses, such as reactions that occur when they are exposed to emotionally meaningful stimuli. In this context, it is used alongside verbal assessment to help understand responses to emotions like fear, sadness, and disgust.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0032413"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "22d99f61f40ee11966282aedcbbd01f664ad65aed294e670eac84b381bbb49cd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "40792de720175390533f0031e6dcd66895f51cfd8f6078f9c30caa2403f3152e",
     "packet_hash": "22d99f61f40ee11966282aedcbbd01f664ad65aed294e670eac84b381bbb49cd"
   },
-  "hash": "b2d91ec5cb89374e64c4f3f76134f10d77c1b7bddde09c9667324020412b2920",
+  "hash": "96e356139cae145f135053edef0b1dee738245ff244e43b95f82adfc2119aaff",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "e41eef08de5f872c7205272fc35a5cc9bedf1bdc246fe42abb6e26762f421e5b",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

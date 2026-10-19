@@ -2,7 +2,7 @@
   "id": "cross-tolerance",
   "term": "cross-tolerance",
   "definition": "Cross-tolerance is when long-term use of one drug makes a person less responsive to the effects of other drugs that act in a similar way, such as other mu-receptor agonists. In this context, it can reduce physical dependence on those other drugs.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6b98304df212f9baf6bc0f336a3d7ab9f33ef76361ed431969d6316545692ae9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "be57b733a98bdf87fbc32763b4a0fe7614941358d3640ca7eabe60b636c56b6c",
     "packet_hash": "6b98304df212f9baf6bc0f336a3d7ab9f33ef76361ed431969d6316545692ae9"
   },
-  "hash": "6eafff6de8af78d3caa21fcc93387d17e725f118bbe180bf081122397837b393",
+  "hash": "5098d6acbd2c9565a9fb9fdf9841ff8b9a5782f6b23fe8f922d0b820a57c362f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b149856d836d8eb2126b3be2b6c1e66edd8ca6dddc4b3c7b06d8e62f94591770",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

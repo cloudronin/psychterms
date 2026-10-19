@@ -2,7 +2,7 @@
   "id": "neonatal-period",
   "term": "neonatal period",
   "definition": "The neonatal period is the newborn stage soon after birth. In the packet, it is described as a highly sensitive time for synapse development, so events in this period may affect later learning and memory-related brain processes.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0309240"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4066e9baa01c5d160289c523ddc600724b2e12777fb1e2f39bbfc5068fb5ea08",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8c2a5bdaa6a042b89b77b7f0e847aeee6ca8e7eb14e6bc6661dfbf87146517c2",
     "packet_hash": "4066e9baa01c5d160289c523ddc600724b2e12777fb1e2f39bbfc5068fb5ea08"
   },
-  "hash": "81c236c8530f57df8ca0f4dba55547cc70cc733089fdcf21083381361f52f5d9",
+  "hash": "58e0ea29be8590699c5a2c23691acdf5e8322407650fb77e64c4f824c915f20b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "5ea72dd6a78eaf14176d13413670e7560d636da64b91a4a78299a7a90f5edf99",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

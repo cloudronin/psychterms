@@ -2,7 +2,7 @@
   "id": "identification-test",
   "term": "identification test",
   "definition": "In this source, an identification test refers to the named questionnaire items used for the self-report Alcohol Use Disorder Identification Test (AUDIT-SR) within the CDISC SDTM data standard. It is a terminology set for labeling those questions rather than a general description of testing.",
-  "field": "mental health",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "704788a650b51c9c76af1ce8dca00c956705ba74d36695f8802dd173d78a3abb",
     "packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76"
   },
-  "hash": "68089db10dcf4b613c25c6063a58d0d3ae5ccabe794614a3da51f52a9f53449e",
+  "hash": "bb5d81d6bee6747fe6eab3bd650f321956abc1fa6007a7a7e279ce1a94e97578",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "61b98bc23c9a284b61cc1601a770b85be1ab072214e233b65f3c655f45bf2713",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "differential-association",
   "term": "differential association",
   "definition": "Differential association refers to a relationship between measured factors that varies across groups rather than being the same for everyone. In this packet, it describes how the link between self-reported academic stress and salivary inflammatory biomarkers appeared to differ by sex.",
-  "field": "assessment",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0340316"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b2d0402217560da4eb9feff1131b67e4ce4ce5f2ed5e5a3785893cd3f2b94e86",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "db344c8202c385bbf43fd2f5b9c897e952ca97d6cebed8f91e642f36cca786fd",
     "packet_hash": "b2d0402217560da4eb9feff1131b67e4ce4ce5f2ed5e5a3785893cd3f2b94e86"
   },
-  "hash": "7a022feb4ffb346177c660390dd755b8f7cb6bc7a38230d9e7e89df3fa77e706",
+  "hash": "998e841334b2037f32de26770ff94146a4db73bd2f643790f057a02b68870ab1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "39484e222e5b49e4b6b050be7487c52aa72a5c16aab0d12b676d5dc718e3aba8",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

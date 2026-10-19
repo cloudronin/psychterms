@@ -2,7 +2,7 @@
   "id": "domestic-violence",
   "term": "domestic violence",
   "definition": "Domestic violence is a repeated pattern of abuse within a relationship in which one partner uses behavior to gain or keep power and control over the other. It can involve physical, sexual, emotional, economic, or psychological acts or threats, including intimidation, manipulation, humiliation, isolation, coercion, or causing harm.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D017579"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b0825a77bf13ccf8b7e295d4dd0cc66efe510452e40a05b9f17822424e7620a2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "396fe64329329ebe15712664c2e473295d37c5b34caee9b858dbd34dadc43e23",
     "packet_hash": "b0825a77bf13ccf8b7e295d4dd0cc66efe510452e40a05b9f17822424e7620a2"
   },
-  "hash": "07764ef2e6967f55fba75ba4317db661c4f0b2fb48e0f3b5a113a6d70fce2f6f",
+  "hash": "1c279ce69a6723911cfab17ddaa1eee96087ad137829d94a44897741bcd82445",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "239f846a1ab76d5663d0726d0aa9ed249819bed7434f4fcb7ac3f490a2db004b",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

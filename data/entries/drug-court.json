@@ -2,7 +2,7 @@
   "id": "drug-court",
   "term": "drug court",
   "definition": "A drug court is a criminal justice program that diverts people with substance use disorders away from incarceration and into treatment. These programs are used in the US and other countries, although their effects on outcomes such as repeat offending and substance-related health harms remain debated.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-024-05734-y"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cd4b76afd6b7943c7073136f6045e5a01a4d43bd9121383c9cae26aaf178ec26",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5b98f3dd478581a23e146ba9574026fa20589866505e87af2a3de911127607fa",
     "packet_hash": "cd4b76afd6b7943c7073136f6045e5a01a4d43bd9121383c9cae26aaf178ec26"
   },
-  "hash": "1163546ca4cb752edcc2d92b03a37d2ba7eaf605980d100e77cfe2e5a9282303",
+  "hash": "91fe67d9c96553248b910016568e4a8768e10c743f87c3dddd895c5507c48ceb",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "260ecb2637b08723f2af341d8870bf5f3cc0b9d412935ed4f437eb85cfc3a17f",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

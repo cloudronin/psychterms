@@ -2,7 +2,7 @@
   "id": "nonverbal-behavior",
   "term": "nonverbal behavior",
   "definition": "Nonverbal behavior is communication expressed without words through actions and physical cues such as body posture, eye contact, smiling, and touch. These signals can subtly and automatically convey emotional states and shape how others judge qualities like warmth, attention, empathy, and competence.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0177758"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2de3d51cf922574af4f94998f294353385e973df49b425b0754eead3aca3f373",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d1e29547cbe5fee45e86d3ef56edfe3db8916cbf5f6b8db9921f38e8069b8663",
     "packet_hash": "2de3d51cf922574af4f94998f294353385e973df49b425b0754eead3aca3f373"
   },
-  "hash": "2afc1b1ed42319448f7972851f9105eb6636bb430dd06bd270d15021756ebdb0",
+  "hash": "f02f63387adc9d6d7887efd15b4cd99f1e20a0ff305e9a70ce45566df4633595",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "06e8fde8f7634f324e8f631cc034825d1e6df943fb2d7bfe6501e4e04108b01c",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

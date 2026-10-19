@@ -1,0 +1,9 @@
+# Supplied third-reader verdicts
+
+Vishnu supplied Claude verdicts for the complete 3,099-entry split cohort and authorized their application: PASS adds the second independent passing reader; FAIL drops the current definition with the supplied reason. Suggested fields are applied to those entries only. Definitions and source packets are unchanged.
+
+The original CSV is preserved byte for byte in `data/external-reviews/claude-tiebreak-2026-10-18/`. A pinned manifest binds each row to the current entry, definition, source packet and original field at import. The supplied CSV itself did not include snapshot hashes. Its review execution is attested by Vishnu; it was not independently reproduced. The exact Claude model version and API receipts were not supplied, and none are fabricated. About names this reader as “Claude (version unspecified; user-supplied review)”. This import makes no paid calls.
+
+Earlier drafting and reader proofs retain the hashes and field they actually reviewed. A suggested field is a separately recorded correction approved by the third reader. The importer increments the entry version for field changes. Validation reconstructs the prior semantic snapshot and rejects changes to the definition, term, aliases, sources or packet, as well as any field not approved in the supplied row. It never rewrites earlier verdicts or passes off the imported artifact as an API receipt.
+
+Status remains build-derived. Passing entries have the original passing reader plus Claude; failed entries have two rejecting readers and an explicit drop reason. Entries outside the CSV are byte-identical. The two additional suggested taxonomy values, personality and emotion and motivation, are admitted without altering other entries. Risk classification remains additive and build-owned, including any newly applicable diagnosis or assessment checks after retagging.

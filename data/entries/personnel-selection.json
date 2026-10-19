@@ -2,7 +2,7 @@
   "id": "personnel-selection",
   "term": "personnel selection",
   "definition": "Personnel selection is the process of evaluating people for jobs, often through methods such as cognitive testing and behavioral observation in assessment settings. The packet supports only this general meaning.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2023.1168311"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "588a64e0a8d53668674a4abafbc3243b537f0242910a1c5966278d54a8a50627",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9962e59a9c6485978e985904db4f02a59294b8b5de26413a6dce2b7fed514d54",
     "packet_hash": "588a64e0a8d53668674a4abafbc3243b537f0242910a1c5966278d54a8a50627"
   },
-  "hash": "e3fd7e08933bb8389582eb5f340d0697b2b9602ac46378f146db5b8130a7b963",
+  "hash": "689986870c811a95ce588969c028169f714b2aa31db3db8f76917246647afc20",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "dd7a4f6fc7d73f10dbc5e3cb057b34bae946214cfcaf1f8c5826791c992a56aa",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

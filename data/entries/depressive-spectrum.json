@@ -2,7 +2,7 @@
   "id": "depressive-spectrum",
   "term": "depressive spectrum",
   "definition": "Depressive spectrum refers to viewing depressive status as a continuum rather than a simple yes-or-no category. In this study context, it describes the clinical gradient running from healthy controls through subthreshold depression (SD) to major depressive disorder (MDD).",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1833260"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a07b9d6f8db00cf3db8c4c6f2dedd60c6820b5ed42659e1fa884ac84cb780e6c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c4418b26bb95063b85cece81bc122dc8e518dae53a9dbeabd3afd14cb285b5e8",
     "packet_hash": "a07b9d6f8db00cf3db8c4c6f2dedd60c6820b5ed42659e1fa884ac84cb780e6c"
   },
-  "hash": "4d1ae859bff169c192f58553c9d2899e395436c19dae252d8a03eed7e0f31b6a",
+  "hash": "59b113d42377c9889e01ee9257eee44c68a1c07711387c688309c1676492aa02",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "40b518e5bfecfac5514f54b6c206ada53fd0207d902ac65f1b4ba4a0e9c6c651",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

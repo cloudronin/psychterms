@@ -2,7 +2,7 @@
   "id": "bia",
   "term": "BIA",
   "definition": "BIA stands for bioelectrical impedance analysis, a non-invasive method used to estimate body composition. In mental health settings such as anorexia nervosa treatment, it can help monitor changes in body compartments like fat-free mass, skeletal muscle mass, and body water that are not shown by weight or BMI alone.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1883192"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3feb55bf3dc47cfacf830e61d9be5121dc7dd35a8dde17489a0a84ec600cdce3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "78bb2636add081be8083f56263c2e87691e4f6d2ff1b50199ebcd9d483851a17",
     "packet_hash": "3feb55bf3dc47cfacf830e61d9be5121dc7dd35a8dde17489a0a84ec600cdce3"
   },
-  "hash": "3b2d5dcfa0c0810465ea0f1bbf5ac4cc1fa517bf0fc0a81f52f1859fa973980b",
+  "hash": "beae180bb1095c2f85ac87db225cc170e562d2fa7e7dbec004ed6ab54fc3bbdd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8aa0125d10ab07f8b0b0b8cd5b4b15acc62d8bed35493df30994ab8a4aeb563a",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "affect-regulation",
   "term": "affect regulation",
   "definition": "Affect regulation means managing and responding to emotions. In this packet, it refers to emotion regulation and coping in the context of stress.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0329531"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3ce7064fd80345762855647a09b5a5ff9e4ffd92d30bfd20f1e9ba434fc2524a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "eb53478fcbefae5bf38c8bb13606a61f476c64c6da61a32f4456b0779e5f15c7",
     "packet_hash": "3ce7064fd80345762855647a09b5a5ff9e4ffd92d30bfd20f1e9ba434fc2524a"
   },
-  "hash": "3724b78f47c59b01bfef5ae5915161db20c32d0d9db020f74af92c37c6aba6f6",
+  "hash": "1366e6dcffd79abd6c678a74c5be39bfd63b477dead47e62beb55b5faacba304",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4c5afe18ca470d91951789de2dec59b2e5471e7ca48ed6b0bab76676a1ff4b45",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "tolerance-limit",
   "term": "tolerance limit",
   "definition": "In this context, a tolerance limit is the maximum permitted level of alcohol in a driver’s blood under the law. A zero-tolerance limit means no measurable blood alcohol concentration is allowed.",
-  "field": "mental health",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0288288"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "10aa35050553e324d2f71fd02f49a2e62084236515543c2ed26423ec93ea9d96",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "731938888f9d252f32fa0652f6c39fedee7b587ceaaa4055c69049629dc87b0d",
     "packet_hash": "10aa35050553e324d2f71fd02f49a2e62084236515543c2ed26423ec93ea9d96"
   },
-  "hash": "ff9607d4d52a29abe95f3a850080287cb9407fd05880deafd400aac34270f030",
+  "hash": "1e1f35545533021877928c2edb37d10dcac5b834b2edd0489be267428e168df5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "909ca697d47045696675448c9dc35441992715f2ae9bf7c1eebe4e61ada6e8c2",
       "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

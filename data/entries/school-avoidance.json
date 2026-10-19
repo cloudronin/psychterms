@@ -2,7 +2,7 @@
   "id": "school-avoidance",
   "term": "school avoidance",
   "definition": "School avoidance, in this packet’s context, refers to emotionally based school avoidance in children and adolescents. It describes a school-related difficulty linked to emotional factors, and some young people do not improve with outpatient mental health care, so more intensive support may sometimes be considered.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1851117"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d808edb4f7c10d67af7a41c429fd49ebbc505f6e07c81eb5348acd2b8856431c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6c01be3f79af3f8a699ba6ac72e5c876c070f967774415d07d158db589f26bca",
     "packet_hash": "d808edb4f7c10d67af7a41c429fd49ebbc505f6e07c81eb5348acd2b8856431c"
   },
-  "hash": "101f7c488b125dd4526d23d65a4699cb0b0e11225404967948b304bbcb864cfe",
+  "hash": "fa9f3bc58aae21f2e4ffe0c0b0b4cc97934b6e39f114c9654d16de694bcf5f1f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "fdf3d9dc5b86ecab832ae016bdc975bcaae03fd1771bb4ae48939f350994de5e",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

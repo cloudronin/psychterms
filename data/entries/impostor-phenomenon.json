@@ -2,7 +2,7 @@
   "id": "impostor-phenomenon",
   "term": "impostor phenomenon",
   "definition": "Impostor phenomenon is a psychological pattern in which people who are objectively successful do not truly accept their accomplishments as deserved and worry that others will discover them to be incompetent. It can undermine well-being and performance, especially in high-pressure settings.",
-  "field": "development",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0351713"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "82b185154fd609698a32d6fce8b07d5dab27dc6d447a50598998b93504abe059",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cdea4658bbe3d6d4fc8e1fc35f0740f207c420597ab7617e428049ef4dd3c3c1",
     "packet_hash": "82b185154fd609698a32d6fce8b07d5dab27dc6d447a50598998b93504abe059"
   },
-  "hash": "03bc074bf4269a25680efe745ac97c42fc629fd234d039495e261d99e4d350ed",
+  "hash": "1bd14b81289e6c4f4938bf4be14aed5b2a709b2e7246607351369759d8117448",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "50ceea7e38ae6679f50e247f1df0f034a56571a4c75d3b8bcb0357eb601802e5",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

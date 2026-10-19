@@ -2,7 +2,7 @@
   "id": "ability-level",
   "term": "ability level",
   "definition": "Ability level is a person’s degree of performance on the ability a test is measuring. In testing research, it is often used to divide examinees into groups, such as higher-ability groups, to compare scores or check whether items function similarly across those groups.",
-  "field": "development",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1515316"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6b5a718f008943108a8e29fe6072eb84a3ff4074bc49628a234e4e361e87ec6b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "64662cc1db5ac99cca06c1642b73a193ec6a1b6514807d1ce94d8d17b7368c41",
     "packet_hash": "6b5a718f008943108a8e29fe6072eb84a3ff4074bc49628a234e4e361e87ec6b"
   },
-  "hash": "ac15ed4315a8c9dcaeb7762508be095144d3df72c290ed9ac340859c3022fff5",
+  "hash": "2809c5823d9fcb2df6d5012a0d02159cb68b82a9addfead3ecfd24959b6cf66e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a89aa9e6f357e92965360bc55ffe042acf73854fa305608f213229e047ca38fa",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

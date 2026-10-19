@@ -2,7 +2,7 @@
   "id": "hierarchical-design",
   "term": "hierarchical design",
   "definition": "Hierarchical design is an approach to building a system by arranging it into ordered layers, with each layer handling a different function and supporting the next. In the source, it means structuring a library information model into levels such as data input, processing, knowledge building, service use, and user interaction so complex information can be managed more coherently.",
-  "field": "development",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0341307"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "528a0c575faa765d9a2ac16423ae1ebc8d0194ac1c5ac344bf80f9b45ff2bf89",
     "packet_hash": "4feacf846362a807792cf101bcde4f7b83d593bf06025101988515cf456e89b0"
   },
-  "hash": "352af3492deceec6627690f83f616416c5184ac33e5d59cd610b43e96114c59a",
+  "hash": "5b21a8def576908cb6957e7d7414dc8942196c1f31d0781f70e64ad3d9254088",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "2bf3436d459fc05382a625e9ddc87718230286699d12c647a268ee6f59273bca",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

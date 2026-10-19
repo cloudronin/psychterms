@@ -2,7 +2,7 @@
   "id": "professional-licensing",
   "term": "professional licensing",
   "definition": "Professional licensing is the formal process of assessing whether someone meets the knowledge standards required for entry into a profession, often through a licensing examination. Passing such an exam shows performance on codified knowledge but does not by itself demonstrate full clinical judgment or readiness for independent practice.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0353059"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "66e478c96f2e7e11ae311298991e02db75044093d3d35d0b118d638bca530bb8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "77ef40ff683e7042261dad6bb7a3e8e6ab4dbed2174f102c236540adfa9f8c88",
     "packet_hash": "66e478c96f2e7e11ae311298991e02db75044093d3d35d0b118d638bca530bb8"
   },
-  "hash": "f0119d44c0acb7ca1ce7866efc1fcb01dfd4425139273badce9f825a88fef032",
+  "hash": "04e2445b9c2b89f2fc5a44dcc9666edc5c664cd34e2752daf70a33ddf5854b12",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9a4f8d92f9f39ab61e0d30d6df1b677c18329d827d217fe55b981c7fa77bc330",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

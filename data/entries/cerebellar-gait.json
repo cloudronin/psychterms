@@ -2,7 +2,7 @@
   "id": "cerebellar-gait",
   "term": "cerebellar gait",
   "definition": "Cerebellar gait is an abnormal pattern of walking caused by cerebellar ataxia. In this packet, it is linked to problems in cerebellar pathways involved in body-position sensing and balance-related vestibular function, and is described as a major clinical sign of FXTAS.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnmol.2026.1720370"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "03ef3016da51d1a0a80d1122ff14d462c522ff62012ca4a9c5260926de56916c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "323f8d7b42cbbd2b5acf6c66849765347ddbd91e7bb7dcd3914868002f6af62c",
     "packet_hash": "03ef3016da51d1a0a80d1122ff14d462c522ff62012ca4a9c5260926de56916c"
   },
-  "hash": "40698686196a958dceeee8a7a7fccd38c43350687cc282d94a43941bc4c21dff",
+  "hash": "6c32e4e3981f6540a2d1a0febf547566d1e08513c65cc9fe7eaa116b6e3ff092",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "376504d6eae69ecde58bda07b518fd1d588ba5127b19f7945626f145ced2bdab",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

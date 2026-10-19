@@ -2,7 +2,7 @@
   "id": "avoidance-training",
   "term": "avoidance training",
   "definition": "Avoidance training, in this context, refers to Approach Avoidance Training, a computer-based cognitive bias modification program that aims to reduce an automatic tendency to approach alcohol-related cues. It is used as an adjunct to usual treatment for alcohol use disorder to target implicit alcohol approach bias.",
-  "field": "diagnosis",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-023-04961-z"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "590770c4b528ec77f5a44d2c6692033ea6ac164cbc0d4a8ec8222d7aa6dd9658",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "42378e66e52f7c846fc9f0ddeada688ffc154083d3fb9f15f00e5298b774d0a7",
     "packet_hash": "590770c4b528ec77f5a44d2c6692033ea6ac164cbc0d4a8ec8222d7aa6dd9658"
   },
-  "hash": "41603c49b8dadbff8cd846927dd604433fa959aed46cc2c1db518481740774bd",
+  "hash": "f8d929671b1cc86981942396494d68b746848166726c91cd024d1f68dfb692f8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "69e2ee3e370039e7d91a4642613b735704d612b13cc473289f8a6cf295963962",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

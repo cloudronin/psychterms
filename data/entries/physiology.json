@@ -2,7 +2,7 @@
   "id": "physiology",
   "term": "physiology",
   "definition": "Physiology is the study of how the body works, including physical and biological processes such as metabolic, appetite-related, and neurological functioning. In this context, it refers to tracking and understanding bodily changes during weight loss.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0354678"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f483783ac90adc601254203328d240fd00bd0bee4d4f12f5ab7239f3e5d941c1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "569525249ba2876a0fca958958bb83c1002d23708a370b04a6d54af325def0c3",
     "packet_hash": "f483783ac90adc601254203328d240fd00bd0bee4d4f12f5ab7239f3e5d941c1"
   },
-  "hash": "c6621a7162e2620cf20802caa8fc0ecac08b9ad57470c26487f6fbf1472fcf7e",
+  "hash": "00a9e1c75161f6402f94454178bca17f7c5147db8ce1de134e1ed961193045c5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "4d16aa2d55b8cc247000ad7427aeae8a90a75beee73a7efe7f5e9de351a9a463",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "confounding-variable",
   "term": "confounding variable",
   "definition": "A confounding variable is a factor that is mixed together with the main variable being studied, making it hard to tell which one is actually causing the observed effect. In this context, frequency can act as a confounding variable if differences attributed to word order might instead be due to how common the sentence structure is.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0322341"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5997efeff5f04bac5a36384c367f51d099ad48b3ce3c01d21ea56b534006faa5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c29d629fb8b1b8f0c4fcb8330cef7f8b14176b3355e54d546cc899877ffc8db1",
     "packet_hash": "5997efeff5f04bac5a36384c367f51d099ad48b3ce3c01d21ea56b534006faa5"
   },
-  "hash": "6b3f1848bcb9780a10930fc566a18c881410af0cf9cb73e4b1c05b98744bdefe",
+  "hash": "9ae0cc6a6d54045ab11db6664bd64acb30515210edc95f930d104fe4b652468c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f3f58db18bfab7f3c59fe946e34aef9d771635a321ef11fce12738425743169f",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

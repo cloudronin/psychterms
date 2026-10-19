@@ -2,7 +2,7 @@
   "id": "isotretinoin",
   "term": "isotretinoin",
   "definition": "Isotretinoin is a medicine that has been linked in pharmacovigilance reports to a wide range of possible adverse events, with psychiatric events reported more often than expected alongside gastrointestinal and pregnancy-related events. The meaning of some newer safety signals is still uncertain, so reported associations should be interpreted cautiously.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0329161"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "58bd939ee00f676e5990dc8fb7c8751c9610c99420655e00e4a85a93bacc2ba3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d7b61b9abb734e9913aeb35d68bb673c00c6c72f7bbf1b0bb8ec4bdf3b4d4c59",
     "packet_hash": "58bd939ee00f676e5990dc8fb7c8751c9610c99420655e00e4a85a93bacc2ba3"
   },
-  "hash": "92795da02ed4147d916b0ad147542bb3eb96273f58e6f8d3cff7e93df901e65a",
+  "hash": "4daf71b73905156a4f3caaa7e990125031012b84b7c93ab0410f79fa5b2a6dc1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d0a2ca479e49a6169505665bcef3ae83f3477857f020b721b89989063176eaff",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

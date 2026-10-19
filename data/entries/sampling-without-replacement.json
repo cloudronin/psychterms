@@ -2,7 +2,7 @@
   "id": "sampling-without-replacement",
   "term": "sampling without replacement",
   "definition": "Sampling without replacement is a way of choosing training examples in which each selected item is taken from the available data and not returned to be chosen again in the same sample. In the packet, it is used to help build a comprehensive and balanced training dataset.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0256411"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1f1466db459d820d0f6ff19eccb76adb19653c8df494df7bf844a10c2286b42d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "73f3775e2fb583aa4370d25542f0b2f5a686add21d8bcd1e74d8e511375f5b5b",
     "packet_hash": "1f1466db459d820d0f6ff19eccb76adb19653c8df494df7bf844a10c2286b42d"
   },
-  "hash": "6b67cd3dccc90faf60b0e2a89fe4ce9b04eae8eb417e72156a8f022666927142",
+  "hash": "c6f62b28f8515a456550cd54afd0f0fe66e484de9eb9faf754bbc24781e641c8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8f75f8d00b563cae80369286147cdbd1c220e8f881a1567dedc0d31891e58e82",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

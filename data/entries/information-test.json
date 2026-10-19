@@ -2,7 +2,7 @@
   "id": "information-test",
   "term": "information test",
   "definition": "An information test, as supported here by the concealed information test, is a method used to detect whether a person has knowledge they are trying to hide. It does this by looking for behavioral or physiological signs, such as changes in reaction time, that may reveal concealed knowledge.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-026-04594-3"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1f67bcf4d84052c6db9a762b2db759618d374db1ce4edad876fbe165667f1d08",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a446ebc3c29ec2cc89e9e2aee6f57fce22c34606ed6281e3fc01430f67d4ce95",
     "packet_hash": "1f67bcf4d84052c6db9a762b2db759618d374db1ce4edad876fbe165667f1d08"
   },
-  "hash": "c619f917ed2af3390a5c24e5edd539ca14d96b4bce5170835932dbebd642c39b",
+  "hash": "e8787cc988152a47767d330863c2116b5dded49a8fb9eb383965190a9861f929",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1ac8aa04243954d3df12a53a0cadcf6a6678754cdc6c20727d1f10229954982d",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

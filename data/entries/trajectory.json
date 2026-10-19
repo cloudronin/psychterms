@@ -2,7 +2,7 @@
   "id": "trajectory",
   "term": "trajectory",
   "definition": "In psychology, a trajectory is the pattern or course of how a behavior or development changes over time. In this context, it refers to the developmental course of school refusal behavior in adolescents.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-026-04859-x"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0542f38b30b8d1694ee0c3776a78981b2e81da919dd46f3721dbea1c0fd1bec5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "901a0321fc982f9dfe3c4cbdf70c2db43947838becbbeb2d64c14beac21305b1",
     "packet_hash": "0542f38b30b8d1694ee0c3776a78981b2e81da919dd46f3721dbea1c0fd1bec5"
   },
-  "hash": "0cddeb4d7643c223f3c2e376783c5edd2db23f2051c4b0282e53d2da74b44670",
+  "hash": "a0b3f66f66d3f7654a13c6e98f6d01cd474017eaae09d03d445cf14195fd51ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3e827e3d1c715907597aa97d9a800c7f550fee93cb3423f86b9cd8cbcd54eb7c",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

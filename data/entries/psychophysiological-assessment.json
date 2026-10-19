@@ -2,7 +2,7 @@
   "id": "psychophysiological-assessment",
   "term": "psychophysiological assessment",
   "definition": "Psychophysiological assessment is the measurement of bodily responses linked to psychological functioning. In this source, it refers specifically to measuring the auditory startle reflex and how quickly it occurs after a loud sound, as a possible indicator of neural processing speed and psychiatric risk or status.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-023-04888-5"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ee2cbb94656739241dfa7253b5f98066502a3f4bf856d59d7497dafa38f8e769",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9592131a4ed26bccb825fa73e139e78b65c23301b38affff9771562b1db7161b",
     "packet_hash": "ee2cbb94656739241dfa7253b5f98066502a3f4bf856d59d7497dafa38f8e769"
   },
-  "hash": "75102ea7a084ce1ac0bd8a90ab090e901047e974e6d7d963db38541be03d56d1",
+  "hash": "bdaf9a594e218b83ba392b64bebe0cc8c534e96f2768232a04b1d8b98b8b6292",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d6a97c9381c457cfe7800d549959315dc2a8f9f594652d456b23a7bd7b1c71ee",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

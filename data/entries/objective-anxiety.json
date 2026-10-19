@@ -2,7 +2,7 @@
   "id": "objective-anxiety",
   "term": "objective anxiety",
   "definition": "Objective anxiety is anxiety assessed with an observable or biological indicator rather than by a person’s self-report. In this source, it refers to using salivary alpha-amylase levels as an objective marker of anxiety.",
-  "field": "mental health",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0260524"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a5df8b37b7534dea8786ddcda3a84878d7020c3bc86c9d1946b379eb009df536",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6439d24c9724dd5db20e32b6aa9bc424c66475a846a500575659eed2bf960d9d",
     "packet_hash": "a5df8b37b7534dea8786ddcda3a84878d7020c3bc86c9d1946b379eb009df536"
   },
-  "hash": "7dd67a94f5216697bf2cd54118bb0ed7d5e8a13a4c1a8eea63b7640e0d294e89",
+  "hash": "a019fd5c6f6edf9538baa637cc6c94c778061cf9f0b06a87c04d9343bc5cb40b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "105727b2b4e8c212e36a770255c824584ac4d47b3415bebe11e7a8d4881b4841",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

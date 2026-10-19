@@ -2,7 +2,7 @@
   "id": "school-based-intervention",
   "term": "school-based intervention",
   "definition": "A school-based intervention is a support program delivered within the school setting, such as one led by teachers and supported by peers, to improve students’ participation at school and their sense of connection or engagement there. In this source, it refers to an approach used in mainstream elementary classrooms for students on the autism spectrum.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0269098"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "941abe5277667decbf56af7420cd95278459a29d2fddd366773081f40d68df07",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "49546ef8ea95a0ca74b97742aaca2eab35f8dcebded3194152e8a688f42c976b",
     "packet_hash": "941abe5277667decbf56af7420cd95278459a29d2fddd366773081f40d68df07"
   },
-  "hash": "0684e3e5a300e135c636ec810d2257e99d4625480e75e2d6d68f69519c390ceb",
+  "hash": "c6d72d8f72fa6e7cdbf8316e39b20e3c54bb1a1afa4660ea467cbaba09c780fd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ebfd9ede252c2bffe47990f6e6e729d757918c6cb9764817e51f41907b15aded",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

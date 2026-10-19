@@ -2,7 +2,7 @@
   "id": "basic-emotion",
   "term": "basic emotion",
   "definition": "Basic emotion refers to a set of widely recognized emotions, such as anger, disgust, fear, happiness, sadness, and surprise, that are described as culturally universal. These emotions involve brain systems including the amygdala and medial prefrontal cortex, although the packet also notes debate about whether each basic emotion depends on its own single brain region.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2021.612890"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "926dec0fd60fb2e97537fb17f996497f23b2ea543f5db77f5e52125a74c72f04",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3dfd952a5f7dcd05773aedf3b31f599b7e55efc97ee6bf2fb876510b446f03ad",
     "packet_hash": "926dec0fd60fb2e97537fb17f996497f23b2ea543f5db77f5e52125a74c72f04"
   },
-  "hash": "8d9417a3a975736650203369b6005b0bf4ef409da8240d4b061aaba1fe3910f9",
+  "hash": "86810c09d8fcb87a00e285b63e2f15581ce033d6a1276051222598642ce07de0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "31bf62f2f05abcb41524cf66faeddf5f421986430607991445e5075cd27178c5",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

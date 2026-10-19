@@ -2,7 +2,7 @@
   "id": "supported-housing",
   "term": "supported housing",
   "definition": "Supported housing is a housing setting for people with severe mental illness where support is available as part of their living environment. In this context, it is described as a place where health-related support and other care can be integrated into standard services.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2022.966029"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2e69e3fc9f7b8c757078effbae9dd64cf7f7fd0d62d185a9b9a3bc16a4982c4c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "34788f1327f4a0127d80779d4e757f6ee9a45cd335cb0d5e2e2f72731c9dd6c9",
     "packet_hash": "2e69e3fc9f7b8c757078effbae9dd64cf7f7fd0d62d185a9b9a3bc16a4982c4c"
   },
-  "hash": "19e1dde9dbcd789ac4e6fbfb35a7cf74a5e3806ca91798c6617a9f4e5c8210f5",
+  "hash": "21d6e65b84b243478f5cf40c3bc2ea3961a4299be9d9db23dafd55d6b5983e75",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "6e6962aaf71fe1a2dab448b3df0defee6bb7d99971fa6ccb058ebccfeadcceb6",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

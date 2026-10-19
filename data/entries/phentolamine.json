@@ -2,7 +2,7 @@
   "id": "phentolamine",
   "term": "phentolamine",
   "definition": "Phentolamine is a medication that blocks alpha-adrenergic receptors broadly. It is used for conditions involving very high blood pressure and hypertensive crises, as well as pheochromocytoma, blood vessel spasm such as in Raynaud disease and frostbite, clonidine withdrawal syndrome, impotence, and peripheral vascular disease.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D010646"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "65d966e2bb422339877e9e4aea9b87e7651976eab251bc2e3c7652edd7f952e0",
     "packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436"
   },
-  "hash": "ecb2a313ec76dd57f8153171e871138430a33b94f763cba62935bacfb25b4e5b",
+  "hash": "0f6539df1b94ac7e1ca7fb7b5223d9f1adf62c86397e359f6b4d7cbc31952234",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f388514943e767bbb7d3c76a4654f016fad87028cec4ee1bb3ae7390cee19a05",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

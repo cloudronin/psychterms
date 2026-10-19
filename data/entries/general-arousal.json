@@ -2,7 +2,7 @@
   "id": "general-arousal",
   "term": "general arousal",
   "definition": "General arousal is a broad increase in alertness or activation that can be set off by a stimulus, such as a frightened face. In this context, it is contrasted with a more specific response to the social meaning of another person’s gaze and emotional expression.",
-  "field": "social",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0002389"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f12f2f862c7214460bf8e9b464f45219b75e13661cd95a4e7faae810c4a702fd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3ce8876f846712f333ac54fb341bbfb39a0365fb1daf9255e269fdb5ec959e1e",
     "packet_hash": "f12f2f862c7214460bf8e9b464f45219b75e13661cd95a4e7faae810c4a702fd"
   },
-  "hash": "c1bee1dea33cf532fe09a19913aa14e231ef2eec3fd77b3a98da08b9d4d27b29",
+  "hash": "225f770335c3190de09dbd244d3e4d179af7c77d29ec47fca695a14c64fba04f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4fe0afbc9d48a0cd02324975ed9fbba691b346cdb53e8421554498ffad9fa40f",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

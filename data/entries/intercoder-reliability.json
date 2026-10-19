@@ -2,7 +2,7 @@
   "id": "intercoder-reliability",
   "term": "intercoder reliability",
   "definition": "Intercoder reliability is the consistency with which different reviewers apply the same coding or screening decisions. In this source, it is supported by having reviewers work independently first and then compare and discuss disagreements so the criteria are applied more consistently.",
-  "field": "social",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0319743"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ff7fafc108151fe225678039f184d996c871d2e06a6320bc332ef96481ecd385",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e952dce5c191099a41e177f777ea8435f5071d13e5b959dddb4fcc3ea63949cc",
     "packet_hash": "ff7fafc108151fe225678039f184d996c871d2e06a6320bc332ef96481ecd385"
   },
-  "hash": "529024d26e400e72599a03124013fc592b2e52b967198b2e9baeaac539c32513",
+  "hash": "34d20b0bba06968eeac625d4a0c2bd26f257bb73899c942fa99d4e367264de89",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e4ec7bb5968387d32947bdf6cbfa3167e5a7946a30f32c1e5df81aaab310e652",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

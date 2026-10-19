@@ -2,7 +2,7 @@
   "id": "race",
   "term": "race",
   "definition": "Race is a way of classifying population groups by geographic ancestral origin, based mainly on physical traits viewed as distinct and inherited. It refers to a population category rather than an individual mental process.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6893ab07b3f7ed3c5c701a05d78bd68287275d9646f5853578c9532c94e9e99a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2964449ab211843f6f1f58df9267c705117dac191495c90fb73c6b6afaf9a332",
     "packet_hash": "6893ab07b3f7ed3c5c701a05d78bd68287275d9646f5853578c9532c94e9e99a"
   },
-  "hash": "1d052ba9fc965ceb7dc3ba52c58160d44bb8644815bfb83fb479af7d3e1e86c0",
+  "hash": "67e44550c0cda8f18b89e2609ebcd8f4044d7fc9becc5fbe2e18378ac7a67e87",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "c84f4d47ed472e2e51cfeaaf8f20c6ef7dee79dd955f0526c45ff3ed6a167594",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

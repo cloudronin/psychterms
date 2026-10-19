@@ -2,7 +2,7 @@
   "id": "glycogen",
   "term": "glycogen",
   "definition": "Glycogen is a substance in skeletal muscle that appears as small particles within different parts of muscle fibers. In this packet, it refers to the amount and location of those particles, which are measured to study glycogen distribution and metabolism in muscle.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0351502"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e865e83a1a4e6d0ba8029d20b7634647bff212f1968c187f587a4d3ba99265e5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3331dbe8c54a5ef7c797fa4a504b229dc25be04946bc2473df11632657701c76",
     "packet_hash": "e865e83a1a4e6d0ba8029d20b7634647bff212f1968c187f587a4d3ba99265e5"
   },
-  "hash": "3b78dc19969ec24bb685cbab45f00d3782294f5817ed4cb90aab4275fc43bcab",
+  "hash": "acfdeb5aaa158560f2162b27376abc0a7c67d1c2fc580adccaeebdb6985204b4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "05466019f6c21a01d6d5fb53314e96c052677183a71f0d89b6a762112699216d",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

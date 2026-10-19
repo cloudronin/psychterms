@@ -2,7 +2,7 @@
   "id": "oversampling",
   "term": "oversampling",
   "definition": "Oversampling is a way of handling imbalanced data by increasing representation of the underrepresented class. In this source, it means generating additional minority-class examples within a graph-based framework while trying to preserve important structural relationships.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0337208"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fca585896bedf59c222e9b896a84de023bc99216bd4fd4c3a48012d1d99e0719",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e7cf8aa9ea1e83adf4434fea8e955edf84220ecf90fe405fb797fd5ce39f910c",
     "packet_hash": "fca585896bedf59c222e9b896a84de023bc99216bd4fd4c3a48012d1d99e0719"
   },
-  "hash": "9f39fc3d5926a0abf003aca3f6bfae73fd2ca3c6bf33d6af9a723c005141a830",
+  "hash": "1451ec586fae6c8af5d8eecfd2167846e567c304f5145fdaf258588978ac9de1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "976dc0b516fe09049220a3a5ff5f09c06c51ad8f1fe463b239b48187a1ff032f",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

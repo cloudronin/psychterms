@@ -2,7 +2,7 @@
   "id": "cer",
   "term": "CER",
   "definition": "CER refers to the cerebellar network in brain connectivity research. In the supplied source, it is discussed as a network whose functional connectivity changes with working-memory load and is examined for possible altered cerebellar-cortical integration in schizophrenia.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1796599"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b779cd0953cce10cb00b87076adcc7c91708a44f4c48436de25c831531532789",
     "packet_hash": "2a48bda0df05cb10b0f04e53d2a23d656eac970cf29c1c338d7be852a5b4e551"
   },
-  "hash": "ac9d65fcd6a2a8625f430598c4ac233b4ad2c015e50d1860519a953d1ef442ce",
+  "hash": "f68fe797358d54ed1be1800a29cb77ae24cc610100f164934068f8c7704ad8a2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0deaac398acb23f75049fc8773cfc233bab10513d6517741024f86f7129eb3aa",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

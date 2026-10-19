@@ -2,7 +2,7 @@
   "id": "birth-order",
   "term": "birth order",
   "definition": "Birth order is a person’s position in the sequence of children born in a family, such as being the first, middle, or last child.",
-  "field": "cognition",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D001722"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ad3e48bdf800fda286370d71bbe28b8ffce79c3bcdc176824635b52f63650871",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e5e4e0e1a9a67b547f1ee447808a85e6a6a5a1e17a41b6c15682ce53015440d5",
     "packet_hash": "ad3e48bdf800fda286370d71bbe28b8ffce79c3bcdc176824635b52f63650871"
   },
-  "hash": "622e6444ec2be626d2f6ec18f15d15c6992c740d20701d6d852a79e56e78874f",
+  "hash": "fc7c0fef90ad0a387f99313375502e5ac571342a7dad93ec487908f00257c942",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b7a2a413dc5a1570c1ddac56f76afb97ade3363588ad9be218fd7af81dda4115",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

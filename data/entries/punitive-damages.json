@@ -2,7 +2,7 @@
   "id": "punitive-damages",
   "term": "punitive damages",
   "definition": "Punitive damages are money awarded beyond a person’s actual loss to punish wrongful conduct and to discourage similar wrongdoing in the future. The packet describes them as going beyond ordinary compensation, especially where proving harm or valuing losses is difficult.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0340113"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2c6ce50f63ed0126fbdf37948c4ddfa4c409ba62ac62db240bdf56e2ddae1bfa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "533fcc5dcd0287ec61f4c3df3ce25cea01e67d87100b337e0f3627aef8137cd1",
     "packet_hash": "2c6ce50f63ed0126fbdf37948c4ddfa4c409ba62ac62db240bdf56e2ddae1bfa"
   },
-  "hash": "5bbc29054a38139c9293c2f1b1b3ceb769bb119ba03b3c31be5bfc0e70a48a51",
+  "hash": "46ffe3261c2e4d1e446164be75e1bf60eb13bfebecc1fe445165607e0317182b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b75f33e259b3c30325bc2d597020a1fa7e6059bfc26da0c5b741945e1d5ccc57",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

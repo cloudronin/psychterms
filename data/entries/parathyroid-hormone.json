@@ -2,7 +2,7 @@
   "id": "parathyroid-hormone",
   "term": "parathyroid hormone",
   "definition": "Parathyroid hormone (PTH) is a bone-building drug used to treat osteoporosis. In the supplied source, it is described as increasing bone volume and mineral content and improving the strength-related mechanical behavior of bone over time.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0219575"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "58d309aca6e9e13a196e3e4feb52585db19ab5aa15ab307335e9c65f1d7ec2f5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "576e73b9db645e25b70d166a3bc44a294ecd083c7cc8e9ba1e28a4bb40ccdd81",
     "packet_hash": "58d309aca6e9e13a196e3e4feb52585db19ab5aa15ab307335e9c65f1d7ec2f5"
   },
-  "hash": "c03a5a320fc23f2932ff83843dfccc93c5c475a636a429817191a3b0c0ce49ed",
+  "hash": "637dedf59eb8cbdabb61f62f7b9decb993213cf2f36284f23322e59a0bb0e419",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0ca0e55ef76271f384a9479d1e31886339e27dd5882e6dc8f6dda29aa6fdfc76",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

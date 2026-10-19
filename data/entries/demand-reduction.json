@@ -2,7 +2,7 @@
   "id": "demand-reduction",
   "term": "demand reduction",
   "definition": "Demand reduction is a lowering of electricity use from the grid, especially at times of highest demand. In this source, it is described as being achieved through residential consumer engagement, trust, and community partnership that support behaviour change.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0101189"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1a4001a547bf73e41d6b394d001abb8b42cc579f4848f92af9c8a272e3e5e3c9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "afe1e1580a90cb13ef34f254795ed6c7ccff298cf64dfed4b0d00464365d5559",
     "packet_hash": "1a4001a547bf73e41d6b394d001abb8b42cc579f4848f92af9c8a272e3e5e3c9"
   },
-  "hash": "e81433b159291d0fc030b4b4a7cb0d2dd6191613500a6e4c43cbe378a596d3ca",
+  "hash": "dff6ded433b054d70375e9f899c4a000d74ce0ab01ad32257ba30fa6b72a3135",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "7b552037adfbd059a3a65d631ca50732b72adf5569fd7f95a3cbc746ae4781fd",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

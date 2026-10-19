@@ -2,7 +2,7 @@
   "id": "spermatogenesis",
   "term": "spermatogenesis",
   "definition": "Spermatogenesis is the process by which male germ cells develop into sperm. In the source described here, this involves a gradual change from a round cell into an elongated sperm cell as the acrosome forms, the cytoplasm shifts toward the head, and the flagellum develops.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0316519"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2e61db12b9ac8e3454d34dd4b936869ef9506501b6ce8c7be81e04f9a7795d78",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2ee172f026b00a850b9725104adb0fa6fe66614c8cf45d0d81259c99cff60fb9",
     "packet_hash": "2e61db12b9ac8e3454d34dd4b936869ef9506501b6ce8c7be81e04f9a7795d78"
   },
-  "hash": "585816531148949a182f3531bd55267e7e84a961f39189fd6f6e2621789d0cf1",
+  "hash": "9b6a378353469d584dab0e182600c5df58dc5c7b2fd6bd7d320168e2a8a84156",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c5b8d603661cdb24c0fa561d9da7b7fdaf9a9a18f48caa79716b586b9b8bee98",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

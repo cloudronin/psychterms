@@ -2,7 +2,7 @@
   "id": "monosymptomatic",
   "term": "monosymptomatic",
   "definition": "In this packet, monosymptomatic refers to a form of Melkersson-Rosenthal syndrome that shows only a single main feature rather than the broader pattern of recurrent orofacial swelling, relapsing facial paralysis, and fissured tongue. Cheilitis granulomatosa is identified here as a monosymptomatic variant.",
-  "field": "biological",
+  "field": "diagnosis",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D008556"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bf0afdb03581598ad2a288272a4aeb1b13abaf2147e18d7f6655e2a0bde5744d",
     "packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351"
   },
-  "hash": "1f16ddd53dac9089433d9ff227e46293c6897ad959e5d91c4ad3f0198593cc6e",
+  "hash": "125aec981d9f5e42302eeb26bd7cb351b062541c84a8facd0aab5c7b20cd09f8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "5b92355cf139c9de012ec9e5b06c095cdd20677555a0552245b968d0f41186f8",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

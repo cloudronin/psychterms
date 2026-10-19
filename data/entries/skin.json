@@ -2,7 +2,7 @@
   "id": "skin",
   "term": "skin",
   "definition": "Skin is the part of the body that, when exposed to sunlight, helps produce vitamin D. In this context, reduced sunlight on the skin in winter may contribute to lower vitamin D levels and less serotonin activity.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/seasonal-affective-disorder"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4869896f0436725c9f1d8101a2c6944149b4ddf5f8220ef93baf7737c88b38cf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cc1e2b0e38ace00fa31e591be68255c1cac750767cdf9eb5736f49fcfd22f9e9",
     "packet_hash": "4869896f0436725c9f1d8101a2c6944149b4ddf5f8220ef93baf7737c88b38cf"
   },
-  "hash": "9d6bdae23f11fd80dbe007fca4cc58cd5eb58624fa12e12e89b77c16f801494c",
+  "hash": "713913ffd46ebfebb4f1d84dfd539f6cbaf46ae51964a340896cf2de91c10221",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "72214e4cff536a11e373c53eee73ac67faef4e0d0202b2f3fa9c208828477da0",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

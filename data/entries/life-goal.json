@@ -2,7 +2,7 @@
   "id": "life-goal",
   "term": "life goal",
   "definition": "A life goal is a broad aim or valued direction a person pursues, reflected in daily activities that help move them toward a hoped-for future or ideal self. In this source, life goals are treated as higher-level aims such as being fit, helpful, smart, talented, creative, or social.",
-  "field": "assessment",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1685340"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cd9d4060e8ec06ffc583419dbd16b160c39e93b6b741e9555b039044ee034caa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "33106f43527ac5bd16675cba48a89b126d1814f6078240692638e1c503d3b29a",
     "packet_hash": "cd9d4060e8ec06ffc583419dbd16b160c39e93b6b741e9555b039044ee034caa"
   },
-  "hash": "fac8b767016c56a36005bba7c705954fbd34e8b58e0f8a60297a2b48d857fb1c",
+  "hash": "40ad5f633964073426bc833ee7046fdde6cdfaed08976c5ee5d1c0b73fad7f67",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f5457609b536be3b6032a5c5878e9b7cfc56849602d98663d75f83242c0306e4",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

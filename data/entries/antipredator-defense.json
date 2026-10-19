@@ -2,7 +2,7 @@
   "id": "antipredator-defense",
   "term": "antipredator defense",
   "definition": "Antipredator defense is behavior that helps an animal reduce the chance of being successfully attacked by a predator. In the source material, it refers to displays such as tail movements that draw a predator’s attention away from more vulnerable body parts and may also support warning or chemical defenses.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0258218"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "683fd41123212de9d93ee324c527e1e7f7720c0e41ca08c604e3029005b50336",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "67a333dab0ed0b81a3ed4f95ab8e1da18f8e8cd2d46e3ab9b68b49a6280d75fa",
     "packet_hash": "683fd41123212de9d93ee324c527e1e7f7720c0e41ca08c604e3029005b50336"
   },
-  "hash": "7dc044b48a4ac9d40c0994c1d6b9429ab082c61f840204d454941d5c063c7c0d",
+  "hash": "615f84e7b681b21659e235e42b8d365703f1805895ae2c28de7c96afd058eac1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e89206da32a1f67f60d77f3655c964c74d43bf1a2858cbcd8d71f70d02e19c24",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

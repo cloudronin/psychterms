@@ -2,7 +2,7 @@
   "id": "running-wheel",
   "term": "running wheel",
   "definition": "A running wheel is a motor-driven exercise wheel used in animal research to measure and support sustained running, in this case in rats. In the described infrared-sensing version, sensors track the animal’s position in real time so researchers can record and quantify effective exercise activity objectively.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0122394"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cd400197843230315a8731f3d7c0729076a29b23d891b639d376d3ec663f0748",
     "packet_hash": "f57adc8f98035cf97478e341a0bab179e5515f874795bf6281a1144f31e030e7"
   },
-  "hash": "223d3d6bd5b8ba6c519c0f94abea2494fa4956009139c7ae4fc27cb6dfba9000",
+  "hash": "36ffb4061a54ce9428e75b358dab698c73a263cab1c60c381eecff5beb1fcfff",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d00a9968256053e3a9e497ab503d6be8bbbd47bf5f3c88cf419f51885577044f",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

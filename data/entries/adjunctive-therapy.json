@@ -2,7 +2,7 @@
   "id": "adjunctive-therapy",
   "term": "adjunctive therapy",
   "definition": "Adjunctive therapy is a treatment added to a main treatment rather than used by itself. In this context, it refers to using another medication alongside an antidepressant to try to improve depression symptoms.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-024-05627-0"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5ae4058ebdf35af8b021f8dacd038b6689c4e7a5ea8bb379091d9b7bbb7e48f6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3ac9d4e7b33e5d1f6bebf81278ffbcaeff00c7e9330b042fe6f2dd74a96f1972",
     "packet_hash": "5ae4058ebdf35af8b021f8dacd038b6689c4e7a5ea8bb379091d9b7bbb7e48f6"
   },
-  "hash": "9beea1b668931e9f7db3d948bc459558a40867a44de4301424e339f1e2f119a9",
+  "hash": "21facf91938ea07ebc792c91291e838e2cfa443c00b6ffcf37c9061f1703bbbb",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "091eb89c6d3d8a86759e5a30d997b192db25e90de73bef9d2754f8e2958ed7c7",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

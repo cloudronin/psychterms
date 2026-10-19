@@ -2,7 +2,7 @@
   "id": "drug-addiction",
   "term": "drug addiction",
   "definition": "Drug addiction is an older term for drug dependence, a condition in which a person develops a mental and sometimes physical reliance on a drug. It involves a strong urge to keep taking the drug regularly or from time to time to get its effects or sometimes to avoid discomfort when it is absent, and tolerance may or may not occur.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fcf69441b8229a834c5df1d7e1d5b327af63bfbea1126769d0acb781ee54827f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "17c472762cf78c1b9f89764e045ba398232f3aa1da730adb35e361e9efa7419a",
     "packet_hash": "fcf69441b8229a834c5df1d7e1d5b327af63bfbea1126769d0acb781ee54827f"
   },
-  "hash": "59de2077bb89f0f439faa90a93cf7502b45c97f5a1e07aef6a01b52f2a332bce",
+  "hash": "2dd9fa73d9387cb01fa1f31a3f0d23cc581492e4c13e3b92811239789f3de744",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "89c99bd98070838d43136f297bf364c2fc6a952bbc4175f08299f81b935e3eaf",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

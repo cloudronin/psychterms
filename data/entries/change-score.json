@@ -2,7 +2,7 @@
   "id": "change-score",
   "term": "change score",
   "definition": "A change score is a measure of how much a person’s score on a variable shifts over time rather than just where it starts. In this context, latent change score modeling separates an initial level from a change component so researchers can study within-person increases or decreases across repeated measurements.",
-  "field": "ethics",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1730215"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1448edee2460af1271d7564112707403b97737aa20ec0dcac6f809fe18a21759",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "840768c57c772544d4243c8f24131a8cc824cce1613f630a369434ed214e38d8",
     "packet_hash": "1448edee2460af1271d7564112707403b97737aa20ec0dcac6f809fe18a21759"
   },
-  "hash": "57a8d54dca8409f965f472a643b9739714d99a554cf6a41cec75dcdba7e0894b",
+  "hash": "f7ca38ef7a72cf816deb95f6f77b139e44d25eeb736aba217c513a0a4f254bad",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "53c313cdc4522aba97408c7324d71895bfac7983eab0ff82fbbe56e629b0bca8",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

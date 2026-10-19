@@ -2,7 +2,7 @@
   "id": "phonation",
   "term": "phonation",
   "definition": "Phonation is the way voice is produced, as heard in voice quality patterns and measured in acoustic features of speech. In this source, it includes non-modal forms such as creaky voice.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0346033"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a03e5181bfd61f5568d70fa9e17ad7b9700e887323042ff8ef353c2b40567817",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f0d31e5ef0f9b5e3c7fc46a1bee2fa088e90d04b0a946f5b2957f0eb1030c7c7",
     "packet_hash": "a03e5181bfd61f5568d70fa9e17ad7b9700e887323042ff8ef353c2b40567817"
   },
-  "hash": "71294abfafd3fb4242e5ff5964daa5364a106c3112c78b0e39f7962500306734",
+  "hash": "b70c365c07a54ab926bfe50841185e7de2e89a4b25061760763795fc3a2ad6d4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2062e4eb5fb56d5fa809aa07314a2e93be7207f764d934606cecac44231f1c4e",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

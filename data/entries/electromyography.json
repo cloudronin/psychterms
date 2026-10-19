@@ -2,7 +2,7 @@
   "id": "electromyography",
   "term": "electromyography",
   "definition": "Electromyography is a method for recording and studying the electrical activity of muscles, including at rest and during voluntary movement. In this packet, surface electromyography is described as a neuromuscular assessment tool used to examine features such as muscle fatigue, fasciculation patterns, motor unit activity, and signal complexity.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0350029"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e515914dd8b9d8de57bd8cd30d36d227824dbee707fc9426df970befe60d6369",
     "packet_hash": "502096ba9e9f594de9a42333201c2ae526139979c268d944d018320fd7dc450a"
   },
-  "hash": "b5a0b7f0b4d861e0eacdfd0157d1edc682711336b0a464f534ca0319fc71033d",
+  "hash": "a310eb15b9b8cc4066ef05d436a3aead0434534f61d46b6108704324f71544d7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "0eef325ed923b5e2bb8f5c90dd9479f6152f7951f4b7545715573fdf99dd7e66",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

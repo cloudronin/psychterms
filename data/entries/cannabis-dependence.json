@@ -2,7 +2,7 @@
   "id": "cannabis-dependence",
   "term": "cannabis dependence",
   "definition": "Cannabis dependence is a dependent pattern of cannabis use in which the severity of dependence can vary among users. In the source, it is discussed as a common problem linked with cannabis use frequency and with some motives for use, especially coping and routine motives.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0247387"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "55b0d990231624efe33f6a1c8d7e96a0b39350cb00201dd6bb694d818c51d584",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cad2128005a9749e5b58d1be6ee416e4337f4d99ddc97d204606f478419acb2c",
     "packet_hash": "55b0d990231624efe33f6a1c8d7e96a0b39350cb00201dd6bb694d818c51d584"
   },
-  "hash": "056f424ad454eba7bf7109fbf5a9d68f9be7b4a9f0e108b78d2b160d8902ae9a",
+  "hash": "a3695e958b4194f252ca6f0d92a421c3ea9cd7a3f9f2d8f3cb697b5a260cd9c5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "28f0b1e0d725b4e1ba39112369ebea4c63782fce21edf6d0425d91dd07053ff2",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

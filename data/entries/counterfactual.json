@@ -2,7 +2,7 @@
   "id": "counterfactual",
   "term": "counterfactual",
   "definition": "A counterfactual is a \"what-if\" explanation that shows how a different outcome could be reached if some relevant factors were changed. In this source, counterfactual reasoning is used to generate plausible, practical alternatives that help make a prediction or decision more understandable and actionable.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0358643"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9cd3f62fdccc061b00627ad7e7832b1f1aadd95b74e089e6baba2762b9801ae0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fe593087f54f2a24664951edf9be1105312d555095ef923920c74216f4c7c578",
     "packet_hash": "9cd3f62fdccc061b00627ad7e7832b1f1aadd95b74e089e6baba2762b9801ae0"
   },
-  "hash": "880542481372a6a37150dab97c359dd1e9d9c48f5ed0219075c2e8d76c63dbe3",
+  "hash": "6f3b88121b45b065942708b1ec5429e06fbc9c1c026bec57b85390ad15d59cbd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "a94e23f5bafefc01a97a63be8f45c21df9fdc1c7c261a1dbad3409c390d2bcae",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

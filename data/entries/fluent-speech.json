@@ -2,7 +2,7 @@
   "id": "fluent-speech",
   "term": "fluent speech",
   "definition": "Fluent speech is continuous, natural spoken language rather than isolated speech sounds such as single vowels or syllables. In this context, it refers to the ongoing auditory and visible speech information produced by a talking person.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0089275"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fd840bdcb922a6d01801c73145408a1a36261f8050d549cbc9605f3982715b16",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "389fb59a4449ca7d3e5630c700005c4e5f52f133732c859b3c2017bd4c150de0",
     "packet_hash": "fd840bdcb922a6d01801c73145408a1a36261f8050d549cbc9605f3982715b16"
   },
-  "hash": "a20ed474f4cbde1708fb13912307f09de3905171ee610f4eee2ab75e96d73ce2",
+  "hash": "9a0eecf1352bae7bacd7849f307dab163f9483002fae6a09c30de5dcfe6d4f1d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3744489d41bbfb731924d0b09a96369c5e0b8825dc2588dd9141926293ea3eeb",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

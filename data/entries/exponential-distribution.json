@@ -2,7 +2,7 @@
   "id": "exponential-distribution",
   "term": "exponential distribution",
   "definition": "The exponential distribution is a statistical distribution often used to describe how long it takes until an event occurs, such as the lifetime of a manufactured item or the time until disease remission. A key feature is its memoryless property, meaning the future waiting time does not depend on how much time has already passed.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0285992"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0a0ab8f4caa41ba93d4e41478cbd9bf21c9f568a37cb37739c488c9fa11d4973",
     "packet_hash": "67584895947dc7b3a693fa2fffa588dffc03a2cfbdae8b76a9e04baf6b629bf6"
   },
-  "hash": "ed87a611d4774f09d4232aba8ebfefab64670510af974f60040a9494a0543871",
+  "hash": "21382098c083097b11d22c9cbb3edf0144a455b48900fc11f15d5ebdb7ce819c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "6d4b753dfe0afd619122502e36b0256f603c9e20e4e6228a51e610b06c37412d",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

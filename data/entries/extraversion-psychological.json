@@ -2,7 +2,7 @@
   "id": "extraversion-psychological",
   "term": "Extraversion, Psychological",
   "definition": "Extraversion, in psychology, is a state in which a person’s attention is mainly directed outward rather than toward the self.",
-  "field": "cognition",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D005120"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3fd3538dfde66dbe804043863f9b04eaf70b5496e58a68fad38540c2c9f474ea",
   "model_review": {
     "model": "gpt-5.4-mini-2026-03-17",
@@ -31,7 +31,7 @@
     "published_packet_hash": "3fd3538dfde66dbe804043863f9b04eaf70b5496e58a68fad38540c2c9f474ea"
   },
   "editorial_status": "human_review_pending",
-  "hash": "f65264dfce9f5aceb75072f1f176a9f157d9cae9d9f392ab686797f4acb7861f",
+  "hash": "7f1e3c8d6c6b5497048a0496b27958a8e2fef7fbd2ce4d5a013645c747e6820a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -47,5 +47,9 @@
       "request_hash": "66b3d63bac7cd745118a9e0d76e184cbca35fad8d8809d2ad53f3e9088ea92c1",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

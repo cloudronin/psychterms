@@ -2,7 +2,7 @@
   "id": "fibrillation",
   "term": "fibrillation",
   "definition": "Fibrillation, in this packet, refers to atrial fibrillation, a common abnormal heart rhythm. In the psychological context, it is linked with stress, anxiety, and depressive symptoms, which may affect how patients experience treatment and may be associated with recurrence of episodes.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1681576"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2f796865eddcffb075081f15d6fa888f5bb81a24ccb3051a79dced475b86324c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e534d5a047e2707a675aff252907a27d75ff7180a7951856d87e84e9f1aca709",
     "packet_hash": "2f796865eddcffb075081f15d6fa888f5bb81a24ccb3051a79dced475b86324c"
   },
-  "hash": "406d27bbab88679932b34b8dc4370e60d66071bb4c38add6abffc13d6298b2b7",
+  "hash": "dcd3dd708cacbe4ddd7a44e185a68d7235f491c870b4f965322058a3fe3183db",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "24cb886f53d3560256a1adf550637eefd66489494ac0d6cce7b51829836ae806",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

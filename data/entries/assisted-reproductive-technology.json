@@ -2,7 +2,7 @@
   "id": "assisted-reproductive-technology",
   "term": "assisted reproductive technology",
   "definition": "Assisted reproductive technology is a group of medical procedures used to help people conceive when spontaneous conception is difficult or unsuccessful. In the psychology literature, it is discussed not only as a fertility treatment but also as an experience that can involve significant emotional strain, including anxiety during treatment and around pregnancy.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1709200"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2b7297a6ecd1d1fdb5a7e7200a70523b558ac1b81ac259ee3d15a964c29808ca",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0933fa0dd1b2b0d8fda02450fac5f858f96e5ab04c95b3785d81fb0f652b4389",
     "packet_hash": "2b7297a6ecd1d1fdb5a7e7200a70523b558ac1b81ac259ee3d15a964c29808ca"
   },
-  "hash": "bd7175da7ebafaef55f05c5755e1f44b4d5f9804f440058ee8ddda33b90799b5",
+  "hash": "02b39222d7e1453069b7f962a129dbe9a25889aa630ba21be132d150129e9335",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "75670428a3d1b6e2f6b33c286fbd4561a41655c10e06cb120955bc162ffc82ba",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

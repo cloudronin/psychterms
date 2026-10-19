@@ -2,7 +2,7 @@
   "id": "genetic-linkage",
   "term": "genetic linkage",
   "definition": "Genetic linkage, in this packet’s context, means a possible shared genetic basis connecting two traits so that selection for one is associated with changes in the other. Here it refers to the observed association between intelligence-related performance and longer lifespan in flies, suggesting that some genetic factors may contribute to both.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0325154"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6d34f9155b4473363165f3c897331af765916a0c46d2c7c5f2eebffd17a3660d",
     "packet_hash": "0863ce99f80ff302459fcec269b391f513d34bd334e39f9886af9682147890ee"
   },
-  "hash": "4dc8c4883a2c519f1c42b59a4e985a455e92725438a9cdc144fd04751422590a",
+  "hash": "684da694e99249faea32806e005d2ef0d74e912f63205933f613828fbc5279a7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "6153c5a5a8a45b9ff4bc7b4242c95fd807554ee113f5b07eab62986f634f4630",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "behavioral-risk-factor",
   "term": "behavioral risk factor",
   "definition": "A behavioral risk factor is an actual behavior, rather than an attitude or what someone knows, that is associated with a higher likelihood of premature illness or death. The term refers to behavior-based risks tracked in adults to monitor health-related outcomes.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D040343"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "17ee09dfa3bee17eb3c6a48502e8ada5ad48d1d57424a00283f2a83a4c107ea9",
     "packet_hash": "1b517ae4805d97d1da24b078f04eb3ee9c5daff290008fb68496b57d6948656c"
   },
-  "hash": "3afe651a0132f080f3f85579dc9769a371fcf5f7efccadb6fcd473a7eb41ffbb",
+  "hash": "9600a163c4e98e120ee3f274f685f6788607ca092b078e674019f03f50375c4d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3d0ed3eb0a90023fca71e793023a2f96930bcc669e7a6e4d2088e8f3d2f879c8",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

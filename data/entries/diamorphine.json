@@ -2,7 +2,7 @@
   "id": "diamorphine",
   "term": "diamorphine",
   "definition": "Diamorphine, also known as heroin, is a narcotic pain-relieving drug derived from opium. It can lead to habit formation and is classified as a controlled substance.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D003932"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "409004dff2c687a7d68182c8fb72d0085bdee406a2d8d2b0c87b40f7356ada5f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8f348105adcbac5c345225892fa9d53264cb60c806f70639edcae95b43d5c2f6",
     "packet_hash": "409004dff2c687a7d68182c8fb72d0085bdee406a2d8d2b0c87b40f7356ada5f"
   },
-  "hash": "cb63989da0433134102c58e92bfb2156e8c8b8530b4e8fd84ce67def79f2339d",
+  "hash": "3550150ce2cc3eea4a05f1d599b0e6e123563edd62303bcbffd3d45ce3338b09",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "5426aacc6afaa108341326a1b224d94c6616cbed6c4e8e451c01a908d73fb60d",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

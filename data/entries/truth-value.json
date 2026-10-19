@@ -2,7 +2,7 @@
   "id": "truth-value",
   "term": "truth value",
   "definition": "Truth value is the true-or-false status that a declarative statement is taken to have. In this source, that binary quality is described as arising from both natural cognition and social processes, especially disagreements linked to conflicting interests.",
-  "field": "social",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2020.00733"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "421b6f491979c059acd9b46d7c0c0d69c377908d8a8f545b657cb5a2645b80d6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "70a5b3946349d0823281b1d2bb07c9dd215fcd55d52f88b9f9582dcfb4c596a0",
     "packet_hash": "421b6f491979c059acd9b46d7c0c0d69c377908d8a8f545b657cb5a2645b80d6"
   },
-  "hash": "5880dbac54ed7766afea2a018f27171c67eb5578235eaf88131b1307df6a77f9",
+  "hash": "22d9c1bfc52697f653c1531ff7e0f6167b1a971e02349ebe9678fb89ced5a6b9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "676906f3b1d9efeb10cb5e2e6f5de1d0946ff896375d4930bcff38ed47b414ba",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "happiness",
   "term": "happiness",
   "definition": "Happiness is a very pleasant emotional state marked by visible signs of satisfaction or gratification.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D006240"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "15dc3cd745c2b1291be30ce62eb02a07dfdce0412c76207c7ddd6abfe2013473",
     "packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569"
   },
-  "hash": "ce7718faa8c980ae817968a10b9cdeee218f50c6cf62d7ed45645e45b744e1c8",
+  "hash": "0cf1fccdaf3a7c9d111ddd2e22c0c09e33f643f0fa86b11fcd1a8c68f1a954d6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "934b813ad59c606b0d8f8dfc6dee3ab4c2863ea8f5069cbce5d1f837b2320555",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

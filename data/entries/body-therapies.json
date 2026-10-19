@@ -2,7 +2,7 @@
   "id": "body-therapies",
   "term": "body therapies",
   "definition": "In this source, body therapies refers to mind-body approaches such as mindfulness-based stress reduction that are used to lessen stress. They work in part by strengthening awareness of bodily sensations and emotional reactions, also called interoceptive awareness.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0322413"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "941401b2ff618b62dc599eaf3878f2a00b22628b1ba322772d87b3d33cc31413",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6b0187002dec8a2cbd77208e5491472f77186fa2730ec4bde157bdfe81ae7cd0",
     "packet_hash": "941401b2ff618b62dc599eaf3878f2a00b22628b1ba322772d87b3d33cc31413"
   },
-  "hash": "dd43c40edb52384bc748ec4ffd9b530c280df17c560ecbe2335f57f014fdd6f1",
+  "hash": "e07ab8d3e5662b15d2e85e96349469b29f0f2e520401cb6c0d27058ad60d20f9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "ea581f08b7b966331bc12ab537b7a284d636a0ad2948e661fc3bc45e6e77df9c",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

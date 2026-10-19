@@ -2,7 +2,7 @@
   "id": "cbt",
   "term": "CBT",
   "definition": "CBT, or cognitive behavior therapy, is a form of psychotherapy used for various mental disorders. It focuses on recognizing harmful or unhelpful thought and behavior patterns and replacing them with more constructive ones.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c385815ac2626694194f0c491ce0b4287ab74bc7840c61d42f8a8770d2fbe3b6",
     "packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef"
   },
-  "hash": "aaf35e4dcced7da3a5512f0fdc2147b222ef626a56a90b44a795f3eb7b91cf38",
+  "hash": "3a3b0c5e9e690d83cac2c0d74028da970d0ea190c082ce153ff373aa1b698d63",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "cd19a1d7e72ee4681347f52c605f5d9844b21aaf3aff504faff11c6134dc9c65",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

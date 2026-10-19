@@ -2,7 +2,7 @@
   "id": "wind-tunnel",
   "term": "wind tunnel",
   "definition": "A wind tunnel is an experimental setup used to study air flow, such as the wind fields around buildings, and to check whether simulation results match measured conditions.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0342247"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9c51d4d4959dc97621be43f454192069cf9b17b1a0826225f9a6710f5df5b3ce",
     "packet_hash": "341fb235659de6aa0747e6cbb61af683eccb19a38a14f8be54943e1618707e13"
   },
-  "hash": "aa48d1b004812534da8e21a12a46ff71500cfc2fa4a74a4fcf3d236d48b95f90",
+  "hash": "7d32b858e3504adf4380007cba42fda7aa527d8352a38e007836b0984539e541",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "671e7c6d55cde30f3215c84ffb134ac1232897249fc6b65c9a5c6aa40c8f3f73",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

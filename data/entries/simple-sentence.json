@@ -2,7 +2,7 @@
   "id": "simple-sentence",
   "term": "simple sentence",
   "definition": "In this source, a simple sentence is a single sentence construction that contains two verbs but is understood as expressing one combined event. A noun in the sentence can take part in both verb-related processes, helping link the two subevents into one cognitive unit.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2022.872145"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1987bb1c641a4be4c670ba5a43919834656a0773a2538877b40875c1b0c00f44",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8439ff148d96b40469ec837a2d704fa5471305c9e24ea396aa091268aeab3b65",
     "packet_hash": "1987bb1c641a4be4c670ba5a43919834656a0773a2538877b40875c1b0c00f44"
   },
-  "hash": "b59535ca79bb5ee1b385662ccb2629d71b1786e7f635f4b1b4b2783b5ff1d93f",
+  "hash": "39963f31761dd57a221e0202134350d35af6b5fb986b1a11ba65260334897272",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "8dc777ed93a2b68d89c3149f81a246cac61f6b166a6a3e5e6ded3936f5ea6689",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

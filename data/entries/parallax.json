@@ -2,7 +2,7 @@
   "id": "parallax",
   "term": "parallax",
   "definition": "Parallax is the apparent shift or mismatch between parts of overlapping images taken from different viewpoints. In image stitching, large parallax makes alignment harder and can produce visible seams or other blending errors.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0348616"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "02a06ec2c9652c97037ac8667716ecf899fec56e0a400ad66b8c1809e5c7596f",
     "packet_hash": "fdf1d91b405215ff389445a16c02338d2a6b39d457ab7287e8c38cb639932d40"
   },
-  "hash": "7f22bfba2782ee87e2bfae32a74daa45f4548296ff5d2eae75892d9d94b18069",
+  "hash": "e713baf3c42b9e099cac1cbe6db7e8e4224ed4cbf0c700e11dd852e114ff109e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a3c5cfc3b53ad78b65f6f1cc6e9b18850622368c726c61f20c90e8c7df404a09",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "graves-disease",
   "term": "Graves’ disease",
   "definition": "Graves’ disease is an autoimmune illness and one of the most common causes of hyperthyroidism, meaning the thyroid becomes overactive. It is reported to be more common in women and in adults over age 45.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0245978"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "553ad6ce6ff96d54addfb3ffe98529afac776939e18639e4dda544ee160ed8aa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fe121397337274daa425cb6ee54966f4465bd4610e9bcbfe93bc3e5e15bb4224",
     "packet_hash": "553ad6ce6ff96d54addfb3ffe98529afac776939e18639e4dda544ee160ed8aa"
   },
-  "hash": "e5d903384934e847a6efabc3f45dac6f0fbbbeda5b58c1b925156045a391835f",
+  "hash": "8e88044000716ff1cf0e9a2d336e1773a9280ee9b8907d64e84309f4471007ef",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3326a992c01a151b5bb659607ce2a49ce0df6d360ad785bd2070ad11bb12f243",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

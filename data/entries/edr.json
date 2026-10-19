@@ -2,7 +2,7 @@
   "id": "edr",
   "term": "EDR",
   "definition": "EDR stands for effective detection radius, the estimated distance around a static passive acoustic monitoring device within which its detection performance is summarized. It is the distance where missed detections close to the detector balance recorded detections farther away, within a set maximum range, and it can be used to estimate the area effectively monitored.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0320925"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f7b3ad671f7cdea5a6a4608f6d2286d3b5930385c4450612b9a042c00bdeb875",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1088aee3e8db445926728b3d8eb89e2be5e42f11836c37004a2df48310459468",
     "packet_hash": "f7b3ad671f7cdea5a6a4608f6d2286d3b5930385c4450612b9a042c00bdeb875"
   },
-  "hash": "ab3c34ece57cfa62c35964d4a6edd8ce9aee102286db758deaa3b515e901b904",
+  "hash": "8a861d46d62d72317c66fdd9a6fb6389d240e96292aeff7437298c7d3a088f0c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "83c3b23ee23b770414317895bb77f775c6808fca325fe19669fbe29d6de23da8",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

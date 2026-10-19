@@ -2,7 +2,7 @@
   "id": "kendalls-coefficient-of-concordance",
   "term": "Kendall’s coefficient of concordance",
   "definition": "Kendall’s coefficient of concordance is a statistical measure of how much agreement there is across a group of raters or experts. In Delphi-style studies, it is used to show how consistently panel members rank or rate items, with higher values indicating stronger agreement.",
-  "field": "mental health",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12912-026-04694-w"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ab880ce4c251f02bd6706579c9e0ca6855c5a717d5c7aa75afb685b61aec69d6",
     "packet_hash": "2cf10370fda51de49af13543b651019e5ca8addfdf5fa07bcfff43e10fa2dd38"
   },
-  "hash": "c9abf950838210fc41723c5d63b5b24428257e691e8438f31b721b10360637e1",
+  "hash": "b19985291a0dfe77edba3771be5b679243b260e972fd60e5add06f23b626ca6d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "49dc7b89b8763e68d7e04bcda611cd4237a4c83bf1622515d9651bdaea7113c5",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

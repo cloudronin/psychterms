@@ -2,7 +2,7 @@
   "id": "ibs",
   "term": "IBS",
   "definition": "IBS, or irritable bowel syndrome, is the best-known disorder of gut-brain interaction and is grouped into constipation-predominant, diarrhoea-predominant, mixed, and unclassified forms based on bowel habit problems. Its causes are described as multifactorial, with genetic, immune, environmental, psychosocial, and brain-gut factors all implicated, and it is often studied in relation to gut-specific anxiety and symptom severity.",
-  "field": "assessment",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-025-02918-3"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cb44ba712f2f997d98936c91832f03a9c8389ab82b97a426f6cf4d99b53ded6f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2c2b1f70b01cf67793efdd2018a9dbfcd9e1eee5cae116bd31f2066c7ee2d75b",
     "packet_hash": "cb44ba712f2f997d98936c91832f03a9c8389ab82b97a426f6cf4d99b53ded6f"
   },
-  "hash": "ad14f9d5ef86dde8ce66620e64d43625f6e459abdb21512150da25ac8f63b577",
+  "hash": "e79b0aeae0987f1049eb6af2ccb96e3da3cae7cc63f3e2f549468890fa7c3a2d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "258a86aa7b02eaeb7254631e291ff8123d29a6aa30b1f93d4d5a98e8e93197d7",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

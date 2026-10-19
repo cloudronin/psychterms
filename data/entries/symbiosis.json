@@ -2,7 +2,7 @@
   "id": "symbiosis",
   "term": "symbiosis",
   "definition": "Symbiosis is a close relationship between different living organisms in which a host and a symbiont interact closely, such as jellyfish and algae living together. In the source, this relationship is important because changes like heat stress can disrupt how the partners function and develop together.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0323922"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fd9afd350d0a10644c911baafab924a1ae8ff2db6f32ea86d1c965298a5e1fb1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2589182497abcd173de40a7f29d1cff57927daa634d7ac92095da4abd311eed5",
     "packet_hash": "fd9afd350d0a10644c911baafab924a1ae8ff2db6f32ea86d1c965298a5e1fb1"
   },
-  "hash": "72b780c65fb411fe3ea9625f071979df0062ebbf4711014f6f45bc3f3ee726ba",
+  "hash": "d23e1fe5de00ddaab2960ff9de7de18548e800db6a459543cad0d818343abd29",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "bdcbf539b924574fcbcecb37c0f4cd069aaf1257248520d5f12a5b6d80995e89",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

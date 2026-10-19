@@ -2,7 +2,7 @@
   "id": "inbreeding-avoidance",
   "term": "inbreeding avoidance",
   "definition": "Inbreeding avoidance is behavior or a reproductive process that reduces mating or successful reproduction between close relatives, helping limit the reduced survival or fitness that can result from inbreeding. It can happen before mating through partner choice or after mating through processes that favor less closely related mates.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0335301"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c853124acf3069fec03caf62efd79e9c4e5cea7575dae89b5aa17e1f459b225c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2bd4ccefede62d9ad62246294797f0e21e7309fa36b600a42cc424e4c6336e8e",
     "packet_hash": "c853124acf3069fec03caf62efd79e9c4e5cea7575dae89b5aa17e1f459b225c"
   },
-  "hash": "8ae28746d43787500556cbfecf6988f6269d1ccf02e863731e75f1d4270768ee",
+  "hash": "682cf18358ff44431181f52b82b2fc40bd13d0108da7f42e82a855868e803f7a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "bf96ff2a10a9fdf5a19a0bfccf24e3b041f522161a2be6c15eda088688169f13",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

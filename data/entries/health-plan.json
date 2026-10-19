@@ -2,7 +2,7 @@
   "id": "health-plan",
   "term": "health plan",
   "definition": "A health plan is an insurance arrangement that covers beneficiaries’ medical services and may use programs or incentives to guide them toward certain providers. In this study context, it refers to the organization managing coverage and trying to influence choices about routine care to improve quality or reduce costs.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0350645"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "dbd4d2ea5b7e17095d11cd4a3506d5095971ae2ad67b333e7ee3b850dc80643f",
     "packet_hash": "6ac144b24f053fc3a34df3250796c414e02032610114f061cc42825953e30c12"
   },
-  "hash": "718af292b827818f195c8ffa97da74caab1919ea1e1958ebb3b2fac61218512d",
+  "hash": "a0fe384da25118b8cd7ec9e3c88dcbef72e7861c2afc3dac64acceff78d581c0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "29f6ca0492bcf4e30feb53e7ec48de9637df9b454c971764207c650c9c28a671",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "auditory-discrimination",
   "term": "auditory discrimination",
   "definition": "Auditory discrimination is the ability or process of telling apart basic features of sounds. In this context, it refers to distinguishing sound differences as part of auditory processing and auditory training.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0313478"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8baba7e24bd190787fed0a85d162cef0d7afe6aa3d7dafcddad513afc8704395",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4b5aff1250017e99d1d9e510679716e18a04c7a67d651d5a162597d9a58d064f",
     "packet_hash": "8baba7e24bd190787fed0a85d162cef0d7afe6aa3d7dafcddad513afc8704395"
   },
-  "hash": "d9aeed622db7bd71294683d9fc341c6da881365f7cd75761f4ba163725c1e371",
+  "hash": "35db88e78a6699862705e5d6cf0a1f4f7f85fc48cbb21e76343652f7d70e87b8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0ade30dee137ad8f03db5e32433212ec159b5d16c10bbbc3678bb1d776849630",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

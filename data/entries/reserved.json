@@ -2,7 +2,7 @@
   "id": "reserved",
   "term": "reserved",
   "definition": "In mental health guidance, reserved means kept for limited use and used only in unusual or exceptional situations rather than as a routine option.",
-  "field": "mental health",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1931248"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "aa9d2c2c347208acdf9c4319ca2611c6d65b0628dae2ad4f3765185deb1fb0c5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1e8c9936a27e0a872caa8989cf77c6b24c73a9e50b2b244f64d6515e1231a1d1",
     "packet_hash": "aa9d2c2c347208acdf9c4319ca2611c6d65b0628dae2ad4f3765185deb1fb0c5"
   },
-  "hash": "35c1c1d42f4ee1ef1be47bd4cb6a13e49f8942a9e4cd699c410eb79a060ee955",
+  "hash": "48ef795c997c7a5a8b35ab79fdf4cbaeb75cb89fbebb308a30e51721b2acd384",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "d18c54e239ce720152c3a4f9c83b66bcf91ba47e7ef3140e2ef62e904fe0e1b7",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "low-pass-filter",
   "term": "low-pass filter",
   "definition": "A low-pass filter is something that reduces higher-frequency parts of a sound while letting lower-frequency parts pass through more easily. In this context, face masks were described as acting like a low-pass filter because they dampen higher-frequency speech sounds.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0285009"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b99bbf84a19785f1d600350bfdc2365e176844eefce2a473addba56123d4b8ba",
     "packet_hash": "f33880f934530ebb5c0ba013cfe0700ff2418196ae8c97c81844cf3c1be8cfb2"
   },
-  "hash": "ed97266a26ed7a73e528ec7f7ff4f70e3a2d10e3b779d53dda8a5f1d82d56367",
+  "hash": "e8cab4e743fb043cf0146f07c2e339ba3d2bf7cdb904c894256d040200d6f73a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b1fd12c8e070577368157fc5926b913ac89776ac94b4fbb8076257f292afc907",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

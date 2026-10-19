@@ -2,7 +2,7 @@
   "id": "pearson-product-moment-correlation-coefficient",
   "term": "Pearson product-moment correlation coefficient",
   "definition": "The Pearson product-moment correlation coefficient is a statistical measure used to examine how strongly two variables are related and whether the relationship is positive or negative. In this source, it is used to assess links between fitness test results and performance measures.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0318643"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "32a4a47553254f155a3c49e220cccef2e2d7d3dae8168559808ccfb0ac945664",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "35fb8de57d2e245315b0395342df2116003e747a08ee1c163a4ea1545ed672c7",
     "packet_hash": "32a4a47553254f155a3c49e220cccef2e2d7d3dae8168559808ccfb0ac945664"
   },
-  "hash": "1b474238410cec4c2a64b0b810d2c020d286c9ac33d64aa12a903377f7b711ac",
+  "hash": "ed27f8abd59f96c98310981253e1f97c46c90c3871daa38f01814f5476cd02fd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e312452b7372dbb265a0833ced522e90b144a0593051a440cd8af48eba78cbf2",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

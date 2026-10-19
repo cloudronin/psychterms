@@ -2,7 +2,7 @@
   "id": "impression-management",
   "term": "impression management",
   "definition": "Impression management is the use of behaviors or communication features to shape how one is seen by others, especially in workplace interactions. In virtual meetings, it is linked to heightened self-monitoring and concerns about facial appearance, which can contribute to fatigue and motivate people to use features that help manage their appearance.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0312354"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "bf41c1bf4edb6a44831f6e01072cfcd4e75e23a0cfc44a5dc14446870b43b3f5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cf9630b10b994dce4e6e9b4f9042666b502d10191a04aaa9cfdf087a1c877b15",
     "packet_hash": "bf41c1bf4edb6a44831f6e01072cfcd4e75e23a0cfc44a5dc14446870b43b3f5"
   },
-  "hash": "a45e17edd27b060e30dabc611039a5d7c87c988e9bb95d74a59df27eb11ae01e",
+  "hash": "e7a06da4dde905245ae882673007be26fadf8900ae96828507d3dca5c2cef024",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "85b93b07fca718274cdbaf6693113d2a97828ced76e5c77f32426da7fd3f42fb",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

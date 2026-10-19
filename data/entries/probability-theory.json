@@ -2,7 +2,7 @@
   "id": "probability-theory",
   "term": "probability theory",
   "definition": "Probability theory is a framework used as a standard of rational decision making for judging how likely events are. In this context, classical probability theory is used to evaluate human judgments, including cases where people’s decisions depart from its predictions.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2018.00391"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "72e4b5499bcac71f963434a9309a137735c2461b43339dd536a8c95bb868ad26",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "539ea6e18224e3d9f09334664fbce55dbd3d547dca7a728b01a61b807744e386",
     "packet_hash": "72e4b5499bcac71f963434a9309a137735c2461b43339dd536a8c95bb868ad26"
   },
-  "hash": "555d51417ba5cedda46ac9ca1c84878089a402c25b968b66408883c58a3293f8",
+  "hash": "ee5c01222be592bcb7cf1461c852ff7ebb8ae564966ee5e2791da5dcb0fd5ba4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f93c07b73970dabca3e8fd55c549a4c66aafe9373b8cd001e1ccefccf359d809",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

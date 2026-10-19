@@ -2,7 +2,7 @@
   "id": "gaze",
   "term": "gaze",
   "definition": "Gaze is where a person directs visual attention with their eyes. In this context, gaze behavior refers to how eye direction changes in relation to movement and upcoming environmental demands, such as looking more toward the ground before challenging walking transitions.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0334093"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4fa20ef80e718ea86e84df4131ab71cfa74fa30a17710895347a7e1e78722490",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7de342409e415f37f391ba3d3b3e7c11976e9bc337e545d493cd44d281525042",
     "packet_hash": "4fa20ef80e718ea86e84df4131ab71cfa74fa30a17710895347a7e1e78722490"
   },
-  "hash": "e2013b7bbba7f009529da6d71a9bebfab6ca5374bec1db48fd061b9d3f912c75",
+  "hash": "dae96bdd6dbeecf46c98ab3cba77ec74bae551ddbd5fface37f5360e0c03d3ee",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3582bb3da4cffa6a351e485d6000d2e9269b564e4cfa755c002fc5c2330f61cf",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

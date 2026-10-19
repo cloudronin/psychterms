@@ -2,7 +2,7 @@
   "id": "attitude-object",
   "term": "attitude object",
   "definition": "An attitude object is the person, thing, idea, or other target that someone forms an attitude about. People’s attitudes toward an object can be based on past experience with it or, when it is unfamiliar, constructed in the moment from feelings and thoughts.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0141790"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "34f9abce66ef5d7f8ec752e8a7aefa20707a9d63538037b46f7b9f4b17a28058",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0d0e0a6946853c342aab530493ba48f2c72058fd52d2a9d5e44ecf6ca9710605",
     "packet_hash": "34f9abce66ef5d7f8ec752e8a7aefa20707a9d63538037b46f7b9f4b17a28058"
   },
-  "hash": "8c521da992841782d8aeefee46d0ac16f1ef19adf286dd50ad5f2a722df8476e",
+  "hash": "ca8e7eaf7b8316d0cdfc49bfaff06e2b82490462b4ca87c05928ac25f19e7c48",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3df8ece81f92bd68ddee81a2997b5a33f1ce0956a34444e314387cd19f57a4b9",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

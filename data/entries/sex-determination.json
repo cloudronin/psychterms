@@ -2,7 +2,7 @@
   "id": "sex-determination",
   "term": "sex determination",
   "definition": "Sex determination is the process of identifying a person’s sex from available evidence. In the source context, it refers to using dental and sinus imaging data to improve how accurately this identification is made.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12874-024-02183-9"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "68c0dd2cf1f310493d89c689f4af6753c4bf7c6e0286924647f9d7b5fd499034",
     "packet_hash": "240349aeeee23c70f3718a75c178c8cae5abfdd2b4076d7aa61a2f67e0131b46"
   },
-  "hash": "e5645a314ad2d310b3abff5933edb6a7cc1564ac92e5fecff2bf2eff7e5d4d5b",
+  "hash": "8940eb7a5a4420e1af44f31a65afa0bbf2a5db4daf3644d9cd1266f47c701b9a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "0b149e64b4a9c71deaa56282ca498fcb96cc1cf3ee0bdf6a2fd0fecb3125b57c",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

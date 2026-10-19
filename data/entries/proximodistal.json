@@ -2,7 +2,7 @@
   "id": "proximodistal",
   "term": "proximodistal",
   "definition": "Proximodistal refers to a position or organizational axis running from proximal to distal parts of a structure. In this packet, it describes subdivisions of hippocampal areas such as CA1 and CA3 that differ in how they encode spatial information.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnbeh.2026.1895371"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "85693175bb579423c5f9ac2c6d4d18e0f5b9a4e4dcd86a67f02958281f6d1621",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fe771f27c14fda3a7a9b045469c19b6a01f30ba32b868306f3fa481e90e58f7e",
     "packet_hash": "85693175bb579423c5f9ac2c6d4d18e0f5b9a4e4dcd86a67f02958281f6d1621"
   },
-  "hash": "bf1735706805041041a20e1d4061e8c30bbe10c8466b7d8681641f463c26b45f",
+  "hash": "217ef956cd19c61b8393eb8ed9e276bd9acb7f50699730b980a91539ef6b71cf",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3a9edd442f5c961211c544b231ada60674c19341c31ef225195a79e8e8ad6b42",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

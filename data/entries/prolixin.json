@@ -2,7 +2,7 @@
   "id": "prolixin",
   "term": "Prolixin",
   "definition": "Prolixin is fluphenazine hydrochloride, a phenothiazine drug with antipsychotic effects. It works in part by blocking dopamine D2 receptors in brain systems involved in psychosis, which can reduce hallucinations and delusions associated with schizophrenia.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a584146b7316d845ac4ba6825a578327a855a3bc501b7414ae52bd93a5b58316",
     "packet_hash": "bc6ffa09f90218e63b30349ec6b16361d0f4e8de893276df633ab8d7c4835985"
   },
-  "hash": "051cfd8c25d2f20fa828f6a0986c11f4feabb20356af53b94b37721f056996ee",
+  "hash": "0f4755a283e33248aed8d15fa6ea783c603a9367d4338c8b14cfcbae894bd2fc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "95f12ecfca41bb7f7ecd66afdd408a75623b9fd4175920a16a2e4e152eacf643",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

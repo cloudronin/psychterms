@@ -2,7 +2,7 @@
   "id": "power-distance",
   "term": "power distance",
   "definition": "Power distance is a cultural value or personal orientation about how acceptable unequal power and authority relationships are. Higher power distance involves seeing authority figures as more formal, distant, and superior in status, while lower power distance involves greater comfort with egalitarian, approachable relationships.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1731160"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ef8df6a73fe81eaefa12849a017440941180042f09578f13a19d598026197023",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "94f622188700ea7f13e85982c81c09a59f0467a7d15e54e856ad6b7bfbb463a2",
     "packet_hash": "ef8df6a73fe81eaefa12849a017440941180042f09578f13a19d598026197023"
   },
-  "hash": "b840e33b5961a9a4968d6ae24a6a40847dcb7d5be15f81a54ae711d0b0679599",
+  "hash": "c84ca47d645b74d37d3f38fe6f269e8a8cd89c01d4120f6bf3866cd11b31b9e2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3d077a670e799ee7cbe2092979872d9df688b6f3dfcdc7689b99ff55434454f4",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

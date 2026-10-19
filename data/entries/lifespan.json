@@ -2,7 +2,7 @@
   "id": "lifespan",
   "term": "lifespan",
   "definition": "Lifespan refers to the whole course of human life, from before birth through adulthood and later years. In this context, it emphasizes that development unfolds across all these stages within ongoing relationships and caregiving connections.",
-  "field": "social",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1745013"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "514650af9389ee5487658164a3ceb1abe114836ba6875130b70ce94c539f932c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c9afadf66e1ef505ff77a9e88b17c6c0d4ffa79fd2fe73d0699be3e0627b956f",
     "packet_hash": "514650af9389ee5487658164a3ceb1abe114836ba6875130b70ce94c539f932c"
   },
-  "hash": "ac9d0e09992d24723b203516ac31a1d027e3f180c8091185098d0a45954bf6d9",
+  "hash": "d8425ba8db4d8e43522ca117dd055a9dbbeddea342eadf32574014c20820ffc1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d75e46d41f64626602de3a997406a885a13a9dd00081098759556a73e472a993",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

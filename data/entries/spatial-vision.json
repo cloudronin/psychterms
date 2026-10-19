@@ -2,7 +2,7 @@
   "id": "spatial-vision",
   "term": "spatial vision",
   "definition": "Spatial vision refers to visual abilities involved in resolving fine detail and detecting contrast, such as visual acuity and contrast sensitivity. In this packet, it is discussed as a domain that can show deficits in amblyopia.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2014.01402"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "80a1560ea881f494cd23c17ccb0585d97287571ad26f50d4c58b4eb51f0bb23a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "64f692d962ed4b3a7ff6a1c784e95a256567471029d16913efd72b9901a89e8e",
     "packet_hash": "80a1560ea881f494cd23c17ccb0585d97287571ad26f50d4c58b4eb51f0bb23a"
   },
-  "hash": "12e1ec5570422b104f56e9b1a26511427b43c67c893efa171632a14a5cb90f49",
+  "hash": "f6c84de495d8b581e1ac7e9cb39de31aab381045c4761b3c59177e4d3f9b17f0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "af262951a104d84362c13a431c08970a1e9a54c1380046ef5d39e1ff5006b4f7",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

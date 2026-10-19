@@ -2,7 +2,7 @@
   "id": "geriatric-assessment",
   "term": "geriatric assessment",
   "definition": "Geriatric assessment is the evaluation of how well older adults are functioning physically, physiologically, or mentally.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D015577"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b4dba9b312f67f9c08b14a4790108e5f2a39ac81600b59b859faf69f2f652599",
     "packet_hash": "016fea9faa31424e5836f4723270393953d0164868c3ab86616f76c93722e4c3"
   },
-  "hash": "3a8bafd0399a4b11a286a6543efeaeedeb3e0a0bb0f384e2802697040b2ce9b4",
+  "hash": "76e7d2cc5292637456e70a4b51a369e516909cb1dc1c46e61c9e51e8f8f027c5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "ea8612177a6e008ab7c0e1c1e2a17152b01c031480f02192853d391fcd5e8e1f",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

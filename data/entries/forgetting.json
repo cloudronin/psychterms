@@ -2,7 +2,7 @@
   "id": "forgetting",
   "term": "forgetting",
   "definition": "Forgetting is difficulty remembering things or recalling information. In a mental health context, it refers to noticing that things are forgotten or cannot be remembered.",
-  "field": "mental health",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9781d6e966543a9d4c814fd5bc07cda7d644c1cb0c03854565e0ca30c0b29a78",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e81278328ccd3690651a68c6e6f13cd4f9f82bbbedd30d0f33156bf1814fa8cc",
     "packet_hash": "9781d6e966543a9d4c814fd5bc07cda7d644c1cb0c03854565e0ca30c0b29a78"
   },
-  "hash": "29058bf8a8c2a911d5b58e36a03e294771eff0e7efced67e73c9e26c9f377f87",
+  "hash": "e76b0c36cb7f5bd4de395a724a2dc9b6cfffff03cb1c16fc96274a12d44bfa67",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "54a50691038b35a84379ea8b24554b93080e847aecda3c3be4548887a1efe147",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

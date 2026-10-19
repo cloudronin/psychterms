@@ -2,7 +2,7 @@
   "id": "high-risk",
   "term": "high risk",
   "definition": "In this context, high risk refers to people or families considered more likely than comparison groups to develop mental health problems. The term is used here for individuals born to parents with severe mental illness, to study later psychopathology as well as risk and resilience over time.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1848366"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "78bbab683a8285d118699af10ef06a7a7b782aaa1d9ef142c8bd3171ddaa00fa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9e3e68672065881e7d51941d7e24d5b5251aa81d159f0cef7a2659a31a40240a",
     "packet_hash": "78bbab683a8285d118699af10ef06a7a7b782aaa1d9ef142c8bd3171ddaa00fa"
   },
-  "hash": "45f7e236fe60d211d8d7a12d5444549f309c92d71d1bcbc957f1fd5134395c1b",
+  "hash": "727ec166f6cf66cf0fa862547723c595adc40f9a1801cb6d66cd845f02053a81",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "072a33605ca9af79d9b9c5d52f1644f5cb974c74583921a9e90fd64184ec081f",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

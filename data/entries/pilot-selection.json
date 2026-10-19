@@ -2,7 +2,7 @@
   "id": "pilot-selection",
   "term": "pilot selection",
   "definition": "Pilot selection is the screening process used to evaluate candidates for pilot training or participation. In this context, it includes checking indicators such as blood pressure, which can be temporarily raised by anxiety or tension during testing and may affect whether a candidate can continue.",
-  "field": "mental health",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1634423"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c9e4275439919e418dc7e09492ea3c9729b3b98712c67db632ca86f6bd7efe63",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "31bff7df3f63e7182add9b50ce5ec2176a52b1e944478d2fb8cb49763fab991a",
     "packet_hash": "c9e4275439919e418dc7e09492ea3c9729b3b98712c67db632ca86f6bd7efe63"
   },
-  "hash": "8f8aa336fb1e61a66b5646d54a8a5794042c4ac1c1e9c137b46e474273f6825c",
+  "hash": "0637bdab6a64ee34c37f5b9e4fe712e24126d685931ad3fa61491d38d0125e58",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "496eb0f80e7f5a348c46acc1b8f6f21ef080edf2da769a306dfc71c8b9ced50c",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

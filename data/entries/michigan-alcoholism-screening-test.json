@@ -2,7 +2,7 @@
   "id": "michigan-alcoholism-screening-test",
   "term": "Michigan Alcoholism Screening Test",
   "definition": "The Michigan Alcoholism Screening Test is a screening measure used to assess the level or severity of alcohol dependence in people with alcohol use problems. In the source material, it was used to measure alcohol dependence level in adults with alcohol use disorder.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2023.1111712"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b0e3f92d9504f4624f96b5e1bf8e843e92f5a6b59317bc56040d96527678f0a7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2d8ed27f33897f3576fbd7831f3308ca5586cd46df7e05a22e10f18b1ac99f3f",
     "packet_hash": "b0e3f92d9504f4624f96b5e1bf8e843e92f5a6b59317bc56040d96527678f0a7"
   },
-  "hash": "f880d642a66bbf131db5704b785b2d4745c7ab7f4356ccd6e33e73bb7906736b",
+  "hash": "e502c020affb32e6a02d49efa41ab6d434524fde358c8320b9e5c58f9873c053",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "72a9e910f48ed9b3355e80b26c1d565f2d4cc9c16a63da982dc6410f9fa5aa96",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "clinical-interview",
   "term": "clinical interview",
   "definition": "A clinical interview is a standardized, structured conversation used to evaluate a person’s current psychological symptoms by rating their answers to set questions.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D008609"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bbdf8c71550f11ee90c353fdbce1769bfbe56e420fc5f9d655c570c40edbcf49",
     "packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31"
   },
-  "hash": "b5ea281736fd998385ec19f653032fe708ad467a6a8f3eef1b67c651916e89f8",
+  "hash": "bdb804bd46dfd38ce54ecb850babed90c7f5b3f24ab0e3029d7bdd9c2fff7990",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "ed93893311c2b61e40b7599ae1377cc483fad5693352f2a268d8c3ec69e09449",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

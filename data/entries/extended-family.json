@@ -2,7 +2,7 @@
   "id": "extended-family",
   "term": "extended family",
   "definition": "An extended family is a household that includes people from at least three generations, such as children, parents, and grandparents living together.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D000092842"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5f180c63e87fa37f36a20464f3c4269bb2b13def49bbb628ae2aa88e44b570ea",
     "packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62"
   },
-  "hash": "75efb1976fea6d54d3679e99bccc58c2f22a92b9c5acf1071f03afd2fa22f6d4",
+  "hash": "b8b286c871fb2d1c7bfe3b0c2830997d574f856ca587c6d9fbb1c1d08ca5c3ae",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7f26be050be1fe02e9302afef81fe1b16d7018dd8695a39e6dbaa2669ad28305",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "deprivation-index",
   "term": "deprivation index",
   "definition": "A deprivation index is a combined measure that brings together multiple indicators of disadvantage to reflect deprivation more broadly than income alone. In this source, it is described for urban settings using non-income domains such as healthcare, education, housing, basic services, and infrastructure to represent the multidimensional nature of urban poverty.",
-  "field": "biological",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0324837"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "aaf1df9e4275442bfdd0dbd50e511ceb944647e3497bf7d8d744579819967ddd",
     "packet_hash": "2628f46b7977be7979abfaa5cd59e3fa06821556c9c885052dd8ca5b96b7cc1f"
   },
-  "hash": "2f739ee5165087bef0741f02400d2aa20b29308043ed72233772095350c9d24f",
+  "hash": "f38142b9d242ce5b25a418fcf2519ad708703033ec06a05bcb9b19857aee90c6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "15bce660a1d464217e0a5879bea20186d5e5413f4701963e60551742e240d99d",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

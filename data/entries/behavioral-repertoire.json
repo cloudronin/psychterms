@@ -2,7 +2,7 @@
   "id": "behavioral-repertoire",
   "term": "behavioral repertoire",
   "definition": "Behavioral repertoire is the range and pattern of behaviors an organism shows. In this context, the complexity of that range can be used as a sign of how environmental conditions are affecting the organism.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0235389"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3fdb4a0121bc8fb5915bf2b59d0c7a5edf86d251c950e1a9b3b2604e1d718944",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f997833d34b72d09fd3d38bc8c7954a6f62d541fd2e74ac366369c9f456ba924",
     "packet_hash": "3fdb4a0121bc8fb5915bf2b59d0c7a5edf86d251c950e1a9b3b2604e1d718944"
   },
-  "hash": "572a596cbb45060dbe2beeac170b1df5874cbfd45176dff8be3b638fea2c8f0d",
+  "hash": "a2ab35efe074d3d9b375d1d50fc1f5e058be24944ff33319be105730872156c6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ed3fd8da804901e82a4832b90617cadf57c51373c0625be8740ff57bdffb1e51",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

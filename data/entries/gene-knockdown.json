@@ -2,7 +2,7 @@
   "id": "gene-knockdown",
   "term": "gene knockdown",
   "definition": "Gene knockdown is a method used to reduce or silence the expression of a specific gene so researchers can examine what that gene does. In this packet, it was achieved with RNA interference to study how lowered gene activity affected tick biology.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0336570"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a09466549afb3fb8ea198c55bf47eba0f013467af8c069f49bd27f7242a76dd8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "94c184a9f2fc2376cb500d182f367e8cf3e893b7546a869786afbd42361ae682",
     "packet_hash": "a09466549afb3fb8ea198c55bf47eba0f013467af8c069f49bd27f7242a76dd8"
   },
-  "hash": "2f589ddbcad776210c114d2e91cb13d52ab62baf130381c806f0951edb85897f",
+  "hash": "1a6dbf6a8e66374e42af134de92225db1a65984ddcc4ca9fa23534d33a9579c6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "535c08f16d20973e6dc33ba4b4c887536bf1f4cd4bcbdf46ad7174b274173f4d",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "self-discrepancy",
   "term": "self-discrepancy",
   "definition": "Self-discrepancy is a mismatch between how a person sees their actual self and how they believe they ideally should be or ought to be. In self-discrepancy theory, these inconsistencies in self-representation are linked with shame, guilt, depression, and anxiety.",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2023.1215177"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "309cc667319f0903540f3921b79318c17c6da7a02fcce6c21d8411e48730b645",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b6c215cb1698eea35b7c52bbe7bb7bf6e767fac84c43a92e71da6a71e81b0076",
     "packet_hash": "309cc667319f0903540f3921b79318c17c6da7a02fcce6c21d8411e48730b645"
   },
-  "hash": "cd28739d36479010bfea6b68014cde2c39b66f2de53abe293ece689fa41b5935",
+  "hash": "2ac73129d2afc742e138409d20f685d998de7f427a9ca81e5a44f5c67f9f5c2c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b679b4ac37550eaf2f1478d70119ea45bb146c4846cf5398673ce6cc0a5dc199",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

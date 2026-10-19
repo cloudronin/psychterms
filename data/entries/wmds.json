@@ -2,7 +2,7 @@
   "id": "wmds",
   "term": "WMDS",
   "definition": "WMDS refers to weighted mean differences, a statistical effect-size measure used in meta-analyses to compare the average difference between groups while giving more influence to studies with greater weight.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0292698"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "578d49f54e53abf40a7e94f7930ce8f282d53c0bfe53a396b1f3bcae3c15a2a6",
     "packet_hash": "e4ceca77a3e722210509228a83b3dd0a5090ac9408b54f11a4e2555adbb672e3"
   },
-  "hash": "af526abbd83f9096ad0ffce9d96def229b6cfeb627dae55333478d029d807fe8",
+  "hash": "f9b33554bfc7443f3d4981fdb987183bafe61e24542fb5bd144053601634babd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3991aea32e3b7bbd32ab4dbaeedaff33afa5c7c53c86f108ebdf59555bbd126c",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

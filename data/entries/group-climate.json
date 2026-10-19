@@ -2,7 +2,7 @@
   "id": "group-climate",
   "term": "group climate",
   "definition": "Group climate is the social atmosphere within a group that shapes how members interact and contribute. In this source, it especially refers to how open and socially accepting the group is toward different viewpoints, including whether members can participate equally in the task.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2017.00458"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2d4279234ce90a0152557372ee33f30744c2d5ae6e12ebb259322e3c1cf1482a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "318039267cb10f38f074a17ab961f023aa8cf5cad0b827b25f9d8d92aafe0711",
     "packet_hash": "2d4279234ce90a0152557372ee33f30744c2d5ae6e12ebb259322e3c1cf1482a"
   },
-  "hash": "c9ce6e4f7026aed6c539659638b65a50459e98cc5a191d0bba8724feaa1f4ab8",
+  "hash": "5e57d89677b63af50113694706ea14a5674599fa1e541c56718cd6beb8666821",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "93376fefabd3cfabbc7def26ec773df824bceb4e77051881712705428cea8050",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "threat-display",
   "term": "threat display",
   "definition": "A threat display is a negative emotional expression, described here in non-human primates as an open-mouth facial display. In the study context, people recognized it as negative and tended to mirror it automatically.",
-  "field": "learning",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0342196"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dc96274e0dbf947f22796ac2e8ef70208076101a83de562b872005995651144f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c1d382034299e68eae2b38288a166e7d209ad97d2859a30ebb3345af6428280e",
     "packet_hash": "dc96274e0dbf947f22796ac2e8ef70208076101a83de562b872005995651144f"
   },
-  "hash": "de728fe99c6e87d54c198578c35c71b717f8af632de7f00b137d492e81bffa07",
+  "hash": "c178202aa57eb4fdf6fa53c376c2307b5e8b7246ec75076bc5b69d626b351057",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3eadf779afb0ee07eea75358df15f07e790beb1eb612581d7b0718c2b6c4123d",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

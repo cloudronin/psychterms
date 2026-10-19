@@ -2,7 +2,7 @@
   "id": "electroshock-therapy",
   "term": "electroshock therapy",
   "definition": "Electroshock therapy is a treatment that uses electricity to produce convulsions. It is mainly used for severe mood disorders and schizophrenia.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D004565"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "168aa26a16cedcf85258eccad0baa87bd48210c648b3e15bfe6ff49aa720a9ed",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a485d27710e9bb7bc85da45ca3527d376acf9017ab99b6cb71b6037a134be4ee",
     "packet_hash": "168aa26a16cedcf85258eccad0baa87bd48210c648b3e15bfe6ff49aa720a9ed"
   },
-  "hash": "33c08f780d6d6bde1a3cb9a2e8ece54fd43a93cad2c52c285c799588450fae38",
+  "hash": "2e5437ad3257d937f55309ae716359a6e001fb219e858361238708eceedde84a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fd53265955bc6deed0000fd35fa35824ecd97fc4db44dd8f5023bbfae32d8637",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

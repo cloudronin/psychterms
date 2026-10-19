@@ -2,7 +2,7 @@
   "id": "social-age",
   "term": "social age",
   "definition": "Social age refers to a person’s place in the socially patterned stages of life, reflected in the kinds of goals, concerns, and tasks that are typical at different ages. In this sense, people of different ages may focus on different developmental or role-related priorities, such as education and work in younger adulthood versus broader social concerns in older adulthood.",
-  "field": "social",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0216888"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "88dad9c8398f4511512450e0d921300c006578e13db6da4e9c4caff3c6520df0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "37f0140dc3e55dbd1bff073c08f318c2949680d4354e4eb39ca62407a2d2af02",
     "packet_hash": "88dad9c8398f4511512450e0d921300c006578e13db6da4e9c4caff3c6520df0"
   },
-  "hash": "6809709daf59e17a3386d839c2f84a57d02d50ce3c1d511d7a49eb2cfa137908",
+  "hash": "77b308e4c32e00a72fb5713d4aa1c8cd74c0ddda3473a9b64cc0f8b037f96aaa",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1f05eebab64ccbbf25e85c6232e8049cd0aea7ee629ffb6ab627edeb226a10e0",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "function-allocation",
   "term": "function allocation",
   "definition": "Function allocation is the way roles or task functions are divided between a human operator and a machine during cooperative work. In this context, it refers to adjusting that division dynamically to support safety and performance as mission demands or the operator’s state change.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2021.770000"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "13537f97e4b64120708f8dbbca17512f1043e0bdf8a37f46d8b8794de4cd9de2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9bf6080b6b776f3fbfa73460c9443a5e430625a752c52b7533fd0e9604d8c59a",
     "packet_hash": "13537f97e4b64120708f8dbbca17512f1043e0bdf8a37f46d8b8794de4cd9de2"
   },
-  "hash": "a42826d2a8b81037b7d158a3fb19c40b64cbdec167225557b730ba86be6e75d4",
+  "hash": "2410ceae9577d5f3c38f9c93e0c71af11ae69b811caa35ffb0e7a38cc419c416",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "cede3b0f7f97e7089af270c3f4f3c09b90f45428834b9e5c9e9d664159422b84",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

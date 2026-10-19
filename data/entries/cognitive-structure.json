@@ -2,7 +2,7 @@
   "id": "cognitive-structure",
   "term": "cognitive structure",
   "definition": "Cognitive structure is the way a person interprets situations and organizes experience through beliefs and knowledge. In this sense, it helps shape mood and behavior by influencing how the person feels and acts.",
-  "field": "counselling skills",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D015928"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1cffb7e69358f13301d0004ab1a1796a5355e317803954d0d396682a192e75c7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c500a0868697c8ed6154c484f3b996c168acfa2e72a13171abd1448bf89621b9",
     "packet_hash": "1cffb7e69358f13301d0004ab1a1796a5355e317803954d0d396682a192e75c7"
   },
-  "hash": "f5efb4e1c931ffa66649d5461416b696214a5999db34b06dcb5e13ae5a34a17b",
+  "hash": "cda310d1704b1a6276378a4100b4f384f13ea93f612bf9ac83a62c36f03c789c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "dff90504a388e2792073ad0b879d122dd76277d52b06ad03995ac1dd147e0cb0",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

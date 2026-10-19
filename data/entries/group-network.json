@@ -2,7 +2,7 @@
   "id": "group-network",
   "term": "group network",
   "definition": "In this source, group network refers to the network part of the 3N model of radicalization: a person’s inclination or desire to connect with and join a radical group. It describes the social-group link associated with support for political violence.",
-  "field": "assessment",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2019.00042"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "416ee49122b8ff3e645bd7b809f89926788d9fe270376841efeeaa73d7bcf9c2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ab97ee36792dad1ef431d170ad24f97fd421f2fdcd82fc72fca1929cb5b097e1",
     "packet_hash": "416ee49122b8ff3e645bd7b809f89926788d9fe270376841efeeaa73d7bcf9c2"
   },
-  "hash": "da2ddf496d1f3bb2488f2d0cb385aaa66ad44d806273f7d09876457e49e3d682",
+  "hash": "121c835b08e78689a3dc84e83c0d500a1486d53a93343ffcedefa1650a869631",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "73d8775233b16237b3064b8c03d76f284fe01ea17e9a6c84323b55d2bedd56a3",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

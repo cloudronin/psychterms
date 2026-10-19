@@ -2,7 +2,7 @@
   "id": "continuous-spectrum",
   "term": "continuous spectrum",
   "definition": "A continuous spectrum is a way of understanding a condition or trait as varying gradually across a range rather than falling into sharply separated categories. In the source, it refers to metabolic dysfunction progressing through degrees of change instead of only being identified by fixed cutoff points.",
-  "field": "learning",
+  "field": "diagnosis",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0359283"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dc1dd8bda530f5395a4111a08f8753d50ac97ccc63ade0b3f5ddfff0562202e3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "27826d38a018937815d1cf844a61444dc1037d05dfdd7cbfb57f2aaaa7133a0f",
     "packet_hash": "dc1dd8bda530f5395a4111a08f8753d50ac97ccc63ade0b3f5ddfff0562202e3"
   },
-  "hash": "3c03a2c7a01280c070396ea3fb65eadd7bf982d5d5cf0eaeaa94d004e7d988ad",
+  "hash": "306dae493f1e5cd2d022702db73fcf1a9bfcdbf96f1abcdb4f4d8d467c284d30",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "cb63ab11ac554a30bca415a363c0af602e3d95fd9eea3a66b91e315fa5b6c636",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

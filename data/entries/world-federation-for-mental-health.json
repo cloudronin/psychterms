@@ -2,7 +2,7 @@
   "id": "world-federation-for-mental-health",
   "term": "World Federation for Mental Health",
   "definition": "The World Federation for Mental Health is an organization named in this source as part of an international coalition working for major change in mental health. In this context, it is presented as supporting action on social determinants, equity, participation, and social justice in mental health care.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2022.894370"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8ec3718fd582ef5ef696eeddeb211a899bc02fb4feb84757cd98e516a82f4050",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "032d34c5673315c180bac0a3b8cde1a4c67ae1b6fab616a01ac388aac3b1da4d",
     "packet_hash": "8ec3718fd582ef5ef696eeddeb211a899bc02fb4feb84757cd98e516a82f4050"
   },
-  "hash": "9362db5c215481e04fe903e89846f94096bbecd143e445a9a97dc04875afa0c1",
+  "hash": "c788c312132583b7db08388c0e7dfad1eee71f1800ed3cf42d2dd897ee042696",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b12ecce5401341099358d1f446b465f179cf62051f20e29a69da950d9dc1d62c",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "opinion-leader",
   "term": "opinion leader",
   "definition": "An opinion leader is a person whose characteristics can shape how others judge the value and fit of an activity, which can in turn influence their intention to take part and their actual participation.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1938303"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "28c6187da7921dfaf50bddb03f950fa9c2e5e867dd10bcab7b6b2aa66d2a864b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ef04171a2bb240304aa8250b036cb48c17677cab884db8502e2db069ef2e67b2",
     "packet_hash": "28c6187da7921dfaf50bddb03f950fa9c2e5e867dd10bcab7b6b2aa66d2a864b"
   },
-  "hash": "f6faaa654329f923e787c385981d3ec3130a59c0fc6aae36d865f89d03ca1e92",
+  "hash": "11fef9e8cf7c293272f490a666e24a9c350ae0edcbd87fc7584ca94f026edfe5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3c2aa1a7307bf75b6801cdd1093ce98a2566b1c8000499b370c74dd43b19caff",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

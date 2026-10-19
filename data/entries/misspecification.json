@@ -2,7 +2,7 @@
   "id": "misspecification",
   "term": "misspecification",
   "definition": "Misspecification is the use of a statistical model that is set up incorrectly, such as leaving out or wrongly defining important effects or the pattern of relationships in the data. In the source, this kind of error can distort estimates and lead to misleading results, including higher false-positive rates or reduced power.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0213436"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "be310adcbed5009542630281249f6d481e105d1961a8c5710e53db8b6e00d7fb",
     "packet_hash": "72da203b11976868934a813641be748d5d1fe1b0ca14ae1a23e2b17dbab2f4ff"
   },
-  "hash": "fd7a0b11010de94f6153b1d784992d0725f6af5bc46e71abc66a9d78d48aaa23",
+  "hash": "c4ad9dd993e5f287960b7becca151f2ee018f0a0353312cb80cc469deb893bf5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "79782870d8dd53ec24cb4e98afdb6976343786909870b2a3d17f54003319af2d",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

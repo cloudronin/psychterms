@@ -2,7 +2,7 @@
   "id": "allogrooming",
   "term": "allogrooming",
   "definition": "Allogrooming is an affiliative social behavior in which one individual grooms another. In the source packet, it is described as a positive interaction observed between female bats in harem groups, especially around times of leaving and returning to the roost.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0356790"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fa0de6b3df99e11c6dfc0aa98040846c1ae4e1e4ba8acd4d2ba0094afc614762",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "63b7d7ab2631ff66f77dc51abce79819161bda8d7dd93bcf41755d3241296ebe",
     "packet_hash": "fa0de6b3df99e11c6dfc0aa98040846c1ae4e1e4ba8acd4d2ba0094afc614762"
   },
-  "hash": "7be1730b21273f9518c711826642e36940391bc37fbadec727d97ecce6fbe59a",
+  "hash": "403d719967e290d23d319a95a073dc53d27cc7a1c3ebc230cea30448ff6ae622",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "9ba72b4008d0d0faa0ecc90caade19ce2720a68e44aff7220264cb734057424d",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "n1-component",
   "term": "N1 component",
   "definition": "The N1 component is an event-related brain response used to examine very early stages of attention during information processing. In this source, differences in N1 amplitude are interpreted as showing changes in early attentional control and the speed of early attention processing under emotional interference.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2023.1107994"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2d96417361efc869f8456b83d1b77622c458d6b5ede47e452cc05e9002071981",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "eb62f56f34b4566c977fec6ba1878250e9c0d7f2242dd7e0550a91f3470cb1f4",
     "packet_hash": "2d96417361efc869f8456b83d1b77622c458d6b5ede47e452cc05e9002071981"
   },
-  "hash": "dbcbeb3b1e48b4ce4c9e1b2a43bab904540728df7c2b6dcdfbb137c4daeca988",
+  "hash": "b588f5a882c0efc43ddff912f118288164654f0302fd008b39af7f373d0e34e6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "aef7d55ef91138459b8112315162212a76fc4c999ca49436bcb868a4beff9e6c",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

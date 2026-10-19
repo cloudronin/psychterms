@@ -2,7 +2,7 @@
   "id": "research-risk",
   "term": "research risk",
   "definition": "Research risk is the uncertainty and potential for failure involved in carrying out research, especially in drug discovery and development. In this context, it reflects that different stakeholders may judge risk differently and that risk can be lowered through careful candidate selection, planning, execution, and decision making.",
-  "field": "biological",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/1471-2202-9-s3-s1"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3133197be98a205025757005995a0e7ba921b189b95fb9bc8eca3f598627d087",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d99d68b964045c16b50f4c3395561d52f4ca3bbdcdd89060a8dbb03bb347603d",
     "packet_hash": "3133197be98a205025757005995a0e7ba921b189b95fb9bc8eca3f598627d087"
   },
-  "hash": "024e5d6009581ecf044d328d133085bcd17b3aee555e73be2a442755284f38e8",
+  "hash": "34b170f60a120acf2606ac169055901c02f7579bbf8aa57fc83b52f76e42be2e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "80c727fed9e30b08be1f3b62ea8fb729dc377a39c4f97a61cbe94e23bed0a66a",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

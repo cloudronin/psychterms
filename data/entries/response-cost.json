@@ -2,7 +2,7 @@
   "id": "response-cost",
   "term": "response cost",
   "definition": "Response cost is the perceived burden or drawbacks of carrying out a protective behavior. In this context, it means the costs a person associates with following the recommended behavior, such as adhering to a restricted diet.",
-  "field": "learning",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0320340"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e14f61ef7f8117e8ad3577185354cc768a5404b5a2f99a76d0dbbf6aeeb36ca8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8236622b038b054ba2056922568d56c18385f57b360eaae68d80b1603585cde7",
     "packet_hash": "e14f61ef7f8117e8ad3577185354cc768a5404b5a2f99a76d0dbbf6aeeb36ca8"
   },
-  "hash": "a64c1b26447031fe449cd2f9a8dd7616007d44a6085f1bc23e5081624b87d2d8",
+  "hash": "baf3dd391668ace0673e3a2ba47565096b8bded9717e27d80cc13f534ee699b8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "560708d5e2ba4bbfc35765a88d2dabf61ba566992170d807a51cff1d46463593",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

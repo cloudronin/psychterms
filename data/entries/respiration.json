@@ -2,7 +2,7 @@
   "id": "respiration",
   "term": "respiration",
   "definition": "Respiration is the body’s breathing-related activity. In this psychology context, it is considered a physiological process that can change across mental states and can be examined in relation to heart rate variability.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1792917"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d24d3848dfd88f1a8d8fa019ee38aade4b3c95b163f63b154cd09bc21e83683e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b690bb7209d0fd7828879b38a15555177bf4f52c938df3fecdf5502a636fd812",
     "packet_hash": "d24d3848dfd88f1a8d8fa019ee38aade4b3c95b163f63b154cd09bc21e83683e"
   },
-  "hash": "5b61a1c013ca39e315a2d88583a41fe9390e555b79c2f4828818154223601af0",
+  "hash": "a9f7c5fb15f8d37829ef90925f20cd6308293a1eaea3dbc13a03fa3071792073",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8ac796b65904c96484c28fdf8be400fbe5722f5996bd47054d86088529034bd0",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

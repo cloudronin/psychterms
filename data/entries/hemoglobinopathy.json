@@ -2,7 +2,7 @@
   "id": "hemoglobinopathy",
   "term": "hemoglobinopathy",
   "definition": "A hemoglobinopathy is a hereditary disorder involving hemoglobin, the blood component affected in sickle cell disease. In this context, it refers to an inherited condition that can contribute to serious pregnancy-related health risks and complications.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0355018"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e299ba3e5eed2e44d180a10da115ad72ed8fbc626fa4228e542a4ae867ba49d5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bb176bf6669d6e79a64723bab819711401d02bb619b19e8c3ddb4957aff423b0",
     "packet_hash": "e299ba3e5eed2e44d180a10da115ad72ed8fbc626fa4228e542a4ae867ba49d5"
   },
-  "hash": "ec8989007813a51a8c578992a435a40825b2209cba533bc260a3c48fd497e11a",
+  "hash": "f5dcda60af37737b1e03c784ffd20783a0bf2155d93dd9e39384f163216039c7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b5f9f81fd6d243996f0bfd3545a15382fb25a6f12d251362b75a7776e5cf6b6b",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

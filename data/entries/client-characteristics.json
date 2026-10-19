@@ -2,7 +2,7 @@
   "id": "client-characteristics",
   "term": "client characteristics",
   "definition": "Client characteristics are features of a person receiving mental health care that may be examined to understand differences in treatment course or outcomes. In this source, the term refers to personal, social, and clinical factors such as age, education, employment, social support, functioning, and symptom severity.",
-  "field": "diagnosis",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-023-04878-7"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fe2f52601849bfcda49b6544b900b274d3327a54582337f459970ee591937039",
     "packet_hash": "034901f1241af5671c3289c7d160922f25edcea2b7024d9a82c39b7a9d407614"
   },
-  "hash": "1d100d150287fa339528766acb203d6113cd88f82630fa2437fdd1aafcfe044c",
+  "hash": "0c01930cce433f01d736f08d1b725b13316da3ac28ea147939488dd84c2338a9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b4520146a91c92db11254cf609944bd6ae6ad0f8135dbf05e3be35f4922a4057",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

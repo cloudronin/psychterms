@@ -2,7 +2,7 @@
   "id": "residual-term",
   "term": "residual term",
   "definition": "A residual term is the leftover part of the data after an initial decomposition step, which may still contain patterns not captured by the main components and can be analyzed separately to improve prediction.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0285311"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "be6c2ce307d5261754fa039a217b6bc8d4f7512660f043c5cf9815ebf0ad3d44",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a9407e13be3b10a82cbaa2f35fa9124c6a1859fcd131a8c7b068c77fc38fd05c",
     "packet_hash": "be6c2ce307d5261754fa039a217b6bc8d4f7512660f043c5cf9815ebf0ad3d44"
   },
-  "hash": "463083852e15c774e641dd9bd60d3ed64b4b46ca652a9e9b6f4e8a53d6db0fe5",
+  "hash": "abb0456f0928319cd280c1e5db43bec4ea60f72d77f2ce2db0b2db94150953d2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2a5e0e405d49cf0b1062a5433d6453caf6a0ca4b2799ef000aa90379d6e2d8a6",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

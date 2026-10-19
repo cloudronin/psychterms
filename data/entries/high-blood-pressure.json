@@ -2,7 +2,7 @@
   "id": "high-blood-pressure",
   "term": "high blood pressure",
   "definition": "High blood pressure, or hypertension, is a condition in which the pressure in the arteries is higher than normal. In the source, it is described as a systolic pressure of 140 mmHg or more, a diastolic pressure of 90 mmHg or more, or a self-reported case being treated with medication, and it is linked to increased risk of heart, stroke, and kidney problems.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0314901"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "19ea32b9d189e25c4e1637c409f577289ef8469a7c3157b530fc1edc6ae7710b",
     "packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75"
   },
-  "hash": "f0f93e4a4817fac5a99bf9c59f74223f650547ba6e324ccaa7f0a7edb7f84c67",
+  "hash": "5a7f1ca777e770db394517da63f468dd6a5ae203fa3fe34faab99be5953a8328",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "4755f89f624f879c5268d1a8e0f7220da7ddc8fc272aab46cc10181170b8a738",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

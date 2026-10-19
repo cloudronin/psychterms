@@ -2,7 +2,7 @@
   "id": "phylogeny",
   "term": "phylogeny",
   "definition": "Phylogeny is the evolutionary history and pattern of relationships among organisms or groups, showing how lineages branch and diverge over time. In research, it is worked out by comparing shared characteristics to infer clades and classification.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0320214"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e98dfc76162af4f094896df86d3c152e16b356730dcc70d32a25d3ade4e86e3f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8f53da6e73fa94d34c630f97861be9cff6c32af0093d27d852180167599d3827",
     "packet_hash": "e98dfc76162af4f094896df86d3c152e16b356730dcc70d32a25d3ade4e86e3f"
   },
-  "hash": "727de10455bc10fb405628789e93023e0b84dd6507bad1e024a335d845215bfa",
+  "hash": "5c809bdf1cff198b226cff4b5ce8537b90e4a64c4ed93ae41cd71f21f0299157",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b8e9158be4ca4c8b1383f7d5e545342b3b73031292d9956fc183fc2c78552548",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "national-health-interview-survey",
   "term": "National Health Interview Survey",
   "definition": "The National Health Interview Survey is an ongoing U.S. nationwide household interview survey that provides national estimates about health conditions, disability, health care use, and related topics. Its data are coded using the International Classification of Diseases and the survey is periodically updated to focus on current health issues.",
-  "field": "mental health",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d3a4cf27a7ff41d0998ea338ab4e9735d9a04fc8a708cbe58c522e0538dcd497",
     "packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809"
   },
-  "hash": "50c03073ea7618516f535228eefcea010a22b94d9a3a14428b7141fffec4c2d9",
+  "hash": "d0cacd214e2d3906cacf75239a837a3385b143f036922d83169bccf51551b7f3",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "c9624562639d9ba8c3c0f564b559cba34f31d3760fe3ae5874acd75ba61298d9",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

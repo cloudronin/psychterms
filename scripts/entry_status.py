@@ -31,10 +31,12 @@ def drafter(entry):
     if entry.get('fixture'):return 'codex-initial-fixture'
     raise ValueError('Missing drafting identity: '+entry['id'])
 
-def readers(entry,packet):
+def readers(entry,packet,root=ROOT):
     if packet['id']!=entry['id'] or packet['term']!=entry['term']:raise ValueError('Entry term or ID differs from its source packet')
     records=([entry['model_review']] if entry.get('model_review') else [])+entry.get('reader_reviews',[])
-    by_model={};expected=digest({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True})
+    from external_reader import evidence
+    external=evidence(entry,root)
+    by_model={};expected=digest({'definition':entry['definition'],'field':external['reviewed_field'] if external else entry['field'],'packet_sufficient':True})
     for r in records:
         if r.get('definition_hash')!=expected or r.get('packet_hash')!=packet.get('original_packet_hash',packet['packet_hash']):raise ValueError('Stale reader proof: '+entry['id'])
         if r.get('published_packet_hash',packet['packet_hash'])!=packet['packet_hash']:raise ValueError('Reader packet binding differs')
@@ -46,6 +48,9 @@ def readers(entry,packet):
         previous=by_model.get(r['model'])
         if previous is not None and previous['passed']!=r['passed']:raise ValueError('Conflicting reader outcomes for the same definition')
         by_model[r['model']]=r
+    if external:
+        if external['model']==drafter(entry) or external['model'] in by_model:raise ValueError('External reader must be distinct')
+        by_model[external['model']]=external
     return list(by_model.values())
 
 def check_forward(previous,current):
@@ -67,12 +72,12 @@ def prepare(entries,root=ROOT,history=None,scope=True):
     release_path=root/'data/numbered-releases.json';releases=json.loads(release_path.read_text())['releases'] if release_path.exists() else []
     output=[];snapshot={};model_names=set()
     for e in entries:
-        record=packets[e['id']];proofs=readers(e,record);passing=[r for r in proofs if r['passed']];failing=[r for r in proofs if not r['passed']]
+        record=packets[e['id']];proofs=readers(e,record,root);passing=[r for r in proofs if r['passed']];failing=[r for r in proofs if not r['passed']]
         model_names.update(r['model'] for r in proofs)
         eligibility=decide(record,independent) if scope else {'eligible':True}
         reason=explicit.get(e['id'],{}).get('reason')
         if not eligibility['eligible']:reason=eligibility['reason']
-        if len(failing)>=2:reason='; '.join(sorted({reason for r in failing for reason in r.get('reasons',[]) if reason})) or 'Both independent readers rejected the definition.'
+        if len(failing)>=2 and not reason:reason='; '.join(sorted({reason for r in failing for reason in r.get('reasons',[]) if reason})) or 'Both independent readers rejected the definition.'
         status='dropped' if reason else 'judged' if len(passing)>=2 else 'reviewed' if len(passing)==1 else 'candidate'
         if status!='dropped' and copies[e['id']]!='clear':raise ValueError('15-word copy hit requires redraft before publication: '+e['id'])
         versions=[r['version'] for r in releases if r.get('entries',{}).get(e['id'])==e['hash']]

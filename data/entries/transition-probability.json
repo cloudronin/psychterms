@@ -2,7 +2,7 @@
   "id": "transition-probability",
   "term": "transition probability",
   "definition": "Transition probability is the likelihood that one pattern in a sequence will be followed by another pattern, describing how states change over time rather than just how often each pattern appears. In this source, it refers specifically to the probabilities of moving between paired dispersion patterns in an ordered sequence.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0348356"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4823588ae8dde503efd9dfa162de974d5095697d0dfad6d905fbc14b8740c962",
     "packet_hash": "2869f43d42816c4a709c8d4258f8cc092f434e3e98cce6d043b0e269c59de68e"
   },
-  "hash": "717fbe9a28413d95cbe80a158593cbfddc17b498eeaaeabc86f1d0804a3c0f34",
+  "hash": "57587eb61514d89ece6c9603b915a96981b21b5e410caebbfeb4668aa79cc578",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "8ac893c1e2c300357afbf7f54b0d824d349f33fb23d03b6db5655505d4f14907",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

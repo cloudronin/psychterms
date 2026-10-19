@@ -2,7 +2,7 @@
   "id": "self-conscious-emotion",
   "term": "self-conscious emotion",
   "definition": "A self-conscious emotion is an emotion such as embarrassment, shame, or pride that involves the self and has a distinct nonverbal expression. Research described in the packet treats these emotions as a group whose expressions can be recognized, although recognition varies across cultures.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0136411"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dc90c7f03b4b4e48608022979a20b941abe53e6c3b6f8c4887dce90f3afad87e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7d43940d5a9bb66c0c761dee8f5912350db4dee1b382adb81f2232c6a0b12b31",
     "packet_hash": "dc90c7f03b4b4e48608022979a20b941abe53e6c3b6f8c4887dce90f3afad87e"
   },
-  "hash": "4651ca7a258e8924f005c8b6f30934c3b2c89b2f82615d783997395c44e7e27e",
+  "hash": "b5338eff04549cf2664e0411ef276b97f4b12dd59d27dd7d02fd7ec1576cf714",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e6b17facf52619bcd86ab32fb0632f405898f71649a15cc28dafed23a61ccaf0",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

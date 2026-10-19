@@ -2,7 +2,7 @@
   "id": "geographical-mobility",
   "term": "geographical mobility",
   "definition": "Geographical mobility is the extent to which a person’s life involves movement between places, such as longer-distance commuting or relocating for work, study, marriage, or other long-term living arrangements. In this context, greater geographical mobility means greater exposure to different local environments and variation across places over time.",
-  "field": "development",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0300735"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "45db400f26c8b07b804fbb2b498568e92f0de775c79c435fed4dc336647097ef",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9c5de0f45d3c3c5dcd7fe2a729f127ff93c9703c4acd578e7895fcae1c369b87",
     "packet_hash": "45db400f26c8b07b804fbb2b498568e92f0de775c79c435fed4dc336647097ef"
   },
-  "hash": "9dd75ec98e87fb56f3a2343ccd4e846541e0e94d3227ca64ba3ca4cf1fb6ec2f",
+  "hash": "871c442e6fa192ad1c2fbd61d3091a4fefee2028a84b50078ae8aa7f5afa4e11",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b176e44087e60e664376a7b00165993d1faa607eed931c694012df9fc7f94e8c",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

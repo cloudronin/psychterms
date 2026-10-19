@@ -2,7 +2,7 @@
   "id": "cognitive-assessment-system",
   "term": "Cognitive Assessment System",
   "definition": "The Cognitive Assessment System is a psychological assessment used to evaluate cognitive functioning through a cognitive-processing approach. In this source, the Das-Naglieri version was used to measure abilities such as planning, attention, and successive processing in children with ADHD.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1658202"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a85f09fcde498d3cf46bf35ea1f529deae455b7bfdbaeb5f416ec77474df372d",
     "packet_hash": "9cf2cca318a86155890268a630e7883b84c4b4506d7b0b0a9bf2f97ad86a1b76"
   },
-  "hash": "d00cddc5063b452411ee3a47e5d2eca01cf02e22bacd2b55d5c0653198a4e8db",
+  "hash": "487777a2243be1331aa68ab0e3b7bb1293b02e62131bdb26880ccaf1b0798580",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b3f1778dcc04b121c4c9c01253a27f8759d2e9e2442c67a7a51ef049b6b1ddc1",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

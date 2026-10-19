@@ -2,7 +2,7 @@
   "id": "splanchnic-nerve",
   "term": "splanchnic nerve",
   "definition": "The splanchnic nerve is described here as a set of nerve fibers that send cholinergic signals to the adrenal medulla. In this context, signaling through these fibers is linked to the control of epinephrine production and release during responses to low blood glucose.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0172789"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "12cbd834b89fa2c366eecc3f03f605308bf817bd04d86e33480dc6b1f0d455c8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9fd4384a8729678a3d8edd5cae11fea5db9c83ae5f6f779e3aebfd30a1438149",
     "packet_hash": "12cbd834b89fa2c366eecc3f03f605308bf817bd04d86e33480dc6b1f0d455c8"
   },
-  "hash": "2a872f1b496f097c51cd81437b6df5df579c1c3d0bebcfc0f395d4da1146a6d4",
+  "hash": "6368079742220af18637ccd5d5361135ff6b783714f7f7dc6fa56ab79d050540",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a245bcb0cbafcc81ab8a83e18d56b85ed953587b37de85a19b9ea70737cac403",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

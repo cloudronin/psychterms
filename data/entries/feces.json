@@ -2,7 +2,7 @@
   "id": "feces",
   "term": "feces",
   "definition": "Feces are waste material excreted by animals. In this source, migratory bird feces are described as droppings that can carry nutrients, heavy metals, pathogens, and antibiotic resistance genes, creating potential environmental and public health risks when they accumulate.",
-  "field": "assessment",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0348709"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f68d9b18e2120bac8e9a284d4cae58303f32770421353421720dc5f60c675302",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "37f23c1bcc11e8728287b8d2b8687744f1ad7ac9aff6e8982a7861880b7ab4d1",
     "packet_hash": "f68d9b18e2120bac8e9a284d4cae58303f32770421353421720dc5f60c675302"
   },
-  "hash": "21b3d2fb7a54da8c9808816f7d219ddfb3c97a22619b13f849bdd11409e4fda6",
+  "hash": "e1027945d7fcd9d9eaf8ab9a15c8e9e4f18472e202a88160a32cb86166d9af2e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "698c6c4953a40f2638cb5d0d18c1c8fa46a73b153b80db93c6734264ee732bb7",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

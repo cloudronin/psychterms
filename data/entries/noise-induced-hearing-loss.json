@@ -2,7 +2,7 @@
   "id": "noise-induced-hearing-loss",
   "term": "noise-induced hearing loss",
   "definition": "Noise-induced hearing loss is a type of hearing impairment linked to exposure to noise. In the source, it is discussed as hearing loss identified in people with noise exposure and examined in relation to factors such as age and diet.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0279884"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "28ebe824710d87a5ad6eec7deca2c3c88bfb2893f4e1122e8329674bfbe9fcfd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1eaf8b959093a28ce1d01dc01bae16ae6175f7b1ec25e3c715f0c4157f8ca314",
     "packet_hash": "28ebe824710d87a5ad6eec7deca2c3c88bfb2893f4e1122e8329674bfbe9fcfd"
   },
-  "hash": "fb9776d506dc344813c8f14825879126e7f859b0890e9370cdb52aa396f1580e",
+  "hash": "daef582232a0c85dd56d398bfb19b525c5773e06f2331fe547ec137d1ff9777a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9e99d9088ccece5f2395c3bc7b73af3f8fa028cdb9acbfa5831ea8e1ad0ba6a9",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

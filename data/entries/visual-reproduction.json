@@ -2,7 +2,7 @@
   "id": "visual-reproduction",
   "term": "visual reproduction",
   "definition": "Visual reproduction is a cognitive testing area that looks at how well a person can remember and reproduce visual material. In the source, it includes immediate and delayed forms and is used to assess abilities such as visual-perceptual-motor functioning and nonverbal reasoning.",
-  "field": "biological",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-023-05012-3"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1962edc760de8d2ef5f77c781e01ef49db178934c973356e4c6094fca01baf50",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "16272594ee3bb9531f343b5ceaf47ec1757a2094525ef315251bda2b7bf8beb8",
     "packet_hash": "1962edc760de8d2ef5f77c781e01ef49db178934c973356e4c6094fca01baf50"
   },
-  "hash": "06f8e5efe34a8bab7ba3f910bad8a8f11c136fe86ed664b53d8e1fd77e0db5b0",
+  "hash": "11794eba354d0e0919b743eb8399935ddc6865d0669c9a34a5caffc28c8dfaf4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "bd0d0c0e8710fc17f2c9d98045472bf98ca2448cee80941c95e5f7cce7d11595",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

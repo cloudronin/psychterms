@@ -2,7 +2,7 @@
   "id": "neural-network",
   "term": "neural network",
   "definition": "A neural network is a computer algorithm used to solve complex, non-linear optimization problems. It was designed by analogy to how the brain’s densely interconnected, parallel structure processes information.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a0bd173e1e83a3e8c6778b13349279164625beb1a88ca1d664101a0ed2afde03",
     "packet_hash": "cab7f3d0e2ddf8ba0448dec862e2eb0947032d21e51397baa24110070b7b5ac3"
   },
-  "hash": "75bb02efeb13b7ab6b33272f1dd2c82503ec604523b80caebc8f66a994bfbde5",
+  "hash": "e227c7bb9b1c67713a566fd113973c97fab8741e473ea8fca7e6a4cb16eebdc9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "782192b906db71f905b7d5692654783bf1554502d6861c3ee7ac6842addd9a5a",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

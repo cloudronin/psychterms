@@ -2,7 +2,7 @@
   "id": "species-recognition",
   "term": "species recognition",
   "definition": "Species recognition is the process of identifying which species a sample belongs to by distinguishing it from other species. In this source, it refers specifically to recognizing plant species from leaf images or leaf-based samples.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0178317"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6fac3d26c7b22542a80ce5a04a9d69d56a56441ded5e81d69642e1dbe945262c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "522a6b86250b104d279ad8c92b1e8599c074f9f119d90703b1f092822f32dd85",
     "packet_hash": "6fac3d26c7b22542a80ce5a04a9d69d56a56441ded5e81d69642e1dbe945262c"
   },
-  "hash": "fdc3e95de7124690e78b14e234fff6affd3e783d8d048ea00a827ab19fb9ab1c",
+  "hash": "4871bb1c365905a19b79ca75b202dc170853922d8142f34e7a7f88d442061bcd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3d5eeb6de8a79ff8e88b209871ee2f60d018085e794c6e4fbaebab065066a67f",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

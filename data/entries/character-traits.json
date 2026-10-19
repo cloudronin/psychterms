@@ -2,7 +2,7 @@
   "id": "character-traits",
   "term": "character traits",
   "definition": "Character traits are enduring qualities of a person that may be viewed as morally admirable or worthy of praise. In this sense, the term refers to virtues.",
-  "field": "cognition",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D028722"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8b7514b73643a3686b7a00e418e82f4a18e694c84a18d11d243965797bdb0f80",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e2d52c5695824e8220ef6e738f10cf45cd068315c056201ed5443e451c3c5a1a",
     "packet_hash": "8b7514b73643a3686b7a00e418e82f4a18e694c84a18d11d243965797bdb0f80"
   },
-  "hash": "85e110b84fdeba6c8d18cdb4a888ad910375af30285bf53a2915dc2dd54d5fbc",
+  "hash": "3e166d8bfd874675c5e4cb693b901540166822cbc7cb1171d91ce9971f329f3b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fca4d20f6950f3b5ea922cf4bc5fe8f321f5723e281ce986eea6ae213971e085",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

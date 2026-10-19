@@ -2,7 +2,7 @@
   "id": "deoxyribonucleic-acid",
   "term": "deoxyribonucleic acid",
   "definition": "Deoxyribonucleic acid, or DNA, is the biological material that contains genes, which provide the instructions for making proteins that help build cells. DNA is inherited from biological parents and differs slightly between people, contributing to differences in appearance, personality, health, and some associations with mental disorders.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/looking-at-my-genes"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5e7da884255ee467b0a7707f6b4a4592339662b0db31c5392432d75ce727ffc5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "480d4fbf32a390a47a6596587c5dc0d151f437f6d7261896b4f59374150e7127",
     "packet_hash": "5e7da884255ee467b0a7707f6b4a4592339662b0db31c5392432d75ce727ffc5"
   },
-  "hash": "46ee8ecc3741c36f2d3366906772629e8428bec8c62a418e9b95e6988c7247c9",
+  "hash": "228e5ac9fbb22f3906c59f5397a0482f066b88fe661b3f6c21fb053c2d03ddda",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1936223ea6c3f9e30be10256ef5228ca5fc99acf517e10e39911c994dbd71f75",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

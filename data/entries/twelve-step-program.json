@@ -2,7 +2,7 @@
   "id": "twelve-step-program",
   "term": "twelve-step program",
   "definition": "A twelve-step program is a structured recovery approach used to help people with substance abuse, addictions, or emotional disorders. It is based on the twelve steps first developed in Alcoholics Anonymous and adapted for different conditions.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "87900d7db78ef3dbc006c9ee41c720cf69e3b05518f3821d63b0ee968555eb2a",
     "packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83"
   },
-  "hash": "e1d3f091bc338b54a3ccdfef1a2df7374d79462bc9e2621323a63c09aac00248",
+  "hash": "17b2fd3a412561503b44264562464c1274f6c6d89d4edc7b00ddcce62391e1ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "87c0ad56de4d60a1368265a00b0aa5060f4376b9c76fb21ef92cff8cc1008671",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

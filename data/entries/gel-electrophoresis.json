@@ -2,7 +2,7 @@
   "id": "gel-electrophoresis",
   "term": "gel electrophoresis",
   "definition": "Gel electrophoresis is a laboratory method used here to assess RNA integrity by separating RNA molecules in an agarose gel. In this study, a borax-based version acted in a denaturing-like way, giving RNA separation similar to formaldehyde methods while using a simpler and safer setup.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0344092"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5a72825cb2354430d59a1e600e06aa77b52002842c7173848c5728e16fe84058",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2ab5490f7c4d8c4b442231905d14f095e1b909c0b2ac96e7c67425a5b1d30252",
     "packet_hash": "5a72825cb2354430d59a1e600e06aa77b52002842c7173848c5728e16fe84058"
   },
-  "hash": "71df0f41b760540ad73bf6da54aa04bb47ad8dedd12babd91156e565934e75aa",
+  "hash": "54326230fb3051c001ea38566e89f7d76cab4531563a0e006fa72831f2b06cf2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b47c173743f2d451747f7098b2a2b77bcafffa168aac15dfec0d009e0a26d0d8",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

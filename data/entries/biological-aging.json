@@ -2,7 +2,7 @@
   "id": "biological-aging",
   "term": "biological aging",
   "definition": "Biological aging is the age-related change in how an organism functions, seen here as declines in movement and memory or learning over the lifespan. The packet supports that different abilities can worsen at different times and rates during healthy aging, rather than all declining together.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0293252"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2196a810d354a349d5124eeae6f52d0cee268eab986581a2f4ae44fb8f0b185c",
     "packet_hash": "847c5e440c472e00336e9a29230932d988c94b15cd6c55d084a232e89c1ce9c1"
   },
-  "hash": "f25aba3a43649429524d741cf497678495ef633c3c51a500108ae8571794ce02",
+  "hash": "c25ff5aea6bec99b736abbbc946ba07a366ac2f0a84da9ca0acd242428cd6e0c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "508a12153860b6b73f147e3dfb488ea5dfcb91f8ae563ba98de33952d2bd059f",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

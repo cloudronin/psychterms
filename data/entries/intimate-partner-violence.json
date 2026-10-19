@@ -2,7 +2,7 @@
   "id": "intimate-partner-violence",
   "term": "intimate partner violence",
   "definition": "Intimate partner violence is abuse within a close relationship, such as between current or former spouses or dating partners. It involves a pattern of assault and controlling behavior that can include physical, psychological, or sexual harm, as well as intimidation, stalking, isolation, deprivation, or reproductive coercion.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D000066511"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "970123d3512d21f88231a0c065fb44fa4b079bfeab7df1d1a386c0de549b36fa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "843f0b00766ff8474dd212247daa84647c305bd903abce19915e73bc9cd8badc",
     "packet_hash": "970123d3512d21f88231a0c065fb44fa4b079bfeab7df1d1a386c0de549b36fa"
   },
-  "hash": "2a2ce66cf19b9b8f776d67286f4904a617d6beaa4cc18597ae6b18c286d694a2",
+  "hash": "a226bd31b276ece4a05bed09938b7ac05ef86aa4317a1081f78d0b172e390cec",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e0202206b52d4fa754d418e677cb87b4f1a338d20a8b0da2288f9d7a7594e439",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

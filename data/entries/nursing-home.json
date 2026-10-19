@@ -2,7 +2,7 @@
   "id": "nursing-home",
   "term": "nursing home",
   "definition": "A nursing home is a residential care setting for people who often have serious illness, multiple health conditions, frailty, and sometimes cognitive impairment. In this context, many residents have substantial care needs, including palliative care needs.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0306980"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c7baa2cccbee8816134e053456494e8474f22a6ffb939e2ef93fb5b4d2a63636",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2d70cb9def50c02986eeb478e1ea3fd161a697f168a396df5211f4b31ff31bf2",
     "packet_hash": "c7baa2cccbee8816134e053456494e8474f22a6ffb939e2ef93fb5b4d2a63636"
   },
-  "hash": "4a571e97e5bcd7324b49780780f2097a6d5efa2f5186ce9aea04f9e9fc69e803",
+  "hash": "36011551a2d791f9c431f4c2d26c5e69400556de0be67bcdb33c8cecb8801ac5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "74384d95166f11ffe7330b40fc39bbf51f11a716af0319025c7afa8ce4c9dea1",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

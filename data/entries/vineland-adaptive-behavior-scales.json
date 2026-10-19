@@ -2,7 +2,7 @@
   "id": "vineland-adaptive-behavior-scales",
   "term": "Vineland Adaptive Behavior Scales",
   "definition": "The Vineland Adaptive Behavior Scales are a tool used to assess social functioning and everyday adaptive behaviors in people from preschool through age 18. The information is used to help support diagnosis of intellectual and developmental disabilities.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "769ae632235f78bffba9795b59f5cb1fdb86fd72f41cecace7aab5c2a2e07758",
     "packet_hash": "1abe9a9e5404bfea4f9daf1d494b7af1289af30a0d4000f1ce758fc786d5c0ab"
   },
-  "hash": "ba86e0a1a834094c462c3fff81826d127a2d36e38554292bef57a492f8d80ca4",
+  "hash": "190d1d9370dd17824c6f6c8fef7bd895966eb0222257ad07cc20e371449f5702",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "4c15c4e8d973149b4454cb14a577e97794b2623337b77f407a4386924541f284",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

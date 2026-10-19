@@ -2,7 +2,7 @@
   "id": "angioedema",
   "term": "angioedema",
   "definition": "Angioedema is a condition involving sudden, localized, often uneven episodes of swelling beneath the skin or in mucous membranes. In the hereditary type described here, it is a rare genetic disorder that can vary widely in severity and may be life-threatening.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0311316"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ce72fd9a9ba2c1e6875c16d553f3d05276e41c6e2130c57f81b767134d446008",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "106351a0ef8a6e63df34af9e59ad8d930cde1ed89e11221d241bdb36dce82862",
     "packet_hash": "ce72fd9a9ba2c1e6875c16d553f3d05276e41c6e2130c57f81b767134d446008"
   },
-  "hash": "13a49675195e51b2c9d3d775ee553df0890b70051ba9d2a6f0bd194c51a22e9e",
+  "hash": "a3e7d444433bea60f8f2314fef3b57e9a93a0f608e6656c670bd469d0c5c67cc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "f1a31da14ba52143daf359ca4bcbba051c4aa24ee0fb509ef9de9e6dc29a1953",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

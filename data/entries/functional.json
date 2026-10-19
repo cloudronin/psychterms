@@ -2,7 +2,7 @@
   "id": "functional",
   "term": "functional",
   "definition": "In this learning and neuroimaging context, functional refers to changes in how the brain operates or organizes its activity, as opposed to changes in its physical structure. It is used to describe brain reorganization linked with experience such as second-language learning.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1824559"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5429ea39f9e3ec64310790c1766cd9b948506ad8dd882ea8766650cb927c0654",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e63b63d10042f08d1f63e87f609919c358dc7f7cb6e63b96e1a4cd3468e527a8",
     "packet_hash": "5429ea39f9e3ec64310790c1766cd9b948506ad8dd882ea8766650cb927c0654"
   },
-  "hash": "901b8c1b3b8d998752ceed9ed9aeef0deea9ef617e0316348c8cb757664febf3",
+  "hash": "3b820d5020c7cb1415a0848bf2565626b5fc70948e66a71dcc97b56e52fdce2d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7df8ef3c08165643afe34ad854da0db3457a55a23db9b9a3541267356672a1d5",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

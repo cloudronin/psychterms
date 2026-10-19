@@ -2,7 +2,7 @@
   "id": "trafficking",
   "term": "trafficking",
   "definition": "In this healthcare and mental health context, trafficking refers to ongoing human exploitation, including labor or sex trafficking, that is linked with repeated trauma and high rates of psychiatric, substance-use, and medical problems. It is often not recognized in healthcare settings even when the person is still being exploited.",
-  "field": "diagnosis",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1885986"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "564272aa419c189386555f38646ac46f705b7dda107ecc6d8e35c19d4acd96d1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "583a025dc1de43d4bdd7e08e3c1bc3df04baa2aa5a0dc6457e4aea15ab441865",
     "packet_hash": "564272aa419c189386555f38646ac46f705b7dda107ecc6d8e35c19d4acd96d1"
   },
-  "hash": "bcda80d6365d25dc96db4523f3bcf312478a46a7bf9edd1100df4ab28f84095d",
+  "hash": "5d6636332f5b49e66d4285469a7c141aaf980cbe739c41cec1ebcd09fa95392c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b64d8a18c61d989d25857408a7fed6956f7cae0af09de9a38affc9635c4c15df",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

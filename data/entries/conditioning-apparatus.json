@@ -2,7 +2,7 @@
   "id": "conditioning-apparatus",
   "term": "conditioning apparatus",
   "definition": "A conditioning apparatus is an experimental device used in animal research to produce conditioning, such as fear conditioning. In this packet, it refers to equipment in which rats were exposed to electrical foot shocks to create a PTSD-like stress model.",
-  "field": "diagnosis",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12993-026-00324-2"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "03e2536c0807ee91e8ed79e01f694a15f296d1ed2029c8fcea4dab6e7fcac194",
     "packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33"
   },
-  "hash": "821bfa46d29ee0767cb54c5a7e4f044199b1dc93fd5f75c33e15b5e5f7cd2568",
+  "hash": "5fc839978e09d97da35f7dde30d95b1b9edf319a38c3bcd13d64ef3168596037",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "16cad6fa189071ed65dd33315f89e3afb79b61318e222dd7b48bdda196083c02",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

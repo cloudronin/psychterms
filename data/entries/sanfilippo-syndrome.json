@@ -2,7 +2,7 @@
   "id": "sanfilippo-syndrome",
   "term": "Sanfilippo syndrome",
   "definition": "Sanfilippo syndrome is a rare inherited disorder in which a lysosomal storage problem disrupts the body’s handling of mucopolysaccharides. In psychology or learning contexts, it is relevant because it can involve developmental delays along with behavioral changes, sleep problems, and seizures.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0e2063d885e1e2800e291be25d3c3bacfa2b1f55ba73b850ca8cfb35ef71bb6d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b8bf543581e8dcb577e770375ff7485d3f56a79947b42212464d0a0037d5ed32",
     "packet_hash": "0e2063d885e1e2800e291be25d3c3bacfa2b1f55ba73b850ca8cfb35ef71bb6d"
   },
-  "hash": "87b86e59357f3499252b66fe9fa9d7eb36f4c13b6acbd3b344f1aa22aae584bd",
+  "hash": "489928c275a89902de28b046f710c44da721ca85f9ba48f29eb519bfa62f62c2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "e3f943f24a0cb6650a19878748e4ddee1506621661b030ca2f410561b0dcf08e",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

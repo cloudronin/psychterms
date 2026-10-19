@@ -2,7 +2,7 @@
   "id": "le",
   "term": "LE",
   "definition": "LE refers to the Long-Evans rat, an outbred strain developed from crosses between female Wistar rats and a wild gray male. It is commonly used in research, including behavioral studies.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ec00aa2382e7170731a6f5a8a492d62a7deb6d29d58a0576e0f6fd840357ec63",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f3578963cd8bf8dbe04fe840a3950ef738f4c4d48bd5f27156393bc9c2066ccb",
     "packet_hash": "ec00aa2382e7170731a6f5a8a492d62a7deb6d29d58a0576e0f6fd840357ec63"
   },
-  "hash": "0aa1c9bffb8f4356c51b114c036bee9f9e2c592faa3ef972b07dab6b41156a2d",
+  "hash": "31b1c5a7a895f57fd0cf2dc6ffdc2aa4e1e3ab22de9be95d4290579d6e6af1c6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "37374925943daff246e442331d9984fd024028c10ff2eb36d42988326271d1ad",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

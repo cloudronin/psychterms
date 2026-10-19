@@ -2,7 +2,7 @@
   "id": "phase",
   "term": "phase",
   "definition": "A phase is a period or stage in development. In this context, it refers to adolescence as a critical time when brain changes are taking place.",
-  "field": "cognition",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/the-teen-brain-7-things-to-know"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "875cb440268a400507faff03773ac5d72bd7acd2e8e5cc3c3c0a932416e7ddb9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c30d2593f5053d14d4749fa127760c12732d40cf2f88801a0b2e37b2bd9bfc23",
     "packet_hash": "875cb440268a400507faff03773ac5d72bd7acd2e8e5cc3c3c0a932416e7ddb9"
   },
-  "hash": "1f5ee61fe79113e195b1f7ab2e48672370acc1901977dc3860800f117f95ded9",
+  "hash": "94d9c8b4e89a69170fdb1b56896a5d5ebf2219ccd7e00873733dfa7fa477e1ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "96999268498c9c331e9079cdf0159e6b6de9c582286941150d43378e8392f0c3",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

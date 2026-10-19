@@ -2,7 +2,7 @@
   "id": "personal-protective-equipment",
   "term": "personal protective equipment",
   "definition": "Personal protective equipment is special clothing or gear used to protect a worker from occupational health risks when other hazard-control measures are not enough or cannot be used. It includes items such as helmets, masks, gloves, eye protection, boots, ear plugs, high-visibility clothing, and safety harnesses.",
-  "field": "development",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0299957"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9407463910c5cd9ac2a6a9d24c814283a94c8b9695d2ee2957054cffb41c203d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "97e366c160fc3a95477c14b7f37ada2909e9066cb8c950e2f8693ddb2c5891ae",
     "packet_hash": "9407463910c5cd9ac2a6a9d24c814283a94c8b9695d2ee2957054cffb41c203d"
   },
-  "hash": "4d80aeb428f44a9df46c7dd2502fc62d70facbb56ef49a6d3a2ed6611bacf33e",
+  "hash": "983ce8f8558510c3cd83db09d55888ba29cd184149210de7741baccdc700f564",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "1e0c5ba70732ec4aa4eb71ce8b808ec0997afb4d125b10b5116cf7e32f9b160a",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

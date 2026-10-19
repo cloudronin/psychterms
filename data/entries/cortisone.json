@@ -2,7 +2,7 @@
   "id": "cortisone",
   "term": "cortisone",
   "definition": "Cortisone is a hormone produced when cortisol is metabolized during the body’s stress response. It can be converted back into cortisol, and its level helps reflect how the body regulates glucocorticoid activity and processes stress-related hormone signals.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1720146"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bedfe0dde33ff7f758ceb2dc330944a8a71620db893d6cd7a1a026abde1c025f",
     "packet_hash": "3269ff86474d6f9663ca81cbd4135c5436beb677f504986e72eeaba3f20c077b"
   },
-  "hash": "88fb89ceed8e725037bcc7791f4a232bc98eccfa08f4d4f24f21972e07df5561",
+  "hash": "d81b08240671aa9d5cbc458651dfab069405327f7142944a44fbe11568f56b2a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "edec86948310e803373e0a53612acd8d3117b6eb9fb7ec56398d729fbc3fd531",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

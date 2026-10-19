@@ -2,7 +2,7 @@
   "id": "chimera",
   "term": "chimera",
   "definition": "In this context, a chimera state is a spatiotemporal pattern in brain activity in which some neural dynamics are synchronized while others remain desynchronized at the same time. The packet describes these states as possible biomarkers that may appear 15 to 90 minutes before epileptic seizures.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0345470"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a2a7c1cc1317fcda4164b60d0cdb4b95a7f0a2de07476dba27a3d3dd1758c805",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ea75b5ca449c1c3328cffc1ec8c4dc0f47f8006c0e19632f2c2697ea84d0094a",
     "packet_hash": "a2a7c1cc1317fcda4164b60d0cdb4b95a7f0a2de07476dba27a3d3dd1758c805"
   },
-  "hash": "269e1d79c86de9c98528938fabad57573cfff4d302741e5b9489d50a6667d2ba",
+  "hash": "ec3b8c7ace6467e75398395e950eb0ecc83d9f2edad9c520edc22ef734a3e01a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0eaa4024b2491da1ebe287289068c5cbb1a05914031601b099b8966571634e63",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "sensitive-period",
   "term": "sensitive period",
   "definition": "A sensitive period is a limited developmental window when learning is especially responsive to experience. In the packet, it refers to phonetic learning in infancy, usually around 6 to 12 months of age, and is described as an early milestone linked to later language development.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0335596"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e4cb26b2ed192e36dc85d7f776e79a03cf9e74e43bfa1521ea91c111d331120f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a8a5af36e21ab8586ca343133d661f5a5a32c31b6eb2f5eab5f325f51de53bc2",
     "packet_hash": "e4cb26b2ed192e36dc85d7f776e79a03cf9e74e43bfa1521ea91c111d331120f"
   },
-  "hash": "ce35f105f5ca61f8399c42eb3d7f9e720f08fca8b38f153b4f2ab7e46e72e2e0",
+  "hash": "b375bc9ceec5f6122d5b1d6716a02335ca6db2f99e366ee2361cea656c2a41d7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "451a77475cabb6d3fc6848401ff506e361ed56b69c05f52cea2597fdf285aad4",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

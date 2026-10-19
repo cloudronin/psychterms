@@ -2,7 +2,7 @@
   "id": "environmental-modifications",
   "term": "environmental modifications",
   "definition": "Environmental modifications are deliberate changes to a physical setting to improve conditions for the people using it. In the source packet, this means altering outdoor residential spaces with features such as walls, enclosed areas, and windbreak planting to reduce harmful wind effects and increase comfort.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0331653"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e7b6d273b351900ac5425b1d178a65a6eb722fdc24a0f07572da9f3e8f2b08c4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a4d8bbf17e6e8cf8ebf9eed5f09e87cc48a047b7f0a87abd35b37753593c5c70",
     "packet_hash": "e7b6d273b351900ac5425b1d178a65a6eb722fdc24a0f07572da9f3e8f2b08c4"
   },
-  "hash": "81780e2c31d17e28b3c4c8fb26f6c7ce26f9b4767a9437be28b526116d9009ea",
+  "hash": "07bcd6236d8d983b4e40f2345cf7014f124939ae6a0ae066fb5b70e5078fbfbf",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "6267148799bd9535a3ab41c964fb012a33e6af40f0ffcd5e80ec9bddc2c6eb09",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

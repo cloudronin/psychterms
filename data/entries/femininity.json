@@ -2,7 +2,7 @@
   "id": "femininity",
   "term": "femininity",
   "definition": "Femininity refers to social roles and patterns of behavior that are culturally associated with being female, apart from biological functions. It describes gender-linked expectations and expressions rather than biology itself.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D057227"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b05a56a1f1f2821b6227a1ab44b5075484d5c49418bb17c551ee9e79336b6a87",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c1deff6d9423ac3c08302dd7e1d98de4de5e14d44ac781230650331744c764c0",
     "packet_hash": "b05a56a1f1f2821b6227a1ab44b5075484d5c49418bb17c551ee9e79336b6a87"
   },
-  "hash": "c72577bbe2da5fda561cb673baaa561f3821d54b9dabf76dc0261d7cd512a2a5",
+  "hash": "bb2cad12ffdd52602481a1523f9b11a0126c063bd3b0ccaf61417dbda0d9e6d7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3a77341b921e3ebc670b4ff8b3496d946a47e6254a465e2f5fbba85cb3802e57",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

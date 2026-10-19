@@ -2,7 +2,7 @@
   "id": "cooing",
   "term": "cooing",
   "definition": "Cooing is an early stage of language development in which an individual produces simple vocal sounds as communication abilities gradually become more complex through maturation and learning. It is one of the developmental steps that comes before later imitation of words and short sentences.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D007804"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2889e7e98f320a18e09b2346578e536814ba22e1c0881950c0c641872c99e775",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "44de80d4c19071895af21879159c16e6686480676c00fb1871f052603f449ccb",
     "packet_hash": "2889e7e98f320a18e09b2346578e536814ba22e1c0881950c0c641872c99e775"
   },
-  "hash": "b979e963d57584350148a615f988b2bc03aa36453e6b04dfe170ef7604cdf5b5",
+  "hash": "ed09790852e751654d3c8eef4f2b20fcf443cf7a0df4aefb551b7f359c858d4d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7a118cd47954c947122dfab014781db6f38ab0877af9df14708828df60f8828c",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

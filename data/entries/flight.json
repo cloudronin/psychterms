@@ -2,7 +2,7 @@
   "id": "flight",
   "term": "flight",
   "definition": "In mental health, flight is the body’s fear-related tendency to escape or move away from possible danger as part of the fight-or-flight response. It is a natural reaction during or after a traumatic situation.",
-  "field": "mental health",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/post-traumatic-stress-disorder-ptsd"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ca39afb46c62396b43b733a5a878396a9a73413b43d2f7ed9f65f5572eecaee5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1a024a28de4f46076b9c3120e166cf54671c80a0d328c6615e327bf9b1d4cd29",
     "packet_hash": "ca39afb46c62396b43b733a5a878396a9a73413b43d2f7ed9f65f5572eecaee5"
   },
-  "hash": "bab933374f0aa81abe9c88d1176549513452fe05b18a47aa4e34acda9878d029",
+  "hash": "3d6bef5d28b2d3de60f6fe6490b1bc470d0efc0a62ded9be585e555093c431b4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "17fe597d0189a22b9858867aeac106d6136cf5949721fbafd6c13d393f32c33c",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

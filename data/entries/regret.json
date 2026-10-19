@@ -2,7 +2,7 @@
   "id": "regret",
   "term": "regret",
   "definition": "Regret is a usually painful feeling that arises when someone realizes that a different choice would have produced a better outcome. It involves looking back on a decision and wishing another option had been taken.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-025-03045-9"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b981ace87a9e5ce0b699cd839e54002443a1368de1a9f391f330a146fc0a92a9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5296a7620a9d920c792c581846f343fc8423adc4e4bdbfdaed9c011e352d142b",
     "packet_hash": "b981ace87a9e5ce0b699cd839e54002443a1368de1a9f391f330a146fc0a92a9"
   },
-  "hash": "b8f90832c54f6f367db227c494556da3537cef5989c2dd37c59ec8fd9fee88ca",
+  "hash": "bfdf5bd9f2875afec29080db1f8d1faeb393f3371dc50ba210a72e19b4149a06",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "567b8ae2855913d3575a0cdcb18118759317f79c08943a0aefac97792d6657b7",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

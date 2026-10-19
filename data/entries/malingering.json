@@ -2,7 +2,7 @@
   "id": "malingering",
   "term": "malingering",
   "definition": "Malingering is the deliberate faking or exaggerating of illness or injury symptoms to mislead others for some external purpose or advantage.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D008306"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "395a7e7165769c9185e01cad3ac9a049dd8fcf9df1abb7bcf5de913f89ff53b3",
     "packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626"
   },
-  "hash": "acacc00efcc8bf56cac5471e6f016a94d7aa083a08a54a0b4263b9a7e8025c57",
+  "hash": "8def10be4cad154564a1b5e60c2e562532be3e1cbb514237fab1cb4d556e9746",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c08a6089070dcf4173e79f1f04694f93bd52ecfc18733195b8916991bad0a0d5",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

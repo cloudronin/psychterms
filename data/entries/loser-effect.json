@@ -2,7 +2,7 @@
   "id": "loser-effect",
   "term": "loser effect",
   "definition": "The loser effect is a self-reinforcing pattern in which an individual that loses a fight becomes more likely to lose again in later encounters. In studies of dominance hierarchies, this repeated effect can help produce stable, often linear rank orders within a group.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0243877"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4d7c0018d263045badf2ec133cd1136e70579d40c7025dc18a0a5534caf164e1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ba7f231cccdfce6db44ab33a7489367acc8ca040552f6992e193d50510d7f399",
     "packet_hash": "4d7c0018d263045badf2ec133cd1136e70579d40c7025dc18a0a5534caf164e1"
   },
-  "hash": "21fdff0b6079b88be61f31e28fbf93d4d94c32cc563ace867b405540297e6d40",
+  "hash": "3987bc4ac6d12d9bff8efb004a7088a0ba1280398e93d3311e238b1fc2b3028d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9ca23f44529ecca941d79d4730afe6067d9cf263d7277d96d2f89ea641185bb1",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "academic-intervention",
   "term": "academic intervention",
   "definition": "Academic intervention is added educational support or changes in the learning environment used to reduce barriers and help students manage academic challenges. In this source, it refers to support needed before entry into medical school and during training for first-generation students.",
-  "field": "development",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0342616"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8225c28b294ed78308eaa1254cb73e6356ca9d758bb6f6b09ad134b177361f3d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c618216610ef16b095f6d3eb6e72fd867950fff7d74a1682dabaa8d4b1b03327",
     "packet_hash": "8225c28b294ed78308eaa1254cb73e6356ca9d758bb6f6b09ad134b177361f3d"
   },
-  "hash": "88a326998374ba1fbdd347238916734bada6b0de334ad46a817bb0cde31877a1",
+  "hash": "c42ecac4b6561cf0ff3b7d869dd08940bda092401a79a43a824abe0fce60543a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e6c466fb3e78ac519521141de6ef6d4ab8d9141e0a1366ac5857ca28b105774f",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

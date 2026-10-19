@@ -2,7 +2,7 @@
   "id": "knowledge-base",
   "term": "knowledge base",
   "definition": "A knowledge base is an organized collection of information drawn from source documents so an AI assistant can retrieve and use it to answer questions or provide technical support. In this context, it is built from structured extraction of educational materials rather than functioning as a fully validated tutor.",
-  "field": "development",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1843444"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7cbcfc60e820a1862da69926111c24d0d626ac6669e2f1d815faba24b1b1927d",
     "packet_hash": "af334a61650c9fef371103cc48d7eda30b443a82cabf4ba8c4be321304a7ca85"
   },
-  "hash": "3bdfd3e0e57abafcec672805b7d0bd2d4e76825eb0ab2e4c0501383e32785f2f",
+  "hash": "b6d9a0322101b87ad792771a70ecf7cd7b6931630b083ffa88cd06a96865b157",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e023ed3db3f6b1f023846987de8ea70a3f736c855e029ca3350a59353fdd0731",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

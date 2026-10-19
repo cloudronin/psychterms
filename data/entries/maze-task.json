@@ -2,7 +2,7 @@
   "id": "maze-task",
   "term": "maze task",
   "definition": "A maze task is a cognitive test item in the ADAS-Cog that is used to summarize executive function performance. In this context, it refers to the score for how a person performs on the maze-based task.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4714f546c7a84f1a8c0ce29281423faaed3ca5274c007de207ac0064ab1144dd",
     "packet_hash": "38bbd2ce5d428dfc60912564b700cccbf9c9849ebf9a57b0d657f4dd33cc6b5b"
   },
-  "hash": "2c856cefc2ab25831d9be28a8c4e28250918bd50ae7f2965038022c0aadb29a2",
+  "hash": "1ddb12023bd60be916d736cb9193b1f495af4fdebe7527083def60e7b8d40769",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "14693b5a22232a29eb789a54c6548069a0fffc8decee6dd93c483d33ee01be0b",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

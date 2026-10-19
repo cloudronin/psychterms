@@ -2,7 +2,7 @@
   "id": "unipolar-stimulation",
   "term": "unipolar stimulation",
   "definition": "Unipolar stimulation refers to bottom-up sensorimotor input delivered through a single modality, such as visual, auditory, or physical exercise stimulation. In this context, it is described as influencing mood and depressive symptoms by engaging central affective brain circuitry, with effects that can either improve or worsen mood.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2013.00428"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "276553e33b4a43b9f9781b2f3eb26128d5255e99c964817fea6088a7fe9df3f9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9121d974908d67a99216d9597029f41f936ae5049ed4e1a433820fd48a272f61",
     "packet_hash": "276553e33b4a43b9f9781b2f3eb26128d5255e99c964817fea6088a7fe9df3f9"
   },
-  "hash": "d82484178342fa00942ee9e7731ccfbe63e056fbaf29c0074099ee4e7092b58d",
+  "hash": "02927e426363310687f347eb8be5561396f0fc614d18fef5e2b5237c57da04c1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "4112644897d0242bfceb32485eacc766bb738c737a74d9aa210ae3191af7197c",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

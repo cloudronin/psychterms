@@ -2,7 +2,7 @@
   "id": "wcst",
   "term": "WCST",
   "definition": "WCST stands for the Wisconsin Card Sorting Test, a psychological test used to detect executive functioning problems, especially difficulties with cognitive flexibility and planning. It can highlight patterns such as perseverative responding, where a person keeps using the same approach despite changing demands.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1733356"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "63279b35d61e1415d17f5300fc03f36827bb399e6c4ba1cf0fca42f04699b4d9",
     "packet_hash": "c8cb208cbf81c89d9c80fdcc7c7eec8f0a2bc4f47911654257a315765ce1f6ae"
   },
-  "hash": "0f699e63708017a040c0e32ad65b75d6a5967c7955544cbc2f870bcf140f6249",
+  "hash": "2a6993d29ace447f101ada2378a4c854ba3b0f17c93aaf75bd0881a3342056ad",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "64821f0677e7ea6203feabab7de2ea3617ead86c9f566b4c464039d711df24ab",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

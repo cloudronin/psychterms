@@ -2,7 +2,7 @@
   "id": "adult-attachment",
   "term": "adult attachment",
   "definition": "Adult attachment is a person’s pattern of relating in close adult relationships, which can be understood on a range from secure to insecure. Insecure adult attachment may include dismissive and preoccupied patterns.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1596613"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e527f865b9493a7fb5a6ba6758fe8a6fcb68694474078d99be3b822493e0f0a9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3eaf3f97f447105744639c03e9c1a32c6b19c4d328ac00b4db129ee76c8600ad",
     "packet_hash": "e527f865b9493a7fb5a6ba6758fe8a6fcb68694474078d99be3b822493e0f0a9"
   },
-  "hash": "0be74b2bfe68446f3d9d50162d432fb2e7e30910985b9caaa1ad68146e8400c4",
+  "hash": "0ca7f620b76c5778591d32ef8e4911d6c572f6a3148a69e5ea12705b19b67a3f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f352aed4669925fe3ea0b5149c770a8db5046af898ae6f1bd0913d264fe50dd9",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

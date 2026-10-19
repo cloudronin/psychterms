@@ -2,7 +2,7 @@
   "id": "brute-force",
   "term": "brute force",
   "definition": "Brute force refers to a search method that directly compares input data to find distances and nearest matches rather than relying on shortcuts. In the source, it is described as the most effective approach for high-dimensional data when building nearest-neighbor graphs.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0092409"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "aa77442786492eb5bc5880ee2bd909be884227d691dc5d82339de0028e729514",
     "packet_hash": "5a8b8756ae93e7b168f40f6afd92c1c4ebd9d2e036381cec3aa46d2efbc4df35"
   },
-  "hash": "b5953aaef11a1fea20c218038cd70b26e2d6729c645dbd174194e847afb65f5a",
+  "hash": "897ff15c20e26820a78caaec8663f036a316b470e49ed888f2be06f1ab211be2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c08c131388e1a32098c5853d0c54819f5a527a533bd8e53b909743cff035d282",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "generalized-additive-model",
   "term": "generalized additive model",
   "definition": "A generalized additive model, in this packet described as GAMLSS, is a flexible regression approach for examining how one outcome relates to one or more predictors, including non-linear relationships. It can model not only the average level of the outcome but also other aspects of its distribution, such as spread and shape.",
-  "field": "ethics",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12874-025-02735-7"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4ce9ec0f09e65a872dc21d0f1b482d24d200525d742e0af2a546fb8fbc5c2762",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c9bac2c2a7fc2de7f4b9ff686b13b108532b6e37a0d43b2a4ae9cfea76c89b66",
     "packet_hash": "4ce9ec0f09e65a872dc21d0f1b482d24d200525d742e0af2a546fb8fbc5c2762"
   },
-  "hash": "14e01c94fc9dad20a268747add19cd33ffb40362ec40817bce1e0c5abb5bf0f2",
+  "hash": "bc7dc956d7fc151fff11a54ca3b8563997c4338bce57f5ea7d0c7825f6c0cc44",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "729965131a728eeb24b87ead4bc644134b4166c70407c17a3019cddfa9dab3f1",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

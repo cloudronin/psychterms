@@ -2,7 +2,7 @@
   "id": "shock-therapy",
   "term": "shock therapy",
   "definition": "Shock therapy is a treatment in which convulsions are deliberately produced to help treat mental disorders. It has been used mainly for severe mood disorders and schizophrenia.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D003295"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2d45b774988e4970989d411fb16e1f5b15de80616f766a74cdbee90874eef62a",
     "packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c"
   },
-  "hash": "75366d493ad321509aa8469845657c129d846d30c5bcfcfe689c021acc6d186a",
+  "hash": "86c23e47266c3ce313541084b39f3430d6adfedaf38f7c2712889e351fd6fa38",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "408c59df4f7660055b4e4cb7734788858eecc0d090084888f0506b349630045a",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

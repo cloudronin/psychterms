@@ -2,7 +2,7 @@
   "id": "pretend-play",
   "term": "pretend play",
   "definition": "Pretend play is a characteristic form of play in early childhood that shows a child’s developing ability to use symbols or imagination. It is linked with understanding social cues, language growth, and understanding emotions.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0297671"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0e0185707d1129177c994f66109ac587314011266dfb7c16fa55309a06b890c5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "acd7fd593226cc840a3598525c53a51e24038ab1e0ff88524b2c4eecfaa93c4c",
     "packet_hash": "0e0185707d1129177c994f66109ac587314011266dfb7c16fa55309a06b890c5"
   },
-  "hash": "ca8656bd5c45d61b254e5da67db3b17b3ea52debd6eda33ed408fc28b0072be2",
+  "hash": "9220615bfe445df7c0766a5f21d5908a6e7a3196cc792ab8355e4896c3beb7fc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "951ee6f7ef9d4d3501f925dcaaf83d1526d3487c500cad03d30d9f36a732512a",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

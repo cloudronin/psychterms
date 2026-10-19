@@ -2,7 +2,7 @@
   "id": "resampling",
   "term": "resampling",
   "definition": "Resampling is a preprocessing step in which heart rate data are reorganized into values based on chosen time windows before analysis. In this context, the size of the resampling window can affect how well methods detect coupling between people’s heart rates.",
-  "field": "social",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0356801"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a4a6657ff0944901f4405da05cfd209d1fe9cf0e6ce4d0a938b3c64687f56526",
     "packet_hash": "f92bdd4f56dd3ca38a328fdeb532c68461be55fd5da9458d2c7e5bc9e3dc8f46"
   },
-  "hash": "5c42079d52cad701b3b90f522bf2b22fcd35bbb2808875543c8add9aee791c29",
+  "hash": "9609b9c3b4938cd4ae406eb72091be3133ab53ad6b9f385c1caf458fa20ca838",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0e66367ea1cd2b7b98f50ba9f5d129375f738989f52630f5ff364fce06242a7c",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "life-cycle",
   "term": "life cycle",
   "definition": "Life cycle refers to the sequence of developmental stages and related measurable traits in an organism, such as survival and developmental timing. In assessment contexts, these life-cycle outcomes can be used as endpoints in long-term testing to evaluate the effects of exposures or toxicants.",
-  "field": "assessment",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0304739"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e7344c18158f9bd0ca17867f6a7d6e9ff0384c87bad0cff183ed6b1c89fccc68",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "346260f26dafe03a1ac205c478cb8d1103850b942c01242fef999177c569d96b",
     "packet_hash": "e7344c18158f9bd0ca17867f6a7d6e9ff0384c87bad0cff183ed6b1c89fccc68"
   },
-  "hash": "528297ae33df3476391c901410639835809b2959eeb5b1a0d4737cc06478032d",
+  "hash": "8c55c92afe088f2c0f915719779173d7ccf2f0cd9eef393f7a970cf548dd9337",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "69e3d4db3c7c7bffe6b1385624f7db41b9569312e9bcc68f39b530aefbbd673c",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

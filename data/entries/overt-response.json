@@ -2,7 +2,7 @@
   "id": "overt-response",
   "term": "overt response",
   "definition": "An overt response is an observable action or spoken output a person makes during a task, such as saying a word aloud. In this context, it contrasts with earlier mental processing that can be measured before the visible or audible response occurs.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2014.00884"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f2bdcb13d15147b81e7b5b5591177c4b30684464804c4409e92816dfe18ef47c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2dfdd1e22533c367d476d0025577f54639909d20e6f2586e9c659248d848a4a4",
     "packet_hash": "f2bdcb13d15147b81e7b5b5591177c4b30684464804c4409e92816dfe18ef47c"
   },
-  "hash": "03e90861e1187c9c72aa17955fe7ab559f59fc41745fb0a100232128da4efb1d",
+  "hash": "99473add97ab050e67de4d40df30a7f81291a64949663829c53e59464e037c91",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "c41b0c43a387dbe782c0f8c2a0720aee004d03cb7ec3fc3088c6992da62f6b82",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

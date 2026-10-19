@@ -2,7 +2,7 @@
   "id": "torture",
   "term": "torture",
   "definition": "Torture is the deliberate causing of physical or mental suffering to one or more individuals. The term can also include the torture of animals.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D014104"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "18681c696f1ef22c4e98bf55e89f5437dfbb476664bef5d5c08b39b8e4757ae9",
     "packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832"
   },
-  "hash": "0292a370f56b96fefa5c7dfb6ee8c180bf20c3a3485ce92d32fe9868330ada76",
+  "hash": "c703248187fcdbdeef3c32439cb8058a6a7769c7d74c181a3cf96da548719ea9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "31eb1bf7eb3eb8d3fcf8a01e01188b7db2fb0392ed2e01786ee9e03c1a1e1480",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

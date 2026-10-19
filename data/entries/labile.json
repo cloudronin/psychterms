@@ -2,7 +2,7 @@
   "id": "labile",
   "term": "labile",
   "definition": "In this source, labile describes memory traces that are still unstable and easily altered before they are converted into more lasting forms. It refers to a temporary, changeable state rather than a fixed imprint.",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1777687"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cd7a5ca40afac6625a41f88cb11a9084505ab2f1fc5262560f8a1db1342ad491",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "57bea609ed40bf64bfde5fc8f6a10ff8c2b43f90cef3c2bf4be119cf34702584",
     "packet_hash": "cd7a5ca40afac6625a41f88cb11a9084505ab2f1fc5262560f8a1db1342ad491"
   },
-  "hash": "c80adc97634b6008af368c30b9afdb86f079f8a7f7444d7a569f2f97b9d91288",
+  "hash": "20f788660d9d9967c8b97c3c8c48e51bdf06ac42dbb4d39043658a77416af184",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c1aa655cd18c769a6230b82e8195ec7e64e54b8e1ce13b4949782cd7c333494e",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

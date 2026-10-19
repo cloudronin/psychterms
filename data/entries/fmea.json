@@ -2,7 +2,7 @@
   "id": "fmea",
   "term": "FMEA",
   "definition": "FMEA, or Failure Modes and Effects Analysis, is a risk assessment method used to identify possible failures and judge their impact. In the supplied source, it is described as a conventional approach that rates risk using occurrence, severity, and detectability, and serves as the basis for a more detailed variant called FMEA+.",
-  "field": "assessment",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0331748"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2851deeeb2fe1a627a05dcb8daa7bc25869e88b8583a13540d5adbc72901e1d5",
     "packet_hash": "854d648b406103a078c27244ac86b422e2eba871cd1f2ef963578940dda5a3af"
   },
-  "hash": "f509554cd924f5f1a933b25a5e3b05cc36fb12445417c08780a7cf89cd158f8f",
+  "hash": "a8a0d0f0a45034eccb9c7570178765dc6e602ca6b792338add2e49f2881e988d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "59c47ecbec4dfc69157f70f85e8922a9a9e4006262deb67ce86feca31049e2b5",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

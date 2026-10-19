@@ -2,7 +2,7 @@
   "id": "hearing-protection",
   "term": "hearing protection",
   "definition": "Hearing protection is something worn during a loud procedure, such as an MRI scan, to reduce exposure to noise. In this context, it is used to help limit possible hearing damage and may also reduce stress responses.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0312166"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9427256b1ec02779a78fb6422e810620e6bddef1217ac5b30978e30aa626f2ed",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4d056c9f198e2bff07c2eb46aa9601ad79df9200401ae6772e5b990e5aea52c8",
     "packet_hash": "9427256b1ec02779a78fb6422e810620e6bddef1217ac5b30978e30aa626f2ed"
   },
-  "hash": "cb73b8648dc60730e1ce47ac8665c7cb8f13b240f93345d2c2e1d39d2cf7bc2c",
+  "hash": "e9207bef57391ae84d84414078fedfb1e1a86b045e6fe37602e95ac66a1e45b2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "920757d971befd0a2e956a38d6398e93bcf1b3cbb39d87ce0635caa5e3b6e878",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "k-r-20",
   "term": "K-R 20",
   "definition": "K-R 20 is a reliability formula used with test responses to estimate internal consistency, or how well responses fit a single measured trait. In this study, it was applied to person reliability by checking how the reliability estimate changed when each test taker was removed, helping flag response patterns that looked aberrant or did not covary with the group.",
-  "field": "development",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2023.1273582"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "816525fddcc7565251ebbfefaa2ee7e73a45e653fc0f2131c4f84151dbd8ddd8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "901cc3dd91dc089e350566ea44f1704b2082821ec5d8852a096d1299eb1760ce",
     "packet_hash": "816525fddcc7565251ebbfefaa2ee7e73a45e653fc0f2131c4f84151dbd8ddd8"
   },
-  "hash": "32f2867d86bd48dc0f451879270b921e305cf1648661a448adee433b3c4afef3",
+  "hash": "517fcdcb8e89c63c533ca930c29121efee565cea771b9290e266e9dfae8d54f5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "bb0fe9a10c5083d78394fb5b490f87ad48c36a2a9cf22e8d878ea130cdb6b743",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

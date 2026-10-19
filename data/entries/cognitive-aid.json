@@ -2,7 +2,7 @@
   "id": "cognitive-aid",
   "term": "cognitive aid",
   "definition": "A cognitive aid is a tool, such as a checklist or reference, used during high-stakes events to help people quickly recall important steps, consider possible diagnoses, and find needed information such as medications or other instructions. In medical emergencies, it is often used selectively to support memory and decision-making rather than followed strictly step by step.",
-  "field": "development",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0314774"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "13b628bb8a4838eb88f11eda559b45529b32a5335e5515fc63f11b4495eabf9c",
     "packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec"
   },
-  "hash": "4e4da3643e7bc415ee2c150dbfeaa08d36cdc996eb1a3f943bafdc92711291a9",
+  "hash": "2530243a7d2606ac7fbbf45561dacd3ddc01636d7f52a5f71fc36c68d80bcf65",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b363b0828c5fbd814fa98521cc7177b556eb6154ae94b08bd9e033b2c0084700",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

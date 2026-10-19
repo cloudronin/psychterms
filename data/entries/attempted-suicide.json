@@ -2,7 +2,7 @@
   "id": "attempted-suicide",
   "term": "attempted suicide",
   "definition": "In this historical source, attempted suicide means an act in which a person has tried to kill himself. The passage treats it as something to ask about in assessing a disturbed person, including the means used and any stated motive.",
-  "field": "history",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://archive.org/download/dictionaryofpsyc01tuke/dictionaryofpsyc01tuke_djvu.txt"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "10d510ca643d7a9c277ff6ea0a62c335015222db329a9baa2f8bdadc19ef3a27",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8d017d0d516e73124841f966463bf20836e72a543a5dae5c59c4441d5c3a0468",
     "packet_hash": "10d510ca643d7a9c277ff6ea0a62c335015222db329a9baa2f8bdadc19ef3a27"
   },
-  "hash": "d8afcb242fda2af1c2ff8932037c5734d2bdd17df17672b83976f9d8873de914",
+  "hash": "310fa8dca81b0ecbbf17904cb2031d6238e0e81e02246a928ec13b891a2f6d87",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "7d75bd4589ace196ed8f8fd13bc4f73f18a8cc2a4f4e94d5a907268a3feca9b2",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

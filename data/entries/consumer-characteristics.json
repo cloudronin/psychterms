@@ -2,7 +2,7 @@
   "id": "consumer-characteristics",
   "term": "consumer characteristics",
   "definition": "Consumer characteristics are the personal attributes and tendencies of buyers that can help explain differences in how they judge, value, or choose products. In this source, the term includes demographic, socioeconomic, and behavioral factors such as sex, marital status, and time-related decision tendencies that were examined in relation to willingness to pay.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0338004"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c5dd3a00615bb21fc73aaed80dc2d7c8d56716022c9dfb89686b9c604d5c967d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8c4f3e2f3397ec54d32327647d476c4a10406e57a749d3f5aba7b07a5d95f90b",
     "packet_hash": "c5dd3a00615bb21fc73aaed80dc2d7c8d56716022c9dfb89686b9c604d5c967d"
   },
-  "hash": "e154101830e2a796767b2408c9dea77a33ddaa03910ec6a61be42a8e2c75ba5b",
+  "hash": "f3599e9a2f1be3665fe66e092a6b7bf4e0a08c48a1a61c474301d2a76d11790b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "950a280977c776d31e4060fd93bda3a78c010241678f50059884422e7b7628a6",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

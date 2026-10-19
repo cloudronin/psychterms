@@ -2,7 +2,7 @@
   "id": "fidelity",
   "term": "fidelity",
   "definition": "In implementation science, fidelity is how closely an evidence-based practice is carried out according to the model’s intended standards and essential components. It is used as an indicator of how successfully a practice has been implemented.",
-  "field": "diagnosis",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-025-07566-w"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9bdff10ec9ce6a5c9d9158dfe8d6c65bc01ee743d662aa74d1bdb17832d19b4b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8bf59512e9aa736fc9602f2d36b3e4b7204f68adb68531c443b36e4b9ea5b9f6",
     "packet_hash": "9bdff10ec9ce6a5c9d9158dfe8d6c65bc01ee743d662aa74d1bdb17832d19b4b"
   },
-  "hash": "e336756d22700234141d8f09f73be92f525a42ab71331e07f64d0db82aadbd20",
+  "hash": "ba804bbb78b2d79886292eff6ecbcd53c27831fb6525370fa8f198fe39a9137d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "92b81861f5652de0de7320c6049931e213994aed54747984a20c1340fe6de679",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

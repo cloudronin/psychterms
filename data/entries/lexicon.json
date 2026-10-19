@@ -2,7 +2,7 @@
   "id": "lexicon",
   "term": "lexicon",
   "definition": "In this context, a lexicon is a person’s stored knowledge of words, including their meanings. It contrasts with a proto-lexicon, which refers to familiarity with word forms that may exist without clear semantic knowledge.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0339325"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8c64574ee0190259c8b44290e1b1647673a3b34319fc6f97b504424e0ace290c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "787750aa6cd6c0ba0a776207be19c1f16f6bd0201f007d9940baa32090171c6b",
     "packet_hash": "8c64574ee0190259c8b44290e1b1647673a3b34319fc6f97b504424e0ace290c"
   },
-  "hash": "67062eca31b5cdf74df40b6dc3c2ead0fd569831ba11a25c81d06abe40b89a81",
+  "hash": "d8f801f1bc10d0ccc73d88455b6cb7f2c27c24b593919c3377c3cae049645e44",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "271916eb1d0f79e700e2d912ec0e4762c7050ea9075be5d34b5e57c2315723a8",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

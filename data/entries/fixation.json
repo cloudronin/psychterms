@@ -2,7 +2,7 @@
   "id": "fixation",
   "term": "fixation",
   "definition": "In eye-tracking, fixation is a period when the eyes stay directed at a particular location so visual information can be selected and processed. It is commonly measured by where the gaze is held and for how long.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1837475"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "05c290fdaee89db5803c7b9c147b4bd0cd0128914eca1ed58d1fff112dad28cc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "aaec51397e42aae9831d7ce11594d9c55feb4b3ff1e9f59b0921c63e3cf10906",
     "packet_hash": "05c290fdaee89db5803c7b9c147b4bd0cd0128914eca1ed58d1fff112dad28cc"
   },
-  "hash": "06bdeac7707d37859d2750e7eb8615fc046be27b093ffa34efa7737b376192f1",
+  "hash": "f124ebdffe13bc0d38b191f1c2fd68a08d89ded8d766b394e713bca05926fa87",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "070ac5420b921178ef826a10459eb0bfa691edb43be7c45770b17e9b29863c6a",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

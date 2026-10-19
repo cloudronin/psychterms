@@ -2,7 +2,7 @@
   "id": "work-satisfaction",
   "term": "work satisfaction",
   "definition": "Work satisfaction is an employee’s emotional attitude toward their work. It includes intrinsic satisfaction, which comes from the work itself, and extrinsic satisfaction, which relates to outside aspects of the job.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2021.779396"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d267459f18f20e36bc77779d09e07e67833f5f659261bd9efb7672dd906df8b2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "816d99ce592d9a1f88d927bcd3c2594b855fa4548f002cb1a2bc27ca9569321f",
     "packet_hash": "d267459f18f20e36bc77779d09e07e67833f5f659261bd9efb7672dd906df8b2"
   },
-  "hash": "43434d833c7843ae52d1bf077992781be7dc0efedc22b1ebde2cd83900691a72",
+  "hash": "d73df9e9c8de516d62a3fe21ebab9a96037fa27e8937ce1d9947364d99e7940d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "99d20f74f8a5864f3ea1b469c34f26d292aa7f542f2c75922891b4b04a6838b8",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

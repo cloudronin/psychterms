@@ -66,7 +66,8 @@ def validate_entry(entry, sources, fields, release=False, built=False):
 
 def validate_draft_evidence(entry):
     evidence=entry.get('draft_evidence',{})
-    expected=digest({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True})
+    from external_reader import reviewed_field
+    expected=digest({'definition':entry['definition'],'field':reviewed_field(entry),'packet_sufficient':True})
     if evidence.get('definition_hash')!=expected or evidence.get('packet_hash')!=entry.get('packet_hash'):raise ValueError('Draft evidence no longer matches definition or packet')
     for key in ('request_hash','registration_hash'):
         if not re.fullmatch(r'[a-f0-9]{64}',evidence.get(key,'')):raise ValueError('Missing draft binding')
@@ -77,7 +78,8 @@ def validate_model_review(entry):
     review=entry.get('model_review',{})
     if review.get('model')!='gpt-5.4-mini-2026-03-17' or review.get('passed') is not True:raise ValueError('Designated mini judge must pass')
     if review.get('draft_model')==review.get('model'):raise ValueError('Judge must differ from drafter')
-    expected=digest({'definition':entry['definition'],'field':entry['field'],'packet_sufficient':True})
+    from external_reader import reviewed_field
+    expected=digest({'definition':entry['definition'],'field':reviewed_field(entry),'packet_sufficient':True})
     if review.get('definition_hash')!=expected or review.get('published_packet_hash')!=entry.get('packet_hash'):raise ValueError('Model verdict no longer matches definition or packet')
     for key in ('request_hash','registration_hash','packet_hash'):
         if not re.fullmatch(r'[a-f0-9]{64}',review.get(key,'')):raise ValueError('Missing model review binding')

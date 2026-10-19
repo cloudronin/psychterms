@@ -2,7 +2,7 @@
   "id": "hrt",
   "term": "HRT",
   "definition": "HRT stands for hormone replacement therapy, a treatment that uses estrogen alone or together with a progestogen to replace declining ovarian hormones. It is used to manage menopausal symptoms and may also be used after surgical menopause or in premature ovarian insufficiency when there are no contraindications.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1614087"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "254f5230ac32a16f70b699ef63e7fbabf3245ac1b2d991e39ebd2e46d00bec20",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7e4d538e05ac025ba577f44d2206583597d4d9e12225073df3415202214567f5",
     "packet_hash": "254f5230ac32a16f70b699ef63e7fbabf3245ac1b2d991e39ebd2e46d00bec20"
   },
-  "hash": "3899b457c46de9bd2c03acdaca5072c74f3d12506917ef3b97fbbb01dcc06777",
+  "hash": "8f9a9a3ef46438a775fbb3ee7e8c1506f718315eb783280599d5934d23dba1ce",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "76e8eaa7a33fca75515c100cacede90ec9c562a1f82df7c08844d68a65014ca4",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

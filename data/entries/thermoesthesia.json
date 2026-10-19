@@ -2,7 +2,7 @@
   "id": "thermoesthesia",
   "term": "thermoesthesia",
   "definition": "Thermoesthesia is the capacity to sense changes in temperature at the skin, including tactile-like feelings triggered by rapid thermal shifts. In the described illusion, quick warming can feel like upward pressure or motion, whereas quick cooling can feel like a downward or pulling sensation.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fbioe.2016.00088"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a03852fd29a88dc85c6d36eaadf59bcabcb32bcdc69d413583b3b526572582d9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "43c46b094b5c88010f218a989a7d6f493d6b29a74e00000b209762ac39c2697b",
     "packet_hash": "a03852fd29a88dc85c6d36eaadf59bcabcb32bcdc69d413583b3b526572582d9"
   },
-  "hash": "5d2822755592d57658340e93ab991bba2c90a8caa4f3ff17cc496eca4d4fc518",
+  "hash": "756c19708d13fdf17b30bd5d5086df4c79ab50b4a19554bf5ada20ee014e8b93",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "71fbcda4ef30465d7973eca7502a58639b4156e223e9c27124c39af68558774e",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

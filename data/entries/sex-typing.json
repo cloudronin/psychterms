@@ -2,7 +2,7 @@
   "id": "sex-typing",
   "term": "sex typing",
   "definition": "Sex typing is the process of determining whether a biological sample, such as ingested blood, came from a male or a female. In this study context, it was used to identify the sex of the host that a mosquito had fed on.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0216360"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6ef5e11724d4b85b7453a0a3dd7447e0a3c6019a912c0b33864553f207bcf21a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d1735c4885408d8d2c0242605d6f9058246587f9b90fb1164aa2923f87d936ec",
     "packet_hash": "6ef5e11724d4b85b7453a0a3dd7447e0a3c6019a912c0b33864553f207bcf21a"
   },
-  "hash": "7aeb801fc0ca8793b743ad46cac14aa297a95b9ea36b337dfde203c51b3a10b2",
+  "hash": "c02fa77aec81f2b39f2a40816eb55e697ca585606872191923aade03574dc2ea",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "48798197f13a73d0b65969badd0b91ad36e98e399de3a3bf373fe316544b171b",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

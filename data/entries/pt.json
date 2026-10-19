@@ -2,7 +2,7 @@
   "id": "pt",
   "term": "PT",
   "definition": "PT means patient: a person who is receiving medical care or treatment, or who is registered with a healthcare professional or institution so care can be provided when needed.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8114bae560fc9341b16b731ced031f5ebc7a462b9986e031725dcb01c88ecb3e",
     "packet_hash": "8e149633b3c3cbfad72c5f4fdaae32db19acc06085221ced5dde7113efec0dfd"
   },
-  "hash": "b8bfbc1ffd0294c462faabf09b7aa48529e107aeec74df88a71ee9dd7853f196",
+  "hash": "ce1898c04bcd3cb6d6a3f8147b6a7ab7cb20ebe12408e8c436fc5f1301f4911d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "07ff80e807a05cdbd46b76e0c317fa57608d1cddeac91d298b520603ede49202",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

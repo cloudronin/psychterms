@@ -2,7 +2,7 @@
   "id": "rehospitalization",
   "term": "rehospitalization",
   "definition": "Rehospitalization means being admitted to the hospital again after a previous hospital stay. In this source, it refers specifically to a new hospital admission for COVID-19 reinfection occurring at least 90 days after the first hospitalization.",
-  "field": "social",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0332281"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "49d9a4526c568b500e3ee7a8147e48b4028e10aae01a20147c9242ecb965cced",
     "packet_hash": "95f0068e85c270761a01ca51d78f40e9de4ce2149cfb3c3f43edd8ae88306944"
   },
-  "hash": "0abe469b492a3d3127d53c2e79dcdfa482a1eed6e2150860d04a3f090d445c9d",
+  "hash": "70a87106ce7961fc92930a3eed723f45898c03a3f62091a751da3fbec8e1615b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e50cd29e8f6059672e41d2b5a4d9ad85ce5e1dac0b7e8a9f31b62f47e019e5ef",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "sleepwake-cycle",
   "term": "sleep–wake cycle",
   "definition": "The sleep–wake cycle is the usual 24-hour pattern of sleeping and being awake. When this pattern is disrupted, such as by travel, shift work, or other causes, it can be associated with circadian rhythm sleep disorders.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D020178"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "498e94efe890533b86246214896b7fbcac0e41c9d3cbc68123adf7a9697ce09a",
     "packet_hash": "ba0840ea0759ef14dc8a4e25d89d614867284dd5983c2ab2e2895a96547798bb"
   },
-  "hash": "70e8f9119fe9aff57bf7e3361177f8b67371d1cbee11b57cb652004974a92a0e",
+  "hash": "78913e2acd961bbe326b298f5ae9038c333ce43d367606701e444836ad75e712",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2104b15181dbda08140d840ca7f54204ee5e55d4da150a1815b68cf7887b5cc0",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

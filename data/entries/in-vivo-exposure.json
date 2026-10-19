@@ -2,7 +2,7 @@
   "id": "in-vivo-exposure",
   "term": "in vivo exposure",
   "definition": "In vivo exposure is an exposure-based intervention carried out in real-life situations rather than only in imagination or virtual settings. In this packet, it refers to directly facing the task of discarding personal belongings in everyday life.",
-  "field": "ethics",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-025-03446-w"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "da8231aaeca198ee9cdff11b2b359cd89ad2db611bf06c87cdc7bd7fd47929b0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "64c93278ed2424319861170e4b4cec4859d28b2ea95d31f980aab23c27aec33f",
     "packet_hash": "da8231aaeca198ee9cdff11b2b359cd89ad2db611bf06c87cdc7bd7fd47929b0"
   },
-  "hash": "789f8aa4dba2506a4707b11a326aa3084e774bfe58461a7870dc97be041b9b1d",
+  "hash": "f5cef1b1e76b5e23768904b2ab7fd9bcf310d4f5c8dcc4d5b26936eb59cc1ab6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "bb50ba9285a2a7385c050a467922625b662abc0a1b98595ef0c4a5f1712a9635",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

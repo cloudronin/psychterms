@@ -2,7 +2,7 @@
   "id": "electrolyte-imbalance",
   "term": "electrolyte imbalance",
   "definition": "Electrolyte imbalance means abnormal electrolyte levels in the body. In this context, it refers to disturbances that can develop in newborns during birth asphyxia because of hypoxia and metabolic problems, and that may worsen the illness and contribute to poor outcomes, including later neurological damage.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0336549"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "59642e8ffa738600240f0184ff175f18da25f25ed863f9039cf2fc2295bfc9ab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9052e7de96658207a44dc0c5c663f9552d4942d60a666da7cfe54b9f3159b556",
     "packet_hash": "59642e8ffa738600240f0184ff175f18da25f25ed863f9039cf2fc2295bfc9ab"
   },
-  "hash": "a4935dd8a7da4848063ad95ca7f0f4f2bea74db047c1d9d2b27c5e49c422d4e2",
+  "hash": "9869cd1231e6e10308a63079a817c045dbf05ca1a7e40c8844d1a2092711b41e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "eb0f6e77c40e4569d556676ca0ba42f98249f1ebbdef16939a6d99ebcdf0e37b",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

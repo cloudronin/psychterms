@@ -2,7 +2,7 @@
   "id": "clinical-utility",
   "term": "clinical utility",
   "definition": "Clinical utility means how useful something is in actual clinical practice, such as whether it helps patient care or treatment outcomes. In this packet, the term is used to indicate that rTMS has practical value as a treatment even though patients’ responses can vary.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1805825"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6be1cc3ad15552fe776f948201f63cfe48f649d2fdf9eed703b8118d900397e6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "06739df6f7dc2f6e4476e895546befcc8582b696fc72d55e457816dbfc049c0d",
     "packet_hash": "6be1cc3ad15552fe776f948201f63cfe48f649d2fdf9eed703b8118d900397e6"
   },
-  "hash": "7192c687216843e3f88be67058cce87234e39f2882ad378f81763a4d4a8f231d",
+  "hash": "a8f4a51a393966a307ba11c4913385f14f83574e4975adfcbf49540634d29505",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c2a5d6175922295f5a28e4398d4530a5000c77228a3a8b9e3d0becb8d929cd7b",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

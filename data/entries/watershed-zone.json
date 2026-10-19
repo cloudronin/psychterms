@@ -2,7 +2,7 @@
   "id": "watershed-zone",
   "term": "watershed zone",
   "definition": "A watershed zone is the region in veno-arterial extracorporeal membrane oxygenation where the patient’s own blood from the left ventricle mixes with oxygenated blood flowing backward from the ECMO pump.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fbioe.2025.1620897"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e86dc315ea2ad3700aab1fb174bb76f648f0d8782d450aa6b36418678c686b65",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "903eea5ddd9708ae5da11c55b862f44c7eb6516eeac8d1df3156be1e3dcdb205",
     "packet_hash": "e86dc315ea2ad3700aab1fb174bb76f648f0d8782d450aa6b36418678c686b65"
   },
-  "hash": "dce461d7a5f691caaedfde9ad1b04a2e9fe1a491d034bf6e451c9865645c4077",
+  "hash": "2a2e15bc172084c0c6be3d0dee21525ca18abab019aa45158da009ba42048fca",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4ec79b1083ee6d27fc3b9134ca5205814f215262beb66e17568c634d17d51375",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

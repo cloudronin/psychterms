@@ -2,7 +2,7 @@
   "id": "static-response",
   "term": "static response",
   "definition": "Static response is the steady, ongoing firing pattern a cold-sensitive nerve ending shows at a constant temperature. It refers to regular temperature-dependent activity, ranging from tonic firing to regular bursting, as distinct from the brief change in firing that occurs during rapid temperature shifts.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0139314"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "de62168541335a145a95b1f1de83942c7e1a0360321b4c3702d4628083e55cc4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e2fbdd594295cbf55d23656a2fceb4be0b3121da1a800a67e16328195407a7f5",
     "packet_hash": "de62168541335a145a95b1f1de83942c7e1a0360321b4c3702d4628083e55cc4"
   },
-  "hash": "3d55f563c78fd0883025e026a58b9a434966780125196c1669d05bf40c65fa4a",
+  "hash": "3260c0404eb96399bffbd14d06c9ed7a144c64644a6d38f1d978f629d98eb649",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "8c38792c3671d631dbbb555f4be058dec195cef73b6181064512ce4543c1f483",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

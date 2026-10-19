@@ -2,7 +2,7 @@
   "id": "dermatological-disorder",
   "term": "dermatological disorder",
   "definition": "In this source, a dermatological disorder refers to a skin-related condition in which chronic itch can become persistent and disabling. It may involve ongoing spontaneous itching and repeated scratching that worsens skin damage and reduces quality of life.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0336113"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "99636e9d48a45fac8fd1a24a2e21dbda0465fdde65c13de6fb34fa42285cb1b0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "df5b92ed82aa6529eba9bc2504a1f408d06beb827e6ca631346ccd40637e976b",
     "packet_hash": "99636e9d48a45fac8fd1a24a2e21dbda0465fdde65c13de6fb34fa42285cb1b0"
   },
-  "hash": "44f5ffc5414181431008d6e01d16a520d728a133f0f0745ff7dfc964330b0c86",
+  "hash": "9b1b211af79b8291638fdd7a3187bcd21126c43c80b9cfe5a6aaefc438c27cce",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "31cb5ae64b593b7504bb2bbbe68ad3434d9307ea84d7470fffc037a1f14372d2",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

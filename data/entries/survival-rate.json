@@ -2,7 +2,7 @@
   "id": "survival-rate",
   "term": "survival rate",
   "definition": "Survival rate is the proportion of businesses or commercial facilities that remain open over a period of time. In this source, it refers to tracking and predicting how business continuity changes across commercial districts.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0326307"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9cb086d528b0bb3f9d8e956f3960774b4cc3f3544cfd40822956a2d37b3e2bab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4b415a721781d9c82c110bb60f02932f3c4795c141d83d5ea2ba5888cc8b5a17",
     "packet_hash": "9cb086d528b0bb3f9d8e956f3960774b4cc3f3544cfd40822956a2d37b3e2bab"
   },
-  "hash": "05594f32a6ec85743126de4abef4f94ccf01563d72422b2210d1cd3b30e6346e",
+  "hash": "a97c5636985c699725b6e0ecddb746870c07cf1a6f58aa42952ee65357198ee6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "e9ff8a5a931a70773ab2079c800db7f8bdfdfc648f1c35cfe4ee410a5ae6969d",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

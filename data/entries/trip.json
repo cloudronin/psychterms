@@ -2,7 +2,7 @@
   "id": "trip",
   "term": "trip",
   "definition": "In this source, a trip is an instance of a person’s travel, described by the path or trajectory they take and the destination they are heading toward. It is treated as a pattern that can be analyzed from past movement data to predict future destinations.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0325471"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6aadf6a43e7c9808c53f809bdb77ea5b157a96c0c54f17b3a7928da5e5a756f8",
     "packet_hash": "2f07ce09a39a541bb68353715cece7456432c329dce9787332f64e720530f6b9"
   },
-  "hash": "abe972159dafcba18b6da9e89eb7788708948f6c07f8fb25cae025660323be06",
+  "hash": "d6660619117c34a3eb99213d4ef804f2cfc77840eb35518f79602981bf6a260f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "bc4b3d504c14dd2361bcefed968fdaaf7e7f5f7da933e9ef89b3596a57a1d4f4",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

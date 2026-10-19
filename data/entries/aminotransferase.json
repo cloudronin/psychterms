@@ -2,7 +2,7 @@
   "id": "aminotransferase",
   "term": "aminotransferase",
   "definition": "Aminotransferases are enzymes that include AST and ALT, measured in relation to liver and other tissue function. ALT is mainly associated with liver cell problems, while AST is found in several organs and may also reflect broader tissue stress such as oxidative or mitochondrial dysfunction.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0293749"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "892a580bbd9711d85b3a74bcbd5255c8bab5cb1c38b26ba67848b5a4b91541d3",
     "packet_hash": "06fc73b6b22806698a79341154b38d9dd1a397d6237d5d68230455da197d5b4e"
   },
-  "hash": "e70b33b5c892a35c2edbd659a70508eb5ea25805124ef0126ae4aa9d071e0f00",
+  "hash": "20a57befe9115227c88f786ff86f9c855cd63c0934c37e38a858490d6893103e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "40fd022dea00eafaba3793d537d9255682bccf59b31ed2d02d58ec93b9e57c28",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

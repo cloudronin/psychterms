@@ -2,7 +2,7 @@
   "id": "data-screening",
   "term": "data screening",
   "definition": "Data screening is the step in a study review process where collected records are checked and sorted to decide which information or studies should be included before data are gathered in full. In the source context, this screening was done after removing duplicate records and was carried out by independent reviewers.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0304682"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8ed16f03a375bfc856871d499bc2caad1ddc346fc6d41d855452103cf4cfe05d",
     "packet_hash": "dac2e7673dbb756acbe13a526c89366c6ed09fa26930ca43d8f396d421ae52db"
   },
-  "hash": "8ed00a7b5e0ba2ceb47da5ccbbe569cca589f4ec6ab5297d20494a0c642f54ac",
+  "hash": "fde0dc34d0fb26e182d2471a7005be169e56119207acc9c1aaca6047b8aa54fc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "af2e76f93d51abc9d6bba618115b71c6505a180e39f043b0fbb0ab71261a2699",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "child-find",
   "term": "child find",
   "definition": "Child Find is the federally required process under the Individuals with Disabilities Education Act for schools to actively locate, identify, and evaluate children ages 3–21 who may have disabilities. It is meant to ensure that children are considered for appropriate special education supports, with parent participation and required notices and consent as part of the process.",
-  "field": "ethics",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1815521"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e1d59b958c12cfe551ea4be5d165726ac3cdceaf18323d5f57ebe079bca8baa6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fd19582710cbbc337660cc8e99b735cb3e8c80d59d45b11490d4222e00aa410e",
     "packet_hash": "e1d59b958c12cfe551ea4be5d165726ac3cdceaf18323d5f57ebe079bca8baa6"
   },
-  "hash": "eb226729df73b93e576c80d925f61409695407a3bd08b751f7225d40e9a87daa",
+  "hash": "5d49494c96a95f6db10df1ee128065def40912a1d34e18b3482a793cc15965d6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d1f50074a702f948b852d2fc54406a191e1bf40a6c91ffe27e6f2a88c08a7707",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "exposure-and-response-prevention",
   "term": "exposure and response prevention",
   "definition": "Exposure and response prevention is a psychological treatment for obsessive compulsive disorder in which a person practices exposure exercises while refraining from the usual response-prevention behaviors that maintain the problem. It is considered a first-line treatment, and its benefit depends in part on carrying out the exposure and response-prevention work as prescribed, including between sessions.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1770306"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fa034557dd4b175cc117249800e93a37cd844745826adf13269a2dbed8f91ea9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "63c9ce039c4a02e6c5fbd34aff479b15ccfce6cf6ba6d4718a5185fdf52f7072",
     "packet_hash": "fa034557dd4b175cc117249800e93a37cd844745826adf13269a2dbed8f91ea9"
   },
-  "hash": "404cc56a7dd4a02eafe37492106763a5bd2e94f7abe0116ba2b1a5d99e059b0b",
+  "hash": "0d27ab9548d1026f32284c39f1067c8f514f4e045c7934631e91d52a05c6762c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9879fdb9d87e2968e2730f6d442920763c15f584fefdf344be6f61b86aba84de",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

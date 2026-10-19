@@ -2,7 +2,7 @@
   "id": "area-under-the-curve",
   "term": "area under the curve",
   "definition": "Area under the curve (AUC) is a summary number from a receiver operating characteristic curve that shows how well a test can distinguish between positive and negative cases. It can be understood as the chance that a randomly chosen positive case will have a higher test result than a randomly chosen negative case.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12874-026-02768-6"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c7200a6b71dc283aa4ceff0cd461bb355c56ddb06432c5e275cee1abb73c4088",
     "packet_hash": "8d565dabe356a0dc2349dca91ff2ca46e194dc2913d4f3dfd54b7c054543ef35"
   },
-  "hash": "5d5d6614230dca8a7c12849287b01174f956254767a324caadc81d8c367856c9",
+  "hash": "2462e8fec4a4062fae23eeba9e149b19f4d70c81377d4e100f194b839e102729",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7cd26682fa097481ee931ac9c270ea832ccbe7a6ce1991dfc3355690d2f8b3f3",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

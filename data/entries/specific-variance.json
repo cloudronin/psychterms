@@ -2,7 +2,7 @@
   "id": "specific-variance",
   "term": "specific variance",
   "definition": "In this packet, specific variance refers to the part of a measure that can be separated from other sources of variation and linked to a particular source, such as stable individual differences. It is contrasted with variance due to the measurement occasion, the methods used, or measurement error.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0239817"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "153dea3affad11272eec3280d380999834364aa4c74c8db714f4f45f37cf233a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b4eb50b46fd2eade2fe7bf45b3c16b55e76469446d2ffc880270a974657596ae",
     "packet_hash": "153dea3affad11272eec3280d380999834364aa4c74c8db714f4f45f37cf233a"
   },
-  "hash": "ec25ca2e2b50427a004d48bcb8415be35adf8bfbfe0c23d2041a696a89cc4b8f",
+  "hash": "f0c84df75463970f7f901439dee90651ac0d0f723e7a30bbdfbddf35f90a789f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2fabef5b521e2bf1495b6ae53b4e7c24a3896840de0fbde7a60556073494479f",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

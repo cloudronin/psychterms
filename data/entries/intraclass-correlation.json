@@ -2,7 +2,7 @@
   "id": "intraclass-correlation",
   "term": "intraclass correlation",
   "definition": "Intraclass correlation is a statistical measure used to show how closely scores from different raters or scoring methods agree with each other. In this context, it was used to judge the reliability of AI and human pronunciation ratings across the same speech samples.",
-  "field": "development",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0354603"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5ff896b96a0704f886006d35191a6b4dbf8acc83e86b81d575f3fc0c1da198e1",
     "packet_hash": "5999990b3968e3dfbe35e2588daf2419546b47dea8b7603ec578cb7cdfc37f0e"
   },
-  "hash": "624f1eecd1002ebb7256eeb98d09815b544e74934656c16e49d59b069dfded8e",
+  "hash": "713b8bba46839c7aeedde897535c3c8c645f32145616cdffcad0eaf417c7499d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "082a6774c91058f35d31e7f92894405278fdbf65aef55b447be978de38d63ad5",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

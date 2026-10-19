@@ -2,7 +2,7 @@
   "id": "psychiatric-hospital",
   "term": "psychiatric hospital",
   "definition": "A psychiatric hospital is a hospital that focuses on caring for and treating people with severe mental disorders.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c43e46f16e0add3b79bb7afa42345b2ec50761a8b5e7c884dfa59a4dac5c8db5",
     "packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0"
   },
-  "hash": "a83f537858925e429fffb3a4e42eb23d31af61c019470c7154a17202ae734324",
+  "hash": "fcfbc2aee71e9366d2c13d56a37d01f81b828da25302ee8b19992b7220873466",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a846261e3d8a6df1e45b38cb89476ba3dd3680a96b8e1df8dc017bc957fa0f5c",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

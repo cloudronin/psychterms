@@ -2,7 +2,7 @@
   "id": "obesity",
   "term": "obesity",
   "definition": "Obesity is a widespread public health condition in which a person has excessive body weight or body fat, often discussed alongside overweight. It is linked to major long-term health risks and, in children and adolescents, may also affect brain development and cognitive functioning.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1920260"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0077596445f92c0a2b62ee95e0d494f23383a1b3b1a12f4e29972cc8fad14126",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "10a225a7b4ba8caaf5a2c5c9e839b2cf699b52ca79862cfdbef030b8ed2d2fa8",
     "packet_hash": "0077596445f92c0a2b62ee95e0d494f23383a1b3b1a12f4e29972cc8fad14126"
   },
-  "hash": "a2dc83ffa943e7c0aa583f3cd177fdb14ae0c9280d39eb85148ecddaf69d0615",
+  "hash": "27cafa2709880cfd470a2caa5071c4ceb2f2ee57f2efbb82b8aaf18894adeb54",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e963437d5ac41bfc60e7ce20e2d02fffb4b10f03ce515bc1cf9b067cde2b7bac",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }
