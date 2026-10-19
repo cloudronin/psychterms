@@ -2,7 +2,7 @@
   "id": "body-mass-index",
   "term": "body mass index",
   "definition": "Body mass index is a widely used measure of body size that serves as an indicator of nutritional and metabolic status. In this study, BMI was grouped into categories such as underweight, normal weight, and overweight/obesity to examine how body weight status relates to sleep disturbance.",
-  "field": "development",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1902262"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5aec2dc24e7adee6bec11e6817d4fd4df4696d7c565ab05ee36270a7f5df69fd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "060f86e32dc52ebdf0a0e2b8b326106e191619971a25e2efeb35318941c7562a",
     "packet_hash": "5aec2dc24e7adee6bec11e6817d4fd4df4696d7c565ab05ee36270a7f5df69fd"
   },
-  "hash": "e623a44bdb5a7bc1031980ad1ce2eb0edb3ea35566a90c76437ad6456ec0f49d",
+  "hash": "80e3be7244e68de98302c68e6453734dc22b2034689ac450536a3535c72c4888",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "29a790a874644b327cdfcc030c35150723b65bc261f1af5a674413393dca54ea",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

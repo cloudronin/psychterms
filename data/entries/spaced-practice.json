@@ -2,7 +2,7 @@
   "id": "spaced-practice",
   "term": "spaced practice",
   "definition": "Spaced practice is a way of organizing training so that practice sessions are distributed over time rather than grouped together in a massed format. In the source packet, it refers to one of two practice regimens used to compare whether spreading working memory updating training across time changed transfer effects.",
-  "field": "cognition",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0211321"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "682320c1b10c68d94900a5ae7b234df546d76c09686a04e6af3e910caf13e4b2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "68814c1161cd6ab06832d57dc656d2664b8727d0014fcf84df7fdf0ba6815224",
     "packet_hash": "682320c1b10c68d94900a5ae7b234df546d76c09686a04e6af3e910caf13e4b2"
   },
-  "hash": "5cece5e466da7e5269c7446928d967584c237e56d3b418aa1198e73ba621780d",
+  "hash": "44eedd3014930d964fc8a496b936d1978434e459f42449a4a4ec4a7ad4fa7342",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9edb952f83582a79fe852f73e8891fe959c1d10e3109b7c8a8f0819558601a0e",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

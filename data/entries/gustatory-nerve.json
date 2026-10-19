@@ -2,7 +2,7 @@
   "id": "gustatory-nerve",
   "term": "gustatory nerve",
   "definition": "A gustatory nerve is a taste-related nerve whose fibers connect with taste receptor cells in the taste buds and carry taste information from the tongue to the brain. These nerve fibers also help organize and maintain the presynaptic sites used for communication with taste cells.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0325312"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "67ae4560ea1465ab59d7ab1a88ad1d8d67cd79ed025c17f04326be584f190948",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "289d7faa00ec192cfba8bba7fb3aecaab0106461e70a80100fd1b626a95473e8",
     "packet_hash": "67ae4560ea1465ab59d7ab1a88ad1d8d67cd79ed025c17f04326be584f190948"
   },
-  "hash": "49a120f90b70ba340872dff56699317a6f113589c87237277cd5a87f92007895",
+  "hash": "0dc0857ef59f91285e866253e550ac02ab51dd9ed954ec5f6ba942b33dd9de94",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "54f71da4ddbca45fb65b9b28c3342f5f61276d9b8e30d9fba976ee00ec842912",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

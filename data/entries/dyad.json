@@ -2,7 +2,7 @@
   "id": "dyad",
   "term": "dyad",
   "definition": "A dyad is a pair of people in a relationship where each person’s traits, actions, and experiences can affect both themselves and the other person. In care settings, it often refers to a care recipient and an informal carer who rely on and influence one another.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0333728"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3a1303dc0c68b107f8562e79e06d7e414e8d0022241d91e81f5fd659b1f465a7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "edf71bc2a8ce17f9ceda7a52e8c168f2fa0ac838f9d9e268e388a268fd3aa37c",
     "packet_hash": "3a1303dc0c68b107f8562e79e06d7e414e8d0022241d91e81f5fd659b1f465a7"
   },
-  "hash": "2b9db6d168ec7402b10a56049aa8ee26f6997a61076adf8a48786e7418018738",
+  "hash": "fa23290e61b5636c73e6dc9f51fc350124cacbf2771f3667622aae93ee868aa7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9f108ed51d2482de3aa7df3f45c8bdd98fb9b4d870c3ada512201c7c4898143f",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

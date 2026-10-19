@@ -2,7 +2,7 @@
   "id": "period-effect",
   "term": "period effect",
   "definition": "A period effect is a change seen across calendar time in how common an outcome is among people with the same duration of a condition, so that those diagnosed more recently differ from those diagnosed earlier. It refers to differences linked to the time period itself rather than simply to how long the illness has been present.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0174979"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "435eb0f6d56e57a557ba11e3793738726065645d4c5a9aca28f3ed0bb160923f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3f5adb7533d97c13c152928072bbd1520c05b9736c69b359a2323b87420ab312",
     "packet_hash": "435eb0f6d56e57a557ba11e3793738726065645d4c5a9aca28f3ed0bb160923f"
   },
-  "hash": "276d811a92aff9f9103e7204b248eacceb548358d473416e1a5a762c63f9928c",
+  "hash": "b304b09a84cc870d73d55ff791803cc2fe57e1dbc0b6be522b3bf664a0b68277",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1ed53e0bc5f21599bffd8cdb7bd3058dfc147e05fbd3eb0f553d88d8bb06d430",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

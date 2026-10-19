@@ -2,7 +2,7 @@
   "id": "substitution-test",
   "term": "substitution test",
   "definition": "In this packet, a substitution test refers to the Digit Symbol Substitution Test (DSST), a scale used as part of cognitive assessment in older adults. It was used to measure cognitive performance, with lower DSST scores treated as reflecting worse cognitive function, particularly executive functioning.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0338613"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "688f744a936bb1517f27b7780c47d510b9d147e9934a0d91af40f090f6589c32",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8f1bcbaea483e5ab0da6ce563cfa4957064ac8b5b99f62b73ff83273d47d7009",
     "packet_hash": "688f744a936bb1517f27b7780c47d510b9d147e9934a0d91af40f090f6589c32"
   },
-  "hash": "2a2b9134d1ee06b33b8709f23c39bfa852b1d584e362d05a702c7177c022bd40",
+  "hash": "e9ec6cc5034bd484892c4708d9f8766fa516cbda0469b2124b92b873694c2a7c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e8c11ab19fb86e622679309075d8d42e7221d16351ce0f422163dc73b394254f",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

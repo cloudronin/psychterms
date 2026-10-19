@@ -2,7 +2,7 @@
   "id": "negative-contingency",
   "term": "negative contingency",
   "definition": "Negative contingency is an action–outcome relationship in which doing the action lowers the chance of the outcome. In the example described, pressing the lever prevents reward delivery, so the subject must withhold the action to obtain the reward.",
-  "field": "cognition",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0033302"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0a82f4ccc0162167a2c2fb59d5c172a02172e832e92c60dca22ebd234870ed36",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f16855ce40964ee69b59736947a34db9f3306b3b8121a42fa6df36d242320078",
     "packet_hash": "0a82f4ccc0162167a2c2fb59d5c172a02172e832e92c60dca22ebd234870ed36"
   },
-  "hash": "da680b3464775d665595949f2db0d7c068f9303ce36601cfc46004d2434c5b87",
+  "hash": "6b1640b8dce06d5ab662b13db75dc6439293d462de29fe21085225f5bd21afda",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "95d5cad008660795a7e435fd0c2eeeb6d334358241255e2fa1fbb6083995e13d",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

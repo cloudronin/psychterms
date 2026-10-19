@@ -2,7 +2,7 @@
   "id": "autoregression",
   "term": "autoregression",
   "definition": "Autoregression is a time-series forecasting approach that predicts future values from patterns in earlier values of the same measure over time. In this context, it refers to methods such as neural network autoregression used to estimate future trends or clinical events from past data.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0296064"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7ea594b9f32bccbd5fb1b2cde327ba03ed1ba3bb3a6cddc28ba2856e0437546e",
     "packet_hash": "4ddf994978cfa4473571ba4d28b10b478725a218133c84af0c1dae9fb298eee9"
   },
-  "hash": "815b4381d6f398dbe84bb64e214099170d9ebd381fdf8d5c6886172fc89a1927",
+  "hash": "919ac227178dc5d9677554894956116e2bb0e449c0ac0dd5caaa2807391179ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "939d5ff77e49a5c4c837f884400ee961558a67568c0e67b2a36db662098caeee",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

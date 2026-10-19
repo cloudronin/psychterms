@@ -2,7 +2,7 @@
   "id": "peer-rating",
   "term": "peer rating",
   "definition": "Peer rating is an assessment in which people are evaluated by other members of their group or team rather than only by themselves. In this source, it refers to team members rating one another’s typical team role behavior.",
-  "field": "development",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2024.1345892"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "881feb55bbee94d6700b9e6e7a32382ae5774cb7b782c13499bce07c4df521a9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5998c3d5458b78a2af1a0150e828a5aa0edee2efe9ffd75cfd184421499087e6",
     "packet_hash": "881feb55bbee94d6700b9e6e7a32382ae5774cb7b782c13499bce07c4df521a9"
   },
-  "hash": "cb214ceeab7215627170e93b62281c7b1d87f9cfdd54cac077979adaaedef317",
+  "hash": "a1f0e1752059e8b0e7285ee95f6c9d3b38f5b8a3f6d740c41f6aebfa53bd5477",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "895081777f8bf4353f2a082cd13a4eff9d8dc4dc79203912a121f4e35aacda82",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

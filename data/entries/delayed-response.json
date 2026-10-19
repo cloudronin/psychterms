@@ -2,7 +2,7 @@
   "id": "delayed-response",
   "term": "delayed response",
   "definition": "A delayed response is a brief lag in responding that can occur when two stimuli are presented very close together in time.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D012033"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e9d6856492df43f12afa4137640fa644126dad2c2dec5f60995368212372da43",
     "packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda"
   },
-  "hash": "ad7b46efa1e3a46e797d097f5c4e754eeb2b4dd32033b5b5c048157c2a80c687",
+  "hash": "f545ce39a52665c6ca7bdd9b2d8152501fb2dd3684fed93d386333a75ae98f10",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d7c9826d6cc32ce8d8670294fba42d36e45d2cf85b0309df6d184613e02bf310",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

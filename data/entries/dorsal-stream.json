@@ -2,7 +2,7 @@
   "id": "dorsal-stream",
   "term": "dorsal stream",
   "definition": "In this source, the dorsal stream is described as a visual-processing pathway whose impairment has been linked to a bias toward the upper part of the visual field in relation to schizophrenia traits. The packet does not provide enough information for a broader definition beyond this context.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0325609"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a247fa0ce36685b3109e867715cd9380313f8aba952e81c147e20a63bf97ba90",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "87375502a3478ec6564fe0be9961f049876deb693bfb67a76e30f82a3ddaef2d",
     "packet_hash": "a247fa0ce36685b3109e867715cd9380313f8aba952e81c147e20a63bf97ba90"
   },
-  "hash": "c938824616ffb110e4c3035a0f99bd360eac8a27514411a2a6b738a61dd1ff5e",
+  "hash": "0e9de9c53fd9e953dfcf691406b8af16c3c874e866796cbdd94b438a85f6996a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0421ecf9d2c3119206cbd965daec80f13dab232c4ce7af82c1ad056e5ca7db1b",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

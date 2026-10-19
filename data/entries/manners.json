@@ -2,7 +2,7 @@
   "id": "manners",
   "term": "manners",
   "definition": "Manners are socially appropriate behaviors used when interacting with other people. In this context, they are part of social skills involved in getting along with others and expressing or recognizing emotions appropriately.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b0cc42f656450c8049f85946e20b47cc463a547c9d8c4099359c276526b212c4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "379d8da09418dc904815bc96d2a99edf3f421925c60e1f3c99b8e69f54611057",
     "packet_hash": "b0cc42f656450c8049f85946e20b47cc463a547c9d8c4099359c276526b212c4"
   },
-  "hash": "504c1244bf3b51aa634a3ea06a452b32b747dd1dfb3b1499004710cafcf64acd",
+  "hash": "36d8320735a5e0c8359138a7f2f75c8018ac5b3db9b3e61f5a368795038d1579",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3c1b70599d4052c96b9c06e66ddfe0b4d4c12afcba6dbd67b8448515dc52de14",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

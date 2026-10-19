@@ -2,7 +2,7 @@
   "id": "prs",
   "term": "PRS",
   "definition": "PRS stands for polygenic risk score, a measure used to estimate an individual’s risk of developing a disease. In the source, it is described as being used for individual disease risk prediction and examined for links with osteoporosis and low-trauma fractures.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0342748"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6390a5e1e7304b82c307f76dd406000666beae9f94caea31aab1461cda39d1ad",
     "packet_hash": "789a1942015dcf18fe7ff3d47577b814289eed84132a6daa595bdf06c83c818c"
   },
-  "hash": "835f3fe3da3785dda8aa83616526aa3c8971fac612668c44e653f016967e9e8f",
+  "hash": "325b8bf2956b25dcdb95021a171ef55ba4685926385c2f17df6526fbc9a395b8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "dda764376a28aa94c294b71d4901dfe8621bf4ea9fe6e59c26a735e159870f44",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

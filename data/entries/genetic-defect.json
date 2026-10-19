@@ -2,7 +2,7 @@
   "id": "genetic-defect",
   "term": "genetic defect",
   "definition": "A genetic defect is a disease-related change in a gene that can be identified by genetic testing. In this packet, the genetic defect causing the inherited disorder was the presence of two different variants in the PEX10 gene.",
-  "field": "counselling skills",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0322137"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b51a4393e4b5e6bc701ae2d8954b21b414876edb7b1b7bf8fc563b8a688cf104",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4617b739ce7df06d395b8d104138199c93e98612c797fe5bef3092f4abbe052e",
     "packet_hash": "b51a4393e4b5e6bc701ae2d8954b21b414876edb7b1b7bf8fc563b8a688cf104"
   },
-  "hash": "572ba5aba837d71aa866d4826dd0bc764406cf454c114e48615e2dee7db122e8",
+  "hash": "a2b7ec7f0162608ba7c3df77a0b74d9d1808f9df7d824b41ee4d609e64000b31",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "229bd469eb8c8a983af4cab4630f16a8b7ea4f0d7750e7299fb169759354372e",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

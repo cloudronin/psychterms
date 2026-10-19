@@ -2,7 +2,7 @@
   "id": "glutamatergic",
   "term": "glutamatergic",
   "definition": "Glutamatergic refers to brain pathways or mechanisms involving glutamate as part of how neural circuits function. In this psychiatry context, it names one of the non-dopamine pathways being explored to understand and treat schizophrenia within a broader, circuit-based view.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1769613"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "48d7baf43c1a29a7a234dd041621acb84ca39555103a143a63a3ab2a2696c494",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "41b48716938fb87a2338b8d49ed8fc851a11208d4c755860328fc8038446685d",
     "packet_hash": "48d7baf43c1a29a7a234dd041621acb84ca39555103a143a63a3ab2a2696c494"
   },
-  "hash": "74b0da812c69702b9fd6beca6abb451cf8cdf74c200034b40d1800932aa06d6b",
+  "hash": "7bfa67d5fff6cf9b9b2940f2d84a85a93861709455c4131b027f66f8dcc46a5b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "700bd7904a80e76dbfc1860fc88661441ea40489660dceeff61fcc764342616c",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

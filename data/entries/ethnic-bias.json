@@ -2,7 +2,7 @@
   "id": "ethnic-bias",
   "term": "ethnic bias",
   "definition": "Ethnic bias is a tendency to favor or judge people differently because of their ethnic group. It can be implicit or explicit and may shape beliefs about traits such as warmth, competence, or likely compliance, contributing to unequal decisions and outcomes.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0201168"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a5abc1345121de6f8cf076b0d767d8209095b3b6c29879894f648ce0225bf07a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "25b919ab3d10b729986f3a796b7601c5bd2c482397ccfab797d16e6c41bc4516",
     "packet_hash": "a5abc1345121de6f8cf076b0d767d8209095b3b6c29879894f648ce0225bf07a"
   },
-  "hash": "5639c46a7952dd8db456023ae9615d6c99687a56d67295bfd3a7a5d80fc5c7b8",
+  "hash": "d74a0be74a19c37cf401f430133c4e831949aa3a6c53fd738c48ad2cc38a0203",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "30f5405317a9ff1dd1254449aa9d3bafe3e3830688b48432befa9edc9964862e",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

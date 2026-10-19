@@ -2,7 +2,7 @@
   "id": "tas",
   "term": "TAS",
   "definition": "TAS stands for Technology Attitude Scale, a brief self-report measure of a person’s views about using technology. It looks at confidence with technology, the value the person places on it, and how useful they think it is in particular settings.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2731656225317d0a3ae7b2b4a7acb49d41c16bb2d4ca620438914307f94b7033",
     "packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7"
   },
-  "hash": "6f4ad7900f8ae405d47f36544395026f0e72a189d22bab60c10b8d3e560fbbdf",
+  "hash": "f1bf6d436411ae8677ce9d212485e65f3bf829e6d1e3a858b9a475c0f4a2a7e4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c4268aad0543f9212d5f373864ccf515ae05cb13cf5c97f5a47e3a87f795b5b5",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

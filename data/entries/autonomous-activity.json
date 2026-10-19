@@ -2,7 +2,7 @@
   "id": "autonomous-activity",
   "term": "autonomous activity",
   "definition": "Autonomous activity is behavior that is carried out for its own sake, mainly from internal interest or enjoyment rather than outside rewards or pressures. In this source, artistic behavior is described as an autonomous activity because it is driven by a stable, domain-specific intrinsic motivation.",
-  "field": "learning",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2021.769915"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a5b955af75dd882e9ac2b2829677adfcfee690de395c76287d66457ed7d6ecd7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ab0cb7aabf9d6aad03f5ff143ec12c6ae6564f359a033d4f7adb5ba8ca5f1c1f",
     "packet_hash": "a5b955af75dd882e9ac2b2829677adfcfee690de395c76287d66457ed7d6ecd7"
   },
-  "hash": "3804b6e1e225b423697879943a727b82a9cad80d1b92b8f610923f94fa94ed6b",
+  "hash": "938f852b35ea50f3b9082f249e4b592604e1363e81f32a64ea0c68f8e596a385",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3ca739775494dfb87dcd964b0d3779221a8b26dc2520b5448ab95e2e53a158e1",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

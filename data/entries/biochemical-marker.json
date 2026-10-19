@@ -2,7 +2,7 @@
   "id": "biochemical-marker",
   "term": "biochemical marker",
   "definition": "A biochemical marker is a measurable body substance used to indicate a physiological change or possible injury. In this study, blood creatine kinase was used as a biochemical marker of muscle injury.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0248653"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cf0ae6990f703436ecf0aa8264c3e1969f0e94253a3819173315af1cb22148c3",
     "packet_hash": "5d48deacacf682c8ea1b24e097008d78d7e09fee852796dc43ea2c1e4093739a"
   },
-  "hash": "15fef3db1a934e60a5fe79fea14999ecb1e485d1c3ac87b313940b8fc8118c38",
+  "hash": "46e3ec5ae13ed6d96d45bd959f88fe3a8ed203e8adbe61bca4e0de69c0316369",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2ebd69adf1c9875248a3f73df8c8a79c1a727d64dd52c9cd4aabf7eafc27cf59",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

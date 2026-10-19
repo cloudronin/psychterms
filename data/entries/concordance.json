@@ -2,7 +2,7 @@
   "id": "concordance",
   "term": "concordance",
   "definition": "In diagnosis, concordance is the degree to which a result or judgment agrees with a clinical benchmark. Here, it refers to how closely an AI system’s diagnostic conclusions match established clinical standards.",
-  "field": "diagnosis",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1941175"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ffb747da3d3399469cb1bd3a93d0bf291f4a029f213159a4b64beef4e1f39329",
     "packet_hash": "d02e244aa58290a8a1e13efc3a21697d7e9fe9218663f0abe61a44338882d44f"
   },
-  "hash": "cabcc7a75b412f208abe94fd3345b6e83919e81fd2e8c1f4e0d575791499c0da",
+  "hash": "0eccdde875622c4ca4942615b7ed53a794ddb855d4773fa553a801f84b1291f4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "68ca050c8b5cb9345f9de35fa467b68cf2f5b0664cfab9cc35ad9b6283917e35",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

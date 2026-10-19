@@ -2,7 +2,7 @@
   "id": "distributed-representation",
   "term": "distributed representation",
   "definition": "A distributed representation is a data-driven way of encoding an item as a vector in many dimensions rather than with a single hand-chosen feature. This kind of representation is learned from data so that the resulting features capture useful properties of the item and can improve later analysis or classification.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0141287"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6eb8094a03247d083f28d271e471ae39c2cf651e6ae822e68b10918fb97baeae",
     "packet_hash": "58cc9e9d984f575e2414d3f82fd671b3b5c7b9d22a6100eef16b63cbfc7941ab"
   },
-  "hash": "2e78273fe9262a8fcaa56b92704c6c1dd18d252481d0cd819a29b5c4b4e53cb2",
+  "hash": "9d7e0a31be5fc47ff0824d9975e62574f56d17fdc92f6c82d5448f5f52eb2a4b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "028a506a4d145af68ffc5c46e8c477ef6553619ecd57b3e7f8397bf14af7ab6b",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

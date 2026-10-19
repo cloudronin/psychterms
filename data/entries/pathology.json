@@ -2,7 +2,7 @@
   "id": "pathology",
   "term": "pathology",
   "definition": "Pathology refers to the bodily or nervous-system changes that are part of a disease process and may help explain symptoms. In this context, neurological pathology means physical changes such as demyelinating lesions, axonal damage, or brain atrophy, although these changes alone may not account for all experiences or difficulties.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1890987"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "518f9b4c975c66180d43180543a4f63a8cbeb23a50cdea42035c8771d9d5c41c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "48939588d836ab7ba9177a2f9e9095e468a31c0cbc94b55bc51e4157c8acb4fe",
     "packet_hash": "518f9b4c975c66180d43180543a4f63a8cbeb23a50cdea42035c8771d9d5c41c"
   },
-  "hash": "9fed21310459bc721310f7ac7899106932acecc211ce487044cbde9b30191457",
+  "hash": "ed91a9a305d33d4dcb00d6e77d284c83a2d4e63a13cd82931b7f004cab5a0342",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "9560ab0cf205b97af1d727245e27dc9a91c5dd8decb6221a2ff026d943ec2aa8",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

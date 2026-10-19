@@ -2,7 +2,7 @@
   "id": "diffusion-model",
   "term": "diffusion model",
   "definition": "A diffusion model, here the Drift Diffusion Model, is a way of analyzing decision-making that aims to reveal the cognitive processes behind a choice rather than only the final behavior. It can be used to study how people weigh options such as immediate versus delayed outcomes in different contexts like gains and losses.",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-025-07200-9"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "53a195ad1364bcd39e748a556fdb80db6604ea28a3d1dce5a754c7ff3d1eb2f4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "16b456131f17b8780e48660ae398c3458763abb0fa4f28e1210a6f6ac16af966",
     "packet_hash": "53a195ad1364bcd39e748a556fdb80db6604ea28a3d1dce5a754c7ff3d1eb2f4"
   },
-  "hash": "e84120b4baba904a3e988922b2ef4611bdcc33e417ce9be4254e2d8e0adc22b5",
+  "hash": "308e8dfc0dad52f733d0cc64682f9959647e437a77af3be922c66dd8b939a06c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2bd5c8da2dd63bfdc462b81127183ad4e8ad5345b735d19a55d35b099808ec4b",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

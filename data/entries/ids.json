@@ -2,7 +2,7 @@
   "id": "ids",
   "term": "IDS",
   "definition": "In this context, IDS refers to the Inventory of Depressive Symptomatology Self-Report, a self-report measure used to evaluate mood disorders. The source specifically discusses its use in older adults with subjective cognitive decline and mild cognitive impairment.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-026-04514-5"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2174d0e6485b991075b73eba65494d166484d21632dd35a747cac1937fdd70fc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f505d6d015c27ae586edf9c0dacd1afdd930c8b1115ae8a8ec87353759753243",
     "packet_hash": "2174d0e6485b991075b73eba65494d166484d21632dd35a747cac1937fdd70fc"
   },
-  "hash": "8f1b3666832fe142059f6683031a35a0baf218099486ece335e978f99800b006",
+  "hash": "88e7cbe8066e75a266b7cdf32785894f0274d8e9705cde648f46becaccfc1c5e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3f1870a8fb2951d39d33ba7790cbb72b790564faf8e5bfe611b5a3150099408d",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

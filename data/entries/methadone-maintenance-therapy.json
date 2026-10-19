@@ -2,7 +2,7 @@
   "id": "methadone-maintenance-therapy",
   "term": "methadone maintenance therapy",
   "definition": "Methadone maintenance therapy is a harm-reduction program for people who inject drugs that uses methadone and is intended to help prevent and control HIV and other blood-borne infections linked to needle sharing. In the source, people enrolled in this program are described as a high-risk group for hepatitis C and as having reduced injecting behavior.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0324718"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "bcb2a0c81b9689368b9a14341ce9e51a857254820d0cbbb8baa8b7b7c1cae49e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3b4ffc9c366511d19b92ba1f28e8d94d06d2e16cdec618086d7e54364b7c1c15",
     "packet_hash": "bcb2a0c81b9689368b9a14341ce9e51a857254820d0cbbb8baa8b7b7c1cae49e"
   },
-  "hash": "6a23973d0adee025b547810b07e4f2c9d817f0c530f1e4c370e81733e859fad1",
+  "hash": "5abb17ce689289613cf82685a84b63141903d8b34a29f7bc8c7eae7d5e003693",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "f6d6b2137dbbbf41a35a2826bbd5b32d2720bb7c047794df98619b1c7ce7b606",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

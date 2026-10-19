@@ -2,7 +2,7 @@
   "id": "strain",
   "term": "strain",
   "definition": "Strain is a sense that something is difficult or burdensome, leading to worry or emotional tension.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6d86cb2b4de556f26ebcb5fba47614a8ef18c1611ca660ef8ca22852a69e7203",
     "packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be"
   },
-  "hash": "b05b7f0f89f134e2146437d19093b5eab3ce4a34c2567c8c6d0fa0da020cef47",
+  "hash": "38d0ab5c0a86099b9a0bd5a34841dd8d5d586885f49eb3c0b790c696483c9252",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "6d6266ea34d22c63833aab4a2f9b60f10fed0b44bbc25515ed9c3e628069eed9",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

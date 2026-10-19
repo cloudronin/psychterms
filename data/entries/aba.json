@@ -2,7 +2,7 @@
   "id": "aba",
   "term": "ABA",
   "definition": "ABA stands for Applied Behavior Analysis. In this packet, it refers to comprehensive intervention approaches based on applied behavior analysis that are used in the treatment of children with autism spectrum disorder.",
-  "field": "diagnosis",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-022-04412-1"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dc489b24d4ea468307ca064967cda7755c6d8b257c5d959f75cbb25f27bee722",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "506b396d8f1cb493e7c84eecc20c4d723b03259d762cfe1e5378d222f22f5778",
     "packet_hash": "dc489b24d4ea468307ca064967cda7755c6d8b257c5d959f75cbb25f27bee722"
   },
-  "hash": "abec5f4d65f88b2edea90fa6dd3249d1f98911cbba20a615534dd36148f3275f",
+  "hash": "1362518d1e79f07c1c80c8bcc625aa36b6780f4a777def16d64ad66fe486f739",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "989da2c32cfcd6aa9a4b9b47a55dc709bf6a7950f196ef4686eb2f4ea6ec6897",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

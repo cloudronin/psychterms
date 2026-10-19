@@ -2,7 +2,7 @@
   "id": "csai",
   "term": "CSAI",
   "definition": "CSAI refers to a method that combines compressed sensing, parallel imaging, and AI-based reconstruction to produce high-quality MRI images more quickly. In the source, it is presented as a way to shorten scan time while maintaining image quality.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0318599"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9dca7eed53d1c8163fe9bc794475f49dc9877d82b7a3e1a29ee9aa5add945272",
     "packet_hash": "21697ef3ecb04a332476b6518299caa4a9a77f63306a1c475c571b22cbc5e4b8"
   },
-  "hash": "f892a7a80a4b8f82a38a6576af8e8423e8215a409f6ddf9e7d81f206b9d93e0b",
+  "hash": "b2b8801cf2feeef288ade4d2ebf967c43004d6a3c40bcfe25b0b47de25d867b9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2e0ead17124ab23b8b0af6e7e26e2f013ca0e39434b4607ae219f1ca1b2dba39",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

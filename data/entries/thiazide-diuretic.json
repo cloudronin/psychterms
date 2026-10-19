@@ -2,7 +2,7 @@
   "id": "thiazide-diuretic",
   "term": "thiazide diuretic",
   "definition": "A thiazide diuretic is a type of antihypertensive medication. In this source, it is mentioned only as one of the drug groups compared when examining schizophrenia risk.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-024-05578-6"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ff94e7baaa2dcfc665356b7a1a68db419d000d2ecbb94089e7e11339bd8eeecf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8ffc9028bf898f0f42d06fe77c76e7f3b252db0cfee4ed20783f302e04b21a32",
     "packet_hash": "ff94e7baaa2dcfc665356b7a1a68db419d000d2ecbb94089e7e11339bd8eeecf"
   },
-  "hash": "541e7f35b8bb21342422457e38912cb77f119bceedfa4f7be2b0cbd5851ab0f2",
+  "hash": "0c3dd119f78df193bd99d66bcbe596b39e93cf57448cd775318c5a5bf6720ad2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "33f373dd9a8ede1e44080c0184442beef59b1e2ae5061f7a26931c98861a3a58",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

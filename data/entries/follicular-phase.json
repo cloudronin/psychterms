@@ -2,7 +2,7 @@
   "id": "follicular-phase",
   "term": "follicular phase",
   "definition": "The follicular phase is a stage of the menstrual cycle. In this source, the late follicular phase is described as a high-estradiol period and is linked with peak performance on a hippocampus-related pattern separation task.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0322652"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c3ace784c6e9dfc291726be68ae7ef4e1c3f578ad468dbe118a3ae1e90096151",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f79300908bdd969a5cdd7a7aa25e64257b4127738e9f4e5fcb65cae547145bce",
     "packet_hash": "c3ace784c6e9dfc291726be68ae7ef4e1c3f578ad468dbe118a3ae1e90096151"
   },
-  "hash": "e5e5281c16a46c1e0a290f127a7ecc9508158f32ecfc3de89ae0afe0a98396ee",
+  "hash": "6bc704e62d04ac2ad4c7a7ce298bd9bab94c32aeb9c0341b21a214ef388bad51",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "c66bb623059c626489334aec5e1c8519bc57e52a51277bdf33d91936a958a163",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

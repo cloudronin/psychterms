@@ -2,7 +2,7 @@
   "id": "cbcl",
   "term": "CBCL",
   "definition": "CBCL stands for Child Behavior Checklist, a standardized questionnaire used to assess children’s and adolescents’ behavioral, emotional, and social functioning. It is completed from parent or teacher reports and is designed to capture a broad range of problem areas, including attention and behavior difficulties.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1767665"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fbb8b69507e009bdffff2e06ba0008c053043f39c16cf41b3613ff02b6e9cbcd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9dc410379740daf7448091f944a94a1989f2c17661905fc46076c375fb0ec653",
     "packet_hash": "fbb8b69507e009bdffff2e06ba0008c053043f39c16cf41b3613ff02b6e9cbcd"
   },
-  "hash": "e8bf3f865e628174d3b367d5836de1f5be863019e0ce88eb1687f5caa8cce50b",
+  "hash": "94e22f944190961a15208ef841429c9fd1010b82491ee0dfb1f30cb18d0d0f97",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "27c5ace0fb81e6630ad4b48d0653abfb643ef0d98f467cba81e065a480c26c70",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

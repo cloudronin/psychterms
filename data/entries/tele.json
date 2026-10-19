@@ -2,7 +2,7 @@
   "id": "tele",
   "term": "tele-",
   "definition": "In healthcare terminology, tele- refers to services provided at a distance through digital and telecommunications technology. In this packet, it indicates remote delivery of care rather than in-person contact.",
-  "field": "development",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0346591"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "526963725c1eb3a81f925f770bc5b9a5a336944aa801079276fd5d6dbf2b86ac",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "751cf62a8c163ce5e20becf2b6de6de4a20dcbc6f5a4aa23323dc124b4139a1c",
     "packet_hash": "526963725c1eb3a81f925f770bc5b9a5a336944aa801079276fd5d6dbf2b86ac"
   },
-  "hash": "4fb78b5ecb6df6664d26b5b01df8580e3dd4d6e9047b7448ce022cd5cc4e4e2b",
+  "hash": "631ac4e71a9050606c96838096b9724d9ff9ca6fa325dfcbc0bb97317d60fbe5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "05108f12ffcd14abfa2dc53a19a7719ef2a40fb0cab62a23a697177fe897ca4c",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

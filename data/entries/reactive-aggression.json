@@ -2,7 +2,7 @@
   "id": "reactive-aggression",
   "term": "reactive aggression",
   "definition": "Reactive aggression is aggressive behavior that occurs in response to interpersonal provocation. It refers to aggression arising within an interaction after being provoked, rather than aggression described without that immediate trigger.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0027668"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "32621f363dcff1523847b6baf06c3ed1552263a18810ac24dd69c1449d6e56d7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "48f2fca99bba0f5318875746552502c0c58184420ec076e1c070ebfa530699d4",
     "packet_hash": "32621f363dcff1523847b6baf06c3ed1552263a18810ac24dd69c1449d6e56d7"
   },
-  "hash": "7a8e01e56c57083a777148d9f646175f992f4b8565945787f0aaeac31d3f6288",
+  "hash": "69ab590ec6d23f7df8fe61cdcf0d87ae09de26a5607147fe83c0ee153079e531",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "19198d2e0ee53ba11563af14a047d62d5a4a7c64ec90ec5fcba329c546db3078",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

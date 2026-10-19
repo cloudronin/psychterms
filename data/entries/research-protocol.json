@@ -2,7 +2,7 @@
   "id": "research-protocol",
   "term": "research protocol",
   "definition": "A research protocol is the planned framework for a study that states its goals and how the research will be carried out. In this example, it includes the study’s methods, recruitment approach, and the roles participants and advisors will have in developing, analyzing, interpreting, and sharing the work.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0313908"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9e721bc42be5eb2acc1e73c6763114bb8a9f5ed923610657ad20b2a49d1b9eac",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1f060cd755ed8754053f75862af84792e33d5103e8ff71339323ba0f640430f1",
     "packet_hash": "9e721bc42be5eb2acc1e73c6763114bb8a9f5ed923610657ad20b2a49d1b9eac"
   },
-  "hash": "d4e502e0b9147eb40e9ed871a315162612af752741559462d5e9868c84b54d0f",
+  "hash": "e2b8935a6713b224892a33dc95ec3646c4847fffa56ecdf12ae8556b67403c1c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "599e1bafa6cb7ba2bf7787e4a2523c3fe286280ad4e2566f00081152ad7b16cf",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

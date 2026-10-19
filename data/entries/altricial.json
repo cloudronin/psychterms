@@ -2,7 +2,7 @@
   "id": "altricial",
   "term": "altricial",
   "definition": "Altricial describes very immature young birds, especially nestlings, that are still limited by early developmental constraints such as not yet regulating their own body temperature and relying heavily on parental care. In this state, they may be especially sensitive to temperature changes.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0334815"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dcdc921aa581b53bd51e774fc64d4c432eec3f06582a423279f3463dd1b7aadd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "22e78ccc9000b9e318e520f4c01be4e37c96e41b0b5f9c6e77b5d405a4372acd",
     "packet_hash": "dcdc921aa581b53bd51e774fc64d4c432eec3f06582a423279f3463dd1b7aadd"
   },
-  "hash": "6f08a7caadc36a390daf455e93020dba1e95900e8e3182c28e8e64f930a01c5e",
+  "hash": "83f41dc4cb2f00c83af251ed7fef4eef8e82b4928091fc316cedbf0548132129",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ed2be0033a63054c71a1a36499ccc508108e59fd42889015154ce6e282ff4da2",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

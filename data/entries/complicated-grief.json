@@ -2,7 +2,7 @@
   "id": "complicated-grief",
   "term": "complicated grief",
   "definition": "Complicated grief is grief after the death of a close person that involves poor adaptation to the loss. It may be linked with other mental health problems such as anxiety, depression, and suicidal thoughts.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-023-05412-5"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "437762b9068c80071efea7d89876b235a85bb3509f762332e9c86966dae85b88",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b1aa9d1de6a1630a6b1380c11cf3848e6f87babec76de3c32c8d04b61e3c620c",
     "packet_hash": "437762b9068c80071efea7d89876b235a85bb3509f762332e9c86966dae85b88"
   },
-  "hash": "c6f1107f314a639717ab8b01f5ad9e5381c4ba46c60f11d98d6e2a4a497e37b3",
+  "hash": "47d9e516e6d5d03c4d5a59bd0af5d4e7645babbe1d1471162c01c463c8ff9587",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "983a154d19c234a6424c373175d3423519c51018af9a137d1d4fefa0332b3793",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

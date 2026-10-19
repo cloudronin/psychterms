@@ -2,7 +2,7 @@
   "id": "nonadherence",
   "term": "nonadherence",
   "definition": "Nonadherence is not following a prescribed medication plan as intended. In this context, it refers to antidepressant use being disrupted in everyday practice, often because of worries about long-term effects, difficulty tolerating side effects, or social and cultural influences.",
-  "field": "biological",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1752173"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "48eff1a77a3b889382e5da47e78e7e71661b857adf02ec71147d0c1634d9691e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bbed0d7455a69e3b32a10dac3fe26d7bb9f8a3992a10927618491d394fc987bf",
     "packet_hash": "48eff1a77a3b889382e5da47e78e7e71661b857adf02ec71147d0c1634d9691e"
   },
-  "hash": "68383c32c82143519844f9bee8322cb0249e22480f04d9629dec832a36fabba5",
+  "hash": "9c98f2d55ce84ae0bce4ed570f94f9147af4c91dc05a1fed94a191933a3195b9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8eb748f60e32901e0759e26244563a82e6c4138731757357ed20a203db6ef309",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

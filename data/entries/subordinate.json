@@ -2,7 +2,7 @@
   "id": "subordinate",
   "term": "subordinate",
   "definition": "In this workplace psychology context, a subordinate is an employee in the lower-ranking role within a supervisor-subordinate relationship. It refers to the worker whose relationship with a supervisor is being examined.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1928782"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "16115dc3946dad60f0f6e0f1628449cebbe8914a4083059c57684a0084250cdb",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "80d13c71089dd75b18eb00d766fa2553d2dd113fc39817c257ce600ff0f3457d",
     "packet_hash": "16115dc3946dad60f0f6e0f1628449cebbe8914a4083059c57684a0084250cdb"
   },
-  "hash": "249d22a2f5a67b44f4ff3849a24e1368f2607ad8ea4e6f98c67bf70be1a0c47b",
+  "hash": "a4a28a18c051c628a8f10bf3090f2664afef50c3f127970bad2498a77f134a18",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "38e9e685f9730f27d874078cd4f71bd3560ff6399ba9aeb5b5eab7646997c472",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

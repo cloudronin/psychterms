@@ -2,7 +2,7 @@
   "id": "encoding-strategy",
   "term": "encoding strategy",
   "definition": "An encoding strategy is a way of helping information enter memory by organizing or linking it in a meaningful way. In the packet, this refers especially to a semantic approach that uses associations to connect new information with a person’s own context, which can support long-term recall.",
-  "field": "social",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0283449"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cf6e3df5ea0dba3015d3041c1e25cfc49df765e4da5c833a12c1cfd44bc294e0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "26efda23239f2676f11c653d03a72f2a5cc13558a230dbc66de7be9e5658e366",
     "packet_hash": "cf6e3df5ea0dba3015d3041c1e25cfc49df765e4da5c833a12c1cfd44bc294e0"
   },
-  "hash": "ce09bfb3fcf69b8f11166ae821c4f05f48bb6f1830d452899add0b76b0615a35",
+  "hash": "bf2fbfeaffe8f72779d0c5d3cee9e1fe1a04aa24606572913a9aaafcca753f61",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "745d1b8d36481bf20458f94a7a820105db94236d0527f439ff8b0943f094e9ce",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

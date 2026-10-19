@@ -2,7 +2,7 @@
   "id": "ttm",
   "term": "TTM",
   "definition": "TTM stands for the Transtheoretical Model, a psychological framework that matches support or self-management plans to a person’s current stage of behavioral change. It is used to make interventions more relevant to individual needs and may help reduce information overload while improving effectiveness.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0305547"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "770176dc6063decf345ae818f36cb08d3c6507c17b73ba272502c26b644334f6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "44f0a7f8fad054121df2c7db28ecd0c269271de76e8cbd321fa97e7b0d66c5ce",
     "packet_hash": "770176dc6063decf345ae818f36cb08d3c6507c17b73ba272502c26b644334f6"
   },
-  "hash": "726925408c9a322523a8a7b191a524ad4834c0abdd6a7047fcd00df61c6ae7a9",
+  "hash": "045c3baf26b680b69f37f5f57f74b6370370a0f6dbee61a8c092e791a800de36",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "165e3e629209bcb677dcf3d8f791b9b6b0f5271cd17c460d411fd6f002dadab1",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

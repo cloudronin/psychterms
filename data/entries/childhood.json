@@ -2,7 +2,7 @@
   "id": "childhood",
   "term": "childhood",
   "definition": "In mental health, childhood is the period when some disorders may first appear, including anxiety, ADHD, depression, eating disorders, and PTSD. Problems during this time can affect a child’s social and emotional well-being.",
-  "field": "diagnosis",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "88674bb8f421d505a62ca8668875e81cf24a6bace9fdb9543c5c79e356ffe8df",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "50e0d78e3c16725a8917d873451283520c47241aafa6b635449422692fff710f",
     "packet_hash": "88674bb8f421d505a62ca8668875e81cf24a6bace9fdb9543c5c79e356ffe8df"
   },
-  "hash": "7f1cfb204f79306229518c71a742079cff478b490ba5b266a94e40d8f4c47588",
+  "hash": "e108afad3802765c3a0827b34ccd36d253fe8aae46e9b1da6717f56cb5c82471",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "be82609232f509d34cc290171cf3fe318d5d54ab70228ac2fb836199f3af9427",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

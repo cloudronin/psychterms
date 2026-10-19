@@ -2,7 +2,7 @@
   "id": "discharge-procedure",
   "term": "discharge procedure",
   "definition": "A discharge procedure is a medical or surgical procedure recorded in a patient’s hospital discharge coding. In this packet, it refers to the primary or secondary procedure code used to identify which operation was done during an inpatient stay.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12889-026-28164-9"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6e1af8190a4f66cac9263188574e0f559352e46722962b93a63631f8e3636452",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "eafd97d4a98b8ceb8aca6bead81ec1a1eec996fd1747dddfaa70715703f5b931",
     "packet_hash": "6e1af8190a4f66cac9263188574e0f559352e46722962b93a63631f8e3636452"
   },
-  "hash": "8218764a4e29a7f73a0282c2d4b940d3717ba22211bd2345b1572a0af4d2659e",
+  "hash": "e98db35f80e45abe7314aa574608f004985d2dd8550559f6bfb799e1c103410a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ae49ca5ae2f5e0fb6b2ee5129e07d868d8d049f16a7c2d7fcb8ed134107554e9",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

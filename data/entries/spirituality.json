@@ -2,7 +2,7 @@
   "id": "spirituality",
   "term": "spirituality",
   "definition": "Spirituality is a person’s orientation toward religious meaning or other nonmaterial, inner concerns rather than mainly worldly or material interests. It involves sensitivity or attachment to values related to the spirit.",
-  "field": "cognition",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D029181"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "59da781cc124e7601cc58d57df0fcb1fef6de222f452cd2e6198e52a963bbafe",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "34baebd540c61a7035ea050d01e4498657a3094edcc3a9ed8496668d7804b575",
     "packet_hash": "59da781cc124e7601cc58d57df0fcb1fef6de222f452cd2e6198e52a963bbafe"
   },
-  "hash": "10e286cce9a39edacc1401d9a57242362c3d9f4e0cce3dfbc8e4ad08afe47e7a",
+  "hash": "e08d68ebf4a72b560c01b3cecfb1ee3c259f453b0a409776af645e85337bd0cb",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "53aa3d6b16b8f93a5c213851bdcd8e34c4f6428bb27ffc5a89721069c20bffff",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

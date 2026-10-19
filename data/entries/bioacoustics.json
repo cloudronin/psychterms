@@ -2,7 +2,7 @@
   "id": "bioacoustics",
   "term": "bioacoustics",
   "definition": "Bioacoustics is the study of sounds produced by living organisms and how those sounds relate to behavior and interaction with the environment. In this context, it involves analyzing animal vocalizations to understand communication and activity patterns.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0336419"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0a732d1095c6190000acc8505adaf273742fceccd5962afa68992f476d6aa3b2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "80db31e120c036bbf86058bb95e967494ec4685816c49e72e454a5ab93332086",
     "packet_hash": "0a732d1095c6190000acc8505adaf273742fceccd5962afa68992f476d6aa3b2"
   },
-  "hash": "adfd23cb350a7c5d9ee6def354e3cce98a35f6d62e6fc5c755bbe67e27ba9996",
+  "hash": "d9e047a6a4ecdec6b4ab8696bfbd63339be3effd863e77e377d4fdbf13223016",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fbb76b1e06035b74372ec83fd27d619d29d386128ce26a588a2574b82d99d437",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "hydrocortisone",
   "term": "hydrocortisone",
   "definition": "Hydrocortisone is a glucocorticoid compound studied as a stress-related chemical signal. In the supplied research, it reduced glioblastoma cell migration and increased cell stiffness, contrasting with epinephrine’s stronger invasion-promoting effects.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0339764"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b15f2315d4c5c076d05514b01fc22c1ab674624ea299c01ba020d45ebe848e48",
     "packet_hash": "3702abc507b62cb5f94e20865e1ae3e31236ef87d6015604f06f80ff3eff04ae"
   },
-  "hash": "651a39c49a38054a9982fb7446e3d0538832db69184438409a60aec77c3473f8",
+  "hash": "e608692c996cdea6cabf27f7eba66fb9fdb33ee1205a5b7212fae4392d489abe",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "94d5ad019e43efa42b3d9ba7e00bff496c7f5bc8e702990b2777a49c2483e003",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "pain-pathway",
   "term": "pain pathway",
   "definition": "A pain pathway is the system by which pain is controlled through two linked processes: signals that carry or amplify pain upward and signals that reduce or inhibit pain from above. In the source, this idea is used to describe pain regulation in mammals and similar pain modulation mechanisms observed in flies.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0281874"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2388e0d1bd15c32d6229f889ece3498dff36cd4fc0d89a20e3bfcf9d8878be82",
     "packet_hash": "85af81b9f248a65fb5bfdf85bde91cd092584fa150e6fff935df3a177c007a99"
   },
-  "hash": "5d40c7e7495afbc0ba95b5bb79f07f5a453f628def5134b04eba7d4fda57d7c8",
+  "hash": "5f69729078af80bcb546acecac98a0741c1e7e71f5639ce9052cee9dac49b16d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "84faa0ccdff1418ac20f050f15a73e101f9047041499fdfaa383a2c9b35ab5f3",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

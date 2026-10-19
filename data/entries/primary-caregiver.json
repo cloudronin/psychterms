@@ -2,7 +2,7 @@
   "id": "primary-caregiver",
   "term": "primary caregiver",
   "definition": "A primary caregiver is the person mainly understood as the infant’s first and earliest caregiver in early upbringing. In the psychoanalytic discussion described here, this role has usually been assumed to be the mother or another woman, in contrast to a secondary caregiver who is seen as entering later.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1777617"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ba53775e7d92344e49ade46cfe07b10da593c9612246495c16f2df095f2091f5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "314b0ccf375377d8d2d111bb67cf771747c5665d2bb36749bb9439c558a792cf",
     "packet_hash": "ba53775e7d92344e49ade46cfe07b10da593c9612246495c16f2df095f2091f5"
   },
-  "hash": "08e35a183a8a096d6d63e9986db7cad37d5f33b5905ff89d993e05ddb0def14c",
+  "hash": "3650cb5c9b07e07a0dbcc07d40f02167878c97be628021b30836c8688c43bfb4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "85a1711a48b81a64ae342ece72bebbf7f5d6d73b921ca1671c26fa5ff32c601a",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

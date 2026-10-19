@@ -2,7 +2,7 @@
   "id": "fluphenazine",
   "term": "fluphenazine",
   "definition": "Fluphenazine is an antipsychotic phenothiazine drug. It works by blocking dopamine D2 receptors in parts of the brain, which can lessen hallucinations and delusions linked with schizophrenia.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9d977b376c83ceb1f2694ac50fcd1a7ee9a44e3960d87e5a2cd2d5652574f6bf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3df90c179a0f33ac10e7d1f0a3c708c54b8eaccc4ba6794db29fe381b14b532a",
     "packet_hash": "9d977b376c83ceb1f2694ac50fcd1a7ee9a44e3960d87e5a2cd2d5652574f6bf"
   },
-  "hash": "656627b39009628d51564368ef36551daed701ff3e5c89a5861cde9a93998bf1",
+  "hash": "db3914e5908db66c65564ce5595144bd6b9bd2d7a2cda96801deabf38f34a47b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "bd56bc9713a7f1f87e6abaa7663be31d3235dfdd10a7c1fc40414685f90532bf",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

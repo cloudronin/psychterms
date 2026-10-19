@@ -2,7 +2,7 @@
   "id": "frequency-selectivity",
   "term": "frequency selectivity",
   "definition": "Frequency selectivity is the auditory system’s ability to respond differently to sounds of different frequencies. In this source, it is reflected in how narrowly a neuron is tuned to particular frequencies, with narrower bandwidth indicating greater selectivity.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0209446"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6d5a11e70f51f21d0e34fae9f55500b2562ea8ddf8603725035ea1e6e079e016",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "622ec0c7442fa4986f6c70955de9cd032cbf6cbb7223e4752a9eb1378c88cf3b",
     "packet_hash": "6d5a11e70f51f21d0e34fae9f55500b2562ea8ddf8603725035ea1e6e079e016"
   },
-  "hash": "47ed7ffa1cec87b387ea1d51736a8f9d522289eacc9005bff556fcc731840373",
+  "hash": "47b764509a8c81c01f2720fc58e7e78a9cab7552635a34fcf7614bf0362a6bd6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "1a3cdcf9b17b53734075f69db0b9992a232a9e4f62d6f767cf67e62a9730298d",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

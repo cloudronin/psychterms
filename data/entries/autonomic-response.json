@@ -2,7 +2,7 @@
   "id": "autonomic-response",
   "term": "autonomic response",
   "definition": "An autonomic response is an automatic bodily reaction to a stimulus, seen in measures such as heart activity, breathing, blood pressure, and peripheral vascular resistance. In this source, it refers to short- and longer-term cardio-respiratory changes that occur in response to a painful stimulus.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0201921"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ba39ad24e9f08902a287338ad26f3fa17f0cf5ddc5c49109c4d0ad4c63d318ae",
     "packet_hash": "86ed079dc4733a25230c47949ca39c5d41d4b820060addae1542d53367c470c4"
   },
-  "hash": "55fce4952035d18ea2608e6d46f49398bf476f513eeaf546b377463b9e40b168",
+  "hash": "04e41d9069e8bc6b002f7344163bc7ffb0d1638c7a304e7a3a71c893022ea7ba",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b438f60cad51e2251c5c2ca708c89677c9a60d337d97310920834251d8f19607",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

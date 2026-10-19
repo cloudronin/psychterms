@@ -2,7 +2,7 @@
   "id": "shaman",
   "term": "shaman",
   "definition": "A shaman is a religious healer believed to mediate with gods, spirits, or demons and to oversee illness and its cure. In the source material, the shaman is described as using mainly psychotherapeutic or ritual means to influence disease by acting on the unseen spiritual world.",
-  "field": "counselling skills",
+  "field": "history",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D019423"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1c2da7734868970d8eae184694f3b000f8fea116715dbee94f384d37e50b1a5b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e67c189445ee7c57dbaacf88925ec65deea141777a41c0c6b67f1b109b6486ac",
     "packet_hash": "1c2da7734868970d8eae184694f3b000f8fea116715dbee94f384d37e50b1a5b"
   },
-  "hash": "26abc4964fbf9ecf1358f21d6f0b491af910ddcc7a57b57451de3d3ebd98e359",
+  "hash": "db27bf7e762bf7cec9072aa1b6e2551cd305fc69f64748caf5a1e778a9506637",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c388912b33b4347fc1e7bbdcb8aa02044a51ebe3070f21225c9851cd629e6ff3",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

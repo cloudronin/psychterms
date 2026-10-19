@@ -2,7 +2,7 @@
   "id": "snp",
   "term": "SNP",
   "definition": "SNP stands for single nucleotide polymorphism, meaning a variation at one DNA building block in the genome. In this packet, SNPs are discussed as genetic differences that may be linked to susceptibility to myasthenia gravis and related biological mechanisms.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0359069"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "dd14edfd83f868f77259c5d89619237196bb533e277eb83c03862a22770623e9",
     "packet_hash": "356007291dd88a8f4117b2dfa5e2c77244d1c4ccffca0a476b8420b7514dee22"
   },
-  "hash": "c50b6b6c0b6d33468a3bc7e9c723e134fd564c41cc5a26c9db503a1ccc8de724",
+  "hash": "350102bac62c486615ac4e8041901d82550c0344f72b626119f1426a1d236d29",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fa03219c65d32b19432b2c999f276fce5eb00e90e28831f035da0c0603c44210",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

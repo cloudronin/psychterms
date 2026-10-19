@@ -2,7 +2,7 @@
   "id": "overmedication",
   "term": "overmedication",
   "definition": "Overmedication refers to the excessive prescribing or use of psychotropic medicines. In this context, it means giving more such medication than is needed, especially in relation to mental illness and challenging behaviour in adults with intellectual disabilities.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-025-07620-7"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cf9040d43ca499b78f4cf87c497a4a8897f91faf2e7a24e8c8ae10751f279523",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "64c038592f84565d0c4e79ef6289821691f6d562579827ce5bdce80758903043",
     "packet_hash": "cf9040d43ca499b78f4cf87c497a4a8897f91faf2e7a24e8c8ae10751f279523"
   },
-  "hash": "ad90e7a5e35cf70bae795aa75c6a2b27ec6d4f70c4705f9e90f5da1193a0d69b",
+  "hash": "3bc042593a90f16f81034294745ec3361bb5664a07dfae65bf4b31288d89e1bd",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "a57898b17f8e700aa89e9d55426b5a4b81f9b033fd9ea195fce7aa29ac07f17c",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

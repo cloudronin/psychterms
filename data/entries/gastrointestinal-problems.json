@@ -2,7 +2,7 @@
   "id": "gastrointestinal-problems",
   "term": "gastrointestinal problems",
   "definition": "Gastrointestinal problems are unwanted effects involving the digestive system. In this packet, the term refers to opioid-related digestive side effects, including constipation.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0349596"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6c1a97a744ea721ef08affab9b4cf10973efba88661d7deb8b517cd1f86f2eea",
     "packet_hash": "7d622ce3c71dc452df6c40df8c4c3c9653363a0878402775fff9e8adcdd5d3cb"
   },
-  "hash": "bccda8111fbd21a18323ada0847015e1f2464c8fedc37ea01779af7964333397",
+  "hash": "37e1202a288283edaa8e7c079402037d939dccb14151e417b2c025a7424202c0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "acffa1c2d54647733c9d7913496ac82800a65d9ec76604e3087070b02bcd040f",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

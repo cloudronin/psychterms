@@ -2,7 +2,7 @@
   "id": "overcrowding",
   "term": "overcrowding",
   "definition": "Overcrowding is a living situation in which more people occupy a space than it can reasonably hold, in ways linked to harmful physical or mental health effects. It can be described using measures such as the number of people per room, the total number of people in a home, or how many people share a given amount of floor space.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8114d5e07b3547f10646e3bfaee2b1f810531f4c596e4e3231aa5164827dae6a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f58ab7612a1195cb99ef550a1ff718ddcf3d2c71f6b2b72b0ec1c06229b0301e",
     "packet_hash": "8114d5e07b3547f10646e3bfaee2b1f810531f4c596e4e3231aa5164827dae6a"
   },
-  "hash": "29780b2e0c102737228819dd1364a0fee66db5411c32f326ceae2f9580ff1bd7",
+  "hash": "59c8a6fb3da4b734ff7be1f0f68a0ce76cb0ed5330083d109a17e9b26a8a0609",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "e04c60d0bfe48c2480057e4bba54088d572119736bc6a7cbbd28dc5121b1edec",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

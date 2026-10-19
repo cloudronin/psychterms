@@ -2,7 +2,7 @@
   "id": "positive-affect",
   "term": "positive affect",
   "definition": "Positive affect is the extent to which a person feels pleasant emotional states such as joy, happiness, interest, or alertness. It can shift with the situation and time, though some research also treats it as a more stable personal tendency.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1717007"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dbe03fa41ae9c730db91070487adfdd03abd1c5d7f38211ca5dd59287a10bb09",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2e1f1e044603bce5d2f558b1ad009d57606a5b1e1f28827623f276fba57233e4",
     "packet_hash": "dbe03fa41ae9c730db91070487adfdd03abd1c5d7f38211ca5dd59287a10bb09"
   },
-  "hash": "784483b40fa97243ef208b793fa31abf81ce3c1e515b76b8cb5fc17cfcc71c0c",
+  "hash": "cac7e1a6129ff9de405b254707622e7a27333718d2663afff93e780be6550450",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "046a2fb09197489d272af7ff24b7dddd748692f159e82f7203f3a3ad4a274dc0",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

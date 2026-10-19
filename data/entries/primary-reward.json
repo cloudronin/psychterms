@@ -2,7 +2,7 @@
   "id": "primary-reward",
   "term": "primary reward",
   "definition": "A primary reward is a reward tied more closely to basic bodily or physiological pleasure than to more cognitively mediated forms of reward. In this source, it is used to describe pleasure that is more immediate and sensory in nature.",
-  "field": "social",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0165377"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "034054db5ebddb63af4e542fa90509bad53a758cd5bd9cc8a6788c17a17e8596",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b0fab0a4a4b49662c55075ba6a9013e733d4cd95a0b54ea1e2f361fa5985c67c",
     "packet_hash": "034054db5ebddb63af4e542fa90509bad53a758cd5bd9cc8a6788c17a17e8596"
   },
-  "hash": "fe725f76d1d05fd763eac8eb96024ec98da092b103536301c0f9eb76821ff72b",
+  "hash": "ccef4936305018c57e37ac6e85b8eda47e8cdb95ca4993ec8f0f03d92fec3244",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "1d9eacb26311aa3fa589a11abf10ae47e980cebf8f14ca11fb15436a419b5742",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

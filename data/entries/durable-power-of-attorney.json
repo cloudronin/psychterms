@@ -2,7 +2,7 @@
   "id": "durable-power-of-attorney",
   "term": "durable power of attorney",
   "definition": "A durable power of attorney is described here as a type of advance care plan used in end-of-life planning. In this context, it relates to having another person represent a patient’s wishes and make medical decisions on the patient’s behalf.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0196147"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2cf2d54e25755e993e6127a96eb3fdb6f0254264befbff2d7b84348bf3abc6c7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7055373629883b165f963aad8225f2deeb7aff8eea1c6a5fe85dade4d97278f3",
     "packet_hash": "2cf2d54e25755e993e6127a96eb3fdb6f0254264befbff2d7b84348bf3abc6c7"
   },
-  "hash": "8b4c33c91d0ee26bf0a512d2c3e4697e6dda79fd176c2f17cc976eba3d18faea",
+  "hash": "074c8b6116e66407ac32c9964814e17a17febe64133adf243c350322ed12f2f1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "d60980b24ba13ea98c0f1cbc7ee0f6fe181da809991246719a9059e99bc8657d",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

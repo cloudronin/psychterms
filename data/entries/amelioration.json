@@ -2,7 +2,7 @@
   "id": "amelioration",
   "term": "amelioration",
   "definition": "Amelioration means an improvement in a condition or a lessening of its symptoms. In this context, it refers to depressive symptoms becoming reduced.",
-  "field": "biological",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2024.1288338"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "74b497ea76b844f0c98351718987f18e012d5f029affc369bdecc96c9df76967",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e0a8a0cc9e017a373f38de1f8b777524286c203dbd517671f9e4d945216c538e",
     "packet_hash": "74b497ea76b844f0c98351718987f18e012d5f029affc369bdecc96c9df76967"
   },
-  "hash": "e6b5c2331f62f3694f7a6b1e846b8292804de02d0a507b00dbb28d641d8eebcd",
+  "hash": "559ea7c8bc8def16fb59633bc797cb0f54bb157bf3ca0325cd1e1a30fac5d5a7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "cca930a7d82f696679d4363a88e7a91ff2ed7700353ef956cdd83f8306fd74ab",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

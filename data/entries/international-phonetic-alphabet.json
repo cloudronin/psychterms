@@ -2,7 +2,7 @@
   "id": "international-phonetic-alphabet",
   "term": "International Phonetic Alphabet",
   "definition": "In this context, the International Phonetic Alphabet is a form of phonetic transcription used to represent spoken language for analysis. In neurolinguistic assessment tools, converting speech or text into this format helps support pronunciation and phonology analysis.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2024.1421435"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "943a5d417a6f064a1ee98d135ba4d39ea6121b4e216c782048d8ee52caca5a02",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "55971878a4b6d173dab8041f4baf94589bb7a1b248fd069a8876b15f6dc10d0c",
     "packet_hash": "943a5d417a6f064a1ee98d135ba4d39ea6121b4e216c782048d8ee52caca5a02"
   },
-  "hash": "773238a85f79c8268c41128325da72eb5357d79c3cda2dceafaa3b4055ea7d68",
+  "hash": "5eca2c710680e59238e672f6b5bb927bc56d476c226ff493e7b08d82f0026b53",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "846d1c04bbd36fea77e040c9fddb75bf0aa997c46971ddc1aaf936d3b96c5d70",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

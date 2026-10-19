@@ -2,7 +2,7 @@
   "id": "auditory-display",
   "term": "auditory display",
   "definition": "An auditory display is a way of presenting information through sound. In the source packet, it refers to sonification designs that map physical quantities onto auditory features such as pitch or spatial sound.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0082491"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6c5e7d9dca54b37cfc4ccfc543e1abfbda86c84b2a203d826f48b08de55f9c2f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bdd94e5815dd49b2ab4ab444d3d7761a461d669fd7ccb91e1c81042f28b6d541",
     "packet_hash": "6c5e7d9dca54b37cfc4ccfc543e1abfbda86c84b2a203d826f48b08de55f9c2f"
   },
-  "hash": "a532a6dc1805e0838415822abf340fa84e26f1ea36263b714e6a2a8757167df6",
+  "hash": "6859c260069d77a657728b1f2f69f8e579d722e4680ce87c6cd983d780e3cd87",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "874023da8279d17a6a7ac353a2dfd0cb3eee9ac78c0a35752453a28c168b5be1",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

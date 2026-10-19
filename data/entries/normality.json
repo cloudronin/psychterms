@@ -2,7 +2,7 @@
   "id": "normality",
   "term": "normality",
   "definition": "Normality refers to the socially expected range of behavior against which people are judged in families, schools, and other institutions. In this context, it is not a fixed trait but a shifting standard shaped by medical and social ideas about what counts as ordinary or deviant.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1771510"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ca353619630454ba64aeb600b9025293f434add1e095b03ae274cba205457d06",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bef44c8fb101df6410dd77ba623f12f99c6e23604230fb9c0922d327d9f8903b",
     "packet_hash": "ca353619630454ba64aeb600b9025293f434add1e095b03ae274cba205457d06"
   },
-  "hash": "6e4051cd9d75cb586cf7143ffe2381743bf38a56e3961a540bfc88aca0cbfb76",
+  "hash": "740c4b04f3385c331536bb367a11fce489f7927f152b5143afbf0de301397072",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e905b4d94fc8f66421bd851c2cc724e61f5765e7acce1f8d617fbae9566dcae0",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

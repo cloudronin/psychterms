@@ -2,7 +2,7 @@
   "id": "random-walk",
   "term": "random walk",
   "definition": "A random walk is a way of moving through a network step by step according to probabilistic rules, sometimes with added biases such as favoring or avoiding certain kinds of nodes. In learning applications, random walks can be used to generate sequences from a network for tasks like building embeddings and predicting links.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0312863"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "85bff3910dab23984a628118f4a98ccb541653e5fd8c806cae6b3a661ab85ac4",
     "packet_hash": "43d7ff755a3444cd50e3e23c08fcd04d6bd5cb396b61e67af1e2caa4e52cf5d3"
   },
-  "hash": "2f5e90d8c447081260a007e3e51472d4ff96d4e4a6d3c55dcec24dfd04861ce0",
+  "hash": "b3bbc2592e0806e8e1542567c51421492409478fe79a327939428a865dcfc1b2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "cf154546cde27be1536e5eb0eeccb7702f3216f052f6a01e3c33d05e94586831",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

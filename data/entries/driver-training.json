@@ -2,7 +2,7 @@
   "id": "driver-training",
   "term": "driver training",
   "definition": "Driver training is a structured program that teaches a person how to safely learn to operate a motor vehicle and work toward gaining a driver’s licence. In this source, it refers to an autism-specific training approach designed to improve driving performance and support independent community mobility.",
-  "field": "diagnosis",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0324934"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "95de0028224ad2fc2d28903747939d3e637d2d9e1df217a8d02bc9c552b6e709",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "397d2d4aaf5319bf04112cc8705ef7df22b1d4ef6fbb4eb55893ed609f282c16",
     "packet_hash": "95de0028224ad2fc2d28903747939d3e637d2d9e1df217a8d02bc9c552b6e709"
   },
-  "hash": "20d4c6a254ca192ff3ddf49d5f7550fbe755d72844a0ea4290eea67d952331ea",
+  "hash": "d5ff211c5c15af0e156040454e9fa7f8ddd31c5a7a66d3958ee8702efe42a8a9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "94722396600b9582da9f0e325bbe7a6cd093165a063069c34163255570593c30",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "ecstasy",
   "term": "Ecstasy",
   "definition": "Ecstasy is a drug identified in this source as one of the substances some people may use or misuse during extreme heat or cold as a way of coping with stress. In this context, its abuse is linked with risks such as substance use disorder, intoxication, dehydration, and increased hospital visits.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1677947"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4fd79911d34aefcd28c016e4c4582d1a98312de0e856c338ba91743ec8db96e5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cbd6e0d31f81d8d968d57ec5de69706d5aa898f1fe00fce199c54e06ebf4f02b",
     "packet_hash": "4fd79911d34aefcd28c016e4c4582d1a98312de0e856c338ba91743ec8db96e5"
   },
-  "hash": "9df97a93b3366dd5370a8c0be3e8cf2f4a5065676e225587172178629effc5cd",
+  "hash": "4bb03a86df54eccddd1c572457d75fcd3e306833e974e8ae47f634f20603a774",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "caa2b5c595494c98c872010132f5fe95f04b962266c41badba36d992e9243e9e",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "polarization",
   "term": "polarization",
   "definition": "Polarization is the separation of people into more ideologically distinct groups, so that individuals and communities become more aligned with one side and less exposed to opposing views. In the packet, it is described as extending beyond individuals to larger social and geographic patterns, such as areas becoming dominated by supporters of one political party.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0339333"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "adbbc8a9d7ad5969b74fc0bdb3d19cf09c452fe185f2e50c12df5a42e063223d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2b6338791f8f30de800b35c5aad21bb8e466c3913cb6fab434a752c017e25061",
     "packet_hash": "adbbc8a9d7ad5969b74fc0bdb3d19cf09c452fe185f2e50c12df5a42e063223d"
   },
-  "hash": "4786d235eb00a7d5d10331d4527d820720c774f8fa925c271926b4f3d888ca6c",
+  "hash": "744e3dad5ff9ed3d8279e22ca3d632a3db165f6ce5ce5c7541a4552a533d966a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "864e701a433ae5611cf40f0d0f2ee6b64d34c1a2f79d01a78dd65a79bfc7fc79",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

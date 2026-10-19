@@ -2,7 +2,7 @@
   "id": "restlessness",
   "term": "restlessness",
   "definition": "Restlessness is a state of inner unease accompanied by increased physical movement or inability to stay still. It can appear in a range of conditions, including as a sign of toxicity from drugs that affect the nervous system.",
-  "field": "biological",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D011595"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "528d97a69640ca99ae50ed8f69d3f84ad19ea1a9dc60c5fda7c12396868b20c3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4764f12da98fc4133fe6064fd06a8ddeae10d60918a0de4c2208c512743a65e9",
     "packet_hash": "528d97a69640ca99ae50ed8f69d3f84ad19ea1a9dc60c5fda7c12396868b20c3"
   },
-  "hash": "7088758dc749fe00b2191c07cd41d0dec00d4ccc360e655138a61b6739e3c35f",
+  "hash": "a24055ef1714bbd5204266dbcec4f2fe95a3d09371c64264e8ae5f8ebabd08ec",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "e5e68bce418be421355818e0b9c74551157ce051866820d53b73df32c0e868e2",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

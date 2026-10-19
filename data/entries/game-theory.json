@@ -2,7 +2,7 @@
   "id": "game-theory",
   "term": "game theory",
   "definition": "In this source, game theory refers to a mathematical framework used with machine learning to compare how different features or models contribute to a prediction. Here it is applied through Shapley values to rank models by the value of their predictive performance.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0328967"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d915eed84986ef574ee70ae9417793851f98b6affefa75ced2558c94a21ea50e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4d62531305f0fe1d1ec541963db621148cbe8131188f463d8e880083356492f0",
     "packet_hash": "d915eed84986ef574ee70ae9417793851f98b6affefa75ced2558c94a21ea50e"
   },
-  "hash": "aca258539dd47f87ff64df02f7be1713c0dc9bf995dc3e5572ea63ed2487619a",
+  "hash": "a6ac5e641341e61af549cf6cfb7bf1a47cb79093e220f9f3f380d60ab56e85e2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "89c8f7a6e27bd6775855357eda2f4ce9338d7de7b011e934019fdb740eabbae9",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

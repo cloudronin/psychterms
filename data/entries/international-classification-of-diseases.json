@@ -2,7 +2,7 @@
   "id": "international-classification-of-diseases",
   "term": "International Classification of Diseases",
   "definition": "The International Classification of Diseases is a worldwide system for coding and classifying diagnoses and health conditions in healthcare records. Its tenth revision, ICD-10, is widely used to organize health data for reporting, research, policy, planning, and related administrative purposes such as billing and claims processing.",
-  "field": "cognition",
+  "field": "diagnosis",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0298411"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0bb1a5f1e224dc3f087c20c846214942f4e08dabfd75aa4851f51fbda1ab48ac",
     "packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd"
   },
-  "hash": "c891f739c9f8ac86998f17fabdfa196074b024ea13a5ffd3ae654f8b1cca86b9",
+  "hash": "5ed72bced0d176f60579bdd3bc56012cd5553ea89205e0c15910a168ed76b1c7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7385c660212811f358de2ac50252406f8ce74f95462f5caae7534094f3f57745",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

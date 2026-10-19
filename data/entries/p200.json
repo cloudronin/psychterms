@@ -2,7 +2,7 @@
   "id": "p200",
   "term": "P200",
   "definition": "P200 is an electrophysiological brain response measure in which the size of the P200 wave can change with cognitive training. In this study, larger P200 amplitudes during a trained visuospatial working-memory task were taken as a sign of task-specific learning and neural modulation.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1801385"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "18fdd82c57954fbb0a269a2b1c0c5ee24e7c8e0602257dae78e97434a9963930",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "693fe29b52b585f1a3c2496c1504045d413f8947de0a675b5c4159249f6e7133",
     "packet_hash": "18fdd82c57954fbb0a269a2b1c0c5ee24e7c8e0602257dae78e97434a9963930"
   },
-  "hash": "29188c029348aafedd15681db6182aa436b5f062248e5aa3903f13071e4f4deb",
+  "hash": "ca2b33ef9ddb352510ca84320a09e2fced4f882b792ff91df5a7b6ae660daef4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8676e12af1fcb5565acd3b6ce0aefbb1f43c28dfbc92383e606f46c1328470eb",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

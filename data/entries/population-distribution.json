@@ -2,7 +2,7 @@
   "id": "population-distribution",
   "term": "population distribution",
   "definition": "Population distribution is the way characteristics or behavior patterns are spread across a group of people. In this source, it refers to how different driving styles are represented within the driver population in highway weaving areas.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0336040"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ae6499404c9b17fe22a4af456746de1594cfee911dbacc1727487f4c147b06ce",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "78d7e48a06d5aa84811f4b93587c009ca8e18cc71d627797325b6464b768a459",
     "packet_hash": "ae6499404c9b17fe22a4af456746de1594cfee911dbacc1727487f4c147b06ce"
   },
-  "hash": "15f6e0160bc692fbbbe9c419d740261a6fcf8051f2c203c71953b5123193534d",
+  "hash": "2ad0783c5f4761cb35d0c0b0c225cd406c758b677cc524bbc41f97ed49c582b2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b3d3edd78cded25cf5a34f56f9b79c0393d17de4e60af5938a34cb7d13aee91e",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

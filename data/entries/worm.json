@@ -2,7 +2,7 @@
   "id": "worm",
   "term": "worm",
   "definition": "A worm is an animal whose movement leaves characteristic trails or paths that can differ by species. In the source context, worms are described as moving in meandering ways and avoiding already traveled routes, which can help them search unevenly distributed nutrient patches more effectively.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0358065"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7c9e5be86c29129684815825e11e3d3d6b6aba2ddd3bedf626d86064d64f905b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "877bb69e940589fb80295aa34c7b8183113daa4c34b8363bdab89f57117e6ca0",
     "packet_hash": "7c9e5be86c29129684815825e11e3d3d6b6aba2ddd3bedf626d86064d64f905b"
   },
-  "hash": "3a09b05e0d3ef6e9925affab09019a91ee3dc6a0b1a7bdbfd932b7b9b4090aa2",
+  "hash": "be3f1941e0458b525ff436fedfe6ee121215fcb68be19317c75c7a6aabeeda85",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "99a35f0ad9999871a84a9fcd0c458e826c6a8f3247ed3da986dfe762ab398e3a",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

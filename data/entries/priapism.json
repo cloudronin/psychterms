@@ -2,7 +2,7 @@
   "id": "priapism",
   "term": "priapism",
   "definition": "Priapism is a prolonged, painful erection lasting for hours that is not related to sexual activity. It can occur in connection with conditions such as sickle cell anemia, advanced cancer, spinal injury, or some medications.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D011317"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ff33497b3c3d4d7119c846d91417ad2a777d35b261bf0c8eba8f5ee452df4776",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "dfd999695250d47d06c5afe9a05af552e817feb61d7ee2cdb39e85b2c5b960fd",
     "packet_hash": "ff33497b3c3d4d7119c846d91417ad2a777d35b261bf0c8eba8f5ee452df4776"
   },
-  "hash": "c31b183062185b39ddd826707dd8d279e3d78fa4c9a9e207dc02b6860df09040",
+  "hash": "a7e10e80f355e0d8f5191bd46126dc08e3f9700d0ecc8768208cd1d0489e5908",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "247d6e19c3d82714889b1e08882199224e5fec9e3df71763005aa6d49dc18f62",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "drug-metabolism",
   "term": "drug metabolism",
   "definition": "Drug metabolism is the body’s processing of a medication, especially in the liver, which can change how effective it is and how toxic it becomes. By turning a drug into other compounds, metabolism can lower or raise risks such as harmful side effects, including effects that depend on drug–drug interactions.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0315997"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bd37342826683d7418ca30c93c61c0596886485798b425c5ec170d1e15082573",
     "packet_hash": "d21b2f712469a210781d6f0ac8ffe07b5426fd5f47238ea9282e6e2b271b659c"
   },
-  "hash": "23ca6ea54b31717254f397de9edf16516b86d736a448654fb101f548a9257b9e",
+  "hash": "1fd6e00bb904ea2cd77dcaf5de0959bbc624bac069613cdc0e6eaa76b2dc4a9f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "635241e2d73c7e39324b9cbbed86c42b46bb777537a83f5d6fe9ec33df095fda",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

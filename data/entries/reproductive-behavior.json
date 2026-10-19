@@ -2,7 +2,7 @@
   "id": "reproductive-behavior",
   "term": "reproductive behavior",
   "definition": "Reproductive behavior refers to how people act and plan in relation to having children, including the number of children they intend to have, whether they are currently trying to conceive, and their near-term intentions about childbearing.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0288833"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c33a6702a0be29b582de51041a389b569080dae14364968ef0795180e61a38b1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "81bd4db196f7cf0373e17da3656ce7b1ba55bdfa01eb5137a3699abea9b42ec5",
     "packet_hash": "c33a6702a0be29b582de51041a389b569080dae14364968ef0795180e61a38b1"
   },
-  "hash": "e1656f5a3a162061721c91285484b0950f2d2d969219a4914506f295ba9e4562",
+  "hash": "04dc729bb66c361d0f369041fd503cdf2e886be73e25f329357a5899779cf304",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3e9803dc96e96abf86cdd0e50d5a557d0bdcdd30d4c1aaabe8047565b3228954",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

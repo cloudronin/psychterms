@@ -2,7 +2,7 @@
   "id": "endogenous-cannabinoid",
   "term": "endogenous cannabinoid",
   "definition": "An endogenous cannabinoid is a naturally produced body chemical that acts as a ligand for the endocannabinoid system. In this signaling system, such internal compounds help regulate homeostasis and adaptive responses, including functions related to anxiety, cognition, pain sensation, and other nervous system processes.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0306868"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d3248732047fa0d985e72506a0b2591ce5118dd2ac60edf71278a833ce3fabf1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9fcc9a81a96b28379f7519f611016241a7d591f5204cbffc2df9915fa6c3eda5",
     "packet_hash": "d3248732047fa0d985e72506a0b2591ce5118dd2ac60edf71278a833ce3fabf1"
   },
-  "hash": "20424678238464aceb45ac78c214ab2b77f2b16a3e66028b319b7eee8986ba80",
+  "hash": "3d210a42548f47bb5b71d45037302bfb26d539545e7ff3e5cb04f4648964ccab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "676c52bad41acf0f9c99b89c455d1c619a39d9cfc6116b3433081443deed371f",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

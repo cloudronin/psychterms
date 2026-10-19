@@ -2,7 +2,7 @@
   "id": "sensory-modality",
   "term": "sensory modality",
   "definition": "Sensory modality is the particular sense through which something is perceived, such as sight, taste, or smell. In this context, differences in sensory modality can shape how people interpret subjective language and decide whose point of view or opinion is being expressed.",
-  "field": "social",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2021.701486"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5bddba92d5586ec708ce902a0810a0098840e1179fff4f49de555908fc5bb32a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ff44c0fc56e6b3af29d4f3fabf6efb3ad1e9cdc615dba8c27b28b8538553bf12",
     "packet_hash": "5bddba92d5586ec708ce902a0810a0098840e1179fff4f49de555908fc5bb32a"
   },
-  "hash": "50b8ea6e4b3e944c070d322b5dd56b157305b1e615a5aa9bae421349e45df16c",
+  "hash": "89f2b0888abd707030efdebae85e1bfeb69252e3037a1a24c686b0eb5f2f20ba",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "87a17825eea54bc7bac1aaac6ff72b1b58a6eb1b99ea3c512bf32e0674afb41b",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

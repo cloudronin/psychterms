@@ -2,7 +2,7 @@
   "id": "computer-simulation",
   "term": "computer simulation",
   "definition": "A computer simulation is a software-based model that reproduces how a system or organism might behave over time by applying programmed rules. In this source, it is used to generate and study the possible 3D movement paths of artificial worm-like forms on a grid.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0358065"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1efe1bafc56c922cdc4106bd5b57ceca2d05e1717f196e27388a4cbf92eae672",
     "packet_hash": "03a6843f82e35f2284db1e7f0884851b9e2f705525fefc93a0256ed1133661d3"
   },
-  "hash": "ea8fcddf1290cc434b734a85387d605fbb9b5c209dfc43b77961fd0bd8839bf2",
+  "hash": "5a680428ed197972373ce2b21765423b9ed992d1de2c9078f8d69ac0fb42aaf0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "49d05a68c989e677714f9ce660ff44882e8469da547391fa7a1af50688e6d17f",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

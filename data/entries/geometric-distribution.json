@@ -2,7 +2,7 @@
   "id": "geometric-distribution",
   "term": "geometric distribution",
   "definition": "A geometric distribution is a probability distribution used to describe how many Bernoulli trials occur before the first success is observed. It is the discrete counterpart of the exponential distribution.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0315855"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "72aa283e201cb98611ee9b41f7056e73a293f31f1814340feb37eac1206fb7f1",
     "packet_hash": "40f13734f9d65fd8e2416fb9b069d4ecaf96e11ab017e269470ee4def690d3e2"
   },
-  "hash": "8210492ad42ed226de7648e72041eb8a8f9d531ef9b5cffee7ccad931439f814",
+  "hash": "1bfce30364171e95d74a1ea0ddfaefb51f488a630f076da3b8c1d37aa6ded972",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b0dba7afeb4c0f2bf0b59362a5f98962b03879766d9af2f69a51e7bc94075ee1",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

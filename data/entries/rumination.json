@@ -2,7 +2,7 @@
   "id": "rumination",
   "term": "rumination",
   "definition": "Rumination is an eating disorder, most often seen in infants, in which food is repeatedly brought back up and chewed again over at least a month. The behavior is not due to a gastrointestinal or other medical cause.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "bef43f5d7b2d2806e7c932d53134a9537f33eee16c6d0d00883ca5b6aab8eba8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4524fed463c01b29c583326e87c6c50aaf19497a15a6a4d852ac60a894d18829",
     "packet_hash": "bef43f5d7b2d2806e7c932d53134a9537f33eee16c6d0d00883ca5b6aab8eba8"
   },
-  "hash": "b4eb5a3e077000cc7bc84c4c3ee028781882ba54f1bc881e88a228b36fa375d7",
+  "hash": "3da0411c5fdf3dbe2f7443bebafe1ed16ebd5ba4365d4654cd7f149ca1999ee9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4ef7389fd6703676af1cc59e9c6021894106db6250312a69c21ad738b7cffea0",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

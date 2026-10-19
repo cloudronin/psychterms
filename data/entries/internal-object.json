@@ -2,7 +2,7 @@
   "id": "internal-object",
   "term": "internal object",
   "definition": "An internal object is something held in the mind and used as the focus of attention rather than something in the outside environment. In this packet, it refers to an emotionally pleasant mental focus, such as a positive memory.",
-  "field": "cognition",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2016.00028"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e58a3c34523d21592eb5a97bb0c4b7d16433cfb7697dd7b2508461b3f8ad7f4d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0b46cc790de11b3064f94ec460fa187d66e1ae16c91b4110e9604cb266b18ac4",
     "packet_hash": "e58a3c34523d21592eb5a97bb0c4b7d16433cfb7697dd7b2508461b3f8ad7f4d"
   },
-  "hash": "0bb96027d22b56760d40cc6d4996b5ec36f56f7e2531ec1a0a406757b806a8bf",
+  "hash": "809093ca5d54776eb05a53f377bad6260f0c8725d7b49fb295208b0ecd03eef2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b3590537ded2e7e32af1674ee1106b7edf68cc0c44bdd6ca318da769c814d76a",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

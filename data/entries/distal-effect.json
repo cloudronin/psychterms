@@ -2,7 +2,7 @@
   "id": "distal-effect",
   "term": "distal effect",
   "definition": "In this context, a distal effect is the outside-world result or goal an action is directed toward, such as where a pass is meant to go. It refers to the environmental outcome whose fit with the seen action can shape anticipation.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2019.01838"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9c69fc0763403459fac34e3bdc1eedf4d948fa3d9f54dd1916ebbbbdb9ce488f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "519282d709f81149051ff83ee7d8503c9c6133aa229e72e4c43fe37844ca3226",
     "packet_hash": "9c69fc0763403459fac34e3bdc1eedf4d948fa3d9f54dd1916ebbbbdb9ce488f"
   },
-  "hash": "8042d05804da2587cc28eabb92fa5fb30be8fb0c773711e019ca9c8f9e67482f",
+  "hash": "d0f1059cc150c5493f8c31c92c4bf99dd6919cc66d124d5f5ad9ef2e2e89b5af",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "f7fd8078bd0167e54e3943ac238b65176605cd68dbe4a3713eb6686c0b02693f",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

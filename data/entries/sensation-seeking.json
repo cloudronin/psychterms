@@ -2,7 +2,7 @@
   "id": "sensation-seeking",
   "term": "sensation seeking",
   "definition": "Sensation seeking is a tendency to take risks and look for excitement. In psychology, it can be measured with a rating scale used in child behavior assessment.",
-  "field": "learning",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f25d0765cad235843af00eadb0954c0bd6bed6ca8bb467d738a6fd38f4cb1c76",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a5c7f4c832fe445d0f96e247b1d7eaab4e9ef84ece5d225bbb3f499d5a456fa3",
     "packet_hash": "f25d0765cad235843af00eadb0954c0bd6bed6ca8bb467d738a6fd38f4cb1c76"
   },
-  "hash": "17a8cf8e8b741aadee30fd30078046818f0bfb96ae8c7318e9243a994362a036",
+  "hash": "7a6a34c901183fce70784e2947f926a723b9a4f088c7c4e3d11f4efcffc70b85",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "22627de13f08c18aad18c8fe32c6a59219ed2745439cc3e5ee54d044fd63b49e",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

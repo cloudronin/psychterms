@@ -2,7 +2,7 @@
   "id": "intensive-care-unit",
   "term": "intensive care unit",
   "definition": "An intensive care unit (ICU) is a hospital area for patients who are sick enough to need especially close monitoring and care. In this setting, longer stays are linked with problems such as sleep disruption, delirium, functional decline, and hospital-acquired infection.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0332031"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a4cb0c502580c63083d89b0187aa1a400eabffcc96f591bf87232d99e9a507c2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2a2f8d31065a736d2d0fe836620f8a52af2534a41dc93a4b2adb59fa67d9feb7",
     "packet_hash": "a4cb0c502580c63083d89b0187aa1a400eabffcc96f591bf87232d99e9a507c2"
   },
-  "hash": "3b551bd927f9e7cb5acf82ea1a91cb514ed26a885021eff4fc185d51f2e15d1a",
+  "hash": "058435df2000bf9aeb43839f3b61b8beb2d1a276f786cef531b1eec2d6082eef",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a1a587338281196dffd9e3f39855d1a0c01354378ddf38955275805ab34e8e46",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

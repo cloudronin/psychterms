@@ -2,7 +2,7 @@
   "id": "clinical-trial",
   "term": "clinical trial",
   "definition": "A clinical trial is a type of clinical research in which people take part under safety and ethical guidelines. It involves considering possible risks and benefits and what participants may experience during the study.",
-  "field": "ethics",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/clinical-research-and-trials-listing"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "668f3c6099e7b98b2497eeaf1bfc1a20eaf802365a54e2499b7897281708a08f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f1da97be4f10703eb28221b27805936e20b22accf56dc2b011e2982edc2ad7a4",
     "packet_hash": "668f3c6099e7b98b2497eeaf1bfc1a20eaf802365a54e2499b7897281708a08f"
   },
-  "hash": "091a8ddb57fc34fbe4932e9df0bc725b1718ffd864d7b377a005ebc0bd142fd6",
+  "hash": "8e483fe43c718ab7f94d3da263674515c9561fc217c93f0f8ad1fe7d91df98ef",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "de1b2b4321422fc83cbe948b005725cf632c14ea056db979639ae53bcb88f15f",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

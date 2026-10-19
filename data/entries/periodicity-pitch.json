@@ -2,7 +2,7 @@
   "id": "periodicity-pitch",
   "term": "periodicity pitch",
   "definition": "Periodicity pitch is pitch perception based on the repeating time pattern of incoming sound signals, represented through neural spike timing along the auditory pathway. In the source, it is explained as being learned in stages, with auditory neurons becoming tuned to temporal input patterns that support pitch discrimination and estimation.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnins.2022.736642"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0ac1ae1d66a0b772be0d2c52216bd77e5d8f18c8edfcc138608c136cb9f043e4",
     "packet_hash": "7024f4e5ddbbbdc7e58372c6b7441f4c073682178f56d532bf3928e5d1d4fbe0"
   },
-  "hash": "33379ad1aa42258a9cc685eda7dd9d1be251f552b85bfad7b54f0a27fcdd6478",
+  "hash": "c491ab22a84735cc0dcb0d696f109499d2bd3b01f266feab63f7a8578b2b86ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "794713b4cc11f7d78aaac4068719fe286587dec25f15e7e09e66a3997c6bef8c",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

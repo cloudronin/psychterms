@@ -2,7 +2,7 @@
   "id": "hate",
   "term": "hate",
   "definition": "Hate is a lasting negative feeling or attitude toward a person or thing, shown in anger and strong dislike. It also involves wanting harm or bad outcomes for others.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D006252"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ae3cbdf558211895583b39c9965b863d44f2c0f8054dce40e8eb6f1afac2c39e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f2d5bada21f7e9ae5e0eb1a4be50ac7f94744c643b5fa9799040b94fb7e941b4",
     "packet_hash": "ae3cbdf558211895583b39c9965b863d44f2c0f8054dce40e8eb6f1afac2c39e"
   },
-  "hash": "ca2be3457fa46bcc71957791e7021f4a1e831156add65ed9b38d9d32fa774996",
+  "hash": "e88cc20a8d7f8cc4248312416b1f719e7c220a209d186b4abb72339349c14dbb",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "166a4797e36122580942ff660d07761c9ee6cb51f3a49a9e2a9c0d652d21cd9c",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

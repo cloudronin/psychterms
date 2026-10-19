@@ -2,7 +2,7 @@
   "id": "visual-narrative",
   "term": "visual narrative",
   "definition": "Visual narrative is the way images communicate a story or rhetorical message. In this source, it refers to how AI-generated images portray science and scientific identities across narrative, action, and emotional resonance dimensions.",
-  "field": "biological",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0341626"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "df2d06bf2ac575e5796f5ee33b601ca3beca32719e283ff23664792c22b78f06",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "208f521fbde3d16ee7465fadfb18068354890ed9076dbae02267b19cbb005e27",
     "packet_hash": "df2d06bf2ac575e5796f5ee33b601ca3beca32719e283ff23664792c22b78f06"
   },
-  "hash": "0c5189e856968deedf2b2dfc3d9958e5725c1305ed87fbc57fed1dc99f5134e3",
+  "hash": "640ef03357c02cc098edfa9d0f3aebf21df74ecbc31444bb28bbdc8f71653e76",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d25fc1bc3b312bc46ec4a3557444ee18885f6aa3019d939e6f6dbf96ca6ec68d",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

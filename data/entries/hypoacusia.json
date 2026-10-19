@@ -2,7 +2,7 @@
   "id": "hypoacusia",
   "term": "hypoacusia",
   "definition": "Hypoacusia means reduced hearing or hearing loss. In this context, it is discussed as a sensory deficit that may contribute to social isolation, depression, and cognitive decline.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s13023-021-01969-0"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d79aaaa3bb8b13647a7c02e38781a86d7f5b022462331674046a478543875a28",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "dc1797c44d6b018db30016e7f11e0b39e435282cf36f8893edd8625f852cfcbc",
     "packet_hash": "d79aaaa3bb8b13647a7c02e38781a86d7f5b022462331674046a478543875a28"
   },
-  "hash": "14fd3c4613b7b58df33d20997ebb6db055def33694fc31d4cb440d28725bbc78",
+  "hash": "b0bebe9aa7a03e3327e1cbd0c4da61eebdd85dacf18d2044707c87b35e05419f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7936f980803ddec0364985006d631fea466c1c9e69df8b98b623d529df62a7d0",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

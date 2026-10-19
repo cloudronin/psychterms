@@ -2,7 +2,7 @@
   "id": "sexism",
   "term": "sexism",
   "definition": "Sexism is prejudice or discrimination based on gender, or attitudes and behaviors that support rigid, stereotyped gender roles. It involves treating people unfairly or viewing them through limiting expectations because of gender.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D063507"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6e522bfd5de919f9787e533ef4e7527bf17f7ed8be63fb0fd96c48294dc4499a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d0330443d60ed6934467a751800d3a68c0fc9d1138447e0bc6f231841e9a433f",
     "packet_hash": "6e522bfd5de919f9787e533ef4e7527bf17f7ed8be63fb0fd96c48294dc4499a"
   },
-  "hash": "397df02116d51b36787571551da47ecb665b83d5c81b2bfedb68ba6b847f6850",
+  "hash": "42ab436fb619851afead68e1d5b5578a77effc297d5869748bbc69ecf87e016c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "757c2f79df89835e12dc8297af4110e549c0f9cab4bb6aa73a18cd752eab40e0",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

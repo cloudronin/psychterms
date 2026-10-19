@@ -2,7 +2,7 @@
   "id": "visiting-nurse",
   "term": "visiting nurse",
   "definition": "A visiting nurse, in this context, is a psychiatric nurse who routinely goes to clients’ homes and works with both the client and family members in the community. Because they already have an ongoing relationship with families, they can tailor support and psychoeducation to the family’s needs.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-024-05884-z"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b0c05c530bf81911d62b34214bc4e7c96dd9c614ce4b7992651102a48907af09",
     "packet_hash": "995a41cd7027a370168da44fd1dc6cf3731bf991c14c2cf314bcd611783b1f8f"
   },
-  "hash": "8d797355f39ecc31d9f7f962847380f8b6beb47f6aad354e487d04c1ebf0c3ba",
+  "hash": "9665c34eded87c72eba27fa895afd9bb420ce27a2998ba466c065af632a3305f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "bd78fc374b5e0728b8f9652535e95585f187e7429944a603946e81d767a7b3cf",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

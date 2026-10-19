@@ -2,7 +2,7 @@
   "id": "niacin",
   "term": "niacin",
   "definition": "In this psychiatric diagnostic context, niacin refers to the substance used to measure the niacin skin-flushing response, a bodily reaction being studied as an objective biomarker for identifying mental disorders. The packet supports this testing-related meaning rather than a broader general definition of niacin.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-025-07196-2"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "182eab5843acecc31d4cd3e7a7ccbf431f56b250383efa809c6bdc809015a687",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5bca0bdf4dd845985cbb568e3a7956ce55d182ba881cae3dd3c00947ee9680f2",
     "packet_hash": "182eab5843acecc31d4cd3e7a7ccbf431f56b250383efa809c6bdc809015a687"
   },
-  "hash": "654a5e944d7ce9b5e2d519c3138bf3e3efee3693c5cab932b1eb4ba9195f51a5",
+  "hash": "53faa69165f5df06f3773d84612e3f8f75c9b2d21894799127d89a90ee8f977b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "aa82feaf05fcf0dac75199c818e453298c4a7a8f743904f526bdf9991ced5e58",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

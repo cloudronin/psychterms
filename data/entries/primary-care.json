@@ -2,7 +2,7 @@
   "id": "primary-care",
   "term": "primary care",
   "definition": "Primary care is basic health care for common medical problems. A primary care provider is the health professional a person may see first, such as a doctor, physician assistant, or nurse practitioner, and may also be someone with whom mental health concerns are discussed.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/tips-for-talking-with-your-health-care-provider"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "84a40012f48231ca8a5aa3ac7977797f520ca70c97d337507220ba053529a934",
     "packet_hash": "6ee0a2d6b0a4e047bfb8292dedec6ab8bd33a9d54de48776976dbdf50f9303e3"
   },
-  "hash": "b158cdbd8bac8f3b7391707a6734ee30f2d05b96eb7a47118ecc4dd093ccebab",
+  "hash": "f3ab694675278090e41e2e5ed0cf78b59260ed5b80f828998e735ed181a8b4e1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -58,5 +58,9 @@
       "request_hash": "db256a4e4f111809485e067796ee1fde760a686a45a9d27f60ab27f43a004d00",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

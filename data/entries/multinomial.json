@@ -2,7 +2,7 @@
   "id": "multinomial",
   "term": "multinomial",
   "definition": "In this source, multinomial refers to a model used to compare several possible choices at once rather than only two. It is applied to freight mode choice to estimate how likely each option, such as sea, rail, or road, is to be selected under given conditions.",
-  "field": "development",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0350972"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7607e7412718640805bd1821c561a15db09fc657303c88aaf258916cee5da263",
     "packet_hash": "4992740f31be992dbba163cdb2abd262f404588f264e7eacad5a73d73ba5e5c8"
   },
-  "hash": "9a30eb8933fe44b8a9f0bf0cdac3ee57888c883a4269acbe055d9d30cc32976a",
+  "hash": "a95925e3414f861d32dd437d7f5437add0ed306517d50e448dfe2442f1de9e4a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "28a28fd731d081621f3caae1f37af48e4a2ca75914c09d23ebcf045f6c77d238",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

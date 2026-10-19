@@ -2,7 +2,7 @@
   "id": "stage-sampling",
   "term": "stage sampling",
   "definition": "Stage sampling is a survey sampling approach carried out in steps rather than all at once. In the two-stage form described here, researchers first randomly select clusters or groups from the population, then randomly select individual elements from within each chosen cluster.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0335586"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2791c87efb52234251ce3593af373c0c7ba1722ab26ad2cb66e6af3c72725962",
     "packet_hash": "205facdadf8862fe23e8a6ac31761992699d65c5379660678ac55accb9c547e4"
   },
-  "hash": "2fa3ee99777fe2f7c9d8291596e0c81cedc7094fe1f26b5aea1fb552ac6baf57",
+  "hash": "d702f5a96c0550036418245f05376cf889ab33395e06af7b32f4d006c94663cb",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "2908c4132321769d402f8c569bb349e61071c7ac5ce119f4686b9d4a057b1a00",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

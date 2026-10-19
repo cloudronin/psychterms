@@ -2,7 +2,7 @@
   "id": "social-insects",
   "term": "social insects",
   "definition": "Social insects are insects that live and work as a group, with individuals often dividing tasks among members. In the supplied source, ants are an example, with worker ants differing in how often and on which days they carry out foraging activity.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0293455"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4549f46bde2cdfb8c6f5620aed93539004f2cad48376dccd17dc36013b9c7e23",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8a43667fa9257bf2cd45bb0182747a8fcec10c1bc188a3be97eaaba97649f76b",
     "packet_hash": "4549f46bde2cdfb8c6f5620aed93539004f2cad48376dccd17dc36013b9c7e23"
   },
-  "hash": "96fc6a2fabe3d48a758fd57e72cf0c452d7b96a5942c535053e691597e6f3047",
+  "hash": "314a6772d2a90d006b95821d79d76a0c40536cc0a671208e84c9d467d1105fe7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0c3441c938f3bf0a1f6157111ead703b400da5d8f7985215a8289653be6b0f58",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

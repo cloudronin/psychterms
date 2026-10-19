@@ -2,7 +2,7 @@
   "id": "additive-model",
   "term": "additive model",
   "definition": "An additive model is a predictive approach that represents the effect of each input variable with its own separate function and combines those effects to produce an overall result. In this context, it is used to make machine-learning predictions more interpretable by showing how individual features contribute positively or negatively.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0324169"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0a64f2c45784aa7b3a4434d09b2fffb94009a7e820e9d9ad0a0dfb3b219f06ee",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b2a5640da0103b9fd64e119403a149ce0ba76ccae2a79f492c7acbdd30163e45",
     "packet_hash": "0a64f2c45784aa7b3a4434d09b2fffb94009a7e820e9d9ad0a0dfb3b219f06ee"
   },
-  "hash": "4089466f7a3d9e44aa9c844e73bf2e5f8ab7990b25c826f5f6fb3fa39bd6ccb4",
+  "hash": "359f1c4646745341549414753245170852073087299b6fb539944d1e34f9cd71",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a488e7630df87cd779e736dd0a45a61f04b3d72c4ee950a0da6ea7d3bb262df8",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

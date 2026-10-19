@@ -2,7 +2,7 @@
   "id": "sense-of-presence",
   "term": "sense of presence",
   "definition": "A sense of presence is the feeling of being in an immersive virtual setting as if it were real. In a computer-generated, interactive three-dimensional environment, this experience can reduce avoidance and support emotional engagement.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D063367"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cda0ce231ca5ecd4396c3672e1a20c18faf1bb4dbb254cf77e4fafaea7350408",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f2dbbbf16dcdd09b3f23c64362b5c35e97d0f151cea9461ba6ee9b4fdb2368d6",
     "packet_hash": "cda0ce231ca5ecd4396c3672e1a20c18faf1bb4dbb254cf77e4fafaea7350408"
   },
-  "hash": "99cc2ea748d9ad70f4abecb1b33872cb1a346bf9b6c59ad9948a23ef8112ad6c",
+  "hash": "1578560d6773f720ca4f6a20cf30ba0a4c3751a372a0cbf49a9ede074853c450",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9564b0e736dcc690b7fea9922243ca242a537b7fb79f0e20bf305145760eadd6",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

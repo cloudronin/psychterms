@@ -2,7 +2,7 @@
   "id": "single-session-therapy",
   "term": "single-session therapy",
   "definition": "Single-session therapy is a way of delivering mental health care in which an evidence-based, solution-focused brief intervention is provided in one stand-alone therapy meeting. It can offer immediate psychological support and referrals, including while people are waiting for longer-term services.",
-  "field": "cognition",
+  "field": "counselling skills",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0302543"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7f8dc4a3e0474e5f47fe2b84e16d0e0ba0ddd8eebbff500102cd54161258de28",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "af48d83a9b4af8bb2d555f1d404e11b6444219806bccbbd9cdadcff4b094cf3a",
     "packet_hash": "7f8dc4a3e0474e5f47fe2b84e16d0e0ba0ddd8eebbff500102cd54161258de28"
   },
-  "hash": "e29e01e4d2364b1a5cd844c2f8912c2f624090cd5349dc10fc7c3213c226cb09",
+  "hash": "c85cbf00650e566ebd1a66b9fc7363c0b7260f183246a0c6d57ab2a697f52da7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "81994337e70e3fac56db4c25c547cb9eee1f99f4aefe8ad44742b6840e3d66ba",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "nh",
   "term": "NH",
   "definition": "NH stands for normal hearing. In this context, it refers to children with typical hearing used as a comparison group for studying pitch recognition.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1783243"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b676950cdb8f0689de514abe957d684eef53d0a146fc1ce2b8d63daeb8eb9b32",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0bc708d3a88d3a52bf9117dee9246e509b8211d41b477802a7c9ba124e93347d",
     "packet_hash": "b676950cdb8f0689de514abe957d684eef53d0a146fc1ce2b8d63daeb8eb9b32"
   },
-  "hash": "f50e84cf70c7c5e46155776e4619e393a0016b867259ecf7035c9171df713460",
+  "hash": "c2e69ffa7ee978d1760effce3bc0df7e391ebb38de4db1771ddfd5bb14b5e463",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "435aa01ede2238ef85a66c8d7e4f4d6d534c7acd03b2f4f9643a3b27931585fd",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

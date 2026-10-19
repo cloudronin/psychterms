@@ -2,7 +2,7 @@
   "id": "primary-emotion",
   "term": "primary emotion",
   "definition": "A primary emotion is a basic emotional system used to describe broad affective tendencies such as SADNESS, FEAR, SEEKING, and PLAY. In this usage, these core emotions are treated as meaningful predictors of how people may experience states like depression, fear, or social joy.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-021-03677-2"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b613bb71648ed8456e5d27bf84af44c9fa372a408aabc9fb38c0c4510616e93d",
     "packet_hash": "94dca8fef351a64765f8e7b81c0ab8abd813224b695956dea7c81d26576b37dc"
   },
-  "hash": "711a8258116e23f1e9e7ac786cd6c83f34607a3ff9f2139d6f9511ac5da83288",
+  "hash": "eb2e3dbf25fe187dee9b3103269c20887f9376092539135ed3e4e0aa0b56cfa5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fbd378abe11575e968b9f01deb959af6a06514acd5cc6c580e663e340c1f6a66",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "mental-hospital",
   "term": "mental hospital",
   "definition": "A mental hospital is a hospital that provides mental healthcare for people with mental disorders. In the packet, it is described as a setting for admissions and outpatient care related to conditions such as psychosis.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0340898"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2dbdab840b7ab306f465db1d61607bcbd1b31b6693151b4e1c9b0d3d28c4ce7f",
     "packet_hash": "a322e181ec77b95b25bd3cba6dae2e4fba93a968f72ef57f2e86b19c34b7523a"
   },
-  "hash": "71eb678d3eaa431433343df9048ef3978faee3b6172a5d115d9eb0a497d8feaa",
+  "hash": "484a58dd7884d55be675db1228401b28d8a578c7b195e66f6f3c8f9da725e514",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "734f20ab9459a249630801c701c3f68cb51f41c2648c1b56ea71f640552bcd2b",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

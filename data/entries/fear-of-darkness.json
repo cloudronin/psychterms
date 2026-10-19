@@ -2,7 +2,7 @@
   "id": "fear-of-darkness",
   "term": "fear of darkness",
   "definition": "Fear of darkness is a presumed innate fear response to being in the dark. In this source, it is described as a human tendency that may have been shaped by night-time predation risk.",
-  "field": "learning",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0022285"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d199455d2bfbe8a75f4bb3001bf90d1924a06a948296c73e009106c5fa78021c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1c4f09e873870d91abdac813e4f76288ed1784e4b716856bbb4329aea4289f65",
     "packet_hash": "d199455d2bfbe8a75f4bb3001bf90d1924a06a948296c73e009106c5fa78021c"
   },
-  "hash": "ef9d37cec2f322f89fc89f171045193857e31ce6ce8703bf9532e7dd167fa5b2",
+  "hash": "3462a390435f9edb7c59f6334305bbc574edb1ee9697d9a2909a63993ce744a2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "47cebb2711f5f0ffe3b4930f85db4ecb04443033b3a4c01db2c34df8b836bbf3",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

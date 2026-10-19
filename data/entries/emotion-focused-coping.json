@@ -2,7 +2,7 @@
   "id": "emotion-focused-coping",
   "term": "emotion-focused coping",
   "definition": "Emotion-focused coping is a way of dealing with stress that centers on a person’s emotional reactions and attention to the self rather than directly changing the stressful situation. It can be helpful when it supports emotional processing or seeking support, but it can be unhelpful when it promotes avoidance, passivity, or self-blame.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0274458"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7726e07bc940d80d6c4bc251519047d1c4c0aa7db995dc1f9a3839761067bfcb",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b828470e6c6c7118ad1ccb99021ee1c7aa92277f61afbf9fae65e5c4ef454378",
     "packet_hash": "7726e07bc940d80d6c4bc251519047d1c4c0aa7db995dc1f9a3839761067bfcb"
   },
-  "hash": "2c19c696333fc8a4eacf9adfd4f3d5cd9265f861de053369764cb094ce1bb6e6",
+  "hash": "8a4d30b94192d47642a47962d758f5bcbc65ca6f9b0c10881820dca7ee4614c0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "bfd0658c0ebf9aa7e6df35bcd0a60be18df41b967aa13cf4ea466172940b6389",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

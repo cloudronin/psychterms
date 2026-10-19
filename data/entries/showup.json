@@ -2,7 +2,7 @@
   "id": "showup",
   "term": "showup",
   "definition": "A showup is an eyewitness identification procedure in which a person makes a decision about one presented suspect, such as judging whether that individual is the perpetrator. In the supplied research, participants made separate showup decisions for different perpetrators after watching a mock crime.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0208403"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "136e6869a5bc1c8beb796fa964edc36d17446fa3cc3bee828be073254c17a734",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "94232c91c323911869bfab1e42579655a50604dc5b4c9b7b9652ce9b349332e4",
     "packet_hash": "136e6869a5bc1c8beb796fa964edc36d17446fa3cc3bee828be073254c17a734"
   },
-  "hash": "b97f57b58216818b1280ffc5f1fcee8da6c18108fa9e55ac3662edd401f51dc0",
+  "hash": "f109be114ba230ccc8d34422b7d88b8e1412cd68bb51c32c26f6f5b48eb3f808",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ca6e574ee826adda9c4a7e8827d272f65b860e3496f110af3a6bec3403bea371",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "language-transfer",
   "term": "language transfer",
   "definition": "Language transfer is a task component in which material is converted from one language into another, such as oral translation from English to Standard German. In this context, it refers to handling information across two languages during language production.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0289484"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cf5ddeae1efc72245c6f7e3c50d3d4f119f431510784f7f94af521b4e33aba8d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fb023811564e795dcd2e67910701b01aa0d6c70dc385dc2d673375e3968ea3cf",
     "packet_hash": "cf5ddeae1efc72245c6f7e3c50d3d4f119f431510784f7f94af521b4e33aba8d"
   },
-  "hash": "a088ec1cd65ddda335ce0497453c3306dd41976e8867134cbf87fb8b39fbae05",
+  "hash": "285cdc74bbe3d662fb0024be53389513e0de810f26b127db5b091bda9cacddc9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "30bf881326dc0197240a73447d6157aa58c297b266c371db6d42c9b82dd4bb27",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

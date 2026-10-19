@@ -2,7 +2,7 @@
   "id": "gross-motor",
   "term": "gross motor",
   "definition": "Gross motor refers to large-body movement skills used for getting around and interacting with the environment, and they support the later development of more complex activities.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e709019bca536b918b9aea4dcccd0b7dbb8771eb6fc368ab80f07afcb13d032d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "84977c0cbd9a90ba585dd079e0a6ccef194f6132a901d53437242165fe6d1d43",
     "packet_hash": "e709019bca536b918b9aea4dcccd0b7dbb8771eb6fc368ab80f07afcb13d032d"
   },
-  "hash": "459fa8fd346dd9304f2061ec722d25c1cc5eb1d5884fbecf20af0e29364246a6",
+  "hash": "fae9df3ce892be95206a09aa39a70114cc989663caeb7430db62f2bb2e242c99",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "0474608f78b376d0d6975cb3080e14871d38b3cd757fefae3b48dabc08741fc1",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

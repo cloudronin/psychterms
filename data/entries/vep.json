@@ -2,7 +2,7 @@
   "id": "vep",
   "term": "VEP",
   "definition": "VEP stands for visual evoked potential. In this context, it refers to a visual-signal-based brain-computer interface system used in research on neural synchronization and cognitive performance.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1774230"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b6d89ca5eb1e5ebe171577b8988ba365477acd49c3f300f9f233d3112a78a9e8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f4180b19b07fed359a033cfb88133041d60991668c4cb89482f446335d1aa9a1",
     "packet_hash": "b6d89ca5eb1e5ebe171577b8988ba365477acd49c3f300f9f233d3112a78a9e8"
   },
-  "hash": "386d7dabc638507af3a146e01745567b21aa7192c9c9453a6d0ef402e0fe8ad7",
+  "hash": "9839f0513e2cc035ff993bc00c005ca6629fd869c7d6d30ebcf7b6395c4aa5cb",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "0bc62abc5816763fc74cb4f6d845bac14b53cd16f8f57669e10186c5e6c05799",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

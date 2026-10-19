@@ -2,7 +2,7 @@
   "id": "functional-connectivity-mapping",
   "term": "functional connectivity mapping",
   "definition": "Functional connectivity mapping is a way of identifying and displaying patterns of linked activity across different brain regions. In this packet, it refers to using brain imaging to show a circuit of regions that function together, including areas connected with the mesolimbic reward pathway.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0324522"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2f3e7f4c7391ec44489c24e2d8ca452ac425a559a9337d51fa7411c0295bc59f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a016949e030d1875a858256ee0ef2d61f98f7429ff8eab25a675afc506e49f9b",
     "packet_hash": "2f3e7f4c7391ec44489c24e2d8ca452ac425a559a9337d51fa7411c0295bc59f"
   },
-  "hash": "47601584b04ad0091c4714ce73466b949d9df55f121b90186ab8ab3cf0d0bf16",
+  "hash": "916ec5a63f177bb9ae86751421009f1dbcadc6e104725a8f8f4c7590a9c570cc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "4daecacbf18d750a8b4069f3f6e852c7aec86d65fc2d6382ab059d683c6429ea",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "self-report-bias",
   "term": "self-report bias",
   "definition": "Self-report bias is distortion that happens when people describe their own behavior in ways that do not fully match objective measurements. In this packet, it refers to errors such as overestimating physical activity or showing weaker agreement between survey reports and device-based measures.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12874-020-0896-4"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "67a38c6982acc8039991302af685d92d6507eb0650d3b326f471c7f8911e6404",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2020c6b919bdf848ccd2ebcd7b77c242156e3c262acb5ec8d4683565abadd1a3",
     "packet_hash": "67a38c6982acc8039991302af685d92d6507eb0650d3b326f471c7f8911e6404"
   },
-  "hash": "aee39f74e21d458c5526128f7bb0a9877bdfdd6df3cc668a31be71860cff3fe9",
+  "hash": "02471324eda9a197a0f2cc07ff42590c788e541df0958a0bb1ee82bf3d271ab1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b81742686802e498f419d174918e9258b4a866ded55b083549858d8bb01e1bcd",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

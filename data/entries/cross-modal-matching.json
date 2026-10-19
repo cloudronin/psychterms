@@ -2,7 +2,7 @@
   "id": "cross-modal-matching",
   "term": "cross-modal matching",
   "definition": "Cross-modal matching is the ability to connect information from one sense with corresponding information from another sense, such as linking a heard speech sound to the matching silent mouth movement. In this research context, it refers to recognizing that auditory and visual speech belong together even when they are presented one after the other rather than at the same time.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0089275"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a253e77e81259760646071396febda3b91820c85c7e6c8db378f457f82f5a975",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fe14d81aabbaf57238b40ec3857a737304b3d8fbd66a8a2cb9ff2bc3a7c3815d",
     "packet_hash": "a253e77e81259760646071396febda3b91820c85c7e6c8db378f457f82f5a975"
   },
-  "hash": "3d2849149106ab4686fa805757d1185990bc219f5a709ad8dad4540b55965a80",
+  "hash": "fa704d291947c56861ce4b0dcf69863062c8f673baa376bbada35ef0d957a59c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a83048e50dfe34b4ceaeb5404683a6ecbc3098efc22c1eef50559547ed8cf61c",
       "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "hives",
   "term": "hives",
   "definition": "Hives are a skin reaction that causes red areas and raised welts because fluid leaks from small blood vessels in a localized area. They can be triggered by allergy, infection, or stress.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D014581"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9a8a67fa20b700e005c3afbe568aa460009a2eb633cc98099265a99762cb4869",
     "packet_hash": "8cb6c31fb5c8ceab6914985ef55c6b31bfffa506a2f370c94fc2a43dbbdeda11"
   },
-  "hash": "30143cd49c99ceb06c63e98d1b0a18328afedbd670af8db3ed0d0ffd2a3f3d26",
+  "hash": "420a180f23150f35cac4df99b5c44fce7b6e5c863b5c773f4996416f7f56551d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0c8c461dbf1416352dc46a0f867c30d6fad33a2abd3d776a878e9589df31bb23",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

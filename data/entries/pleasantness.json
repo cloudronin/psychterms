@@ -2,7 +2,7 @@
   "id": "pleasantness",
   "term": "pleasantness",
   "definition": "Pleasantness is the degree to which something is experienced as positive or agreeable. In this context, it refers to how pleasant a visual image seems and whether that positive quality can shift how a sound is rated.",
-  "field": "biological",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0321594"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a846fecf09e508af892034064cc25e51f71de1d3c02d7fb5d5c18f46a8d40d77",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "035b53528a50b1820a2dabeea38681107bc411fdadab21a514cb035b360d8384",
     "packet_hash": "a846fecf09e508af892034064cc25e51f71de1d3c02d7fb5d5c18f46a8d40d77"
   },
-  "hash": "cc5ae6efe2bf3bf2924b789020e1bfa5e9775ee070624e7319bfde1eae3faf34",
+  "hash": "2c97f0f9891d1570f30f17a5c5efb3cb82b420a609e7741e64d36e83cc7531f7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "66aeb029be4c523b61fa6a3d3cf3f20d6ca48afdf4f942bc7cc3c0bdf81cb0ed",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

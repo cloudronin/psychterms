@@ -2,7 +2,7 @@
   "id": "respiratory-distress-syndrome",
   "term": "respiratory distress syndrome",
   "definition": "Respiratory distress syndrome is a condition in which breathing failure becomes progressively severe and life-threatening even though no known lung disease is present. It usually happens after a major bodily stress, such as surgery or serious trauma.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D012128"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8985a8c56806a5a03ebb89f737102c67223fd2a8c847b377a61e194d0d7802ed",
     "packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996"
   },
-  "hash": "3b8a0aa5f86ac76be8eb745e019d02ba7f73f682709a1188638deb015c013d7e",
+  "hash": "8f29ade4aaab20d4f5f6411e23687ada663e1d68d66679af60a4f7e15b7073b9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "24f129bb62d06ce974530c23c8f8b1fa1bdd1e58e5422e616feda74b58a2ed65",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

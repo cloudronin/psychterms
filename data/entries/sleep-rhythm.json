@@ -2,7 +2,7 @@
   "id": "sleep-rhythm",
   "term": "sleep rhythm",
   "definition": "Sleep rhythm is the pattern or timing of a person's sleep across days. In this source, it is discussed in terms of how sleep timing can differ between workdays and free days.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0279620"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b9e78414bb3d5c1d442e6026aba45d6b5697f2b106a95f5417d3a1eb1b8b32a9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d90484391abfdd1b1c50a21f63f7ce8df1b351f2c061f2a09d536f88afd632fd",
     "packet_hash": "b9e78414bb3d5c1d442e6026aba45d6b5697f2b106a95f5417d3a1eb1b8b32a9"
   },
-  "hash": "cc6f21ea1424b48f51ae9c846214ac41e72ebed0e20db75493d5141c89f18d93",
+  "hash": "2a4b7038eeefd1d1abf87da6a9d116573dc40cc91e448a082b0e0b58b3ea2d81",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3a5d66d4e0070cc3650d33cc9f1a818dc6002b180f32e176acd83e4901891f81",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

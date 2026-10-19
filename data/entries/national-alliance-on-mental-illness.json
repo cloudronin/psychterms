@@ -2,7 +2,7 @@
   "id": "national-alliance-on-mental-illness",
   "term": "National Alliance on Mental Illness",
   "definition": "The National Alliance on Mental Illness is an organization with local chapters that can offer resources and encouragement to parents and caregivers seeking added support around mental health concerns.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/disruptive-mood-dysregulation-disorder"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "27e03fee036753486092787c7d03376f8247057001c834521129219693c03a7d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "79e7290db6e2ef99342e7b24ff5b5860f8b0633e2f51fe5785730268d1834703",
     "packet_hash": "27e03fee036753486092787c7d03376f8247057001c834521129219693c03a7d"
   },
-  "hash": "5ba881176f352c2244a223e46fc4ac8ac16bc2d3aca520126e0627078720f8a2",
+  "hash": "5933437f8e8105aab1e7d7acf7e3c22e328dd118df7e67b3397a2df67a8ed7af",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a28f4e25033e9b85449b41257334b9dd6f953f27b1abff518a9d9a6ae6ab44da",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "postpartum-blues",
   "term": "postpartum blues",
   "definition": "Postpartum blues refers to mood symptoms that can occur in new mothers after birth and overlap with those seen in postpartum depression. In the source, it is distinguished from postpartum depression by being less severe and shorter in duration.",
-  "field": "biological",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2021.699740"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "42667df998060c5b1394e38ff2e74fa4333e4e7d66acdb0731f38acdb994effd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c2c78c4cf99cb2cf2ebf991f10d02ce94606c02853a75241327d6074c9576dc1",
     "packet_hash": "42667df998060c5b1394e38ff2e74fa4333e4e7d66acdb0731f38acdb994effd"
   },
-  "hash": "bbf532718c6b266502d0940b942e5db2113a1e535ffbad4702c7cc253f9aa7c8",
+  "hash": "e7110ddce2e9a90d5ac02ac56fb98c7e0ac90d9894d515fa71edbc810cab10b1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "23288e0b54bec33f09cd53a8ee0f8e7de9e917f368fd051f9a48a0608f8964a5",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

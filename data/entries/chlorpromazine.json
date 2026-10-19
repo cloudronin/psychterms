@@ -2,7 +2,7 @@
   "id": "chlorpromazine",
   "term": "chlorpromazine",
   "definition": "Chlorpromazine is a prototypical phenothiazine antipsychotic drug. Its antipsychotic effect is thought to result from the brain’s longer-term adaptation to dopamine receptor blockade, and it also has other medical uses such as reducing nausea and treating intractable hiccup.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D002746"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "52db5f3e5324a024a0ee927bd07a1f56057b8ebb7b4370cace2ce02cecc8461b",
     "packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e"
   },
-  "hash": "482aa52ff588df8dbfd7bb48bd6b8ca86b756269194c2d088f42e0a44695621d",
+  "hash": "c5e82e6458adf34f7b9dba5c43b55e957f00cc6c0574c7639cb9f7cc57cf93b6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "b5da1174079b438cfc39ac744f3aa27ec81175000edb2b35c733564efa56c59f",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

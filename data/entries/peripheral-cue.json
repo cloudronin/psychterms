@@ -2,7 +2,7 @@
   "id": "peripheral-cue",
   "term": "peripheral cue",
   "definition": "A peripheral cue is a feature of a message that influences how people respond without relying mainly on the message’s core informational content. In this source, emotional reactions are treated as peripheral cues that can shape behaviors such as liking, commenting, and forwarding social media posts.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0353608"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9241b060b1ad0108fa23c68ae0d43adf82f4c0828333bbaee2edf31ada5cd144",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c0c591265ee9fb5dc7488b789cd8835095b605e2718ffea1c44f87c70daa721b",
     "packet_hash": "9241b060b1ad0108fa23c68ae0d43adf82f4c0828333bbaee2edf31ada5cd144"
   },
-  "hash": "86e6ef3578137a30f01ec44fde9437b44fe84a82f42a922e67e23bfad6fcce0d",
+  "hash": "a726538713a67f766cb8534b52a02b196ede0351cf79e78ea99275917525a91a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fdd21c8294ced77dbae3fbbc8c5f66fbc114f830e81689e5667c873632161470",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "orthotics",
   "term": "orthotics",
   "definition": "Orthotics are custom-made medical devices used to protect, correct, and support the body in people with conditions that affect movement or physical development. They are typically adjusted over time as a person’s body or recovery changes, because poor fit can cause pain, skin problems, or reduced mobility.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0338461"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5b93798befd7604136f4ecbd24a753f9bbcbb7a31d157fbf6d7dc6e6d040ef32",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6b30bc36b4a78b1de5d5af9a28d44a4bbf424fc8a10b3bb359fd0a0e5d5b0196",
     "packet_hash": "5b93798befd7604136f4ecbd24a753f9bbcbb7a31d157fbf6d7dc6e6d040ef32"
   },
-  "hash": "0767d1ca4ae2d8288f04b341984ad562e399cfd1c4458e666c3bd3482b8600ed",
+  "hash": "cd6f440192f73ae58131551efc180711c41de2012d8c5fac914a5ed641d79f6a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a27dfb72ac7268d62be3789f60c4637b744a5c92baca35eca7acdbd64033ddf5",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

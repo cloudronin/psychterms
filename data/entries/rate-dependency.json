@@ -2,7 +2,7 @@
   "id": "rate-dependency",
   "term": "rate dependency",
   "definition": "In this packet, rate dependency means that the mechanical behavior of a structure or the adhesion between its layers may vary depending on how quickly force or separation is applied. Here, faster loading was linked to greater variability in adhesion strength, even though average strength and stiffness did not differ across rates.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fbioe.2022.883268"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a4bea3c695bfad8a01e869cedb35750ac4397fb8f8886f8d3d029a0bdee5ebfd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b857b03806405e41e01a635f5cd453d1437cddc4902b78d8121aef350b549829",
     "packet_hash": "a4bea3c695bfad8a01e869cedb35750ac4397fb8f8886f8d3d029a0bdee5ebfd"
   },
-  "hash": "38746cc9655e1d361463824d6e8bf638e1150c70d1e11d01daad89d33e0c570d",
+  "hash": "cac4b3b31dbd17d75fa8bde4b79d26495dff912e085307d4ff8ba57da14d0576",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "0efd8622eff54467afb82a6d9beee6170aa01319a54b76f8ad7f250b914e14ea",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

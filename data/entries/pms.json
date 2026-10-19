@@ -2,7 +2,7 @@
   "id": "pms",
   "term": "PMS",
   "definition": "PMS, or premenstrual syndrome, is a condition linked to the menstrual cycle in which hormonal changes interact with the brain’s stress and emotion-regulation systems. In the luteal phase, this interaction may increase stress sensitivity and is associated with affective, physical, and sleep-related symptoms, along with altered activity in emotion-related brain systems.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1912206"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "61f273513abcfaf5d2a85cd2279e186cc914d1ec2387e6a7295332d33dabcad1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "33a5223d6425ea7f578bc10c749f2d37efff9d676b9c1a831a3cedb603ceb6f8",
     "packet_hash": "61f273513abcfaf5d2a85cd2279e186cc914d1ec2387e6a7295332d33dabcad1"
   },
-  "hash": "74dabea7780171d565644eb77f45e37b45211e4cb3d9aa28dbc47ef9e03e3603",
+  "hash": "bf7874c5fe47e1a5f9ca7bbfd93a85b18f948d12a4c87237b6a089e7dfba24ee",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0237c7bcc30ca52d4b4a5d7a43c10bfc004c841ca7fdb2692d491224b17d8032",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

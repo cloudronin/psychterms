@@ -2,7 +2,7 @@
   "id": "telemetry",
   "term": "telemetry",
   "definition": "Telemetry is the remote tracking of an animal’s movements and behaviour, such as by using satellite signals to follow where it goes after release. In research, it is used to gather information about patterns of movement and activity over time.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0351541"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cd8efaf58af58f0afaed907a5908ff5b69a0f2fe338a736a6919ddba3b7761d1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9a6aea5a2224d48a43cf7cbc12bc43a0534c6ae078694d6c6d47775196e778c8",
     "packet_hash": "cd8efaf58af58f0afaed907a5908ff5b69a0f2fe338a736a6919ddba3b7761d1"
   },
-  "hash": "f02bffe9734805a882e785af04ace0e56ee3dd10774f0e4a73f013f4981695f5",
+  "hash": "ab54203346c0c5af28536309822f3a785ccb20270ee5e7558a9ca6c7c9e7551c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1f23cd0f7d2ceabc8820f0e36204dca1423f2e17fa69a7f7df6b939b55c1873f",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

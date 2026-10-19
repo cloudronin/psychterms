@@ -2,7 +2,7 @@
   "id": "inborn-error-of-metabolism",
   "term": "inborn error of metabolism",
   "definition": "An inborn error of metabolism is a disorder present from birth in which a genetic change disrupts a normal metabolic process, often because an enzyme is faulty or unstable. In the example described here, cystathionine beta-synthase deficiency causes homocysteine to build up and can be associated with learning and behavioral problems.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0286550"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4bfb932af8dfc3f9610aac79fd702a1ee750ffbfa777c296b1e4a00c8c3b3a8d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "106b9cdd6d02fea7e57c1a2b49f644422713c3cc3e4aeeceba7273562785d5f7",
     "packet_hash": "4bfb932af8dfc3f9610aac79fd702a1ee750ffbfa777c296b1e4a00c8c3b3a8d"
   },
-  "hash": "8fada7bd910bc33bc0b4e5808209ce3d80fbed14b365cef077c034281862fb8a",
+  "hash": "588ba1d485fc9c6811fe3208fd64751870aa8532db156344592813436a99fdf6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "89b8e040b51a4ceac466aae13326f289da97b5b7d26acf0822576aaa817ce024",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

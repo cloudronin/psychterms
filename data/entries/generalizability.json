@@ -2,7 +2,7 @@
   "id": "generalizability",
   "term": "generalizability",
   "definition": "Generalizability is the extent to which a model or finding continues to work well when applied beyond the original dataset, such as in different populations or under different measurement conditions. In this context, it refers to robustness against biases and changes between datasets that can reduce real-world performance.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0351225"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "783406b979c66a36eb7a0effe67a1ad90276c4e84f1d0e5daaf01bb62cf79f8d",
     "packet_hash": "d17d72b915b172e2b32b03deba2b92c01473b58be3100fb6fecdcd28534a2e26"
   },
-  "hash": "bf29ab202c72e7a0aa3bd4f8ab6e8c0b66d11057e7cfc1763adcc55de1ab9dd7",
+  "hash": "302b9c9ddc1853ddb6d4ed6bf04b21868e4f24b780528f19abb1b8fa96cda429",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "95cac4bff6dc5b66278cf4338fc4672ea76920633f8b826a4f22cfbe3ed2b658",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

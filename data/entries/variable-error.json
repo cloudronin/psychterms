@@ -2,7 +2,7 @@
   "id": "variable-error",
   "term": "variable error",
   "definition": "Variable error is a measure of how much a person’s responses vary across repeated judgments or tasks, used as an index of precision. Smaller variable error means more consistent, more precise performance.",
-  "field": "diagnosis",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2013.00823"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ba3cdb43f8c8e1157e5d7b018d2eb5176767a541bb71b7d5378b6633313ad730",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9e911af07f8ff3c7c2d10304fc55dc532473c6b6e3ad8e31fb82e7078abbc1ca",
     "packet_hash": "ba3cdb43f8c8e1157e5d7b018d2eb5176767a541bb71b7d5378b6633313ad730"
   },
-  "hash": "8759b9abe402cd9e412f59fce65e909030d79dae0d95d058e2253d357a3cb1d8",
+  "hash": "51e5b15d3fdc5653469c9cd6e7280398e09ef77aeeb44bb403480aa3047a241b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a4cdca99728088a0592802362d85e3e2c7cf5719e845ebea03760bd90adc7b66",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

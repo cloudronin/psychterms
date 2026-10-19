@@ -2,7 +2,7 @@
   "id": "emotional-charge",
   "term": "emotional charge",
   "definition": "Emotional charge is the emotional quality carried by a stimulus, such as music, that gives it a positive or negative feeling tone. In this context, it refers to the valence of the music’s emotional impact and how that emotional tone can influence thinking and creative performance.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2023.1247133"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "11a2b843f7b95cb062e08543a9efe4d58ba48926016988d37530ec97cdb652d8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e0e883551ae3267218b6f3b7de898992e43166903f741e13721e84afa3560bbe",
     "packet_hash": "11a2b843f7b95cb062e08543a9efe4d58ba48926016988d37530ec97cdb652d8"
   },
-  "hash": "9e45cc083fd2dfcb81a1954caf1d90dfcff2fcc32cf247c162b7c1958bbc7aba",
+  "hash": "5d8430e13ac8d3b86fb816297c0df61abf1c578892524364de058f348a2ffdb0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "25664b4f4439d8294d00577bf3e51931cb84557b6ea2c3b2b73dbc137fe362e1",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

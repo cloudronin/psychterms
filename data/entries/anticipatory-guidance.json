@@ -2,7 +2,7 @@
   "id": "anticipatory-guidance",
   "term": "anticipatory guidance",
   "definition": "Anticipatory guidance is advice or education given in advance to help parents prepare for upcoming child-care practices. In this source, it refers to guidance for parents about healthy early feeding and mealtime habits during infancy.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0220437"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f5dc6e19dddd5da6d59ca31ed0059040de407253474e74177446fc07c9f18ac1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bcaac4ab321872fdfa04f7f036d34ca078798141013829e5385a94019d4c95eb",
     "packet_hash": "f5dc6e19dddd5da6d59ca31ed0059040de407253474e74177446fc07c9f18ac1"
   },
-  "hash": "1b243c77bbb19fc8199585eddeb6300de519b2d956871010341619628cddb8dd",
+  "hash": "a79573b7a69f7a3d6ede33cfd858668ffcc3aec8fcfda1c289328156a9a62b30",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f7cde8fd6045660e536a281db3c49ee04c1dd1e3553aaa2ccc88cfc7cfdb9ecb",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

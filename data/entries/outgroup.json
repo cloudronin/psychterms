@@ -2,7 +2,7 @@
   "id": "outgroup",
   "term": "outgroup",
   "definition": "An outgroup is a group that a person sees as outside their own group identity, such as the opposing political party. In this context, the term is used when studying feelings like animosity or intolerance directed toward that other group.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0352103"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d4473a7348f67d83097e4ed0c41fc76b1871ca4656fa689ad15f892f8b158c69",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e0b323b0ebd88d20c14311d2c1dd52d420dcf140eb6fbed039084bcee3517b03",
     "packet_hash": "d4473a7348f67d83097e4ed0c41fc76b1871ca4656fa689ad15f892f8b158c69"
   },
-  "hash": "68f4e254bbf3eb47ad214dc79371a93fd017a20b5cdc070f23013873e7bd38e0",
+  "hash": "ed0fb4326c7a26707b636bfa9bb46a95d6077e69df384ba1f4991e9907a051a8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "003351f6165c813b27010aa8b5eaece950b34c3b6faae7196af127fc25c63625",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "everyday-racism",
   "term": "everyday racism",
   "definition": "Everyday racism is the routine unequal treatment of people or reduced access to opportunities because of their group membership, such as their origin or ethnicity.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D063505"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0b4d6a6dc86bf53747230ed4d3016c7263a827db29738ea5052f8ff2aa8668e2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f95830cba69485eebaeea8a29d67a82349f2d223483ae9685b2b0c0f6e877530",
     "packet_hash": "0b4d6a6dc86bf53747230ed4d3016c7263a827db29738ea5052f8ff2aa8668e2"
   },
-  "hash": "26da23b252a32367e559096ae3bbe705d4f78538b9dd8d064a329f5dd63d9a8b",
+  "hash": "68cc8cd1b4fd2d764a175e5276dc963fd90a168bf708f8d5c090d83315da07a4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0effc89f339eb9fe52e676aa4e2ebb1bce30df8090c7688b446ad2d28bae26d4",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

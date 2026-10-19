@@ -2,7 +2,7 @@
   "id": "cavlt",
   "term": "CAVLT",
   "definition": "CAVLT stands for the Chinese Auditory Verbal Learning Test, a neuropsychological measure used to assess memory as part of cognitive evaluation. In the study packet, it was used as an outcome measure alongside other tests to track changes in memory function in people with mild cognitive impairment.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s13195-023-01292-9"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "33887eef422d02992f66e518a980489d05371bc079a9fe1bb74a3a044f5f734d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3b868163ed9d30e7e73e46411b8fd652e304f1199cd1df05ff78734c1fb07618",
     "packet_hash": "33887eef422d02992f66e518a980489d05371bc079a9fe1bb74a3a044f5f734d"
   },
-  "hash": "ad2d702f3b7de68ab37a7bcabc79a9766bd6bad9499205a71d96d2e99d22a26d",
+  "hash": "b369e962c79ce34417efdeb9ab79139ba2087d61067c060b2fc2124325c16167",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "513afe9cab8fd305774d7015ec3409fa35f6389287a071b461872cc5a3f0af63",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

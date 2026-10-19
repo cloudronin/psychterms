@@ -2,7 +2,7 @@
   "id": "subject-variable",
   "term": "subject variable",
   "definition": "A subject variable is a participant-based factor used to sort people into different groups for comparison in a study. In the source example, the number of mandatory running sessions served as a between-subject variable because different groups of students were compared on that basis.",
-  "field": "mental health",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1755715"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0a43ca6bb097ed90cfd12b27af135cf9b780f30f43e98cbb937faf3ecfa3c48f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "de0a3b0f6ee76cd4697470e55f79ee0be97ba1e40cad80efe9a96ffd24893be1",
     "packet_hash": "0a43ca6bb097ed90cfd12b27af135cf9b780f30f43e98cbb937faf3ecfa3c48f"
   },
-  "hash": "b5f5d9dc38d23a277afcaacb1b55c85cea967ce18ed405ca49a01f0cca7bd685",
+  "hash": "33c5d2775663ffda4346ee23cc80f9338bca56806a6718d05fc258455aafa297",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "6b272593e492ff8edb74dffce810ca20b64d9dc5a67794b29935505f586f7c68",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

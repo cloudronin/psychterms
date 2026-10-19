@@ -2,7 +2,7 @@
   "id": "id",
   "term": "id",
   "definition": "In psychoanalytic theory, the id is the part of personality that contains unconscious instinctive wishes and drives. It refers to basic inner strivings that operate outside awareness.",
-  "field": "cognition",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D007060"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c39faf1905e9ef56e06ac67351d59140a27020a4651537cff261bd1c5d76a6ba",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c27b9c9c754d176b5a2371711d31fcf4a07c41c667d9a5e8098cc986af5356cb",
     "packet_hash": "c39faf1905e9ef56e06ac67351d59140a27020a4651537cff261bd1c5d76a6ba"
   },
-  "hash": "b23d0c1e5d355028efbae1341c03ae5788811c257a1f886a4d4f7e95bf05fb5f",
+  "hash": "eb588f7eab22917461cd9e30e764ef90623894dc5fbda43ca2cb87e0af9d5261",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "129ac8f49357107a1d28a673e20fd070f79a9bec5bbd4000b2ebc9fba11bf569",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

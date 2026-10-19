@@ -2,7 +2,7 @@
   "id": "thalamic-lesion",
   "term": "thalamic lesion",
   "definition": "A thalamic lesion is damage to the thalamus, such as from a stroke affecting this deep brain structure. In the supplied source, bilateral thalamic injury was linked with cognitive impairment marked by executive dysfunction, reduced self-awareness, and mood changes such as apathy and depression.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2020.570160"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "466d0bcc4c4fa3ca21732547c1f593f2f03b216ddb698576e797e36a339469ab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b413c8263c7fb21123e939b6a7f50fe132a838175037728590f95d09058da66d",
     "packet_hash": "466d0bcc4c4fa3ca21732547c1f593f2f03b216ddb698576e797e36a339469ab"
   },
-  "hash": "00a7f1215b00ffd08df1c75dbf849ee435e52fce15c770bbeb42c35f63be36e1",
+  "hash": "6420dd828b4d9f8c4e12f2c960963d0915d4c3faa8b029b92c905f31f0ae6db3",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "58411d53566ab46a3f7af5339fb4fc48c9cec574b25ee97ab7d6dfef619f9136",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

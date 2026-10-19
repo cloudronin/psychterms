@@ -2,7 +2,7 @@
   "id": "somatic",
   "term": "somatic",
   "definition": "Somatic means relating to the body or physical symptoms. In this context, it refers to bodily symptoms that can be distressing and may become the focus of a person’s thoughts, feelings, or behaviors.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1867350"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b136bef1f5780c4e331dca53c64a324b44beabe4a4e5644f203c71f4586a699b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e36bedd59c983450bf0f4ea63a33ed2cacb127a296fb26882eac06573f27b06b",
     "packet_hash": "b136bef1f5780c4e331dca53c64a324b44beabe4a4e5644f203c71f4586a699b"
   },
-  "hash": "f7b0d54d392635600c6d23a604e64d7bfd06aaa5b21abd739546a4e660a862df",
+  "hash": "f921bab921ee7e947e1097d9da63359e084c7b35ac46008cb7d9d2c49116c224",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "a7830e38fa10a9319ba6f7e80c4717463508eb7116c539103065a014ff294a6d",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

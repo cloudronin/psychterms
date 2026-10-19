@@ -2,7 +2,7 @@
   "id": "tastant",
   "term": "tastant",
   "definition": "A tastant is a substance used as a taste stimulus, such as monosodium glutamate, to produce and study a particular taste experience. In this context, it refers to a component that is ingested so researchers can examine taste perception and related brain responses.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2017.00172"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "777f6828485c1ba96bd6cfcf96a2a651bc5f6a49a19a7bb5c8f470389b5d647b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cf29db2884fa12be245a50e801b66866c62a44a3a19adb681fcfc8637cc28def",
     "packet_hash": "777f6828485c1ba96bd6cfcf96a2a651bc5f6a49a19a7bb5c8f470389b5d647b"
   },
-  "hash": "3608bdb5c55104d226614986e4d1ec2e8b2442ee1b66dddaeb1eb40c96f59724",
+  "hash": "32d610b914924319219ff4c5f8e7ac4dbf603c1099f0e8b8ca75e0134ff5bd2a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3cf1245d0f494e2be60ef18653b3c38524392a44348d9fe7e1e3be9fb50a682c",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

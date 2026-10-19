@@ -2,7 +2,7 @@
   "id": "behavioral-inhibition-system",
   "term": "behavioral inhibition system",
   "definition": "The behavioral inhibition system (BIS) is an individual difference system with a strong genetic basis that is linked to negative emotion and cognition. Environmental experiences, including childhood emotional neglect, can also influence it and its effects.",
-  "field": "learning",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0207746"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b4a92f6edbf1c1b5484983379adc58abeb39842af8bc96ac379d6f1b25d139b5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c2c71227dee8459006d3f6f95f7b201b908accf79ec28e5808e95e0a0cb1de9c",
     "packet_hash": "b4a92f6edbf1c1b5484983379adc58abeb39842af8bc96ac379d6f1b25d139b5"
   },
-  "hash": "7c9347356601ab11b20caec2a45cbce92b36524525e9ebb3f67c2c2d4f4e31de",
+  "hash": "3151ed4e4cc3880d1057f2eb5bea8bd8f93ed6ce72dfc57bf0cd9b97c2e93e71",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "3be21cbf96b5d3561591b69f9302aa7071b9e7d7222b13bf024ea4782a2dc9cc",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "electroconvulsive-therapy",
   "term": "electroconvulsive therapy",
   "definition": "Electroconvulsive therapy is a treatment that deliberately produces seizures by using electricity. It is used mainly for severe mood disorders and schizophrenia.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D004565"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4e2bc1daf95ef194afe8440e9aea32ca1c96bb05ee98676328f6b5970c6740d0",
     "packet_hash": "025cb050a138b43abbb7fa8720ea0569c90ed7793f2a3f5162fc84fd293e5fb7"
   },
-  "hash": "5fffd6cea15dba45b358ad890f6d00eadd56e8cf09e42b0d3f4be4a83de686fe",
+  "hash": "3e9584d8ba212a1db7b4832de2166a71fbb2cfd53c7ec9911683bfc44ed45807",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "6df0980571aae50433abd6b9c702e586a9ae870f185247d48ef9c76e31c5b353",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "value-system",
   "term": "value system",
   "definition": "A value system is a person’s organized set of values, including how those values are arranged and what they consist of. In this source, it is discussed as a personal framework that can become disrupted in schizophrenia.",
-  "field": "diagnosis",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1553990"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a2004f6742d9f41d46ea28f002bc35d8982b8045b22416701c8bdc32b8b09cf8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e24d8057dc22eed2ce973d451ed7c3701bf8de03787db7dcb3cac44b83d0df5c",
     "packet_hash": "a2004f6742d9f41d46ea28f002bc35d8982b8045b22416701c8bdc32b8b09cf8"
   },
-  "hash": "0a525d33ad50cb2ee6c807ebb0fa26da0b7fa340da45a5136f29d352e1ee5141",
+  "hash": "ac69bc491a59d867a3a4fc0f0af86432593d83bad424113ba809ebe67de25f3f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d87bb061893f0dce5247c5f4449fe32977aff63ec3195582eb180fdd42bfa6ba",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

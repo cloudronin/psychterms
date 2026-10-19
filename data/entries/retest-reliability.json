@@ -2,7 +2,7 @@
   "id": "retest-reliability",
   "term": "retest reliability",
   "definition": "Retest reliability is the extent to which a measure gives similar results when the same thing is assessed again in a later session. In this context, it refers to how consistently brain connectivity measures are reproduced across two testing sessions.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0346967"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9cebb2eb52fb5e8e1813fc56ab947ad36dea50aa47f4ddc52625b2ff3f0c56ef",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "48a536f1561ad76c77db25015a9f1664c9d4b6f1e11abbf699f8edb79a614fbf",
     "packet_hash": "9cebb2eb52fb5e8e1813fc56ab947ad36dea50aa47f4ddc52625b2ff3f0c56ef"
   },
-  "hash": "ef41fc7d10958de14642794205d1162d56df89a6baddfb4af5a575784ae6cb4c",
+  "hash": "6fc2e34b83e5aa9d2f1e4a21a297e697d18ec10e3948e795776702c3456e4fe2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3c064dfb82500e45645c8ca4f0982a6d6e57f67d5da73c67cfcd8af334c90bbe",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "ecg",
   "term": "ECG",
   "definition": "ECG stands for electrocardiogram, a non-invasive test that records the heart’s electrical activity and is used to help detect cardiac abnormalities. In this context, ECG signals can be analyzed by computer models using both their waveform shape over time and their frequency-related features to support diagnosis.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0354834"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0ac5e679319c7941f5a267a223d6529e05bf9740a7c71a072a12e1524a959132",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "02c4b10e64f812b4055865843a7eb2687682ae589ce2fddf6b0d236e45c6c297",
     "packet_hash": "0ac5e679319c7941f5a267a223d6529e05bf9740a7c71a072a12e1524a959132"
   },
-  "hash": "cf90f3dc8ea41d9e7b5099b466a829acadc2ec74940cb806a09e58bbc64554ef",
+  "hash": "a29de46f1a53b07721ef3c3bfb4431c043f24e94cc2384ed78435a0bc17f910b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8f1a63bc167a68390ce84f1ac5a6ed1e40e1621a0536fed4337d9509ab80453b",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

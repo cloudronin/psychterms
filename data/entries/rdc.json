@@ -2,7 +2,7 @@
   "id": "rdc",
   "term": "RDC",
   "definition": "RDC stands for Rdkit PhysChem, a way of representing molecules by their physicochemical properties for computer modeling. In the source, it is one of several chemical representations used with machine-learning methods to predict small-molecule bioactivity in cancer drug discovery.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0343654"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "81cd759c3de14c163e522dfd7ba51d5a437b4f219489aea7480d5f3f2214ddab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ee1b86c6dd3c691e85f8e30988966710ab9bb124c983a97f5bfd5a7ea0bce972",
     "packet_hash": "81cd759c3de14c163e522dfd7ba51d5a437b4f219489aea7480d5f3f2214ddab"
   },
-  "hash": "25b776ee0603b5a3f7e045ff22a64b832b9ac25a9721b8d41ec70b0b11772ba9",
+  "hash": "abc15cc4b465bb73928dafca398482421079b130c247afa6b083569a1d94d36c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "f6bce024a6d11b70761699bde67b4d928adf07e74ce24bb20f1121eea8b310ed",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

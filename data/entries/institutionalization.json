@@ -2,7 +2,7 @@
   "id": "institutionalization",
   "term": "institutionalization",
   "definition": "Institutionalization is a form of contact with the criminal legal system in which a person is placed in an institution. In this context, it is treated as a relatively more severe legal-system contact and is associated with mental health symptoms such as anxiety, depression, hostility, and psychoticism.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0344895"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "48810ff5672bcff0e9cfb561bd4f561c7a56d48a54873977c4492448753267c3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c569e5f5602b1fa2687adac30caae5e3a3c7113709df9870795a5a0dd3000818",
     "packet_hash": "48810ff5672bcff0e9cfb561bd4f561c7a56d48a54873977c4492448753267c3"
   },
-  "hash": "4f61b08e3b637e23a46a0c119091cc053b713ebe2d260083a162cba4ad01ed5a",
+  "hash": "20fa0a25b4872e4a2389cedf975dd6141ad5a21321ed8b60bf56fdadde12b80c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "fde598f54b79ee54afa5ef8b7e42d745dc0f9e2bfd98bb51f17e124cdefb8bf8",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

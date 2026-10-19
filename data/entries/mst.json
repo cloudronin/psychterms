@@ -2,7 +2,7 @@
   "id": "mst",
   "term": "MST",
   "definition": "MST refers to magnetic seizure therapy, a psychiatric treatment that uses high-intensity, high-frequency repetitive transcranial magnetic stimulation to trigger therapeutic seizure activity. In the source, it is described as an approach for severe psychiatric disorders that aims to stimulate more targeted areas of the cerebral cortex than electroconvulsive therapy.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1886955"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4b03d5aebb797a87be67ed9b334adc3e31fb68a43b61827ba27b731bbffb2129",
     "packet_hash": "3d66ce8cdbdbcaabc9a9b22f2dfa45b4c80d0b923b9b1e9812dcf1fb56244ef8"
   },
-  "hash": "b53e21245fb82dcabe8106cb57231cffafd889b422a6f5b64c5e7e068865dce5",
+  "hash": "72ed3b10ee42f22666abf26e1c0e77aac3cba4026628bff62acc51fa08890445",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "79da48c9cd29ca339016ec9653fff447b102745f3b6c04f3c92363b2ccdae901",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

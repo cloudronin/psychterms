@@ -2,7 +2,7 @@
   "id": "type-d-personality",
   "term": "Type D personality",
   "definition": "Type D personality is a behavior pattern marked by frequent negative emotions, difficulty expressing feelings, and social withdrawal or isolation. It has been associated with higher rates of cardiovascular disease and greater risk of death.",
-  "field": "learning",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D064415"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "39aa7a79325fae9c017068b2c36f980a46e72ca6fa0ddd46f46db4dc128bc3df",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7afd37725545e65477eb02b7abd8f6a200b71d4fd6148497833eaf32cc37e7c9",
     "packet_hash": "39aa7a79325fae9c017068b2c36f980a46e72ca6fa0ddd46f46db4dc128bc3df"
   },
-  "hash": "99eb59ebce33de434b100155ccd95f32c51b2294933c4e819480f2061212e2ba",
+  "hash": "f03eeb6f8beaae322251bfb1f255e94876d2f60db887518813c44375ae73949a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0c4813cc5bfc8fe627e21cb075e27516000850f2a70acf100947d7f63e206680",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

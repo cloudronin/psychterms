@@ -2,7 +2,7 @@
   "id": "quality-of-care",
   "term": "quality of care",
   "definition": "Quality of care is the degree to which health services increase the chance of achieving the health outcomes people want. It refers to providing timely, effective care that is matched to individual needs and supports better long-term health.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0345938"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8979243e1d951018b460160706e8d3f7a76c7b19785604873b3fc470f1a6d597",
     "packet_hash": "f54daa74c4789bc654ecadd249d222f11ca3ca1f594cab7aa1c60dec4f5f1a4d"
   },
-  "hash": "43b11ebe36fe87b114be037e90f324cd273f920f1a2e88b826b8f2248f66d125",
+  "hash": "bd8a60aaeb6fd3703a2ecc2f3d74bad84078c04ac2764bbccdcfb6585f7ccb29",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e5b2c21b62a6359d6c6b70afbae7b2d8f2aa4e4437067aa249c0bed6e206a17d",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "digraph",
   "term": "digraph",
   "definition": "A digraph is a directed graph, meaning a network model in which links have a specified direction. In the source, it refers to a graph used to represent directional relationships in spatial and time-related data, such as how influences can move from one city to another.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0287781"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "72969b9a69b7eee2c1c3dade2aa3783715cbde0a07f03284923cba5f61441e50",
     "packet_hash": "53c547e8323668a8bd75eaf482b804ab4ff89404de3ef5b1d328c6e99d1cc0b3"
   },
-  "hash": "6c6bf29e4087d30e6b48f2b8ef2be03ca868fc2cb782b593bd2edfb1ef10b0ca",
+  "hash": "34deaa4398f0dfc47c6cab274721388563960b8728b98567e0b455154bf139d8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "656593a1931b289cd834209918de524047926625f7176160194bc21e91ca31cb",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

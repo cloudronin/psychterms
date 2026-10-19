@@ -2,7 +2,7 @@
   "id": "cam",
   "term": "CAM",
   "definition": "CAM refers to cell adhesion molecules, a broad group of proteins found on cell surfaces and in the space outside cells that help cells attach to each other and to the surrounding matrix. They also play roles in recognition and activation, and include four main groups: integrins, selectins, cadherins, and immunoglobulin-like adhesion molecules.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f6a2637bb35c227c936cc98b644e3e37a353070c02b65ef99b040ad45a3cdb5c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2419590722e036261d0898c0b5de6d7a7e7227cf79ee951e002b27ddddd9cd16",
     "packet_hash": "f6a2637bb35c227c936cc98b644e3e37a353070c02b65ef99b040ad45a3cdb5c"
   },
-  "hash": "2cb9750de5761844479a8b97b58a74dadafb56947709762342e96f7747616c01",
+  "hash": "e0f6cf795b989be3ad3e49f25a8ed843dff4229e694acf21d56da2121743bd39",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3f80d148bc167ff88d8bb4f35e46dd5c910dfacbd10d55057fefae20bd3abb33",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

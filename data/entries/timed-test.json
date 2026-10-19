@@ -2,7 +2,7 @@
   "id": "timed-test",
   "term": "timed test",
   "definition": "A timed psychological test in which a person reads words or identifies colors while following changing instructions and coping with distractions. It is designed to see how performance is affected under these competing demands.",
-  "field": "mental health",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D057190"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e0c2cd4ce1c5362f34d6ddaac037bc6a14b66472088e86a5957a254cc3324889",
     "packet_hash": "8e508ceaff52763f34e2e056286332838ee84149ae09ba4a26265024f8cc133b"
   },
-  "hash": "a38771d527d02c8e854addb31112ffa48eedb2fb3e4a71bb7b5ad8f221a9a229",
+  "hash": "67df4bb9335a10e18bb8918c90ae45ffa97b7e5cccfa018ba541c6d19847a0d8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "482f9ec0b00c896260446539ea058be73d0be8c1a6300830a002d924ca97e95c",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

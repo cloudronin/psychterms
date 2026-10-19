@@ -2,7 +2,7 @@
   "id": "therapeutic-atmosphere",
   "term": "therapeutic atmosphere",
   "definition": "Therapeutic atmosphere refers to a care setting or climate that supports treatment in acute psychiatric care while also maintaining safety for patients and staff. In the source, it is presented as an important treatment ideal that can be harder to achieve when resources are inadequate.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-022-03832-3"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "690158c0846087316f7ec08db743c35d2d17a9823e850d49ee1527c064503a9d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "70e6f1d603038fc4032894a4d20ce46803e8ae107e3431a47dd844ad8862f117",
     "packet_hash": "690158c0846087316f7ec08db743c35d2d17a9823e850d49ee1527c064503a9d"
   },
-  "hash": "89b4ae6cdd23cc90294020a2a8471645dafee883b9b7b853d2d07f1110b58f45",
+  "hash": "ab0bfabd5a5575f89a521da050e59223e7dcf1266d5fce4440a859dae44bdb9c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a8366c76067883bcfe2f23c65e346663205e480e32c70a2b5a189a11abdec35b",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

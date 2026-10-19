@@ -2,7 +2,7 @@
   "id": "larynx",
   "term": "larynx",
   "definition": "The larynx is a structure in the vocal tract that contributes to voice production. In the source material, its lowered position in humans is described as helping speech become more expressive through prosody and melody, which supported richer emotional communication between people.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2025.1654703"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c8a2aa302df11b6bffe3fb3214c82a5c9e5f1c50afce16decf11a13109677a23",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "336a31fb4f087069e7a7ff69a87c54dbfe4aa535efee03483312794ea2a92226",
     "packet_hash": "c8a2aa302df11b6bffe3fb3214c82a5c9e5f1c50afce16decf11a13109677a23"
   },
-  "hash": "d2be0c9805710d5b0cefcb023a0258daadc1877e746bf4db647a8282bc7b5ba0",
+  "hash": "65c4bc7a45c408983737e21d8b409570667e5d238625a7490ba936e1f23c108c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "fa7fb9f370e87fd7fa36e8284b2433bae4fd49cb9acdc55b19650b0d70a8d618",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

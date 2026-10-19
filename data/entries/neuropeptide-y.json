@@ -2,7 +2,7 @@
   "id": "neuropeptide-y",
   "term": "neuropeptide Y",
   "definition": "Neuropeptide Y is a small peptide found in many organs and in sympathetic noradrenergic neurons. It helps regulate blood flow, glandular secretion, and smooth muscle activity, and it also affects feeding, drinking, and pituitary hormone secretion.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D009478"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a394875a12cf2ac5588666f2747a700fbff68681f8810e15a8b984654444826e",
     "packet_hash": "0a0bf8992d2bc4f87b571df1e07bf0970fee7987c2ac4af2314ad0bba1ea5518"
   },
-  "hash": "f85992247a91ee0eae96f2b9bf720d4770e300a9daa0e580c6197b996aa55874",
+  "hash": "f55e4a4ef2a5daca439d17749ae2989a13246035a470cf9183e673e7c88d6eb1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "41f5b416c762803b53aebf4a8834d63baa1922e93f4fe337029228139c36692d",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

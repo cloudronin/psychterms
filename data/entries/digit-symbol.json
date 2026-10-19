@@ -2,7 +2,7 @@
   "id": "digit-symbol",
   "term": "Digit Symbol",
   "definition": "Digit Symbol usually refers to the digit-symbol substitution task, a test task in which performance is used to assess executive functioning. In the supplied source, it is presented as a computerized task used to study brain activity and cognitive symptoms.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2023.1242822"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e1116a982197c5bea9963d61556c39c53a2b623b40a701ab3d4fe655f2522638",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e83638da9ea2e406c249f46e6b1aa64e9bbb101b772d15c8c13a09f88db6e161",
     "packet_hash": "e1116a982197c5bea9963d61556c39c53a2b623b40a701ab3d4fe655f2522638"
   },
-  "hash": "6523b94f253a0c30f9bc50597bdca99014282cbc3bdcba63ae0a1a8b1e2fe1f6",
+  "hash": "24a7831856136042c17596f75abd06128f71dcf7e0f0a0c50dedfcd4d61ceeb4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1aada93191786ad7e04295c352695cd90bb8977751646039a945889ff1a520a4",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "personality-processes",
   "term": "personality processes",
   "definition": "Personality processes are the dynamic ways personality is expressed and develops over time through ongoing interactions between a person and changing situations. In this context, they involve how situations shift, how people help maintain or alter those situations, and how these changes relate to later adjustment and behavior.",
-  "field": "social",
+  "field": "personality",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2015.01938"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4889d30374093cffdf18cc8d087ff93a74d29a85d763f1d2fd28df9b49bcd78f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f71ff299ec7d4720e02de0efbfd5309eaf63100d4126f4ce97d0a6030d2c7950",
     "packet_hash": "4889d30374093cffdf18cc8d087ff93a74d29a85d763f1d2fd28df9b49bcd78f"
   },
-  "hash": "6d8c0b169623b887f392893ce5c458f6061a892f273e1aac8f2d48c2acea1732",
+  "hash": "f78cdbacea646d398ab75f50649c2cdf38609724cb2ad1c8586e44a679238817",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "6e0e6ad125e5a892cd84fa69c8d2d1ce548a6c20a83197176c6adfd211aec94a",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

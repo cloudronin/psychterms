@@ -2,7 +2,7 @@
   "id": "animal-assisted-therapy",
   "term": "animal-assisted therapy",
   "definition": "Animal-assisted therapy is a form of therapy that uses live animals as part of the therapeutic process.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D056447"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "337cde526197b11b1229649879199c540077c4dee374f957912ea13ae5edeefc",
     "packet_hash": "63c231357bb6ab515c76e7963061bad9dbd2d785fc312390478f36da92c297ae"
   },
-  "hash": "96977c183e791075ed1bcc46ad4a768a6d6e2ba992d2f21a99a26b9a734e61dc",
+  "hash": "b26434cb8371ec5a9805e91511ab99e43763c7e711b461d6f5735a1beefc00c9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b3146fae3edfe59353815bce5c9a429044ac6087afde8ae107aae3f14f465860",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

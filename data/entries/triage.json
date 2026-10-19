@@ -2,7 +2,7 @@
   "id": "triage",
   "term": "triage",
   "definition": "Triage is the process of sorting referral information so a person is directed into the most appropriate care pathway, such as acute, urgent, or specialist care. In this context, it is a decision step that helps set priority and route cases for further care.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0355476"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "abbbde4ab92cd0cd38acf9210dc147d639a414fed55eaa0a358b58722c4d7bd0",
     "packet_hash": "d63e7dadcf90cd94a8d84e2f47e71b6de9436f31b3839fb09f6ae18f1f48da2b"
   },
-  "hash": "52a6cde98dcb5b23abcf32f4046da934027c94a7ed84fd8f9ccf4556c74ffe61",
+  "hash": "987beed8edb3a40d9719b75a2b598815d1ed6dbd262814a8a5a9fc56990364ed",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "b5910444f32d441cdc7b223aeeddbc2b110cf3c2e39fd680daae2182b55d6fd2",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

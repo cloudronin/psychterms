@@ -2,7 +2,7 @@
   "id": "ade",
   "term": "ADE",
   "definition": "ADE stands for adverse drug event: an unwanted harmful effect or safety problem linked to a medication. In this context, ADEs are tracked through post-marketing safety reports to monitor drug safety, including serious or rare events.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-025-06493-0"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "444fcd11d89e92ee038754c18e82e10e8b32cd0dd0eaaf2fb718a59c7bff1798",
     "packet_hash": "d5a80f4f12422397b46bca185780e6f4c17065ef5792697d82afc00d0eacd5a2"
   },
-  "hash": "b5572ada3644bcec593b5234fa5b7d14525178bc7ba5b0a573b611bcf094509b",
+  "hash": "d3f7de4ec0ea88a1239a595e851751a1993672f33a4bd72f7743123c7a316443",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "2353c795e43fcd7f50848089795729a455e4078dcb2f58499af3ce7b87f8c334",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

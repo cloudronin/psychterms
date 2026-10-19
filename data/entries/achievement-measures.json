@@ -2,7 +2,7 @@
   "id": "achievement-measures",
   "term": "achievement measures",
   "definition": "Achievement measures are ways of assessing academic performance or school success. In this packet, they refer to academic outcomes such as grade point average, including exam-based and teacher-evaluated GPA.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0207905"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1f3780da2f76723e5a8b32dc477f2838512641b9a88f9a1fd06a2643379249a9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6507568ed56673ecc749f1338729321717a1a8cf41772db862fe1745cd52e14b",
     "packet_hash": "1f3780da2f76723e5a8b32dc477f2838512641b9a88f9a1fd06a2643379249a9"
   },
-  "hash": "eac387b0f8c8ab6402c9fab5e4cc30ce5e72150b140e252bf3824634eac3e1ca",
+  "hash": "a7fb6c268a02cab2c390e83344136fd31f81576cb6422dc89dd3b1913e285bfa",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "29e56897deb7df272fa9eca7115ee6c3829a3c124e94cba3652fb5ffbf11461e",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

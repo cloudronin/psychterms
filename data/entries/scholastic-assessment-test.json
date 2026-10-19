@@ -2,7 +2,7 @@
   "id": "scholastic-assessment-test",
   "term": "Scholastic Assessment Test",
   "definition": "The Scholastic Assessment Test (SAT) is a general test used for undergraduate university admission. In the source, it is treated as an assessment of the kinds of knowledge and skills used in college entry testing.",
-  "field": "development",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0308157"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "922d85fae311313d5beddf30fef0ecb8c80f6c451bcc86d01373ee5e837a96ac",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "08bf8133557a7d42c9e26d7b677eb4633340ad7db418966cf18de24a785ba725",
     "packet_hash": "922d85fae311313d5beddf30fef0ecb8c80f6c451bcc86d01373ee5e837a96ac"
   },
-  "hash": "004a6137a5b191842e924b9da00444f8d3238a80997f206bdc958c8fe5a9e5d0",
+  "hash": "4e1141c778db9544b5b3f9b99cc4020b5cafb980c7bca4b6dece2726f4c0c3e6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4b30d97fcef524ba1ccf53000738b484322b9360aaf88ab81fb84ca89429beb0",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

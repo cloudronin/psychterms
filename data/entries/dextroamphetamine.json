@@ -2,7 +2,7 @@
   "id": "dextroamphetamine",
   "term": "dextroamphetamine",
   "definition": "Dextroamphetamine is a form of amphetamine that acts as a central nervous system stimulant and sympathomimetic. It has been used for narcolepsy and attention-related hyperactivity problems, and it can also be misused and can produce psychosis-like effects.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D003913"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7429c26d3bd73251ab1d6004fd90d9b2a2112810fdfa586872fb2bc70867c1fb",
     "packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa"
   },
-  "hash": "9891826997f82ec3d5643327683c5c32357a10aa4d4a0a1b3ff45b16107afef0",
+  "hash": "2c352a1388a95081ead814d048cac79c877ec0076449532bfdafe1263bfb8315",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "36cba9647d20f5c375b8c9698550f88ae829855ef16a6fcc36e866d6c8389542",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

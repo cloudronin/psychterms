@@ -2,7 +2,7 @@
   "id": "spaced-repetition",
   "term": "spaced repetition",
   "definition": "Spaced repetition is a learning approach in which important material or practices are repeated over time to help strengthen memory consolidation. In psychology and education, it is used to support deeper internalization of what is being learned while reducing cognitive burden.",
-  "field": "development",
+  "field": "learning",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1678094"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1e9a89016799f0d8094d14f225e1e088b6093bec413b9682e12410e3f87cec50",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b491ed40cac409f73abf6b3b838debd4e333a2c4d3298883d86cac0e0af2d28e",
     "packet_hash": "1e9a89016799f0d8094d14f225e1e088b6093bec413b9682e12410e3f87cec50"
   },
-  "hash": "c8faefc347cc3402185d3e1fe77b95ab1294143d0c6046820cc459e44efa1c9a",
+  "hash": "f675e1ff98bce454ef10ca82a8376cb2ccc3f9d461b796e329da215ad4a33e00",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "73546f4798c4809a435196059a7f4224a837390d0c4c0366f8bcf99477f7fd29",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

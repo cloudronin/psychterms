@@ -2,7 +2,7 @@
   "id": "kansei-engineering",
   "term": "kansei engineering",
   "definition": "Kansei engineering is a design approach that translates people’s emotional impressions and preferences into product features. In this context, it is used to connect users’ feelings about color schemes with design decisions and evaluation of how well a design matches those emotional responses.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0341895"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6174247b4428f3cfe41ca87b23d0413c07fd9c86654060df8000ad0c2ca9ee26",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c6c3048a8995c411b5993f13e6c79afe8d58c01828537ada4e8dd1a4ec06574e",
     "packet_hash": "6174247b4428f3cfe41ca87b23d0413c07fd9c86654060df8000ad0c2ca9ee26"
   },
-  "hash": "de2528f61b72d5d5608abefc0c3c053e678db4f074e35d00c4de1cc56f04c23d",
+  "hash": "4d7f3145de9394d155132cd77be2e395c79685352f051ca85ba01c249c17b272",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ee41fef15b789b5e0839c934ac2de6f362114baf33537b74f17455ef13c09cb3",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

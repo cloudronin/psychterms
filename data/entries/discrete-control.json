@@ -2,7 +2,7 @@
   "id": "discrete-control",
   "term": "discrete control",
   "definition": "Discrete control is a control approach that uses a limited set of separate action options, such as different management strategies or policies, rather than a continuous range of adjustments. In the source context, a feedback system switches among these distinct options to guide outcomes under uncertainty.",
-  "field": "ethics",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0349236"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "24ee40dc9a134d545ca1d28e8abda91243f455406b94b9d6abe5c37466d4b368",
     "packet_hash": "6d43972525e01b8d323696c134f17b10a55aed5e7e530ef68f9f4cdd2aac88c0"
   },
-  "hash": "f03f62e97959a3b439ccbb95dc1d1c4a39023ad1087a24d85493009f86e6be1b",
+  "hash": "ddab2129e6b9245177dc0d9477cc7eb3051b1ce9815dc8a9d5d3316886214427",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "766e1ce8c53b73f9777820c8f906e54cc4edb39ffd4d5293d009a72d448ebb4b",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

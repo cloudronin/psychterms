@@ -2,7 +2,7 @@
   "id": "implicit-emotion-regulation",
   "term": "implicit emotion regulation",
   "definition": "Implicit emotion regulation is the adjustment of emotion that happens without deliberate instruction, effort, or conscious awareness. It describes regulatory processes that can change an existing emotional state, such as reducing negative feelings, automatically rather than intentionally.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12868-021-00636-1"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d6f1d83152b97e4fd4989edde471a4360430c78e3abb4bbbbb746b8d4b6c3df1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "453f59b19ed7b9238402c690d5e526029e28b5ffae42a333f3b5baac1ff9c2b4",
     "packet_hash": "d6f1d83152b97e4fd4989edde471a4360430c78e3abb4bbbbb746b8d4b6c3df1"
   },
-  "hash": "b8ef412b511a0967d1689c5e3f643cf3372f783db4dc01f096d95731b59255a7",
+  "hash": "05eb099f43b47d8d30b7aed06814b3c00f421beeb9cdb6097f87255168ee8888",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "5f441a75a6cb015ccce633ba476d58efbe6cda79326890e4a1b9f59a8d80a4a1",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

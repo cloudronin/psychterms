@@ -2,7 +2,7 @@
   "id": "gang",
   "term": "gang",
   "definition": "In this school psychology context, a gang refers to a peer group linked with violent, disruptive, or delinquent behavior. The packet specifically describes similar groups of “lads” as students who show externalizing problem behaviors.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1852822"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ef14b63c3ab8205d19bd84c4c22cce0b0da180c84252ace30437ad8c0744e17e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "df150b0dec2e3d7b1d7ad53f4a28ca70f77e8d10e6e1d8203f464ec5fc74e52d",
     "packet_hash": "ef14b63c3ab8205d19bd84c4c22cce0b0da180c84252ace30437ad8c0744e17e"
   },
-  "hash": "6b8c8b931224ebbff7775149e8ba929ec37f6692bd33daa01b2fc115f1f229a2",
+  "hash": "f76abc231d9abe1cf9dada1e4bf08c5455265bb9d201aa1f62bc73ab36eccc89",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3d9c9d578c3d804e45af0c7be0cd605ece5349628998c011ead9c1b5571df0a9",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "age-of-onset",
   "term": "age of onset",
   "definition": "Age of onset is the age when a person first begins an activity or experience, such as musical training. In this context, it refers to how early or late training started.",
-  "field": "cognition",
+  "field": "diagnosis",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1873065"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "af8601f31b27967fd3e3263a744099ec9fe91de386202362530624daca7ea340",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2787c7d6e05540f63c9506d5db536ae3bdd48eb4a1a2b8ebe3f6cfdfe7846d09",
     "packet_hash": "af8601f31b27967fd3e3263a744099ec9fe91de386202362530624daca7ea340"
   },
-  "hash": "f667e53a10081006696eb41732b618bfce08e0e7f7d86bd32087f904059c8577",
+  "hash": "4edc94b9164a362f1dad109ee3e2a5ad4ca2cb05a0a0b60259f6270dca28f992",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e970f5eca6ff0fb3b02b736296c6673d26f70590e2975604de84f43ef098eec5",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

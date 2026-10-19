@@ -2,7 +2,7 @@
   "id": "repetitive-transcranial-magnetic-stimulation",
   "term": "repetitive transcranial magnetic stimulation",
   "definition": "Repetitive transcranial magnetic stimulation is a type of brain stimulation therapy. It has been studied as a possible treatment for depression, psychosis, anxiety, and other disorders.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "dd571cc87229bae6c84d57b44a9ac46766b117d133300880630850921d2fda02",
     "packet_hash": "3608518dcf5b8eaa9e9a6e1551b5f53d1e0c4296a93024618cabcc2a4b31f05c"
   },
-  "hash": "25651bc4c638e077a8e4660e24dd819df44dd579734d18ecfb3894cf7423d275",
+  "hash": "77dea113e186fa2afb02e61bb36d916c7d96ad0d7b03824464c9018ed74f2580",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4b56fc10e378da1c62e1285d32b0458e2916441f136c335b61ccad6ebc577cf9",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

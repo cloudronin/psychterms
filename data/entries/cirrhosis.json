@@ -2,7 +2,7 @@
   "id": "cirrhosis",
   "term": "cirrhosis",
   "definition": "Cirrhosis is a disorder in which normal liver tissue is replaced by scar-like fibrous tissue and regenerative nodules. It is commonly linked to alcohol use and hepatitis B or C, and it can lead to fluid buildup in the abdomen, enlarged veins in the esophagus, bleeding, and problems with brain function caused by liver disease.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c3f5657c9282b908435db9bb547001cb8b727cbf1dd06ee9736193e529c818bd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6de9da66f949b1c30055b8430a563696d06e2b4498e1818fad233f449d51a7b9",
     "packet_hash": "c3f5657c9282b908435db9bb547001cb8b727cbf1dd06ee9736193e529c818bd"
   },
-  "hash": "7cffe87be052f4e6920441839a3386aa72e3f35e08853ac336e25820ad4fcf0f",
+  "hash": "07c815645c141bfba9e3c9283ce2d57dfe3f5a29def80a9c99f133ed9bbaf655",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b95bcdfc809b407c8e30e503358dafbbc2519ddad8f2db1dfaf24d654c895761",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

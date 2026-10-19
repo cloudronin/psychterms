@@ -2,7 +2,7 @@
   "id": "action-disorganization-syndrome",
   "term": "action disorganization syndrome",
   "definition": "Action disorganization syndrome is an impaired ability to carry out multi-step actions. It affects everyday activities by disrupting the sequencing and organization of action steps, especially in tasks that involve using objects or tools.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2014.00353"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "18783906a6072d5844bd9a56ea615fdac371cc618b9d384b56922b9a01657c92",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3c8bf83c5954762a6f8c1723703e99029a5a36ac60cf39b230415fc0e548e31b",
     "packet_hash": "18783906a6072d5844bd9a56ea615fdac371cc618b9d384b56922b9a01657c92"
   },
-  "hash": "b1ce16e64ba5318aca7964da9231ba2b01c34d1918d84c3a7f88f4fdd688f567",
+  "hash": "61b6eafbb88878495f090f4e75aa822e521a4334b19baa63d53fcf539c56a1e9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ddb3c4576ec80510345bba7b67c7feed19ebac6b0489f3703bcb874b2cbce444",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

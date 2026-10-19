@@ -2,7 +2,7 @@
   "id": "love-scale",
   "term": "love scale",
   "definition": "A love scale is a questionnaire used to assess romantic love in a relationship. In this packet, it refers to Sternberg’s love scale, which measures love through the related components of intimacy, passion, and commitment.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0285555"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c298538e7be3733326c230f331e4d770b6138b46662ac35963f01986a859600e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "cdad01650c95eb268b7ba5a0d24fb8c6a54ddd8c4820cbff2f017688cb27bfe9",
     "packet_hash": "c298538e7be3733326c230f331e4d770b6138b46662ac35963f01986a859600e"
   },
-  "hash": "79f841ac8443729567bf6c236cf48f2d77433c0aa6b00399d2fcbfe4e25b9e26",
+  "hash": "8e7ad42995c91540def1fb76b8ad227b6272804d24f3a5047cde650a7eeeb70b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e9ae9d1343864b470aec6f9793492e62d13cae9fe8a28771dd9d58bd2ba8ea14",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

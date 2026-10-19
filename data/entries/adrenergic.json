@@ -2,7 +2,7 @@
   "id": "adrenergic",
   "term": "adrenergic",
   "definition": "Adrenergic refers to the receptor system named in “β-adrenergic receptors,” which propranolol blocks as an antagonist. In this context, it describes effects or drugs acting on that receptor system.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1752025"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fa3afe0e804d9d5e4b0e6ad7e0f81ad05afcb3de021f60c7b058091daa471ee2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "61d24bcca89e515c3e21664c2420a79504a1037706c4820d7fae844fe9a23782",
     "packet_hash": "fa3afe0e804d9d5e4b0e6ad7e0f81ad05afcb3de021f60c7b058091daa471ee2"
   },
-  "hash": "d95d86b4453c99f4fd62316650b163bfebe449f83c91571d1aff186e1373ad40",
+  "hash": "4c74cca720888c865c8bd7b43d54a69bec599167ed20dcbfb21158fcc60822b9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7ef1709bf2544044138dd5df816c393bec348dc3c85f456ebc8294daccdaa8fa",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

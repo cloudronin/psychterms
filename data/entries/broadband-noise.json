@@ -2,7 +2,7 @@
   "id": "broadband-noise",
   "term": "broadband noise",
   "definition": "Broadband noise is ambient noise spread across a wide range of frequencies that can mask other sounds, such as social calls. In this context, it reduces the acoustic information available to an animal and can change attention-related behaviour such as vigilance and foraging efficiency.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0209471"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "aeb40a80b23c39fb279d7d98355f60a1113be26777b9ea6cf64713227751f8ac",
     "packet_hash": "0caef613b83806318b9a4c72eb1ee1480a9512ce0bc6a158f48bdf4bf88a77c5"
   },
-  "hash": "3b51094d5e64ca06b66ecafaf68733212f576d38e8757d14319035598948cecd",
+  "hash": "900e01c3d1fe079c32a388bdffe98ddec215f4934164b0c97b591fe03a2612bc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "985082d150b71a903fb41ffa86acdd4b694b79e62879ee3475706a7d5ce1d68b",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

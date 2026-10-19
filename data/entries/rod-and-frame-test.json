@@ -2,7 +2,7 @@
   "id": "rod-and-frame-test",
   "term": "Rod-and-Frame Test",
   "definition": "The Rod-and-Frame Test is a method used to assess a person’s sense of upright verticality when the surrounding visual field is tilted or misleading. It is used to estimate visual dependence—how much someone relies on visual cues rather than other bodily signals for orientation—and has been studied in relation to simulator sickness and cybersickness.",
-  "field": "development",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0313313"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1a3a6ccc842f22f00f7dfb7801f27c602681bb2f6aa24d30a41fe0d638a9c7c0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "96df758efbd2d9528aa2e76602fa24c02d84e84425113844bae1ddd21ee63e49",
     "packet_hash": "1a3a6ccc842f22f00f7dfb7801f27c602681bb2f6aa24d30a41fe0d638a9c7c0"
   },
-  "hash": "ec24cf6d193bb73041d96533a732e21b41a53854c27bc3940e00122bc1881faf",
+  "hash": "7533c57ba00af22aba5f42eac246b36da4e84d1d45ab8f5c56f2c05e81c073cc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3197e0a58d0807d72311d777c9dc0b5c62ff0ab926e6289ec13f5067e89e8c60",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

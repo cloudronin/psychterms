@@ -2,7 +2,7 @@
   "id": "arousal-system",
   "term": "arousal system",
   "definition": "The arousal system is a brain-stem system that activates the cortex. In this source, it is the system whose activation is linked to stimulant effects and may be associated with improved cognitive function in some settings.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b7b414fa5e810848fae43a956972a6f57c08c4996301b327fe4775679cd21b2f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5ea9a30322559906575b88d97a984fdf9c95d0e975146175f9cf161053e1af5a",
     "packet_hash": "b7b414fa5e810848fae43a956972a6f57c08c4996301b327fe4775679cd21b2f"
   },
-  "hash": "39bc54f1771a0dd379b21ed47474a7eb6173735cf9e4ca0ae727372b1c47afb6",
+  "hash": "6893b918c46b2475dcbc8fb62c6e79a6f6569384a8de6bfe3cb917b9e27beef0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "a9811d674c48dd7b36028f7167d336403b580fff5db5e2a5fb1cc4c88ef6fe9a",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

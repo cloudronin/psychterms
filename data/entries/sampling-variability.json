@@ -2,7 +2,7 @@
   "id": "sampling-variability",
   "term": "sampling variability",
   "definition": "Sampling variability is the variation in results or parameter estimates that occurs because they are calculated from a particular sample of data. In this packet, it is described as a source of impact on how robust and efficient statistical estimates are.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0268602"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1f3d61334b59c6364ccd05224a42002c50f8b6145bf8a5377a152ecf5073eb27",
     "packet_hash": "784468305f3bee38986ebfc707549841bd3eadd3fea79ad9ef493b9773683d04"
   },
-  "hash": "bcbc169887d6646393ce307bd520265da8c613ffeec0eebb69cea90f2a34062e",
+  "hash": "0d91437d3e704f4fc874ebf9053faa7697da72b2353d261055b6689a2197bd43",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "30f3049a00b92e154015f398108a07928b51b81c6788ac7c40f8706ac2f6ea83",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

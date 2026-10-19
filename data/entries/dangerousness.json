@@ -2,7 +2,7 @@
   "id": "dangerousness",
   "term": "dangerousness",
   "definition": "Dangerousness, in this context, means a person’s belief that their own thoughts are threatening or capable of causing harm. It is described as part of negative metacognitive beliefs about thoughts, alongside beliefs that thoughts are personally uncontrollable.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1897206"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1193fa53297439f9589876014ede03e63c3dd41ff2026dd009899ef2a9693871",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6c1bf75d5e5f116382f5da9c559e340cdae4f27b2776a197c38be4f9a650f9c1",
     "packet_hash": "1193fa53297439f9589876014ede03e63c3dd41ff2026dd009899ef2a9693871"
   },
-  "hash": "3aa84ef056d9a34b313e929f9a1bc95ec6b6383e450ea47dba3dd5f16f810133",
+  "hash": "3f5a7cffa1d153405a4b6916410de4451e7220e49994a1644e74b5ecb31870ef",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "f32bfebb50023671f4db0120bccf243f6c0dd36fc42b654a41e9d60aff7c34f7",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

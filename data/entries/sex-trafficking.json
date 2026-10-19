@@ -2,7 +2,7 @@
   "id": "sex-trafficking",
   "term": "sex trafficking",
   "definition": "Sex trafficking is the repeated sexual exploitation of a person through coercion, abuse, threats, and violence, often over long periods. In the psychology context, it is associated with severe, cumulative trauma and high rates of mental health problems such as post-traumatic stress, depression, and anxiety.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0252606"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9a28ddd7d7e29a9e639cc5bb1e6f747033d50496e80e180d361d1a9824a733df",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ea75053bdb379e95c68c433a161e35a650c9d03d1ca90fb4ccf3a8ea9a0f6e69",
     "packet_hash": "9a28ddd7d7e29a9e639cc5bb1e6f747033d50496e80e180d361d1a9824a733df"
   },
-  "hash": "5aad8550a552df7deb71bdf0365ded75c318071c78d77d5c325ed782dce65052",
+  "hash": "b111029ea2fb00da73674b7b431f4c0e20e786908d4b929439b7c4f23d2ff407",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "276198e84865eb12be65c0fb0af0cabb995aa3eb95044291800f56bad6f3b4ee",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

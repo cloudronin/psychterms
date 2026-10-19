@@ -2,7 +2,7 @@
   "id": "emotional-deprivation",
   "term": "emotional deprivation",
   "definition": "Emotional deprivation is an early maladaptive schema involving a lasting sense that one’s emotional needs were not adequately met, for example through unmet needs or subtle forms of neglect in early development. In this context, it is understood as a schema-level vulnerability linked with later emotion regulation difficulties and psychological distress.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0338947"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e72a55c04334bff46abecf0c75324dc06d7abdada5ebad900abc479cf839c20c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e2800e532f2c194d8c48596d306baba109898821ecb2f69cd77c5a7a3d45d475",
     "packet_hash": "e72a55c04334bff46abecf0c75324dc06d7abdada5ebad900abc479cf839c20c"
   },
-  "hash": "f6e1e62ee2fb7539de7118237ad4e7bd29d47109f9d0185ce8db0e236b7e9d2a",
+  "hash": "cbb1390f8efc9ff3964262d3a65521f6ea8df7b0bf6df0bb634f99dfffe40947",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "4f36008dfa7083759eddac51025680b9b3ca533c90fd9b3aeaf877e03c7b12d5",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

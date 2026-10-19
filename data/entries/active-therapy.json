@@ -2,7 +2,7 @@
   "id": "active-therapy",
   "term": "active therapy",
   "definition": "In this source, active therapy means a person is currently undergoing medical treatment rather than being in the post-treatment survivor phase. The term is used to distinguish children still receiving leukemia therapy from those assessed after treatment had ended.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0352440"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e3bac78e88535fa0082c71a4e0e66c4597aafc35f9bc46855f0d65d0c3bfd337",
     "packet_hash": "ffa954e956e088cdb64cb87fdbfc12b94a2a3b5dad281cedee237ef2f2b415e1"
   },
-  "hash": "412c592b5195f76cbb8d221d2482f13da01938e95f65b93cbd8f07baf1051c20",
+  "hash": "0e31f019716a54b5f7801e31f504dd25d5d44c12d9ed652d1581ddb33516b092",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "833def395601231f9b017e67838bf933c7d92702b3b1bca021ce51cbf5b88c65",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

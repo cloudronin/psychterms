@@ -2,7 +2,7 @@
   "id": "test-selection",
   "term": "test selection",
   "definition": "Test selection is the process of choosing which assessment or performance tests to use. In this source, it means basing that choice on the available evidence about a test’s validity and reliability, especially when there is no widely accepted gold-standard test.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0220982"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "52ae8a4f1c527e016e793cc3fe89aea7cd8663e903633cad610016dc81c45917",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f0871ef1e918f3095630e968bc2c4dcb2f7b85e42466e683a2260a31159a4e46",
     "packet_hash": "52ae8a4f1c527e016e793cc3fe89aea7cd8663e903633cad610016dc81c45917"
   },
-  "hash": "8762a434ff117b2948df8872258014443cb33822a1973ca39f8c0205976b95c5",
+  "hash": "537c9d011e0aa2e9d8070f3322ccd5d53563cc54b1eb4a365e628642eb6c37ff",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3f6591030b99d36fc653de3e803bd93ba024885f78936e0f4c9565181f0a4e28",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

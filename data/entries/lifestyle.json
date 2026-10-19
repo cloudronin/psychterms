@@ -2,7 +2,7 @@
   "id": "lifestyle",
   "term": "lifestyle",
   "definition": "Lifestyle is the usual pattern of living that characterizes a person or a group, including their typical way of life.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D008019"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d84c937c55b14ca0f4b7c811c942575649cfe11a535fd270ae1200502f927848",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2e7554b9913bb7e63f21f44c669d60557c24b850216ca288ff3a700416f656ed",
     "packet_hash": "d84c937c55b14ca0f4b7c811c942575649cfe11a535fd270ae1200502f927848"
   },
-  "hash": "cbfeae4bd7e1f93d3f5a151b9d3b9eb37e58192398b5f0b044003e55cb138bf9",
+  "hash": "d288392ce3e0194f7980db76c87ae3950d72c6909ef0861819e85e3ffcd7324f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "e995d051c67c6f59c5bc917492a831de410a6206059c702ac2c8a0b0b8157a4e",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

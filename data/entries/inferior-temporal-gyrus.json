@@ -2,7 +2,7 @@
   "id": "inferior-temporal-gyrus",
   "term": "inferior temporal gyrus",
   "definition": "The inferior temporal gyrus is a brain region that, in this study, showed increased resting-state local activity in people with Parkinson’s disease and depression compared with those without depression. Higher activity in the left inferior temporal gyrus was associated with more severe depressive symptoms, suggesting it may be involved in the neural basis of depression in Parkinson’s disease.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1771679"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "98846474a14983cd8f3b3618c0599afc5c916028aefd685b1f5f490ddb1f36e0",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "24a3b7139df3e90aa35fb6edabed72523b3250a09f6bba89429f4e062437405a",
     "packet_hash": "98846474a14983cd8f3b3618c0599afc5c916028aefd685b1f5f490ddb1f36e0"
   },
-  "hash": "4a41b115b0b769e8bd6ce2ce81a874b42060448e57717a99bcdf96b9c135c41f",
+  "hash": "cc8f4ba0e504429a23943c16bba961a88f0f4a202bf4f5985b0a5a9b3348ec2a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "9daf92494d06f399cf1f2db0bfc648275c747b5497960e763f253f6b48cd92f0",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

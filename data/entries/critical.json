@@ -2,7 +2,7 @@
   "id": "critical",
   "term": "critical",
   "definition": "In this psychology context, critical means especially important or influential, such as a developmental period when brain changes can have lasting effects on resilience and mental health.",
-  "field": "cognition",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/the-teen-brain-7-things-to-know"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "96ec45c0d782f5fa777ce5627eee5c94127071bdb2c9431a189ab81e4aa4a2db",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d0378495c8bc52000eb42824d3826e12a2cb59076af92b2e3e2c4bdf2f2dce2b",
     "packet_hash": "96ec45c0d782f5fa777ce5627eee5c94127071bdb2c9431a189ab81e4aa4a2db"
   },
-  "hash": "abeb037cb64f9fe55b0dc2edc140dfc1115828a59113233ca8dd166dc51d6e0b",
+  "hash": "e331df1390576287f75797a0abc706123116095687deb1103cd619acf93cfd61",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8a270a8c9300978be1431001d0a2d7d524655eb4c0ce6023b88411c374fd4a6b",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "temporal-lobectomy",
   "term": "temporal lobectomy",
   "definition": "Temporal lobectomy, especially anterior temporal lobectomy, is a brain surgery commonly used for drug-resistant temporal lobe epilepsy. In this context, it is relevant to learning and memory because it can be followed by problems with facial memory and face identification.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0248785"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d8468ca581d24d1d9fced5a631d0d6fbc9e639779cc34285a45992222e07bb2c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "25c8fec971dbb1ba39825adabe48d6167edc235a42e7e8dc8fe8f79155c6052a",
     "packet_hash": "d8468ca581d24d1d9fced5a631d0d6fbc9e639779cc34285a45992222e07bb2c"
   },
-  "hash": "d50e8068fa842d4dd55256a9c107532ff0cc018f6ed808ff02ec8629f6f05973",
+  "hash": "6726a94167ae438ef72609fdfb7ac673e9e07f1ff67cc0239e907b29463f8c37",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "0c5fd79229fdc4319cda816e122b32533ad63291c72276f75218c27829167c3e",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

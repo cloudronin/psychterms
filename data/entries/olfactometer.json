@@ -2,7 +2,7 @@
   "id": "olfactometer",
   "term": "olfactometer",
   "definition": "An olfactometer is a device used to deliver odors at carefully controlled concentrations. In this study, an air dilution olfactometer let researchers present the same odor levels across different temperature and humidity conditions so detection performance could be compared fairly.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0306817"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7cb10502474ad0a1f41ad3a660d4f1316691498fb2a1754b603d236b939fc6d2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d2750c4e9f54f8c57b032a93260d10413ac459ae7ae074fc9eb566ea237188b6",
     "packet_hash": "7cb10502474ad0a1f41ad3a660d4f1316691498fb2a1754b603d236b939fc6d2"
   },
-  "hash": "112802369c27530b78da85ae88cdef30bcdbce121e7664b8a59913b4597af494",
+  "hash": "c0d2006dbaa56ebf733c7b48fd4ab4ee5b2f482e74cdea19dcc2d5ef88488d27",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "097c3485b070e4b9ada30f78cf247dc5df89a1de18506974abd33d088436f46a",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

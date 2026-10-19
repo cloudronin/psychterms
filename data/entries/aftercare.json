@@ -2,7 +2,7 @@
   "id": "aftercare",
   "term": "aftercare",
   "definition": "Aftercare is follow-up support provided after treatment to help maintain recovery and reduce the risk of relapse. In this mental health context, it can include help for people moving from psychiatric treatment back into work so their return is more sustainable.",
-  "field": "diagnosis",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-026-08639-0"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7dfe62685d00dfee22ec2e9d358433e32f0c2038c2a0106a4b78ed580f7b25a5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f017de2c47b7ecea8a4b8853cc9b96399ee3fa9c83cb7a69d28d5e740f9d4441",
     "packet_hash": "7dfe62685d00dfee22ec2e9d358433e32f0c2038c2a0106a4b78ed580f7b25a5"
   },
-  "hash": "fc7ce57321b781e79bcd11870b0ddf2c33e4c1651df47647a0a6801cdc6aca7c",
+  "hash": "90d926d28a8babb75416c83808782c588d4bffe53bd68a96d4cbbc93cf05e0e4",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8561a22be215249125817fef9665dc91e5f4f52caa19048abf6b550057af0dcd",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

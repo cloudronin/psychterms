@@ -2,7 +2,7 @@
   "id": "dc",
   "term": "dc",
   "definition": "DC stands for Doctor of Chiropractic, a professional doctoral degree earned after completing accredited chiropractic education. It prepares graduates in academic and clinical methods focused on diagnosis and treatment involving adjustment and manipulation of joints and nearby tissues, especially the spine.",
-  "field": "development",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4898b7d6c88fe127e7886f3e0c4ac2a2bae6fb7645ecf5912b1684616220b937",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3425b9a3c78cba68841fa01aef752f5ba5963ecec71e4860f5194b4a3614e07e",
     "packet_hash": "4898b7d6c88fe127e7886f3e0c4ac2a2bae6fb7645ecf5912b1684616220b937"
   },
-  "hash": "7ca0e833d58b56abd54dfd40546efd1e33ea080b77c84109acb60e11b3f0fa9f",
+  "hash": "5c16698a3b0cdf039136f6d7493b77f1f74a228f61130a5948498da52a174c44",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "366d59f0209950afaaefa916a5ae3f5278e902849192f07fecc45dbffe8bdb0c",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "acceleration-forces",
   "term": "acceleration forces",
   "definition": "Acceleration forces are the biomechanical forces produced when the head is rapidly sped up or its motion is changed. In this context, they refer to the head-movement forces used to model the kind of mechanical impact seen in human mild traumatic brain injury.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0251315"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3a173c041f106d21d6d0f2a777981f5d5d1dd7cb5ad3823dc43535af51a3f1da",
     "packet_hash": "6d7e626055119093298b6dc3e1d043160eecf21f1fa2e26fb41105b3545ef65f"
   },
-  "hash": "285e50ed1954ccecd27c6dc7fafcbf24e4bd3354a33d6814f7d065fc22d0f881",
+  "hash": "1f4a7f1f72a2ce65e20de8b9e0d472a08389494bc21d14d87987a2d6e47a4529",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1b458ffe27a806678fbd452ccdc3e4ba18d848179657b8bc3a55806e09f98b9a",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

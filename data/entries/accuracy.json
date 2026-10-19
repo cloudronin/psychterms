@@ -2,7 +2,7 @@
   "id": "accuracy",
   "term": "accuracy",
   "definition": "Accuracy is the degree to which a result or reconstruction matches a known reference or ground truth. In evaluation, higher accuracy means the output is closer to the true structure or value and therefore reflects performance more precisely.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0356987"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c279bc9414f1638caa00ae5513511671a419b573840ba8fc9bee4525e9cfbdb5",
     "packet_hash": "2de120e749bee66a884eeb416dfb59686af7d57508adab9959b4c3457351c01e"
   },
-  "hash": "88e17e8e4ed846bff5eae8c336d7678995950bddc03145c6990e6707a3e75897",
+  "hash": "09231db769efd058dc99f2e89e6742893e021c44d7dfbc05439bf2d5f4eddeb2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "2de2499370cdc815699949846f0884c8a008244abf0b65503e18368c301ea211",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

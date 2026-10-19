@@ -2,7 +2,7 @@
   "id": "collective-behavior",
   "term": "collective behavior",
   "definition": "Collective behavior is the behavior of a group of people that seems unified in their attitudes, feelings, and motivations. It refers to an aggregate acting as though its members share a common direction.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D008399"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2f2f688a37622348e906a9eb8a468c9c963e56d2794cd59f1017154ce273ef81",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1a1363c6127ff4a8e80f89b1c8af1bc60f260552fc155614175ad0ae58e2cc2a",
     "packet_hash": "2f2f688a37622348e906a9eb8a468c9c963e56d2794cd59f1017154ce273ef81"
   },
-  "hash": "792e104e413a1244062dab0d5a8c5e00f69f2f6fc2579f3d12e79229fe4209db",
+  "hash": "20baf9db6ceed368e8eeb13fb0810eb94c73b2933722585126d4ca995cfb7eff",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "c6df5188820e1ee86d2fdb32ec20f870444ab2a94c3e7fe64797fbac8a604256",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "action-readiness",
   "term": "action readiness",
   "definition": "Action readiness is how prepared a person or group feels to take action, including both a sense of being able to act and a willingness to do so. In this source, it refers specifically to faculty members’ readiness to act to support fairer workload allocation.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0207316"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8144e679f71a4c2cb3e2f0b7851ade1003ce9b0d714b878e39661be04b8e5f86",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "acb27da35787bbc237dcea0995fbd7342d90150168ce0a6abb82bb58d707fa81",
     "packet_hash": "8144e679f71a4c2cb3e2f0b7851ade1003ce9b0d714b878e39661be04b8e5f86"
   },
-  "hash": "6922477338e0a71da8bd9e6c7efd3b099739613f1ae60cdfb129c1a645a0a8f7",
+  "hash": "e050e109c9e156151d54a82f319ddb789b2f05ec9330066057e9cef26256f176",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "29a6508817094331975f7b44e447c6a558e143a2531fa392d569510a05aabdda",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

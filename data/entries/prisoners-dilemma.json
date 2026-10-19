@@ -2,7 +2,7 @@
   "id": "prisoners-dilemma",
   "term": "prisoner’s dilemma",
   "definition": "Prisoner’s dilemma is a game model widely used to represent competition among self-interested individuals. In this context, it is used to study how choices such as cooperation or defection develop over time in a population.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0244814"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "43b8cc6880e3d8516bed85deabf4e2b1bb1ed57ec694a56c32bb93a6a231d268",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b7c5516c387deca4eac466d1e89028c4a77d3e62cb839733f2d4061279c4f098",
     "packet_hash": "43b8cc6880e3d8516bed85deabf4e2b1bb1ed57ec694a56c32bb93a6a231d268"
   },
-  "hash": "5bdf06da20b8cabd2b45fe84fa901a7b58ae8eee1a80c45db2af615824f1bb75",
+  "hash": "1dddf4e2fb7302cd0793eeaa94cda08c89a23cfd2249197b8159e1c5d64aee57",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "70e286ed6fb5a35d852324c21721e747997b6adf3f27d45693d5ee3c2b6e0faf",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

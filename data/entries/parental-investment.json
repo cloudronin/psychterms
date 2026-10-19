@@ -2,7 +2,7 @@
   "id": "parental-investment",
   "term": "parental investment",
   "definition": "Parental investment is the material, cognitive, and emotional resources that parents put into their offspring. In this context, it refers to how differences in family structure and resource availability may shape children’s growth, especially aspects linked to cognitive development.",
-  "field": "cognition",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2020.602401"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "04e8e6a5e44a88b039a1a8215779b71ece9b88899104fe2da1a321dc6539dcd7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7a1ecfe8c8bcef3e6e4303f5f0987182dedd0d3941cb481f43f86eb35df306be",
     "packet_hash": "04e8e6a5e44a88b039a1a8215779b71ece9b88899104fe2da1a321dc6539dcd7"
   },
-  "hash": "a272894138039c51a15e19d363cf12c32112041695f3ea3b7c110b07d1c11b9c",
+  "hash": "b83e2c6b3a0ccdf56ca77d4fd17e426677fbcc64c0fb95ccbbd2b2350656cdd1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "6bc679451c872f06bd5f5eaf3cbc3d5bed17e701d2f034d5ffc9efb82d89d69e",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

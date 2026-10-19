@@ -2,7 +2,7 @@
   "id": "visual-search",
   "term": "visual search",
   "definition": "Visual search is the act of looking for a target object in the environment. In active visual search, people do not just scan with their eyes; they also move their head and body to choose useful viewpoints, especially when objects may be hidden, out of sight, or seen from unusual angles.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0319719"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "68c4590b312ba282552ad11810b5a6ff98f3a3365f10c17e05959224adbd597d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c85178736f93b1672380daf66ee807ff9860b6b366023eed8abc1c1a8797c7fd",
     "packet_hash": "68c4590b312ba282552ad11810b5a6ff98f3a3365f10c17e05959224adbd597d"
   },
-  "hash": "c4fa95d9f9cbed52b149980b8c2bb1d2b395cc9507e29cc7558ce37b4718cd96",
+  "hash": "431e9fa6e6a315ad4b3128e1be6760578c1b007724399b2aed187305244461ab",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "809d41984c1b6995a96babbcef46d2a9eac9ffa0921ef1b8e40f7849f64c4457",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

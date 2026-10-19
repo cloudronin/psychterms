@@ -2,7 +2,7 @@
   "id": "labile-affect",
   "term": "labile affect",
   "definition": "Labile affect is emotional instability in which a person’s mood shifts quickly and markedly. It refers to rapid, dramatic changes in emotional expression or feeling.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c91216d6b6b00b70be8e72adf9af54e234ae05cbebc9b09be8e65a118ab5f08a",
     "packet_hash": "0ef5f2116346b156f96918b604b6ec79383b99c803266c8251178fa9c3a6d88d"
   },
-  "hash": "f9d58be4a04d727ce849e5e4632b865b7b1e5e81695cd50753e77cbcdc92f5cd",
+  "hash": "a1073ba1ed44db63f80f55f103f38cbe2203fb7f15ee9e1b5c587bc25cb34b49",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ec258f5bb4f983267a0aa0dc2cc8b5c429c45b05d2667542dd7160b490b8bad4",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

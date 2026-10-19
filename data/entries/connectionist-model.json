@@ -2,7 +2,7 @@
   "id": "connectionist-model",
   "term": "connectionist model",
   "definition": "A connectionist model is a computational approach that explains behavior as the result of interacting processes that change over time. In this packet, it refers to a dynamic model of intertemporal choice used to represent how factors such as self-control and the way time is framed jointly shape decisions between sooner smaller rewards and later larger rewards.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2012.00514"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "aeec30b630cdb80d89973b885e58e72da8fe6bfff2f2b8aec07bbd76020e059b",
     "packet_hash": "0ef5c62d411ea69f5267715eb41ceef034e6451816d96432bda7060bb1330c63"
   },
-  "hash": "5db0086128633522eef967a3ef0a0b38d453a61cf8c5bc12e0dc86248a4e5b9b",
+  "hash": "4141b1f8d012bf77764ba85a12f117633f7412a7a4fc91b3f1f2cba260f402c8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8083a013ef6ffa6df231ab58bcbd3515b536ed821bd7ceb40cc826298d090b7b",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

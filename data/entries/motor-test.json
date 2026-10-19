@@ -2,7 +2,7 @@
   "id": "motor-test",
   "term": "motor test",
   "definition": "A motor test is an assessment of motor performance or motor skills, often used in children to measure general movement-related abilities as part of screening or talent identification. In this context, it is used alongside other measures to estimate a child’s motor potential and developmental readiness for later sport-specific performance.",
-  "field": "biological",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1814502"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0fb610eadc0c69eb6310fbfd04728cd6ae1bd21e2d7b28881426646efa5bd4fd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "79d6dbd4c84460f91bdff62f43afb7488f1ca8ad43f1a138fcc6ada7dc3f1004",
     "packet_hash": "0fb610eadc0c69eb6310fbfd04728cd6ae1bd21e2d7b28881426646efa5bd4fd"
   },
-  "hash": "26a48917ea373f1d5013d38fec2798b7f8e716479582636e54f451c6180b24f8",
+  "hash": "399765d369cefd765a37cd27b560d4767224036c0a2ac9a10e229a8b785e2c4e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "a1b875d2a6ad27f005702681b4c0ffa356e7e025d7bc43491f645efe150fe108",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

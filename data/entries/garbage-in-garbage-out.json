@@ -2,7 +2,7 @@
   "id": "garbage-in-garbage-out",
   "term": "garbage in, garbage out",
   "definition": "\"Garbage in, garbage out\" means that the quality of a system’s results depends on the quality of the data put into it. In data-driven or machine-learning work, flawed, unrepresentative, or biased training data can produce flawed or biased outputs.",
-  "field": "ethics",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0243300"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "5d935039ec004757c97646b90e3b63da161455919d1b7ed2f3177e4b25770b0f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "77e884ef2e9a3229d059e059d0e6058063905c64aa0ab9cb0d449b0a69924e6e",
     "packet_hash": "5d935039ec004757c97646b90e3b63da161455919d1b7ed2f3177e4b25770b0f"
   },
-  "hash": "afa1332ceff79c9945da0a5aa2f6650090718cb12db52529c202b8966d4761df",
+  "hash": "e5e40f6763202462413092e35117417dc786325e0355ad8d5ed6e799b4cb228c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "35faaff922e59c16b16613915b7b74b32ca77de5d6941a6edcc9bc5f2ded399c",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

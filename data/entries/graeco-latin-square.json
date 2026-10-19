@@ -2,7 +2,7 @@
   "id": "graeco-latin-square",
   "term": "Graeco-Latin square",
   "definition": "A Graeco-Latin square is an experimental design used to systematically arrange and randomize multiple variables across study conditions. In the source, it was used to balance factors such as treatment, type, age, and order so their effects could be separated more clearly.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0212872"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a4bef85d15bf4c24a62299d25adec4aabb8189ae7e63d08a69a5f21283dd5015",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "84dd887732c763e44109d363f02bde0282e37792e10419fe72d39f5091473fd4",
     "packet_hash": "a4bef85d15bf4c24a62299d25adec4aabb8189ae7e63d08a69a5f21283dd5015"
   },
-  "hash": "9fb33ae002e667e40268eb0e43449f5f5335f08a2d2195fa7a5a2bd2e5d11b71",
+  "hash": "40e64f0dd17d875d7f38cd9a9571e8d1678aee778b0fc741bb2976bd4c86372c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "63dae58cee83f9db54650c406f243bcb759a7524400368b32d38411dd1d2ec7a",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

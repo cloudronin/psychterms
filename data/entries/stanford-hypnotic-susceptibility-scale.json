@@ -2,7 +2,7 @@
   "id": "stanford-hypnotic-susceptibility-scale",
   "term": "Stanford Hypnotic Susceptibility Scale",
   "definition": "The Stanford Hypnotic Susceptibility Scale, Form C, is a measure of how responsive a person is to hypnosis. It assesses responses across three broad areas: direct motor suggestions, reduced voluntary motor control, and suggested changes in perception, memory, and thinking.",
-  "field": "diagnosis",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/1471-244x-11-121"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4faf31174cb3c5817fbe98cd535660db4a735eb1aa22c51213a4708b7e6fb997",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0b9eef0e1304b8711af11a83acfcc29f18198ccaf95f329f80d30c7756e73548",
     "packet_hash": "4faf31174cb3c5817fbe98cd535660db4a735eb1aa22c51213a4708b7e6fb997"
   },
-  "hash": "10265021110b9e8759b8bb3ca3a09257156342c6239da3391cd4dca2e0bc2208",
+  "hash": "264ca8916460d00a6cf2d2a8123804cd7e1048cdc87e6fccc4c8fb0696774e16",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "879cd6265d2771be557919709a6bee193030371335031a45891bca2a3237c14b",
       "registration_hash": "02c5b7669e5933cb4530795e4a4d9d17d7d2190b202c7267fdd7502eaad524c4"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

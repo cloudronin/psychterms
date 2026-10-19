@@ -2,7 +2,7 @@
   "id": "calcium-regulation",
   "term": "calcium regulation",
   "definition": "Calcium regulation here means control of calcium-related activity inside neurons as part of how α7 nicotinic acetylcholine receptor function changes their firing. In the thalamic reticular nucleus model, this calcium-linked control helped shape sleep- and wake-like network states and was relevant to seizure-related thalamocortical oscillations.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0330635"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6d70bc7448c0940c8d1104691d86f8d9cf971b4768a8425c5d28f0eac8603c20",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e3db6e762a01b51adda17e0e52d70bb38271c8c4638b4b6f0e27287cfcbad4e3",
     "packet_hash": "6d70bc7448c0940c8d1104691d86f8d9cf971b4768a8425c5d28f0eac8603c20"
   },
-  "hash": "959744f3d99aefc21938c254a4f6c5974a9dd47e673c5f91e1dc0949dcf4b207",
+  "hash": "210a4c91a050b428e122253740321628f1003a0c12a2b7812f1753a379bc6c08",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "90b7e10fc461da87f109e058397b48d0075e3e1a835d3a07a344e6255a7ee882",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

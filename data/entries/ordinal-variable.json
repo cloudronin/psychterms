@@ -2,7 +2,7 @@
   "id": "ordinal-variable",
   "term": "ordinal variable",
   "definition": "An ordinal variable is a kind of variable used to show ordered levels or ranks of response intensity. In the packet, a Likert scale is given as an example because it records how strongly participants respond.",
-  "field": "social",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12874-025-02668-1"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "54316c178d9e170f0d590093fe0edbc8ce1cddd8c0a0f635a8177ff96d56c5a2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "833595b3f74ad2ee86d10485aaa49ff3a1185a87d6f87598930342e8ed13a898",
     "packet_hash": "54316c178d9e170f0d590093fe0edbc8ce1cddd8c0a0f635a8177ff96d56c5a2"
   },
-  "hash": "e5d0beb73198e7baca8e35abbc7ae684fcb860ce3b505625a65cc30d955ac21b",
+  "hash": "f394a1848eaee8ca778e8b40d81e4db3aac4a1ced765c77782414885692b092d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "249b524e68f1bc386720e04bc13165da822dc5eee031495575a5142f11096e67",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

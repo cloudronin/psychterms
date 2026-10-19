@@ -2,7 +2,7 @@
   "id": "oral-behavior",
   "term": "oral behavior",
   "definition": "Oral behavior is behavior carried out with the mouth and jaws. In this source, chewing is described as a rhythmic oral behavior in which jaw movements are continually adjusted to match the properties of food.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0228619"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "95d00386a323a514dbbf2476d8ff13d110ac357243a9cc90decb867136a710d7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b418eb2bd31587bf780a392618205bcbf2d51dbb9a78b83b04d10390f044e793",
     "packet_hash": "95d00386a323a514dbbf2476d8ff13d110ac357243a9cc90decb867136a710d7"
   },
-  "hash": "1ec7f8ba0f36981fbcc8b1fdbee0cefb56030a5c7a75e362beccf20c55b54171",
+  "hash": "3c59518f2cf6ae5586374cac81b7291276eed5faf1d32f0d628749549af89ed5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4888b174f1f264b9008f40aef24977d69b1fd7a3edff9632ece71b55339dce11",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

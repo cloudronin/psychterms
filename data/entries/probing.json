@@ -2,7 +2,7 @@
   "id": "probing",
   "term": "probing",
   "definition": "Probing is the act of closely examining or investigating something to uncover its limits, weaknesses, or underlying features. In this context, it means exploring existing practices in depth to see where they may fall short.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1848779"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0863a004ef9503e20503ee0e58bdc9da510e8ecdc4d9ce2bbb367b1f0eb149e5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "622cec2ae899f35797289f91670a5d9badb60d275eab8d67bbfdf175b107cb79",
     "packet_hash": "0863a004ef9503e20503ee0e58bdc9da510e8ecdc4d9ce2bbb367b1f0eb149e5"
   },
-  "hash": "0fdf47989bb9ee6ee6e07518ddb671a6e7d259d1fd330f6f751829b5ac6d5f84",
+  "hash": "ecf6bc682cb2fda3a2d1eac1c4b3e81a5804b49a29f7d2abb2411f894494b00c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "18070d992d49993167a7f6e78261e545d0ddefd9485959582ac992f6d2eb3878",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

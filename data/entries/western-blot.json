@@ -2,7 +2,7 @@
   "id": "western-blot",
   "term": "Western blot",
   "definition": "Western blot is a laboratory analysis used to examine the levels of specific proteins. In this study, it was used to detect phosphorylated JAK2 and STAT3, helping show whether the JAK2/STAT3 signaling pathway was activated or reduced.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0335057"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "15dd0904437de59dc03cf62bfa020374ee28573828d118634a8a825284acff72",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f4c5dc0be7b5fb20d091c39fb041fafe95db5adae99d39aaa25a8bcb9b6e84df",
     "packet_hash": "15dd0904437de59dc03cf62bfa020374ee28573828d118634a8a825284acff72"
   },
-  "hash": "628a34b4bd7acbc328147969b01c116c419614b72cc45d3a3148e6b18b2ed01d",
+  "hash": "7b477020be2ad344c06b01bc956b0fe3f15c5c5b7d75e4e006e199f5c5338682",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8d22eeb6b2289c88162a854917050adbc9b91ce456d545feb282de72b2631dbb",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

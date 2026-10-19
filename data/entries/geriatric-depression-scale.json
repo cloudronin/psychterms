@@ -2,7 +2,7 @@
   "id": "geriatric-depression-scale",
   "term": "Geriatric Depression Scale",
   "definition": "The Geriatric Depression Scale is a questionnaire used to assess depressive symptoms in older adults. In this source, the 15-item version (GDS-15) was used as a primary outcome measure of depression.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1669119"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "aac90207cbee0b42f7f5087dd72237325852f77f52850a196fe77d7cb10dfa51",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4c8bad1d07e2be4b6c047bf6dbd55a661abbe044813e9cd4b35a85d741fd8f67",
     "packet_hash": "aac90207cbee0b42f7f5087dd72237325852f77f52850a196fe77d7cb10dfa51"
   },
-  "hash": "0dca828e210058128cfd16555beeb907ef3d5373f615ce1f4cc75073aad38f33",
+  "hash": "5358db27a5d0fc416e388c5ffbba6920d6d3f5e564ab8dc7d59e3ee641a2a2a3",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8815a75be31bf660f66d7cb8b534d7e45c4b67aac8b49da84c72d66b51ba0d06",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

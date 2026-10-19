@@ -2,7 +2,7 @@
   "id": "overdetermination",
   "term": "overdetermination",
   "definition": "Overdetermination is a situation in which an effect is already fully accounted for by one set of causes, so adding another supposed cause would make that added cause redundant. In this packet, it refers to the worry that if a whole is completely determined by its parts, then any causal influence from the whole back to the parts would duplicate causation rather than add anything new.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1654139"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7d344d765ac24782f8b740aa54795f6766444144a967af4ffc121516e110c4aa",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "eb6a0501a6d1a87f3bad25963ae14d891411bad31abed0a7f3ee8a9b4cf121c6",
     "packet_hash": "7d344d765ac24782f8b740aa54795f6766444144a967af4ffc121516e110c4aa"
   },
-  "hash": "53b6d49096d87f15aca54fc0cd98076a183ae7ed7f83a2386141a2355033f7be",
+  "hash": "0459f79fcbaa753455c3edfd06df9dd999c852bc779f7c3590358b0edae26708",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "0574188504b617271eb2ef6e4714b12394b45a668749b697d524329753531e69",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

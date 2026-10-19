@@ -2,7 +2,7 @@
   "id": "prosocial",
   "term": "prosocial",
   "definition": "Prosocial refers to behavior associated with positive social adjustment. In this source, prosocial behavior is treated as an indicator of social adaptation and rehabilitation in delinquent juveniles.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1775490"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "20eaa3a7e52f1b1cf827e5adb5a8c7663c1b69deaa7982c61706d0bed9cc6f4c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c36eb0f61cfb231caec74c0bd34990434189675373dd2fb37989a40f45363f3f",
     "packet_hash": "20eaa3a7e52f1b1cf827e5adb5a8c7663c1b69deaa7982c61706d0bed9cc6f4c"
   },
-  "hash": "46139a315e7ea23fc9f95a4ea7cee57b267969b4ea3c15ad0db4b7964abdca82",
+  "hash": "ef71fff9e3dc42cbfeebcf3611503e2ae540c30e8c44c6e83a6e90b1180abd50",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "695cbcd30e862b79acc396ca14f1868af9d1894a706684f3f9dec65b641de562",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

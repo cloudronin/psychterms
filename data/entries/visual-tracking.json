@@ -2,7 +2,7 @@
   "id": "visual-tracking",
   "term": "visual tracking",
   "definition": "Visual tracking is the ability to keep track of moving people or objects over time using vision. In the source context, it refers especially to following multiple players and their positions and movements in space during play.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0269643"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "06cd6d2d755260a59f353296a75b5e61bf06e033e5d873f74bfc594ed9fdc7d8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b6319591aa03daa6d336398076c3dd421dcad3d431f9fb971b06f8ad354d2ca4",
     "packet_hash": "06cd6d2d755260a59f353296a75b5e61bf06e033e5d873f74bfc594ed9fdc7d8"
   },
-  "hash": "dda5521231fb71c95f3c045105f0560cc0ef9a39da132e081d35bc3b753a37b7",
+  "hash": "cc1304c4635e3b6cbb0a0035151f5bddd76185c256e7c42abba70aae7bb9c77e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3fec25819298d9f5ff152e00231ad101b205b2c7dcb318e2595b756435ef78fe",
       "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

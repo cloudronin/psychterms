@@ -2,7 +2,7 @@
   "id": "supportive-services",
   "term": "supportive services",
   "definition": "Supportive services are forms of help offered in settings such as schools to meet the needs linked to adverse childhood experiences and trauma. In this source, the term refers broadly to assistance intended to support school-age young people’s mental health and recovery-related needs.",
-  "field": "counselling skills",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0293248"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a5da3044bc524174a9239d3e1ffd4d05b41089bc94c01c5cd26bee862c99edfb",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ec6cc04fa159ee35799a23be1da6285bd69aaf0d1441cf466cd827d133dfbd72",
     "packet_hash": "a5da3044bc524174a9239d3e1ffd4d05b41089bc94c01c5cd26bee862c99edfb"
   },
-  "hash": "6d8630700a6ea5a172869b8fa7ba158f67491ee8455824b058fe98baf5c672b3",
+  "hash": "f4d39ab5ac3606bdc667e1becd292a4c87361742b4e6f1fc1cab56567851c390",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "abb8d535354fd45b6b52f8ecec0d55544912a0f4d01f70c0883182a5d3891fc7",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

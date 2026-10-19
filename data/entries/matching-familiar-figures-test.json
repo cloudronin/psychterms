@@ -2,7 +2,7 @@
   "id": "matching-familiar-figures-test",
   "term": "Matching Familiar Figures Test",
   "definition": "The Matching Familiar Figures Test is a learning-related measure used to assess how quickly and accurately a person responds when choosing among alternatives. In this context, its response latency and error rate are used as indicators of conceptual tempo, distinguishing more impulsive fast-but-error-prone responding from more reflective slower-and-more-accurate responding.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1935764"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "8a979135f0fc3f0df5c4f314a7c4b1d03bb4056a182192919233080bbe0acd5a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "342776c5480a344fd0b2ff00e26dbccd11dc12880317fa6fafbedc3c831855fd",
     "packet_hash": "8a979135f0fc3f0df5c4f314a7c4b1d03bb4056a182192919233080bbe0acd5a"
   },
-  "hash": "334e1862c6942f92e79f68f4f5941a3f6a91f866786b0e45c1afdb88ef6714c9",
+  "hash": "9d0aa2943cc32181ca2342e3dd3d07ed3bad98c8a0d0c53f821dde425484a16a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "7788bddac182736abe8dec32b05ffc7854bab740c95e1bef7988eb170b19a899",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

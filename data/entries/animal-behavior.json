@@ -2,7 +2,7 @@
   "id": "animal-behavior",
   "term": "animal behavior",
   "definition": "Animal behavior is the study of what animals do, including their movements, activity, and patterns of space use as they change over time and across environments. In this context, it is often examined by tracking individual animals in naturalistic settings.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0136487"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "f49d440a9f86318c8b62361a008f7d30bb0b798729dcaff7c0e591ae1c65dbe4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "64abe23e74828d9674ff0ecd2b1d0018b34059cc0873a1bd32e1723b41f8dafe",
     "packet_hash": "f49d440a9f86318c8b62361a008f7d30bb0b798729dcaff7c0e591ae1c65dbe4"
   },
-  "hash": "3563e221c6c902b70ff9624192c6f0a80455e0536ce24ea98c9882573d2cc0c4",
+  "hash": "47923892e126dd9269a65725dc6142b09faeb486a973e84c193c052b2a92064d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -58,5 +58,9 @@
       "request_hash": "964da6c843c358c43751870670d70d538d18e155bc6c9f04fda33d6486140293",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

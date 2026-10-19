@@ -2,7 +2,7 @@
   "id": "reliability-coefficient",
   "term": "reliability coefficient",
   "definition": "A reliability coefficient is a numerical summary used to represent how reliable a scale is. In this context, it refers to a general reliability value estimated for a measure by bringing together reported Cronbach’s alpha results from multiple studies.",
-  "field": "mental health",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2025.1675957"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e2ca0a42108b1bd83e773516654ac48caf606bd9269bc442d124f047361eb079",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6c145ed74e1db76eb8b70257189c4871d319d4c40cce200087bd98a387e6dade",
     "packet_hash": "e2ca0a42108b1bd83e773516654ac48caf606bd9269bc442d124f047361eb079"
   },
-  "hash": "9ee2add8682060a3e38522822555679a71e86c29853508c7e36787dd58f7863e",
+  "hash": "b9eceb575d5d9d85a73aae32f3e68df8e106c90061a385f2eacdd6773ed9043e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "d995fafa8d29f0a3486dee594aa013226a7b4c99de81abf373998ec979c6b63c",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

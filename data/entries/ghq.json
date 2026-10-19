@@ -2,7 +2,7 @@
   "id": "ghq",
   "term": "GHQ",
   "definition": "GHQ usually refers to the General Health Questionnaire, with the GHQ-12 being a commonly used brief screening measure for assessing mental health. The packet supports that it is used for screening rather than providing a full account of mental health complexity, especially in younger groups.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s40359-024-01808-4"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d48c612e315f380e3fd3da34906df3aa3b339820589e26048ec81029468762ea",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "8231fe0fd8f8042c99597edfae771617c2ddae4d3fc09a2f71e8877c34a2ec25",
     "packet_hash": "d48c612e315f380e3fd3da34906df3aa3b339820589e26048ec81029468762ea"
   },
-  "hash": "3c252ed78599bb3986a86434da8b621fcd8a59bb051f854f83641deb8e23b67f",
+  "hash": "00a6c849d8c187365cf3b7afeb8110bd080ac8cab2b78662f32435590befa830",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "fb65a67d406fc96db508188fe47756de824e73ec82cba1c30eee3d6f4044d786",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

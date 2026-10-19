@@ -2,7 +2,7 @@
   "id": "dynamic-system",
   "term": "dynamic system",
   "definition": "A dynamic system is a changing environment or process whose conditions vary over time, so prediction methods must adjust as those conditions shift. In the packet, the term refers to systems analyzed for tracking and forecasting in situations where fixed parameters may not work well when circumstances change.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0311734"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d387ab27c52469c4583874de98320ce654571fef74dff15a8baeb217d538773f",
     "packet_hash": "1b347a10ac750431af886062f591206a9e2873e91a110cdb0462ffcec7afa815"
   },
-  "hash": "a0bc2aea098a216c4ba762a166dabb1a034439c27d3b253a50ec0bd351209eb4",
+  "hash": "e09d3ddd6c09777c673b214c893eca1580a625ae7072038fc27ca01196dbe1ef",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "96d07f317945d831dcbabe38746fe089a9b85716ccb42cd854ce2b3252736c94",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "task",
   "term": "task",
   "definition": "A task is a cognitive or motor activity a person performs. In dual-task situations, two tasks are carried out at the same time, which can compete for limited cognitive resources and affect performance.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1906359"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "bb0f49e2d2e2f9252ea5ef916d3ed028c0e0ce40557869332c41e9b7ff4ebc98",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c1a5d93a08c2de11223674b5146932082dc21ad7a60fa44c90529a5e357d8314",
     "packet_hash": "bb0f49e2d2e2f9252ea5ef916d3ed028c0e0ce40557869332c41e9b7ff4ebc98"
   },
-  "hash": "b8c124c5a554b5cc7320b7c999590bc1a30dff6247e058925baa76e4acd7b54d",
+  "hash": "25f59ca72c63abc92f85094a25518a0fa9e51ed883b217bf6f48589683811c03",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b3e1750a8bd7409ad68e422fef8f5c84b1a93fabbdfdc8a821ac1bca9d578e6f",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

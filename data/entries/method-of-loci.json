@@ -2,7 +2,7 @@
   "id": "method-of-loci",
   "term": "method of loci",
   "definition": "The method of loci is a memory strategy that uses imagined familiar places to help encode and later recall information. A person mentally places items in selected locations within a remembered environment and then retrieves them by mentally moving through that “memory palace.”",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2021.612681"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "70037bc21c6b6e0c4464b77939324185008385b7b00f4b30614a98fa27ae1ebc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4d6d57a81f9438a1ee02b3e78c9e124df87c0e002fdb82bc2c180c33093fc389",
     "packet_hash": "70037bc21c6b6e0c4464b77939324185008385b7b00f4b30614a98fa27ae1ebc"
   },
-  "hash": "a5969c33350b24f6c3ae97b50df64dd1591298aacd6bb18c74aae0cff3936d03",
+  "hash": "48ccf23d984ea6d914d8945b12c72627255e0f475259e52caf34df87a37d9aa8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f4108e7531a088fe1ed5057b74415a0dafbc3225e6fc16d48414e01e130157e6",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "whole-channel",
   "term": "whole-channel",
   "definition": "Whole-channel information refers to information drawn across all channels or feature streams in a model, rather than from one channel alone. In the source, a multi-head self-attention mechanism is used to capture this across-channel information because it is described as important for improving prediction performance.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0276835"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "84c8baac1be5d3126a1ddf3499d0fe0bea7bb0b26f0c8a12dd5f39915071087c",
     "packet_hash": "58091ee3db1e954b751f393150618968be85f5c00f193f0d3da9741be772e5c4"
   },
-  "hash": "250a56590bff92cd4782902856652a4a9e82cbbaf5c1e47a71c1dc7b164be95a",
+  "hash": "7d40ff1b466ff56475bdb037fe72647c06a3d1b36db7589bbd40e06e96c2ff76",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e15a3ce4547a495d6569094c3e44174fbe1cc31ceabe19afa84b077ea4e54cea",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

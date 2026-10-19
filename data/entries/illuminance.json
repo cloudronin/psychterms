@@ -2,7 +2,7 @@
   "id": "illuminance",
   "term": "illuminance",
   "definition": "Illuminance is the level or distribution of light produced in a space, such as around a light source or underwater. In this packet, it refers to how strongly different lamp designs and mounting angles light the surrounding area, including where maximum light levels occur.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0328676"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1732dcf9cc90d0ca02e015dd28c8ce0948e743bb22b5eab3828843d9dc5f3d0e",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "639884f60976b2047f6b2f834302cb9b83ec2a698336b20417f903349f4ab7a4",
     "packet_hash": "1732dcf9cc90d0ca02e015dd28c8ce0948e743bb22b5eab3828843d9dc5f3d0e"
   },
-  "hash": "49eafdbd2026c6b9da047355948a723a57124903026f9adffed3fbf64c54238e",
+  "hash": "620dffefbae8ff38f0100f1bdbe7b114bc5e041a1f5daa9432a07136d74f8512",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "347b16f6e590f3490224ee028588334c17b3ba0a7babdbfaea73a685643f34d0",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

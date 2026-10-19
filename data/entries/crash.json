@@ -2,7 +2,7 @@
   "id": "crash",
   "term": "crash",
   "definition": "In this packet, a crash is a harmful traffic event on a freeway that prediction models try to estimate in real time from vehicle movements and conflict patterns. It is treated as the outcome risk that can develop as interactions between vehicles intensify, including longitudinal or lateral conflicts near diverging areas.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0344623"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c41dcff060167aa3b9328d3a0c32fa843d9e5094a28edc8634e0c5a564f9e601",
     "packet_hash": "0401ac023f65219d43f68715376970d3e57cdd455c054ad6d212b2c0bf342147"
   },
-  "hash": "f18de779e914e3fb9013603ec8611da0ae19e0582656e52536be38faac15af80",
+  "hash": "ed01616bd9f61897a6fb39872732c69c607c0f7aa9c4945e694fcc1fa2b9094b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "97b7fe86ed269fe0012b854b53a1521387afd408e318cfda79688051a3b5b246",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

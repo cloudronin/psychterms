@@ -2,7 +2,7 @@
   "id": "marker",
   "term": "marker",
   "definition": "A marker is a visual sign used to show a position, place, or route.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3f85cf080ccbe2fd28fd9e715b67cab8b8ccc370f4dd8af9f03ef281d9a96149",
     "packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458"
   },
-  "hash": "d2f6f44b324c7ece87db9f3312e479a2b62e4f596f3e8fb6351cd342ce5746f4",
+  "hash": "830a2cc1459367e4f9f93619953135579256ef12c29f5e266da775720e3a66ba",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8f640e8ae906975e7a0e56d58aa4a4c71b9c3c69a43a9342ca49859e1afcfdd5",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

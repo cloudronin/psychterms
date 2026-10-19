@@ -2,7 +2,7 @@
   "id": "primary-sensory-area",
   "term": "primary sensory area",
   "definition": "A primary sensory area is a brain region in which activity triggered by a sensory cue can continue after the cue has ended. In this source, the primary visual cortex is an example, showing persistent activity related to visual cues and their learned associations with later outcomes.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnsys.2021.611744"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "46b4160ee49f98adbfe1f59130c9cd2d4a05f75162abf43c7da31efa53f2d705",
     "packet_hash": "6cc88b2aceb18fd1970f216a345438021fb7ccecfcc36f197947afd7ae4e7f0c"
   },
-  "hash": "3a918efde95880d153cca541520bc870b44c0b515607586a82d49ca28fb5ca39",
+  "hash": "f99f9ed83292871da562561dc14e23bb8ee3517fb8f099c77ecce3f93fea3c75",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "91546c8bceb6d15d2222cf954226f72cc5a816ade2e255de57d0b307b84c7b01",
       "registration_hash": "bf3b10a2020ec11c476c3f95a2e612572e2a6f32d0a3eb64ddb842463c007ccf"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

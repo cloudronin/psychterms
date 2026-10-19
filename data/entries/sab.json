@@ -2,7 +2,7 @@
   "id": "sab",
   "term": "SAB",
   "definition": "SAB stands for Staphylococcus aureus bacteremia, a bloodstream infection caused by Staphylococcus aureus bacteria. In the source, it is discussed as an infectious disease outcome whose incidence was examined in relation to heat stress days.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0352186"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3c3480b980761c8626ed6bb66cacb39d8911f9d4900303302ecd78fd3cdcb116",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "076f904b6d4385b7988c09f7a6bb9942002fb777489783089f8c2e07e499b1d7",
     "packet_hash": "3c3480b980761c8626ed6bb66cacb39d8911f9d4900303302ecd78fd3cdcb116"
   },
-  "hash": "51384b2f1a67cf18f2bc692b861b989b1e63c3e76144b8e6c50313ac3dd88694",
+  "hash": "0760005bc9131c69ddf5ab23f111cf24ff850f6a1e805955e0bb0b748184d540",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "cd1662521d55dc8e69f2dd95f24e04d55beae7f9b06874134740b9ffdb293475",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

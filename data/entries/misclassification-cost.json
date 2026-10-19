@@ -2,7 +2,7 @@
   "id": "misclassification-cost",
   "term": "misclassification cost",
   "definition": "Misclassification cost is the penalty value a classification method assigns to making an incorrect class decision. In the packet, it refers to using different error costs in an SVM loss function so the model can better address class imbalance.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12911-022-01821-w"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3baa434ae8370e54b5c451c4f6a7354a16ed86a330984f1e4b096a9c171778e5",
     "packet_hash": "c3afa8f37a7b945026f855b6a77fbd73fa8fdb06ba1c5de07331317e1d1f6fe8"
   },
-  "hash": "3d4197ebe8643015333df66a22ae228f977d3022e0d31776b8b8ec93191b544c",
+  "hash": "f24b96a4a0047de7b107e74b753c2c43e7f83220b2231fd577f12bce09a2b4d7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -58,5 +58,9 @@
       "request_hash": "1788fe8df788ae1445bb58fa6e2e80863847618ee7f8ef835eab9b9f0154e38f",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

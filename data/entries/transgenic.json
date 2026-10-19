@@ -2,7 +2,7 @@
   "id": "transgenic",
   "term": "transgenic",
   "definition": "Transgenic describes an organism, such as a plant, that has had a gene transferred into it so the gene is expressed in that organism. In the packet, transgenic tobacco plants are tobacco plants altered by introducing the DlERF10 gene.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0314135"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "b667e4575949497b4d6395e3d7cc846afdeaa5e9ae8b215b7c7b835a1ea441a6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ded57c13cd77994c7036691bf6899849db28e1e6427e897bc49ec4629e5e2381",
     "packet_hash": "b667e4575949497b4d6395e3d7cc846afdeaa5e9ae8b215b7c7b835a1ea441a6"
   },
-  "hash": "beb63187bd00d95ef3bf0f1389d76de4f5e6a1ce8f0cbdfc616e8d3ef11a9a54",
+  "hash": "f0805e1fb8b813142f37444b38d54b367f08f42f1cf0a47c6ca20d8c13bd810c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "2ed954bf046bb1ef1d743726ed69c66eb83082a67dbed8e410e639818d7fa305",
       "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

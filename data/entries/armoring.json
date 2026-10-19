@@ -2,7 +2,7 @@
   "id": "armoring",
   "term": "armoring",
   "definition": "Armoring is a strategy of modifying CAR-T cells so they also express supportive immune signals such as cytokines, chemokines, or their receptors. In this context, it is used to strengthen how well the cells survive, enter tumors, and fight cancer, especially in solid tumors.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fimmu.2023.1165404"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e1d782c3f35d01a6c71295ced47f347c22b8e1b0894123d193529004f4cea0fd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ae0da388dc0eb83ce4cb460f8e8425e27f3f0b99667523fb067903231aee51c1",
     "packet_hash": "e1d782c3f35d01a6c71295ced47f347c22b8e1b0894123d193529004f4cea0fd"
   },
-  "hash": "f9c11cd93165aef1958b989d3a5fd20ea34e60625d3ebfa6274707c5d203d3e7",
+  "hash": "1dd28d44c57d8c043909e5de5287c6f21bfc5c705e2e2ed87b76c5671d845fae",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b57b8d8fe54ad9ddcfb2529fb37a77f7cdfe63b736d0899f8a01889c4038b38c",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

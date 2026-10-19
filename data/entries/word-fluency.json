@@ -2,7 +2,7 @@
   "id": "word-fluency",
   "term": "word fluency",
   "definition": "Word fluency is a part of language performance that refers to how well a person can produce words. In this source, reduced word fluency is described as one type of language difficulty that can occur in aphasia after subcortical stroke.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0275664"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "136cdb647285d07f701a1759e25d31190c168f40c5570ce8cc7d24be0a9a3f95",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2483a04336ca7fe83f6435d045efc751c0709dd801126575d04e906884e1716c",
     "packet_hash": "136cdb647285d07f701a1759e25d31190c168f40c5570ce8cc7d24be0a9a3f95"
   },
-  "hash": "177517a682d5bdf16da00de3dad33fd37e6b5f46f636382a8bec051557b0c7ab",
+  "hash": "a8300986c086061be50adf2847322bdde9345e2e23288f1ee08aa9856d044f88",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e2e23aa324952e14628ba645f5b1381820cf95cde7e5644d584d542c77c41647",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

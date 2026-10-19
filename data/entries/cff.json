@@ -2,7 +2,7 @@
   "id": "cff",
   "term": "CFF",
   "definition": "CFF refers to a cue-driven feature fusion approach used in time series forecasting, where language-based semantic cues are combined with numerical sequence features to guide predictions. In the source, it is described as a parameter-efficient method for adapting forecasting models by using text-derived information to modulate numerical outputs.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0353130"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "fcd4a688c9babfca504b91b4b462e559c94a8af22efd34f81430e107d0ed2faa",
     "packet_hash": "6ea03a0333b8d9e74e33899c89a4db976f04cbc416e111f373e82060b303fb42"
   },
-  "hash": "f104891419a4cf020a95d5c241b07ccf0013a2ccc9ec18598626085379645fb8",
+  "hash": "b0de5625776b4437a68c6b0c66c23455a520e9cadc52c3f19378a868853368a3",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0164d3ac404e90164b133b4f45b3f14c7720cb0b799096d471b25bf07e421e06",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

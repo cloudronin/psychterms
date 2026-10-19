@@ -2,7 +2,7 @@
   "id": "at-risk",
   "term": "at risk",
   "definition": "In this context, at risk means judged to have a meaningful possibility of suicide and therefore needing attention, identification, or management in care. The term is used for patients whose situation calls for follow-up and support after referral.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1897475"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d2344f603de4919d94c4985f61d3d99a395a4588ac749b4f287a2e2842358002",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9876508085f6e59948fe453eb8747ca1730aad930add35d911ecdb82f6aadc7e",
     "packet_hash": "d2344f603de4919d94c4985f61d3d99a395a4588ac749b4f287a2e2842358002"
   },
-  "hash": "5a1d2571fc078443f204c400ec5925704a47560eec46856e2aafa24b8ff639ed",
+  "hash": "b5da38e2b24b24948fee6d833cfe10a6eb99caafb10c279598e22890ac1f92d2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "970ca5be083c5439bd76c1ade1ef991018a142f3f576cde76742b0ba8864ab96",
       "registration_hash": "06fe57243c1c93161cff3ac334ac413eb824fe18f395029052996c886169ab19"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

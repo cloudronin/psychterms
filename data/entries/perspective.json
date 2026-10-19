@@ -2,7 +2,7 @@
   "id": "perspective",
   "term": "perspective",
   "definition": "In this context, perspective means the frame of reference used to experience or mentally represent space. It can be egocentric, based on one’s own bodily position, or decentred, involving adoption of another person’s point of view, especially for spatial information.",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0355395"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "180e8208ccb8ec03779fe0f095c9f096713790d6fa6bd2c81a726e2fe03b3a11",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c88d50dcff180168449a4d1fcff0672e6a70385faf73ee5f9b8773f8b8f02102",
     "packet_hash": "180e8208ccb8ec03779fe0f095c9f096713790d6fa6bd2c81a726e2fe03b3a11"
   },
-  "hash": "fb09e3e76e5cf283954b722db06194370ddd4af7a133001b2722f041b86e90bc",
+  "hash": "f416180b14c65f3cf1cacaea98ad581984140136c45e1671a1f796606948a1a8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "46486835249b9f4b59beeb5514ef5fcf37eb83efd0c050352708c0df42453505",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

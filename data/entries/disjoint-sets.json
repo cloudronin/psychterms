@@ -2,7 +2,7 @@
   "id": "disjoint-sets",
   "term": "disjoint sets",
   "definition": "Disjoint sets are groups that do not overlap, so the elements or variables in one set are different from those in the other. In the source context, two datasets can describe the same phenomenon while measuring separate, nonshared variables.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0302425"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4b972e60a17ac7207a032d915f3dc3364fb9d269f759c8acde8b3bb1d3f6b5ff",
     "packet_hash": "1dd26f22f93458cef1daf5e7eb50369fa73112eced322305d3c0a84219a59696"
   },
-  "hash": "38e957fdf20fd1db915111afac8a5f9ec283745518ded3f8f976c28714ecfb82",
+  "hash": "739ac66e7fcf3a64fb4b3039ea02720884b055dbc518c623381b055a6796fc15",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0d88f0b9059b35b5e236d1e36ea79204a90a95d2aa97338ff65c33c8310c926c",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

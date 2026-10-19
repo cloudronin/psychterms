@@ -2,7 +2,7 @@
   "id": "nasal-cavity",
   "term": "nasal cavity",
   "definition": "The nasal cavity is the inside space of the nose, where both non-tumorous and tumorous growths can occur. In the source material, it is described as a site with varied lesion types, most commonly non-neoplastic masses such as nasal polyps, while benign and malignant tumors are less common.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0297536"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "31ad987b2c0d7c9e92e1e25194de897331e01140c35ad3a475cbc991805a10b6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "604898fec009a45117a7ec4ac93c7f4eb891093551e595c41ad87746b3318006",
     "packet_hash": "31ad987b2c0d7c9e92e1e25194de897331e01140c35ad3a475cbc991805a10b6"
   },
-  "hash": "7eb1d5b5cc4bc7c643d153d75fd3037d0702ca1cdfb1369d78aab242173bb9df",
+  "hash": "2b1ba46fc754903efc353df6a3ab5798ea542a19c4e90b81a0bee36be239462e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7c4bc13833a3b1bfefdcd7a35ab6a13f79fbe2ebb3fc7985dcb04940cab19db1",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

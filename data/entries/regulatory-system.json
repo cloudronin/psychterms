@@ -2,7 +2,7 @@
   "id": "regulatory-system",
   "term": "regulatory system",
   "definition": "In this context, a regulatory system is the existing framework used to control emerging drug substitutes and related risks. It guides how substances are managed in policy and practice, though limits in case analysis and discrimination can reduce how effective that control is.",
-  "field": "learning",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1600212"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6ce70a5b649aae6153fb290891ebe801f45dbf5ca17e9dee190a4a5b8bfcd8b9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "0654d37c4bf7137db8c7f75f175a9ceb532f6f764c6c43d397ba2897936c5d01",
     "packet_hash": "6ce70a5b649aae6153fb290891ebe801f45dbf5ca17e9dee190a4a5b8bfcd8b9"
   },
-  "hash": "8986d6fded328af51c55fa95f4ae526df16d94a0b0444519bcc0cc7edb16980d",
+  "hash": "f953f102aa329d31c9036831da441df92674cc122751647204e0fc6cf65d397f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "99e9bf9514f823bcfd1148e831f5ffd1202efca11a791b87c4390353cfa7b726",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

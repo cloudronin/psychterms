@@ -2,7 +2,7 @@
   "id": "barrier",
   "term": "barrier",
   "definition": "A barrier is a protective boundary between body tissue and the outside environment that helps keep conditions stable by controlling what cells, molecules, and microbes can pass through. In the gut, this epithelial barrier is important for processes such as nutrient absorption, regulation of microbiota, and communication between the nervous and immune systems.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0358746"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d73e92f3b9205041a844a6a4933604df3bff0a1a1e0ccd097306ec1d80c14931",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "32da4910a08c45e2f79c017770616f66c2701de3b861d14ac977e7a1ecb35791",
     "packet_hash": "d73e92f3b9205041a844a6a4933604df3bff0a1a1e0ccd097306ec1d80c14931"
   },
-  "hash": "2eb0a4cf08d2c7421f23dbd16cde4059b261784e7b7b59b4879547e3b2590d81",
+  "hash": "56dda230abf73ed2f94d16d6302d33fa55f31c1ba94e4a2d80828b3c09c24175",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "073671f0c63c846a1290ee6a330fe25328d15fa8a17bfdccbc81be225ac98111",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

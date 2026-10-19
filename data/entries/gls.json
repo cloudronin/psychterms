@@ -2,7 +2,7 @@
   "id": "gls",
   "term": "GLS",
   "definition": "GLS stands for Generalized Least Squares. It is a statistical modeling approach used to examine how measured factors are related to an outcome, such as estimating how changes in one variable are associated with changes in another while accounting for the data structure.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0344649"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "18b347e9493811bd75c70aa078a3d774ebfadd128eb2fe7b72e9ba94e3b296ff",
     "packet_hash": "96b229e44febf59246616c01abb36439e659275f555cdbbb73511ade72d559fc"
   },
-  "hash": "47873b325594e529b009def4df4de81ffea3c3d340587c130bb1058de2c1c640",
+  "hash": "4827ad600380d0ddd8040e2d70cec14ed5c154db1e16fcdd81da185ac227adb9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "5536d29ae2e0c3184e0c31f7d836cbbbdea90c4030b0cc81a95417ff6351109b",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "achromatic",
   "term": "achromatic",
   "definition": "Achromatic refers to flicker in a visual test field that changes only in brightness, with equal increases and decreases over time around an average level. In this context, it describes luminance modulation without added color change.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0248180"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5c9a82f124c886fd41a58172959ba9eed6bc892ff535230fcf5854f581051661",
     "packet_hash": "62f429f54765ed407e9c27276d584a260771b121a2b00e0fd6be81d7cfe40ba2"
   },
-  "hash": "f435e7589aef721ec50956eb55575824715c190e15a8fa348231c75f3f0a216b",
+  "hash": "8a88cfcc7658c38c0bffd5290818a6bb337ee73d3e0d65f3073af42df114a1b1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "a13d0051cdc942d59ff8c542c7f30370d5590f82b059388277e588c7a929210a",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

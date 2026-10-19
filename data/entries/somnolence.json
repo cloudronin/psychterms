@@ -2,7 +2,7 @@
   "id": "somnolence",
   "term": "somnolence",
   "definition": "Somnolence is a state of daytime sleepiness or drowsiness. In this packet, it refers to adolescents being sleepier during the day, which was linked with shorter sleep duration and poorer academic performance.",
-  "field": "development",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0281379"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cf33e27c3a634942f21ca630c6c8d45defabfd31dabec23ef4b00b4ede41a14f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "51dbabc31f64120032e62fd2475956eec76e89b590718624e0836699fe7a279c",
     "packet_hash": "cf33e27c3a634942f21ca630c6c8d45defabfd31dabec23ef4b00b4ede41a14f"
   },
-  "hash": "819b99a697206986cd002206fe881e12c3f9d1404564ba87e1fd94d071a9cbc6",
+  "hash": "d8527e5a7854daac62b93d3eb190bd2d9fa45d353321cbe9f29de1a6a336dfbc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "521b3d8d0f289ed844b29a9841d108d7b07dbe2e23e70acf36e3b1517e4b5522",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

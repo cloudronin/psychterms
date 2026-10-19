@@ -2,7 +2,7 @@
   "id": "advance-directive",
   "term": "advance directive",
   "definition": "An advance directive is a way for a person to state treatment preferences in advance, usually outside an acute emergency, so decisions can be more carefully considered. In the context described here, it can include refusing treatment ahead of time, and such refusals may be treated as binding in some settings.",
-  "field": "cognition",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1616011"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1c70abd75a881931dbbae6679e0d40636de82f5e17c6df4daccecba1f692310f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "ce612cc27d888ab85bdb0a7407f2b526553dc53d1785be919f8578153e341922",
     "packet_hash": "1c70abd75a881931dbbae6679e0d40636de82f5e17c6df4daccecba1f692310f"
   },
-  "hash": "29d5e10765f9ca64fc1aa3ceb2daf5a3696bfc458ea2a1d30b02e8e755b8f436",
+  "hash": "1dc298e40ab2f01ea3426aa996be01bc1b62bf8a41f78ae627617119c4ca1c3e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "4e54cb8e47bf06f303572bf66ac3f2c6696d4eee4eebb67f452a405337d514b7",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

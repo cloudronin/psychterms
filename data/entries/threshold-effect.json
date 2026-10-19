@@ -2,7 +2,7 @@
   "id": "threshold-effect",
   "term": "threshold effect",
   "definition": "A threshold effect is a pattern in assessment where a measure becomes especially informative once it reaches a particular level, so that point has practical meaning for estimating risk or outcome. In this sense, the measure’s link to prognosis is not simply gradual across all values but shows an important change around a threshold.",
-  "field": "assessment",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0342994"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6242a2f07d0a9ca2e8a9db21e675fac31d6ed6c93b0a358b3f2fc95da06354a5",
     "packet_hash": "96514b4f6aed710210c552b1df0b3f4209b4f1dece0f61e30c5ab6c35798fb7c"
   },
-  "hash": "99c4f6235ddab0c8b4317a90fe6720f9836afe710b792c56259d219727ced508",
+  "hash": "ded299639c991f430b5bcd7aeadef6527dfa1a05acf3e70a002dd7c2cb170bb8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "f4ff26a361c4076b2e36337868527105fc940197db75c0ae26ac3aad493104e6",
       "registration_hash": "532cccdc4608a8a5182634fdec6926e524a96c26e26baaacaed48dfabec339c1"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

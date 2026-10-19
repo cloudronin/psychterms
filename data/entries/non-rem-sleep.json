@@ -2,7 +2,7 @@
   "id": "non-rem-sleep",
   "term": "non-REM sleep",
   "definition": "Non-REM sleep is a sleep state contrasted with REM sleep in which mental activity is described as showing more secondary-process features. In this source, awakenings from non-REM sleep were linked with more conceptual associations and less primary-process-style rebus thinking than REM sleep.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2017.01955"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "098b1bceff5b9d8861e4abf0e4bac5d554b3512e79cddc1d839ac3075e42aa67",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c80478c55efd81da36239486fcfb5ff2f22eabd8d54203e8adbf9621a43879d9",
     "packet_hash": "098b1bceff5b9d8861e4abf0e4bac5d554b3512e79cddc1d839ac3075e42aa67"
   },
-  "hash": "3c198d8df9cba8fc9dddb60471a59164a5ff94025423388111109daaceb6a7b4",
+  "hash": "19f52c186391bdb68d36c69729508fdff4e6bdf4974aefb69693bd60dd6d19ed",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "9d722f4582b9226d5c2f8f06fda4753ce736415e0dd2417ede7bdea36f0ad7fe",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

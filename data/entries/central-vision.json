@@ -2,7 +2,7 @@
   "id": "central-vision",
   "term": "central vision",
   "definition": "Central vision is the part of the visual field at the center of where a person is looking. In this source, it refers to visual processing within the central 6° of the visual field and is used for tasks such as detecting and recognizing images.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0193465"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "cfdbe1b0c98cd10394b901810e0518d1a931482593fa7740b76cea2eb3f72a1c",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c72342daf4cc02a261b7cfc7f137509219cc778fb6381450894fe46e796beb53",
     "packet_hash": "cfdbe1b0c98cd10394b901810e0518d1a931482593fa7740b76cea2eb3f72a1c"
   },
-  "hash": "d1f35a220bf7d24a94618e7ada0ed4642637b1ae97c69a52e60e610cf14a4bcd",
+  "hash": "460726e0cbf444aa006f56e0a2d000de54c9aa615ad8855989eeffe61259d0fc",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "fdc4739f492b90daa3606bda20875880a60e3f40e816f5c3ebbd62e5f92c9bee",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

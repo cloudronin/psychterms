@@ -2,7 +2,7 @@
   "id": "hierarchical-linear-model",
   "term": "hierarchical linear model",
   "definition": "A hierarchical linear model is a statistical approach used to study how factors from different levels, such as individual and school influences, relate to an outcome at the same time. It can also test whether a factor at one level changes the relationship between factors at another level and the outcome.",
-  "field": "diagnosis",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-023-05489-y"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f6438f51853b3b881d6bc5aaf44347d58c6c34c76a6165401926e1ebce4abdd6",
     "packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6"
   },
-  "hash": "43a675845e7c32ceddc4b19b6aec89b6e8293842a63e60faa193216c3960af68",
+  "hash": "eaf580a6bfc949b668818ca6016fe24832fadf02adc8c0654f3c2316a1b7577c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -58,5 +58,9 @@
       "request_hash": "a0a6b845603a717d18be4c8109df0d76185f52b98983ccdf62a53f8b18a1b1c8",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

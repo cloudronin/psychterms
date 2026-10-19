@@ -2,7 +2,7 @@
   "id": "cytoarchitecture",
   "term": "cytoarchitecture",
   "definition": "Cytoarchitecture refers to the microscopic structural organization of cells within a tissue. In this packet, gut cytoarchitecture means the cellular layout of the intestine as reflected by features such as villi, crypts, and barrier-related tissue structure.",
-  "field": "social",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0355842"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "78e9f9ba5fc3a10d31aeca5ef6bbd328302256ecff56304b197b6282a1b647ff",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7950f78512c44065e343dc4df92e1943da8f42be08ce25fab0d73f88a2c5107f",
     "packet_hash": "78e9f9ba5fc3a10d31aeca5ef6bbd328302256ecff56304b197b6282a1b647ff"
   },
-  "hash": "3a7bfd2324fc1d3815c33b11a2bb57829bd6511d0812c5166df4e0bc2432a070",
+  "hash": "aa313407b074e27bc7e333b042aab2cea02a886deff9cc91f6f3be76febd4214",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1ecf1e5e967f6812842d084935e992571fec5d0ee4553ffc3e16235963938dbd",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

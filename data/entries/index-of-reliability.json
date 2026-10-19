@@ -2,7 +2,7 @@
   "id": "index-of-reliability",
   "term": "index of reliability",
   "definition": "An index of reliability is a way of indicating how consistently a measure performs. In this packet, it refers to internal consistency, such as Cronbach's alpha, used to show whether responses or averaged recordings are stable enough to be considered dependable.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0102672"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "dded2f7122b196a3600bebc635dad849c3e4b13c8104819dc503feca2b8dfb96",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c61147c1b572e28777f8e1551cf13eb70467202d2350ee7a2175c1398f1cccb4",
     "packet_hash": "dded2f7122b196a3600bebc635dad849c3e4b13c8104819dc503feca2b8dfb96"
   },
-  "hash": "635dddf3dee20596cf89bdfc0075a8bd81d8f551e20794ef5ca6da58f47f7182",
+  "hash": "5dd9fec5ad8b1cecbb9fbc06caa72f88a410a738bd36c84b71e288677fdaa5f2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "84ed0101c72dc3c29e77dc3912ec453a3f3b45b2471b171c2586bd9c55ea5f12",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

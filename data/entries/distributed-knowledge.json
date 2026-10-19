@@ -2,7 +2,7 @@
   "id": "distributed-knowledge",
   "term": "distributed knowledge",
   "definition": "Distributed knowledge is information or understanding that is spread across different people rather than held by one person alone. In collaborative work, it becomes easier to use when tools help people compare what knowledge is shared and what knowledge is unique to particular team members.",
-  "field": "biological",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1684634"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "51040c2d8a37b81c56d29dfebbf17a25245a2bc54e85a30081a7f3a8dd637193",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3aa2a5c74fab539a3f36e3d777de73bfddca43e58291c85478fae6e55135544b",
     "packet_hash": "51040c2d8a37b81c56d29dfebbf17a25245a2bc54e85a30081a7f3a8dd637193"
   },
-  "hash": "728d9c2649bc0eb26086eaf81b092f2a43ef04b12064ea895ead8d703ac49b57",
+  "hash": "4fdd55b003996a71c33edfb1243fda84aa3559f6b4d04f6c099097173f200f26",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "3152e4462a9a5015ac580702ef8a85ab2697009b80bbb877feaf9b3e7308ab4f",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

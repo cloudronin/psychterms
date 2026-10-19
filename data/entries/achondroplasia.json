@@ -2,7 +2,7 @@
   "id": "achondroplasia",
   "term": "achondroplasia",
   "definition": "Achondroplasia is a common disorder of bone growth in which a person has disproportionately short stature. In the packet, it is the condition being studied in children in relation to medication safety and effects on bone growth.",
-  "field": "ethics",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0283425"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "129dc5a058b49a220d9b9aa0acd3f6829dc9a6f5f524399dbdbf9f78c05dac55",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7b16e7bef2da4ef7bff48729e7cd00e6d599b25ac0962cf6e9f4d756427ba015",
     "packet_hash": "129dc5a058b49a220d9b9aa0acd3f6829dc9a6f5f524399dbdbf9f78c05dac55"
   },
-  "hash": "b3ba5987072e2f0c9fa04aea8849ea3cc2904b4bf660aca8b1b34f84206b1a6a",
+  "hash": "9152d558f9e7c09d5daa88497c9fbe1084472c050fce20fd179682323aa6d13a",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e84e91c4f7027c1228f9c85978a0006e7369af91aa540613a1ea64045ab85c57",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

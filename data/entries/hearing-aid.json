@@ -2,7 +2,7 @@
   "id": "hearing-aid",
   "term": "hearing aid",
   "definition": "A hearing aid is a device used by some people who still have limited usable hearing in one ear, including alongside a cochlear implant in the other ear. In this context, adding a hearing aid to the nonimplanted ear may improve hearing in noise, sound localization, and everyday communication.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0293811"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2dec3f7638339e16ad176beea7f1004dfc733915f6c3cd319d72f956bcd25629",
     "packet_hash": "57308e72d97225b1adb7cb88354a8f603ad1d4bcf93360f9348a27937d85ae6f"
   },
-  "hash": "80af9812264d338de2e1b123ed4f06d138f4ab7b3c90f1182d1226bb3cdcb9d5",
+  "hash": "0209c22afc4597ffb4184ceae6b5041b162b61151bf7a29973b8b6ad4fc47dba",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "358046dc03b858045cfd3bed26e7a60e3de87d32f9b95eac608df95ae072f617",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

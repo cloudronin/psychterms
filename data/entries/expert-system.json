@@ -2,7 +2,7 @@
   "id": "expert-system",
   "term": "expert system",
   "definition": "An expert system is a computer-based system that uses stored expert rules and a heuristic way of drawing inferences from them to guide decisions or control actions. In this source, it provides expert knowledge for intelligent train operation.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0323478"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9bc34a652183d1d4c0db3551f5b58d4281e471c612748f3fee03f740299391e3",
     "packet_hash": "9212575d1cff3a54deaf3b36cd7aee895fa99d4056e1d11fc4bd08a384524a31"
   },
-  "hash": "19a43120bd6d566ac4aca3541228f56e8ff6c748af78bc5197472ce2141f6e67",
+  "hash": "bd0e05af8761f5207fc243021cb1cc482a39b4a4379d49c82f9d4160dc5591d8",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "44d34c36566e871a2765713cae8fe297d456597c4976ab6d38a122f5b7945557",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

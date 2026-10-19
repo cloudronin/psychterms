@@ -2,7 +2,7 @@
   "id": "forward-displacement",
   "term": "forward displacement",
   "definition": "Forward displacement is the tendency to remember the last seen position of a moving object as slightly farther along its path than it actually was. In this context, it reflects an anticipatory perception of the object’s near-future state.",
-  "field": "assessment",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2023.1193116"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "76f9877c6595eea65b638458a2726ffdf22236b094f0653d56f441ec0ec69fd6",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "4d75a83b6a205b8dbeb6bc155293294ea8d286f769fefeea466c9d8e4f80703c",
     "packet_hash": "76f9877c6595eea65b638458a2726ffdf22236b094f0653d56f441ec0ec69fd6"
   },
-  "hash": "91e7af1a095e16b334f5d429e404269aee9e810a2f125d1175eeab6c79d1f966",
+  "hash": "3eb14670b54f37144fbd144db06f7fe9be9c871d11516a9a8a4ca6e76ce6fb78",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "8695374dc0b18013747cc67f33774c35526f0762de8899aeec8dd81bffdcfb9a",
       "registration_hash": "73c42cb1b7ea978710e48432560173399e94cf61c745174f0544800d6dd84318"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

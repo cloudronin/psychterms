@@ -2,7 +2,7 @@
   "id": "voice",
   "term": "voice",
   "definition": "In this psychology context, voice refers to the tone or sound quality of a person’s speech that helps convey social and emotional meaning. Difficulty understanding voice can be part of subtle communication problems.",
-  "field": "diagnosis",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d713518215f01cd90da1c5f26a45b0c39903a90363a97e13821e012b9f1e2659",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3900509f86dfb11c5d1985fc2585b11ef5652ba2803902ccb079481e1bd669a2",
     "packet_hash": "d713518215f01cd90da1c5f26a45b0c39903a90363a97e13821e012b9f1e2659"
   },
-  "hash": "21396cdb901668ea3e7c5a29c5f4e77458a14c9fa765640308522812eea3aebb",
+  "hash": "64ab7813bf2741bcd4c6ee7a271a8898e332144e1be83ce1dedcbd2fb56c6bf9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "f86f21b63869d1d60fb7d16f77961d087df3d8a8e3edfeb993c217c0eaee6f3c",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "bone-age",
   "term": "bone age",
   "definition": "Bone age is an estimate of a person’s age based on how mature their bones are. It is closely related to skeletal maturity, which means the current stage of bone development, and differs from chronological age, which is based only on date of birth.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0220242"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bc82b92fbc564e0d5933315f796d78cf8837256867179dfce83fde7a13438ee5",
     "packet_hash": "61f942c1768f155186d74d84fba5e8b50d8d1372e72ed586c9a76bf6dbf2c2a4"
   },
-  "hash": "49d19cbd1e3ede54dd092e90f2c898008e22a891ac7894390f74471dea10f5dd",
+  "hash": "103e7112bc5bf97b6ed7bd85fdfd02f58febf63727afe51ee0182fa95785092f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "67999bd4157ac99c24fffa315c8ea37173f9152cb6ded0aa68c8391a411793ab",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

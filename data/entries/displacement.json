@@ -2,7 +2,7 @@
   "id": "displacement",
   "term": "displacement",
   "definition": "In this context, displacement means being forced to leave one’s home after a flood and having to find temporary or new accommodation. The packet links this experience with effects on health and wellbeing, including mental health.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0357805"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d61064c3321483c3b3835485c71742b975ee9cdc900769b36cdea34833c56965",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "bd30af169dfc7b0869bfe6f746cfac31719960c20e45c766554435d502d1d47b",
     "packet_hash": "d61064c3321483c3b3835485c71742b975ee9cdc900769b36cdea34833c56965"
   },
-  "hash": "e9b4c7f5362f328360e3ed8d9c598c7d8a24f452755c483490be98bb58d45296",
+  "hash": "087f87400bbb9e67904e575280a73880715faf88b27548533bfe9ab223722e32",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "ae2e7dd2ba84a4f2e7cee4c4b9bccc08c66bc219bbf23f4bcbcf7ff001434407",
       "registration_hash": "79bad94ff9cf728a0217959e1b233cc419316cb16bce35aaee347b55dbc0d5d7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "view-invariance",
   "term": "view invariance",
   "definition": "View invariance is the property of a visual representation that still identifies the same object or face despite changes in the angle or perspective from which it is seen. In the primate ventral visual system, it refers to neurons responding selectively to an object across different views rather than only one specific appearance.",
-  "field": "learning",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0069952"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "38c750b2411b6986980a61f72dd500891ccec31bf5a55c48877df3b472638623",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "65e73b78b0a7f19921cd07a51eb723a395a65fe2d77aded34aa1f6475d6a6e87",
     "packet_hash": "38c750b2411b6986980a61f72dd500891ccec31bf5a55c48877df3b472638623"
   },
-  "hash": "b5cb0936a227149cf7c4f232306a2f1ce2d1f85ca48eaa64eb60c263ac1cea90",
+  "hash": "b031bf05c6bcdbe78d11dbdc0b500922c303d00ee61774628dd0c029a905b621",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "435ee83a420d3deeb63de1f567ab7d47bcaf6964bde626828e335206c9664206",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

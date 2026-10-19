@@ -2,7 +2,7 @@
   "id": "ior",
   "term": "IOR",
   "definition": "IOR, or inhibition of return, is an attention effect seen in spatial cueing tasks where, after a short delay, people become slower to respond to a target appearing in a previously cued location than to one appearing elsewhere. It reflects a shift from early attention toward the cue to later reduced efficiency for returning attention there, which may help favor new locations during visual search.",
-  "field": "diagnosis",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1593548"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "9b7f37c4492820af368aa5a50340685d0518c8baf6876e74374eb4b30de0f966",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "671e939120e383cce4d57a4e6e0eec7f6992bcf137b260cb022f0bcb1e783365",
     "packet_hash": "9b7f37c4492820af368aa5a50340685d0518c8baf6876e74374eb4b30de0f966"
   },
-  "hash": "97e2321d8f887fa851d7b3103111845b0859399bc160a88629219fe1c48fcbf5",
+  "hash": "28398bf4fb55668c10018fd9d78a6c05f6a9e97c1e1aaa9861a976d4f77bf61b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "abd49b74abcf8b97b4636cf3d8974755bfa9237c1f00510b45a6bfb7e020acbc",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

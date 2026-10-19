@@ -2,7 +2,7 @@
   "id": "clozapine",
   "term": "clozapine",
   "definition": "Clozapine is an atypical antipsychotic drug with a distinctive pattern of action in the brain, affecting several receptor systems including serotonin and dopamine receptors. It is notable for only weakly blocking dopamine D2 receptors and for the serious risk of agranulocytosis as an adverse effect.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D003024"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "18f7f9f362339142670d2d8427547e9cfe47f9652687d36076327430fc36736c",
     "packet_hash": "af91a8da747cf83514deef03ab6420de49f19913dc3f9dbfbdb878b879b34213"
   },
-  "hash": "762bb2e791d9e32d1ec8a358de3b3232b151e58c5bc29ca093ea9aa636500483",
+  "hash": "2296be875b833eecf6b6e6b7a1e2b4a4ae970c208e193802a242b50f923e7026",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "dde95e72175acd62193765595b1daef3944ed85aa9fa2650c1877a842b4484d3",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

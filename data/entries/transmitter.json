@@ -2,7 +2,7 @@
   "id": "transmitter",
   "term": "transmitter",
   "definition": "In this context, a transmitter is a chemical in the brain that helps carry signals. Serotonin is an example of a transmitter involved in depression and obsessive-compulsive disorder.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "eb4a955b2ea497fb0a7648100a84e449fd46fb7eb2880066c34bf52cfd8eea70",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "35a80d3ba622a057b09da083605cc5b52d833a9aff111737dcb055be33485108",
     "packet_hash": "eb4a955b2ea497fb0a7648100a84e449fd46fb7eb2880066c34bf52cfd8eea70"
   },
-  "hash": "161aefc56500a1c5c7c142dab6368bed1c165c990ffaf5a97e13ee9e57808523",
+  "hash": "768c22a268e377631826c63a24d5612cb2a92cec670e069047d8ec9b746978c6",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ddf8ce980ebe0fa4559c19515ec08e3cba801dd66c936f32ff9be8aca7b8a142",
       "registration_hash": "d445450c7de608ddf5128449be83c2f3c5333693ad14f7835cc37e98231de344"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

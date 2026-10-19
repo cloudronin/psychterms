@@ -2,7 +2,7 @@
   "id": "smell-identification-test",
   "term": "Smell Identification Test",
   "definition": "A Smell Identification Test is a brief assessment of a person’s sense of smell that is used to measure olfactory function and detect reduced smell ability, such as hyposmia. In the source context, it was used in Parkinson’s disease research because smell loss is a common non-motor feature and may be related to later cognitive decline and dementia risk.",
-  "field": "cognition",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0325560"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a4605f78bfc7470e4ce25ad7fa774489e4dfd1a08ee5cad5eb066fcfb75388e4",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3c9a96abadac81ae98be0c37bf3ac0d374d48d57afaa57ecd2263a7666b62c24",
     "packet_hash": "a4605f78bfc7470e4ce25ad7fa774489e4dfd1a08ee5cad5eb066fcfb75388e4"
   },
-  "hash": "d9dfd39ea771b964ebbc591da2f33fb5ee487c4ccab5ab9700b028fa548ed110",
+  "hash": "412680fdaf42ec50afe65f641e54a67924acc6069af074c74dd81faf9b59e613",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1e800279da492d789a39f82c16db2b3117b85e8e8f2217f6fef0aecf245fe001",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

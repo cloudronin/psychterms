@@ -2,7 +2,7 @@
   "id": "complete-case-analysis",
   "term": "complete-case analysis",
   "definition": "Complete-case analysis is an approach to missing outcome data that uses only participants with complete information and leaves out those with missing values. In the source, it is presented as a common comparison method that can give biased results when missingness is linked to unobserved factors affecting the outcome.",
-  "field": "cognition",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12874-019-0840-7"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "087cd95b81af704a01f1c19e3eb516b42b1c5bff549abbea6204f29c96b5320e",
     "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a"
   },
-  "hash": "6d71de63610cd1c7113332eefbc3cbd7e6092a591e2cce420cda9ccf87965b2b",
+  "hash": "af077dcf4d837c3fb76becd5db4d3e43f1e7aa696bffb5376d54c6d0d12ee172",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "47e035d8217953d41f8ce1bf3fdbd2d5740d2895e75f10d5b8a2f62ddcb0ab0a",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

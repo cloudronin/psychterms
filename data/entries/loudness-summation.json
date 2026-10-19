@@ -2,7 +2,7 @@
   "id": "loudness-summation",
   "term": "loudness summation",
   "definition": "Loudness summation is the increase in perceived loudness that occurs when sound is combined across ears, especially for binaural broadband sounds. In this context, the term refers to how some listeners, particularly those with hearing impairment, may experience a stronger-than-expected rise in overall loudness even when narrower-band loudness has been normalized.",
-  "field": "development",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0330517"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "792176af8171060215f81e97ff1ef4a34c729adb1970fde538f87e703e17b2ec",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c4d3ab078e708f942a54a2ef4e35f84927e896cd9650bdff9e091690cd7361ce",
     "packet_hash": "792176af8171060215f81e97ff1ef4a34c729adb1970fde538f87e703e17b2ec"
   },
-  "hash": "fc7e14425b290dc64b8c38b417be5ec51178f64f8fb2967952aa7e9bc9de78e7",
+  "hash": "6f232fd2c445bd52e5bdd60857e8b9a3b7b079d5df92ced7d3ebc68df3e9a7b5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "d2bdef248ae5bbfbf6477fd5a1ef1601092598c226b6f388d4decc5e2c8afc32",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

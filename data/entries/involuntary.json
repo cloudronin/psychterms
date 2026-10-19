@@ -2,7 +2,7 @@
   "id": "involuntary",
   "term": "involuntary",
   "definition": "In this mental health context, involuntary means carried out without the person’s voluntary agreement, such as hospitalization ordered through an administrative process. The source specifically uses the term for administrative involuntary hospitalization of offenders with mental disorder.",
-  "field": "diagnosis",
+  "field": "ethics",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2025.1644958"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "4654d9060e31cf3af2b3ac38600d25b4efcadf69861f1189d71b4b03cf96faf8",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "80764f9c3b2803265a62ae65d68546871a88359e3e04ac843377cab64377b9a8",
     "packet_hash": "4654d9060e31cf3af2b3ac38600d25b4efcadf69861f1189d71b4b03cf96faf8"
   },
-  "hash": "484b54a27327cf3a4f3ef10ed68d880d122690ebb98c2fcd345081ab821321ea",
+  "hash": "ffbbecbc82188f30c4124452905a49e6ae2071b7ff8bb96ab0ed9cedefbfac0d",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -59,5 +59,9 @@
       "request_hash": "68522b8980265839eef063a679c3bcb96be61253c9105a3788c73795a7d911ef",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

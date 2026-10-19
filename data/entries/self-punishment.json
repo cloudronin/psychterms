@@ -2,7 +2,7 @@
   "id": "self-punishment",
   "term": "self-punishment",
   "definition": "Self-punishment is a function or purpose a behavior may serve for a person, especially in the context of self-harm or non-suicidal self-injury. It means the behavior is carried out as a way of punishing oneself rather than, for example, regulating emotion or communicating with others.",
-  "field": "learning",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2026.1877825"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1eecf76ac4ca9324afd5ddae066ff48b7b1580590a6871add2c7cc3ca9a0d15f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "721d85fbc927c609dd7a5807dd1e0eaea26253f74e210665b46d481518df37be",
     "packet_hash": "1eecf76ac4ca9324afd5ddae066ff48b7b1580590a6871add2c7cc3ca9a0d15f"
   },
-  "hash": "f9eef065452eb7c57dff9f8618d0cd1b9669edd5bfcab3c578a1a17bdf85661f",
+  "hash": "32c7ffffe200c6f3eaf8a1c80947a61b98e7a83709e58fdabe464d83664c6cf2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "007cdebc914c8b09ce60ffe6865161b22de5f8fda012e1e276c0bccb13a5642d",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

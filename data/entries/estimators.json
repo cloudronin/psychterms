@@ -2,7 +2,7 @@
   "id": "estimators",
   "term": "estimators",
   "definition": "In this learning context, estimators are summary measures used to estimate knowledge change or learning rates from pretest and posttest scores. The packet specifically supports them as group-level ways of summarizing normal gains while accounting for learners’ starting knowledge.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1901493"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3e39e4bd6681a5dd595464ed41e7e8dad640e6e5fa30ba8e00da3308e48142de",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b7325e80c35365a577d3849b7950e756bf1b3411bf54eb5a8bad950deacfb790",
     "packet_hash": "3e39e4bd6681a5dd595464ed41e7e8dad640e6e5fa30ba8e00da3308e48142de"
   },
-  "hash": "d9d07e2785d07f7aa545551d9120852b782d19f7939317d46ea1d65c8042a9be",
+  "hash": "2c9cb907e52c2d42d1d3a3c92084cfddf97618c67103b8fbf63fcdb18fc3296c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "91f862e559e63223a03e55b199738bb9f46941d0ce63f365dd4500b1c8cec1ca",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

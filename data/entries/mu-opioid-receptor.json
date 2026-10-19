@@ -2,7 +2,7 @@
   "id": "mu-opioid-receptor",
   "term": "mu opioid receptor",
   "definition": "The mu opioid receptor is a cell receptor targeted by opioid pain medicines and can trigger different internal signaling pathways after activation. In this source, it is discussed because drugs aimed at this receptor may keep pain-relieving effects while possibly changing side effects such as breathing, gut, and autonomic nervous system responses.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0349596"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "5c023a54f7e96771c5899685e15f96d089dec3221433770981333a2051bcc332",
     "packet_hash": "7ab4b3caf71acc4cf035a772067a63ce959b3a19c974e96b3445daaaefa91dab"
   },
-  "hash": "68713f879da5d424a93a76b3f2beaefc5d2fc0095d7c2bcfcc17834ce767b40d",
+  "hash": "9edbc086eeb3c4c32bdc60cb589c7c796f39bf82f741d39f4ef8ac5537abe87c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "1b97ff956113442f95232efdbadd04f646e081b9877297aa913bb95d5223058e",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

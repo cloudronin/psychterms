@@ -2,7 +2,7 @@
   "id": "dvt",
   "term": "DVT",
   "definition": "DVT stands for deep vein thrombosis, a condition in which a blood clot forms in a deep vein, most often in the lower limbs. It is important because it can lead to pulmonary embolism and post-thrombotic syndrome.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0351558"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e871a02322ec055ab944db87cb7d8099cd272bfcba2f003fec9c062afc85ccfd",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "70679236c2777959a343a469f97f2aa7a87eb546624ce2415d4ce386e8d75d12",
     "packet_hash": "e871a02322ec055ab944db87cb7d8099cd272bfcba2f003fec9c062afc85ccfd"
   },
-  "hash": "8d8f590d11999345e7a3e585b185f92145ebbdeddd8b6bc732b53fcc98bd9a3a",
+  "hash": "51a4b35f6bc2fcd18f4b6f9b01171d74d30355cc5b5e46fadd35a1be39107970",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "f78c508c182499a96ba8b98a9cb87747ca2cc05226df8d08764c0a5d3befdb7b",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "phrenology",
   "term": "phrenology",
   "definition": "Phrenology is the belief that a person’s mental abilities and character traits can be inferred from the shape of the skull. It is especially associated with the theory of Gall.",
-  "field": "cognition",
+  "field": "history",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D010792"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "faaa9294732a2ed604fc7ce41126c2da3b2164dc38a672cefb4c6f6f8e49b718",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3babbcf017a1f76d455184bf256d76236c0dcaec2d31979dfc11bbe3cf905704",
     "packet_hash": "faaa9294732a2ed604fc7ce41126c2da3b2164dc38a672cefb4c6f6f8e49b718"
   },
-  "hash": "7b0d32c638818b814533720aac11b06f8d4992a1db8fe2936b4c8324d5c79b8c",
+  "hash": "ea7289fcdae1dba1d2710b38ea40b54e31da1e1dae7f25855ac460159575a5c2",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "4d57f70a70909e227f6e4d763567a55900c48d4aa9690ce1221ebf6eca6034e6",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

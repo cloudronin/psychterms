@@ -2,7 +2,7 @@
   "id": "metabolic-equivalent",
   "term": "metabolic equivalent",
   "definition": "Metabolic equivalent, or MET, is a way of expressing how much physical activity a person does. In this study, MET hours per week were used to group participants into low, moderate, or high physical activity levels.",
-  "field": "mental health",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0341335"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "527b527d6fd92a09800570af53960a39c9e91d52ae77225c6a35e6dc5fff489d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "50e3f75dfd37a1949dac7cdafb55984288efc580ca741dbbf912210de9e02eb8",
     "packet_hash": "527b527d6fd92a09800570af53960a39c9e91d52ae77225c6a35e6dc5fff489d"
   },
-  "hash": "3be17deceb3b1bb96310c9e6b8cc3a2afbebabd7a4e92947c2bacf90fa2d453b",
+  "hash": "46a08aa917d9444c936eedb016b03ac0afa469db4d7d62cc9aded664fcf66512",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "7f3c80d5291efdcc32bcb0497c3054f2a07cc5ff11ffbfde252bf6ea74e70fa8",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "ataxic-dysarthria",
   "term": "ataxic dysarthria",
   "definition": "Ataxic dysarthria is a speech disorder seen in some degenerative neurological and movement conditions, especially cerebellar ataxia. It reflects the underlying brain disease and can be distinguished from both normal speech and hypokinetic dysarthria.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0268337"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a466db4e7122f3079bef812a71b2718863cd8405b486056a3d1d003ff66b9605",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "9b4a1e9db8e7771adb13dae9ceed76ac0963ea7eda51d0cdf9bef8d4805ec506",
     "packet_hash": "a466db4e7122f3079bef812a71b2718863cd8405b486056a3d1d003ff66b9605"
   },
-  "hash": "20bb3dc5da6d36433e8e9a79f70babcb006f68598c3c62da7a3f7dc6d8808f1c",
+  "hash": "fe51cac7d72a9d48e3e0a3388ae9a88086f3be7d34d89233fd05d1eb0968b20f",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "74e9b2387d08baa6f7361ce5b4bdab9cd838d12174af4c5b72ecd36e70e9fa11",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

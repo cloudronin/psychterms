@@ -2,7 +2,7 @@
   "id": "length-of-stay",
   "term": "length of stay",
   "definition": "Length of stay is the amount of time an individual remains in a care setting, measured from entry or intake until exit or outcome. As a summary measure, it describes how long people or animals are kept in care and is used to judge flow, capacity, and resource demands over time.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0342102"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1de15743157d4227c787bdf6397aff5cfe33d659fe8f94b25198d4d0666e6f97",
     "packet_hash": "6c39ab509307e709fd8076512e27d2f3e5972a2a81bbb6ccfccf74b763d9114b"
   },
-  "hash": "8be7ade715cd5702d872c7c48167e0e595f2a492a4e0cb4aeb03afda838f2641",
+  "hash": "7855931d16525ab1405ffc07733df3c05234293ad829bd8b308081a8c310f39e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f6ae48ce9d2b523f56552f8d2c3339d5e4c8c7774f880c960dfa621bec7de21b",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

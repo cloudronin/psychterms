@@ -2,7 +2,7 @@
   "id": "cumulative-probability",
   "term": "cumulative probability",
   "definition": "Cumulative probability is the accumulated total of probability across the values in a distribution, often shown as a curve. In this context, it describes how the gray-scale pixel values in an image add up progressively, which can help summarize features of a plaque beyond a single summary point such as the median.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0185261"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2e50c59a7e9e0931b400274d81b632c09d654f45039b13e69f59047a54cd2af4",
     "packet_hash": "1346ab0aac6c3a34f47d952b9df785da515a8312b788c058c6bf4a6963c6fb63"
   },
-  "hash": "111f8a342f75dd25c44eb0ed22d53af1474cebac49692ca4a48323be63f22745",
+  "hash": "fa96c8227250f35c649106e23f8d8daffadcd6d6004e8e4fbb2f4118284f4dce",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "d1ff2cd21143e01e83aa1a226817a4dcf99b0109260f13c51c3ddffefb6dc782",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

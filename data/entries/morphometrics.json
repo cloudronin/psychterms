@@ -2,7 +2,7 @@
   "id": "morphometrics",
   "term": "morphometrics",
   "definition": "Morphometrics refers to measuring the size, shape, or other structural features of body tissues or organs. In this source, it means assessing physical characteristics of the rumen and cecum, such as papillae size and numbers of specific cells.",
-  "field": "learning",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0344240"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d8a3afb45d497060a81aab91820fb613be0cac55135bef366ed80de80bdd6c72",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "83f7f894cfc62fdc2b7490a33e6304592719dc9feffaebbc05ee033389b5de5e",
     "packet_hash": "d8a3afb45d497060a81aab91820fb613be0cac55135bef366ed80de80bdd6c72"
   },
-  "hash": "f6f50e01e17d9844e6b5ff3c298f89b22c929c4ba4b7900734d6a6336da1bdec",
+  "hash": "270850ebab4a456d9a16a4b1c4cc9436c972e27121f9b0562ccce9ea5caa647c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8699130177c9c371a8cd97560fc10162eed5cb0507bc027dc4bf063d401ed5bd",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

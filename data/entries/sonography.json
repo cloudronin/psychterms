@@ -2,7 +2,7 @@
   "id": "sonography",
   "term": "sonography",
   "definition": "In this context, sonography refers to transcranial Doppler sonography, a neurosonological method used to monitor blood-flow patterns in the brain. It can help detect signs such as reduced cerebral perfusion and increased vascular resistance in people with vascular cognitive impairment.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0317888"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "3f1f53f9e6c6dfc6dab7949f9a7ef8ecb298c9286cb43515f051c181e3d34177",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c36b26f1f30873691321f2f616047b46aba85dfd7f14d4a706e6d0947347384f",
     "packet_hash": "3f1f53f9e6c6dfc6dab7949f9a7ef8ecb298c9286cb43515f051c181e3d34177"
   },
-  "hash": "ced9f0d8959a11d59e1ed260b97f18632c249beabc1aa4c23796efeb528bf382",
+  "hash": "9a67a07aaa2103df1b291aca81f5c9aa20588f73ddff364f4612bf3694e9e888",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "3d6af3f6e287a04d261c9948038c91e5a276ec9882235596edb5983223f2dd28",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

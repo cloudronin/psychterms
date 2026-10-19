@@ -2,7 +2,7 @@
   "id": "stationarity",
   "term": "stationarity",
   "definition": "Stationarity is the property of a signal being stable over time. In this packet, EEG is described as non-stationary, meaning its patterns and frequency content change over time rather than remaining constant.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fnhum.2026.1856803"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e842d2082f64596d629a26f714176bce39503e6ca1238d585aba13f266059d85",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "73c27556dc9ba92b6ad2d4ef90331f27607ed1590e49fd925b0ff908792c4685",
     "packet_hash": "e842d2082f64596d629a26f714176bce39503e6ca1238d585aba13f266059d85"
   },
-  "hash": "003140cf671fd3eeb500444ae33ec42fcd78c35deab95d2d21128420cd69fcca",
+  "hash": "5272263050e03264c4b4126921ea293c26db6e1313d83e0576e35b94bf42a85b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -57,5 +57,9 @@
       "request_hash": "4ef64dab39af5cda99f11b4e193a495eb9f9e078de4551e6b04f3a39448f1280",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

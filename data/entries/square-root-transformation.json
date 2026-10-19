@@ -2,7 +2,7 @@
   "id": "square-root-transformation",
   "term": "square-root transformation",
   "definition": "A square-root transformation is a way of changing data by taking square roots of the values. In the source, it is used to map compositional microbiome data onto the surface of a hypersphere as part of handling zero-inflated data.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0320832"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7950101133c38ffb10adc40f99f4f7661ac81c3673d4aa7cb516696d6f78637a",
     "packet_hash": "a7856ce50c3a84cbc25d2710b39675c739681d8903942ca0d6f12a65a58a973b"
   },
-  "hash": "9b68e3fd0f03313caa10f2df2edb024616325e2a39d88f392b4ef08f4512e88d",
+  "hash": "f7fbbf4f9358c0a92b2e4f45ae31cf02d3f3252e4f75885e24705a930183494e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "481b4f96d55aa079e7caae410b264e41d99021fcd133c0cf6292dbab942209e7",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

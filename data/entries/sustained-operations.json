@@ -2,7 +2,7 @@
   "id": "sustained-operations",
   "term": "sustained operations",
   "definition": "Sustained operations are the ongoing mental processes thought to be maintained while a person prepares to retrieve information from memory. In this source, the term refers especially to a proposed common preparatory state, also called retrieval mode, used when getting ready to remember episodic information.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0167574"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "e59585a5a79b61f1e65efd53d768e8b433cb2c2e85a781ad23b0e7c08c9a15a3",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "a3429af24fa9ffe6ee215aeb1665a36d432bc9ee9e601f5133f9177338245af9",
     "packet_hash": "e59585a5a79b61f1e65efd53d768e8b433cb2c2e85a781ad23b0e7c08c9a15a3"
   },
-  "hash": "6b73c7a5e4173b4b6b4b4ef4e0f5039c6eceb95c0e6e51a900de08be575b4e3c",
+  "hash": "78fa2f60ba5232757e79392987870c49ce0a9e333960f7e4e0d948cfba149b57",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "0cd037555d1be9045b252cf9220d51aa95a6406c7a51f2a3475e5958e402bb74",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

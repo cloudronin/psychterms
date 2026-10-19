@@ -2,7 +2,7 @@
   "id": "paranoid",
   "term": "paranoid",
   "definition": "Paranoid describes a state of thinking marked by unfounded or exaggerated fears that other people mean to cause harm. It can vary in severity, from milder experiences in the general population to more impairing forms that disrupt social functioning.",
-  "field": "assessment",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12888-025-07538-0"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a5eca05d63dc113fc554b2b25daa57a3980aac5223fe34efaeca068820f494ca",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b8309f9964ad9416ca7b6c5ca08c22959e2b064b54dcf6448a9f59b2bd7e00f0",
     "packet_hash": "a5eca05d63dc113fc554b2b25daa57a3980aac5223fe34efaeca068820f494ca"
   },
-  "hash": "bc4bd019b0c21943653b010a78757ecaa3a9bb914590b4294b9803e982ba0101",
+  "hash": "bb998da8d0fddee0cfa4f207421bfb6d63ba095a41f24e328ed80b4165967ce0",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "b825d4412092d97de4fe78732b83212aa3b946944093d603025f6fd1b7bd9d96",
       "registration_hash": "6e360761531d7665c7ad2525ebc2708a3d8f7362e3388c6161407596fd641c01"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

@@ -2,7 +2,7 @@
   "id": "attribution",
   "term": "attribution",
   "definition": "Attribution is the act of assigning a source or authorship to something, and this assignment can shape how people judge and respond to it. In the research described here, labeling music as AI-generated versus human-made influenced listeners’ evaluations such as liking, quality, authenticity, and engagement.",
-  "field": "cognition",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1889696"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "49aa95e05666f269a694f16bd099ca0a6bd611ee7ff2e5416ccf4fae34529659",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "d296ecffe169570788a3769d367783a58ffd22dda88703538f0e5dba32cbf702",
     "packet_hash": "49aa95e05666f269a694f16bd099ca0a6bd611ee7ff2e5416ccf4fae34529659"
   },
-  "hash": "3aa65154d93219710870f482a5c9a7c04f740492142ea4cc1fcda9ffedec8ec7",
+  "hash": "fdf61a57992c9413564e24a66c4acc7816d8ed1b661f13195f0c6289ca35a70c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "7a36f00bf2e68475afcc41dae05bd324a8fe5dd2cc8d5d78c70bdd089837ec22",
       "registration_hash": "e6d53c3b6158ed3e825c84559baa8234294ac2d30ac75a5cb7e5caf39540d6a8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

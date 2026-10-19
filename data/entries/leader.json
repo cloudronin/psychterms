@@ -2,7 +2,7 @@
   "id": "leader",
   "term": "leader",
   "definition": "A leader is a person whose own self-regulation and health-supportive behavior can shape employees’ self-care, psychological need satisfaction, and motivation at work. In this context, leadership is understood through how the leader supports both their own well-being and that of staff.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2026.1807780"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "02d2448aad8b1c20fb58eb228baa6a7fb5b1bef448ae5f8894e6d328e7045ce7",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f6b60212d7b488381bdc6dc3464cbb4817f88727deb98ebfc76febeadda59dae",
     "packet_hash": "02d2448aad8b1c20fb58eb228baa6a7fb5b1bef448ae5f8894e6d328e7045ce7"
   },
-  "hash": "646518b13332979f5defec44aedf0d18ccd1769b31f38b320b1a66cc91cb1712",
+  "hash": "391d77484b3e706604a313f72fac61e547ec8ff9077487ca4d2b2131bf994d1c",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "1299545ff5a20cc0e22209ed3cb13a28d3641fa4da798a27a0b2ca86a173746f",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

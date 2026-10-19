@@ -2,7 +2,7 @@
   "id": "geometric-illusion",
   "term": "geometric illusion",
   "definition": "A geometric illusion is a visual misperception in which a simple geometric feature is seen differently because of the pattern around it. In the Müller-Lyer illusion, for example, the same line can look different in length depending on whether it ends with arrow tails or arrowheads.",
-  "field": "biological",
+  "field": "cognition",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0081714"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "632e567bf6a42ec760ec2c93fe93dfccbe3b7a7bbad6d733ece895e1daa177cc",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "b2dc55a9daeca8cc812c059eb3c04a8c6d31fc22d9aafe5c02b39d38fd394d8b",
     "packet_hash": "632e567bf6a42ec760ec2c93fe93dfccbe3b7a7bbad6d733ece895e1daa177cc"
   },
-  "hash": "c1cf582f12d143a510f803e4c9a3946d768369d45b34bbe70bc1ee84113ecd0e",
+  "hash": "1358a3319526acec0cfa7f672afdfd1fa87532b4d11d820266fe411b59a4bce9",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "52a6c856aaff09147a396d4feb998cc18949fc4ebdc6dc7e7b5b65d01a0f2e2a",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

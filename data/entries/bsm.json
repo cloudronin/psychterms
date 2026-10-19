@@ -2,7 +2,7 @@
   "id": "bsm",
   "term": "BSM",
   "definition": "BSM stands for blockchain-based social media, meaning social media platforms built on blockchain technology. In this source, the term refers to decentralized platforms that some users adopt because of social influence and financial incentives, and keep using because of community, while barriers include a steep learning curve and concerns about moderation, security, and privacy.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0308458"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7f87de31db59611028bf166f39e12905266095a3333dfe9b86fdd0d213abf4ac",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3191bf9e02edaf9f203f0817716d01c3790dbea659f75dd4c008411f7348dfa9",
     "packet_hash": "7f87de31db59611028bf166f39e12905266095a3333dfe9b86fdd0d213abf4ac"
   },
-  "hash": "2154a3af11659bd1f7d66a01eff35824c2cf8e160c177b742aa107e19f853815",
+  "hash": "42bb906e8cbc62e5ff9962f4626dbdfd8aae762e67bf07dcef8d44e912224eac",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "03186943d1c174a0f7408915b182954d2862f9f546dd1e343835230122be766b",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

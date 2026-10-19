@@ -2,7 +2,7 @@
   "id": "death-anxiety-scales",
   "term": "death-anxiety scales",
   "definition": "Death-anxiety scales are measures used to assess how much death anxiety a person has. In this context, death anxiety means fear and anxious distress related to thoughts of one’s own death or the death of relatives.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12877-023-04086-8"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "7f6c12afa43688b8bca6e236c1841c53a024abacdbdb88fdb00e8c96d997d5b5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "f038a75cb9eb547e8b0477d6ff08d492f335273c8d838700513391f850839032",
     "packet_hash": "7f6c12afa43688b8bca6e236c1841c53a024abacdbdb88fdb00e8c96d997d5b5"
   },
-  "hash": "892b45b138d9a609066f144107c551160c96b8d62caec72a87754d7beab1eebc",
+  "hash": "d8cac48b4d3ddb296d066b4774261017c30fc858ea03bdc43d223d887af93070",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "349f2d8b94152c993930714171f456329c1ff1682ecb347b2f8f492382696f08",
       "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

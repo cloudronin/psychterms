@@ -2,7 +2,7 @@
   "id": "ild",
   "term": "ILD",
   "definition": "ILD stands for interstitial lung disease. In this source, it refers to a major but often underrecognized respiratory health problem in which patient education and self-management support are seen as important for improving adherence and outcomes.",
-  "field": "development",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0353274"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "c2ee9db36344df7582ee8bfed660a33390f06fc04dee1691a62a06bc25888527",
     "packet_hash": "2142baeacfbe26142d2c3a00ae557b191a203b6a2daf41a9c3b9aded284c9dd9"
   },
-  "hash": "110975cb0080e4e1fc4131750df3c54864e660012ec04e5cc36a33b2e0d796aa",
+  "hash": "d7c5e5fcbcaa3893c93982e4ec0aab2e89e9dac27b946f42290d8a6845992bde",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ae9c2ecf0fe24f7df725a7bc7801aa4c1c1791b335563e74037ea79d27eaa6d8",
       "registration_hash": "780fcfed4c284f72c1c2a77971c0a15c76e526e4b6f3c27ec155197709030408"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

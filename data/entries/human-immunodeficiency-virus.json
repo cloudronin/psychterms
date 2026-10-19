@@ -2,7 +2,7 @@
   "id": "human-immunodeficiency-virus",
   "term": "human immunodeficiency virus",
   "definition": "Human immunodeficiency virus (HIV) is a virus associated with acquired immunodeficiency syndrome (AIDS). In the source material, people living with HIV are described as having a much higher risk of developing active tuberculosis, making HIV/TB co-infection a major public health concern.",
-  "field": "development",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0341132"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0e48023092108666c481ec79205f8489a1c46d4795d25bdb9e8af287e767dde5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "7a2089a6d56816dfc599d8b58b081bec3ccdb18329081cb390113d45f1435b18",
     "packet_hash": "0e48023092108666c481ec79205f8489a1c46d4795d25bdb9e8af287e767dde5"
   },
-  "hash": "1e50d969ec23c69f93267f52590ed9349b24ac6f537985d3d90142c7f610c076",
+  "hash": "567ab407875fbd05cd7b4a608b9aff2b963751727d5acc46c2a4bfc4ce0cde40",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "f8684d290844f2971c79153774d6845132809e3d9f50866885ceff141cbdc415",
       "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

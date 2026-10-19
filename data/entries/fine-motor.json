@@ -2,7 +2,7 @@
   "id": "fine-motor",
   "term": "fine motor",
   "definition": "In this context, fine motor refers to finger-related sensorimotor skill: the ability to use and control finger movements in a precise way. The source describes fine motor skills as one of the finger abilities linked with the development of numerical skills in children.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2020.01012"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "0479f6585c5124327ef51f3060421c711223bbb6336c914ce8bbae9081321d82",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2b18b7b6ead98dcc9bc128e589d14355ef66d2f23b401695fbda404e224dcd36",
     "packet_hash": "0479f6585c5124327ef51f3060421c711223bbb6336c914ce8bbae9081321d82"
   },
-  "hash": "8a1390a7413fb65178e5fd5a2515603f2e72276ee51fa68740e2b8f2596c17ef",
+  "hash": "87546cfd5404fe8fb3cfe4143124b19f56e9ece6be56bc6f9eb2d490c8c9598b",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "5644ad7f06083d3a942db2e99f8c91f80179f83039927f115f2411f516d1b607",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

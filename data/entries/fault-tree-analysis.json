@@ -2,7 +2,7 @@
   "id": "fault-tree-analysis",
   "term": "fault tree analysis",
   "definition": "Fault tree analysis is a structured method for identifying the possible causes of an unwanted event by building a tree of contributing factors and then analyzing their roles in the overall risk. In the source, it is used to examine coal dust explosion risk, including estimating how basic events contribute to the chance of the explosion.",
-  "field": "biological",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0182453"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "007c57dcb1e152b5728733ef454753a54db9e7551636c7a60c9bf7eeb91f0104",
     "packet_hash": "2405289fc204b39cf78bf8e053ac5bec4aff4158fa570ece28a50e7ff4e0e140"
   },
-  "hash": "7500f975cadbb0b915d5dc127589e59d247e7aee2f8d3863c0070649fce4eeb4",
+  "hash": "8185018201ebea4b744c73380f0fd0a7069de2635da6e1ce53ca97c2af5079d5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "952daaa7551fdd80f13ed39863e12f230e829f8f3719f93ef04471fccf2f2e3e",
       "registration_hash": "a868d117e7d302259a8d3442c2c1530a5f584b83576680a6026638717deb7114"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

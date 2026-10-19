@@ -2,7 +2,7 @@
   "id": "mourning",
   "term": "mourning",
   "definition": "Mourning is the overall process of grieving after a loss. It is linked with a strong sense of loss and sadness.",
-  "field": "cognition",
+  "field": "emotion and motivation",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D001601"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "35e791f2a6cc6e214508e57432e43a0f4e35b016a9f73b629110ccdb5330d07a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "2561bb607f5f670176d9cab854854dc086c14b864eccfba8f4c39e9d6b9d4333",
     "packet_hash": "35e791f2a6cc6e214508e57432e43a0f4e35b016a9f73b629110ccdb5330d07a"
   },
-  "hash": "41f131f9f988139dbe78beec708830df867e866496562c56ad304c8636a815e0",
+  "hash": "ca2f49a630111df37888eaa267c3c69e9f6b54bd5bb4e077bb7a307b6b58a0f5",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "5c9674d8d62d39e088a2b9e0ad631ca95054c8533b616529c7048ed2db2ea2e7",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

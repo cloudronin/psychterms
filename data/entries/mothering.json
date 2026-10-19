@@ -2,7 +2,7 @@
   "id": "mothering",
   "term": "mothering",
   "definition": "Mothering refers to the maternal role and related behavior that develops with the transition to motherhood. In this source, it is linked to cognitive abilities important for offspring survival, especially spatial learning and the flexibility to adjust previously learned responses.",
-  "field": "learning",
+  "field": "development",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1186/s12993-026-00340-2"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "af32b4893a60394ad4a19cd706cf1172a275ec06ffc88212cf6367510542dacf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "3cbd393f90ed4a2a97e2c4a5f8f91a86430945514c1dbd2903920f13ae408148",
     "packet_hash": "af32b4893a60394ad4a19cd706cf1172a275ec06ffc88212cf6367510542dacf"
   },
-  "hash": "7eddb67c4226c72f06dcfc8cf3ad0599b5da81d1217e1845082a8252e0bbe8dc",
+  "hash": "40908d6b81deb7186abdd91ba275da70b79a8b91119e1af767240d0792040d0e",
   "reader_reviews": [
     {
       "model": "gpt-5.4-nano-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "8167f8e0b7eaecad6b1280b4d7ae5e2d3cdd78dbdc48bd11c9760535a048e4fa",
       "registration_hash": "88bd3848380eab565adf46f146026c484fba6c337df86056eb70cf090054168b"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

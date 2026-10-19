@@ -2,7 +2,7 @@
   "id": "hyperhidrosis",
   "term": "hyperhidrosis",
   "definition": "Hyperhidrosis is excessive sweating. It can affect specific areas such as the palms, soles, underarms, groin folds, or perineal area, and in localized forms it is thought to be mainly linked to emotion; more widespread sweating can happen with heat, humidity, fever, or vigorous exercise.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D006945"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "45eb8d91d4dc0da420a4f246e24024ad03b3f1606400f3e7a14a3e897e971a7f",
     "packet_hash": "2a089970307ef1ff3205774c3624a376bc3e019bd31198cb5e8bcc11aa3eb933"
   },
-  "hash": "2ae71eff1cb63831063339b81ca4a94642a87e67d846c88f08078bbb14752848",
+  "hash": "68298b85731f2bd975b1a45b6e11a2a324d4f900d027ea397a11887931226095",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "49a74c04ec37aec81532bd87504d062ea0f8b1e4817112764859a5e08d7280e0",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

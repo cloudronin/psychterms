@@ -2,7 +2,7 @@
   "id": "avlt",
   "term": "AVLT",
   "definition": "AVLT is a verbal learning and memory test used with children and adults. In this version, a person hears one 15-word list over repeated trials, then a second 15-word list, and is asked to recall the words immediately and again after a delay so performance and intrusion errors can be counted.",
-  "field": "learning",
+  "field": "assessment",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "6f56abf95eee3881a63e5f349a6b28dc6cf2ee848d311c0d37aa62f1b83c569f",
     "packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d"
   },
-  "hash": "a09678c98816c220986d4d8d54e0a6adff16a587508238a2a32aa67e46253cb0",
+  "hash": "8d6b6f7f258a111ce451f4c97b34896a5aa75a9b2da57a8cf47f0c574fe167f1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "daa47b5cf32e64b159c13dbc6a91a3f5bae3f1690dc20d6437137249c140c5bf",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

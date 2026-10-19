@@ -2,7 +2,7 @@
   "id": "laboratory-research",
   "term": "laboratory research",
   "definition": "Laboratory research is research carried out in laboratory or experimental settings. In this context, it refers to studies used to examine how motor imagery is experienced and how it may contribute to learning, and such work often underpins later applications in healthcare and rehabilitation.",
-  "field": "learning",
+  "field": "research methods",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.1371/journal.pone.0348064"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "248c457651e92fb0c838382aa0d29422ed5a02693a08445c5679fd0f596c44cf",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "68eb8f8551fbe50e3d9c2ce96cb3bd6979134b1a4750795538619099354ef8a1",
     "packet_hash": "248c457651e92fb0c838382aa0d29422ed5a02693a08445c5679fd0f596c44cf"
   },
-  "hash": "cf104bae5713107195d1658c27cc51c88099de4af60ab53c19c41a1a0fa58ed0",
+  "hash": "6df14148e3fdfa50ebc2df48f8916019ead1ac1019b54c12db7d76dbf1cb3915",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "e475137ff0057ab85795dbaa0562be3a0c4d1652d48034bc4a2cb69d0080c0d1",
       "registration_hash": "7329e0652c82ad82e006723b371e24625107adda7edf4a16819f04e1a85797e7"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

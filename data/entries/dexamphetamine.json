@@ -2,7 +2,7 @@
   "id": "dexamphetamine",
   "term": "dexamphetamine",
   "definition": "Dexamphetamine, also called dextroamphetamine, is the d-form of amphetamine. It is a central nervous system stimulant and sympathomimetic that has been used for narcolepsy and attention deficit and hyperactivity problems, and it also has abuse potential and can produce psychosis-like effects.",
-  "field": "diagnosis",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D003913"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "61d3521f73c279b289a6f4789590d4a91ddc6a1992cfb175d0446a8b4e2f603f",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "1f260ee32e76478bfed25d46c0b5cfa6b105f2db1cf9085e9acb9b3f5e046ede",
     "packet_hash": "61d3521f73c279b289a6f4789590d4a91ddc6a1992cfb175d0446a8b4e2f603f"
   },
-  "hash": "f1e4795e2eceb9ae7ede96664157c371427c12364d8fd0a6f2a7eb1dfb696b1d",
+  "hash": "a8ec9db549eca13d55005d2809431504307928df2b18a8e650381537d5ff92f7",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "23818a75e9f844a1221c7457cbff749890ecbb62fe39bfc489845c15e03b05d5",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

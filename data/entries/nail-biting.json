@@ -2,7 +2,7 @@
   "id": "nail-biting",
   "term": "nail biting",
   "definition": "Nail biting is a common habitual act of manipulating the body by biting the nails. It is understood as a sign or expression of tension.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D009259"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "e9324336c24ac47222a010864eea25357f91a2a6e4954c32c30ff39c77752384",
     "packet_hash": "99cb99fab3866cd5239af3d35597a612342000ae0b4db81d0326296d91343786"
   },
-  "hash": "e6fcdc069beb357b64c7abc2ecba3ee28099d9d7ee6927be7c7febfb6a0bc0c2",
+  "hash": "26edd1d319dc2050983aba853a25fb7ab8dbbfcf22f820657c19fd2cf40b94e1",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "15c28b29570fcb5cef27a182735d4d688e9c14143bb59a7ebf71ec166f3be5d5",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

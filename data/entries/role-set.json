@@ -2,7 +2,7 @@
   "id": "role-set",
   "term": "role set",
   "definition": "A role set is the pattern of roles within a team and how those roles relate to one another in their expected capabilities and responsibilities. In changing teams, a role set may be more disconnected or more intersecting, which can affect how flexibly members coordinate their work.",
-  "field": "learning",
+  "field": "social",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyg.2024.1144638"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "d07494dbff13e8ae248195ed358155a472cd145c48fe8f75494403e2c47f0e78",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "02af91440fdcfd63a4a9f5a3d157ed8e95a5281efe996029769e68d0454dbb92",
     "packet_hash": "d07494dbff13e8ae248195ed358155a472cd145c48fe8f75494403e2c47f0e78"
   },
-  "hash": "8098c145d4a469d75d061ae57afb004ea0dec0247dcee7cfdd5c3c6027f1d65b",
+  "hash": "99f2179b9a2221a43a0c9f19b9503e5a6c53b8f21bf6b8e1bea9acd9c5135b16",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "ebaff49659a3b58162ee334e78cf0d97fc5a4eefb80eebe07babab0c529fedde",
       "registration_hash": "db7403ed532489f003fa3fd5fcea7d21cfaeb0e43f2aea87f451a2351389b331"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

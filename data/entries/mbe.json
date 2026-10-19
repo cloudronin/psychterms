@@ -2,7 +2,7 @@
   "id": "mbe",
   "term": "MBE",
   "definition": "MBE refers to mind-body exercise. In this context, it is described as helping improve attention in people with ADHD, while evidence for benefits on other symptoms as an additional treatment remains limited.",
-  "field": "cognition",
+  "field": "mental health",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://doi.org/10.3389/fpsyt.2024.1490708"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "be2bfe3402bd81add3672be40d99cc6afda1c7149dbd53a315d2acc182a8089a",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "888adcc98abeac28cc48ceac42765f2609f8dc984ab4847499e8cfe6114059c4",
     "packet_hash": "be2bfe3402bd81add3672be40d99cc6afda1c7149dbd53a315d2acc182a8089a"
   },
-  "hash": "8a71a01989fcf339e2c09bb594e441b28984bdd5827d9129a5a3f669d320350a",
+  "hash": "b369cd8961de8b6b5118e9d46f856e5e226605aab839c8e80a701c1e976c3215",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -56,5 +56,9 @@
       "request_hash": "c431bb163eed1e2a2921d793789b6c1fe4bf856da22a9fd5eeaaf721e6505669",
       "registration_hash": "a313e407e9d8a9a0eaa57511447e185aa14baf5f838272b8f2d3aa07d9c4dc6e"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }

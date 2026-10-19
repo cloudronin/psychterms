@@ -2,7 +2,7 @@
   "id": "self-examination",
   "term": "self-examination",
   "definition": "Self-examination is checking your own body, usually to look for possible signs of disease.",
-  "field": "cognition",
+  "field": "biological",
   "also_see": [],
   "aliases": [],
   "sources": [
@@ -17,7 +17,7 @@
       "locator": "https://meshb.nlm.nih.gov/record/ui?ui=D016353"
     }
   ],
-  "version": 1,
+  "version": 2,
   "packet_hash": "a860f995537ef6bf7e7c3e1c3b1130c17de31987af9eb673568c2f4a84ba94c5",
   "draft_evidence": {
     "model": "gpt-5.4-2026-03-05",
@@ -27,7 +27,7 @@
     "definition_hash": "65e9c6149d571fe34729621d160bbe047dba6818b4315b70f78a15b36b48c391",
     "packet_hash": "a860f995537ef6bf7e7c3e1c3b1130c17de31987af9eb673568c2f4a84ba94c5"
   },
-  "hash": "d8b9a5177b63eae734215bfcf2165fb89f86064db913e3fd1ae68514f02fe353",
+  "hash": "7c7e688ea9859fb4d96b6316d4ef85d49d92a6d365ed421130ae0aec805a11de",
   "reader_reviews": [
     {
       "model": "gpt-5.4-mini-2026-03-17",
@@ -55,5 +55,9 @@
       "request_hash": "e6e3a19ce7a5b0923b9b177042824a9b8122e042eff7ab02a10cd31d7047d8ee",
       "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
     }
-  ]
+  ],
+  "external_review": {
+    "batch": "claude-tiebreak-2026-10-18",
+    "manifest_sha256": "1895b37c6cfc8bcc92612215f67cee23e8b8875d822d42063922d62a8b57dd58"
+  }
 }
