@@ -3,7 +3,7 @@ from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from core import digest
-from redraft_policy import candidate_pool,headword_key,disposition,packet_basis_hash,validate_replacements,LEGACY_SCOPE_REASON
+from redraft_policy import packet_rejected,candidate_pool,headword_key,disposition,packet_basis_hash,validate_replacements,LEGACY_SCOPE_REASON
 from entry_status import check_forward,load_migration
 
 class RedraftPolicyTests(unittest.TestCase):
@@ -76,6 +76,16 @@ class RedraftPolicyTests(unittest.TestCase):
     packets=json.loads((root/'.private/out/packets.json').read_text())
     self.assertEqual(len(packets),1);self.assertEqual(packets[0]['source_record'],'fresh')
     self.assertNotEqual(packets[0]['id'],'synthetic-topic');self.assertEqual(packets[0]['redraft_of'],['synthetic-topic'])
+ def test_editorial_packet_rejection_survives_metadata_changes_and_keeps_new_sources(self):
+  rows,packets=self.rows()
+  rejected=packet_basis_hash(packets['old'])
+  outcomes={'term':{'requirement':'new general-sense packet required','excluded_packet_basis_hashes':[rejected]}}
+  row=candidate_pool(rows[:1],outcomes,exclusions=set())['candidates'][0]
+  self.assertEqual(row['requirement'],'new general-sense packet required')
+  changed={**packets['old'],'id':'v3','planned_field':'cognition','revision':'2','term':'TERM','text':'  OLD   source. '}
+  self.assertTrue(packet_rejected(changed,row))
+  self.assertFalse(packet_rejected(packets['new'],row))
+  self.assertFalse(packet_rejected(changed,{}))
  def test_scope_dropped_headword_cannot_be_redrafted_under_a_new_id(self):
   rows,packets=self.rows();rows[0]['status']='dropped'
   with self.assertRaisesRegex(ValueError,'Out-of-scope'):validate_replacements(rows,packets)

@@ -29,3 +29,7 @@ python scripts/entry_status.py --write-history
 python scripts/entry_status.py --base origin/main
 npm run build
 ```
+
+## Cleared replacement publication
+
+The approved redraft import adds 123 independently sourced replacement versions, bringing the published judged count to 9,324. Original failed versions stay immutable. See [the publication report](../reports/cleared-redrafts-publication.md) and its complete JSON entry list. Promoted entries carry a hash-bound provider receipt bundle; build-time checks verify the actual responses and source/definition bindings. Supplied editorial field corrections use the existing pinned external-reader format.

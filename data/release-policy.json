@@ -61,10 +61,33 @@
     "candidate",
     "reviewed",
     "judged",
-    "dropped"
+    "dropped",
+    "redraft"
   ],
   "released_is_additional_marker": true,
   "scope_and_field_before_paid_draft": true,
   "reader_paid_dispatch_enabled": true,
-  "reader_review_cap_usd": "25.00"
+  "reader_review_cap_usd": "25.00",
+  "status_forward_only_scope": "entry_id",
+  "local_redrafts": {
+    "paid_dispatch_enabled": false,
+    "paid_cap_usd": 0,
+    "wave_size": 500,
+    "min_wave_pass_fraction": 0.6,
+    "version": 2,
+    "separate_non_drafter_readers": 2
+  },
+  "hybrid_redrafts": {
+    "paid_dispatch_enabled": true,
+    "paid_roles": [
+      "draft"
+    ],
+    "paid_cap_usd": 200,
+    "draft_model": "gpt-5.4-2026-03-05",
+    "fit_and_readers": "local Ollama only",
+    "wave_size": 500,
+    "min_wave_pass_fraction": 0.6,
+    "version": 2,
+    "separate_non_drafter_readers": 2
+  }
 }

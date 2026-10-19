@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source": "User-supplied follow-up verdicts for the exact two exported version-3 drafts.",
+  "scope": "Staged editorial decisions, not publication. Prior version-2 decisions and provider receipts remain unchanged.",
+  "decisions": [
+    {
+      "entry_id": "preparatory-response-v3-aa974c0600",
+      "headword_key": "preparatory response",
+      "verdict": "PASS",
+      "reason": "All clauses supported; general readiness before an expected event is the term's general sense, not one paper's",
+      "suggested_field": "",
+      "staged_status": "judged",
+      "definition_hash": "6421ab6364067cd1487fadd2394deda7c8bdc099199245c603b92fc43a5670b2",
+      "packet_hash": "7de4c4c1aa7184e561a3574991d9bb243b1df6293e023ce74e240d69163aa998",
+      "verified_reader_passes": 2
+    },
+    {
+      "entry_id": "redundancy-v3-dfd79156c9",
+      "headword_key": "redundancy",
+      "verdict": "FAIL",
+      "reason": "Silent narrowing: defines construct redundancy as if it were the general headword; needs a general-sense packet or the headword 'construct redundancy'",
+      "suggested_field": "",
+      "staged_status": "redraft",
+      "definition_hash": "97b0a2e44cf4f519eae6ea98f1ec7fab793b225a1de481d1c158a81653890861",
+      "packet_hash": "62fe144a3f1783ab0dc53329fc57b1334d8a5107d0a971506ee9a0da7a96af8a",
+      "verified_reader_passes": 0,
+      "requirement": "new general-sense packet required",
+      "rejected_packet_basis_hash": "920d5dbb069edf9e53e28bb015b445bdf6f9dde6deb216ca8be94019431acede",
+      "alternative_headword": "construct redundancy",
+      "alternative_policy": "Separate scope admission, drafting and two verified reads required; do not rename or inherit the failed draft as an approved entry."
+    }
+  ]
+}

@@ -370,6 +370,62 @@
         "type": "string",
         "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
       }
+    },
+    "local_run": {
+      "type": "object",
+      "required": [
+        "batch",
+        "manifest_sha256",
+        "receipts"
+      ],
+      "properties": {
+        "batch": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "manifest_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "receipts": {
+          "type": "object",
+          "required": [
+            "fit",
+            "draft",
+            "reader_a",
+            "reader_b"
+          ],
+          "properties": {
+            "fit": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "draft": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "reader_a": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "reader_b": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "latest_sourcing": {
+      "type": "object",
+      "description": "Build-owned headword sourcing outcome; original entry rejection reason remains unchanged."
+    },
+    "publication_evidence": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "Hash of the offline-verifiable provider receipt bundle for this promoted replacement."
     }
   },
   "additionalProperties": false

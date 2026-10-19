@@ -76,7 +76,7 @@ elif stat_policy.exists():
 # Preserve additional individually verified historical editions.
 if existing.exists():
  for verified in json.loads(existing.read_text())['sources']:
-  if verified['id'] in ('baldwin-1902-v2','tuke-1892'):
+  if verified['id'] in ('baldwin-1902-v2','tuke-1892','medlineplus-health-topics','cdc-mental-health-substance-use','hpo-2026-09-01'):
    rows.append(verified);byid[verified['id']]=verified
 # Raw downloaded policy and edition hashes are distinct from hashes of review findings.
 snapshot_path=ROOT/'reports/source-snapshots.json'

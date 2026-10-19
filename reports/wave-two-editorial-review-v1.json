@@ -1,0 +1,73 @@
+{
+  "claude_pass": 74,
+  "claude_fail": 7,
+  "retags": 36,
+  "scope_headwords_excluded": 5,
+  "same_packet_redrafts": 2,
+  "corrections_passing_two_readers_and_copy": 0,
+  "remaining_redraft": 2,
+  "field_tagger": {
+    "comparison_entries": 74,
+    "matching_claude": 0,
+    "confident": 0,
+    "confident_matching_claude": 0,
+    "abstained": 1,
+    "unresolved_responses": 73,
+    "uncertain_routed": 0,
+    "development_comparison_not_held_out": true
+  },
+  "run_receipted_usd": 0.215607,
+  "shared_budget": {
+    "calls_reserved": 4390,
+    "cap_usd": 200.0,
+    "receipted_usd": 15.865861,
+    "unresolved_reservations_usd": 0.810447,
+    "by_category": {
+      "draft": {
+        "calls": 32,
+        "receipted_usd": 0.115081,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-retune-draft": {
+        "calls": 382,
+        "receipted_usd": 1.507809,
+        "unresolved_reservations_usd": 0.034315
+      },
+      "pilot-retune-field": {
+        "calls": 151,
+        "receipted_usd": 0.215607,
+        "unresolved_reservations_usd": 0.02075
+      },
+      "pilot-retune-fit": {
+        "calls": 2710,
+        "receipted_usd": 10.414214,
+        "unresolved_reservations_usd": 0.471457
+      },
+      "pilot-retune-reader_a": {
+        "calls": 470,
+        "receipted_usd": 0.96378,
+        "unresolved_reservations_usd": 0.046349
+      },
+      "pilot-retune-reader_b": {
+        "calls": 385,
+        "receipted_usd": 1.901838,
+        "unresolved_reservations_usd": 0.117423
+      },
+      "pilot-source-context-reader_a": {
+        "calls": 128,
+        "receipted_usd": 0.214783,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-source-context-reader_b": {
+        "calls": 132,
+        "receipted_usd": 0.532749,
+        "unresolved_reservations_usd": 0.120153
+      }
+    }
+  },
+  "published": 0,
+  "wave_three_started": false,
+  "registration_hash": "5c9c60f0ddfc843ea42103155d6c5d44c08417d36e233d67c81633115f5ab49e",
+  "measurement_valid": false,
+  "invalidity_reason": "Validator required exact context-evidence formatting for confident classification and abstention; 73/74 responses failed validation. This is not a valid classification-agreement estimate."
+}

@@ -19,7 +19,7 @@ def packet_citation(packet,sources,role='draft_basis'):
  else:
   citation=f'{source["candidate"]}. {packet["revision"]}. “{label}” ({packet["source_record"]}).'
  return {'source':packet['source'],'record_id':packet['source_record'],'revision':packet['revision'],'role':role,'role_label':ROLE_LABELS[role],
-         'citation':citation,'url':packet['url'],'licence':packet['licence'],'licence_url':licence_url(source),'adaptation_notice':'Definition uses new wording; original source retains its stated licence.','packet_hash':packet['packet_hash'],'source_snapshot_sha256':packet['source_snapshot_sha256']}
+         'citation':citation,'url':packet['url'],'licence':packet['licence'],'licence_url':licence_url(source),'adaptation_notice':'Definition uses new wording; original source retains its stated licence.','packet_hash':packet['packet_hash'],'source_snapshot_sha256':packet['source_snapshot_sha256'],**({'attribution':source['attribution']} if source.get('attribution') else {})}
 
 def references(entries,root=ROOT):
  sources={s['id']:s for s in json.loads((root/'data/sources.json').read_text())['sources']}
@@ -36,6 +36,6 @@ def references(entries,root=ROOT):
    else:
     source=sources[p['source']]
     rows.append({'source':p['source'],'revision':p['revision'],'role':p['role'],'role_label':ROLE_LABELS[p['role']],
-                 'citation':f'{source["candidate"]}. {p["revision"]}. {p["scope"]}.','url':p.get('locator',source['url']),'licence':source['licence'],'licence_url':licence_url(source),'adaptation_notice':'Original source retains its stated licence.'})
+                 'citation':f'{source["candidate"]}. {p["revision"]}. {p["scope"]}.','url':p.get('locator',source['url']),'licence':source['licence'],'licence_url':licence_url(source),'adaptation_notice':'Original source retains its stated licence.',**({'attribution':source['attribution']} if source.get('attribution') else {})})
   result[entry['id']]=rows
  return result
