@@ -27,5 +27,37 @@
     "definition_hash": "f96167fbb24769f997b3904627a5c4233ba4efeee016d9891dcd08dfa33d8001",
     "packet_hash": "aa7c989fda480dd4008caee6da7847509d8425cd21ac196eecd7e0da6a761826"
   },
-  "hash": "aa8e7aaf384a10a62def0d9be7953cc5a802780fc8663ef9199756a4b97bbc07"
+  "hash": "aa8e7aaf384a10a62def0d9be7953cc5a802780fc8663ef9199756a4b97bbc07",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes a hospital department responsible for administering and providing social services to patients and their families; the definition shifts the sense to the services themselves rather than the department.",
+        "The added claims about helping with social needs and coordinating related assistance are not supported by the packet."
+      ],
+      "definition_hash": "f96167fbb24769f997b3904627a5c4233ba4efeee016d9891dcd08dfa33d8001",
+      "packet_hash": "aa7c989fda480dd4008caee6da7847509d8425cd21ac196eecd7e0da6a761826",
+      "published_packet_hash": "aa7c989fda480dd4008caee6da7847509d8425cd21ac196eecd7e0da6a761826",
+      "receipt_id": "2036967d40a3455381912695e42379fd",
+      "request_hash": "d46a9f65c47530263a55a8044a3971d8b10d841224e1b610e659cd69ee4d7939",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that a hospital social work department is responsible for administering and providing social services to patients and their families, but it does not explicitly support the added specifics that these services “help patients and their families with social needs” or “coordinate related assistance.”",
+        "Because those substantive components are not present in the supplied packet text, the definition includes unsupported generalizations beyond the packet’s scope."
+      ],
+      "definition_hash": "f96167fbb24769f997b3904627a5c4233ba4efeee016d9891dcd08dfa33d8001",
+      "packet_hash": "aa7c989fda480dd4008caee6da7847509d8425cd21ac196eecd7e0da6a761826",
+      "published_packet_hash": "aa7c989fda480dd4008caee6da7847509d8425cd21ac196eecd7e0da6a761826",
+      "receipt_id": "3728b287581f4a84a9ff0d7a26a3eaf0",
+      "request_hash": "c08160f94b66b268bd73ef2f409abf8c6c7926a75a9456b29f26441f18d74287",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

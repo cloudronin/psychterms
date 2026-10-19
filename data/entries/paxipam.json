@@ -27,5 +27,37 @@
     "definition_hash": "f51e9081e05ff4cb6ba11adf5a565005f39ac2789a0eb20aec1b90fd163e753d",
     "packet_hash": "ea860797a705a6a6a2febe5b5f02a7ac691ed384b8ca50d3bd1cbeafe31a693b"
   },
-  "hash": "2f0441141c458e68e140e81a464c3d42ec8139e0d933d9a94077aef32ea25727"
+  "hash": "2f0441141c458e68e140e81a464c3d42ec8139e0d933d9a94077aef32ea25727",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text is for Halazepam, not Paxipam, so the requested term/sense is not supported by the source packet.",
+        "The mechanism is more specific than the packet warrants: the packet supports benzodiazepine-GABA-A receptor binding and increased chloride-channel opening, but not the definition’s exact wording about Paxipam or its stated receptor-complex phrasing as written."
+      ],
+      "definition_hash": "f51e9081e05ff4cb6ba11adf5a565005f39ac2789a0eb20aec1b90fd163e753d",
+      "packet_hash": "ea860797a705a6a6a2febe5b5f02a7ac691ed384b8ca50d3bd1cbeafe31a693b",
+      "published_packet_hash": "ea860797a705a6a6a2febe5b5f02a7ac691ed384b8ca50d3bd1cbeafe31a693b",
+      "receipt_id": "1861905a89f7469b8a051c2885c5e5a1",
+      "request_hash": "c5b576c2e10a357845e1e18481e5434df18c61f5023bea9efe119a8ed4d28440",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet content is for “Halazepam” (source_label: Halazepam) and does not explicitly provide information establishing that “Paxipam” is the same substance or even mentions “Paxipam.”",
+        "Because “Paxipam” is not supported by the provided packet, the definition’s requested term sense (“Paxipam is…”) is not defensible from the supplied source."
+      ],
+      "definition_hash": "f51e9081e05ff4cb6ba11adf5a565005f39ac2789a0eb20aec1b90fd163e753d",
+      "packet_hash": "ea860797a705a6a6a2febe5b5f02a7ac691ed384b8ca50d3bd1cbeafe31a693b",
+      "published_packet_hash": "ea860797a705a6a6a2febe5b5f02a7ac691ed384b8ca50d3bd1cbeafe31a693b",
+      "receipt_id": "8cfbb2a986694ee58d345cea65496db3",
+      "request_hash": "12716d79e23dee7823f13adfe317803e915813b4ad22db5ec2857d6217f88dd0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,35 @@
     "definition_hash": "17d0a76cb1b1c616245a69ca7f9e0257af66f056c80511709573013bcbb01c01",
     "packet_hash": "432de618394f3748f71e709f101885580fd6876dbd0d80f7082728a9cffcf8fe"
   },
-  "hash": "ad45a91e53283fe31edaacb586e0f648b4c461514371df763994c7e0e85257db"
+  "hash": "ad45a91e53283fe31edaacb586e0f648b4c461514371df763994c7e0e85257db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "17d0a76cb1b1c616245a69ca7f9e0257af66f056c80511709573013bcbb01c01",
+      "packet_hash": "432de618394f3748f71e709f101885580fd6876dbd0d80f7082728a9cffcf8fe",
+      "published_packet_hash": "432de618394f3748f71e709f101885580fd6876dbd0d80f7082728a9cffcf8fe",
+      "receipt_id": "bd152c91a9ce4ccba943a49b762515ab",
+      "request_hash": "6ce149f0f99835076459f994758e320ec8ba503497813a8b754b6e1ff15f0af3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support describing “festinating gait” as a “historical term”; it only uses the phrase “unsteady festinating gait” in the described passage.",
+        "The first sentence adds “characteristic feature” wording that is not explicitly stated in the packet (the packet lists it among other “peculiarities” in that passage).",
+        "The second sentence characterizes “festination” as “a hurried running together of movements”; the packet specifically describes “articulatory festination” as “a tendency to run words into one another,” which is not the same wording or level of generality as “movements.”"
+      ],
+      "definition_hash": "17d0a76cb1b1c616245a69ca7f9e0257af66f056c80511709573013bcbb01c01",
+      "packet_hash": "432de618394f3748f71e709f101885580fd6876dbd0d80f7082728a9cffcf8fe",
+      "published_packet_hash": "432de618394f3748f71e709f101885580fd6876dbd0d80f7082728a9cffcf8fe",
+      "receipt_id": "95db67ec570c4c84889dcf62b4eb4871",
+      "request_hash": "b92e3bd83d29234e55321c49386d8e0b6d911d406023a8835da68157c1d792fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

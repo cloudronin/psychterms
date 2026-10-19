@@ -27,5 +27,34 @@
     "definition_hash": "217c4edf80f1f0359ac7e5847f9a3c0416dc5244e0e80dd1b146eb819098d269",
     "packet_hash": "0532e3f7e6abdff5075d05a8d2d64ce8c73482ac1075d42597a88701f7faa9d6"
   },
-  "hash": "e6af8149838275e8869b7dabaa20a2ccfc21c9e6bdfe60d3ddcf5107a1ad668b"
+  "hash": "e6af8149838275e8869b7dabaa20a2ccfc21c9e6bdfe60d3ddcf5107a1ad668b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "217c4edf80f1f0359ac7e5847f9a3c0416dc5244e0e80dd1b146eb819098d269",
+      "packet_hash": "0532e3f7e6abdff5075d05a8d2d64ce8c73482ac1075d42597a88701f7faa9d6",
+      "published_packet_hash": "0532e3f7e6abdff5075d05a8d2d64ce8c73482ac1075d42597a88701f7faa9d6",
+      "receipt_id": "6397d1ff2b934f208a5d9bc65cacccfe",
+      "request_hash": "fe2f3501f1a8613f800e0c44a52be30984e985e786114eed31b157a475b92c7e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet defines “day hospital” as a healthcare facility/setting for treatment and care (often mental health conditions), but it does not support that this term specifically pertains to the “cognition” field.",
+        "Although the content of the definition largely matches the packet, the requested field (“cognition”) is not evidenced by the provided source packet."
+      ],
+      "definition_hash": "217c4edf80f1f0359ac7e5847f9a3c0416dc5244e0e80dd1b146eb819098d269",
+      "packet_hash": "0532e3f7e6abdff5075d05a8d2d64ce8c73482ac1075d42597a88701f7faa9d6",
+      "published_packet_hash": "0532e3f7e6abdff5075d05a8d2d64ce8c73482ac1075d42597a88701f7faa9d6",
+      "receipt_id": "2a02571dce8b464c98597411af487559",
+      "request_hash": "627502679d013fde4b372686911e689703742b50fcb31069f749a913429a89f8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

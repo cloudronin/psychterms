@@ -27,5 +27,39 @@
     "definition_hash": "e0a8b019867c60ce3f0d0171a324e658ba4b83b537df10d72ce3692ab22ab7d1",
     "packet_hash": "eeac0e63f80e791a5c3cd43cd2bd4966cb2fa3b83f633b8415a62a3e53494e92"
   },
-  "hash": "2abab2a0042a9f9ef44e045a2300cb846c3d8e95fb7e9c300da492b563e8ec26"
+  "hash": "2abab2a0042a9f9ef44e045a2300cb846c3d8e95fb7e9c300da492b563e8ec26",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “chemoreceptor trigger zone” as referring to the “area postrema.”",
+        "The packet states that the area postrema lies outside the blood-brain barrier and acts as an emetic chemoreceptor, but it does not specifically claim that it “can detect substances in the body.”",
+        "While the packet supports “acting as an emetic chemoreceptor” (related to vomiting), the definition’s phrasing “contribute to the vomiting response” is not directly stated in the packet."
+      ],
+      "definition_hash": "e0a8b019867c60ce3f0d0171a324e658ba4b83b537df10d72ce3692ab22ab7d1",
+      "packet_hash": "eeac0e63f80e791a5c3cd43cd2bd4966cb2fa3b83f633b8415a62a3e53494e92",
+      "published_packet_hash": "eeac0e63f80e791a5c3cd43cd2bd4966cb2fa3b83f633b8415a62a3e53494e92",
+      "receipt_id": "c4cdeaff1d87479188b6547052edaeee",
+      "request_hash": "7b4739fcd7bab7682ae47f5dddbec964af05a0aa1ec48dece51e293175df3b49",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet identifies the structure as the area postrema, but it does not state that this is the chemoreceptor trigger zone, so the term-to-structure mapping is unsupported by the supplied source.",
+        "“Can detect substances in the body” goes beyond the packet’s wording; the packet only says the area postrema lies outside the blood-brain barrier and acts as an emetic chemoreceptor.",
+        "“Contribute to the vomiting response” is not stated in the packet in that form; the packet says its functions include acting as an emetic chemoreceptor."
+      ],
+      "definition_hash": "e0a8b019867c60ce3f0d0171a324e658ba4b83b537df10d72ce3692ab22ab7d1",
+      "packet_hash": "eeac0e63f80e791a5c3cd43cd2bd4966cb2fa3b83f633b8415a62a3e53494e92",
+      "published_packet_hash": "eeac0e63f80e791a5c3cd43cd2bd4966cb2fa3b83f633b8415a62a3e53494e92",
+      "receipt_id": "b458d669572d48df95a2e5e1eefb3ce4",
+      "request_hash": "4fdcfdd3d8225fe2561cf85aa9556664b76289ba76b37b6671cc14bfd9e9425a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

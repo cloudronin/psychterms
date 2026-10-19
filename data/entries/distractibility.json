@@ -27,5 +27,38 @@
     "definition_hash": "9c883544119e467b7d5b59cbf637ee2a8e1e22d351dac364f22ef684a4d4db93",
     "packet_hash": "35e9615f8bf821d54670ba23ad94be40476a8f8ca2b96276f51e1b5128417550"
   },
-  "hash": "9eec23bea2d92c08d4f74f797bbf3537233f275558f9119e95c9e3eec6bed38d"
+  "hash": "9eec23bea2d92c08d4f74f797bbf3537233f275558f9119e95c9e3eec6bed38d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports the label \"Concentration/distractibility\" in the ADAS-COG context; it does not support the added explanation that distractibility is \"especially difficulty maintaining focus.\"",
+        "The definition adds interpretive gloss beyond the source packet, which does not itself define distractibility as a cognition-related concept in the way stated."
+      ],
+      "definition_hash": "9c883544119e467b7d5b59cbf637ee2a8e1e22d351dac364f22ef684a4d4db93",
+      "packet_hash": "35e9615f8bf821d54670ba23ad94be40476a8f8ca2b96276f51e1b5128417550",
+      "published_packet_hash": "35e9615f8bf821d54670ba23ad94be40476a8f8ca2b96276f51e1b5128417550",
+      "receipt_id": "647bdcc524674a8a9b55fb2791c902aa",
+      "request_hash": "7326817e141eec6f8d87e52c5b53312450168d87984b0a7a0753828a5eb122d8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide an explicit definition of “distractibility”; it only shows the combined descriptor “Concentration/distractibility” from an ADAS-COG-related entry.",
+        "The definition’s claim that distractibility “referr[s] to concentration” is not explicitly supported by the packet beyond the combined label.",
+        "The definition’s added interpretation “especially difficulty maintaining focus” is not supported anywhere in the provided packet text."
+      ],
+      "definition_hash": "9c883544119e467b7d5b59cbf637ee2a8e1e22d351dac364f22ef684a4d4db93",
+      "packet_hash": "35e9615f8bf821d54670ba23ad94be40476a8f8ca2b96276f51e1b5128417550",
+      "published_packet_hash": "35e9615f8bf821d54670ba23ad94be40476a8f8ca2b96276f51e1b5128417550",
+      "receipt_id": "ef97a68d70754acc9e2d4db046bcba1e",
+      "request_hash": "11862ea2e6cf9b49eafbd443d08c3f2831edd48239af6bf7527ee8ad727b094d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

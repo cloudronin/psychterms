@@ -27,5 +27,33 @@
     "definition_hash": "8f5e85e90e1d2b28a9b2bb159a3663210d246436bd96ad289036bae532beff0c",
     "packet_hash": "86eada23c719410358a54797bf6055a0492a13385ba187bbfda2416cc4174c99"
   },
-  "hash": "f35a8e55ba91a0ea39d1d00dd342744a60c99b35bc3b67304ce6261f12f4674f"
+  "hash": "f35a8e55ba91a0ea39d1d00dd342744a60c99b35bc3b67304ce6261f12f4674f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8f5e85e90e1d2b28a9b2bb159a3663210d246436bd96ad289036bae532beff0c",
+      "packet_hash": "86eada23c719410358a54797bf6055a0492a13385ba187bbfda2416cc4174c99",
+      "published_packet_hash": "86eada23c719410358a54797bf6055a0492a13385ba187bbfda2416cc4174c99",
+      "receipt_id": "e888ad6bf5cd4991b66f3ac4fe764b95",
+      "request_hash": "2c68e35d289cfb7ca136d0dc8225ee23441db239db5583edeea949c11c0907b5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that MAOIs “affect neurotransmitter activity,” but the packet only states that monoamine oxidase plays a role in the inactivation of neurotransmitters; it does not explicitly claim an effect on neurotransmitter activity."
+      ],
+      "definition_hash": "8f5e85e90e1d2b28a9b2bb159a3663210d246436bd96ad289036bae532beff0c",
+      "packet_hash": "86eada23c719410358a54797bf6055a0492a13385ba187bbfda2416cc4174c99",
+      "published_packet_hash": "86eada23c719410358a54797bf6055a0492a13385ba187bbfda2416cc4174c99",
+      "receipt_id": "8cb503b243ce4618954bd18c2c3181f3",
+      "request_hash": "e5437fd2682b1e115590a072ef5f85952e85322e7437ada4d17d24f608211510",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

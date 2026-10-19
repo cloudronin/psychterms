@@ -27,5 +27,33 @@
     "definition_hash": "a166235437b5f118766440343e7c6dea97c4705808a976691b9ffe92865ef683",
     "packet_hash": "283083ddbe90510bd750e6495837257497d1d6e0a80690b7681bdd7b3271d3c0"
   },
-  "hash": "aaf423ed5d6a03bdcc8ad60076f804fdc9b402c08ffa8069810b0ea8daa85c84"
+  "hash": "aaf423ed5d6a03bdcc8ad60076f804fdc9b402c08ffa8069810b0ea8daa85c84",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a166235437b5f118766440343e7c6dea97c4705808a976691b9ffe92865ef683",
+      "packet_hash": "283083ddbe90510bd750e6495837257497d1d6e0a80690b7681bdd7b3271d3c0",
+      "published_packet_hash": "283083ddbe90510bd750e6495837257497d1d6e0a80690b7681bdd7b3271d3c0",
+      "receipt_id": "53614a32c47141e0b2b6454e6d947c9f",
+      "request_hash": "9350eb383dbc22da941aca052123589c07a9c836558504292870de4d52a7287e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the primary process is the “original disease process from which other tissue changes and symptoms develop,” but the packet only states that there is disagreement about which lesion is the “primary process,” and that it is difficult to establish even a general parallel between lesion and symptoms; it does not explicitly say that symptoms/tissue changes develop from that primary process."
+      ],
+      "definition_hash": "a166235437b5f118766440343e7c6dea97c4705808a976691b9ffe92865ef683",
+      "packet_hash": "283083ddbe90510bd750e6495837257497d1d6e0a80690b7681bdd7b3271d3c0",
+      "published_packet_hash": "283083ddbe90510bd750e6495837257497d1d6e0a80690b7681bdd7b3271d3c0",
+      "receipt_id": "5198719729a542d784d1d0fcbd291f4f",
+      "request_hash": "8fd50076a5426688f182b753bbd35756b687a25bcd1ad492639c10f7bb0a5191",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

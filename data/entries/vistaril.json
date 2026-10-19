@@ -27,5 +27,36 @@
     "definition_hash": "c7e3faf8b32f207b1280d65f115e402947b112cc271bbef4f71ada3d745f434e",
     "packet_hash": "0351c9cf726b5df50dd755d3c871ae0207ff4107d63e2e03196f916a7873b34d"
   },
-  "hash": "2e8243bc82a66900d06ad1e870ab4611a96caa1a8e558e7712ea4535e5271254"
+  "hash": "2e8243bc82a66900d06ad1e870ab4611a96caa1a8e558e7712ea4535e5271254",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports hydroxyzine pamoate as the pamoate salt form of hydroxyzine, but it does not support the claim that Vistaril is a brand name for it.",
+        "The definition uses \"antihistamine\" and brain H1-receptor activity, which are supportable, but the unsupported brand-name claim makes the overall entry fail the source check."
+      ],
+      "definition_hash": "c7e3faf8b32f207b1280d65f115e402947b112cc271bbef4f71ada3d745f434e",
+      "packet_hash": "0351c9cf726b5df50dd755d3c871ae0207ff4107d63e2e03196f916a7873b34d",
+      "published_packet_hash": "0351c9cf726b5df50dd755d3c871ae0207ff4107d63e2e03196f916a7873b34d",
+      "receipt_id": "fe2969556c0d4b1ab67087530618e704",
+      "request_hash": "f33fbb59853e12d9cf91c136c16a49deda3178df92ac452a5843b8819a9b0545",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes hydroxyzine pamoate (including its H1-receptor antagonist actions and related properties) but does not explicitly state that “Vistaril” is a brand name for hydroxyzine pamoate."
+      ],
+      "definition_hash": "c7e3faf8b32f207b1280d65f115e402947b112cc271bbef4f71ada3d745f434e",
+      "packet_hash": "0351c9cf726b5df50dd755d3c871ae0207ff4107d63e2e03196f916a7873b34d",
+      "published_packet_hash": "0351c9cf726b5df50dd755d3c871ae0207ff4107d63e2e03196f916a7873b34d",
+      "receipt_id": "8a618561b73f479392eaf9285f8aaf07",
+      "request_hash": "f67bc54f4e0ef48734c77eb6ed134b2add3b28f7ab27365a4147fe7db942f509",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -31,5 +31,21 @@
     "published_packet_hash": "655234663fd6b0d9d722ab5455f33ec8ac76cbbadde88093b80f47b5d61532a7"
   },
   "editorial_status": "human_review_pending",
-  "hash": "6a7e4e0427b7c799ad76928619a1821e6f1d6859be670d6c9b3b869b7e6074ee"
+  "hash": "6a7e4e0427b7c799ad76928619a1821e6f1d6859be670d6c9b3b869b7e6074ee",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition states “The withholding of water in a structured experimental situation,” but the provided definition adds the extra qualifier “deliberate,” which is not supported by the packet."
+      ],
+      "definition_hash": "862618a24f2ef11c978f0c048c81ef8d829d4c5c57667beb00c7ca402ca64937",
+      "packet_hash": "50c27930b6cb059bc06721225c576fd709933d5b51ecf0cf1cc8260496c0c940",
+      "published_packet_hash": "655234663fd6b0d9d722ab5455f33ec8ac76cbbadde88093b80f47b5d61532a7",
+      "receipt_id": "9433eb5879454ac3aa2680f7648167eb",
+      "request_hash": "58f3e35a6ef86fe4eeba6fc193408f24624bc49dd8fb3fa178e28464b669179d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

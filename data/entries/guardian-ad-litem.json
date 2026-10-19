@@ -27,5 +27,33 @@
     "definition_hash": "98b17ba9c5e1ad2c167038bf3cad20dc14ca30fc17bc13ff24b5b1461e1b21b0",
     "packet_hash": "6612e34d0b55a2abcda4b10bf399ee27731369a1bbc542251112a2c4f0bdbc98"
   },
-  "hash": "a19a828e94cb1028971e7e19f0245dcca9ced5d4743f78ebbecdb4b61c5a3f3b"
+  "hash": "a19a828e94cb1028971e7e19f0245dcca9ced5d4743f78ebbecdb4b61c5a3f3b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "98b17ba9c5e1ad2c167038bf3cad20dc14ca30fc17bc13ff24b5b1461e1b21b0",
+      "packet_hash": "6612e34d0b55a2abcda4b10bf399ee27731369a1bbc542251112a2c4f0bdbc98",
+      "published_packet_hash": "6612e34d0b55a2abcda4b10bf399ee27731369a1bbc542251112a2c4f0bdbc98",
+      "receipt_id": "87bffd7557e9435292c2cde1ea0c02fc",
+      "request_hash": "add68b7b0e89db2429558c62275e2bf7c9cbcad43089bfc381ab21bb1436f2b2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that the guardian ad litem ‘represent[s] that person's interests in the case,’ but the provided packet excerpts describe the appointment and that the person ‘act[s]’ as guardian ad litem without explicitly stating that they represent the person’s interests."
+      ],
+      "definition_hash": "98b17ba9c5e1ad2c167038bf3cad20dc14ca30fc17bc13ff24b5b1461e1b21b0",
+      "packet_hash": "6612e34d0b55a2abcda4b10bf399ee27731369a1bbc542251112a2c4f0bdbc98",
+      "published_packet_hash": "6612e34d0b55a2abcda4b10bf399ee27731369a1bbc542251112a2c4f0bdbc98",
+      "receipt_id": "910da0ab907648dcb12221a13658038a",
+      "request_hash": "6d54fafc54fca055460cc2c0ea8be7e8df79b5d48906fe19aecfe7caa7afe4ba",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,39 @@
     "definition_hash": "52536daac8b7149ba631d0f8933e3cf5bec5421d1a0fce32ae7dcb84cd3369c2",
     "packet_hash": "4e8058a20b3ad62987e55f46383b2cb8c295dd01797db0b26c2453faacffee80"
   },
-  "hash": "72a6e46f61b9eae95757531cecb50964aefabef6839bafbe5750cc6b905200fd"
+  "hash": "72a6e46f61b9eae95757531cecb50964aefabef6839bafbe5750cc6b905200fd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition defines “percept,” but the packet contains an “Idea” entry and does not give a definition of the term “percept.”",
+        "The packet states that “objects as perceived by means of actual sensations are included under the term [‘idea’],” which contradicts the supplied definition’s claimed strict contrast between “percept” (present sensation) and “idea” (reproduced image).",
+        "While the packet discusses distinctions between “perceptual experiences” (called impressions) and “ideas,” it does not define “percept” as an object actually perceived through present sensation."
+      ],
+      "definition_hash": "52536daac8b7149ba631d0f8933e3cf5bec5421d1a0fce32ae7dcb84cd3369c2",
+      "packet_hash": "4e8058a20b3ad62987e55f46383b2cb8c295dd01797db0b26c2453faacffee80",
+      "published_packet_hash": "4e8058a20b3ad62987e55f46383b2cb8c295dd01797db0b26c2453faacffee80",
+      "receipt_id": "9e3fdbf041d34f7980c71a5b1bdb11fe",
+      "request_hash": "06ff66d850ce6cde9ac4800d65e90f6b15dd4456cdea69c2d279ec6fa1ca1617",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is an entry for “Idea,” not “Percept,” and it does not directly define percept as “an object as actually perceived through present sensation.”",
+        "The packet supports that idea is a reproduction of an object not actually present to the senses and that some broader usages (e.g., German Vorstellung) can cover both perception and idea, but it does not support the full contrastive definition of percept given here.",
+        "The statement that some writers used broader terms is supportable, but the definition’s framing as a historical-psychology term for percept goes beyond the supplied text."
+      ],
+      "definition_hash": "52536daac8b7149ba631d0f8933e3cf5bec5421d1a0fce32ae7dcb84cd3369c2",
+      "packet_hash": "4e8058a20b3ad62987e55f46383b2cb8c295dd01797db0b26c2453faacffee80",
+      "published_packet_hash": "4e8058a20b3ad62987e55f46383b2cb8c295dd01797db0b26c2453faacffee80",
+      "receipt_id": "4b24695d5e354c8aa09ad9cc234b82f9",
+      "request_hash": "00f6696ac8398ddbfe079b3141ef2e19a080382915d838244b771e81321f34cd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

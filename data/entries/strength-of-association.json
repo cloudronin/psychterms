@@ -27,5 +27,34 @@
     "definition_hash": "b3c202d07654d55f4dc8da74f596cec53f1f4b173793c5d9a99d7605ad43b53f",
     "packet_hash": "926e91f43d657d8e4d7fbd71849a17d9bfe766955808a041dbdb1762b88a89c0"
   },
-  "hash": "b2fd4d66a70a2778e74deb8d18144b9fec20c4f5532bad495b36a648467fafaf"
+  "hash": "b2fd4d66a70a2778e74deb8d18144b9fec20c4f5532bad495b36a648467fafaf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a mathematical procedure related to canonical correlation analysis, not a general definition of “strength of association” as the degree to which variables are related.",
+        "The second sentence is too specific and not fully supported as a definition of the term; it introduces canonical variates and vectors as if they are part of the term’s meaning rather than the packet’s associated procedure."
+      ],
+      "definition_hash": "b3c202d07654d55f4dc8da74f596cec53f1f4b173793c5d9a99d7605ad43b53f",
+      "packet_hash": "926e91f43d657d8e4d7fbd71849a17d9bfe766955808a041dbdb1762b88a89c0",
+      "published_packet_hash": "926e91f43d657d8e4d7fbd71849a17d9bfe766955808a041dbdb1762b88a89c0",
+      "receipt_id": "3abc7e50aee84935bd89ea709bb91948",
+      "request_hash": "96e00fa2769b4dc8b9d8c675056f2a77d687074a8b330d23e4b0ccd25f8fe8d8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b3c202d07654d55f4dc8da74f596cec53f1f4b173793c5d9a99d7605ad43b53f",
+      "packet_hash": "926e91f43d657d8e4d7fbd71849a17d9bfe766955808a041dbdb1762b88a89c0",
+      "published_packet_hash": "926e91f43d657d8e4d7fbd71849a17d9bfe766955808a041dbdb1762b88a89c0",
+      "receipt_id": "0d9cc9bd343a4db3940ba0373c886d02",
+      "request_hash": "8e78baf850b45aee9b65864de5279ae88c6529ccd3b0bb7290b167d6677409b3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

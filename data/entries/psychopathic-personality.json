@@ -27,5 +27,35 @@
     "definition_hash": "2eee65ec093d88710a9a4defb5b4b871b7390045a7c440a38aca34b6021149e4",
     "packet_hash": "fae5fadc0098a6509f272b7767734b16c8fb0491aa5f0d84367fbf2282755c54"
   },
-  "hash": "0f9b0cc6abafe2382d90d88660f2550d5f72388c5aef25d1e79814de480db9fc"
+  "hash": "0f9b0cc6abafe2382d90d88660f2550d5f72388c5aef25d1e79814de480db9fc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2eee65ec093d88710a9a4defb5b4b871b7390045a7c440a38aca34b6021149e4",
+      "packet_hash": "fae5fadc0098a6509f272b7767734b16c8fb0491aa5f0d84367fbf2282755c54",
+      "published_packet_hash": "fae5fadc0098a6509f272b7767734b16c8fb0491aa5f0d84367fbf2282755c54",
+      "receipt_id": "1b96562b246b4d12948806be8a652f9a",
+      "request_hash": "37534a9fdd484148895005c4af0f6dd07a796edd78d49996462dad83c88cca02",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines a disorder under the label “Antisocial Personality Disorder,” not “psychopathic personality,” so the requested term/sense is not supported by the packet.",
+        "The definition states “older diagnostic term,” but the packet does not describe “psychopathic personality” as an older diagnostic label.",
+        "The definition omits substantive requirements present in the packet (“at least age 18” and “history of some symptoms of CONDUCT DISORDER before age 15”), so the definition is not fully supported."
+      ],
+      "definition_hash": "2eee65ec093d88710a9a4defb5b4b871b7390045a7c440a38aca34b6021149e4",
+      "packet_hash": "fae5fadc0098a6509f272b7767734b16c8fb0491aa5f0d84367fbf2282755c54",
+      "published_packet_hash": "fae5fadc0098a6509f272b7767734b16c8fb0491aa5f0d84367fbf2282755c54",
+      "receipt_id": "7d8923aebedb4869a9976809ea6679ba",
+      "request_hash": "cf81ff98b14e1ee1c886d382b8a9352d1ada30d1e50a8e29d3d444680760a62f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,35 @@
     "definition_hash": "391354b80431fe97a3354f5ef8dc4a78cbd0c53ce9be3668e6c42774e56643f8",
     "packet_hash": "4eff3d899fda406de9a460a47d57fd6a9ccf5d15a7522980e7f3bd0558257676"
   },
-  "hash": "97e786d5d432d01abcf03c6794cfc9bdf707f483f613cc8b180151df7ddd4d33"
+  "hash": "97e786d5d432d01abcf03c6794cfc9bdf707f483f613cc8b180151df7ddd4d33",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "391354b80431fe97a3354f5ef8dc4a78cbd0c53ce9be3668e6c42774e56643f8",
+      "packet_hash": "4eff3d899fda406de9a460a47d57fd6a9ccf5d15a7522980e7f3bd0558257676",
+      "published_packet_hash": "4eff3d899fda406de9a460a47d57fd6a9ccf5d15a7522980e7f3bd0558257676",
+      "receipt_id": "be38aba655ca4f4fb964cefa4b2d819c",
+      "request_hash": "9c1e30b13fa99b7eb0a8828404f51bea093a81a1fa1cfd899eaa1bdf68147591",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source packet is for “sum of squares error,” not the broader term “sum of squares,” so the requested sense is not fully supported.",
+        "The definition generalizes beyond the packet by treating the term as a general total of squared deviations or prediction errors; the packet only supports the error sum of squares in regression and ANOVA.",
+        "The wording about within-subject factors is supported only as the Subjects × Treatment interaction, but the broader framing as a general definition is not established by the source."
+      ],
+      "definition_hash": "391354b80431fe97a3354f5ef8dc4a78cbd0c53ce9be3668e6c42774e56643f8",
+      "packet_hash": "4eff3d899fda406de9a460a47d57fd6a9ccf5d15a7522980e7f3bd0558257676",
+      "published_packet_hash": "4eff3d899fda406de9a460a47d57fd6a9ccf5d15a7522980e7f3bd0558257676",
+      "receipt_id": "6e6709cef9c44ad497a7698b584a61c1",
+      "request_hash": "7eca7d6eb0f63de928c124025ca6ce81f207c3c674269a30d0e71bb3deb91dd5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "0178b0189e97cd2e38ea7c80f0b7d0ab80abc14df1cf43702eb4da73f38a8ca5",
     "packet_hash": "ed4c85bbe093fd9ffb0d88f1e5c7c821c81a77898cab9d77f2976ad5d7859af7"
   },
-  "hash": "5cf1223a68b051a03248a13da3b3d3492bdb2d79489a1ff5b57190487d274761"
+  "hash": "5cf1223a68b051a03248a13da3b3d3492bdb2d79489a1ff5b57190487d274761",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0178b0189e97cd2e38ea7c80f0b7d0ab80abc14df1cf43702eb4da73f38a8ca5",
+      "packet_hash": "ed4c85bbe093fd9ffb0d88f1e5c7c821c81a77898cab9d77f2976ad5d7859af7",
+      "published_packet_hash": "ed4c85bbe093fd9ffb0d88f1e5c7c821c81a77898cab9d77f2976ad5d7859af7",
+      "receipt_id": "b6035f24d1a84121a6e4387ad377f439",
+      "request_hash": "afe000d0080bc0a90837b832df7fc1ed7d4189ee68edd5431617f6cb0bb43ccf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “Dopar is levodopa,” but the provided packet text describes levodopa (and its conversion to dopamine) without explicitly asserting that Dopar is levodopa/synonymous with levodopa."
+      ],
+      "definition_hash": "0178b0189e97cd2e38ea7c80f0b7d0ab80abc14df1cf43702eb4da73f38a8ca5",
+      "packet_hash": "ed4c85bbe093fd9ffb0d88f1e5c7c821c81a77898cab9d77f2976ad5d7859af7",
+      "published_packet_hash": "ed4c85bbe093fd9ffb0d88f1e5c7c821c81a77898cab9d77f2976ad5d7859af7",
+      "receipt_id": "744fb2dad106435e93c74e1f39f5d484",
+      "request_hash": "6e4d917573c7299d1897df4e9f4b4c36e3addb4490ae43874eb997da775907d6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

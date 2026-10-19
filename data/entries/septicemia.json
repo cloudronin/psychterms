@@ -27,5 +27,33 @@
     "definition_hash": "840013c4d59fd91390a11c3558c029460e80b4a5e07fac19350509f752d7f8e4",
     "packet_hash": "2b368ef1982898e7e845fdbe703e9764e66e2ccd5c2240ffd87605b0fed68354"
   },
-  "hash": "c429e4c19e5620384f909fba377cad25a15df2af9bf1a8bc7cc974584ea2f954"
+  "hash": "c429e4c19e5620384f909fba377cad25a15df2af9bf1a8bc7cc974584ea2f954",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "840013c4d59fd91390a11c3558c029460e80b4a5e07fac19350509f752d7f8e4",
+      "packet_hash": "2b368ef1982898e7e845fdbe703e9764e66e2ccd5c2240ffd87605b0fed68354",
+      "published_packet_hash": "2b368ef1982898e7e845fdbe703e9764e66e2ccd5c2240ffd87605b0fed68354",
+      "receipt_id": "9fa29b56b2074dca86ed722724947437",
+      "request_hash": "02cf109c5ebc433d41ac4d4fab88ee1208e868ac3654458245eb1901876219bf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet defines septicemia as a medical condition (presence of pathogens in the bloodstream with systemic reaction, shock, specific physical symptoms). That does not fit the requested field of “cognition,” so the field assignment is not defensible from the packet."
+      ],
+      "definition_hash": "840013c4d59fd91390a11c3558c029460e80b4a5e07fac19350509f752d7f8e4",
+      "packet_hash": "2b368ef1982898e7e845fdbe703e9764e66e2ccd5c2240ffd87605b0fed68354",
+      "published_packet_hash": "2b368ef1982898e7e845fdbe703e9764e66e2ccd5c2240ffd87605b0fed68354",
+      "receipt_id": "8e088ece164c4b7eafe823aada73b806",
+      "request_hash": "63317a1ba318a658421a406e77c8c6054b941f0889e8ffd2db15585c08cf20de",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

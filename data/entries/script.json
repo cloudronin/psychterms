@@ -27,5 +27,34 @@
     "definition_hash": "70397fdb246dc039184347f9b91764fd8b1c1950bd4a5de4c4fcb9baf7141384",
     "packet_hash": "77d3415c5b78fc4989bc2c202553c457ad5aa33158402e01ccba09d12a03228f"
   },
-  "hash": "e6eef10348d21ef40d30137be4376bb2395c62a32aaac37efe7263724334040d"
+  "hash": "e6eef10348d21ef40d30137be4376bb2395c62a32aaac37efe7263724334040d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "70397fdb246dc039184347f9b91764fd8b1c1950bd4a5de4c4fcb9baf7141384",
+      "packet_hash": "77d3415c5b78fc4989bc2c202553c457ad5aa33158402e01ccba09d12a03228f",
+      "published_packet_hash": "77d3415c5b78fc4989bc2c202553c457ad5aa33158402e01ccba09d12a03228f",
+      "receipt_id": "9ece70def923489b903e6741f89d91fc",
+      "request_hash": "5b673f36acdf64aa6c92dbe4d2aa9c5464e0835729c854116782cd82cc3d702d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the text distinguishes “ordinary script” from Braille, but it does not explicitly define “script” as “ordinary written characters or handwriting,” nor does it explicitly describe it as the “usual visible form of writing.”",
+        "The definition’s specific framing (“as contrasted with systems such as Braille or specialized type”) is only partially supported: Braille is mentioned as a contrast, but “specialized type” is not supported by the packet."
+      ],
+      "definition_hash": "70397fdb246dc039184347f9b91764fd8b1c1950bd4a5de4c4fcb9baf7141384",
+      "packet_hash": "77d3415c5b78fc4989bc2c202553c457ad5aa33158402e01ccba09d12a03228f",
+      "published_packet_hash": "77d3415c5b78fc4989bc2c202553c457ad5aa33158402e01ccba09d12a03228f",
+      "receipt_id": "e0ebb5fd9ace4486b5cb93dfe7dd5432",
+      "request_hash": "dca28843a7b3f255886434af7cb26df13a795544574c1b7807e563f5900dc3a5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

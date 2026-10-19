@@ -27,5 +27,34 @@
     "definition_hash": "e1f3e0d00b922f981fb74542f39640124009e01e4c929fcaf9f1ecf1cb87479d",
     "packet_hash": "157054edb5bc4a58db06cd3ba4000c8b6ffc6658eb9b38fdc7a9aa533d0b5081"
   },
-  "hash": "c13201b3f1cfb103cc79df016a69a42271c9114a2244659cc87f47d93ca41ebb"
+  "hash": "c13201b3f1cfb103cc79df016a69a42271c9114a2244659cc87f47d93ca41ebb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e1f3e0d00b922f981fb74542f39640124009e01e4c929fcaf9f1ecf1cb87479d",
+      "packet_hash": "157054edb5bc4a58db06cd3ba4000c8b6ffc6658eb9b38fdc7a9aa533d0b5081",
+      "published_packet_hash": "157054edb5bc4a58db06cd3ba4000c8b6ffc6658eb9b38fdc7a9aa533d0b5081",
+      "receipt_id": "0008f17f4e0f4ee99b9bcb8881c8f2fe",
+      "request_hash": "f9b9d65da9b95c3f1b2990511fc2cc78ca1db9b526c0ebbbfe2a2fb0be61107d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase “false positive statement” is not supported by the packet; the packet instead defines the act as “positive misrepresentation.”",
+        "The definition specifies “intentional attempt to deceive… by making a false positive statement”; while the packet supports “intentional deception… by positive misrepresentation” and emphasizes the “intention to deceive,” it does not use or support the “false positive statement” wording/sense."
+      ],
+      "definition_hash": "e1f3e0d00b922f981fb74542f39640124009e01e4c929fcaf9f1ecf1cb87479d",
+      "packet_hash": "157054edb5bc4a58db06cd3ba4000c8b6ffc6658eb9b38fdc7a9aa533d0b5081",
+      "published_packet_hash": "157054edb5bc4a58db06cd3ba4000c8b6ffc6658eb9b38fdc7a9aa533d0b5081",
+      "receipt_id": "728fbacd24484f34a182c8fed8e6a7dc",
+      "request_hash": "5c96ec935d32716ead504e948a5abce1f508e45d2a2adfdb5e80bc1a83df00d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "5283f712a89a5e7d56f60b5c04fe360a96537ebbe2ab1dfaa93e20c515bf7be2",
     "packet_hash": "369e83b892942208848f24d742a56d259b634676eaa1ed6544f540c9bd60bbe0"
   },
-  "hash": "75de6575145d5c43beced54355c5765af5df19b4491840cc442cb03924a98f45"
+  "hash": "75de6575145d5c43beced54355c5765af5df19b4491840cc442cb03924a98f45",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5283f712a89a5e7d56f60b5c04fe360a96537ebbe2ab1dfaa93e20c515bf7be2",
+      "packet_hash": "369e83b892942208848f24d742a56d259b634676eaa1ed6544f540c9bd60bbe0",
+      "published_packet_hash": "369e83b892942208848f24d742a56d259b634676eaa1ed6544f540c9bd60bbe0",
+      "receipt_id": "2d87524dff3a4d5fb41183b3855eaac5",
+      "request_hash": "ee1f036449f076231597b5cb0e86a42e57e7d2ccab2236b4544f45fc58d245fc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines “subject” as “Some matter, situation, or event that is thought about, written about, or discussed,” but it does not explicitly restrict this meaning to “cognition.” The added phrase “In cognition” is therefore not supported by the packet text."
+      ],
+      "definition_hash": "5283f712a89a5e7d56f60b5c04fe360a96537ebbe2ab1dfaa93e20c515bf7be2",
+      "packet_hash": "369e83b892942208848f24d742a56d259b634676eaa1ed6544f540c9bd60bbe0",
+      "published_packet_hash": "369e83b892942208848f24d742a56d259b634676eaa1ed6544f540c9bd60bbe0",
+      "receipt_id": "d279b9115bbe472a8a70b06061193100",
+      "request_hash": "c21f5fda1b7ccf1e752e102bd207cc69097113c642964f185b39946a0de3cfe3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

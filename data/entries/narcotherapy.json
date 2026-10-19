@@ -27,5 +27,34 @@
     "definition_hash": "b248fa4440abfb4d66a62a3361cce1e0b029c47e50e3ebb85f4ab2e270f33718",
     "packet_hash": "1cac7a42a8eedfa5a6cef8f18454150e3011dfeb33deda2fc112867edd9123d8"
   },
-  "hash": "ca314f94a9c0c9cacf9fd9d0e3581ddee61c5d08d6a7b629a134d3d8b46afa2a"
+  "hash": "ca314f94a9c0c9cacf9fd9d0e3581ddee61c5d08d6a7b629a134d3d8b46afa2a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b248fa4440abfb4d66a62a3361cce1e0b029c47e50e3ebb85f4ab2e270f33718",
+      "packet_hash": "1cac7a42a8eedfa5a6cef8f18454150e3011dfeb33deda2fc112867edd9123d8",
+      "published_packet_hash": "1cac7a42a8eedfa5a6cef8f18454150e3011dfeb33deda2fc112867edd9123d8",
+      "receipt_id": "50aa15fce06e441f85f5c0b6f89e4b85",
+      "request_hash": "2e25bafe717186f99022a322c0a1b4b52b6bc8ab470e034bc470e09110d6abe6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that the drugs are barbiturates; the packet only supports intravenous injections of sodium amytal or sodium pentothal, not the drug class.",
+        "The phrase “more talkative state” is a looser restatement than the packet’s supported wording “more relaxed and communicative,” so the definition slightly overgeneralizes the effect."
+      ],
+      "definition_hash": "b248fa4440abfb4d66a62a3361cce1e0b029c47e50e3ebb85f4ab2e270f33718",
+      "packet_hash": "1cac7a42a8eedfa5a6cef8f18454150e3011dfeb33deda2fc112867edd9123d8",
+      "published_packet_hash": "1cac7a42a8eedfa5a6cef8f18454150e3011dfeb33deda2fc112867edd9123d8",
+      "receipt_id": "0970e6b19f4b478b8753bf630a6309cb",
+      "request_hash": "d06e835feb0d687a42c42154653747afbfb8cec8071bd1bb19b79a7e9f9ec513",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

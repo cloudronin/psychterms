@@ -27,5 +27,34 @@
     "definition_hash": "7169a23a0bc09382a38a17e818db503c225ae3aa8a25e377b9ee915ff4ab3a5b",
     "packet_hash": "125b75be5c9d3107346d88dbc462fa0aea489469ba6d5511bddacec895a8c3cc"
   },
-  "hash": "c48c426f7d939a27ea3c1ccdfce5a96df1925c76c1528b93418e0cc17e9a9e4b"
+  "hash": "c48c426f7d939a27ea3c1ccdfce5a96df1925c76c1528b93418e0cc17e9a9e4b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7169a23a0bc09382a38a17e818db503c225ae3aa8a25e377b9ee915ff4ab3a5b",
+      "packet_hash": "125b75be5c9d3107346d88dbc462fa0aea489469ba6d5511bddacec895a8c3cc",
+      "published_packet_hash": "125b75be5c9d3107346d88dbc462fa0aea489469ba6d5511bddacec895a8c3cc",
+      "receipt_id": "f228db1b660e45d1a932f1f2159c2c62",
+      "request_hash": "21d11e35f853357c25e7ef860620ff1d26213e18900bb69f20b331f0deae40c9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet definition describes “Psychiatry in its legal aspects” (criminology, penology, commitment, compensation, information to court, expert testimony), which is not a sense of “diagnosis.”",
+        "Although the definition’s specific topics are supported by the packet, the requested field/usage (“diagnosis”) is not defensible for this term based on the packet."
+      ],
+      "definition_hash": "7169a23a0bc09382a38a17e818db503c225ae3aa8a25e377b9ee915ff4ab3a5b",
+      "packet_hash": "125b75be5c9d3107346d88dbc462fa0aea489469ba6d5511bddacec895a8c3cc",
+      "published_packet_hash": "125b75be5c9d3107346d88dbc462fa0aea489469ba6d5511bddacec895a8c3cc",
+      "receipt_id": "bbd4defe429f4542a7c33af13b2661c3",
+      "request_hash": "e30deb88ceb59812e4ffb3dc6ff5f527b0ae23b5e86e42ebb94fd57b697ada6a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "5072c2a8ffef5b76bcd45250a2668eb0d1e303f6fd2c3408cdc64b2e83d91659",
     "packet_hash": "192543a5f988f0f5184409834d251d91ae506e29fadbefcf23f493b6bbae417b"
   },
-  "hash": "21cd6443ecea3785a292cafb4867911392ea4869fa3587eb73e57fdf2d30beb6"
+  "hash": "21cd6443ecea3785a292cafb4867911392ea4869fa3587eb73e57fdf2d30beb6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the concept hyperacusis, not the standalone term/sense ‘loudness’; this is a mismatch between the requested term and the supplied source label.",
+        "The definition should not be treated as supported for ‘loudness’ when the packet’s scope is a descriptor record for hyperacusis rather than a definition of loudness itself."
+      ],
+      "definition_hash": "5072c2a8ffef5b76bcd45250a2668eb0d1e303f6fd2c3408cdc64b2e83d91659",
+      "packet_hash": "192543a5f988f0f5184409834d251d91ae506e29fadbefcf23f493b6bbae417b",
+      "published_packet_hash": "192543a5f988f0f5184409834d251d91ae506e29fadbefcf23f493b6bbae417b",
+      "receipt_id": "9e8b4c8a7a054e7499d58959ae63453a",
+      "request_hash": "0f43498cd9307dbc77cd8906cacd8ab5d9dab222e1226766870fb7ad0e36d2c3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5072c2a8ffef5b76bcd45250a2668eb0d1e303f6fd2c3408cdc64b2e83d91659",
+      "packet_hash": "192543a5f988f0f5184409834d251d91ae506e29fadbefcf23f493b6bbae417b",
+      "published_packet_hash": "192543a5f988f0f5184409834d251d91ae506e29fadbefcf23f493b6bbae417b",
+      "receipt_id": "2e63ea73fb84473eb36441ada1365f31",
+      "request_hash": "113ef2555644c5221f072d5d356f41d370b6bedcbb16376b4c87e796ecfa7f2f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

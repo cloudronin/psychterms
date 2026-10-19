@@ -27,5 +27,34 @@
     "definition_hash": "0fbc07ebe1aa34f026411fc6605ce478bdea85738f37fdc1e18e78f1c247b037",
     "packet_hash": "101dd527153770b3835ee87a6dde9eb572325aca99dc583e30a857ed6793a180"
   },
-  "hash": "10036db3d831cbf97a85af78e8da0e13ef0edca10b4504db9816bfa5f24670ea"
+  "hash": "10036db3d831cbf97a85af78e8da0e13ef0edca10b4504db9816bfa5f24670ea",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0fbc07ebe1aa34f026411fc6605ce478bdea85738f37fdc1e18e78f1c247b037",
+      "packet_hash": "101dd527153770b3835ee87a6dde9eb572325aca99dc583e30a857ed6793a180",
+      "published_packet_hash": "101dd527153770b3835ee87a6dde9eb572325aca99dc583e30a857ed6793a180",
+      "receipt_id": "a32c56b87c35429f8e174bfc525ef6df",
+      "request_hash": "bf41f46afb32622c729dc006faf0c2a15a6db4789febcb4ab685848daa654192",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition contains four sentences (exceeds the required one to three concise sentences).",
+        "The provided definition is not sufficiently constrained to the packet’s wording/structure as a concise definition; while most content aligns, the multi-sentence length alone is enough to fail the format requirement."
+      ],
+      "definition_hash": "0fbc07ebe1aa34f026411fc6605ce478bdea85738f37fdc1e18e78f1c247b037",
+      "packet_hash": "101dd527153770b3835ee87a6dde9eb572325aca99dc583e30a857ed6793a180",
+      "published_packet_hash": "101dd527153770b3835ee87a6dde9eb572325aca99dc583e30a857ed6793a180",
+      "receipt_id": "8337a627c1f54cae8a0935329a141b7c",
+      "request_hash": "7e7be6096d1d4a9db2529388e4739581e2d4793793022b17539a722f2b215476",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

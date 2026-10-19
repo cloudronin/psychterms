@@ -27,5 +27,36 @@
     "definition_hash": "62bd0e1aaa25eeb82fb1de9c2e57332299863d9dbeeaac7921ff3b2e647cd0e6",
     "packet_hash": "c264c1fb880c65409c41e05227ad809e6af0754ef2f8bc82fe19f4e8eb1e57ee"
   },
-  "hash": "7365b80eb38130ee1c4daeaff6486dbc54c5afcf8c3e041c8f620a878a186ef9"
+  "hash": "7365b80eb38130ee1c4daeaff6486dbc54c5afcf8c3e041c8f620a878a186ef9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports abnormal sensitivity to light/photophobia, but it does not support the broad category “neurological conditions”; it only lists eye diseases, migraine, subarachnoid hemorrhage, meningitis, and other disorders.",
+        "“Can appear with eye and neurological conditions” is broader than the source text and adds an unsupported clinical grouping."
+      ],
+      "definition_hash": "62bd0e1aaa25eeb82fb1de9c2e57332299863d9dbeeaac7921ff3b2e647cd0e6",
+      "packet_hash": "c264c1fb880c65409c41e05227ad809e6af0754ef2f8bc82fe19f4e8eb1e57ee",
+      "published_packet_hash": "c264c1fb880c65409c41e05227ad809e6af0754ef2f8bc82fe19f4e8eb1e57ee",
+      "receipt_id": "ac697ec3068046cfb1751b2babe3f85f",
+      "request_hash": "eb785459a2488a2a1673a8d599895e3bf62db747fc33dad8c136fb343ab71ec5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that light sensitivity “can appear with … neurological conditions such as migraine and meningitis,” but the packet does not characterize migraine or meningitis as “neurological” conditions; it only lists them among disorders associated with photophobia."
+      ],
+      "definition_hash": "62bd0e1aaa25eeb82fb1de9c2e57332299863d9dbeeaac7921ff3b2e647cd0e6",
+      "packet_hash": "c264c1fb880c65409c41e05227ad809e6af0754ef2f8bc82fe19f4e8eb1e57ee",
+      "published_packet_hash": "c264c1fb880c65409c41e05227ad809e6af0754ef2f8bc82fe19f4e8eb1e57ee",
+      "receipt_id": "4d1cc919878747579422fdbcc3aab7a5",
+      "request_hash": "5ecafc36dffb1555d59f313da47d3c4a011ef9ea1ef390adda4ce1961706ed7d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

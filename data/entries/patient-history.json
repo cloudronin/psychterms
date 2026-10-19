@@ -27,5 +27,37 @@
     "definition_hash": "4b1186688ee817f487b7b5b0e65e82e28465a7e34feab9ebe2e533ff5c91032f",
     "packet_hash": "b52e00b44f53630fd77c2ed315f9e62b1bcb37a2c538e8f732fe7344b0c57c44"
   },
-  "hash": "927313bbffb52d9140b5a6fa96dc7e1d9f45dc56a6b2d1708fdcba02b3c307a3"
+  "hash": "927313bbffb52d9140b5a6fa96dc7e1d9f45dc56a6b2d1708fdcba02b3c307a3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the first part is a patient history completed by the patient and that the second part is a physical exam completed by a health professional.",
+        "However, the claim that it \"gathers symptom information\" is not stated in the packet and is an unsupported addition."
+      ],
+      "definition_hash": "4b1186688ee817f487b7b5b0e65e82e28465a7e34feab9ebe2e533ff5c91032f",
+      "packet_hash": "b52e00b44f53630fd77c2ed315f9e62b1bcb37a2c538e8f732fe7344b0c57c44",
+      "published_packet_hash": "b52e00b44f53630fd77c2ed315f9e62b1bcb37a2c538e8f732fe7344b0c57c44",
+      "receipt_id": "6fb3860af9d3408bb4fbd51c9045c7b6",
+      "request_hash": "410b7a32aceaace7a6a0e59211b3c119807e55e1edcda9665996874916a7c5b3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that the instrument has two parts (patient history completed by the patient, and a physical exam completed by a health professional), but it does not explicitly say that the patient history “gathers symptom information.”",
+        "Because “gathers symptom information” is not directly supported by the provided packet text, the definition includes an unsupported substantive claim."
+      ],
+      "definition_hash": "4b1186688ee817f487b7b5b0e65e82e28465a7e34feab9ebe2e533ff5c91032f",
+      "packet_hash": "b52e00b44f53630fd77c2ed315f9e62b1bcb37a2c538e8f732fe7344b0c57c44",
+      "published_packet_hash": "b52e00b44f53630fd77c2ed315f9e62b1bcb37a2c538e8f732fe7344b0c57c44",
+      "receipt_id": "f4c9254646694b57b4222a67d5044725",
+      "request_hash": "4e5083365ee93ae676e9a466dc8ebf32cfc84fe3d40414482a00c2b5bf18a1aa",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,36 @@
     "definition_hash": "36eea1ba9a4d4133ec7e5480b00b6076a50eaa88438477715f2cdadfe2e10708",
     "packet_hash": "20593e1d679ba068caa11e7e046efdbc266123fb633ad31a59aa67190cf51c15"
   },
-  "hash": "91a5be6c28a229eb892053ff2ff5e4219d954d0af4c19c82cae29ae6c85b2793"
+  "hash": "91a5be6c28a229eb892053ff2ff5e4219d954d0af4c19c82cae29ae6c85b2793",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds ‘verbal error,’ which is not stated in the source; the packet only supports ‘a source of verbal fallacy.’"
+      ],
+      "definition_hash": "36eea1ba9a4d4133ec7e5480b00b6076a50eaa88438477715f2cdadfe2e10708",
+      "packet_hash": "20593e1d679ba068caa11e7e046efdbc266123fb633ad31a59aa67190cf51c15",
+      "published_packet_hash": "20593e1d679ba068caa11e7e046efdbc266123fb633ad31a59aa67190cf51c15",
+      "receipt_id": "60acecb7a10f44629ffb5ae9684aa06b",
+      "request_hash": "92c93b1d5c24276fe46aabccd775be12fedae150db6d1ae1c4bf14c381f537e0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition states “A source of verbal fallacy,” but the provided definition adds “verbal error” (not supported by the packet).",
+        "Aside from that addition, the remaining claims (historical multiple senses and context-dependent meaning) are consistent with the packet."
+      ],
+      "definition_hash": "36eea1ba9a4d4133ec7e5480b00b6076a50eaa88438477715f2cdadfe2e10708",
+      "packet_hash": "20593e1d679ba068caa11e7e046efdbc266123fb633ad31a59aa67190cf51c15",
+      "published_packet_hash": "20593e1d679ba068caa11e7e046efdbc266123fb633ad31a59aa67190cf51c15",
+      "receipt_id": "18e97700454840dc8267b28f46813682",
+      "request_hash": "94bfd31105a77832f7b4c36554d19fab0fca8d2d0d1cd8143ff8cac82475eb49",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

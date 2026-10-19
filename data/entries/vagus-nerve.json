@@ -27,5 +27,35 @@
     "definition_hash": "6be64a6341a123fea04e8e95eca290ef0a3e8499f282ef7521b656d44b72c516",
     "packet_hash": "e07e7baf3764e3ca000ca53484209b8a8e4947047247ba0a90c37e3a45484f5e"
   },
-  "hash": "8485d8916ab0ce8a4de206bee4e32fb56091e4a0c5b63969b67f195ecd46e341"
+  "hash": "8485d8916ab0ce8a4de206bee4e32fb56091e4a0c5b63969b67f195ecd46e341",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6be64a6341a123fea04e8e95eca290ef0a3e8499f282ef7521b656d44b72c516",
+      "packet_hash": "e07e7baf3764e3ca000ca53484209b8a8e4947047247ba0a90c37e3a45484f5e",
+      "published_packet_hash": "e07e7baf3764e3ca000ca53484209b8a8e4947047247ba0a90c37e3a45484f5e",
+      "receipt_id": "2b8a365c550047e086ade72deb2a2c49",
+      "request_hash": "0304e97f0e027878308ecba09d5aec9e6f7f3c6adc5fb1f2e321a8a588b4a004",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that parasympathetic signals are sent to structures in the throat, but the packet only specifies parasympathetic efferents to the thorax and abdomen (not the throat).",
+        "The definition refers to “voluntary motor signals,” but the packet describes efferents to striated muscle (of the larynx and pharynx) without characterizing them as “voluntary.”",
+        "The definition describes sensory input as from “part of the outer ear,” while the packet specifies somatic afferents from skin in back of the ear and the external auditory meatus (more specific than “part of the outer ear”)."
+      ],
+      "definition_hash": "6be64a6341a123fea04e8e95eca290ef0a3e8499f282ef7521b656d44b72c516",
+      "packet_hash": "e07e7baf3764e3ca000ca53484209b8a8e4947047247ba0a90c37e3a45484f5e",
+      "published_packet_hash": "e07e7baf3764e3ca000ca53484209b8a8e4947047247ba0a90c37e3a45484f5e",
+      "receipt_id": "1ee64a498b5d429c9661917a42990eb6",
+      "request_hash": "87e5a528a71c742bce570194e64de77ee8128ed2ef2fb415545595fb88efb58c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

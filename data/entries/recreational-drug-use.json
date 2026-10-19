@@ -31,5 +31,22 @@
     "published_packet_hash": "1365b31e26af75157ae9b0bb3a82a55821eede7fb3e6e236bcd0cc87d4eafd31"
   },
   "editorial_status": "human_review_pending",
-  "hash": "82ef99d1523756b8fa5b991914d4f458e564977a72c76ff33a16480418b8cd4b"
+  "hash": "82ef99d1523756b8fa5b991914d4f458e564977a72c76ff33a16480418b8cd4b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes phrasing not directly supported by the packet: it adds “non-medical” (and explicitly “intermittent”) whereas the packet text only specifies “Occasional or habitual non-prescribed, not health-related use of substances.”",
+        "The packet uses “occasional or habitual,” but the definition shifts this to “occasional or regular” and introduces “intermittent” and “habitual non-medical use” as separate coverage; the packet does not support that additional breakdown or terminology."
+      ],
+      "definition_hash": "f97742733aba99db13a6dad4f99c7059cb2a9166b3b6bbe2e61804ddfd775ee5",
+      "packet_hash": "078c67269ae843c76f4afaa4e8373bea465d4c50c992bdf45c5157e216f2e2e6",
+      "published_packet_hash": "1365b31e26af75157ae9b0bb3a82a55821eede7fb3e6e236bcd0cc87d4eafd31",
+      "receipt_id": "0d7c900fee164b33aa172431cc708054",
+      "request_hash": "8c57ef9cfeb57130788ca873e99d6a7aaa94440da9dbf315b12703b34b3be503",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "398849f982d9793d596aa47ddbd4bfc82783ef938a6de29e8509a76de0176fee",
     "packet_hash": "7e8e301012c9dddd74c61fb8fdfa2198eb6dbfb39a2a95f43e408807dc0a5d40"
   },
-  "hash": "a2a5234cb7df849390e3f9ef0933155be2336c1dd35d2ab038d3f203b2546cfc"
+  "hash": "a2a5234cb7df849390e3f9ef0933155be2336c1dd35d2ab038d3f203b2546cfc",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "398849f982d9793d596aa47ddbd4bfc82783ef938a6de29e8509a76de0176fee",
+      "packet_hash": "7e8e301012c9dddd74c61fb8fdfa2198eb6dbfb39a2a95f43e408807dc0a5d40",
+      "published_packet_hash": "7e8e301012c9dddd74c61fb8fdfa2198eb6dbfb39a2a95f43e408807dc0a5d40",
+      "receipt_id": "14bf546121f7482a8001466db7ce1708",
+      "request_hash": "4a1bf5693eceffaf96fd0bba319adb32db8a752e03486429808ffb52931e0163",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field (“cognition”) is not supported by the packet, which defines “accent” in terms of phonology and written language marks (a linguistic description), not cognitive processes."
+      ],
+      "definition_hash": "398849f982d9793d596aa47ddbd4bfc82783ef938a6de29e8509a76de0176fee",
+      "packet_hash": "7e8e301012c9dddd74c61fb8fdfa2198eb6dbfb39a2a95f43e408807dc0a5d40",
+      "published_packet_hash": "7e8e301012c9dddd74c61fb8fdfa2198eb6dbfb39a2a95f43e408807dc0a5d40",
+      "receipt_id": "c6edd9912c834475bb4eeaca2f14e682",
+      "request_hash": "58997784646f931c2e5e7cec99e68736db58790181cfa386f49eaaf85553d0d8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

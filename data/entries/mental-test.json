@@ -27,5 +27,35 @@
     "definition_hash": "df54cdd64bbd7479c9b69e1d7277ef6bc840429f5a10cdc87a427fe723fa51c7",
     "packet_hash": "d130cfd9e59b3e84da62960a1f0fbf5cd264e156528a68491388bdb9ab7c7564"
   },
-  "hash": "abb7b814dbb01ee419ddf04b10dcc6082f3d5fe952132a865546fc0b8dea5c36"
+  "hash": "abb7b814dbb01ee419ddf04b10dcc6082f3d5fe952132a865546fc0b8dea5c36",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "df54cdd64bbd7479c9b69e1d7277ef6bc840429f5a10cdc87a427fe723fa51c7",
+      "packet_hash": "d130cfd9e59b3e84da62960a1f0fbf5cd264e156528a68491388bdb9ab7c7564",
+      "published_packet_hash": "d130cfd9e59b3e84da62960a1f0fbf5cd264e156528a68491388bdb9ab7c7564",
+      "receipt_id": "4ccc6238c7dd466e80f583f83a58801d",
+      "request_hash": "e231e37daecdcf3b92bf28782813cb90bda21b91e7ae0bd7d7a6237e2e2793c6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“an organized procedure… for examining… by giving a person a task and observing or measuring the result”) is not fully supported in the supplied packet text; while recording errors/accuracy is described, the packet does not clearly state this full general definition in so many words.",
+        "The definition claims the historical usage covered “memory, judgment, and interest.” The packet passage explicitly discusses interest (and also includes an aesthetic judgment section), but memory is only referenced indirectly via “Cf. MEMORY (experiments on)” and is not clearly demonstrated as part of the enumerated coverage within this excerpt.",
+        "“Judgment” in the definition is broader than what the packet shows here: the packet explicitly provides “aesthetic judgment,” but does not clearly support “judgment” in a general sense as part of the same enumerated list."
+      ],
+      "definition_hash": "df54cdd64bbd7479c9b69e1d7277ef6bc840429f5a10cdc87a427fe723fa51c7",
+      "packet_hash": "d130cfd9e59b3e84da62960a1f0fbf5cd264e156528a68491388bdb9ab7c7564",
+      "published_packet_hash": "d130cfd9e59b3e84da62960a1f0fbf5cd264e156528a68491388bdb9ab7c7564",
+      "receipt_id": "6c314785d1684ab5b71811efd7657d4f",
+      "request_hash": "97f3437080266520cc4126222a84eaf2d0a0d93068b549fd506826c32bdbd369",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

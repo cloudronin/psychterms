@@ -27,5 +27,34 @@
     "definition_hash": "025c3667f95fb6c5ebd171ff973d4c0e97b43705b8cf087f283f0e48612d5710",
     "packet_hash": "be710b17275c3758a0bce7af1ddc05f4edb129da2cc709dc613b5514dfd6ec88"
   },
-  "hash": "ede4634a4808d0788d4a09d3fa9c0befd389b9f7d3c48643799ee4df33bf97bb"
+  "hash": "ede4634a4808d0788d4a09d3fa9c0befd389b9f7d3c48643799ee4df33bf97bb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "025c3667f95fb6c5ebd171ff973d4c0e97b43705b8cf087f283f0e48612d5710",
+      "packet_hash": "be710b17275c3758a0bce7af1ddc05f4edb129da2cc709dc613b5514dfd6ec88",
+      "published_packet_hash": "be710b17275c3758a0bce7af1ddc05f4edb129da2cc709dc613b5514dfd6ec88",
+      "receipt_id": "48feea3d2b994209a0cc01e664930b21",
+      "request_hash": "80fea342c615e358ec1c9ae517c7dc6a4281d983b2cc50fe9b07c64d0945cfa3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet specifies a DSM-5-based criterion for depressive disorder: “five (or more) of the following symptoms” present during the same 2-week period, with at least one symptom being depressed mood or loss of interest/pleasure. The definition omits this “five (or more)” requirement, making part of the diagnostic criteria unsupported/insufficiently specified.",
+        "The packet’s descriptor is explicitly labeled “Depressive Disorder, Major” (DSM-5) while the definition uses the broader term “clinical depression” without tying it to “major” as in the packet, leaving the requested sense under-supported by the supplied source."
+      ],
+      "definition_hash": "025c3667f95fb6c5ebd171ff973d4c0e97b43705b8cf087f283f0e48612d5710",
+      "packet_hash": "be710b17275c3758a0bce7af1ddc05f4edb129da2cc709dc613b5514dfd6ec88",
+      "published_packet_hash": "be710b17275c3758a0bce7af1ddc05f4edb129da2cc709dc613b5514dfd6ec88",
+      "receipt_id": "ad0c38c53dda47ec9e39c9f89d5e765e",
+      "request_hash": "aaf525410ab00f82f621cfe3eebbd602f204f2bcf01d6af263b52c4ad02d7b95",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

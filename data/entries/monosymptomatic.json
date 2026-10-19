@@ -27,5 +27,33 @@
     "definition_hash": "bf0afdb03581598ad2a288272a4aeb1b13abaf2147e18d7f6655e2a0bde5744d",
     "packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351"
   },
-  "hash": "1f16ddd53dac9089433d9ff227e46293c6897ad959e5d91c4ad3f0198593cc6e"
+  "hash": "1f16ddd53dac9089433d9ff227e46293c6897ad959e5d91c4ad3f0198593cc6e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bf0afdb03581598ad2a288272a4aeb1b13abaf2147e18d7f6655e2a0bde5744d",
+      "packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351",
+      "published_packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351",
+      "receipt_id": "0e7d1da48aa74d718c54eb42cf7c059f",
+      "request_hash": "2adb8132c3884f66d6ec458175033e1a33360532328cb960992781c255183dc8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that “monosymptomatic” means “only a single main feature”; it only says the syndrome is characterized by “one or more” features and that “Cheilitis granulomatosa is a monosymptomatic variant,” without directly defining monosymptomatic as “single main feature rather than the broader pattern.”"
+      ],
+      "definition_hash": "bf0afdb03581598ad2a288272a4aeb1b13abaf2147e18d7f6655e2a0bde5744d",
+      "packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351",
+      "published_packet_hash": "aaf16cd23d5bb90b57b2aa0e90046ba68afeaa16aa88168b73b144b25e507351",
+      "receipt_id": "139c7fb39ebd40fa9e2b614bf74d1781",
+      "request_hash": "5b92355cf139c9de012ec9e5b06c095cdd20677555a0552245b968d0f41186f8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

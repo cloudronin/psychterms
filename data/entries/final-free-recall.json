@@ -27,5 +27,35 @@
     "definition_hash": "827a19b812a57b5bfb1fc6c8cca8a242c83261d45876f7b37d7da4dbea6b87e6",
     "packet_hash": "8c8f6ab0a52ab69245aa25d64a634f8b9aa823f0e9667e8c1405b209af62016b"
   },
-  "hash": "0cdbd7245159718abc7aceefcce5aaa6db9641676b8d1c38c0259cfac5899be9"
+  "hash": "0cdbd7245159718abc7aceefcce5aaa6db9641676b8d1c38c0259cfac5899be9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "827a19b812a57b5bfb1fc6c8cca8a242c83261d45876f7b37d7da4dbea6b87e6",
+      "packet_hash": "8c8f6ab0a52ab69245aa25d64a634f8b9aa823f0e9667e8c1405b209af62016b",
+      "published_packet_hash": "8c8f6ab0a52ab69245aa25d64a634f8b9aa823f0e9667e8c1405b209af62016b",
+      "receipt_id": "360380483d604757b9116822b3a33878",
+      "request_hash": "0adc70a804c4aaba021ea431e0c4f5e9d5c5566476a1f2f55e0698fd30bd2a94",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that it is “The final free recall task from List A of the California Verbal Learning Test for Children.”",
+        "Your definition adds the claim that it is “the end-of-list recall task,” which is not supported by the packet text.",
+        "Your definition adds the claim that “the child is asked to remember the items freely,” which is not supported by the packet text (the packet does not mention end-of-list timing or child instructions)."
+      ],
+      "definition_hash": "827a19b812a57b5bfb1fc6c8cca8a242c83261d45876f7b37d7da4dbea6b87e6",
+      "packet_hash": "8c8f6ab0a52ab69245aa25d64a634f8b9aa823f0e9667e8c1405b209af62016b",
+      "published_packet_hash": "8c8f6ab0a52ab69245aa25d64a634f8b9aa823f0e9667e8c1405b209af62016b",
+      "receipt_id": "cc1bc2ae32314ed2a3f5182f70d773cd",
+      "request_hash": "186b24f4518f369f895ffe1af0470051fe2869fc2997f83b90c518c82972f323",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

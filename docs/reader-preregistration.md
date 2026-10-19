@@ -1,6 +1,6 @@
-# Independent reader line: proposed, no paid authorization
+# Independent reader line: approved and frozen
 
-This line is separate from the approved $100 drafting-only line. Its proposed hard cap is **$25**, including both reader models, transport/schema retries and uncertain calls. The authorized cap is unset and dispatch is disabled. The old $150 figure was withdrawn in spec v0.2 section 5. A new explicit cap approval is needed before freezing this line or sending any paid reader request.
+This line is separate from the approved $100 drafting-only line. Its approved hard cap is **$25**, including both reader models, transport/schema retries and uncertain calls. Vishnu approved this separate cap on 18 October 2026 with “Approve $25 reader cap”. Dispatch is enabled for this frozen line. The old $150 figure was withdrawn in spec v0.2 section 5. The approval covers the fixed reader jobs and retries described below.
 
 Two fixed models independently read each definition against exactly its pinned source packet: `gpt-5.4-mini-2026-03-17` and `gpt-5.4-nano-2026-03-17`. Neither receives the other reader's result. Neither can read its own draft. The existing 198 mini reader passes remain bound to their exact definitions and packets and are not bought again; those entries need only the other reader. A model's refusal or malformed/unfinished response is not a semantic verdict and never counts as a pass.
 
@@ -15,12 +15,18 @@ Standard text prices verified from the [OpenAI mini model page](https://develope
 | GPT-5.4 mini, 2026-03-17 | $0.75 | $0.075 | $4.50 |
 | GPT-5.4 nano, 2026-03-17 | $0.20 | $0.02 | $1.25 |
 
-Both fixed IDs were present in this account's read-only model inventory on 18 October. Nano is marked deprecated in the documentation but currently available; an unavailable model stops execution rather than causing a silent substitution. These checks establish availability and prices, not reader accuracy. The first reviewed sample will report disagreement and refusal rates separately from pass rates.
+Both fixed IDs were present in this account's read-only model inventory on 18 October. Nano is marked deprecated in the documentation but currently available; an unavailable model stops execution rather than causing a silent substitution. These checks establish availability and prices, not reader accuracy. The first 400 calls yielded 326 passes and 74 rejections, with 34 disagreements among 197 pairs whose two new calls were in that batch. Reconciled cost was $0.329903; $0.012579 remained reserved for uncertain attempts. No item lacked a valid verdict after the allowed retries. Final whole-corpus outcomes and receipt-derived costs are recorded in `reports/independent-readers.json`; disagreement and explicit provider refusal counts are separate from pass counts.
 
 The prepared job set, model IDs, prompts, structured schema, executor and dependencies are hashed before execution. Registration amendments retain prior receipts and the same reader ledger. Each request reserves its serialized UTF-8 byte count plus 512 input tokens at uncached prices and its full 1,000-token completion allowance. One transport/schema retry is allowed across resumes and reserved separately. Unknown charges retain their whole reservation. Successful receipts reconcile actual input, cached input and output usage. The reader ledger is separate from drafting and pilot ledgers and must never be reset to get around a cap.
 
-The private proposal is `.private/reader-reviews/preregistration.json`, with a pinned `jobs.json`. Preparation and dry runs cost zero. `scripts/run_reader_reviews.py --execute` refuses to run until the frozen manifest records the approved cap and human authorization and the public release policy enables precisely that reader cap. Before each paid call the current authorization must still match. No reader key is supplied to GitHub Actions.
+The private frozen registration is `.private/reader-reviews/preregistration.json`, with a pinned `jobs.json`. Preparation and dry runs cost zero. `scripts/run_reader_reviews.py --execute` refuses to run until the frozen manifest records the approved cap and human authorization and the public release policy enables precisely that reader cap. Before each paid call the current authorization must still match. No reader key is supplied to GitHub Actions.
 
 ## Prepared corpus
 
-Proposal SHA-256: `d7eec83352476cea8c30aff73ffafc8af913adf8eb58f62d8282412e8169697e`. The frozen proposal contains 9854 reader calls for 5,026 active entries; the 198 existing mini passes are reused. The illustrative uncached estimate is **$7.15**, using the stated token assumption and prior pilot output rate. The proposed $25 cap includes retry headroom and remains unapproved. No paid call is authorized by this document.
+Approved registration SHA-256: `7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8`. The frozen job set contains 9,854 reader calls for 5,026 active entries; the 198 existing mini passes are reused. The illustrative uncached estimate is **$7.15**. The approved **$25 hard cap** includes retries and unresolved reservations. Job-set SHA-256: `4625ebe7d587b9a28e7a326512b3540d6640165fd74ebcb72b402af2f6de2b1c`.
+
+## Completed run
+
+All 9,854 new reader calls returned valid verdicts, completing pairs for all 5,026 registered entries. There were 3,875 pairs with two passes, 846 disagreements and 305 pairs with two rejections. Together with the 24 prior scope drops, the build reports 3,875 judged, 846 reviewed, 329 dropped and zero candidates. No numbered release is marked.
+
+Receipt-backed cost is **$8.036780**, including retries, with **$0.229910** retained for 46 uncertain transport attempts. No explicit provider refusals or unfinished responses occurred. The new reader cost per registered entry is **$0.001599**, excluding the 198 reused pilot passes. Model-specific costs and token usage are in the aggregate receipt report. No definitions were rewritten on this line.

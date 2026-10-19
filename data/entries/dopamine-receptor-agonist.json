@@ -27,5 +27,34 @@
     "definition_hash": "d26ba14a8c1cf073d380fe141b51eef1a93cf052b0c68148c018c29586fd0f0f",
     "packet_hash": "bcb0023d886ac542ce6f161431fdf004f26cae17852cd3f2bc60f6677dbcf5d9"
   },
-  "hash": "bc30236acb4be12527763d7457c56f88365f4f4eeb06648939453e9490fb47f5"
+  "hash": "bc30236acb4be12527763d7457c56f88365f4f4eeb06648939453e9490fb47f5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d26ba14a8c1cf073d380fe141b51eef1a93cf052b0c68148c018c29586fd0f0f",
+      "packet_hash": "bcb0023d886ac542ce6f161431fdf004f26cae17852cd3f2bc60f6677dbcf5d9",
+      "published_packet_hash": "bcb0023d886ac542ce6f161431fdf004f26cae17852cd3f2bc60f6677dbcf5d9",
+      "receipt_id": "296a047bb42d4886a98a109f927b6321",
+      "request_hash": "1512bb029a2b03c10451e20af05ba751c1c12ef0c2ec510f3942b87984771620",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition states “Drugs that bind to and activate dopamine receptors,” which is fully consistent with “binds/attaches” and “activates/turns on.”",
+        "However, the definition adds the claim that this “produces dopamine-like activity,” which is not supported anywhere in the provided packet text."
+      ],
+      "definition_hash": "d26ba14a8c1cf073d380fe141b51eef1a93cf052b0c68148c018c29586fd0f0f",
+      "packet_hash": "bcb0023d886ac542ce6f161431fdf004f26cae17852cd3f2bc60f6677dbcf5d9",
+      "published_packet_hash": "bcb0023d886ac542ce6f161431fdf004f26cae17852cd3f2bc60f6677dbcf5d9",
+      "receipt_id": "57613074c0134e849a03c697b820bfb7",
+      "request_hash": "eeed8f4228236c0176513c890c823bdc91dfe5dd1d4376c9f80b90272d5081ce",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

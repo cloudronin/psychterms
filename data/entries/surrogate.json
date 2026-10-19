@@ -27,5 +27,37 @@
     "definition_hash": "c0b9503d5f60a6f735f797349edf1b2b41a61c621451e14774aa8a0aa04222b2",
     "packet_hash": "d87bce033e99e0ebc0ac5da3ef43f1581871ec997fd37aa85ce1ea423c127662"
   },
-  "hash": "acc750c9d3be6c4f6435e51b9723afe7e79c3b98c40f62ae1fec4b6cfa9dd745"
+  "hash": "acc750c9d3be6c4f6435e51b9723afe7e79c3b98c40f62ae1fec4b6cfa9dd745",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source record is for gestational carriers (MeSH), not cognition.",
+        "The definition adds “intended parents” and “surrogacy” wording not present in the source, though the underlying sense is close."
+      ],
+      "definition_hash": "c0b9503d5f60a6f735f797349edf1b2b41a61c621451e14774aa8a0aa04222b2",
+      "packet_hash": "d87bce033e99e0ebc0ac5da3ef43f1581871ec997fd37aa85ce1ea423c127662",
+      "published_packet_hash": "d87bce033e99e0ebc0ac5da3ef43f1581871ec997fd37aa85ce1ea423c127662",
+      "receipt_id": "864de41b8ab4415489ffd89813933831",
+      "request_hash": "c91e397dadfa3dd0d6239e37b22b5ca2bd5263d7bf3049b28a9c270ef397d2c0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is \"cognition,\" but the packet describes “Gestational Carriers” (female carriers/impregnation with offspring to be given to commissioned parents), which is not a cognitive construct based on the supplied source text.",
+        "The definition’s wording broadly matches the packet, but due to the field mismatch (“cognition” vs gestational carrier concept), the definition is not defensibly aligned with the requested field."
+      ],
+      "definition_hash": "c0b9503d5f60a6f735f797349edf1b2b41a61c621451e14774aa8a0aa04222b2",
+      "packet_hash": "d87bce033e99e0ebc0ac5da3ef43f1581871ec997fd37aa85ce1ea423c127662",
+      "published_packet_hash": "d87bce033e99e0ebc0ac5da3ef43f1581871ec997fd37aa85ce1ea423c127662",
+      "receipt_id": "c119944d3e61415da1460cb9f2c8607e",
+      "request_hash": "ef7f0beb1a7a92ad8b30589fb95cb83b883842c3789d7f3fd627fe426f34cffd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

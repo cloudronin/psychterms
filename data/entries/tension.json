@@ -27,5 +27,36 @@
     "definition_hash": "db003ad51edb7e8ad7acb9d5bb5551d09c528d0a37b756ac51e555fbb8758f26",
     "packet_hash": "b7fbda9b4dd633c2a0caffa48ad827494fb8bbffac22276fd46e34e29c184ffa"
   },
-  "hash": "a28dabe4adcb1e594ca666cd488b583b61a7e01a40bf003c0cc0883f4b7353cd"
+  "hash": "a28dabe4adcb1e594ca666cd488b583b61a7e01a40bf003c0cc0883f4b7353cd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds “pressure,” which is not supported by the source packet.",
+        "Recasts the source’s “feeling” as a “state” without support from the packet."
+      ],
+      "definition_hash": "db003ad51edb7e8ad7acb9d5bb5551d09c528d0a37b756ac51e555fbb8758f26",
+      "packet_hash": "b7fbda9b4dd633c2a0caffa48ad827494fb8bbffac22276fd46e34e29c184ffa",
+      "published_packet_hash": "b7fbda9b4dd633c2a0caffa48ad827494fb8bbffac22276fd46e34e29c184ffa",
+      "receipt_id": "6bc34a49bd6047edb4851106892f5235",
+      "request_hash": "b999e55f6e372cb203ae4deb41f7ecb14de483020d832166550156a789faa0a3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text supports “mental or emotional strain or suspense,” but it does not mention “pressure,” which is added in the definition."
+      ],
+      "definition_hash": "db003ad51edb7e8ad7acb9d5bb5551d09c528d0a37b756ac51e555fbb8758f26",
+      "packet_hash": "b7fbda9b4dd633c2a0caffa48ad827494fb8bbffac22276fd46e34e29c184ffa",
+      "published_packet_hash": "b7fbda9b4dd633c2a0caffa48ad827494fb8bbffac22276fd46e34e29c184ffa",
+      "receipt_id": "f61ad0a6a30040ee84e4b5e40c171ca4",
+      "request_hash": "24b20220a2ae53e4826fc70a7931dd4e717d0914d123d1a5db2b49c373762b16",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

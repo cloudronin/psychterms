@@ -27,5 +27,34 @@
     "definition_hash": "8813336f7b0397c067bbd960ba16607ac870d452a971be53e329f49dd87613dc",
     "packet_hash": "0c5cb194e5f7c3d7567affe52e93db73f852464baab6d21b075ec48dba084efb"
   },
-  "hash": "9f94b5aecf7b7631b559ec37aab7e98f1b6ad1006c3bd4bb39e43229e20c2cf1"
+  "hash": "9f94b5aecf7b7631b559ec37aab7e98f1b6ad1006c3bd4bb39e43229e20c2cf1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8813336f7b0397c067bbd960ba16607ac870d452a971be53e329f49dd87613dc",
+      "packet_hash": "0c5cb194e5f7c3d7567affe52e93db73f852464baab6d21b075ec48dba084efb",
+      "published_packet_hash": "0c5cb194e5f7c3d7567affe52e93db73f852464baab6d21b075ec48dba084efb",
+      "receipt_id": "089d279cfaaf4c31a3ab52b0f7cde81a",
+      "request_hash": "430087b31e2dd908fa5a76c5bda61a76b1e115b5e14913642425431bbb10b0f0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase \"linking features of the message to the internal state of the person communicating\" is not supported by the packet; the source instead says decoding relates states of messages to states of communicators and concerns how individuals select and interpret messages.",
+        "The definition adds an explanatory account of decoding as a process of \"interpreting a message\" in a way that goes beyond the packet’s wording and slightly narrows the source’s broader psycholinguistic scope."
+      ],
+      "definition_hash": "8813336f7b0397c067bbd960ba16607ac870d452a971be53e329f49dd87613dc",
+      "packet_hash": "0c5cb194e5f7c3d7567affe52e93db73f852464baab6d21b075ec48dba084efb",
+      "published_packet_hash": "0c5cb194e5f7c3d7567affe52e93db73f852464baab6d21b075ec48dba084efb",
+      "receipt_id": "193d26ff5ded404db226aaade0fd887e",
+      "request_hash": "bf6d7a7e2fc717c63e0b061b63803efa26e672585b37da2e27370d83d7fd982d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

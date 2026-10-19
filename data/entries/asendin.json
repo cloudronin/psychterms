@@ -27,5 +27,37 @@
     "definition_hash": "9d3fa541053cf9961b813f826ec24154b150bc1981add3530d16e7c3adf0f25b",
     "packet_hash": "77b573b10b55a48428efcb977228afae5c7434693e13a48325da68cc75026a47"
   },
-  "hash": "92fbca24a299573af9e3213d85cf0929faa9c9cbd5cfdf5281f073834119d1f9"
+  "hash": "92fbca24a299573af9e3213d85cf0929faa9c9cbd5cfdf5281f073834119d1f9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text is for amoxapine, not Asendin, so the definition is not supported for the requested term/sense.",
+        "The definition presents Asendin as a specific medicine name, but the source packet does not identify Asendin as the drug described; that naming connection is unsupported."
+      ],
+      "definition_hash": "9d3fa541053cf9961b813f826ec24154b150bc1981add3530d16e7c3adf0f25b",
+      "packet_hash": "77b573b10b55a48428efcb977228afae5c7434693e13a48325da68cc75026a47",
+      "published_packet_hash": "77b573b10b55a48428efcb977228afae5c7434693e13a48325da68cc75026a47",
+      "receipt_id": "5f288dee440e438db69e01f372717cdb",
+      "request_hash": "5594c87bec0505e1dc97af0b60db5dce1e542942b2685672deb8f07644a3df34",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text provided is for “Amoxapine” (source_label and content) and does not explicitly state that “Asendin” is the same substance/brand name, so the definition’s claims about “Asendin” are not supported for that term.",
+        "Because the source material is about amoxapine, using it to substantiate a definition for “Asendin” relies on an unsupported identification that is not present in the packet."
+      ],
+      "definition_hash": "9d3fa541053cf9961b813f826ec24154b150bc1981add3530d16e7c3adf0f25b",
+      "packet_hash": "77b573b10b55a48428efcb977228afae5c7434693e13a48325da68cc75026a47",
+      "published_packet_hash": "77b573b10b55a48428efcb977228afae5c7434693e13a48325da68cc75026a47",
+      "receipt_id": "1a416bfd8f9c4b2f8a62aeca9360cfda",
+      "request_hash": "dd2f9cefb85a18af010874bd6a69dd4d3fc6a3a85b32098635ba35a35ad34088",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

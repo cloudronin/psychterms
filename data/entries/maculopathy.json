@@ -27,5 +27,34 @@
     "definition_hash": "46ebc3624e9aa49744854a1a664f9ca3ae51a051762982419bf12c2149fd50c2",
     "packet_hash": "5116f68065c8c322e9fe36ab4ef32193f95a7c8938b68008478ebd8c2a8016d0"
   },
-  "hash": "0acb6c0ae582cbab3c79163bc781d001d3895e54cd0eed51c36dca5230fd6e68"
+  "hash": "0acb6c0ae582cbab3c79163bc781d001d3895e54cd0eed51c36dca5230fd6e68",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "46ebc3624e9aa49744854a1a664f9ca3ae51a051762982419bf12c2149fd50c2",
+      "packet_hash": "5116f68065c8c322e9fe36ab4ef32193f95a7c8938b68008478ebd8c2a8016d0",
+      "published_packet_hash": "5116f68065c8c322e9fe36ab4ef32193f95a7c8938b68008478ebd8c2a8016d0",
+      "receipt_id": "70e80039d2724b59833c45025a726d2f",
+      "request_hash": "4e81b8f01303083a0fbbda5ad02271db1ac8a106cc28ae4681d1c5692f5eeb3a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports degenerative retinal changes causing central vision loss and dry/wet forms, but it does not explicitly support the claim that damage is in the macula; it says damage to the retina and mentions the macula lutea in the visual-field description.",
+        "The definition slightly over-specifies the condition as a singular ‘retinal condition’ with a macular lesion mechanism, which is not stated in the source packet."
+      ],
+      "definition_hash": "46ebc3624e9aa49744854a1a664f9ca3ae51a051762982419bf12c2149fd50c2",
+      "packet_hash": "5116f68065c8c322e9fe36ab4ef32193f95a7c8938b68008478ebd8c2a8016d0",
+      "published_packet_hash": "5116f68065c8c322e9fe36ab4ef32193f95a7c8938b68008478ebd8c2a8016d0",
+      "receipt_id": "5d96f6059ed1426a9fa6f78c88d312f3",
+      "request_hash": "2d7c72e1e4f27cc1f646d58b95bbbd419a2f554ee13a280e045f6ef3337f2f61",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

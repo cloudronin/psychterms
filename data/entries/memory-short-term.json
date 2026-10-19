@@ -31,5 +31,22 @@
     "published_packet_hash": "6516f3f4b98c6f938e47bc34ffabab1118e3ae267ccdc8f705ef4af210f5a860"
   },
   "editorial_status": "human_review_pending",
-  "hash": "172251f0a0c6a4f94415e3c40483118c3a1bc548d0338baca6e6c52ee3a0e9e2"
+  "hash": "172251f0a0c6a4f94415e3c40483118c3a1bc548d0338baca6e6c52ee3a0e9e2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states “Remembrance of information for a few seconds to hours” and does not explicitly mention the dual process “hold and recall,” so “recall” is not directly supported.",
+        "The definition specifies the time range as “a few seconds to several hours,” while the packet only says “a few seconds to hours” (it does not support the word “several”)."
+      ],
+      "definition_hash": "dbbe0c1157c6b0f6aed74fd398faed7c579e34d9eb1a0412ba898ad12f78a599",
+      "packet_hash": "35243efb4496e246fcda724ec124aa08ed64cb223822e1d85e3eda54981b97aa",
+      "published_packet_hash": "6516f3f4b98c6f938e47bc34ffabab1118e3ae267ccdc8f705ef4af210f5a860",
+      "receipt_id": "33702022b6264cf2b2775e4171360a40",
+      "request_hash": "891d0df568808da2673f93fd57e8bd462b9fa1ba5d0aa244fed7bd542a3d5ba0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "5bf719a5191bda019ec04f917890d98b2869448063212b24a9446720777e6f3e",
     "packet_hash": "a43835a1be67ccf791333dc9867618975768fb97c13b520223f36ffca89c440e"
   },
-  "hash": "df793617736b0c61d527917c3a9c1c929c3e49f75dc00eec323ad87360796ef7"
+  "hash": "df793617736b0c61d527917c3a9c1c929c3e49f75dc00eec323ad87360796ef7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only “Assessment of individual responses to age appropriate stimuli.” It does not mention evaluating “patterns of behavior” or relating behavior to “expected responses.”",
+        "The definition adds purpose/interpretation (“used to look at patterns…in relation to expected responses”) that is not supported by the supplied packet text."
+      ],
+      "definition_hash": "5bf719a5191bda019ec04f917890d98b2869448063212b24a9446720777e6f3e",
+      "packet_hash": "a43835a1be67ccf791333dc9867618975768fb97c13b520223f36ffca89c440e",
+      "published_packet_hash": "a43835a1be67ccf791333dc9867618975768fb97c13b520223f36ffca89c440e",
+      "receipt_id": "7e3b9b6cf9154497ae5b2756420e27e7",
+      "request_hash": "d0408fb4aa567ce7e2f4f9ab06b45063799a9a5d1a0d53595b52d9207c78c8f3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence is not supported by the packet: it adds that the assessment is used to look at patterns of behavior and expected responses, which is not in the source text.",
+        "The definition goes beyond the source by turning a brief descriptor into a broader explanatory statement without support."
+      ],
+      "definition_hash": "5bf719a5191bda019ec04f917890d98b2869448063212b24a9446720777e6f3e",
+      "packet_hash": "a43835a1be67ccf791333dc9867618975768fb97c13b520223f36ffca89c440e",
+      "published_packet_hash": "a43835a1be67ccf791333dc9867618975768fb97c13b520223f36ffca89c440e",
+      "receipt_id": "436aab45ae4644c8a0e753b3d8253ab3",
+      "request_hash": "8b98fdd3ee4ecb4a2d5032fdb582bf097be017102c55b8b577c69417c67a58b1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

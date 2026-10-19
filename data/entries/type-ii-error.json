@@ -27,5 +27,34 @@
     "definition_hash": "7e0d5668f39801ede234316c4d3fd68993f5927550238cb697624dbf52b73781",
     "packet_hash": "12650cffca2c0d19c5e7af0a61ddfd1f0c4598706c085adae5570984eed8a12d"
   },
-  "hash": "522417aa83537647e6f339c2204a32ff233ccf6216c4d9e7b2deef1dee94ae21"
+  "hash": "522417aa83537647e6f339c2204a32ff233ccf6216c4d9e7b2deef1dee94ae21",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7e0d5668f39801ede234316c4d3fd68993f5927550238cb697624dbf52b73781",
+      "packet_hash": "12650cffca2c0d19c5e7af0a61ddfd1f0c4598706c085adae5570984eed8a12d",
+      "published_packet_hash": "12650cffca2c0d19c5e7af0a61ddfd1f0c4598706c085adae5570984eed8a12d",
+      "receipt_id": "59e817aaf6a1426ba2038d5bfd82bf01",
+      "request_hash": "8c61676809cf9e066f238cf1f19f09303287664b6f0cb6997610f4196ab885e4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the meaning “the failure to reject a false null hypothesis” in significance testing.",
+        "The definition adds an extra interpretation (“missing a real effect or difference when one actually exists”) that is not stated in the packet."
+      ],
+      "definition_hash": "7e0d5668f39801ede234316c4d3fd68993f5927550238cb697624dbf52b73781",
+      "packet_hash": "12650cffca2c0d19c5e7af0a61ddfd1f0c4598706c085adae5570984eed8a12d",
+      "published_packet_hash": "12650cffca2c0d19c5e7af0a61ddfd1f0c4598706c085adae5570984eed8a12d",
+      "receipt_id": "81e2c7ba87924629a6b9bb112de7d9c9",
+      "request_hash": "f2fc7a94d4fd5c0f5e392a794a32e37d6e976879eba47d030a14927412f73d76",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

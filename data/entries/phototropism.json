@@ -27,5 +27,33 @@
     "definition_hash": "8152d6faed9bcf888dd13a7478358e2e1b4ce348045af718f443fbe14d4f58ec",
     "packet_hash": "dee106393b7d53db0c47a0ccf0235843abb73b9be171866145ef9b7172914201"
   },
-  "hash": "94c15bac0c81bb6af11263b8d3924e98b1e066721471992a0f13bdf269dde57e"
+  "hash": "94c15bac0c81bb6af11263b8d3924e98b1e066721471992a0f13bdf269dde57e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8152d6faed9bcf888dd13a7478358e2e1b4ce348045af718f443fbe14d4f58ec",
+      "packet_hash": "dee106393b7d53db0c47a0ccf0235843abb73b9be171866145ef9b7172914201",
+      "published_packet_hash": "dee106393b7d53db0c47a0ccf0235843abb73b9be171866145ef9b7172914201",
+      "receipt_id": "e69247fd773843f9ac5a61f25fe27ebd",
+      "request_hash": "b73f3b6cdc81e8b4c3cbbaa16b59029b97e12abd2105d13497859607373dbeb2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition describes a biological process (directional growth of organisms/plant shoots toward light), but the requested field is \"cognition\"; the packet does not support using this term in a cognition/psychology field."
+      ],
+      "definition_hash": "8152d6faed9bcf888dd13a7478358e2e1b4ce348045af718f443fbe14d4f58ec",
+      "packet_hash": "dee106393b7d53db0c47a0ccf0235843abb73b9be171866145ef9b7172914201",
+      "published_packet_hash": "dee106393b7d53db0c47a0ccf0235843abb73b9be171866145ef9b7172914201",
+      "receipt_id": "3ccbcc4e841f445f867e5891a3454429",
+      "request_hash": "76b30d053c5a9ec81f04a02a05750179cb61bccc9b3a68a95a18af4cf6eaddfc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

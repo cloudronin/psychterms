@@ -27,5 +27,34 @@
     "definition_hash": "c385815ac2626694194f0c491ce0b4287ab74bc7840c61d42f8a8770d2fbe3b6",
     "packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef"
   },
-  "hash": "aaf35e4dcced7da3a5512f0fdc2147b222ef626a56a90b44a795f3eb7b91cf38"
+  "hash": "aaf35e4dcced7da3a5512f0fdc2147b222ef626a56a90b44a795f3eb7b91cf38",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c385815ac2626694194f0c491ce0b4287ab74bc7840c61d42f8a8770d2fbe3b6",
+      "packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef",
+      "published_packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef",
+      "receipt_id": "a39f930c624b4ab3bde113fdcf5f5c22",
+      "request_hash": "d385b1e79155228230badfeb6430a78f92ac332718e6f4ed8dfed3b6576982d3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes a type of psychotherapy/treatment, but the requested field is “diagnosis.” The packet characterizes CBT as a “type of psychotherapy” (semantic_types: “Therapeutic or Preventive Procedure”), not as a diagnostic concept.",
+        "Because the field is misaligned with what the packet supports (therapy vs. diagnosis), the definition is not defensible for the “diagnosis” field as requested."
+      ],
+      "definition_hash": "c385815ac2626694194f0c491ce0b4287ab74bc7840c61d42f8a8770d2fbe3b6",
+      "packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef",
+      "published_packet_hash": "3c889ef88180ec0db831290112021a164cae5656932c355e54c331082e1f09ef",
+      "receipt_id": "20aca0e8d6e648aab36525bd81f7c7b3",
+      "request_hash": "cd19a1d7e72ee4681347f52c605f5d9844b21aaf3aff504faff11c6134dc9c65",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

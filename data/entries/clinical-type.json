@@ -27,5 +27,33 @@
     "definition_hash": "a5174e8cdc501cae69a82e0cdbdbde0998abffb48423d9b1d8784c37bfac8df9",
     "packet_hash": "65a0a2b188b580a425ca3734bdcc940044903884529a5e567d3871b2d812eb8f"
   },
-  "hash": "2634b417c339bf167799f135a10b49294f4be5a0d483e7dd137b90e0c79a8eb3"
+  "hash": "2634b417c339bf167799f135a10b49294f4be5a0d483e7dd137b90e0c79a8eb3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a5174e8cdc501cae69a82e0cdbdbde0998abffb48423d9b1d8784c37bfac8df9",
+      "packet_hash": "65a0a2b188b580a425ca3734bdcc940044903884529a5e567d3871b2d812eb8f",
+      "published_packet_hash": "65a0a2b188b580a425ca3734bdcc940044903884529a5e567d3871b2d812eb8f",
+      "receipt_id": "dbe16cf352e448baaf95301268469795",
+      "request_hash": "c1b8d8f222d3627c97c25f7e6e9bbdf3bcbe1de000a9492b14f8672ef6b6e4ea",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“clinical type means the characteristic pattern of symptoms by which a disease presents in practice”) is a generalized meaning that is not explicitly stated in the provided packet; the packet only uses the phrase to introduce a description (“may be stated to be…”) of symptoms for a specific condition."
+      ],
+      "definition_hash": "a5174e8cdc501cae69a82e0cdbdbde0998abffb48423d9b1d8784c37bfac8df9",
+      "packet_hash": "65a0a2b188b580a425ca3734bdcc940044903884529a5e567d3871b2d812eb8f",
+      "published_packet_hash": "65a0a2b188b580a425ca3734bdcc940044903884529a5e567d3871b2d812eb8f",
+      "receipt_id": "2a36d9c30062438da71c3d7eeac904b3",
+      "request_hash": "34dc8d65d571b424171f05049494049059631c92840bba412a4ffb832910201c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

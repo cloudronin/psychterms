@@ -27,5 +27,33 @@
     "definition_hash": "68bec686e5d08334dad4020b4bfeb5a37f96792cefd7de21fe17259a2b47e19b",
     "packet_hash": "df571612b75c3c0ba2a747fd35617a21592de8007c6682a56c480743bca0dfec"
   },
-  "hash": "1a7af6ffaf91e69d5fe12bb6dbcd021ff53662e703a99e38bfb04a12abe49f6b"
+  "hash": "1a7af6ffaf91e69d5fe12bb6dbcd021ff53662e703a99e38bfb04a12abe49f6b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "68bec686e5d08334dad4020b4bfeb5a37f96792cefd7de21fe17259a2b47e19b",
+      "packet_hash": "df571612b75c3c0ba2a747fd35617a21592de8007c6682a56c480743bca0dfec",
+      "published_packet_hash": "df571612b75c3c0ba2a747fd35617a21592de8007c6682a56c480743bca0dfec",
+      "receipt_id": "2e068d8dc1b340e1ae75647ceff48c79",
+      "request_hash": "43fa859e7e1eb80a2d11a590451cb67a621eae965dd57cf36344aa59b15a8e3f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided packet describes a biological peptide/protein (acyl-CoA binding/transport and lipid metabolism) rather than a cognition-related construct, so the assigned field “cognition” is not defensible from the packet."
+      ],
+      "definition_hash": "68bec686e5d08334dad4020b4bfeb5a37f96792cefd7de21fe17259a2b47e19b",
+      "packet_hash": "df571612b75c3c0ba2a747fd35617a21592de8007c6682a56c480743bca0dfec",
+      "published_packet_hash": "df571612b75c3c0ba2a747fd35617a21592de8007c6682a56c480743bca0dfec",
+      "receipt_id": "7cc04736926e43d6a95d2d73af4b9f11",
+      "request_hash": "9ec25f084972d346ffd691f52557e2ceeb7cd917b37f2d7f8991efbe7bc03a22",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

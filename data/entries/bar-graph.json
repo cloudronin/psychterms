@@ -27,5 +27,37 @@
     "definition_hash": "6cc17aeb0e06c514a68502adc249b93d83a219e55d1e121e84b5855dd7a29907",
     "packet_hash": "0e689f3508c40d0319d06e67cd7d9aa383d6c7f6ad48a9c2e7ce9cc6cc8ecdcf"
   },
-  "hash": "db4baa5a903387d47c20e29b22b52056832b4edf55749e6d817ac14ef2c5025a"
+  "hash": "db4baa5a903387d47c20e29b22b52056832b4edf55749e6d817ac14ef2c5025a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet content is about a “Line Graph” and only indirectly mentions “bar graph” (“Essentially a bar graph…”). It does not provide a definition of “bar graph” showing that “each bar’s height represents the amount for that value or category.”",
+        "Because the substantive explanation in the definition is not explicitly supported by the supplied packet, the requested sense of “bar graph” is not defensible from the source provided."
+      ],
+      "definition_hash": "6cc17aeb0e06c514a68502adc249b93d83a219e55d1e121e84b5855dd7a29907",
+      "packet_hash": "0e689f3508c40d0319d06e67cd7d9aa383d6c7f6ad48a9c2e7ce9cc6cc8ecdcf",
+      "published_packet_hash": "0e689f3508c40d0319d06e67cd7d9aa383d6c7f6ad48a9c2e7ce9cc6cc8ecdcf",
+      "receipt_id": "32fe48c2402a4833afb1881a4efb5cf3",
+      "request_hash": "d2740ebb4d94993aec9770bbc041c605d7fa2b5a5974a7ab35ec6fe51424cb83",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet source is a glossary entry for “Line Graph,” not “bar graph,” so the requested term/sense is not directly supported.",
+        "The definition’s statement that a bar graph shows values with bars whose height represents the amount is not stated in the packet; the packet only says a line graph is essentially a bar graph in which each bar is represented by a single point connected by a line."
+      ],
+      "definition_hash": "6cc17aeb0e06c514a68502adc249b93d83a219e55d1e121e84b5855dd7a29907",
+      "packet_hash": "0e689f3508c40d0319d06e67cd7d9aa383d6c7f6ad48a9c2e7ce9cc6cc8ecdcf",
+      "published_packet_hash": "0e689f3508c40d0319d06e67cd7d9aa383d6c7f6ad48a9c2e7ce9cc6cc8ecdcf",
+      "receipt_id": "42a0b1687e9d445f8159749cffbe7ad5",
+      "request_hash": "a72713d35405b71437b2326f1c568249b261a39e21c1217aa72700da4b8bda88",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "8d0ca350c430aa6be069d8821696bd8655d467c0191c2310ce032ce1633d3e08",
     "packet_hash": "8d05f5a259167db42b47cc87275f8e3c59a179d5377328ebd45127849d934f28"
   },
-  "hash": "c88b4a6bbb21b333010533e69dced0b7df11fd47afa333a344354b814d50501f"
+  "hash": "c88b4a6bbb21b333010533e69dced0b7df11fd47afa333a344354b814d50501f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8d0ca350c430aa6be069d8821696bd8655d467c0191c2310ce032ce1633d3e08",
+      "packet_hash": "8d05f5a259167db42b47cc87275f8e3c59a179d5377328ebd45127849d934f28",
+      "published_packet_hash": "8d05f5a259167db42b47cc87275f8e3c59a179d5377328ebd45127849d934f28",
+      "receipt_id": "b34e7379d5b84b389e5b237045e2625b",
+      "request_hash": "0d422a89df72b66148e712e31cd6c3323073446e1e0450c4a279a693a20d6fb9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied definition concerns prevention of disease/mental disorders, but the requested field is “diagnosis,” which is not defensibly aligned with primary prevention as supported by the packet."
+      ],
+      "definition_hash": "8d0ca350c430aa6be069d8821696bd8655d467c0191c2310ce032ce1633d3e08",
+      "packet_hash": "8d05f5a259167db42b47cc87275f8e3c59a179d5377328ebd45127849d934f28",
+      "published_packet_hash": "8d05f5a259167db42b47cc87275f8e3c59a179d5377328ebd45127849d934f28",
+      "receipt_id": "5414da38fbc6413ca41fa25b2ca1f08e",
+      "request_hash": "05a7554ea419ac9a720368d05c1a2cb8f9f076b84181ea288d05180bf2c91501",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

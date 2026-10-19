@@ -27,5 +27,37 @@
     "definition_hash": "5aa7dc28f1c853258980da88ca84c314c9fb6969ff050a1ba71d123425524876",
     "packet_hash": "11b51472609e3d99dde0ca361afebfea2187b20bee38808eb6e7ac7df07009c4"
   },
-  "hash": "575a72c62e4aa4abf3708f9c2708831177352a6934fa772598c7fc0631ca8673"
+  "hash": "575a72c62e4aa4abf3708f9c2708831177352a6934fa772598c7fc0631ca8673",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet lists personality deterioration only as a clinical feature of Pick disease; it does not define it as a decline or worsening of a person’s usual personality.",
+        "The added description that Pick disease is a dementia ‘linked to circumscribed atrophy in the frontal and temporal lobes’ goes beyond the term being defined and turns the entry into a disease summary rather than a supported definition of ‘personality deterioration.’"
+      ],
+      "definition_hash": "5aa7dc28f1c853258980da88ca84c314c9fb6969ff050a1ba71d123425524876",
+      "packet_hash": "11b51472609e3d99dde0ca361afebfea2187b20bee38808eb6e7ac7df07009c4",
+      "published_packet_hash": "11b51472609e3d99dde0ca361afebfea2187b20bee38808eb6e7ac7df07009c4",
+      "receipt_id": "796b574cad6b4c5d90f616d215e0de2a",
+      "request_hash": "b1eb9e8d3c77a719ee0c6005a838915a09d610dbf4f12a975d16310a335a889f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence (“a decline or worsening of a person’s usual personality”) is not explicitly supported by the packet text, which only lists “personality deterioration” among clinical features without defining it as “decline/worsening” relative to a usual baseline.",
+        "While the second sentence is broadly supported (the packet states Pick disease clinical features include personality deterioration, and describes circumscribed atrophy of the poles of the frontal and temporal lobes), the unsupported definition of what “personality deterioration” means prevents a fully defensible match to the provided source packet."
+      ],
+      "definition_hash": "5aa7dc28f1c853258980da88ca84c314c9fb6969ff050a1ba71d123425524876",
+      "packet_hash": "11b51472609e3d99dde0ca361afebfea2187b20bee38808eb6e7ac7df07009c4",
+      "published_packet_hash": "11b51472609e3d99dde0ca361afebfea2187b20bee38808eb6e7ac7df07009c4",
+      "receipt_id": "f3623df16120415cb4109b34cd949ebf",
+      "request_hash": "631f7b92072c4a01da58392a94d51ded5ef30a4248e5d1387e670cd338417a87",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

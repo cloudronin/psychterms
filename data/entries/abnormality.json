@@ -27,5 +27,37 @@
     "definition_hash": "321632afb344828fca1b4237772f1a7840cbb34fec6b1615c79ecdcb2028dad0",
     "packet_hash": "c44f4f039701dd7f1e85d1f6f674cb613a1ba7e1f9b789e316c4d3df7d06dcb4"
   },
-  "hash": "237353441a5be870405cd290d18c9839d93b8fb8c153c3505fe3872e64cf1352"
+  "hash": "237353441a5be870405cd290d18c9839d93b8fb8c153c3505fe3872e64cf1352",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only defines abnormality as “A condition that differs from the usual physical or mental state.”",
+        "The definition’s second sentence (“In psychology or counselling…outside what is typical for that individual.”) is not supported anywhere in the provided packet."
+      ],
+      "definition_hash": "321632afb344828fca1b4237772f1a7840cbb34fec6b1615c79ecdcb2028dad0",
+      "packet_hash": "c44f4f039701dd7f1e85d1f6f674cb613a1ba7e1f9b789e316c4d3df7d06dcb4",
+      "published_packet_hash": "c44f4f039701dd7f1e85d1f6f674cb613a1ba7e1f9b789e316c4d3df7d06dcb4",
+      "receipt_id": "6ce9890a910c451d8e2ebafeff6b7705",
+      "request_hash": "caf2c5536e0228de19db2681c9a659900a38f3af551aae1e00da6c7bcf5e1001",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence adds an unsupported individual-level gloss (“outside what is typical for that individual”); the packet only supports a general difference from the usual physical or mental state.",
+        "The definition frames the term as specifically used in psychology or counselling, but the supplied source only supports the general descriptor and does not establish that narrower field sense."
+      ],
+      "definition_hash": "321632afb344828fca1b4237772f1a7840cbb34fec6b1615c79ecdcb2028dad0",
+      "packet_hash": "c44f4f039701dd7f1e85d1f6f674cb613a1ba7e1f9b789e316c4d3df7d06dcb4",
+      "published_packet_hash": "c44f4f039701dd7f1e85d1f6f674cb613a1ba7e1f9b789e316c4d3df7d06dcb4",
+      "receipt_id": "8ec17c96b06e4225b4adea3f9be261f4",
+      "request_hash": "5ddc9c5e7ad7596755f3479d2e5fbc65d188e6c687d2e3e4f3f1baf5625ee778",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

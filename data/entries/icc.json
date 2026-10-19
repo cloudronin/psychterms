@@ -27,5 +27,33 @@
     "definition_hash": "2441cfd82dc9230ce80963d63d623fac5af5c393c750ee13a36a204e05842aa0",
     "packet_hash": "5b6ccbe1481fda000be2a439050c09f3a78dd66eb1d583e3949100c0b962b5cb"
   },
-  "hash": "4089f9b3fcbecb1a14c00ad14e40bc0cd4e0dc3d1f50dbb7f6e8b9d2b12bc9dd"
+  "hash": "4089f9b3fcbecb1a14c00ad14e40bc0cd4e0dc3d1f50dbb7f6e8b9d2b12bc9dd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2441cfd82dc9230ce80963d63d623fac5af5c393c750ee13a36a204e05842aa0",
+      "packet_hash": "5b6ccbe1481fda000be2a439050c09f3a78dd66eb1d583e3949100c0b962b5cb",
+      "published_packet_hash": "5b6ccbe1481fda000be2a439050c09f3a78dd66eb1d583e3949100c0b962b5cb",
+      "receipt_id": "ec7fee5d74b44776b4e79c5399d23ad3",
+      "request_hash": "32b41d395801392ef8b1dcd1675befcf87d8bda9c0c1d70dec330d28b4cb1189",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines immunocytochemistry but does not state that “ICC” is an abbreviation for immunocytochemistry, so the equivalence “ICC, or immunocytochemistry” is not explicitly supported."
+      ],
+      "definition_hash": "2441cfd82dc9230ce80963d63d623fac5af5c393c750ee13a36a204e05842aa0",
+      "packet_hash": "5b6ccbe1481fda000be2a439050c09f3a78dd66eb1d583e3949100c0b962b5cb",
+      "published_packet_hash": "5b6ccbe1481fda000be2a439050c09f3a78dd66eb1d583e3949100c0b962b5cb",
+      "receipt_id": "a6f6a144b3474b61b21727943e1d61f8",
+      "request_hash": "a2967cb68f37a584359259860a3fac2c1721898e84f8b39739c1580935eaf62f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

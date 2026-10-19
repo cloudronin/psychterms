@@ -27,5 +27,38 @@
     "definition_hash": "67b6611d4f847cd6af8c661541b8144a351cfca3a5a78b63207912fb0ef4a031",
     "packet_hash": "6389b764b7916a84dbacd0a1cb6f80913838fd9a1a82de3a90e3a56813b6058e"
   },
-  "hash": "6c0125f619947b5f604f46780c26e296b6dc14320b64fd0ca28040a9d3f251bf"
+  "hash": "6c0125f619947b5f604f46780c26e296b6dc14320b64fd0ca28040a9d3f251bf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is about valine, not the term vigor, so the requested sense is not supported by the source record.",
+        "The definition adds a gloss (“mental vitality or energy”) that is not explicitly defined in the packet; the packet only says valine “maintains mental vigor, muscle coordination, and emotional calm.”",
+        "It also presents a relational claim about vigor being maintained alongside muscle coordination and emotional calm, but the packet supports that relationship for valine, not for vigor itself."
+      ],
+      "definition_hash": "67b6611d4f847cd6af8c661541b8144a351cfca3a5a78b63207912fb0ef4a031",
+      "packet_hash": "6389b764b7916a84dbacd0a1cb6f80913838fd9a1a82de3a90e3a56813b6058e",
+      "published_packet_hash": "6389b764b7916a84dbacd0a1cb6f80913838fd9a1a82de3a90e3a56813b6058e",
+      "receipt_id": "2286b00c1c314c3f9a0f76da2206701a",
+      "request_hash": "41f48ee6927a986c6c322c58e75b4f675ee936f3d061046c9236963f72720441",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet never explicitly defines “vigor” as “mental vitality or energy”; it only uses the phrase “mental vigor” in relation to valine, without stating what the term means.",
+        "The “energy” aspect in the definition is not directly tied to the meaning of “vigor” in the packet; the packet separately mentions that valine supplements are used for “energy.”"
+      ],
+      "definition_hash": "67b6611d4f847cd6af8c661541b8144a351cfca3a5a78b63207912fb0ef4a031",
+      "packet_hash": "6389b764b7916a84dbacd0a1cb6f80913838fd9a1a82de3a90e3a56813b6058e",
+      "published_packet_hash": "6389b764b7916a84dbacd0a1cb6f80913838fd9a1a82de3a90e3a56813b6058e",
+      "receipt_id": "01b6ce241bf545d180e4709c90a7e1c7",
+      "request_hash": "254ba836acb66c00d4a2a016cf9ad411db62ed3702be7ae0ac9be505b5bf3e3a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

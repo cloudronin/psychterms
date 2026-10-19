@@ -27,5 +27,37 @@
     "definition_hash": "a9307388d12cb8cf9d1a261e520a1d105c612027ad92fbdecb1e36bd37249e43",
     "packet_hash": "92b481ee98f4a25efee91b2e586accaef4d7ccfbe4a061a72806c479758a4d86"
   },
-  "hash": "9cb41232ad6a893516c3f21327ec2e43403063d0c3d67094c5005321ea18c652"
+  "hash": "9cb41232ad6a893516c3f21327ec2e43403063d0c3d67094c5005321ea18c652",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence adds an unsupported psychological interpretation (“in psychology, it can refer to a perceived breach of trust that affects how a person thinks about relationships and safety”) that is not present in the source packet.",
+        "The definition should stay within the packet’s wording; the packet supports a general “act of violation of trust or confidence of a moral standard,” but not the broader explanatory framing."
+      ],
+      "definition_hash": "a9307388d12cb8cf9d1a261e520a1d105c612027ad92fbdecb1e36bd37249e43",
+      "packet_hash": "92b481ee98f4a25efee91b2e586accaef4d7ccfbe4a061a72806c479758a4d86",
+      "published_packet_hash": "92b481ee98f4a25efee91b2e586accaef4d7ccfbe4a061a72806c479758a4d86",
+      "receipt_id": "77b9341a124e421483e613a386816626",
+      "request_hash": "f0099f5964d725173f378f94bfcf20654bfb1c08d9997fd5e5ec36c4c0f60be3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only states that betrayal is an act of violation of trust or confidence of a moral standard (etc.). It does not support the added claim that, “In psychology, it can refer to a perceived breach of trust that affects how a person thinks about relationships and safety.”",
+        "The definition’s “expected moral commitment” phrasing is not explicitly supported beyond the packet’s general reference to a “moral standard, etc.”"
+      ],
+      "definition_hash": "a9307388d12cb8cf9d1a261e520a1d105c612027ad92fbdecb1e36bd37249e43",
+      "packet_hash": "92b481ee98f4a25efee91b2e586accaef4d7ccfbe4a061a72806c479758a4d86",
+      "published_packet_hash": "92b481ee98f4a25efee91b2e586accaef4d7ccfbe4a061a72806c479758a4d86",
+      "receipt_id": "f7f928d44cfd4270a89f3084610e9b1a",
+      "request_hash": "59f174a37780d759f9e441cc199ab256f81f75e30d47f9a08435802c8eb3b874",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "057256b2c58ee2e62dbb94afdd009770123bf5984d156d96564537dc8d455b9a",
     "packet_hash": "378b947479130114949a739bbeffe1138b1ff62c46b7ee20000d70c51d82d390"
   },
-  "hash": "7a4b4c89ef155819011d164099a1158baaa15e321ab9ddfe038b594f4f588a79"
+  "hash": "7a4b4c89ef155819011d164099a1158baaa15e321ab9ddfe038b594f4f588a79",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports disulfiram as the substance, but it does not support the acronym sense “DS” for disulfiram; the source text uses “DSF,” not “DS.”",
+        "The definition’s opening expansion is therefore not securely supported by the supplied source packet, even though the treatment and mechanism statements are broadly consistent with the packet."
+      ],
+      "definition_hash": "057256b2c58ee2e62dbb94afdd009770123bf5984d156d96564537dc8d455b9a",
+      "packet_hash": "378b947479130114949a739bbeffe1138b1ff62c46b7ee20000d70c51d82d390",
+      "published_packet_hash": "378b947479130114949a739bbeffe1138b1ff62c46b7ee20000d70c51d82d390",
+      "receipt_id": "4b555a52523541c99c81d91da3ce07b9",
+      "request_hash": "15056f23d42f54905308741985b6e9a40b1276de082e28ddddafe83bda984fbe",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the specific acronym/symbol “DS” standing for disulfiram; it refers to “Disulfiram (DSF)” but does not define “DS” as an abbreviation.",
+        "The packet supports disulfiram’s use for alcoholism and acetaldehyde dehydrogenase inhibition leading to the disulfiram-ethanol reaction, but the requested sense/term “DS” is not explicitly established in the packet."
+      ],
+      "definition_hash": "057256b2c58ee2e62dbb94afdd009770123bf5984d156d96564537dc8d455b9a",
+      "packet_hash": "378b947479130114949a739bbeffe1138b1ff62c46b7ee20000d70c51d82d390",
+      "published_packet_hash": "378b947479130114949a739bbeffe1138b1ff62c46b7ee20000d70c51d82d390",
+      "receipt_id": "0cda271b75ee4782a512c88e48f506ff",
+      "request_hash": "2a1ad798b702c4e4f6da45db0c1e57b304f0b35d2aa51929dc03ed7a5c8f9cc5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

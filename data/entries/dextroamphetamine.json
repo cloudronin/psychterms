@@ -27,5 +27,33 @@
     "definition_hash": "7429c26d3bd73251ab1d6004fd90d9b2a2112810fdfa586872fb2bc70867c1fb",
     "packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa"
   },
-  "hash": "9891826997f82ec3d5643327683c5c32357a10aa4d4a0a1b3ff45b16107afef0"
+  "hash": "9891826997f82ec3d5643327683c5c32357a10aa4d4a0a1b3ff45b16107afef0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7429c26d3bd73251ab1d6004fd90d9b2a2112810fdfa586872fb2bc70867c1fb",
+      "packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa",
+      "published_packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa",
+      "receipt_id": "b26b3cda5f034399bfcac92afaa0f6cf",
+      "request_hash": "11ee6fea5f3f95cde06cc3ef9dfa6731101628c4aef6f2ad8dad02b96334574a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the term “dextroamphetamine” is a medication/drug descriptor, not a diagnostic category. The provided packet supports pharmacologic use (e.g., narcolepsy, attention deficit disorders/hyperactivity) but does not make it a “diagnosis” entry."
+      ],
+      "definition_hash": "7429c26d3bd73251ab1d6004fd90d9b2a2112810fdfa586872fb2bc70867c1fb",
+      "packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa",
+      "published_packet_hash": "9400bbe94ed793d08a981ae45116630cdfebaa2946129df66670db7da4cf59aa",
+      "receipt_id": "a046bb591d1f4289847b615d3b26de9b",
+      "request_hash": "36cba9647d20f5c375b8c9698550f88ae829855ef16a6fcc36e866d6c8389542",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

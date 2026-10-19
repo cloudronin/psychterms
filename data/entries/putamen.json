@@ -27,5 +27,34 @@
     "definition_hash": "4ff9fbc59b5de72064ecef0e525f78625d9ff4a425ff45ea2f7c99e1038be61c",
     "packet_hash": "bd9d41b352aea0822e6b46dccdbff7987ef048ef7397b3158625f97f6457514b"
   },
-  "hash": "78996325ba25ba4046969410e6fa6f63c4c233ddffcf6487203e23de8920fb3e"
+  "hash": "78996325ba25ba4046969410e6fa6f63c4c233ddffcf6487203e23de8920fb3e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4ff9fbc59b5de72064ecef0e525f78625d9ff4a425ff45ea2f7c99e1038be61c",
+      "packet_hash": "bd9d41b352aea0822e6b46dccdbff7987ef048ef7397b3158625f97f6457514b",
+      "published_packet_hash": "bd9d41b352aea0822e6b46dccdbff7987ef048ef7397b3158625f97f6457514b",
+      "receipt_id": "33e16e7cac9844bc8546c5c2a1fa54e8",
+      "request_hash": "d034ff2818f472d61008ff9544f7ad8398b6d13c2a8d7dc7f458d1093f6f6ada",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the putamen is “deep in the brain,” but the provided packet text does not mention or support that characterization.",
+        "The definition says “outermost part” of the basal ganglia, whereas the packet specifies it as “the largest and most lateral” portion; the “outermost” phrasing is not directly supported by the packet."
+      ],
+      "definition_hash": "4ff9fbc59b5de72064ecef0e525f78625d9ff4a425ff45ea2f7c99e1038be61c",
+      "packet_hash": "bd9d41b352aea0822e6b46dccdbff7987ef048ef7397b3158625f97f6457514b",
+      "published_packet_hash": "bd9d41b352aea0822e6b46dccdbff7987ef048ef7397b3158625f97f6457514b",
+      "receipt_id": "2100b83c4198414d96bbee3af2d9fecb",
+      "request_hash": "37aa8d174804fbf017374c4ddc29247d48d498bf5c97ce66e59eab4738347d10",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

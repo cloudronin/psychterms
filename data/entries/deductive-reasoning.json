@@ -27,5 +27,34 @@
     "definition_hash": "62bd115da16afb74312fc61bb3a6272b2f2a0e8d2c0d02c17ddf583af6214e95",
     "packet_hash": "36d550339a31b479e62c08830a7a57fbbf0d0782b742883e2d6b45ba90fcd4b6"
   },
-  "hash": "d4f0e396e1db43a820dbd2330939571c76de3ecf7e74d68f310c74c689cd39a3"
+  "hash": "d4f0e396e1db43a820dbd2330939571c76de3ecf7e74d68f310c74c689cd39a3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "62bd115da16afb74312fc61bb3a6272b2f2a0e8d2c0d02c17ddf583af6214e95",
+      "packet_hash": "36d550339a31b479e62c08830a7a57fbbf0d0782b742883e2d6b45ba90fcd4b6",
+      "published_packet_hash": "36d550339a31b479e62c08830a7a57fbbf0d0782b742883e2d6b45ba90fcd4b6",
+      "receipt_id": "de84abc544bf4d6b8c626f2dada29d2f",
+      "request_hash": "035f72550a08e0b782ca7620e945d2d8a09613532842f8f21fd3434b01bbef4f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“reasoning treated in exact logic as drawing conclusions through logical relations among terms… especially in forms that can be analyzed symbolically”) is not supported by the provided packet. The packet discusses Boole applying algebra to “deductive reasoning,” but it does not define deductive reasoning in those terms.",
+        "The definition’s second sentence (“In this historical source, it is presented as the kind of reasoning to which Boole applied algebraic methods.”) is only partially supported: the packet says Boole made a “wonderful application of ordinary algebra to the treatment of all deductive reasoning” under certain conditions, but it does not explicitly state the broader characterization given in the definition."
+      ],
+      "definition_hash": "62bd115da16afb74312fc61bb3a6272b2f2a0e8d2c0d02c17ddf583af6214e95",
+      "packet_hash": "36d550339a31b479e62c08830a7a57fbbf0d0782b742883e2d6b45ba90fcd4b6",
+      "published_packet_hash": "36d550339a31b479e62c08830a7a57fbbf0d0782b742883e2d6b45ba90fcd4b6",
+      "receipt_id": "39016c3034524ef0b9bf267ea45bbd64",
+      "request_hash": "469bbc10e07df96b79482d9278fff8c22f6d77ac8ff69392cb8915f6d33774e8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

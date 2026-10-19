@@ -27,5 +27,34 @@
     "definition_hash": "f2a9d8518f78232bb4107852ce04bc1823f48a91faf7c321005d5ea7379abb14",
     "packet_hash": "95baab1124d221ce6083223aa23aaee20244fe4ab5e07bb3893b43bc7e028de1"
   },
-  "hash": "e92ed4a4145daa1908ec9986d848d061d021f4ff5688f0b82bece7639e4b0244"
+  "hash": "e92ed4a4145daa1908ec9986d848d061d021f4ff5688f0b82bece7639e4b0244",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f2a9d8518f78232bb4107852ce04bc1823f48a91faf7c321005d5ea7379abb14",
+      "packet_hash": "95baab1124d221ce6083223aa23aaee20244fe4ab5e07bb3893b43bc7e028de1",
+      "published_packet_hash": "95baab1124d221ce6083223aa23aaee20244fe4ab5e07bb3893b43bc7e028de1",
+      "receipt_id": "ce757219d58243e6a26f9d4e4dc389e8",
+      "request_hash": "8e76c3a74b96e138befbfb3b4073629973458699da3bcf6b1ebd1a1656906b57",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims paralexia is a disorder of reading “especially of silent or internal reading,” but the packet only explicitly discusses “Reading to one’s self (internal reading)” being disordered; “silent” is not stated.",
+        "Because the packet does not explicitly mention “silent” reading, the added qualifier is not supported by the supplied source text."
+      ],
+      "definition_hash": "f2a9d8518f78232bb4107852ce04bc1823f48a91faf7c321005d5ea7379abb14",
+      "packet_hash": "95baab1124d221ce6083223aa23aaee20244fe4ab5e07bb3893b43bc7e028de1",
+      "published_packet_hash": "95baab1124d221ce6083223aa23aaee20244fe4ab5e07bb3893b43bc7e028de1",
+      "receipt_id": "2816c89cbb954a82a10186a4f7cba066",
+      "request_hash": "0aadac120c63c82ee30f77f472a182180388a535c84364c64ce73b4e8b8c6384",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

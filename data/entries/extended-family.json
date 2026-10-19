@@ -27,5 +27,34 @@
     "definition_hash": "5f180c63e87fa37f36a20464f3c4269bb2b13def49bbb628ae2aa88e44b570ea",
     "packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62"
   },
-  "hash": "75efb1976fea6d54d3679e99bccc58c2f22a92b9c5acf1071f03afd2fa22f6d4"
+  "hash": "75efb1976fea6d54d3679e99bccc58c2f22a92b9c5acf1071f03afd2fa22f6d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5f180c63e87fa37f36a20464f3c4269bb2b13def49bbb628ae2aa88e44b570ea",
+      "packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62",
+      "published_packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62",
+      "receipt_id": "ba49763b80fe43c088a62da4cf4ef30f",
+      "request_hash": "d0f0bfce8e8326e784dd1ef12db9cce253833882a6f8c836a3ecf5494be7f896",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only defines an extended family as “A household with members of at least three generations.” It does not specify that these people include “children, parents, and grandparents,” so the examples are unsupported.",
+        "The packet does not explicitly say “living together”; it only states “household,” which is similar but not the same wording, so the additional phrasing is not directly supported."
+      ],
+      "definition_hash": "5f180c63e87fa37f36a20464f3c4269bb2b13def49bbb628ae2aa88e44b570ea",
+      "packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62",
+      "published_packet_hash": "ad7bfe324671d8cbfe4a447e9ffb4dbe15c4b8664341362b1524040b85d09c62",
+      "receipt_id": "aa1187512d40444eb4ab074f823aecf7",
+      "request_hash": "7f26be050be1fe02e9302afef81fe1b16d7018dd8695a39e6dbaa2669ad28305",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

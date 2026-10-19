@@ -27,5 +27,37 @@
     "definition_hash": "995be66459483c06f346aa53a19a2497f0c1f10e7e78dc7d166a1b267173d241",
     "packet_hash": "cc9a59f85b8fc9dc70613cfa54bd9c9f2d737afda677c81bc7449b36e49931b7"
   },
-  "hash": "88a759864c25310093504983e85d570289aad4da30bd083325aadc3497bc33db"
+  "hash": "88a759864c25310093504983e85d570289aad4da30bd083325aadc3497bc33db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that Pearson’s correlation ranges from -1 (perfect negative) to +1 (perfect positive) and that it measures the strength of the linear relationship, but it does not explicitly define a positive relationship as “higher values of one go with higher values of the other.”",
+        "Because the definition’s first sentence includes that specific interpretation (directional ‘higher with higher’), that substantive claim is not directly supported by the provided packet."
+      ],
+      "definition_hash": "995be66459483c06f346aa53a19a2497f0c1f10e7e78dc7d166a1b267173d241",
+      "packet_hash": "cc9a59f85b8fc9dc70613cfa54bd9c9f2d737afda677c81bc7449b36e49931b7",
+      "published_packet_hash": "cc9a59f85b8fc9dc70613cfa54bd9c9f2d737afda677c81bc7449b36e49931b7",
+      "receipt_id": "1cb42d59fdd445dfadf719f2e966267d",
+      "request_hash": "55b573c4cb2ffb398af745358b75e2e3096f89077ae4ae3604ef4e8668ca19d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that +1 represents a perfect positive relationship, but it does not explicitly define a general positive relationship as a linear association where higher values of one variable go with higher values of the other.",
+        "The definition generalizes from the packet’s statement about perfect positive relationship to a broader definition of positive relationship without direct support."
+      ],
+      "definition_hash": "995be66459483c06f346aa53a19a2497f0c1f10e7e78dc7d166a1b267173d241",
+      "packet_hash": "cc9a59f85b8fc9dc70613cfa54bd9c9f2d737afda677c81bc7449b36e49931b7",
+      "published_packet_hash": "cc9a59f85b8fc9dc70613cfa54bd9c9f2d737afda677c81bc7449b36e49931b7",
+      "receipt_id": "4a75f6469c8b4cc6af7a2de495c49c76",
+      "request_hash": "0e1da2afdae121e300b53bd25effc551f3dfcb31ffdfe4d6b2fc93b1c061fc71",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

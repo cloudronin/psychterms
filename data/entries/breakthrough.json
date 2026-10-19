@@ -27,5 +27,38 @@
     "definition_hash": "f56556123ab60c7c6b0985d4f20956b37add1b923562a30e2048dbd7fd6d824f",
     "packet_hash": "9d3ba348cdf7181ff6b91e4e8dfd7762da858b3edfee80d55554a184f4ea6295"
   },
-  "hash": "fa00500fb4843ca6b63d4793f12b32a0286bbd817c5f9a480b26af123356b7b2"
+  "hash": "fa00500fb4843ca6b63d4793f12b32a0286bbd817c5f9a480b26af123356b7b2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet content for “breakthrough” explicitly refers to “breakthrough generalized seizures despite medical intervention,” which supports the seizure-based sense, but it does not support assigning this term to the field “cognition.”",
+        "The definition asserts the packet meaning as “generalized seizures” occurring “despite medical intervention,” which is supported, but the requested field mapping (“cognition”) is not supported by the packet text."
+      ],
+      "definition_hash": "f56556123ab60c7c6b0985d4f20956b37add1b923562a30e2048dbd7fd6d824f",
+      "packet_hash": "9d3ba348cdf7181ff6b91e4e8dfd7762da858b3edfee80d55554a184f4ea6295",
+      "published_packet_hash": "9d3ba348cdf7181ff6b91e4e8dfd7762da858b3edfee80d55554a184f4ea6295",
+      "receipt_id": "e99251e7873b4340b2b5b1bc4991856f",
+      "request_hash": "87a5dd342b6c7c4db46c42bc1942f8814b942c194ad146460df5194d6cff262c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the specific phrase “breakthrough generalized seizures despite medical intervention,” but not a standalone cognition sense for “breakthrough.”",
+        "The assigned field “cognition” is not defensible from the packet, which is about seizure-related adverse events/finding criteria rather than cognition.",
+        "The definition generalizes beyond the packet’s wording by treating the term as a broader symptom category instead of the narrower seizure phrase present in the source."
+      ],
+      "definition_hash": "f56556123ab60c7c6b0985d4f20956b37add1b923562a30e2048dbd7fd6d824f",
+      "packet_hash": "9d3ba348cdf7181ff6b91e4e8dfd7762da858b3edfee80d55554a184f4ea6295",
+      "published_packet_hash": "9d3ba348cdf7181ff6b91e4e8dfd7762da858b3edfee80d55554a184f4ea6295",
+      "receipt_id": "7924e6f146fa4cac9c7796ff6c30a909",
+      "request_hash": "8ceb8de96b696135bfe07f0071139fc8c67fb3c82e3a17b051b888362ddcbee5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

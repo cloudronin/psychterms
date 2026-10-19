@@ -27,5 +27,37 @@
     "definition_hash": "3977ba751a7d9eacffeb52c87dc2629c45ea163480626906ae99299a6070e32b",
     "packet_hash": "d0fb2a571f8eb7f0d270096f8c993dd1ddf2e682eb6e85307369a6117750717e"
   },
-  "hash": "84787927d68d4db7a3cc9b8309867b41b6fe1cf1fa411bb3855c8173a8da6fed"
+  "hash": "84787927d68d4db7a3cc9b8309867b41b6fe1cf1fa411bb3855c8173a8da6fed",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds “pressure,” which is not supported by the source text.",
+        "The wording “often marked by” introduces an unsupported frequency/typicality claim beyond the packet’s plain definition."
+      ],
+      "definition_hash": "3977ba751a7d9eacffeb52c87dc2629c45ea163480626906ae99299a6070e32b",
+      "packet_hash": "d0fb2a571f8eb7f0d270096f8c993dd1ddf2e682eb6e85307369a6117750717e",
+      "published_packet_hash": "d0fb2a571f8eb7f0d270096f8c993dd1ddf2e682eb6e85307369a6117750717e",
+      "receipt_id": "e341449752b949b4b096d2c4ecc49fc4",
+      "request_hash": "3d822e34db2a4940782608f797d0f9344778198995498087e92f85124a4f27f6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “mental or emotional strain” and “suspense,” but does not mention “pressure.”",
+        "The definition adds “often” to qualify how the sensation is marked; this frequency qualifier is not supported by the packet text."
+      ],
+      "definition_hash": "3977ba751a7d9eacffeb52c87dc2629c45ea163480626906ae99299a6070e32b",
+      "packet_hash": "d0fb2a571f8eb7f0d270096f8c993dd1ddf2e682eb6e85307369a6117750717e",
+      "published_packet_hash": "d0fb2a571f8eb7f0d270096f8c993dd1ddf2e682eb6e85307369a6117750717e",
+      "receipt_id": "ff122c3db30c4fb8bf84f68bded45107",
+      "request_hash": "b3b9c6bc6579498254418931cc454e56482a3c880dbd1ba60aa6341d2ff25aa2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

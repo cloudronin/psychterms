@@ -32,5 +32,22 @@
   },
   "editorial_status": "wording_review_pending",
   "editorial_note": "The eight-word explanatory clause is ordinary rewritable prose, not a fixed diagnostic or instrument name.",
-  "hash": "735479c3f1dfa7c85520a5bf252c3c9957897335faf1e96a7e091702424c175a"
+  "hash": "735479c3f1dfa7c85520a5bf252c3c9957897335faf1e96a7e091702424c175a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “threatening words may be misheard,” but the packet’s example specifies “obscene words are not heard correctly,” not threatening words specifically.",
+        "The remainder of the definition (“protects…from becoming aware of something unpleasant or threatening” and “violent acts…not seen accurately”) is consistent with the packet."
+      ],
+      "definition_hash": "3150ac93f026f985d46ce2612976339f8bba99f8bb0b659450c768d50746187d",
+      "packet_hash": "05830652205336b12e24823f72ae0eb22100cc99a688d056b9850caedcc1b1f1",
+      "published_packet_hash": "841caa5e136db51f86acb86e4616932b9f3dab8fad0a0be1705815a14cceec7c",
+      "receipt_id": "da19fa5566c4491b929380879b7c837c",
+      "request_hash": "415810d5ade52de9ae1ac8971a6e69c515be7fd736f8cb7c63a16ab3dce37284",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

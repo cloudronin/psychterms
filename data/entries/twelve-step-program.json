@@ -27,5 +27,33 @@
     "definition_hash": "87900d7db78ef3dbc006c9ee41c720cf69e3b05518f3821d63b0ee968555eb2a",
     "packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83"
   },
-  "hash": "e1d3f091bc338b54a3ccdfef1a2df7374d79462bc9e2621323a63c09aac00248"
+  "hash": "e1d3f091bc338b54a3ccdfef1a2df7374d79462bc9e2621323a63c09aac00248",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "87900d7db78ef3dbc006c9ee41c720cf69e3b05518f3821d63b0ee968555eb2a",
+      "packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83",
+      "published_packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83",
+      "receipt_id": "c5683b1226064b3da3cadf6378c1a07f",
+      "request_hash": "11f1350301958cc3809a87b945d9f5dc55e7c87ac14806e03ccc1c61d15dca18",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet characterizes the term as a \"Therapeutic or Preventive Procedure,\" whereas the requested field is \"cognition,\" and the packet provides no support linking this term to cognition specifically."
+      ],
+      "definition_hash": "87900d7db78ef3dbc006c9ee41c720cf69e3b05518f3821d63b0ee968555eb2a",
+      "packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83",
+      "published_packet_hash": "c8935b9fedb7fcfe0da29ab126d3feee289ca49306e72a85f8d56ac8a7f2cb83",
+      "receipt_id": "9d24d8a8ca6f4591a2b63e0975587b56",
+      "request_hash": "87c0ad56de4d60a1368265a00b0aa5060f4376b9c76fb21ef92cff8cc1008671",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

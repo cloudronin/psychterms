@@ -27,5 +27,34 @@
     "definition_hash": "65d966e2bb422339877e9e4aea9b87e7651976eab251bc2e3c7652edd7f952e0",
     "packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436"
   },
-  "hash": "ecb2a313ec76dd57f8153171e871138430a33b94f763cba62935bacfb25b4e5b"
+  "hash": "ecb2a313ec76dd57f8153171e871138430a33b94f763cba62935bacfb25b4e5b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "65d966e2bb422339877e9e4aea9b87e7651976eab251bc2e3c7652edd7f952e0",
+      "packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436",
+      "published_packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436",
+      "receipt_id": "c25d8ffddc72492b8ca4629e4080f0cf",
+      "request_hash": "ffca8a3d4516710478e8d398b88a336fec9d3da31d1ecaba123d407403dad579",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition provides pharmacologic indications (hypertension emergencies, pheochromocytoma, vasospasm, clonidine withdrawal syndrome, impotence, peripheral vascular disease) without any support that it pertains to mental health.",
+        "Because the provided source packet is a general medicine/drug descriptor and the definition is entirely medical, the requested field (“mental health”) is not defensible based on the packet."
+      ],
+      "definition_hash": "65d966e2bb422339877e9e4aea9b87e7651976eab251bc2e3c7652edd7f952e0",
+      "packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436",
+      "published_packet_hash": "3954da00d65313b9f0f8c28ee3cf5c0cce4cc7d4f03b2bbd97da8e818a124436",
+      "receipt_id": "db470c1a11a943d6a676a05a18d049e4",
+      "request_hash": "f388514943e767bbb7d3c76a4654f016fad87028cec4ee1bb3ae7390cee19a05",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

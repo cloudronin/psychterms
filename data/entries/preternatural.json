@@ -27,5 +27,34 @@
     "definition_hash": "40b79945ff89dff87c397c33bb7a2f60d99800842407836bc706bc0ed7511985",
     "packet_hash": "d0c4dc2302e89d4bad0c4e839acb083e9f944c376e6b723fccfee5ba15822c75"
   },
-  "hash": "e68226b4ac89efc7a0f4b0159360b468ff3fb1ccb04743c91ea851e5db42cddd"
+  "hash": "e68226b4ac89efc7a0f4b0159360b468ff3fb1ccb04743c91ea851e5db42cddd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "40b79945ff89dff87c397c33bb7a2f60d99800842407836bc706bc0ed7511985",
+      "packet_hash": "d0c4dc2302e89d4bad0c4e839acb083e9f944c376e6b723fccfee5ba15822c75",
+      "published_packet_hash": "d0c4dc2302e89d4bad0c4e839acb083e9f944c376e6b723fccfee5ba15822c75",
+      "receipt_id": "957b506130bc4e59abff5f055369b81c",
+      "request_hash": "90caeaabeba00731c70ca8ef400978f78d62e3d006303f32b16fae91b5f438fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines “Apparition” as “An unusual, marvellous, or preternatural appearance or phenomenon,” but it does not state that “preternatural” means “beyond the usual course of things.”",
+        "The definition’s first clause (“regarded as beyond the usual course of things”) is an unsupported generalization not present in the provided source packet."
+      ],
+      "definition_hash": "40b79945ff89dff87c397c33bb7a2f60d99800842407836bc706bc0ed7511985",
+      "packet_hash": "d0c4dc2302e89d4bad0c4e839acb083e9f944c376e6b723fccfee5ba15822c75",
+      "published_packet_hash": "d0c4dc2302e89d4bad0c4e839acb083e9f944c376e6b723fccfee5ba15822c75",
+      "receipt_id": "55a58d920eb34a51bfbadad2f02ca35c",
+      "request_hash": "4309d2407eb6c22efe19a93d2df247d86466d1d542c5ecfe564d3d9f35339d00",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

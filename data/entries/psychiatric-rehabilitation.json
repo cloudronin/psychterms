@@ -27,5 +27,33 @@
     "definition_hash": "dfa78ae0b09827f04677c557d9ac68c24ebc0a0f48d49181e593178e2765424b",
     "packet_hash": "e1bf904622ac49c769525b421ef70344216f7c8197db6cec49a67bd34280bb2b"
   },
-  "hash": "6cc0fa8e01fcb529227f58b3133e0d4c54847f87bb9425f09ce3b62e408d415b"
+  "hash": "6cc0fa8e01fcb529227f58b3133e0d4c54847f87bb9425f09ce3b62e408d415b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dfa78ae0b09827f04677c557d9ac68c24ebc0a0f48d49181e593178e2765424b",
+      "packet_hash": "e1bf904622ac49c769525b421ef70344216f7c8197db6cec49a67bd34280bb2b",
+      "published_packet_hash": "e1bf904622ac49c769525b421ef70344216f7c8197db6cec49a67bd34280bb2b",
+      "receipt_id": "dba14a5d7dc74692ac9eefc0786a129e",
+      "request_hash": "75b4808466fba77faff0bad6be2fc38ffe8111ca1457290ca8daaa7d60da51fe",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes “Psychiatric Rehabilitation” as a specialty field (“Specialty field…”) rather than a diagnosis, while the provided field is “diagnosis.”"
+      ],
+      "definition_hash": "dfa78ae0b09827f04677c557d9ac68c24ebc0a0f48d49181e593178e2765424b",
+      "packet_hash": "e1bf904622ac49c769525b421ef70344216f7c8197db6cec49a67bd34280bb2b",
+      "published_packet_hash": "e1bf904622ac49c769525b421ef70344216f7c8197db6cec49a67bd34280bb2b",
+      "receipt_id": "554f95b756a44df3a72a8a4f49bb8383",
+      "request_hash": "f88c361df1fcd202d33f6200b5242d6c1b253c4fe014b3b7db7e256dfff17227",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

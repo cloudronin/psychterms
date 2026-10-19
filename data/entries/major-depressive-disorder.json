@@ -27,5 +27,37 @@
     "definition_hash": "8fb330ba9bf364a974679bf7949b016cb21bbb188fb4f54bb312783b87af836a",
     "packet_hash": "f565e1993a71b6bc8e184bedab20bcd32e6990a20290f09d26877b80f1d8852b"
   },
-  "hash": "ced92080c916358826f3eac168ff1b0744d89bb8dc8de949af657139a2898384"
+  "hash": "ced92080c916358826f3eac168ff1b0744d89bb8dc8de949af657139a2898384",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition omits a key criterion in the packet: the disorder requires five or more symptoms during the same 2-week period, not just a 2-week period with some listed symptoms.",
+        "The symptom list is only partly supported as written because the packet specifies additional qualifying frequency/threshold wording (for example, nearly every day for several symptoms), which the definition leaves out."
+      ],
+      "definition_hash": "8fb330ba9bf364a974679bf7949b016cb21bbb188fb4f54bb312783b87af836a",
+      "packet_hash": "f565e1993a71b6bc8e184bedab20bcd32e6990a20290f09d26877b80f1d8852b",
+      "published_packet_hash": "f565e1993a71b6bc8e184bedab20bcd32e6990a20290f09d26877b80f1d8852b",
+      "receipt_id": "360944f6b8d24b82a78280d9fd513ddc",
+      "request_hash": "429ef0c6677c5b326d11260f8304e2bcf1ad40fbb01f3eab6e0cc53ba547b59b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that the disorder requires “five (or more) of the following symptoms” during the same 2-week period, but the definition does not include this requirement (it only requires at least two weeks with depressed mood or loss of interest/pleasure).",
+        "The packet’s symptom descriptions include frequency qualifiers (e.g., “most of the day, nearly every day”), whereas the definition summarizes symptoms more generally without matching those qualifiers—making it less defensible relative to the packet."
+      ],
+      "definition_hash": "8fb330ba9bf364a974679bf7949b016cb21bbb188fb4f54bb312783b87af836a",
+      "packet_hash": "f565e1993a71b6bc8e184bedab20bcd32e6990a20290f09d26877b80f1d8852b",
+      "published_packet_hash": "f565e1993a71b6bc8e184bedab20bcd32e6990a20290f09d26877b80f1d8852b",
+      "receipt_id": "071abf0c47a1473184f2f42ef1c3ffa2",
+      "request_hash": "45df1e6ca4eb2251b1f7c320d90408168181f05eac9511d75d64584c8cf748f4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

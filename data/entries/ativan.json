@@ -27,5 +27,34 @@
     "definition_hash": "c1a56a3c772e59a5c6b493b8eee2814a775acbfce70c5243f372390ba496c0e6",
     "packet_hash": "b975b7d92a243871e070874cc6d95aa05529b932530e63a948d7e512028d2418"
   },
-  "hash": "07f41db816f22c4174822ce0aab15f96c6f96eeef252728d6a74dd395b763c20"
+  "hash": "07f41db816f22c4174822ce0aab15f96c6f96eeef252728d6a74dd395b763c20",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c1a56a3c772e59a5c6b493b8eee2814a775acbfce70c5243f372390ba496c0e6",
+      "packet_hash": "b975b7d92a243871e070874cc6d95aa05529b932530e63a948d7e512028d2418",
+      "published_packet_hash": "b975b7d92a243871e070874cc6d95aa05529b932530e63a948d7e512028d2418",
+      "receipt_id": "18a001a93a5f497a9a9c71952e7400d8",
+      "request_hash": "f194356a090a0875af2bcdaeae111763cd8f32f58fbafcb740e04c356edce2fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports lorazepam as a benzodiazepine with anxiolytic, anticonvulsant, anti-emetic, and sedative properties, but it does not support the claim that Ativan is a brand name for lorazepam.",
+        "The definition adds a brand-name/synonym relation that is not stated in the supplied source text, so the requested sense is not fully supported by the packet."
+      ],
+      "definition_hash": "c1a56a3c772e59a5c6b493b8eee2814a775acbfce70c5243f372390ba496c0e6",
+      "packet_hash": "b975b7d92a243871e070874cc6d95aa05529b932530e63a948d7e512028d2418",
+      "published_packet_hash": "b975b7d92a243871e070874cc6d95aa05529b932530e63a948d7e512028d2418",
+      "receipt_id": "27ec0e3b4b5b4cf38060572c10094c3d",
+      "request_hash": "03561ba7db6c110254e78d28da235ca170de9c16fc7e3748311a502c211edeb5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

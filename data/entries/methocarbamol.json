@@ -27,5 +27,33 @@
     "definition_hash": "243feeb114b97e9a2ed130eef81c13e2f9a818784490ab32dc68f051121cbf50",
     "packet_hash": "23e8c325f559f9e992ec69ead80cb1615a82e9820e358b8ac74a01ca4bbce6f3"
   },
-  "hash": "d3421b5999fddb4b65daba191f8129c826b763e937dec2482021ecdbd8dd26d0"
+  "hash": "d3421b5999fddb4b65daba191f8129c826b763e937dec2482021ecdbd8dd26d0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "243feeb114b97e9a2ed130eef81c13e2f9a818784490ab32dc68f051121cbf50",
+      "packet_hash": "23e8c325f559f9e992ec69ead80cb1615a82e9820e358b8ac74a01ca4bbce6f3",
+      "published_packet_hash": "23e8c325f559f9e992ec69ead80cb1615a82e9820e358b8ac74a01ca4bbce6f3",
+      "receipt_id": "8c7f1b80fbb8425c8a689e6d9d5d4618",
+      "request_hash": "b85ea48ed51410b41632ef6fb53831aca6c7d86528243dba448997529f053337",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet specifies inhibition of acetylcholinesterase (“inhibition of acetylcholinesterase”), but the definition generalizes this to “cholinesterase inhibition,” which is not directly supported by the provided source text."
+      ],
+      "definition_hash": "243feeb114b97e9a2ed130eef81c13e2f9a818784490ab32dc68f051121cbf50",
+      "packet_hash": "23e8c325f559f9e992ec69ead80cb1615a82e9820e358b8ac74a01ca4bbce6f3",
+      "published_packet_hash": "23e8c325f559f9e992ec69ead80cb1615a82e9820e358b8ac74a01ca4bbce6f3",
+      "receipt_id": "1f9ef5c476174adc9b5633efd997a059",
+      "request_hash": "8d885a0ee0389facc4fb71ca61b551ba2574b2bd30a0c89de0f82b7fdb4911c1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

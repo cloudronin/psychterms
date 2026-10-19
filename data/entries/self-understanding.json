@@ -27,5 +27,39 @@
     "definition_hash": "1cfa25438b1ab1f747f67bd7df82ef38f6f2b46dec596ad28ba56fcc19ff5bbc",
     "packet_hash": "48ac5bfdf054ece6353651584ac1305fa1205b119cfe86499ead01837e6466f2"
   },
-  "hash": "76ea5a1d4e5f8e237a8bd4681d4a287ffbac6eaf1aec84915413dc18a15bbde6"
+  "hash": "76ea5a1d4e5f8e237a8bd4681d4a287ffbac6eaf1aec84915413dc18a15bbde6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is a MeSH descriptor for “Psychotherapy, Psychodynamic,” not a definition of the term “self-understanding,” so the requested sense is not supported.",
+        "The definition adds specific claims about “inner motives, reactions, and patterns of meaning” and “influences outside conscious awareness” that are not stated in the packet.",
+        "“In psychodynamic work” is broader and more specific than the packet’s wording; the packet supports only that psychodynamic psychotherapy places a premium on self-understanding and making meaning of what is unconscious."
+      ],
+      "definition_hash": "1cfa25438b1ab1f747f67bd7df82ef38f6f2b46dec596ad28ba56fcc19ff5bbc",
+      "packet_hash": "48ac5bfdf054ece6353651584ac1305fa1205b119cfe86499ead01837e6466f2",
+      "published_packet_hash": "48ac5bfdf054ece6353651584ac1305fa1205b119cfe86499ead01837e6466f2",
+      "receipt_id": "0244b2dd6e904097bf9ef5ce1f0dfe11",
+      "request_hash": "4a6beede9cdc0a3ade43cac2f8c07f4c1bc520a08402bdbd2d13ab12f122a01c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that self-understanding involves “clearer awareness” of “inner motives, reactions, and patterns of meaning,” but the packet only states that psychodynamic/psychoanalytic psychotherapy has a “premium on self understanding and making meaning of what is unconscious,” without detailing motives/reactions/patterns of meaning.",
+        "The definition states that this includes “influences outside conscious awareness.” The packet supports reacting to “unconscious forces” but does not explicitly phrase self-understanding as including influences “outside conscious awareness.”",
+        "The definition’s first sentence contains substantive specifics not present in the packet; only the general link between self-understanding and making meaning of what is unconscious is supported."
+      ],
+      "definition_hash": "1cfa25438b1ab1f747f67bd7df82ef38f6f2b46dec596ad28ba56fcc19ff5bbc",
+      "packet_hash": "48ac5bfdf054ece6353651584ac1305fa1205b119cfe86499ead01837e6466f2",
+      "published_packet_hash": "48ac5bfdf054ece6353651584ac1305fa1205b119cfe86499ead01837e6466f2",
+      "receipt_id": "5fff76196f70472a8092cd33398acef9",
+      "request_hash": "2f21c8db7178ad685cede590b55c7d042dca9e91900ac3dfab72001ce1e81bb5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

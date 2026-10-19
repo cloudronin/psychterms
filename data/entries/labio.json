@@ -27,5 +27,34 @@
     "definition_hash": "751c9c3da1febb1108698023057869d5dda0d0f76f62b3fd854f653b5689371b",
     "packet_hash": "2f42cea0c20a1312e89c2e4dc79230da7c9e393277909d35c517b10ff0b3a970"
   },
-  "hash": "93228a1cd065f9d0eb2206953f724724f0e08a70384089a9f89ca10fb0d9496e"
+  "hash": "93228a1cd065f9d0eb2206953f724724f0e08a70384089a9f89ca10fb0d9496e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "751c9c3da1febb1108698023057869d5dda0d0f76f62b3fd854f653b5689371b",
+      "packet_hash": "2f42cea0c20a1312e89c2e4dc79230da7c9e393277909d35c517b10ff0b3a970",
+      "published_packet_hash": "2f42cea0c20a1312e89c2e4dc79230da7c9e393277909d35c517b10ff0b3a970",
+      "receipt_id": "76b982bc8d6f45d09abc2b2514965d57",
+      "request_hash": "b14066312ff7285780da7da99de30dd0331a06ba57bbf447f8ce8b45d8a17cda",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “labio-” as a prefix; it only discusses “labials” and “labio-dentals” in phonetic classification (“labials by articulation of lips” and “labio-dentals by that of lower lip and uppe[r] teeth”), so the “prefix referring to the lips” claim is not directly supported.",
+        "The remainder of the definition largely aligns with the packet’s descriptions (lips/lower lip with upper teeth), but the unsupported “prefix” framing is a substantive issue for pass criteria."
+      ],
+      "definition_hash": "751c9c3da1febb1108698023057869d5dda0d0f76f62b3fd854f653b5689371b",
+      "packet_hash": "2f42cea0c20a1312e89c2e4dc79230da7c9e393277909d35c517b10ff0b3a970",
+      "published_packet_hash": "2f42cea0c20a1312e89c2e4dc79230da7c9e393277909d35c517b10ff0b3a970",
+      "receipt_id": "0fbdb64bb88a46349d6eca0a5ff08de2",
+      "request_hash": "85a88b9d099e06f5ff29999b34f1eb5cd89bb6c98b911ff51d5227c9190e49e9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

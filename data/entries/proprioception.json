@@ -27,5 +27,33 @@
     "definition_hash": "a1baca567911492551607ad280bee206faf754f72d4888596856b882d342ca4f",
     "packet_hash": "38546681aef83c7b5cbab6edebc5802090b17dbb283ec5a6f2f9212d34218bda"
   },
-  "hash": "40d6ebde9a032f100eb9a49e0416e2d67e91be44ada49d91dbba9e5f718cf1ad"
+  "hash": "40d6ebde9a032f100eb9a49e0416e2d67e91be44ada49d91dbba9e5f718cf1ad",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a1baca567911492551607ad280bee206faf754f72d4888596856b882d342ca4f",
+      "packet_hash": "38546681aef83c7b5cbab6edebc5802090b17dbb283ec5a6f2f9212d34218bda",
+      "published_packet_hash": "38546681aef83c7b5cbab6edebc5802090b17dbb283ec5a6f2f9212d34218bda",
+      "receipt_id": "8a109781a8d542ad9362acf0b12bb2c4",
+      "request_hash": "4fb603688154974b5a70bf84daf76c548a1adea74b6c8e2b2356932ebb29cc0e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims proprioception \"help[s] support movement awareness.\" The packet instead states it is important in maintaining \"KINESTHESIA\" (movement-related awareness), but the exact notion of \"movement awareness\" is not explicitly stated."
+      ],
+      "definition_hash": "a1baca567911492551607ad280bee206faf754f72d4888596856b882d342ca4f",
+      "packet_hash": "38546681aef83c7b5cbab6edebc5802090b17dbb283ec5a6f2f9212d34218bda",
+      "published_packet_hash": "38546681aef83c7b5cbab6edebc5802090b17dbb283ec5a6f2f9212d34218bda",
+      "receipt_id": "5b06dda1ec5240faadecc969348a4ed7",
+      "request_hash": "cf9dd48ba322e72ea2d966ef892c5578079973152b8bacc6c19ec19926f3752c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

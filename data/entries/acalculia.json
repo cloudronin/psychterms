@@ -27,5 +27,34 @@
     "definition_hash": "7dbb19521c7195dc67f2e1462267598e087f6e343ea9d80668db5a0476c811e2",
     "packet_hash": "d92a48c3e25a886be34eb4b11f86feeebec297ab0b5079d92d126113f89b9991"
   },
-  "hash": "0a91e6b3cb122c08faec37beaba64bf0aa3bfa6b489d0ba23a26a1e2834238d4"
+  "hash": "0a91e6b3cb122c08faec37beaba64bf0aa3bfa6b489d0ba23a26a1e2834238d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7dbb19521c7195dc67f2e1462267598e087f6e343ea9d80668db5a0476c811e2",
+      "packet_hash": "d92a48c3e25a886be34eb4b11f86feeebec297ab0b5079d92d126113f89b9991",
+      "published_packet_hash": "d92a48c3e25a886be34eb4b11f86feeebec297ab0b5079d92d126113f89b9991",
+      "receipt_id": "0e111bd980a04afab7383ee6f1de857b",
+      "request_hash": "eb316df2c5f75316f6f1b577a9d976c6ed4a85a18e3139cfd9f8e8174267439d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition adds the claim that the impairment “develops after the skill was previously present,” which is not stated in the packet text (the packet only says “acquired impairment” and does not specify prior intact skill).",
+        "Because the packet does not support the “previously present”/onset-after-presence condition, the definition’s substantive claim cannot be fully justified from the supplied source."
+      ],
+      "definition_hash": "7dbb19521c7195dc67f2e1462267598e087f6e343ea9d80668db5a0476c811e2",
+      "packet_hash": "d92a48c3e25a886be34eb4b11f86feeebec297ab0b5079d92d126113f89b9991",
+      "published_packet_hash": "d92a48c3e25a886be34eb4b11f86feeebec297ab0b5079d92d126113f89b9991",
+      "receipt_id": "7f74c3e9c20046e98788c068062a8d3b",
+      "request_hash": "a61f4efe37a4baab6f517363c9c0eda3b26b3e9632a691eda57442082771eb23",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

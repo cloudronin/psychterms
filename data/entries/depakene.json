@@ -27,5 +27,33 @@
     "definition_hash": "d69bda3acd4cf25ee3083db034ea2788097ee097b4dbaa8ce5ff5b69cb0061b1",
     "packet_hash": "e658626159399ea56a486ed97740f728ad6eff2653b519395ecff7f3d619e646"
   },
-  "hash": "b0ee07e91a7c57fdb19fcb146a3e7d387d81f5fa516e59c72038d7d11d0d19b2"
+  "hash": "b0ee07e91a7c57fdb19fcb146a3e7d387d81f5fa516e59c72038d7d11d0d19b2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d69bda3acd4cf25ee3083db034ea2788097ee097b4dbaa8ce5ff5b69cb0061b1",
+      "packet_hash": "e658626159399ea56a486ed97740f728ad6eff2653b519395ecff7f3d619e646",
+      "published_packet_hash": "e658626159399ea56a486ed97740f728ad6eff2653b519395ecff7f3d619e646",
+      "receipt_id": "6f9a7b7ad200494283bc04ecdd57bafd",
+      "request_hash": "ba9362095c4d3ed85cb85a077eb9ec6a3e42f83c5066c1d980a7f9a5ecfe2c5b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states: “Depakene is valproic acid.” The provided packet text describes Depakene as “a synthetic derivative of propylpentanoic acid” with antiepileptic and potential antineoplastic/antiangiogenesis activities, and its source label is “Valproic Acid,” but it does not explicitly assert that Depakene *is* valproic acid. This specific identity claim is therefore not directly supported by the packet."
+      ],
+      "definition_hash": "d69bda3acd4cf25ee3083db034ea2788097ee097b4dbaa8ce5ff5b69cb0061b1",
+      "packet_hash": "e658626159399ea56a486ed97740f728ad6eff2653b519395ecff7f3d619e646",
+      "published_packet_hash": "e658626159399ea56a486ed97740f728ad6eff2653b519395ecff7f3d619e646",
+      "receipt_id": "a63d2e8cdb8f4d82930c34e0e5ac0bf3",
+      "request_hash": "2be465ff850c99790de1bf58138cee9eb86700433c60d069554c0c629487a1f2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

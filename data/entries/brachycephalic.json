@@ -27,5 +27,35 @@
     "definition_hash": "f8361f3183b22e3e74d782424b49a13e4f2bfb7cd9918cc20deb585130daba1e",
     "packet_hash": "51b0b92bd1dff280759957869534a484c616516050d2b6acb469d5bced615aa9"
   },
-  "hash": "39bf1430d7ebb8b608c70c84ec0d29b2bed03cc4a7a788d552d820d43b1fbed0"
+  "hash": "39bf1430d7ebb8b608c70c84ec0d29b2bed03cc4a7a788d552d820d43b1fbed0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f8361f3183b22e3e74d782424b49a13e4f2bfb7cd9918cc20deb585130daba1e",
+      "packet_hash": "51b0b92bd1dff280759957869534a484c616516050d2b6acb469d5bced615aa9",
+      "published_packet_hash": "51b0b92bd1dff280759957869534a484c616516050d2b6acb469d5bced615aa9",
+      "receipt_id": "faf408cf1b64469dba23d574f534cbb2",
+      "request_hash": "98db7007ba8f72c2ed079d9ca1174b2e8abdf08f50676b376bfee308bf775664",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet provided is the definition entry for “Dolichocephalic,” not “brachycephalic.”",
+        "The packet only states that dolichocephalic is “the opposite of BRACHYCEPHALIC,” but it does not define what “brachycephalic” means (e.g., it does not describe “short-headed” or the breadth-to-length comparison).",
+        "The packet gives cephalic-index ranges for dolichocephalic (e.g., usually less than 75:100), but it provides no corresponding threshold or description for brachycephalic, so the definition’s descriptive claims are not supported by the packet."
+      ],
+      "definition_hash": "f8361f3183b22e3e74d782424b49a13e4f2bfb7cd9918cc20deb585130daba1e",
+      "packet_hash": "51b0b92bd1dff280759957869534a484c616516050d2b6acb469d5bced615aa9",
+      "published_packet_hash": "51b0b92bd1dff280759957869534a484c616516050d2b6acb469d5bced615aa9",
+      "receipt_id": "77c11aea8bdb474eacbd160d04d019bf",
+      "request_hash": "4fa3a558fb8f779d6cb172f390f5f064ae5d9c9118d396314429228c2088b9db",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

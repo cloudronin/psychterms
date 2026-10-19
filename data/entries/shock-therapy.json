@@ -27,5 +27,35 @@
     "definition_hash": "2d45b774988e4970989d411fb16e1f5b15de80616f766a74cdbee90874eef62a",
     "packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c"
   },
-  "hash": "75366d493ad321509aa8469845657c129d846d30c5bcfcfe689c021acc6d186a"
+  "hash": "75366d493ad321509aa8469845657c129d846d30c5bcfcfe689c021acc6d186a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2d45b774988e4970989d411fb16e1f5b15de80616f766a74cdbee90874eef62a",
+      "packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c",
+      "published_packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c",
+      "receipt_id": "908770b25ee1438c98cd80af19b3baf3",
+      "request_hash": "5822fee6471a5e07dac1be56cc0db133676efa64edaf5645d9e170b67d4c2bfb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet describes “Convulsive Therapy” (a treatment), not a diagnosis; the provided field is “diagnosis,” which is not defensible given the packet content.",
+        "The definition uses the phrase “severe mood disorders,” while the packet specifies “severe affective disorders”; this is close but not an exact match to the packet wording.",
+        "The definition is labeled “Shock therapy,” but the packet entry is explicitly titled “Convulsive Therapy”; the packet does not directly substantiate the term “shock therapy” as the same sense."
+      ],
+      "definition_hash": "2d45b774988e4970989d411fb16e1f5b15de80616f766a74cdbee90874eef62a",
+      "packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c",
+      "published_packet_hash": "8b7d738a73d993f5ffd20d2c977b90d72b0edfd55c251a6071ed68cb8720b08c",
+      "receipt_id": "3964e8f2fe38421eaaa7af1e892f7b6f",
+      "request_hash": "408c59df4f7660055b4e4cb7734788858eecc0d090084888f0506b349630045a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "241735b42b209888a74166f86a6c43ca22b81a032e15a64a746bdced827f29ac",
     "packet_hash": "40a4e7502135156344c6b27d2d396c5275e97e9f02012b65aa4bb8d46deaa043"
   },
-  "hash": "21488ea15fd104a813561ec2113ad4ff58adecd8443ba4cc9c3a5b70e4497514"
+  "hash": "21488ea15fd104a813561ec2113ad4ff58adecd8443ba4cc9c3a5b70e4497514",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "241735b42b209888a74166f86a6c43ca22b81a032e15a64a746bdced827f29ac",
+      "packet_hash": "40a4e7502135156344c6b27d2d396c5275e97e9f02012b65aa4bb8d46deaa043",
+      "published_packet_hash": "40a4e7502135156344c6b27d2d396c5275e97e9f02012b65aa4bb8d46deaa043",
+      "receipt_id": "90aa68d0890a499299b786477137f764",
+      "request_hash": "abac4ab1642eaf24e6fe50574f4f54143e040597e553028b03e0b0c74321247d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “RBD … also called an RNA recognition motif.” The packet does not explicitly state that “RBD” is also known by the name “RNA recognition motif”; it only shows “source_label: RNA Recognition Motif” alongside the broader concept.",
+        "Other elements (RNA binding domain/role in mediating interaction with RNAs; protein region that helps attach to RNA) are supported by the packet."
+      ],
+      "definition_hash": "241735b42b209888a74166f86a6c43ca22b81a032e15a64a746bdced827f29ac",
+      "packet_hash": "40a4e7502135156344c6b27d2d396c5275e97e9f02012b65aa4bb8d46deaa043",
+      "published_packet_hash": "40a4e7502135156344c6b27d2d396c5275e97e9f02012b65aa4bb8d46deaa043",
+      "receipt_id": "a2be0593f63b4c459c44aa0ecee2e05d",
+      "request_hash": "b6b340a4da4bd92a9d7d40d57a06d47ce22d7d86cf311c2ccebd6221a20933fe",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

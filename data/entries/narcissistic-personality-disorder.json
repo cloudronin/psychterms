@@ -27,5 +27,34 @@
     "definition_hash": "a7297b163be608b3a5d3b9857b1dacbccfddddff889c63f4a2300430c03e71ac",
     "packet_hash": "cf808ae16792471c685f35c09b5abaaa6bb0e0e6c19ccdf54d799669ed99d5a7"
   },
-  "hash": "0d4f20f8f77c7c1bfbe445e9fb994675eb6e955d66286351463a40b8330b2c73"
+  "hash": "0d4f20f8f77c7c1bfbe445e9fb994675eb6e955d66286351463a40b8330b2c73",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a7297b163be608b3a5d3b9857b1dacbccfddddff889c63f4a2300430c03e71ac",
+      "packet_hash": "cf808ae16792471c685f35c09b5abaaa6bb0e0e6c19ccdf54d799669ed99d5a7",
+      "published_packet_hash": "cf808ae16792471c685f35c09b5abaaa6bb0e0e6c19ccdf54d799669ed99d5a7",
+      "receipt_id": "5b747c3007794a5181724175fe7139b9",
+      "request_hash": "171b3238b37929016dc75ecee8908efff5f68a82ea1f6f1531e5971edef5b602",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states “A pattern of grandiosity, need for admiration, and lack of empathy,” but the definition adds “ongoing” (not explicitly supported by the packet text provided).",
+        "The packet says “lack of empathy,” while the definition says “limited empathy”; the match is close, but “limited” is not the same wording or explicitly supported by the packet."
+      ],
+      "definition_hash": "a7297b163be608b3a5d3b9857b1dacbccfddddff889c63f4a2300430c03e71ac",
+      "packet_hash": "cf808ae16792471c685f35c09b5abaaa6bb0e0e6c19ccdf54d799669ed99d5a7",
+      "published_packet_hash": "cf808ae16792471c685f35c09b5abaaa6bb0e0e6c19ccdf54d799669ed99d5a7",
+      "receipt_id": "8b7561c66843435cabfb305c25a3b264",
+      "request_hash": "4e2d5530ceba5dba8a4bc5829d4e3d4a4f902c56d84df96011cfeb9edcc8fae6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

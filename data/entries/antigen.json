@@ -27,5 +27,37 @@
     "definition_hash": "6a0ba6de9db218a4143dfcecdadff09c5c74f1c42691dd2520d15ac399ff4feb",
     "packet_hash": "377eca2f15e24709aa5e7ae8cb898f945c1532b5e646d16cde36376bda24cd57"
   },
-  "hash": "1c422eed264f9de1759a6053d57bdcb62b688001e919beffab9cc0369b0001be"
+  "hash": "1c422eed264f9de1759a6053d57bdcb62b688001e919beffab9cc0369b0001be",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: this is an immunology/biomedical term, not a cognition psychology/counselling sense.",
+        "The definition is otherwise broadly supported by the packet, but the field mismatch is enough to reject it under the requested scope."
+      ],
+      "definition_hash": "6a0ba6de9db218a4143dfcecdadff09c5c74f1c42691dd2520d15ac399ff4feb",
+      "packet_hash": "377eca2f15e24709aa5e7ae8cb898f945c1532b5e646d16cde36376bda24cd57",
+      "published_packet_hash": "377eca2f15e24709aa5e7ae8cb898f945c1532b5e646d16cde36376bda24cd57",
+      "receipt_id": "45f057e4fd894e7da354eeaffbe4cf75",
+      "request_hash": "3dd7fb9b6e4111977e03f70569ce1bb8b71978cd5e809db590cc407c1b695f4a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes an immunological concept (stimulates immune system; T- and B-lymphocyte responses), but it provides no support for treating “antigen” as a term in the psychology/counselling field labeled “cognition.”",
+        "Because the field justification is not supported by the packet, the definition is not defensible within the requested field."
+      ],
+      "definition_hash": "6a0ba6de9db218a4143dfcecdadff09c5c74f1c42691dd2520d15ac399ff4feb",
+      "packet_hash": "377eca2f15e24709aa5e7ae8cb898f945c1532b5e646d16cde36376bda24cd57",
+      "published_packet_hash": "377eca2f15e24709aa5e7ae8cb898f945c1532b5e646d16cde36376bda24cd57",
+      "receipt_id": "de16d1d1cdd943ba94fcd1e5ab819132",
+      "request_hash": "924cff7df8ddcc468f34807aa5fee0063d1d953699f1b2299410954e5eacc640",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

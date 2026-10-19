@@ -27,5 +27,33 @@
     "definition_hash": "5c26dc9407a718bdc57335f789bb2fabbb6787ebcf3857b87579582018b39ad6",
     "packet_hash": "db755dfa80ddfc2aa390d5468b615c6ad8a1d2756045d665827dadf11ba86a25"
   },
-  "hash": "8a0e6c962b8763ec0e557d38e63eed7f02b76b3d3fb046241e6651fcdfcbb6a5"
+  "hash": "8a0e6c962b8763ec0e557d38e63eed7f02b76b3d3fb046241e6651fcdfcbb6a5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5c26dc9407a718bdc57335f789bb2fabbb6787ebcf3857b87579582018b39ad6",
+      "packet_hash": "db755dfa80ddfc2aa390d5468b615c6ad8a1d2756045d665827dadf11ba86a25",
+      "published_packet_hash": "db755dfa80ddfc2aa390d5468b615c6ad8a1d2756045d665827dadf11ba86a25",
+      "receipt_id": "5829b03df5754cfe85e5df1423bead65",
+      "request_hash": "3553739135e66fd92091c56f4517c66be29f1d66f1e804472130d917ed59769b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet defines “scanning” as a radionuclide diagnostic imaging procedure (cancer growth, trauma, infection, degenerative disorders), but the requested field is “mental health,” and the packet does not support any mental-health-specific meaning for this term."
+      ],
+      "definition_hash": "5c26dc9407a718bdc57335f789bb2fabbb6787ebcf3857b87579582018b39ad6",
+      "packet_hash": "db755dfa80ddfc2aa390d5468b615c6ad8a1d2756045d665827dadf11ba86a25",
+      "published_packet_hash": "db755dfa80ddfc2aa390d5468b615c6ad8a1d2756045d665827dadf11ba86a25",
+      "receipt_id": "8cff8801c6904767ae651804992df506",
+      "request_hash": "30c68cce95ba462f0b289b97a7d121e3ffc6aaaa21353b75094fbcdf434636fe",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

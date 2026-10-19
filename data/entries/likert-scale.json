@@ -27,5 +27,35 @@
     "definition_hash": "5efd0658c130f358898166aaff8310498e70cb62b204f3cc4b3e2bf12f398ed5",
     "packet_hash": "e07be669b0f8a303fb2739e02371fec38bcba2918a9bb9add44e6d2cd0926c35"
   },
-  "hash": "e5b30e930e964c536bdba28485dc26728d7e12a0691efd770f41c3d994e569a6"
+  "hash": "e5b30e930e964c536bdba28485dc26728d7e12a0691efd770f41c3d994e569a6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5efd0658c130f358898166aaff8310498e70cb62b204f3cc4b3e2bf12f398ed5",
+      "packet_hash": "e07be669b0f8a303fb2739e02371fec38bcba2918a9bb9add44e6d2cd0926c35",
+      "published_packet_hash": "e07be669b0f8a303fb2739e02371fec38bcba2918a9bb9add44e6d2cd0926c35",
+      "receipt_id": "0f0d8559d207463d97ad52424cbbd938",
+      "request_hash": "cda7f058057d79af4c9f87fb5432406372289f08bfc113ad273a5cf6fd72fa3d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that a Likert scale is “based on graded response options.”",
+        "The packet states it measures opinion with agreement/disagreement ratings, but does not explicitly support “attitudes” as the intended target of measurement.",
+        "The definition adds wording (“rating format often used…measure attitudes or opinions”) beyond what is explicitly present in the packet, so the additional substantive framing is not fully supported."
+      ],
+      "definition_hash": "5efd0658c130f358898166aaff8310498e70cb62b204f3cc4b3e2bf12f398ed5",
+      "packet_hash": "e07be669b0f8a303fb2739e02371fec38bcba2918a9bb9add44e6d2cd0926c35",
+      "published_packet_hash": "e07be669b0f8a303fb2739e02371fec38bcba2918a9bb9add44e6d2cd0926c35",
+      "receipt_id": "8e2b73e44c0f4ff795e8f20c2cd3d1a2",
+      "request_hash": "cd4261d0e1dbcbd86d09b89cb3cf4775caa3abe3cab6ecc0afc16f2f7318e9b9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

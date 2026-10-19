@@ -27,5 +27,34 @@
     "definition_hash": "4e72d792a15e532d20746bdb69517d57f5d148109aaef1b48cec1a93d29c93ac",
     "packet_hash": "3ff77e7e1baff18b648b7ed0d34c26e1b2b754a43cc4583728f0a592a0823b03"
   },
-  "hash": "6f0d81ef21c5242e2e66b49e1a28aebdedb52a013f24767d50ba2941de1d7654"
+  "hash": "6f0d81ef21c5242e2e66b49e1a28aebdedb52a013f24767d50ba2941de1d7654",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4e72d792a15e532d20746bdb69517d57f5d148109aaef1b48cec1a93d29c93ac",
+      "packet_hash": "3ff77e7e1baff18b648b7ed0d34c26e1b2b754a43cc4583728f0a592a0823b03",
+      "published_packet_hash": "3ff77e7e1baff18b648b7ed0d34c26e1b2b754a43cc4583728f0a592a0823b03",
+      "receipt_id": "563925f1f0af40389a20925505aa82ba",
+      "request_hash": "11ee47e2a598b9dc0ac45f6ffb2a4d9b5814b53e3ea7b5c7272dd26f14fd209a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source supports a disease/disorder meaning, not a learning-related sense, so the field assignment is not defensible from the packet alone.",
+        "The definition is broadly aligned with the source, but it adds/reshapes wording beyond the packet’s phrasing (for example, \"people around them\" and \"unusual differences in body structure or function\"), so it is not fully supported as written."
+      ],
+      "definition_hash": "4e72d792a15e532d20746bdb69517d57f5d148109aaef1b48cec1a93d29c93ac",
+      "packet_hash": "3ff77e7e1baff18b648b7ed0d34c26e1b2b754a43cc4583728f0a592a0823b03",
+      "published_packet_hash": "3ff77e7e1baff18b648b7ed0d34c26e1b2b754a43cc4583728f0a592a0823b03",
+      "receipt_id": "ed6a3cb7dfd24008b4b708b8ddc9feee",
+      "request_hash": "8eb5e7327eb1f828954a63e9f1985c991071fbd76a8087dd37756e6a7bfdfa17",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

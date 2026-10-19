@@ -27,5 +27,34 @@
     "definition_hash": "4457f9a8c96883a218ba474490a53ce4aba8837e9e28e58702d3b11cf5e3020e",
     "packet_hash": "26b4e0e004a8bc38c2f7779860881e2d1ab845ee1d0735e6ab9b3c3582901fa6"
   },
-  "hash": "d0f7454cdb6c9b991891f527a2f89894cc0fd3b29f5ee527616968dd68decc83"
+  "hash": "d0f7454cdb6c9b991891f527a2f89894cc0fd3b29f5ee527616968dd68decc83",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4457f9a8c96883a218ba474490a53ce4aba8837e9e28e58702d3b11cf5e3020e",
+      "packet_hash": "26b4e0e004a8bc38c2f7779860881e2d1ab845ee1d0735e6ab9b3c3582901fa6",
+      "published_packet_hash": "26b4e0e004a8bc38c2f7779860881e2d1ab845ee1d0735e6ab9b3c3582901fa6",
+      "receipt_id": "5f827ef0dfa84ffe83e72721009fea4b",
+      "request_hash": "b22451af72ad7f868db282808e7e4acd5b0a54231df3222482070fab0e6dc8fc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says the phrenic nerve fibers arise from the “cervical spinal cord,” but the packet states they originate in the “cervical spinal column” (not spinal cord).",
+        "The definition describes the phrenic nerve as the “main nerve” controlling the diaphragm; the packet only calls it the “motor nerve of the diaphragm” and does not explicitly support the “main” wording."
+      ],
+      "definition_hash": "4457f9a8c96883a218ba474490a53ce4aba8837e9e28e58702d3b11cf5e3020e",
+      "packet_hash": "26b4e0e004a8bc38c2f7779860881e2d1ab845ee1d0735e6ab9b3c3582901fa6",
+      "published_packet_hash": "26b4e0e004a8bc38c2f7779860881e2d1ab845ee1d0735e6ab9b3c3582901fa6",
+      "receipt_id": "c37d1135a4b44590983ab7fd98c65687",
+      "request_hash": "979dac398cc6be086dd7da7cffc8cf598d5ca499736608cf8b225fb7a72dbc3e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "3dfc5b79b9066ca653e93370b4fc630dd13172beac67768571d723d37fa0f764",
     "packet_hash": "5b6a0578e09879d9665a1693abb028310a3f6b61e7545b5d0c8584be6d596ce9"
   },
-  "hash": "ab3c93cbabe0584ab9589e1d409a4819dec1c28e13e4e6395db1ba089e683376"
+  "hash": "ab3c93cbabe0584ab9589e1d409a4819dec1c28e13e4e6395db1ba089e683376",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3dfc5b79b9066ca653e93370b4fc630dd13172beac67768571d723d37fa0f764",
+      "packet_hash": "5b6a0578e09879d9665a1693abb028310a3f6b61e7545b5d0c8584be6d596ce9",
+      "published_packet_hash": "5b6a0578e09879d9665a1693abb028310a3f6b61e7545b5d0c8584be6d596ce9",
+      "receipt_id": "b8941cac58de481ab82018627be5f07e",
+      "request_hash": "810dea6a4e71eb66b96cebdcffbefa737de9694c4e354d19086ff2e32a2c69cb",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states barbiturates “can lead to … sleep,” but the packet does not explicitly mention “sleep”; it lists “hypnosis” among CNS effects instead."
+      ],
+      "definition_hash": "3dfc5b79b9066ca653e93370b4fc630dd13172beac67768571d723d37fa0f764",
+      "packet_hash": "5b6a0578e09879d9665a1693abb028310a3f6b61e7545b5d0c8584be6d596ce9",
+      "published_packet_hash": "5b6a0578e09879d9665a1693abb028310a3f6b61e7545b5d0c8584be6d596ce9",
+      "receipt_id": "3dd53967dc894f51be1cfd1e7cccb8ea",
+      "request_hash": "daa71f64214e5ef1b4c8f460d625403bcc2af927a0de73c69f4edc718196a270",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

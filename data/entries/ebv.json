@@ -27,5 +27,34 @@
     "definition_hash": "dbdc79637140312d761ae149040ff5d83e222aaeead7450fae52f48a2dfc6334",
     "packet_hash": "60f74cd53c5e96ab17b29b7b171c73ee0dd8ed622fc23e87e04b56b9101e3ed2"
   },
-  "hash": "e8711f82e46676698ae36e60f2b869204eb6b64a9958050ba22fe1de1386046b"
+  "hash": "e8711f82e46676698ae36e60f2b869204eb6b64a9958050ba22fe1de1386046b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "dbdc79637140312d761ae149040ff5d83e222aaeead7450fae52f48a2dfc6334",
+      "packet_hash": "60f74cd53c5e96ab17b29b7b171c73ee0dd8ed622fc23e87e04b56b9101e3ed2",
+      "published_packet_hash": "60f74cd53c5e96ab17b29b7b171c73ee0dd8ed622fc23e87e04b56b9101e3ed2",
+      "receipt_id": "afdfa239254a41cbaa3802992639e295",
+      "request_hash": "63dff95407dcfba1694e8bf206a95a521e16c1a29259d6208e1fad2f1e2096d6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: EBV is described in the packet as a human virus/causative agent of diseases and malignancies, not as a cognition-related construct; therefore the provided field (“cognition”) is not defensible for this term.",
+        "The definition is otherwise supported by the packet (infects B-cells; thought causative agent of infectious mononucleosis; strongly associated with oral hairy leukoplakia and Burkitt lymphoma; and associated with other malignancies), but the field mismatch warrants rejection."
+      ],
+      "definition_hash": "dbdc79637140312d761ae149040ff5d83e222aaeead7450fae52f48a2dfc6334",
+      "packet_hash": "60f74cd53c5e96ab17b29b7b171c73ee0dd8ed622fc23e87e04b56b9101e3ed2",
+      "published_packet_hash": "60f74cd53c5e96ab17b29b7b171c73ee0dd8ed622fc23e87e04b56b9101e3ed2",
+      "receipt_id": "430d8f01a5724970abed17c8af798c77",
+      "request_hash": "a06fd41f600ef34ec4770653939f68c618872d624c225bd4c6009f60ca9cea0c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

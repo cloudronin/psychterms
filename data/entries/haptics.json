@@ -27,5 +27,34 @@
     "definition_hash": "5a2327ee410c22dd87272df3b6076abe18496dda6e47b8d2e3739bb0d79297de",
     "packet_hash": "b03a178935d30f5426b0ba2413f29051c561f15ecb04cb66f52d1ddacd3364cc"
   },
-  "hash": "4051985a4aa67be993cd76e2b107a2c213d456a78fbe030a7b3ff8569b1711ed"
+  "hash": "4051985a4aa67be993cd76e2b107a2c213d456a78fbe030a7b3ff8569b1711ed",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5a2327ee410c22dd87272df3b6076abe18496dda6e47b8d2e3739bb0d79297de",
+      "packet_hash": "b03a178935d30f5426b0ba2413f29051c561f15ecb04cb66f52d1ddacd3364cc",
+      "published_packet_hash": "b03a178935d30f5426b0ba2413f29051c561f15ecb04cb66f52d1ddacd3364cc",
+      "receipt_id": "f4d227765fec43328f775beb3c207eee",
+      "request_hash": "d85263c5a2420004301f0280cd4b219e9c04ab888143c6fc1a60f02e4663d6fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that in broader use haptics can include “balance-related sense,” but the packet does not mention balance; it instead says haptics may include “the static sense,” along with temperature, pain, and perceptions of position and movement.",
+        "The definition adds “balance-related sense” as part of the broader scope; since this specific element is not supported by the packet, the substantive claim is not defensible."
+      ],
+      "definition_hash": "5a2327ee410c22dd87272df3b6076abe18496dda6e47b8d2e3739bb0d79297de",
+      "packet_hash": "b03a178935d30f5426b0ba2413f29051c561f15ecb04cb66f52d1ddacd3364cc",
+      "published_packet_hash": "b03a178935d30f5426b0ba2413f29051c561f15ecb04cb66f52d1ddacd3364cc",
+      "receipt_id": "17d580a9742e4a4dbec5a8018972ffa3",
+      "request_hash": "3e66b4361b0a2285c0743cb37c057f4fac3c54f242d51a69003577d17bcb5705",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "f5fedcea0ab67c076ca05e63afd0167daab32bfb3c00e4373a82659674d9a2f1",
     "packet_hash": "b338fb2110ce4daa708229ca53f070b6689a6c1faeb79c3faa919b69b66c2e8a"
   },
-  "hash": "c365b9d51f91aba9d1ae69f5c4f7679db04f6f7184b191ee00f71aa44e0bd8fe"
+  "hash": "c365b9d51f91aba9d1ae69f5c4f7679db04f6f7184b191ee00f71aa44e0bd8fe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f5fedcea0ab67c076ca05e63afd0167daab32bfb3c00e4373a82659674d9a2f1",
+      "packet_hash": "b338fb2110ce4daa708229ca53f070b6689a6c1faeb79c3faa919b69b66c2e8a",
+      "published_packet_hash": "b338fb2110ce4daa708229ca53f070b6689a6c1faeb79c3faa919b69b66c2e8a",
+      "receipt_id": "a25d6dbec4d34a37a06fc2c4a36daaa4",
+      "request_hash": "ba965f48fc35c638302d42c984c13b906dd44faf97f1ff792c5c6c8b37eb228d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the nurse completes an \"approved\" nursing education program, but the packet specifies the nurse has graduated from an \"accredited\" registered nursing program (\"approved\" is not supported)."
+      ],
+      "definition_hash": "f5fedcea0ab67c076ca05e63afd0167daab32bfb3c00e4373a82659674d9a2f1",
+      "packet_hash": "b338fb2110ce4daa708229ca53f070b6689a6c1faeb79c3faa919b69b66c2e8a",
+      "published_packet_hash": "b338fb2110ce4daa708229ca53f070b6689a6c1faeb79c3faa919b69b66c2e8a",
+      "receipt_id": "4eeae305b6974cfd834ee13518e1d635",
+      "request_hash": "53e0cf8d2cd772ad3d3adb971ca8e6526b95e123d341a4438426c964d730ccce",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

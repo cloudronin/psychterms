@@ -27,5 +27,35 @@
     "definition_hash": "a6ebaf6ec89c5dc0e17fb6d8f9a4524c4d44bb2a6a1d9c0b8ce4975f4bfe8001",
     "packet_hash": "de5f8c665fa525522c4811aea36eebffc6cfc5e323b96c02318bf087e76b14a0"
   },
-  "hash": "7181522ebc9e4b1af011bb46eaf9253a6693760bbc06ad3b6a760cf6dc8e1c36"
+  "hash": "7181522ebc9e4b1af011bb46eaf9253a6693760bbc06ad3b6a760cf6dc8e1c36",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a6ebaf6ec89c5dc0e17fb6d8f9a4524c4d44bb2a6a1d9c0b8ce4975f4bfe8001",
+      "packet_hash": "de5f8c665fa525522c4811aea36eebffc6cfc5e323b96c02318bf087e76b14a0",
+      "published_packet_hash": "de5f8c665fa525522c4811aea36eebffc6cfc5e323b96c02318bf087e76b14a0",
+      "receipt_id": "71c6dc677eed44a68dd466ae0c916879",
+      "request_hash": "a07b7c520dddb11c24d4246be87c264c5b9f2106c171596c36fe8e9090e14222",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a definition of “statistics,” not the term “systematic observation”; the supplied source entry is for statistics and says it is “the systematic observation and treatment of facts on the basis of their relative numbers.”",
+        "The first sentence generalizes beyond the packet by rephrasing the headword as “organized, methodical noticing of facts,” which is not given as a definition in the source.",
+        "The second sentence is acceptable as historical context, but the definition as a whole does not match the requested sense/term supported by the packet."
+      ],
+      "definition_hash": "a6ebaf6ec89c5dc0e17fb6d8f9a4524c4d44bb2a6a1d9c0b8ce4975f4bfe8001",
+      "packet_hash": "de5f8c665fa525522c4811aea36eebffc6cfc5e323b96c02318bf087e76b14a0",
+      "published_packet_hash": "de5f8c665fa525522c4811aea36eebffc6cfc5e323b96c02318bf087e76b14a0",
+      "receipt_id": "d82f1edaf84748b3b69aaf0cf9f2d07a",
+      "request_hash": "6fe48a34f618f131f7b5ff0d799eee24514aa2263d54f9bde931462b06ada065",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

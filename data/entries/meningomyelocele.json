@@ -27,5 +27,33 @@
     "definition_hash": "d328ecdf6e21fc9925e77b4b2ca48e9132c5c9e4fc6e6f9c59df151d04f3fbb6",
     "packet_hash": "6b563ccedd072a0152eaa71c1f01c3d7514c37f3407f925cc957af6a24cb68ca"
   },
-  "hash": "4d56f40cc4f6e3b89de7512638fb62e79663d6d764b611e4ed84b02d7b0506b3"
+  "hash": "4d56f40cc4f6e3b89de7512638fb62e79663d6d764b611e4ed84b02d7b0506b3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d328ecdf6e21fc9925e77b4b2ca48e9132c5c9e4fc6e6f9c59df151d04f3fbb6",
+      "packet_hash": "6b563ccedd072a0152eaa71c1f01c3d7514c37f3407f925cc957af6a24cb68ca",
+      "published_packet_hash": "6b563ccedd072a0152eaa71c1f01c3d7514c37f3407f925cc957af6a24cb68ca",
+      "receipt_id": "41223c37d70640c88fc8f880920274ff",
+      "request_hash": "39ab55b8c77a908b2e3b50ddab3b9921b8b8e37e67cef162362e139d2fdce6d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “incontinence” but does not specifically mention “bladder or bowel control,” so that part of the definition is not fully supported."
+      ],
+      "definition_hash": "d328ecdf6e21fc9925e77b4b2ca48e9132c5c9e4fc6e6f9c59df151d04f3fbb6",
+      "packet_hash": "6b563ccedd072a0152eaa71c1f01c3d7514c37f3407f925cc957af6a24cb68ca",
+      "published_packet_hash": "6b563ccedd072a0152eaa71c1f01c3d7514c37f3407f925cc957af6a24cb68ca",
+      "receipt_id": "7f64578a184f44348b4096254ce96f60",
+      "request_hash": "139312b22014419fe1444b6697a334467928a0c93b8c0ea8cb7a77109c94ec1d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

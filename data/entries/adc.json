@@ -27,5 +27,34 @@
     "definition_hash": "31849401bf68296a5b4639c4b3988ac33f5302a2015153e86d6d8e95fb179a23",
     "packet_hash": "55895a13d881f0b386b8c21b0750767aab7f074a432851be4280a9bb31f6afd1"
   },
-  "hash": "632ba3594f204db9dee80f085f817b2f1184d45c362c195ec4b89a1c5f9aa087"
+  "hash": "632ba3594f204db9dee80f085f817b2f1184d45c362c195ec4b89a1c5f9aa087",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "31849401bf68296a5b4639c4b3988ac33f5302a2015153e86d6d8e95fb179a23",
+      "packet_hash": "55895a13d881f0b386b8c21b0750767aab7f074a432851be4280a9bb31f6afd1",
+      "published_packet_hash": "55895a13d881f0b386b8c21b0750767aab7f074a432851be4280a9bb31f6afd1",
+      "receipt_id": "d8a5afb28b04437aa724d218859a2c8d",
+      "request_hash": "b92575fca7e9707af9d1bf788494b958fed0503a4b9bfb8e927937a7c04d0bbd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported wording by calling the 15 items “higher-level cognitive tests”; the packet only supports that ADC contains 15 summary-level tests.",
+        "The phrasing “created by combining Alzheimer’s disease cognitive test content seen across multiple clinical trial forms” is close to the packet, but the packet specifically says it was based on reviewing multiple case report forms and the ADNI observational study form; the broader wording is not fully supported as written."
+      ],
+      "definition_hash": "31849401bf68296a5b4639c4b3988ac33f5302a2015153e86d6d8e95fb179a23",
+      "packet_hash": "55895a13d881f0b386b8c21b0750767aab7f074a432851be4280a9bb31f6afd1",
+      "published_packet_hash": "55895a13d881f0b386b8c21b0750767aab7f074a432851be4280a9bb31f6afd1",
+      "receipt_id": "561e224151ea40ffb9d0decbf1651c25",
+      "request_hash": "6a9c6b6bfb892cd82659b28277e83cc1c713aeb071426005c776cb4e1ff17d59",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "e22bc05e486c1fe3141bfbf64cab7c30fe0a0880afb0b44d4f2cd7be41ac6e02",
     "packet_hash": "bcc82933f37b542b4ee702704f99b68f82f0f54405ff4608167186e714534f73"
   },
-  "hash": "c0c3652ef512d9ef7c2b627055ad6fcbbad2f12c1ff0d32f5812eb3ced8c12db"
+  "hash": "c0c3652ef512d9ef7c2b627055ad6fcbbad2f12c1ff0d32f5812eb3ced8c12db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e22bc05e486c1fe3141bfbf64cab7c30fe0a0880afb0b44d4f2cd7be41ac6e02",
+      "packet_hash": "bcc82933f37b542b4ee702704f99b68f82f0f54405ff4608167186e714534f73",
+      "published_packet_hash": "bcc82933f37b542b4ee702704f99b68f82f0f54405ff4608167186e714534f73",
+      "receipt_id": "39c12b0c5ae14164a17d162444638071",
+      "request_hash": "3f840940b103679fcfed748a9ff4c18470cf0006e6a18047fe77a23247d1ec5a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines and explains the concept of a “two-tailed probability”/“two-tailed test” (considering statistic either larger or smaller than the null parameter), but it does not explicitly define “nondirectional test” as a term in its own right or state that a nondirectional test is equivalent to a two-tailed significance test.",
+        "Because “nondirectional test” is only present as a label in the packet text, the definition’s requested term-specific meaning (“A nondirectional test is…”) is not fully supported by the packet."
+      ],
+      "definition_hash": "e22bc05e486c1fe3141bfbf64cab7c30fe0a0880afb0b44d4f2cd7be41ac6e02",
+      "packet_hash": "bcc82933f37b542b4ee702704f99b68f82f0f54405ff4608167186e714534f73",
+      "published_packet_hash": "bcc82933f37b542b4ee702704f99b68f82f0f54405ff4608167186e714534f73",
+      "receipt_id": "d9dfb58089b7488eab13ac77192de042",
+      "request_hash": "41642211583b32ffe829563aa37a1a8162603ead1d4dfeb88347c806ec1ca070",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "ca074b8ae9d1f651e5c46dd30a0803f20697448171f62a0c79a733fe397b635e",
     "packet_hash": "75bf30896831d63e1835cf94d155606fb3309989400b4c940161a4473c3aef55"
   },
-  "hash": "ff0c9e404c1910a2c904bb234b4aa0135e94412bbf091bfa6b6dcb32a9ab1b98"
+  "hash": "ff0c9e404c1910a2c904bb234b4aa0135e94412bbf091bfa6b6dcb32a9ab1b98",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ca074b8ae9d1f651e5c46dd30a0803f20697448171f62a0c79a733fe397b635e",
+      "packet_hash": "75bf30896831d63e1835cf94d155606fb3309989400b4c940161a4473c3aef55",
+      "published_packet_hash": "75bf30896831d63e1835cf94d155606fb3309989400b4c940161a4473c3aef55",
+      "receipt_id": "428be8ffc0b34d24af1742535ecb3e0b",
+      "request_hash": "46a08b97daf22ca0481e6e6ae481ba0335f476110f5a77c18b3e7b673b04f391",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes “paranormal behavior and events,” but the definition adds “alleged paranormal experiences,” which is not stated in the packet (it changes the wording/scope from behavior/events to alleged experiences).",
+        "Because the definition includes “alleged” and “experiences” language not present in the provided packet, not every substantive claim is directly supported by the source text."
+      ],
+      "definition_hash": "ca074b8ae9d1f651e5c46dd30a0803f20697448171f62a0c79a733fe397b635e",
+      "packet_hash": "75bf30896831d63e1835cf94d155606fb3309989400b4c940161a4473c3aef55",
+      "published_packet_hash": "75bf30896831d63e1835cf94d155606fb3309989400b4c940161a4473c3aef55",
+      "receipt_id": "e6d946ef49eb4edbbd575dd778a4169d",
+      "request_hash": "a885e5191ed5ca69741199cd26b6cc7e2758b10753774da537736e66cc6a4d6a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

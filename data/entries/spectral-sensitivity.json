@@ -27,5 +27,34 @@
     "definition_hash": "0020a43f683dac719a73bb1401b55cd034c2cb94d5d4b7ee1a12c920119a6a5a",
     "packet_hash": "63451e1352ba022e59b79d249e8beaf8118a42ddcb7940ed07e916f7a0630cbd"
   },
-  "hash": "13bb3265bb88579262ed3424a96491b92a7cdc81547b35b37f21d9213c8dc216"
+  "hash": "13bb3265bb88579262ed3424a96491b92a7cdc81547b35b37f21d9213c8dc216",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0020a43f683dac719a73bb1401b55cd034c2cb94d5d4b7ee1a12c920119a6a5a",
+      "packet_hash": "63451e1352ba022e59b79d249e8beaf8118a42ddcb7940ed07e916f7a0630cbd",
+      "published_packet_hash": "63451e1352ba022e59b79d249e8beaf8118a42ddcb7940ed07e916f7a0630cbd",
+      "receipt_id": "f8af28ba22ec44d293049b8845ca83d4",
+      "request_hash": "17594bd04ff12dd78e6a165c9be5d2f7b7f2d95c6ed0030acc83d2669af72e32",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence gives a broad general meaning (“how strongly a light-sensitive cell or pigment responds across different wavelengths”), but the packet only mentions “spectral sensitivity curves” for retinal cone photopigments and does not state or define “how strongly” or a general rule covering any “light-sensitive cell or pigment.”",
+        "The definition refers specifically to “retinal cone cells” supporting “color vision in daylight,” which is partly supported by the packet’s statement that cone photopigments have different spectral sensitivity curves and that cone cells operate in daylight vision providing color recognition; however, because the first sentence’s general framing is not directly supported, the overall definition is not fully defensible."
+      ],
+      "definition_hash": "0020a43f683dac719a73bb1401b55cd034c2cb94d5d4b7ee1a12c920119a6a5a",
+      "packet_hash": "63451e1352ba022e59b79d249e8beaf8118a42ddcb7940ed07e916f7a0630cbd",
+      "published_packet_hash": "63451e1352ba022e59b79d249e8beaf8118a42ddcb7940ed07e916f7a0630cbd",
+      "receipt_id": "03ecd568f56749c7a803c9e828fdb210",
+      "request_hash": "417dc36f30bae22a5b095179170dd79564bee18a0bc9d57dee3fac29e274f885",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "6ac52214f73073e66c66ac74592584f3803b6d07b62c221cd928b9def0a682ab",
     "packet_hash": "730d87a103d734e433ae7dd308b88b56b4979143647b5a3aa90a00d969dfab19"
   },
-  "hash": "d30db885372e9eee662d30ab63d49b7d87d10045befc25c916d50c55eb35ac78"
+  "hash": "d30db885372e9eee662d30ab63d49b7d87d10045befc25c916d50c55eb35ac78",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports bisection only in the specific phrase “successive bisection of a line” and its role in Zeno-style arguments; it does not explicitly support the broader definition “the division of something, such as a line, into two equal parts.”",
+        "The first sentence generalizes beyond the historical passage by presenting a general dictionary definition rather than the sense established in the source context."
+      ],
+      "definition_hash": "6ac52214f73073e66c66ac74592584f3803b6d07b62c221cd928b9def0a682ab",
+      "packet_hash": "730d87a103d734e433ae7dd308b88b56b4979143647b5a3aa90a00d969dfab19",
+      "published_packet_hash": "730d87a103d734e433ae7dd308b88b56b4979143647b5a3aa90a00d969dfab19",
+      "receipt_id": "3df5bd604e0a4e6db38aa1e50947f2f9",
+      "request_hash": "8461ce413344a28886c9553ec121815fdcf77f84abf1a087e499859e8ca6c3ba",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence claims that bisection is the division of something “into two equal parts,” but the provided packet only mentions “successive bisection of a line” and does not explicitly define bisection as dividing into two equal parts.",
+        "While the packet supports the historical point that successive bisection “never gives an absolute unit” (and that this implies we cannot assign a number), the definition also frames this as “continued division does not yield a final absolute unit,” which is broadly consistent but partially rests on interpretation beyond the packet’s explicit wording."
+      ],
+      "definition_hash": "6ac52214f73073e66c66ac74592584f3803b6d07b62c221cd928b9def0a682ab",
+      "packet_hash": "730d87a103d734e433ae7dd308b88b56b4979143647b5a3aa90a00d969dfab19",
+      "published_packet_hash": "730d87a103d734e433ae7dd308b88b56b4979143647b5a3aa90a00d969dfab19",
+      "receipt_id": "acb0f292a491498f910feb5a1f0e4052",
+      "request_hash": "19583fd70afaad2a488aa6b37e1bb0d7e78233e591ae1cc0bb338087a75ca443",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

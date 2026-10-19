@@ -27,5 +27,37 @@
     "definition_hash": "6b4a64438ce23de29f43ca0cf5db27765af124d49966a5a2bd39e85f371ca420",
     "packet_hash": "1f53372676ea6f749eb1a8284974a1d524afd8c84d3a81dd41b9d304640df31d"
   },
-  "hash": "abb28295726e8068ae07b338b37208b6ef05fb8e125db8851a0726fad744f575"
+  "hash": "abb28295726e8068ae07b338b37208b6ef05fb8e125db8851a0726fad744f575",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that a person under remand, if certified insane, could be moved to an asylum and later remitted to the former place of confinement if certified sane, but it does not explicitly support defining remand as being held in custody while awaiting further legal proceedings.",
+        "The definition adds a broader legal meaning of remand that is not established by the supplied historical passage."
+      ],
+      "definition_hash": "6b4a64438ce23de29f43ca0cf5db27765af124d49966a5a2bd39e85f371ca420",
+      "packet_hash": "1f53372676ea6f749eb1a8284974a1d524afd8c84d3a81dd41b9d304640df31d",
+      "published_packet_hash": "1f53372676ea6f749eb1a8284974a1d524afd8c84d3a81dd41b9d304640df31d",
+      "receipt_id": "b3c8826e88d24a448c12bb0e1c82f981",
+      "request_hash": "416003bb813d528f24f3bbaec17f501d35ab693ad94a9630030b210fa6e0c3f0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet excerpt does not define “remand” as “being held in custody while awaiting further legal proceedings.” It only describes what can happen to “a person under remand” when certified insane, and does not state the general meaning of remand as awaiting further legal proceedings.",
+        "The provided definition adds an asylum-transfer-and-return sequence tied to being certified insane/sane, but the broader first sentence’s characterization (“awaiting further legal proceedings”) is unsupported by the packet text."
+      ],
+      "definition_hash": "6b4a64438ce23de29f43ca0cf5db27765af124d49966a5a2bd39e85f371ca420",
+      "packet_hash": "1f53372676ea6f749eb1a8284974a1d524afd8c84d3a81dd41b9d304640df31d",
+      "published_packet_hash": "1f53372676ea6f749eb1a8284974a1d524afd8c84d3a81dd41b9d304640df31d",
+      "receipt_id": "09922b03503b404a872703fd82904a8f",
+      "request_hash": "2e2966ae53aba68f33f63ecbfd26b82ab753f2afeec1d1674ae73557aef265e9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

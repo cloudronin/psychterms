@@ -27,5 +27,34 @@
     "definition_hash": "5a698ddc4d031e447b5ae4d9748bac7f28d0921fc0ee1d41e8483dd0f817f46c",
     "packet_hash": "bcac2feb70ef8d4c956620514d98cb492a875a2b09687740b04f1735d383102c"
   },
-  "hash": "bc4fdcc1aae160985f66e887356f41c6225f19513aa52ceb4ad7f64b078b8664"
+  "hash": "bc4fdcc1aae160985f66e887356f41c6225f19513aa52ceb4ad7f64b078b8664",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5a698ddc4d031e447b5ae4d9748bac7f28d0921fc0ee1d41e8483dd0f817f46c",
+      "packet_hash": "bcac2feb70ef8d4c956620514d98cb492a875a2b09687740b04f1735d383102c",
+      "published_packet_hash": "bcac2feb70ef8d4c956620514d98cb492a875a2b09687740b04f1735d383102c",
+      "receipt_id": "91424e6e1ff54efa932c1d1579507ed2",
+      "request_hash": "02b00bb0a43718b02a4467fd3a8894a28196478ed3a999978641f0f22120a88b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says the cerebral peduncle is the “front part of the midbrain,” but the packet describes it as the “Ventral portion” of the mesencephalon (front vs ventral is not supported by the packet).",
+        "Otherwise, the included/excluded components (midbrain tegmentum; crus cerebri; pretectum; excludes tectum mesencephali and trochlear nerve) are supported by the packet."
+      ],
+      "definition_hash": "5a698ddc4d031e447b5ae4d9748bac7f28d0921fc0ee1d41e8483dd0f817f46c",
+      "packet_hash": "bcac2feb70ef8d4c956620514d98cb492a875a2b09687740b04f1735d383102c",
+      "published_packet_hash": "bcac2feb70ef8d4c956620514d98cb492a875a2b09687740b04f1735d383102c",
+      "receipt_id": "5b0ad33b0adf4d91bf55552358943981",
+      "request_hash": "8e2afe8bd58d2594e17a685f5995bc0b0c56fdab891054d2a2a49bf56bdd3ff8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

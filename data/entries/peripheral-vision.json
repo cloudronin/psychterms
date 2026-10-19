@@ -27,5 +27,34 @@
     "definition_hash": "db2e7f4396c97218f57d173cbc3afab5c765de8712b59ef14c7e35f682fe25ea",
     "packet_hash": "1b3daa4b770bcec4d3b92630f1110a5aef2aa39fa8a24fd63fc53f728845014f"
   },
-  "hash": "7e84eb95d3afb267d0224522fa43ab98b53c37d835dcc1c6d3060ce6716788d4"
+  "hash": "7e84eb95d3afb267d0224522fa43ab98b53c37d835dcc1c6d3060ce6716788d4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "db2e7f4396c97218f57d173cbc3afab5c765de8712b59ef14c7e35f682fe25ea",
+      "packet_hash": "1b3daa4b770bcec4d3b92630f1110a5aef2aa39fa8a24fd63fc53f728845014f",
+      "published_packet_hash": "1b3daa4b770bcec4d3b92630f1110a5aef2aa39fa8a24fd63fc53f728845014f",
+      "receipt_id": "d7aa4e9c3d5c491083fb831f23e1c126",
+      "request_hash": "ea1d7755a8b48bacb0987856d554f686cf97e1fc3bb5d155f68ed0bcb16e8070",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition states only that peripheral vision is the “total area or space visible … with the eye looking straightforward,” but it does not explicitly mention “to the sides,” “around the center,” or “outside the direct line of sight.”",
+        "Because those added spatial descriptors are not directly supported by the supplied packet text, the definition contains substantive claims beyond the packet."
+      ],
+      "definition_hash": "db2e7f4396c97218f57d173cbc3afab5c765de8712b59ef14c7e35f682fe25ea",
+      "packet_hash": "1b3daa4b770bcec4d3b92630f1110a5aef2aa39fa8a24fd63fc53f728845014f",
+      "published_packet_hash": "1b3daa4b770bcec4d3b92630f1110a5aef2aa39fa8a24fd63fc53f728845014f",
+      "receipt_id": "b66ce3b1197748979baa474c30ac9c33",
+      "request_hash": "12e281b4dbdd717809cc9cb43f8e91ccd3724f715755d5e528e057c4a886c468",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "4c89e3f254cb2376705a76cbb773a9537ebf5c7cc023915aa6417935b21be19a",
     "packet_hash": "f56a02636f658486e2ca5f381b1d55f4fd2cac427dd8cd1881d64f689ff9a8da"
   },
-  "hash": "ac5a02e87677416b71d53d7585083565d113b9e55c3c83c571c4a7e3cb3525b2"
+  "hash": "ac5a02e87677416b71d53d7585083565d113b9e55c3c83c571c4a7e3cb3525b2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4c89e3f254cb2376705a76cbb773a9537ebf5c7cc023915aa6417935b21be19a",
+      "packet_hash": "f56a02636f658486e2ca5f381b1d55f4fd2cac427dd8cd1881d64f689ff9a8da",
+      "published_packet_hash": "f56a02636f658486e2ca5f381b1d55f4fd2cac427dd8cd1881d64f689ff9a8da",
+      "receipt_id": "d4414b9555754e6d81dafe0f1ed79ae2",
+      "request_hash": "994c934749d43dfc43d63f22b290e6cc56a863c56d16e8359e8e6a4c51a1cef2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that cytoplasmic constituents are “broken down after fusion with lysosomes,” but the packet states they are “digestion by LYSOSOMES” and does not explicitly mention fusion.",
+        "The definition characterizes the role as “important in normal body changes and tissue removal,” but the packet specifically mentions “BIOLOGICAL METAMORPHOSIS” and “removal of bone by OSTEOCLASTS,” which is narrower than the general “tissue removal” phrasing."
+      ],
+      "definition_hash": "4c89e3f254cb2376705a76cbb773a9537ebf5c7cc023915aa6417935b21be19a",
+      "packet_hash": "f56a02636f658486e2ca5f381b1d55f4fd2cac427dd8cd1881d64f689ff9a8da",
+      "published_packet_hash": "f56a02636f658486e2ca5f381b1d55f4fd2cac427dd8cd1881d64f689ff9a8da",
+      "receipt_id": "188d5c5fbfeb465689c00b1150677a74",
+      "request_hash": "204980a720cd7fc228edd72aaf290d0fa41922b0df3d4999c2a3b076ca946eed",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

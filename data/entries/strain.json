@@ -27,5 +27,34 @@
     "definition_hash": "6d86cb2b4de556f26ebcb5fba47614a8ef18c1611ca660ef8ca22852a69e7203",
     "packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be"
   },
-  "hash": "b05b7f0f89f134e2146437d19093b5eab3ce4a34c2567c8c6d0fa0da020cef47"
+  "hash": "b05b7f0f89f134e2146437d19093b5eab3ce4a34c2567c8c6d0fa0da020cef47",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6d86cb2b4de556f26ebcb5fba47614a8ef18c1611ca660ef8ca22852a69e7203",
+      "packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be",
+      "published_packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be",
+      "receipt_id": "b61695589a5d42a2a1e1a9f81f301ab7",
+      "request_hash": "eb6bb01d049943916718030c949946d6313d5de4176a5c9308fce542bffb9363",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition (“Strain is a sense that something is difficult or burdensome…”) adds the specific idea of “burdensome” and “sense that something is…,” which are not present in the packet text. The packet only states: “A feeling of difficulty that causes worry or emotional tension.”",
+        "The field assignment (“cognition”) is not clearly supported by the packet beyond the semantic_types value “Mental Process”; the packet does not explicitly connect the term to cognition specifically."
+      ],
+      "definition_hash": "6d86cb2b4de556f26ebcb5fba47614a8ef18c1611ca660ef8ca22852a69e7203",
+      "packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be",
+      "published_packet_hash": "df41ee2f5d5ee92fdd7a56d066b39a7cf67a093b2bf478bca3463a7600bd02be",
+      "receipt_id": "7b4074c332c543298b8d96cbc136c696",
+      "request_hash": "6d6266ea34d22c63833aab4a2f9b60f10fed0b44bbc25515ed9c3e628069eed9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,38 @@
     "definition_hash": "1063ad914ded551021f7c2731d0965bf2dcedb607696f54a7b066924b44b5e5e",
     "packet_hash": "21dd5cfc5327633133553b26fea6f9b88181c6c9918edd898baac0a1205ee25e"
   },
-  "hash": "e58dbb40bb5e00cb419a8a6330bfa317e90aaadb05ed9e35c0f5284204086947"
+  "hash": "e58dbb40bb5e00cb419a8a6330bfa317e90aaadb05ed9e35c0f5284204086947",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition gives a general dictionary sense of “mores,” but the packet supports a different concept: an attitude of accepting or tolerating behaviors that may disregard traditional social mores (source label: Permissiveness).",
+        "The claim that mores are “traditional social standards or expectations about how people should behave” is not supported by the supplied source text and shifts the term to a different part of speech/sense.",
+        "The added sentence about customary norms that behavior may follow or disregard is an unsupported generalization beyond the packet."
+      ],
+      "definition_hash": "1063ad914ded551021f7c2731d0965bf2dcedb607696f54a7b066924b44b5e5e",
+      "packet_hash": "21dd5cfc5327633133553b26fea6f9b88181c6c9918edd898baac0a1205ee25e",
+      "published_packet_hash": "21dd5cfc5327633133553b26fea6f9b88181c6c9918edd898baac0a1205ee25e",
+      "receipt_id": "111c1e5cd60f4b038e5d5ec7da59088c",
+      "request_hash": "d411180b06930b75f13d19c2470c58fef0dfbb09606e22ecb5b0907c4cc1e3a4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what “mores” are; it only describes an attitude (permissiveness) that is tolerant of behaviors that may disregard “traditional social mores,” without explicitly stating that mores are “traditional social standards or expectations about how people should behave.”",
+        "The definition’s claim that mores are “customary norms that behavior may follow or disregard” is only partially supported: the packet mentions disregard, but does not support the idea that behavior “may follow” mores."
+      ],
+      "definition_hash": "1063ad914ded551021f7c2731d0965bf2dcedb607696f54a7b066924b44b5e5e",
+      "packet_hash": "21dd5cfc5327633133553b26fea6f9b88181c6c9918edd898baac0a1205ee25e",
+      "published_packet_hash": "21dd5cfc5327633133553b26fea6f9b88181c6c9918edd898baac0a1205ee25e",
+      "receipt_id": "e08c70abd54040cd825d9e1a5e4cf31e",
+      "request_hash": "5df3828acce4068b4d8987c477f71ea90739677bd4c766e47a4a24ccf4c5e73f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

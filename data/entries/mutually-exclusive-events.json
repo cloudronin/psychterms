@@ -27,5 +27,34 @@
     "definition_hash": "eabbf908483a6dda65cf2bd917ebb4f27ddd25191a41546d7ef57e335ed2ddb1",
     "packet_hash": "fde9fc04c1563ca745060a33c70748aaeb863cb6395c7d070ce7307d9f1ef2ab"
   },
-  "hash": "8265d137785ed19c0089598172f2f70ca450dffd440ad0022fe5b526229f0548"
+  "hash": "8265d137785ed19c0089598172f2f70ca450dffd440ad0022fe5b526229f0548",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "eabbf908483a6dda65cf2bd917ebb4f27ddd25191a41546d7ef57e335ed2ddb1",
+      "packet_hash": "fde9fc04c1563ca745060a33c70748aaeb863cb6395c7d070ce7307d9f1ef2ab",
+      "published_packet_hash": "fde9fc04c1563ca745060a33c70748aaeb863cb6395c7d070ce7307d9f1ef2ab",
+      "receipt_id": "818186260e6144a986595014d22661ec",
+      "request_hash": "015ab9d23f4386c3ca78c3346702469c0370313a6eaafbe5bc2209d64d63f4ce",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state the meaning “cannot both occur in the same case.” It only states that for “two mutually exclusive events,” the probability that “one or the other … shall happen is the sum of their respective probabilities,” without directly defining mutual exclusivity in those terms.",
+        "Because the first sentence’s substantive claim is not directly supported by the provided excerpt, the overall definition cannot be accepted as fully supported by the packet."
+      ],
+      "definition_hash": "eabbf908483a6dda65cf2bd917ebb4f27ddd25191a41546d7ef57e335ed2ddb1",
+      "packet_hash": "fde9fc04c1563ca745060a33c70748aaeb863cb6395c7d070ce7307d9f1ef2ab",
+      "published_packet_hash": "fde9fc04c1563ca745060a33c70748aaeb863cb6395c7d070ce7307d9f1ef2ab",
+      "receipt_id": "0acfa72b9d9945f3becfd7aa9be21e73",
+      "request_hash": "f409841383cdc67b587ba292ea52996ef22a82652724dbacf01c0e311a722110",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

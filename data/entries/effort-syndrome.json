@@ -27,5 +27,34 @@
     "definition_hash": "a856c9d94369ea083a2c2e0627a65ec1568934c744d6841d8600e413eae42341",
     "packet_hash": "734204c56549851ab1f7e88f1865352ac942e9ad0bdc013ce6772f8a147ce948"
   },
-  "hash": "02146d8e5d1c9fbe25b6131af310513d1a6ad37ece0962ca185d64488b5ff861"
+  "hash": "02146d8e5d1c9fbe25b6131af310513d1a6ad37ece0962ca185d64488b5ff861",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a856c9d94369ea083a2c2e0627a65ec1568934c744d6841d8600e413eae42341",
+      "packet_hash": "734204c56549851ab1f7e88f1865352ac942e9ad0bdc013ce6772f8a147ce948",
+      "published_packet_hash": "734204c56549851ab1f7e88f1865352ac942e9ad0bdc013ce6772f8a147ce948",
+      "receipt_id": "f0a3aa80191942069fc11e0a94306809",
+      "request_hash": "78158c5e64139c37d66806b9455174d21da0a38fa5a82f7ff1a97cdc45e18656",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s source record is labeled “Neurocirculatory Asthenia” and does not explicitly define or equate “effort syndrome,” so the requested term/sense is not supported by the supplied packet.",
+        "Because “effort syndrome” is not supported as the descriptor’s term, the definition’s identification of the syndrome with that name cannot be verified from the packet, even though the symptom description broadly matches the packet."
+      ],
+      "definition_hash": "a856c9d94369ea083a2c2e0627a65ec1568934c744d6841d8600e413eae42341",
+      "packet_hash": "734204c56549851ab1f7e88f1865352ac942e9ad0bdc013ce6772f8a147ce948",
+      "published_packet_hash": "734204c56549851ab1f7e88f1865352ac942e9ad0bdc013ce6772f8a147ce948",
+      "receipt_id": "d1ebd73f7a6e43978173050641f20645",
+      "request_hash": "e2c7154d5a7742fa5540aa3ce6fded6571d2bd42652f4a7ddb5e7a95902b782e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

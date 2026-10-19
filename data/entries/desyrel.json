@@ -27,5 +27,34 @@
     "definition_hash": "cb41b7d08feb192fab49df85811c0f124d31db0e8f9b8ceb9a49a1bf22aae1e3",
     "packet_hash": "ad5353054409b2e1ff717faa79e4bb6a8a5786be73b2ca2d4057fcf53b92c864"
   },
-  "hash": "87a1d9e05ce802ba3da9fc7fbb411f467d233cf727d8f7fd7d49e3a6efe4233d"
+  "hash": "87a1d9e05ce802ba3da9fc7fbb411f467d233cf727d8f7fd7d49e3a6efe4233d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "cb41b7d08feb192fab49df85811c0f124d31db0e8f9b8ceb9a49a1bf22aae1e3",
+      "packet_hash": "ad5353054409b2e1ff717faa79e4bb6a8a5786be73b2ca2d4057fcf53b92c864",
+      "published_packet_hash": "ad5353054409b2e1ff717faa79e4bb6a8a5786be73b2ca2d4057fcf53b92c864",
+      "receipt_id": "1cf212f0f4c64076afb3bd2b2313f281",
+      "request_hash": "3343946103c5c0db3f0d3ceb5788ac5de5a527bbe9ce4ef8d3416cc8e0711485",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet identifies trazodone hydrochloride, not the brand name Desyrel, so the claim that Desyrel is a brand name is unsupported by the source.",
+        "The rest of the mechanism and effect statements are broadly supported, but the definition should not assert an unsupported naming relationship from the packet alone."
+      ],
+      "definition_hash": "cb41b7d08feb192fab49df85811c0f124d31db0e8f9b8ceb9a49a1bf22aae1e3",
+      "packet_hash": "ad5353054409b2e1ff717faa79e4bb6a8a5786be73b2ca2d4057fcf53b92c864",
+      "published_packet_hash": "ad5353054409b2e1ff717faa79e4bb6a8a5786be73b2ca2d4057fcf53b92c864",
+      "receipt_id": "ca4dced0b5d149b19e95c2ec24a37b3b",
+      "request_hash": "34174b7ee70cbab12927fc179f37d0128025c673d61a17d00609df61cb032223",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

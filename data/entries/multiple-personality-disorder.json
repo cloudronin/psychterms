@@ -27,5 +27,34 @@
     "definition_hash": "c4ef4156396684238488c677f63c9c9f62680cb5426eb389a041fa37039759a8",
     "packet_hash": "99f3eba420cff1168fe12d987de2c9eea1f246a0dbf811d546d151083793f182"
   },
-  "hash": "cfa375952866fbd0606aace5abd260659cd40a99fabf79bb36e22afb767162a8"
+  "hash": "cfa375952866fbd0606aace5abd260659cd40a99fabf79bb36e22afb767162a8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c4ef4156396684238488c677f63c9c9f62680cb5426eb389a041fa37039759a8",
+      "packet_hash": "99f3eba420cff1168fe12d987de2c9eea1f246a0dbf811d546d151083793f182",
+      "published_packet_hash": "99f3eba420cff1168fe12d987de2c9eea1f246a0dbf811d546d151083793f182",
+      "receipt_id": "01a15b5fb0b94620a0475b411c036cd0",
+      "request_hash": "36b4d0571fbe5d2fe04eaa8544b03d673dfac067cc38126fd21b7b4acc57adb2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet provided is for “Dissociative Identity Disorder” (source_label) and does not explicitly support that this corresponds to or is used as “multiple personality disorder.”",
+        "Because the packet does not verify the requested term (“multiple personality disorder”) as the correct label/sense within the provided source, the definition’s target term is not defensible from the packet."
+      ],
+      "definition_hash": "c4ef4156396684238488c677f63c9c9f62680cb5426eb389a041fa37039759a8",
+      "packet_hash": "99f3eba420cff1168fe12d987de2c9eea1f246a0dbf811d546d151083793f182",
+      "published_packet_hash": "99f3eba420cff1168fe12d987de2c9eea1f246a0dbf811d546d151083793f182",
+      "receipt_id": "6a98336118de453693495532c39914c5",
+      "request_hash": "968074d0db295d55d4035642272a876f7d13ecd1e5c13707f20ab774a683e02b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

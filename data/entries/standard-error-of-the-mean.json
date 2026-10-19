@@ -27,5 +27,33 @@
     "definition_hash": "bf48ba64b1d58d87f5506a52f3cb8da1302cc0e595d8fcacaf02c6611b529e9f",
     "packet_hash": "5d38dc7d629b2b2dfab84eff45c6818d2cb311717de45e43b9d6a1e572428768"
   },
-  "hash": "79daa22751f574e2f65af9e924fcbb72b34ab8d771f265da3cfd554676624b75"
+  "hash": "79daa22751f574e2f65af9e924fcbb72b34ab8d771f265da3cfd554676624b75",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bf48ba64b1d58d87f5506a52f3cb8da1302cc0e595d8fcacaf02c6611b529e9f",
+      "packet_hash": "5d38dc7d629b2b2dfab84eff45c6818d2cb311717de45e43b9d6a1e572428768",
+      "published_packet_hash": "5d38dc7d629b2b2dfab84eff45c6818d2cb311717de45e43b9d6a1e572428768",
+      "receipt_id": "e3cdce0bbc594d57a19bca5d74a4040b",
+      "request_hash": "6b235898ca2a76374f6b6293130663848f19ef07686a4909c9a0924b0815f285",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes the explanatory claim that it “shows how much a sample mean would be expected to vary from sample to sample,” but the provided packet text only defines SEM as the standard deviation of the sampling distribution of the mean and mentions a formula involving σ and sample size; it does not state this “expected to vary from sample to sample” interpretation."
+      ],
+      "definition_hash": "bf48ba64b1d58d87f5506a52f3cb8da1302cc0e595d8fcacaf02c6611b529e9f",
+      "packet_hash": "5d38dc7d629b2b2dfab84eff45c6818d2cb311717de45e43b9d6a1e572428768",
+      "published_packet_hash": "5d38dc7d629b2b2dfab84eff45c6818d2cb311717de45e43b9d6a1e572428768",
+      "receipt_id": "a69981e555e7490bb059b7c6b811a34f",
+      "request_hash": "7f26cee2aefe3e4431f6d02be7b657f33aa74c5472a64c636c2417ced4b6a4f2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

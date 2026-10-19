@@ -27,5 +27,37 @@
     "definition_hash": "5e4bdb9b9b47890a0177f9603ae265ad02dd37b9eb79aad4ca8769e25b92f0aa",
     "packet_hash": "07a3e1d7a36eff288ba2a73671ed9168e664767a373f64d9df23ad4fb04ff75e"
   },
-  "hash": "b0b49fe2d7c92857e5ef2e7e8557714c662c17bb1358b1826a856880c28a58a1"
+  "hash": "b0b49fe2d7c92857e5ef2e7e8557714c662c17bb1358b1826a856880c28a58a1",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence makes an unsupported meta-claim about the packet’s coverage; the source passage only shows \"unsociable\" in a descriptive list and does not establish that no fuller definition is provided.",
+        "\"Withdrawn\" is an added paraphrase not directly supported by the packet; the passage supports only that subjects may become \"unsociable,\" not that they are specifically becoming withdrawn."
+      ],
+      "definition_hash": "5e4bdb9b9b47890a0177f9603ae265ad02dd37b9eb79aad4ca8769e25b92f0aa",
+      "packet_hash": "07a3e1d7a36eff288ba2a73671ed9168e664767a373f64d9df23ad4fb04ff75e",
+      "published_packet_hash": "07a3e1d7a36eff288ba2a73671ed9168e664767a373f64d9df23ad4fb04ff75e",
+      "receipt_id": "b1c94a2bf302477eb4f104cf17d1e7b9",
+      "request_hash": "bf9383be6e1f4153ce9a3206c3242d94a1e117cb704a0828e641e9d84d833d3f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only contains the usage “moody, unsociable, impatient…” and does not explicitly state the meaning as “not inclined to mix with other people,” so that specific phrasing is not directly supported.",
+        "Because the packet provides no fuller definition, the reader can only infer a general sense of “unsociable” from the adjective’s context, but the definition’s more specific paraphrase (“mix with other people”) goes beyond what is clearly supported by the supplied text."
+      ],
+      "definition_hash": "5e4bdb9b9b47890a0177f9603ae265ad02dd37b9eb79aad4ca8769e25b92f0aa",
+      "packet_hash": "07a3e1d7a36eff288ba2a73671ed9168e664767a373f64d9df23ad4fb04ff75e",
+      "published_packet_hash": "07a3e1d7a36eff288ba2a73671ed9168e664767a373f64d9df23ad4fb04ff75e",
+      "receipt_id": "73bde46c99184e0b916e4ed68b2d8a20",
+      "request_hash": "0d92a4ea7de3214700e5c78b826d33b5e1234fda56700725247f24685c48028a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

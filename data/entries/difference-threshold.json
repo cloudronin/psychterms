@@ -27,5 +27,34 @@
     "definition_hash": "aaaf593a75a7e6ad4a3a3513a38787b27455ec96319479c153c5e5767c80a731",
     "packet_hash": "8e3f680bfa9ef676fc2f77ecc7326a53e6da72ea4a22bd2e80c4b08516a48afa"
   },
-  "hash": "6260a0ab573d64876914342f6ae849a10619efe02029dc6481bdeb3f9067903c"
+  "hash": "6260a0ab573d64876914342f6ae849a10619efe02029dc6481bdeb3f9067903c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "aaaf593a75a7e6ad4a3a3513a38787b27455ec96319479c153c5e5767c80a731",
+      "packet_hash": "8e3f680bfa9ef676fc2f77ecc7326a53e6da72ea4a22bd2e80c4b08516a48afa",
+      "published_packet_hash": "8e3f680bfa9ef676fc2f77ecc7326a53e6da72ea4a22bd2e80c4b08516a48afa",
+      "receipt_id": "61462e742e9e4a4784ab2e93f3be22fa",
+      "request_hash": "4a06f8234358565e714550ef11c010e7cb582946c1ff2ef9bccc644481306a40",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that measurements aim at “ascertainment of the difference threshold, or the apparent equality of two stimulus differences,” but it does not explicitly define the difference threshold as “the least difference between stimuli that is apprehended as different.”",
+        "Because the “least difference” / “apprehended as different” phrasing is not directly supported in the provided packet, the definition contains an unsupported substantive claim."
+      ],
+      "definition_hash": "aaaf593a75a7e6ad4a3a3513a38787b27455ec96319479c153c5e5767c80a731",
+      "packet_hash": "8e3f680bfa9ef676fc2f77ecc7326a53e6da72ea4a22bd2e80c4b08516a48afa",
+      "published_packet_hash": "8e3f680bfa9ef676fc2f77ecc7326a53e6da72ea4a22bd2e80c4b08516a48afa",
+      "receipt_id": "95fee94acd8b4d8f81d7985ed5a2f9f6",
+      "request_hash": "d5421b26c7793b62e7f23820cbb407bb54f5bf163add6b06799d5efb296d78fc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

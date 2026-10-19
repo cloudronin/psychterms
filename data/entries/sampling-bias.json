@@ -27,5 +27,33 @@
     "definition_hash": "2a1304ae232cd308e39aed2afe0c9f2f5ed679dc0860787c6cb5b8917bc6b68d",
     "packet_hash": "ee447a47eba4b6a484d544e095018dbc2ffe86f8038b1034979db47d30e2cce0"
   },
-  "hash": "23a98ce0086eb019ce1bd8c2c86226cf57cab5c17fa7487a4f13ae744ba0a3da"
+  "hash": "23a98ce0086eb019ce1bd8c2c86226cf57cab5c17fa7487a4f13ae744ba0a3da",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2a1304ae232cd308e39aed2afe0c9f2f5ed679dc0860787c6cb5b8917bc6b68d",
+      "packet_hash": "ee447a47eba4b6a484d544e095018dbc2ffe86f8038b1034979db47d30e2cce0",
+      "published_packet_hash": "ee447a47eba4b6a484d544e095018dbc2ffe86f8038b1034979db47d30e2cce0",
+      "receipt_id": "8386dad445ff457bb70d2ae3dc93ffe3",
+      "request_hash": "f077615c7e786324828a09ed502a0eb178714633e4ab439ba2205a2fbf50e076",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define sampling bias as “distortion in a study’s findings that comes from the sample”; it only states that “as the sample size increases, sampling bias goes down,” without giving a general definitional description of sampling bias in those terms."
+      ],
+      "definition_hash": "2a1304ae232cd308e39aed2afe0c9f2f5ed679dc0860787c6cb5b8917bc6b68d",
+      "packet_hash": "ee447a47eba4b6a484d544e095018dbc2ffe86f8038b1034979db47d30e2cce0",
+      "published_packet_hash": "ee447a47eba4b6a484d544e095018dbc2ffe86f8038b1034979db47d30e2cce0",
+      "receipt_id": "566f8bdd8d054d97b6fca02c231744d7",
+      "request_hash": "d1d9e6fba22608505309abfc34305cc8b111aaa6b533a28d286f40d7a84ef2b8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

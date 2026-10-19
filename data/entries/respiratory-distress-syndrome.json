@@ -27,5 +27,33 @@
     "definition_hash": "8985a8c56806a5a03ebb89f737102c67223fd2a8c847b377a61e194d0d7802ed",
     "packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996"
   },
-  "hash": "3b8a0aa5f86ac76be8eb745e019d02ba7f73f682709a1188638deb015c013d7e"
+  "hash": "3b8a0aa5f86ac76be8eb745e019d02ba7f73f682709a1188638deb015c013d7e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8985a8c56806a5a03ebb89f737102c67223fd2a8c847b377a61e194d0d7802ed",
+      "packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996",
+      "published_packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996",
+      "receipt_id": "1ffa7c1251be4650843256cf07156a1f",
+      "request_hash": "ed196b00a826db3d2501184731c16c71989752342108f41143cd32c0e091337f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition describes a medical condition involving respiratory insufficiency/breathing failure, but the packet does not support any connection to mental health (only “respiratory insufficiency” in the absence of lung disease after systemic insult)."
+      ],
+      "definition_hash": "8985a8c56806a5a03ebb89f737102c67223fd2a8c847b377a61e194d0d7802ed",
+      "packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996",
+      "published_packet_hash": "58c8061044e19b45c247a13574a2030fd74dbf8c3192c4b5b7563ee7c02aa996",
+      "receipt_id": "3d3bfb3e44414eb595c8085d22791da9",
+      "request_hash": "24f129bb62d06ce974530c23c8f8b1fa1bdd1e58e5422e616feda74b58a2ed65",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

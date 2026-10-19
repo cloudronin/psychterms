@@ -27,5 +27,36 @@
     "definition_hash": "fe41c83f5bad3f213694d10e03951b4ab437b93371916c78a6af49cd65c76f51",
     "packet_hash": "c34d00b3dc74b59fad786ff05ac8bce15981d98e25c973a234cd40ae099fb49a"
   },
-  "hash": "0b86d29ab8fff6602aa32be7753fcc3ecf94e02fedf6d030b5935403fd18278c"
+  "hash": "0b86d29ab8fff6602aa32be7753fcc3ecf94e02fedf6d030b5935403fd18278c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The term is a medical/endocrine disorder, not a mental health concept, so the requested field is not defensible from the packet.",
+        "The definition is otherwise supported by the packet, but the field mismatch is enough to reject under the requested scope."
+      ],
+      "definition_hash": "fe41c83f5bad3f213694d10e03951b4ab437b93371916c78a6af49cd65c76f51",
+      "packet_hash": "c34d00b3dc74b59fad786ff05ac8bce15981d98e25c973a234cd40ae099fb49a",
+      "published_packet_hash": "c34d00b3dc74b59fad786ff05ac8bce15981d98e25c973a234cd40ae099fb49a",
+      "receipt_id": "daafc19b37704aa987acf52d5a76591f",
+      "request_hash": "5c40fe94f51815e67d59b26cfe329e8a3b89dc417e11f30726f97c999f8b1b4f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The term defines an endocrine/medical condition (excess thyroid hormone) and does not reference any mental-health or psychology-specific meaning; therefore it is not clearly defensible as a “mental health” dictionary entry based on the provided packet."
+      ],
+      "definition_hash": "fe41c83f5bad3f213694d10e03951b4ab437b93371916c78a6af49cd65c76f51",
+      "packet_hash": "c34d00b3dc74b59fad786ff05ac8bce15981d98e25c973a234cd40ae099fb49a",
+      "published_packet_hash": "c34d00b3dc74b59fad786ff05ac8bce15981d98e25c973a234cd40ae099fb49a",
+      "receipt_id": "586fdc9e11134a50b78125b16474d3b9",
+      "request_hash": "e61363146cb9d0c7631c48cd77e542d155f3f1c7cbf7c293429b180a6c1f33ee",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

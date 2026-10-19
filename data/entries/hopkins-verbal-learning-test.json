@@ -27,5 +27,38 @@
     "definition_hash": "cbee2d0b4c19192cd5e07457670eddf74fea11127146442579e76137b7a7af90",
     "packet_hash": "4103c0b5100bfdac5b9886939eb4a3a61dcb99654dedceee9e30182b105dd0ab"
   },
-  "hash": "f77b9b885d7c4ebc048eacd51c67876ffab73249297a32fb73109e21c4657e73"
+  "hash": "f77b9b885d7c4ebc048eacd51c67876ffab73249297a32fb73109e21c4657e73",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the revised HD-CAB key variable, not the broader unqualified Hopkins Verbal Learning Test as stated in the definition.",
+        "“Verbal learning measure” is not explicitly supported by the packet; the packet only describes a key variable for composite score based on words recalled across Trials 1–4.",
+        "The definition compresses the source into a general test description, but the packet supports a specific composite-score variable with 48 possible words, so the sense is slightly off."
+      ],
+      "definition_hash": "cbee2d0b4c19192cd5e07457670eddf74fea11127146442579e76137b7a7af90",
+      "packet_hash": "4103c0b5100bfdac5b9886939eb4a3a61dcb99654dedceee9e30182b105dd0ab",
+      "published_packet_hash": "4103c0b5100bfdac5b9886939eb4a3a61dcb99654dedceee9e30182b105dd0ab",
+      "receipt_id": "49d7bfccd1464931999adb151f391fd4",
+      "request_hash": "b6fea201df8b018426cafbe8f7fd626d4cd2ee3324abb6d5effbe850d3ae0dd0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly describe the test as a “verbal learning measure”; it only states it is a “key variable for composite score” defined as total words correctly recalled over Trials 1–4 out of 48 possible.",
+        "Because the first sentence contains a substantive characterization (“verbal learning measure”) not directly supported verbatim in the packet, the definition is not fully defensible from the supplied source."
+      ],
+      "definition_hash": "cbee2d0b4c19192cd5e07457670eddf74fea11127146442579e76137b7a7af90",
+      "packet_hash": "4103c0b5100bfdac5b9886939eb4a3a61dcb99654dedceee9e30182b105dd0ab",
+      "published_packet_hash": "4103c0b5100bfdac5b9886939eb4a3a61dcb99654dedceee9e30182b105dd0ab",
+      "receipt_id": "3531316dc9cc4c709f93da6ba84316ae",
+      "request_hash": "bdd06460b6b0d708299e356f1f4ffb11ac3708a574046f4dd5e9219f5000bca4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

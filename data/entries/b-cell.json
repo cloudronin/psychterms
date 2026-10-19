@@ -27,5 +27,34 @@
     "definition_hash": "32100c2dbcb6e02ec423cfc5ad4ebd16de6a81f9b0783a0e2868efa5f57831ed",
     "packet_hash": "5f5f7b52cd5cc851c463b2f9974f47485e06b06188ad23f6f25a58397331a772"
   },
-  "hash": "079985807c0fb98654478b28935ccf5b142355720c554bd3690700903ffccf23"
+  "hash": "079985807c0fb98654478b28935ccf5b142355720c554bd3690700903ffccf23",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "32100c2dbcb6e02ec423cfc5ad4ebd16de6a81f9b0783a0e2868efa5f57831ed",
+      "packet_hash": "5f5f7b52cd5cc851c463b2f9974f47485e06b06188ad23f6f25a58397331a772",
+      "published_packet_hash": "5f5f7b52cd5cc851c463b2f9974f47485e06b06188ad23f6f25a58397331a772",
+      "receipt_id": "542bcbfbcccf4b6b85daad014cd43bdd",
+      "request_hash": "14ecdac7ea9d1a1e71e33844416aaf011a09bba4a18028c63e126d08c99d1f43",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided definition describes an immunology/biology concept (B lymphocytes and immunoglobulin production), not cognition in a psychology/counselling context.",
+        "While the substantive claims about thymus-independence, short-lived naive vs long-lived memory phenotype, and immunoglobulin production are supported by the packet, the definition does not align with the requested field (“cognition”)."
+      ],
+      "definition_hash": "32100c2dbcb6e02ec423cfc5ad4ebd16de6a81f9b0783a0e2868efa5f57831ed",
+      "packet_hash": "5f5f7b52cd5cc851c463b2f9974f47485e06b06188ad23f6f25a58397331a772",
+      "published_packet_hash": "5f5f7b52cd5cc851c463b2f9974f47485e06b06188ad23f6f25a58397331a772",
+      "receipt_id": "a1db2e626c73479a99faa46f8cc2873b",
+      "request_hash": "4b08050dd49f32653875fc0fc6a0cabc5443c2dbaf9cd3f749a9ced1991fcb01",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

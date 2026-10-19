@@ -27,5 +27,34 @@
     "definition_hash": "4ab1621bec8fac0b2fa4818dc18abe540be08d12440afbd13fea8fd65d55eddd",
     "packet_hash": "069e1fc4419db1863d88e8010c819049a08301918ee0b142b767686c078504aa"
   },
-  "hash": "f7cbf070f42c0fb3de12a425071e9f0ce99065e9b86cb67d42e91cbe8d85ec6d"
+  "hash": "f7cbf070f42c0fb3de12a425071e9f0ce99065e9b86cb67d42e91cbe8d85ec6d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "4ab1621bec8fac0b2fa4818dc18abe540be08d12440afbd13fea8fd65d55eddd",
+      "packet_hash": "069e1fc4419db1863d88e8010c819049a08301918ee0b142b767686c078504aa",
+      "published_packet_hash": "069e1fc4419db1863d88e8010c819049a08301918ee0b142b767686c078504aa",
+      "receipt_id": "de930669ea7a4409aae37a27f3d5868a",
+      "request_hash": "8e88a2bf9b8edea5783d5d9539eb2fa992f276978a79fd06f6bcb63498ba595e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds an unsupported location claim (“in the brain”); the packet only says it is an artery that joins the two anterior cerebral arteries.",
+        "Uses a broader class (“blood vessel”) than the packet’s specific term (“artery”)."
+      ],
+      "definition_hash": "4ab1621bec8fac0b2fa4818dc18abe540be08d12440afbd13fea8fd65d55eddd",
+      "packet_hash": "069e1fc4419db1863d88e8010c819049a08301918ee0b142b767686c078504aa",
+      "published_packet_hash": "069e1fc4419db1863d88e8010c819049a08301918ee0b142b767686c078504aa",
+      "receipt_id": "10dcf78143a34dadb5dec67d13eea2e1",
+      "request_hash": "5ea868977d2e9f7af592832e881633f9bb1df12462ab63ac8f7d460e62130fe8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

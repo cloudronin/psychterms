@@ -27,5 +27,34 @@
     "definition_hash": "82bc19d58b57a67e131e1183456506473f3cde663592d8d8ff80791ce13a7f5e",
     "packet_hash": "bb2ec3cb253f416a196b44ad3073bb96af4f9c49865a18687f0e9643536f7ef9"
   },
-  "hash": "b68b826eaebdbc10616cb8a376d9640dbf2ad91055c9d6e644ae7d0e81c61b74"
+  "hash": "b68b826eaebdbc10616cb8a376d9640dbf2ad91055c9d6e644ae7d0e81c61b74",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "82bc19d58b57a67e131e1183456506473f3cde663592d8d8ff80791ce13a7f5e",
+      "packet_hash": "bb2ec3cb253f416a196b44ad3073bb96af4f9c49865a18687f0e9643536f7ef9",
+      "published_packet_hash": "bb2ec3cb253f416a196b44ad3073bb96af4f9c49865a18687f0e9643536f7ef9",
+      "receipt_id": "bf81415b19044abf894de6dbeea8656f",
+      "request_hash": "4faeaf6ec8a43b5f495d48aa3a603b178dbea993fb0f1a8e316834971d9577b0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “person or animal” receiving reinforcement, but the packet only specifies “the subject” and does not explicitly support the person/animal phrasing.",
+        "The definition states reinforcement may be provided “every time a response occurs or only on some occasions.” The packet instead describes continuity as “continuous or intermittent” and frames schedules in terms of “temporal interval,” without explicitly supporting the “every time a response occurs” wording."
+      ],
+      "definition_hash": "82bc19d58b57a67e131e1183456506473f3cde663592d8d8ff80791ce13a7f5e",
+      "packet_hash": "bb2ec3cb253f416a196b44ad3073bb96af4f9c49865a18687f0e9643536f7ef9",
+      "published_packet_hash": "bb2ec3cb253f416a196b44ad3073bb96af4f9c49865a18687f0e9643536f7ef9",
+      "receipt_id": "155037a635354a26a0b909349b854fdf",
+      "request_hash": "735eeb6e3dddb67dd265210e046f1577da6965355371999784cc6c17c9dcb89f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,35 @@
     "definition_hash": "6ac9c281ec95411f431b2cd9aab97f82f937df25d9adc6092fcfec377cf85549",
     "packet_hash": "9f6b14cf6dc66be846d10bc92ba9b641ac5fadf40b14e46b401e5c490c47d2cf"
   },
-  "hash": "2d79616db3040b2c2ef492e74fd84caca7889d5639a32a7883170ab85111ab91"
+  "hash": "2d79616db3040b2c2ef492e74fd84caca7889d5639a32a7883170ab85111ab91",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6ac9c281ec95411f431b2cd9aab97f82f937df25d9adc6092fcfec377cf85549",
+      "packet_hash": "9f6b14cf6dc66be846d10bc92ba9b641ac5fadf40b14e46b401e5c490c47d2cf",
+      "published_packet_hash": "9f6b14cf6dc66be846d10bc92ba9b641ac5fadf40b14e46b401e5c490c47d2cf",
+      "receipt_id": "16b5ea502fcb4464bb4ba254317de7c5",
+      "request_hash": "fcc5ec16af2dcaabb9847a6c627b6008b91ec616499b354b67d279bd653f17ba",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “independent groups” as a term; it only contrasts “independent groups” with “correlated measurements” in the context of Cohen’s d, but it does not provide the requested between-subjects/measurement-from-different-people description.",
+        "The definition’s claim that this corresponds to a “between-subjects design” and that “each group's measurements come from different people” is not explicitly stated in the supplied packet.",
+        "The packet mentions “between designs” in the context of the common language effect size, but this is not sufficient support for the definition’s broader description of independent groups in research design terms."
+      ],
+      "definition_hash": "6ac9c281ec95411f431b2cd9aab97f82f937df25d9adc6092fcfec377cf85549",
+      "packet_hash": "9f6b14cf6dc66be846d10bc92ba9b641ac5fadf40b14e46b401e5c490c47d2cf",
+      "published_packet_hash": "9f6b14cf6dc66be846d10bc92ba9b641ac5fadf40b14e46b401e5c490c47d2cf",
+      "receipt_id": "1242d23156f84682892e8791d87a76c1",
+      "request_hash": "725d6d07d13c79e5584e8f73b790aa8b256eead01aab2f87f48383273e3270b8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

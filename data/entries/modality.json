@@ -27,5 +27,33 @@
     "definition_hash": "8ae9ab1eff234841d8c9a7a33d64ba939c0caad08c78ccffbbb33929e4cc5472",
     "packet_hash": "6ff91bdaf420e09af96a55371bf937b1b813118b2568ed5cc568380060635189"
   },
-  "hash": "ed08051c4e34d29efa5e595d6e524e0d7e4762789417179809f3c39445a7399c"
+  "hash": "ed08051c4e34d29efa5e595d6e524e0d7e4762789417179809f3c39445a7399c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8ae9ab1eff234841d8c9a7a33d64ba939c0caad08c78ccffbbb33929e4cc5472",
+      "packet_hash": "6ff91bdaf420e09af96a55371bf937b1b813118b2568ed5cc568380060635189",
+      "published_packet_hash": "6ff91bdaf420e09af96a55371bf937b1b813118b2568ed5cc568380060635189",
+      "receipt_id": "ee30f69d522543a4be23553b0e4e3956",
+      "request_hash": "8eb7b83cea641d4d70df9a845315200cc2a2d8b925816d7e1e063a866b1ca551",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that modality concerns whether something is “presented as required, allowed, excluded, or dependent on circumstances,” but the packet instead describes modality in terms of logical qualification by the modes *possible, impossible, contingent,* and *necessary*, and does not support the “required/allowed/excluded/dependent” framing as part of that historical sense."
+      ],
+      "definition_hash": "8ae9ab1eff234841d8c9a7a33d64ba939c0caad08c78ccffbbb33929e4cc5472",
+      "packet_hash": "6ff91bdaf420e09af96a55371bf937b1b813118b2568ed5cc568380060635189",
+      "published_packet_hash": "6ff91bdaf420e09af96a55371bf937b1b813118b2568ed5cc568380060635189",
+      "receipt_id": "5634c9777ea64403a31844e7eedcb43d",
+      "request_hash": "2d0e3a5a11a10b17daa44c981bf6ea7d61a9bb148ef48ca1b2f030c51ed0b778",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

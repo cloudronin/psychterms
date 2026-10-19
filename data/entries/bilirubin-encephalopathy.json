@@ -27,5 +27,33 @@
     "definition_hash": "2ec0d958e364fb7de7f004fbc02d7f55f8e7108c67d8824b16061ed2a79a1575",
     "packet_hash": "ddafb8ae63e9a7f75c7c465ef08587c85b1bea9068fe738859ecb7bc992d5519"
   },
-  "hash": "8a7918e2459d2b3189b91cf52287250852b2a65ef5fa50f85ff263614170299d"
+  "hash": "8a7918e2459d2b3189b91cf52287250852b2a65ef5fa50f85ff263614170299d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2ec0d958e364fb7de7f004fbc02d7f55f8e7108c67d8824b16061ed2a79a1575",
+      "packet_hash": "ddafb8ae63e9a7f75c7c465ef08587c85b1bea9068fe738859ecb7bc992d5519",
+      "published_packet_hash": "ddafb8ae63e9a7f75c7c465ef08587c85b1bea9068fe738859ecb7bc992d5519",
+      "receipt_id": "05f6ddcd239e428ba6ebfcd2f0960d1b",
+      "request_hash": "035826e35c7832094fc39c7164155e3740d42af8fcf644758da23f77ed335bec",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition specifies “impaired upward gaze,” but the packet only states “impaired vertical gaze,” not specifically upward gaze."
+      ],
+      "definition_hash": "2ec0d958e364fb7de7f004fbc02d7f55f8e7108c67d8824b16061ed2a79a1575",
+      "packet_hash": "ddafb8ae63e9a7f75c7c465ef08587c85b1bea9068fe738859ecb7bc992d5519",
+      "published_packet_hash": "ddafb8ae63e9a7f75c7c465ef08587c85b1bea9068fe738859ecb7bc992d5519",
+      "receipt_id": "417ca59a2b11441b936546fe6a45b684",
+      "request_hash": "fd7b5a14db08db9df90218bcb2c308d7ab3a3dc86f37be17b4f15b81fcaeb20b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

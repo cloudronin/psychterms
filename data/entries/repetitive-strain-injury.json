@@ -27,5 +27,37 @@
     "definition_hash": "315c762a90a719b4709ca306540d0f82b62b2d4e27bd8bd20b35273f1186fdc9",
     "packet_hash": "a63261dedaa78a6c95dadd5028dc17250c565e6befb687547987142ef3623b20"
   },
-  "hash": "28fe0a5b7ba175c719b0517edab33a006dc9614d84987b96f161e1d0db53ab2b"
+  "hash": "28fe0a5b7ba175c719b0517edab33a006dc9614d84987b96f161e1d0db53ab2b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is mental health, but the packet supports a musculoskeletal cumulative trauma disorder rather than a psychology/counselling sense.",
+        "The definition is otherwise close to the packet, but the field/sense assignment is not defensible for a mental health dictionary entry."
+      ],
+      "definition_hash": "315c762a90a719b4709ca306540d0f82b62b2d4e27bd8bd20b35273f1186fdc9",
+      "packet_hash": "a63261dedaa78a6c95dadd5028dc17250c565e6befb687547987142ef3623b20",
+      "published_packet_hash": "a63261dedaa78a6c95dadd5028dc17250c565e6befb687547987142ef3623b20",
+      "receipt_id": "85d13607343441e880ce99913fa1a742",
+      "request_hash": "9276a9d49550472d98775b11561735a303c22168a863c2212d41a2466131c63c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines “repetitive strain injury” as a harmful, painful condition of the musculoskeletal system (joints, bones, ligaments, nerves) associated with work-related physical activity, with no support provided for any mental-health context.",
+        "Because the definition is grounded in a physical/medical mechanism and structures, its fit to the requested field (“mental health”) is not defensible from the provided packet."
+      ],
+      "definition_hash": "315c762a90a719b4709ca306540d0f82b62b2d4e27bd8bd20b35273f1186fdc9",
+      "packet_hash": "a63261dedaa78a6c95dadd5028dc17250c565e6befb687547987142ef3623b20",
+      "published_packet_hash": "a63261dedaa78a6c95dadd5028dc17250c565e6befb687547987142ef3623b20",
+      "receipt_id": "1e9cabe2bcf44f38bbfba021b42e76fe",
+      "request_hash": "3beaa95f90bdccd4647e653f4644e36627fc6fa1655869071636a67e91f182b5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

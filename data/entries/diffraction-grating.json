@@ -27,5 +27,34 @@
     "definition_hash": "44346ede7bf6ee42550dc35721b755b777cbb4745942c78086bc60599c339059",
     "packet_hash": "e29a4fbd4a33445c3fbff13231875fe71b29535d7bf1ab2e1dfa274ab38d4318"
   },
-  "hash": "b8e90554238b7d0d2d2867976bcba7cfc2c82994bd3d51f82ab6d94f9336589f"
+  "hash": "b8e90554238b7d0d2d2867976bcba7cfc2c82994bd3d51f82ab6d94f9336589f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "44346ede7bf6ee42550dc35721b755b777cbb4745942c78086bc60599c339059",
+      "packet_hash": "e29a4fbd4a33445c3fbff13231875fe71b29535d7bf1ab2e1dfa274ab38d4318",
+      "published_packet_hash": "e29a4fbd4a33445c3fbff13231875fe71b29535d7bf1ab2e1dfa274ab38d4318",
+      "receipt_id": "070c238fdca74940bd3f5507ebcfda79",
+      "request_hash": "be1aeccca0c77679461bc8fecbe97faf62ca31eb9e3b8b0e421c10ff6537181d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that the grating reflects light so that waves are “dispersed into different directions.” The packet mentions that radiation can be “reflected from a diffraction grating” and that spectra are produced by “dispersion of waves of different periods,” but it does not state that the grating disperses waves specifically “into different directions.”",
+        "The packet ties “different directions” to separated “trains” in the general description of emission spectra, but it does not explicitly connect that directional dispersion mechanism to diffraction gratings in the grating-related sentences."
+      ],
+      "definition_hash": "44346ede7bf6ee42550dc35721b755b777cbb4745942c78086bc60599c339059",
+      "packet_hash": "e29a4fbd4a33445c3fbff13231875fe71b29535d7bf1ab2e1dfa274ab38d4318",
+      "published_packet_hash": "e29a4fbd4a33445c3fbff13231875fe71b29535d7bf1ab2e1dfa274ab38d4318",
+      "receipt_id": "69da3ec3184b442db6ab5c3643569202",
+      "request_hash": "fe3f08d9f496bde03a0265916b35521851ab387e3a3238af35fedd5ba2d8fb48",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

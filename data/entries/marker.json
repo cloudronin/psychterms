@@ -27,5 +27,34 @@
     "definition_hash": "3f85cf080ccbe2fd28fd9e715b67cab8b8ccc370f4dd8af9f03ef281d9a96149",
     "packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458"
   },
-  "hash": "d2f6f44b324c7ece87db9f3312e479a2b62e4f596f3e8fb6351cd342ce5746f4"
+  "hash": "d2f6f44b324c7ece87db9f3312e479a2b62e4f596f3e8fb6351cd342ce5746f4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3f85cf080ccbe2fd28fd9e715b67cab8b8ccc370f4dd8af9f03ef281d9a96149",
+      "packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458",
+      "published_packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458",
+      "receipt_id": "16ec8442dd404875a760fc35c4763a4e",
+      "request_hash": "598ea32c946d7a66aec8639a6e3d864b1c85c06604d34597ffcac426e31c3514",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines “Marker” as “A visual indicator of position, place or route,” but it does not support that this term is specifically used in a “biological” field.",
+        "The definition provided (“A marker is a visual sign used to show a position, place, or route.”) matches the packet wording, but the requested field assignment (biological) is not supported by the packet."
+      ],
+      "definition_hash": "3f85cf080ccbe2fd28fd9e715b67cab8b8ccc370f4dd8af9f03ef281d9a96149",
+      "packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458",
+      "published_packet_hash": "fe8de52d6c81aa2f3ffb7c9a735c65b25339e7606005595aa34e1294994f6458",
+      "receipt_id": "5769b9c468de4150a8b6fe364907841f",
+      "request_hash": "8f640e8ae906975e7a0e56d58aa4a4c71b9c3c69a43a9342ca49859e1afcfdd5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

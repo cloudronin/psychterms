@@ -27,5 +27,34 @@
     "definition_hash": "fd9b0bf69dbe7046dac41af1b3b70e6137c891675fa70f1bc9b23046e4d149a5",
     "packet_hash": "52ccf6fd1f266e468b6c4171f0f6512b736b24e3f7454f0b1037acdee5d333b9"
   },
-  "hash": "bf69bdb06cfb2add68ccb05c036c8eeaee56b7a1693f1d9788d0afe3a636f0d2"
+  "hash": "bf69bdb06cfb2add68ccb05c036c8eeaee56b7a1693f1d9788d0afe3a636f0d2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fd9b0bf69dbe7046dac41af1b3b70e6137c891675fa70f1bc9b23046e4d149a5",
+      "packet_hash": "52ccf6fd1f266e468b6c4171f0f6512b736b24e3f7454f0b1037acdee5d333b9",
+      "published_packet_hash": "52ccf6fd1f266e468b6c4171f0f6512b736b24e3f7454f0b1037acdee5d333b9",
+      "receipt_id": "f4957a2cd2fe46fb861bd42ec1d55d2c",
+      "request_hash": "97a23bfe9de1a790eadbd3e4476f304dae104f7785bc01c44900f6b4aaf4bab6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “ventro-” as a prefix meaning “underside/bellyward”; it only contains anatomical usages such as “ventrad,” “ventral aspect,” and “ventro-cephalic extremity.”",
+        "The packet does not explicitly support the specific senses “lower or front-facing surface” (or “front-facing”); it supports directions “ventrad” and “ventrally” in context, but not the full “front-facing” component as stated in the definition."
+      ],
+      "definition_hash": "fd9b0bf69dbe7046dac41af1b3b70e6137c891675fa70f1bc9b23046e4d149a5",
+      "packet_hash": "52ccf6fd1f266e468b6c4171f0f6512b736b24e3f7454f0b1037acdee5d333b9",
+      "published_packet_hash": "52ccf6fd1f266e468b6c4171f0f6512b736b24e3f7454f0b1037acdee5d333b9",
+      "receipt_id": "588f84d119e043eab25540ef5f8a948a",
+      "request_hash": "a5a3eb4b30a441b13b7b2e6aa35ea5fd6737041c8c9969bab6087060d0d6f361",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

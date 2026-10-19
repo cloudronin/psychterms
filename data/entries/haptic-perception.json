@@ -27,5 +27,33 @@
     "definition_hash": "408bfd42289974489d0d1d6ac0261710960e2238f05da09aae24281a6c8bee81",
     "packet_hash": "860c098c7ee0240a3d04f94ecfcb33153f5866d8a4cfb7641249734929f3d06c"
   },
-  "hash": "900132a6203d0ca86a84f7e3646b4003e67ab13b0abcf9286869bf445424bf99"
+  "hash": "900132a6203d0ca86a84f7e3646b4003e67ab13b0abcf9286869bf445424bf99",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "408bfd42289974489d0d1d6ac0261710960e2238f05da09aae24281a6c8bee81",
+      "packet_hash": "860c098c7ee0240a3d04f94ecfcb33153f5866d8a4cfb7641249734929f3d06c",
+      "published_packet_hash": "860c098c7ee0240a3d04f94ecfcb33153f5866d8a4cfb7641249734929f3d06c",
+      "receipt_id": "f36b8f7697754b729eec8a4c8bbc1b30",
+      "request_hash": "7d3bf3f5907624e76a81ae729c282886dd27c7f23dfe6b388fd612ca0a856d2d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition specifies perception of an object’s shape and form by TOUCH and KINESTHESIS via tactile stimuli, but the added phrase in the second sentence (“perceiving what something is like by feeling it”) is not explicitly supported by the provided packet text."
+      ],
+      "definition_hash": "408bfd42289974489d0d1d6ac0261710960e2238f05da09aae24281a6c8bee81",
+      "packet_hash": "860c098c7ee0240a3d04f94ecfcb33153f5866d8a4cfb7641249734929f3d06c",
+      "published_packet_hash": "860c098c7ee0240a3d04f94ecfcb33153f5866d8a4cfb7641249734929f3d06c",
+      "receipt_id": "eade40925b7342de8b440fcc185e8ac6",
+      "request_hash": "6d1769ac75f3445860182308b738ce640d65245f37abaadcec8cb21c771059f3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

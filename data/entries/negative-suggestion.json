@@ -27,5 +27,34 @@
     "definition_hash": "9662f635a86f365a0942a811ab44a87933f4af2116a4cb14d9e619206db56bf0",
     "packet_hash": "087ec358bfe7ceb85c9319621149dcfe587264e6fc976643e74142f40303465c"
   },
-  "hash": "a66c55471e6e81c818df6b3d41b089dddcfa8b1f9b19fcc371fc1b28dd1eeea0"
+  "hash": "a66c55471e6e81c818df6b3d41b089dddcfa8b1f9b19fcc371fc1b28dd1eeea0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9662f635a86f365a0942a811ab44a87933f4af2116a4cb14d9e619206db56bf0",
+      "packet_hash": "087ec358bfe7ceb85c9319621149dcfe587264e6fc976643e74142f40303465c",
+      "published_packet_hash": "087ec358bfe7ceb85c9319621149dcfe587264e6fc976643e74142f40303465c",
+      "receipt_id": "84afa8833c8144ecbe76d559df35b95b",
+      "request_hash": "b8c7e4ca42ad576d634738bcbc2d4e350670ed84a88d36f029bde65c4a953564",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “negative suggestion” as “misleading another person by what is suggested rather than by making a direct false statement.” It only presents “negative suggestion (suggestio falsi)” as being contrasted with “positive misrepresentation” and with “omission of truth (suppresio veri).”",
+        "Because the requested definition adds the specific mechanism (“what is suggested” vs “direct false statement”) without support in the provided text, the substantive claim is not defensible from the packet."
+      ],
+      "definition_hash": "9662f635a86f365a0942a811ab44a87933f4af2116a4cb14d9e619206db56bf0",
+      "packet_hash": "087ec358bfe7ceb85c9319621149dcfe587264e6fc976643e74142f40303465c",
+      "published_packet_hash": "087ec358bfe7ceb85c9319621149dcfe587264e6fc976643e74142f40303465c",
+      "receipt_id": "fbb331c0ece34725be04792e32ead132",
+      "request_hash": "1786b822b0be39b3f4ac3ff4abfd15b28f4969d9853c9b403c119f8c0a6eee33",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

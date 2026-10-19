@@ -27,5 +27,36 @@
     "definition_hash": "a3da4c948334afb490250e2af5a452edc58fe4a487c27d5fd9be87234e2c09c7",
     "packet_hash": "0c08c2ea0847603e2e3c784863b6ab59b51fee1a955f90406db944f914ecc803"
   },
-  "hash": "413c41de77c932596f3927bb19234ec61684c42d23bd70dca97e3699927ef2a9"
+  "hash": "413c41de77c932596f3927bb19234ec61684c42d23bd70dca97e3699927ef2a9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a3da4c948334afb490250e2af5a452edc58fe4a487c27d5fd9be87234e2c09c7",
+      "packet_hash": "0c08c2ea0847603e2e3c784863b6ab59b51fee1a955f90406db944f914ecc803",
+      "published_packet_hash": "0c08c2ea0847603e2e3c784863b6ab59b51fee1a955f90406db944f914ecc803",
+      "receipt_id": "2f9c27eaccfa4c8b90131fc4c8429a10",
+      "request_hash": "09b0f78c9755a02cefea26c231cd6a001616d67089e81921bed3b4982a8945b8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “class inclusion” as “one class falls within or is contained under another”; it only mentions that some writers “develop the subject in terms of class-inclusion only” without supplying the containment/within wording.",
+        "The packet supports that there is a distinction between a “class-meaning” and an “attribute-meaning” and says they “carry each the other with it” / are “inextricably welded together,” but it does not explicitly state they are “logically equivalent” in the direct, symmetric way claimed by the definition.",
+        "The definition’s claim that class-inclusion is “one way of expressing what a proposition means” is not directly stated in the packet; the packet discusses different “meanings” and usage, but it does not provide that specific equivalence pairing for “class inclusion” versus “attribute-based reading.”",
+        "The definition asserts “paired with and logically equivalent to an attribute-based reading,” including a clear equivalence relationship; the packet does not provide a direct, proposition-level equivalence statement matching that phrasing."
+      ],
+      "definition_hash": "a3da4c948334afb490250e2af5a452edc58fe4a487c27d5fd9be87234e2c09c7",
+      "packet_hash": "0c08c2ea0847603e2e3c784863b6ab59b51fee1a955f90406db944f914ecc803",
+      "published_packet_hash": "0c08c2ea0847603e2e3c784863b6ab59b51fee1a955f90406db944f914ecc803",
+      "receipt_id": "ee3cdbb944cc4a829dff0831d842bd56",
+      "request_hash": "ced9e3dd0c57d01b02e813d895f988594790574693f8abf3a19174cb1d529b7c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

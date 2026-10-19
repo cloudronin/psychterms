@@ -27,5 +27,35 @@
     "definition_hash": "5b871c0898c38645db5c0ca95f470c730fe24b980867da07659b0645aa65bacb",
     "packet_hash": "a56b82f061efe9499df6e97e9a6a0ae2c23c8c1dffc24db26f3f58c4a1dcbcdd"
   },
-  "hash": "218a087b744f55267df9f709c95e48fe0bd9d5488d3707d1571573ea65d8b162"
+  "hash": "218a087b744f55267df9f709c95e48fe0bd9d5488d3707d1571573ea65d8b162",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5b871c0898c38645db5c0ca95f470c730fe24b980867da07659b0645aa65bacb",
+      "packet_hash": "a56b82f061efe9499df6e97e9a6a0ae2c23c8c1dffc24db26f3f58c4a1dcbcdd",
+      "published_packet_hash": "a56b82f061efe9499df6e97e9a6a0ae2c23c8c1dffc24db26f3f58c4a1dcbcdd",
+      "receipt_id": "f079e3872f454a11a99d203765c9427f",
+      "request_hash": "bf15e365d1eb7177f067c853f49c4e9b86d76617c194cebadb0a28c9558d2a30",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports the noun-like concept of a reward or object/situation that can reinforce a response, not the verb sense \"to reinforce.\"",
+        "The definition reverses the source wording and adds an unsupported claim about strengthening a response by using an object or situation; the packet only says such an object or situation can serve to reinforce a response, satisfy a motive, or afford pleasure.",
+        "The field label \"cognition\" is not enough to establish that this exact sense of \"reinforce\" is supported by the supplied source packet."
+      ],
+      "definition_hash": "5b871c0898c38645db5c0ca95f470c730fe24b980867da07659b0645aa65bacb",
+      "packet_hash": "a56b82f061efe9499df6e97e9a6a0ae2c23c8c1dffc24db26f3f58c4a1dcbcdd",
+      "published_packet_hash": "a56b82f061efe9499df6e97e9a6a0ae2c23c8c1dffc24db26f3f58c4a1dcbcdd",
+      "receipt_id": "c3e2c33cc5074ae7a910f2fdbec2f4c8",
+      "request_hash": "cec8051f135f00ed023da9a5b979f4be021daff3d96bc3736e8b32dcd98d9c3f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

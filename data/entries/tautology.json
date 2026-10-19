@@ -27,5 +27,35 @@
     "definition_hash": "a621fa22c244dd6bdcaa7cb518121b83c423ae2c577fef6be593a83d5b82b4cb",
     "packet_hash": "27a22fabca4d68e54745bdfaec852feabce9e990b255e62a5eb932ae49d6beb6"
   },
-  "hash": "d605eb3736b5b185630776b2c12bc72a48efc193771de0afc2ad7890d782dd76"
+  "hash": "d605eb3736b5b185630776b2c12bc72a48efc193771de0afc2ad7890d782dd76",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a621fa22c244dd6bdcaa7cb518121b83c423ae2c577fef6be593a83d5b82b4cb",
+      "packet_hash": "27a22fabca4d68e54745bdfaec852feabce9e990b255e62a5eb932ae49d6beb6",
+      "published_packet_hash": "27a22fabca4d68e54745bdfaec852feabce9e990b255e62a5eb932ae49d6beb6",
+      "receipt_id": "d9fade76f7c642a38f56cddff5dace7e",
+      "request_hash": "011445a1ef42eb4d4f27d3b20e845c170d46c4e8cd480cb122824e9622ca9b84",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “tautology” as a statement “true only because it restates the same relation in different words.” It only says that a certain criticism is “mere tautology” in relation to concrete matters of fact.",
+        "The packet does not explicitly describe tautology as lacking added “concrete information”; it discusses that determining “identity in difference” “says nothing as to the extent or form” of likenesses/differences, but this is not stated as a general definition of tautology.",
+        "The example references “identity in difference” and discusses what it does not determine, but the definition’s formulation (“restates the same relation…”) is not directly supported by the supplied text."
+      ],
+      "definition_hash": "a621fa22c244dd6bdcaa7cb518121b83c423ae2c577fef6be593a83d5b82b4cb",
+      "packet_hash": "27a22fabca4d68e54745bdfaec852feabce9e990b255e62a5eb932ae49d6beb6",
+      "published_packet_hash": "27a22fabca4d68e54745bdfaec852feabce9e990b255e62a5eb932ae49d6beb6",
+      "receipt_id": "09e427db16d34945826fc6340f45076c",
+      "request_hash": "72aedb2c083df6d5367025ef0d33a9e52d1aa662b2161750f1d05acd4e698898",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

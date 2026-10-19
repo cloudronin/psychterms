@@ -27,5 +27,34 @@
     "definition_hash": "08139ecc71dde1cb04f0169b185846309932e958c01128042425b49f223f77c4",
     "packet_hash": "03f4e5eee2db9a5bf8baf57e453fef3e265ee7c9134a80332ce7da8ca2315b2c"
   },
-  "hash": "72cf34270af18db31e4182f63aed5a0fc07906e0627fe24fb58007cd8de02401"
+  "hash": "72cf34270af18db31e4182f63aed5a0fc07906e0627fe24fb58007cd8de02401",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "08139ecc71dde1cb04f0169b185846309932e958c01128042425b49f223f77c4",
+      "packet_hash": "03f4e5eee2db9a5bf8baf57e453fef3e265ee7c9134a80332ce7da8ca2315b2c",
+      "published_packet_hash": "03f4e5eee2db9a5bf8baf57e453fef3e265ee7c9134a80332ce7da8ca2315b2c",
+      "receipt_id": "1fa8556f0d9b4abb8ab8de4fbad4b0f9",
+      "request_hash": "dbdcf6904a35a4911fa4d4d5080246151580e7e3f7a4822247451eeb21edc79a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes “shame” as an example of later distress, but the packet only explicitly lists “feeling of disgust, DEPRESSION, or guilt after overeating,” not shame.",
+        "Because “shame” is not supported by the provided packet, the definition’s examples of distress are not fully defensible from the supplied source."
+      ],
+      "definition_hash": "08139ecc71dde1cb04f0169b185846309932e958c01128042425b49f223f77c4",
+      "packet_hash": "03f4e5eee2db9a5bf8baf57e453fef3e265ee7c9134a80332ce7da8ca2315b2c",
+      "published_packet_hash": "03f4e5eee2db9a5bf8baf57e453fef3e265ee7c9134a80332ce7da8ca2315b2c",
+      "receipt_id": "7bdd8bc22e1045a88092f3b090100e2c",
+      "request_hash": "34de1e1111ad8022ffe26c0baab58af1b17f99a76defa0c9670e31bb30b4691f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

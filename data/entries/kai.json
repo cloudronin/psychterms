@@ -27,5 +27,35 @@
     "definition_hash": "7cccf94ae930af6809760cf4ddf7f1bf8d224120e197ccd3478086b56f22371c",
     "packet_hash": "f0274e29adc855174f337e6de58d2cc4e1e640a561899018769f3fba39daa02b"
   },
-  "hash": "4046f3d5a4c26462f84ef4619bfe4e7f026983b99278db0b60fd2746da74b955"
+  "hash": "4046f3d5a4c26462f84ef4619bfe4e7f026983b99278db0b60fd2746da74b955",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7cccf94ae930af6809760cf4ddf7f1bf8d224120e197ccd3478086b56f22371c",
+      "packet_hash": "f0274e29adc855174f337e6de58d2cc4e1e640a561899018769f3fba39daa02b",
+      "published_packet_hash": "f0274e29adc855174f337e6de58d2cc4e1e640a561899018769f3fba39daa02b",
+      "receipt_id": "6ee85b95f51541328faf389968bdacdc",
+      "request_hash": "4464d3bb8d03a49faee947aa9b9d8e57e0ec9ad0c9f8b6e9b62b9ae41e748580",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is for “En kai pan,” but the term to be defined is “KAI”; the packet does not provide a definition for “KAI” by itself.",
+        "The definition adds that it was “historically used to describe the doctrine of pantheism”; while the packet supports “used to characterize the theory of PANTHEISM,” it does not substantiate the wording “doctrine of pantheism” as a distinct requested sense.",
+        "The field is listed as “history,” but the packet is a dictionary entry without information establishing historical usage beyond the embedded citation; this specific field framing is not clearly supported by the packet."
+      ],
+      "definition_hash": "7cccf94ae930af6809760cf4ddf7f1bf8d224120e197ccd3478086b56f22371c",
+      "packet_hash": "f0274e29adc855174f337e6de58d2cc4e1e640a561899018769f3fba39daa02b",
+      "published_packet_hash": "f0274e29adc855174f337e6de58d2cc4e1e640a561899018769f3fba39daa02b",
+      "receipt_id": "38e13535cc6e41e196e42b15c13a014d",
+      "request_hash": "56324305838241ad43ace851eaed938fd163f9831b7d8775ce8e23b20e5d579e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

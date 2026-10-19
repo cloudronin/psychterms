@@ -27,5 +27,33 @@
     "definition_hash": "18681c696f1ef22c4e98bf55e89f5437dfbb476664bef5d5c08b39b8e4757ae9",
     "packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832"
   },
-  "hash": "0292a370f56b96fefa5c7dfb6ee8c180bf20c3a3485ce92d32fe9868330ada76"
+  "hash": "0292a370f56b96fefa5c7dfb6ee8c180bf20c3a3485ce92d32fe9868330ada76",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "18681c696f1ef22c4e98bf55e89f5437dfbb476664bef5d5c08b39b8e4757ae9",
+      "packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832",
+      "published_packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832",
+      "receipt_id": "2dfbe0dd76e94782a1893311cc7bf230",
+      "request_hash": "775aa66bed39f0d1d81e4c5230bebf611d0a17f9ff037cd45843e411d5c2c314",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the supplied packet defines “torture” as intentional infliction of physical or mental suffering (including animals), which aligns more with violence/abuse or criminal/physical harm concepts than with “cognition.”"
+      ],
+      "definition_hash": "18681c696f1ef22c4e98bf55e89f5437dfbb476664bef5d5c08b39b8e4757ae9",
+      "packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832",
+      "published_packet_hash": "efb3bdd4079265160ae59adb0b10c6d4223124e143ec1142935b6a71080eb832",
+      "receipt_id": "e829bdfbe7424736b5ce2751bba5a003",
+      "request_hash": "31eb1bf7eb3eb8d3fcf8a01e01188b7db2fb0392ed2e01786ee9e03c1a1e1480",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

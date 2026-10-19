@@ -27,5 +27,34 @@
     "definition_hash": "b2121f037e850065dc19eac6d7fb8d78031d5e4666c5b12ba09e79ebed203c99",
     "packet_hash": "7fcd7aa5c77ac7e692a77bbabd2ce0529e679ae5cff902eb26997b56d70b0437"
   },
-  "hash": "2d06deb3fa01a5a593808eca8f917da0e3e1bd67fa6e3d989cda1d5ef049f0d9"
+  "hash": "2d06deb3fa01a5a593808eca8f917da0e3e1bd67fa6e3d989cda1d5ef049f0d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b2121f037e850065dc19eac6d7fb8d78031d5e4666c5b12ba09e79ebed203c99",
+      "packet_hash": "7fcd7aa5c77ac7e692a77bbabd2ce0529e679ae5cff902eb26997b56d70b0437",
+      "published_packet_hash": "7fcd7aa5c77ac7e692a77bbabd2ce0529e679ae5cff902eb26997b56d70b0437",
+      "receipt_id": "23815757c6b04daa9e400fcf7b9fedfd",
+      "request_hash": "facc13cd8ca9c5ae6a351a19d5dd79e040a45f7be84b2992022128d90e74fdf6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s definition is explicitly for **Herpes Zoster** (it describes an activation of latent varicella-zoster virus in people after chickenpox), while the provided term is only **“varicella-zoster”**; this suggests a **term/sense mismatch** (virus vs. the zoster disease).",
+        "Although most biological details in the definition match the packet (acute, self-limited; activation after chickenpox; sensory ganglia and their innervation; severe neuralgic pain; clustered vesicles), the requested sense of the term “varicella-zoster” is not unambiguously supported as referring to the disease described."
+      ],
+      "definition_hash": "b2121f037e850065dc19eac6d7fb8d78031d5e4666c5b12ba09e79ebed203c99",
+      "packet_hash": "7fcd7aa5c77ac7e692a77bbabd2ce0529e679ae5cff902eb26997b56d70b0437",
+      "published_packet_hash": "7fcd7aa5c77ac7e692a77bbabd2ce0529e679ae5cff902eb26997b56d70b0437",
+      "receipt_id": "83bb464f52014cfc931220aa653e3128",
+      "request_hash": "531881ca29fbbf06475020ba8733543bf3b58bb95b13d3a875fb49582efefcee",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "ccaa688a0c984b6db5a831207fa721c9b8f775dc939427675d3dccab935108bb",
     "packet_hash": "386fdd3bb9de5390c962663bd8c9090ad59ec492cb950b243ddf1ff77272d384"
   },
-  "hash": "d2561687ae3c56f37aad5f38d97435f2b96d91c11976e196c7c27d4f229fd7a2"
+  "hash": "d2561687ae3c56f37aad5f38d97435f2b96d91c11976e196c7c27d4f229fd7a2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ccaa688a0c984b6db5a831207fa721c9b8f775dc939427675d3dccab935108bb",
+      "packet_hash": "386fdd3bb9de5390c962663bd8c9090ad59ec492cb950b243ddf1ff77272d384",
+      "published_packet_hash": "386fdd3bb9de5390c962663bd8c9090ad59ec492cb950b243ddf1ff77272d384",
+      "receipt_id": "2f5bd2bf9a1b4c87a31bcf409f4cac55",
+      "request_hash": "55a48da244a19325a0962538605da1c0aff3a7abbb8fd1f1bbab7c1969e22b73",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that twin studies are used to “detect possible genetic causes of differences among people,” which is not stated in the provided packet text (the packet mentions detecting genetic causes in traits and genetic factors in behavior, not differences among people).",
+        "The definition says the method “uses pairs or sets of twins,” while the packet only explicitly specifies “sets of twins.”"
+      ],
+      "definition_hash": "ccaa688a0c984b6db5a831207fa721c9b8f775dc939427675d3dccab935108bb",
+      "packet_hash": "386fdd3bb9de5390c962663bd8c9090ad59ec492cb950b243ddf1ff77272d384",
+      "published_packet_hash": "386fdd3bb9de5390c962663bd8c9090ad59ec492cb950b243ddf1ff77272d384",
+      "receipt_id": "c76fc5c8c9d841ea8981463e2e932f3e",
+      "request_hash": "acd9f2af019c19a781f86607cfa45cfce0479af4e74d8942b57e3e2b5bc13a67",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

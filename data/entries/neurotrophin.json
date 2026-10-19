@@ -27,5 +27,34 @@
     "definition_hash": "d19c2ca00977965860fd5ab5d9982a5e8f44df2cdfdb39aed5a5412f4652ebd8",
     "packet_hash": "ef8dff96719dc076ad387fb13af9afd65609b6f6b2174fbc1e39daf339dd862e"
   },
-  "hash": "00dc9bfbbb094e82e77ec66d2d6ad8bc53c16b5944e97b7d0c688f26c9994c6f"
+  "hash": "00dc9bfbbb094e82e77ec66d2d6ad8bc53c16b5944e97b7d0c688f26c9994c6f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d19c2ca00977965860fd5ab5d9982a5e8f44df2cdfdb39aed5a5412f4652ebd8",
+      "packet_hash": "ef8dff96719dc076ad387fb13af9afd65609b6f6b2174fbc1e39daf339dd862e",
+      "published_packet_hash": "ef8dff96719dc076ad387fb13af9afd65609b6f6b2174fbc1e39daf339dd862e",
+      "receipt_id": "c8125a09d8b44badae6557675dd65ab2",
+      "request_hash": "b478e00a12cd4419031e8887218ca3d6c7b3e1387c67e4e1d3813e531db19877",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states neurotrophins are important for “regeneration” and “differentiation” of neurons, but the provided definition uses “repair” and “specialization.” The equivalence of “repair”→“regeneration” and “specialization”→“differentiation” is not explicitly supported in the packet.",
+        "While the packet supports the idea of production by the nervous system and “peripheral target tissues,” the definition phrases this as “tissues it connects with,” which is not an exact match to the packet’s wording (though it is directionally similar)."
+      ],
+      "definition_hash": "d19c2ca00977965860fd5ab5d9982a5e8f44df2cdfdb39aed5a5412f4652ebd8",
+      "packet_hash": "ef8dff96719dc076ad387fb13af9afd65609b6f6b2174fbc1e39daf339dd862e",
+      "published_packet_hash": "ef8dff96719dc076ad387fb13af9afd65609b6f6b2174fbc1e39daf339dd862e",
+      "receipt_id": "a7d4b117302a4691bdab3ef7a4c52831",
+      "request_hash": "e924068f336d5886bc20b4542a72475006cbfcd57bf736ea3e01cfce8ce65da0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

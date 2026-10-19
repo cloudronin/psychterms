@@ -27,5 +27,34 @@
     "definition_hash": "6fb4eef01571de99de9aa7ed1a1a217279a3c7760357a3f92b58d35a3b6e5622",
     "packet_hash": "609710ed23d1f2af091e79592420fa984f9bd6125d219594216381c5b6040eba"
   },
-  "hash": "f66e38303213f4d7536a2f9649434b5c017d8564c2414e33d79628bd7db7b48d"
+  "hash": "f66e38303213f4d7536a2f9649434b5c017d8564c2414e33d79628bd7db7b48d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The profession list is not fully supported by the packet: it names clinical social workers, not social workers more generally.",
+        "The definition slightly broadens the source wording by calling the person a healthcare professional; the packet says healthcare provider/occupation, which is close but not identical."
+      ],
+      "definition_hash": "6fb4eef01571de99de9aa7ed1a1a217279a3c7760357a3f92b58d35a3b6e5622",
+      "packet_hash": "609710ed23d1f2af091e79592420fa984f9bd6125d219594216381c5b6040eba",
+      "published_packet_hash": "609710ed23d1f2af091e79592420fa984f9bd6125d219594216381c5b6040eba",
+      "receipt_id": "89ef1444eaad4a459930cc1d4b1a0dfe",
+      "request_hash": "18aa88e6100cc0fefdd57b9befc96882254f2369f27f90b3919d33d0a8eb4b79",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6fb4eef01571de99de9aa7ed1a1a217279a3c7760357a3f92b58d35a3b6e5622",
+      "packet_hash": "609710ed23d1f2af091e79592420fa984f9bd6125d219594216381c5b6040eba",
+      "published_packet_hash": "609710ed23d1f2af091e79592420fa984f9bd6125d219594216381c5b6040eba",
+      "receipt_id": "0228224eb3c64a5b927142a197a7cae0",
+      "request_hash": "d62028622be358fa36e4057f8f2ad19d44871159f331c58e4c0c07b45a2b6bc9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

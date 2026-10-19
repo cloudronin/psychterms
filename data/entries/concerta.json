@@ -27,5 +27,34 @@
     "definition_hash": "34e069706e90a7d75c8b317bc3523093168e8b20f05e816fb3cd76b7d523788b",
     "packet_hash": "7fc92b1d9d2e023678bbe30d8270eb80017d86d0291e0a24bd0e6a20a46be93b"
   },
-  "hash": "7e1a764b2d51667a2ddc8437d6793a936b070c5f5179ec0eee1ac5ecccc4920a"
+  "hash": "7e1a764b2d51667a2ddc8437d6793a936b070c5f5179ec0eee1ac5ecccc4920a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "34e069706e90a7d75c8b317bc3523093168e8b20f05e816fb3cd76b7d523788b",
+      "packet_hash": "7fc92b1d9d2e023678bbe30d8270eb80017d86d0291e0a24bd0e6a20a46be93b",
+      "published_packet_hash": "7fc92b1d9d2e023678bbe30d8270eb80017d86d0291e0a24bd0e6a20a46be93b",
+      "receipt_id": "366ca1a9006a4a1bba0469bbe9aacded",
+      "request_hash": "90bc2357fe7704ffdf18e27e378785a5fd173ebddee3a3c696fb682f868c0dbc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports methylphenidate hydrochloride, but it does not support identifying Concerta by name as that substance.",
+        "‘Synthetic central nervous system stimulant’ and the cognitive-effect language are supported, but the term-to-substance equivalence for Concerta is not."
+      ],
+      "definition_hash": "34e069706e90a7d75c8b317bc3523093168e8b20f05e816fb3cd76b7d523788b",
+      "packet_hash": "7fc92b1d9d2e023678bbe30d8270eb80017d86d0291e0a24bd0e6a20a46be93b",
+      "published_packet_hash": "7fc92b1d9d2e023678bbe30d8270eb80017d86d0291e0a24bd0e6a20a46be93b",
+      "receipt_id": "07fa5f20ea9f4a6d8f36c467626f6517",
+      "request_hash": "b56cd512f4542bce72749f6caae281296d0d633b1210ae6b0686630329dd254a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

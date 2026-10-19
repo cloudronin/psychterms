@@ -27,5 +27,33 @@
     "definition_hash": "95ce3dd0b2d78b43fcc61bd301c981bb2beb6ee86c6cbfb718709c787f53ed84",
     "packet_hash": "844645db3874077835bc875ab29d7a3a98201029244e44d8ac23a8a6d4a85d11"
   },
-  "hash": "b86ee6886f25433a9aadd724514bf15176d72f797b66cd85c82b4953fed92c8f"
+  "hash": "b86ee6886f25433a9aadd724514bf15176d72f797b66cd85c82b4953fed92c8f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "95ce3dd0b2d78b43fcc61bd301c981bb2beb6ee86c6cbfb718709c787f53ed84",
+      "packet_hash": "844645db3874077835bc875ab29d7a3a98201029244e44d8ac23a8a6d4a85d11",
+      "published_packet_hash": "844645db3874077835bc875ab29d7a3a98201029244e44d8ac23a8a6d4a85d11",
+      "receipt_id": "027350c263d9471f9fd5692f31ab2048",
+      "request_hash": "1d86ac09a84685263846bfd4b68da062e6c67bba5b748402d7b26734aaad221b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet contrasts negative hallucination (failing to see what is actually present) with the ‘ordinary positive hallucination’, but it does not explicitly define positive hallucination as perceiving an object/voice/scene as present when it is not actually there. Therefore the definition’s main substantive description for the positive sense is not directly supported by the provided text."
+      ],
+      "definition_hash": "95ce3dd0b2d78b43fcc61bd301c981bb2beb6ee86c6cbfb718709c787f53ed84",
+      "packet_hash": "844645db3874077835bc875ab29d7a3a98201029244e44d8ac23a8a6d4a85d11",
+      "published_packet_hash": "844645db3874077835bc875ab29d7a3a98201029244e44d8ac23a8a6d4a85d11",
+      "receipt_id": "234767e91f68456ebf3935bba31deec5",
+      "request_hash": "a1d6648a4bbeb23c7a7bcbbf3a9195b65e3b7e7835d9c5224d1e50efd0196837",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,33 @@
     "definition_hash": "341484407f083d7e8454585f1cab96c48251765daef3a61110ad740cd0bd2b68",
     "packet_hash": "55bdbefcb931c896b313b6da31f08026db269aba80bd1648585dca9f5e066db8"
   },
-  "hash": "07cc793b42af0aa0a39079022662465bd71874e01f2c7afe936fd009a2e4e42f"
+  "hash": "07cc793b42af0aa0a39079022662465bd71874e01f2c7afe936fd009a2e4e42f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “the two tails extend equally toward infinity,” but the packet only states “both tails extending to infinity” and does not explicitly support that the tails extend equally."
+      ],
+      "definition_hash": "341484407f083d7e8454585f1cab96c48251765daef3a61110ad740cd0bd2b68",
+      "packet_hash": "55bdbefcb931c896b313b6da31f08026db269aba80bd1648585dca9f5e066db8",
+      "published_packet_hash": "55bdbefcb931c896b313b6da31f08026db269aba80bd1648585dca9f5e066db8",
+      "receipt_id": "03866911af3f40e7a8b464e29559b579",
+      "request_hash": "9a10983f89f0d3b0945070988dd55add3f730d40a06fe260a36a0a19115b82bc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "341484407f083d7e8454585f1cab96c48251765daef3a61110ad740cd0bd2b68",
+      "packet_hash": "55bdbefcb931c896b313b6da31f08026db269aba80bd1648585dca9f5e066db8",
+      "published_packet_hash": "55bdbefcb931c896b313b6da31f08026db269aba80bd1648585dca9f5e066db8",
+      "receipt_id": "ba80c58c9e1249e4b4176cb15f937cf3",
+      "request_hash": "39f39415eb2e27f0977e9ba284ef85b716fb6ab6e5cba8cc928f505255eaa202",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "19d772fccaf2480fea6d277ab239d81a67b1e4fe7b7369ebbf44b4e7f2baffa4",
     "packet_hash": "ace8eb951576138e6a7f6ab71ca112f35cd6243c098baa9f680e46aae23af573"
   },
-  "hash": "cc95a419593f141fc305f22f60304ff6f765ba24a06cc9123195f434cb796703"
+  "hash": "cc95a419593f141fc305f22f60304ff6f765ba24a06cc9123195f434cb796703",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only a historical contrast between \"curvilinear\" and \"rectilinear\" in the context of motion; it does not support the broader claim that the term also means relating to \"form.\"",
+        "The definition adds an explanatory gloss about \"a curved line rather than a straight one\" that is not stated in the source passage, which only gives the contrast by example."
+      ],
+      "definition_hash": "19d772fccaf2480fea6d277ab239d81a67b1e4fe7b7369ebbf44b4e7f2baffa4",
+      "packet_hash": "ace8eb951576138e6a7f6ab71ca112f35cd6243c098baa9f680e46aae23af573",
+      "published_packet_hash": "ace8eb951576138e6a7f6ab71ca112f35cd6243c098baa9f680e46aae23af573",
+      "receipt_id": "ce35a6ecc20a48f29f1bc1546dcc7fa8",
+      "request_hash": "ce6c57e98504defc48fe30fb80786202db2677afc26dfb71903abedcd5c5649e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only contrasts the terms “curvilinear” and “rectilinear” as possibilities for motion (“curvilinear nor rectilinear”), but it does not explicitly define “curvilinear” as “relating to motion or form that follows a curved line rather than a straight one.”",
+        "Because the definition adds a specific geometric/functional meaning (curved vs straight line) that is not stated in the supplied text, the requested sense is not fully supported by the packet."
+      ],
+      "definition_hash": "19d772fccaf2480fea6d277ab239d81a67b1e4fe7b7369ebbf44b4e7f2baffa4",
+      "packet_hash": "ace8eb951576138e6a7f6ab71ca112f35cd6243c098baa9f680e46aae23af573",
+      "published_packet_hash": "ace8eb951576138e6a7f6ab71ca112f35cd6243c098baa9f680e46aae23af573",
+      "receipt_id": "353a297660b2476e91a54b7bf69dd0e7",
+      "request_hash": "04c304bf5191e1a0b9aec5e922629dd91d98c07dbcc4c929343f24d58d9283e5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

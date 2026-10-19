@@ -27,5 +27,34 @@
     "definition_hash": "f808b55b97187f21951ab5a6601d5496d4b34d221a86283e3ad488c0e2754319",
     "packet_hash": "2866fd2657c5a604330dd02b4ccc1299bb372a7c686167eb35a028f0acfec49c"
   },
-  "hash": "a71cc202cb36b30866b4d813fd27c9efc2f925e6679a6dcac1a487dc7b4b7a2a"
+  "hash": "a71cc202cb36b30866b4d813fd27c9efc2f925e6679a6dcac1a487dc7b4b7a2a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f808b55b97187f21951ab5a6601d5496d4b34d221a86283e3ad488c0e2754319",
+      "packet_hash": "2866fd2657c5a604330dd02b4ccc1299bb372a7c686167eb35a028f0acfec49c",
+      "published_packet_hash": "2866fd2657c5a604330dd02b4ccc1299bb372a7c686167eb35a028f0acfec49c",
+      "receipt_id": "f7678f794eae4471ad0136f28afd6a60",
+      "request_hash": "4753b526443f6ec82131e9109a77f2ce0fc985d9b9aff820429524f0b7a3e77a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the term “cochlear nerve” / “cochlear part of the 8th cranial nerve (vestibulocochlear nerve)” and does not provide support that the term “acoustic nerve” refers to this structure.",
+        "Because the packet does not explicitly connect “acoustic nerve” to the cochlear part of CN VIII, the requested sense of the term is not supported."
+      ],
+      "definition_hash": "f808b55b97187f21951ab5a6601d5496d4b34d221a86283e3ad488c0e2754319",
+      "packet_hash": "2866fd2657c5a604330dd02b4ccc1299bb372a7c686167eb35a028f0acfec49c",
+      "published_packet_hash": "2866fd2657c5a604330dd02b4ccc1299bb372a7c686167eb35a028f0acfec49c",
+      "receipt_id": "28902e93745f4fa488938abcef194ac8",
+      "request_hash": "23d157901639ae54f89cfaf6d4e27d52d9f19ae8baa04864ea3d318c540a567c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

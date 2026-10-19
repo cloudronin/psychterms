@@ -27,5 +27,33 @@
     "definition_hash": "d3a4cf27a7ff41d0998ea338ab4e9735d9a04fc8a708cbe58c522e0538dcd497",
     "packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809"
   },
-  "hash": "50c03073ea7618516f535228eefcea010a22b94d9a3a14428b7141fffec4c2d9"
+  "hash": "50c03073ea7618516f535228eefcea010a22b94d9a3a14428b7141fffec4c2d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d3a4cf27a7ff41d0998ea338ab4e9735d9a04fc8a708cbe58c522e0538dcd497",
+      "packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809",
+      "published_packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809",
+      "receipt_id": "62b508eae3f0407b985c1d9024895ca0",
+      "request_hash": "325726307fa03be0943c232e1619aecaf8e8e79336b52fb30987f658e4516526",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is provided for the requested field “mental health,” but the supplied packet describes the NHIS in general health terms (acute/chronic conditions, disability, health care utilization) and does not specifically support that its scope is mental health or that it provides mental-health-specific estimates."
+      ],
+      "definition_hash": "d3a4cf27a7ff41d0998ea338ab4e9735d9a04fc8a708cbe58c522e0538dcd497",
+      "packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809",
+      "published_packet_hash": "396209390828fa27a0e57e16de33b7daac02f7b1942f6efe9886e56edc4e4809",
+      "receipt_id": "f192b124661d41e9b52b44ad3bb2071f",
+      "request_hash": "c9624562639d9ba8c3c0f564b559cba34f31d3760fe3ae5874acd75ba61298d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

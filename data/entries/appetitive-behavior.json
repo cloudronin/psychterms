@@ -27,5 +27,35 @@
     "definition_hash": "140e1112c5b4e53bd70f2e204cfbc517e5b11987ce0b4332b15747c1d9bad542",
     "packet_hash": "a7167eabecb8dba0c0b3200bc0abe988a7eb2978afdb86701bd8aeeb023526b9"
   },
-  "hash": "786da6cf3324d241f987226363f82b0cac139374ddad7dedba33fb7ee2d2c0ee"
+  "hash": "786da6cf3324d241f987226363f82b0cac139374ddad7dedba33fb7ee2d2c0ee",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "140e1112c5b4e53bd70f2e204cfbc517e5b11987ce0b4332b15747c1d9bad542",
+      "packet_hash": "a7167eabecb8dba0c0b3200bc0abe988a7eb2978afdb86701bd8aeeb023526b9",
+      "published_packet_hash": "a7167eabecb8dba0c0b3200bc0abe988a7eb2978afdb86701bd8aeeb023526b9",
+      "receipt_id": "5be3a32decdd4b4691b2d1e9ee09820e",
+      "request_hash": "c75205ad5171ce14341ff46771e21aa33f01058778b3e5e059c6d9caa00ac236",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Approach activity” is not supported by the packet; the source only says “animal searching behavior.”",
+        "“More fixed instinctive action pattern” overstates the source, which says “the variable introductory phase of an instinctive behavior pattern or sequence” and does not mention a fixed pattern.",
+        "The definition is slightly broader than the packet by adding “engaging in courtship before mating”; the source supports sequential courtship patterns prior to mating, but the phrasing should stay closer to the source to avoid unsupported expansion."
+      ],
+      "definition_hash": "140e1112c5b4e53bd70f2e204cfbc517e5b11987ce0b4332b15747c1d9bad542",
+      "packet_hash": "a7167eabecb8dba0c0b3200bc0abe988a7eb2978afdb86701bd8aeeb023526b9",
+      "published_packet_hash": "a7167eabecb8dba0c0b3200bc0abe988a7eb2978afdb86701bd8aeeb023526b9",
+      "receipt_id": "0b5eab84cc1f4c6abab3e65bf7f722fd",
+      "request_hash": "ee88c7b041ae0abdb5583d216dfe49420fe2af9cfcc2c4f74e6598faee64f4a6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

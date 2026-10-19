@@ -27,5 +27,34 @@
     "definition_hash": "c7999f2533d6ae0c8956765d6fcaec3e1d7f4fba5dc0a36d7a9a472c58ec1c94",
     "packet_hash": "a4cd57caad38548391a28ef7c4349d018cc02c10c2c4ed37ab907950cec54146"
   },
-  "hash": "e4ade10620775639b6304268a1e586a377a32499175b08529cd0560f0dc4f62a"
+  "hash": "e4ade10620775639b6304268a1e586a377a32499175b08529cd0560f0dc4f62a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c7999f2533d6ae0c8956765d6fcaec3e1d7f4fba5dc0a36d7a9a472c58ec1c94",
+      "packet_hash": "a4cd57caad38548391a28ef7c4349d018cc02c10c2c4ed37ab907950cec54146",
+      "published_packet_hash": "a4cd57caad38548391a28ef7c4349d018cc02c10c2c4ed37ab907950cec54146",
+      "receipt_id": "c0d791c4251d4fe2be7056a62266d961",
+      "request_hash": "dff44b119d502bf0247fabd9327b8afede453fab3ebb6c7c1ab05a0f9b209d83",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition includes the claim that it is “used to describe how we mentally locate objects in space,” but the packet only states that “All objects are referred to points in space exactly as they would be if…we had one eye in the middle of the forehead,” without supporting the specific “mentally locate” phrasing.",
+        "The packet does support the “single eye in the middle of the forehead” and the contrast with “instead of two eyes” (central vs. two eyes) framing, so the second sentence is largely supported; however, the unsourced “mentally” component affects the overall definition."
+      ],
+      "definition_hash": "c7999f2533d6ae0c8956765d6fcaec3e1d7f4fba5dc0a36d7a9a472c58ec1c94",
+      "packet_hash": "a4cd57caad38548391a28ef7c4349d018cc02c10c2c4ed37ab907950cec54146",
+      "published_packet_hash": "a4cd57caad38548391a28ef7c4349d018cc02c10c2c4ed37ab907950cec54146",
+      "receipt_id": "e4ebeb6dd98d4ea78b1f13ae357d8a36",
+      "request_hash": "d6dd833f31fc85bdc1e4ccec846801d4efa98e7c5a38ea944a501b80ceb92694",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

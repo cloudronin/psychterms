@@ -27,5 +27,35 @@
     "definition_hash": "5ae317a9780bf971621b41d8cfa8dc576cc6dff59cbb3e87c1ea09c0f5fac5dc",
     "packet_hash": "d9d22fbfd77b6c038aabe3da43f8b5c88e2fe238fc341d7d2b59ca7b1d71ced3"
   },
-  "hash": "553f52456dec39e4395517678b5f102ef5a7a2f75042021d1eedb4015279ea0d"
+  "hash": "553f52456dec39e4395517678b5f102ef5a7a2f75042021d1eedb4015279ea0d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5ae317a9780bf971621b41d8cfa8dc576cc6dff59cbb3e87c1ea09c0f5fac5dc",
+      "packet_hash": "d9d22fbfd77b6c038aabe3da43f8b5c88e2fe238fc341d7d2b59ca7b1d71ced3",
+      "published_packet_hash": "d9d22fbfd77b6c038aabe3da43f8b5c88e2fe238fc341d7d2b59ca7b1d71ced3",
+      "receipt_id": "7a0b5fddeef04a91a7771eff36c8d3d5",
+      "request_hash": "8226f774c1d148b2ce6f450a4fa9ac903c2a87e816bdb9af9843752fa5fb4da6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state the core meaning of null hypothesis significance testing (e.g., evaluating how unlikely an observed result is under a null hypothesis to deem it statistically significant).",
+        "The packet does not support the claim that NHT is often used to judge whether an effect is “effectively negligible or large enough to matter.”",
+        "While the packet does mention that “power-analyses are inherently tied to null-hypothesis significance testing,” it does not support the definition’s other substantive claims beyond this narrow connection."
+      ],
+      "definition_hash": "5ae317a9780bf971621b41d8cfa8dc576cc6dff59cbb3e87c1ea09c0f5fac5dc",
+      "packet_hash": "d9d22fbfd77b6c038aabe3da43f8b5c88e2fe238fc341d7d2b59ca7b1d71ced3",
+      "published_packet_hash": "d9d22fbfd77b6c038aabe3da43f8b5c88e2fe238fc341d7d2b59ca7b1d71ced3",
+      "receipt_id": "773bcf4597b24415ab04bcdb61ce0ad4",
+      "request_hash": "84b0f21b4e8461ea8e914ee8912d4400c1516786f8defc25a836f3bb5e2a6193",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "6422fb3ecdaddef56ac882c9c01e6c6ac9b2123889955cab57d96e7e50273ef8",
     "packet_hash": "88bf158b591bda7123dffd9d3bb4cf5921060096049ae98f7685f5a790210d8a"
   },
-  "hash": "0974054ee95eb18b9c5918677005c7e467604c7312688381695938114c3fd2a9"
+  "hash": "0974054ee95eb18b9c5918677005c7e467604c7312688381695938114c3fd2a9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition gets the scope wrong: the packet defines simple regression as linear regression with one predictor variable, not predictor variable(s).",
+        "The phrasing “predict a criterion variable from predictor variable(s)” is too broad and aligns with general linear regression rather than the specific simple-regression sense in the packet."
+      ],
+      "definition_hash": "6422fb3ecdaddef56ac882c9c01e6c6ac9b2123889955cab57d96e7e50273ef8",
+      "packet_hash": "88bf158b591bda7123dffd9d3bb4cf5921060096049ae98f7685f5a790210d8a",
+      "published_packet_hash": "88bf158b591bda7123dffd9d3bb4cf5921060096049ae98f7685f5a790210d8a",
+      "receipt_id": "1bcd3fc2f2334e65b9a6aa3cfafa1925",
+      "request_hash": "fa84d758ec3399be5c38dd7c86d079a34aaece854609af9ac5926d2ef0be46f2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6422fb3ecdaddef56ac882c9c01e6c6ac9b2123889955cab57d96e7e50273ef8",
+      "packet_hash": "88bf158b591bda7123dffd9d3bb4cf5921060096049ae98f7685f5a790210d8a",
+      "published_packet_hash": "88bf158b591bda7123dffd9d3bb4cf5921060096049ae98f7685f5a790210d8a",
+      "receipt_id": "d6af56f24506438884f188a0a08f03b0",
+      "request_hash": "2dfe2d6169b5ff171e353491377c4d61f775fb1791d8218c28aa71c4443b5c6c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

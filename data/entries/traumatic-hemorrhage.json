@@ -27,5 +27,34 @@
     "definition_hash": "76770086e4c01c797f402c2ab2b990df3a21e4f6aa770abd647f19eb8797b6e8",
     "packet_hash": "0d0e5a28734f1772766a859684f02ba9431cea1229458725dba286891037e245"
   },
-  "hash": "e3ee559c360d41a7feae2d8c95d8360fa58959a6bf80b94c278ba4f1b9044d7a"
+  "hash": "e3ee559c360d41a7feae2d8c95d8360fa58959a6bf80b94c278ba4f1b9044d7a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "76770086e4c01c797f402c2ab2b990df3a21e4f6aa770abd647f19eb8797b6e8",
+      "packet_hash": "0d0e5a28734f1772766a859684f02ba9431cea1229458725dba286891037e245",
+      "published_packet_hash": "0d0e5a28734f1772766a859684f02ba9431cea1229458725dba286891037e245",
+      "receipt_id": "f4ac11756f894b02968492d5883a410d",
+      "request_hash": "f875b8d225612dff68b507ed6225f33d5ce14effd08c856682a9475a9bf86bf5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch/indefensible: the provided packet describes a medical finding (vascular rupture and blood loss due to physical injury), not a mental health concept.",
+        "While the definition’s content generally matches the packet wording, the assignment to the ‘mental health’ field is not supported by the packet."
+      ],
+      "definition_hash": "76770086e4c01c797f402c2ab2b990df3a21e4f6aa770abd647f19eb8797b6e8",
+      "packet_hash": "0d0e5a28734f1772766a859684f02ba9431cea1229458725dba286891037e245",
+      "published_packet_hash": "0d0e5a28734f1772766a859684f02ba9431cea1229458725dba286891037e245",
+      "receipt_id": "2bc0c3014be44662a879c797e61f44fe",
+      "request_hash": "a40f38d0a36c307cb5abd15d0b437f77eeeebd5327da18af7eeb26909a0ab955",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

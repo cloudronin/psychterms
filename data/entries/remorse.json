@@ -27,5 +27,38 @@
     "definition_hash": "3e3eb8841fc215f6579d5218bd26abe7b2822577c002657d294c7c40c3ff430e",
     "packet_hash": "814ca63de3b8c0fab4fd3d40d6812c4bebc15c2b6d48df5926f3cc14e6d1f79a"
   },
-  "hash": "1697cba919c40ae66cf8e5a9cc5d2c5d505154439ea5d467c12e39a35e15aaba"
+  "hash": "1697cba919c40ae66cf8e5a9cc5d2c5d505154439ea5d467c12e39a35e15aaba",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening sentence is too general: the packet supports guilt or remorse specifically after drinking alcohol, not remorse in general as “a feeling of guilt about one’s actions.”",
+        "The packet is an AUDIT item/instrument prompt, so the definition should not present a broader standalone psychological sense unless supported by the source text.",
+        "The second sentence is only partially supported and should stay tightly tied to the drinking-after-alcohol context rather than implying a general packet-specific meaning."
+      ],
+      "definition_hash": "3e3eb8841fc215f6579d5218bd26abe7b2822577c002657d294c7c40c3ff430e",
+      "packet_hash": "814ca63de3b8c0fab4fd3d40d6812c4bebc15c2b6d48df5926f3cc14e6d1f79a",
+      "published_packet_hash": "814ca63de3b8c0fab4fd3d40d6812c4bebc15c2b6d48df5926f3cc14e6d1f79a",
+      "receipt_id": "a597aabe3e08472ca981115fd9e3d012",
+      "request_hash": "268fae60f99ffb1025fbaaeda6bd70e6ab047f3a70683968adbc1860e19a92a9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a general definition of “remorse” as “a feeling of guilt about one’s actions”; it only contains a questionnaire item referring to “a feeling of guilt or remorse after drinking.”",
+        "While the second sentence (“it refers to guilt or remorse felt after drinking alcohol”) is supported by the AUDIT item, the first sentence includes an unsupported generalization about remorse."
+      ],
+      "definition_hash": "3e3eb8841fc215f6579d5218bd26abe7b2822577c002657d294c7c40c3ff430e",
+      "packet_hash": "814ca63de3b8c0fab4fd3d40d6812c4bebc15c2b6d48df5926f3cc14e6d1f79a",
+      "published_packet_hash": "814ca63de3b8c0fab4fd3d40d6812c4bebc15c2b6d48df5926f3cc14e6d1f79a",
+      "receipt_id": "b220724a13564f589d5bd4c1f7a8637d",
+      "request_hash": "cfb667415ac4778a0b8d587bd7866ea3ae96940a84b8f3ce71fcf3d34da0a91c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "2bf3a2eb459ecda4fc9e09c7ee0ce60ffa5fc28b52ead829d6790ae70c51556d",
     "packet_hash": "8311ba3841523912e2fd4e26e0ce534a3cae6e8a563825b56d74d6ca496d4036"
   },
-  "hash": "7879f8cd882641157804d68b309b3b275db8509aaf101fee121c6b5fde7daa0e"
+  "hash": "7879f8cd882641157804d68b309b3b275db8509aaf101fee121c6b5fde7daa0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2bf3a2eb459ecda4fc9e09c7ee0ce60ffa5fc28b52ead829d6790ae70c51556d",
+      "packet_hash": "8311ba3841523912e2fd4e26e0ce534a3cae6e8a563825b56d74d6ca496d4036",
+      "published_packet_hash": "8311ba3841523912e2fd4e26e0ce534a3cae6e8a563825b56d74d6ca496d4036",
+      "receipt_id": "5a38703791bc4188b4e1ee76f5aa16f6",
+      "request_hash": "5ee4007f7ae58752bad776e980d430f9694c3f3708ee7d897a0f33ffd00b0e96",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “registering or recognizing,” but the packet only supports “taking account of an object or state of affairs”; recognition is not stated or clearly entailed.",
+        "“object, event, or situation” is broader than the packet’s wording (“object or state of affairs”)."
+      ],
+      "definition_hash": "2bf3a2eb459ecda4fc9e09c7ee0ce60ffa5fc28b52ead829d6790ae70c51556d",
+      "packet_hash": "8311ba3841523912e2fd4e26e0ce534a3cae6e8a563825b56d74d6ca496d4036",
+      "published_packet_hash": "8311ba3841523912e2fd4e26e0ce534a3cae6e8a563825b56d74d6ca496d4036",
+      "receipt_id": "e3d8c6c7b73940dfabc77bd19d36436c",
+      "request_hash": "a82ff7d60c09cb8981485aa4725b781579437905eeccf1ce1e0df65978bee5f6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

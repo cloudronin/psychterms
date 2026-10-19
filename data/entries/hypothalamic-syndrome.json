@@ -27,5 +27,36 @@
     "definition_hash": "86e2e4585c839524c96ace5998c9a89931032d526030b55d2c4a4197ac8ecbf1",
     "packet_hash": "f78d4aadf3d38c42b97f041bac8f5635b925374d921ca371804070c666e07335"
   },
-  "hash": "3737b189f7190f42ef391524182ea8000cd1a5f345698b44a51bc41788e407d8"
+  "hash": "3737b189f7190f42ef391524182ea8000cd1a5f345698b44a51bc41788e407d8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Unsupported generalization: the packet only identifies hypothalamic syndrome as a clinical sign of CNS leukemia without another explanation; it does not define it as a general “problem involving the hypothalamus.”"
+      ],
+      "definition_hash": "86e2e4585c839524c96ace5998c9a89931032d526030b55d2c4a4197ac8ecbf1",
+      "packet_hash": "f78d4aadf3d38c42b97f041bac8f5635b925374d921ca371804070c666e07335",
+      "published_packet_hash": "f78d4aadf3d38c42b97f041bac8f5635b925374d921ca371804070c666e07335",
+      "receipt_id": "1d47a868d682448aa10303116ea30dc3",
+      "request_hash": "4bf8a20455217fefb683c5c9d6f53321a58607e80e2b4a5305cb511492ad09ee",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “hypothalamic syndrome” as a “problem involving the hypothalamus”; it only mentions “hypothalamic syndrome” as an example of a clinical sign in the context of CNS leukemia.",
+        "The packet supports only that hypothalamic syndrome can be present as a clinical sign with “no other explanation,” but it does not substantiate the added phrasing/characterization that it is a problem involving the hypothalamus."
+      ],
+      "definition_hash": "86e2e4585c839524c96ace5998c9a89931032d526030b55d2c4a4197ac8ecbf1",
+      "packet_hash": "f78d4aadf3d38c42b97f041bac8f5635b925374d921ca371804070c666e07335",
+      "published_packet_hash": "f78d4aadf3d38c42b97f041bac8f5635b925374d921ca371804070c666e07335",
+      "receipt_id": "9a7b81cbc0e544c68eb4909768b2855d",
+      "request_hash": "1ed0bbba328e258a02651b45844d08bd714b8deceb6695386975ec8f3ff121f0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

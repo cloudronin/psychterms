@@ -27,5 +27,37 @@
     "definition_hash": "dd5d9f9f2f67bf95ded4f17f8dc02cdd6cca84c881037ef31b6622c6f215dba1",
     "packet_hash": "f0610ae35c4f7aaadd083b2093f6e6ca607f00cc25c3e8a6631afc303b00d443"
   },
-  "hash": "dd31b5da2e0cbf5b0f500cc4295d55f6e581c063f4037f54b1a6ae9e5161fabb"
+  "hash": "dd31b5da2e0cbf5b0f500cc4295d55f6e581c063f4037f54b1a6ae9e5161fabb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the claim that chi-square tests are “commonly used” in research.",
+        "While the packet supports that chi-square tests (the oldest of these tests) are used to detect whether two or more population distributions differ, the definition’s broader wording (“commonly used to examine whether two or more population distributions differ”) is not explicitly supported as stated."
+      ],
+      "definition_hash": "dd5d9f9f2f67bf95ded4f17f8dc02cdd6cca84c881037ef31b6622c6f215dba1",
+      "packet_hash": "f0610ae35c4f7aaadd083b2093f6e6ca607f00cc25c3e8a6631afc303b00d443",
+      "published_packet_hash": "f0610ae35c4f7aaadd083b2093f6e6ca607f00cc25c3e8a6631afc303b00d443",
+      "receipt_id": "75ff1151c900404d92e526a55dbc77f9",
+      "request_hash": "17a48241ca6dd9336d8f56eac5f3a68158593936e9b918ba3af5ccc67d40da78",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Commonly used” is not supported by the packet; the packet says only that the oldest chi-square tests are used to detect whether two or more population distributions differ.",
+        "The definition is otherwise close to the source, but it adds a usage claim that goes beyond the supplied text."
+      ],
+      "definition_hash": "dd5d9f9f2f67bf95ded4f17f8dc02cdd6cca84c881037ef31b6622c6f215dba1",
+      "packet_hash": "f0610ae35c4f7aaadd083b2093f6e6ca607f00cc25c3e8a6631afc303b00d443",
+      "published_packet_hash": "f0610ae35c4f7aaadd083b2093f6e6ca607f00cc25c3e8a6631afc303b00d443",
+      "receipt_id": "a4447199947f4db7b481707e36bbcaf8",
+      "request_hash": "e664e35369178df7ada3274d2358578544f8bf64c30f1dce073d36df0fa4a81d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

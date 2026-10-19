@@ -27,5 +27,37 @@
     "definition_hash": "77e79c982d0aec6d5ff85164ebbacc4e4bb201aeee9335ba5b4a5dbbccba330f",
     "packet_hash": "6cdcd293c92930c94d54e25f65e9628a2fc2ca0356333d9b46aaf0ccb4779295"
   },
-  "hash": "32ff602f278667d2c82fa94d55af04077908fdf4274e3d888cd92a69a4973d31"
+  "hash": "32ff602f278667d2c82fa94d55af04077908fdf4274e3d888cd92a69a4973d31",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “a major part of the forebrain” is not supported by the packet; the source only says the structures are derived from the telencephalon.",
+        "The definition adds “beneath the cerebral cortex,” which is not stated verbatim in the packet, even though the packet supports a related location description (“basal regions of the cerebral hemispheres”)."
+      ],
+      "definition_hash": "77e79c982d0aec6d5ff85164ebbacc4e4bb201aeee9335ba5b4a5dbbccba330f",
+      "packet_hash": "6cdcd293c92930c94d54e25f65e9628a2fc2ca0356333d9b46aaf0ccb4779295",
+      "published_packet_hash": "6cdcd293c92930c94d54e25f65e9628a2fc2ca0356333d9b46aaf0ccb4779295",
+      "receipt_id": "7d2d5fa1873c477c8f013a35dd0c515a",
+      "request_hash": "1a87d18c401adcb2b1e47a18f6d59bef651f7420d3495e3a2dfe6c3bc1c3c3fd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly support the claim that the basal nuclei are located in the “lower parts” of the cerebral hemispheres.",
+        "The packet does not explicitly support describing the telencephalon as “a major part of the forebrain”; it only states that the structures are “derived from the telencephalon.”"
+      ],
+      "definition_hash": "77e79c982d0aec6d5ff85164ebbacc4e4bb201aeee9335ba5b4a5dbbccba330f",
+      "packet_hash": "6cdcd293c92930c94d54e25f65e9628a2fc2ca0356333d9b46aaf0ccb4779295",
+      "published_packet_hash": "6cdcd293c92930c94d54e25f65e9628a2fc2ca0356333d9b46aaf0ccb4779295",
+      "receipt_id": "3ea7695d770f44e580f75a282c3d2e13",
+      "request_hash": "fa1f8729ac63b68eb6203dddf05bffd7fae98bb5e1f850616ab67a9cdcf2ad1a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

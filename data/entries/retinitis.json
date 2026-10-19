@@ -27,5 +27,37 @@
     "definition_hash": "bbb906af4b2ec315bd4f872f089d2ab4257efb50f08f6571d40e815125adf6a1",
     "packet_hash": "ae313fe5d320a491b7efffdf309f26758360597ef9c4c6a5c843270278353227"
   },
-  "hash": "b737a59dd5d7a471afda01b721a29d819951b99f168c4426a99c12f41eb222f7"
+  "hash": "b737a59dd5d7a471afda01b721a29d819951b99f168c4426a99c12f41eb222f7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds unsupported anatomical detail (“the light-sensitive tissue at the back of the eye”) that is not stated in the packet.",
+        "States a generalization (“often found”) rather than the packet’s wording that it is “rarely limited to the retina” and “commonly associated” with choroid or optic disk disease."
+      ],
+      "definition_hash": "bbb906af4b2ec315bd4f872f089d2ab4257efb50f08f6571d40e815125adf6a1",
+      "packet_hash": "ae313fe5d320a491b7efffdf309f26758360597ef9c4c6a5c843270278353227",
+      "published_packet_hash": "ae313fe5d320a491b7efffdf309f26758360597ef9c4c6a5c843270278353227",
+      "receipt_id": "018d886d0c31466ab23abfe39d2e4c46",
+      "request_hash": "f632293d9156d3ff544de6ef17e0ccd1d0cfe6dd41c98f534adbf72b32a26961",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the retina is “light-sensitive tissue at the back of the eye,” but the supplied packet only defines retinitis as “inflammation of the RETINA” and does not describe the retina’s function (light-sensitive) or location (at the back of the eye).",
+        "Because the packet does not support those specific descriptive details, the definition contains at least one unsupported substantive claim."
+      ],
+      "definition_hash": "bbb906af4b2ec315bd4f872f089d2ab4257efb50f08f6571d40e815125adf6a1",
+      "packet_hash": "ae313fe5d320a491b7efffdf309f26758360597ef9c4c6a5c843270278353227",
+      "published_packet_hash": "ae313fe5d320a491b7efffdf309f26758360597ef9c4c6a5c843270278353227",
+      "receipt_id": "38fbcd189d2f4055b232c3eb01251299",
+      "request_hash": "af16f9e3874bfa66038ce46ecc63c81fc9c5a1fd0c0ed996102e8a6e1b3be2c8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

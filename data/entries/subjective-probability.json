@@ -27,5 +27,35 @@
     "definition_hash": "fea3f92bb394eb0e2138562f09bbdad0d9bd682de93bcfeaa4c54dc7344d3fb7",
     "packet_hash": "a7d73eeb208d77f9ddc0c2b3296f859624e8f762a9004277195c62afb61f4e24"
   },
-  "hash": "cb61b2fdba351673bee616d92a574c9134b00f7bdbd13047897af97f49b90f00"
+  "hash": "cb61b2fdba351673bee616d92a574c9134b00f7bdbd13047897af97f49b90f00",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fea3f92bb394eb0e2138562f09bbdad0d9bd682de93bcfeaa4c54dc7344d3fb7",
+      "packet_hash": "a7d73eeb208d77f9ddc0c2b3296f859624e8f762a9004277195c62afb61f4e24",
+      "published_packet_hash": "a7d73eeb208d77f9ddc0c2b3296f859624e8f762a9004277195c62afb61f4e24",
+      "receipt_id": "b2c5d33be18b4be795f50ebf14499b34",
+      "request_hash": "6ddcb8be0df648ab47c11d933c7c7761d9c8cbd8a30842b93ea13b10e011aadc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that subjective probability is “mere likelihood as judged from one’s state of knowledge,” but the packet only explicitly contrasts “mere likelihood, or subjective probability” with objective probability, without defining subjective probability in terms of “one’s state of knowledge.”",
+        "Although the packet supports the idea that supposed cases are treated as equally possible when “we are aware of no reason for inclining to one rather than to another,” the definition’s first clause (“as judged from one’s state of knowledge”) is not directly supported.",
+        "The packet does support the contrast with objective probability as a “long run” ratio of events under conditions, so that part is supported, but the overall definition includes at least one substantive claim not supported by the packet."
+      ],
+      "definition_hash": "fea3f92bb394eb0e2138562f09bbdad0d9bd682de93bcfeaa4c54dc7344d3fb7",
+      "packet_hash": "a7d73eeb208d77f9ddc0c2b3296f859624e8f762a9004277195c62afb61f4e24",
+      "published_packet_hash": "a7d73eeb208d77f9ddc0c2b3296f859624e8f762a9004277195c62afb61f4e24",
+      "receipt_id": "60508d304109403ebb73027d8881a8dd",
+      "request_hash": "114c47d19a47a5093671d293e1bc320e14f0f3012ea721ad76959dd2f4526cfc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

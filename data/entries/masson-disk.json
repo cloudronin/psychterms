@@ -27,5 +27,33 @@
     "definition_hash": "d910626e09198f6d17079b0293ad39a4a02736f773c378b30fd26bf31d90300d",
     "packet_hash": "e5431def03f99e5d695818d1eed19d50a5b708857d1c0332ff71086a2679780f"
   },
-  "hash": "d29bf6bea8e1c8012e88e7ace2a820aaf6ace6c53b426c7798d8826ec9b72c0d"
+  "hash": "d29bf6bea8e1c8012e88e7ace2a820aaf6ace6c53b426c7798d8826ec9b72c0d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d910626e09198f6d17079b0293ad39a4a02736f773c378b30fd26bf31d90300d",
+      "packet_hash": "e5431def03f99e5d695818d1eed19d50a5b708857d1c0332ff71086a2679780f",
+      "published_packet_hash": "e5431def03f99e5d695818d1eed19d50a5b708857d1c0332ff71086a2679780f",
+      "receipt_id": "fb453af6300e4944bdf06c54acd35986",
+      "request_hash": "6bd817d6e4f6e416e1fa794c1d49ec93f6b2c974f7566de0a8db5df4df9f4e45",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not specify an “outer ring”; it says “the ring next beyond alternately appears and disappears,” which is not the same as an outermost ring."
+      ],
+      "definition_hash": "d910626e09198f6d17079b0293ad39a4a02736f773c378b30fd26bf31d90300d",
+      "packet_hash": "e5431def03f99e5d695818d1eed19d50a5b708857d1c0332ff71086a2679780f",
+      "published_packet_hash": "e5431def03f99e5d695818d1eed19d50a5b708857d1c0332ff71086a2679780f",
+      "receipt_id": "9c7aefff72cd44bda0a02e3128d462ed",
+      "request_hash": "7776832d271e83d486eb756551769abc90142fbe9d53a3ee76d17bec0b27f8d3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

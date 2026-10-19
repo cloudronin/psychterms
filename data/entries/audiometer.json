@@ -27,5 +27,35 @@
     "definition_hash": "322239a92933276df4ea2f673bad2f339af593b404661c39bd1784ea08d541a9",
     "packet_hash": "548c9dade9b9faa05fd70e18e2bfc1957175ac32aca5ef3e6000f9d668795458"
   },
-  "hash": "3328f81c72e135663abef2b0a6609f8b259c24c8cf6ae90a312af2d15238f662"
+  "hash": "3328f81c72e135663abef2b0a6609f8b259c24c8cf6ae90a312af2d15238f662",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "322239a92933276df4ea2f673bad2f339af593b404661c39bd1784ea08d541a9",
+      "packet_hash": "548c9dade9b9faa05fd70e18e2bfc1957175ac32aca5ef3e6000f9d668795458",
+      "published_packet_hash": "548c9dade9b9faa05fd70e18e2bfc1957175ac32aca5ef3e6000f9d668795458",
+      "receipt_id": "b908b77ad14c4b058e7455c500a2cf80",
+      "request_hash": "13fe801dc3b9294ae8d6bd6e1990138647f26f54fbaf8e56bd93fb2518a175d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s claim that it is used in “psychological hearing experiments” is not explicitly supported by the packet text (the packet describes laboratory apparatus but does not state psychological experiments in those words).",
+        "The definition’s phrasing “test sound sensitivity” is not directly supported; the packet instead discusses determining “the threshold of difference in sound intensity.”",
+        "The definition says it “serves to measure differences in hearing intensity,” which is only indirectly supported (the packet specifies using the audiometer to use constant intensity and vary intensity via apertures, and it mentions determining a threshold of difference in sound intensity, but does not explicitly state the function as “measur[ing] differences” in that general wording)."
+      ],
+      "definition_hash": "322239a92933276df4ea2f673bad2f339af593b404661c39bd1784ea08d541a9",
+      "packet_hash": "548c9dade9b9faa05fd70e18e2bfc1957175ac32aca5ef3e6000f9d668795458",
+      "published_packet_hash": "548c9dade9b9faa05fd70e18e2bfc1957175ac32aca5ef3e6000f9d668795458",
+      "receipt_id": "4da944a1d991413889579177f88193f1",
+      "request_hash": "4a5e5556cd0c25ebf0b8fae75d1cbbdde37283015f069de713eacc1b92006533",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

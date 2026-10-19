@@ -27,5 +27,36 @@
     "definition_hash": "746e1872e12facddfa368bbb02820b28da177dc2febdcc74e46bd8cef6c3837b",
     "packet_hash": "a2fe3412a2e5c74f3fb122f200082905435b44fe19cbef1dcf514c452e7b76c3"
   },
-  "hash": "ea08bd067d6f53e168d8d743b5e928d6d008411bde333d08adb4b79ae719fd20"
+  "hash": "ea08bd067d6f53e168d8d743b5e928d6d008411bde333d08adb4b79ae719fd20",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that each dendritic spine receives excitatory input from one nerve ending, but it does not support the claim that a nerve ending is a part of a nerve cell.",
+        "The definition adds an anatomical characterization of “nerve ending” that is not stated in the source packet."
+      ],
+      "definition_hash": "746e1872e12facddfa368bbb02820b28da177dc2febdcc74e46bd8cef6c3837b",
+      "packet_hash": "a2fe3412a2e5c74f3fb122f200082905435b44fe19cbef1dcf514c452e7b76c3",
+      "published_packet_hash": "a2fe3412a2e5c74f3fb122f200082905435b44fe19cbef1dcf514c452e7b76c3",
+      "receipt_id": "ed968c327cd24a34a5bbcbffca0829ad",
+      "request_hash": "c6fb0bb364c80c284d1b32cf857b6a8fe5cc06683b8a794c66fdbd4012b3b989",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims a “nerve ending” is the part of a nerve cell that can provide excitatory input; the packet only states that dendritic spiny processes receive excitatory input from “nerve endings,” not what cellular part a nerve ending is."
+      ],
+      "definition_hash": "746e1872e12facddfa368bbb02820b28da177dc2febdcc74e46bd8cef6c3837b",
+      "packet_hash": "a2fe3412a2e5c74f3fb122f200082905435b44fe19cbef1dcf514c452e7b76c3",
+      "published_packet_hash": "a2fe3412a2e5c74f3fb122f200082905435b44fe19cbef1dcf514c452e7b76c3",
+      "receipt_id": "93e27047fdb441f7ba197e6fe77a5a83",
+      "request_hash": "ceae406561da5323673f39605de09b6e24bf8af3cee99f9cacda5b439890eaef",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

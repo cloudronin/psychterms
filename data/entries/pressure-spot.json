@@ -27,5 +27,34 @@
     "definition_hash": "ab3058fc70767c20250bf0c0e2f84c14ea0851c005c38f6373a0e2d3bca63aa2",
     "packet_hash": "449e5194304f8a2882003d411d81e076b72ce15837aebe703476095e814302d0"
   },
-  "hash": "fb40033f5f4c522e8dcdcae01b0ed9b763aea1fc45523d946b17c96cae9cd375"
+  "hash": "fb40033f5f4c522e8dcdcae01b0ed9b763aea1fc45523d946b17c96cae9cd375",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines “Pressure Spot” as “A spot of the skin evincing peculiar sensitiveness to stimulations of passively supported weight,” but the user definition adds that it is “treated as a source of pressure sensation,” which is not explicitly stated in the packet text (the packet says “See PRESSURE SENSATION, and WEIGHT SENSATION” rather than describing “treatment as a source”).",
+        "The user’s second sentence (“especially in relation to the feeling of pressure or weight”) is a paraphrase of the packet’s “stimulations of passively supported weight,” but it is not explicitly supported as an “especially” framing about “feeling” within the provided wording."
+      ],
+      "definition_hash": "ab3058fc70767c20250bf0c0e2f84c14ea0851c005c38f6373a0e2d3bca63aa2",
+      "packet_hash": "449e5194304f8a2882003d411d81e076b72ce15837aebe703476095e814302d0",
+      "published_packet_hash": "449e5194304f8a2882003d411d81e076b72ce15837aebe703476095e814302d0",
+      "receipt_id": "32a7dd859f04493b892897a858e3e570",
+      "request_hash": "e0b98c486ede648c073b53e6cd32f778efe1516b28aeceaceb3ead47649be5cd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ab3058fc70767c20250bf0c0e2f84c14ea0851c005c38f6373a0e2d3bca63aa2",
+      "packet_hash": "449e5194304f8a2882003d411d81e076b72ce15837aebe703476095e814302d0",
+      "published_packet_hash": "449e5194304f8a2882003d411d81e076b72ce15837aebe703476095e814302d0",
+      "receipt_id": "09610ee701c44dee8d0be81e76f84f9f",
+      "request_hash": "27d8703dfc830402894e83c5b782e191f3b01c3389867745aff799e9670911cd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

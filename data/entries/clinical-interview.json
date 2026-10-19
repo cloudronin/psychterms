@@ -27,5 +27,33 @@
     "definition_hash": "bbdf8c71550f11ee90c353fdbce1769bfbe56e420fc5f9d655c570c40edbcf49",
     "packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31"
   },
-  "hash": "b5ea281736fd998385ec19f653032fe708ad467a6a8f3eef1b67c651916e89f8"
+  "hash": "b5ea281736fd998385ec19f653032fe708ad467a6a8f3eef1b67c651916e89f8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "bbdf8c71550f11ee90c353fdbce1769bfbe56e420fc5f9d655c570c40edbcf49",
+      "packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31",
+      "published_packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31",
+      "receipt_id": "2087c58e522044a5ae4cf7426359304a",
+      "request_hash": "4a7f571532bed72501d3df89e048227d8ed9849a87d9e10370e9b06b1608590f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports “standardized” and “scaling patient responses to the questions,” but it does not explicitly support the added characterization “structured.”"
+      ],
+      "definition_hash": "bbdf8c71550f11ee90c353fdbce1769bfbe56e420fc5f9d655c570c40edbcf49",
+      "packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31",
+      "published_packet_hash": "0aa86d284e6205813e1ad7bf5d891c4b1320957c75b381301fb3d5d1aa200f31",
+      "receipt_id": "f2dc431996aa43cda2d3f603a108cb1e",
+      "request_hash": "ed93893311c2b61e40b7599ae1377cc483fad5693352f2a268d8c3ec69e09449",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,37 @@
     "definition_hash": "76fa4f8b653d38c881b4ff0545df5a9cf398c67e7942b9a567ec544543a251fb",
     "packet_hash": "d72dd4070beec695b0317c55014955d629151acacd55269a0d48c868c503a8f9"
   },
-  "hash": "56cd3b93622a96dfd7283342b5a8fc3a70d84d944420b96ee650acbe1bb6f5a5"
+  "hash": "56cd3b93622a96dfd7283342b5a8fc3a70d84d944420b96ee650acbe1bb6f5a5",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "76fa4f8b653d38c881b4ff0545df5a9cf398c67e7942b9a567ec544543a251fb",
+      "packet_hash": "d72dd4070beec695b0317c55014955d629151acacd55269a0d48c868c503a8f9",
+      "published_packet_hash": "d72dd4070beec695b0317c55014955d629151acacd55269a0d48c868c503a8f9",
+      "receipt_id": "ab73ff56b19c431ea74dc81b34038bc6",
+      "request_hash": "948c69da9978f3a3d5a7f7cec2c9ec4387a13731ce9c6f81fc3900d1b8a4ed71",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition provided contains claims not fully supported as written by the packet: it adds ‘two eyes’ lines of regard’ meeting at ‘one fixation point,’ but the packet’s phrasing is broader (“meet in a single fixation point”), and the provided definition’s wording is not a faithful match.",
+        "The definition’s emphasis on the specific example ‘turning the eyes inward so they intersect at a point in front of the eyes’ is not directly stated as such in the packet; the packet says convergent movements intersect at a point of objective space before the eyes.",
+        "The definition includes a specific modern-style description (‘shifting focus from something farther away to something nearer’) that is only indirectly implied by the packet’s subheading (a) ‘passing from a more remote to a nearer fixation point,’ which is not the same as the provided statement’s phrasing and framing.",
+        "Requested field is ‘history,’ but the packet is explicitly a historical dictionary anchor with medical/exceptional claims (e.g., ‘divergent movements (exceptional or pathological)’). The provided definition omits this historical/terminological context, which makes the overall sense partially unsupported or overly current in tone.",
+        "Definition length/scope constraint: the provided definition is two sentences and is concise, but it includes multiple specific explanatory elements not all supported with the same specificity in the packet."
+      ],
+      "definition_hash": "76fa4f8b653d38c881b4ff0545df5a9cf398c67e7942b9a567ec544543a251fb",
+      "packet_hash": "d72dd4070beec695b0317c55014955d629151acacd55269a0d48c868c503a8f9",
+      "published_packet_hash": "d72dd4070beec695b0317c55014955d629151acacd55269a0d48c868c503a8f9",
+      "receipt_id": "be81ba79ed4a4072a1424a7bf8468725",
+      "request_hash": "df7a741e4f8ef668b28505c8d0cbb7212ea84fac615cf741cd3cac73084dbf7b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

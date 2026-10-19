@@ -27,5 +27,34 @@
     "definition_hash": "6f56abf95eee3881a63e5f349a6b28dc6cf2ee848d311c0d37aa62f1b83c569f",
     "packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d"
   },
-  "hash": "a09678c98816c220986d4d8d54e0a6adff16a587508238a2a32aa67e46253cb0"
+  "hash": "a09678c98816c220986d4d8d54e0a6adff16a587508238a2a32aa67e46253cb0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6f56abf95eee3881a63e5f349a6b28dc6cf2ee848d311c0d37aa62f1b83c569f",
+      "packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d",
+      "published_packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d",
+      "receipt_id": "dbbba1983368454b8f723ba16f53bf25",
+      "request_hash": "97d4032b38554264c46f03ebaacfbe89cd3215c5220e9ec163a185ef34f468d1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims that the design allows “performance and intrusion errors” to be counted, but the packet only states that the “total number of words and intrusions is tallied for each trial” and does not describe “performance errors.”",
+        "The definition does not specify key structural details that are explicitly stated in the packet (e.g., 5 separate trials for the first 15-word list and a 30-minute delayed recall), making the correspondence to the specific AVLT version less exact than the packet supports."
+      ],
+      "definition_hash": "6f56abf95eee3881a63e5f349a6b28dc6cf2ee848d311c0d37aa62f1b83c569f",
+      "packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d",
+      "published_packet_hash": "56773a0a610c177ab534a6f74d1b9e74df9a9c2d8dba148dc1220b2775880f3d",
+      "receipt_id": "d820613aa1d34154b2536f52782799e3",
+      "request_hash": "daa47b5cf32e64b159c13dbc6a91a3f5bae3f1690dc20d6437137249c140c5bf",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

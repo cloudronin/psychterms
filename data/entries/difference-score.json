@@ -27,5 +27,35 @@
     "definition_hash": "693fb30b1bcf7d2b3ddaaf7bcf00cf2e0ea169f323c57e03595e56a838b0a79a",
     "packet_hash": "3451544cd6fe2cc012a6d5a4f07c11f598404f14da439965d0845c29f6f5267f"
   },
-  "hash": "3173b5f9d3ab0011b8942d9b9ecd5411eb78644bc3fd443d23e363e6ae1dc195"
+  "hash": "3173b5f9d3ab0011b8942d9b9ecd5411eb78644bc3fd443d23e363e6ae1dc195",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "693fb30b1bcf7d2b3ddaaf7bcf00cf2e0ea169f323c57e03595e56a838b0a79a",
+      "packet_hash": "3451544cd6fe2cc012a6d5a4f07c11f598404f14da439965d0845c29f6f5267f",
+      "published_packet_hash": "3451544cd6fe2cc012a6d5a4f07c11f598404f14da439965d0845c29f6f5267f",
+      "receipt_id": "a9bef50fb19e40e4abd44dc8855d629d",
+      "request_hash": "4a4cf5e745e3a8c2db01da6629bcd826bf842579b0dcf93fe1cba8b19d79832d",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the first-sentence framing that a difference score is “the value obtained by subtracting one measurement from another.” It discusses “differences between two measurements” and “difference scores,” but does not explicitly define the term via subtraction in that way.",
+        "The packet supports correlated/within-subject comparisons, but it does not explicitly refer to “repeated-measures data” or use that specific framing; the definition’s wording goes beyond what’s stated.",
+        "The packet does not support the claim that “the analysis focuses on the change or discrepancy between them”; it mentions statistical equivalences involving difference scores, not that analytic focus."
+      ],
+      "definition_hash": "693fb30b1bcf7d2b3ddaaf7bcf00cf2e0ea169f323c57e03595e56a838b0a79a",
+      "packet_hash": "3451544cd6fe2cc012a6d5a4f07c11f598404f14da439965d0845c29f6f5267f",
+      "published_packet_hash": "3451544cd6fe2cc012a6d5a4f07c11f598404f14da439965d0845c29f6f5267f",
+      "receipt_id": "20b8c4982cc94c9f8e2a1c2f6c5c3a48",
+      "request_hash": "2f586b1614ad47cb3a32d2142c6f0bb6e5b78062d6e56b90adb24d5e69f96653",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

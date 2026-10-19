@@ -27,5 +27,34 @@
     "definition_hash": "afe4f9dd9816c0bc817191ccd7a1eb542ae877ea12354298fe5d64851ee7ce2a",
     "packet_hash": "483a7e2a53440386d714a4985b71de92cb6ba3eb81f5d1694bffc3e716b20ea7"
   },
-  "hash": "640de2b8348eb1e78539a344efd6811687026c0842ecdb89a5670aee20f51d58"
+  "hash": "640de2b8348eb1e78539a344efd6811687026c0842ecdb89a5670aee20f51d58",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "afe4f9dd9816c0bc817191ccd7a1eb542ae877ea12354298fe5d64851ee7ce2a",
+      "packet_hash": "483a7e2a53440386d714a4985b71de92cb6ba3eb81f5d1694bffc3e716b20ea7",
+      "published_packet_hash": "483a7e2a53440386d714a4985b71de92cb6ba3eb81f5d1694bffc3e716b20ea7",
+      "receipt_id": "49a2b6d09bf0472e8fd15611cb871b5f",
+      "request_hash": "5d26049938d70da6f8afa15ba9488e7ab1cd0ea1d925cff978b5936a0f05df04",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence is consistent with the packet (SEM as the standard deviation of observed test scores for a given true score).",
+        "The definition’s second sentence claims it “expresses how much a test score may vary because of measurement error,” but the packet does not state this phrasing or this interpretation explicitly (it only provides the standard-deviation characterization and mentions estimation with a reliability-based formula)."
+      ],
+      "definition_hash": "afe4f9dd9816c0bc817191ccd7a1eb542ae877ea12354298fe5d64851ee7ce2a",
+      "packet_hash": "483a7e2a53440386d714a4985b71de92cb6ba3eb81f5d1694bffc3e716b20ea7",
+      "published_packet_hash": "483a7e2a53440386d714a4985b71de92cb6ba3eb81f5d1694bffc3e716b20ea7",
+      "receipt_id": "cc23ead655b940aa85ef89d6457cc98b",
+      "request_hash": "299f1923163466b8f6ea28f9f9cacc0e2e0e1669fcc2800a6c47491c6e84064c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

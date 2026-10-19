@@ -27,5 +27,34 @@
     "definition_hash": "f710e9ad4ffcd3874eeb9d34ccea08bd61883a6e71344ab942e466c5056d77d7",
     "packet_hash": "ca86cfed48ba99e164391f80eb68ebb6516e54ba3d00454ccfbb7011b6cec54a"
   },
-  "hash": "6ff54bd8a46ce389e62a57a3ebd3aac23654a357cf08998730605baf176dad7e"
+  "hash": "6ff54bd8a46ce389e62a57a3ebd3aac23654a357cf08998730605baf176dad7e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f710e9ad4ffcd3874eeb9d34ccea08bd61883a6e71344ab942e466c5056d77d7",
+      "packet_hash": "ca86cfed48ba99e164391f80eb68ebb6516e54ba3d00454ccfbb7011b6cec54a",
+      "published_packet_hash": "ca86cfed48ba99e164391f80eb68ebb6516e54ba3d00454ccfbb7011b6cec54a",
+      "receipt_id": "dcbc385102cf4a43aaa7ad4a9ab4ed0b",
+      "request_hash": "332d972da5a1aa4214dd345834cb3bad94db1c5fb87cf495cd4d9e9784aa1387",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only defines **Psychodynamics** as “theory of mental process considered as undergoing change and development.”",
+        "The definition’s added contrast—“it contrasts with treating conscious states as fixed elements for analysis”—is not supported by the provided packet text (the packet instead separately defines **Psychostatics** as the theory of conscious states as elements/contents for composition or analysis)."
+      ],
+      "definition_hash": "f710e9ad4ffcd3874eeb9d34ccea08bd61883a6e71344ab942e466c5056d77d7",
+      "packet_hash": "ca86cfed48ba99e164391f80eb68ebb6516e54ba3d00454ccfbb7011b6cec54a",
+      "published_packet_hash": "ca86cfed48ba99e164391f80eb68ebb6516e54ba3d00454ccfbb7011b6cec54a",
+      "receipt_id": "1ef84b6f612349c296065ad6c4259e7e",
+      "request_hash": "db4f27158e92601f64dafb03d9c138ab65122a40e284bd6c3cf5f73167ba39e0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

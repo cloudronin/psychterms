@@ -27,5 +27,34 @@
     "definition_hash": "2731656225317d0a3ae7b2b4a7acb49d41c16bb2d4ca620438914307f94b7033",
     "packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7"
   },
-  "hash": "6f4ad7900f8ae405d47f36544395026f0e72a189d22bab60c10b8d3e560fbbdf"
+  "hash": "6f4ad7900f8ae405d47f36544395026f0e72a189d22bab60c10b8d3e560fbbdf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2731656225317d0a3ae7b2b4a7acb49d41c16bb2d4ca620438914307f94b7033",
+      "packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7",
+      "published_packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7",
+      "receipt_id": "b742eb896bef422185b02a847b528107",
+      "request_hash": "f334028e5bcdc38251f0de301565d9483bb2c0c62ae4c835ae995208bffbeb43",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet identifies TAS as a 15-item questionnaire, but the definition adds that it is a “brief self-report measure”; “self-report” is not stated and “brief” is not explicitly supported in the source text.",
+        "The rest of the definition is broadly supported, but the unsupported characterization of the instrument is a substantive claim under this review standard."
+      ],
+      "definition_hash": "2731656225317d0a3ae7b2b4a7acb49d41c16bb2d4ca620438914307f94b7033",
+      "packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7",
+      "published_packet_hash": "04d4d365d9a6a56883b25d0c2ca1b90baf660b3c7b3c978b59782582447fa2d7",
+      "receipt_id": "a544f2a5ef6f4e379b2124b793306c94",
+      "request_hash": "c4268aad0543f9212d5f373864ccf515ae05cb13cf5c97f5a47e3a87f795b5b5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

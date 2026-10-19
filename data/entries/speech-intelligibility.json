@@ -27,5 +27,36 @@
     "definition_hash": "6e26363b82d3621231fe2b788631aae128a425774eb946a073bdba539610ad81",
     "packet_hash": "b363752aedeb428ec04806ef50b980ae74570eeb4795ac2a7b1cfd6e143ad7b9"
   },
-  "hash": "c5e413b11bb1bbc1778fcef4eb1f48d400d1fa34e603ca2134de1cfcbab680b8"
+  "hash": "c5e413b11bb1bbc1778fcef4eb1f48d400d1fa34e603ca2134de1cfcbab680b8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds that other people can “understand” the speech sounds, but the packet only supports that the sounds are “recognizable.”"
+      ],
+      "definition_hash": "6e26363b82d3621231fe2b788631aae128a425774eb946a073bdba539610ad81",
+      "packet_hash": "b363752aedeb428ec04806ef50b980ae74570eeb4795ac2a7b1cfd6e143ad7b9",
+      "published_packet_hash": "b363752aedeb428ec04806ef50b980ae74570eeb4795ac2a7b1cfd6e143ad7b9",
+      "receipt_id": "066a594e6da2404b9a5462d43ed726fc",
+      "request_hash": "d7048ab24dbf4cc01a19153cf9bae42da28b1de531bf77f33a4d72ba4dec567e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition adds that speech sounds are \"understand\" by others, but the packet definition only supports that sounds are \"recognizable\" (ability to make recognizable speech sounds).",
+        "The definition specifies recognition/understanding by \"other people,\" while the packet only states recognizability without explicitly stating who recognizes or whether understanding occurs."
+      ],
+      "definition_hash": "6e26363b82d3621231fe2b788631aae128a425774eb946a073bdba539610ad81",
+      "packet_hash": "b363752aedeb428ec04806ef50b980ae74570eeb4795ac2a7b1cfd6e143ad7b9",
+      "published_packet_hash": "b363752aedeb428ec04806ef50b980ae74570eeb4795ac2a7b1cfd6e143ad7b9",
+      "receipt_id": "11b59c10966c4e199b98232a931545a8",
+      "request_hash": "4ffc15faf08231e435acc1fc44e44ae8993f1bc060187d89d4972c996ff2923b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

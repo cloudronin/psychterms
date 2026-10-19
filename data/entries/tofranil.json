@@ -27,5 +27,37 @@
     "definition_hash": "9645a25707e3e535f5a4ccacac5eabf14064b93c4e7d217fe1962e3e28f93265",
     "packet_hash": "cec851c7364ce4c8614c2a989bcca08222e83683261734261dd93b5a7a90eaaf"
   },
-  "hash": "7150d6fb80dda7b7f5580e93590a180b6897e201e7889fc929669971e7a9e116"
+  "hash": "7150d6fb80dda7b7f5580e93590a180b6897e201e7889fc929669971e7a9e116",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports imipramine hydrochloride and its pharmacologic effects, but it does not state that Tofranil is a brand name for that substance.",
+        "The definition adds a brand-name relationship that is not supported by the supplied source text."
+      ],
+      "definition_hash": "9645a25707e3e535f5a4ccacac5eabf14064b93c4e7d217fe1962e3e28f93265",
+      "packet_hash": "cec851c7364ce4c8614c2a989bcca08222e83683261734261dd93b5a7a90eaaf",
+      "published_packet_hash": "cec851c7364ce4c8614c2a989bcca08222e83683261734261dd93b5a7a90eaaf",
+      "receipt_id": "c9236368e5dd4d59b89ca3aae4abef8b",
+      "request_hash": "6fa8fab11d29c38018e11a5b4bdae2d5fcc8dcc45240cffca7d963ac2c910913",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that “Tofranil is a brand name for imipramine hydrochloride,” but the provided packet text does not explicitly link the name “Tofranil” to imipramine (it only describes “imipramine hydrochloride”).",
+        "The definition’s content is largely about the pharmacology and effects of imipramine, but the packet does not provide any cognition-specific framing; as written, the definition is not well-aligned with the requested field (“cognition”)."
+      ],
+      "definition_hash": "9645a25707e3e535f5a4ccacac5eabf14064b93c4e7d217fe1962e3e28f93265",
+      "packet_hash": "cec851c7364ce4c8614c2a989bcca08222e83683261734261dd93b5a7a90eaaf",
+      "published_packet_hash": "cec851c7364ce4c8614c2a989bcca08222e83683261734261dd93b5a7a90eaaf",
+      "receipt_id": "80ad0f5ab7b04a74b141493e6411b6ec",
+      "request_hash": "823c7fb99896dae42e2a676fb328403920b59cdd1b80f1136c615c954401cc0c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

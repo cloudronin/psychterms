@@ -27,5 +27,35 @@
     "definition_hash": "573f98c3c512fe62ee77d63743a9c0e95529e9d43f302b9af803bfc268fa35f5",
     "packet_hash": "a78b238ccceb55ce3edd8968e21a101acb7dae899499216458e7bea67fa7bdbd"
   },
-  "hash": "e17dce0685c1faf93f877a5d51d3e41cc91bf2cb75234927b0c531851c7d8da3"
+  "hash": "e17dce0685c1faf93f877a5d51d3e41cc91bf2cb75234927b0c531851c7d8da3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "573f98c3c512fe62ee77d63743a9c0e95529e9d43f302b9af803bfc268fa35f5",
+      "packet_hash": "a78b238ccceb55ce3edd8968e21a101acb7dae899499216458e7bea67fa7bdbd",
+      "published_packet_hash": "a78b238ccceb55ce3edd8968e21a101acb7dae899499216458e7bea67fa7bdbd",
+      "receipt_id": "3b3dc69b6003461caf32b8ee569f3b30",
+      "request_hash": "c9bc0a7c8d5ec211758253b805d5a3e1282cc6116747edcccde42b9628e0e0ce",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet does not define what perimetry is; it only mentions “perimetry” as an example of diagnostic tests included in an AJCC TNM context for sarcoma of the orbit.",
+        "The definition’s general claim that perimetry is “a diagnostic test used in clinical evaluation of vision” and “to assess the visual field” is not explicitly stated in the packet text.",
+        "The packet frames perimetry within a specific cancer staging description (sarcoma of the orbit), while the definition presents it as a general-purpose vision test; this generalization is not directly supported by the packet."
+      ],
+      "definition_hash": "573f98c3c512fe62ee77d63743a9c0e95529e9d43f302b9af803bfc268fa35f5",
+      "packet_hash": "a78b238ccceb55ce3edd8968e21a101acb7dae899499216458e7bea67fa7bdbd",
+      "published_packet_hash": "a78b238ccceb55ce3edd8968e21a101acb7dae899499216458e7bea67fa7bdbd",
+      "receipt_id": "f6fecd93b806458fa512d4aedc964863",
+      "request_hash": "76b203c390859555dd6173bf210040f647da5534865c8f18433d1dd21d976f33",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

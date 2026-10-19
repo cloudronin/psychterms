@@ -27,5 +27,37 @@
     "definition_hash": "7aa7ddd68eedb695a866a75b77155cf2c10ffcb3539d5228914d5bdecb735ad9",
     "packet_hash": "ab8b47a5e86eedeea716febda1617e925ecabac74f1cf376ec38736c5aebe01f"
   },
-  "hash": "67b730f9e85892efbefb7cebf8bde4679e4bb5e3192d91af35ff729ee335d7cf"
+  "hash": "67b730f9e85892efbefb7cebf8bde4679e4bb5e3192d91af35ff729ee335d7cf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Adds unsupported details not present in the packet, including that the task involves a person or animal and that it is used to assess how experience with the negative stimulus affects later performance.",
+        "The packet supports only that it is a task with a negative stimulus in both the learning and memory/testing phases; the broader learning-and-memory explanation is not fully supported as written."
+      ],
+      "definition_hash": "7aa7ddd68eedb695a866a75b77155cf2c10ffcb3539d5228914d5bdecb735ad9",
+      "packet_hash": "ab8b47a5e86eedeea716febda1617e925ecabac74f1cf376ec38736c5aebe01f",
+      "published_packet_hash": "ab8b47a5e86eedeea716febda1617e925ecabac74f1cf376ec38736c5aebe01f",
+      "receipt_id": "854ad4733ca34160808d794bb0d6caeb",
+      "request_hash": "875b23a4444b9a370af91f3324bf9cf3b53adf4fd4badff842170d1a37c98e34",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet describes an active avoidance task as presenting a negative stimulus during a learning (training) phase and also applying it during a memory (testing) phase, but it does not state that the task is “used to assess how experience with that negative stimulus affects later performance.”",
+        "The definition’s claim that it is specifically “a learning and memory task” is not explicitly supported by the packet text beyond the reference to learning (training) and memory (testing) phases."
+      ],
+      "definition_hash": "7aa7ddd68eedb695a866a75b77155cf2c10ffcb3539d5228914d5bdecb735ad9",
+      "packet_hash": "ab8b47a5e86eedeea716febda1617e925ecabac74f1cf376ec38736c5aebe01f",
+      "published_packet_hash": "ab8b47a5e86eedeea716febda1617e925ecabac74f1cf376ec38736c5aebe01f",
+      "receipt_id": "a70556cdca4949d1a7d6a4fff60126a5",
+      "request_hash": "6e8635ebcbbfd3e026ef41c90fbb2c87288de181f9d42b461e6167660e212761",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

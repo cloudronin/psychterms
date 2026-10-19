@@ -27,5 +27,33 @@
     "definition_hash": "d937b0ed6d122465e84a800062bec8c9b2e45ea9a6a6bf230565ef8e276dc69d",
     "packet_hash": "3c937c2c5b7fa7db78db1c46fb1c05a26dd7abdd434f7720204f664c0da285a7"
   },
-  "hash": "c11a42020bc440f41327b4d6473ad52470b97aabc13f67a026aa96d21787b137"
+  "hash": "c11a42020bc440f41327b4d6473ad52470b97aabc13f67a026aa96d21787b137",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d937b0ed6d122465e84a800062bec8c9b2e45ea9a6a6bf230565ef8e276dc69d",
+      "packet_hash": "3c937c2c5b7fa7db78db1c46fb1c05a26dd7abdd434f7720204f664c0da285a7",
+      "published_packet_hash": "3c937c2c5b7fa7db78db1c46fb1c05a26dd7abdd434f7720204f664c0da285a7",
+      "receipt_id": "fafd72de72974ef18339a23828c36ab9",
+      "request_hash": "e19d6e57fc9fff377e84253d3668c71133be62fa3c2f78dc3e1add967df362bc",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “automatic” but the packet only states “involuntary” and “excited in response,” without explicitly using or clearly asserting the term “automatic.”"
+      ],
+      "definition_hash": "d937b0ed6d122465e84a800062bec8c9b2e45ea9a6a6bf230565ef8e276dc69d",
+      "packet_hash": "3c937c2c5b7fa7db78db1c46fb1c05a26dd7abdd434f7720204f664c0da285a7",
+      "published_packet_hash": "3c937c2c5b7fa7db78db1c46fb1c05a26dd7abdd434f7720204f664c0da285a7",
+      "receipt_id": "52f9921586344e4dbd65b076ee84a233",
+      "request_hash": "3a84defb0c20a0847784576ecfbce39a1964595558d7fe1096b579e239674780",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

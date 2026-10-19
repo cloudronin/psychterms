@@ -27,5 +27,39 @@
     "definition_hash": "d0f82b6961e485e03c13821dd2a0b5c8ee28291a0d6485677e46decb550a9a27",
     "packet_hash": "67db355edd747fd6590c79623a52ee57991a347768ef5106b8decd818ca67121"
   },
-  "hash": "eaa297676502e67ba37e9a4ebedb5f29c67df1f4f4433389059976832705cad4"
+  "hash": "eaa297676502e67ba37e9a4ebedb5f29c67df1f4f4433389059976832705cad4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the general definition of “overreaction” as a response that becomes stronger than is helpful; it only says CD14 can amplify inflammatory responses and may sometimes lead to overreaction and tissue and organ injury.",
+        "The requested field is not defensible from the packet: the source record is about atibuclimab/CD14 as a pharmacologic substance and immunologic factor, not a cognition term.",
+        "The definition attributes a specific source-material sense to “overreaction” as an amplified inflammatory response, but the packet uses the word only in passing and does not define it as the term’s sense."
+      ],
+      "definition_hash": "d0f82b6961e485e03c13821dd2a0b5c8ee28291a0d6485677e46decb550a9a27",
+      "packet_hash": "67db355edd747fd6590c79623a52ee57991a347768ef5106b8decd818ca67121",
+      "published_packet_hash": "67db355edd747fd6590c79623a52ee57991a347768ef5106b8decd818ca67121",
+      "receipt_id": "db39f17067924eb99ff08691620d9169",
+      "request_hash": "8429f4980b604eea7ff1a764e2d326b3a2b9fe350d04a0e472c9c9bf12bcefc8",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not support the definitional wording that an overreaction is “stronger than is helpful” or “going beyond what is needed for the situation.”",
+        "The only clear packet support is that CD14 “may sometimes lead to overreaction and tissue and organ injury,” which is framed in an inflammatory/immunologic context rather than cognition.",
+        "The provided source text is about atibuclimab/CD14 and preventing an inflammatory cascade; the definition’s focus on a general response in the cognition field is not explicitly supported by the packet."
+      ],
+      "definition_hash": "d0f82b6961e485e03c13821dd2a0b5c8ee28291a0d6485677e46decb550a9a27",
+      "packet_hash": "67db355edd747fd6590c79623a52ee57991a347768ef5106b8decd818ca67121",
+      "published_packet_hash": "67db355edd747fd6590c79623a52ee57991a347768ef5106b8decd818ca67121",
+      "receipt_id": "c6e6690c5ac74417965bda11eb59e7a9",
+      "request_hash": "885ede92bdc81294de1239f50af8956207e234ce9c90a6a2369adaa9be4a8e21",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

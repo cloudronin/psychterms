@@ -27,5 +27,37 @@
     "definition_hash": "e3d1bdbd202702a8d6d8101feb374bb9d7424a0c627e0f872643e805f262f05a",
     "packet_hash": "91a0093f837a54c622fa07a7880ad138e9f1d9b5692a160d5078104bf709d03c"
   },
-  "hash": "a6a4afdde2cfb8dc5a891c1418d16a4f71e1f3dcd6b33be6317379682e9e0f67"
+  "hash": "a6a4afdde2cfb8dc5a891c1418d16a4f71e1f3dcd6b33be6317379682e9e0f67",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the review function of a native speaker in manuscript preparation; it does not define a native speaker as someone who “naturally speaks” a particular language.",
+        "The first sentence gives a general lexicographic definition that is not supported by the supplied source passage."
+      ],
+      "definition_hash": "e3d1bdbd202702a8d6d8101feb374bb9d7424a0c627e0f872643e805f262f05a",
+      "packet_hash": "91a0093f837a54c622fa07a7880ad138e9f1d9b5692a160d5078104bf709d03c",
+      "published_packet_hash": "91a0093f837a54c622fa07a7880ad138e9f1d9b5692a160d5078104bf709d03c",
+      "receipt_id": "82f60159f4614c5ebc8e900c0926d333",
+      "request_hash": "c5b67c4e90df4e5b418daefebd890a2f4a540a9b5a3d757bdcbea0138bd1348f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“A native speaker is a person who naturally speaks a particular language”) is not supported by the provided packet text.",
+        "While the second sentence about using a native speaker to review writing for correctness and accuracy is supported by the packet (Rule 7: “If you are not a native speaker… make sure to have a native speaker go over the final draft to ensure correctness and accuracy”), the definition as a whole includes an unsupported substantive claim."
+      ],
+      "definition_hash": "e3d1bdbd202702a8d6d8101feb374bb9d7424a0c627e0f872643e805f262f05a",
+      "packet_hash": "91a0093f837a54c622fa07a7880ad138e9f1d9b5692a160d5078104bf709d03c",
+      "published_packet_hash": "91a0093f837a54c622fa07a7880ad138e9f1d9b5692a160d5078104bf709d03c",
+      "receipt_id": "b022aaf3b12043b89472743de369abb4",
+      "request_hash": "f8d089ba3da248b801692715e11a6350ae7a89f03ba0aa6b4018c389d1283a73",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "e3baa8855d00d51db05d635ab6662d2d2b19cbd4bfd5005db148f1081c70853e",
     "packet_hash": "6c0bdbc8e51537d5b68741a43f9f8ad8668193cb8f0079d908a65d7f0c7e42a3"
   },
-  "hash": "67551dd2915302e1668817dd38b5607ffdcf572e7fcfe3885ad6a250a4d09942"
+  "hash": "67551dd2915302e1668817dd38b5607ffdcf572e7fcfe3885ad6a250a4d09942",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e3baa8855d00d51db05d635ab6662d2d2b19cbd4bfd5005db148f1081c70853e",
+      "packet_hash": "6c0bdbc8e51537d5b68741a43f9f8ad8668193cb8f0079d908a65d7f0c7e42a3",
+      "published_packet_hash": "6c0bdbc8e51537d5b68741a43f9f8ad8668193cb8f0079d908a65d7f0c7e42a3",
+      "receipt_id": "a2bedb10211d4995a47a56be726409c3",
+      "request_hash": "d05920dbe4e8de6fd051a545db9336c06ca0648201473037e85725fd272b02f4",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds the unsupported framing that reinforcers are “rewards”; the packet only says they are stimuli that increase behavior frequency when the behavior leads to their presentation.",
+        "The packet supports positive reinforcers, but the definition presents a broader generic sense without distinguishing that source-specific sense."
+      ],
+      "definition_hash": "e3baa8855d00d51db05d635ab6662d2d2b19cbd4bfd5005db148f1081c70853e",
+      "packet_hash": "6c0bdbc8e51537d5b68741a43f9f8ad8668193cb8f0079d908a65d7f0c7e42a3",
+      "published_packet_hash": "6c0bdbc8e51537d5b68741a43f9f8ad8668193cb8f0079d908a65d7f0c7e42a3",
+      "receipt_id": "400ce806c79a4c4095eb334563f70680",
+      "request_hash": "deac9bf15e2d2a168d51e29766817a24af9d7e7ba9abfe5084fdfe6d927cc39f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

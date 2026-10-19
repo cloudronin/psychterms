@@ -27,5 +27,33 @@
     "definition_hash": "840db14c8ed7fad7e6fcd1c0928077558fa7cc86889822f2736d0925350319d0",
     "packet_hash": "6a19167ab0ca286061231663e3ec20f6753285674a850ecbe9993a59d8cde607"
   },
-  "hash": "15b4f4f4f40befb100b82352c71b02ce310e946e797700e8e27a93ee95fbd16e"
+  "hash": "15b4f4f4f40befb100b82352c71b02ce310e946e797700e8e27a93ee95fbd16e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "840db14c8ed7fad7e6fcd1c0928077558fa7cc86889822f2736d0925350319d0",
+      "packet_hash": "6a19167ab0ca286061231663e3ec20f6753285674a850ecbe9993a59d8cde607",
+      "published_packet_hash": "6a19167ab0ca286061231663e3ec20f6753285674a850ecbe9993a59d8cde607",
+      "receipt_id": "ab0b4296f9ad4683978e0122b9c83ef0",
+      "request_hash": "6d3ceec1d617fb084e2ba56cd82f9dbe62a221b16627044ef637f6656c6a949f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines nonlinear systems in general (systems responding disproportionately to initial conditions/perturbing stimuli) and discusses chaos/strange attractors, but it does not explicitly mention “learning.” Therefore the definition’s framing “In learning and other natural systems” is not fully supported by the packet."
+      ],
+      "definition_hash": "840db14c8ed7fad7e6fcd1c0928077558fa7cc86889822f2736d0925350319d0",
+      "packet_hash": "6a19167ab0ca286061231663e3ec20f6753285674a850ecbe9993a59d8cde607",
+      "published_packet_hash": "6a19167ab0ca286061231663e3ec20f6753285674a850ecbe9993a59d8cde607",
+      "receipt_id": "c1c4180c37cf4afb935b8f565a3001c7",
+      "request_hash": "7f54f7564a168e947d360c3e36d12e9486ad08cb8f01dd452dccbce551cc01e6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

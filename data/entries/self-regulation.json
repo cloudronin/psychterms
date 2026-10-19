@@ -27,5 +27,34 @@
     "definition_hash": "7a11a627b619b451be55b7d7e3014b78e5933c2e5dd1c6dd9c3562ac35554431",
     "packet_hash": "e105ba4dcbfc5d348a25ab47f6c2cfb5e6b08b7bbdb8d72dab2b18fb5d23584a"
   },
-  "hash": "3adf7aac31725dfd9dae6326809ad44739c4fa6393ebc0a86a88a1b4105d06e6"
+  "hash": "3adf7aac31725dfd9dae6326809ad44739c4fa6393ebc0a86a88a1b4105d06e6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "7a11a627b619b451be55b7d7e3014b78e5933c2e5dd1c6dd9c3562ac35554431",
+      "packet_hash": "e105ba4dcbfc5d348a25ab47f6c2cfb5e6b08b7bbdb8d72dab2b18fb5d23584a",
+      "published_packet_hash": "e105ba4dcbfc5d348a25ab47f6c2cfb5e6b08b7bbdb8d72dab2b18fb5d23584a",
+      "receipt_id": "ccb162d050e34b219d4cd6c913a4d656",
+      "request_hash": "d36c3428820ff9670bb6a8ceb1bf5cc24cafd2a52829ed97c6da417db1735f49",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet uses the wording “behaviors, and desires,” but the definition changes that to “behavior, and impulses,” which is not supported by the packet text.",
+        "The packet states “in order to function in society,” but the definition adds “so that a person can function effectively,” and the specific term “effectively” is not present in the packet."
+      ],
+      "definition_hash": "7a11a627b619b451be55b7d7e3014b78e5933c2e5dd1c6dd9c3562ac35554431",
+      "packet_hash": "e105ba4dcbfc5d348a25ab47f6c2cfb5e6b08b7bbdb8d72dab2b18fb5d23584a",
+      "published_packet_hash": "e105ba4dcbfc5d348a25ab47f6c2cfb5e6b08b7bbdb8d72dab2b18fb5d23584a",
+      "receipt_id": "87232d4dc2ed40ff9c392f9c5d18dab6",
+      "request_hash": "7e3564daaaf5bd8b1a9eb770a2606c9b18aa1d020d1fdb0307bd21c34609e6db",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

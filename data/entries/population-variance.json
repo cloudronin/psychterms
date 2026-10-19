@@ -27,5 +27,39 @@
     "definition_hash": "5ab53459dc05d94071d2fa2c774c5288ecad1abc68711d2628a132b20e26d94a",
     "packet_hash": "3c3b47e1797641ba38621184cc5dfcc0a7d642a19782a99f20e8b00f71a00993"
   },
-  "hash": "797561e3995524af3495a92794a9b55f76a9514a3f138b644a0268f6756bbb8c"
+  "hash": "797561e3995524af3495a92794a9b55f76a9514a3f138b644a0268f6756bbb8c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only mentions population variance in the context of Bessel’s correction for estimating it; it does not define population variance as the variance of an entire population or explain it as variation around the population mean.",
+        "The statement that sample variance is used to estimate population variance with a bias correction is partly supported, but the definition adds broader explanatory content that is not supported by the packet and goes beyond the cited passage."
+      ],
+      "definition_hash": "5ab53459dc05d94071d2fa2c774c5288ecad1abc68711d2628a132b20e26d94a",
+      "packet_hash": "3c3b47e1797641ba38621184cc5dfcc0a7d642a19782a99f20e8b00f71a00993",
+      "published_packet_hash": "3c3b47e1797641ba38621184cc5dfcc0a7d642a19782a99f20e8b00f71a00993",
+      "receipt_id": "26e5b02f869843ddb8d6533cb1553401",
+      "request_hash": "c4788b5db5a7fdb0815dbeef9fcf212d88fe6d9ed743c2cac8b3fc8d75165dc1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet text does not define “population variance” or explain its meaning as variance across an entire population around a population mean.",
+        "The packet discusses Bessel’s correction and estimation in the context of effect size calculations (and standardized mean differences), not “sample variance used to estimate population variance” in general.",
+        "The definition’s claim that a bias correction is applied because a sample does not include the whole population is not stated in those terms in the supplied packet.",
+        "No content in the packet explicitly links the term “population variance” to the described research use in the definition."
+      ],
+      "definition_hash": "5ab53459dc05d94071d2fa2c774c5288ecad1abc68711d2628a132b20e26d94a",
+      "packet_hash": "3c3b47e1797641ba38621184cc5dfcc0a7d642a19782a99f20e8b00f71a00993",
+      "published_packet_hash": "3c3b47e1797641ba38621184cc5dfcc0a7d642a19782a99f20e8b00f71a00993",
+      "receipt_id": "0072eebc0b6c456c9d118661b635fc1f",
+      "request_hash": "466fb0c0e801ec87244421d35ed709034b8ee84a9784adb8254dda8cd385a427",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

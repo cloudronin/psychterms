@@ -27,5 +27,33 @@
     "definition_hash": "d1fd0cef7b129363730510931949ad053bc268f77c7f2e9fb36e9bd6d733ffa8",
     "packet_hash": "54625f11c7360caea7f78e0197924b8ac40887ff3a0c73321892daea863a210a"
   },
-  "hash": "e491b8ecb5ad8bc5c4048742519e611debda75c5faf33c156fd5cfc328ee1ff7"
+  "hash": "e491b8ecb5ad8bc5c4048742519e611debda75c5faf33c156fd5cfc328ee1ff7",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "d1fd0cef7b129363730510931949ad053bc268f77c7f2e9fb36e9bd6d733ffa8",
+      "packet_hash": "54625f11c7360caea7f78e0197924b8ac40887ff3a0c73321892daea863a210a",
+      "published_packet_hash": "54625f11c7360caea7f78e0197924b8ac40887ff3a0c73321892daea863a210a",
+      "receipt_id": "c7b33c3f3485469e91600c831ab3829c",
+      "request_hash": "6b5758ff3b69dc068e571890e4db213c80cd5b6dc4da815eccd96c8502f5148a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “generally harmful” outcomes, but the packet only mentions “generally unfavorable outcome” (the word “harmful” is not supported)."
+      ],
+      "definition_hash": "d1fd0cef7b129363730510931949ad053bc268f77c7f2e9fb36e9bd6d733ffa8",
+      "packet_hash": "54625f11c7360caea7f78e0197924b8ac40887ff3a0c73321892daea863a210a",
+      "published_packet_hash": "54625f11c7360caea7f78e0197924b8ac40887ff3a0c73321892daea863a210a",
+      "receipt_id": "cfc3f8bbcfcf414d86444ffd9d1de64f",
+      "request_hash": "a3eb9df5c8b65d2f57ab9a35e535a003ea11d76f732c4861b9acf36653d05d5e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

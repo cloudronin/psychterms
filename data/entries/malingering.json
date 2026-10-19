@@ -27,5 +27,34 @@
     "definition_hash": "395a7e7165769c9185e01cad3ac9a049dd8fcf9df1abb7bcf5de913f89ff53b3",
     "packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626"
   },
-  "hash": "acacc00efcc8bf56cac5471e6f016a94d7aa083a08a54a0b4263b9a7e8025c57"
+  "hash": "acacc00efcc8bf56cac5471e6f016a94d7aa083a08a54a0b4263b9a7e8025c57",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "395a7e7165769c9185e01cad3ac9a049dd8fcf9df1abb7bcf5de913f89ff53b3",
+      "packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626",
+      "published_packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626",
+      "receipt_id": "97a08b3c43464525870a86f28ea46d34",
+      "request_hash": "61e8939209d1f556d816d3e592127ca2a48fcc9d698410c44bc98d1545c920e9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines malingering as “simulation of symptoms … with intent to deceive in order to obtain a goal,” but the provided definition adds “exaggerating” symptoms, which is not stated in the packet.",
+        "The rest of the definition is broadly consistent with the packet (deliberate faking/simulation with intent to deceive for an external goal), but the “exaggerating” element makes the substantive claim not fully supported."
+      ],
+      "definition_hash": "395a7e7165769c9185e01cad3ac9a049dd8fcf9df1abb7bcf5de913f89ff53b3",
+      "packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626",
+      "published_packet_hash": "0bb63e8500d5d59b9137660b8555a213b7eb0d0c2773637fa9b6b70918ab0626",
+      "receipt_id": "902b5752b5c742afb246d0875624273e",
+      "request_hash": "c08a6089070dcf4173e79f1f04694f93bd52ecfc18733195b8916991bad0a0d5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

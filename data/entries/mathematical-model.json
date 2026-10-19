@@ -27,5 +27,37 @@
     "definition_hash": "6184da13aa5fc435de5fc4edbbb4ea873ee9c5f2ee0b76dd149a7e39b906184a",
     "packet_hash": "5959120a55e92ddcc62c1c0e1901741ec4132c2485b521646225b40b8e52ce8d"
   },
-  "hash": "a06227ffccbfe22a471ae5b2f5e4c9caaad9f8bb257df64b8594e464004c3979"
+  "hash": "a06227ffccbfe22a471ae5b2f5e4c9caaad9f8bb257df64b8594e464004c3979",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The second sentence adds a learning-context use that is not supported by the packet’s source text.",
+        "The definition goes beyond the supplied description by introducing a specific educational application rather than staying with the supported general sense of a theoretical representation that simulates systems, processes, or phenomena."
+      ],
+      "definition_hash": "6184da13aa5fc435de5fc4edbbb4ea873ee9c5f2ee0b76dd149a7e39b906184a",
+      "packet_hash": "5959120a55e92ddcc62c1c0e1901741ec4132c2485b521646225b40b8e52ce8d",
+      "published_packet_hash": "5959120a55e92ddcc62c1c0e1901741ec4132c2485b521646225b40b8e52ce8d",
+      "receipt_id": "0c293dbb201c4924949dee72569df340",
+      "request_hash": "f0a96d1b32ed568232d28efd2f9b9228f9420a4acaf8f5da009686eb7fefe491",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition does not state that the representation “uses mathematics,” only that it is a “theoretical representation” that “simulate[s]” behavior/activity.",
+        "The packet does not mention “learning contexts” or describe any use in learning for patterns/processes; that portion of the definition is unsupported by the provided text."
+      ],
+      "definition_hash": "6184da13aa5fc435de5fc4edbbb4ea873ee9c5f2ee0b76dd149a7e39b906184a",
+      "packet_hash": "5959120a55e92ddcc62c1c0e1901741ec4132c2485b521646225b40b8e52ce8d",
+      "published_packet_hash": "5959120a55e92ddcc62c1c0e1901741ec4132c2485b521646225b40b8e52ce8d",
+      "receipt_id": "9392ccd82c68476f91f610cdf48711cc",
+      "request_hash": "ee69cd4f64710760f4d430cb6beec1e10b5af2b3afe60c398f59ac73bf9c4a78",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

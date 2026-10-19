@@ -27,5 +27,33 @@
     "definition_hash": "21c076fce31622400cce64e780ce27df83c93a64ad99bd114bf57f55506900ba",
     "packet_hash": "151866948873613d515dbdccf34999941767b268bc07f804dbfa5f362007be3c"
   },
-  "hash": "189ad8041013ff1e7352fae11bab5ea17422e7158380837b3cd9fc22b480bd5f"
+  "hash": "189ad8041013ff1e7352fae11bab5ea17422e7158380837b3cd9fc22b480bd5f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "21c076fce31622400cce64e780ce27df83c93a64ad99bd114bf57f55506900ba",
+      "packet_hash": "151866948873613d515dbdccf34999941767b268bc07f804dbfa5f362007be3c",
+      "published_packet_hash": "151866948873613d515dbdccf34999941767b268bc07f804dbfa5f362007be3c",
+      "receipt_id": "249cc5cf4f3a4b41ae4fe5863b6c6c54",
+      "request_hash": "a3a614c195b76ed10a309831c7d028679d8e84210525b8641b92dee9ac295dcd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is a general medical description of a systemic autoimmune disorder and does not provide any cognition-specific sense or link to cognition, so it is not defensible for the requested field (“cognition”) despite being supported as a general characterization of systemic lupus erythematosus in the packet."
+      ],
+      "definition_hash": "21c076fce31622400cce64e780ce27df83c93a64ad99bd114bf57f55506900ba",
+      "packet_hash": "151866948873613d515dbdccf34999941767b268bc07f804dbfa5f362007be3c",
+      "published_packet_hash": "151866948873613d515dbdccf34999941767b268bc07f804dbfa5f362007be3c",
+      "receipt_id": "f513d2cd204b49d19fac621420a584f7",
+      "request_hash": "82e29837e0be770300ef00dec874f85961a2d0001862ba535bd194394b34b253",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

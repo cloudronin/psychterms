@@ -27,5 +27,34 @@
     "definition_hash": "905b1f6c31fffd5a3e10d0e9d8d289a6f9410741a6252936ca8cf67ce127d79b",
     "packet_hash": "47bb4442964801a93825d781b3f29ddd7e43a01d699cbd1015cb2e2abc5fd2af"
   },
-  "hash": "33622f6087f58b322f6bd17ccd9be96264019c79131396a0d3ace7f84eeb680e"
+  "hash": "33622f6087f58b322f6bd17ccd9be96264019c79131396a0d3ace7f84eeb680e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "905b1f6c31fffd5a3e10d0e9d8d289a6f9410741a6252936ca8cf67ce127d79b",
+      "packet_hash": "47bb4442964801a93825d781b3f29ddd7e43a01d699cbd1015cb2e2abc5fd2af",
+      "published_packet_hash": "47bb4442964801a93825d781b3f29ddd7e43a01d699cbd1015cb2e2abc5fd2af",
+      "receipt_id": "946bfce793aa4bf994a6ca1e9263f0d2",
+      "request_hash": "b399c750b2b78634496862fd7a3a66b04e4f8c127989fa44489f2c1b889654f3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The final consequence is not fully supported as written: the packet says chronic papilledema may cause optic atrophy and visual loss, not optic nerve damage and vision loss.",
+        "The definition uses a slightly different injury claim (“optic nerve damage”) than the packet’s stated outcome (“optic atrophy”), which is not the same term or clearly equivalent in this source."
+      ],
+      "definition_hash": "905b1f6c31fffd5a3e10d0e9d8d289a6f9410741a6252936ca8cf67ce127d79b",
+      "packet_hash": "47bb4442964801a93825d781b3f29ddd7e43a01d699cbd1015cb2e2abc5fd2af",
+      "published_packet_hash": "47bb4442964801a93825d781b3f29ddd7e43a01d699cbd1015cb2e2abc5fd2af",
+      "receipt_id": "7a311f61f8b94b3cbdf8b7d7f4c12d53",
+      "request_hash": "46c0912a4fd18ab7e0e1252e4a36c533aaff7544cf7a1ea0b9c3f7b0229615e2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

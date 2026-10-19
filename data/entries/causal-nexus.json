@@ -27,5 +27,34 @@
     "definition_hash": "5bf97ea03759be9c3246b6e59ad2a61e2fbc3f349fdd67f8edf9c7715a2eb8d0",
     "packet_hash": "dd1e64222c497d8f370fef728fdb1438b3743aa64b20a5d797da9b22a13842a8"
   },
-  "hash": "cf8dec994002a6ab7fed02b16cffd0f0710149c1162cc46f79b87533332ddf64"
+  "hash": "cf8dec994002a6ab7fed02b16cffd0f0710149c1162cc46f79b87533332ddf64",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5bf97ea03759be9c3246b6e59ad2a61e2fbc3f349fdd67f8edf9c7715a2eb8d0",
+      "packet_hash": "dd1e64222c497d8f370fef728fdb1438b3743aa64b20a5d797da9b22a13842a8",
+      "published_packet_hash": "dd1e64222c497d8f370fef728fdb1438b3743aa64b20a5d797da9b22a13842a8",
+      "receipt_id": "4b929ebacf7943e8b26d2a0f92ba7a84",
+      "request_hash": "13964707ccedebb7f4238890f97561a3e68d2e7ec937896759e926519176ee32",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds a causal gloss (“links causes and effects”) that is not stated in the supplied source definition of “nexus.”",
+        "The packet defines nexus as the mutual dependence of elements in an ordered series and a suggestion of union into an ordered whole; it does not support expanding that into a definition of causal nexus itself without that added causal content."
+      ],
+      "definition_hash": "5bf97ea03759be9c3246b6e59ad2a61e2fbc3f349fdd67f8edf9c7715a2eb8d0",
+      "packet_hash": "dd1e64222c497d8f370fef728fdb1438b3743aa64b20a5d797da9b22a13842a8",
+      "published_packet_hash": "dd1e64222c497d8f370fef728fdb1438b3743aa64b20a5d797da9b22a13842a8",
+      "receipt_id": "358f46b9868242b9911a4306c994b0d1",
+      "request_hash": "a576359d823cec7d3fc54f0cebcf0b952f53694ad1d1c782c7741d6a3537160f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

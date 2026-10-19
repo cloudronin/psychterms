@@ -27,5 +27,34 @@
     "definition_hash": "e9d6856492df43f12afa4137640fa644126dad2c2dec5f60995368212372da43",
     "packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda"
   },
-  "hash": "ad7b46efa1e3a46e797d097f5c4e754eeb2b4dd32033b5b5c048157c2a80c687"
+  "hash": "ad7b46efa1e3a46e797d097f5c4e754eeb2b4dd32033b5b5c048157c2a80c687",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e9d6856492df43f12afa4137640fa644126dad2c2dec5f60995368212372da43",
+      "packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda",
+      "published_packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda",
+      "receipt_id": "ffd51cf40794443dacc31511c2e8b699",
+      "request_hash": "b00bb51965a091f72607ef8e6a8a185a0000e415b4182fdad8783a5562efdffa",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s provided context/source label is “Refractory Period, Psychological,” which conflicts with the requested field being “biological.”",
+        "Because the field alignment is not defensible from the packet as supplied, the definition cannot be accepted for the specified field despite the general meaning matching the packet."
+      ],
+      "definition_hash": "e9d6856492df43f12afa4137640fa644126dad2c2dec5f60995368212372da43",
+      "packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda",
+      "published_packet_hash": "863b0fb2a2a3e593f607fd38df85677c81949bb78ede732f76905750f0075dda",
+      "receipt_id": "4723c27152594f9983ad6260d9561e89",
+      "request_hash": "d7c9826d6cc32ce8d8670294fba42d36e45d2cf85b0309df6d184613e02bf310",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

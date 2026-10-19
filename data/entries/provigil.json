@@ -27,5 +27,36 @@
     "definition_hash": "ed4d002aaf94b629c15ac2cc2a1d29f334f36b3d856158f24eaafa3bb7485f65",
     "packet_hash": "5baec55fa39c27afbc1fa24ef701b47675095720fe6d78179ea8a1f3faf0b32c"
   },
-  "hash": "e4e801b9a6e102fc28c15d446cff358f942f1695b3c4d3d25973c735f810a615"
+  "hash": "e4e801b9a6e102fc28c15d446cff358f942f1695b3c4d3d25973c735f810a615",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports modafinil as a synthetic wakefulness-promoting CNS stimulant, but it does not explicitly support the claim that Provigil is a brand name for modafinil.",
+        "The remaining mechanism and cognitive-effect claims are supported, but the definition includes an unsupported identification/synonymy claim that should not be added without packet support."
+      ],
+      "definition_hash": "ed4d002aaf94b629c15ac2cc2a1d29f334f36b3d856158f24eaafa3bb7485f65",
+      "packet_hash": "5baec55fa39c27afbc1fa24ef701b47675095720fe6d78179ea8a1f3faf0b32c",
+      "published_packet_hash": "5baec55fa39c27afbc1fa24ef701b47675095720fe6d78179ea8a1f3faf0b32c",
+      "receipt_id": "9362618c4cb44631869ff75956360652",
+      "request_hash": "d6177a1fbdbe97217e3c587c9ab4d7e90fc60141c607be2aeac513d5795f0771",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that Provigil is a “brand name for modafinil,” but the supplied packet text does not explicitly identify Provigil as a brand name or otherwise make that brand-to-generic equivalence claim."
+      ],
+      "definition_hash": "ed4d002aaf94b629c15ac2cc2a1d29f334f36b3d856158f24eaafa3bb7485f65",
+      "packet_hash": "5baec55fa39c27afbc1fa24ef701b47675095720fe6d78179ea8a1f3faf0b32c",
+      "published_packet_hash": "5baec55fa39c27afbc1fa24ef701b47675095720fe6d78179ea8a1f3faf0b32c",
+      "receipt_id": "80b58f50c9d34df69e4c8d33e93c82f7",
+      "request_hash": "1530ac000adf0dddc9ed65b4ab0d495b46011d5113b7178075c50c9e3ce928ee",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

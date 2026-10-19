@@ -27,5 +27,33 @@
     "definition_hash": "3d39ca90f995acd17d81a96d29fc974d16028c523befb805063c0a237164656b",
     "packet_hash": "22ec8ca9062a3ca4d86a702393b59fbe4d7164b5069ff0d00d275d519bd77fd0"
   },
-  "hash": "1e319b187d730daa2e237a50932232e482eb933f44826cc3686f0a985f8cd1d9"
+  "hash": "1e319b187d730daa2e237a50932232e482eb933f44826cc3686f0a985f8cd1d9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "3d39ca90f995acd17d81a96d29fc974d16028c523befb805063c0a237164656b",
+      "packet_hash": "22ec8ca9062a3ca4d86a702393b59fbe4d7164b5069ff0d00d275d519bd77fd0",
+      "published_packet_hash": "22ec8ca9062a3ca4d86a702393b59fbe4d7164b5069ff0d00d275d519bd77fd0",
+      "receipt_id": "9e2b0fa828ac4fd7a7c70219ce92a01f",
+      "request_hash": "159c6ab65ef65a42cb566f206551b885848a50c243a288bd88447677592ccd40",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states “involved in accidents repeatedly,” but the packet only says “Tendency toward involvement in accidents” and does not specify repeated occurrences."
+      ],
+      "definition_hash": "3d39ca90f995acd17d81a96d29fc974d16028c523befb805063c0a237164656b",
+      "packet_hash": "22ec8ca9062a3ca4d86a702393b59fbe4d7164b5069ff0d00d275d519bd77fd0",
+      "published_packet_hash": "22ec8ca9062a3ca4d86a702393b59fbe4d7164b5069ff0d00d275d519bd77fd0",
+      "receipt_id": "1426e2d75df541e9915f7c7fc04cb61e",
+      "request_hash": "e114864ee32c9a4c7bb50f8339882ab09e50a806df949b18fb22ac10b7d3c323",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

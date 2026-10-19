@@ -27,5 +27,35 @@
     "definition_hash": "52db5f3e5324a024a0ee927bd07a1f56057b8ebb7b4370cace2ce02cecc8461b",
     "packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e"
   },
-  "hash": "482aa52ff588df8dbfd7bb48bd6b8ca86b756269194c2d088f42e0a44695621d"
+  "hash": "482aa52ff588df8dbfd7bb48bd6b8ca86b756269194c2d088f42e0a44695621d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "52db5f3e5324a024a0ee927bd07a1f56057b8ebb7b4370cace2ce02cecc8461b",
+      "packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e",
+      "published_packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e",
+      "receipt_id": "de953da27af74572ae01f0c2488ac196",
+      "request_hash": "51630e45091fcbf8d9274f3fea6b805d25c7571729ff10759f4f81abda15dc53",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition is supported by the packet on the drug’s class and its antipsychotic mechanism, antiemetic use, and use for intractable hiccup.",
+        "However, the requested field “cognition” is not defensible for this term from the packet: the source describes a medication, not a cognition concept.",
+        "The phrase “brain’s longer-term adaptation to dopamine receptor blockade” is acceptable only as a paraphrase of the packet’s mechanism claim, but the field mismatch prevents approval."
+      ],
+      "definition_hash": "52db5f3e5324a024a0ee927bd07a1f56057b8ebb7b4370cace2ce02cecc8461b",
+      "packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e",
+      "published_packet_hash": "79ce8913492475aa50b2b77a738ea121bed85e5e0d3f875bca10c1643a1f529e",
+      "receipt_id": "415ecacdd25841ba8e8585a75b9a1ff0",
+      "request_hash": "b5da1174079b438cfc39ac744f3aa27ec81175000edb2b35c733564efa56c59f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

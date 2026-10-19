@@ -27,5 +27,34 @@
     "definition_hash": "c6b5918a3e0a433cc736fb938144df1150bf6397a4cb205c2515ddd9536fcc1f",
     "packet_hash": "59add6cf68363b065a768fc3725b00eb5182fb9e6e2200aafa0944a88fcf3bce"
   },
-  "hash": "1e991c8e333ff8b0133673abe45c2d81e120d59df274cda2d1635db98be1dcab"
+  "hash": "1e991c8e333ff8b0133673abe45c2d81e120d59df274cda2d1635db98be1dcab",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c6b5918a3e0a433cc736fb938144df1150bf6397a4cb205c2515ddd9536fcc1f",
+      "packet_hash": "59add6cf68363b065a768fc3725b00eb5182fb9e6e2200aafa0944a88fcf3bce",
+      "published_packet_hash": "59add6cf68363b065a768fc3725b00eb5182fb9e6e2200aafa0944a88fcf3bce",
+      "receipt_id": "e16728ca5a3b459093798713efcf3329",
+      "request_hash": "f3178f202ddfcc5e44350bc55c80a842893dd2e734b8f88b209d111c6bf305e9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition misstates the disorder classification: the packet says anhedonia is a symptom of many psychotic disorders, with major depressive disorder and schizophrenia given as examples, but major depressive disorder is not itself a psychotic disorder.",
+        "The phrase “linked to disruption in normal psychological and neurobiological functioning” is acceptable as a paraphrase, but the second sentence adds an unsupported framing of the examples as ‘several psychotic disorders’ and should not present major depressive disorder that way."
+      ],
+      "definition_hash": "c6b5918a3e0a433cc736fb938144df1150bf6397a4cb205c2515ddd9536fcc1f",
+      "packet_hash": "59add6cf68363b065a768fc3725b00eb5182fb9e6e2200aafa0944a88fcf3bce",
+      "published_packet_hash": "59add6cf68363b065a768fc3725b00eb5182fb9e6e2200aafa0944a88fcf3bce",
+      "receipt_id": "7e0f6d864ed94eaeaea816584c097339",
+      "request_hash": "4b289983d5dd7f69a946beb01bc559641af224f7d03a147446cd39b44153de6e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

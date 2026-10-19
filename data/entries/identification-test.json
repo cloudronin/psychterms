@@ -27,5 +27,35 @@
     "definition_hash": "704788a650b51c9c76af1ce8dca00c956705ba74d36695f8802dd173d78a3abb",
     "packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76"
   },
-  "hash": "68089db10dcf4b613c25c6063a58d0d3ae5ccabe794614a3da51f52a9f53449e"
+  "hash": "68089db10dcf4b613c25c6063a58d0d3ae5ccabe794614a3da51f52a9f53449e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "704788a650b51c9c76af1ce8dca00c956705ba74d36695f8802dd173d78a3abb",
+      "packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76",
+      "published_packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76",
+      "receipt_id": "5ac30148f5a2444888c73260311bc129",
+      "request_hash": "d3b1f91bf368a391554153b6e0d16cdfedc63511c751337f78362c31ad8d89e2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a CDISC/AUDIT-SR questionnaire test-name terminology set, but it does not support the term sense \"identification test\" itself.",
+        "\"Identification test\" is not established by the source text; the packet instead describes \"test names of questionnaire questions associated with the Alcohol Use Disorder Identification Test: Self-Report Version (AUDIT-SR)\".",
+        "The definition adds an interpretive gloss (“rather than a general description of testing”) that is not stated in the packet."
+      ],
+      "definition_hash": "704788a650b51c9c76af1ce8dca00c956705ba74d36695f8802dd173d78a3abb",
+      "packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76",
+      "published_packet_hash": "8e3098fa6234f4d6e2431fdd6703a844c89222ea2b0319af05c3fc2b7c7f9d76",
+      "receipt_id": "1175e127fa994996a85e34034d92e000",
+      "request_hash": "61b98bc23c9a284b61cc1601a770b85be1ab072214e233b65f3c655f45bf2713",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

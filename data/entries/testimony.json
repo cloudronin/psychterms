@@ -27,5 +27,37 @@
     "definition_hash": "755d649dba976c46d36c298b2147ef14b39cb70e2991521aac6fb1d9d6e1cc14",
     "packet_hash": "20b1a0f68be6ca7ea9932bbf0f02d8cb0f08c8ee62446f56a9f92695fdec1feb"
   },
-  "hash": "76d4f2c72efe74b1d6fe7ea33c5fed91f345996e8b1d65ca18d120121d64a2b3"
+  "hash": "76d4f2c72efe74b1d6fe7ea33c5fed91f345996e8b1d65ca18d120121d64a2b3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet text defines “expert testimony” in the context of forensic psychiatry (legal aspects), not as a “diagnosis.”",
+        "Some claims are not fully supported as written: the packet only mentions “expert testimony” as part of forensic psychiatry/legal aspects, but does not specify that it is “given to a court,” nor that it is explicitly “part of forensic psychiatry” in the way the definition frames (the link is implied by “Forensic Psychiatry,” but the court-specific wording is not explicit in the provided text."
+      ],
+      "definition_hash": "755d649dba976c46d36c298b2147ef14b39cb70e2991521aac6fb1d9d6e1cc14",
+      "packet_hash": "20b1a0f68be6ca7ea9932bbf0f02d8cb0f08c8ee62446f56a9f92695fdec1feb",
+      "published_packet_hash": "20b1a0f68be6ca7ea9932bbf0f02d8cb0f08c8ee62446f56a9f92695fdec1feb",
+      "receipt_id": "30df6808024a45a9b4d2c2dc4729e2f6",
+      "request_hash": "ca9249b7d4fc6d4a2db2e7e4dafe306e9f22e3f950b5e40fb80c00e71618b563",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet is a descriptor for forensic psychiatry, not a definition of the standalone term “testimony,” so the requested sense is not established by the source.",
+        "“Evidence given to a court” is broader than the packet’s wording, which only explicitly mentions “expert testimony” and related legal issues in psychiatry."
+      ],
+      "definition_hash": "755d649dba976c46d36c298b2147ef14b39cb70e2991521aac6fb1d9d6e1cc14",
+      "packet_hash": "20b1a0f68be6ca7ea9932bbf0f02d8cb0f08c8ee62446f56a9f92695fdec1feb",
+      "published_packet_hash": "20b1a0f68be6ca7ea9932bbf0f02d8cb0f08c8ee62446f56a9f92695fdec1feb",
+      "receipt_id": "0cdfabe7909443b6b2403ad85f052b38",
+      "request_hash": "c47859e59aa894f5a717e2c7faf4ed2b92f7d747a56abb8aa3f1483961933170",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

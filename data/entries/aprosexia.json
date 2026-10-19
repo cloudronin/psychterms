@@ -27,5 +27,34 @@
     "definition_hash": "a8294513565b1865742977282e1e0208b28d2022df26e1651628365c5229c080",
     "packet_hash": "25119c747d71eee81147cc464728a979e3a27bd6d56a59cdec9f460c2d211b1b"
   },
-  "hash": "b72a87328a86064db4e7f9ec0661a62f37e8d8c3988717f9e9d55ab201d807db"
+  "hash": "b72a87328a86064db4e7f9ec0661a62f37e8d8c3988717f9e9d55ab201d807db",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a8294513565b1865742977282e1e0208b28d2022df26e1651628365c5229c080",
+      "packet_hash": "25119c747d71eee81147cc464728a979e3a27bd6d56a59cdec9f460c2d211b1b",
+      "published_packet_hash": "25119c747d71eee81147cc464728a979e3a27bd6d56a59cdec9f460c2d211b1b",
+      "receipt_id": "fdb9a6ada6c54026b17d3fdbd47e372a",
+      "request_hash": "88d4a87abcce3aae1da25bc74305efd27451296ad0f74a826ed4b6a8f369d2c5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines aprosexia as “Inability to fix the attention,” but the definition adds “hold attention,” which is not explicitly supported by the provided text.",
+        "While the packet indicates it is related to “ATTENTION (defects of),” the definition’s phrasing “In historical psychology usage” is not directly stated in the packet."
+      ],
+      "definition_hash": "a8294513565b1865742977282e1e0208b28d2022df26e1651628365c5229c080",
+      "packet_hash": "25119c747d71eee81147cc464728a979e3a27bd6d56a59cdec9f460c2d211b1b",
+      "published_packet_hash": "25119c747d71eee81147cc464728a979e3a27bd6d56a59cdec9f460c2d211b1b",
+      "receipt_id": "2e021f05116441989276f3ef2e282d8c",
+      "request_hash": "7109adb8cb1fa8bfc0271fdd8e780837aafbbcaa45c0d99c7417bb469d5e83ce",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

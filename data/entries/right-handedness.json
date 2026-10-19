@@ -27,5 +27,34 @@
     "definition_hash": "05817218b9f89a821d58cdde1d84c38e795e94600f703929d8a421b24b08f567",
     "packet_hash": "c38ed2452a438a5da8bab0b25d828b201f2c8956c4107dbd6ab54f0615f397ec"
   },
-  "hash": "491a97e951c3061833c8bc07e29613653062837368e63d2da4618222b94dfa0a"
+  "hash": "491a97e951c3061833c8bc07e29613653062837368e63d2da4618222b94dfa0a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "05817218b9f89a821d58cdde1d84c38e795e94600f703929d8a421b24b08f567",
+      "packet_hash": "c38ed2452a438a5da8bab0b25d828b201f2c8956c4107dbd6ab54f0615f397ec",
+      "published_packet_hash": "c38ed2452a438a5da8bab0b25d828b201f2c8956c4107dbd6ab54f0615f397ec",
+      "receipt_id": "3a26c27d9b334ea8810b2be80089322e",
+      "request_hash": "0964565bf60d45eae67f385ba196651d7b2219cfa329ec55fbf1b53c41c5a263",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence is not explicitly supported by the packet. The packet defines ambidextrous as “Possessing equal or nearly equal facility and skill in the use of either hand,” and only indirectly mentions “the normal superiority of the right hand (right-handedness)” as a contrast, without stating that right-handedness means “usual greater skill or superiority of the right hand over the left.”",
+        "The definition’s meaning overlaps with the packet’s contrast but goes beyond what is directly stated, adding wording (“usual greater skill,” “over the left”) that is not clearly spelled out in the provided text."
+      ],
+      "definition_hash": "05817218b9f89a821d58cdde1d84c38e795e94600f703929d8a421b24b08f567",
+      "packet_hash": "c38ed2452a438a5da8bab0b25d828b201f2c8956c4107dbd6ab54f0615f397ec",
+      "published_packet_hash": "c38ed2452a438a5da8bab0b25d828b201f2c8956c4107dbd6ab54f0615f397ec",
+      "receipt_id": "cbad39f05fc0408abca652d7c017f22d",
+      "request_hash": "20e0dcb45fc2c001f4362f788a5e44a2ed57ae692c02f0fb900a25b76089e4ef",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

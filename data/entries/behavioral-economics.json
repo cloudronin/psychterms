@@ -27,5 +27,34 @@
     "definition_hash": "5f9f419e8330c884fa602c4b6e7ddb96ca17f7a2bc7a1deb4c82788e9cfb7d01",
     "packet_hash": "895431be763d3ae24f25b3e2e0a105a1d6c6d008d57ac8ff639ef178a949b81d"
   },
-  "hash": "f538634609461a9bf57b37a32e5865ab513c8156b321f1cfa2b08edfe1b42674"
+  "hash": "f538634609461a9bf57b37a32e5865ab513c8156b321f1cfa2b08edfe1b42674",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5f9f419e8330c884fa602c4b6e7ddb96ca17f7a2bc7a1deb4c82788e9cfb7d01",
+      "packet_hash": "895431be763d3ae24f25b3e2e0a105a1d6c6d008d57ac8ff639ef178a949b81d",
+      "published_packet_hash": "895431be763d3ae24f25b3e2e0a105a1d6c6d008d57ac8ff639ef178a949b81d",
+      "receipt_id": "18f5a2a43ae7405eb2378271d9f1e179",
+      "request_hash": "f45630cde15e2d1d1016ccf701037a3245c85a09a600e17c3dfecc1e10ec24c1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds the specific contrast that people are not “perfectly rational,” which is not stated in the packet text (packet only says agents display “human limitations and complications”).",
+        "Several phrases (e.g., “normal human limits and complexities,” and “decision-makers”) are not explicitly present in the packet, which uses different wording (“some of the agents” and “human limitations and complications”)."
+      ],
+      "definition_hash": "5f9f419e8330c884fa602c4b6e7ddb96ca17f7a2bc7a1deb4c82788e9cfb7d01",
+      "packet_hash": "895431be763d3ae24f25b3e2e0a105a1d6c6d008d57ac8ff639ef178a949b81d",
+      "published_packet_hash": "895431be763d3ae24f25b3e2e0a105a1d6c6d008d57ac8ff639ef178a949b81d",
+      "receipt_id": "a4b04c44d5b845688d695253b289f2a9",
+      "request_hash": "459afcd440382b863a888982ff3510aeb6d1a93b790f83579c347716f5d14210",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

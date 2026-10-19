@@ -27,5 +27,37 @@
     "definition_hash": "1138a91494a78a24c92f35e6960da3bf2401e3b9510220455ce4822fe0641458",
     "packet_hash": "a69db7fd870874b416edee7a247c32bbd465f9a44701715c14ff78741bc0f3fe"
   },
-  "hash": "c86ed2969a76dbc6e16f770f963e81a453c820ce966fb86e269ff442a3e32fea"
+  "hash": "c86ed2969a76dbc6e16f770f963e81a453c820ce966fb86e269ff442a3e32fea",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The phrase “atmospheric-looking changes in how things appear” is not supported by the packet; the source only lists “aërial perspective” as a secondary monocular criterion, without defining it in those terms.",
+        "The definition adds explanatory wording that goes beyond the source’s wording rather than staying close to the historical sense supplied."
+      ],
+      "definition_hash": "1138a91494a78a24c92f35e6960da3bf2401e3b9510220455ce4822fe0641458",
+      "packet_hash": "a69db7fd870874b416edee7a247c32bbd465f9a44701715c14ff78741bc0f3fe",
+      "published_packet_hash": "a69db7fd870874b416edee7a247c32bbd465f9a44701715c14ff78741bc0f3fe",
+      "receipt_id": "c52cc8ca9be841b0a63c85cf46c2e87f",
+      "request_hash": "8e80483e2102d7c88eec516017dbbb339bd3a66fea5f4a03a8ede37e34b30ff0",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that “aërial perspective” is a monocular criterion and that such criteria are “secondary” and “not very reliable,” but it does not describe “atmospheric-looking changes” as the mechanism. The definition’s wording about atmospheric changes is therefore not supported by the packet.",
+        "The packet does not explicitly define “aerial perspective” as “a secondary monocular cue used in judging visual depth or distance” in those exact terms; it only states that it is among monocular criteria for depth/distance and that these are secondary. While the overall idea aligns, the definition includes additional mechanistic detail not present in the packet."
+      ],
+      "definition_hash": "1138a91494a78a24c92f35e6960da3bf2401e3b9510220455ce4822fe0641458",
+      "packet_hash": "a69db7fd870874b416edee7a247c32bbd465f9a44701715c14ff78741bc0f3fe",
+      "published_packet_hash": "a69db7fd870874b416edee7a247c32bbd465f9a44701715c14ff78741bc0f3fe",
+      "receipt_id": "759086846c2945a3b6b291140b85a472",
+      "request_hash": "86d4243a58feea14aa2677042486cb8eac774c9b450e8b51d8625ff43d33abd3",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

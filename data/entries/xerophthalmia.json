@@ -27,5 +27,36 @@
     "definition_hash": "7cacca834998797eb70df3f5fe428bbba16eb7567d7f32294d529625d6df824e",
     "packet_hash": "2e1c29cc4c35cd4c9b34750500b956d54746ba7364930787c9f0324f5c33c35f"
   },
-  "hash": "10fbcc647ae9961655818a7affcb8ca46951a9f09132228974521c8b3a3d42cd"
+  "hash": "10fbcc647ae9961655818a7affcb8ca46951a9f09132228974521c8b3a3d42cd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: xerophthalmia is a medical eye condition, and the packet does not support presenting it as a mental health term.",
+        "The definition is otherwise close to the source text, but the field mismatch is substantive for this dictionary entry."
+      ],
+      "definition_hash": "7cacca834998797eb70df3f5fe428bbba16eb7567d7f32294d529625d6df824e",
+      "packet_hash": "2e1c29cc4c35cd4c9b34750500b956d54746ba7364930787c9f0324f5c33c35f",
+      "published_packet_hash": "2e1c29cc4c35cd4c9b34750500b956d54746ba7364930787c9f0324f5c33c35f",
+      "receipt_id": "1d9b8eaaf0ce4271a22188689411bb05",
+      "request_hash": "7779b8f6811522328d2166af3a86f3c58700fc481e48364bfd6760045984d96b",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The term and definition describe an ophthalmologic/medical eye-surface condition (dryness due to tear/conjunctival deficiency), which is not supported as a mental-health construct within the provided packet (packet does not indicate any mental-health context)."
+      ],
+      "definition_hash": "7cacca834998797eb70df3f5fe428bbba16eb7567d7f32294d529625d6df824e",
+      "packet_hash": "2e1c29cc4c35cd4c9b34750500b956d54746ba7364930787c9f0324f5c33c35f",
+      "published_packet_hash": "2e1c29cc4c35cd4c9b34750500b956d54746ba7364930787c9f0324f5c33c35f",
+      "receipt_id": "e2873bdc3735435d9879b9d17bac603f",
+      "request_hash": "4ceb6cdb9565b125ad437be05648f8325a342c8fb602c0a1cb1da5777f0cce90",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

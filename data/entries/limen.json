@@ -27,5 +27,39 @@
     "definition_hash": "7483178c10da6fc39235956dea3ab4d401aeeb1439c3d82928318b8774a5abfe",
     "packet_hash": "d43eab9b3e90d5366d472d79b7204f653607a33936c631d8cf149910e65fa042"
   },
-  "hash": "6b3989b202fa52617e2181126bf761e7d808f63008e7801f650dcbdff2f1d5bb"
+  "hash": "6b3989b202fa52617e2181126bf761e7d808f63008e7801f650dcbdff2f1d5bb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“Older term for threshold” is not explicitly supported by the packet; the packet states it is “equivalent to THRESHOLD … and is preferred,” but does not describe it as “older.”",
+        "The meaning “the point at which something reaches the threshold” is not stated in the packet; the packet only gives an equivalence (“equivalent to THRESHOLD”) without defining it as a “point.”",
+        "“Related forms are liminal … subliminal … supraliminal …” is supported in substance, but because the definition includes unsupported phrasing (“older term,” “point at which”), the overall definition is not defensible."
+      ],
+      "definition_hash": "7483178c10da6fc39235956dea3ab4d401aeeb1439c3d82928318b8774a5abfe",
+      "packet_hash": "d43eab9b3e90d5366d472d79b7204f653607a33936c631d8cf149910e65fa042",
+      "published_packet_hash": "d43eab9b3e90d5366d472d79b7204f653607a33936c631d8cf149910e65fa042",
+      "receipt_id": "f391681b324c43e8b0c912551d88d92c",
+      "request_hash": "72ec89688a6b9fac2c9a3f8becb381da988e2a78bdbb7ab8d8aed8f485d9da59",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The source supports that limen is equivalent to “threshold,” but not the added gloss “meaning the point at which something reaches the threshold.”",
+        "“Older term” is not stated in the source; the packet only says limen is equivalent to threshold and that threshold is already current and preferred.",
+        "The remaining related forms (liminal, subliminal, supraliminal) are supported, but the definition includes unsupported wording and is not fully faithful to the source."
+      ],
+      "definition_hash": "7483178c10da6fc39235956dea3ab4d401aeeb1439c3d82928318b8774a5abfe",
+      "packet_hash": "d43eab9b3e90d5366d472d79b7204f653607a33936c631d8cf149910e65fa042",
+      "published_packet_hash": "d43eab9b3e90d5366d472d79b7204f653607a33936c631d8cf149910e65fa042",
+      "receipt_id": "dc0761459fee4919800bafe1d8e5b2c0",
+      "request_hash": "5bb2aa565b03ada9f826dab8190c58703517fe6ea301682a8035279cfbf111e6",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

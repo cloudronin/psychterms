@@ -27,5 +27,34 @@
     "definition_hash": "84e19c8f670d68acbe1aea44c2a1f09e9a4607aa3236de026ac3aff5dfc06dd4",
     "packet_hash": "856547d5ef6acb4ae8205f6c618b49e86cf6ec3b089802844e825e4b599b389b"
   },
-  "hash": "6deeb81b715920ea4413b2369ebb1b49c91d6c0502a75c5c96be892ffec1c2e4"
+  "hash": "6deeb81b715920ea4413b2369ebb1b49c91d6c0502a75c5c96be892ffec1c2e4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "84e19c8f670d68acbe1aea44c2a1f09e9a4607aa3236de026ac3aff5dfc06dd4",
+      "packet_hash": "856547d5ef6acb4ae8205f6c618b49e86cf6ec3b089802844e825e4b599b389b",
+      "published_packet_hash": "856547d5ef6acb4ae8205f6c618b49e86cf6ec3b089802844e825e4b599b389b",
+      "receipt_id": "dd55cda3985d456eb59557d4ae9549ca",
+      "request_hash": "03136f4edb4915632951653d9faa09bc128456afcb0d8880226b649c21407035",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the provided packet defines ADH as an enzyme/substrate-metabolizing biological entity, with no mental-health/psychology context.",
+        "Scope overreach: the definition states ADH “helps break down … in the body”; the packet only states that enzyme-family members metabolize substrates (e.g., ethanol, retinol, hydroxysteroids, lipid peroxidation products) and does not explicitly ground this as “in the body.”"
+      ],
+      "definition_hash": "84e19c8f670d68acbe1aea44c2a1f09e9a4607aa3236de026ac3aff5dfc06dd4",
+      "packet_hash": "856547d5ef6acb4ae8205f6c618b49e86cf6ec3b089802844e825e4b599b389b",
+      "published_packet_hash": "856547d5ef6acb4ae8205f6c618b49e86cf6ec3b089802844e825e4b599b389b",
+      "receipt_id": "aa91b2127db94e84bef4fb7e2c4f775d",
+      "request_hash": "2c5468882b1a67516d704561ee2a77f00f3a416bc5d4581a277027c90165a2f1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

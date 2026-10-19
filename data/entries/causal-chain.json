@@ -27,5 +27,34 @@
     "definition_hash": "505b5db1cf8c17b8ca74ece2754e3969adb8e99282c8074c559de2c7ed323912",
     "packet_hash": "4bb6cf7fff88af80d727f45dc62010b17002a56a7f5d20d0fd2230a7766e381e"
   },
-  "hash": "75e6fce2399a320cbab3c2f1d006a9a7efb6999e8387d70d02017913bb778501"
+  "hash": "75e6fce2399a320cbab3c2f1d006a9a7efb6999e8387d70d02017913bb778501",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "505b5db1cf8c17b8ca74ece2754e3969adb8e99282c8074c559de2c7ed323912",
+      "packet_hash": "4bb6cf7fff88af80d727f45dc62010b17002a56a7f5d20d0fd2230a7766e381e",
+      "published_packet_hash": "4bb6cf7fff88af80d727f45dc62010b17002a56a7f5d20d0fd2230a7766e381e",
+      "receipt_id": "4a02186e6764490d86ee3187d93d4516",
+      "request_hash": "972419bdd7c941dbcc8a910b0745999d69cd8a9efe12b06864df1477ab176441",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence claims that (in James’s usage) a “causal chain” is a “connected sequence of events understood as producing one another,” but the packet does not explicitly define “causal chain” in those terms.",
+        "While the packet does support that James discusses describing “reflex acts and hemispheres and reminiscences” as if they were factors in “one causal chain,” the definition goes beyond the provided wording by adding the broader characterization (“connected sequence of events understood as producing one another”) not directly stated."
+      ],
+      "definition_hash": "505b5db1cf8c17b8ca74ece2754e3969adb8e99282c8074c559de2c7ed323912",
+      "packet_hash": "4bb6cf7fff88af80d727f45dc62010b17002a56a7f5d20d0fd2230a7766e381e",
+      "published_packet_hash": "4bb6cf7fff88af80d727f45dc62010b17002a56a7f5d20d0fd2230a7766e381e",
+      "receipt_id": "7bd61d53b6314db29173db9d7016b58d",
+      "request_hash": "72c98359ea95f731a205809e2f0ba1c34ee654617b59cbf4a5eef35e31e9855c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

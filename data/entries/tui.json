@@ -27,5 +27,34 @@
     "definition_hash": "6a9f01356be8838688eeabe092914da9b12b7d079a4630051077ea52c7aafe1b",
     "packet_hash": "032bc031b6507f148cfcac235e1ca3fd17c32514e09cc84323ccfdf7cc3abcaf"
   },
-  "hash": "19d0319bdf59d1d64795991f2984a803a1f5dd72b4ef867ef63922db1a9fbb0e"
+  "hash": "19d0319bdf59d1d64795991f2984a803a1f5dd72b4ef867ef63922db1a9fbb0e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "6a9f01356be8838688eeabe092914da9b12b7d079a4630051077ea52c7aafe1b",
+      "packet_hash": "032bc031b6507f148cfcac235e1ca3fd17c32514e09cc84323ccfdf7cc3abcaf",
+      "published_packet_hash": "032bc031b6507f148cfcac235e1ca3fd17c32514e09cc84323ccfdf7cc3abcaf",
+      "receipt_id": "a2c614c8f59c44b49ae9ed05ea27454a",
+      "request_hash": "a1f14432024a94d4d37cfe4e2cc6ea856e1ef86e988c6e11f40867735afcc97a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied field \"cognition\" is not supported by the packet; the record is a therapeutic/preventive procedure, not a cognition term.",
+        "The definition introduces \"TUI, or Tui Na\" as an equivalence claim, but the packet only supports the term as \"Tui Na\"/\"TUI\" in the source record without establishing the acronym expansion as a psychology/counselling sense."
+      ],
+      "definition_hash": "6a9f01356be8838688eeabe092914da9b12b7d079a4630051077ea52c7aafe1b",
+      "packet_hash": "032bc031b6507f148cfcac235e1ca3fd17c32514e09cc84323ccfdf7cc3abcaf",
+      "published_packet_hash": "032bc031b6507f148cfcac235e1ca3fd17c32514e09cc84323ccfdf7cc3abcaf",
+      "receipt_id": "ec5fd66dec7148e690990fd668217940",
+      "request_hash": "70c9a251ab31d7fac71c3825f712df4b437a2e560790fb3c9753abcb617cb3d2",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

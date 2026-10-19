@@ -27,5 +27,37 @@
     "definition_hash": "6269e06d27648baae8e5e8dd0646c9c1a351cb32b54b936517c1477c62f9ed59",
     "packet_hash": "95e7d4ea41fbc22c4c1e5e2ed764dd00e1ace80c47b7d3461469c20537f888e1"
   },
-  "hash": "24fee532e350cbdbe4e55d59dda8c941aee68584e3ccb2013888da3f9c6a72f4"
+  "hash": "24fee532e350cbdbe4e55d59dda8c941aee68584e3ccb2013888da3f9c6a72f4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only the phrase in context, “curator or guardian ad litem,” not a standalone definition of ad litem as “acting for the purposes of a particular legal case.”",
+        "The opening gloss generalizes beyond the source text; the packet does not explicitly define ad litem, only gives examples of a guardian ad litem in insanity-related proceedings."
+      ],
+      "definition_hash": "6269e06d27648baae8e5e8dd0646c9c1a351cb32b54b936517c1477c62f9ed59",
+      "packet_hash": "95e7d4ea41fbc22c4c1e5e2ed764dd00e1ace80c47b7d3461469c20537f888e1",
+      "published_packet_hash": "95e7d4ea41fbc22c4c1e5e2ed764dd00e1ace80c47b7d3461469c20537f888e1",
+      "receipt_id": "cdeb5d451d2641f58a4024f97b28eafd",
+      "request_hash": "85c5c583e1a94299a2146ecb5bf9edf9f82a34c35848228583a9bc46fbdfaf67",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“acting for the purposes of a particular legal case”) is not stated in the supplied packet; the packet only shows examples of appointment “to act as guardian ad litem,” without explicitly defining the general purpose as “for the purposes of a particular legal case.”",
+        "The definition’s second sentence says the guardian ad litem represents someone “who is insane in proceedings when that person cannot act for himself or herself”; while the packet supports appointment of a “guardian ad litem” in connection with a party who is “still insane” (e.g., “sui juris, but still insane, though not found lunatic”) and an example where a person was appointed due to alleged insanity, it does not explicitly state the condition that the person “cannot act for himself or herself.”"
+      ],
+      "definition_hash": "6269e06d27648baae8e5e8dd0646c9c1a351cb32b54b936517c1477c62f9ed59",
+      "packet_hash": "95e7d4ea41fbc22c4c1e5e2ed764dd00e1ace80c47b7d3461469c20537f888e1",
+      "published_packet_hash": "95e7d4ea41fbc22c4c1e5e2ed764dd00e1ace80c47b7d3461469c20537f888e1",
+      "receipt_id": "7f5dd4136c464aea8b634bd687efb107",
+      "request_hash": "3b94fe22e50a7efd8f067abba52e1655145b89ffb36dde221a6f2757c03ec5d9",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

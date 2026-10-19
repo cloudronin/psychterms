@@ -27,5 +27,38 @@
     "definition_hash": "61eac0a64449ef7912de5bc42a05ce343621db3ff52d76396aab7af7c7b39f53",
     "packet_hash": "ccd8dede6c606db5b25fa9ee7ba05f38f36102b8ed22038d5e436821290b23bc"
   },
-  "hash": "08c7128deced848604d233e26ddf61ac799bda0fd9bee62c662908872019dd8a"
+  "hash": "08c7128deced848604d233e26ddf61ac799bda0fd9bee62c662908872019dd8a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet provided does not explicitly define a scatterplot as a graph showing paired values for two variables as points; it only mentions that “a scatterplot of the points” can fall on a straight line.",
+        "The definition’s claim that a scatterplot is “used to see patterns in their relationship” is not stated in the packet; the packet discusses linearity and random vs systematic divergence rather than general pattern-finding.",
+        "The packet does not support the specific example in the definition that points “form an approximately straight line” (it states a perfect linear relationship corresponds to falling on a straight line, not approximate lines)."
+      ],
+      "definition_hash": "61eac0a64449ef7912de5bc42a05ce343621db3ff52d76396aab7af7c7b39f53",
+      "packet_hash": "ccd8dede6c606db5b25fa9ee7ba05f38f36102b8ed22038d5e436821290b23bc",
+      "published_packet_hash": "ccd8dede6c606db5b25fa9ee7ba05f38f36102b8ed22038d5e436821290b23bc",
+      "receipt_id": "36848adb2e564380bef66e65f7605733",
+      "request_hash": "b5288ca37feb5291272449eaa92c8855f91482fe6ceec90c46ed7101f2172b81",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports scatterplots as plots of points used to assess linear relationship, but it does not explicitly support the wording “paired values for two variables” or the claim that the relationship is seen as “approximately straight line.”",
+        "The source text states the line criterion for a perfect linear relationship and notes random divergence may still be linear; it does not itself define scatterplot in the broader way given here."
+      ],
+      "definition_hash": "61eac0a64449ef7912de5bc42a05ce343621db3ff52d76396aab7af7c7b39f53",
+      "packet_hash": "ccd8dede6c606db5b25fa9ee7ba05f38f36102b8ed22038d5e436821290b23bc",
+      "published_packet_hash": "ccd8dede6c606db5b25fa9ee7ba05f38f36102b8ed22038d5e436821290b23bc",
+      "receipt_id": "44c174d4745f40188bb24c7b720072c2",
+      "request_hash": "3d6f30792f557de94810a5072979a3c864bc49b9c6e3da6143530dde157383f1",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

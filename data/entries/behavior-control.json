@@ -27,5 +27,36 @@
     "definition_hash": "7dd92955237f1b42601b5ac1c4699d89501f5001d1a6f2fdf23f461de3c48254",
     "packet_hash": "039bc25d4ee00f8c4f2311d9b24c55a52e7bc3eb1b5f3494af2621e80bb4e01c"
   },
-  "hash": "97c9cbf80420c8085dd74858d48cdbc4fe9792cf86dc71592a5a86ca85606ba0"
+  "hash": "97c9cbf80420c8085dd74858d48cdbc4fe9792cf86dc71592a5a86ca85606ba0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet definition supports “manipulation… by biomedical, physical, psychological, or social means” but does not state that behavior control can be done for therapeutic purposes; your definition adds “for therapeutic purposes,” which is unsupported by the provided text."
+      ],
+      "definition_hash": "7dd92955237f1b42601b5ac1c4699d89501f5001d1a6f2fdf23f461de3c48254",
+      "packet_hash": "039bc25d4ee00f8c4f2311d9b24c55a52e7bc3eb1b5f3494af2621e80bb4e01c",
+      "published_packet_hash": "039bc25d4ee00f8c4f2311d9b24c55a52e7bc3eb1b5f3494af2621e80bb4e01c",
+      "receipt_id": "1ef696d235a24c739fe88bef20b58edc",
+      "request_hash": "8e0a83f4eb68722d4ce71642b346b0868c744915c23dd8a16d3c58b965057e3c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports manipulation of behavior by biomedical, physical, psychological, or social means, including nontherapeutic uses, but it does not support the added claim that behavior control can be done for therapeutic purposes.",
+        "The definition slightly rephrases the source with extra generalization; it should stay within the narrower scope of the packet rather than adding unsupported therapeutic framing."
+      ],
+      "definition_hash": "7dd92955237f1b42601b5ac1c4699d89501f5001d1a6f2fdf23f461de3c48254",
+      "packet_hash": "039bc25d4ee00f8c4f2311d9b24c55a52e7bc3eb1b5f3494af2621e80bb4e01c",
+      "published_packet_hash": "039bc25d4ee00f8c4f2311d9b24c55a52e7bc3eb1b5f3494af2621e80bb4e01c",
+      "receipt_id": "1696d11bf853493d9d2a1c724dcf4df5",
+      "request_hash": "888f0337b11a9d952e4d48fd3fec1e498049dc6ab52c66f4e757ab6a0ac5284e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

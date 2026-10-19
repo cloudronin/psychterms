@@ -27,5 +27,33 @@
     "definition_hash": "2f3805b18cb3aacd2aee7841772a960740ab66845e1d696cf0217786ec965821",
     "packet_hash": "47ea39813df56af00cf9afa9dc449d9088ef22d47f5d96f52541f8009a323390"
   },
-  "hash": "72f5d5f8a8c94c9a41ad1f8c5d69fb88db52be3c590aaa22b19c60b1330a3b82"
+  "hash": "72f5d5f8a8c94c9a41ad1f8c5d69fb88db52be3c590aaa22b19c60b1330a3b82",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2f3805b18cb3aacd2aee7841772a960740ab66845e1d696cf0217786ec965821",
+      "packet_hash": "47ea39813df56af00cf9afa9dc449d9088ef22d47f5d96f52541f8009a323390",
+      "published_packet_hash": "47ea39813df56af00cf9afa9dc449d9088ef22d47f5d96f52541f8009a323390",
+      "receipt_id": "623c2d870f1444208cb4d5ab6f7ec25e",
+      "request_hash": "c48f1afb3a80b7dd0fb3bbc931ebec463cb3e941df58e31036207d6f84b512bd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes a congenital veterinary neurological condition in lambs (hind-limb incoordination; CNS neuron and myelin development), which is not defensibly “cognition” based on the packet content (even though the packet’s planned_field is marked as cognition)."
+      ],
+      "definition_hash": "2f3805b18cb3aacd2aee7841772a960740ab66845e1d696cf0217786ec965821",
+      "packet_hash": "47ea39813df56af00cf9afa9dc449d9088ef22d47f5d96f52541f8009a323390",
+      "published_packet_hash": "47ea39813df56af00cf9afa9dc449d9088ef22d47f5d96f52541f8009a323390",
+      "receipt_id": "d7f4014a44df44d3a97285f6a115222a",
+      "request_hash": "55275d657f3e58d90cfb672b9442275a174928e97d60292903fd2e7f35865ead",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

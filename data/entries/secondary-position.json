@@ -27,5 +27,33 @@
     "definition_hash": "a95fd72f7d3e043ac34bddb864c8f3912584230f9c63f4ef57835cb1e3b90325",
     "packet_hash": "1b381584965713054d59a649c41aa921355fe4574260761f7cadcbb22fd11162"
   },
-  "hash": "ace90499d4bf3229568e2d031c980b188e9d9b3829161f4f9619d96bb29f7fe6"
+  "hash": "ace90499d4bf3229568e2d031c980b188e9d9b3829161f4f9619d96bb29f7fe6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a95fd72f7d3e043ac34bddb864c8f3912584230f9c63f4ef57835cb1e3b90325",
+      "packet_hash": "1b381584965713054d59a649c41aa921355fe4574260761f7cadcbb22fd11162",
+      "published_packet_hash": "1b381584965713054d59a649c41aa921355fe4574260761f7cadcbb22fd11162",
+      "receipt_id": "d0bd2749aa3a4b469e82ea17d8a383f6",
+      "request_hash": "d2539653e84bbf1ed4a2436e389ea017271eb0f9518d23e9d5df704ed4f7b73c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “secondary position” as “any position of the eye other than the primary position.” It only mentions “movements from primary position” and “movements from secondary position to secondary position” within the context of Listing’s law, without stating what counts as a secondary position."
+      ],
+      "definition_hash": "a95fd72f7d3e043ac34bddb864c8f3912584230f9c63f4ef57835cb1e3b90325",
+      "packet_hash": "1b381584965713054d59a649c41aa921355fe4574260761f7cadcbb22fd11162",
+      "published_packet_hash": "1b381584965713054d59a649c41aa921355fe4574260761f7cadcbb22fd11162",
+      "receipt_id": "dd8c8f79955941458a72a551a043be83",
+      "request_hash": "c6c99a43b6184bbd71d76a21af3cbfe2015526f997c26570ff6f781f04747963",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

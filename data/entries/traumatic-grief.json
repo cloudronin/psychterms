@@ -27,5 +27,34 @@
     "definition_hash": "9b80c0a080280de4bc2f36a7839b53a67b9c56990eb298739aede93212ec925d",
     "packet_hash": "0f7cc19ea82ca4b382af4627eb2d6078c8dfe8a848da097be401323107028db6"
   },
-  "hash": "291db8ae0551377ef4d190e92a8cd300605c19657da36ac1604387e63fbf4a57"
+  "hash": "291db8ae0551377ef4d190e92a8cd300605c19657da36ac1604387e63fbf4a57",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "9b80c0a080280de4bc2f36a7839b53a67b9c56990eb298739aede93212ec925d",
+      "packet_hash": "0f7cc19ea82ca4b382af4627eb2d6078c8dfe8a848da097be401323107028db6",
+      "published_packet_hash": "0f7cc19ea82ca4b382af4627eb2d6078c8dfe8a848da097be401323107028db6",
+      "receipt_id": "87592c89c32246a38a784a6a16a4d115",
+      "request_hash": "46649b3a82fb4659776532e04317ad7c31a8e9651b58b658f7c87327a8940cd7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet’s source text describes a psychiatric disorder labeled as “Prolonged Grief Disorder,” and it does not support the requested sense of the term “traumatic grief” (no trauma-related or “traumatic” framing is present).",
+        "Because the packet’s content is tied to “Prolonged Grief Disorder,” the definition’s use of the term “traumatic grief” is not defensibly supported by the supplied source."
+      ],
+      "definition_hash": "9b80c0a080280de4bc2f36a7839b53a67b9c56990eb298739aede93212ec925d",
+      "packet_hash": "0f7cc19ea82ca4b382af4627eb2d6078c8dfe8a848da097be401323107028db6",
+      "published_packet_hash": "0f7cc19ea82ca4b382af4627eb2d6078c8dfe8a848da097be401323107028db6",
+      "receipt_id": "21a54bde66bd4b6fad39b53d96025658",
+      "request_hash": "ed724b4c1edcde534b6febbde2443440d067929aec0ecd599a361261ab562631",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "17affc498cd0db40d61b77c87775f93672d34966f8634ce2da2f62abc6120f7e",
     "packet_hash": "14ea2ab172ab4d5e04a1547ac15825782ec13bffb6a9264848928e9ea3236e3c"
   },
-  "hash": "b77a6394c64552c1bd2a1aa61537bb9dbdad0cf6382e92e80f148121c1367b47"
+  "hash": "b77a6394c64552c1bd2a1aa61537bb9dbdad0cf6382e92e80f148121c1367b47",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "17affc498cd0db40d61b77c87775f93672d34966f8634ce2da2f62abc6120f7e",
+      "packet_hash": "14ea2ab172ab4d5e04a1547ac15825782ec13bffb6a9264848928e9ea3236e3c",
+      "published_packet_hash": "14ea2ab172ab4d5e04a1547ac15825782ec13bffb6a9264848928e9ea3236e3c",
+      "receipt_id": "3b799b2604b0457fb83bb1a5975267bd",
+      "request_hash": "5433819c6b0feadbe3790f409877759a3949e35403c0be505f3be527478bf601",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied packet does not define the term “perceptual synthesis”; it discusses “Complication” and only mentions that Ward makes complication a matter of “perceptual SYNTHESIS (q.v.)” without giving a direct definition for “perceptual synthesis.”",
+        "Because “perceptual synthesis” is not explicitly defined in the packet, the definition’s claims about “combining separate or partial contents into one unified perception” and “close fusion within a single presentation” are only inferable from the packet’s description of “Complication,” not directly supported as the meaning of the requested term."
+      ],
+      "definition_hash": "17affc498cd0db40d61b77c87775f93672d34966f8634ce2da2f62abc6120f7e",
+      "packet_hash": "14ea2ab172ab4d5e04a1547ac15825782ec13bffb6a9264848928e9ea3236e3c",
+      "published_packet_hash": "14ea2ab172ab4d5e04a1547ac15825782ec13bffb6a9264848928e9ea3236e3c",
+      "receipt_id": "254d1045d1e34aebbd96c707abc17e0b",
+      "request_hash": "36812ac60bdfa1ef009362db1cf799846fa50a4328f33ed9a692cfed4e552a16",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

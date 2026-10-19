@@ -27,5 +27,35 @@
     "definition_hash": "1ecfbf7b08017f7ad56181f89d78071d7d3e9671cdbbd7fe89eab8a40d6d3176",
     "packet_hash": "c3cda1ca7859ba674f1c6aa7d8e5a3aa76fe20a2195898a09cc41d4cc9b7eafa"
   },
-  "hash": "291134b68d688c72b85713ec178f2a3a5f50ed3e70371b3b388f89672ceb97f6"
+  "hash": "291134b68d688c72b85713ec178f2a3a5f50ed3e70371b3b388f89672ceb97f6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1ecfbf7b08017f7ad56181f89d78071d7d3e9671cdbbd7fe89eab8a40d6d3176",
+      "packet_hash": "c3cda1ca7859ba674f1c6aa7d8e5a3aa76fe20a2195898a09cc41d4cc9b7eafa",
+      "published_packet_hash": "c3cda1ca7859ba674f1c6aa7d8e5a3aa76fe20a2195898a09cc41d4cc9b7eafa",
+      "receipt_id": "04fec5818f1b449f9f9652a098d6e943",
+      "request_hash": "870e3ee222184af6d9eaeb21277163500bc0a291b84f5aebb745ed6d3b549b05",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not directly define the term “static sense”; it only references “STATIC SENSE, also for literature” in parentheses while providing a definition for “Equilibrium (sensation of).”",
+        "The definition’s specific claim that “static sense refers to the bodily sense involved in keeping balance and maintaining an upright posture” is not explicitly stated as the meaning of “static sense” in the provided text (the posture/balance description appears under “Equilibrium (sensation of)”, not under “static sense”).",
+        "The definition’s claim that static sense is “linked especially to the semicircular canals of the ear” is not clearly tied to the definition of “static sense”; the packet states that the semicircular canals “arouse and sustain a permanent muscular tone” that contributes to equilibrium, but it does not explicitly say this is what “static sense” means."
+      ],
+      "definition_hash": "1ecfbf7b08017f7ad56181f89d78071d7d3e9671cdbbd7fe89eab8a40d6d3176",
+      "packet_hash": "c3cda1ca7859ba674f1c6aa7d8e5a3aa76fe20a2195898a09cc41d4cc9b7eafa",
+      "published_packet_hash": "c3cda1ca7859ba674f1c6aa7d8e5a3aa76fe20a2195898a09cc41d4cc9b7eafa",
+      "receipt_id": "6dde578b88ad4c099fac24812c3784aa",
+      "request_hash": "f1afe1a170616d68da2058cf5ee707f043a73f85ebf3fc87d83e0be05e5be901",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

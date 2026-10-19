@@ -27,5 +27,37 @@
     "definition_hash": "b2bf4da0b637903c97e0d38ce386656abf18dfde0d6002d83d259e3474a6a30b",
     "packet_hash": "398512a0600c607747019ab8f18267868bf9fbd4685454f1f1946eb0b7979bc1"
   },
-  "hash": "ff2da48f1099fe5ef075227756eb5a6c6506c547adb1d061b069f326061147bb"
+  "hash": "ff2da48f1099fe5ef075227756eb5a6c6506c547adb1d061b069f326061147bb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The opening sentence adds a broad general definition (“body-based indicator used to reflect biological processes or strain”) that is not supported by the packet; the packet only defines a specific stress-related physiological measure.",
+        "The requested sense is not well matched to the packet: the source record labels the concept as “Allostatic Load,” so the definition should not present the term “physiological measure” as if it were the named concept without that distinction."
+      ],
+      "definition_hash": "b2bf4da0b637903c97e0d38ce386656abf18dfde0d6002d83d259e3474a6a30b",
+      "packet_hash": "398512a0600c607747019ab8f18267868bf9fbd4685454f1f1946eb0b7979bc1",
+      "published_packet_hash": "398512a0600c607747019ab8f18267868bf9fbd4685454f1f1946eb0b7979bc1",
+      "receipt_id": "d6d11360f0ef41c6a4be141b0180053d",
+      "request_hash": "8114a270b2be36e05f60bd91aac0b53e3f77c95160c0eff2a21819f564ea9671",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“reflect biological processes or strain”) is more general than the packet, which specifically defines the concept as the cumulative burden of stress on the body (and does not describe it as reflecting “biological processes or strain” in general terms).",
+        "Because of that added generality, not every substantive claim in the definition is supported by the packet’s wording and scope."
+      ],
+      "definition_hash": "b2bf4da0b637903c97e0d38ce386656abf18dfde0d6002d83d259e3474a6a30b",
+      "packet_hash": "398512a0600c607747019ab8f18267868bf9fbd4685454f1f1946eb0b7979bc1",
+      "published_packet_hash": "398512a0600c607747019ab8f18267868bf9fbd4685454f1f1946eb0b7979bc1",
+      "receipt_id": "dabdc6456339481e8e8cc3694be871bc",
+      "request_hash": "9f3ca5e06b9094a5ade55784c0353baa337790e2e0a1a178e8979d35c8442bc7",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

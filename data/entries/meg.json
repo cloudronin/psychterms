@@ -27,5 +27,34 @@
     "definition_hash": "be3857dd5f9e942da7167d2b5f8197b9793364f1a4acb3f5cb69437095225f1b",
     "packet_hash": "d73f3e30f511d7ab6cc932485a3759e9cf6b12f7ea9db02fef48ed8dfc92495e"
   },
-  "hash": "680978e0f0b0ea355d1395d9a7efa0de1c4025da92decd9c75432287f8d4bcd9"
+  "hash": "680978e0f0b0ea355d1395d9a7efa0de1c4025da92decd9c75432287f8d4bcd9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "be3857dd5f9e942da7167d2b5f8197b9793364f1a4acb3f5cb69437095225f1b",
+      "packet_hash": "d73f3e30f511d7ab6cc932485a3759e9cf6b12f7ea9db02fef48ed8dfc92495e",
+      "published_packet_hash": "d73f3e30f511d7ab6cc932485a3759e9cf6b12f7ea9db02fef48ed8dfc92495e",
+      "receipt_id": "034ffddbe10242bc8234fdb359b6fbc4",
+      "request_hash": "67d705b9ee4ff1c77f3a457bccb7ba19ce07dfda6b6049892e2efcff943e8e3f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims MEG records the “very small magnetic fields”; the packet only says it measures magnetic fields produced by electrical activity in the brain and does not explicitly state they are “very small.”",
+        "The definition claims MEG “helps show where brain activity is occurring”; the packet states that “measurement of electric fields in the brain provides information about the localization of brain activity,” which is not the same phrasing/sense of MEG localization via magnetic-field measurement."
+      ],
+      "definition_hash": "be3857dd5f9e942da7167d2b5f8197b9793364f1a4acb3f5cb69437095225f1b",
+      "packet_hash": "d73f3e30f511d7ab6cc932485a3759e9cf6b12f7ea9db02fef48ed8dfc92495e",
+      "published_packet_hash": "d73f3e30f511d7ab6cc932485a3759e9cf6b12f7ea9db02fef48ed8dfc92495e",
+      "receipt_id": "aa29487089e24e3285468dccabbab5b0",
+      "request_hash": "4bc973213a5ad452d9b5e118a686faf88eee7fa323a6b994ad19ec0503c5c656",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

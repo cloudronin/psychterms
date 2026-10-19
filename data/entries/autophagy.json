@@ -27,5 +27,36 @@
     "definition_hash": "12bea09fee68c9c5c16f633bbfa7bd270acea707505b49d08315761ad5020d1a",
     "packet_hash": "555159b2b4e9db1abc1d59b0c5e141094a332b83bd329f007e7e02b2fa559676"
   },
-  "hash": "0e9ccd05aeb7113f394af149219737a3c9e17e7916769ab6bbe33e256c39bcb0"
+  "hash": "0e9ccd05aeb7113f394af149219737a3c9e17e7916769ab6bbe33e256c39bcb0",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds unsupported generalizations such as \"normal body changes\" and \"tissue remodeling\"; the packet specifically mentions biological metamorphosis and removal of bone by osteoclasts, not those broader claims.",
+        "\"Problems in this process are linked with some diseases\" is broader than the packet’s wording, which says defective autophagy is associated with various diseases, including neurodegenerative diseases and cancer."
+      ],
+      "definition_hash": "12bea09fee68c9c5c16f633bbfa7bd270acea707505b49d08315761ad5020d1a",
+      "packet_hash": "555159b2b4e9db1abc1d59b0c5e141094a332b83bd329f007e7e02b2fa559676",
+      "published_packet_hash": "555159b2b4e9db1abc1d59b0c5e141094a332b83bd329f007e7e02b2fa559676",
+      "receipt_id": "0b80cdf5e6864d78ad91b05255463f2a",
+      "request_hash": "1f641ec31b1d37aaf18021c94ab359f60b042a9247a95bb231597b1b63e77311",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states that autophagy “helps with normal body changes and tissue remodeling,” but the provided packet only supports roles in “BIOLOGICAL METAMORPHOSIS” and “removal of bone by OSTEOCLASTS,” not the specific concept of “tissue remodeling.”"
+      ],
+      "definition_hash": "12bea09fee68c9c5c16f633bbfa7bd270acea707505b49d08315761ad5020d1a",
+      "packet_hash": "555159b2b4e9db1abc1d59b0c5e141094a332b83bd329f007e7e02b2fa559676",
+      "published_packet_hash": "555159b2b4e9db1abc1d59b0c5e141094a332b83bd329f007e7e02b2fa559676",
+      "receipt_id": "f0e4669154134f72962ee1bb8c53169e",
+      "request_hash": "9ecb2bc8c56ca61b9ed0eecd7d36863e00ab09b077b703ad0bc7493106379a9a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

@@ -27,5 +27,34 @@
     "definition_hash": "2f56c96f9f78f31dac1886db1ea331d19870311f6be5e81a8bc98df49d34dd70",
     "packet_hash": "ed97e4c8f471219a44aecfe4bd8e23dc674d482b71f24bea2604bb3b78124d23"
   },
-  "hash": "bb4a7765a7e2e3935fd0a170143952d9ee3e1c284dfaf27e1fdc762049bedb4e"
+  "hash": "bb4a7765a7e2e3935fd0a170143952d9ee3e1c284dfaf27e1fdc762049bedb4e",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "2f56c96f9f78f31dac1886db1ea331d19870311f6be5e81a8bc98df49d34dd70",
+      "packet_hash": "ed97e4c8f471219a44aecfe4bd8e23dc674d482b71f24bea2604bb3b78124d23",
+      "published_packet_hash": "ed97e4c8f471219a44aecfe4bd8e23dc674d482b71f24bea2604bb3b78124d23",
+      "receipt_id": "3840e048e69b4ed0a560651e06303306",
+      "request_hash": "dd846c344809205f966496a4eb7c89718ab05dabc36e43a456d2e837dd8198c5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition says passive voice is “the counterpart of an active verb,” but the packet does not describe passive voice as a counterpart to active verbs.",
+        "The packet supports that Aristotle’s category “pasxein” means “passivity or passion,” “such as is expressed by the passive voice of any active verb,” which supports the passivity/undergoing idea, but the “counterpart of an active verb” claim is not explicitly present."
+      ],
+      "definition_hash": "2f56c96f9f78f31dac1886db1ea331d19870311f6be5e81a8bc98df49d34dd70",
+      "packet_hash": "ed97e4c8f471219a44aecfe4bd8e23dc674d482b71f24bea2604bb3b78124d23",
+      "published_packet_hash": "ed97e4c8f471219a44aecfe4bd8e23dc674d482b71f24bea2604bb3b78124d23",
+      "receipt_id": "a4687b77ad9c4da191bb4bb25c28a0dc",
+      "request_hash": "0d57e4923ab7d9d256e7059b9a9a6418fca92d69cfb808dc679c1ab160a9a27a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

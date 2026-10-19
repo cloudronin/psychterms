@@ -27,5 +27,34 @@
     "definition_hash": "8803ec9fd0fc2d188342e9410f07757989eb45baa961bb4a57007d3fceaeedf3",
     "packet_hash": "723a47b4ea98eaa539c71e88239b50edc77472d87cdc72a79ba7940178e48bf8"
   },
-  "hash": "36165f3e02cf43f459faf89d554cf679a26fefba42126268a04dcb618f3b0775"
+  "hash": "36165f3e02cf43f459faf89d554cf679a26fefba42126268a04dcb618f3b0775",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8803ec9fd0fc2d188342e9410f07757989eb45baa961bb4a57007d3fceaeedf3",
+      "packet_hash": "723a47b4ea98eaa539c71e88239b50edc77472d87cdc72a79ba7940178e48bf8",
+      "published_packet_hash": "723a47b4ea98eaa539c71e88239b50edc77472d87cdc72a79ba7940178e48bf8",
+      "receipt_id": "858c7aeafadf4f07bd5ec10a9c013af4",
+      "request_hash": "d9c8a3909a0c7754a5a25b95cd7ac6719dbde21a05534821f9de6cfaaa4532f5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition broadens the source by replacing the packet’s disease-focused wording with “a problem in a person or group,” which is not supported by the supplied text.",
+        "The field/sense is not well matched to the source packet: the packet defines a general health-care/therapeutic term, not a learning-specific one."
+      ],
+      "definition_hash": "8803ec9fd0fc2d188342e9410f07757989eb45baa961bb4a57007d3fceaeedf3",
+      "packet_hash": "723a47b4ea98eaa539c71e88239b50edc77472d87cdc72a79ba7940178e48bf8",
+      "published_packet_hash": "723a47b4ea98eaa539c71e88239b50edc77472d87cdc72a79ba7940178e48bf8",
+      "receipt_id": "f4739bde3b4148a687236d2cba25da2a",
+      "request_hash": "b8e99e63a49c4c6b8325effe77a38745599496ce6a3232de29ba5d1c4f8a761f",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

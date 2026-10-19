@@ -27,5 +27,33 @@
     "definition_hash": "a01a7b39da5a00077da06968e611dd6853f27238f04acc75ccc9c412aad37c49",
     "packet_hash": "5af37eca267433b1a1a35caff4496e8acec2dc59074f59240b4a5687f11bdf6d"
   },
-  "hash": "d3cdaeb24d543cd3b5a2cbb3cf2bd5c8ad12375c3458c9b8ab3dcaa0ee9ca1c3"
+  "hash": "d3cdaeb24d543cd3b5a2cbb3cf2bd5c8ad12375c3458c9b8ab3dcaa0ee9ca1c3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a01a7b39da5a00077da06968e611dd6853f27238f04acc75ccc9c412aad37c49",
+      "packet_hash": "5af37eca267433b1a1a35caff4496e8acec2dc59074f59240b4a5687f11bdf6d",
+      "published_packet_hash": "5af37eca267433b1a1a35caff4496e8acec2dc59074f59240b4a5687f11bdf6d",
+      "receipt_id": "2f744d31e89440e4a879e180847336ae",
+      "request_hash": "c892b97b6f47094e67986c133beb4ac63375bf4a35ac6f2c31522747ba1f8f3e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet specifies CSF as the fluid contained within the brain ventricles, the **subarachnoid space**, and the central canal of the spinal cord, but the definition replaces “subarachnoid space” with “the space around the brain and spinal cord,” which is not an exact match to the packet wording/scope."
+      ],
+      "definition_hash": "a01a7b39da5a00077da06968e611dd6853f27238f04acc75ccc9c412aad37c49",
+      "packet_hash": "5af37eca267433b1a1a35caff4496e8acec2dc59074f59240b4a5687f11bdf6d",
+      "published_packet_hash": "5af37eca267433b1a1a35caff4496e8acec2dc59074f59240b4a5687f11bdf6d",
+      "receipt_id": "44867996196c4ae28d38a27adfd049de",
+      "request_hash": "37a5ad2b1f751bb902c23e28f683eb2305dd4e0d3f759518cd53d666f7e53723",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

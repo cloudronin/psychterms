@@ -27,5 +27,38 @@
     "definition_hash": "10a45ccfc46226d030c1ff0a3aa174d9633d3d936aa2b375d76d6a5304299d31",
     "packet_hash": "d56d08af3a34a3879098afc5d01e55550e09c9d824ca7f3784dc781cf8f5b7fa"
   },
-  "hash": "43f568ba3f9e674df9e97c76024b4d6e94da149d850ccc88d4cefdca2761fc92"
+  "hash": "43f568ba3f9e674df9e97c76024b4d6e94da149d850ccc88d4cefdca2761fc92",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports that conciliation was something attempted before harsher measures; it does not explicitly support the fuller gloss ‘trying to calm, persuade, or win the patient’s cooperation by gentle handling.’",
+        "The definition adds interpretive details (‘gentle handling rather than force’) that are not directly stated in the passage, so it goes beyond the supplied historical evidence."
+      ],
+      "definition_hash": "10a45ccfc46226d030c1ff0a3aa174d9633d3d936aa2b375d76d6a5304299d31",
+      "packet_hash": "d56d08af3a34a3879098afc5d01e55550e09c9d824ca7f3784dc781cf8f5b7fa",
+      "published_packet_hash": "d56d08af3a34a3879098afc5d01e55550e09c9d824ca7f3784dc781cf8f5b7fa",
+      "receipt_id": "bde4797fadf24b12a6aa90942c79632c",
+      "request_hash": "f96c4a5a584e7fb394ffb227c928e6d0913899e80f2ad146c782143492adf783",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “conciliation” as “trying to calm, persuade, or win the patient’s cooperation” or as “gentle handling rather than force.” It only states that “Should conciliation fail, patients must be cured by some sort of torment,” without describing what conciliation consists of in those terms.",
+        "The definition’s claim that conciliation is contrasted with “coercive or punitive measures” is only partially supported: the text contrasts conciliation failing with “torment” methods (hunger, chains, flogging), but it does not clearly establish conciliation as non-coercive or “gentle.”",
+        "Because the key descriptive elements of the definition (calming/persuading/competition of cooperation; gentle vs force) are not explicitly present in the supplied passage, the requested sense is not defensibly supported."
+      ],
+      "definition_hash": "10a45ccfc46226d030c1ff0a3aa174d9633d3d936aa2b375d76d6a5304299d31",
+      "packet_hash": "d56d08af3a34a3879098afc5d01e55550e09c9d824ca7f3784dc781cf8f5b7fa",
+      "published_packet_hash": "d56d08af3a34a3879098afc5d01e55550e09c9d824ca7f3784dc781cf8f5b7fa",
+      "receipt_id": "d9c718f78abb4065abc4a3b548dd74a6",
+      "request_hash": "80e782188e6115074a8577f689ee2448b195226d1d73bdeda3add7710465da4e",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

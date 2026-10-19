@@ -27,5 +27,34 @@
     "definition_hash": "e79fbc7e12859bafb51a2a274f4b8e3a202d3fefb4de7700a7c2ab5dabe20852",
     "packet_hash": "32ac13f82a439b8ad78f8b89a6bb9e7a197e8a6276c90a06a58c19a9fae42bfe"
   },
-  "hash": "16be3d43e238954631c133e192617991f7148f638a08bf03bd8c8e3a22e85148"
+  "hash": "16be3d43e238954631c133e192617991f7148f638a08bf03bd8c8e3a22e85148",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "e79fbc7e12859bafb51a2a274f4b8e3a202d3fefb4de7700a7c2ab5dabe20852",
+      "packet_hash": "32ac13f82a439b8ad78f8b89a6bb9e7a197e8a6276c90a06a58c19a9fae42bfe",
+      "published_packet_hash": "32ac13f82a439b8ad78f8b89a6bb9e7a197e8a6276c90a06a58c19a9fae42bfe",
+      "receipt_id": "b6302e26571a40cea6c5afd3b9a1ba7e",
+      "request_hash": "88bda44a87379da617266584f7e2932865c7bc9b579a3b0f72ab596c5ae86cbd",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence provides a general characterization of “vicious circle” (“a fault in definition where the thing being defined is brought back into its own explanation”), but the packet does not state this as the meaning of the term; it only discusses whether Baldwin sees circularity in particular logical formulations (e.g., the rule that the definitum must not be introduced into the definition and the statement “There is no vicious circle here…”).",
+        "Although the second sentence is supported by the packet’s discussion of Baldwin denying a vicious circle in a proposed formulation, the first sentence contains an unsupported general definition."
+      ],
+      "definition_hash": "e79fbc7e12859bafb51a2a274f4b8e3a202d3fefb4de7700a7c2ab5dabe20852",
+      "packet_hash": "32ac13f82a439b8ad78f8b89a6bb9e7a197e8a6276c90a06a58c19a9fae42bfe",
+      "published_packet_hash": "32ac13f82a439b8ad78f8b89a6bb9e7a197e8a6276c90a06a58c19a9fae42bfe",
+      "receipt_id": "2158c0fa15464e989dd983ab1b1e39ad",
+      "request_hash": "b90c2c75bddac1e658a1d8e65c353812ac955ece65ca04365ba035c77a136a14",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

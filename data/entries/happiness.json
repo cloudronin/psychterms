@@ -27,5 +27,33 @@
     "definition_hash": "15dc3cd745c2b1291be30ce62eb02a07dfdce0412c76207c7ddd6abfe2013473",
     "packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569"
   },
-  "hash": "ce7718faa8c980ae817968a10b9cdeee218f50c6cf62d7ed45645e45b744e1c8"
+  "hash": "ce7718faa8c980ae817968a10b9cdeee218f50c6cf62d7ed45645e45b744e1c8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "15dc3cd745c2b1291be30ce62eb02a07dfdce0412c76207c7ddd6abfe2013473",
+      "packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569",
+      "published_packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569",
+      "receipt_id": "f63cbc51fca641258bf48da9d04452fd",
+      "request_hash": "e4baed13c8e8184232bcc8747b7eaa31bee08a4799662fcd84bdc148eea4e18a",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition describes an emotion (pleasant emotional state) characterized by outward manifestations of gratification, but the packet does not support categorizing it under the field \"cognition\"."
+      ],
+      "definition_hash": "15dc3cd745c2b1291be30ce62eb02a07dfdce0412c76207c7ddd6abfe2013473",
+      "packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569",
+      "published_packet_hash": "ae791294d6f112c47bfbaf36fd2458cbb961c6161547a6659be2d003f16ed569",
+      "receipt_id": "75cfb96462b84c8098c8acf7284c9e09",
+      "request_hash": "934b813ad59c606b0d8f8dfc6dee3ab4c2863ea8f5069cbce5d1f837b2320555",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

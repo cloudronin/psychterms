@@ -27,5 +27,34 @@
     "definition_hash": "c43e46f16e0add3b79bb7afa42345b2ec50761a8b5e7c884dfa59a4dac5c8db5",
     "packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0"
   },
-  "hash": "a83f537858925e429fffb3a4e42eb23d31af61c019470c7154a17202ae734324"
+  "hash": "a83f537858925e429fffb3a4e42eb23d31af61c019470c7154a17202ae734324",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "c43e46f16e0add3b79bb7afa42345b2ec50761a8b5e7c884dfa59a4dac5c8db5",
+      "packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0",
+      "published_packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0",
+      "receipt_id": "ed1f48e78fe1427caf0787c7c8b25c2e",
+      "request_hash": "feef1e4d2f19dde7256eceacb12e745f0e2b7dba6990866c44369843a1e7c2d5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is \"diagnosis\", but the term \"psychiatric hospital\" describes a type of healthcare facility/organization rather than a diagnostic concept or diagnosis category.",
+        "While the wording generally matches the packet text (“A hospital specializing in the treatment of severe mental disorders.”), the mismatch between the requested field (diagnosis) and the term’s apparent meaning makes the field usage indefensible."
+      ],
+      "definition_hash": "c43e46f16e0add3b79bb7afa42345b2ec50761a8b5e7c884dfa59a4dac5c8db5",
+      "packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0",
+      "published_packet_hash": "661fe2ebc1951d9a9c32746c821241a0acaf5bee5a7cbdece7db9ecb73a3d0c0",
+      "receipt_id": "9b6591718acf431d8c437c039674c73d",
+      "request_hash": "a846261e3d8a6df1e45b38cb89476ba3dd3680a96b8e1df8dc017bc957fa0f5c",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }

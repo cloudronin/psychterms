@@ -27,5 +27,34 @@
     "definition_hash": "54179a1dc000159dd33f041f3597ea996334b7375cc524befe3a6700d5d9e261",
     "packet_hash": "8fe4376b815b4bc362b09e0ab01b279740bc9ad01209c670bd6b4923f3f9c463"
   },
-  "hash": "b509e93f1235297fd7f834468aacf0bd7f5f01a95bc4f73a13acd520f2b7c20d"
+  "hash": "b509e93f1235297fd7f834468aacf0bd7f5f01a95bc4f73a13acd520f2b7c20d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "54179a1dc000159dd33f041f3597ea996334b7375cc524befe3a6700d5d9e261",
+      "packet_hash": "8fe4376b815b4bc362b09e0ab01b279740bc9ad01209c670bd6b4923f3f9c463",
+      "published_packet_hash": "8fe4376b815b4bc362b09e0ab01b279740bc9ad01209c670bd6b4923f3f9c463",
+      "receipt_id": "d374889940ac4e678b5cdd34303c6415",
+      "request_hash": "f6b03f802c64f7f387c9cdca9e9d6f922d338a79d3c5a99cfa028718d9a73859",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a medical/preventive-intervention sense (reducing, modifying, or stopping the course of disease), not a learning-field sense, so the requested field is not defensible from the source.",
+        "The definition adds or reorders elements beyond the source (“lower the chance of disease,” “change its course,” “used in groups or individuals”) in a way that is not fully supported as written by the packet."
+      ],
+      "definition_hash": "54179a1dc000159dd33f041f3597ea996334b7375cc524befe3a6700d5d9e261",
+      "packet_hash": "8fe4376b815b4bc362b09e0ab01b279740bc9ad01209c670bd6b4923f3f9c463",
+      "published_packet_hash": "8fe4376b815b4bc362b09e0ab01b279740bc9ad01209c670bd6b4923f3f9c463",
+      "receipt_id": "a296e62b7368453b9e6c524aa8891939",
+      "request_hash": "0491dcc1818528d101a6f9a510efa24cbb3068612f7d16557c83a93435e700a5",
+      "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8"
+    }
+  ]
 }
