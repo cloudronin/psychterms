@@ -421,6 +421,11 @@
     "latest_sourcing": {
       "type": "object",
       "description": "Build-owned headword sourcing outcome; original entry rejection reason remains unchanged."
+    },
+    "publication_evidence": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "Hash of the offline-verifiable provider receipt bundle for this promoted replacement."
     }
   },
   "additionalProperties": false

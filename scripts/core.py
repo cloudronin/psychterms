@@ -62,6 +62,10 @@ def validate_entry(entry, sources, fields, release=False, built=False):
         from local_receipts import validate as validate_local
         packet=json.loads((ROOT/'data/packets'/(entry['id']+'.json')).read_text())
         validate_local(entry,packet)
+    if entry.get('publication_evidence'):
+        from publication_evidence import validate as validate_publication
+        packet=json.loads((ROOT/'data/packets'/(entry['id']+'.json')).read_text())
+        validate_publication(entry,packet)
     if entry.get('draft_evidence'):validate_draft_evidence(entry)
     elif entry.get('model_review'):validate_model_review(entry)
     elif entry.get('fixture') is not True or entry['id'] not in {'attention','memory','psychotherapy'}:raise ValueError('Missing drafting evidence')

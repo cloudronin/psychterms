@@ -4,31 +4,31 @@ Review required before merge. Definitions, entry files, hashes and reader verdic
 
 | Measure | Count |
 |---|---:|
-| Entries eligible | 9,201 |
-| Entries with 0 links | 115 |
-| Entries with 1–2 links | 916 |
-| Entries with 3–4 links | 1,297 |
-| Entries with 5 links | 6,873 |
-| Links: mention | 11,357 |
+| Entries eligible | 9,324 |
+| Entries with 0 links | 110 |
+| Entries with 1–2 links | 931 |
+| Entries with 3–4 links | 1,306 |
+| Entries with 5 links | 6,977 |
+| Links: mention | 11,587 |
 | Links: same_source | 0 |
-| Links: embedding | 29,095 |
-| Headword targets appearing in more than 40 definitions | 283 |
-| Mention pairs rejected by document frequency | 36,756 |
-| Embedding proposals rejected by field filter | 104,929 |
-| Unique inbound risk pairs blocked | 1,585 |
+| Links: embedding | 29,457 |
+| Headword targets appearing in more than 40 definitions | 286 |
+| Mention pairs rejected by document frequency | 37,286 |
+| Embedding proposals rejected by field filter | 106,097 |
+| Unique inbound risk pairs blocked | 1,575 |
 
 ## Kept embedding cosine distribution
 
 | Min | p25 | Median | p75 | Max |
 |---:|---:|---:|---:|---:|
-| 0.601391 | 0.713814 | 0.746720 | 0.786645 | 0.991275 |
+| 0.601087 | 0.714359 | 0.747208 | 0.787065 | 0.991275 |
 
 ## Reproduction and interpretation
 
 - Model: `BAAI/bge-small-en-v1.5`; revision `5c38ec7c405ec4b44b94cc5a9bb96e735b38267a`.
 - Weights SHA-256: `3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad`.
-- Entry-set hash: `72991b96724b2deaa094d19cd79acd5e1dd9607eb134774b95d3eae3d84e439e`.
-- Input hash (retagged entries, risk, redirects, stop list, parameters): `c8edf0ba4ecf2ede783f2f5578df6aaec045c3de8a819aeec23ae08a6b24cfbf`.
+- Entry-set hash: `29ac69411f05d3899a6557f815f4b60f565e23b0a87a1e289e8e08476d736a1f`.
+- Input hash (retagged entries, risk, redirects, stop list, parameters): `d9d459c7894362a4277ee21313e44c08326e3a0656980d55c0cf4650235b4df2`.
 - Parameters: cap 5; mention cap 2; headword document frequency ≤ 40; source cap 3; global nearest 20 excluding self; cosine ≥ 0.60; embedding links require identical fields.
 - Sampling seed: `20261018`. Uniform sample without replacement from all eligible IDs, including zero-link and risk entries.
 - Risk blocking is applied to all three signals after redirect resolution; risk entries may link out.
@@ -41,224 +41,234 @@ Review required before merge. Definitions, entry files, hashes and reader verdic
 
 ## Twenty random entries
 
-### [feeling](https://psychterms.org/terms/feeling/)
+### [family dynamics](https://psychterms.org/terms/family-dynamics/)
 
-Field: history.
+Field: social.
 
-In this historical psychology source, feeling is the aspect of consciousness concerned with experienced changes apart from identifying objects or directing action. It is used broadly as a phase of mental life within the traditional division of knowledge, feeling, and will, and is treated as an abstraction from a fuller state of mind.
+Family dynamics are the patterns within a family that shape how family members influence a child’s emotional and social experiences. In this context, they strongly affect children’s sense of belonging, emotion regulation, and how socially connected they feel in virtual interactions such as mobile gaming.
 
-- [abstraction](https://psychterms.org/terms/abstraction/): `mention`.
-- [experience](https://psychterms.org/terms/experience/): `embedding`; cosine 0.839159.
-- [feeling of reality](https://psychterms.org/terms/feeling-of-reality/): `embedding`; cosine 0.821866.
-- [content](https://psychterms.org/terms/content/): `embedding`; cosine 0.819207.
-- [image](https://psychterms.org/terms/image/): `embedding`; cosine 0.809122.
+- [emotion regulation](https://psychterms.org/terms/emotion-regulation/): `mention`.
+- [belonging](https://psychterms.org/terms/belonging/): `mention`.
+- [social dynamics](https://psychterms.org/terms/social-dynamics/): `embedding`; cosine 0.797313.
+- [family](https://psychterms.org/terms/family/): `embedding`; cosine 0.789817.
+- [group dynamics](https://psychterms.org/terms/group-dynamics/): `embedding`; cosine 0.789646.
 
-### [myelination](https://psychterms.org/terms/myelination/)
+### [mu](https://psychterms.org/terms/mu/)
 
 Field: cognition.
 
-Myelination is the process in which oligodendrocyte precursor cells develop in ways that produce myelin, a covering that gives neurons structural and metabolic support and helps nerve signals travel efficiently along axons. When myelin is lost, neurons become more vulnerable and can undergo degeneration, contributing to lasting disability.
+Mu is an EEG sensorimotor rhythm made up of two nonharmonic oscillatory components in the alpha and beta frequency ranges. In psychology and cognitive research, it is used as a neural marker of sensorimotor integration during speech perception and comprehension.
 
-- [oligodendrocyte](https://psychterms.org/terms/oligodendrocyte/): `mention`.
-- [precursor](https://psychterms.org/terms/precursor/): `mention`.
+- [sensorimotor rhythm](https://psychterms.org/terms/sensorimotor-rhythm/): `mention`.
+- [Speech Perception](https://psychterms.org/terms/speech-perception/): `mention`.
+- [alpha wave](https://psychterms.org/terms/alpha-wave/): `embedding`; cosine 0.755503.
+- [beta wave](https://psychterms.org/terms/beta-wave/): `embedding`; cosine 0.728356.
+- [cognitive electrophysiology](https://psychterms.org/terms/cognitive-electrophysiology/): `embedding`; cosine 0.727918.
 
-### [bipolar](https://psychterms.org/terms/bipolar/)
-
-Field: biological.
-
-Bipolar disorder is a mental health condition that often begins during adolescence, a key period of brain development. In this context, it is described as having neurobiological features that are partly shared with, and partly distinct from, major depressive disorder.
-
-- [bipolar disorder](https://psychterms.org/terms/bipolar-disorder/): `mention`.
-- [depressive disorder](https://psychterms.org/terms/depressive-disorder/): `mention`.
-- [depression](https://psychterms.org/terms/depression/): `embedding`; cosine 0.797355.
-- [mania](https://psychterms.org/terms/mania/): `embedding`; cosine 0.780622.
-
-### [self-esteem](https://psychterms.org/terms/self-esteem/)
-
-Field: learning.
-
-Self-esteem is a person’s overall evaluation of themselves, including both positive and negative views of who they are. In psychology, it is treated as an important aspect of children’s physical and psychological development.
-
-- [self-affirmation](https://psychterms.org/terms/self-affirmation/): `embedding`; cosine 0.803467.
-- [self-image](https://psychterms.org/terms/self-image/): `embedding`; cosine 0.794550.
-- [pride](https://psychterms.org/terms/pride/): `embedding`; cosine 0.760920.
-- [self-efficacy](https://psychterms.org/terms/self-efficacy/): `embedding`; cosine 0.750902.
-- [self psychology](https://psychterms.org/terms/self-psychology/): `embedding`; cosine 0.748282.
-
-### [substance use disorder](https://psychterms.org/terms/substance-use-disorder/)
+### [biomarker](https://psychterms.org/terms/biomarker/)
 
 Field: diagnosis.
 
-Substance use disorder is a disorder related to the use of substances. In the supplied source, it is described as a major global health problem that contributes substantially to overall disease burden.
+A biomarker is a measurable biological sign, such as a level of a substance or another quantifiable body-related feature, that is used to help assess health or physiological states. It can be used in areas such as estimating disease risk, identifying psychiatric disorders, tracking environmental exposure and its effects, and supporting diagnosis or research.
 
-- [alcohol use disorder](https://psychterms.org/terms/alcohol-use-disorder/): `embedding`; cosine 0.870385.
-- [tobacco use disorder](https://psychterms.org/terms/tobacco-use-disorder/): `embedding`; cosine 0.805581.
-- [gambling disorder](https://psychterms.org/terms/gambling-disorder/): `embedding`; cosine 0.784819.
-- [alcohol dependence](https://psychterms.org/terms/alcohol-dependence/): `embedding`; cosine 0.778306.
-- [tobacco dependence](https://psychterms.org/terms/tobacco-dependence/): `embedding`; cosine 0.772482.
+- [psychiatric disorder](https://psychterms.org/terms/psychiatric-disorder/): `mention`.
+- [circulating levels](https://psychterms.org/terms/circulating-levels/): `embedding`; cosine 0.738168.
+- [blood levels](https://psychterms.org/terms/blood-levels/): `embedding`; cosine 0.725286.
+- [PChE](https://psychterms.org/terms/pche/): `embedding`; cosine 0.713053.
 
-### [verbal abuse](https://psychterms.org/terms/verbal-abuse/)
+### [scotopic](https://psychterms.org/terms/scotopic/)
 
-Field: mental health.
+Field: biological.
 
-Verbal abuse is harmful or aggressive speech directed at a person. In the packet, it refers to patient verbal abuse toward newly graduated nurses, which is often treated as part of the job but can unsettle emotions and influence how people interpret and cope with their work experiences.
+Scotopic refers to vision under very low light, such as in darkness or nighttime conditions. It relies on the eye’s rod cells, which are especially light-sensitive and respond most strongly to wavelengths around 507 nm toward the blue part of the spectrum.
 
-- [workplace violence](https://psychterms.org/terms/workplace-violence/): `embedding`; cosine 0.781582.
-- [patient violence](https://psychterms.org/terms/patient-violence/): `embedding`; cosine 0.756416.
-- [physical abuse](https://psychterms.org/terms/physical-abuse/): `embedding`; cosine 0.744611.
+- [blues](https://psychterms.org/terms/blues/): `mention`.
+- [scotopic vision](https://psychterms.org/terms/scotopic-vision/): `embedding`; cosine 0.966121.
+- [photopic vision](https://psychterms.org/terms/photopic-vision/): `embedding`; cosine 0.838711.
+- [photopic](https://psychterms.org/terms/photopic/): `embedding`; cosine 0.837289.
+- [twilight vision](https://psychterms.org/terms/twilight-vision/): `embedding`; cosine 0.824356.
 
-### [consensus](https://psychterms.org/terms/consensus/)
+### [stereotypic movement disorder](https://psychterms.org/terms/stereotypic-movement-disorder/)
+
+Field: diagnosis.
+
+Stereotypic movement disorder is a condition marked by repetitive, seemingly driven movements that have no clear function. These behaviors significantly disrupt normal activity or can lead to serious self-inflicted injury, and are not explained by a substance or a general medical condition.
+
+- [movement disorder](https://psychterms.org/terms/movement-disorder/): `mention`.
+- [disruptive behavior disorder](https://psychterms.org/terms/disruptive-behavior-disorder/): `embedding`; cosine 0.739428.
+- [disorganized behavior](https://psychterms.org/terms/disorganized-behavior/): `embedding`; cosine 0.738180.
+- [somatic symptom disorder](https://psychterms.org/terms/somatic-symptom-disorder-v2-a843562809/): `embedding`; cosine 0.736985.
+- [Tourette’s disorder](https://psychterms.org/terms/tourettes-disorder/): `embedding`; cosine 0.736492.
+
+### [unconscious](https://psychterms.org/terms/unconscious/)
 
 Field: cognition.
 
-Consensus is a shared view or general agreement within a group. It refers to the judgment accepted by most of the people involved.
+Unconscious refers to a state of awareness in which a person is consistently unresponsive to stimuli.
 
-- [agreement](https://psychterms.org/terms/agreement/): `mention`.
-- [submission](https://psychterms.org/terms/submission/): `embedding`; cosine 0.706755.
-- [judgment](https://psychterms.org/terms/judgment/): `embedding`; cosine 0.705227.
-- [principle of common fate](https://psychterms.org/terms/principle-of-common-fate/): `embedding`; cosine 0.704611.
-- [group structure](https://psychterms.org/terms/group-structure/): `embedding`; cosine 0.704139.
+- [unconscious perception](https://psychterms.org/terms/unconscious-perception/): `embedding`; cosine 0.835359.
+- [unconscious cognition](https://psychterms.org/terms/unconscious-cognition/): `embedding`; cosine 0.822573.
+- [conscious](https://psychterms.org/terms/conscious/): `embedding`; cosine 0.810833.
+- [unconscious process](https://psychterms.org/terms/unconscious-process/): `embedding`; cosine 0.799810.
+- [consciousness](https://psychterms.org/terms/consciousness/): `embedding`; cosine 0.789366.
 
-### [-genic](https://psychterms.org/terms/genic/)
+### [congenital character](https://psychterms.org/terms/congenital-character/)
 
 Field: history.
 
--genic is a suffix used in compounds in an active sense to mean producing, causing, or giving rise to something in its genesis or development.
+A congenital character is a trait or property an organism has from the start, as part of its original endowment. In this historical usage, it is contrasted with acquired characters, though the source notes that in actual development most traits reflect both innate qualities and environmental influence.
 
-- [genitive](https://psychterms.org/terms/genitive/): `embedding`; cosine 0.723747.
-- [genu](https://psychterms.org/terms/genu/): `embedding`; cosine 0.706322.
-- [mnemonic](https://psychterms.org/terms/mnemonic/): `embedding`; cosine 0.664659.
-- [connate](https://psychterms.org/terms/connate/): `embedding`; cosine 0.646916.
-- [saltation](https://psychterms.org/terms/saltation/): `embedding`; cosine 0.643269.
+- [congenital](https://psychterms.org/terms/congenital/): `mention`.
+- [ontogeny](https://psychterms.org/terms/ontogeny/): `embedding`; cosine 0.745462.
+- [characteristic](https://psychterms.org/terms/characteristic/): `embedding`; cosine 0.705515.
+- [epigenesis](https://psychterms.org/terms/epigenesis/): `embedding`; cosine 0.700301.
+- [connate](https://psychterms.org/terms/connate/): `embedding`; cosine 0.697069.
 
-### [behavioral avoidance test](https://psychterms.org/terms/behavioral-avoidance-test/)
+### [gender nonconformity](https://psychterms.org/terms/gender-nonconformity/)
 
-Field: assessment.
+Field: social.
 
-A behavioral avoidance test is a practical assessment in which a person is asked to face a situation they have been avoiding so their avoidance and actual performance can be observed. In this source, it refers to a post-treatment driving test in real traffic used to see whether patients could carry out previously feared driving tasks.
+Gender nonconformity refers to gender expression that differs from what society expects or accepts. In this packet, it is discussed as a difference that can expose people to stigma, bullying, discrimination, and related mental health strain.
 
-- [avoidance](https://psychterms.org/terms/avoidance/): `mention`.
-- [behavior rating](https://psychterms.org/terms/behavior-rating/): `embedding`; cosine 0.718209.
+- [nonconformity](https://psychterms.org/terms/nonconformity/): `mention`.
+- [Bullying](https://psychterms.org/terms/bullying/): `mention`.
+- [nonnormative](https://psychterms.org/terms/nonnormative/): `embedding`; cosine 0.768940.
+- [gender stereotype](https://psychterms.org/terms/gender-stereotype/): `embedding`; cosine 0.764346.
+- [transsexualism](https://psychterms.org/terms/transsexualism/): `embedding`; cosine 0.747247.
 
-### [irregular](https://psychterms.org/terms/irregular/)
-
-Field: cognition.
-
-In this context, irregular means not happening on a steady or predictable schedule. It describes episodes that occur occasionally at uneven intervals.
-
-- [asynchrony](https://psychterms.org/terms/asynchrony/): `embedding`; cosine 0.695492.
-- [conjunction](https://psychterms.org/terms/conjunction/): `embedding`; cosine 0.690160.
-
-### [inborn error of metabolism](https://psychterms.org/terms/inborn-error-of-metabolism/)
-
-Field: biological.
-
-An inborn error of metabolism is a disorder present from birth in which a genetic change disrupts a normal metabolic process, often because an enzyme is faulty or unstable. In the example described here, cystathionine beta-synthase deficiency causes homocysteine to build up and can be associated with learning and behavioral problems.
-
-- [metabolism](https://psychterms.org/terms/metabolism/): `mention`.
-- [homocystinuria](https://psychterms.org/terms/homocystinuria/): `embedding`; cosine 0.809603.
-- [porphyria](https://psychterms.org/terms/porphyria/): `embedding`; cosine 0.752578.
-- [biochemical defect](https://psychterms.org/terms/biochemical-defect/): `embedding`; cosine 0.748598.
-- [inherited disorder](https://psychterms.org/terms/inherited-disorder/): `embedding`; cosine 0.733433.
-
-### [estrogen antagonist](https://psychterms.org/terms/estrogen-antagonist/)
-
-Field: biological.
-
-An estrogen antagonist is a substance that opposes or blocks the effects of estrogen. In this study context, it was used to test whether estrogen was one of the diffusible signals influencing brain development.
-
-- [estrogen](https://psychterms.org/terms/estrogen/): `mention`.
-- [serotonin antagonist](https://psychterms.org/terms/serotonin-antagonist/): `embedding`; cosine 0.756728.
-- [dopamine-receptor antagonist](https://psychterms.org/terms/dopamine-receptor-antagonist/): `embedding`; cosine 0.742113.
-- [pharmacological antagonism](https://psychterms.org/terms/pharmacological-antagonism/): `embedding`; cosine 0.739433.
-- [GABA antagonist](https://psychterms.org/terms/gaba-antagonist/): `embedding`; cosine 0.728561.
-
-### [unique trait](https://psychterms.org/terms/unique-trait/)
-
-Field: biological.
-
-A unique trait is a characteristic that distinguishes one organism or strain from related ones because it has not been observed in the others. In this source, it refers to the ability of a diatom strain to both grow and accumulate large amounts of lipids at the same time.
-
-- [strain](https://psychterms.org/terms/strain/): `mention`.
-- [polygenic trait](https://psychterms.org/terms/polygenic-trait/): `embedding`; cosine 0.762117.
-- [warning coloration](https://psychterms.org/terms/warning-coloration/): `embedding`; cosine 0.695699.
-
-### [Symmetrel](https://psychterms.org/terms/symmetrel/)
-
-Field: biological.
-
-Symmetrel is a brand name for amantadine hydrochloride, a drug with antiviral and antiparkinsonian effects. In brain-related use, it is described as affecting dopamine activity and also having some influence on NMDA- and acetylcholine-related signaling.
-
-- [amantadine](https://psychterms.org/terms/amantadine/): `mention`.
-- [NMDA](https://psychterms.org/terms/nmda/): `mention`.
-- [Cylert](https://psychterms.org/terms/cylert/): `embedding`; cosine 0.718344.
-- [Anafranil](https://psychterms.org/terms/anafranil/): `embedding`; cosine 0.716557.
-- [armodafinil](https://psychterms.org/terms/armodafinil/): `embedding`; cosine 0.712110.
-
-### [average](https://psychterms.org/terms/average/)
-
-Field: research methods.
-
-Average usually means the arithmetic mean, found by combining values and dividing by how many there are. More broadly, it can refer to any measure that represents the center of a set of values.
-
-- [mean](https://psychterms.org/terms/mean/): `embedding`; cosine 0.903818.
-- [median](https://psychterms.org/terms/median/): `embedding`; cosine 0.787562.
-- [mean difference](https://psychterms.org/terms/mean-difference/): `embedding`; cosine 0.781786.
-- [harmonic mean](https://psychterms.org/terms/harmonic-mean/): `embedding`; cosine 0.764888.
-- [standard deviation](https://psychterms.org/terms/standard-deviation/): `embedding`; cosine 0.752109.
-
-### [history effect](https://psychterms.org/terms/history-effect/)
-
-Field: research methods.
-
-A history effect is a type of confounding in which changes that happen over time, rather than the variable being studied, account for the observed results. In other words, the passage of time introduces another influence that can make findings misleading.
-
-- [period effect](https://psychterms.org/terms/period-effect/): `embedding`; cosine 0.764050.
-- [main effect](https://psychterms.org/terms/main-effect/): `embedding`; cosine 0.713475.
-- [longitudinal](https://psychterms.org/terms/longitudinal/): `embedding`; cosine 0.706276.
-- [general effect](https://psychterms.org/terms/general-effect/): `embedding`; cosine 0.705024.
-- [confounded effects](https://psychterms.org/terms/confounded-effects/): `embedding`; cosine 0.704856.
-
-### [CPI](https://psychterms.org/terms/cpi/)
-
-Field: research methods.
-
-CPI stands for Consumer Price Index, also called the cost-of-living index. It is a financial statistic used to track how the prices of a representative set of goods change over time.
-
-- [consumer](https://psychterms.org/terms/consumer/): `mention`.
-- [statistics](https://psychterms.org/terms/statistics/): `mention`.
-
-### [concept hierarchy](https://psychterms.org/terms/concept-hierarchy/)
+### [behavior observation](https://psychterms.org/terms/behavior-observation/)
 
 Field: learning.
 
-A concept hierarchy is an arrangement of related ideas into different levels of detail or granularity. In this kind of structure, each level captures distinct but complementary information, and understanding can be improved by linking information across levels.
+Behavior observation is the use of many different formal or informal methods to record and describe behavior.
 
-- [hierarchy](https://psychterms.org/terms/hierarchy/): `mention`.
-- [task structure](https://psychterms.org/terms/task-structure/): `embedding`; cosine 0.730724.
-- [deep structure](https://psychterms.org/terms/deep-structure/): `embedding`; cosine 0.716313.
+- [behavior record](https://psychterms.org/terms/behavior-record/): `embedding`; cosine 0.845950.
+- [behavior sampling](https://psychterms.org/terms/behavior-sampling/): `embedding`; cosine 0.835748.
+- [behavior](https://psychterms.org/terms/behavior/): `embedding`; cosine 0.772090.
+- [Coaching Behavior Assessment System](https://psychterms.org/terms/coaching-behavior-assessment-system/): `embedding`; cosine 0.767986.
+- [rule-governed behavior](https://psychterms.org/terms/rule-governed-behavior/): `embedding`; cosine 0.743349.
 
-### [CAR](https://psychterms.org/terms/car/)
-
-Field: biological.
-
-CAR usually refers to chimeric antigen receptor T-cell therapy, a cancer treatment in which a person’s own T cells are genetically modified to recognize and attack cancer cells. It is used especially for some blood cancers when standard treatments have not worked, though it can cause serious immune-related and neurological side effects.
-
-- [T cell](https://psychterms.org/terms/t-cell/): `mention`.
-- [armoring](https://psychterms.org/terms/armoring/): `embedding`; cosine 0.767814.
-- [cell-mediated immunity](https://psychterms.org/terms/cell-mediated-immunity/): `embedding`; cosine 0.706604.
-- [cytokine](https://psychterms.org/terms/cytokine/): `embedding`; cosine 0.706142.
-- [biological therapy](https://psychterms.org/terms/biological-therapy/): `embedding`; cosine 0.704963.
-
-### [Gesellschaft](https://psychterms.org/terms/gesellschaft/)
+### [intoxication](https://psychterms.org/terms/intoxication/)
 
 Field: history.
 
-In this historical source, Gesellschaft is the German term used for an association in the sense of an organized group formed to advance a shared aim or carry out a common purpose. It is contrasted with a mere aggregation of people.
+Intoxication is the condition produced by drugs or poisons, often used more narrowly for drunkenness from alcohol. It usually appears soon after the substance is taken in and can involve noticeable changes in mind and behavior, such as excitement, lowered restraint, disorganized speech or conduct, and other less obvious disturbances that vary with the substance.
 
-- [aggregation](https://psychterms.org/terms/aggregation/): `mention`.
-- [Gemeinschaft](https://psychterms.org/terms/gemeinschaft/): `embedding`; cosine 0.770473.
-- [social organism](https://psychterms.org/terms/social-organism/): `embedding`; cosine 0.766320.
-- [group](https://psychterms.org/terms/group/): `embedding`; cosine 0.734732.
-- [organization](https://psychterms.org/terms/organization/): `embedding`; cosine 0.722144.
+- [disorganized speech](https://psychterms.org/terms/disorganized-speech/): `mention`.
+- [excitement](https://psychterms.org/terms/excitement/): `mention`.
+- [acute alcoholism](https://psychterms.org/terms/acute-alcoholism/): `embedding`; cosine 0.766066.
+- [sobriety](https://psychterms.org/terms/sobriety/): `embedding`; cosine 0.749388.
+
+### [imago](https://psychterms.org/terms/imago/)
+
+Field: history.
+
+In historical usage, imago means the fully developed adult or winged stage of an insect that undergoes complete metamorphosis. This is the stage in which the sexual organs are mature.
+
+- [metamorphosis](https://psychterms.org/terms/metamorphosis/): `mention`.
+- [heteromorphosis](https://psychterms.org/terms/heteromorphosis/): `embedding`; cosine 0.701948.
+- [infancy](https://psychterms.org/terms/infancy/): `embedding`; cosine 0.658443.
+- [ontogeny](https://psychterms.org/terms/ontogeny/): `embedding`; cosine 0.655886.
+- [cleavage](https://psychterms.org/terms/cleavage/): `embedding`; cosine 0.651659.
+
+### [equity theory](https://psychterms.org/terms/equity-theory/)
+
+Field: cognition.
+
+Equity theory is the idea that people judge an exchange as fair when what each person puts in and gets out are in proportion. It treats perceived input–outcome balance as a main basis for deciding whether a situation is just or unjust.
+
+- [regret theory](https://psychterms.org/terms/regret-theory/): `embedding`; cosine 0.722468.
+- [probability theory](https://psychterms.org/terms/probability-theory/): `embedding`; cosine 0.717271.
+- [appraisal theory](https://psychterms.org/terms/appraisal-theory/): `embedding`; cosine 0.704757.
+
+### [trophic](https://psychterms.org/terms/trophic/)
+
+Field: biological.
+
+In this biological context, trophic refers to the support and maintenance a nerve cell of origin provides to its axon and terminal branches. If that connection is destroyed or interrupted, the nerve fibers can lose function and undergo trophic degeneration.
+
+- [degeneration](https://psychterms.org/terms/degeneration/): `mention`.
+- [transection](https://psychterms.org/terms/transection/): `embedding`; cosine 0.756011.
+- [fragmentation](https://psychterms.org/terms/fragmentation/): `embedding`; cosine 0.731380.
+- [tropism](https://psychterms.org/terms/tropism/): `embedding`; cosine 0.727600.
+- [retrograde degeneration](https://psychterms.org/terms/retrograde-degeneration/): `embedding`; cosine 0.722650.
+
+### [subliminal stimulation](https://psychterms.org/terms/subliminal-stimulation/)
+
+Field: cognition.
+
+Subliminal stimulation is stimulation presented at a level too weak to produce a distinct, differentiated response.
+
+- [subliminal](https://psychterms.org/terms/subliminal/): `mention`.
+- [subliminal perception](https://psychterms.org/terms/subliminal-perception/): `embedding`; cosine 0.798376.
+- [dichoptic stimulation](https://psychterms.org/terms/dichoptic-stimulation/): `embedding`; cosine 0.746281.
+- [stimulus strength](https://psychterms.org/terms/stimulus-strength/): `embedding`; cosine 0.697885.
+
+### [autoshaping](https://psychterms.org/terms/autoshaping/)
+
+Field: learning.
+
+Autoshaping is a Pavlovian/instrumental learning procedure in which an organism acquires a new operant response around a conditioned stimulus linked to a reward. It involves forming a conditioned stimulus–unconditioned stimulus association and the transfer of incentive value from the reward to that cue.
+
+- [instrumental learning](https://psychterms.org/terms/instrumental-learning/): `mention`.
+- [operant response](https://psychterms.org/terms/operant-response/): `mention`.
+- [automaintenance](https://psychterms.org/terms/automaintenance/): `embedding`; cosine 0.786650.
+- [instrumental conditioning](https://psychterms.org/terms/instrumental-conditioning/): `embedding`; cosine 0.737228.
+- [autonomic learning](https://psychterms.org/terms/autonomic-learning/): `embedding`; cosine 0.733187.
+
+### [hepatic encephalopathy](https://psychterms.org/terms/hepatic-encephalopathy/)
+
+Field: biological.
+
+Hepatic encephalopathy is a syndrome of brain and central nervous system dysfunction linked to liver failure, including problems related to portal-systemic shunting. It can involve reduced alertness and confusion that may worsen to coma, along with abnormal movement and reflex signs.
+
+- [encephalopathy](https://psychterms.org/terms/encephalopathy/): `mention`.
+- [confusion](https://psychterms.org/terms/confusion/): `mention`.
+- [portal-systemic encephalopathy](https://psychterms.org/terms/portal-systemic-encephalopathy/): `embedding`; cosine 0.919070.
+- [cerebral dysfunction](https://psychterms.org/terms/cerebral-dysfunction/): `embedding`; cosine 0.762172.
+- [traumatic encephalopathy](https://psychterms.org/terms/traumatic-encephalopathy/): `embedding`; cosine 0.740751.
+
+### [corticofugal](https://psychterms.org/terms/corticofugal/)
+
+Field: biological.
+
+Corticofugal refers to nerve fibers that travel outward from the cerebral cortex to lower brain regions and the spinal cord. In this packet, they are described as large longitudinal bundles on each side of the ventral midbrain.
+
+- [longitudinal](https://psychterms.org/terms/longitudinal/): `mention`.
+- [midbrain](https://psychterms.org/terms/midbrain/): `mention`.
+- [tract](https://psychterms.org/terms/tract/): `embedding`; cosine 0.790634.
+- [lateral corticospinal tract](https://psychterms.org/terms/lateral-corticospinal-tract-v2-0455a4e2ac/): `embedding`; cosine 0.780548.
+- [U fiber](https://psychterms.org/terms/u-fiber/): `embedding`; cosine 0.768709.
+
+### [component evaluation](https://psychterms.org/terms/component-evaluation/)
+
+Field: mental health.
+
+In this source, component evaluation means assessing a program through several distinct parts rather than a single overall outcome. It looks separately at effects on individuals, effects on the surrounding community, how operating context shapes results, and the costs involved.
+
+No see-also links.
+
+### [cannabis dependence](https://psychterms.org/terms/cannabis-dependence/)
+
+Field: mental health.
+
+Cannabis dependence is a dependent pattern of cannabis use in which the severity of dependence can vary among users. In the source, it is discussed as a common problem linked with cannabis use frequency and with some motives for use, especially coping and routine motives.
+
+- [cannabis](https://psychterms.org/terms/cannabis/): `mention`.
+- [motive](https://psychterms.org/terms/motive/): `mention`.
+- [substance dependence](https://psychterms.org/terms/substance-dependence/): `embedding`; cosine 0.826575.
+- [drug addiction](https://psychterms.org/terms/drug-addiction/): `embedding`; cosine 0.781212.
+- [polysubstance dependence](https://psychterms.org/terms/polysubstance-dependence/): `embedding`; cosine 0.751941.
+
+### [generalizability theory](https://psychterms.org/terms/generalizability-theory/)
+
+Field: learning.
+
+Generalizability theory is a statistical approach to evaluating how reliable a measurement is in the behavioral sciences. It examines several possible sources of measurement error at the same time and estimates how much each testing condition or factor contributes to score variation across acceptable observations.
+
+- [Behavioral Sciences](https://psychterms.org/terms/behavioral-sciences/): `mention`.
+- [generalizability](https://psychterms.org/terms/generalizability/): `mention`.
+- [stimulus generalization](https://psychterms.org/terms/stimulus-generalization/): `embedding`; cosine 0.728109.
+- [generalized matching law](https://psychterms.org/terms/generalized-matching-law/): `embedding`; cosine 0.727129.
+- [frequentist inference](https://psychterms.org/terms/frequentist-inference/): `embedding`; cosine 0.691223.
 

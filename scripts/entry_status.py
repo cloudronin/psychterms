@@ -3,7 +3,7 @@ import argparse,collections,hashlib,json,re,subprocess
 from core import ROOT,digest,semantic_hash
 from overlap_scan import words
 from scope_rules import decide,independent_records
-from redraft_policy import TERMINAL,disposition,candidate_pool,validate_replacements,headword_exclusions
+from redraft_policy import headword_key,TERMINAL,disposition,candidate_pool,validate_replacements,headword_exclusions
 
 RANK={'candidate':0,'reviewed':1,'judged':2,'dropped':3,'redraft':3}
 MIGRATION_SHA256='a1b4069db9154c457d9b95c3ab43b3c762c1ca37bb67563221bd656b1b4c28ba'
@@ -35,6 +35,9 @@ def drafter(entry):
     raise ValueError('Missing drafting identity: '+entry['id'])
 
 def readers(entry,packet,root=ROOT):
+    if entry.get('publication_evidence'):
+        from publication_evidence import validate as validate_publication
+        validate_publication(entry,packet,root)
     if entry.get('local_run'):
         from local_receipts import validate as validate_local
         validate_local(entry,packet,root)
@@ -94,6 +97,14 @@ def prepare(entries,root=ROOT,history=None,scope=True):
         model_names.update(r['model'] for r in proofs)
         eligibility=decide(record,independent) if scope else {'eligible':True}
         reason=explicit.get(e['id'],{}).get('reason')
+        # A verified editorial scope read can resolve the keyword screen's absence
+        # of context; it cannot override a specific wrong-sense exclusion.
+        if (not eligibility['eligible'] and eligibility.get('rule')=='no-psychology-counselling-neural-method-or-historical-context'
+                and e.get('publication_evidence') and e.get('external_review')):
+            from external_reader import evidence
+            editorial=evidence(e,root)
+            if editorial and editorial['passed'] and headword_key(e['term']) not in headword_exclusions(root):
+                eligibility={'eligible':True,'rule':'verified-editorial-source-scope-read'}
         if not eligibility['eligible']:reason=eligibility['reason']
         if len(failing)>=2 and not reason:reason='; '.join(sorted({reason for r in failing for reason in r.get('reasons',[]) if reason})) or 'Both independent readers rejected the definition.'
         status=disposition(reason) if reason else 'judged' if len(passing)>=2 else 'reviewed' if len(passing)==1 else 'candidate'
@@ -105,7 +116,6 @@ def prepare(entries,root=ROOT,history=None,scope=True):
         if reason:current['drop_reason']=reason
         if status=='redraft':
             current['new_packet_required']=True
-            from redraft_policy import headword_key
             attempt=outcomes.get(headword_key(e['term']))
             if attempt and e['id'] in attempt['failed_entry_ids']:current['latest_sourcing']=attempt
         elif status=='dropped':current['scope_review']='pending'
