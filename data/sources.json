@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-18",
+  "checked_on": "2026-10-19",
   "policy": "A yes admits only the stated scope. Every actual packet still requires a pinned asset, source-specific exception check and allowed role. Unconfirmed candidates are no. Evidence hashes pin this review finding, not unread content.",
   "sources": [
     {
@@ -219816,6 +219816,84 @@
       },
       "asset_pin_required": true,
       "content_snapshot_sha256": "ef043ef1784d00d6f882e5719a7a6907345089b33dfd04e5059856fd7eedcb03"
+    },
+    {
+      "id": "medlineplus-health-topics",
+      "candidate": "MedlinePlus, National Library of Medicine: own health-topic summaries",
+      "url": "https://medlineplus.gov/healthtopics.html",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://medlineplus.gov/about/using/usingcontent/",
+      "licence_confirmed": true,
+      "pinned_version": "Daily XML snapshot mplus_topics_2026-10-17.xml; scoped manifest 7a436fc17d7e20d41e183c6b519139bd5175dca6a5986aaaee8f21d7dbe167a1",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "NLM own full-summary text only, scoped to mental health, development, substance use and behaviour. Exclude licensed encyclopedia, drug monographs, images and external linked text.",
+      "evidence": {
+        "policy_url": "https://medlineplus.gov/about/using/usingcontent/",
+        "reviewed_on": "2026-10-19",
+        "policy_snapshot_sha256": "111b6f1052bc2b82d6210897e029cc68c31db67ab3a15a86346f94b0f353d7f0",
+        "licence_confirmed": true,
+        "finding": "NLM own full-summary text only, scoped to mental health, development, substance use and behaviour. Exclude licensed encyclopedia, drug monographs, images and external linked text.",
+        "sha256": "6d618d91079b8e834aafb5907652b15a959cca2ac765c106e2370a39d5d22552"
+      },
+      "asset_pin_required": true,
+      "attribution": "Source: MedlinePlus, National Library of Medicine."
+    },
+    {
+      "id": "cdc-mental-health-substance-use",
+      "candidate": "Centers for Disease Control and Prevention: own mental-health, developmental and substance-use pages",
+      "url": "https://www.cdc.gov/mental-health/about/index.html",
+      "licence": "public-domain-US-government",
+      "licence_source_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "licence_confirmed": true,
+      "pinned_version": "HTML snapshots 2026-10-19; scoped manifest 7a436fc17d7e20d41e183c6b519139bd5175dca6a5986aaaee8f21d7dbe167a1",
+      "roles": [
+        "draft_basis",
+        "supports_definition"
+      ],
+      "decision": "yes",
+      "reason": "CDC own unmarked prose only within the named scope. Exclude licensed, contractor, grantee and third-party material, logos, images, tables and direct quotations. Preserve substantive meaning; source is available free from CDC.",
+      "evidence": {
+        "policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "reviewed_on": "2026-10-19",
+        "policy_snapshot_sha256": "213845d3cbbe12535b8d1492141e1497c91477fd4a9f9a9f96cbdce48c88d04f",
+        "licence_confirmed": true,
+        "finding": "CDC own unmarked prose only within the named scope. Exclude licensed, contractor, grantee and third-party material, logos, images, tables and direct quotations. Preserve substantive meaning; source is available free from CDC.",
+        "sha256": "585abf7c2c8c3bb4edbd3cf8ae57b12070908aedcabbcba9d7fa99e060c1337e"
+      },
+      "asset_pin_required": true,
+      "attribution": "Source: CDC. This use does not imply endorsement by CDC, HHS or the United States Government. Original material is available without charge at the source URL."
+    },
+    {
+      "id": "hpo-2026-09-01",
+      "candidate": "Human Phenotype Ontology Consortium: scoped mental-function and neurodevelopment reference",
+      "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/tag/v2026-09-01",
+      "licence": "HPO-attribution-integrity",
+      "licence_source_url": "https://human-phenotype-ontology.github.io/license.html",
+      "licence_confirmed": true,
+      "pinned_version": "HPO release 2026-09-01; original OBO SHA-256 93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+      "roles": [
+        "aliases",
+        "links",
+        "related_topic"
+      ],
+      "decision": "yes",
+      "reason": "User-permitted versioned reference. Official terms require acknowledgement, citation, version display and unchanged HPO files/relationships. Preserve original bytes and relationships; labels/EXACT aliases and links only. HPO prose is not a CC BY drafting packet.",
+      "evidence": {
+        "policy_url": "https://human-phenotype-ontology.github.io/license.html",
+        "reviewed_on": "2026-10-19",
+        "policy_snapshot_sha256": "d63799ff8d381891114b22e78c8164f198a9642f9ed0ca8b53bc73238c318b39",
+        "licence_confirmed": true,
+        "finding": "User-permitted versioned reference. Official terms require acknowledgement, citation, version display and unchanged HPO files/relationships. Preserve original bytes and relationships; labels/EXACT aliases and links only. HPO prose is not a CC BY drafting packet.",
+        "sha256": "c9d2867732759e30b7e1917656a510cdbe8be5cc83e44ace02fa9f44192337ed"
+      },
+      "asset_pin_required": true,
+      "licence_text_path": "data/source-licences/hpo-licence-original.md",
+      "licence_text_sha256": "9f7c918c3ac9b6eab76eb21fb624a595fa9d306017a5b5aa03e305b86183a7a2",
+      "attribution": "This service uses the Human Phenotype Ontology (version 2026-09-01). Human Phenotype Ontology Consortium. See https://human-phenotype-ontology.github.io/license.html."
     }
   ]
 }

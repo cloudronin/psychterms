@@ -28,7 +28,7 @@ def build(entries,release=False,history=None):
  for e in ordered:
   md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Status: {BADGES[e["status"]]}',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])
   if e.get('editorial_note'):md.extend(['Wording review pending: '+e['editorial_note'], ''])
-  md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]}). Licence: [{r["licence"]}]({r["licence_url"]}). {r["adaptation_notice"]}' for r in refs[e['id']]], ''])
+  md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]}). Licence: [{r["licence"]}]({r["licence_url"]}). {r["adaptation_notice"]} {r.get("attribution","")}' for r in refs[e['id']]], ''])
   if e.get('risk'):md.extend(['No scene is provided for this risk term.', ''])
  md.extend(['## Dropped entries',''])
  for e in dropped:
