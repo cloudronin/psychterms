@@ -1,0 +1,26 @@
+{
+  "id": "reyosterrieth-complex-figure-test",
+  "term": "Rey–Osterrieth Complex Figure Test",
+  "source": "article-pmc10900783",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12888-024-05622-5",
+  "revision": "2024; DOI 10.1186/s12888-024-05622-5; article XML SHA-256 2d56a626929cfa820521ce5ac605ca23563e4347244a34b4ba43f419bdd75358",
+  "source_snapshot_sha256": "2d56a626929cfa820521ce5ac605ca23563e4347244a34b4ba43f419bdd75358",
+  "url": "https://doi.org/10.1186/s12888-024-05622-5",
+  "text": "The Rey-Osterrieth Complex Figure Test (RCFT) is a tool to evaluate cognitive function. Despite its usefulness, its scoring criteria are as complicated as its figure, leading to a low reliability. Therefore, this study aimed to determine the feasibility of using the convolutional neural network (CNN) model based on the RCFT as a screening tool for mild cognitive impairment (MCI) and investigate the non-equivalence of sub-tasks of the RCFT.\n\nA total of 354 RCFT images (copy and recall conditions) were obtained from 103 healthy controls (HCs) and 74 patients with amnestic MCI (a-MCI). The CNN model was trained to predict MCI based on the RCFT-copy and RCFT-recall images. To evaluate the CNN model’s performance, accuracy, sensitivity, specificity, and F1-score were measured. To compare discriminative power, the area under the curve (AUC) was calculated by the receiver operating characteristic (ROC) curve analysis.\n\nThe CNN model based on the RCFT-recall was the most accurate in discriminating a-MCI (accuracy: RCFT-copy = 0.846, RCFT-recall = 0.872, MoCA-K = 0.818). Furthermore, the CNN model based on the RCFT could better discriminate MCI than the MoCA-K (AUC: RCFT-copy = 0.851, RCFT-recall = 0.88, MoCA-K = 0.848). The CNN model based on the RCFT-recall was superior to the RCFT-copy.\n\nThese findings suggest the feasibility of using the CNN model based on the RCFT as a surrogate for a conventional screening tool for a-MCI and demonstrate the superiority of the CNN model based on the RCFT-recall to the RCFT-copy.\n\nKeywords: Screening, Convolutional neural network, Rey-Osterrieth Complex Figure Test, Mild cognitive impairment\n\nNeuropsychological assessments play a crucial role in achieving an objective diagnosis for patients with cognitive impairment [ 1 ]. Among various neuropsychological assessments, the Rey-Osterrieth Complex Figure Test (RCFT) has been widely employed to assess cognitive function. Notably, the RCFT has proven valuable for analyzing visuospatial construction, perceptual organization, and visual memory in clinical evaluations and research studies [ 2 ].\n\nThe RCFT includes immediate copy and delayed recall tasks. During the copy task of the RCFT, subjects are required to visually examine a complex geometric figure and then replicate it as accurately as possible on a blank sheet of paper. This task assesses their visuo-constructional skills and executive function, which involve the ability to perceive and accurately reproduce visual information [ 3 ]. The second task of the RCFT is the delayed recall. At 30 min after completing the copy task, subjects are asked to draw the figure again from memory, without any visual reference. This task evaluates their visual memory, specifically their ability to retain and recall complex visual information after a delay [ 4 ]. Both copy and recall performance are evaluated based on the accuracy and organization of the reproduced figure using scoring criteria, including accuracy, organization, and placement of the different components of the figure [ 4 ].\n\nA previous study reported that patients in the early stages of cognitive impairment often exhibit poor performance on the RCFT [ 5 , 6 ]. Specifically, patients with frontal lobe damage demonstrate an impairment in their abilities to reproduce the Rey-Osterrieth Complex Figure [ 7 ]. Given the importance of identifying and diagnosing mild cognitive impairment (MCI) at an early stage, there is a growing interest in the potential of using the RCFT to detect MCI. Indeed, prior studies have reported that the RCFT can significantly predict the conversion to pre-MCI or MCI as patients with MCI commonly show executive dysfunction and memory declines [ 8 ].\n\nAlthough the RCFT has scoring criteria, it has some inherent subjectivity that can influence its results and interpretation, leading to challenges in the detection of MCI. 6 To address this issue, recently there have been studies reporting the use of convolutional neural network (CNN) techniques to analyze images of the RCFT. These studies demonstrated the clinical feasibility of the RCFT using CNN techniques [ 6 , 9 , 10 ]. Moreover, a CNN-based approach has clinical",
+  "source_label": "Non-equivalence of sub-tasks of the Rey-Osterrieth Complex Figure Test with convolutional neural networks to discriminate mild cognitive impairment",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4188
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "db0e46616f363e9889ad6812c9178c8abce325305f33073b41b2d8eecc768927"
+}

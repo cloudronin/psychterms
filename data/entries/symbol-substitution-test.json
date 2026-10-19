@@ -1,0 +1,66 @@
+{
+  "id": "symbol-substitution-test",
+  "term": "symbol-substitution test",
+  "definition": "A symbol-substitution test is a cognitive assessment that uses the Digit Symbol Substitution Test format to measure aspects of cognitive function. In this source, it is one of the scales used to assess cognition in older adults, and lower scores are associated with poorer executive functioning.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13178853"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13178853",
+      "revision": "2026; DOI 10.1371/journal.pone.0338613; article XML SHA-256 3085eaaf07970013106fde592e276a54510c0eb713825fcdc653a871749d57bc",
+      "scope": "Source record 10.1371/journal.pone.0338613; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0338613"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e2b6e290ad6559671d8c890ba69b0bf3eb5483e20f36c0ad0e24dcfe33d5e665",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5be4ef110bc04248bebc3599585d76ef",
+    "request_hash": "68157becce44f6a1f59f1e29741435c72812781a3db61f0a764b2636800fd70e",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "a0e786998fec4c380687271d66c6f61ef83710c6d0137cdf11f1c40d4e3cf92d",
+    "packet_hash": "e2b6e290ad6559671d8c890ba69b0bf3eb5483e20f36c0ad0e24dcfe33d5e665"
+  },
+  "hash": "bfcf9e0331a26525c7623ad22ab859a4f5d233a96f6f36fc5af143167cc045c9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports Digit Symbol Substitution Test (DSST) as a cognition scale in older adults, but it does not support calling the symbol-substitution test a distinct cognitive assessment that 'uses the DSST format.'",
+        "The packet does not support the claim that lower symbol-substitution scores are associated with poorer executive functioning; it only reports an association between HGI and decreased DSST scores and separately mentions executive function impairment in the study’s discussion.",
+        "The definition adds an interpretation about the test’s functional domain that is not established by the source packet."
+      ],
+      "definition_hash": "a0e786998fec4c380687271d66c6f61ef83710c6d0137cdf11f1c40d4e3cf92d",
+      "packet_hash": "e2b6e290ad6559671d8c890ba69b0bf3eb5483e20f36c0ad0e24dcfe33d5e665",
+      "published_packet_hash": "e2b6e290ad6559671d8c890ba69b0bf3eb5483e20f36c0ad0e24dcfe33d5e665",
+      "receipt_id": "8736a64f8f6348ada30ec0741914559f",
+      "request_hash": "5e3fc535a9d80ff4910eba2f89c153a96dc46871b1b9026c9395432f2dfa259b",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define or introduce a term called “symbol-substitution test”; it only mentions the “Digit Symbol Substitution Test (DSST)” as one of three cognitive scales used.",
+        "The packet does not state that “a symbol-substitution test uses the Digit Symbol Substitution Test format”; it only lists DSST among the assessments without describing any “symbol-substitution test” format or equivalence.",
+        "The packet does not support the claim that “lower scores are associated with poorer executive functioning” specifically for a “symbol-substitution test”; while the text mentions executive function impairment in relation to HGI generally, it does not explicitly link DSST score direction to executive functioning.",
+        "The definition’s requested causal/interpretive link (“lower scores…poorer executive functioning”) is not clearly supported by the provided excerpt."
+      ],
+      "definition_hash": "a0e786998fec4c380687271d66c6f61ef83710c6d0137cdf11f1c40d4e3cf92d",
+      "packet_hash": "e2b6e290ad6559671d8c890ba69b0bf3eb5483e20f36c0ad0e24dcfe33d5e665",
+      "published_packet_hash": "e2b6e290ad6559671d8c890ba69b0bf3eb5483e20f36c0ad0e24dcfe33d5e665",
+      "receipt_id": "40f4fb40980e42159e93a5a804d60a6a",
+      "request_hash": "4b27714eb557f823d8f9ffcfdb69f84e14d875a0d818eb1fd24ab17f4fadd7b8",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

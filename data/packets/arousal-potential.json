@@ -1,0 +1,26 @@
+{
+  "id": "arousal-potential",
+  "term": "arousal potential",
+  "source": "article-pmc12109038",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2025.1438080",
+  "revision": "2025; DOI 10.3389/fpsyg.2025.1438080; article XML SHA-256 75f465d58376f48fc1888b8a7b6d981496321cb0eb72e86dc9a8a21f7c59e523",
+  "source_snapshot_sha256": "75f465d58376f48fc1888b8a7b6d981496321cb0eb72e86dc9a8a21f7c59e523",
+  "url": "https://doi.org/10.3389/fpsyg.2025.1438080",
+  "text": "representing free energy reduction through recognition, and Bayesian surprise (BS), representing free energy reduction via Bayesian updating. Conventional Gaussian models predict an infinite divergence in information gain (KLD and BS) as prediction error increases, which contradicts the known limits of human cognitive resources. The key novelty of this study lies in a simple yet impactful modification: incorporating a uniform distribution into the Gaussian likelihood function to model neural activity under conditions of large prediction error. This modification yields an inverted U-shaped relationship between prediction error and both KLD and BS, producing a finite peak in information gain that better reflects cognitive realism. Based on this convexity, we propose that alternating the maximization of BS and KLD generates an ideal inquiry cycle that fluctuates around an optimal arousal level, with curiosity and interest driving this process. We further analyze how prediction uncertainty (prior variance) and observation uncertainty (likelihood variance) affect the peak of information gain. The results suggest that greater prediction uncertainty (reflecting open-mindedness) and lower observation uncertainty (indicating focused observation) promote higher information gains through broader exploration. This mathematical framework integrates the brain's free energy principle with arousal potential theory, providing a unified explanation of the Wundt curve as an information gain function and proposing an ideal inquiry process driven by epistemic emotions.\n\nInquiry is an essential cognitive process in human activities such as scientific research, creation, and education. American philosopher Charles Sanders Peirce defines inquiry as a cycle of three inferences: abduction, deduction, and induction (Peirce, 1974 ). In the observation of surprising phenomena, abduction infers a possible cause of the observation, deduction predicts unknown effects based on the inferred cause, and induction tests the prediction and updates causal knowledge. A voluntary inquiry process is facilitated by epistemic emotions such as surprise, curiosity, interest, and confusion (Kashdan and Silvia, 2009 ; Vogl et al., 2020 ). Epistemic emotions drive exploratory behavior to obtain new information rather than pursue rewards. For example, psychologist Berlyne proposed epistemic curiosity, which promotes information-seeking behavior. He defined two types of epistemic curiosity: diversive and specific (Berlyne, 1966 ; Silvia, 2012 ). Diversive curiosity seeks novelty; thus, in this type of curiosity, surprise triggers abductive reasoning. On the other hand, specific curiosity drives induction, which seeks evidence of deductive reasoning to resolve confusion.\n\nEmotions are generally mapped onto a dimensional space (Lang, 1995 ; Russell, 1980 ). The most commonly used dimensions are arousal and valence, termed the core affect (Russell, 2003 ). Arousal is the intensity of emotions, whereas valence is the dimension of the positive and negative poles. A recent functional magnetic resonance imaging (fMRI) study showed that arousal and valence are correlated with neural activity in the orbitofrontal cortex and amygdala, respectively (Wilson-Mendenhall et al., 2013 ). The emotional dimensions are not independent, and arousal affects valence. Berlyne's arousal potential theory suggests that an appropriate level of arousal potential induces a positive hedonic response, whereas extreme arousal induces a negative response (Berlyne, 1960 ). Thus, valence forms an inverse U-shaped function of the arousal potential, termed the Wundt curve (see Figure 4 in Berlyne, 1970 ). Berlyne suggests that epistemic curiosity approaches the optimal arousal potential, where the hedonic response (or positive valence) is maximized (Berlyne, 1960 , 1966 ; Silvia, 2012 ).\n\nBerlyne also illustrated a number of arousal potential factors, such as novelty, complexity, and uncertainty (Berlyne, 1960 ). Yanagisawa mathematically explains that the free energy , which is information on the brain's prediction error or Shannon's surprise (hereafter, surprise; Friston et al., 2006 ), represents the",
+  "source_label": "Modeling the arousal potential of epistemic emotions using Bayesian information gain: a framework for inquiry cycles driven by free energy fluctuations",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    264,
+    4458
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "2d223c0ceddb3421a3a8e81ff1b4ae2cc7b0067df5f116fcce889bd56a199847"
+}

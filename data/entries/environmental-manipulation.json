@@ -1,0 +1,64 @@
+{
+  "id": "environmental-manipulation",
+  "term": "environmental manipulation",
+  "definition": "Environmental manipulation means changing outside conditions in an experiment to alter a biological state and see how that change affects a response. In this source, it refers to lowering cholesterol levels through external conditions rather than by direct genetic change.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc3344825"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc3344825",
+      "revision": "2012; DOI 10.1371/journal.pone.0035192; article XML SHA-256 85efc2f0bf3af588c714483f206a982c88a7e66d3cf5588887348aeed50cd791",
+      "scope": "Source record 10.1371/journal.pone.0035192; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0035192"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f2f59a20feb6dee151f1dbedc602b8415e4c9d0a2742b563d6efe9cf44ff7f83",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "5afeb071a7fb4b4ba86baab65efb6cc8",
+    "request_hash": "de5a6203e82d36905b502525816429ea583b22529b3499fdb0b14c60003c0ba5",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "4be697eaddc943e82c52a6bc7671a6ad2c0e2c43bd4b4585c8b13068459d02c7",
+    "packet_hash": "f2f59a20feb6dee151f1dbedc602b8415e4c9d0a2742b563d6efe9cf44ff7f83"
+  },
+  "hash": "41b177f9857ef1ffbbf2be5ca14312e8ebcacedb177f5c1a960b22c7a6cb5a47",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only shows that decreasing cholesterol levels through environmental manipulation had effects similar to decreased TAG levels; it does not define the term as a general experimental method for changing outside conditions to alter a biological state and measure a response.",
+        "The phrase is not supported as meaning “lowering cholesterol levels through external conditions rather than by direct genetic change” in general; that interpretation is an extrapolation beyond the single study context."
+      ],
+      "definition_hash": "4be697eaddc943e82c52a6bc7671a6ad2c0e2c43bd4b4585c8b13068459d02c7",
+      "packet_hash": "f2f59a20feb6dee151f1dbedc602b8415e4c9d0a2742b563d6efe9cf44ff7f83",
+      "published_packet_hash": "f2f59a20feb6dee151f1dbedc602b8415e4c9d0a2742b563d6efe9cf44ff7f83",
+      "receipt_id": "e1a063d871074f92a57e73e4e7fcf062",
+      "request_hash": "fbd29b2e4c920b2a8d5f51e361954362a9928e2751ddc55f9e063844ff9ba12c",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims a general meaning of the term (“changing outside conditions in an experiment to alter a biological state and see how that change affects a response”), but the provided packet only mentions “decreasing cholesterol levels through environmental manipulation” and does not define or justify this broader general characterization of the phrase.",
+        "The definition states “In this source, it refers to lowering cholesterol levels through external conditions rather than by direct genetic change.” The packet supports that cholesterol levels were decreased via “environmental manipulation” and contrasts this with genetic manipulations (e.g., genetic changes affecting TAG levels), but it does not explicitly state the ‘rather than by direct genetic change’ wording or that the cholesterol manipulation is specifically non-genetic in the way the definition implies.",
+        "The definition is not strictly confined to learning-related content: the packet is primarily about acute functional tolerance to ethanol in *C. elegans* and neuronal/lipid mechanisms, with no support that the term is used in a learning-specific sense."
+      ],
+      "definition_hash": "4be697eaddc943e82c52a6bc7671a6ad2c0e2c43bd4b4585c8b13068459d02c7",
+      "packet_hash": "f2f59a20feb6dee151f1dbedc602b8415e4c9d0a2742b563d6efe9cf44ff7f83",
+      "published_packet_hash": "f2f59a20feb6dee151f1dbedc602b8415e4c9d0a2742b563d6efe9cf44ff7f83",
+      "receipt_id": "f9ffd00aa58e4c83a5af4796de17ac6d",
+      "request_hash": "8d98bec46c60983acd02b4e28f7ae6fed0c7a76a6fcddbd4eea562191a616aab",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

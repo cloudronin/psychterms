@@ -148,6 +148,12 @@
       "definition_hash": "4e3967ba900473f7bc5eef46311c8051decad9b59d700fd28035ff4c8a47bb30",
       "reason": "Because the definition’s requested sense/identification (“Abilify” = brand name for aripiprazole) is not supported verbatim by the packet, the definition contains an unsupported claim.; The definition presents a brand-name relationship that is not established in the supplied source packet, so the requested sense is not fully supported.; The packet supports aripiprazole as an atypical antipsychotic and its use for schizophrenia and acute manic or mixed episodes in bipolar I disorder, but it does not support the claim that Abilify is the brand name for aripiprazole.; The packet text does not explicitly state that “Abilify” is the brand name for aripiprazole; it only describes aripiprazole directly (“Aripiprazole has partial agonistic activity…”)."
     },
+    "ability-level": {
+      "status": "reviewed",
+      "term": "ability level",
+      "version": 1,
+      "definition_hash": "098b9568b734791c5bd8456b374d9bca0b9ff5f093a65865727b55c04fbd1ca7"
+    },
     "ability": {
       "status": "judged",
       "term": "ability",
@@ -701,6 +707,12 @@
       "version": 1,
       "definition_hash": "95dd4c4b6db3109d29521451379c66d1198baacef9ace751f1982cd940dae220"
     },
+    "actual-self": {
+      "status": "reviewed",
+      "term": "actual self",
+      "version": 1,
+      "definition_hash": "e766bb52c0407bd538390cc37a9b7c519df75bf03c12408b03a2624da867b240"
+    },
     "actualization": {
       "status": "judged",
       "term": "actualization",
@@ -731,11 +743,24 @@
       "version": 1,
       "definition_hash": "f8a4128e5a5742b30748a6c95321255bf78fdd99714667f0cf9785a743416c2f"
     },
+    "acute-depression": {
+      "status": "dropped",
+      "term": "acute depression",
+      "version": 1,
+      "definition_hash": "0635cfe9d426db045a8844bde9990ebc8038afadf0c9cd6c6e3ab72cafe8fd65",
+      "reason": "The comparison to “elevated MMPI scores across several distress-related and psychopathology-related scales” is supported in substance, but the wording is a broad paraphrase that adds interpretive grouping not stated in the source.; The packet does not provide a definition of “acute depression” as a “current, active state” or explicitly contrast it with “remitted depression” in those terms; it only uses “acute depression” as a study group label.; The packet supports that patients with acute depression showed similarly high MMPI scores on multiple scales, but it does not support the categorization of those scales as specifically “distress-related and psychopathology-related.”; The packet uses “acute depression” as a study group label, but it does not explicitly define the term as a current, active state of depression or contrast it as a clinical sense with remitted depression."
+    },
     "acute-stress-disorder": {
       "status": "judged",
       "term": "acute stress disorder",
       "version": 1,
       "definition_hash": "add52446464dc048abff0469b21586121b518014343c58f159e373a64e742efb"
+    },
+    "acute-tolerance": {
+      "status": "judged",
+      "term": "acute tolerance",
+      "version": 1,
+      "definition_hash": "8b9e8ceaebfd019a835ea5110b3bd4cebd2ec77e2cee59e6a809c8c50a4471f8"
     },
     "ad-litem": {
       "status": "dropped",
@@ -1673,6 +1698,12 @@
       "version": 1,
       "definition_hash": "2a27f593949217c47b266b6e61317f6b2f210364874f8cb64e2fb8226e806d60"
     },
+    "analytic-third": {
+      "status": "judged",
+      "term": "analytic third",
+      "version": 1,
+      "definition_hash": "9c3c799bdbd3491f4989e72b570cbe294016a6ebd0a1a658c1d0c1f7bfb4ae1b"
+    },
     "anaphia": {
       "status": "reviewed",
       "term": "anaphia",
@@ -2231,6 +2262,13 @@
       "version": 1,
       "definition_hash": "ff3a4bc78a31ede07f291edac6de3e990d64ec60103f416775ba75e3af6e54c8"
     },
+    "appetitive-conditioning": {
+      "status": "dropped",
+      "term": "appetitive conditioning",
+      "version": 1,
+      "definition_hash": "131849e6cc3fcda027149bb50c8d4916c850dd11d1fe0322d5a9ae29ba9f9671",
+      "reason": "The packet does not define appetitive conditioning as learning a stimulus becomes associated with reward or an attractive outcome, nor that it tends to be approached or chosen; those are unsupported generalizations.; The packet does not explicitly state that appetitive conditioning is learning that “tends to be approached.” It only describes that CS+ (rewarded) and CS− (non-rewarded) are learned and that “choice following conditioning with a CS+ and a CS− results” from the interaction of excitatory/inhibitory traces.; The packet supports appetitive conditioning only as something used alongside aversion conditioning in a differential conditioning procedure, not as a stated definition or as a ‘positive target’ in the way the definition phrases it.; While the packet supports that appetitive conditioning is used alongside aversion conditioning within a differential conditioning procedure and that the rewarded target (CS+) functions as the positive/excitatory target, the specific phrasing about appetitive conditioning causing approach is not directly supported by the provided text."
+    },
     "applied-behavior-analysis": {
       "status": "reviewed",
       "term": "applied behavior analysis",
@@ -2444,6 +2482,13 @@
       "version": 1,
       "definition_hash": "7df9e73d098b48c20232d9c90f6589e99975e74a5a5f9c673efc84ccd483a122"
     },
+    "arousal-potential": {
+      "status": "dropped",
+      "term": "arousal potential",
+      "version": 1,
+      "definition_hash": "3936933db541f72fc4a2f6c7c7ab082800f52a5e47ff70733530b098996cb6cb",
+      "reason": "The final clause about novelty, complexity, and uncertainty is supported, but the definition should not rely on unsupported definitional framing beyond what the packet states.; The opening gloss, “the capacity of a stimulus or situation to produce emotional arousal,” is not stated in the packet and reads as an added general definition rather than a supported paraphrase.; The packet does not explicitly define *arousal potential* as “the capacity of a stimulus or situation to produce emotional arousal,” so that first substantive claim is not directly supported.; The packet supports Berlyne’s arousal potential theory in relation to hedonic response and the Wundt curve, but it does not explicitly support the broader claim that arousal potential itself is a general capacity of a stimulus or situation.; The packet supports the idea that “an appropriate level of arousal potential” is positive and “extreme arousal” is negative (inverse U/Wundt curve), but it does not clearly specify the valence pattern for “very low” arousal potential versus “very high,” as stated in the definition."
+    },
     "arousal-system": {
       "status": "reviewed",
       "term": "arousal system",
@@ -2644,6 +2689,12 @@
       "term": "associative learning",
       "version": 1,
       "definition_hash": "3b42676711a900e47a89cf7f4b5dc38ca8f8e8679b85a4297ec42a62a5f369dd"
+    },
+    "associative-strength": {
+      "status": "judged",
+      "term": "associative strength",
+      "version": 1,
+      "definition_hash": "d9cc6a02e7fc00d1690cc6960e9e1afdfc5385839c4525e87486ec0441182b36"
     },
     "assonance": {
       "status": "reviewed",
@@ -3232,6 +3283,12 @@
       "version": 1,
       "definition_hash": "ccae1c1d6cd6f3208dc5874608f255de716268f1407174d4190b4fff2be8a995"
     },
+    "aversion-conditioning": {
+      "status": "judged",
+      "term": "aversion conditioning",
+      "version": 1,
+      "definition_hash": "2697c1c7b4c8ce0fec528aa4faabca5ada313f52f091c1d86586eab98d8358db"
+    },
     "aversion-therapy": {
       "status": "judged",
       "term": "aversion therapy",
@@ -3359,6 +3416,12 @@
       "term": "Back Pain",
       "version": 1,
       "definition_hash": "8871008d5b203f7487a133fc2043138669bd75de86255788bbf366b40adb3f55"
+    },
+    "backward-pairing": {
+      "status": "judged",
+      "term": "backward pairing",
+      "version": 1,
+      "definition_hash": "868ce0335a164ccb8576409a25f67de0e310a67e9643bd323d42ccad68e7ae86"
     },
     "baclofen": {
       "status": "judged",
@@ -3539,6 +3602,12 @@
       "definition_hash": "d9d67dfa441d0e43a4ce19883642539354f5fe121fe081262bb746021c61047e",
       "reason": "The definition slightly rephrases the source with extra generalization; it should stay within the narrower scope of the packet rather than adding unsupported therapeutic framing.; The packet definition supports “manipulation… by biomedical, physical, psychological, or social means” but does not state that behavior control can be done for therapeutic purposes; your definition adds “for therapeutic purposes,” which is unsupported by the provided text.; The packet supports manipulation of behavior by biomedical, physical, psychological, or social means, including nontherapeutic uses, but it does not support the added claim that behavior control can be done for therapeutic purposes."
     },
+    "behavior-mapping": {
+      "status": "judged",
+      "term": "behavior mapping",
+      "version": 1,
+      "definition_hash": "0bd31f2cb6f9d7f8904eadb6f87486126e1c958fcfb77881eebeb9bf8542b101"
+    },
     "behavior-modification": {
       "status": "reviewed",
       "term": "behavior modification",
@@ -3581,6 +3650,13 @@
       "version": 1,
       "definition_hash": "f1c37f980397682a15f23fff8e83fbe4e1b8b047ec17fabde5cf3a8a0550e708",
       "reason": "The definition adds purpose/interpretation (“used to look at patterns…in relation to expected responses”) that is not supported by the supplied packet text.; The definition goes beyond the source by turning a brief descriptor into a broader explanatory statement without support.; The packet supports only “Assessment of individual responses to age appropriate stimuli.” It does not mention evaluating “patterns of behavior” or relating behavior to “expected responses.”; The second sentence is not supported by the packet: it adds that the assessment is used to look at patterns of behavior and expected responses, which is not in the source text."
+    },
+    "behavioral-coaching": {
+      "status": "dropped",
+      "term": "behavioral coaching",
+      "version": 1,
+      "definition_hash": "925c964cf3a0c143389a3a46cabf60f9a5e656ea1366dd85fd484af02d92a6f9",
+      "reason": "The definition’s wording (“behavioral coaching,” “work practices,” “other behavior-based activities”) generalizes from the packet’s discussion of coaching broadly and behavioral outcomes, but the packet does not explicitly define “behavioral coaching” as a named approach with those defining characteristics.; The first sentence’s formulation about an approach aimed at producing positive change in behavior is broader than the packet’s evidence, which only says coaching can develop new habits, attitudes, and work practices and that behavioral outcomes were more affected than other outcome types.; The packet discusses *executive coaching* outcomes, not a distinct definition of the term “behavioral coaching,” so the first sentence’s claim that “behavioral coaching is a coaching approach aimed at producing positive change in what people do” is not directly supported by the provided source text.; The packet discusses executive coaching and its behavioral outcomes, but it does not define the term \"behavioral coaching\" as a distinct coaching approach.; The statement generalizes from one meta-analysis of executive coaching to a broad definition of behavioral coaching without support from the source."
     },
     "behavioral-counseling": {
       "status": "judged",
@@ -3817,6 +3893,12 @@
       "version": 1,
       "definition_hash": "7888fa15beabfb0318c9bf26b0d8972fa88456b8f8cdc46afe02624fba12b016"
     },
+    "binaural-masking-level-difference": {
+      "status": "judged",
+      "term": "binaural masking level difference",
+      "version": 1,
+      "definition_hash": "fd71f4c174bdd2760bce753c254fe16d52ff1ccad88377f684897ede8a2596c1"
+    },
     "binaural": {
       "status": "judged",
       "term": "binaural",
@@ -3834,6 +3916,12 @@
       "term": "binge-eating disorder",
       "version": 1,
       "definition_hash": "202632fa8c0a65b38122ff3fa8431ae2a8cd00f0dddc45e56570324664c77830"
+    },
+    "binocular-cue": {
+      "status": "judged",
+      "term": "binocular cue",
+      "version": 1,
+      "definition_hash": "b8b1c5c629579d90428dbd778573b003d065973859e6bb61208b1daf3b824f43"
     },
     "binocular-disparity": {
       "status": "judged",
@@ -4070,11 +4158,23 @@
       "version": 1,
       "definition_hash": "481bedd55e58e28e1331d1a619399499f8f7ef674d8ceb340acf51618ca62e32"
     },
+    "bmld": {
+      "status": "judged",
+      "term": "BMLD",
+      "version": 1,
+      "definition_hash": "cd1cfbc1f31b821c49a380cd7a7b309503bccd2a843cf27e8dfcec493c5e7f48"
+    },
     "body-buffer-zone": {
       "status": "judged",
       "term": "body buffer zone",
       "version": 1,
       "definition_hash": "d6542bd07540230bd21f294e34aa584885a84a3aaecc0e646b18658490c119a2"
+    },
+    "body-image-distortion": {
+      "status": "judged",
+      "term": "body-image distortion",
+      "version": 1,
+      "definition_hash": "ca9bbfaae5c4b45d35b22b5da53e1736e2f5c16dca41b7226c08d6b02adafc02"
     },
     "body-integrity-identity-disorder": {
       "status": "judged",
@@ -4087,6 +4187,12 @@
       "term": "body language",
       "version": 1,
       "definition_hash": "aa34ee683c6145dbf5a98971abcdc7f1352efd4896129a7c6d2760ced2533878"
+    },
+    "body-size-overestimation": {
+      "status": "reviewed",
+      "term": "body-size overestimation",
+      "version": 1,
+      "definition_hash": "a284ed196966fbcc14d25176ad46cba6e66c5d825f58da5e568c81918802156d"
     },
     "body": {
       "status": "judged",
@@ -4372,6 +4478,12 @@
       "version": 1,
       "definition_hash": "087aed67bca3efaee158bd097fe5057b4bc47e0b0cb82dd39e4743f5b239e4c0"
     },
+    "brightness-perception": {
+      "status": "judged",
+      "term": "brightness perception",
+      "version": 1,
+      "definition_hash": "4ae63ce2260b0e573ac61319288bf3d40786ee285d9dd806199666c1faf3d5d2"
+    },
     "brightness": {
       "status": "judged",
       "term": "brightness",
@@ -4573,6 +4685,13 @@
       "version": 1,
       "definition_hash": "fded549db9a3a2e8b60cdc23261ccf67c25298f45add9456f167d796d7f109d7"
     },
+    "cancellation-test": {
+      "status": "dropped",
+      "term": "cancellation test",
+      "version": 1,
+      "definition_hash": "acf43e8271b72f4fd82f1d8f789eadaa77ad3b557933839c5239d0eb9aace1ea",
+      "reason": "The definition claims it is used “particularly in the assessment of attention-related difficulties,” but the packet does not link the cancellation test specifically to attention assessment (it only reports that attention-related symptoms were commonly self-reported and that overall neurocognitive alterations were relevant to attention/working memory, without attributing this to the cancellation test itself).; The definition goes beyond the packet by generalizing from one study to a generic test definition and by implying a specific clinical use that is not established here.; The definition’s explanation of the sense/meaning of “cancellation test” is not directly supported by the packet’s text.; The packet does not support the added characterization that the test is used particularly for attention-related difficulties; it only reports that some participants had persistent attention symptoms and that attention was among the domains of measurable change.; The packet only shows that the Multiple Feature Target Cancellation Test was one of several neuropsychological tests used in a post-COVID-19 study; it does not support the broader definitional claim that a cancellation test is generally a neuropsychological assessment task used to evaluate cognitive function.; The packet only states that the “Multiple Feature Target Cancellation Test” was used as one of several neuropsychological tests in an outpatient assessment; it does not define what a “cancellation test” is, what “target-cancellation measure” means, or the general purpose of cancellation tests."
+    },
     "cannabidiol": {
       "status": "judged",
       "term": "cannabidiol",
@@ -4644,6 +4763,13 @@
       "term": "carbidopa",
       "version": 1,
       "definition_hash": "394327d9bd253f3ccabf67356a088b54faa438d6cdcc5dae5ee96518af1aed85"
+    },
+    "card-sorting-test": {
+      "status": "dropped",
+      "term": "card-sorting test",
+      "version": 1,
+      "definition_hash": "52a4796602819e5bca92416b998630a38afe51b98d5e74ff8341a1c29e4a2fc5",
+      "reason": "The definition generalizes from the specific Berg Card Sorting Test to a generic card-sorting test without support that this sense is the intended entry scope.; The definition states that cards/card-like images are sorted “according to changing rules,” but the provided packet does not explicitly describe changing rules as part of the Berg Card Sorting Test procedure (it only notes that the BCST is like the Wisconsin Card Sorting Test and is administered based on Berg’s procedures, without stating the changing-rule mechanism in the supplied text).; The packet supports a Berg Card Sorting Test as a neurobehavioral test of executive function, but it does not explicitly state that cards are sorted according to changing rules."
     },
     "cardiac-neurosis": {
       "status": "judged",
@@ -5462,6 +5588,12 @@
       "version": 1,
       "definition_hash": "424f0be44c0579a44e36e211c3ae79affc5e9e3052d05aab3ff69de443744cc9"
     },
+    "child-find": {
+      "status": "reviewed",
+      "term": "child find",
+      "version": 1,
+      "definition_hash": "0f34a65a7f10203f9188c50821d0799d7e12dbfb6d11b6bd2726a992650fd0a3"
+    },
     "child-guidance": {
       "status": "dropped",
       "term": "child guidance",
@@ -5480,6 +5612,12 @@
       "term": "child welfare",
       "version": 1,
       "definition_hash": "6ca54799b11b8884918c3655fa08cbd8fdbf9b0e144b6db814e8fdc72a52915d"
+    },
+    "child-with-special-needs": {
+      "status": "judged",
+      "term": "child with special needs",
+      "version": 1,
+      "definition_hash": "4278390df472bcf0a7406883164a0ed348a6dd816643ca4e163e39ef87a944b8"
     },
     "childhood-depression": {
       "status": "judged",
@@ -5867,6 +6005,12 @@
       "version": 1,
       "definition_hash": "b3e4b67912c4bdaf924b187c93a64784a4a330a045a0a8c1995b4b08d09684dd"
     },
+    "clerambaults-syndrome": {
+      "status": "judged",
+      "term": "Clérambault’s syndrome",
+      "version": 1,
+      "definition_hash": "977104c3cfd68092627585599e1334512d875a3274a1f302a5d4c8fafc3fd69d"
+    },
     "climax": {
       "status": "reviewed",
       "term": "climax",
@@ -5910,6 +6054,12 @@
       "definition_hash": "590bb86ebee9a28aeafd68c2dfd2aeb18621a18ebf87423904414f73eb052923",
       "reason": "The definition does not match the supplied term: the packet is for acromegaly, not clinical neurology.; The definition is acceptable only as a description of acromegaly; it is not a definition of the requested term.; The packet content is explicitly for “Acromegaly” (source_label: Acromegaly) and does not support that the term “clinical neurology” should be defined using this text.; The provided definition describes **Acromegaly**, not “clinical neurology.”"
     },
+    "clinical-prediction": {
+      "status": "judged",
+      "term": "clinical prediction",
+      "version": 1,
+      "definition_hash": "96531aa653b12328c9103526e47a77019f2d053fd07d95f92d64111ee7d5e554"
+    },
     "clinical-psychology": {
       "status": "judged",
       "term": "clinical psychology",
@@ -5939,6 +6089,12 @@
       "term": "clonidine",
       "version": 1,
       "definition_hash": "ec59913c60dff4579046ade3db6011ba623697485bd8f59623a206d2d4d67942"
+    },
+    "closed-skill": {
+      "status": "judged",
+      "term": "closed skill",
+      "version": 1,
+      "definition_hash": "d8f53c5e7211d15369dec0171686625e6aae419a4e4f05f7a949dd8775b411e8"
     },
     "closed-system": {
       "status": "reviewed",
@@ -6159,6 +6315,13 @@
       "term": "cognitive behavior therapy",
       "version": 1,
       "definition_hash": "70b785121d3989626ccc5a914dd833a0272a3070e657e384296219b285b0ea39"
+    },
+    "cognitive-behavioral-group-therapy": {
+      "status": "dropped",
+      "term": "cognitive behavioral group therapy",
+      "version": 1,
+      "definition_hash": "ea8aab03b992314c054295ebab2d4a2ff1f42fa1b757cf34af607c0ab9e54e27",
+      "reason": "The claim that cognitive behavioral group therapy uses standard CBT elements such as exposure to feared situations is not directly supported for CBGT in the packet; the exposure example is stated for internet-based CBT, not CBGT.; The definition claims that the in-person form “uses standard CBT elements such as exposure to feared situations,” but the packet only explicitly describes this “exposure to feared situations” component in the context of the Internet-based CBT (ICBT) having the same components as conventional CBT—not specifically for CBGT.; The definition relies on a source-specific effectiveness claim (“well-established and effective”) that is historical study language and should not be presented as current clinical consensus without qualification.; The wording is partly meta-referential (“In the source packet”) rather than a standalone dictionary definition."
     },
     "cognitive-development": {
       "status": "judged",
@@ -6528,6 +6691,18 @@
       "version": 1,
       "definition_hash": "5f565a13e1c2ed103e36dee25a8b57f56e5e3cfad2663790ade3061f49e0afca"
     },
+    "completion-test": {
+      "status": "judged",
+      "term": "completion test",
+      "version": 1,
+      "definition_hash": "d43c9eaba7d736d3671c21bb4e9306bcc49fcfb7956aa0ece96e66891ac40896"
+    },
+    "complex-figure-test": {
+      "status": "reviewed",
+      "term": "Complex Figure Test",
+      "version": 1,
+      "definition_hash": "346728c57c1ab55a6a82d4a9e0e58d85f06777155baa5d01e7762df3d3b89a40"
+    },
     "complex-ideas": {
       "status": "judged",
       "term": "complex ideas",
@@ -6557,6 +6732,12 @@
       "term": "compound eye",
       "version": 1,
       "definition_hash": "da10a3b16a5c3f06f69fcccc97e6c29d546d767021f88d9685686607d6913a58"
+    },
+    "comprehension-test": {
+      "status": "judged",
+      "term": "comprehension test",
+      "version": 1,
+      "definition_hash": "3cf42622180b7a41b4b1a3ef2b4135613b3472c474842a3e65948f17e4cf47ba"
     },
     "comprehension": {
       "status": "judged",
@@ -6630,6 +6811,13 @@
       "term": "concentration",
       "version": 1,
       "definition_hash": "696f9d8ae24f874683f5cbff65c92bd235784cdc8c4e3ae7c8c1f90bf938df5e"
+    },
+    "concept-acquisition": {
+      "status": "dropped",
+      "term": "concept acquisition",
+      "version": 1,
+      "definition_hash": "17803bc81c254103cce304846f46f0e1bddca1525a0045d921221d7dc9f91149",
+      "reason": "Because the key defining characterization in the first sentence is not explicitly supported by the packet, the definition as a whole does not meet the requirement that every substantive claim be supported by the provided source text.; The claim that the source identifies a process of learning words and concepts is broader than the packet’s scope; the text focuses on explanatory factors (input frequency, concreteness/imageability, external modalities, interoceptive features, and social interaction) rather than a definition of concept acquisition itself.; The definition compresses multiple claims into one sentence and reads like a synthesized gloss rather than a source-grounded definition tied to the packet’s specific sense.; The definition’s first sentence claims that “concept acquisition is the process through which words and concepts are learned and come to have meaning in cognitive development.” The packet does not define concept acquisition in these terms; it discusses age of acquisition (AoA), concept grounding/groundability, and meaning acquisition via the symbol grounding problem, but not a definition of concept acquisition as “learning words and coming to have meaning.”; The packet supports discussion of factors affecting age of acquisition and concept groundability, but it does not define concept acquisition as the general process through which words and concepts are learned and come to have meaning in cognitive development."
     },
     "concept-formation": {
       "status": "judged",
@@ -7048,6 +7236,13 @@
       "term": "contradictory representation",
       "version": 1,
       "definition_hash": "84e9ed9f506344d1534f4cf25a725ea89a47834f4c9e29d37d2add2bedaff286"
+    },
+    "contralateral-eye": {
+      "status": "dropped",
+      "term": "contralateral eye",
+      "version": 1,
+      "definition_hash": "153470ee90574fd7234c28253bfa263087ae36a66f40995dbe8c5a8fa4204f5c",
+      "reason": "Because the definition’s first sentence is not directly supported by an explicit statement in the packet, the full requested sense cannot be considered defensibly supported.; The definition adds a broader contrastive statement about visual pathway input that is not explicitly supported by the source text.; The packet supports this term only in the context of retinotopic maps in the visual wulst, not as a general definition for any brain area or neural map.; The packet uses the terms “contralateral eye” and “ipsilateral eye” in experiments on the visual wulst, but it does not explicitly define “contralateral eye” as “the eye on the side opposite to the brain area or neural map being discussed.”"
     },
     "contrast-effect": {
       "status": "judged",
@@ -7540,11 +7735,23 @@
       "version": 1,
       "definition_hash": "633c02d78de7d6d86b9be4dd7a064237d703dd461b4d95ffea45a5284d92b422"
     },
+    "cross-modal-matching": {
+      "status": "reviewed",
+      "term": "cross-modal matching",
+      "version": 1,
+      "definition_hash": "e9826972db6956b9024371a333b66f7e1bdca44dc5eb0cff8fa13b6a5ac94622"
+    },
     "cross-tolerance": {
       "status": "reviewed",
       "term": "cross-tolerance",
       "version": 1,
       "definition_hash": "3fcd2b514ac95ef6120293a312b228ff3df4b1c4b3b7dd9b69c3706d14e27fe4"
+    },
+    "crossed-disparity": {
+      "status": "reviewed",
+      "term": "crossed disparity",
+      "version": 1,
+      "definition_hash": "ca5a4b59d2244c8b8accf57c879ce5e450bb44471cee86559a040af63fb9476f"
     },
     "crowd": {
       "status": "reviewed",
@@ -7848,6 +8055,12 @@
       "version": 1,
       "definition_hash": "5d5b13d9e48dad1ca9d26ed07907fff375bff922328ddf52eda06fc50e183432"
     },
+    "de-clerambaults-syndrome": {
+      "status": "judged",
+      "term": "de Clérambault’s syndrome",
+      "version": 1,
+      "definition_hash": "2ada6ba03ea06d017814000c0fb07594f98e71b90260450a2b60bf82e7911db7"
+    },
     "de-lange-syndrome": {
       "status": "judged",
       "term": "de Lange syndrome",
@@ -8091,6 +8304,12 @@
       "definition_hash": "2bcdaf5eb4b74c8c4668312b53fb2988b2d9f7b7d3c0e5722c9f8e980fff72ab",
       "reason": "The packet does not explicitly support the claim that “dementia praecox” is a *historical term*; it only provides a descriptor that is labeled under “Schizophrenia” and describes characteristic features.; The packet supports the symptom description and the schizophrenia label, but it does not support the claim that this is a historical term for schizophrenia."
     },
+    "dementia-rating-scale": {
+      "status": "reviewed",
+      "term": "Dementia Rating Scale",
+      "version": 1,
+      "definition_hash": "ecfce37e826c17b7e615367d6ac68ca0eb5b10f98643f2ab0d9255144094d63d"
+    },
     "dementia": {
       "status": "reviewed",
       "term": "dementia",
@@ -8319,6 +8538,12 @@
       "version": 1,
       "definition_hash": "2408d187fac361c41dcabdd853d20e91d9751741b410991997b2edae93d2065a"
     },
+    "design-fluency-test": {
+      "status": "judged",
+      "term": "design fluency test",
+      "version": 1,
+      "definition_hash": "22f0db30c59e118fa6c78f512dcd1db018ac3687a3378fffe75586c71038efab"
+    },
     "desipramine": {
       "status": "judged",
       "term": "desipramine",
@@ -8476,6 +8701,13 @@
       "version": 1,
       "definition_hash": "e5cc40c1f86ba31d794af91acc4fb0299aebd2cc9a53bd09db2ea07c7c92cbaf",
       "reason": "The claim that it is used as a reference for diagnosis is not supported by the packet; the packet only describes it as a categorical classification of mental disorders based on criteria sets with defining features.; The definition omits the packet’s explicit point that it is “produced by the American Psychiatric Association,” which is a substantive mismatch, and the missing/changed details are not recoverable from the packet.; The packet states it is a “categorical classification of MENTAL DISORDERS based on criteria sets with defining features,” but it does not explicitly support the claim that it “is used as a reference for diagnosis.”"
+    },
+    "diagnosticity": {
+      "status": "dropped",
+      "term": "diagnosticity",
+      "version": 1,
+      "definition_hash": "cf5ec35ab53803f7fc5fd11090d9491a7fd811b48c6685643ff1c711ab046640",
+      "reason": "The assigned field ‘biological’ is not supported by the source packet, which is in psychology/psycholinguistics.; The definition discusses “color-diagnosticity” in terms of a typical color vs many colors, which matches the packet’s HCD vs LCD examples, but the first sentence’s framing (“helps identify or represent”) is not directly supported.; The definition’s broader wording about helping “identify or represent an object or concept” goes beyond what is stated in the packet, which focuses on whether color is a core conceptual component for high color-diagnostic objects.; The definition’s generalization that diagnosticity “means how strongly a particular feature helps identify or represent an object or concept” is broader than what the packet explicitly states. The packet specifically describes that a “core conceptual component” (e.g., color) is strongly associated with a typical color for HCD objects and less so for LCD objects, and relates this to effects on lexical access; it does not directly define diagnosticity in terms of “identifying or representing” objects/concepts in general.; The packet supports color-diagnosticity in a language-production/ERP study, not the broader general definition of diagnosticity across arbitrary features and objects."
     },
     "dialectic": {
       "status": "judged",
@@ -8760,6 +8992,12 @@
       "term": "discipline",
       "version": 1,
       "definition_hash": "600f594ec35aab3c25386b48dbb030a0ca903510b43d73df62a34a755de9eaa4"
+    },
+    "discontinuity-hypothesis": {
+      "status": "judged",
+      "term": "discontinuity hypothesis",
+      "version": 1,
+      "definition_hash": "eb0d50465eba6cdb142df560f481ef4ad90a0d5a870ece25daad0e8118a15719"
     },
     "discourse": {
       "status": "reviewed",
@@ -9280,6 +9518,12 @@
       "term": "double personality",
       "version": 1,
       "definition_hash": "925429a39c31d3e715cefb82abdf85cd8348651fe8b5808fa179dad8801ae24b"
+    },
+    "double-simultaneous-stimulation": {
+      "status": "reviewed",
+      "term": "double-simultaneous stimulation",
+      "version": 1,
+      "definition_hash": "eb37d9c8a0be54c7785a2a872229f610a38ddae3861b61aabeb17b360c210747"
     },
     "double-standard": {
       "status": "dropped",
@@ -9886,6 +10130,12 @@
       "version": 1,
       "definition_hash": "c53a7723e5f60087accbe85d50212377fb3f38da94f57cffe4341427adc5e622"
     },
+    "ego-integrity-versus-despair": {
+      "status": "reviewed",
+      "term": "ego integrity versus despair",
+      "version": 1,
+      "definition_hash": "cab78abf4e1756e62797267146569be8f3a9f8d2f7baa41b89402ceef6c5699c"
+    },
     "ego-state": {
       "status": "judged",
       "term": "ego state",
@@ -10207,6 +10457,12 @@
       "version": 1,
       "definition_hash": "6c127e5882b5f01a0262881f54e037913de7e17d5d39ac0a278770ba3e6b0a1e"
     },
+    "empirical-grounding": {
+      "status": "reviewed",
+      "term": "empirical grounding",
+      "version": 1,
+      "definition_hash": "b64997a163d9954000b276d52f875ab1422e13baf457409fe421c65deb093150"
+    },
     "empirical-knowledge": {
       "status": "reviewed",
       "term": "empirical knowledge",
@@ -10411,6 +10667,13 @@
       "term": "environmental justice",
       "version": 1,
       "definition_hash": "dc119a62601158f466ed5298f64f09f2b337755e68a2b6459cc40df6731c3f2b"
+    },
+    "environmental-manipulation": {
+      "status": "dropped",
+      "term": "environmental manipulation",
+      "version": 1,
+      "definition_hash": "8d1cd79098ded3897f9faa097d0037521ec8cf6b84682fd988e185c748d8a008",
+      "reason": "The definition claims a general meaning of the term (“changing outside conditions in an experiment to alter a biological state and see how that change affects a response”), but the provided packet only mentions “decreasing cholesterol levels through environmental manipulation” and does not define or justify this broader general characterization of the phrase.; The definition is not strictly confined to learning-related content: the packet is primarily about acute functional tolerance to ethanol in *C. elegans* and neuronal/lipid mechanisms, with no support that the term is used in a learning-specific sense.; The definition states “In this source, it refers to lowering cholesterol levels through external conditions rather than by direct genetic change.” The packet supports that cholesterol levels were decreased via “environmental manipulation” and contrasts this with genetic manipulations (e.g., genetic changes affecting TAG levels), but it does not explicitly state the ‘rather than by direct genetic change’ wording or that the cholesterol manipulation is specifically non-genetic in the way the definition implies.; The packet only shows that decreasing cholesterol levels through environmental manipulation had effects similar to decreased TAG levels; it does not define the term as a general experimental method for changing outside conditions to alter a biological state and measure a response.; The phrase is not supported as meaning “lowering cholesterol levels through external conditions rather than by direct genetic change” in general; that interpretation is an extrapolation beyond the single study context."
     },
     "environmental-psychology": {
       "status": "judged",
@@ -10895,6 +11158,12 @@
       "version": 1,
       "definition_hash": "af65a27ecd5c70713c79fa45948855a58e2f2917da187865a9a610eb8784c4c2"
     },
+    "excitatory-conditioning": {
+      "status": "judged",
+      "term": "excitatory conditioning",
+      "version": 1,
+      "definition_hash": "7b51524e8614e52fc0c09c4e74ec2f60a797079bb8585eff223e58688d6a8b38"
+    },
     "excitatory-neurotransmitter": {
       "status": "reviewed",
       "term": "excitatory neurotransmitter",
@@ -10912,6 +11181,12 @@
       "term": "excitement",
       "version": 1,
       "definition_hash": "e794f5c82f7705679a757edf0bd8671c9e6f947995e26f4c5d486e12a5cd7aa5"
+    },
+    "executive-coaching": {
+      "status": "judged",
+      "term": "executive coaching",
+      "version": 1,
+      "definition_hash": "86b434b7c9dcb4e739408c507cbcffc5520edc581fc9f0924116a3c616da2e76"
     },
     "executive-dysfunction": {
       "status": "judged",
@@ -10978,6 +11253,13 @@
       "term": "exorcism",
       "version": 1,
       "definition_hash": "9a9f54c01ade52ee1aea48e93a9f55b654801ca3149a79359103cf3bd420ba65"
+    },
+    "exosystem": {
+      "status": "dropped",
+      "term": "exosystem",
+      "version": 1,
+      "definition_hash": "24a249ba3f1726c86b71ad14e14301c650bd966fb78217a43109bd7ebe3aca42",
+      "reason": "The definition’s second sentence claims these exosystem conditions “can influence family and parenting experiences,” but the packet only reports that exosystem-organizational/community factors (e.g., number of children in the household, neighborhood, hours spent with children, child’s illness/behavior problems, social support) were identified as associated with parental burnout; it does not explicitly support broader wording about influencing “family and parenting experiences.”; The packet supports exosystem as the organizational/community level in Ecological Systems Theory, but it does not support listing “household” as an exosystem condition.; “Time demands” is not stated in the packet; the closest supported wording is the number of hours spent with children."
     },
     "exotropia": {
       "status": "judged",
@@ -11312,6 +11594,12 @@
       "term": "false positive",
       "version": 1,
       "definition_hash": "f88908c2d7ee0a8f74f49ed4b1c44303c1bf7ee809c0b78e6fb59be007d0b7ce"
+    },
+    "false-rejection": {
+      "status": "judged",
+      "term": "false rejection",
+      "version": 1,
+      "definition_hash": "fa4e01bd5d503a2e676ab8f7eb806e6462287cf398125d6c8565d9a1b47ce859"
     },
     "familial-dysautonomia": {
       "status": "judged",
@@ -11678,6 +11966,12 @@
       "version": 1,
       "definition_hash": "f8ab3316a865819e4f4210a5beee8a80bdd7e100209b6e7299c8133cbbcc2b16"
     },
+    "fluent-speech": {
+      "status": "reviewed",
+      "term": "fluent speech",
+      "version": 1,
+      "definition_hash": "4b7ad7156231cecf8cc982d5c557bf6aee5a6b5442cf6867cfa3cba5609d3487"
+    },
     "flumazenil": {
       "status": "judged",
       "term": "flumazenil",
@@ -11824,6 +12118,12 @@
       "version": 2,
       "definition_hash": "19cc659f21dc9ec05c7ce15666d9446a4fed809b104881091bfb06ae7936d9ff"
     },
+    "form-discrimination": {
+      "status": "judged",
+      "term": "form discrimination",
+      "version": 1,
+      "definition_hash": "39fc3d6337e69a92b6b971ac824c71d267be4cb682c21330537ed14b18314954"
+    },
     "form-perception": {
       "status": "judged",
       "term": "form perception",
@@ -11865,6 +12165,12 @@
       "term": "formication",
       "version": 1,
       "definition_hash": "d16ad5a4d7e2e833d4441856955780d4de6636a8be8db35421ece6ef6f6b1d30"
+    },
+    "forward-pairing": {
+      "status": "judged",
+      "term": "forward pairing",
+      "version": 1,
+      "definition_hash": "e15799d7b0e4142265d24963b9fc18acaf611f1839fd60615c53f9a86d650fc8"
     },
     "fourth-cranial-nerve": {
       "status": "judged",
@@ -12021,6 +12327,13 @@
       "term": "fulfillment",
       "version": 1,
       "definition_hash": "e95be0ad7c2082c3786149fa3fb4ad18dfd9180957375c3f2a0e152e86864932"
+    },
+    "fun-seeking": {
+      "status": "dropped",
+      "term": "fun-seeking",
+      "version": 1,
+      "definition_hash": "eff953b17b134800f75156ccb7d96ffa1dedc37081a83cdf0e372298dae9ee62",
+      "reason": "The definition frames the term within the field “diagnosis,” but the packet presents fun-seeking as part of reinforcement sensitivity linked to alcohol misuse outcomes (e.g., risky single-occasion drinking and alcohol use disorder), not as a diagnostic concept or diagnostic criterion.; The definition’s first sentence states that fun-seeking “reflects sensitivity to rewarding, positively reinforcing experiences,” but the packet only describes BAS as including “fun seeking, drive, reward responsiveness” as distinct neurobiological systems, and does not explicitly define fun-seeking in terms of sensitivity to rewarding/positively reinforcing experiences.; The first sentence goes beyond the packet by defining fun-seeking as “sensitivity to rewarding, positively reinforcing experiences”; the source only identifies fun seeking as a BAS facet and does not explicitly define it that way.; The wording “behavioral activation system” and the reward-sensitivity description are generalized from the broader BAS framework rather than specifically supported for fun-seeking in the packet."
     },
     "function": {
       "status": "judged",
@@ -12285,6 +12598,13 @@
       "term": "general adaptation syndrome",
       "version": 1,
       "definition_hash": "a5636e73bda330ddb4c288ddd83d9bd5d92940ccb7b27ba731d33e2697ad92b4"
+    },
+    "general-aptitude": {
+      "status": "dropped",
+      "term": "general aptitude",
+      "version": 1,
+      "definition_hash": "3c6aad4330eb221bc412331c65491ccc5f94d232fbce08220b6cb92fa02e28b3",
+      "reason": "The claim that, in this packet, it “refers to the mix of abilities assessed in an admission test” is only indirectly supported: the packet discusses a “Post-Graduate General Aptitude Test (PGAT)” with subtests (verbal, quantitative, logical) and DIF for “PGAT items,” but it does not explicitly define “general aptitude” as that mix.; The definition adds a general psychometric gloss (“overall capacity”) that is not stated in the packet and is broader than the source evidence.; The packet does not provide a definition of “general aptitude” as an “overall capacity to perform across broad ability areas” (that phrasing is not supported in the supplied text).; The packet supports that PGAT/general aptitude testing includes verbal, quantitative, and logical ability areas, but it does not explicitly define “general aptitude” as a person’s overall capacity across broad ability areas rather than a single skill.; The provided definition’s wording includes interpretation (“rather than in one specific skill”) that is not stated in the packet.; The source supports an admission-test context, but not a full dictionary-level definition of the term’s meaning beyond the specific PGAT usage described here."
     },
     "general-paresis": {
       "status": "judged",
@@ -12722,6 +13042,12 @@
       "term": "grief",
       "version": 1,
       "definition_hash": "8ed9243ead1a3504b2821e6cde946507ec948caa6502b50d0fc65c73d3743c0b"
+    },
+    "grit-scale": {
+      "status": "judged",
+      "term": "Grit Scale",
+      "version": 1,
+      "definition_hash": "70c54590fbaf7dcba9f00b953d4ff3194a1d40929cd2c81c332df9a47103ecaf"
     },
     "grooming": {
       "status": "reviewed",
@@ -13204,6 +13530,12 @@
       "term": "help-seeking behavior",
       "version": 1,
       "definition_hash": "63d8d4666f1f31c01abbb5bc91264fff1438b76459737180115bf788a09e36f6"
+    },
+    "helping-professions": {
+      "status": "judged",
+      "term": "helping professions",
+      "version": 1,
+      "definition_hash": "0eb54a2adff872ca472b059bfa30476ce2951c9895e3d5b849d2fff918280794"
     },
     "hemeralopia": {
       "status": "judged",
@@ -14110,6 +14442,18 @@
       "version": 1,
       "definition_hash": "41a57566e6717b2b7a5258d664366bba4a4d3b97ed79f8f0334dfec81662ff94"
     },
+    "ideomotor-principle": {
+      "status": "judged",
+      "term": "ideomotor principle",
+      "version": 1,
+      "definition_hash": "2acf6ccaa83135650471a193f89c20591cb66ea5a426c4aace520e1032977b48"
+    },
+    "ideomotor-theory": {
+      "status": "judged",
+      "term": "ideomotor theory",
+      "version": 1,
+      "definition_hash": "79933010beae16c57e4ff2fb9b91ca7e59937e766730fd78c1756ff4bbddcfb4"
+    },
     "idiocy": {
       "status": "judged",
       "term": "idiocy",
@@ -14462,6 +14806,12 @@
       "version": 1,
       "definition_hash": "035866e6377fc8173a0df18fb70ebf339d45f202288731ae42c2061d829aac9e"
     },
+    "individuals-with-disabilities-education-act": {
+      "status": "judged",
+      "term": "Individuals With Disabilities Education Act",
+      "version": 1,
+      "definition_hash": "523fbb6bd44cc2ea20bd693e5021ffa679f9cecace05d3c05a995bd2d149d337"
+    },
     "individuation": {
       "status": "judged",
       "term": "individuation",
@@ -14564,6 +14914,12 @@
       "term": "inhalant abuse",
       "version": 1,
       "definition_hash": "9c2bc45c168fdb6c7284aedb33a1a47f7d9bb0b2570f3e9e93ea65c5aca44b5b"
+    },
+    "inhibitory-conditioning": {
+      "status": "judged",
+      "term": "inhibitory conditioning",
+      "version": 1,
+      "definition_hash": "a8b97f9492f90e081e5b3a2a87c2cfeee0fd3b20902890523066024e2114fa27"
     },
     "inhibitory-synapse": {
       "status": "judged",
@@ -14709,6 +15065,13 @@
       "version": 1,
       "definition_hash": "3e224f497434512490e4511e05c0bf4139784fe50cc119c9087fc4a50815b5ca"
     },
+    "integrity-versus-despair": {
+      "status": "dropped",
+      "term": "integrity versus despair",
+      "version": 1,
+      "definition_hash": "79509a7c41b7f8529d68b20187868744056f961f46d6835c097b93db06ed9193",
+      "reason": "The definition’s description of “despair” (that it involves “struggling to reach that sense of meaning or completion”) is not explicitly supported by the supplied packet text. The packet discusses ego integrity and related qualities (e.g., evaluating life as coherent/meaningful; accepting successes and failures; self-acceptance; inner peace; integrated narrative), but it does not provide a corresponding explanation of despair.; The description of despair is not directly supported by the packet; the source explains ego integrity as accepting one’s life as valuable, coherent, and meaningful, but it does not define despair as “struggling to reach that sense of meaning or completion.”"
+    },
     "intellectual-disability": {
       "status": "judged",
       "term": "intellectual disability",
@@ -14751,6 +15114,12 @@
       "term": "intelligence",
       "version": 1,
       "definition_hash": "4f17efece90fdcc19450e5e9fad36d6e76997d72cfb93dad338feeb398a85532"
+    },
+    "intensive-psychotherapy": {
+      "status": "reviewed",
+      "term": "intensive psychotherapy",
+      "version": 1,
+      "definition_hash": "db62eec5167cd51e5420d4ca6b45cccb25019742ff6cce9e8be5dcc2ad4f3d0d"
     },
     "intention": {
       "status": "judged",
@@ -14801,6 +15170,12 @@
       "version": 1,
       "definition_hash": "e528e2bb5bc6b4fd9a5859567eb51c624cf6950f5fa3b600e110e08ee2ae0183"
     },
+    "internal-attribution": {
+      "status": "reviewed",
+      "term": "internal attribution",
+      "version": 1,
+      "definition_hash": "f420de7ac4d91886078f98678b8c5693b89bddbce153b9436fd2938a6602bbdf"
+    },
     "internal-capsule": {
       "status": "judged",
       "term": "internal capsule",
@@ -14837,6 +15212,12 @@
       "version": 1,
       "definition_hash": "e634b713273efe664692c0f0c784a56111a8794119b68677bc8d5327b9ddf3c7"
     },
+    "interpersonal-process-recall": {
+      "status": "judged",
+      "term": "interpersonal process recall",
+      "version": 1,
+      "definition_hash": "01cbf05a961f8650940de847a3dced705904d681110ed9736f53befa2dce997a"
+    },
     "interpersonal-psychotherapy": {
       "status": "judged",
       "term": "Interpersonal Psychotherapy",
@@ -14860,6 +15241,12 @@
       "term": "interquartile range",
       "version": 1,
       "definition_hash": "96cb3d56104b77798bdb407bb4ae66a94d9a10676dc819370ac524dc47dbbf27"
+    },
+    "intersensory-perception": {
+      "status": "reviewed",
+      "term": "intersensory perception",
+      "version": 1,
+      "definition_hash": "b9f151182fc7ea9925345a968410f05475941151363cd1db0991281211b39dae"
     },
     "interval-estimate": {
       "status": "dropped",
@@ -15005,6 +15392,12 @@
       "term": "ip",
       "version": 1,
       "definition_hash": "f867a45bab4aa98f8778f76aaed3ff028fa75065c90c5b106760182bab79e9cb"
+    },
+    "ipsilateral-eye": {
+      "status": "reviewed",
+      "term": "ipsilateral eye",
+      "version": 1,
+      "definition_hash": "cae2cdf7a5159ed40d4a8e7ef4411393b9142ee3cd49f35e3f6adc4db7551874"
     },
     "ipsp": {
       "status": "judged",
@@ -15200,6 +15593,24 @@
       "term": "Kemadrin",
       "version": 1,
       "definition_hash": "f269641e332fc973876e1fb155519f48c90a3bff71f1166a5add00c3a9fbd627"
+    },
+    "kendalls-coefficient-of-concordance": {
+      "status": "reviewed",
+      "term": "Kendall’s coefficient of concordance",
+      "version": 1,
+      "definition_hash": "7dfa4b0b6abd71de85038f1acf81a6816b9f50d359fdc84a13a8c69261bb8e87"
+    },
+    "kendalls-tau": {
+      "status": "reviewed",
+      "term": "Kendall’s tau",
+      "version": 1,
+      "definition_hash": "61ade29e820e59a3fe593130ea388cbad60fb596728827d01b6e46a1caad48cc"
+    },
+    "kendalls-w": {
+      "status": "reviewed",
+      "term": "Kendall’s W",
+      "version": 1,
+      "definition_hash": "5c8a8bbedcaa1154e3eadb71d3e3393e2bc26f5f89693850b0b4048cf0ecf3c0"
     },
     "keratoconus": {
       "status": "judged",
@@ -15837,6 +16248,13 @@
       "definition_hash": "837db2e7645244e7c2743a451583f44f9e4217dd108446d36f29b25f52e50f37",
       "reason": "The definition states that light sensitivity “can appear with … neurological conditions such as migraine and meningitis,” but the packet does not characterize migraine or meningitis as “neurological” conditions; it only lists them among disorders associated with photophobia.; The packet supports abnormal sensitivity to light/photophobia, but it does not support the broad category “neurological conditions”; it only lists eye diseases, migraine, subarachnoid hemorrhage, meningitis, and other disorders.; “Can appear with eye and neurological conditions” is broader than the source text and adds an unsupported clinical grouping."
     },
+    "lightness-constancy": {
+      "status": "dropped",
+      "term": "lightness constancy",
+      "version": 1,
+      "definition_hash": "90b4db164f52f7b6867a0a46480b0d1aa128c694094b6396ba13788f0d5585f6",
+      "reason": "Parts of the definition are not supported by the packet, including the claim about “changes in viewing conditions” altering the light reaching the eye; the packet discusses depth perception and retinal-image invariance in specific experiments rather than changes in viewing conditions.; The definition adds a broad generalization about stable appearance across changing viewing conditions that is not stated in the packet; the packet specifically discusses depth inversion and perceived spatial position, not lightness constancy under viewing-condition changes in general.; The definition’s phrasing about “relatively stable” perceived surface shade/reflectance is not directly stated in the packet; the packet discusses principles/assumptions (e.g., coplanar ratio) and empirical findings, not a concise behavioral definition of constancy.; The packet does not provide an explicit definition of “lightness constancy” as a general “tendency” to perceive surface shade/reflectance as stable; it only notes that some studies interpreted depth-inversion results “in terms of lightness constancy.”; The second sentence is awkwardly framed as an in-packet claim rather than a definition, and it is not clearly original to the source packet’s wording."
+    },
     "likert-scale": {
       "status": "reviewed",
       "term": "Likert scale",
@@ -16097,6 +16515,12 @@
       "version": 1,
       "definition_hash": "2e543bdbfca729ecd80599ed45757ab25e5e1e55398a437624729442d8f1e4fb"
     },
+    "lords-paradox": {
+      "status": "judged",
+      "term": "Lord’s paradox",
+      "version": 1,
+      "definition_hash": "62b1abc737e5756ea1126275640a2dade2cd731e21a8bac2215ba4ffd75271b9"
+    },
     "lou-gehrigs-disease": {
       "status": "judged",
       "term": "Lou Gehrig’s disease",
@@ -16243,6 +16667,12 @@
       "version": 1,
       "definition_hash": "547c65c88457fd96e2291741e193b248698e6671dd142b0ff17a514fc93624be"
     },
+    "mach-card": {
+      "status": "judged",
+      "term": "Mach card",
+      "version": 1,
+      "definition_hash": "930867dc448c3ddcf15a75fc871272b434b45de53a8cc6b4eea96c7e739d0335"
+    },
     "machiavellianism": {
       "status": "judged",
       "term": "Machiavellianism",
@@ -16267,6 +16697,13 @@
       "term": "macropsia",
       "version": 1,
       "definition_hash": "89bd44e98f4d8348f5be65b4926b3311f61f95f9d16d700379fe26be165ebdf4"
+    },
+    "macrosystem": {
+      "status": "dropped",
+      "term": "macrosystem",
+      "version": 1,
+      "definition_hash": "a8203d7cfaf1dc2491f33b2ae913b5a590e4a33399c7622a53f3afadc68d7c7a",
+      "reason": "The added contrast with “beyond immediate family, community, or policy settings” is not supported; the packet places policy at the exosystem level, but does not define macrosystem by excluding those settings or by extending the sense to broader mental-health coping in that phrasing.; The definition’s phrasing about “shared cultural values and wider belief systems” is partly consistent with “cultural values and systemic belief structures,” but the added claims about scope (“beyond immediate family, community, or policy settings”) are not substantiated by the provided text.; The packet only explicitly characterizes the macrosystem as “cultural values and systemic belief structures.” The definition adds additional framing not supported in the packet, including that it is “the broadest level of influence,” and that it shapes people’s experiences/responses “beyond immediate family, community, or policy settings.”; The packet supports macrosystem-level cultural values and systemic belief structures, but it does not explicitly support calling this the broadest level or stating that it shapes people’s experiences and responses in that general way."
     },
     "macula-lutea": {
       "status": "judged",
@@ -16298,11 +16735,23 @@
       "version": 1,
       "definition_hash": "3f33ea22d087f88cb39be07b3ed117d33bb416f2feacba2bdc2c8ae73a6cf6bf"
     },
+    "magical-number": {
+      "status": "reviewed",
+      "term": "magical number",
+      "version": 1,
+      "definition_hash": "480a6f24eb5dc9ad1d386357d9e1404ff1c28b5b02fda9bb1617d94e9b9ea841"
+    },
     "magnetoencephalography": {
       "status": "judged",
       "term": "magnetoencephalography",
       "version": 1,
       "definition_hash": "1cad8cc8f60473420f57fe3dc4453bf4fee8dbaff8dfd6298538ad3a63082517"
+    },
+    "magnitude-production": {
+      "status": "judged",
+      "term": "magnitude production",
+      "version": 1,
+      "definition_hash": "b4980ace895d12d99f9c5a11eeaa48f704c10125e1159449d9c177765cbadbfe"
     },
     "main-effect": {
       "status": "judged",
@@ -16480,6 +16929,12 @@
       "version": 1,
       "definition_hash": "26ab51e32b3f0948b9b3f106c95356353411d29ae1a19e79312546c74298dd42"
     },
+    "masking-level-difference": {
+      "status": "judged",
+      "term": "masking level difference",
+      "version": 1,
+      "definition_hash": "afd44ba69ffe719ebf0e0097dd35ba24e9fd91f0cbc0f47daf2c173b8c29e233"
+    },
     "masochism": {
       "status": "reviewed",
       "term": "masochism",
@@ -16612,6 +17067,13 @@
       "term": "mechanical causality",
       "version": 1,
       "definition_hash": "04aa9d9358003fdb0a7b2e1daacdc6e5dd6b77a260e3bb3e4f1cb45b8d4926a0"
+    },
+    "mechanistic-theory": {
+      "status": "dropped",
+      "term": "mechanistic theory",
+      "version": 1,
+      "definition_hash": "66da6f86ca007f787b97ce82ba09bdaa2c886d51a33c781be0f74f4d213c62a8",
+      "reason": "The definition attributes particular explanatory scope to the mechanistic theory (“explains how words and concepts are acquired”) beyond what the packet explicitly supports, since the packet does not provide a concrete description of what processes the mechanistic theory uses to explain acquisition.; The definition specifies that bodily experience is grounded “across external and internal modalities.” While the packet discusses grounding in external modalities and the importance of interoceptive/internal features, it does not directly tie this particular “mechanistic theory” to grounding across external and internal modalities in those exact terms.; The packet does not state that the proposed mechanistic theory specifically “explains how words and concepts are acquired by describing the processes involved.” It only says the authors “present a mechanistic theory of conceptual representation” that can account for groundability and for variability in age of acquisition, in addition to existing variables.; The packet only says the authors “present a mechanistic theory of conceptual representation” that can account for groundability and existing variables in concept acquisition; it does not support the definition’s claim that this theory specifically explains how words and concepts are acquired by detailing the processes involved.; The packet supports grounding in external and internal modalities as part of the paper’s broader argument, but not as the defining content of “mechanistic theory” itself.; The phrasing overgeneralizes the theory into a broader account of conceptual representation and embodiment than the source explicitly provides."
     },
     "mechanoreceptor": {
       "status": "judged",
@@ -17150,6 +17612,12 @@
       "version": 1,
       "definition_hash": "35e7257cb79c234e8491e371ecbe28a52b970fc6f802cfdc30740cb3b5088e4d"
     },
+    "mesosystem": {
+      "status": "judged",
+      "term": "mesosystem",
+      "version": 1,
+      "definition_hash": "f9b1b8a875a49a7f49db7aa93996c03ee8b26c585cc96f533e65c1d0b373fe0c"
+    },
     "metabolic-encephalopathy": {
       "status": "judged",
       "term": "metabolic encephalopathy",
@@ -17252,6 +17720,12 @@
       "version": 1,
       "definition_hash": "e37b69a2bf4a2c65fef0803512da1d32ebaa712e0f41fc362084cddbf753717b"
     },
+    "method-of-constant-stimuli": {
+      "status": "judged",
+      "term": "method of constant stimuli",
+      "version": 1,
+      "definition_hash": "0193edc876274225dbc1e7cc77db797269ffb7b4554f73972149fa4f2da31c8a"
+    },
     "method-of-difference": {
       "status": "reviewed",
       "term": "method of difference",
@@ -17269,6 +17743,12 @@
       "term": "method of right and wrong cases",
       "version": 1,
       "definition_hash": "c13dcef7a29bf30f7b76375792181ca2c4b51456cc02625b8d3373a0d90e3ca0"
+    },
+    "method-of-triads": {
+      "status": "judged",
+      "term": "method of triads",
+      "version": 1,
+      "definition_hash": "f0e83905f645e8b5cd6f05746bd54e5efc5b191d70487fc6524fd1d93b40b200"
     },
     "methotrimeprazine": {
       "status": "reviewed",
@@ -17571,6 +18051,12 @@
       "term": "Mixed Dementias",
       "version": 1,
       "definition_hash": "5a1b8685b2874ba3963cc33274346ea2d301e652c04890eabfbf7e7e218a242e"
+    },
+    "mixed-design": {
+      "status": "judged",
+      "term": "mixed design",
+      "version": 1,
+      "definition_hash": "f2304f84518e63adeb56931a749e2fe71338ff616796e355eeb51173b21c8b7d"
     },
     "mixed-receptive-expressive-language-disorder": {
       "status": "judged",
@@ -18472,6 +18958,12 @@
       "version": 1,
       "definition_hash": "f1b3c696e19bddc442b130979d0933bc5d5a233c1b6f410bdf53135911df97c9"
     },
+    "negative-adaptation": {
+      "status": "reviewed",
+      "term": "negative adaptation",
+      "version": 1,
+      "definition_hash": "e4039508c370a6ba628d4d34a2ad3402cad349e163d94f13adfb923cb0acadf7"
+    },
     "negative-attitude": {
       "status": "judged",
       "term": "negative attitude",
@@ -18525,6 +19017,12 @@
       "term": "negativistic personality disorder",
       "version": 1,
       "definition_hash": "9407fb84b85bf9c21f8a8002c410d7bf16014c475f86df2922041c896e0b57a2"
+    },
+    "neglect-dyslexia": {
+      "status": "judged",
+      "term": "neglect dyslexia",
+      "version": 1,
+      "definition_hash": "2aa0f9d2f9bc2c76d00551436af3e7c03a5029dff2a335e52832818a327c05b9"
     },
     "negligence": {
       "status": "judged",
@@ -18932,6 +19430,12 @@
       "term": "Neurolinguistic Programming",
       "version": 1,
       "definition_hash": "303d3c67706341069ecfd86e5a75906e85268873c328d9fdc9e8ea44efbf27ea"
+    },
+    "neurological-evaluation": {
+      "status": "judged",
+      "term": "neurological evaluation",
+      "version": 1,
+      "definition_hash": "74609d305458285f904bfe3b6ab9745d95d476ec0dda54616a5d861ea5553374"
     },
     "neurology": {
       "status": "judged",
@@ -19415,6 +19919,12 @@
       "version": 1,
       "definition_hash": "be693d75f8daeb9c89515bd85202336d61781395e53c86a4ff6edf337222e09f"
     },
+    "nonverbal-ability": {
+      "status": "judged",
+      "term": "nonverbal ability",
+      "version": 1,
+      "definition_hash": "4f6307566120aa42eca20192ffa49af4de4e76fbadc06a11841b38096c41d4c6"
+    },
     "nonverbal-communication": {
       "status": "judged",
       "term": "nonverbal communication",
@@ -19669,6 +20179,12 @@
       "version": 1,
       "definition_hash": "06d7d475ac99780aa9d8ddd9c2e2594c4c3675eeb7e9736d5bca80fd1a08fc75"
     },
+    "observed-score-equating": {
+      "status": "judged",
+      "term": "observed-score equating",
+      "version": 1,
+      "definition_hash": "4c9674ad1de3477c639636ee1ce2b00309db525988a296a69bea6d0fc20ba168"
+    },
     "obsession": {
       "status": "judged",
       "term": "obsession",
@@ -19825,6 +20341,12 @@
       "version": 1,
       "definition_hash": "a8ecc506c1206123ca18650d76b66b0b2c1559e8137874fa253215582b061619"
     },
+    "old-old": {
+      "status": "judged",
+      "term": "old-old",
+      "version": 1,
+      "definition_hash": "8c36751d9972ee65dee031782aff3f4a2c72dd763de450e98e892c2de616ac8a"
+    },
     "olfaction": {
       "status": "judged",
       "term": "olfaction",
@@ -19940,6 +20462,12 @@
       "version": 1,
       "definition_hash": "faf61b16324ac46356b9434964765a9be28eb8db563f58743bc6412b421cb9a8"
     },
+    "on-center-off-surround": {
+      "status": "judged",
+      "term": "on-center/off-surround",
+      "version": 1,
+      "definition_hash": "2880ac84161d9ace524d68d92414b0f37e358cf7f18ef77ec4e2a2aaabe714fc"
+    },
     "on-the-job-training": {
       "status": "judged",
       "term": "on-the-job training",
@@ -19999,6 +20527,12 @@
       "term": "open question",
       "version": 1,
       "definition_hash": "4793b1fc0c6020772fc46981b6b80741da385a7b3f79505e8adc71f313fb7867"
+    },
+    "open-skill": {
+      "status": "judged",
+      "term": "open skill",
+      "version": 1,
+      "definition_hash": "f4fa0ed81ce4f81cac82fc0e85c0820d178a5f7e80f1992dbf082f6ce3a0be76"
     },
     "operant-conditioning": {
       "status": "judged",
@@ -20367,6 +20901,12 @@
       "version": 1,
       "definition_hash": "a94e2e88db2fa0ab10f7896780255d0c84c82a6b3e4f7ee34bad7b6afc411869"
     },
+    "ought-self": {
+      "status": "reviewed",
+      "term": "ought self",
+      "version": 1,
+      "definition_hash": "bfa24b30e22bd5e34745a9022180933f672989fc28eb034500d6cf2e3e10da68"
+    },
     "outcome-expectancies": {
       "status": "judged",
       "term": "outcome expectancies",
@@ -20476,6 +21016,12 @@
       "term": "oxytocin",
       "version": 1,
       "definition_hash": "e5c76ccb22d689c6580a72c538ecc6282ae79c65b2b78dd3f87719a24a7f147e"
+    },
+    "p2-component": {
+      "status": "judged",
+      "term": "P2 component",
+      "version": 1,
+      "definition_hash": "c534a81b37b6fc659b631eb837746377d94cc34cd7ed78b313ed3d6522b6463b"
     },
     "pacinian-corpuscle": {
       "status": "judged",
@@ -21212,6 +21758,13 @@
       "version": 1,
       "definition_hash": "e8f19895a32c21261d7d391cfdfb921eda6c587e9851ef5552069bf3ddb3b211"
     },
+    "performance-goal": {
+      "status": "dropped",
+      "term": "performance goal",
+      "version": 1,
+      "definition_hash": "61f62e9ca135c32baa84bddb7cae3af54143bae2ff0431158383f8ded1c025be",
+      "reason": "Several elements of the first sentence (e.g., “achievement focus,” “behavior is directed by expectations of success,” and “value placed on outcomes or external incentives”) are only indirectly supported via broader discussion of achievement motivation/expected value theory and the broader “achievement goal orientation” construct, not a direct definition of “performance goal” as such.; The definition adds a generalized theory-style description of motivation and external incentives that is broader than what the packet explicitly defines for this term.; The final sentence overstates the source by attributing lower self-efficacy, greater concern about failure, and maladaptive avoidance specifically to “weaker performance goals”; the packet only discusses poor achievement goals and performance goal orientation more generally.; The packet repeatedly discusses **“performance goal orientation”** (and “poor achievement goals / poor mastery of goals in performance goal orientation”), but it does not define **“performance goal”** as a standalone term; the definition’s requested sense may not match what the packet supports.; The packet supports “performance goal orientation,” not the standalone term “performance goal,” so the requested sense is not securely established.; While the packet links poor achievement goals to lower self-efficacy and maladaptive failure-avoidance, the definition’s specific phrasing “weaker performance goals” is not clearly mapped as the same construct label within the packet, which uses related but not identical wording (e.g., poor mastery, poor achievement goals, performance goal orientation)."
+    },
     "performance-test": {
       "status": "judged",
       "term": "performance test",
@@ -21253,6 +21806,12 @@
       "term": "periodicity",
       "version": 1,
       "definition_hash": "3de11cd37452d24355ef7cfe94dfcd49d359f42fae41be3e2a90ec9c4b09d108"
+    },
+    "peripheral-dyslexia": {
+      "status": "reviewed",
+      "term": "peripheral dyslexia",
+      "version": 1,
+      "definition_hash": "c55d5d4ada85d8d7c2e279aa4fb1f61abc90a0113fc3ed6c9394e39c21315bda"
     },
     "peripheral-nervous-system": {
       "status": "judged",
@@ -21308,6 +21867,12 @@
       "term": "perseveration",
       "version": 1,
       "definition_hash": "13ddf29c268ec014f89c968b4329dcb270412f2bac755d0d5bef67ca98c7f098"
+    },
+    "perseverative-error": {
+      "status": "judged",
+      "term": "perseverative error",
+      "version": 1,
+      "definition_hash": "34596ed1f8c35fdab94df413e32f821fcedbc37019e7fd9b263247ec20db19f6"
     },
     "persistent-complex-bereavement-disorder": {
       "status": "judged",
@@ -21406,6 +21971,12 @@
       "version": 1,
       "definition_hash": "f76253ad435faaf915cfabf8117644f0b4962f269eabee27b3daa77320e6aa5c",
       "reason": "The definition claims that personification is “linked with … the rise of beliefs in supernatural beings,” but the packet does not support a claim about any “rise” (historical development) of such beliefs; it only states that “the personification of cosmic phenomena (animism) must be cited as the origin of all such conceptions.”; The definition slightly overextends the source by framing personification as treating phenomena as having personal agency; the packet supports human-like interpretation, not agency as such.; The packet supports personification of cosmic phenomena as an anthropomorphic/anthropathic standpoint, but it does not explicitly support the added claim about the “rise” of beliefs in supernatural beings."
+    },
+    "perspective-taking": {
+      "status": "judged",
+      "term": "perspective taking",
+      "version": 1,
+      "definition_hash": "2b833942fa29ce625e6abca887fc090225a626bf5f40a10384be3ad6db67d622"
     },
     "perspective-theory": {
       "status": "reviewed",
@@ -22223,6 +22794,12 @@
       "version": 1,
       "definition_hash": "19452b9806f7473625763f21909c3c82f32d8d16467f02adfd8b8205107e55d4"
     },
+    "predictive-efficiency": {
+      "status": "reviewed",
+      "term": "predictive efficiency",
+      "version": 1,
+      "definition_hash": "931a0a994b5c1ed6cd30bba5b19fc89c7926878f14380c6a01a9ef1cdab0989a"
+    },
     "predictor-variable": {
       "status": "judged",
       "term": "predictor variable",
@@ -22297,6 +22874,12 @@
       "version": 1,
       "definition_hash": "7b41ef473de1b52b8d6ddc3a64d7e971a7a30fe3454f9d2582a4e4809a3b29ce"
     },
+    "prepost-design": {
+      "status": "judged",
+      "term": "pre–post design",
+      "version": 1,
+      "definition_hash": "1f8f28e531dae30df760d8debe9284c4660af44079e0239926d3df97827689bb"
+    },
     "prepulse-inhibition": {
       "status": "judged",
       "term": "prepulse inhibition",
@@ -22370,6 +22953,12 @@
       "term": "priapism",
       "version": 1,
       "definition_hash": "781a49b341e99fef85760cb4b92e3e29a0b478593f3c7d5932e8f6a56a5989fa"
+    },
+    "primary-appraisal": {
+      "status": "reviewed",
+      "term": "primary appraisal",
+      "version": 1,
+      "definition_hash": "3c388b23cb3c4f9d2141536864d1207fdc21178184a53172ca9d7bbefb520bd5"
     },
     "primary-attention": {
       "status": "judged",
@@ -22580,6 +23169,18 @@
       "term": "procaine",
       "version": 1,
       "definition_hash": "0802bf3faaa4a60f0bfb48f3e9bf7e15d3cfe1575a5b28b52b176ab3dfdcf559"
+    },
+    "process-dissociation-procedure": {
+      "status": "judged",
+      "term": "process-dissociation procedure",
+      "version": 1,
+      "definition_hash": "107f490e4723ea29e843dad134a2ffabc56a55c47342dd34929ed4a4492b361e"
+    },
+    "process-evaluation": {
+      "status": "judged",
+      "term": "process evaluation",
+      "version": 1,
+      "definition_hash": "c97f38a3ff57cf2d13cadc7a1f823e5a1f0140ab3bb08e638c37dcd8950f3e9e"
     },
     "processor": {
       "status": "reviewed",
@@ -23164,11 +23765,29 @@
       "version": 1,
       "definition_hash": "64e5d91de4dd1e3df9292e256e2b9e17b0e4bcd1b44b3438313793445802697c"
     },
+    "psychophysical-function": {
+      "status": "judged",
+      "term": "psychophysical function",
+      "version": 1,
+      "definition_hash": "90c1b98d2b19b9634073a656616a55d8c77a6d6399aa7d7f0908ec999b94fc6f"
+    },
+    "psychophysical-law": {
+      "status": "judged",
+      "term": "psychophysical law",
+      "version": 1,
+      "definition_hash": "65ee25c17fad76dc55684d78c2793c34cebc459e97fbcfe0ee56b33b84047fc6"
+    },
     "psychophysical-parallelism": {
       "status": "judged",
       "term": "psychophysical parallelism",
       "version": 1,
       "definition_hash": "8367428322adedb398384f423040dae878e2e77933fe7d1772e2dd0abab86ae3"
+    },
+    "psychophysical-properties": {
+      "status": "judged",
+      "term": "psychophysical properties",
+      "version": 1,
+      "definition_hash": "bcab64e2705fd233de8450c5f47a7d755015bc61940b6dc196136ff345281905"
     },
     "psychophysical": {
       "status": "judged",
@@ -23693,6 +24312,12 @@
       "version": 1,
       "definition_hash": "1f2a9dc95ac8f2b2b49b964b3246b3c40570851fefabc265cdaf8b208c04527f"
     },
+    "reality-monitoring": {
+      "status": "judged",
+      "term": "reality monitoring",
+      "version": 1,
+      "definition_hash": "68504fd787711d520794d3c5e50bce9cb0e6a8dbba743ba588dbd9367985a455"
+    },
     "reality-testing": {
       "status": "judged",
       "term": "reality testing",
@@ -23861,6 +24486,12 @@
       "version": 1,
       "definition_hash": "5bb76a7d31c9e07c1ca037e3658a7e0470b97b3baf3a826c8475191bd2320b5b"
     },
+    "regression-artifact": {
+      "status": "judged",
+      "term": "regression artifact",
+      "version": 1,
+      "definition_hash": "04aeb423027605de1c180ab41484f9e9c964ee22efe102d81cfe5221ba0e0d63"
+    },
     "regression-coefficient": {
       "status": "reviewed",
       "term": "regression coefficient",
@@ -23933,6 +24564,12 @@
       "term": "Reissner’s membrane",
       "version": 1,
       "definition_hash": "1b7986025ea4a4c6653e917d0ac8327bb3f4bdb821608904837652408fb53e64"
+    },
+    "rejection-error": {
+      "status": "judged",
+      "term": "rejection error",
+      "version": 1,
+      "definition_hash": "824b835ea8cd1c1ba026f5599612224677ac6f77b019bc9ed8e74bbad4202de7"
     },
     "relative-frequency-distribution": {
       "status": "judged",
@@ -24012,6 +24649,12 @@
       "version": 1,
       "definition_hash": "55cc9b10ddab752ffc956540b1877e7c9e68032509a0d137ed5c0de36be77abb"
     },
+    "rem-sleep-deprivation": {
+      "status": "judged",
+      "term": "REM-sleep deprivation",
+      "version": 1,
+      "definition_hash": "661d39f26dd88bd651157b59bf2e586a4f33a85877604361d58b80da2a168be4"
+    },
     "rem-sleep": {
       "status": "judged",
       "term": "REM sleep",
@@ -24087,6 +24730,19 @@
       "version": 1,
       "definition_hash": "ee905b8d07bde5ca4301cb535df1ad2f4b8f55dbb32206eda368d3d4c11ed982"
     },
+    "reportability": {
+      "status": "judged",
+      "term": "reportability",
+      "version": 1,
+      "definition_hash": "8d7974b2fed56d0cf92f9c0af58c2eb1e6594a7868f47d55ca9268243fba7435"
+    },
+    "representative-design": {
+      "status": "dropped",
+      "term": "representative design",
+      "version": 1,
+      "definition_hash": "4655f5d892213439ee99dd7d7744018c33b5092ec54239cbb13cc1bfc64fe1a7",
+      "reason": "The definition generalizes the term beyond the packet’s context by framing it as a broad approach to making research “more like the real-world setting” and “studying people” generally, whereas the packet only supports representative design as a way to address external validity in live sports decision-making studies.; The packet’s content is specific to sports psychology and external validity in “home advantage”/crowd-noise studies, not to the “development” field specified in the prompt.; The supplied source is about experimental research in sport and external validity; it does not support the field label “development.”"
+    },
     "representativeness": {
       "status": "judged",
       "term": "representativeness",
@@ -24154,6 +24810,12 @@
       "term": "Residential Treatment",
       "version": 1,
       "definition_hash": "9376864bebdff385e2f3555c0822376beb5c1509ee1d1c0d2506709b80cf1cab"
+    },
+    "residual-error": {
+      "status": "judged",
+      "term": "residual error",
+      "version": 1,
+      "definition_hash": "fd8e5bd86e725ed5e23599054e5d2bec65f73cc6b8e7e80ac13d4e1539367bca"
     },
     "residual-schizophrenia": {
       "status": "judged",
@@ -24308,6 +24970,12 @@
       "version": 1,
       "definition_hash": "a779fe139a28ff135bcca38b998fd84632d9abc1dab9c8353beb3379b18d4e47"
     },
+    "retinal-size": {
+      "status": "reviewed",
+      "term": "retinal size",
+      "version": 1,
+      "definition_hash": "9fdc00fc8f08df73f8ec2ab0ef854d5d73d3be8fe001376157bf148a6ef4fd95"
+    },
     "retinal": {
       "status": "judged",
       "term": "retinal",
@@ -24374,6 +25042,13 @@
       "term": "retrograde ejaculation",
       "version": 1,
       "definition_hash": "7283453eeee637764beaf2aab8058d95fbeb3c12db8e9ee5f9f699fa80ba8aea"
+    },
+    "retrograde-memory": {
+      "status": "dropped",
+      "term": "retrograde memory",
+      "version": 1,
+      "definition_hash": "ef4202753a72afd8ee3ddffc8d241e3b65e458f5745ab3ffc445835e9dadbd10",
+      "reason": "The final sentence shifts the term toward a disorder description (“loss of retrograde memory” with normal new learning), which the packet supports only as a feature of focal retrograde amnesia, not as the definition of retrograde memory itself.; The packet does not define “retrograde memory” as a general term; it only mentions “loss of retrograde memory” in the context of focal retrograde amnesia and related case reports.; The packet does not provide a direct definition of “retrograde memory” as memory for information from the past (e.g., events/knowledge before illness or injury).; The phrase “especially events and knowledge from before the onset of an illness or injury” is not supported by the packet and imports a clinical framing that is not stated as a definition of the term.; The statement that loss of retrograde memory corresponds to difficulty recalling previously stored memories while learning new information may remain normal is only indirectly supported by the packet’s contrast between retrograde memory loss and “normal learning of new information,” but the packet does not explicitly define this as “retrograde memory” in general or affirm the “may remain normal” phrasing as a general rule."
     },
     "retrogression": {
       "status": "reviewed",
@@ -24443,6 +25118,12 @@
       "term": "reward",
       "version": 1,
       "definition_hash": "4812743d6439a700577ee765f8b301334de9202ab416a4fbd141a08c41eee80c"
+    },
+    "reyosterrieth-complex-figure-test": {
+      "status": "judged",
+      "term": "Rey–Osterrieth Complex Figure Test",
+      "version": 1,
+      "definition_hash": "2351f6cf3d9c4674d7df4d35123dcd9a3ee9e6591af18d88f43e9eeba50a1b50"
     },
     "rhinencephalon": {
       "status": "judged",
@@ -24969,6 +25650,12 @@
       "version": 1,
       "definition_hash": "27f7468ca1dd8056793b8aba8048409b57a7c23142597abcfed688c900b0c8fe"
     },
+    "score-equating": {
+      "status": "judged",
+      "term": "score equating",
+      "version": 1,
+      "definition_hash": "3034c2b29c236eabdc0369bad660c7bc8647494d74c81891ef8650041c72bcb9"
+    },
     "scoring": {
       "status": "judged",
       "term": "scoring",
@@ -25034,6 +25721,12 @@
       "term": "second sight",
       "version": 1,
       "definition_hash": "d2998f76eeb7e9b40ba750ef9b1d43120a53896128c534fbd4520b376d996e08"
+    },
+    "secondary-appraisal": {
+      "status": "reviewed",
+      "term": "secondary appraisal",
+      "version": 1,
+      "definition_hash": "f58109c02b5da2fecf41e1bfcbcaabd5b8f1500ddf78f00a57eb65fea921cf69"
     },
     "secondary-cause": {
       "status": "judged",
@@ -25208,6 +25901,12 @@
       "definition_hash": "b33114c71ba8822df681b10f88fc1160e24c93d99709667f3319ca9825c95d67",
       "reason": "The claim that self-denial is \"the element of sacrifice that distinguishes stronger forms of generosity from mere fellow-feeling\" is not supported by the packet and overstates the historical source.; The definition adds “valued purpose” as a target of self-denial, but the packet only explicitly frames self-denial within actions toward “others” (bestowal of goods or favours upon others; sacrificing an interest of our own to an equal interest of a friend or a superior).; The definition says “giving up or restraining” one’s own interests; the packet supports “sacrifice” and self-denial in generosity, but does not support “restraining” as a distinct element of the term in the provided text.; The packet does not define the term \"self-denial\" itself; it defines \"Generosity\" and says generosity involves self-denial.; The phrasing turns a historical comparison into a general dictionary definition of self-denial, which is not justified by the source text."
     },
+    "self-desensitization": {
+      "status": "judged",
+      "term": "self-desensitization",
+      "version": 1,
+      "definition_hash": "f9d894b15e7f503ecc1c6d364048540120b2b33a2177938faefc973971641235"
+    },
     "self-determination": {
       "status": "judged",
       "term": "self-determination",
@@ -25225,6 +25924,12 @@
       "term": "self-disclosure",
       "version": 1,
       "definition_hash": "578f5aa615306d12d67089a16ca9fc9ad879d46fc8602c86e73626d99f0ae861"
+    },
+    "self-discrepancy": {
+      "status": "reviewed",
+      "term": "self-discrepancy",
+      "version": 1,
+      "definition_hash": "fc324d26d0f46d1b60d373fbda82ea49f1ff7800306ffb573b755b46d3423614"
     },
     "self-effacement": {
       "status": "judged",
@@ -25583,6 +26288,12 @@
       "definition_hash": "4ad3d2738bb3c900b715d14633c3083591938276c2d8930cf9807ea533aefbf8",
       "reason": "The packet does not explicitly support the claim that sensus communis was “the supposed source of first moral truths.”; The packet only states that in the beginning of English philosophy moral first principles were regarded as principles of the *sensus communis* by Herbert of Cherbury; it does not explicitly define sensus communis as a “shared common sense by which basic moral principles are immediately recognized.”; The packet supports Herbert of Cherbury’s use of sensus communis for moral first principles in early English philosophy, but it does not support the added claim that this was a ‘shared’ common sense.; The packet supports a connection to “intuitional or common-sense morality” (Herbert of Cherbury is said to found this school), but the provided definition adds additional specifics (shared immediate recognition; source of first moral truths) that are not explicitly present in the packet.; The wording ‘source of first moral truths’ goes beyond the packet’s phrasing, which speaks of moral first principles and immediate apprehension, not a source of truth in that explicit form."
     },
+    "sentence-completion-test": {
+      "status": "judged",
+      "term": "sentence-completion test",
+      "version": 1,
+      "definition_hash": "fb0e42ab243e86646a3aa4636122ecdde65c43cdae8f4aee37ef01042d1c6ea5"
+    },
     "sentience": {
       "status": "judged",
       "term": "sentience",
@@ -25933,6 +26644,12 @@
       "definition_hash": "621120d03de33fb87e06185961dc73450b7e1847f5176bdd36abb206035535e9",
       "reason": "The definition is about acute medical shock, so it does not match the stated mental health field.; The definition’s mental-health field assignment is not supported by the packet, which contains no mental-health context or psychological/counselling meaning for “shock.”; The provided packet defines “shock” as an acute life-threatening *medical* condition characterized by reduced blood flow and immediate medical intervention; it does not establish any relevance or use specifically within mental health.; The requested field is not defensible from the packet: the source is an NCIt medical descriptor for shock, not a psychology/counselling sense."
     },
+    "short-grit-scale": {
+      "status": "judged",
+      "term": "Short Grit Scale",
+      "version": 1,
+      "definition_hash": "656af22951217015219f9e3baf50f40c39262609dc7d3f31ae474fe8e181400b"
+    },
     "short-term-psychotherapy": {
       "status": "judged",
       "term": "short-term psychotherapy",
@@ -26144,6 +26861,12 @@
       "version": 1,
       "definition_hash": "cf5302db9c0425fcfa11a64ab734ae4ec178e6a9b36ea17e04453a68fc2ca595"
     },
+    "situational-conditions": {
+      "status": "judged",
+      "term": "situational conditions",
+      "version": 1,
+      "definition_hash": "f4d09d1b153d6171925c2c5f1fe19140680d2631ebfbe9263cfab4d9b1d4bc55"
+    },
     "sixth-cranial-nerve": {
       "status": "judged",
       "term": "sixth cranial nerve",
@@ -26217,6 +26940,12 @@
       "term": "Sleep Phase Chronotherapy",
       "version": 1,
       "definition_hash": "6a93b92d1d93a0d40fe01a63191367894f84f48d1297a2c09f6bf4a0f1391d81"
+    },
+    "sleep-recovery": {
+      "status": "reviewed",
+      "term": "sleep recovery",
+      "version": 1,
+      "definition_hash": "2640a1bc4f79d7cf6f7c8fdcdd21e423ac77d944d56f0818344bef2a86e2341d"
     },
     "sleep-stages": {
       "status": "reviewed",
@@ -26862,6 +27591,12 @@
       "version": 1,
       "definition_hash": "2a815d504777ceac308a673047a5e8954b5837df74aeedb53c7f611ef26fb545"
     },
+    "sorting-test": {
+      "status": "reviewed",
+      "term": "sorting test",
+      "version": 1,
+      "definition_hash": "7469d0d9633060e91389f1f5107862d1914de26c3d85987b3fa9a378f1e9f65b"
+    },
     "sotos-syndrome": {
       "status": "judged",
       "term": "Sotos syndrome",
@@ -26879,6 +27614,12 @@
       "term": "sound localization",
       "version": 1,
       "definition_hash": "d95e09713c8ea54d3f922600f930d51171fc09b28f8c85412db80eb6f26b09d5"
+    },
+    "source-monitoring": {
+      "status": "reviewed",
+      "term": "source monitoring",
+      "version": 1,
+      "definition_hash": "4c0f53c05af8c6f8cec94ae7f25cc534142364523dad1d2ffb86f3ffe782e841"
     },
     "southern-blot": {
       "status": "judged",
@@ -27195,6 +27936,12 @@
       "version": 1,
       "definition_hash": "e599bc8252211665d86cf95e2ba7b0e929acee862bcd1aab764c5d1c8a34df63"
     },
+    "stage-sampling": {
+      "status": "reviewed",
+      "term": "stage sampling",
+      "version": 1,
+      "definition_hash": "8d7e4216229cafbc3bedd2894d0471ca905e93afc30d32fa938d6d1844341c80"
+    },
     "stalking": {
       "status": "judged",
       "term": "stalking",
@@ -27370,6 +28117,12 @@
       "version": 1,
       "definition_hash": "77f61206de91416f4dea821b2f52cded751ab9b193d8842ff3107a4f660fb5e5"
     },
+    "stimulus-object": {
+      "status": "judged",
+      "term": "stimulus object",
+      "version": 1,
+      "definition_hash": "9e53f2ed8e0d836121ab2eb1dcb7371ccb6d9d3487b81ab67230f1240666961e"
+    },
     "stimulus-value": {
       "status": "reviewed",
       "term": "stimulus value",
@@ -27477,6 +28230,12 @@
       "term": "stroke",
       "version": 1,
       "definition_hash": "59362663cef0f7f6825a6f0373c61de7f6cf1dd1482e17d4fedf13b5c1c99cf0"
+    },
+    "stroop-colorword-interference-test": {
+      "status": "reviewed",
+      "term": "Stroop Color–Word Interference Test",
+      "version": 1,
+      "definition_hash": "3ff2f6209a99475c7f32b3a167bed4e89ba41efc41778a733ccbc25409c9c6f7"
     },
     "structural-integration": {
       "status": "judged",
@@ -27713,6 +28472,12 @@
       "version": 1,
       "definition_hash": "1022d5ec45ec66de2dbb22d9c0505d51c27e7d0488691456b8a020e6957a7165"
     },
+    "substitution-test": {
+      "status": "reviewed",
+      "term": "substitution test",
+      "version": 1,
+      "definition_hash": "9860e906238e1ffc7c4e089156dec0eae0a56d4a2aeb0b3066ce015fe5dc08c5"
+    },
     "subtest": {
       "status": "dropped",
       "term": "subtest",
@@ -27944,6 +28709,13 @@
       "version": 1,
       "definition_hash": "dec957297cb445ae2d7b756603484e965b708310cf2d9ce935a841ecd9664155"
     },
+    "symbol-substitution-test": {
+      "status": "dropped",
+      "term": "symbol-substitution test",
+      "version": 1,
+      "definition_hash": "444a6013788a5947dc7690427c2760377dcf0c5fac35e87f9ec5ad40d91b7383",
+      "reason": "The definition adds an interpretation about the test’s functional domain that is not established by the source packet.; The definition’s requested causal/interpretive link (“lower scores…poorer executive functioning”) is not clearly supported by the provided excerpt.; The packet does not define or introduce a term called “symbol-substitution test”; it only mentions the “Digit Symbol Substitution Test (DSST)” as one of three cognitive scales used.; The packet does not state that “a symbol-substitution test uses the Digit Symbol Substitution Test format”; it only lists DSST among the assessments without describing any “symbol-substitution test” format or equivalence.; The packet does not support the claim that lower symbol-substitution scores are associated with poorer executive functioning; it only reports an association between HGI and decreased DSST scores and separately mentions executive function impairment in the study’s discussion.; The packet does not support the claim that “lower scores are associated with poorer executive functioning” specifically for a “symbol-substitution test”; while the text mentions executive function impairment in relation to HGI generally, it does not explicitly link DSST score direction to executive functioning.; The packet supports Digit Symbol Substitution Test (DSST) as a cognition scale in older adults, but it does not support calling the symbol-substitution test a distinct cognitive assessment that 'uses the DSST format.'"
+    },
     "symbolic-interactionism": {
       "status": "judged",
       "term": "Symbolic Interactionism",
@@ -28139,6 +28911,12 @@
       "version": 1,
       "definition_hash": "aaa3dc1367d2bb9496f7a6a451b3d64f889a431864c867e8fa3f81b5bf3529eb"
     },
+    "tactile-extinction": {
+      "status": "judged",
+      "term": "tactile extinction",
+      "version": 1,
+      "definition_hash": "7f4c678980e1d2c04611ebf9eba33ff2c34dfd05f3517bc09507cdd22b005417"
+    },
     "tactile-hallucination": {
       "status": "judged",
       "term": "tactile hallucination",
@@ -28217,11 +28995,23 @@
       "version": 1,
       "definition_hash": "1221b5794d596d48efc62f161ba749cb40f558165ee166275a7eb03575a0d61c"
     },
+    "task-complexity": {
+      "status": "reviewed",
+      "term": "task complexity",
+      "version": 1,
+      "definition_hash": "8e071a0b57dc1011baa647ccfe10515f3538ba3595910326ef0f0d349df44e6d"
+    },
     "taste-bud": {
       "status": "reviewed",
       "term": "taste bud",
       "version": 1,
       "definition_hash": "af76b25dec6aa2c379fac9b505cb74ac5fd8da5d3fbb473144a65a59673cb2a9"
+    },
+    "taste-stimulus": {
+      "status": "judged",
+      "term": "taste stimulus",
+      "version": 1,
+      "definition_hash": "96a8790f2a47af2dea063469474fc3a89d1fa8a50dedad17dca1655dec9a4d85"
     },
     "taste": {
       "status": "judged",
@@ -28423,6 +29213,12 @@
       "version": 1,
       "definition_hash": "1018adbcbcbe5fc7726e7e2cb1a65ff58d91a4516920527547e819e66e1e2250"
     },
+    "test-of-nonverbal-intelligence": {
+      "status": "reviewed",
+      "term": "Test of Nonverbal Intelligence",
+      "version": 1,
+      "definition_hash": "77d80058bc7926daf8c871f5a8ed7f00b81c85db38eda3129ab110cbe95dbc98"
+    },
     "testamentary-capacity": {
       "status": "judged",
       "term": "testamentary capacity",
@@ -28516,6 +29312,12 @@
       "version": 1,
       "definition_hash": "b188f334b161664eb56870385b544bfea70741c1146ca00d79792e3f0d2d9ac9"
     },
+    "theoretical-orientation": {
+      "status": "judged",
+      "term": "theoretical orientation",
+      "version": 1,
+      "definition_hash": "741456a1996038f5310276dc428dd7150d7620dad46c90a5d4f1152900d35f24"
+    },
     "theoretical-sampling": {
       "status": "judged",
       "term": "theoretical sampling",
@@ -28575,6 +29377,18 @@
       "term": "therapy",
       "version": 1,
       "definition_hash": "dfe3c64177f558b7d3b7de59ea92e253bd896fbdffb87cb82f7aa95db8a721d7"
+    },
+    "thermal-sensitivity": {
+      "status": "reviewed",
+      "term": "thermal sensitivity",
+      "version": 1,
+      "definition_hash": "b2a8bf9bfc91a9e9aec39a452f185233d621c61ac41a74421b2e8f1cbe657b38"
+    },
+    "thermal-stimulation": {
+      "status": "reviewed",
+      "term": "thermal stimulation",
+      "version": 1,
+      "definition_hash": "ac0a71a387b1ab947a019495b3774561535a157bb1507a795270fbe595311e3e"
     },
     "thermoanesthesia": {
       "status": "judged",
@@ -28733,6 +29547,12 @@
       "version": 1,
       "definition_hash": "a27e7102c3045256100fda0afa29cbc64e8784a62e82e5664624ec66d283715f"
     },
+    "to-be-remembered-items": {
+      "status": "judged",
+      "term": "to-be-remembered items",
+      "version": 1,
+      "definition_hash": "da1a2882285932afbef17373b148778f48e1090544809432ba42a174ae0c3ee1"
+    },
     "tobacco-dependence": {
       "status": "reviewed",
       "term": "tobacco dependence",
@@ -28830,6 +29650,12 @@
       "term": "topiramate",
       "version": 1,
       "definition_hash": "523556523e26366ea730ddce14172e39e8085ba345b8102496b73981ff3d35d4"
+    },
+    "topographic-organization": {
+      "status": "judged",
+      "term": "topographic organization",
+      "version": 1,
+      "definition_hash": "09a84ec0f8e82445f00732a2514c4ff4ee2fc49ac743b502617126b5c3cef13a"
     },
     "tort": {
       "status": "judged",
@@ -29282,6 +30108,18 @@
       "version": 1,
       "definition_hash": "d6c27a68d5e11056cebd79943fed7b2a3683f3a8c8aa7aeddb27d2af9b5ae4fb"
     },
+    "two-person-psychology": {
+      "status": "judged",
+      "term": "two-person psychology",
+      "version": 1,
+      "definition_hash": "364d3fe95dc6fa8c1f51f10ea184ef399a8841a669882b730224667a63f569ae"
+    },
+    "two-stage-sampling": {
+      "status": "judged",
+      "term": "two-stage sampling",
+      "version": 1,
+      "definition_hash": "5f42dae71a4f5db590e4389f5f8856297606d3d5c5a2799cbf40c9484ac5bb73"
+    },
     "two-tailed-test": {
       "status": "judged",
       "term": "two-tailed test",
@@ -29628,6 +30466,13 @@
       "version": 1,
       "definition_hash": "9000f145463566b02a30053196ae97892550900c1d51589130056d5cb0fc8fcd"
     },
+    "validity-criterion": {
+      "status": "dropped",
+      "term": "validity criterion",
+      "version": 1,
+      "definition_hash": "004a3db071345ed646d0b0b68ccbd3b6a0ff3bc9ef275f874290a4fba1e0a0ea",
+      "reason": "The added sleep-duration example is too specific and is not a definition of the term itself; it imports study details rather than defining the concept generally.; The definition’s framing about “evaluating how closely a self-report measure…corresponds to a more accurate underlying sleep measure” is only indirectly supported by the packet’s description of criterion validity using the method of triads and a “true” latent sleep duration measure, but the packet does not establish this as the meaning of the term “validity criterion” itself.; The packet does not define “validity criterion” as a general “standard for judging whether a measure accurately reflects the thing it is meant to assess”; it only mentions “validity criterion” in the study’s aims without providing a definition for the term.; The packet supports criterion validity, not the noun phrase validity criterion; the requested sense is therefore not clearly established.; The packet supports sleep-measurement validation approaches (triads with questionnaire, Daysimeter, and sleep diary; objective comparators), but the definition’s general-purpose wording (“validity criterion” as a standard) goes beyond what is explicitly stated or definitional in the provided text.; The wording about a measure 'accurately reflects the thing it is meant to assess' is broader than the packet’s support, which is limited to comparing questionnaire, reference, and objective measures via the method of triads."
+    },
     "valium": {
       "status": "judged",
       "term": "Valium",
@@ -29645,6 +30490,12 @@
       "term": "variability",
       "version": 1,
       "definition_hash": "3c4253c90c0a28d97807474dac15844afdbd7b3f3c1cf8334735a144e23f7016"
+    },
+    "variable-stimulus": {
+      "status": "reviewed",
+      "term": "variable stimulus",
+      "version": 1,
+      "definition_hash": "89d31fdcd2ab8ff05b7ace1f9acad1d084726d7c493571094a07eabf91eb9a21"
     },
     "variable": {
       "status": "judged",
@@ -30011,6 +30862,12 @@
       "version": 1,
       "definition_hash": "04c729ceb1b5a259ab72c9f9ca8a3c216eb60dd0e494d43abbb6a1b1d6b2187d"
     },
+    "visual-form-discrimination": {
+      "status": "judged",
+      "term": "visual form discrimination",
+      "version": 1,
+      "definition_hash": "4a69c491452b24c97454d9ee6389f888b76d37aea564759dc99ba189770ffa83"
+    },
     "visual-hallucination": {
       "status": "judged",
       "term": "visual hallucination",
@@ -30028,6 +30885,13 @@
       "term": "visual imagery",
       "version": 1,
       "definition_hash": "f2757e60fae4cb222d87fb1ebc5bec81b77d6b1b727d4bb2663bd3c044fdd69d"
+    },
+    "visual-memory-span": {
+      "status": "dropped",
+      "term": "visual memory span",
+      "version": 1,
+      "definition_hash": "142d49db85ea2bbc915159f806664e6ba6e9e4539bdc712c8e838b137cf0b4d6",
+      "reason": "The definition adds a functional explanation of the construct that goes beyond the source text rather than staying strictly within the packet-supported wording.; The definition claims “Visual memory span is a measure of working memory… based on how much visual information a person can hold in mind for brief use,” but the provided packet only states that the tasks measured “working memory (i.e., Visual Memory Span)” and does not define how it measures working memory or what “visual information” retention entails.; The definition is more than one to three concise sentences when accounting for its two claims (mechanism plus usage) beyond what the packet explicitly provides.; The definition states that “In this source, it is used as a task representing working memory performance.” While the packet does support that Visual Memory Span is used as a working-memory task, the rest of the definition includes additional specifics not supported by the packet.; The packet supports that Visual Memory Span is a task used to measure working memory, but it does not state that it measures how much visual information a person can hold in mind for brief use."
     },
     "visual-memory": {
       "status": "judged",
@@ -30442,6 +31306,12 @@
       "version": 1,
       "definition_hash": "eb68debeee218eb25196405741f9104283e0a47ae5cb5775b8ffe0a3b16b3d81"
     },
+    "word-fragment-completion-task": {
+      "status": "reviewed",
+      "term": "word-fragment completion task",
+      "version": 1,
+      "definition_hash": "105c185d3653ed91b1307ae33b29e68a68b701f63ecfa757bdf25ae724f08309"
+    },
     "word-of-mouth": {
       "status": "reviewed",
       "term": "word of mouth",
@@ -30489,6 +31359,12 @@
       "term": "writer’s cramp",
       "version": 1,
       "definition_hash": "c7aab253ea074c728f5e0fd587d660b1207109200eb6e5fad22a83795b6afd15"
+    },
+    "wundt-curve": {
+      "status": "judged",
+      "term": "Wundt curve",
+      "version": 1,
+      "definition_hash": "70fef3296bca9e8cac67dde0a1bbcf7e3efd05fb2f23d1dfa5c07b456f05cc6e"
     },
     "wurzburg-school": {
       "status": "judged",
@@ -30550,6 +31426,12 @@
       "term": "yoga",
       "version": 1,
       "definition_hash": "e85cbf6790e24fbe662937440137cc6521970cb58374241524d046efba6acb08"
+    },
+    "young-old": {
+      "status": "judged",
+      "term": "young-old",
+      "version": 1,
+      "definition_hash": "6378a6c42fc7c50a730680800fa353f5eadaa36e42e500f08944e6b6dd833315"
     },
     "z-score": {
       "status": "judged",

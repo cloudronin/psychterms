@@ -1,0 +1,60 @@
+{
+  "id": "peripheral-dyslexia",
+  "term": "peripheral dyslexia",
+  "definition": "Peripheral dyslexia is a reading disorder in which the difficulty lies mainly in early visual-perceptual, attentional, working-memory, or task-related motor-planning processes involved in recognizing written words, rather than in language-based word meaning or sound conversion. It is a form of acquired dyslexia seen after brain damage and can include patterns such as neglect dyslexia or crowding dyslexia.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13581806"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13581806",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1911950; article XML SHA-256 05285a07bdfbc5a555edb6e6d8e032198d3caeb93579e6eaaaa8ad19344f3b94",
+      "scope": "Source record 10.3389/fpsyg.2026.1911950; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1911950"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dbc42313c5f610c7c988fa2b44ad1bb14332fdb1bba6e01aaba318b3d84f359b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "87aff00700b946e8ba815007eb7c5cdc",
+    "request_hash": "de17e34b0ec46f8ee5f6dd86017fce1455dcae44657f846e85257f8034d92a85",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "8c13041b1fd376ba872955835bcd11c2f6604458ae470a5f7b85535d8c782248",
+    "packet_hash": "dbc42313c5f610c7c988fa2b44ad1bb14332fdb1bba6e01aaba318b3d84f359b"
+  },
+  "hash": "5945ea0c78f01f1631dc92471564035a12e7f3eb14073bf9850aaf36aebb1ef8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "8c13041b1fd376ba872955835bcd11c2f6604458ae470a5f7b85535d8c782248",
+      "packet_hash": "dbc42313c5f610c7c988fa2b44ad1bb14332fdb1bba6e01aaba318b3d84f359b",
+      "published_packet_hash": "dbc42313c5f610c7c988fa2b44ad1bb14332fdb1bba6e01aaba318b3d84f359b",
+      "receipt_id": "ea442fe63fdb47fa963e79b6bab61d92",
+      "request_hash": "cda1b416b93ac12a781936ffff705662e7280af041ceb2769326db5fba198d92",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds “early” (as in “early visual-perceptual”)—the packet describes “low-level visual-perceptual/attentional analyses” but does not support the specific “early” wording.",
+        "The definition frames the difficulty as “mainly” within the listed peripheral processes and “rather than” language-based word meaning/sound conversion; the packet contrasts central vs peripheral processes (semantic/lexical and sublexical conversion vs low-level visual-perceptual/attentional, working memory, motor-planning), but it does not explicitly justify the “mainly”/“rather than” emphasis as the dominant locus of difficulty in a way that matches the definition’s phrasing."
+      ],
+      "definition_hash": "8c13041b1fd376ba872955835bcd11c2f6604458ae470a5f7b85535d8c782248",
+      "packet_hash": "dbc42313c5f610c7c988fa2b44ad1bb14332fdb1bba6e01aaba318b3d84f359b",
+      "published_packet_hash": "dbc42313c5f610c7c988fa2b44ad1bb14332fdb1bba6e01aaba318b3d84f359b",
+      "receipt_id": "821fd7ec96404714828bc56f43a6fe44",
+      "request_hash": "b4274fe2b7de2d32295f5e08b6ac1e817b5f1c474a580d9b154bd9d418dad19c",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

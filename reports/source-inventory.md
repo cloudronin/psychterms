@@ -1,6 +1,6 @@
 # Source inventory
 
-A yes applies only to the stated source scope. Every drafting packet still needs a content snapshot, version, exception check and support locator. No means excluded, including items whose rights remain unconfirmed.
+A yes applies only to the stated source scope. Every drafting packet still needs a content snapshot, version, exception check and support locator. No means excluded, including items whose rights remain unconfirmed. The table below records the initial inventory. The [complete CSV inventory](source-inventory.csv) and `data/sources.json` also include subsequently verified, individually pinned journal articles and author attribution.
 
 | Candidate | Licence | Decision | Pinned edition or scope |
 |---|---|---|---|

@@ -1,63 +1,66 @@
 {
   "line": "independent-readers-v1",
-  "registration_hash": "7e82aff66f337c6fe5d7ddbbe9cb4c76ece07a01379e2e612f5d8f6ea3b4e7f8",
-  "job_set_hash": "4625ebe7d587b9a28e7a326512b3540d6640165fd74ebcb72b402af2f6de2b1c",
-  "registered_calls": 9854,
-  "valid_new_reader_verdicts": 9854,
+  "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738",
+  "job_set_hash": "0528ffabc934c32423ff43b408b944255bae4e477f8f17d417f7853b7f67f049",
+  "registered_calls": 10184,
+  "registration_count": 2,
+  "current_registration_calls": 330,
+  "valid_new_reader_verdicts": 10184,
   "calls_without_valid_verdict": 0,
-  "entries_in_registered_run": 5026,
+  "entries_in_registered_run": 5191,
+  "quarantined_unpublished_entries": 22,
   "reused_prior_mini_passes": 198,
-  "complete_reader_pairs_including_reused_passes": 5026,
-  "both_pass": 3875,
-  "both_reject": 305,
-  "disagreements": 846,
+  "complete_reader_pairs_including_reused_passes": 5169,
+  "both_pass": 3954,
+  "both_reject": 329,
+  "disagreements": 886,
   "reader_models": {
     "gpt-5.4-mini-2026-03-17": {
-      "receipts": 4828,
-      "input_tokens": 3902748,
+      "receipts": 4993,
+      "input_tokens": 4138884,
       "cached_input_tokens": 0,
-      "output_tokens": 776378,
-      "passes": 4318,
-      "rejections": 510,
-      "receipted_usd": 6.422606
+      "output_tokens": 810556,
+      "passes": 4444,
+      "rejections": 549,
+      "receipted_usd": 6.75357
     },
     "gpt-5.4-nano-2026-03-17": {
-      "receipts": 5026,
-      "input_tokens": 4003656,
+      "receipts": 5191,
+      "input_tokens": 4239792,
       "cached_input_tokens": 0,
-      "output_tokens": 648815,
-      "passes": 4080,
-      "rejections": 946,
-      "receipted_usd": 1.614174
+      "output_tokens": 681692,
+      "passes": 4181,
+      "rejections": 1010,
+      "receipted_usd": 1.702572
     }
   },
   "budget": {
-    "calls_reserved": 9900,
+    "calls_reserved": 10231,
     "cap_usd": 25.0,
-    "receipted_usd": 8.03678,
-    "unresolved_reservations_usd": 0.22991,
+    "receipted_usd": 8.456142,
+    "unresolved_reservations_usd": 0.232665,
     "by_category": {
       "reader": {
-        "calls": 9854,
-        "receipted_usd": 7.998907,
-        "unresolved_reservations_usd": 0.22991
+        "calls": 10184,
+        "receipted_usd": 8.417844,
+        "unresolved_reservations_usd": 0.232665
       },
       "reader_transport_retry": {
-        "calls": 46,
-        "receipted_usd": 0.037873,
+        "calls": 47,
+        "receipted_usd": 0.038298,
         "unresolved_reservations_usd": 0.0
       }
     }
   },
   "receipt_finish_reasons": {
-    "stop": 9854
+    "stop": 10184
   },
   "explicit_provider_refusals": 0,
   "transport_or_schema_errors": {
-    "RemoteDisconnected": 42,
+    "RemoteDisconnected": 43,
     "ConnectionResetError": 3,
     "TimeoutError": 1
   },
-  "new_reader_cost_per_registered_entry_usd": 0.001599,
+  "new_reader_cost_per_registered_entry_usd": 0.001629,
   "limitations": "Model verdicts against pinned packets; not human review. Costs exclude reused pilot passes. Unknown charges retain full reservations. No redrafting or scenes on this line."
 }

@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 14,
   "authority": "Spec v0.2 section 4a; additions by pull request; never edit an entry flag.",
   "rules": {
     "packet_or_anchor_signals": [
@@ -461,6 +461,28 @@
       ],
       "anchors": [
         "C92203"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1 from pinned candidate source packet or named duty."
+    },
+    {
+      "id": "fun-seeking",
+      "names": [
+        "fun-seeking"
+      ],
+      "anchors": [
+        "10.3389/fpsyg.2016.00718"
+      ],
+      "test": 1,
+      "reason": "Section 4a test 1 from pinned candidate source packet or named duty."
+    },
+    {
+      "id": "self-discrepancy",
+      "names": [
+        "self-discrepancy"
+      ],
+      "anchors": [
+        "10.3389/fpsyg.2023.1215177"
       ],
       "test": 1,
       "reason": "Section 4a test 1 from pinned candidate source packet or named duty."

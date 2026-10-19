@@ -1,0 +1,60 @@
+{
+  "id": "predictive-efficiency",
+  "term": "predictive efficiency",
+  "definition": "Predictive efficiency is how well a prediction model can correctly distinguish between people who will and will not have a particular outcome. In this context, it refers to the model’s overall effectiveness as shown by performance measures such as discrimination, sensitivity, and specificity.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11661585"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11661585",
+      "revision": "2024; DOI 10.1371/journal.pone.0315025; article XML SHA-256 c2ab46d59d520c8ebeaac2b222651af125da103f19b852b4c4c274590d08c770",
+      "scope": "Source record 10.1371/journal.pone.0315025; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0315025"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "27e664ed572823d1cc52b0d38ea7ae33af8515871f034791363ef9a30b8ef759",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "99fea36062244643b41abc8a86702518",
+    "request_hash": "eb4bd6a846d24d60879afbdea0f6cfdfb54a509c8549d7dd61822d5e35d826bc",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "91af04cb1e14c3681ef81f73d9eca914b30efd0d4f27c616458e89163ba92d4e",
+    "packet_hash": "27e664ed572823d1cc52b0d38ea7ae33af8515871f034791363ef9a30b8ef759"
+  },
+  "hash": "59f12823029947aa9ebd29ef8a8b15d9b6d59991d57b808bdf2d79a2e2df4518",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "91af04cb1e14c3681ef81f73d9eca914b30efd0d4f27c616458e89163ba92d4e",
+      "packet_hash": "27e664ed572823d1cc52b0d38ea7ae33af8515871f034791363ef9a30b8ef759",
+      "published_packet_hash": "27e664ed572823d1cc52b0d38ea7ae33af8515871f034791363ef9a30b8ef759",
+      "receipt_id": "2941e4a41f7c4a1e985d57654aafa3ca",
+      "request_hash": "33264a61ea691f4dac63b943d604688780f9a5a4a9445660e2d0246e45d56647",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define “predictive efficiency” as being measured by discrimination, sensitivity, and specificity; it only reports these performance metrics (e.g., AUC, sensitivity, specificity) and separately states that the model shows “good performance in terms of predictive efficiency.”",
+        "Because the packet does not make the requested equivalence (“predictive efficiency” = distinction using discrimination/sensitivity/specificity), the definition’s central linkage is not directly supported by the provided text."
+      ],
+      "definition_hash": "91af04cb1e14c3681ef81f73d9eca914b30efd0d4f27c616458e89163ba92d4e",
+      "packet_hash": "27e664ed572823d1cc52b0d38ea7ae33af8515871f034791363ef9a30b8ef759",
+      "published_packet_hash": "27e664ed572823d1cc52b0d38ea7ae33af8515871f034791363ef9a30b8ef759",
+      "receipt_id": "78c5a9d4d1a9469db333ccfccd9eadb6",
+      "request_hash": "c384c629aa12bd57ef67ee32275b366ca162ed2838abe0a745797b451710480c",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "kendalls-w",
+  "term": "Kendall’s W",
+  "definition": "Kendall’s W is a statistic used to show how strongly different groups or raters agree in the way they rank a set of items. Higher values indicate stronger rank-order agreement.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13151159"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13151159",
+      "revision": "2026; DOI 10.1186/s12998-026-00635-1; article XML SHA-256 6aa814dc06cecdb4af37d4b5c2314ed3ae7e3afccdf8ddadbdea583f75781185",
+      "scope": "Source record 10.1186/s12998-026-00635-1; pinned source text",
+      "locator": "https://doi.org/10.1186/s12998-026-00635-1"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "ea24a3cd4a2edea5de82f076dc2baefbb82e8d582f60ebf801bbaaabbab1c10c",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "306eb3b8cc5e4aca851355a4a18eb77c",
+    "request_hash": "e0f78a37b4101c7c8953e7d0c71c340eb6848ad02632fbbde1f808b63afb8156",
+    "registration_hash": "2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca",
+    "definition_hash": "b99dd6dafc865ca8a7f774026dac7a5838845d7ad3c0977f0dc41112b8e547ba",
+    "packet_hash": "ea24a3cd4a2edea5de82f076dc2baefbb82e8d582f60ebf801bbaaabbab1c10c"
+  },
+  "hash": "4c96b304dd4faa9ac8faa2e02e5bafec0e17cf323500039061058b88337cbf71",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b99dd6dafc865ca8a7f774026dac7a5838845d7ad3c0977f0dc41112b8e547ba",
+      "packet_hash": "ea24a3cd4a2edea5de82f076dc2baefbb82e8d582f60ebf801bbaaabbab1c10c",
+      "published_packet_hash": "ea24a3cd4a2edea5de82f076dc2baefbb82e8d582f60ebf801bbaaabbab1c10c",
+      "receipt_id": "f51a167e06194e2d80ea794c14cdfca6",
+      "request_hash": "1718e9aec637cdb59c23a0ab810be475fa7e744a55944bb718c23bad988ddb4d",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that rank-order agreement was assessed using Kendall’s W, but it does not explicitly support the claim that “Higher values indicate stronger rank-order agreement” as a general interpretation.",
+        "The packet provides example values (e.g., Kendall’s W = 0.96 described as “unusually strong”) but does not define the direction of the statistic (higher vs. lower) in an explicit, general way."
+      ],
+      "definition_hash": "b99dd6dafc865ca8a7f774026dac7a5838845d7ad3c0977f0dc41112b8e547ba",
+      "packet_hash": "ea24a3cd4a2edea5de82f076dc2baefbb82e8d582f60ebf801bbaaabbab1c10c",
+      "published_packet_hash": "ea24a3cd4a2edea5de82f076dc2baefbb82e8d582f60ebf801bbaaabbab1c10c",
+      "receipt_id": "9f23e982ebcd4a6480b1cb62782a8903",
+      "request_hash": "1faae58ccb0556b04fdb99872b60746f99a7b6f7df36ea3b9b233e54eb89b703",
+      "registration_hash": "7c2778639e8f52f858599a71824349ff4be590460c96258d91cd515065e24738"
+    }
+  ]
+}
