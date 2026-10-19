@@ -1,0 +1,62 @@
+{
+  "id": "medial-preoptic-area",
+  "term": "medial preoptic area",
+  "definition": "The medial preoptic area (mPOA) is a brain region that influences how likely birds are to sing and how strongly they sing. In the source provided, it is linked to gregarious song in European starlings and shows molecular activity involving glutamate and dopamine pathways.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10623691"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10623691",
+      "revision": "2023; DOI 10.1186/s12868-023-00833-0; article XML SHA-256 c61ef9e3b0d1d5be54ef72ba1506fb1c7d995b33a517eb1b8bb89eb4953f6a4b",
+      "scope": "Source record 10.1186/s12868-023-00833-0; pinned source text",
+      "locator": "https://doi.org/10.1186/s12868-023-00833-0"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c1f88ffc1243f6e3c884b3539ad6e5d2026927b0ea3df6fce5e07495c04b4b0f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d5672cde6761434ea6b6a401febaf8ae",
+    "request_hash": "94c9eaaf3db9ddcf3b1d516bbc24a5f9bfd077edb08639bdda42ac5ebb2f9bb9",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "02712ec9a0b3bb738eb17618442a47ffadbbeee73349330a6bc7c21a0f73a4cb",
+    "packet_hash": "c1f88ffc1243f6e3c884b3539ad6e5d2026927b0ea3df6fce5e07495c04b4b0f"
+  },
+  "hash": "35e851d44594e606a34936a4509e264f2afaff18ced8f99cef342d36024ada1f",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes regulation of singing behavior in birds (molecular changes in the mPOA linked to gregarious song), but the provided definition is framed under the field “learning,” which is not supported by the packet."
+      ],
+      "definition_hash": "02712ec9a0b3bb738eb17618442a47ffadbbeee73349330a6bc7c21a0f73a4cb",
+      "packet_hash": "c1f88ffc1243f6e3c884b3539ad6e5d2026927b0ea3df6fce5e07495c04b4b0f",
+      "published_packet_hash": "c1f88ffc1243f6e3c884b3539ad6e5d2026927b0ea3df6fce5e07495c04b4b0f",
+      "receipt_id": "e02075fbf10f45768624dbee52bbe019",
+      "request_hash": "cea840cc9ca3ce26cf05755cec39c51d4e4b59ad350843a969fbaf29e33d7f42",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition slightly overstates the source by saying the mPOA \"shows molecular activity\" involving glutamate and dopamine pathways; the packet only says transcriptome analyses found these pathways were highly enriched with gregarious song.",
+        "The requested field of \"learning\" is not supported by the packet content, which is about singing behavior in birds and molecular changes in the medial preoptic area rather than learning."
+      ],
+      "definition_hash": "02712ec9a0b3bb738eb17618442a47ffadbbeee73349330a6bc7c21a0f73a4cb",
+      "packet_hash": "c1f88ffc1243f6e3c884b3539ad6e5d2026927b0ea3df6fce5e07495c04b4b0f",
+      "published_packet_hash": "c1f88ffc1243f6e3c884b3539ad6e5d2026927b0ea3df6fce5e07495c04b4b0f",
+      "receipt_id": "0879f01d9f3f4b5fa888f25c951bfd73",
+      "request_hash": "e1339e30cb76091f16d93d2a972bb7d951b125704fa23bc7eed505803e241fe4",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

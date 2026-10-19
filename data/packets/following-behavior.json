@@ -1,0 +1,26 @@
+{
+  "id": "following-behavior",
+  "term": "following behavior",
+  "source": "article-pmc12225869",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0326118",
+  "revision": "2025; DOI 10.1371/journal.pone.0326118; article XML SHA-256 05748bbe3ab6de01d0616035a071d378fc2d0bf735c25b7b775596c953ca7e48",
+  "source_snapshot_sha256": "05748bbe3ab6de01d0616035a071d378fc2d0bf735c25b7b775596c953ca7e48",
+  "url": "https://doi.org/10.1371/journal.pone.0326118",
+  "text": "The foggy environment negatively affects car-following behavior, increasing rear-end collisions and energy consumption (including fuel consumption and traffic emissions). With advancements in technologies, connected automated vehicles (CAVs) are gradually replacing human-driven vehicles (HDVs) and becoming an integral part of transportation systems. The advent of CAVs offers a new approach to reducing car-following risks and energy consumption in foggy conditions. This study develops a fog-adaptive control framework for CAVs in foggy weather to mitigate car-following risks and reduce energy consumption. First, a foggy-weather car-following model, calibrated using driving simulator data, was selected to describe the behavior of HDVs in foggy highway conditions. Then, based on the model predictive control (MPC) theory, a CAV control strategy was proposed to minimize car-following risks and energy consumption in foggy weather. Finally, a simulation-based verification paradigm was established to assess objectives of risk reduction and energy saving under the proposed CAV strategy in mixed traffic. The results show that car-following risks and energy consumption vary under different fog densities and speed limit conditions. The proposed CAV control strategy can effectively reduce car-following risks by suppressing speed fluctuations, thereby lowering energy consumption in foggy mixed vehicular streams. At a 100% CAV penetration rate, the average reductions in various scenarios of fog density and speed limit conditions are as follows: ITC by 80.74%, DRAC by 59.44%, fuel consumption by 27.62%, CO 2 emissions by 27.62%, CO emissions by 9.57%, HC emissions by 6.21%, and NOx emissions by 11.55%.\n\nWith the rapid growth of global motor vehicle ownership, issues related to traffic safety and energy consumption, including fuel consumption and traffic emissions, have become increasingly prominent. A five-year highway observation study in Indiana revealed that, out of 338 observed highway segments, only 120 segments experienced no traffic collisions, while the remaining 218 segments recorded a total of 5,737 traffic accidents [ 1 ]. According to statistics, road transport injuries account for approximately 1.24 million cause 1.24 million fatalities per annum globally, and an additional 20–50 million people are injured, leading to economic losses exceeding $500 billion [ 2 ]. At the same time, the large-scale operation of motor vehicles results in significant fuel consumption and severe environmental pollution [ 3 , 4 ]. For example, annual gasoline consumption in the United States approximates 143 billion gallons, translating to a daily demand of 391 million gallons [ 5 ]. The problems of highway traffic safety and energy consumption are fundamentally rooted in car-following behavior. Therefore, it is crucial to analyze the risks associated with car-following behavior and explore effective strategies to reduce energy consumption, as these are essential for enhancing the sustainability and safety of transportation systems.\n\nRear-end collisions constitute the predominant accident modality of accident on highways [ 6 ]. Low visibility in foggy weather hinders drivers’ ability to observe the movements of multiple vehicles ahead, increasing their reaction time [ 7 ]. If the car-following distance is too short under these conditions, drivers must react more quickly and often tend to brake more forcefully to avoid a collision, which increases the overall speed variation within the traffic flow and makes rear-end collisions more likely [ 8 ]. In addition, Peng et al. [ 9 ] conducted a study by collecting real-world driving data to investigate the effects of fog on driving behavior and traffic parameters. The results indicated that the impact of fog on traffic varies by vehicle type, lane, and visibility conditions. Compared to trucks, the effects of fog are more pronounced on passenger vehicles, and the impact on traffic in inner lanes is more significant than on outer lanes. Significant differences were found in the average headway, vehicle speed, and headway standard deviation under different visibility levels.\n\nFurthermore, fog, as a common",
+  "source_label": "Control strategy for connected automated vehicles to reduce car-following risks and energy consumption on foggy highway",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "b6f59c2f4f9b45725a1580652e1345e7d9997b55762359213b81663aaeb8d86a"
+}

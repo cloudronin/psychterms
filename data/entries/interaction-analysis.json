@@ -1,0 +1,63 @@
+{
+  "id": "interaction-analysis",
+  "term": "interaction analysis",
+  "definition": "Interaction analysis is a way of studying whether the effect of one factor depends on another factor instead of examining each factor separately. In the source packet, it refers specifically to testing pairs of genetic variants to see whether their combined relationship with an outcome differs from what would be expected from looking at each variant one at a time.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12176161"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12176161",
+      "revision": "2025; DOI 10.1371/journal.pone.0321967; article XML SHA-256 1013a866a8ddedfa6ec4d27bfd9adb58fa42d0cb913d7c29f7d8c7c76ab5c815",
+      "scope": "Source record 10.1371/journal.pone.0321967; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0321967"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "96dacf55df3444e99f813c860c9dcb8c",
+    "request_hash": "d1c94b27ba4ef40013ce8a98e6f4251700a147d6f6924f89e43c4219f493c1ec",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "fd1e2f9994943e4ff1ae750b81d6b730bcd6ab5044d8e998ed87cefa369acd13",
+    "packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a"
+  },
+  "hash": "bc088cbd206835d7b75052e53fb552bdebd742df13256820b3a6458706df3b00",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided field is “cognition,” but the packet describes genome-wide SNP–SNP interaction analysis in colorectal cancer outcomes (prognostic genetic research), not cognition. This makes the field association unsupported/defensible."
+      ],
+      "definition_hash": "fd1e2f9994943e4ff1ae750b81d6b730bcd6ab5044d8e998ed87cefa369acd13",
+      "packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a",
+      "published_packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a",
+      "receipt_id": "5e5c4278607341069fb03d9ccd477c6e",
+      "request_hash": "6aee7a5b1d620c52f66c87bf1f79e947b7b2b50c24fdfb92deb921c923cdf198",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a genetic SNP-SNP interaction analysis in colorectal cancer prognosis, not a cognition/psychology sense, so the field is not defensible from the source.",
+        "The definition narrows the term to testing pairs of genetic variants; that wording is supported by the packet, but the packet does not establish this as the requested dictionary sense for cognition.",
+        "The second sentence is source-meta phrasing rather than a standalone definition and does not add a supported clinical or counseling meaning."
+      ],
+      "definition_hash": "fd1e2f9994943e4ff1ae750b81d6b730bcd6ab5044d8e998ed87cefa369acd13",
+      "packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a",
+      "published_packet_hash": "1aac72d3b9dcf2dfd9990223604ee95b4ca96152f620e4ece6163ac3bc49a95a",
+      "receipt_id": "73fa03b47cd14fec93c740db4a2a961a",
+      "request_hash": "a24acc9d5a05e3aa10f5028d04d0e84e0bcb556925062c6cc5fb02badcd8c8bb",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

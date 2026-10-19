@@ -1,0 +1,26 @@
+{
+  "id": "ceft",
+  "term": "CEFT",
+  "source": "article-pmc10585045",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fvets.2023.1272940",
+  "revision": "2023; DOI 10.3389/fvets.2023.1272940; article XML SHA-256 7d6ca497cc1edd94a4551d18e6b3c592b91a45f11c8ac484e5234fcd171b204f",
+  "source_snapshot_sha256": "7d6ca497cc1edd94a4551d18e6b3c592b91a45f11c8ac484e5234fcd171b204f",
+  "url": "https://doi.org/10.3389/fvets.2023.1272940",
+  "text": "Currently, control against bovine respiratory disease (BRD) primarily consists of mass administration of an antimicrobial upon arrival to facility, termed “metaphylaxis.” The objective of this study was to determine the influence of six different antimicrobials used as metaphylaxis on the whole blood host transcriptome in healthy steers upon and following arrival to the feedlot. One hundred and five steers were stratified by arrival body weight (BW = 247 ± 28 kg) and randomly and equally allocated to one of seven treatments: negative control (NC), ceftiofur (CEFT), enrofloxacin (ENRO), florfenicol (FLOR), oxytetracycline (OXYT), tildipirosin (TILD), or tulathromycin (TULA). On day 0, whole blood samples and BW were collected prior to a one-time administration of the assigned antimicrobial. Blood samples were collected again on days 3, 7, 14, 21, and 56. A subset of cattle ( n = 6) per treatment group were selected randomly for RNA sequencing across all time points. Isolated RNA was sequenced (NovaSeq 6,000; ~35 M paired-end reads/sample), where sequenced reads were processed with ARS-UCD1.3 reference-guided assembly (HISAT2/StringTie2). Differential expression analysis comparing treatment groups to NC was performed with glmmSeq (FDR ≤ 0.05) and edgeR (FDR ≤ 0.1). Functional enrichment was performed with KOBAS-i (FDR ≤ 0.05). When compared only to NC, unique differentially expressed genes (DEGs) found within both edgeR and glmmSeq were identified for CEFT ( n = 526), ENRO ( n = 340), FLOR ( n = 56), OXYT ( n = 111), TILD ( n = 3,001), and TULA ( n = 87). At day 3, CEFT, TILD, and OXYT shared multiple functional enrichment pathways related to T-cell receptor signaling and FcεRI-mediated NF-kappa beta (kB) activation. On day 7, Class I major histocompatibility complex (MHC)-mediated antigen presentation pathways were enriched in ENRO and CEFT groups, and CEFT and FLOR had DEGs that affected IL-17 signaling pathways. There were no shared pathways or Gene Ontology (GO) terms among treatments at day 14, but TULA had 19 pathways and eight GO terms enriched related to NF- κβ activation, and interleukin/interferon signaling. Pathways related to cytokine signaling were enriched by TILD on day 21. Our research demonstrates immunomodulation and potential secondary therapeutic mechanisms induced by antimicrobials commonly used for metaphylaxis, providing insight into the beneficial anti-inflammatory properties antimicrobials possess.\n\nBovine respiratory disease (BRD) is a multifactorial disease complex that has been identified as the cause of approximately 75% of morbidity and over 50% of mortality in the feedlot industry ( 1 , 2 ). The pathogenesis of BRD culminates from the interactions between stressors and environmental risk factors, viral and bacterial pathogens, and the host immunological response ( 3 ). Due to the structure of the beef cattle marketing system, calves are exposed to multiple stressors at once, which can result in host immunosuppression. A viral infection allows for pathogenic bacteria to induce a secondary infection, contributing to the development of BRD ( 4 ). Moreover, current BRD diagnosis in the field is subjective, based on visual assessment of clinical signs associated with BRD, and has previously been shown to have poor sensitivity ( 5 , 6 ). As such, metaphylaxis, or the mass administration of injectable antimicrobials upon facility arrival, is an effective method of controlling BRD ( 7 ). With the rise of antimicrobial resistance (AMR), exploring mechanisms of how drugs influence host immunological responses is imperative to understanding how they remain efficacious ( 8 ). Examining the host whole blood transcriptome and differential gene expression provides insight to novel genomic mechanisms associated with immune response to antimicrobial administration.\n\nRNA sequencing (RNA-Seq) produces quantitative and qualitative data regarding RNA in a biologic sample. It accomplishes this by combining high-throughput sequencing methodology with computational analysis to quantify transcripts in an RNA extraction ( 9 ). This technology can be used to identify transcribed genes within a cell or tissue, genomic",
+  "source_label": "Characterizing the influence of various antimicrobials used for metaphylaxis against bovine respiratory disease on host transcriptome responses",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "028f36b060cd36fd6ab90a2710830e10a34278796670a9ad61f4e786ab2a4af5"
+}

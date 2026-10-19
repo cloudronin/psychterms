@@ -1,0 +1,26 @@
+{
+  "id": "human-chorionic-gonadotropin",
+  "term": "human chorionic gonadotropin",
+  "source": "article-pmc13119905",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0348114",
+  "revision": "2026; DOI 10.1371/journal.pone.0348114; article XML SHA-256 34a5f2045878711b047b23c078ea7c1c79859621dd07d017415e7bcc43dc8e3a",
+  "source_snapshot_sha256": "34a5f2045878711b047b23c078ea7c1c79859621dd07d017415e7bcc43dc8e3a",
+  "url": "https://doi.org/10.1371/journal.pone.0348114",
+  "text": "This study aims to develop a machine learning model for predicting early pregnancy outcomes by combining baseline levels and dynamic changes of β-human chorionic gonadotropin (β-hCG), progesterone (P), and estradiol (E2).\n\nThis retrospective study screened out 421 patients treated at the Lanzhou University Second Hospital between March 2023 and August 2024. Feature selection was performed using Least Absolute Shrinkage and Selection Operator (LASSO) and Random Forest Recursive Feature Elimination (RF-RFE). Subsequently, we constructed a traditional logistic regression model and five machine learning models: Random Forest (RF), eXtreme Gradient Boosting (XGBoost), k-Nearest Neighbors (KNN), Multilayer Perceptron (MLP) neural network, and Support Vector Machine (SVM). Internal validity was assessed through 5-fold cross-validation. Model performance was measured by the area under the Receiver Operating Characteristic curve (AUC), accuracy, precision, sensitivity, and specificity.\n\nAmong the 421 enrolled patients, 263 had ongoing pregnancies while 158 experienced early pregnancy loss (EPL). LR, RF, XGBoost, KNN, MLP, and SVM achieved AUCs of 0.750, 0.784, 0.750, 0.706, 0.755, and 0.749, respectively, with all accuracy and precision metrics exceeding 0.60. Notably, the RF model yielded optimal performance for EPL prediction, attaining the highest AUC (0.784), accuracy (0.729), and precision (0.724).\n\nIntegrating dynamic changes in β-hCG, P, and E2 enables effective prediction of early pregnancy outcomes. The RF model exhibited optimal performance, highlighting its potential for clinical implementation as a risk stratification tool based on serial hormone monitoring.\n\nEarly pregnancy loss (EPL) refers to a non-viable intrauterine pregnancy occurring within the first 12 weeks of gestation, characterized by either an empty gestational sac or a gestational sac containing an embryo or fetus without cardiac activity [ 1 ]. Prospective studies indicate that EPL affects 15%–20% of clinically recognized pregnancies [ 2 ]. Beyond potential physiological symptoms such as bleeding and abdominal pain, EPL can exert profound psychological consequences on patients and their families, including grief, guilt, depression, and anxiety [ 3 , 4 ]. Therefore, early and accurate prediction of pregnancy outcomes is crucial for enabling timely clinical intervention and providing effective psychological support.\n\nCurrently, various biomarkers are utilized to assess early pregnancy development and predict pregnancy outcomes. β-human chorionic gonadotropin (β-hCG) is a key hormone secreted by trophoblast cells following implantation. Evidence indicates that unhealthy pregnancies exhibit slower rises or even declines in maternal serum β-hCG levels, often lacking the characteristic doubling increase [ 5 ]. Progesterone (P) is crucial for endometrial receptivity, implantation, and maintaining pregnancy [ 6 ]. Ucyigit et al. confirmed that women with lower P levels in early pregnancy suffer an increased risk of pregnancy loss [ 7 ]. Estradiol (E2) levels reflect follicular quality and corpus luteum function, contributing to luteal maintenance. Serum E2 levels are typically significantly lower in women experiencing pregnancy loss compared to those with normal pregnancies [ 8 ]. Despite their use, the clinical application of these biomarkers faces challenges. Bobdiwala et al. found that single-threshold levels for β-hCG, β-hCG ratios, and progesterone were clinically unreliable for determining early pregnancy viability [ 9 ], findings corroborated by Pillai et al. [ 10 ]. This highlights the limited predictive utility of traditional approaches relying on single-timepoint measurements or individual biomarkers.\n\nTherefore, the development of a reliable, early-warning method for EPL is imperative to enable timely clinical intervention. This study aims to establish machine learning models for predicting early pregnancy outcomes by integrating both static and dynamic features of β-hCG, P, and E2.",
+  "source_label": "Development of machine learning models for predicting early pregnancy outcomes based on β-hCG, progesterone, and estradiol",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4027
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "f1474417b5afeb3eb8ad52a01e2b22ea96e8220c187195d265046d072a096956"
+}

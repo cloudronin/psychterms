@@ -1,0 +1,26 @@
+{
+  "id": "deviance-information-criterion",
+  "term": "deviance information criterion",
+  "source": "article-pmc11003030",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-024-02201-w",
+  "revision": "2024; DOI 10.1186/s12874-024-02201-w; article XML SHA-256 603c8d940e9a7f50df6124da1fd0a7181876b70b2c1707bb551958dfa1a54c87",
+  "source_snapshot_sha256": "603c8d940e9a7f50df6124da1fd0a7181876b70b2c1707bb551958dfa1a54c87",
+  "url": "https://doi.org/10.1186/s12874-024-02201-w",
+  "text": "Prostate cancer is the most common cancer after non-melanoma skin cancer and the second leading cause of cancer deaths in US men. Its incidence and mortality rates vary substantially across geographical regions and over time, with large disparities by race, geographic regions (i.e., Appalachia), among others. The widely used Cox proportional hazards model is usually not applicable in such scenarios owing to the violation of the proportional hazards assumption. In this paper, we fit Bayesian accelerated failure time models for the analysis of prostate cancer survival and take dependent spatial structures and temporal information into account by incorporating random effects with multivariate conditional autoregressive priors. In particular, we relax the proportional hazards assumption, consider flexible frailty structures in space and time, and also explore strategies for handling the temporal variable. The parameter estimation and inference are based on a Monte Carlo Markov chain technique under a Bayesian framework. The deviance information criterion is used to check goodness of fit and to select the best candidate model. Extensive simulations are performed to examine and compare the performances of models in different contexts. Finally, we illustrate our approach by using the 2004-2014 Pennsylvania Prostate Cancer Registry data to explore spatial-temporal heterogeneity in overall survival and identify significant risk factors.\n\nThe online version contains supplementary material available at 10.1186/s12874-024-02201-w.\n\nProstate cancer (PC) is the most common cancer after non-melanoma skin cancer and the second leading cause of cancer deaths in US men, with 31,620 deaths estimated in 2019, a 7% increase compared with 2018 [ 1 ]. In recent years, PC care and outcomes have substantially improved, with a 5-year survival rate of up to 100% if the cancer is diagnosed at an early stage; however, these improvements are not equally shared across geographic regions, and elevated mortality has been observed among patients in some specific areas (i.e., rural or Appalachian regions) [ 2 ]. One important potential factor driving this geographic disparity is access to high-quality cancer care. Other disparities have also been explored, including black race, older age, and family history of PC [ 2 ]. Despite the high 5-year survival rate with early diagnosis, the diagnosis of PC is likely to be delayed owing to the aforementioned factors. Thus, improving PC survival outcomes is still crucial and challenging, and there is a need to better understand the spatial-temporal heterogeneity of PC and identify high-risk populations to enable more effective implementation of screening policies and intervention strategies.\n\nTo achieve these goals, existing population-based cancer registry data provide fruitful resources and platforms for analysis; however, there are several specific data issues: 1) substantially multi-modal risk factors with various data types; 2) spatial-temporal variation in cancer mortality, with adjacent neighborhoods or temporal cohorts more alike than those from distant regions or years owing to similar environmental and social factors [ 3 – 6 ]; and 3) the availability of individual-level data for analysis. In this article, we used population-based Pennsylvania (PA) cancer registry data (PCR) from the PA Department of Health to examine the spatial-temporal pattern of survival in patients with a primary clinical diagnosis of PC in PA between 2004 and 2014 [ 5 – 8 ]. The PCR is annually collected, including demographic (e.g., age at diagnosis, race, insurance) and clinical information (e.g., serum prostate-specific antigen [PSA], Gleason score, tumor stage, first-course treatment) from hospitals, clinics, and other medical facilities, as well as geo-spatial information [ 4 – 8 ]. Note that in PA, there are around 78,000 newly diagnosed cancer cases each year, with a mortality rate of 169.1 per 100,000 men in 2004–2014 (age-adjusted to the 2000 US standard population) according to a PA Department of Health report on the burden of cancer in PA in 2019; however, there have been limited studies on PA survival on prostate cancer",
+  "source_label": "Spatial-temporal Bayesian accelerated failure time models for survival endpoints with applications to prostate cancer registry data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 2
+  },
+  "packet_hash": "74e119d76a9fab9ceb0c79a66afa885c25770a3f6a0741eb85daa6329407561e"
+}

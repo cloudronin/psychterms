@@ -7,7 +7,7 @@ import unicodedata
 
 ROOT=Path(__file__).resolve().parents[1]
 SEMANTIC=('id','term','definition','also_see','field','aliases','sources','provenance','exam_layer_id','risk')
-ALLOWED_LICENSES={'public-domain-US-government','public-domain-US','CC0-1.0','CC-BY-3.0','CC-BY-4.0','OGL-UK-3.0'}
+ALLOWED_LICENSES={'public-domain-US-government','public-domain-US','CC0-1.0','CC-BY-2.0','CC-BY-2.5','CC-BY-3.0','CC-BY-4.0','OGL-UK-3.0'}
 
 def canonical(value): return json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 def digest(value): return hashlib.sha256(canonical(value)).hexdigest()

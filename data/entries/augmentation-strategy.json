@@ -1,0 +1,57 @@
+{
+  "id": "augmentation-strategy",
+  "term": "augmentation strategy",
+  "definition": "An augmentation strategy is a way of improving a predictive model by adding extra derived information to the original data. In this source, it means using features produced by a discrete wavelet transform alongside the time-series data to help deep learning models make forecasts.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10079093"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10079093",
+      "revision": "2023; DOI 10.1371/journal.pone.0282621; article XML SHA-256 5801af3b392243892f0fac470acaaadaf52cb555e7876048868b1a0412a81295",
+      "scope": "Source record 10.1371/journal.pone.0282621; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0282621"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "045ab65af0e143239492aa03993599d2",
+    "request_hash": "f54caf78d985cb46f012782de05ebb107e705ed5312ecd5267c2fdb15c4b1f5d",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "b1a54283d0c4478ba1a75586438b7dde2b0a24d3c6120eacf4568e7c622369e6",
+    "packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701"
+  },
+  "hash": "ee32b78ed3e215fe9cd8e682239a8902c8cec07091486c20cd45029ef3bce89c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b1a54283d0c4478ba1a75586438b7dde2b0a24d3c6120eacf4568e7c622369e6",
+      "packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701",
+      "published_packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701",
+      "receipt_id": "3ce35724467746f3af2736247ebb971c",
+      "request_hash": "bd823efdadcebba1e55c0beb090790649b085b540d2e8c67a3eef4f73f33fcbb",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "b1a54283d0c4478ba1a75586438b7dde2b0a24d3c6120eacf4568e7c622369e6",
+      "packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701",
+      "published_packet_hash": "b84b3785c635bc7f4891944414ac9fdaab5540c67843ef1ef2c0f893f3aa0701",
+      "receipt_id": "651498019db74c888896962e4224760d",
+      "request_hash": "39120509dde20fda1e3916d55fe145aae335e3305b5f5e622eed5039bdf191cf",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

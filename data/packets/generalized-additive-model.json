@@ -1,0 +1,26 @@
+{
+  "id": "generalized-additive-model",
+  "term": "generalized additive model",
+  "source": "article-pmc12696945",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-025-02735-7",
+  "revision": "2025; DOI 10.1186/s12874-025-02735-7; article XML SHA-256 1d4b9691220519d13e1f654ce372b3f4864fb790d11a6d68df73df7eec7e57f6",
+  "source_snapshot_sha256": "1d4b9691220519d13e1f654ce372b3f4864fb790d11a6d68df73df7eec7e57f6",
+  "url": "https://doi.org/10.1186/s12874-025-02735-7",
+  "text": "The generalized additive model for location, scale and shape (GAMLSS) is a flexible regression model with a wide range of applications. In particular, it is the standard method to estimate age-specific percentile curves for clinical parameters for children and adolescents. Deriving international percentile curves requires large datasets that cover a diverse population. Such datasets are typically obtained by pooling data from multiple studies. However, due to ethical and legal constraints, physically sharing and pooling sensitive individual-level data might not always be permitted. Therefore, we aimed to develop a privacy-enhancing method to fit a GAMLSS.\n\nWe developed a federated version of the GAMLSS algorithm which allows to co-analyze data from different sources, without physically transferring the data. Instead, data are analyzed locally within their secure home environments and only non-disclosive analysis results are shared. We implemented our method in DataSHIELD, an open-source software infrastructure for federated analysis in R, and investigated its theoretical properties. Considering two different use cases, we applied our algorithm to physically separated epidemiological study data and compared its results with the ones obtained by fitting a GAMLSS to the physically-pooled data. Furthermore, we evaluated the runtime of the federated GAMLSS against the original GAMLSS algorithm for varying number of observations and DataSHIELD servers.\n\nWe proved that, in theory, the federated GAMLSS yields identical results as the original GAMLSS algorithm, using the additivity of matrix multiplication in the fitting algorithm. Furthermore, we provided an implementation of the proposed algorithm and demonstrated that the federated GAMLSS implementation yielded the same results as the pooled GAMLSS in our examples, with only minor differences attributable to numerical computation. However, the runtime was more than 1000 times higher for fitting the federated compared to the pooled GAMLSS.\n\nIn this paper, we propose a privacy-enhancing federated GAMLSS that yields virtually identical results as the original GAMLSS algorithm, without the need to physically pool the data.\n\nThe generalized additive model for location, scale and shape (GAMLSS) is a flexible regression framework to model the relationship between a single response variable and one or more explanatory variables [ 1 ]. Unlike classical linear regression with linear terms, where the relationship between the response and explanatory variable is assumed to be linear, the GAMLSS can additionally accommodate non-linear associations through non-parametric smoothing functions [ 2 ]. In addition, it supports the inclusion of random effects to account for clustering in the data, for example clustering within study centers. Whereas most regression models focus solely on one distribution parameter of the response variable, e.g. the mean (location parameter) in linear regression, the GAMLSS extends this by allowing the simultaneous modeling of further distribution parameters, like parameters for scale (e.g. variance) and shape (e.g. skewness and kurtosis) [ 2 ]. Finally, unlike other regression models, the GAMLSS offers more than 100 different distributions for the response variable.\n\nDue to its flexibility, the GAMLSS has a wide range of applications, e.g. hydrological draught [ 3 ] or claim count analysis [ 4 ]. Furthermore, the GAMLSS is the standard method for estimating percentile curves, as it possesses several properties that make it particularly well suited for this task [ 5 ]. First, by assuming an underlying distribution, the GAMLSS allows precise estimation of extreme percentiles and enables direct calculation of z-scores and percentiles, which is not possible without distributional assumptions. Second, it naturally prevents crossing of the percentile curves, a problem that might occur with quantile regression. Finally, the GAMLSS can account for both skewness and kurtosis, which may be present in some measurements and need to be modeled to avoid distortion of the estimated percentiles.\n\nPercentile curves are an essential reference in clinical routine to assess and",
+  "source_label": "Federated generalized additive models for location, scale and shape",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "ethics",
+  "scope_decision": {
+    "eligible": true,
+    "field": "ethics",
+    "rule": "psychology-context:ethics",
+    "policy_version": 2
+  },
+  "packet_hash": "4ce9ec0f09e65a872dc21d0f1b482d24d200525d742e0af2a546fb8fbc5c2762"
+}

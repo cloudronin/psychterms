@@ -1,0 +1,26 @@
+{
+  "id": "dtps",
+  "term": "DTPS",
+  "source": "article-pmc12469175",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pcbi.1013446",
+  "revision": "2025; DOI 10.1371/journal.pcbi.1013446; article XML SHA-256 0c9d7a2b712e65969cd4d6fd08cfed00277be56a55f2007b346840e83c3f96e7",
+  "source_snapshot_sha256": "0c9d7a2b712e65969cd4d6fd08cfed00277be56a55f2007b346840e83c3f96e7",
+  "url": "https://doi.org/10.1371/journal.pcbi.1013446",
+  "text": "Drug tolerant persisters (DTPs) drive cancer therapy resistance by temporarily evading drug action, allowing multiple routes to eventual permanent resistance. Despite clear evidence for DTPs, the timing of their emergence, proliferative nature, and how their population dynamics arise from measured single-cell kinetics remain poorly understood. Here we use time-lapse microscopy data from two cancer cell lines, integrating single-cell and population measurements, to develop a quantitative description of drug persistence. Contrary to the expectation that increasing levels of genotoxic stress should lead to slower times to division and faster times to death, we observe minor changes in the single-cell intermitotic and death time distributions upon increasing cisplatin concentration. Yet, population decay rates increase 3-fold, suggesting a surprising independence of the overall dynamics from the measured birth and death rates. To explain this phenomenon, we argue that the observed lineage correlations and concentration-dependent decay rates imply cell-state dependent fate choices made both pre and post-cisplatin as opposed to just post-drug birth/death rate-based competitive fate choices. We demonstrate that these cell-states, present in the pre-drug ancestors of DTP and sensitive cells, exhibit no difference in cycling speed and are inherited across at least 2-3 cellular generations. Post-drug survival versus death fates are decided with high probability by these pre-existing cell-states, but get modulated to some extent by the drug, leading to a drug concentration dependent state-fate map. A stochastic model implementing these rules simultaneously recapitulates the observed decay rates and cell-fate lineage correlations. The model also demonstrates how the use of barcode diversity change before and after drug might lead to misleading interpretations of the timing of persister fate decisions. Our results provide a conceptual framework for quantifying pre versus post-drug contributions to cell fate, without requiring knowledge of the underlying molecular architecture of the heterogeneous cell states.\n\nIt is now well understood that evasion of drug effects on short time-scales by cancer cells (drug tolerant persisters or DTPs) originates from cell fate outcomes driven by non-genetic heterogeneity. However, the timing of these fate decisions is currently debated. Here we combine two scales of cancer cell proliferation – single-cell and population dynamics, to argue that fate decisions must occur both before and post drug administration. This conclusion emerges from developing a series of models of plausible cell fate decision processes, to best explain a set of puzzling observations in microscopy datasets: (1) though the population dynamics post cisplatin varies by 3-fold between high and low drug concentrations, there is no detectable change in the single-cell kinetics, and (2) end fate is strongly correlated between cells closer in lineage distance. The final model we develop quantitatively explains all these observations, and provides a conceptual framework for quantifying the contribution of pre versus post-drug cell fate decisions. Our results also demonstrate that measuring drug-induced changes in barcode diversity can lead to misleading interpretations on persister timing. Our conclusions do not depend on identifying the molecular origins of drug tolerance, providing a general framework for investigating the timing of persister development.\n\nNon-genetic heterogeneity amongst isogenic cells gives rise to drug-tolerant persisters or “DTP\"s – cells that temporarily survive drug treatment, often providing a reservoir for future genetic changes driving permanent resistance [ 1 – 8 ]. Originally discovered in the context of bacterial-cell survival in the presence of antibiotics [ 9 ], the existence of persisters was later suggested for cancer as well, where a fractional-killing effect was demonstrated to limit curability in leukemia [ 10 ]. A large body of literature has since accumulated, suggesting interesting parallels between the phenomenon of persistence in bacterial and cancer cells, including a characteristic bi-phasic",
+  "source_label": "Inheritable cell-states shape drug-persister correlations and population dynamics in cancer cells",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "mental health",
+  "scope_decision": {
+    "eligible": true,
+    "field": "mental health",
+    "rule": "psychology-context:mental health",
+    "policy_version": 2
+  },
+  "packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11"
+}

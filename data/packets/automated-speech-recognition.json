@@ -1,0 +1,26 @@
+{
+  "id": "automated-speech-recognition",
+  "term": "automated speech recognition",
+  "source": "article-pmc3164679",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0024055",
+  "revision": "2011; DOI 10.1371/journal.pone.0024055; article XML SHA-256 a2ff68d3a1b82218e4bc492769301ca2f208fc0d0d23d2933241f3a56568ea49",
+  "source_snapshot_sha256": "a2ff68d3a1b82218e4bc492769301ca2f208fc0d0d23d2933241f3a56568ea49",
+  "url": "https://doi.org/10.1371/journal.pone.0024055",
+  "text": "We investigate the use of phonetic motor invariants (MIs), that is, recurring kinematic patterns of the human phonetic articulators, to improve automatic phoneme discrimination. Using a multi-subject database of synchronized speech and lips/tongue trajectories, we first identify MIs commonly associated with bilabial and dental consonants, and use them to simultaneously segment speech and motor signals. We then build a simple neural network-based regression schema (called Audio-Motor Map, AMM) mapping audio features of these segments to the corresponding MIs. Extensive experimental results show that a small set of features extracted from the MIs, as originally gathered from articulatory sensors, are dramatically more effective than a large, state-of-the-art set of audio features, in automatically discriminating bilabials from dentals; the same features, extracted from AMM-reconstructed MIs, are as effective as or better than the audio features, when testing across speakers and coarticulating phonemes; and dramatically better as noise is added to the speech signal. These results seem to support some of the claims of the motor theory of speech perception and add experimental evidence of the actual usefulness of MIs in the more general framework of automated speech recognition.\n\nAutomatic speech recognition (ASR) is the ability of a machine to convert human speech, coded as an audio signal, into words. Potential applications of ASR range from human-computer interfaces to informatics for the disabled to data mining in large speech corpora. While human beings show an excellent ability to understand one another's speech, independently of the speaker, the accent, the noise, etc., the robustness to speech variability of state-of-the-art ASR systems is still an active research topic.\n\nRecent neuroscientific evidence indicates that the brain motor areas responsible for producing bilabial and dental phonemes are also involved in their perception, at least when speech is noisy. D'Ausilio et al. [1] show that in a noisy discrimination task of /b/ and /p/ versus /d/ and /t/, trans-cranial magnetic stimulation of the lips and tongue motor areas improves the perception of bilabials, and similarly, stimulation of the tongue favors dentals. This suggests that motor information may be paramount for speech understanding in humans.\n\nInspired by these findings, in this paper we investigate whether knowledge of speech production in humans, integrated into an automatic phone classifier, can improve the classification of /b/,/p/ versus /d/,/t/, in various conditions of noise and with different restrictions on the training set. To this end, we focus on the “artificial version” of the problem tackled in D'Ausilio et al.'s work, i.e., we perform the same classification task using computational models that combine auditory and motor information. For each consonant, a corresponding typical phonetic motor invariant (MI) is identified according to the basic physiology of speech; e.g., a fast opening (plosion) of the lips for /b/ and /p/ and of the tongue against the upper teeth for /d/ and /t/. MIs are then used to semi-automatically segment the audio/motor data found in a database of speech/motor trajectories recorded from subjects.\n\nSubsequently, a simple regression method (namely, a feed-forward neural network) is employed to build an Audio-Motor Map (AMM), which converts audio features of the isolated segment to features of the related MI. At an abstract level, the AMM is a mathematical proxy of a mirror structure [2] , [3] , reconstructing the distal speaker's speech act while listening to the related fragment of speech. According to a widely accepted account on the dorsal-ventral partitioning of the brain auditory system [4] , [5] the AMM would be located in the dorsal stream, receiving input from the superior temporal gyrus (STG) projecting to the posterior parietal cortex and then to frontal regions (e.g., Broca's area) (note that the localization of the AMM in the brain does not necessarly imply a critical role of the AMM in speech perception, it might be critical for the speech learning phase only [5] , [6] ).\n\nTo test the approach, we devised",
+  "source_label": "The Use of Phonetic Motor Invariants Can Improve Automatic Phoneme Discrimination",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "4f4e1beb1a31aa4cb56821fe31d0e8b46fa934ef441217f3f69c71903500fbc2"
+}

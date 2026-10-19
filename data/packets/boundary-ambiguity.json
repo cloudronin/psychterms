@@ -1,0 +1,26 @@
+{
+  "id": "boundary-ambiguity",
+  "term": "boundary ambiguity",
+  "source": "article-pmc12998886",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0344622",
+  "revision": "2026; DOI 10.1371/journal.pone.0344622; article XML SHA-256 80ee79f83669713adef0ac0da7cd5e1e553212102f418cb5a7bc7cf49e965f15",
+  "source_snapshot_sha256": "80ee79f83669713adef0ac0da7cd5e1e553212102f418cb5a7bc7cf49e965f15",
+  "url": "https://doi.org/10.1371/journal.pone.0344622",
+  "text": "Skin lesion segmentation is a crucial component of dermoscopic computer-aided diagnosis, yet challenges such as boundary ambiguity, morphological diversity, and noise interference under complex imaging conditions still limit the accuracy and robustness of existing methods. To address these issues, we propose a dual-prior hybrid segmentation network that integrates both boundary priors and shape priors. In the encoder, a gradient-driven Boundary-augmented Hybrid Attention module is constructed to jointly capture long-range contextual information through explicit boundary enhancement, self-attention, and state space–inspired modeling. In the decoder, a Multi-scale Lesion Shape Prior module is designed to impose global structural constraints on the segmentation mask via multi-scale shape priors and a unified loss formulation, thereby balancing fine-grained contour precision with overall morphological consistency. Evaluated on three public datasets—ISIC2018, HAM10000, and PH 2 —the proposed method achieves IoU/DSC scores of 92.4%/96.0%, 87.3%/93.2%, and 95.2%/97.5%, respectively, outperforming the strongest baseline by an average margin of 1.4 percentage points in IoU while reducing HD95 and ASD by approximately 0.8 and 0.06 on average. Moreover, with only 3.79G FLOPs, Our method surpasses a range of state-of-the-art Transformer and CNN–Transformer hybrid architectures, demonstrating its comprehensive advantages in accuracy, boundary quality, and computational efficiency.\n\nSkin cancer and high-risk dermatological lesions have shown a continuous upward trend worldwide, and their early detection together with accurate lesion segmentation plays a crucial clinical role in improving patient survival rates and reducing medical burden [ 1 , 2 ]. With the increasing availability of dermoscopic imaging devices and the rapid development of medical digitalization, large-scale skin lesion image data have been accumulated, providing a solid foundation for the advancement of computer-aided diagnosis systems [ 3 ]. Among these components, automated skin lesion segmentation acts as a key prerequisite for subsequent tasks such as lesion classification, lesion evolution assessment, and treatment planning. Achieving robust and fine-grained segmentation under complex imaging conditions and diverse lesion morphologies has therefore become an important research direction at the intersection of medical imaging and computer vision.\n\nHowever, existing deep learning–based skin lesion segmentation methods still face several challenges [ 4 ]. On one hand, lesion boundaries often exhibit ambiguous transitions, low contrast, and irregular shapes, and are easily affected by artifacts such as body hair, illumination shadows, skin texture, and imaging noise. As a result, networks relying solely on local texture or global semantics may struggle to capture the true lesion contours accurately. On the other hand, lesions captured across different patients and imaging devices vary significantly in size, shape, and appearance, making it difficult for models to balance local detail preservation and overall structural constraints [ 5 ]. This often leads to fragmented boundaries, missed detection of small lesions, or either over-segmentation or under-segmentation of lesion regions [ 6 ]. Although some existing methods introduce boundary auxiliary branches or shape priors, they often utilize these cues only at a specific stage of the network and lack a unified framework for jointly modeling boundary information, global context, and multi-scale shape structure, thereby limiting their generalization and robustness in complex scenarios.\n\nTo address these issues, we propose a dual prior hybrid segmentation network that jointly incorporates boundary priors and shape priors to enhance the modeling of lesion structures in both the encoding and decoding stages. In the encoder, a Boundary augmented Hybrid Attention (BAHA) module fuses explicit boundary information extracted by gradient operators and edge convolutions with local self attention and convolutional gated features, while a state space inspired mechanism propagates boundary and semantic cues across long spatial",
+  "source_label": "SegMan-based dual-prior network with boundary-augmented hybrid attention for robust skin lesion segmentation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4193
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "ea1f34c88157e6370d13ee8fadf29b2591da92039b1578bb5384fe200b1041ff"
+}

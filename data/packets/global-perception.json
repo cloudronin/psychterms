@@ -1,0 +1,26 @@
+{
+  "id": "global-perception",
+  "term": "global perception",
+  "source": "article-pmc11166279",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0305166",
+  "revision": "2024; DOI 10.1371/journal.pone.0305166; article XML SHA-256 5b9eba2f09edc044a02b1e223c0429bb3e6ca16239f41a08af8b0ebc5eed0a0b",
+  "source_snapshot_sha256": "5b9eba2f09edc044a02b1e223c0429bb3e6ca16239f41a08af8b0ebc5eed0a0b",
+  "url": "https://doi.org/10.1371/journal.pone.0305166",
+  "text": "CNN has demonstrated remarkable performance in EEG signal detection, yet it still faces limitations in terms of global perception. Additionally, due to individual differences in EEG signals, the generalization ability of epilepsy detection models is week. To address this issue, this paper presents a cross-patient epilepsy detection method utilizing a multi-head self-attention mechanism. This method first utilizes Short-Time Fourier Transform (STFT) to transform the original EEG signals into time-frequency features, then models local information using Convolutional Neural Network (CNN), subsequently captures global dependency relationships between features using the multi-head self-attention mechanism of Transformer, and finally performs epilepsy detection using these features. Meanwhile, this model employs a light multi-head attention mechanism module with an alternating structure, which can comprehensively extract multi-scale features while significantly reducing computational costs. Experimental results on the CHB-MIT dataset show that the proposed model achieves accuracy, sensitivity, specificity, F1 score, and AUC of 92.89%, 96.17%, 92.99%, 94.41%, and 96.77%, respectively. Compared to the existing methods, the method proposed in this paper obtains better performance along with better generalization.\n\nEpilepsy, as a common neurological disorder, is characterized by chronicity, abruptness, and recurrence [ 1 ]. According to statistics from the World Health Organization, there are over 50 million epilepsy patients worldwide, with nearly 80% in low and middle-income countries [ 2 ], significantly impacting patients’ work and life. Due to the fact that electroencephalogram (EEG) signals contain a wealth of physiological and pathological information from patients, they are widely used for detecting epileptic seizures [ 3 ]. However, in-depth analysis of these EEG signals to accurately determine whether an epileptic seizure is occurring is a laborious task that relies on experience, which can lead to misdiagnosis or missed diagnosis. Therefore, constructing epilepsy detection models using artificial intelligence technology holds significant theoretical and practical value.\n\nThe current mainstream epilepsy detection models can be roughly divided into two categories: machine learning models and deep learning models. Machine learning models typically rely on manually extracted features for epilepsy detection. This approach is limited by dataset variations, making it challenging to ensure accuracy. In contrast, deep learning models can directly learn hierarchical and abstract features from EEG signals, which are more discriminative than traditionally handcrafted features, simplifying the feature extraction process and improving detection accuracy.\n\nIn the field of epilepsy detection using deep learning, Convolutional Neural Networks (CNN) are the most widely applied. For instance, the epilepsy seizure automatic detection model proposed by A. Gramacki et al. [ 4 ], adopts an end-to-end learning approach using CNNs. In such models, CNNs directly learn features from raw EEG signals and output detection results without the need for manual feature extraction or selection. S. Khalilpour et al. [ 5 ] based their work on 1D-CNN and combined it with a channel selection strategy for epilepsy signal detection. This method primarily achieves detection by optimizing the network structure and the quality of input data. M.S. Hossain et al. [ 6 ] designed a 2D-CNN model to capture EEG signal spectral and temporal features, utilizing these captured features for epilepsy signal detection. However, in epilepsy detection tasks, the issue of data imbalance due to the scarcity of seizure events can affect the performance of epilepsy detection. Therefore, I. Ahmad et al. [ 7 ] used K-means oversampling techniques to balance the data, integrating 1D CNNs with Bi-LSTM networks to efficiently extract spatiotemporal information. H. Fei et al. [ 8 ] proposed an epilepsy detection method that combines imbalanced classification with deep learning. They balanced EEG data through data augmentation and designed a 1D CNN for efficient detection. Moreover, CNN",
+  "source_label": "Epilepsy detection based on multi-head self-attention mechanism",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "43ec96664671109fab2cf2a86a383245f2dd60b6ff4d75e79b70f749b9b78bf2"
+}

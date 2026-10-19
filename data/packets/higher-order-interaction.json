@@ -1,0 +1,26 @@
+{
+  "id": "higher-order-interaction",
+  "term": "higher order interaction",
+  "source": "article-pmc12121753",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0323753",
+  "revision": "2025; DOI 10.1371/journal.pone.0323753; article XML SHA-256 b710fe2b3922e27fdff177caefed542db62eed3db532dc74dca1579191bfd03c",
+  "source_snapshot_sha256": "b710fe2b3922e27fdff177caefed542db62eed3db532dc74dca1579191bfd03c",
+  "url": "https://doi.org/10.1371/journal.pone.0323753",
+  "text": "A social interaction (so-called higher-order event/interaction) can be regarded as the activation of a hyperlink among the corresponding individuals. Social interactions can be, thus, represented as higher-order temporal networks that record the higher-order events occurring at each time step over time. The prediction of higher-order interactions is usually overlooked in traditional temporal network prediction methods, where a higher-order interaction is regarded as a set of pairwise interactions. The prediction of future higher-order interactions is crucial to forecast and mitigate the spread of information, epidemics and opinion on higher-order social contact networks. In this paper, we propose novel memory-based models for higher-order temporal network prediction. By using these models, we aim to predict the higher-order temporal network one time step ahead, based on the network observed in the past. Importantly, we also intend to understand what network properties and which types of previous interactions enable the prediction. The design and performance analysis of these models is supported by our analysis of the memory property of networks, e.g., similarity of the network and activity of a hyperlink over time, respectively. Our models assume that a target hyperlink’s future activity (active or not) depends on the past activity of the target link and of all or selected types of hyperlinks that overlap with the target. We then compare the performance of our models with three baseline models, which are an activity driven model, a probabilistic group-change model and a pairwise temporal network prediction method. In eight real-world networks, we find that both our models consistently outperform the baselines. Moreover, the refined model, which only uses a subset of all types of overlapping hyperlinks, tends to perform the best. Our models also reveal how past interactions of the target hyperlink and different types of hyperlinks that overlap with the target contribute to the prediction of the target’s future activity.\n\nTemporal networks have been used to represent complex systems with time-varying network topology, where a link between two nodes is activated only when the node pair interacts [ 1 – 3 ]. This classic temporal network representation assumes interactions to be pairwise. While social contacts/interactions have been mostly studied in pairwise temporal networks, they could be beyond pairwise, as individuals may interact in groups [ 4 – 6 ]. For example, a collaboration in a scientific paper may engage more than two authors [ 7 ]. Such group interactions, involving an arbitrary number of nodes, are called higher-order interactions or events. Social contacts are thus better represented by higher-order temporal networks, consisting of higher-order interactions, i.e., the activations of hyperlinks (groups of nodes) at specific times.\n\nThe classic temporal network prediction problem aims to predict pairwise contacts, one time step ahead, based on the network observed in the past. This problem has applications in a variety of research fields. Predicting a temporal network in the future enables better forecast and mitigation of the spread of epidemics or misinformation on the network, for example. This prediction problem is also equivalent to problems in recommender systems, such as predicting which user will purchase which product, or which individuals will become acquaintances at the next time step [ 8 , 9 ].\n\nMethods have been proposed for pairwise temporal network prediction. Some rely on network embeddings, where nodes are represented as points in a low dimensional embedding space. Within this space, connected nodes are then supposed to be close [ 10 ]. Alternatively, deep learning methods have been proposed [ 11 ]. Examples are adversarial networks [ 12 ] or LSTM methods [ 13 ]. The downside of deep learning methods, however, is that they are at the expense of high computational costs, and are limited in providing insights regarding which network mechanisms enable the network prediction. Additionally, other methods have been proposed to predict whether a set of nodes will have at least one group interaction in",
+  "source_label": "Higher-order temporal network prediction and interpretation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "9420f781571a750619498154d99d0e05bff245efc505f381ee35b39bebe846eb"
+}

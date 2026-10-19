@@ -1,0 +1,63 @@
+{
+  "id": "beck-scale-for-suicide-ideation",
+  "term": "Beck Scale for Suicide Ideation",
+  "definition": "The Beck Scale for Suicide Ideation is a psychological assessment measure used to evaluate suicidal ideation. In the source material, it is used as a self-report response scale in adults for studying the nature and variation of suicidal thoughts.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12975467"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12975467",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1729597; article XML SHA-256 d9dd04be4564fcabb63d86034a7218bbf63d8331aaa47fe77e97c6e221e2f1e6",
+      "scope": "Source record 10.3389/fpsyg.2026.1729597; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1729597"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "0aa2fb99db01a6949a28201fdb3fb8210ecbf759ed1b0d99dc702ebe6571dc86",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "153fc43571c9456a80d6c49c3ad1273f",
+    "request_hash": "beba16149ce4ae5b101fb88c1bd08d145db7efdcfe3394eaa66411f306ff7c49",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "549a0eacbcafe0e0fc93d282d982a5516116ebea3c0d75b967899bf01d351eea",
+    "packet_hash": "0aa2fb99db01a6949a28201fdb3fb8210ecbf759ed1b0d99dc702ebe6571dc86"
+  },
+  "hash": "e7d454d34b82386eea912723e0c2136ce0ce69dc24e3838735ebd41cd8755997",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the measure is a “self-report response scale,” but the provided packet only says participants “responded to the Beck Scale for Suicide Ideation (BSS)” and does not explicitly characterize it as self-report.",
+        "The definition’s claim that it is used “for studying the nature and variation of suicidal thoughts” is only partly supported: the packet describes a “taxometric investigation into the underlying structure of suicidal ideation,” but it does not clearly support the specific phrasing about “nature and variation of suicidal thoughts.”"
+      ],
+      "definition_hash": "549a0eacbcafe0e0fc93d282d982a5516116ebea3c0d75b967899bf01d351eea",
+      "packet_hash": "0aa2fb99db01a6949a28201fdb3fb8210ecbf759ed1b0d99dc702ebe6571dc86",
+      "published_packet_hash": "0aa2fb99db01a6949a28201fdb3fb8210ecbf759ed1b0d99dc702ebe6571dc86",
+      "receipt_id": "96a22fa2b3f2435891463b5d7b485922",
+      "request_hash": "cf189ec9a1d893c3ff86c59d594b7d26f9f22fb4fa9f009fb54d5f5bf021baf7",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only shows that participants in a study responded to the Beck Scale for Suicide Ideation; it does not explicitly support describing the instrument as a “self-report response scale.”",
+        "The packet supports a taxometric study of suicidal ideation in which the BSS was one measure used, but it does not support the broader claim that the BSS is used “for studying the nature and variation of suicidal thoughts.”"
+      ],
+      "definition_hash": "549a0eacbcafe0e0fc93d282d982a5516116ebea3c0d75b967899bf01d351eea",
+      "packet_hash": "0aa2fb99db01a6949a28201fdb3fb8210ecbf759ed1b0d99dc702ebe6571dc86",
+      "published_packet_hash": "0aa2fb99db01a6949a28201fdb3fb8210ecbf759ed1b0d99dc702ebe6571dc86",
+      "receipt_id": "735e0a425ce54df282896a2248232cde",
+      "request_hash": "1bf319c97696d77b88e5bc016c043e31ab4f93a264577bc148451231a6b82012",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

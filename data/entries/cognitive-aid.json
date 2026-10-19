@@ -1,0 +1,60 @@
+{
+  "id": "cognitive-aid",
+  "term": "cognitive aid",
+  "definition": "A cognitive aid is a tool, such as a checklist or reference, used during high-stakes events to help people quickly recall important steps, consider possible diagnoses, and find needed information such as medications or other instructions. In medical emergencies, it is often used selectively to support memory and decision-making rather than followed strictly step by step.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11870359"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11870359",
+      "revision": "2025; DOI 10.1371/journal.pone.0314774; article XML SHA-256 0a5cbacde8db7fecefed11de0749f70cbacd1370a2127f3d6d3581b53513b824",
+      "scope": "Source record 10.1371/journal.pone.0314774; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0314774"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a773a565da3b4906b590d8f2b4dff611",
+    "request_hash": "571952cce92e88dc3f527c1e06547e95590797a045856e7c52927e4db748905d",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "13b628bb8a4838eb88f11eda559b45529b32a5335e5515fc63f11b4495eabf9c",
+    "packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec"
+  },
+  "hash": "4e4da3643e7bc415ee2c150dbfeaa08d36cdc996eb1a3f943bafdc92711291a9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field, development, is not supported by the packet; the source is about perioperative critical-event cognitive aids in anesthesia and surgery, not developmental psychology.",
+        "The definition is broader than the packet in one respect: it generalizes to “medical emergencies” in general, while the source specifically discusses critical events during surgery and anesthesia."
+      ],
+      "definition_hash": "13b628bb8a4838eb88f11eda559b45529b32a5335e5515fc63f11b4495eabf9c",
+      "packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec",
+      "published_packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec",
+      "receipt_id": "3b457c3d55f54e2180949943da0c5a38",
+      "request_hash": "5b0712169678fb777c9d542c26742de0fc9f1550817dee8f1b0febb93692f0c5",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "13b628bb8a4838eb88f11eda559b45529b32a5335e5515fc63f11b4495eabf9c",
+      "packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec",
+      "published_packet_hash": "e437715cd5ae2a44029aa3daacdd309d09d2894341551a541ecc260b351a25ec",
+      "receipt_id": "a4b32e63c5a54da887245b456f707629",
+      "request_hash": "b363b0828c5fbd814fa98521cc7177b556eb6154ae94b08bd9e033b2c0084700",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

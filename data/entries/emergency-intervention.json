@@ -1,0 +1,64 @@
+{
+  "id": "emergency-intervention",
+  "term": "emergency intervention",
+  "definition": "In this context, an emergency intervention is an urgent response used during an acute suicidal crisis. It is treated as a serious suicidal event, distinct from a suicide attempt but indicating immediate crisis-level risk.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10588868"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10588868",
+      "revision": "2023; DOI 10.1371/journal.pone.0287285; article XML SHA-256 ba93220f2d8745c9506a7c0c4732ff8db1907263cd75a6fd102b05e89cc9e07e",
+      "scope": "Source record 10.1371/journal.pone.0287285; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0287285"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c81ab2369a66fd9d13603d13bb041d2e905097133e98a38020b9af71076f5f2b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b539e51ed34d43cd8a1bd4ce82402bea",
+    "request_hash": "001c54d3bd56297c86f055769f6f909a394ab7ff755b739cd157c0b191ea1945",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "6c6418c1449e8403856a84db20086f3ef2b03f93f152961976ab7bf285f58191",
+    "packet_hash": "c81ab2369a66fd9d13603d13bb041d2e905097133e98a38020b9af71076f5f2b"
+  },
+  "hash": "b5dd572408e71d90c6c4479d6dc1ca877964c4d526fec15b2c87595d26e548cb",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that an emergency intervention occurs for an acute suicidal crisis and is counted among “suicidal events,” but it does not support defining it as a general “urgent response” or as a clinical intervention procedure.",
+        "The packet does support that it is distinct from a suicide attempt, but it does not say it is a diagnosis- or risk-level category on its own, so the phrasing “treated as a serious suicidal event” needs tighter grounding in the source."
+      ],
+      "definition_hash": "6c6418c1449e8403856a84db20086f3ef2b03f93f152961976ab7bf285f58191",
+      "packet_hash": "c81ab2369a66fd9d13603d13bb041d2e905097133e98a38020b9af71076f5f2b",
+      "published_packet_hash": "c81ab2369a66fd9d13603d13bb041d2e905097133e98a38020b9af71076f5f2b",
+      "receipt_id": "532a459782b74d8aadda545877a66523",
+      "request_hash": "4759c0c65cbbc5bed286c7d8b3c9ddee9fc2b6d24ed45c9f6f7ee600d4779454",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet defines “suicidal events” as “either a suicide attempt or an emergency intervention for an acute suicidal crisis,” but it does not state that an emergency intervention is an “urgent response.”",
+        "The packet does not explicitly characterize an “emergency intervention” as “treated as a serious suicidal event.” (It is only included as one type of “suicidal events.”)",
+        "While the packet indicates emergency intervention is distinct from a suicide attempt by listing them as separate alternatives within “suicidal events,” it does not support the added claim that it “indicat[es] immediate crisis-level risk” beyond the phrase “for an acute suicidal crisis.”"
+      ],
+      "definition_hash": "6c6418c1449e8403856a84db20086f3ef2b03f93f152961976ab7bf285f58191",
+      "packet_hash": "c81ab2369a66fd9d13603d13bb041d2e905097133e98a38020b9af71076f5f2b",
+      "published_packet_hash": "c81ab2369a66fd9d13603d13bb041d2e905097133e98a38020b9af71076f5f2b",
+      "receipt_id": "f536784cf6e44e0b90e020091c2f2537",
+      "request_hash": "64efaa356aa3b824bf2bf6cbd24115d1048f90ed51f7a3213520f99bffd5880d",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

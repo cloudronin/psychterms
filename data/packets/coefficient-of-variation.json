@@ -1,0 +1,26 @@
+{
+  "id": "coefficient-of-variation",
+  "term": "coefficient of variation",
+  "source": "article-pmc13521577",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0337982",
+  "revision": "2026; DOI 10.1371/journal.pone.0337982; article XML SHA-256 b087e3ebd20538b57279bc1b57fe9b6b68ba8303d58df10010a795f545cc965a",
+  "source_snapshot_sha256": "b087e3ebd20538b57279bc1b57fe9b6b68ba8303d58df10010a795f545cc965a",
+  "url": "https://doi.org/10.1371/journal.pone.0337982",
+  "text": "The coefficient of variation (CV) is a frequently used standardized measure of variability that allows meaningful comparison among datasets measured using different scales or units. Although widely applied in practice, formal statistical inference for the CV under non-normal distributions has received limited attention. This study focuses on estimating the CV for the weighted exponential distribution under an adaptive Type-II hybrid progressive censoring scheme, which enhances the efficiency of life-testing experiments by balancing test duration and the number of observed failures. Both Bayesian and non-Bayesian frameworks are considered. Point estimation in the non-Bayesian framework is carried out using the maximum likelihood method, whereas interval estimates are constructed through the parametric bootstrap approach. For the Bayesian approach, posterior inference is performed through Markov chain Monte Carlo sampling with under appropriate gamma prior assumptions. To illustrate the implementation of the proposed procedures, a simulated dataset is analyzed, and a comprehensive Monte Carlo simulation study is subsequently conducted to evaluate the accuracy and efficiency of the estimators. According to the analysis, Bayesian estimators based on informative prior distributions yield more precise estimates of the CV.\n\nThe coefficient of variation (CV) is a standard statistical metric defined as the ratio of the population standard deviation to the population mean. It is used to evaluate relative variability or uncertainty of data and is particularly useful when comparing datasets measured in different units. By standardizing the measure of dispersion, the CV allows for meaningful comparisons across diverse datasets, such as comparing weights in grams and heights in centimeters.\n\nCV has been extensively utilized across both theoretical developments and practical applications in statistics. Pang et al. [ 1 ] proposed a simulation-based Bayesian approach for estimating the population CV under the three-parameter gamma distribution, with extensions to the lognormal and Weibull models. This methodology was later adapted by Pang et al. [ 2 ] to the beta distribution for estimating the CV of bounded data, such as dividend yields in the Hong Kong stock market. Further contributions include CV estimation for Gompertz distribution by Soliman et al. [ 3 ] and for compound Rayleigh populations by Al-Aboud et al. [ 4 ]. Beyond theoretical modeling, the CV is widely applied in clinical and diagnostic settings to assess measurement accuracy, as shown by Reh and Scheffler [ 5 ]. It is also used in physiological and biomedical research, for instance, to evaluate the homogeneity of bone samples as demonstrated by Hamer et al. [ 6 ] and in finance to quantify relative risk as discussed by Miller and Karson [ 7 ].\n\nAlthough the CV is widely used to measure variability, its estimation often relies on complete data. However, in life testing experiments, collecting complete data is often impractical due to time constraints, costs, or other constraints. Consequently, researchers often work with censored data, where only partial information is available. To accommodate such settings, various censoring schemes (CSs), such as Type-I, Type-II, progressive, and hybrid, have been developed to enable efficient analysis under incomplete data conditions.\n\nAmong these, the most common are Type-I and Type-II CSs. In a Type-I CS, the experiment is terminated at a predetermined time point η , with the number of observed failures being random. In contrast, a Type-II CS ends the experiment once a fixed number of failures m has occurred, making the test duration random. While both approaches are practical, they offer limited flexibility, as units can only be removed from the test at its termination.\n\nThis lack of adaptability motivated the development of a more general censoring framework, known as the progressive censoring scheme (PCS). Under this scheme, greater adaptability is achieved by allowing the removal of units at intermediate stages of the experiment; see Balakrishnan and Aggarwala [ 8 ] for more details. In a Type-II PCS, the experiment begins with n",
+  "source_label": "Simulation-based approach with an adaptive Type-II hybrid progressive censoring scheme to study the coefficient of variation of the weighted exponential distribution",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "b74ea8e6248a4de1b14f5b66962b219712b0be2474f01a6c2dc2f35c6e682fd1"
+}

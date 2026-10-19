@@ -1,0 +1,60 @@
+{
+  "id": "conditioning-apparatus",
+  "term": "conditioning apparatus",
+  "definition": "A conditioning apparatus is an experimental device used in animal research to produce conditioning, such as fear conditioning. In this packet, it refers to equipment in which rats were exposed to electrical foot shocks to create a PTSD-like stress model.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13151193"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13151193",
+      "revision": "2026; DOI 10.1186/s12993-026-00324-2; article XML SHA-256 8b05c07640ae62e4b113cbec0308b983a8cf0959c10cea50df564386e7c148a5",
+      "scope": "Source record 10.1186/s12993-026-00324-2; pinned source text",
+      "locator": "https://doi.org/10.1186/s12993-026-00324-2"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ad2eece6495945b1ba4a384ae2e2b286",
+    "request_hash": "e4cfa0593b77effd1744dc2059a11ddefa3dacb37d7e9abac41f2138bf751f35",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "03e2536c0807ee91e8ed79e01f694a15f296d1ed2029c8fcea4dab6e7fcac194",
+    "packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33"
+  },
+  "hash": "821bfa46d29ee0767cb54c5a7e4f044199b1dc93fd5f75c33e15b5e5f7cd2568",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "03e2536c0807ee91e8ed79e01f694a15f296d1ed2029c8fcea4dab6e7fcac194",
+      "packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33",
+      "published_packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33",
+      "receipt_id": "6330769ea93d4ad3b0f74c5dec5cfc2c",
+      "request_hash": "4ba49ff5da036c8bbb446ff1103fb1fdc6c4c8e7cfd995ddbca66902db0f4608",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the definition concerns an experimental/research equipment (“conditioning apparatus”), not a diagnosis.",
+        "The definition’s stated meaning (“PTSD-like stress model”) is about an animal research paradigm rather than diagnosing a condition; the packet does not support treating this term as belonging under the field “diagnosis.”"
+      ],
+      "definition_hash": "03e2536c0807ee91e8ed79e01f694a15f296d1ed2029c8fcea4dab6e7fcac194",
+      "packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33",
+      "published_packet_hash": "afc9ad9de6437cf6049c765b8349109221381dab4cef6995cf48881835ad2e33",
+      "receipt_id": "25d4d77295fe479aac0c7f3ecade4a75",
+      "request_hash": "16cad6fa189071ed65dd33315f89e3afb79b61318e222dd7b48bdda196083c02",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rocft",
+  "term": "ROCFT",
+  "source": "article-pmc12847431",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyt.2025.1746720",
+  "revision": "2026; DOI 10.3389/fpsyt.2025.1746720; article XML SHA-256 ba661b6df7c7f792682def71cf23d7873f7375e988f0bb42fce0d7c6cb755308",
+  "source_snapshot_sha256": "ba661b6df7c7f792682def71cf23d7873f7375e988f0bb42fce0d7c6cb755308",
+  "url": "https://doi.org/10.3389/fpsyt.2025.1746720",
+  "text": "Despite digital advances in healthcare, clinical neuropsychology has been slow to adopt automated assessment tools. Automated scoring of the Rey-Osterrieth Complex Figure Test (ROCFT) could enhance efficiency and consistency in evaluating quantitative and qualitative aspects of the figure. However, clinical utility and accuracy compared to traditional scoring methods remain unclear.\n\nTo evaluate whether digital automated scoring systems provide accuracy, reliability, and clinical utility equal to or superior to traditional clinician-driven scoring of the ROCFT.\n\nA rapid review following the PRISMA guidelines was conducted. PubMed and Web of Science were searched from January 1, 2015, to October 12, 2025, and included recent studies that benchmark automated scoring against human raters.\n\nThe review identified five articles, three with deep-learning approaches and two that used rule-based algorithms. Together, they analysed more than 41,000 ROCFT drawings with diverse capture methods. Overall, well-designed automated systems can achieve, and in some cases surpass, expert-level performance. The algorithmic approaches demonstrated close agreement with trained raters and reproducible outputs, with discrepancies primarily emerging in atypical drawings. Deep-learning models achieved high concordance with expert scoring when image quality was adequate, and training data were well-labelled. However, performance varied with data quality and distribution of scores.\n\nThis review demonstrates that digital automated ROCFT scoring achieves accuracy and reliability compared to traditional clinician ratings, with well-designed systems occasionally surpassing human performance. Expected advances in artificial intelligence and automation could further enhance clinical neuropsychology into the 21st century. However, clinical implementation faces several constraints: heterogeneous training datasets, limited evidence of usefulness across disorders, and lack of independent validation. Automated scoring should thus augment, not replace, clinical judgement. To address these limitations, future research should strive to establish disorder−specific norms, conduct independent validation in real-world clinical settings, and develop human-in-the-loop pipelines that combine automated efficiency with clinical oversight. Responsible implementation will require explicit governance frameworks that regulate data use and sharing, address privacy and ‘mental data’ concerns. These advances would strengthen the evidence-base and utility for automated ROCFT scoring and support its responsible integration into neuropsychological practice.\n\nWhile clinical neuropsychology has long been the gold standard for measuring cognition in clinical practice, its methods have evolved more slowly than the digital transformation in other areas of health care ( 1 , 2 ). Tests are still mostly administered on paper, scored by hand, at least partly dependent on the rater’s training and time. The Rey-Osterrieth Complex Figure Test (ROCFT) exemplifies both the strengths and constraints of this approach ( 3 ). It is a well-established test for assessing visuoconstruction, executive planning, and visual memory by requiring participants to copy and recall a complex figure, where 18 parts are given 0–2 points, with 36 points in total ( 4 ). However, neuropsychological test administration and scoring are labor-intensive, and inter-rater reliability remains problematic ( 5 ). The value of neuropsychological tests depends on norms for specific conditions. Tests require demographically stratified, disorder-relevant norms to yield valid inferences across age, education, and cultural groups ( 6 ). To address these challenges, proponents of a Neuropsychology 3.0 framework argue that the way forward is to transform test results into data streams that can be audited, compared across sites, and integrated with electronic medical records and decision support ( 7 ). Thus, automated ROCFT scoring can save time and enhance measurement fidelity: item-level outputs and process-features can be mapped to explicit cognitive constructs, improving transparency, inter-rater consistency, and longitudinal",
+  "source_label": "Automated versus human scoring of the Rey-Osterrieth Complex Figure Test: a rapid review",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4194
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "8f3cc2f16674553a081fbb6b354dee1552bc21def854b97fa9ccf8032cf83700"
+}

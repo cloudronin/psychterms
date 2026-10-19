@@ -1,0 +1,26 @@
+{
+  "id": "meta-attention",
+  "term": "meta-attention",
+  "source": "article-pmc12354351",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpubh.2025.1549679",
+  "revision": "2025; DOI 10.3389/fpubh.2025.1549679; article XML SHA-256 0f5429c0a6238f0e871d29cb26bddb4f2f7bcd72b573a741c6761d9cbf1d111e",
+  "source_snapshot_sha256": "0f5429c0a6238f0e871d29cb26bddb4f2f7bcd72b573a741c6761d9cbf1d111e",
+  "url": "https://doi.org/10.3389/fpubh.2025.1549679",
+  "text": "In medical scenarios, however, patient evaluations or doctor’s consultation information are typically used for modeling, and the data scale is relatively small. As a result, commodity recommendation models cannot be directly applied, presenting unique challenges and opportunities for exploration in modeling and design. Recommendation research in the medical field primarily relies on shallow deep learning techniques for model construction, with recommendation strategies largely based on statistical methods or machine learning mechanisms. These approaches typically use a single method for interactive vector calculations. Drawing from the modeling approach used in deep learning for commodity recommendations, and considering the unique features of recommendations in the medical field, the research framework is designed.\n\nMost existing studies focus on data or knowledge integration, lacking deep collaboration among multi-source heterogeneous data, medical domain knowledge, and clinical needs. This limits model interpret ability and clinical applicability. In complex clinical scenarios, flexible utilization of data and knowledge is essential. Inspired by the cognitive process of physicians considering patient profiles and guidelines, we proposes a data-driven, knowledge-guided feature engineering to enhance diagnostic accuracy. Additionally, a multi-task learning algorithm based on meta-attention mechanisms is developed to prioritize relevant information, along with an automated recommendation framework mimicking cognitive management. These efforts aim to establish a dynamic data-knowledge-business model to improve disease diagnosis.\n\nIn summary, the contributions of this study are as follows:\n\nUsing real medical case data from Traditional Chinese Medicine, we develop a systematic feature engineering framework. This includes the design of both high- and low-order features, knowledge representation features, and various feature interaction methods. These approaches help to fully explore the information contained in the original data.\n\nWe propose a deep matching neural network model that integrates TCM knowledge and modifies the loss function. Furthermore, an interaction mechanism between data and knowledge is introduced, enabling the model to better understand the underlying knowledge.\n\nFeature engineering and model training are automated and applied to real-world scenarios. Compared to the baseline, both offline evaluation metrics and online results show significant improvements.",
+  "source_label": "Multi-task meta-attention network for traditional Chinese medicine diagnostic recommendation",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    7790,
+    10308
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "89aad0f6aa1c9636967ab8a8037d231c8704869c5e6a0c94f37fd701009cc7dc"
+}

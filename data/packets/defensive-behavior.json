@@ -1,0 +1,26 @@
+{
+  "id": "defensive-behavior",
+  "term": "defensive behavior",
+  "source": "article-pmc11542840",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0307295",
+  "revision": "2024; DOI 10.1371/journal.pone.0307295; article XML SHA-256 bdcd9ce1c3f0f951289abea858010b829cc4851c8874ad11f24ae3ec4a47cc43",
+  "source_snapshot_sha256": "bdcd9ce1c3f0f951289abea858010b829cc4851c8874ad11f24ae3ec4a47cc43",
+  "url": "https://doi.org/10.1371/journal.pone.0307295",
+  "text": "This study presents empirical research about the defensive behavior of air pollution, that is, health insurance purchases. Using transaction-level data from a large insurance company, covering more than half a million insurance contracts from nineteen cities in China from 2014 to 2018, we empirically imply that an increase of 10% in AQI leads to a 0.37% uptick in the number of daily sales of health insurance contracts by the company within the city. The effect is non-linear and is more pronounced when the AQI exceeds 200. Besides, the defensive cost for a one-unit increase in AQI accounts for around 1.70% of individual income annually. We demonstrate that the positive impact of air pollution on health insurance purchases is primarily driven by health management awareness and social interaction.\n\nResearch shows the detrimental effect of air pollution on health. However, the severity of air pollution varies across countries. According to the 2022 WHO air quality database, more than 80% of cities in high-income countries meet the WHO’s Air Quality Guidelines for PM2.5. In sharp contrast, fewer than 1% of cities in low- and middle-income countries adhere to these air quality standards. The WHO (2017) [ 1 ] contends that over 88% of premature deaths worldwide due to air pollution occur in low- and middle-income nations, particularly in China and India [ 2 ].\n\nStudies on air pollution have primarily emphasized health risk assessments [ 3 – 5 ], labor productivity [ 6 , 7 ], and economic costs [ 8 – 10 ]. Studies also have provided compelling evidence that air pollution exerts a direct impact on our physical and psychological health [ 11 – 15 ]. Nevertheless, it is still necessary to explore the behavior and extent to which individuals in low- and middle-income countries resort to self-protection in response to air pollution.\n\nAs we know, insurance plays a pivotal role in fostering an individual’s sustainable health development [ 16 , 17 ]. In this paper, we aim to analyze whether and to what extent individuals in low- and middle-income countries with high pollution transfer the risks of air pollution through health insurance. Empirically, using insurance transaction data from China, a developing country where the yearly PM2.5 concentration exceeds the latest WHO annual threshold by a magnitude of sevenfold, we examine the defensive behavior, explore the mechanisms, and evaluate the economic cost.\n\nOur dataset comprises unique insurance transaction records encompassing over half a million insurance contracts across nineteen cities in China, spanning from 2014 to 2018. For the empirical test, the dependent variable is the logarithm of the daily number of insurance sales in the city. We quantify air pollution levels using the Air Quality Index (AQI) and employ the logarithm of the average AQI over a three-day window in the city as the independent variable. We find a positive correlation between air pollution and health insurance purchases. In particular, we imply that an increase of 10% in AQI results in a 0.37% uptick in the daily sales of health insurance contracts by the company within the city. Furthermore, the effect of pollution on the purchase for health insurance is non-linear and is more pronounced when the AQI exceeds 200. Compared to the demand for health insurance on “blue sky” days (AQI ≤ 100), purchases increase significantly by 4.43% on very unhealthy days (200 < AQI ≤ 300) and by 11.68% on hazardous days (AQI > 300).\n\nWe construct several additional tests to address the potential endogeneity concerns in our study. First, we employ the non-health insurance sold by the same company as the placebo test, consisting of accident and endowment insurance. The result shows no discernible impact of air pollution on the decision to purchase non-health insurance, mitigating any omitted variables bias stemming from the specific company characteristics. Second, we use thermal inversion and ventilation coefficient as instrumental variables for air pollution [ 18 – 21 ]. It is well known that ventilation coefficient and thermal inversion are exogenous meteorological phenomena. Our 2SLS estimations confirm a positive and",
+  "source_label": "Air pollution and defensive behavior: Evidence from transaction data in China",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4188
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "1fc97d0cadade23a95a567a75920c80eef38663e7b99fcfaedd509d89516e0cd"
+}

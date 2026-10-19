@@ -1,0 +1,62 @@
+{
+  "id": "matched-pairs-t-test",
+  "term": "matched-pairs t test",
+  "definition": "A matched-pairs t test is a statistical method used when two related scores are compared as pairs, such as the same students’ questionnaire results before and after an educational activity. It tests whether the average difference within those matched pairs is likely to reflect a real change rather than chance.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11186248"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11186248",
+      "revision": "2024; DOI 10.1186/s12909-024-05656-z; article XML SHA-256 69f784cdd05bee71aa04151b763310570b1bcd1837a439b3ca7e36093e640368",
+      "scope": "Source record 10.1186/s12909-024-05656-z; pinned source text",
+      "locator": "https://doi.org/10.1186/s12909-024-05656-z"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "28c1c119ddde264ed7383391ff758a886a090e12e3ba01db925bfe2c53437096",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ca3145facc1a406fb9ef4877da8e2265",
+    "request_hash": "296d108de6d6ed1b8616896eb8561ac57e297f62c692f8d2d24b261b3a7e2f92",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "3cd8b6f7b638e3678db45b34350b844606e31be0412a1e9ac6599da712b60f5f",
+    "packet_hash": "28c1c119ddde264ed7383391ff758a886a090e12e3ba01db925bfe2c53437096"
+  },
+  "hash": "d206506a74ce028317f39d6d37b04fefca19c64c68fabcd00820f06157d62e97",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that a matched-pairs t-test was used to analyze pretest–posttest (paired) questionnaire scores, but it does not support the definition’s explanation that the test “tests whether the average difference…is likely to reflect a real change rather than chance.”"
+      ],
+      "definition_hash": "3cd8b6f7b638e3678db45b34350b844606e31be0412a1e9ac6599da712b60f5f",
+      "packet_hash": "28c1c119ddde264ed7383391ff758a886a090e12e3ba01db925bfe2c53437096",
+      "published_packet_hash": "28c1c119ddde264ed7383391ff758a886a090e12e3ba01db925bfe2c53437096",
+      "receipt_id": "e85fa953aa9741e08034735a88021939",
+      "request_hash": "b0b935605c0e9e83f5a48639d28cb4cff008a99a08e176e8854eee4981211f31",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet shows a pretest-posttest analysis with matched pairs, but it does not define a matched-pairs t test or support the claim that it tests whether an average within-pair difference is likely to reflect real change rather than chance.",
+        "The example about 'the same students’ questionnaire results before and after an educational activity' is consistent with the study’s pre/post questionnaire design, but the broader explanatory definition goes beyond what the packet explicitly states."
+      ],
+      "definition_hash": "3cd8b6f7b638e3678db45b34350b844606e31be0412a1e9ac6599da712b60f5f",
+      "packet_hash": "28c1c119ddde264ed7383391ff758a886a090e12e3ba01db925bfe2c53437096",
+      "published_packet_hash": "28c1c119ddde264ed7383391ff758a886a090e12e3ba01db925bfe2c53437096",
+      "receipt_id": "b321a17b271b4a1a85eef8b1c0fdd99f",
+      "request_hash": "0ab15c5bf5033af3448e646e63914045b57d0147c7e0a9cb37f13129db9716a4",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

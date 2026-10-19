@@ -1,0 +1,26 @@
+{
+  "id": "mixed-distribution",
+  "term": "mixed distribution",
+  "source": "article-pmc12416705",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0331664",
+  "revision": "2025; DOI 10.1371/journal.pone.0331664; article XML SHA-256 4bd458576c84491089785dca40a9cf2e8f504e3437335e9abc18a3e3606113f3",
+  "source_snapshot_sha256": "4bd458576c84491089785dca40a9cf2e8f504e3437335e9abc18a3e3606113f3",
+  "url": "https://doi.org/10.1371/journal.pone.0331664",
+  "text": "Traffic congestion frequently occurs in the drop-off zones of large integrated passenger hubs, posing significant challenges to the efficient utilization of lane space. This study develops a First-In-First-Out (FIFO) taxi drop-off decision-making model, incorporating both static and dynamic Logit frameworks grounded in panel data analysis. The model accounts for heterogeneity across vehicles, temporal variations, and spatial factors influencing drop-off decisions. Key explanatory variables include the probability of current forced parking time reaching the ‘waiting patience’ threshold, the relative parking position of the vehicle, the likelihood of the current parking spot being the expected one, and the ratio of travel time. A mixed distribution model of passenger patience was constructed through survival analysis and calibrated to reflect empirical data accurately. The model estimation results indicate that passenger patience significantly influences drop-off decisions. All models—static, dynamic, and Cox proportional hazards—achieved prediction accuracies exceeding 70%, with the dynamic model outperforming others when ample sample data is available. This study is novel in integrating both panel data-based discrete choice models and survival analysis to describe dynamic taxi drop-off decisions in congested FIFO lanes. The behavioral insight into the sunk cost effect – where drivers tend to wait longer after repeated forced stops – is quantitatively confirmed. Furthermore, the model introduces interpretable explanatory variables that reflect real-world operational constraints and driver psychology. To further elucidate the temporal dynamics of drop-off behavior, the study integrates survival analysis, particularly the Cox proportional hazards model. Findings reveal that extended forced parking durations, longer travel times, and increased instances of forced stops are associated with decreased hazard rates, suggesting a higher tolerance for prolonged waiting. This behavior is attributed to the sunk cost effect, where drivers, having invested time in waiting, are more inclined to continue waiting rather than proceed to drop off passengers. These insights underscore the necessity of incorporating driver psychological behaviors into traffic management strategies. Recommendations include implementing ‘no-waiting zones’ in drop-off areas, establishing mandatory drop-off time thresholds based on median survival times, introducing parking pricing policies for prolonged stops to internalize spatial costs, and utilizing real-time guidance systems (e.g., variable message signs) to prompt timely passenger drop-offs. Such measures aim to mitigate the adverse effects of prolonged forced stops and enhance the operational efficiency of drop-off zones.\n\nAt integrated passenger transport hubs (such as airports and high-speed rail stations), passengers arrive at designated drop-off areas via buses, taxis, private cars, and other modes before entering the waiting hall. However, in the “first-in, first-out” (FIFO) drop-off lane, vehicles must stop sequentially and wait for drop-off. This single-lane FIFO operation mode is quite common at China’s high-speed railway stations—for example, at Nanjing South Railway Station, Zhengzhou East Railway Station, Beijing South Railway Station, and Guangzhou South Railway Station. Such an operation may lead to inefficient utilization of available parking space, which in turn exacerbates congestion in the drop-off area.\n\nSeveral studies have addressed similar congestion issues in drop-off lanes. Zhang et al. [ 1 ] empirically analyzed passenger drop-off behaviors at Guangxi Airport and identified behavioral complexity as a key determinant of dwell time. Dong and Ryerson [ 2 ] explored the impact of ride-hailing services on airport taxi trips and parking turnover, revealing reduced taxi usage and modest effects on parking volume post-implementation of UberX and Lyft. Yang et al. [ 3 ] investigated congestion mitigation strategies for FIFO drop-off lanes and demonstrated that removing batch-based entry control could significantly increase taxi throughput. Their simulation results further supported enforced",
+  "source_label": "Modelling taxi drop-off decisions in FIFO lanes via survival and discrete choice analysis",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "c98c95bfac8ed7196e598c55a2cd2e2338775bc45bf2da43b059c358325ce0e4"
+}

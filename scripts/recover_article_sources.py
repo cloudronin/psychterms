@@ -1,7 +1,7 @@
 """Recover permitted article passages from private bibliographic leads, never legacy prose.
 
 Article XML is obtained from Europe PMC. Only an article's own explicit CC BY
-3.0/4.0 notice admits its original abstract/introduction/background text. Figures,
+2.0/2.5/3.0/4.0 notice admits its original abstract/introduction/background text. Figures,
 tables, references, quoted text, cases and empirical results are excluded.
 """
 import collections,concurrent.futures,hashlib,json,re,threading,time,urllib.request
@@ -14,6 +14,8 @@ DEST=ROOT/'.private/source-recovery'
 AUDIT=ROOT/'.private/coverage-audit'
 LOCK=threading.Lock()
 LAST=0.0
+DEFINED_LOCK=threading.Lock()
+DEFINED_CACHE=(0.0,set())
 NS='{http://www.w3.org/1999/xlink}'
 
 def text(node):
@@ -35,8 +37,8 @@ def parse_article(raw,pmcid,doi):
     permissions=meta.find('permissions')
     if permissions is None:raise ValueError('No article-specific permission notice')
     licence_xml=ET.tostring(permissions,encoding='unicode')
-    versions=re.findall(r'https?://creativecommons\.org/licenses/by/(3\.0|4\.0)/',licence_xml)
-    if not versions or re.search(r'creativecommons\.org/licenses/by-(?:nc|nd|sa)',licence_xml):raise ValueError('No unambiguous permitted CC BY 3.0/4.0 notice')
+    versions=re.findall(r'https?://(?:www\.)?creativecommons\.org/licenses/by/(2\.0|2\.5|3\.0|4\.0)/?(?=[\s"<>&)])',licence_xml)
+    if not versions or re.search(r'creativecommons\.org/licenses/by-(?:nc|nd|sa)',licence_xml):raise ValueError('No unambiguous permitted versioned CC BY notice')
     version=versions[0];licence='CC-BY-'+version
     authors=[]
     for n in meta.findall('contrib-group/contrib'):
@@ -49,7 +51,14 @@ def parse_article(raw,pmcid,doi):
     if not year:raise ValueError('Missing publication year')
     paragraphs=[]
     def collect(node):
+        parents={child:parent for parent in node.iter() for child in parent}
         for el in node.iter('p'):
+            cursor=el;excluded=False
+            while cursor in parents:
+                if cursor.tag in ('fig','table-wrap','table','disp-quote','ref-list','supplementary-material','boxed-text','fn-group'):excluded=True;break
+                if cursor.tag=='sec' and re.match(r'^(?:results?|methods?|participants?|patients?|case presentation)\b',text(cursor.find('title')),re.I):excluded=True;break
+                cursor=parents[cursor]
+            if excluded:continue
             # Exclude third-party quotations, tables and patient/case narrative.
             if el.find('.//disp-quote') is not None or el.find('.//table-wrap') is not None:continue
             value=text(el)
@@ -99,10 +108,29 @@ def plan():
     (DEST/'article-plan.json').write_text(json.dumps({'eligible_remaining_terms':len(terms),'terms_with_retrievable_articles':len(options),'article_jobs':jobs,'paid_calls':0},ensure_ascii=False,indent=2)+'\n')
     return jobs
 
+def already_defined(terms):
+    global DEFINED_CACHE
+    with DEFINED_LOCK:
+        checked,known=DEFINED_CACHE
+        if time.monotonic()-checked>5:
+            try:
+                history=json.loads((ROOT/'data/status-history.json').read_text())['entries']
+                known={norm(e['term']) for e in history.values()};DEFINED_CACHE=(time.monotonic(),known)
+            except json.JSONDecodeError:pass
+        return all(norm(term) in known for term in terms)
+
 def fetch(job):
     global LAST
+    if already_defined(job['terms']):return {'pmcid':job['pmcid'],'status':'already_defined','reason':'An entry already exists; no fallback article required'}
     path=DEST/'xml'/(job['pmcid']+'.xml');error_path=DEST/'errors'/(job['pmcid']+'.json')
-    if error_path.exists():return {'pmcid':job['pmcid'],'status':'unavailable','reason':json.loads(error_path.read_text())['reason']}
+    if error_path.exists():
+        if path.exists():
+            try:
+                source,record=parse_article(path.read_bytes(),job['pmcid'],job['doi'])
+                error_path.unlink()
+                return {'pmcid':job['pmcid'],'status':'admitted','source':source,'record':record,'terms':job['terms']}
+            except (ValueError,ET.ParseError):pass
+        return {'pmcid':job['pmcid'],'status':'unavailable','reason':json.loads(error_path.read_text())['reason']}
     try:
         if path.exists():raw=path.read_bytes()
         else:

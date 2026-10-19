@@ -1,0 +1,64 @@
+{
+  "id": "emergency-call-system",
+  "term": "emergency call system",
+  "definition": "An emergency call system is a home-based socio-technical setup designed to detect urgent events, especially falls or unusual inactivity, and quickly alert for help. In the described context, it can include a base station, wearable fall-detection sensors, home motion sensors, and access to social support services.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11963553"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11963553",
+      "revision": "2025; DOI 10.1186/s12877-025-05856-2; article XML SHA-256 a1f54a7592f55be21d51de7220c74499ab40a976506df35bc1f5100ae6077566",
+      "scope": "Source record 10.1186/s12877-025-05856-2; pinned source text",
+      "locator": "https://doi.org/10.1186/s12877-025-05856-2"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "eb83e16894e831c5911e380924978d926decfa104416ae2a341df9c4a55349fc",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "b069aba01ff346c28629e4208ff471e3",
+    "request_hash": "d7cbfcf2c8444033f772e50b795dfeb30eb0a923c872bdcae770b69bebe45b0e",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "2b855d98d03c6fb42153a07ea1292dddebdc45adaf48e54c29fa83f70bcaa8fc",
+    "packet_hash": "eb83e16894e831c5911e380924978d926decfa104416ae2a341df9c4a55349fc"
+  },
+  "hash": "1ae23454ae6bc840870061323d664d7313fd0c83e04a7a979bb3118b614662b6",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims detection of “unusual inactivity”; the packet describes emergency detection using motion sensors and a necklace with fall detection sensors, but does not mention inactivity detection as a feature.",
+        "The definition says the system “quickly alert[s] for help”; the packet mentions an emergency call system and support services, but does not explicitly state that alerts occur quickly.",
+        "Other elements (base station, home motion sensors, a wearable/necklace fall-detection sensor, and a social service) are supported by the packet, but the unsupported “unusual inactivity” and “quickly alert” components prevent a full pass."
+      ],
+      "definition_hash": "2b855d98d03c6fb42153a07ea1292dddebdc45adaf48e54c29fa83f70bcaa8fc",
+      "packet_hash": "eb83e16894e831c5911e380924978d926decfa104416ae2a341df9c4a55349fc",
+      "published_packet_hash": "eb83e16894e831c5911e380924978d926decfa104416ae2a341df9c4a55349fc",
+      "receipt_id": "176d349238914208acec541f61bd37b9",
+      "request_hash": "042743b5c8b8c3fbbb01465075d182b5fe773d926dc5efbb28460d59e4aa1f74",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a home-based emergency call system with a base station, home motion sensors, a necklace with fall-detection sensors, and a social service, but it does not support the added claim that the system detects “unusual inactivity.”",
+        "“Quickly alert for help” is only indirectly supported by the description that fall sensors may trigger an emergency call automatically and that the system promises immediate responses; the definition should not extend beyond the packet’s wording."
+      ],
+      "definition_hash": "2b855d98d03c6fb42153a07ea1292dddebdc45adaf48e54c29fa83f70bcaa8fc",
+      "packet_hash": "eb83e16894e831c5911e380924978d926decfa104416ae2a341df9c4a55349fc",
+      "published_packet_hash": "eb83e16894e831c5911e380924978d926decfa104416ae2a341df9c4a55349fc",
+      "receipt_id": "e14ade89cf69486ab4623a8c63b01149",
+      "request_hash": "48f3968c27400fa8dc65e30ca7126c77fcc4fd14c6ac97a007c02ed807559006",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

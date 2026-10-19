@@ -1,0 +1,26 @@
+{
+  "id": "rpe-scale",
+  "term": "RPE scale",
+  "source": "article-pmc12080770",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0323911",
+  "revision": "2025; DOI 10.1371/journal.pone.0323911; article XML SHA-256 392e11c732b5b768dd8b1bad11cd7520aee72feeea6015fb70bfe00d251a25ee",
+  "source_snapshot_sha256": "392e11c732b5b768dd8b1bad11cd7520aee72feeea6015fb70bfe00d251a25ee",
+  "url": "https://doi.org/10.1371/journal.pone.0323911",
+  "text": "Firefighting operations in high-rise building fires require firefighters to navigate complex environments while undertaking physically demanding, heavy-load tasks, which often lead to severe fatigue, impairing their operational efficiency and decision-making. This study aims to develop a robust fatigue classification and prediction model to assess and forecast firefighters’ fatigue levels. Key metrics, including electrocardiogram (ECG) signals, subjective fatigue ratings, and reaction time data, were utilized. Experiments involving six healthy adult male participants simulated firefighting scenarios, during which subjective fatigue levels (6–20 Borg’s RPE scale) and reaction times were recorded. A five-level fatigue classification was established using K-means clustering, and entropy weight analysis was applied to define a comprehensive fatigue index (F), enabling a three-tier fatigue classification: light, moderate, and severe fatigue. A BP neural network was employed for dynamic fatigue prediction, with 10 features derived from heart rate and heart rate variability (HRV) metrics serving as inputs and the comprehensive fatigue index (F) as the output. The BP neural network model achieved a high prediction accuracy with an R² value of 93.24%, demonstrating its capability to accurately predict firefighters’ fatigue states. This approach provides a scientific basis for optimizing firefighter training protocols and enhancing operational effectiveness during fire rescue missions. The findings highlight the significant potential of this method for advancing firefighter fatigue monitoring and management.\n\nAccording to statistics from the National Fire and Rescue Administration (January–October 2024), fire and rescue teams nationwide responded to 770,000 fire suppression incidents, resulting in 1,559 fatalities, a 12% increase compared to the previous year [ 1 ]. These figures underscore the intense demands and risks inherent in firefighting operations. During fire suppression, firefighters face complex environments and high-intensity tasks (e.g., climbing with heavy loads), which can rapidly induce fatigue. Studies demonstrate that fatigue significantly reduces operational efficiency and decision-making accuracy: Dennison et al. found that when firefighters’ heart rates exceeded 85% of their maximum, task completion time increased by 40%, and error rates rose to 28% [ 2 ]. Similarly, Yadav et al. reported a 35% increase in diagnostic errors and significant decision-making delays (p < 0.01) among medical staff working 12-hour shifts [ 3 ]. These findings highlight the universal impact of fatigue in dynamic operational contexts.\n\nExisting research reveals fatigue’s broad effects on performance: Rangan et al. observed that fatigued pilots exhibited 2.3-fold higher risk assessment biases compared to their rested state [ 4 ]. Forte et al. demonstrated a strong correlation (r = 0.72, p < 0.001) between autonomic nervous system imbalance (via ECG parameters) and cognitive decline [ 5 ]. While fatigue detection models based on physiological signals (e.g., voice, EEG) achieve high accuracy in static environments [ 6 – 7 ], their applicability to dynamic firefighting scenarios remains unvalidated. Although machine learning models (e.g., BP neural networks) have shown promise in contexts like driving and healthcare [ 6 – 7 ], their reliance on single physiological indicators (e.g., heart rate variability) or subjective scales limits their suitability for the multidimensional demands of firefighting.\n\nTo address these gaps, this study proposes a dynamic fatigue classification and prediction framework that integrates firefighters’ electrocardiogram (ECG) signals, Borg RPE scores, and reaction time data. ECG provides objective insights into autonomic nervous system dynamics [ 5 ]; the Borg RPE scale, a globally validated tool, correlates strongly with physiological load [ 8 ]; and reaction time directly quantifies declines in attention and response speed [ 9 ]. Together, these metrics holistically capture fatigue across physiological, subjective, and cognitive dimensions, overcoming the limitations of single-data-source approaches. Through",
+  "source_label": "A study on the classification and prediction of firefighter’s operational fatigue level",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4197
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "d43c4ac481291bd76d261f6b68895bbe4b31a58c7038be6eb37fa945cdfeaeba"
+}

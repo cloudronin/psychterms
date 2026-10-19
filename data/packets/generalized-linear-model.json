@@ -1,0 +1,26 @@
+{
+  "id": "generalized-linear-model",
+  "term": "generalized linear model",
+  "source": "article-pmc10576884",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-023-02050-z",
+  "revision": "2023; DOI 10.1186/s12874-023-02050-z; article XML SHA-256 a613a4957f5fe6488765e93b738b83305a66a0e1ed1cf1dd09332cda767e64f7",
+  "source_snapshot_sha256": "a613a4957f5fe6488765e93b738b83305a66a0e1ed1cf1dd09332cda767e64f7",
+  "url": "https://doi.org/10.1186/s12874-023-02050-z",
+  "text": "Public health surveillance serves a crucial function within health systems, enabling the monitoring, early detection, and warning of infectious diseases. Recently, outbreak detection algorithms have gained significant importance across various surveillance systems, particularly in light of the COVID-19 pandemic. These algorithms are approached from both theoretical and practical perspectives. The theoretical aspect entails the development and introduction of novel statistical methods that capture the interest of statisticians. In contrast, the practical aspect involves designing outbreak detection systems and employing diverse methodologies for monitoring syndromes, thus drawing the attention of epidemiologists and health managers. Over the past three decades, considerable efforts have been made in the field of surveillance, resulting in valuable publications that introduce new statistical methods and compare their performance. The generalized linear model (GLM) family has undergone various advancements in comparison to other statistical methods and models. This study aims to present and describe GLM-based methods, providing a coherent comparison between them. Initially, a historical overview of outbreak detection algorithms based on the GLM family is provided, highlighting commonly used methods. Furthermore, real data from Measles and COVID-19 are utilized to demonstrate examples of these methods. This study will be useful for researchers in both theoretical and practical aspects of outbreak detection methods, enabling them to familiarize themselves with the key techniques within the GLM family and facilitate comparisons, particularly for those with limited mathematical expertise.\n\nThe process of ongoing, systematic collection, analysis, interpretation, and dissemination of data for public health purposes, aiming to reduce the morbidity and mortality of health-related events and promote public health, is referred to as surveillance [ 1 ]. One of the main goals of surveillance is timely outbreak detection, which enables prompt investigations and implementation of control measures. In recent years, the surveillance system in pursuit of this goal has experienced significant and rapid growth. This growth can be attributed to two underlying factors: increased concerns regarding large-scale bioterrorism attacks and heightened public awareness of emerging and re-emerging infections. These advances have led to the introduction of syndromic surveillance systems, increased databases, and the creation of automated outbreak detection systems to process data for large numbers of infections [ 2 ]. The effectiveness of syndromic surveillance or automated systems in early outbreak detection relies, to a certain extent, on the detection of statistical aberrations. A substantial increase in the number of suspected cases recorded by the surveillance system beyond the expected values and threshold levels established through statistical methods may indicate a statistically significant aberration. Such an aberration necessitates epidemiological investigation to determine whether it represents a potential outbreak or a spurious signal originating from the surveillance system [ 3 ]. The fundamental principles underlying all statistical methods employed to identify outbreaks, known as outbreak detection algorithms, involve identifying the time interval during which the number of recorded infection reports under surveillance exceeds the expected values. This identification process consists of two steps: calculating the expected number on the unit time (daily or weekly) and comparing the expected value with the observed value using a statistical test. Outbreak detection algorithms differ in their approaches to estimating the expected value, and they can be broadly categorized into two groups based on the type of expected value they utilize: algorithms that calculate the mean over a selected baseline period and algorithms that employ sample estimation [ 2 ].\n\nThe desire to improve outbreak detection algorithms for early detection of outbreaks has led to an increased development of statistical methods. Various classification methods are proposed for",
+  "source_label": "Outbreak detection algorithms based on generalized linear model: a review with new practical examples",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "58c45611fa7b312dcd48f326f2eeb54389598e267c88a459d65f079bc77a212d"
+}

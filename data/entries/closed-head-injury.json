@@ -1,0 +1,64 @@
+{
+  "id": "closed-head-injury",
+  "term": "closed head injury",
+  "definition": "Closed head injury is a form of head trauma produced by an impact to the head without an open skull wound. In the supplied source, it is used as a model of mild traumatic brain injury and is linked to short-term neurobehavioral changes and signs of brain injury, especially when injuries are repeated.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11884142"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11884142",
+      "revision": "2025; DOI 10.1186/s12993-025-00270-5; article XML SHA-256 a4536e2b1b92575330b095b267dd140fb43ba6c46218f0b8255ac4e359e401cc",
+      "scope": "Source record 10.1186/s12993-025-00270-5; pinned source text",
+      "locator": "https://doi.org/10.1186/s12993-025-00270-5"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f6ce7b9eaaf647ad86aea2f091386bcb81c1a50ef0feb5c336d5fb603a8d6453",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "01ff0caf5a0e4bd887fa7e6959837b5f",
+    "request_hash": "35ae63a3915e20b89a34d765c1668e70e35e5d9835b91004a9ce0a201173d368",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "0fa5c69a8d13739c6215da674e31501530d9833458b73be88d86b9295f83371f",
+    "packet_hash": "f6ce7b9eaaf647ad86aea2f091386bcb81c1a50ef0feb5c336d5fb603a8d6453"
+  },
+  "hash": "659b266ae1d6e327d4cd112b79e5db5d8e32de6e886b8aa6901c561b77159110",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a closed-head injury model in rats used for repetitive mild traumatic brain injury, but it does not state the general definitional claim that closed head injury is trauma to the head without an open skull wound.",
+        "“Short-term neurobehavioral changes” is only partly supported: the packet reports acute sensorimotor deficits and increased anxiety-like behavior, but not the broader generalization in the definition.",
+        "“Signs of brain injury” is too broad for the packet; it reports specific acute findings such as elevated plasma neurofilament light and microglial activation, not a general definition of the term."
+      ],
+      "definition_hash": "0fa5c69a8d13739c6215da674e31501530d9833458b73be88d86b9295f83371f",
+      "packet_hash": "f6ce7b9eaaf647ad86aea2f091386bcb81c1a50ef0feb5c336d5fb603a8d6453",
+      "published_packet_hash": "f6ce7b9eaaf647ad86aea2f091386bcb81c1a50ef0feb5c336d5fb603a8d6453",
+      "receipt_id": "89a68a24acb041d08cc04a7750f6b4ae",
+      "request_hash": "ef3092792eae873a021de943b563a4e1b406b7df74d572f4a2e7a8e905852ba0",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “closed head injury” as an impact to the head “without an open skull wound,” so that substantive part of the definition is unsupported.",
+        "Although the packet uses a “closed-head injury model” and studies acute effects of repetitive mild traumatic brain injury (rmTBI) with behavioral (e.g., sensorimotor deficits, increased anxiety-like behavior) and biomarker/histological findings, the definition’s first sentence contains unsupported content beyond what the packet provides."
+      ],
+      "definition_hash": "0fa5c69a8d13739c6215da674e31501530d9833458b73be88d86b9295f83371f",
+      "packet_hash": "f6ce7b9eaaf647ad86aea2f091386bcb81c1a50ef0feb5c336d5fb603a8d6453",
+      "published_packet_hash": "f6ce7b9eaaf647ad86aea2f091386bcb81c1a50ef0feb5c336d5fb603a8d6453",
+      "receipt_id": "076886a26cfe41e5bb18adf1ad4d7ec2",
+      "request_hash": "399af4f0390b85d1652baac30f23fac7f1daf9bb305a0aea38612fb2e858a7f5",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

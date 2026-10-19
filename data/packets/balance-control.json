@@ -1,0 +1,26 @@
+{
+  "id": "balance-control",
+  "term": "balance control",
+  "source": "article-pmc13411871",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0337296",
+  "revision": "2026; DOI 10.1371/journal.pone.0337296; article XML SHA-256 7f6d7097abbfa2e4e109ad9f1b015c350c3d35322c1ab265bdf0aaa16d005b9e",
+  "source_snapshot_sha256": "7f6d7097abbfa2e4e109ad9f1b015c350c3d35322c1ab265bdf0aaa16d005b9e",
+  "url": "https://doi.org/10.1371/journal.pone.0337296",
+  "text": "Balance control is a key determinant of stable landing in elite freestyle aerial skiing. Rapid and precise identification of subtle differences in athletes’ balance-stability regulation is a prerequisite for targeted, evidence-based training. Conventional balance assessment typically relies on force-platform measurements of the center of pressure (COP) trajectory and subsequent time-, frequency-, and time–frequency–domain analyses. However, these indices have limited ability to capture the complex dynamics of postural control and to discriminate fine-scale differences in balance regulation among highly trained freestyle skiing aerials athletes.To address this limitation, we developed a dual-stream deep learning model that fuses time–frequency image features with COP-based statistical descriptors to classify subtle variations in balance regulation. Twenty-five elite freestyle skiing aerials athletes were recruited and performed quiet standing under two conditions: (i) bipedal stance on a stable surface with eyes open and (ii) bipedal stance on an unstable surface with eyes open. COP trajectories were recorded and their multiscale entropy computed; K-means clustering was used to stratify participants into high-, medium-, and low-stability groups. The extracted time–frequency and statistical features were then fed into the dual-stream deep learning framework for model training and validation.The proposed model achieved approximately 95% classification accuracy in distinguishing data-driven COP-based stability strata, suggesting potential utility for the sensitive assessment of balance-regulation patterns in elite freestyle skiing aerials athletes.\n\nBalance control is one of the most important neuromechanical abilities for enhancing athletic performance, directly determining the precision and stability with which athletes execute complex movements [ 1 ]. In competitive sport, well-developed balance capacity is a key factor for achieving superior results. Nevertheless, in the early stages of injury prevention and the optimization of technical skills, there is still a lack of an objective assessment tool that is both easy to operate and highly sensitive, and that can rapidly and accurately distinguish inter-individual differences in balance-regulation strategies. This deficiency not only limits the refinement of sport-specific technical training but also constrains early warning of injury risk. Consequently, how to evaluate balance control conveniently and precisely has become a central research question in sport science.In skill-based disciplines that demand exceptionally high levels of coordination and control, superior balance ability has a direct impact on the accuracy and stability of movement execution [ 2 , 3 ]. Freestyle aerial skiing provides a representative example: athletes must maintain exquisitely fine-tuned dynamic postural control to achieve optimal performance and to avoid technical errors [ 4 ]. During the 2018 PyeongChang Winter Olympic Games, Chinese athletes competing in freestyle aerials recorded a landing-error rate as high as 28.17%, and in the 2022 Beijing Winter Olympics this figure rose to 32.56% [ 5 ]. Such high failure rates not only compromise competition outcomes but also increase injury risk and reduce the likelihood of a timely return to sport. Therefore, timely evaluation and monitoring of balance decline are essential for both performance enhancement and injury prevention [ 6 ]. In response to this need, the present study integrates multiple COP-derived feature modalities to precisely evaluate inter-athlete differences in balance-control patterns.\n\nMethods for classifying athletes’ balance control have traditionally relied on static posturographic analysis [ 7 ], which is primarily used to evaluate the ability to maintain equilibrium during quiet standing. Such approaches are useful to a certain extent but remain limited for detecting the complex dynamics of balance control. The COP trajectory reflects the dynamic projection of the body’s center of mass onto the support surface and is widely recognized as an important objective index of postural stability [ 8 ]. Dynamic COP-based assessments,",
+  "source_label": "Dual-Stream deep learning for multimodal feature fusion and classification of balance control in elite freestyle aerial skiers",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "180634ca0fdaf061a1c4c0924e43695e52b9c34e3df974c5cb2a5961a83c572d"
+}

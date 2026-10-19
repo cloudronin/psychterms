@@ -1,0 +1,26 @@
+{
+  "id": "multiple-linear-regression",
+  "term": "multiple linear regression",
+  "source": "article-pmc12853717",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1186/s12874-026-02770-y",
+  "revision": "2026; DOI 10.1186/s12874-026-02770-y; article XML SHA-256 aea96dc4f3cc6e6d057c76c7d8639c72edccb17238d03361314fb5f675d9a3dd",
+  "source_snapshot_sha256": "aea96dc4f3cc6e6d057c76c7d8639c72edccb17238d03361314fb5f675d9a3dd",
+  "url": "https://doi.org/10.1186/s12874-026-02770-y",
+  "text": "Missing values occur in almost all real-world medical data. Sometimes, more information is available for the missing values due to technical measurement limits. This was also the case for some sports medical data set where several laboratory measurements below a lower limit of quantification (LLOQ) were faced and supposed to be used in a multiple linear regression model. When studying the literature, the problem arises in several disciplines (environmental epidemiology, pharmacokinetic studies etc.) and different statistical methods are suggested. However, only very limited work on a method comparison is available, especially in the multivariable linear regression settting.\n\nTherefore, we compare statistical methods for addressing values below a LLOQ in multiple linear regression modeling by a simulation study. We consider both the case that the variable below the LLOQ is among one of the independent variables and that it is the dependent variable in the regression model. We also vary different underlying assumptions, such as distributions, sample sizes, proportions of missing values, correlations, or linearity assumptions.\n\nOverall, the two compartment model showed the best performance in terms of bias and coverage when the LLOQ occurred in the independent variable and no big collinearity issue was present. When the variable subject to the LLOQ is the dependent variable, tobit showed the lowest bias and highest coverage for censoring proportions up to 0.8.\n\nWhen facing a data set with values below a lower limit of quantification and a multiple linear regression model is chosen as analysis model, a conscious choice for dealing with those left-censored data should be made. In this article, we provide guidance on the performance of different established methods.\n\nThe online version contains supplementary material available at 10.1186/s12874-026-02770-y.\n\nThe terminology for the situation described above is very versatile: Examples are variable below a lower limit of quantification (BLOQ variable), left-censored variable, limited variable and nondetects [ 3 , 4 ]. In the following, we use especially the terms BLOQ variable and left-censored variable interchangeably. Literature for dealing with values below a technical measurement limit in simple statistical testing settings, where we denote the threshold by lower limit of quantification ( LLOQ ), developed in parallel in different application areas, e.g., in clinical trials, genetic data and environmental data. Deleting those values happens from time to time but is almost always not a good practice. One strategy in pharmacokinetic (PK) studies is to substitute values below LLOQ with one half of the reporting limit [ 5 ]. Its limitations are already discussed in the literature with respect to underlying distributions etc. [ 4 ]. Keizer et al. [ 6 ] list and compare different methods addressing BLOQ variables in PK studies, among them also a likelihood-based approach. Johnson [ 7 ] gives also an overview on the treatment of BLOQ variables in PK studies. For environmental data, an overview with details on analysis and reporting BLOQ variables is given by Helsel [ 4 ]. He primarily recommends three approaches: First, he suggests non-parametric survival analysis procedures (i.e. Kaplan-Meier estimation) for data with censoring proportions of less than 50%. Applying survival analysis methods go back to Ware et al. [ 8 ] with the idea of transforming left- into right-censored data [ 9 ]. Second, for sample sizes of at least 50 and a censoring proportion of 50–80%, he recommends maximum likelihood estimation going back to [ 10 , 11 ], e.g. censored regression methods. Those methods require the assumption that the selected distribution presents the observed data correctly. Third, he mentions regression on order statistics if the sample size is below 50 and a censoring proportion of 50–80% is prevalent. This includes binary methods, where values are classified into being above or below the LLOQ , and rank statistics in general. Due to the reduction to ranks, those methods can always be used but they come along with a loss in information. Note also that regression on ranks has a",
+  "source_label": "Multiple linear regression modeling with values below a lower limit of quantification – a statistical method comparison",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4192
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "446d99a194a5fc3762dd939bb255675d334506ac8e1b7ebd0d6b04c29cd7181b"
+}

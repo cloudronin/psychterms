@@ -1,0 +1,60 @@
+{
+  "id": "craniofacial-anomaly",
+  "term": "craniofacial anomaly",
+  "definition": "A craniofacial anomaly is a congenital difference affecting the skull and face. In this packet, it refers to conditions such as cleft lip and/or cleft palate, which result from incomplete fusion of the lip or roof of the mouth during embryonic development.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10840297"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10840297",
+      "revision": "2024; DOI 10.1186/s12903-024-03884-9; article XML SHA-256 9c06b3017a350d28b933926a527ddad8149d8edcd871d8e82ba44a33584bebbc",
+      "scope": "Source record 10.1186/s12903-024-03884-9; pinned source text",
+      "locator": "https://doi.org/10.1186/s12903-024-03884-9"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "4a398126d53b1da4f97093c136f4e27aa158e5c73b5f974e162396bc98680dba",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8f9c26a0f8084553961c8bbdf567dd7f",
+    "request_hash": "44e2ea3c8876604ebb11c0456ee5f8e577f685f934673d2f37a27970e4e92af4",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "fe672d37735856f6cc71045c4a2b907414b82af5472bfead6f141f97dc41c554",
+    "packet_hash": "4a398126d53b1da4f97093c136f4e27aa158e5c73b5f974e162396bc98680dba"
+  },
+  "hash": "75a57bf198dda68b6401282d0f5ed88782fe75e886ef8a0bbb4d1e3329d50484",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe672d37735856f6cc71045c4a2b907414b82af5472bfead6f141f97dc41c554",
+      "packet_hash": "4a398126d53b1da4f97093c136f4e27aa158e5c73b5f974e162396bc98680dba",
+      "published_packet_hash": "4a398126d53b1da4f97093c136f4e27aa158e5c73b5f974e162396bc98680dba",
+      "receipt_id": "b5e1313bc1ef4dbbafe93c875d22199b",
+      "request_hash": "112c7eef0c85d20817eecbdeb6fb53f42c528a233d9afd997ad1b1ec84aa966c",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence states a general meaning (“congenital difference affecting the skull and face”) for the term “craniofacial anomaly,” but the packet only explicitly describes cleft lip/palate (CL/P) as a “congenital craniofacial anomaly” and does not provide the general definitional description of the broader term.",
+        "The second sentence’s first clause (“In this packet, it refers to conditions such as cleft lip and/or cleft palate”) is supported by the packet’s focus on CL/P, but the overall definition fails because the term-level meaning in the first sentence is not supported by the packet."
+      ],
+      "definition_hash": "fe672d37735856f6cc71045c4a2b907414b82af5472bfead6f141f97dc41c554",
+      "packet_hash": "4a398126d53b1da4f97093c136f4e27aa158e5c73b5f974e162396bc98680dba",
+      "published_packet_hash": "4a398126d53b1da4f97093c136f4e27aa158e5c73b5f974e162396bc98680dba",
+      "receipt_id": "8149bb46fec14fb2a480032662c392e7",
+      "request_hash": "ea38f1286a041f80b8799b15b471cd2ed87e9b4b8e9ae1abd9defc0ce82e628c",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

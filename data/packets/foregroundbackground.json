@@ -1,0 +1,26 @@
+{
+  "id": "foregroundbackground",
+  "term": "foreground–background",
+  "source": "article-pmc13518198",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fmed.2026.1871697",
+  "revision": "2026; DOI 10.3389/fmed.2026.1871697; article XML SHA-256 432dc038d4f210517e61df05beb04223ed7b158924012dbef096bbb3c236cb60",
+  "source_snapshot_sha256": "432dc038d4f210517e61df05beb04223ed7b158924012dbef096bbb3c236cb60",
+  "url": "https://doi.org/10.3389/fmed.2026.1871697",
+  "text": "Automatic detection of skin lesions in dermoscopic images remains challenging due to large intra-class variation, low-contrast boundaries, and severe foreground-background imbalance.\n\nWe propose FD-YOLO-Skin, a frequency-domain enhanced YOLOv8 framework for single-class micronucleus lesion detection. FD-YOLO-Skin introduces (i) a Frequency-Domain Multi-Scale Feature Fusion (FMSFF) module in the neck to fuse low-frequency shape cues with high-frequency texture details via FFT/IFFT-based multi-branch spectral processing, and (ii) a Frequency-Domain Contrastive Learning (FDCL) module on the backbone that applies spectral augmentations and a contrastive objective to improve feature robustness under complex backgrounds.\n\nOn the ISIC-Style Micronucleus Lesion Detection Benchmark (ISIC-MLD; 10,015 de-identified dermoscopic images), FD-YOLO-Skin achieves an mAP@0.5 of 0.990 ± 0.003 (95% CI: [0.986, 0.994]) and an mAP@0.5:0.95 of 0.905 ± 0.006 on the held-out test split, with precision and recall above 0.97. Ablations show that FMSFF mainly improves recall for small or low-contrast lesions, whereas FDCL reduces false positives and improves precision relative to aggressive spatial-domain augmentation alone.\n\nExplicit frequency-domain multi-scale fusion and contrastive regularization improve single-class skin lesion detection with modest computational overhead. Source code, preprocessed dataset splits, and model weights are available at https://anonymous.4open.science/r/skin2-B816/ .\n\nIn recent years, the incidence of dermatological diseases has continued to rise, while medical imaging devices have become increasingly accessible. How to leverage computer vision techniques to achieve automatic and accurate detection of skin lesions has therefore become an important research topic in intelligent diagnosis. Traditional manual reading of dermoscopic or clinical images relies heavily on experienced dermatologists, which is time-consuming and labor-intensive, and may suffer from subjective variability, especially in cases with complex textures and blurry lesion boundaries. A series of clinical studies have shown that deep neural networks can approach or even surpass expert-level performance in skin cancer recognition ( 1 – 3 ). Convolutional neural network (CNN) based object detection methods, particularly single-stage detectors represented by the YOLO family ( 4 – 6 ), have achieved remarkable success in natural image object detection thanks to their end-to-end training paradigm and real-time inference capability. These methods provide a solid technical foundation for building efficient skin lesion detection systems.\n\nHowever, existing skin lesion detection approaches built upon YOLO series models ( 4 – 7 ) still have several limitations. Recent small-object detection advances, including noise-aware positional embeddings for query retrieval ( 8 ) and attention-enhanced YOLO variants for tiny targets in challenging scenes ( 9 ), further motivate explicit treatment of high-frequency boundary cues in dermatoscopic micronucleus search. On the one hand, most works perform multi-scale feature fusion mainly in the spatial domain via feature pyramid networks such as FPN or PAN, while paying limited attention to explicit modeling and utilization of frequency-domain information. As a result, it is difficult to simultaneously capture both the global lesion shape (low-frequency components) and fine-grained texture details (high-frequency components). On the other hand, in terms of training strategy, these methods are predominantly based on standard supervised learning, which insufficiently exploits the rich frequency-domain texture characteristics of skin lesions. Under highly imbalanced datasets with many more negative than positive samples, the learned representations often struggle to discriminate lesions from complex backgrounds. Although contrastive learning methods ( 10 , 11 ) have demonstrated strong representation learning ability in natural image tasks, there is still a lack of effective integration of contrastive learning with frequency-domain feature modeling and detection frameworks in the context of skin lesion analysis. Overall,",
+  "source_label": "FD-YOLO-Skin: frequency-domain enhanced YOLO for single-class skin lesion detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4192
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "230f306e2dcd683d24170dc1b4d293d1f80d1171e7649d9787001de90b9cfe2f"
+}

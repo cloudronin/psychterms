@@ -6,19 +6,45 @@ from source_coverage_audit import norm
 from prepare_candidate_packets import excerpt
 from scope_rules import decide
 from check_packets import validate_packet
-from recover_article_sources import excluded_paragraph
+from recover_article_sources import excluded_paragraph,parse_article
 
 DEST=ROOT/'.private/source-recovery'
+
+def focused_excerpt(text,term,limit=2400):
+    pattern=r'\b'+r'\W+'.join(re.escape(w) for w in re.findall(r'\w+',term))+r'\b'
+    options=[];offset=0
+    for paragraph in text.split('\n\n'):
+        for match in re.finditer(pattern,paragraph,re.I):
+            following=paragraph[match.end():match.end()+120]
+            explanatory=bool(re.match(r'\s*(?:\([^)]{0,60}\)\s*)?(?:,?\s*(?:which\s+)?(?:is|are|refers? to|involves?|describes?|means?|denotes?|can be defined as|is defined as))\b',following,re.I))
+            options.append((not explanatory,offset+match.start(),offset,paragraph))
+        offset+=len(paragraph)+2
+    if not options:return None,None,None
+    _,_,start,paragraph=min(options,key=lambda row:row[:2])
+    passage,left,right=excerpt(paragraph,term,limit)
+    if passage is None:return None,None,None
+    return passage,start+left,start+right
+
+def terminal_content_hashes(outcomes,path):
+    blocked=set(json.loads(path.read_text())) if path.exists() else set()
+    blocked.update(o['source_content_hash'] for o in outcomes.values() if o.get('status')=='not_published' and o.get('source_content_hash'))
+    path.parent.mkdir(parents=True,exist_ok=True)
+    temp=path.with_suffix('.tmp');temp.write_text(json.dumps(sorted(blocked),indent=2)+'\n');temp.replace(path)
+    return blocked
 
 def prepare():
     entries,sources,_=load_inputs();existing={norm(e['term']) for e in entries};used={e['id'] for e in entries}
     available=collections.defaultdict(list);articles={}
     outcome_path=ROOT/'.private/candidate-drafts/outcomes.json'
     outcomes=json.loads(outcome_path.read_text()) if outcome_path.exists() else {}
-    blocked={o.get('source_content_hash') for o in outcomes.values() if o.get('status')=='not_published'}
+    blocked=terminal_content_hashes(outcomes,DEST/'declined-content-hashes.json')
     for path in sorted((DEST/'records').glob('*.json')):
         try:row=json.loads(path.read_text())
-        except json.JSONDecodeError:continue  # Retrieval may still be atomically completing this independent record.
+        except json.JSONDecodeError:continue  # Retrieval may still be completing this independent record.
+        try:
+            source,record=parse_article((DEST/'xml'/(row['pmcid']+'.xml')).read_bytes(),row['pmcid'],row['record']['record_id'])
+        except (ValueError,FileNotFoundError):continue
+        row={**row,'source':source,'record':record}
         for term in row['terms']:
             if norm(term) not in existing:available[term].append(row)
         articles[row['source']['id']]=row
@@ -28,19 +54,21 @@ def prepare():
         for row in options:
             record=row['record'];match=re.search(pattern,record['text'],re.I)
             if not match:continue
-            passage,start,end=excerpt(record['text'],term)
+            passage,start,end=focused_excerpt(record['text'],term)
             if not passage or len(passage.split())<12 or excluded_paragraph(passage) or excluded_paragraph(record['term']):continue
             # Prefer explicit explanatory wording; this is retrieval ranking, not semantic acceptance.
             around=record['text'][max(0,match.start()-150):match.end()+450]
             explanatory=bool(re.search(r'refers? to|defined as|is (?:a|an|the)\b|characteri[sz]ed|involves?\b|describes?\b',around,re.I))
-            packet={'id':slug(term),'term':term,'source':row['source']['id'],'licence':row['source']['licence'],'source_record':record['record_id'],'revision':row['source']['pinned_version'],'source_snapshot_sha256':record['snapshot_sha256'],'url':record['url'],'text':passage,'source_label':record['term'],'source_kind':record['source_kind'],'source_character_range':[start,end],'support_review_status':'unreviewed'}
+            try:ident=slug(term)
+            except ValueError:ident='term-'+digest({'term':term})[:12]
+            packet={'id':ident,'term':term,'source':row['source']['id'],'licence':row['source']['licence'],'source_record':record['record_id'],'revision':row['source']['pinned_version'],'source_snapshot_sha256':record['snapshot_sha256'],'url':record['url'],'text':passage,'source_label':record['term'],'source_kind':record['source_kind'],'source_character_range':[start,end],'support_review_status':'unreviewed'}
             content_hash=digest({key:packet.get(key) for key in ('term','source','source_record','revision','text')})
             if content_hash in blocked:continue
             decision=decide(packet)
             if not decision['eligible']:continue
             packet['planned_field']=decision['field'];packet['scope_decision']=decision
             candidates.append((not explanatory,match.start(),-len(passage),row,packet))
-        if not candidates:gaps.append({'term':term,'reason':'No eligible passage mentions the exact requested term'});continue
+        if not candidates:gaps.append({'term':term,'reason':'No untried eligible passage remains in the retrieved articles'});continue
         _,_,_,row,packet=min(candidates,key=lambda c:c[:3])
         if packet['id'] in used:packet['id']+='-'+digest({'term':term,'source':packet['source'],'record':packet['source_record']})[:10]
         used.add(packet['id']);packet['packet_hash']=digest(packet)

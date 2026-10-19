@@ -1,0 +1,26 @@
+{
+  "id": "independent-random-variables",
+  "term": "independent random variables",
+  "source": "article-pmc11661653",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0312937",
+  "revision": "2024; DOI 10.1371/journal.pone.0312937; article XML SHA-256 90608828910e1599ea08fb430d25134c0e241c99565093cfbfe8aebb81727f3b",
+  "source_snapshot_sha256": "90608828910e1599ea08fb430d25134c0e241c99565093cfbfe8aebb81727f3b",
+  "url": "https://doi.org/10.1371/journal.pone.0312937",
+  "text": "This article examines the estimate of ϑ = P [ T < Q ], using both Bayesian and non-Bayesian methods, utilizing progressively first-failure censored data. Assume that the stress ( T ) and strength ( Q ) are independent random variables that follow the Burr III distribution and the Burr XII distribution, respectively, with a common first-shape parameter. The Bayes estimator and maximum likelihood estimator of ϑ are obtained. The maximum likelihood (ML) estimator is obtained for non-Bayesian estimation, and the accompanying confidence interval is constructed using the delta approach and the asymptotic normality of ML estimators. Through the use of non-informative and gamma informative priors, the Bayes estimator of ϑ under squared error and linear exponential loss functions is produced. It is suggested that Markov chain Monte Carlo techniques be used for Bayesian estimation in order to achieve Bayes estimators and the associated credible intervals. To evaluate the effectiveness of the several estimators created, a Monte Carlo numerical analysis is also carried out. In the end, for illustrative reasons, an algorithmic application to actual data is investigated.\n\nIn lifetime experiments and reliability studies, it is common for data to not be entirely captured owing to constraints in time, money, or resources, or because of staffing changes and accidents. Often, censored samples are employed in these situations. These days, a variety of censorship techniques are used for lifetime assessments. Type-I censoring (TI-C) and Type-II censoring (TII-C) are two of the most commonly used methods. The test ends in TI-C when it reaches the predetermined time. When a certain number of units have failed in TII-C, the test is finished. There is no flexibility about the removal of items at stages other than the test’s final step under TI-C, and TII-C systems, which is a typical drawback. The progressive TII-C (POTII-C) system was first presented in the literature to address this issue. Consult Balakrishnan and Aggarwala [ 1 ] for additional information. Despite the fact that the experimental efficiency under POTII-C can be greatly increased, the test’s length is still too long. Thus, Johnson [ 2 ] presented a first-failure censoring technique in which the experimenter could be interested in grouping test units into many groups, each group consisting of collection test units, and running each group’s test units concurrently until each group experiences its first failure. Groups cannot be excluded from the test before the final termination stage due to first-failure censorship. But in real life, this is much more desired. This censorship strategy works best in situations where a product has a long lifespan, there are few inspection facilities, and the examination material is reasonably priced [ 3 ]. For further information, check, for instance, [ 4 , 5 ]. Indeed, the groups that were presented throughout the test cannot be eliminated due to the first-failure censorship. Thus, a novel life test known as progressive censoring with first-failure censoring scheme (POFIF-CS), which combines progressive censoring with first-failure censoring, was introduced by Wu and Kus [ 6 ] in order to get around this problem and enhance test efficiency. It is an advancement and expansion of progressive censorship, and because of its adaptability, it is frequently employed in experimental design.\n\nThe POFIFCS is explained as follows: A life test is applied to n independent groups with h elements per group. The R 1 groups and the group with the first failure observation are randomly eliminated from the test when the first failure happens Q 1: m : n : h . Similarly, R 2 groups and the group that includes the second failure, Q 2: m : n : h , are withdrawn as soon as it appears, and so on. Once the m th failure occurs, the other R m groups are also eliminated, along with the group that includes the m th failure observation. With the progressive censoring scheme R = ( R 1 , R 2 , … , R m ) , where n = m + R 1 + R 2 + … + R m , the observed failure times, Q 1: m : n : h < Q 2: m : n : h < … < Q m : m : n : h are referred to as the POFIF-CS. It may be shown that the",
+  "source_label": "Bayesian and non-bayesian analysis for stress-strength model based on progressively first failure censoring with applications",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4195
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "mental health",
+  "scope_decision": {
+    "eligible": true,
+    "field": "mental health",
+    "rule": "psychology-context:mental health",
+    "policy_version": 2
+  },
+  "packet_hash": "2f386ec9f2b0c79ff34d55d8b421bc475a8166da6d595d56b51ac149fe1baa42"
+}

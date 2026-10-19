@@ -1,0 +1,63 @@
+{
+  "id": "invariant-feature",
+  "term": "invariant feature",
+  "definition": "An invariant feature is a detectable pattern in an image that remains recognizable even when the target changes in position or orientation, which makes it useful for recognition and tracking across motion or rotation.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13293511"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13293511",
+      "revision": "2026; DOI 10.1371/journal.pone.0330578; article XML SHA-256 5f10a42cc1e1fb15635f1e07d8b3595f2e0f62a339ea56fe05c6782811bc24cd",
+      "scope": "Source record 10.1371/journal.pone.0330578; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0330578"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "21bd472f8d5c4350af5ac6ce52251b26",
+    "request_hash": "396967cae3a37c59f07548392ef99a2a914d6146e605a8f2217f1096c112ac85",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "525ac4fe72bdd8143b1ae3b7091d44652a40e8ed728b5bf491e6b12958285f58",
+    "packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba"
+  },
+  "hash": "1a79891f1e3c1445680055430a952a2564793a7a314b97b1af56123238a45639",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only supports rotation invariance for SIFT features, not the broader claim that the feature remains recognizable when the target changes in position as well as orientation.",
+        "The packet supports use in target recognition and tracking, but it does not establish the general definition of an “invariant feature” as a detectable image pattern with that behavior across motion or rotation."
+      ],
+      "definition_hash": "525ac4fe72bdd8143b1ae3b7091d44652a40e8ed728b5bf491e6b12958285f58",
+      "packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba",
+      "published_packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba",
+      "receipt_id": "ca217681b7c84de19827f6c89f5546c5",
+      "request_hash": "f61c41e5609c8aed3ddd9c49ff3b80ef2d657bb051b2d83df83455b7368cd5d0",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a definition or direct support for the term “invariant feature” itself; it discusses SIFT features and claims about SIFT’s rotation invariance, but it does not define what an “invariant feature” is in general cognition terms.",
+        "The definition’s phrasing (“detectable pattern in an image,” “remains recognizable”) is not explicitly stated in the packet; support is indirect via SIFT being used for recognition/tracking and described as invariant to rotation."
+      ],
+      "definition_hash": "525ac4fe72bdd8143b1ae3b7091d44652a40e8ed728b5bf491e6b12958285f58",
+      "packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba",
+      "published_packet_hash": "13309517796a8fcda57af63bb59c2b6857de4015921b3fbd2aa613c1d9d775ba",
+      "receipt_id": "c13addc3db054c3f98150cb0d7e73c38",
+      "request_hash": "ec5e2bd630f7d68e2e2250e193f299fb012704f288b75f848400ccde2334db12",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

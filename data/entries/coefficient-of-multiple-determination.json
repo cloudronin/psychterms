@@ -1,0 +1,65 @@
+{
+  "id": "coefficient-of-multiple-determination",
+  "term": "coefficient of multiple determination",
+  "definition": "The coefficient of multiple determination is a numerical index used here to show how closely one set of continuous measurements matches another across an entire waveform or trajectory. Higher values indicate stronger overall agreement between the two series, such as movement displacement, velocity, or joint-angle patterns.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13028377"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13028377",
+      "revision": "2026; DOI 10.1371/journal.pone.0329987; article XML SHA-256 6b75b73152353eba0aa44588d2aed11a02899fd83585013c6384ffeb7d56bc8f",
+      "scope": "Source record 10.1371/journal.pone.0329987; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0329987"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c7fe5d006a392b2439f1f336201882e73dc3d87902308e8280a9259cc38a6abd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "c8f26038125f49588be04ffe8389309f",
+    "request_hash": "3afa3cc8f1d1407be201d8036fde9015457edbc4aacea86f1bab0708289366c7",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "ea80d8ab928d301b14650be5c17cbfba05f81381c3bdee2f92ea01c28fde33fe",
+    "packet_hash": "c7fe5d006a392b2439f1f336201882e73dc3d87902308e8280a9259cc38a6abd"
+  },
+  "hash": "aab1c82844717f31db6825efafa40f1b005f12164aad9d1743d6804881f8dbbe",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The supplied source is a biomechanics/sport-science article, not a cognition source, so the requested field is not defensible from the packet.",
+        "The definition narrows the term to a general measure for matching two continuous series across a waveform or trajectory; the packet supports its use here for continuous waveform agreement, but not as a cognition dictionary entry."
+      ],
+      "definition_hash": "ea80d8ab928d301b14650be5c17cbfba05f81381c3bdee2f92ea01c28fde33fe",
+      "packet_hash": "c7fe5d006a392b2439f1f336201882e73dc3d87902308e8280a9259cc38a6abd",
+      "published_packet_hash": "c7fe5d006a392b2439f1f336201882e73dc3d87902308e8280a9259cc38a6abd",
+      "receipt_id": "9815d53e006d421da706f12bce5a853b",
+      "request_hash": "a3af7c2a53e56edb303d062ceb131d162f031451b2f1feda3997b12f3a8d2199",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided packet does not define what the “coefficient of multiple determination” measures (e.g., it does not state that it is an index of agreement between two continuous measurement sets across a waveform/trajectory).",
+        "The definition’s claim that “Higher values indicate stronger overall agreement” is not explicitly supported in the packet; the packet only reports that certain values exceeded thresholds for waveform agreement.",
+        "The definition is placed in the field “cognition,” but the packet content concerns markerless motion capture and biomechanical analysis in pole vault (not cognition).",
+        "The definition’s examples (“movement displacement, velocity, or joint-angle patterns”) are only indirectly referenced via variables reported in the packet, but the core definitional relationship (how the coefficient functions) remains unsupported."
+      ],
+      "definition_hash": "ea80d8ab928d301b14650be5c17cbfba05f81381c3bdee2f92ea01c28fde33fe",
+      "packet_hash": "c7fe5d006a392b2439f1f336201882e73dc3d87902308e8280a9259cc38a6abd",
+      "published_packet_hash": "c7fe5d006a392b2439f1f336201882e73dc3d87902308e8280a9259cc38a6abd",
+      "receipt_id": "eaecda98f34245d28f3ec5a996d16d0a",
+      "request_hash": "c74d2ae78a8eed5952ff87425cc07c096d2b3f030a6f021be32220c287412848",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

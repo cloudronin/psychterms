@@ -1,0 +1,26 @@
+{
+  "id": "multivariate-research",
+  "term": "multivariate research",
+  "source": "article-pmc10298761",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0287784",
+  "revision": "2023; DOI 10.1371/journal.pone.0287784; article XML SHA-256 f864ddc156905eb0d09edc2fe5033eff76ee5a30ad95251fc892c8813de674a5",
+  "source_snapshot_sha256": "f864ddc156905eb0d09edc2fe5033eff76ee5a30ad95251fc892c8813de674a5",
+  "url": "https://doi.org/10.1371/journal.pone.0287784",
+  "text": "This paper introduces relative density clouds , a simple but powerful method to visualize the relative density of two groups in multivariate space. Relative density clouds employ k -nearest neighbor density estimates to provide information about group differences throughout the entire distribution of the variables. The method can also be used to decompose overall group differences into the specific contributions of differences in location, scale, and covariation. Existing relative distribution methods offer a flexible toolkit for the analysis of univariate differences; relative density clouds bring some of the same advantages to fruition in the context of multivariate research. They can assist in the exploration of complex patterns of group differences, and help break them down into simpler, more interpretable effects. An easy-to-use R function is provided to make this visualization method widely accessible to researchers.\n\nComparisons between groups—broadly conceived to include demographic categories, individuals sampled at different times and locations, allocations to treatment vs. control conditions, or even biological species—arise all the time across scientific disciplines. Traditional approaches to group comparisons focus on differences in central tendency (usually the mean) and, less often, dispersion (typically the variance or derived indices, such as the coefficient of variation). Important as they are, these summary indices only convey limited information about the shape of the distributions. Differences in central tendency, dispersion, and other aspects of the distributions (e.g., skewness) often combine to yield complex patterns of group differences, with different groups being over- or under-represented at different locations. For example, researchers are sometimes interested in directly comparing the representation of two groups at the distribution tails, which can be done with specialized indices such as tail ratios [ 1 , 2 ] or the newly proposed S-index [ 3 ]. As distributions grow in complexity (with features such as multiple peaks, thick tails, etc.), the resulting patterns of differences may become so intricate that they defy any attempt to describe them using summary indices.\n\nThe general task is to devise ways to effectively compare the shape of two distributions across the entire span of the relevant variables, and (if possible) identify the specific contributions of differences in means, variances, and other features to the overall pattern. In univariate contexts, relative distribution methods [ 4 – 6 ] offer a sophisticated toolkit for the analysis of group differences. In particular, relative density plots such as those in Fig 1 display the ratio of the densities of two distributions (a comparison group and a reference group) against the quantiles of the reference group. Importantly, when the two groups are approximately equally numerous (e.g., males and females), the relative density directly corresponds to the relative frequency of their members across the range of the target variable. (See [ 7 ] for a review of conceptually similar methods based on quantile differences instead of relative densities).\n\nThe plots compare the distribution of white men’s earnings in 1977 to those in 1967 (data from the annual U.S. Current Population Survey). Panel (a) plots the overall relative density (RD) against the quantiles of the 1967 distribution. Panels (b) and (c) decompose the overall difference into the specific effects of location and shape shifts. Reproduced with modifications from [ 5 ].\n\nRelative distribution methods can be used to perform various kinds of statistical inference, and to decompose the overall pattern of differences ( Fig 1a ) into a location component that reflects the effect of shifts in location (e.g., differences in means; Fig 1b ), and a shape component that captures additional differences in dispersion, skewness, and other aspects of the distribution ( Fig 1c ). The shape component may be further decomposed into a scale component (due to e.g., differences in variances) and a residual shape component adjusted for both location and scale. In principle, this approach can be extended",
+  "source_label": "Relative density clouds: Visualizing and exploring multivariate patterns of group differences",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "79018370f8baeaca94bdb99f1bc750a5c1db83320ff32a417191df094e84f803"
+}

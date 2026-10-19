@@ -1,0 +1,26 @@
+{
+  "id": "learning-to-learn",
+  "term": "learning to learn",
+  "source": "article-pmc11687930",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0316453",
+  "revision": "2024; DOI 10.1371/journal.pone.0316453; article XML SHA-256 477b7e08e5d8108effef0626c3e1b441f2e828ed04ac5808ec2092ce12f70d9e",
+  "source_snapshot_sha256": "477b7e08e5d8108effef0626c3e1b441f2e828ed04ac5808ec2092ce12f70d9e",
+  "url": "https://doi.org/10.1371/journal.pone.0316453",
+  "text": "The acquisition of knowledge and skills does not occur in isolation but learning experiences amalgamate within and across domains. The process through which learning can accelerate over time is referred to as learning-to-learn or meta-learning. While meta-learning can be implemented in recurrent neural networks, these networks tend to be trained with architectures that are not easily interpretable or mappable to the brain and with learning rules that are biologically implausible. Specifically, these rules have often employed backpropagation-through-time, which relies on information that is unavailable at synapses that are undergoing plasticity in the brain. Previous studies that exclusively used local information for their weight updates had a limited capacity to integrate information over long timespans and could not easily learn-to-learn. Here, we propose a novel gated memory network named RECOLLECT, which can flexibly retain or forget information by means of a single memory gate and is trained with a biologically plausible trial-and-error-learning that requires only local information. We demonstrate that RECOLLECT successfully learns to represent task-relevant information over increasingly long memory delays in a pro-/anti-saccade task, and that it learns to flush its memory at the end of a trial. Moreover, we show that RECOLLECT can learn-to-learn an effective policy on a reversal bandit task. Finally, we show that the solutions acquired by RECOLLECT resemble how animals learn similar tasks.\n\nA hallmark of human intelligence is the capacity to accumulate knowledge across learning experiences. This capacity not only accelerates learning within one domain, but can also facilitate learning in related domains, a phenomenon referred to as learning-to-learn [ 1 , 2 ]. Standard neural network models lack this ability and quickly and catastrophically forget previously acquired knowledge when they are trained on a new task [ 3 , 4 ]. This is particularly problematic in the case of reversal learning [ 5 ], where stimuli are initially associated with a certain reward probability, e.g. stimulus A with a 75% chance of reward and stimulus B with a 25% chance of reward. When the stimulus-reward associations are reversed, i.e. stimulus A is now rewarded with 25% probability and stimulus B with 75% probability, the network has to fully change its weight structure to adjust to the new reward probabilities. To overcome this limitation, researchers have developed meta-learning models that acquire a set of weights over the course of several similar tasks that facilitate generalisation to novel tasks if they bear similarities to previously learned tasks.\n\nMeta-learning can be achieved using various approaches [ 6 – 8 ]. An approach that is plausible from a biological perspective uses recurrent neural networks that are trained with reinforcement learning [ 9 , 10 ]. These networks are trained on a distribution of tasks and learn to rely on information about previous stimuli, actions and rewards to represent the appropriate task context. Subsequently, they can carry out new tasks even if the weights of the network are fixed, provided meta-learning was successful. In this framework, the network learns to accumulate information about the new task in its working memory by observing the reward structure. A previous study by Wang et al. [ 9 ] suggested that learning-to-learn could rely on interactions between the prefrontal cortex, the basal ganglia and the thalamus for the build-up of working memory representations that support learning-to-learn. Task switching can happen within one or a few trials by adapting the activity pattern in working memory as opposed to going through the elaborate process of retraining the network connectivity.\n\nEven though the behaviour of these meta-learning models is similar to that of animals, the architectures and learning rules have limited biological plausibility for at least two reasons. Firstly, some of the previous studies on meta-learning relied on complex units, such as the long short-term memory (LSTM) unit [ 11 ]. The LSTM unit has three multiplicative gates that control its activity, which is unnecessary",
+  "source_label": "Biologically plausible gated recurrent neural networks for working memory and learning-to-learn",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "90df4a7c7350688b94ea10b7f1f1b5227c75bc79fec45ea52bcf4090eb752edd"
+}

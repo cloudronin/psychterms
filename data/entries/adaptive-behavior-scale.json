@@ -1,0 +1,63 @@
+{
+  "id": "adaptive-behavior-scale",
+  "term": "adaptive behavior scale",
+  "definition": "An adaptive behavior scale is an assessment measure used to rate a person’s adaptive behavior, such as in autism research and clinical outcome tracking. In this packet, the Vineland Adaptive Behavior Scale (VABS-3) is used to record baseline functioning and changes over time.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10112778"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10112778",
+      "revision": "2023; DOI 10.1371/journal.pone.0282906; article XML SHA-256 4bcd28154bb2d5e9630e0f367430fe7f56487bbcb2ee7bf9b7bf59aac2cf7ea1",
+      "scope": "Source record 10.1371/journal.pone.0282906; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0282906"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7a9742f12c85b8c51d4613ccede1660cde6f7e859333c997475c4381296d9226",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4460e95c9f9e4149bf166ab4bcdc8bee",
+    "request_hash": "dd9dd0839348ceddca91ee6d7ecb5ec9fcc08bdcd5a432b5d3e45abff742ea03",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "2442410bba2c473ae73c5663e4f6f3b27a99ee0c758f48572adb211c23a3be71",
+    "packet_hash": "7a9742f12c85b8c51d4613ccede1660cde6f7e859333c997475c4381296d9226"
+  },
+  "hash": "25ab0c01ae48fd5a703b6b04a038e5f1b6eafd9a93bee90fe4afa2906520b2ab",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports use of the Vineland Adaptive Behavior Scale (VABS-3) as an input for baseline functioning and monthly change in an autism-spectrum-disorder outcomes model, but it does not define “adaptive behavior scale” as a general assessment measure.",
+        "The added generalization to “autism research and clinical outcome tracking” is broader than what the packet states and is not supported as a definition of the term."
+      ],
+      "definition_hash": "2442410bba2c473ae73c5663e4f6f3b27a99ee0c758f48572adb211c23a3be71",
+      "packet_hash": "7a9742f12c85b8c51d4613ccede1660cde6f7e859333c997475c4381296d9226",
+      "published_packet_hash": "7a9742f12c85b8c51d4613ccede1660cde6f7e859333c997475c4381296d9226",
+      "receipt_id": "39d61ae6118745e6a80c102cfe4f688b",
+      "request_hash": "cb05300b8ccd8431c12b531b2d65d10a6c30aa017ca85d1f27f8f3997a99ff71",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims the scale is used in “clinical outcome tracking,” but the packet only describes using VABS-3 as input for a cost-effectiveness model (baseline VABS-3 and monthly VABS-3 changes), not outcome tracking in a clinical sense.",
+        "The definition is placed under the field “diagnosis,” but the packet describes VABS-3 as an input reflecting adaptive behavior outcomes in an autism model, not as a diagnostic concept or diagnostic criterion."
+      ],
+      "definition_hash": "2442410bba2c473ae73c5663e4f6f3b27a99ee0c758f48572adb211c23a3be71",
+      "packet_hash": "7a9742f12c85b8c51d4613ccede1660cde6f7e859333c997475c4381296d9226",
+      "published_packet_hash": "7a9742f12c85b8c51d4613ccede1660cde6f7e859333c997475c4381296d9226",
+      "receipt_id": "c53ca6bc8efb450a974356b69abc5c7b",
+      "request_hash": "baf586f0d1f02ded79d7e4298bedbb33bf3bef4675f240dd6c326ba356ae37b8",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

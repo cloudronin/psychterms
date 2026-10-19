@@ -1,0 +1,60 @@
+{
+  "id": "categorical-data-analysis",
+  "term": "categorical data analysis",
+  "definition": "Categorical data analysis is the statistical analysis of data sorted into classes or outcomes rather than measured on a continuous scale. It is used for variables such as nominal, ordinal, or two-choice outcomes and applies methods suited to frequencies or proportions, especially when studying binary or multinomial results.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12622779"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12622779",
+      "revision": "2025; DOI 10.1371/journal.pone.0335143; article XML SHA-256 7da6330d7373c5e80a6711556ab0e6108c6166535638a01d566538229229deac",
+      "scope": "Source record 10.1371/journal.pone.0335143; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0335143"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "bf8bcd81aa8b488caba43e245555a501",
+    "request_hash": "415fa5e78ae241e0f309683a621b31d02aed9337f43cc172932a3dca9785f4e8",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "051381c1aface190fd04ec56b6497028793152f3d8eb0a3d036d757b46996548",
+    "packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419"
+  },
+  "hash": "c6e69baa1c0280a8d569235257d3ced1d5783c49cb04fe4fefe920f1071d461b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "051381c1aface190fd04ec56b6497028793152f3d8eb0a3d036d757b46996548",
+      "packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419",
+      "published_packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419",
+      "receipt_id": "e9dccb60eaeb47a8afec313d7041cd92",
+      "request_hash": "958f98f593a02d67cdbe2a3554f5097c956d2489469ca462277f1fee457f702b",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: the source is about statistical analysis in experimental biology, not learning.",
+        "The definition adds general statistical framing (“statistical analysis of data sorted into classes or outcomes rather than measured on a continuous scale”) that is broadly consistent, but the field mismatch prevents passing under the requested field."
+      ],
+      "definition_hash": "051381c1aface190fd04ec56b6497028793152f3d8eb0a3d036d757b46996548",
+      "packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419",
+      "published_packet_hash": "c510c1ad2aec33406f9923794ffe8b1c60eefdbd56b73659dc8c7fe653c10419",
+      "receipt_id": "2b3a3a1701d84bb8a2c670a9a04c50a5",
+      "request_hash": "3b49a49a4cbcb4670e47c7a93feae4225230fc94470edfc88226ee31e3aaccf6",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

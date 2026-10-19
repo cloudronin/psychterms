@@ -1,0 +1,61 @@
+{
+  "id": "spmsq",
+  "term": "SPMSQ",
+  "definition": "SPMSQ stands for Short Portable Mental Status Questionnaire, a brief questionnaire used to assess mental status or cognitive functioning. In this study, it was scored out of 10, with lower scores used to indicate cognitive impairment.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9955614"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9955614",
+      "revision": "2023; DOI 10.1371/journal.pone.0281634; article XML SHA-256 dbf4771192d553d1edd9d761149aaf8cc6823ece939b6f77eb6c4435e995de5f",
+      "scope": "Source record 10.1371/journal.pone.0281634; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0281634"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b925830774b79410960cda6469b6a19cb2c885d9c2c50efbad4265491983ca08",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f6a47558e3f648699d0f76ca217be3b6",
+    "request_hash": "0f886a2a59543d4db1bde1132ff5f6a291d7377b7bd8e23a89e92d3773ac0761",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "51618eda9c56dd868eb2c5e59cfdccddcecfc7d47797ba257234873c5b5e730a",
+    "packet_hash": "b925830774b79410960cda6469b6a19cb2c885d9c2c50efbad4265491983ca08"
+  },
+  "hash": "a37692bb812e35c4f56b8305b11beae3e2da449ec0b978e6bfc1c813628aefcf",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "51618eda9c56dd868eb2c5e59cfdccddcecfc7d47797ba257234873c5b5e730a",
+      "packet_hash": "b925830774b79410960cda6469b6a19cb2c885d9c2c50efbad4265491983ca08",
+      "published_packet_hash": "b925830774b79410960cda6469b6a19cb2c885d9c2c50efbad4265491983ca08",
+      "receipt_id": "3376d7d97f5d4a6a9187af7bf79bbcc9",
+      "request_hash": "e9e6ce316790558c6a0df4f21f735c10e7125b0a5d41281d23f41f0b3e504fc4",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not state that “SPMSQ stands for Short Portable Mental Status Questionnaire,” only that cognitive impairment was defined using “Short Portable Mental Status Questionnaire (SPMSQ) score <8 (/10).”",
+        "The packet does not describe SPMSQ as “a brief questionnaire used to assess mental status or cognitive functioning.”",
+        "The scoring direction (“lower scores used to indicate cognitive impairment”) is only supported insofar as the packet defines impairment as SPMSQ <8 (/10); the specific general phrasing is not fully supported beyond that threshold definition."
+      ],
+      "definition_hash": "51618eda9c56dd868eb2c5e59cfdccddcecfc7d47797ba257234873c5b5e730a",
+      "packet_hash": "b925830774b79410960cda6469b6a19cb2c885d9c2c50efbad4265491983ca08",
+      "published_packet_hash": "b925830774b79410960cda6469b6a19cb2c885d9c2c50efbad4265491983ca08",
+      "receipt_id": "1ae67fe5c819485397877e9171b8be58",
+      "request_hash": "c1e564e3febb05c76b940c052cdf5293a6a7a10e3e1fb58dc6c8d31bb58679e0",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

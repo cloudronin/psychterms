@@ -1,0 +1,59 @@
+{
+  "id": "high-blood-pressure",
+  "term": "high blood pressure",
+  "definition": "High blood pressure, or hypertension, is a condition in which the pressure in the arteries is higher than normal. In the source, it is described as a systolic pressure of 140 mmHg or more, a diastolic pressure of 90 mmHg or more, or a self-reported case being treated with medication, and it is linked to increased risk of heart, stroke, and kidney problems.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11870381"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11870381",
+      "revision": "2025; DOI 10.1371/journal.pone.0314901; article XML SHA-256 82624ebdd64f5d0b01378250fe709748579bb0ccd505c1f853602978705b4be7",
+      "scope": "Source record 10.1371/journal.pone.0314901; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0314901"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2aeccf1f20904e7d841baee9a8ef133b",
+    "request_hash": "c1e858ef407f644d719fa27dc919e26185c29efb3ba9059a294fd22488c7865c",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "19ea32b9d189e25c4e1637c409f577289ef8469a7c3157b530fc1edc6ae7710b",
+    "packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75"
+  },
+  "hash": "f0f93e4a4817fac5a99bf9c59f74223f650547ba6e324ccaa7f0a7edb7f84c67",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition concerns a physical medical condition (high blood pressure/hypertension) and the packet describes it in terms of cardiovascular/stroke/kidney risks, not mental health constructs; therefore the provided field (“mental health”) is not defensible based on the packet."
+      ],
+      "definition_hash": "19ea32b9d189e25c4e1637c409f577289ef8469a7c3157b530fc1edc6ae7710b",
+      "packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75",
+      "published_packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75",
+      "receipt_id": "3401e2eff71e4a7eb3e83e814965f38e",
+      "request_hash": "d65d33126f11c2874089a81e02b4ead29ecb6dbcf8cb3fbe40c4ca157f119e19",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "19ea32b9d189e25c4e1637c409f577289ef8469a7c3157b530fc1edc6ae7710b",
+      "packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75",
+      "published_packet_hash": "b98c22b17818db92b18b2e635e3e725d7ebcb11f9a81b30d6c3e65eb1f08ba75",
+      "receipt_id": "1c4593c744df4096a4d395db2bbed30e",
+      "request_hash": "4755f89f624f879c5268d1a8e0f7220da7ddc8fc272aab46cc10181170b8a738",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

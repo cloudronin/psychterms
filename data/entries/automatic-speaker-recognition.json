@@ -1,0 +1,61 @@
+{
+  "id": "automatic-speaker-recognition",
+  "term": "automatic speaker recognition",
+  "definition": "Automatic speaker recognition is the use of computer-based classification methods to identify who is speaking from features of their voice. In the source packet, its performance varied widely, and wearing a surgical mask appeared to reduce accuracy to some extent.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10062611"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10062611",
+      "revision": "2023; DOI 10.1371/journal.pone.0283724; article XML SHA-256 d9058f09c4a3ad7273f632a58d8114fa1ce57c91615849fd002b63114cb8e9fd",
+      "scope": "Source record 10.1371/journal.pone.0283724; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0283724"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a0bccc888e99aab59fbf8039e0d572037d5b641074cc76b1453c2b4b078c0dc6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d9c7bf180e304826acc5c3b259763a38",
+    "request_hash": "34a87eed8fe37b124ed84c06284fbe26c390573eb701873f7a121fee5c791864",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "a9fda897a6a419bf0a38f4d2d0fcbb2c0069c616d0e7d3eb5989293f3f889118",
+    "packet_hash": "a0bccc888e99aab59fbf8039e0d572037d5b641074cc76b1453c2b4b078c0dc6"
+  },
+  "hash": "69237c375b8c4b3c188ef50acc517b8ea6ba20af573d6bb3b99d31dd1c5c3290",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "a9fda897a6a419bf0a38f4d2d0fcbb2c0069c616d0e7d3eb5989293f3f889118",
+      "packet_hash": "a0bccc888e99aab59fbf8039e0d572037d5b641074cc76b1453c2b4b078c0dc6",
+      "published_packet_hash": "a0bccc888e99aab59fbf8039e0d572037d5b641074cc76b1453c2b4b078c0dc6",
+      "receipt_id": "f8af83f27d384774b421b03598495567",
+      "request_hash": "7c6a13f1a6aa1bfc2e8eea3956255ffe910601108d130041c0926782a18820af",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The first sentence’s description (computer-based classification to identify a speaker from voice features) is supported by the packet’s description of “classification analyses” for identifying individual speakers.",
+        "The definition’s claim that “wearing a surgical mask appeared to reduce accuracy to some extent” is not directly supported as a reduction in accuracy. The packet reports highly-variable identification accuracies (40% to 89.2%), low performance in classifying mask vs no-mask (<50%), and an implication that masking “would impact” general performance, but it does not explicitly state that accuracy was reduced by wearing a mask.",
+        "Because the accuracy-reduction wording is more specific than what the packet explicitly provides, the definition contains an unsupported substantive claim."
+      ],
+      "definition_hash": "a9fda897a6a419bf0a38f4d2d0fcbb2c0069c616d0e7d3eb5989293f3f889118",
+      "packet_hash": "a0bccc888e99aab59fbf8039e0d572037d5b641074cc76b1453c2b4b078c0dc6",
+      "published_packet_hash": "a0bccc888e99aab59fbf8039e0d572037d5b641074cc76b1453c2b4b078c0dc6",
+      "receipt_id": "ee8dbef756544d019f181b074a8ba4b3",
+      "request_hash": "fb0f199978e2efadb7fe260d8bc8093e3b974dd21da4e554b59b97f82d712dc6",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

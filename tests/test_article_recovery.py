@@ -11,11 +11,19 @@ class ArticleRecoveryTests(unittest.TestCase):
   source,record=parse_article(article(),'PMC1','10.1/test')
   self.assertEqual(source['licence'],'CC-BY-4.0');self.assertIn('Researcher A',source['candidate'])
   self.assertEqual(source['content_snapshot_sha256'],record['snapshot_sha256']);self.assertNotIn('SECRET RESULTS',record['text'])
+ def test_explicit_older_by_versions_keep_their_own_licence(self):
+  from core import ALLOWED_LICENSES
+  for version in ['2.0','2.5','3.0']:
+   source,_=parse_article(article('https://creativecommons.org/licenses/by/'+version+'/'),'PMC1','10.1/test')
+   self.assertEqual(source['licence'],'CC-BY-'+version);self.assertIn(source['licence'],ALLOWED_LICENSES)
  def test_noncommercial_sharealike_and_unversioned_not_inferred(self):
   for licence in ['https://creativecommons.org/licenses/by-nc/4.0/','https://creativecommons.org/licenses/by-sa/4.0/','Creative Commons Attribution']:
    with self.assertRaises(ValueError):parse_article(article(licence),'PMC1','10.1/test')
  def test_publisher_author_group_without_contrib_type(self):
   source,_=parse_article(article(group='contrib-group content-type="author"',contrib='contrib'),'PMC1','10.1/test');self.assertIn('Researcher A',source['candidate'])
+ def test_table_and_figure_caption_ancestors_are_excluded(self):
+  _,record=parse_article(article(extra='<table-wrap><caption><p>SECRET TABLE CAPTION</p></caption></table-wrap><fig><caption><p>SECRET FIGURE CAPTION</p></caption></fig>'),'PMC1','10.1/test')
+  self.assertNotIn('SECRET TABLE',record['text']);self.assertNotIn('SECRET FIGURE',record['text'])
  def test_inline_third_party_quotation_and_dictionary_definition_excluded(self):
   _,record=parse_article(article(extra='<p>A writer stated “These are eight or more words from a different work.”</p><p>The APA Dictionary defines a term here.</p>'),'PMC1','10.1/test')
   self.assertNotIn('different work',record['text']);self.assertNotIn('APA Dictionary',record['text'])

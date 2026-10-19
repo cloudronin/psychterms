@@ -1,0 +1,61 @@
+{
+  "id": "confounded-effects",
+  "term": "confounded effects",
+  "definition": "Confounded effects are different influences mixed together in observed data so that they appear as a single pattern even though they arise from separate processes. In the source, developmental, evolutionary, and environmental influences on leaf shape are described as confounded because their hidden contributions overlap and change differently over time.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10868772"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10868772",
+      "revision": "2024; DOI 10.1371/journal.pcbi.1011845; article XML SHA-256 9b603daa20bf59c936a306bab2f6ba617a7fbb5154b2d897ce543977778e2e16",
+      "scope": "Source record 10.1371/journal.pcbi.1011845; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pcbi.1011845"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "400be93d5d454cf6a8c07670fba159c6",
+    "request_hash": "433d64633a50bc4cb20e7daeb9c5cc298f1bd6e9ccdd7dad275a0151b1b5da3c",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "71afd5912c05e10bdf75caabb5e3a9b6f1f9d29ec90edd8205e80ec8c6a35cdf",
+    "packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd"
+  },
+  "hash": "7674e99de2109611f422cd8b459141d16e989ba226bf535121d4fdc8c087962b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "71afd5912c05e10bdf75caabb5e3a9b6f1f9d29ec90edd8205e80ec8c6a35cdf",
+      "packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd",
+      "published_packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd",
+      "receipt_id": "accf511ca2294ba89176c6745a409b10",
+      "request_hash": "908c4cc9826a8d88ed66ada1ee0c7efb11d527570cf2e908b5d4ea96f957e31f",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims “different influences mixed together … so that they appear as a single pattern even though they arise from separate processes,” but the packet does not explicitly describe confounded effects in terms of producing a single apparent pattern.",
+        "The definition adds that “hidden contributions overlap,” which is not directly stated in the packet; the packet instead says latent shapes arise from multiple effects and that “confounded developmental and evolutionary effects” can be disentangled.",
+        "While the packet supports that influences “manifest at distinct developmental time points and evolve at different tempos,” the definition links this to the specific mechanism “hidden contributions overlap” beyond what’s stated."
+      ],
+      "definition_hash": "71afd5912c05e10bdf75caabb5e3a9b6f1f9d29ec90edd8205e80ec8c6a35cdf",
+      "packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd",
+      "published_packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd",
+      "receipt_id": "bf9e07a682724f13b2ecb77b420e32c1",
+      "request_hash": "c6ada30c1770f38d65e6326d332a012f39565a186ccb14b78bc5d99331e9e477",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

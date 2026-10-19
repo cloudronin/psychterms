@@ -1,0 +1,26 @@
+{
+  "id": "group-factors",
+  "term": "group factors",
+  "source": "article-pmc13436747",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0355105",
+  "revision": "2026; DOI 10.1371/journal.pone.0355105; article XML SHA-256 393cb2172b1387ef27bedea45b183816947954052bf596a71fc21e51fe546ff8",
+  "source_snapshot_sha256": "393cb2172b1387ef27bedea45b183816947954052bf596a71fc21e51fe546ff8",
+  "url": "https://doi.org/10.1371/journal.pone.0355105",
+  "text": "Understanding collective movement under stress provides insight into the mechanisms governing escape dynamics. This study investigated how multiple environmental and group factors jointly affect the escape dynamics of mice under emergency-like conditions induced by electrical stimuli. The tested factors included stimulus intensity (40–55 V), the presence or absence of an obstacle near the exit, the guide walls at different exit angles (15°, 45°, and 75°), and group size (15 vs. 50 mice). Evacuation time, average velocity, and headway were quantified to assess escape efficiency. To validate and extend the experimental findings, an agent-based modeling framework—previously verified in similar studies—was used to reproduce and generalize the tested conditions. Results show that the effects of obstacles and guide walls depend strongly on both group size and stimulus intensity: under high-density and moderate-stimulus conditions, obstacles and guide walls facilitated smoother flow and shorter evacuation times, whereas under low-density or extreme stimuli, they hindered movement. These results demonstrate the density-dependent nature of obstacle effects and confirm that headway serves as a robust mechanistic indicator of flow stability, revealing that sufficient inter-agent spacing is essential to prevent physical interlocking and clogging at the bottleneck. Overall, this study integrates experiment and simulation to establish a validated framework for analyzing collective evacuation dynamics in animals under controlled conditions.\n\nCollective movement under emergency conditions has long been a critical topic in safety science. In large gatherings, uncoordinated escape behavior can lead to congestion, clogging, and even fatal stampedes. Recent disasters, such as the 2021 Meron festival in Israel, the 2022 Kanjuruhan stadium incident in Indonesia, and the Itaewon tragedy in South Korea, tragically demonstrate how uncontrolled or high-pressure crowd flow can result in severe casualties [ 1 – 3 ]. These events underscore the urgent need to understand the mechanisms that govern collective escape under high-stress conditions.\n\nDespite extensive research efforts, reproducing and analyzing crowd-crush phenomena remains highly challenging in both empirical and computational studies. In controlled experiments, the primary difficulty lies in replicating high-stress evacuation interactions without compromising participant safety. In numerical simulations, the challenge arises from the multifactorial nature of human movement. It is affected by psychological responses under emergency evacuation, physical contact forces, frictional interactions, and body deformation under compression. Moreover, when individuals traverse bottleneck regions, even minute variations in personal velocity or intent can amplify nonlinearly, leading to abrupt slowdowns of the collective flow.\n\nPrevious experimental investigations on collective escape behavior have been conducted using both human participants and animal models. Experiments involving humans provide direct observations of evacuation behavior [ 4 – 11 ]. However, conducting such experiments requires rigorous ethical review and strict safety protocols, which significantly limit the number and scale of human studies. As a result, empirical data on human crowd behavior under high-stress evacuation conditions remain scarce, making it difficult to fully capture the complex mechanisms governing collective escape.\n\nTo address this limitation, animal experiments have emerged as a valuable alternative, allowing for controlled and repeatable studies under stress-induced conditions. Various species have been employed, including mice [ 12 – 23 ], sheep [ 24 , 25 ], and ants [ 26 , 27 ], each offering distinct advantages and limitations. Among these, mice have become particularly popular due to several favorable characteristics. First, mice are cognitively capable and exhibit behavioral responses to fear or stress that share qualitative similarities with human escape dynamics [ 28 , 29 ]. They also demonstrate self-organized queuing and effects of prior individual training or warning, which have been used to",
+  "source_label": "Experimental and agent-based simulation analysis of collective escape in mice: Validation and density-dependent effects of obstacles",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4191
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "ethics",
+  "scope_decision": {
+    "eligible": true,
+    "field": "ethics",
+    "rule": "psychology-context:ethics",
+    "policy_version": 2
+  },
+  "packet_hash": "bb5584017af125bb9833ce0135fa7ef175f6604cf8ec78aa4c03b2178a7ca6d2"
+}

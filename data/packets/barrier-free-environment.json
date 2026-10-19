@@ -1,0 +1,26 @@
+{
+  "id": "barrier-free-environment",
+  "term": "barrier-free environment",
+  "source": "article-pmc11894313",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/frobt.2025.1546894",
+  "revision": "2025; DOI 10.3389/frobt.2025.1546894; article XML SHA-256 d412c87cf1d264af22d1b6e4b9ef207f1fa6f2ae00bb5dcd3dbadf62003d9645",
+  "source_snapshot_sha256": "d412c87cf1d264af22d1b6e4b9ef207f1fa6f2ae00bb5dcd3dbadf62003d9645",
+  "url": "https://doi.org/10.3389/frobt.2025.1546894",
+  "text": "Mobile service robots for transportation tasks are usually restricted to a barrier-free environment where they can navigate freely. To enable the use of such assistive robots in existing buildings, the robot should be able to overcome closed doors independently and operate elevators with the interface designed for humans while being polite to passers-by. The integration of these required capabilities in an autonomous mobile service robot is explained using the example of a SCITOS G5 robot equipped with differential drive and a Kinova Gen II arm with 7 DoF. This robot also defines the framework conditions with certain limitations in terms of maneuverability and perceptual abilities. Results of field tests with that robot in an elderly care facility as well as in a university office building are shown, where it performed transportation and messaging tasks. We also report on the success rates achieved and highlight the main problems we have encountered and dicsuss open issues.\n\nFor years the development of socially assistive robots for home and also public applications has yielded promising user studies with positive expectations, but the lack of appearance of such systems on the market paints a different picture. One reason might be incisive boundary conditions for the robots’ deployment. Environments needed to be barrier-free, otherwise an expensive integration into the buildings’ infrastructure is necessary, or the robots would need human assistance of their own.\n\nAgainst this background, the aim of our research project RobInCare 1 (robots in care) was to enable robots to overcome the reason for impediment by developing respective capabilities to use an elevator and open closed doors on their own. The functionality is realized in our layered architecture Gross et al. (2012) , which allows to integrate the new capabilities into other applications of our mobile service robots easily.\n\nIn order to test and evaluate the realized capabilities, we have integrated the developed methods into a transport and messaging robot, which is used in our university on the one hand and in an elderly care facility on the other (see Figure 1 ). The latter consists of a three story building with 24 apartments and public rooms for social interaction.\n\nRobot performing a transport task in an elderly care facility; (from left to right, top to bottom) (1) task is scheduled via web interface, (2–4) robot opens and passes door to receive the goods, (5–7) robot has to ride an elevator on its way to the target person, (8) robot contacts the target person and finishes the transport task.\n\nThis article serves as a summary of the individual methodology used for realization of autonomous door manipulation and floor switching capabilities by means of operating an elevator. It describes the integration of these new functionality into a service application, while minor changes, which were necessary to achieve a smooth operation in a populated environment, are highlighted. We report the concluding experimental results conducted at the end of our research project and identify the open issues, which need to be addressed in future work.\n\nIn the following, we discuss the state of the art regarding robotic systems able to autonomously ride the elevator and pass through closed doors. Then an overview of our robot and the methods used are presented. Finally, we describe the setup and outcome of the experiments we conducted in order to evaluate the robustness of the autonomous navigation capabilities.",
+  "source_label": "On realizing autonomous transport services in multi story buildings with doors and elevators",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    3520
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "social",
+  "scope_decision": {
+    "eligible": true,
+    "field": "social",
+    "rule": "psychology-context:social",
+    "policy_version": 2
+  },
+  "packet_hash": "9f7cc2169d988131c37c220db13ee243edf8e88a1d87cadb22c67f4d998889f5"
+}

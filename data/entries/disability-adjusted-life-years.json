@@ -1,0 +1,65 @@
+{
+  "id": "disability-adjusted-life-years",
+  "term": "disability adjusted life years",
+  "definition": "Disability-adjusted life years (DALYs) are a population-level measure of how much burden a disease causes. They are used to capture the combined impact of disability and early death, helping compare how strongly illnesses affect health over time or across groups.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12176180"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12176180",
+      "revision": "2025; DOI 10.1371/journal.pone.0325519; article XML SHA-256 160dc3017fbfca898b01872a7900f9cbd38eb52f0464ae16cbb3d0bd0542910a",
+      "scope": "Source record 10.1371/journal.pone.0325519; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0325519"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "2b474e9839f77c9a7987ca36d33d4a82e5d9cf336a91fa6e2db1783250dd1011",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "fe4ed0f5e15840da8b36f31ca05d2fda",
+    "request_hash": "35381c9357b353cbd77af9a5cf1a8e98f69e8daadcfd4aa9158e5beba7a0b13d",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "0c36b083c1f380dd885db840086ef654d8678524932694a2488b35ae72b69930",
+    "packet_hash": "2b474e9839f77c9a7987ca36d33d4a82e5d9cf336a91fa6e2db1783250dd1011"
+  },
+  "hash": "6bc42b1a36a2c276274d853bbb0cd1c91db71d1e44e1486c6d83bbe2366f64c8",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define DALYs as a combined measure of disability and early death, nor does it state that DALYs are used to capture that combined impact.",
+        "The packet uses DALYs as an outcome metric (e.g., trends, burden, contributions by risk factors), but it does not provide the requested general definition about “population-level measure,” “burden a disease causes,” or “compare how strongly illnesses affect health over time or across groups.”",
+        "Because the definition’s core conceptual claims (disability + early death; comparative use over time/across groups) are not directly supported in the supplied packet text, the definition cannot be verified against the packet."
+      ],
+      "definition_hash": "0c36b083c1f380dd885db840086ef654d8678524932694a2488b35ae72b69930",
+      "packet_hash": "2b474e9839f77c9a7987ca36d33d4a82e5d9cf336a91fa6e2db1783250dd1011",
+      "published_packet_hash": "2b474e9839f77c9a7987ca36d33d4a82e5d9cf336a91fa6e2db1783250dd1011",
+      "receipt_id": "b8ecbc052b2f48938f1366701dd4a695",
+      "request_hash": "57180eb86c26178de9ccd9f9eac3daf3c4908b572caa719cf87a20532d3841c9",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports DALYs as a burden metric used in population health analyses, but it does not define DALYs as a combined measure of disability and early death.",
+        "The comparison function across illnesses, time, or groups is not established in the packet; it only says the study analyzed CVD DALY trends in Chile and by gender.",
+        "The definition adds general explanatory claims that are broader than the source text and are not directly supported by it."
+      ],
+      "definition_hash": "0c36b083c1f380dd885db840086ef654d8678524932694a2488b35ae72b69930",
+      "packet_hash": "2b474e9839f77c9a7987ca36d33d4a82e5d9cf336a91fa6e2db1783250dd1011",
+      "published_packet_hash": "2b474e9839f77c9a7987ca36d33d4a82e5d9cf336a91fa6e2db1783250dd1011",
+      "receipt_id": "0bb4f741b7424e07b8887a6601a8ec6f",
+      "request_hash": "7898b7b5b48080548622e183df9fb7585da352c2c9ed92b8026d4573f5ecb3e9",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

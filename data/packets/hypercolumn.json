@@ -1,0 +1,26 @@
+{
+  "id": "hypercolumn",
+  "term": "hypercolumn",
+  "source": "article-pmc12833258",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/frai.2025.1696984",
+  "revision": "2026; DOI 10.3389/frai.2025.1696984; article XML SHA-256 8a27f549f2a6ee22a45795e00c412790200a7ef4c58aa0c2ae2d45d5908b33a4",
+  "source_snapshot_sha256": "8a27f549f2a6ee22a45795e00c412790200a7ef4c58aa0c2ae2d45d5908b33a4",
+  "url": "https://doi.org/10.3389/frai.2025.1696984",
+  "text": "Rectal cancer is a globally prevalent cancer, and accurate segmentation of rectal lesions in abdominal CT images is critical for clinical diagnosis and treatment planning. Existing methods struggle with imprecise boundary delineation due to low tissue contrast, image noise, and varied lesion sizes, prompting the development of a specialized segmentation framework.\n\nWe developed the Hierarchical Hypercolumn-guided Fusion Segment Anything Model (HHF-SAM) with three core components: 1) A Med-Adapter SAM Encoder integrating LoRA and Adapter modules to adapt SAM's natural image understanding capability to medical-specific features; 2) A Multi-scale Hypercolumn Processing Module to capture comprehensive features for lesions of varying sizes and shapes; 3) A Progressive Hierarchical Fusion Decoder with Hierarchical Fusion Module to aggregate multi-scale features and resolve boundary blurring. The model was evaluated on two public abdominal CT datasets (CARE and WORD) using mean Dice coefficient (mDice) and mean Intersection over Union (mIoU) as metrics.\n\nOn the CARE dataset, HHF-SAM achieved a mean mDice of 74.05% and mean mIoU of 58.96%, outperforming state-of-the-art methods (U-SAM: 69.28% mDice, 53.11% mIoU; SAM: 65.98% mDice, 49.44% mIoU). For tumor segmentation specifically, it reached 76.42% mDice and 62.03% mIoU. On the WORD dataset, it achieved an average mDice of 85.84% across all organs, with 83.24% mDice for rectal segmentation (surpassing U-SAM's 80.66% and SAM's 72.77%).\n\nThis study presents an SAM-based framework optimized for the unique characteristics of abdominal CT images, effectively overcoming the limitations of general segmentation models in medical image processing. The proposed HHF-SAM provides a reliable tool for clinical auxiliary diagnosis, reducing inter-reader variability and improving efficiency in lesion delineation.\n\nRectal cancer refers to a malignant tumor that occurs in the lining of the rectum and is a type of colorectal cancer. Rectal cancer is one of the more common cancers worldwide, especially in developed countries and regions, where its incidence is relatively high. Early detection of rectal cancer, particularly in its early stages, can significantly improve patient survival rates. Traditional colorectal cancer screening involves inserting a colonoscope into the rectum to examine the inner lining of the colon. However, this method is relatively complex, requiring bowel preparation and posing certain risks and discomfort to the patient. CT colonography is a non-invasive imaging method that uses computed tomography to generate three-dimensional images of the colon, helping doctors detect polyps or cancerous tissue.\n\nHowever, when faced with a large volume of CT colonography images, the limited availability of radiologists can lead to inaccurate diagnoses, which may have significant consequences for patients. A false-negative diagnosis could delay the optimal treatment window, making treatment more difficult. This is especially critical in cases of malignant diseases like cancer, where time is crucial, and delayed treatment may allow the disease to reach an irreversible stage, endangering the patient's life. Conversely, a false-positive diagnosis may result in patients undergoing unwarranted treatments, which not only offer no therapeutic benefit but also pose the risk of complications and adverse effects.\n\nDeep learning (DL) has drawn increasing attention across various domains, particularly in image recognition and segmentation. When applied to medical CT imaging, deep learning techniques not only enable the precise identification of pathological regions but also facilitate the differentiation between benign and malignant tumors. This capability is crucial for assisting clinicians in making more informed decisions, especially in complex or ambiguous cases, thereby enhancing the overall diagnostic accuracy. Various architectures have been explored for medical image segmentation, each with inherent limitations. CNN-based methods, such as U-Net ( Ronneberger, 2015 ), are adept at automatically extracting features from medical images and excel at capturing fine-grained details through",
+  "source_label": "Rectal cancer segmentation via HHF-SAM: a hierarchical hypercolumn-guided fusion segment anything model",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4190
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "bc1310e64eee6a64d4074a4aa8fc69145f75d1f36790d2f38895d44d7d0155e9"
+}

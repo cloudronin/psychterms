@@ -1,0 +1,26 @@
+{
+  "id": "in-house-evaluation",
+  "term": "in-house evaluation",
+  "source": "article-pmc13541914",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fcell.2026.1879094",
+  "revision": "2026; DOI 10.3389/fcell.2026.1879094; article XML SHA-256 10794de9b5980c1b8c8b53cf1f99b257ee0e26035b36c807e9024778c42184c7",
+  "source_snapshot_sha256": "10794de9b5980c1b8c8b53cf1f99b257ee0e26035b36c807e9024778c42184c7",
+  "url": "https://doi.org/10.3389/fcell.2026.1879094",
+  "text": "Ultrasound-based thyroid nodule segmentation remains challenging because of blurred boundaries, complex echo noise, and subtle morphological differences between benign and malignant lesions.\n\nWe propose a benign-malignant-aware segmentation framework based on SegFormer, incorporating adaptive semantic prototype calibration (ASPC) for class-level semantic discrimination and class-conditional boundary refinement (CCBR) for ambiguous contour correction. The model performs three-class segmentation of background, benign, and malignant regions.\n\nExperiments on the public TN3K dataset and an in-house clinical dataset demonstrate consistent performance under both external transfer and supervised evaluation settings. The proposed method achieved PA, mIoU, mDice, and mPrecision of 0.9449, 0.6427, 0.7517, and 0.8147 on TN3K; 0.7793, 0.5016, 0.6374, and 0.7089 under direct external transfer; and 0.8521, 0.6124, 0.7328, and 0.7996 under supervised in-house evaluation.\n\nAblation studies and Grad-CAM visualization further confirm that ASPC and CCBR improve semantic discrimination, boundary refinement, and model interpretability, supporting the effectiveness of the proposed framework for thyroid nodule segmentation.\n\nThyroid nodules are common lesions in clinical ultrasound examinations. Accurate identification of nodule location, boundary extent, and benign or malignant tendency is important for risk assessment, follow-up management, and treatment planning. Ultrasound imaging is widely used for thyroid nodule screening because it is non-invasive, real-time, and low-cost. However, thyroid ultrasound images often have low contrast, speckle noise, blurred boundaries, and complex tissue echoes. These factors make manual delineation subjective and difficult. In recent years, deep learning methods have been widely used for segmentation of thyroid nodule ultrasound images. Sun et al. (2022) proposed TNSNet with soft shape supervision to enhance shape constraints for nodule regions. Li C. et al. (2023) designed a novel model for thyroid nodule ultrasound image segmentation to improve nodule localization performance. Bi et al. (2023) proposed BPAT-UNet, which improves boundary modeling through a boundary-preserving mechanism and a Transformer architecture. Gong et al. (2023) introduced a thyroid-region-prior-guided attention mechanism to strengthen the model’s focus on nodule-related regions. In addition, Chen et al. (2024) proposed the multi-view learning segmentation model MLMSeg, and Yang et al. (2024) constructed a lightweight attention segmentation network DAC-Net. These studies have promoted the development of automatic segmentation for thyroid nodule ultrasound images.\n\nAlthough existing methods have made progress in nodule region segmentation, several limitations remain. First, most methods treat thyroid nodules as a single foreground target. They mainly focus on the boundary between the nodule and the surrounding background tissues. Benign–malignant information is rarely modeled in a unified segmentation label space. Kang et al. (2022) explored consistency learning between thyroid nodule segmentation and classification, and Li G. et al. (2023) fused Transformer and large-kernel convolution for malignant thyroid nodule segmentation. However, benign–malignant semantic differences are still not fully incorporated into most segmentation frameworks. Second, benign and malignant nodules often show fine-grained differences in ultrasound images. These differences may appear in edge regularity, internal echoes, local heterogeneous textures, and boundary transition patterns. It is difficult to represent these subtle differences using ordinary foreground segmentation alone. Third, although existing methods have introduced context modeling, frequency-domain enhancement, class representation attention, and densely connected feature learning ( Chen et al., 2023 ; Sun et al., 2024 ; Ali et al., 2024 ; Ozcan et al., 2024 ), they may still produce under-segmentation, over-segmentation, or unstable category responses in boundary-uncertain and benign–malignant confusing regions. Therefore, it remains necessary to improve nodule localization,",
+  "source_label": "Intelligent segmentation of thyroid nodule ultrasound images based on benign–malignant-aware semantic prototype calibration and class-conditional boundary refinement",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4185
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "0d5e2cf77247ba527f1d7ece7dc8037b632d2e48f82a56c8e9965084614edb59"
+}

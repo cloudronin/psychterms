@@ -1,0 +1,61 @@
+{
+  "id": "control-procedure",
+  "term": "control procedure",
+  "definition": "A control procedure is a method for regulating a system’s behavior so it reaches desired performance goals. In this source, it means an adaptive control method that continuously adjusts controller settings to improve stability, reject disturbances, and use control effort efficiently.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10019697"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10019697",
+      "revision": "2023; DOI 10.1371/journal.pone.0283079; article XML SHA-256 378dd88007938e8e963c6b2eb7961a31addcc95d9cca57bbb41c854799aa52f8",
+      "scope": "Source record 10.1371/journal.pone.0283079; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0283079"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "9b68a4000bb3486db030ef6349144b96",
+    "request_hash": "8f9f35b016dcd6dc088f7bc5a239d2e419c46a8340e804016cfd9f4367786d5a",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "69692cc8a1cb7f76a55826fd7628f70d3c800622f03afd858388133ce1ae1d53",
+    "packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa"
+  },
+  "hash": "588c1c6e16cc8dc4af2d5e83bb59f6162d0fb1fd24e5bd649cc6fa467eadb4de",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "69692cc8a1cb7f76a55826fd7628f70d3c800622f03afd858388133ce1ae1d53",
+      "packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa",
+      "published_packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa",
+      "receipt_id": "e1df59da62d043ac836e7beea5ab36d7",
+      "request_hash": "32facff383a0d77e02cc5ccf54160eb1937b81d430ef34569ec41e532ff1cbe3",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an online adaptive control scheme for an under-actuated rotary pendulum, not a general dictionary sense of “control procedure” as a broad method for regulating any system’s behavior.",
+        "The phrase “in this source, it means” overstates what the article provides: the packet describes a specific variable-structure LQI controller with online weight adaptation, but does not define the term as such.",
+        "The requested field is not well supported by the source packet; the content is control engineering rather than learning/psychology."
+      ],
+      "definition_hash": "69692cc8a1cb7f76a55826fd7628f70d3c800622f03afd858388133ce1ae1d53",
+      "packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa",
+      "published_packet_hash": "72d15ab268d8d2442b0dc13c3842aa50a69e3e1f052609cb1a7518db99b976aa",
+      "receipt_id": "50e11d76b86d442d864300a87a429799",
+      "request_hash": "4530c9b62b4375fb90358aa567b8651b46b5bd8ee17153b1ddbd164758c654b2",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

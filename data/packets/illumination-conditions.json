@@ -1,0 +1,26 @@
+{
+  "id": "illumination-conditions",
+  "term": "illumination conditions",
+  "source": "article-pmc13099095",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0340499",
+  "revision": "2026; DOI 10.1371/journal.pone.0340499; article XML SHA-256 41cde1b593df405a9c8560fd51dff10c621d7896393e7ef3aeecf04117e2888c",
+  "source_snapshot_sha256": "41cde1b593df405a9c8560fd51dff10c621d7896393e7ef3aeecf04117e2888c",
+  "url": "https://doi.org/10.1371/journal.pone.0340499",
+  "text": "Object detection in visible light (RGB) images is frequently compromised by low-illumination conditions, whereas infrared (IR) imaging typically exhibits superior robustness in such environments. Multispectral fusion addresses this limitation by leveraging complementary information from both modalities; however, existing methods predominantly rely on intricate fusion modules to integrate cross-modal features, inevitably incurring significant computational overhead and architectural complexity. To mitigate this issue, we propose a novel Cross-modal Orthogonal Representation Enhancement Network (CORE-Net). Diverging from conventional heavy-fusion paradigms, our framework adopts a dual-branch architecture integrated with a streamlined Cross-modal Concatenation Network Framework (CCNF), which achieves efficient feature integration while substantially reducing model complexity. Furthermore, CORE-Net incorporates two distinct components—the Multiple Pooling Convolution Downsampling (MPCD) module and the Refined Integration Network (RINet)—specifically designed to optimize feature extraction capabilities. Extensive evaluations on the DroneVehicle and LLVIP datasets demonstrate that CORE-Net achieves state-of-the-art (SOTA) performance in terms of both detection accuracy and computational efficiency. Ablation studies substantiate the individual and synergistic contributions of each proposed component, while deployment on edge devices further corroborates the model’s practical efficiency. Additionally, qualitative visualizations confirm the model’s efficacy in suppressing background noise and enhancing discriminative fine-grained features. In summary, CORE-Net establishes a robust new paradigm for high-performance and efficient multispectral object detection.\n\nIn recent years, optical remote sensing has been widely applied in fields such as autonomous driving, surveillance, environmental monitoring, and urban planning [ 1 – 5 ]. Advances in deep learning (DL) have significantly enhanced object detection accuracy. Two-stage detection algorithms, such as R-CNN [ 6 ], Faster R-CNN [ 7 ], and SPP-Net [ 8 ], rely on region proposal networks to generate candidate bounding boxes for classification and recognition. In contrast, single-stage detection algorithms simultaneously predict both object categories and locations, eliminating the need for region proposal generation. Notable examples include SSD [ 9 ], RetinaNet [ 10 ], and the YOLO series [ 11 – 13 ]. Remote sensing object detection (RSOD) [ 14 – 16 ] further plays a critical role in target localization and recognition within remote sensing applications.\n\nIn previous studies [ 17 , 18 ], most methodologies have been designed and optimized for single-modal target detection using red-green-blue (RGB) and infrared (IR) imagery. However, the performance of these approaches remains limited when detecting targets with subtle or indistinct features [ 19 ]. Traditional low-altitude remote sensing target detection predominantly relies on RGB images as the primary data source due to their detailed edge structures, complex textures, and rich color information [ 20 ], particularly under optimal lighting conditions. Furthermore, the widespread availability of large-scale RGB datasets provides ample training samples for such tasks. Nevertheless, in extreme environments, RGB images are susceptible to illumination variations, which can lead to detail degradation, while complex backgrounds may result in occlusion or incomplete data coverage [ 21 ]. These limitations present significant challenges to enhancing detection accuracy and robustness in low-altitude remote sensing applications. Conversely, infrared images capture thermal radiation patterns and temperature gradients, enabling clear delineation of target contours even under low-light conditions, nighttime operations, long-distance scenarios, or severe occlusion [ 22 , 23 ]. While IR imagery exhibits a distinct advantage over RGB in low-light environments [ 24 , 25 ], it performs suboptimally when target boundaries are ambiguous. Given the complementary nature of RGB and IR modalities in target detection, integrating their synergistic",
+  "source_label": "CORE-Net: A cross-modal orthogonal representation enhancement network for low-altitude multispectral object detection",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4191
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "88a7d702ffb7ca675fcec4a560cb62c9d1410bbafd2fdab618532aa7982343cd"
+}

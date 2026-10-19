@@ -1,0 +1,60 @@
+{
+  "id": "negative-acceleration",
+  "term": "negative acceleration",
+  "definition": "In this EEG context, negative acceleration means the negative values obtained when the alpha-wave envelope is differentiated a second time. It reflects moments when the envelope’s change is bending downward during the waxing and waning of alpha activity, and was used in the study as part of the comparison with positive acceleration.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11175473"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11175473",
+      "revision": "2024; DOI 10.1371/journal.pone.0305082; article XML SHA-256 6414f28bb0bef71eef37e8290816a2f803178950d2ffed33722e31194e26453b",
+      "scope": "Source record 10.1371/journal.pone.0305082; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0305082"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "7c0d99edbddecf57e12b5dfd43173ebcf2bd5dc52222163b9736a942b32507a3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "2a65407a334d45239970562a1c26f802",
+    "request_hash": "08f861e0f49e411c58f30a365715c3f6c9ca44a8703d8b9c50888bc7814881c0",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "782406bc87557cf8cf03a22ea6831df5c0ba2b1529425f2b930703ce6e9a1f7e",
+    "packet_hash": "7c0d99edbddecf57e12b5dfd43173ebcf2bd5dc52222163b9736a942b32507a3"
+  },
+  "hash": "6065e934b54fa4e4eabd1bababf8d0fb6cafb551e1c20055820b076d94953e01",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "782406bc87557cf8cf03a22ea6831df5c0ba2b1529425f2b930703ce6e9a1f7e",
+      "packet_hash": "7c0d99edbddecf57e12b5dfd43173ebcf2bd5dc52222163b9736a942b32507a3",
+      "published_packet_hash": "7c0d99edbddecf57e12b5dfd43173ebcf2bd5dc52222163b9736a942b32507a3",
+      "receipt_id": "39a9b989eb5249a58fa2a280963c055c",
+      "request_hash": "d8cb9cd97c7d39e1a4ac83f83b003f28bb7a100d5148e645d3f3686110c696a9",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that the alpha wave envelope was subjected to secondary differentiation to produce positive (Ap) and negative (An) acceleration values, but it does not support the specific interpretation that negative acceleration “reflects moments when the envelope’s change is bending downward during the waxing and waning of alpha activity.”",
+        "The claim that negative acceleration was “used in the study as part of the comparison with positive acceleration” is broadly supported (the study computed Ap and An and used their ratio Ap-An), but the definition includes the unsupported “bending downward” explanation."
+      ],
+      "definition_hash": "782406bc87557cf8cf03a22ea6831df5c0ba2b1529425f2b930703ce6e9a1f7e",
+      "packet_hash": "7c0d99edbddecf57e12b5dfd43173ebcf2bd5dc52222163b9736a942b32507a3",
+      "published_packet_hash": "7c0d99edbddecf57e12b5dfd43173ebcf2bd5dc52222163b9736a942b32507a3",
+      "receipt_id": "d1dc518b1fc24b56bb30a42c347542cb",
+      "request_hash": "639bc3d23c103c68ffeb2967c1da7a761f3e1c67f58798d6ee939a73937e058f",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

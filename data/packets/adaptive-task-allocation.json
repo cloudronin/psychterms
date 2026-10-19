@@ -1,0 +1,26 @@
+{
+  "id": "adaptive-task-allocation",
+  "term": "adaptive task allocation",
+  "source": "article-pmc12823971",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/frobt.2025.1706910",
+  "revision": "2026; DOI 10.3389/frobt.2025.1706910; article XML SHA-256 944ef87e0e4420467a53443ba9b3165e674eddd1a5f9449504b5993c067a57ae",
+  "source_snapshot_sha256": "944ef87e0e4420467a53443ba9b3165e674eddd1a5f9449504b5993c067a57ae",
+  "url": "https://doi.org/10.3389/frobt.2025.1706910",
+  "text": "Robotic fleet management systems are increasingly vital for sustainable operations in agriculture, forestry, and other field domains where labor shortages, efficiency, and environmental concerns intersect. We present FORMIGA, a fleet management framework that integrates human operators and autonomous robots into a collaborative ecosystem. FORMIGA combines standardised communication through the Robot Operating System with a user-centered interface for monitoring and intervention, while also leveraging large language models to generate executable task code from natural language prompts. The framework was deployed and validated within the FEROX project, a European initiative addressing sustainable berry harvesting in remote environments. In simulation-based trials, FORMIGA demonstrated adaptive task allocation, reduced operator workload, and faster task completion compared to semi-autonomous control, enabling dynamic labor division between humans and robots. By enhancing productivity, supporting worker safety, and promoting resource-efficient operations, FORMIGA contributes to the economic, and environmental dimensions of sustainability, offering a transferable tool for advancing human–robot collaboration in field robotics.\n\nField domains such as agriculture, forestry, and construction are under increasing pressure to balance productivity demands with sustainability concerns. Persistent labor shortages, environmental constraints, and the need for safer working conditions highlight the urgency of developing innovative robotic solutions ( Gonzalez-de Santos et al., 2020 ). Field robotics, characterized by autonomous systems capable of continuous operation within coordinated fleets, offers significant potential to improve efficiency, reduce costs, and enhance human wellbeing. These machines, equipped with advanced sensing, autonomy, and learning capabilities, are no longer limited to repetitive or isolated tasks–they can actively complement human expertise. Realizing this synergy requires intentional design that supports multiple levels of collaboration, including labor division, mutual assistance, and joint performance in complex and unpredictable environments.\n\nHuman–robot teaming thus provides a nuanced perspective on interaction, moving beyond the traditional view of robots as tools for routine work ( Gombolay et al., 2015 ). As robots assume more complex and autonomous roles, it becomes critical to integrate human operators into decision-making processes, ensuring safety, adaptability, and trust ( Hoffman and Breazeal, 2004 ). However, seamless collaboration remains challenging. Autonomy exceptions such as localization errors, navigation failures, or mechanical disruptions can interrupt operations and limit the effectiveness of fully automated systems. To address these limitations, new frameworks are needed that actively support human–machine collaboration rather than relying exclusively on robot autonomy. Progress in this direction depends on close collaboration among researchers, roboticists, and end-users to create systems that are not only technologically advanced but also resilient, transparent, and attuned to human needs in real-world environments ( Sikand et al., 2021 ).\n\nBuilding on these challenges and aspirations, we introduce the Framework for Optimised Robotic Management, Integration, Guidance, and Automation (FORMIGA 1 ). FORMIGA is designed to manage fleets of heterogeneous agents (both robots and humans) by combining optimized operational management, seamless integration, and user-centered guidance. Its architecture incorporates standardized communication through the Robot Operating System, intuitive interfaces for supervision and control, and novel large language model–based task generation. By embedding human oversight into fleet scheduling and task execution, FORMIGA provides a concrete design methodology for effective, sustainable HRC in field robotics.\n\nAccordingly, this research is guided by the hypothesis that a modular, ROS-based fleet management framework integrating human oversight and automated task generation can enhance efficiency, reduce operator workload, and promote sustainable human–robot",
+  "source_label": "FORMIGA: a fleet management framework for sustainable human–robot collaboration in field robotics",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "f222219c80803eecfa5d8e1b29bcb359f354c2f7925ed4f96ec36413616d5e9f"
+}

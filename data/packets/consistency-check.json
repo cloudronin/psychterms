@@ -1,0 +1,26 @@
+{
+  "id": "consistency-check",
+  "term": "consistency check",
+  "source": "article-pmc10817223",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0292140",
+  "revision": "2024; DOI 10.1371/journal.pone.0292140; article XML SHA-256 3e10351ff5df859de4d9e060dffe8fa1a2c7c2e0d778749a8483ee8d145390bf",
+  "source_snapshot_sha256": "3e10351ff5df859de4d9e060dffe8fa1a2c7c2e0d778749a8483ee8d145390bf",
+  "url": "https://doi.org/10.1371/journal.pone.0292140",
+  "text": "A challenge to many real-world data streams is imbalance with concept drift, which is one of the most critical tasks in anomaly detection. Learning nonstationary data streams for anomaly detection has been well studied in recent years. However, most of the researches assume that the class of data streams is relatively balanced. Only a few approaches tackle the joint issue of imbalance and concept drift. To overcome this joint issue, we propose an ensemble learning method with generative adversarial network-based sampling and consistency check (EGSCC) in this paper. First, we design a comprehensive anomaly detection framework that includes an oversampling module by generative adversarial network, an ensemble classifier, and a consistency check module. Next, we introduce double encoders into GAN to better capture the distribution characteristics of imbalanced data for oversampling. Then, we apply the stacking ensemble learning to deal with concept drift. Four base classifiers of SVM, KNN, DT and RF are used in the first layer, and LR is used as meta classifier in second layer. Last but not least, we take consistency check of the incremental instance and check set to determine whether it is anormal by statistical learning, instead of threshold-based method. And the validation set is dynamic updated according to the consistency check result. Finally, three artificial data sets obtained from Massive Online Analysis platform and two real data sets are used to verify the performance of the proposed method from four aspects: detection performance, parameter sensitivity, algorithm cost and anti-noise ability. Experimental results show that the proposed method has significant advantages in anomaly detection of imbalanced data streams with concept drift.\n\nThe joint of class imbalance and concept drift is a crucial issue for anomaly detection in real-world application, where the underlying data distribution changes over time [ 1 ]. On one hand, the data categories are not equally represented, which can cause learning bias towards the majority class and result in poor generalization [ 2 ]. On the other hand, concept drift is also a challenging problem in the field of data streams learning [ 3 ], which deeply influences the stability of data streams classification. Unfortunately, most of data streams are characterized as high speed, nonstationary data distribution, and infinite length, facing the joint of imbalance and concept drift. This may further hinder the anomaly detection, then the high demand for this type of solution is evident [ 4 ].\n\nClass imbalance is mainly reflected in the following three aspects [ 5 ]: 1) great difference in data volume; 2) imbalanced distribution of samples; 3) overlap of samples in feature space. As a result, little anomaly data is always buried in a sea of normal data [ 6 ]. Therefore, how to overcome class imbalance and obtain high detection accuracy is an urgent problem to be solved for anomaly detection [ 7 ]. Generally, solutions are tried mainly from three strategies: data processing, feature extraction and algorithm optimization. For data processing, sampling has been carried out to improve the balance of dataset and change the samples’ distribution [ 8 ]; for feature extraction, an appropriate feature model is used to map the data to the feature space, and better feature representation is obtained [ 9 ]; for algorithm optimization, optimized algorithm is applied to improve the recognition rate of minority class samples [ 10 ]. Obviously, data-level approaches are easier with no need for understanding of loss function, such as oversampling [ 11 ]. Oversampling needs sufficient information to generate high-quality data. However, it is harder to capture the distribution of minority samples, so as to likely to generate low-quality samples deviating from its distribution. Therefore, how to produce more diverse and high-quality samples is still critical.\n\nDue to concept drift, the dynamic of target concepts deteriorates the performance of classifiers learned from past instances. Thus, concept drift requires classifiers to be adjusted to adapt to the new condition. Essentially, concept drift is the",
+  "source_label": "An ensemble learning method with GAN-based sampling and consistency check for anomaly detection of imbalanced data streams with concept drift",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4196
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "3bd06d702c968eb6fc54d86cb8f6954b95a5574bae78ed47219febc9c80420b3"
+}

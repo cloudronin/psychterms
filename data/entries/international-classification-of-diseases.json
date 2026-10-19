@@ -1,0 +1,60 @@
+{
+  "id": "international-classification-of-diseases",
+  "term": "International Classification of Diseases",
+  "definition": "The International Classification of Diseases is a worldwide system for coding and classifying diagnoses and health conditions in healthcare records. Its tenth revision, ICD-10, is widely used to organize health data for reporting, research, policy, planning, and related administrative purposes such as billing and claims processing.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10903801"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10903801",
+      "revision": "2024; DOI 10.1371/journal.pone.0298411; article XML SHA-256 db34d3f3a98f66510e4b8ca56090c6ceb7547f2523ed8965a1474292223fc7cb",
+      "scope": "Source record 10.1371/journal.pone.0298411; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0298411"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "ed2a3436a8644e68aab9af67c12624bf",
+    "request_hash": "f73be470bf27a6f1f830a8395c9e961f16a1218a829fc8941af95fc16f40335d",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "0bb1a5f1e224dc3f087c20c846214942f4e08dabfd75aa4851f51fbda1ab48ac",
+    "packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd"
+  },
+  "hash": "c891f739c9f8ac86998f17fabdfa196074b024ea13a5ffd3ae654f8b1cca86b9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "0bb1a5f1e224dc3f087c20c846214942f4e08dabfd75aa4851f51fbda1ab48ac",
+      "packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd",
+      "published_packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd",
+      "receipt_id": "0391394bd5724af29f88265bc6033fbf",
+      "request_hash": "72a54882a382938827c6f46198fce5b04adcfcf7a9dc884b51a490d0a87b3542",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition adds broader scope that is not supported by the packet, especially “health conditions” and “healthcare records”; the packet supports diagnoses, injuries, administrative health data, and hospital records, but not that wider formulation as stated.",
+        "The field “cognition” is not supported by the packet for this term; the source is about ICD coding in health data, not a cognition concept or psychology/counselling sense."
+      ],
+      "definition_hash": "0bb1a5f1e224dc3f087c20c846214942f4e08dabfd75aa4851f51fbda1ab48ac",
+      "packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd",
+      "published_packet_hash": "f8414d032b9fa672d2e3018552b3007dba58ca94be62fa3dd9a94740dbce75cd",
+      "receipt_id": "f644f40aa89d402490895cff951587c0",
+      "request_hash": "7385c660212811f358de2ac50252406f8ce74f95462f5caae7534094f3f57745",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

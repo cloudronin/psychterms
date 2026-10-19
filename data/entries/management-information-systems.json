@@ -1,0 +1,66 @@
+{
+  "id": "management-information-systems",
+  "term": "management information systems",
+  "definition": "Management information systems are organized digital or paper-based systems used to collect, track, and share information needed to manage services and resources. In the source material, they include features such as health records, stock monitoring, and supply chain tracking to improve record-keeping, reduce waste, and support more efficient service delivery.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13271511"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13271511",
+      "revision": "2026; DOI 10.1371/journal.pone.0350231; article XML SHA-256 dc95eb3761ff912aa69dae5927ec819e327be9448cd1a94fae051ee02975ddc3",
+      "scope": "Source record 10.1371/journal.pone.0350231; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0350231"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "6e53b780e8bab0edc960ae28ecb41e88c17629c70fb6d256665dd170bc797a35",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "a1019fa40abe4ce9895f16ec609b8b96",
+    "request_hash": "95c57c44b19b9eced7f62577d671f2c9deaa17c35cdcc727ea7f3b2d7c1c71d2",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "24f6449e467c4508b3c1af9ed3b0f46950c112293db9ff709804063923d3d30d",
+    "packet_hash": "6e53b780e8bab0edc960ae28ecb41e88c17629c70fb6d256665dd170bc797a35"
+  },
+  "hash": "9add8889d54df4e5c9708883e71aa47217d25e2bf529399c235593e7f0e53d7c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports vaccine management/digital logistics management information systems in immunization, not the broad general definition of management information systems across services and resources.",
+        "“Paper-based systems” is not supported by the source packet, which discusses digital, electronic, online/offline, and integrated systems.",
+        "The added examples of health records, stock monitoring, and supply chain tracking are only partially supported in the vaccine/immunization context; the definition overgeneralizes them beyond the source’s scope."
+      ],
+      "definition_hash": "24f6449e467c4508b3c1af9ed3b0f46950c112293db9ff709804063923d3d30d",
+      "packet_hash": "6e53b780e8bab0edc960ae28ecb41e88c17629c70fb6d256665dd170bc797a35",
+      "published_packet_hash": "6e53b780e8bab0edc960ae28ecb41e88c17629c70fb6d256665dd170bc797a35",
+      "receipt_id": "952dcc39008c42e8a87bc87451311fd9",
+      "request_hash": "fffe655059df8328eacbbe9a144d2dc79340c5895ad2f9af4a60767d76655272",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s general characterization of management information systems as “organized digital or paper-based systems used to collect, track, and share information needed to manage services and resources” is not clearly supported by the provided packet, which focuses on vaccine management/logistics management information systems in LMICs rather than a general MIS definition.",
+        "Claims about “health records, stock monitoring, and supply chain tracking” are only supported within the context of vaccine management systems; the packet supports features such as longitudinal health records and automated inventory/stock monitoring for immunization, but does not substantiate these as general, defining features of MIS broadly.",
+        "The asserted purposes “improve record-keeping, reduce waste, and support more efficient service delivery” are only supported in the packet as outcomes of implementing the vaccine management information systems (e.g., reducing wastage, enhancing record-keeping, optimizing supply chain efficiency), not as general MIS aims.",
+        "The citation-specific examples (e.g., “in the source material, they include…”) are consistent with the packet’s vaccine context, but the definition’s wording broadens beyond what the packet explicitly establishes."
+      ],
+      "definition_hash": "24f6449e467c4508b3c1af9ed3b0f46950c112293db9ff709804063923d3d30d",
+      "packet_hash": "6e53b780e8bab0edc960ae28ecb41e88c17629c70fb6d256665dd170bc797a35",
+      "published_packet_hash": "6e53b780e8bab0edc960ae28ecb41e88c17629c70fb6d256665dd170bc797a35",
+      "receipt_id": "a9db7f7da69c40809417cd557065f9f9",
+      "request_hash": "ba551b6073b79abedeeaa75c0821f0c96f77d336428c12af38753df0d7be989b",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

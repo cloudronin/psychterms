@@ -1,0 +1,63 @@
+{
+  "id": "gustometer",
+  "term": "gustometer",
+  "definition": "A gustometer is a device used to deliver controlled taste stimuli so researchers or clinicians can measure taste responses. In this source, it is designed to present tastants such as salt solutions and to help record gustatory event-related brain responses reliably.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11979289"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11979289",
+      "revision": "2025; DOI 10.3389/fnins.2025.1534296; article XML SHA-256 e06f961b2249d76cef75cee8e259eda6cfd84c6b9626aae7a79aec91562d3b6d",
+      "scope": "Source record 10.3389/fnins.2025.1534296; pinned source text",
+      "locator": "https://doi.org/10.3389/fnins.2025.1534296"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e1ee8d5aa31564337731729ad0c6ceb0ebce1818933394b32e8071de8b4c715b",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "f4a8b006e9bd46bcbebab391ad397b22",
+    "request_hash": "8c8ca866f83e24ad580d41dae61ac1d7216536f22f970e13639fed369f2247c3",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "ce39effa00e13b36827301650b3400f59185b9fc215d2eccedce5b3b373fbcd1",
+    "packet_hash": "e1ee8d5aa31564337731729ad0c6ceb0ebce1818933394b32e8071de8b4c715b"
+  },
+  "hash": "318a8c83f0bc6e736fc0b0544154e4a34718847022d679b8ff63e78ef0793933",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition states the device is “used to deliver controlled taste stimuli so researchers or clinicians can measure taste responses.” The packet supports delivery of tastants (e.g., distilled water; sodium chloride solutions) and recording reliable GERP waveforms, but it does not explicitly describe “controlled taste stimuli” or measuring “taste responses” as a stated purpose for researchers/clinicians in general terms.",
+        "The definition claims “help record gustatory event-related brain responses reliably.” The packet supports that the study validated the gustometer’s “functionality and reliability” and that it evoked reliable GERP waveforms, but “help record” is not phrased as the packet’s direct claim (it introduces and uses the gustometer to record GERPs)."
+      ],
+      "definition_hash": "ce39effa00e13b36827301650b3400f59185b9fc215d2eccedce5b3b373fbcd1",
+      "packet_hash": "e1ee8d5aa31564337731729ad0c6ceb0ebce1818933394b32e8071de8b4c715b",
+      "published_packet_hash": "e1ee8d5aa31564337731729ad0c6ceb0ebce1818933394b32e8071de8b4c715b",
+      "receipt_id": "e150a3d0601d4eae8ca5d8120cead649",
+      "request_hash": "428d079985062aa94683389989486e68287727a8283e917d0000047ba012e349",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not defensible from the packet: this is a neuroscience/gustatory electrophysiology device, not a social psychology term.",
+        "The definition slightly overgeneralizes by describing the gustometer as a general tool for clinicians to measure taste responses; the packet supports its use for recording GERP waveforms and its potential clinical and research applications, but not that broad role as stated."
+      ],
+      "definition_hash": "ce39effa00e13b36827301650b3400f59185b9fc215d2eccedce5b3b373fbcd1",
+      "packet_hash": "e1ee8d5aa31564337731729ad0c6ceb0ebce1818933394b32e8071de8b4c715b",
+      "published_packet_hash": "e1ee8d5aa31564337731729ad0c6ceb0ebce1818933394b32e8071de8b4c715b",
+      "receipt_id": "2b6743fe204846b2a1c3dcbbad617eb3",
+      "request_hash": "bbc4639f5d745c207dc8298118a3eea1132cba5657d5baa08b02f0dbc2759513",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

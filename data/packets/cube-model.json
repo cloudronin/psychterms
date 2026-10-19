@@ -1,0 +1,26 @@
+{
+  "id": "cube-model",
+  "term": "cube model",
+  "source": "article-pmc10520244",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/ti.2023.11338",
+  "revision": "2023; DOI 10.3389/ti.2023.11338; article XML SHA-256 d41ecfd3bd3941cbf6d208366e49e9ac243a34a24d52caa74ed18dc0e444ef11",
+  "source_snapshot_sha256": "d41ecfd3bd3941cbf6d208366e49e9ac243a34a24d52caa74ed18dc0e444ef11",
+  "url": "https://doi.org/10.3389/ti.2023.11338",
+  "text": "Accurate prediction of allograft survival after kidney transplantation allows early identification of at-risk recipients for adverse outcomes and initiation of preventive interventions to optimize post-transplant care. Many prediction algorithms do not model cohort heterogeneity and may lead to inaccurate assessment of longer-term graft outcomes among minority groups. Using data from a national Australian kidney transplant cohort (2008–2017) as the derivation set, we developed P-Cube, a multi-step precision prediction pathway model for predicting overall graft survival in three ethnic subgroups: European Australians, Asian Australians and Aboriginal and Torres Strait Islander Peoples. The concordance index for the European Australians, Asian Australians, and Aboriginal and Torres Strait Islander Peoples subpopulations were 0.99 (0.98–0.99), 0.93 (0.92–0.94) and 0.92 (0.91–0.93), respectively. Similar findings were observed when validating P-cube using an external dataset [Scientific Registry of Transplant Recipient Registry (2006–2020)]. Six sub-categories of recipients with distinct risk factor profiles were identified. Some factors such as blood group compatibility were considered important across the entire transplant population. Other factors such as human leukocyte antigen (HLA)-DR mismatches were unique to older recipients. The P-cube model identifies allograft survival specific risk factors within a heterogenous population and offers personalized survival predictions in a diverse cohort.\n\nKidney transplantation confers significant survival and quality of life advantages compared with dialysis for patients with kidney failure [ 1 ]. Despite improvements in both short and longer-term allograft survivals in the last two decades, recipients’ survival and quality of life remain inferior compared to the general population, attributed mainly to the complications of immunosuppression including infections, metabolic diseases, and cancer [ 2 ]. Maintaining optimal patient and graft survival are therefore the key priorities for transplant recipients, caregivers, and health professionals. Personalized predictions for those at risk of adverse events such as acute rejection, infections, cancer, and allograft loss allow early identification and interventions to optimize clinical care [ 3 ]. The derived probabilities of these predictive factors offer unique opportunities for health professionals to target appropriate management options such as immunosuppression strategies at the time of and after transplantation.\n\nOver the past decade, several predictive factors for longer-term graft and patient outcomes have been identified as variables of importance using machine learning-based and traditional regression models [ 4 ]. However, prior studies have not accounted for the heterogeneity between subgroups within a transplant cohort [ 5 , 6 ]. Allograft outcomes are consequences of many pre- and post-transplant events, precipitated by numerous known and unknown factors over the lifespan of a transplant recipient, and may differ between patient characteristics such as age, ethnicity, sex and gender, and other social determinants of health. Knowledge of these factors will guide individualized treatment plans and clinical decision making. Using an established evaluation framework, combined with novel supervised and unsupervised data driven approaches, we first identified the important characteristics that differentiate between distinct recipient subgroups for graft survival predictions. We then developed predictive models for longer-term allograft outcomes within the individual clusters. Finally, we externally validated these models to determine the reliability of their performance characteristics.",
+  "source_label": "A Multi-Step Precision Pathway for Predicting Allograft Survival in Heterogeneous Cohorts of Kidney Transplant Recipients",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    3749
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "4c61b4471b7b4ee079e6107a84912d959697f91acf939df99cfbb50bfffa33bd"
+}

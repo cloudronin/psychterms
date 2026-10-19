@@ -1,0 +1,64 @@
+{
+  "id": "short-portable-mental-status-questionnaire",
+  "term": "Short Portable Mental Status Questionnaire",
+  "definition": "The Short Portable Mental Status Questionnaire is a brief questionnaire used to assess mental status and cognition. In the source, its score was used to classify cognitive impairment, with scores below 8 out of 10 counted as impaired.",
+  "field": "social",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc9955614"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc9955614",
+      "revision": "2023; DOI 10.1371/journal.pone.0281634; article XML SHA-256 dbf4771192d553d1edd9d761149aaf8cc6823ece939b6f77eb6c4435e995de5f",
+      "scope": "Source record 10.1371/journal.pone.0281634; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0281634"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f641a069c92910bc3389741ac5d13d47f9de6be55670fb586ff25d891f23d9ca",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "349d4ed3cf81418c813548992b0c7e34",
+    "request_hash": "6a8ba2807662e86df65d373497f3000d310b330b14881b3fe4db60040995876d",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "b9a4e064dec8392480f9dab036cd13b4dce6a1d9393e052af29abb93047a38f1",
+    "packet_hash": "f641a069c92910bc3389741ac5d13d47f9de6be55670fb586ff25d891f23d9ca"
+  },
+  "hash": "010a249b7903bddc65b093bf6fca8826725c4a452b8abd3aef2cfb66d26a92b9",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports only that SPMSQ scores below 8/10 were used to define cognitive impairment in this study; it does not support the broader claim that the questionnaire is used to assess mental status and cognition.",
+        "The definition adds general usage language that goes beyond the source excerpt and is not established as current consensus by the packet."
+      ],
+      "definition_hash": "b9a4e064dec8392480f9dab036cd13b4dce6a1d9393e052af29abb93047a38f1",
+      "packet_hash": "f641a069c92910bc3389741ac5d13d47f9de6be55670fb586ff25d891f23d9ca",
+      "published_packet_hash": "f641a069c92910bc3389741ac5d13d47f9de6be55670fb586ff25d891f23d9ca",
+      "receipt_id": "bb0afffcbcb7494cbfce585a67fca9a0",
+      "request_hash": "debd2a3d9dddd14537386840a08f539f83e1eebbd51fe79e94b752369e1a6737",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly state that the Short Portable Mental Status Questionnaire (SPMSQ) is a “brief questionnaire” (this description is unsupported by the provided text).",
+        "The packet does not explicitly describe the SPMSQ as being “used to assess mental status and cognition”; it only reports that an SPMSQ score was used to define “cognitive impairment.”",
+        "While the packet does support the threshold (“cognitive impairment was defined as a Short Portable Mental Status Questionnaire (SPMSQ) score <8 (/10)”), the definition’s additional wording goes beyond what is explicitly supported."
+      ],
+      "definition_hash": "b9a4e064dec8392480f9dab036cd13b4dce6a1d9393e052af29abb93047a38f1",
+      "packet_hash": "f641a069c92910bc3389741ac5d13d47f9de6be55670fb586ff25d891f23d9ca",
+      "published_packet_hash": "f641a069c92910bc3389741ac5d13d47f9de6be55670fb586ff25d891f23d9ca",
+      "receipt_id": "cd38b95cbfc3416f89bd83de97028d5a",
+      "request_hash": "cfb9a9f098f9a0a265640adea9a4e3222a98d8cca722727a13b2a553943989f2",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

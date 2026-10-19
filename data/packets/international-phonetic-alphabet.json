@@ -1,0 +1,26 @@
+{
+  "id": "international-phonetic-alphabet",
+  "term": "International Phonetic Alphabet",
+  "source": "article-pmc11333242",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fnhum.2024.1421435",
+  "revision": "2024; DOI 10.3389/fnhum.2024.1421435; article XML SHA-256 96a7799186131033cb469f1c3b5db1cff03dc0da5d59fad3103a8af9d8a4c812",
+  "source_snapshot_sha256": "96a7799186131033cb469f1c3b5db1cff03dc0da5d59fad3103a8af9d8a4c812",
+  "url": "https://doi.org/10.3389/fnhum.2024.1421435",
+  "text": "Neurolinguistic assessments play a vital role in neurological examinations, revealing a wide range of language and communication impairments associated with developmental disorders and acquired neurological conditions. Yet, a thorough neurolinguistic assessment is time-consuming and laborious and takes valuable resources from other tasks. To empower clinicians, healthcare providers, and researchers, we have developed Open Brain AI (OBAI). The aim of this computational platform is twofold. First, it aims to provide advanced AI tools to facilitate spoken and written language analysis, automate the analysis process, and reduce the workload associated with time-consuming tasks. The platform currently incorporates multilingual tools for English, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, and Swedish. The tools involve models for (i) audio transcription, (ii) automatic translation, (iii) grammar error correction, (iv) transcription to the International Phonetic Alphabet, (v) readability scoring, (vi) phonology, morphology, syntax, semantic measures (e.g., counts and proportions), and lexical measures. Second, it aims to support clinicians in conducting their research and automating everyday tasks with “OBAI Companion,” an AI language assistant that facilitates language processing, such as structuring, summarizing, and editing texts. OBAI also provides tools for automating spelling and phonology scoring. This paper reviews OBAI’s underlying architectures and applications and shows how OBAI can help professionals focus on higher-value activities, such as therapeutic interventions.\n\nIndividuals presenting with neurological and behavioral challenges frequently remain undiagnosed due to insufficient specialized knowledge among family members and educators, particularly in the early stages of conditions such as Mild Cognitive Impairment (MCI). This lack of awareness and potential hesitancy to seek neurological evaluation can result in delayed assessment and intervention, potentially impacting long-term outcomes. Thus, there is a need to provide quick and accessible screening for neurological conditions affecting language. Additionally, supporting clinicians through automated analysis may enhance the understanding of the nuances of language disorders, facilitate treatment planning, and enable tracking progress throughout treatment.\n\nOpen Brain AI (OBAI) 1 is a comprehensive computational platform that aims to support neurologists, clinicians, and researchers by providing flexible Artificial Intelligence (AI) language analysis solutions for spoken and written language. OBAI aims to facilitate clinicians and researchers in providing early screening processes and clinical feedback, offering significant advantages in neurocognitive research and clinical work. OBAI analyzes multimodal data, namely texts and sound recordings in several languages: English, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, and Swedish. Furthermore, the OBAI Companion, a large language model in OBAI, aims to ease the administrative burden on clinicians and researchers by providing writing assistance, such as feedback for improved clarity and precision, as well as generating draft documents and emails, saving valuable time and allowing clinicians to focus more on direct patient care.\n\nIn the following, we discuss how OBAI can be employed to analyze speech and language and identify language impairments associated with neurocognitive conditions. Specifically, we describe the modules for automatic transcription and translation, automatic scoring and quantification of speech productions, automatic assessment for language impairments (including grammatical error measurement), and language production measures. OBAI focuses on two primary user cases:\n\nClinical Centers: These healthcare facilities support a broad spectrum of patients, including those with neurological, psychiatric, and developmental conditions, by providing a computational Application Programming Interface (API), which follows the safety and data protection standards.",
+  "source_label": "Open Brain AI and language assessment",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "diagnosis",
+  "scope_decision": {
+    "eligible": true,
+    "field": "diagnosis",
+    "rule": "psychology-context:diagnosis",
+    "policy_version": 2
+  },
+  "packet_hash": "943a5d417a6f064a1ee98d135ba4d39ea6121b4e216c782048d8ee52caca5a02"
+}

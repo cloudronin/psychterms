@@ -1,0 +1,26 @@
+{
+  "id": "fixed-parameter",
+  "term": "fixed parameter",
+  "source": "article-pmc12097580",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0324448",
+  "revision": "2025; DOI 10.1371/journal.pone.0324448; article XML SHA-256 78827ba20823e1569b55f7e8291c35840342c9479aa0d50d5b85e5f0db7a2872",
+  "source_snapshot_sha256": "78827ba20823e1569b55f7e8291c35840342c9479aa0d50d5b85e5f0db7a2872",
+  "url": "https://doi.org/10.1371/journal.pone.0324448",
+  "text": "To address the fixed-parameter limitations of traditional PID control (e.g., excessive overshoot, prolonged settling time, poor adaptability to nonlinearities) and the insufficient real-time adjustment capability of conventional fuzzy PID control, which relies on empirically predefined rule bases, this study proposes a self-correcting fuzzy PID control strategy for agricultural water-fertilizer integrated systems. Traditional PID control, due to its static parameters, suffers from reduced stability and error accumulation under dynamic variations (e.g., irrigation flow fluctuations, environmental disturbances) or nonlinear interactions (e.g., coupling effects of fertilizer concentration and pH). While conventional fuzzy PID control incorporates fuzzy reasoning, its offline-designed rule bases and membership functions lack online adaptive parameter correction, leading to degraded precision in complex operating conditions. To tackle challenges posed by uncertain variables (e.g., time-varying soil permeability) and nonlinear parameters resistant to precise mathematical modeling, this research integrates fuzzy logic with an online self-correcting mechanism, constructs a mathematical model for the integrated control system, designs real-time correction rules, and validates the model through simulations using Matlab/Simulink and a semi-physical PC platform. The results demonstrate that the self-correcting fuzzy PID control significantly optimizes key performance metrics: overshoot (reduced by 21.3%), settling time (shortened by 34.7%), and steady-rate error (decreased by 18.9%), outperforming both traditional PID and fuzzy PID methods in concentration and pH regulation. Its parameter self-adaptation capability effectively balances dynamic response and steady-state performance, resolving issues such as overshoot oscillation and lagging regulation in nonlinear dynamics. In practical applications, the system achieved an average plant height growth rate of 15.86%-21.73% and a 30.41% yield improvement compared to the control group, validating the enhanced synergistic control of water and fertilizer enabled by the variable universe fuzzy PID approach. This study provides a robust control solution with theoretical innovation and practical value for managing complex nonlinear systems in precision agriculture.\n\nRecent advancements in computer technology have driven substantial progress in integrated water-fertilizer control systems for agricultural irrigation. The synergistic integration of mechanical, electrical, and agronomic irrigation technologies has broadened their applicability across diverse industrial sectors [ 1 – 3 ]. While precision agriculture adoption has increased in rural areas, contemporary water-fertilizer integration equipment continues to depend on simplistic closed-loop control mechanisms for nutrient solution preparation. Persistent limitations, such as suboptimal accuracy, extended response delays, and systemic instability, undermine water-fertilizer utilization efficiency, elevate production costs, and degrade product quality, collectively obstructing the sustainable advancement of modern facility-based agriculture in China.\n\nConventional control methodologies, including PID, PI, and fuzzy logic, remain predominant in nutrient solution preparation systems due to their structural simplicity, parameter adjustability, and operational robustness. However, their performance deteriorates when applied to nonlinear, time-varying, and hysteretic nutrient solution systems, manifesting as inadequate control precision, sluggish response, and reduced stability. Although extensive research efforts have refined PID controllers for agricultural irrigation systems, yielding rapid response times, high precision, and interference resilience [ 4 – 6 ], their widespread implementation in electromechanical industrial equipment does not fully address the inherent complexities of agricultural systems [ 7 – 9 ]. These systems exhibit nonlinear dynamics, parameter variability, load disturbances, and multi-objective control requirements, rendering conventional PID architectures suboptimal. Consequently, operational challenges such as",
+  "source_label": "Integrated irrigation of water and fertilizer with superior self-correcting fuzzy PID control system",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4192
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "cognition",
+  "scope_decision": {
+    "eligible": true,
+    "field": "cognition",
+    "rule": "psychology-context:cognition",
+    "policy_version": 2
+  },
+  "packet_hash": "e0c763f1b81b1cb4d7f964adcd5a7f7e2ef807f2d6aff9436abbfbcf7546213f"
+}

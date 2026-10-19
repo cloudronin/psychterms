@@ -1,0 +1,26 @@
+{
+  "id": "experimental-condition",
+  "term": "experimental condition",
+  "source": "article-pmc11573134",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0301111",
+  "revision": "2024; DOI 10.1371/journal.pone.0301111; article XML SHA-256 82a2723110909e88c1c42af5d9b99ebf5b8040c7a7c6503fd796ceaa356ba0e5",
+  "source_snapshot_sha256": "82a2723110909e88c1c42af5d9b99ebf5b8040c7a7c6503fd796ceaa356ba0e5",
+  "url": "https://doi.org/10.1371/journal.pone.0301111",
+  "text": "Peer review frequently follows a process where reviewers first provide initial reviews, authors respond to these reviews, then reviewers update their reviews based on the authors’ response. There is mixed evidence regarding whether this process is useful, including frequent anecdotal complaints that reviewers insufficiently update their scores. In this study, we aim to investigate whether reviewers anchor to their original scores when updating their reviews, which serves as a potential explanation for the lack of updates in reviewer scores.\n\nWe design a novel randomized controlled trial to test if reviewers exhibit anchoring. In the experimental condition, participants initially see a flawed version of a paper that is corrected after they submit their initial review, while in the control condition, participants only see the correct version. We take various measures to ensure that in the absence of anchoring, reviewers in the experimental group should revise their scores to be identically distributed to the scores from the control group. Furthermore, we construct the reviewed paper to maximize the difference between the flawed and corrected versions, and employ deception to hide the true experiment purpose.\n\nOur randomized controlled trial consists of 108 researchers as participants. First, we find that our intervention was successful at creating a difference in perceived paper quality between the flawed and corrected versions: Using a permutation test with the Mann-Whitney U statistic, we find that the experimental group’s initial scores are lower than the control group’s scores in both the Evaluation category (Vargha-Delaney A = 0.64, p = 0.0096) and Overall score ( A = 0.59, p = 0.058). Next, we test for anchoring by comparing the experimental group’s revised scores with the control group’s scores. We find no significant evidence of anchoring in either the Overall ( A = 0.50, p = 0.61) or Evaluation category ( A = 0.49, p = 0.61). The Mann-Whitney U represents the number of individual pairwise comparisons across groups in which the value from the specified group is stochastically greater, while the Vargha-Delaney A is the normalized version in [0, 1].\n\nPeer review is the primary method for systematically evaluating scientific research. Many peer-review processes involve reviewers submitting an initial review, following which they may be presented with additional information. This additional information frequently takes the form of a response from the authors. The reviewers are then requested to read the response and adapt their stated opinions and evaluations accordingly. In this work, we put this potential change under the microscope, investigating whether reviewers anchor to their original opinions. For concreteness, we instantiate our study in the setting of conference peer review, a large human-centric system that has been widely adopted in computer science academia. (In computer science, leading conferences are typically rated at least on par with leading journals, with full paper submissions, competitive acceptance rates from 15–25%, and are often terminal venues for publication.) Across conference peer review, the author response mechanism is termed the “rebuttal stage”, placed between the initial reviews and final review score decisions and are an opportunity for the author(s) to provide additional information or arguments in response to the initial reviews. (Depending on the specific review setting, there may also be alternative forms of information made available to the reviewer, such as the evaluations of other reviewers. In this work, we focus on author rebuttals due to its widespread use and frequently-raised questions about its efficacy.) In computer science conferences, rebuttal stages are a widely adopted practice, with a large number of recent conferences having instituted such periods [ 1 , 2 ].\n\nOne potential explanation behind the limited effect of the rebuttal stage on overall acceptances is that, due to anchoring , reviewers are simply not changing their scores as much as they should. Anchoring [ 9 ] is formally defined as the bias where people who make an estimate by starting from an initial value",
+  "source_label": "Testing for reviewer anchoring in peer review: A randomized controlled trial",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "development",
+  "scope_decision": {
+    "eligible": true,
+    "field": "development",
+    "rule": "psychology-context:development",
+    "policy_version": 2
+  },
+  "packet_hash": "242fafd1d2569673bf0e8e8f8055b991efeb8bbeac585cbdc53371056802f9e1"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "feature-indicator",
+  "term": "feature indicator",
+  "source": "article-pmc12124544",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0324524",
+  "revision": "2025; DOI 10.1371/journal.pone.0324524; article XML SHA-256 9882448c5946b043b2923a2bca769626a40b1f6da9f69064d840ff9005a90b47",
+  "source_snapshot_sha256": "9882448c5946b043b2923a2bca769626a40b1f6da9f69064d840ff9005a90b47",
+  "url": "https://doi.org/10.1371/journal.pone.0324524",
+  "text": "Ensuring transmission line safety is crucial. Detecting insulator defects is a key task. UAV-based insulator detection faces challenges: complex backgrounds, scale variations, and high computational costs. To address these, we propose FIAEPI-KD, a knowledge distillation framework integrating Feature Indicator Attention (FIA) and Edge Preservation Index (EPI). The method employs ResNet and FPN for multi-scale feature extraction. The FIA module dynamically focuses on multi-scale insulator edges via dual-path attention mechanisms, suppressing background interference. The EPI module quantifies edge differences between teacher and student models through gradient-aware distillation. The training objective combines Euclidean distance, KL divergence, and FIA-EPI losses to align feature-space similarities and edge details, enabling multi-level knowledge distillation. Experiments demonstrate significant improvements on our custom dataset containing farmland and waterbody scenarios. The RetinaNet-ResNet18 student model achieves a 10.5% mAP improvement, rising from 42.7% to 53.2%. Meanwhile, the Faster R-CNN-ResNet18 model achieves a 7.4% mAP improvement, rising from 42.7% to 50.1%. Additionally, the RepPoints-ResNet18 model achieves a 7.7% mAP improvement, rising from 49.6% to 57.3%. These results validate the effectiveness of FIAEPI-KD in enhancing detection accuracy across diverse detector architectures and backbone networks. On the MSCOCO dataset, FIAEPI-KD outperformed mainstream distillation methods like FKD and PKD. Ablation studies confirmed FIA’s role in feature focus and EPI’s edge difference quantification. Using FIA alone increased RetinaNet-ResNet50’s mAP by 0.9%. Combined FIA+EPI achieved a total 3.0% improvement, the method utilizes a lightweight student model for efficient deployment, providing an effective solution for detecting insulation defects in transmission lines.\n\nIn modern power transmission systems, transmission lines are crucial for power delivery. Their stable operation is essential for the smooth functioning of social production and daily life. Power accident statistics show that transmission line faults, like insulator absence, caused over 200 large-scale power outages in the past five years. These outages resulted in direct economic losses of hundreds of millions of yuan. Insulators are core components of transmission lines. They support and insulate the lines, which is vital for their electrical and mechanical stability. If insulator absence occurs, the risk of short-circuits, leakage, and other accidents increases significantly. This leads to large-scale power outages, which affect industrial production and residents’ lives. It may also cause serious safety incidents, resulting in huge economic losses and social impacts. Therefore, detecting insulator absence accurately and efficiently has become an urgent need for the power industry to ensure transmission safety [ 1 ].\n\nIn recent years, inspection technology using Unmanned Aerial Vehicles (UAVs) has been widely used to detect insulators on transmission lines. UAVs are flexible and efficient. They can quickly capture image data of transmission lines, improving detection efficiency. However, as shown in Fig 1 , the images captured by UAVs have several problems. The backgrounds are complex, with interference from trees and buildings [ 2 ]. This affects the performance of object-detection models and reduces accuracy. The scale of insulators also varies greatly in the images due to differences in shooting angles and distances. This makes detection more difficult. Additionally, deep-learning-based object-detection models have advantages in accuracy. However, they require large amounts of computing resources and storage space. They also have high hardware requirements, making them unsuitable for real-time deployment in resource-constrained environments.\n\nThe red box in the figure indicates the location of the missing insulator, which is used to highlight the target to be detected.\n\nCurrently, methods for detecting insulators on transmission lines can be divided into traditional image-processing-based methods and deep-learning-based methods [ 3 ].",
+  "source_label": "FIAEPI-KD: A novel knowledge distillation approach for precise detection of missing insulators in transmission lines",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4188
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "e3b4aac37e63c0d9cdb7aa0e1b0a7b0f4fc0ca518a433704b28e36cbb985d624"
+}

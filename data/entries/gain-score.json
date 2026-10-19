@@ -1,0 +1,63 @@
+{
+  "id": "gain-score",
+  "term": "gain score",
+  "definition": "A gain score is a measure of how much a person’s score changes over time, such as from before to after an intervention. In this context, gain score analyses were used to compare how much improvement differed between groups.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13345853"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13345853",
+      "revision": "2026; DOI 10.3389/fpsyg.2026.1874167; article XML SHA-256 51c24c141f1c1c25ed377269b7b427deee5bdd5e608513c656d806be119bc474",
+      "scope": "Source record 10.3389/fpsyg.2026.1874167; pinned source text",
+      "locator": "https://doi.org/10.3389/fpsyg.2026.1874167"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fd912b8f05e249a77f31c2dfdaf1153c506c73b9d64fd9487745b0395d216855",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "30156634d1354aecb1c07867f908f22d",
+    "request_hash": "092e345a30ec645cdbb62e9494a4975ac37025207960706569a16788c717231a",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "8e59b2f033ccfeef9109c0e8c3b9177509eb6c764b7b3b2eee29b14173a7cc7e",
+    "packet_hash": "fd912b8f05e249a77f31c2dfdaf1153c506c73b9d64fd9487745b0395d216855"
+  },
+  "hash": "ca8a71d32fcc065e33da6422a4b165eb635e321da134c7f0d103c6c01b4ec980",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet states that “Gain score analyses” showed differences between the groups, but it does not define what a “gain score” is (e.g., that it measures how much a person’s score changes over time from before to after).",
+        "Because the definition’s explanation of gain scores as a change-over-time measure is not explicitly supported by the provided packet, the definition contains an unsupported substantive claim."
+      ],
+      "definition_hash": "8e59b2f033ccfeef9109c0e8c3b9177509eb6c764b7b3b2eee29b14173a7cc7e",
+      "packet_hash": "fd912b8f05e249a77f31c2dfdaf1153c506c73b9d64fd9487745b0395d216855",
+      "published_packet_hash": "fd912b8f05e249a77f31c2dfdaf1153c506c73b9d64fd9487745b0395d216855",
+      "receipt_id": "a6dfe0f3b15040d9b2f1e819a2c21800",
+      "request_hash": "518d684040786f03f96771e9d8e2ba3ffc4cf0a3bb69bd4d868128ff49255685",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet only shows that ‘gain score analyses’ were used to test between-group improvement differences; it does not define a gain score as a general measure of change over time or as a before/after score difference.",
+        "The phrasing ‘in this context’ and the implied explanation of how gain scores work go beyond the packet’s evidence and add unsupported generalization."
+      ],
+      "definition_hash": "8e59b2f033ccfeef9109c0e8c3b9177509eb6c764b7b3b2eee29b14173a7cc7e",
+      "packet_hash": "fd912b8f05e249a77f31c2dfdaf1153c506c73b9d64fd9487745b0395d216855",
+      "published_packet_hash": "fd912b8f05e249a77f31c2dfdaf1153c506c73b9d64fd9487745b0395d216855",
+      "receipt_id": "c6e597323ecc4fbcb9d22f3da7560e7b",
+      "request_hash": "a1f8c8b0f6ed32266b39d6e4403270df302e34330895dd8c81ed410f2b22a684",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

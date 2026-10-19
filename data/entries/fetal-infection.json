@@ -1,0 +1,65 @@
+{
+  "id": "fetal-infection",
+  "term": "fetal infection",
+  "definition": "Fetal infection is an infection that occurs in the developing fetus before birth. In the supplied source, fetal infection refers specifically to human cytomegalovirus reaching the fetus during pregnancy, which can contribute to later developmental problems such as hearing, balance, cognitive, and motor difficulties.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11957294"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11957294",
+      "revision": "2025; DOI 10.1371/journal.pone.0320605; article XML SHA-256 6b4d736e0996561bdc459ec96dc8d3a8d30538d1e5dffea05d13fd12fad6cb9c",
+      "scope": "Source record 10.1371/journal.pone.0320605; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0320605"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e5d39afb780040bf40487908452409f05f6cf3779a6e55085313d9dae62e93f3",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cd39b62f889d4251b74d5caa1b67b4ee",
+    "request_hash": "6c4e4918ba8baa5fe5db51958a3ae3f3e683b70183b98ec7b2a1268ce3526e54",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "56166b5327160010ceb11f85ff77d1d7617f5949ad620b8eda61f98b0306b777",
+    "packet_hash": "e5d39afb780040bf40487908452409f05f6cf3779a6e55085313d9dae62e93f3"
+  },
+  "hash": "a8ca0eb91a58326c5e1beda2f1ddc183c84747af29b7631f228e25cd71fa3338",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s first sentence (“Fetal infection is an infection that occurs in the developing fetus before birth”) is not stated or defined in the supplied packet text, so the core meaning is unsupported.",
+        "The definition asserts that, in the supplied source, fetal infection refers specifically to human cytomegalovirus reaching the fetus during pregnancy; while the packet discusses fetal/ congenital hCMV infection, it does not explicitly equate the general phrase “fetal infection” with “human cytomegalovirus reaching the fetus during pregnancy” as a direct definitional mapping.",
+        "The definition’s listed later developmental problems (hearing, balance, cognitive, and motor difficulties) are only partially supported: the packet mentions sensorineural hearing loss, vestibular impairment, and cognitive/motor developmental delay, but it does not support this exact set as the specific consequences “such as” in a definitional sense."
+      ],
+      "definition_hash": "56166b5327160010ceb11f85ff77d1d7617f5949ad620b8eda61f98b0306b777",
+      "packet_hash": "e5d39afb780040bf40487908452409f05f6cf3779a6e55085313d9dae62e93f3",
+      "published_packet_hash": "e5d39afb780040bf40487908452409f05f6cf3779a6e55085313d9dae62e93f3",
+      "receipt_id": "12487473ec274f4e9647bfe46292d7c4",
+      "request_hash": "f29a6622fb2fe8e563b191b136934fc9f205017f332d5abbbf626a234534ecfb",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a specific sense of fetal infection as congenital human cytomegalovirus (hCMV) infection, not a general definition of any infection occurring in the fetus before birth.",
+        "The opening sentence generalizes beyond the source packet; the packet does not define fetal infection in general terms.",
+        "The source supports hearing loss, vestibular impairment, and cognitive/motor developmental delay, but it does not specifically state the broader phrase “balance, cognitive, and motor difficulties” as a general description of fetal infection."
+      ],
+      "definition_hash": "56166b5327160010ceb11f85ff77d1d7617f5949ad620b8eda61f98b0306b777",
+      "packet_hash": "e5d39afb780040bf40487908452409f05f6cf3779a6e55085313d9dae62e93f3",
+      "published_packet_hash": "e5d39afb780040bf40487908452409f05f6cf3779a6e55085313d9dae62e93f3",
+      "receipt_id": "7f611e520d5c47348cf7d68606e8f983",
+      "request_hash": "13430e6c035f3f4ab19ed9c3c903aa46cc6ea6dab5fdccfc24098bbe07d88170",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

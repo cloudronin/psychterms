@@ -1,0 +1,26 @@
+{
+  "id": "formal-thought-disorder",
+  "term": "formal thought disorder",
+  "source": "article-pmc11955656",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyt.2025.1550571",
+  "revision": "2025; DOI 10.3389/fpsyt.2025.1550571; article XML SHA-256 05507393c510adf5d9cb7c8f23d52a78a5828657dde74c1642cba103482bf46b",
+  "source_snapshot_sha256": "05507393c510adf5d9cb7c8f23d52a78a5828657dde74c1642cba103482bf46b",
+  "url": "https://doi.org/10.3389/fpsyt.2025.1550571",
+  "text": "Formal Thought Disorder (FTD) is a significant clinical feature of early-onset psychosis, often associated with poorer outcomes. Current diagnostic methods rely on clinical assessment, which can be subjective and time-consuming. This study aimed to investigate the potential of neuropsychological tests and machine learning to differentiate individuals with and without FTD.\n\nA cohort of 27 young people with early-onset psychosis was included. Participants underwent neuropsychological assessment using the Iowa Gambling Task (IGT) and Simple Reaction Time (SRT) tasks. A range of machine learning models (Logistic Regression (LR), Support Vector Machines (SVM), Random Forest (RF) and eXtreme Gradient Boosting (XGBoost)) were employed to classify participants into FTD-positive and FTD-negative groups based on these neuropsychological measures and their antipsychotic regimen (medication load in chlorpromazine equivalents).\n\nThe best performing machine learning model was LR with mean +/- standard deviation of cross validation Receiver Operating Characteristic Area Under Curve (ROC AUC) score of 0.850 (+/- 0.133), indicating moderate-to-good discriminatory performance. Key features contributing to the model’s accuracy included IGT card selections, SRT reaction time (most notably standard deviation) and chlorpromazine equivalent milligrams. The model correctly classified 24 out of 27 participants.\n\nThis study demonstrates the feasibility of using neuropsychological tests and machine learning to identify FTD in early-onset psychosis. Early identification of FTD may facilitate targeted interventions and improve clinical outcomes. Further research is needed to validate these findings in larger, more diverse populations and to explore the underlying neurocognitive mechanisms.\n\nFormal Thought Disorders (FTDs) comprise a range of complex psychiatric phenomena characterized by a disruption in the form (as opposed to the content) of thought processes ( 1 ). This distinguishes them from delusions, which are predominantly content based ( 2 ). Clinical examination of FTDs focus on the analysis of time-related parameters as well as qualitative (logical) structure of thoughts’ stream ( 3 ). Due to a broad spectrum of neuropathological changes affecting cognitive, linguistic, and emotional domains, FTDs can significantly impair a patient’s ability to communicate. This, in turn, compromises their quality of life and restricts social and occupational participation. The presence of FTDs is also a poor prognostic factor, heralding a limited response to therapeutics and a decreased rate of remission. FTDs are more prevalent in early-onset schizophrenia (54.5%) as compared to a late-onset schizophrenia (5.6%) and can even precede overt psychotic symptoms ( 4 ). Early-onset schizophrenia (EOS) spectrum is defined as the onset of psychotic symptoms below the 18 years of life ( early-onset) , as well as below the 13 life year ( very-early onset , VEOS). EOS populations links with different clinical picture, including: autism-spectrum features, psychoactive substances misuse, longer duration of untreated psychosis (DUP) and poorer prognosis. Thus, a timely and accurate identification of FTDs holds a significant value in child and adolescent psychiatric practice.\n\nQuantifying formal thought disorders usually involves clinical assessment using standardized psychometric scales. Many such scales have been proposed. The most commonly used are the Thought Disorder Index (TDI) ( 5 ) and the Bizarre – Idiosyncratic Thinking scale ( 6 ). These are adequately reliable and feature a valid scoring system but tend to be time consuming. The well-established Thought, Language and Communication scale (TLC) ( 7 ) concisely encapsulates many aspects of thought disorders but does not include all of the FTD symptoms. This means that it may miss more subtle and early manifestations of FTD in children. The Thought and Language index (TLI) ( 8 ), while capable of detecting subtle disorders, fails to capture the more nuanced subjective elements, and its coding of verbal transcripts tends to be time-consuming as well. The Clinical language (CLANG) ( 9 ) scale investigates thought,",
+  "source_label": "Detection of formal thought disorders in child and adolescent psychosis using machine learning and neuropsychometric data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "assessment",
+  "scope_decision": {
+    "eligible": true,
+    "field": "assessment",
+    "rule": "psychology-context:assessment",
+    "policy_version": 2
+  },
+  "packet_hash": "0f8c18258059d9501a7c00ae4a150edc5746a1ff89b30f56b9a10531fe318d45"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "complete-case-analysis",
+  "term": "complete-case analysis",
+  "definition": "Complete-case analysis is an approach to missing outcome data that uses only participants with complete information and leaves out those with missing values. In the source, it is presented as a common comparison method that can give biased results when missingness is linked to unobserved factors affecting the outcome.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc6902545"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc6902545",
+      "revision": "2019; DOI 10.1186/s12874-019-0840-7; article XML SHA-256 63e0dd721c30077b7aad7e593bedf2242d586ef4e67771eb6e175804a7ceea1b",
+      "scope": "Source record 10.1186/s12874-019-0840-7; pinned source text",
+      "locator": "https://doi.org/10.1186/s12874-019-0840-7"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "8cf4ac1c5af34093add4b2462372fb9d",
+    "request_hash": "75a5bc5d82c3ed0517bd95f1a8534c905b459bac0e35f1fd8914ebeb9b5280ca",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "087cd95b81af704a01f1c19e3eb516b42b1c5bff549abbea6204f29c96b5320e",
+    "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a"
+  },
+  "hash": "6d71de63610cd1c7113332eefbc3cbd7e6092a591e2cce420cda9ccf87965b2b",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "087cd95b81af704a01f1c19e3eb516b42b1c5bff549abbea6204f29c96b5320e",
+      "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a",
+      "published_packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a",
+      "receipt_id": "74719c6fff20470698c46fed1f0b2df4",
+      "request_hash": "91902cac7f3bf327e8bd618c150434c1669a690084eb022c1623cb28e711d1d4",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the supplied packet discusses missing health outcome data and Heckman-style selection models in low-income settings (e.g., birth weight/biomarkers/clinical assessments), not cognition."
+      ],
+      "definition_hash": "087cd95b81af704a01f1c19e3eb516b42b1c5bff549abbea6204f29c96b5320e",
+      "packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a",
+      "published_packet_hash": "aedb8ad03315707cb573679d5ccba42e56f324ad1d098a82d3552241a786d60a",
+      "receipt_id": "f2b4e2af9534468cbd7661ffe54fc55e",
+      "request_hash": "47e035d8217953d41f8ce1bf3fdbd2d5740d2895e75f10d5b8a2f62ddcb0ab0a",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

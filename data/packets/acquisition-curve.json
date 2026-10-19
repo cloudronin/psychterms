@@ -1,0 +1,26 @@
+{
+  "id": "acquisition-curve",
+  "term": "acquisition curve",
+  "source": "article-pmc13550153",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.3389/fpsyg.2026.1905847",
+  "revision": "2026; DOI 10.3389/fpsyg.2026.1905847; article XML SHA-256 aebd978c45cf4d18720a4e051a0f3e2d995dae6d0d4e2e8c86374e2d793e88ae",
+  "source_snapshot_sha256": "aebd978c45cf4d18720a4e051a0f3e2d995dae6d0d4e2e8c86374e2d793e88ae",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1905847",
+  "text": "School-based music education in China constitutes one of the largest deployments of vocal training in the world, yet the skill-acquisition trajectories of learners in such settings, as reflected in note-level singing accuracy, have rarely been quantified at scale. Drawing on a corpus of 2,432 student–song practice sequences contributed by 1,074 distinct Chinese learners and 2,458,825 pitched note attempts derived from the publicly released singKT dataset, this study investigates how note-level correctness evolves with practice repetition, varies across vocal registers, and reflects latent learner ability. Three modeling families were compared on an 80/20 within-sequence holdout: a global mean baseline, a per-pitch baseline, a one-parameter logistic Item Response Theory (IRT) model, and a per-pitch Bayesian Knowledge Tracing (BKT) model. The analysis revealed a clear skill-acquisition curve in which mean correctness rose from 0.656 on first practice to 0.727 by the thirtieth repetition, a register effect by which low pitches were sung more accurately than high pitches (0.749 versus 0.703), and a wide spread of latent ability (theta from –3.79 to 3.36 logits). The IRT model attained an AUC of 0.673 and the BKT model an accuracy of 0.752 on held-out attempts, both exceeding the baselines by margins whose bootstrap 95% confidence intervals excluded zero, although the absolute gains were modest. Because the analysis is observational, the findings are advanced as evidence-informed hypotheses for register-graded curriculum design, repetition-rich practice scheduling and per-learner adaptive feedback that require confirmation in controlled classroom studies, and they offer a benchmark against which future deep knowledge tracing models for vocal skill may be evaluated.\n\nKeywords: Bayesian knowledge tracing, Chinese classrooms, cognitive trajectories, item response theory, knowledge tracing, learning analytics, music education, singing\n\nMusic education plays a central role in the affective, cognitive and social development of school-aged children, and large-scale empirical investigations of how children acquire musical skills have become increasingly feasible due to the digitization of classroom assessment platforms ( Shen et al., 2024 ; Zhu et al., 2024 ). In China, school-based music curricula reach more than one hundred million students annually, and a growing fraction of those students now interact with computer-assisted singing platforms that record fine-grained behavioral traces of pitch matching and rhythm execution ( Chung and Ho, 2022 ; Zhu et al., 2024 ). The availability of such traces has invited the application of knowledge tracing techniques originally developed for textual subjects such as mathematics and reading to the substantially different domain of vocal performance, where the unit of practice is a sung note rather than a multiple-choice item ( Zhang et al., 2024 ).\n\nDespite the methodological progress evident in recent surveys ( Abdelrahman et al., 2023 ; Shen et al., 2024 ; Song et al., 2022 ), the empirical record of how singing skill develops trial-by-trial in real classrooms remains comparatively thin: prior work has established algorithmic benchmarks and small-sample developmental findings, but has rarely combined a large classroom corpus with interpretable student modeling. Existing reports of knowledge tracing in music tend to either privilege algorithmic novelty over behavioral insight ( Du and Butkaew, 2025 ; Wang et al., 2023 ; Yin and Guo, 2025 ), or are limited to small samples that cannot speak to population-level trajectories ( Ilari and Cho, 2023 ; Pfordresher, 2022 ). The present study addresses this gap by analyzing the openly released singKT dataset ( Zhang et al., 2024 ), a large corpus of singing interactions collected from Chinese primary and middle schools, with the goal of characterizing skill-acquisition trajectories, operationalized through note-level correctness as a behavioral proxy rather than through direct measures of memory or attention, and benchmarking interpretable models on these trajectories.\n\nThree research questions guided the investigation. First, how does the probability",
+  "source_label": "Cognitive and skill acquisition trajectories in school-based music education: evidence from Chinese classrooms",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4198
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "d6743af417d1fb8d26993d1a6bce1d3c1269e93e26174ce09e558f413913c9e2"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "accommodation-time",
+  "term": "accommodation time",
+  "definition": "Accommodation time is a short settling-in period allowed before observation begins so behavior can be measured after initial disturbance from handling or a change in conditions has passed. In this source, it refers to a 5-minute period before the zebrafish movement test.",
+  "field": "ethics",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10381053"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10381053",
+      "revision": "2023; DOI 10.1371/journal.pone.0288904; article XML SHA-256 c64bc14a1e4ba57a3365b082169b2cf122abe9ae20fa2ac05642b3dd65017fc1",
+      "scope": "Source record 10.1371/journal.pone.0288904; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0288904"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "38cda892d455f91136b44038b75d61c985bf107cde038a49295a4906b95ed0d7",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "d052298d40f24592abeee09bcc7bb78e",
+    "request_hash": "8f223e0933af719b1e8540a6a731dacb5efda3c8b8c3898b4dda8d8559f6cc63",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "81c048c8e89cb025595d92d10cb9f78835e0f9f2c2abb184be2d64f1334f224f",
+    "packet_hash": "38cda892d455f91136b44038b75d61c985bf107cde038a49295a4906b95ed0d7"
+  },
+  "hash": "a5f9945a3997189afe13715c77833fe8dc7363e729adae5d10c5aefcca9b7f90",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “accommodation time” as a settling-in period or explain that it is intended to allow disturbance from handling or condition changes to pass before observation. It only mentions “a 5-minute accommodation time” in the context of recommended experimental timing."
+      ],
+      "definition_hash": "81c048c8e89cb025595d92d10cb9f78835e0f9f2c2abb184be2d64f1334f224f",
+      "packet_hash": "38cda892d455f91136b44038b75d61c985bf107cde038a49295a4906b95ed0d7",
+      "published_packet_hash": "38cda892d455f91136b44038b75d61c985bf107cde038a49295a4906b95ed0d7",
+      "receipt_id": "c8cb4c8ef2294a68b2fdf666ae7996f9",
+      "request_hash": "693ecfb68af244616f0745486f87a6dd030087c12fa731b7a627bf2856c27e42",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The requested field is not supported by the packet: this source uses “accommodation time” in an experimental zebrafish movement test, not in an ethics/counselling sense.",
+        "The definition adds an explanatory generalization about settling in after handling or condition changes that is not stated in the source; the packet only supports a 5-minute accommodation time before the test."
+      ],
+      "definition_hash": "81c048c8e89cb025595d92d10cb9f78835e0f9f2c2abb184be2d64f1334f224f",
+      "packet_hash": "38cda892d455f91136b44038b75d61c985bf107cde038a49295a4906b95ed0d7",
+      "published_packet_hash": "38cda892d455f91136b44038b75d61c985bf107cde038a49295a4906b95ed0d7",
+      "receipt_id": "4e91a6158f9a4df1a62ed2a001d2d551",
+      "request_hash": "1f855238bcdfa35e37b571c24eb441577fd8344adff3fd34e229752b8e696de9",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lightdark-cycle",
+  "term": "light–dark cycle",
+  "source": "article-pmc11548743",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0307794",
+  "revision": "2024; DOI 10.1371/journal.pone.0307794; article XML SHA-256 fee41be94a4b2f65a1bcdf1a5b204d89ce806fb02a06c077553358dc814599fa",
+  "source_snapshot_sha256": "fee41be94a4b2f65a1bcdf1a5b204d89ce806fb02a06c077553358dc814599fa",
+  "url": "https://doi.org/10.1371/journal.pone.0307794",
+  "text": "movement in space and time. DeepLabCut data were subjected to the Simple Behavioral Analysis (SimBA) toolkit to build models of 11 distinct social and non-social behaviors. DeepSqueak toolkit was used to examine USVs. Deep learning algorithms revealed lights-off-induced increases in fighting, mounting, crawling, and rearing behaviors, as well as 22-kHz alarm calls and 50-kHz flat and short, but not frequency-modulated calls. In contrast, the lights-on stimulus increased general activity, adjacent lying (huddling), anogenital sniffing, and rearing behaviors. The animals adapted to the housing conditions by showing decreased ultrasonic calls as well as grooming and rearing behaviors, but not fighting. The present study shows a lights-off-induced increase in aggressive behavior but fails to demonstrate an increase in a positive affect defined by hedonic USVs. We further confirm and extend the utility of deep learning algorithms in analyzing rat social behavior and ultrasonic vocalizations.\n\nEvery researcher who has ever entered the animal room in the evening has noted a rapid increase of rats’ activity. Wild rats are nocturnal or crepuscular, and most of their activities occur under low-light conditions [ 1 , 2 ]. The laboratory rats retain this propensity [ 2 , 3 ]. This observation has several consequences. For instance, it implies the necessity of mimicking the natural light-dark cycle in the animal facilities and the importance of studying rats’ behavior during their active (dark) phase. As rats exhibit the positive and negative affect, expressed as the 50-kHz “happy” and 22-kHz “alarm” ultrasonic calls, respectively (see [ 4 ] for the recent review), it is also likely that the “positive” affect is more intense at the active (dark) than at the resting (light) phase. In this respect, Burgdorf et al., [ 5 ] reported that the lights-off is a strong signal for the induction of locomotor activity and prosocial behavior resulting in hedonic 50-kHz ultrasonic vocalizations (USVs) [ 5 ].\n\nThe rapid decrease of light intensity, signaling the active rats’ phase, appears as a perfect natural phenomenon for studying motivation because as the animals wake up, they begin their social and other activities. Here, we attempted to measure rats’ general activity, social behavior, and USVs using objective and state-of-the-art digital techniques to determine whether these methods can capture and further elucidate the nature of darkness-induced activity in semi-natural conditions.\n\nTo this aim, we have built 6 custom sound-attenuated boxes equipped with the lickometers monitoring head entries into the water supply, infrared (IR) sensitive cameras registering social activities, and microphones recording animals’ ultrasonic calls. The boxes were also equipped with electric fans supplying fresh air, white lights controlled by an ON-OFF clock, and IR LEDs providing conditions necessary for video recording in total darkness.\n\nThis setup was designed to precisely, automatically and objectively monitor rats’ activity during the two “twilight” periods, i.e., when the lights were rapidly turned on and off during the daily light/dark cycle. Prompted by Burgdorf et al., [ 5 ] research, we expected a high intensity of prosocial activity and positive affect at the beginning of the dark phase. Studying these phenomena at the end of the dark phase was regarded as a control condition.\n\nRat’s social life [ 6 ] is extremely complex [ 1 , 7 , 8 ]. Thus far, rodent social behaviors and ultrasonic vocalizations have been classified by trained observers who scored them either during the tests or off-line by watching the video tapes or computerized videos and manually analyzing and classifying USVs on a computer screen (see our recent paper by Popik et al., [ 9 ] for more details). Such an approach, however, is extremely time-consuming and prone to subjective bias.\n\nRecent advances in computer vision and deep learning-based toolkits enabled almost semi-automatic video analysis of rodent social behavior [ 10 ]. Specifically, behavioral analyses offered by the open-source DeepLabCut https://github.com/DeepLabCut marker-less pose-estimation toolkit [ 11 – 13 ]",
+  "source_label": "Deep learning algorithms reveal increased social activity in rats at the onset of the dark phase of the light/dark cycle",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    703,
+    4894
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "c228a86be49090e4ea3c1ca1ad26b63bcc0c18a0d8ff25bec7b6e056b5ea8978"
+}

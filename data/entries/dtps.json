@@ -1,0 +1,64 @@
+{
+  "id": "dtps",
+  "term": "DTPS",
+  "definition": "DTPS stands for drug-tolerant persisters: cells that temporarily survive a drug treatment by evading its effects without permanent genetic resistance. In cancer, they can act as a surviving reservoir that later contributes to lasting treatment resistance.",
+  "field": "mental health",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc12469175"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc12469175",
+      "revision": "2025; DOI 10.1371/journal.pcbi.1013446; article XML SHA-256 0c9d7a2b712e65969cd4d6fd08cfed00277be56a55f2007b346840e83c3f96e7",
+      "scope": "Source record 10.1371/journal.pcbi.1013446; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pcbi.1013446"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "20e6ca1d6f0b4781902e76ebd7ad4b4f",
+    "request_hash": "41ae4b4dc411208b6d2eeadb5cd73a23203e2747e21b4e54152b5005510f274a",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "8825646822b29b79a03e355902f05a7639ec471484d26e385083c0471ea8e033",
+    "packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11"
+  },
+  "hash": "a3fb1166c15410fcc2fd70e36e5a0db46e69ead6419dce956c0543b964ed16f2",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports drug-tolerant persisters/DTPs in cancer research, not a mental health or counselling term, so the requested field is not defensible from the source.",
+        "The source uses DTPs (drug-tolerant persisters), not DTPS as a defined acronym, so the exact term/sense is not fully supported."
+      ],
+      "definition_hash": "8825646822b29b79a03e355902f05a7639ec471484d26e385083c0471ea8e033",
+      "packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11",
+      "published_packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11",
+      "receipt_id": "347b2dece3f04b89aadc34a92fa592ad",
+      "request_hash": "efee3f557f4b4dce6a39351c887a027c74a046954ada2b8c878b433afad051c5",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The provided definition claims “DTPS” stands for “drug-tolerant persisters,” but the packet consistently uses “DTPs” (drug-tolerant persisters) rather than “DTPS,” so the specific acronym “DTPS” is not supported.",
+        "The definition frames the term in “cancer” and describes cancer-cell drug resistance mechanisms; this is not clearly within the requested field of “mental health,” and no mental-health context is provided in the packet.",
+        "The definition asserts that cells “temporarily survive a drug treatment” by “evading its effects without permanent genetic resistance”; while the packet describes DTPs as “temporarily survive drug treatment” and notes they can provide “a reservoir for future genetic changes driving permanent resistance,” it does not explicitly support the phrasing that they do so specifically “without permanent genetic resistance.”"
+      ],
+      "definition_hash": "8825646822b29b79a03e355902f05a7639ec471484d26e385083c0471ea8e033",
+      "packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11",
+      "published_packet_hash": "1d825c5fc4a3409dd1964caefcbd7a26fd860b25142fb92b1a5b458e9354bf11",
+      "receipt_id": "9d4ed66390ce4eb48373ec2ef78d3e31",
+      "request_hash": "d409601260e021cc81aff9868f5db32fcd5de3eec830ed435977444af66269a3",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

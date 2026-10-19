@@ -1,0 +1,26 @@
+{
+  "id": "cox-regression-analysis",
+  "term": "Cox regression analysis",
+  "source": "article-pmc12585065",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0335788",
+  "revision": "2025; DOI 10.1371/journal.pone.0335788; article XML SHA-256 b27d1c9c100163a54b2156a321c0f164f04d2fa1eca1b26cf7cb98a700491aaf",
+  "source_snapshot_sha256": "b27d1c9c100163a54b2156a321c0f164f04d2fa1eca1b26cf7cb98a700491aaf",
+  "url": "https://doi.org/10.1371/journal.pone.0335788",
+  "text": "Lung adenocarcinoma (LUAD) is a highly aggressive lung cancer with poor prognosis due to lack of reliable biomarkers. Resistance to anoikis drives tumor progression and metastasis. This study aims to develop and validate an anoikis-related prognostic model for LUAD. We employed univariate Cox regression analysis, LASSO regression, and random forest algorithms to identify anoikis-related genes (ARG) from bulk transcriptomic datasets, and establish a 7-gene prognostic signature, validated in two LUAD cohorts from GEO database. We evaluated immune infiltration, molecular functions, and genomic alterations between risk groups and analyzed single-cell RNA sequencing data. IHC and mIF validated TIMP1 expression and its interaction with Treg cells. We developed a 7-gene prognostic model (LDHA, PLK1, TRAF2, ITGB4, SLCO1B3, TIMP1, ZEB2) using machine learning to predict survival in LUAD patients. The model accurately predicted 1-year survival rates ( GSE31210 : AUC = 0.805; GSE30219 : AUC = 0.787), 2-year survival rates ( GSE31210 : AUC = 0.769; GSE30219 : AUC = 0.681), and 3-year survival rates ( GSE31210 : AUC = 0.695; GSE30219 : AUC = 0.735) and correlated with clinical features, immune infiltration, and tumor microenvironment (TME) remodeling. Single-cell sequencing data showed that LUAD patients exhibited an immunosuppressive TME phenotype, which was exacerbated by high TIMP1 expression in epithelial cells, promoting Treg cell activity. The 7-gene ARG prognostic model established in this study shows promising potential as a clinically applicable tool for decision-making.\n\nLung cancer exhibits the highest incidence and mortality rates among malignant tumors both in China and globally, with lung adenocarcinoma (LUAD) representing the most prevalent pathological subtype, accounting for approximately 40% of all lung cancer cases [ 1 ]. Current therapeutic strategies for LUAD encompass surgical resection, chemotherapy, targeted therapy, and immunomodulatory treatment [ 2 , 3 ]. Despite the evolution from conventional monotherapies to novel combination regimens, clinical outcomes including prognosis quality, metastatic risk, and recurrence rates have not demonstrated significant improvement, with the 5-year survival rate remaining at approximately 15% [ 4 ]. The prediction of clinical outcomes in LUAD remains a significant challenge due to its inherent prognostic heterogeneity and variable clinical courses [ 5 – 7 ]. This underscores the critical need to develop effective predictive models.\n\nAnoikis, a programmed cell death mechanism, plays a pivotal role in determining the survival of cancer cells after their detachment from the extracellular matrix [ 8 , 9 ]. Substantial evidence indicates that anoikis serves as a crucial barrier against tumor metastasis by inhibiting the survival of circulating tumor cells and preventing their reattachment to new matrices [ 8 ]. For instance, studies have demonstrated that enhancing anoikis resistance in prostate cancer cells promoted their invasion and metastasis both in vitro and in vivo [ 9 ]. Similarly, CPT1A-mediated fatty acid oxidation facilitated colorectal cancer metastasis through anoikis suppression [ 10 ]. Consequently, the regulation of anoikis resistance represents a critical determinant in cancer progression [ 11 , 12 ]. Furthermore, anoikis-related genes exhibit prognostic potential in tumor progression. Mo et al. identified four prognostic anoikis genes (TLE1, GLI2, PLK1, and BAK1) and observed superior survival rates in patients with low anoikis scores (LAS) [ 13 ]. These findings suggest a significant association between elevated anoikis scores and poor prognosis in LUAD patients. While these insights represent important advances, the intricate relationship between anoikis resistance and LUAD prognosis warrants further investigation. Comprehensive studies remain essential to elucidate the nuanced mechanisms of anoikis resistance and their broader implications for optimizing LUAD management and therapeutic strategies.\n\nIn recent years, high-throughput transcriptomics has emerged as a powerful tool for deciphering disease complexity. Bulk RNA-seq provides an average gene",
+  "source_label": "Construction and validation of an anoikis-related prognostic model for lung adenocarcinoma based on bulk and single-cell transcriptomic data",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4191
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "a9afe1192095b832b41f0ceeeaae30199be936fd405dc9744797b0ac9539b3d2"
+}

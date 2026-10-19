@@ -1,0 +1,64 @@
+{
+  "id": "cramers-v",
+  "term": "Cramér’s V",
+  "definition": "Cramér’s V is a statistical effect size used with a chi-square test to show how strong the association is between groups or other categorical variables. In this study, it was used to describe the size of group differences beyond whether they were simply statistically significant.",
+  "field": "development",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13238091"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13238091",
+      "revision": "2026; DOI 10.1186/s12875-026-03324-3; article XML SHA-256 79a67d79cd521d50c0384494cbc2a1cd7d0e5b8c8e9829b6af524ede7b525747",
+      "scope": "Source record 10.1186/s12875-026-03324-3; pinned source text",
+      "locator": "https://doi.org/10.1186/s12875-026-03324-3"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "baddb7557d33693d2403e2da5d1af104a92394aa9f5b33ad6914facff2b596c0",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "cee3bc7013cc4dbe9a975efcec1891a0",
+    "request_hash": "f1b7b74d533b6afdca72c3435f4cc5c4050a802088279b6f35a5fe26ede6a280",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "3e7527ab276ae91a72a73d9e14f8835e2385cac365406e12f244a2a48d551093",
+    "packet_hash": "baddb7557d33693d2403e2da5d1af104a92394aa9f5b33ad6914facff2b596c0"
+  },
+  "hash": "d1b8fba7bb38ee3eaa06ba47e324c2450c5fd537f5e2ec8e3df7095b2b0e6c3d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports that Cramér’s V was used with chi-square tests as an effect size, but it does not support the added claim that it was used here specifically to describe the size of group differences beyond statistical significance.",
+        "The definition goes beyond the packet by explaining the purpose/interpretation of Cramér’s V in this study rather than limiting itself to what the article explicitly states."
+      ],
+      "definition_hash": "3e7527ab276ae91a72a73d9e14f8835e2385cac365406e12f244a2a48d551093",
+      "packet_hash": "baddb7557d33693d2403e2da5d1af104a92394aa9f5b33ad6914facff2b596c0",
+      "published_packet_hash": "baddb7557d33693d2403e2da5d1af104a92394aa9f5b33ad6914facff2b596c0",
+      "receipt_id": "e592fe7f892c4d1ba1f6c3c18b562ee8",
+      "request_hash": "80bd27e2e0a8f54eae28c50bbde47a210e630c2c57716d7d35ee549df3831661",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define what Cramér’s V measures (e.g., “strength of association” or “between groups/categorical variables”); it only states that chi-square tests used “Cramér’s V effect sizes.”",
+        "The packet does not support the specific claim that, “in this study,” Cramér’s V was used to describe effect size “beyond whether they were simply statistically significant.”",
+        "Because the definition’s substantive description is not explicitly supported by the provided packet text, the field is not defensible under the given constraints."
+      ],
+      "definition_hash": "3e7527ab276ae91a72a73d9e14f8835e2385cac365406e12f244a2a48d551093",
+      "packet_hash": "baddb7557d33693d2403e2da5d1af104a92394aa9f5b33ad6914facff2b596c0",
+      "published_packet_hash": "baddb7557d33693d2403e2da5d1af104a92394aa9f5b33ad6914facff2b596c0",
+      "receipt_id": "1d026a484f79487789a9924a27f67a22",
+      "request_hash": "7f603065f64697c0ee73762b960bc64b78365d797a70ecc57f1dd613f87b0352",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

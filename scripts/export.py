@@ -8,7 +8,8 @@ from core import ROOT,canonical,digest,load_inputs,validate_corpus
 def build(entries,release=False,history=None):
  entries,risk_pin=prepare(entries)
  entries,status_report=prepare_status(entries,history=history)
- dropped=[{'id':e['id'],'term':e['term'],'status':'dropped','reason':e['drop_reason']} for e in entries if e['status']=='dropped']
+ drop_refs=references([e for e in entries if e['status']=='dropped'])
+ dropped=[{'id':e['id'],'term':e['term'],'status':'dropped','reason':e['drop_reason'],'sources':drop_refs[e['id']]} for e in entries if e['status']=='dropped']
  ordered=sorted((e for e in entries if e['status']!='dropped'),key=lambda e:e['id'])
  refs=references(ordered)
  release_version='0.0.0-preview'
@@ -26,9 +27,12 @@ def build(entries,release=False,history=None):
  for e in ordered:
   md.extend([f'## {e["term"]}',f'<a id="{e["id"]}"></a>','',e['definition'],'',f'Status: {BADGES[e["status"]]}',f'Field: {e["field"]}',f'Version: {e["version"]} · SHA-256: {e["hash"]}',''])
   if e.get('editorial_note'):md.extend(['Wording review pending: '+e['editorial_note'], ''])
-  md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]})' for r in refs[e['id']]], ''])
+  md.extend(['Sources:', *[f'- {r["role_label"]}: [{r["citation"]}]({r["url"]}). Licence: [{r["licence"]}]({r["licence_url"]}). {r["adaptation_notice"]}' for r in refs[e['id']]], ''])
   if e.get('risk'):md.extend(['No scene is provided for this risk term.', ''])
- md.extend(['## Dropped entries','',*[f'- {e["term"]}: {e["reason"]}' for e in dropped],''])
+ md.extend(['## Dropped entries',''])
+ for e in dropped:
+  credits='; '.join(f'[{r["citation"]}]({r["url"]}) ([{r["licence"]}]({r["licence_url"]}))' for r in e['sources'])
+  md.extend([f'- {e["term"]}: {e["reason"]} Source: {credits}',''])
  return dictionary,'\n'.join(md),{'schema_version':1,'status':mode,'entry_count':len(ordered),'corpus_hash':digest(ordered),'data_hash':digest(dictionary),'risk_register':risk_pin,'status_counts':status_report['status_counts'],'release_note':release_note(status_report,release_version if release else 'Public review preview')}
 
 if __name__=='__main__':

@@ -1,0 +1,60 @@
+{
+  "id": "coefficient-of-agreement",
+  "term": "coefficient of agreement",
+  "definition": "A coefficient of agreement is a number used to show how much two ways of assessing the same thing match each other in their results. In this source, it refers to the kappa statistic summarizing agreement between manual and eDNA surveys.",
+  "field": "biological",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10651049"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10651049",
+      "revision": "2023; DOI 10.1371/journal.pone.0288267; article XML SHA-256 35069e5555b6a53b732c05513e845830c99a09d65993df7dd79bd869d2d8ce15",
+      "scope": "Source record 10.1371/journal.pone.0288267; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0288267"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "a077ef2f8f051979fbbeb5e9401398d5ef0aeb20890ce54840a3afbf6a958b85",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "4f0f4ac5b88645c6bb4f4f654c3ca590",
+    "request_hash": "9157eac8f5489360be9d1d963d14470e97f2bea89880c06c8d2ce933fb2d021e",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "1a873a92dc9fc862aef636b49818afe5552d1c11a9e1f0f6e62237ed22287313",
+    "packet_hash": "a077ef2f8f051979fbbeb5e9401398d5ef0aeb20890ce54840a3afbf6a958b85"
+  },
+  "hash": "9a2a2974739022d50bad4a37cc1456436779d1fe4bc35049e1e8d179c9e6d4b3",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "1a873a92dc9fc862aef636b49818afe5552d1c11a9e1f0f6e62237ed22287313",
+      "packet_hash": "a077ef2f8f051979fbbeb5e9401398d5ef0aeb20890ce54840a3afbf6a958b85",
+      "published_packet_hash": "a077ef2f8f051979fbbeb5e9401398d5ef0aeb20890ce54840a3afbf6a958b85",
+      "receipt_id": "530f275a8d274dd2bca6f525c66109d0",
+      "request_hash": "0ffda1ba6e46efdec5a914c0a5ba104130d220480cd08035942ccf48fa9f6cc6",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not provide a general definition of what a “coefficient of agreement” is in abstract terms (e.g., “a number used to show how much two ways…match each other”).",
+        "The packet only shows usage of “kappa coefficient of agreement” between manual and eDNA surveys for this study (with values and a CI), but it does not explicitly define the term “coefficient of agreement” as such; the definition’s first sentence is therefore unsupported by the packet."
+      ],
+      "definition_hash": "1a873a92dc9fc862aef636b49818afe5552d1c11a9e1f0f6e62237ed22287313",
+      "packet_hash": "a077ef2f8f051979fbbeb5e9401398d5ef0aeb20890ce54840a3afbf6a958b85",
+      "published_packet_hash": "a077ef2f8f051979fbbeb5e9401398d5ef0aeb20890ce54840a3afbf6a958b85",
+      "receipt_id": "a485e8c61d7c40a898e5623b452509fa",
+      "request_hash": "e23f93189fc483b423149ed9cb027bb0b2aec7f02d930c2c12daee9602cd6b06",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

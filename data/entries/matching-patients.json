@@ -1,0 +1,57 @@
+{
+  "id": "matching-patients",
+  "term": "matching patients",
+  "definition": "Matching patients refers to the process of determining whether a patient fits a particular clinical trial by comparing the person’s record with the trial’s eligibility information. In the source packet, this is done with explainable AI using features such as cancer type, performance status, genetic mutation, and measurable disease, and produces a match score with supporting evidence.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11500892"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11500892",
+      "revision": "2024; DOI 10.1371/journal.pone.0311510; article XML SHA-256 c4a57912afc2a408a1db113f06940466a0c6d71e59f71b98a4037489dd99776a",
+      "scope": "Source record 10.1371/journal.pone.0311510; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0311510"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e59d46cb38ff4be8997fe9cc9ea4e846",
+    "request_hash": "e5d7cb596e7811d24995254d06da7fc728f89df56c23da2ef777523c1c9d573e",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "5a6120d4143c72890c8952ba63f619256d54088aeff44eaf4809df394425e519",
+    "packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87"
+  },
+  "hash": "2622b24439839ffa143f1538efd9ebb9747a295428b6aa16f2676fe6eb971534",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5a6120d4143c72890c8952ba63f619256d54088aeff44eaf4809df394425e519",
+      "packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87",
+      "published_packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87",
+      "receipt_id": "774bcd664d7949dc9cd777649be8228e",
+      "request_hash": "0cb694623ee2475e08f97744d810b24e31280cc801e5aee7287cedca66062afd",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "5a6120d4143c72890c8952ba63f619256d54088aeff44eaf4809df394425e519",
+      "packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87",
+      "published_packet_hash": "173d934bdc8452b25cd10608d469aa060cc5d289fcfdca270e64138a7f03da87",
+      "receipt_id": "d9e89602910844d49bf0110f354ad373",
+      "request_hash": "b42519666f545159e629ff585ce7fd0922da6edcbb50fade7fef7acac35e9839",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

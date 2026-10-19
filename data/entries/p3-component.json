@@ -1,0 +1,66 @@
+{
+  "id": "p3-component",
+  "term": "P3 component",
+  "definition": "The P3 component is a late positive event-related potential seen in EEG recordings; in this packet it refers specifically to the NoGo-P3, measured about 400–600 milliseconds after a NoGo signal. It is used as an index of inhibitory control, and larger NoGo-P3 amplitudes were linked here to better response inhibition, suggesting it may reflect effortful executive processing.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13262838"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13262838",
+      "revision": "2026; DOI 10.1371/journal.pone.0351397; article XML SHA-256 189c15a10a844fe024ffd4e77a9fc59c69d1accaff88fc65d49f4d667bc674ed",
+      "scope": "Source record 10.1371/journal.pone.0351397; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0351397"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "f0115ab4828720ca5ac4b5981479edc60c522ad8bf716cecbcfc2d928c644274",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e92e71987d0341c4a6c1e4c8d62ae6a2",
+    "request_hash": "c99907d9c9e46986281433f520491b3e160abd198ef8c3bea7eeb5a0e4c8589d",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "788d49b357c36503e13161cded934bd9e0c6260056ef7818de1b84076b3e6491",
+    "packet_hash": "f0115ab4828720ca5ac4b5981479edc60c522ad8bf716cecbcfc2d928c644274"
+  },
+  "hash": "f76f8c4e58090243b980065a9dc37857b03a29e0435dd3e6c9e3337b92bd26bd",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition contains 4 sentences, but the instructions require the definition to be one to three concise sentences.",
+        "“P3 component” in the packet is described specifically as the late positive ERP in the NoGo condition (hereafter termed “NoGo-P3”); the definition presents it as the P3 component more generally (even though it tries to narrow to NoGo-P3).",
+        "The definition’s phrase “It is used as an index of inhibitory control” is not phrased that way in the packet; the packet reports correlations/interaction with NoGo accuracy and interprets the findings as related to inhibitory control, but “used as an index” is an added characterization.",
+        "The definition says “larger NoGo-P3 amplitudes were linked here to better response inhibition”; the packet reports positive correlations between NoGo accuracy and NoGo-P3 amplitude and a group difference in brain–behavior coupling, but it does not directly state “better response inhibition” as such (it is inferred from inhibitory accuracy)."
+      ],
+      "definition_hash": "788d49b357c36503e13161cded934bd9e0c6260056ef7818de1b84076b3e6491",
+      "packet_hash": "f0115ab4828720ca5ac4b5981479edc60c522ad8bf716cecbcfc2d928c644274",
+      "published_packet_hash": "f0115ab4828720ca5ac4b5981479edc60c522ad8bf716cecbcfc2d928c644274",
+      "receipt_id": "20049a75c63c486aa1399b236f4fb6e9",
+      "request_hash": "cb71924d7a75f9c243cb2c21cb95b259b956c81cfb231d8c5afce4bbce785675",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports a late positive NoGo-condition ERP at about 400–600 ms, but it does not support the broader claim that the P3 component itself generally is an EEG event-related potential; it only defines the NoGo-P3 in this study.",
+        "The definition says the NoGo-P3 was used as an index of inhibitory control and that larger amplitudes were linked to better response inhibition, but the packet reports correlations with NoGo accuracy and an interpretation of altered brain–behavior coupling, not a direct statement that amplitude indexes inhibition or that larger amplitudes equal better response inhibition.",
+        "The wording “suggesting it may reflect effortful executive processing” is broadly consistent with the packet, but the definition compresses several study-specific interpretations into a general definitional claim rather than clearly limiting them to this article's findings."
+      ],
+      "definition_hash": "788d49b357c36503e13161cded934bd9e0c6260056ef7818de1b84076b3e6491",
+      "packet_hash": "f0115ab4828720ca5ac4b5981479edc60c522ad8bf716cecbcfc2d928c644274",
+      "published_packet_hash": "f0115ab4828720ca5ac4b5981479edc60c522ad8bf716cecbcfc2d928c644274",
+      "receipt_id": "4865680eb82e47b7a84440e6b36115f9",
+      "request_hash": "53f437367eed67d5a2a203756d095068964c421100605c50575284675afed914",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

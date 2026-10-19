@@ -1,0 +1,61 @@
+{
+  "id": "interaural-difference",
+  "term": "interaural difference",
+  "definition": "Interaural difference is the difference between the two ears on a measured auditory variable. In this source, it refers specifically to the left-versus-right ear difference in central conduction time along the auditory pathway.",
+  "field": "cognition",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc5679549"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc5679549",
+      "revision": "2017; DOI 10.1371/journal.pone.0187672; article XML SHA-256 cd05fadfc08bbdfb06e09800b9e06283eb65514091a01c851dc1f5bc413dcb65",
+      "scope": "Source record 10.1371/journal.pone.0187672; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0187672"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "80a7e92a5fb6b6805db3e667f166bb4a3c329b8322a1aa2cc97fabb179ee4f5f",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "56d62d394f574502943091f5d272133d",
+    "request_hash": "b3b7937ba00fd05a6ce3b4530161f00eeb2d9154fba06c9bb15adea37a75e5e2",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "73f1171d64e316d3ab7bec0e24d89e02b2cb885a6670b0e725298fce3bcb2896",
+    "packet_hash": "80a7e92a5fb6b6805db3e667f166bb4a3c329b8322a1aa2cc97fabb179ee4f5f"
+  },
+  "hash": "da070cce010c5dd4da39d16ce2c933d47ea7b9b193162dda8cad4d6dad09593c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "73f1171d64e316d3ab7bec0e24d89e02b2cb885a6670b0e725298fce3bcb2896",
+      "packet_hash": "80a7e92a5fb6b6805db3e667f166bb4a3c329b8322a1aa2cc97fabb179ee4f5f",
+      "published_packet_hash": "80a7e92a5fb6b6805db3e667f166bb4a3c329b8322a1aa2cc97fabb179ee4f5f",
+      "receipt_id": "194a2b2da306400cbdfbd26566424575",
+      "request_hash": "42cd7d17b83e50f24527dd6b0bf8b7e2798b3f7d445d35e637fe12af1d8e6a75",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not define “interaural difference” as a left-versus-right ear difference in central conduction time.",
+        "The packet defines “ear advantage” as “the right-ear score minus the left-ear score,” but it does not label this as “interaural difference” nor state that it is a left-right difference specifically in central conduction time.",
+        "The packet describes central conduction time as a single measure defined by time elapsed between two auditory-evoked responses along the auditory pathway, not as a variable computed separately for left vs right ears."
+      ],
+      "definition_hash": "73f1171d64e316d3ab7bec0e24d89e02b2cb885a6670b0e725298fce3bcb2896",
+      "packet_hash": "80a7e92a5fb6b6805db3e667f166bb4a3c329b8322a1aa2cc97fabb179ee4f5f",
+      "published_packet_hash": "80a7e92a5fb6b6805db3e667f166bb4a3c329b8322a1aa2cc97fabb179ee4f5f",
+      "receipt_id": "083b4b40f3404d119d9edddf004553ca",
+      "request_hash": "fa71399276976b61846b82f330e8fcca2169f8dcbbd90ca28488c574623aaa77",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

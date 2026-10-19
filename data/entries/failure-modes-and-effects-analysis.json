@@ -1,0 +1,60 @@
+{
+  "id": "failure-modes-and-effects-analysis",
+  "term": "failure modes and effects analysis",
+  "definition": "Failure modes and effects analysis is a structured risk-assessment method used to identify possible points of failure in a process, estimate how likely and how serious their effects may be, and rank them so the most important risks can be addressed first. In the source, it is described as a way to evaluate hazards under uncertainty by combining ratings of probability and severity to prioritize failures.",
+  "field": "assessment",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11115332"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11115332",
+      "revision": "2024; DOI 10.1371/journal.pone.0299655; article XML SHA-256 5a95cd5d7baf909a8fe5d33adc7dfd3036be54af1c67c73ebc051a96cbdc8a83",
+      "scope": "Source record 10.1371/journal.pone.0299655; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0299655"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "e72a2b285eba548d5bf8caf95b6588edebb9b67dd9d3894b0b4a1cd029c65a07",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "0b717d2ad9434286a7ea436a3c15e39f",
+    "request_hash": "4546d2b67266e3feb2eca9f5dee758b4e05b375f0d8edff55653db8e85c56928",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "ee9b80ac790f8dad69f8901813f71eed5c7b169e2a63b17ea7d623885897918f",
+    "packet_hash": "e72a2b285eba548d5bf8caf95b6588edebb9b67dd9d3894b0b4a1cd029c65a07"
+  },
+  "hash": "b19bdf4ca7f1a557bccbf0c3b198275e30b7ac4aa5a407d39ed03413d1b4a2b4",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "ee9b80ac790f8dad69f8901813f71eed5c7b169e2a63b17ea7d623885897918f",
+      "packet_hash": "e72a2b285eba548d5bf8caf95b6588edebb9b67dd9d3894b0b4a1cd029c65a07",
+      "published_packet_hash": "e72a2b285eba548d5bf8caf95b6588edebb9b67dd9d3894b0b4a1cd029c65a07",
+      "receipt_id": "77bd01075dd54680b0ff21406335c329",
+      "request_hash": "12805a9284e57e1549de21eeac65d992d7f51fa3630d8bf209c0f774aa919d16",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet does not explicitly define FMEA as a general “structured risk-assessment method” for “identifying possible points of failure in a process”; it mainly discusses its use within a specific context (organ transplant risk ranking) and references enhancements to FMEA rather than stating that general definition.",
+        "The packet supports the idea of evaluating and prioritizing failure hazards using probability and severity ratings (it mentions expressing probability and severity and “risk ranking”), but the definition’s broad framing about points of failure/process-level risk assessment is not directly substantiated by the provided text."
+      ],
+      "definition_hash": "ee9b80ac790f8dad69f8901813f71eed5c7b169e2a63b17ea7d623885897918f",
+      "packet_hash": "e72a2b285eba548d5bf8caf95b6588edebb9b67dd9d3894b0b4a1cd029c65a07",
+      "published_packet_hash": "e72a2b285eba548d5bf8caf95b6588edebb9b67dd9d3894b0b4a1cd029c65a07",
+      "receipt_id": "40e4cc2b6908461c987956152219c0f9",
+      "request_hash": "d8a461a73d7fe4ff7bfb9bae75f6dd1abc1ada6f6f610aa68c380a17741e1fdc",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

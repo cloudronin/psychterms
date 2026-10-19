@@ -1,0 +1,26 @@
+{
+  "id": "in-situ-hybridization",
+  "term": "in situ hybridization",
+  "source": "article-pmc11132451",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pone.0301000",
+  "revision": "2024; DOI 10.1371/journal.pone.0301000; article XML SHA-256 4dd2cb773055b7ecd287762a394f1c433a9ee823572cf74527918ff7d87daedf",
+  "source_snapshot_sha256": "4dd2cb773055b7ecd287762a394f1c433a9ee823572cf74527918ff7d87daedf",
+  "url": "https://doi.org/10.1371/journal.pone.0301000",
+  "text": "As imaging techniques rapidly evolve to probe nanoscale genome organization at higher resolution, it is critical to consider how the reagents and procedures involved in sample preparation affect chromatin at the relevant length scales. Here, we investigate the effects of fluorescent labeling of DNA sequences within chromatin using the gold standard technique of three-dimensional fluorescence in situ hybridization (3D FISH). The chemical reagents involved in the 3D FISH protocol, specifically formamide, cause significant alterations to the sub-200 nm (sub-Mbp) chromatin structure. Alternatively, two labeling methods that do not rely on formamide denaturation, resolution after single-strand exonuclease resection (RASER)-FISH and clustered regularly interspaced short palindromic repeats (CRISPR)-Sirius, had minimal impact on the three-dimensional organization of chromatin. We present a polymer physics-based analysis of these protocols with guidelines for their interpretation when assessing chromatin structure using currently available techniques.\n\nChromatin organizes into hierarchical structures associated with maintaining cell-type-specific gene expression. At the nucleosomal scale (<1 Kbp [ 1 ]), epigenetic modifications control access for transcriptional proteins to genes of interest; at the level of topologically associating domains (TADs, 100 Kbp– 1 Mbp [ 2 , 3 ]), architectural proteins maintain proximity between linearly distant enhancers and promoters; and at the level of A/B compartments (1–100 Mbp [ 4 , 5 ]), the phase separation between gene-rich and gene-poor regions of chromatin may increase interactions between genes and proteins [ 6 ]. Recent work has established the existence of chromatin domains with sizes between the nucleosome and TAD length scales that are functionally important for regulating transcription [ 7 – 9 ]. Within chromatin packing domains, the chromatin polymer has a fractal-like behavior which is quantified by the power-law scaling parameter, D ( M ~ r D , where M is mass, quantified for chromatin by the number of base pairs, and r is the radius of the spherical volume under investigation) which is related to the contact scaling s observed in high-throughput conformation capture and oligo-paint measures of TADs [ 8 , 10 , 11 ]. Changes in chromatin scaling behavior have been correlated with altered gene expression patterns [ 12 – 14 ], phenotypic plasticity [ 14 ], carcinogenesis [ 15 – 17 ], chemotherapeutic efficacy [ 12 , 14 ], and reduced survival in cancer patients [ 14 , 18 , 19 ].\n\nAs a reflection of the considerable interest in understanding how aberrant genome organization leads to disease, there has been a massive expansion in imaging technologies and sample preparation protocols that allow chromatin to be visualized at super-resolution and smaller length scales [ 10 , 20 – 25 ]. The most common methods employ fluorescence in situ hybridization (FISH) techniques or CRISPR/dCas9-based labeling strategies to identify the locations of specific loci of interest. DNA (~1 nm) and histones (~10 nm) are well below the diffraction limit of light (~200 nm) and therefore require labeling with fluorescent proteins or other large probes [ 10 ]. These specialized labeling techniques could perturb chromatin structure, which poses a paradoxical challenge: it is only with labels that a locus can be identified, but the chromatin structure of the labeled locus is not necessarily representative of its unlabeled, native state.\n\nPrior work with both fluorescence and electron microscopy has demonstrated that the ultrastructure of the genome is sensitive to such labeling methods [ 26 – 28 ], but how these protocols relate to the structure of live cells is poorly understood. To address this knowledge gap, we investigate global nuclear chromatin structure before and after labeling with a gold-standard loci-specific method, 3D DNA FISH [ 29 ], to identify whether existing protocols are disrupting the native chromatin structure. Further, we probe which specific reagents and steps in the 3D FISH sample preparation protocol are deleterious to chromatin structure across the nucleus. We find that formamide",
+  "source_label": "Formamide denaturation of double-stranded DNA for fluorescence in situ hybridization (FISH) distorts nanoscale chromatin structure",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4191
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "learning",
+  "scope_decision": {
+    "eligible": true,
+    "field": "learning",
+    "rule": "psychology-context:learning",
+    "policy_version": 2
+  },
+  "packet_hash": "b686c74e24190b01bd1fd08493e645fa2c2e6ec257f1a99278d406cd0149bcd7"
+}

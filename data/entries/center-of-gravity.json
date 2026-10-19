@@ -1,0 +1,63 @@
+{
+  "id": "center-of-gravity",
+  "term": "center of gravity",
+  "definition": "In this source, center of gravity means the point used in judging how a structure’s mass is balanced and how stable it will be under load. A lower center of gravity is described as improving the strength and stability of the septal L-strut design.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10351703"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10351703",
+      "revision": "2023; DOI 10.1371/journal.pone.0288607; article XML SHA-256 711adc3425f03116e1f878051300e5341907139e79e502d327e2d0f7c0daccef",
+      "scope": "Source record 10.1371/journal.pone.0288607; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0288607"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "dfe9b9f7cab097df7b3f5a00bec52ce788d0705cad56b265c2d87c75ee355fbf",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e39a7f9cf9ba4c49b204112b7bfbb167",
+    "request_hash": "04f9a537d5d90b01e97ef41b2eb89e3351b497970cf15fc30e5c9eaac1693e5f",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "5567631ed956190efa924ac0ace0b6be46fa14f51a2ef1ad7fbb3be77e438dfa",
+    "packet_hash": "dfe9b9f7cab097df7b3f5a00bec52ce788d0705cad56b265c2d87c75ee355fbf"
+  },
+  "hash": "0d31fcb231e6adb1f5fc3d37bb3f48951dea620eb0e15a91cb236a7e0122968d",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The packet supports an engineering/biomechanics sense of center of gravity in septal L-strut modeling, not a learning or psychology/counselling sense.",
+        "The definition’s first sentence is broader than the packet’s wording; the source does not define center of gravity as a general way of judging any structure’s mass balance under load, only in the context of this specific septal design analysis."
+      ],
+      "definition_hash": "5567631ed956190efa924ac0ace0b6be46fa14f51a2ef1ad7fbb3be77e438dfa",
+      "packet_hash": "dfe9b9f7cab097df7b3f5a00bec52ce788d0705cad56b265c2d87c75ee355fbf",
+      "published_packet_hash": "dfe9b9f7cab097df7b3f5a00bec52ce788d0705cad56b265c2d87c75ee355fbf",
+      "receipt_id": "f372f1644e7e4244a3ce3188f639fe3c",
+      "request_hash": "c9853d00b42b49ad31848c48413652c1ece5b6e885476d30348faaafaaa11ee4",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition’s phrase that center of gravity is “the point used in judging how a structure’s mass is balanced” is not explicitly supported by the packet text. The packet mentions using “principles of static equilibrium, such as the center of gravity” and relates a “lower center of gravity” to “strength and stability,” but it does not describe center of gravity as a “point used” for judging “mass balance.”",
+        "Some additional implied framing (“improving the strength and stability of the septal L-strut design”) is directionally supported, but because the definition includes the unsupported “mass is balanced” characterization, the substantive claim is not defensible under the provided packet."
+      ],
+      "definition_hash": "5567631ed956190efa924ac0ace0b6be46fa14f51a2ef1ad7fbb3be77e438dfa",
+      "packet_hash": "dfe9b9f7cab097df7b3f5a00bec52ce788d0705cad56b265c2d87c75ee355fbf",
+      "published_packet_hash": "dfe9b9f7cab097df7b3f5a00bec52ce788d0705cad56b265c2d87c75ee355fbf",
+      "receipt_id": "2e4f461e2db843e5bed660e1d7984971",
+      "request_hash": "209549be1bedf5cf492f4fb413f452a232f7483f59ad1b76be84f54c533b48ad",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}

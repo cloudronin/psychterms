@@ -1,0 +1,26 @@
+{
+  "id": "confounded-effects",
+  "term": "confounded effects",
+  "source": "article-pmc10868772",
+  "licence": "CC-BY-4.0",
+  "source_record": "10.1371/journal.pcbi.1011845",
+  "revision": "2024; DOI 10.1371/journal.pcbi.1011845; article XML SHA-256 9b603daa20bf59c936a306bab2f6ba617a7fbb5154b2d897ce543977778e2e16",
+  "source_snapshot_sha256": "9b603daa20bf59c936a306bab2f6ba617a7fbb5154b2d897ce543977778e2e16",
+  "url": "https://doi.org/10.1371/journal.pcbi.1011845",
+  "text": "Leaves are often described in language that evokes a single shape. However, embedded in that descriptor is a multitude of latent shapes arising from evolutionary, developmental, environmental, and other effects. These confounded effects manifest at distinct developmental time points and evolve at different tempos. Here, revisiting datasets comprised of thousands of leaves of vining grapevine (Vitaceae) and maracuyá (Passifloraceae) species, we apply a technique from the mathematical field of topological data analysis to comparatively visualize the structure of heteroblastic and ontogenetic effects on leaf shape in each group. Consistent with a morphologically closer relationship, members of the grapevine dataset possess strong core heteroblasty and ontogenetic programs with little deviation between species. Remarkably, we found that most members of the maracuyá family also share core heteroblasty and ontogenetic programs despite dramatic species-to-species leaf shape differences. This conservation was not initially detected using traditional analyses such as principal component analysis or linear discriminant analysis. We also identify two morphotypes of maracuyá that deviate from the core structure, suggesting the evolution of new developmental properties in this phylogenetically distinct sub-group. Our findings illustrate how topological data analysis can be used to disentangle previously confounded developmental and evolutionary effects to visualize latent shapes and hidden relationships, even ones embedded in complex, high-dimensional datasets.\n\nQuestions in biology are increasingly driven by large datasets comprised of disparate types of data obtained through ecological, morphological, and molecular measurements. A key challenge in the field is thus to make biologically meaningful sense of this enormous amount of data. Methods in topological data analysis offer a flexible and powerful solution to this challenge. To illustrate this, we interrogated datasets of grapevine and maracuyá (passion-flower) leaves using the Mapper algorithm, a method of topological data analysis that presents hidden relationships in an easily visualizable graph or network. Our analyses identified core, deeply conserved developmental signatures in all species of grapevine and most species of maracuyá that were not detected using traditional analyses. We also found two interesting exceptions to this trend in the maracuyá family. These species showed a ‘reverse hourglass’ effect, suggesting their developmental programs have been modified but only at nodes near the middle of the leaf series. As these exceptions cluster phylogenetically, we propose an independently evolving heteroblasty program may be at play in this subclade. Our analyses illustrate the power of topological data analysis to isolate signatures normally hidden within high-dimensional datasets, and to identify biologically relevant exceptions to those specific signatures.\n\nWe think of leaf shape geometrically, in terms of the relative size and distance of features to each other [ 6 ]. Lobes, serrations, and leaf dimensions are all examples of this geometry. Landmarks–homologous points found on every leaf–allow geometric features to be quantified [ 7 ]. For instance, Generalized Procrustes Analysis (GPA) can be used to superimpose leaves on each other [ 8 ] using transposition, scaling, and rotation to minimize the distance of landmarks on every leaf to each other. Once superimposed, x - and y -coordinate values can be modeled and analyzed statistically. Using these methods on grapevine and maracuyá leaves, evolutionary [ 9 , 10 ], developmental [ 10 , 11 ], and environmental effects [ 12 , 13 , 14 ] can be studied. Ultimately these approaches are statistical and treat each leaf as a separate sample. Population parameters like mean and standard deviation of coordinate values are calculated as summaries and dimension reduction is used to efficiently analyze multivariate data. However, each leaf remains a separate entity from every other, and only the statistical parameters at a population level are modeled.\n\nJust as features within a single leaf have a relative distance to each other,",
+  "source_label": "Topological data analysis reveals core heteroblastic and ontogenetic programs embedded in leaves of grapevine (Vitaceae) and maracuyá (Passifloraceae)",
+  "source_kind": "article_original_background",
+  "source_character_range": [
+    0,
+    4199
+  ],
+  "support_review_status": "unreviewed",
+  "planned_field": "biological",
+  "scope_decision": {
+    "eligible": true,
+    "field": "biological",
+    "rule": "psychology-context:biological",
+    "policy_version": 2
+  },
+  "packet_hash": "9563203ab56996a630471c64298275a5875f761bad5b14c0538d6bf0add94edd"
+}

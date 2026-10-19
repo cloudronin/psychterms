@@ -1,0 +1,57 @@
+{
+  "id": "least-squares-regression",
+  "term": "least squares regression",
+  "definition": "Least squares regression is a method that learns a mapping from input data to target labels by minimizing the average squared difference between predicted outputs and the labels. In classification, it projects cases into a label space, but standard forms may separate different classes poorly and may not preserve similarity within the same class.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc13016361"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc13016361",
+      "revision": "2026; DOI 10.1371/journal.pone.0345369; article XML SHA-256 17e80b28fbe493c9a957697e0ecfc890a13be6b21ee952d4e318001819ef3428",
+      "scope": "Source record 10.1371/journal.pone.0345369; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0345369"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "abe8c72f34ec49609f32cc00a91a2350",
+    "request_hash": "a8261ba5ed27e26d24f75868091d98cb46aacaebb6d80b6222a8955809664e60",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "fe7f1298c7f40789b471b61bb26b21b4feb3107e25aa628127e4874f8b73a07b",
+    "packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5"
+  },
+  "hash": "2a6322f1413edd23d1b2fa88a4165f0e79a5ae855adcf1aadcf6d31dfc466d2c",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe7f1298c7f40789b471b61bb26b21b4feb3107e25aa628127e4874f8b73a07b",
+      "packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5",
+      "published_packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5",
+      "receipt_id": "c3f6b8de090d4f37926c8cf10cc0dd41",
+      "request_hash": "732f42252b76776ae7bf49544c1352dccd28d02fda6d1e31148572e3cf979ad5",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "fe7f1298c7f40789b471b61bb26b21b4feb3107e25aa628127e4874f8b73a07b",
+      "packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5",
+      "published_packet_hash": "fd18a4000285777cdfd7245199eeb3f3b396651409287d5e2ab4e0192afc20f5",
+      "receipt_id": "f3214f5353014094aac66a0d3a41678f",
+      "request_hash": "ce946e2695a197613c811118517a4d06307e6438aeeae77f8f3789a60126efb7",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "hierarchical-linear-model",
+  "term": "hierarchical linear model",
+  "definition": "A hierarchical linear model is a statistical approach used to study how factors from different levels, such as individual and school influences, relate to an outcome at the same time. It can also test whether a factor at one level changes the relationship between factors at another level and the outcome.",
+  "field": "diagnosis",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc10799362"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc10799362",
+      "revision": "2024; DOI 10.1186/s12888-023-05489-y; article XML SHA-256 529df79f5fe1820345b018699056151785a4f34e9968ed2690fe4619afd603f3",
+      "scope": "Source record 10.1186/s12888-023-05489-y; pinned source text",
+      "locator": "https://doi.org/10.1186/s12888-023-05489-y"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "e3886736f6b3465d97bbd02db6fa7f78",
+    "request_hash": "68f297bf1ab867c0e303fe97497d8be3516aae27bd9913b356172b31238b3717",
+    "registration_hash": "25368579361d58e6222ea9fd97f439d07e8021fa05268186ba46f7455945363b",
+    "definition_hash": "f6438f51853b3b881d6bc5aaf44347d58c6c34c76a6165401926e1ebce4abdd6",
+    "packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6"
+  },
+  "hash": "43a675845e7c32ceddc4b19b6aec89b6e8293842a63e60faa193216c3960af68",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": true,
+      "reasons": [],
+      "definition_hash": "f6438f51853b3b881d6bc5aaf44347d58c6c34c76a6165401926e1ebce4abdd6",
+      "packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6",
+      "published_packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6",
+      "receipt_id": "ab2aad20a842429494c7ec6a6ba2b526",
+      "request_hash": "d18bf1a87827d1694a3c91b1fa7142d3115d5aa2792853554af699572b4ea9eb",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "Field mismatch: the packet describes hierarchical linear model as a statistical analysis method for studying internet addiction; it does not support treating it as a definition within “diagnosis.”",
+        "The phrase “at the same time” is not supported by the packet text provided.",
+        "The definition’s general framing is broader than what the packet explicitly states (the packet specifically mentions student-level vs. school-level factors and “cross-level moderating effects,” but does not support the full general wording about timing “at the same time”).",
+        "While the packet supports cross-level moderation and multi-level effects on adolescent internet addiction, the definition includes an extra general claim not directly evidenced in the supplied excerpt (the “at the same time” wording)."
+      ],
+      "definition_hash": "f6438f51853b3b881d6bc5aaf44347d58c6c34c76a6165401926e1ebce4abdd6",
+      "packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6",
+      "published_packet_hash": "da6c28bb5e75867642e9b2402f0ce834b0fc41f818c748860479d12ae72c01f6",
+      "receipt_id": "863a0abb6728430c96165215b834c8f5",
+      "request_hash": "a0a6b845603a717d18be4c8109df0d76185f52b98983ccdf62a53f8b18a1b1c8",
+      "registration_hash": "c968292abafeb221c26c2c8587f8656c6ff7721637119e66edb873f458453d10"
+    }
+  ]
+}

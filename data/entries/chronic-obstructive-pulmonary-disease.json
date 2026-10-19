@@ -1,0 +1,61 @@
+{
+  "id": "chronic-obstructive-pulmonary-disease",
+  "term": "chronic obstructive pulmonary disease",
+  "definition": "Chronic obstructive pulmonary disease is a progressive, varied lung condition marked by shortness of breath, chronic cough, sputum production, and often repeated lower respiratory tract infections. It can reduce exercise capacity and physical functioning.",
+  "field": "learning",
+  "also_see": [],
+  "aliases": [],
+  "sources": [
+    "article-pmc11684672"
+  ],
+  "provenance": [
+    {
+      "role": "draft_basis",
+      "source": "article-pmc11684672",
+      "revision": "2024; DOI 10.1371/journal.pone.0316451; article XML SHA-256 6944411fc1fe3969153e195fa0eb11460b99960b729ae2b819479aa4317b30bb",
+      "scope": "Source record 10.1371/journal.pone.0316451; pinned source text",
+      "locator": "https://doi.org/10.1371/journal.pone.0316451"
+    }
+  ],
+  "version": 1,
+  "packet_hash": "008686a39fbe6020c41791c2a74ba794a8425f38bd53541e3f1bcfb7660f0700",
+  "draft_evidence": {
+    "model": "gpt-5.4-2026-03-05",
+    "receipt_id": "01aa0f950f74483b86d732225a1b1258",
+    "request_hash": "16de9f6d292af4741694bd62306c87ba9e9d7ded57f393af306023089150ccfb",
+    "registration_hash": "607f59a4a4ed165d053f4547541f52bae100469d91198f16f9011a45059400ed",
+    "definition_hash": "71cdbd7c7a859f8ba8439532bc5d98ec9b36ed71514fff63f7c38dffef59836d",
+    "packet_hash": "008686a39fbe6020c41791c2a74ba794a8425f38bd53541e3f1bcfb7660f0700"
+  },
+  "hash": "ba942d079b66baf50cfa7b58986fd388d2f4ef22d9ada81901529f185112327a",
+  "reader_reviews": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "“physical functioning” is not supported by the source packet’s definition of COPD; the packet supports reduced exercise capacity but does not define COPD as reducing physical functioning."
+      ],
+      "definition_hash": "71cdbd7c7a859f8ba8439532bc5d98ec9b36ed71514fff63f7c38dffef59836d",
+      "packet_hash": "008686a39fbe6020c41791c2a74ba794a8425f38bd53541e3f1bcfb7660f0700",
+      "published_packet_hash": "008686a39fbe6020c41791c2a74ba794a8425f38bd53541e3f1bcfb7660f0700",
+      "receipt_id": "1f2f8a57b89c4d22a48922332715d346",
+      "request_hash": "7c0b3a97d8aa8e56686ebe8eb3cb2fffc280a07ad5135cd9bf27ce16d63395cd",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "draft_model": "gpt-5.4-2026-03-05",
+      "passed": false,
+      "reasons": [
+        "The definition claims COPD “can reduce … physical functioning,” but the packet only explicitly mentions reduced exercise capacity (and discusses physical wellbeing/quality of life in the context of pulmonary rehabilitation). It does not directly support the specific wording about “physical functioning.”"
+      ],
+      "definition_hash": "71cdbd7c7a859f8ba8439532bc5d98ec9b36ed71514fff63f7c38dffef59836d",
+      "packet_hash": "008686a39fbe6020c41791c2a74ba794a8425f38bd53541e3f1bcfb7660f0700",
+      "published_packet_hash": "008686a39fbe6020c41791c2a74ba794a8425f38bd53541e3f1bcfb7660f0700",
+      "receipt_id": "7d6365084dd44707819a185d97e72871",
+      "request_hash": "35c15b3aa235064300a038634c69c53c321f97ddfa75ad87e70485f889f37706",
+      "registration_hash": "b8332bff2837bd130c98f57383b4c71623fe1949db2c4caf42c87b8bb3e49c50"
+    }
+  ]
+}
