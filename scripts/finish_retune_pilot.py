@@ -17,12 +17,22 @@ def finish(dest,wait=False):
     report=json.loads((dest/'report.json').read_text());cohort=json.loads((dest/'cohort.json').read_text());outcomes=json.loads((dest/'outcomes.json').read_text())
     if report['headwords']!=500 or len(outcomes)!=500:raise ValueError('Incomplete 500-item development report')
     diagnostics={}
+    cohort_by_key={r['headword_key']:r for r in cohort['rows']}
+    packet_fields={'same-packets':'packets','rescue':'rescue_packets','new-sources':'new_source_packets'}
+    original_summary=dest/'report-dispatch-summary.json'
+    if not original_summary.exists():atomic(original_summary,report)
     for phase in ('same-packets','rescue','new-sources'):
         rows=json.loads((dest/(phase+'.json')).read_text())
-        diagnostics[phase]={'headwords':len(rows),'proposals_before_cross_entry_audit':sum(bool(r['accepted']) for r in rows.values()),
+        actual_missing=sum(not cohort_by_key[k][packet_fields[phase]] for k in rows)
+        report['phase_counts'][phase]['no_packets']=actual_missing
+        report['phase_counts'][phase]['unresolved_fit_headwords']=sum(any(e['role']=='fit' for e in r.get('output_errors',[])) and not any(f['saved']['parsed']['answer']=='yes' for f in r['fits']) for r in rows.values())
+        diagnostics[phase]={'actual_no_packet_headwords':actual_missing,'headwords':len(rows),'proposals_before_cross_entry_audit':sum(bool(r['accepted']) for r in rows.values()),
             'failure_reasons':dict(collections.Counter(r['reason'] for r in rows.values() if not r['accepted'])),
             'unverified_output_events':sum(len(r.get('output_errors',[])) for r in rows.values()),
             'failed_attempt_reasons':dict(collections.Counter(a.get('reason','passed') for r in rows.values() for a in r['attempts']))}
+    report['reporting_amendment']='Missing-packet counts use the frozen packet arrays, not the number of completed fit responses; model-output failures are reported separately. Qualification counts and receipts are unchanged.'
+    atomic(dest/'report.json',report);atomic(ROOT/('reports/'+dest.name+'.json'),report)
+    atomic(dest/'run-state.json',{**state,**report,'stage':'complete'})
     accepted=[]
     for row in outcomes:
         if row['status']=='judged':accepted.append(json.loads((dest/'accepted'/(row['new_entry_id']+'.json')).read_text()))

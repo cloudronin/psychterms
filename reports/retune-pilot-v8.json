@@ -1,0 +1,112 @@
+{
+  "calibration": {
+    "registration_hash": "ac69359a1a0ed99212c27692136421d997914bdced4ce6bb870506310e7536fe",
+    "passed": true,
+    "false_accepts": 0,
+    "positive_reads_passed": 19,
+    "positive_reads_total": 20,
+    "correct": 56,
+    "total": 57
+  },
+  "development_only": true,
+  "registration_hash": "ac69359a1a0ed99212c27692136421d997914bdced4ce6bb870506310e7536fe",
+  "complete": true,
+  "headwords": 500,
+  "original_passed": 16,
+  "same_packet_passed": 96,
+  "rescue_added": 31,
+  "new_source_added": 1,
+  "total_passed": 128,
+  "pass_fraction": 0.256,
+  "field_review_required": 30,
+  "copy_audit_rejections": [],
+  "transitions": {
+    "redraft -> redraft": 367,
+    "redraft -> judged": 117,
+    "judged -> judged": 11,
+    "judged -> redraft": 5
+  },
+  "phase_counts": {
+    "same-packets": {
+      "headwords": 500,
+      "no_packets": 34,
+      "no_yes_packet": 323,
+      "fit_yes_packets": 213,
+      "draft_attempts": 190,
+      "unresolved_fit_headwords": 22
+    },
+    "rescue": {
+      "headwords": 404,
+      "no_packets": 148,
+      "no_yes_packet": 343,
+      "fit_yes_packets": 76,
+      "draft_attempts": 67,
+      "unresolved_fit_headwords": 5
+    },
+    "new-sources": {
+      "headwords": 373,
+      "no_packets": 356,
+      "no_yes_packet": 370,
+      "fit_yes_packets": 3,
+      "draft_attempts": 3,
+      "unresolved_fit_headwords": 0
+    }
+  },
+  "retune_spend_usd": 8.832982,
+  "incremental_this_registration_usd": 7.712028,
+  "reused_actual_receipts": 295,
+  "by_role": {
+    "fit": {
+      "calls": 1635,
+      "usd": 6.139535
+    },
+    "draft": {
+      "calls": 260,
+      "usd": 1.000079
+    },
+    "reader_a": {
+      "calls": 238,
+      "usd": 0.548429
+    },
+    "reader_b": {
+      "calls": 192,
+      "usd": 1.144939
+    }
+  },
+  "total_redraft_budget": {
+    "calls_reserved": 2668,
+    "cap_usd": 200.0,
+    "receipted_usd": 9.49475,
+    "unresolved_reservations_usd": 0.268964,
+    "by_category": {
+      "draft": {
+        "calls": 32,
+        "receipted_usd": 0.115081,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-retune-draft": {
+        "calls": 264,
+        "receipted_usd": 1.016205,
+        "unresolved_reservations_usd": 0.0
+      },
+      "pilot-retune-fit": {
+        "calls": 1758,
+        "receipted_usd": 6.359092,
+        "unresolved_reservations_usd": 0.222615
+      },
+      "pilot-retune-reader_a": {
+        "calls": 340,
+        "receipted_usd": 0.683939,
+        "unresolved_reservations_usd": 0.046349
+      },
+      "pilot-retune-reader_b": {
+        "calls": 274,
+        "receipted_usd": 1.320433,
+        "unresolved_reservations_usd": 0.0
+      }
+    }
+  },
+  "published_entries": 0,
+  "next_wave_started": false,
+  "reporting_amendment": "Missing-packet counts use the frozen packet arrays, not the number of completed fit responses; model-output failures are reported separately. Qualification counts and receipts are unchanged."
+}

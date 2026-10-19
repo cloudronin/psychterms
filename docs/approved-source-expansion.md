@@ -16,10 +16,10 @@ HPO is not labelled CC BY or public domain. Its published terms require acknowle
 
 ## Retrieved coverage
 
-- 71 NLM-owned topic summaries and 49 admitted CDC pages were recovered, without paid calls.
+- 71 NLM-owned topic summaries and 49 admitted CDC URL snapshots (43 distinct passages; six redirect aliases) were recovered, without paid calls.
 - 616 HPO reference records are in the mental-function/neurodevelopment view; no HPO drafting records were admitted.
 - On the fixed 500-item pilot, new government records yield 37 top-two packets for 24 headwords, plus seven HPO reference matches.
-- Across the existing 2,600 redraft headwords, the same records yield 297 packets for 189 headwords, plus 22 HPO reference matches. These are retrieval candidates, not reader passes or new entries.
+- Across the existing 2,600 redraft headwords, the same records yield 295 packets for 189 headwords, plus 22 HPO reference matches. These are retrieval candidates, not reader passes or new entries.
 
 ## Reproduction and integration
 
@@ -32,3 +32,5 @@ HPO is not labelled CC BY or public domain. Its published terms require acknowle
 The recovery command writes admitted government records in the existing `.private/source-recovery/records/` format. The ordinary re-source corpus loader already reads them. The dedicated packet preparer also uses the scoped HPO aliases as retrieval hints, keeps at most five government candidates and ranks the top two with the pinned bge-small model. It never adds headwords from HPO to the pool. HPO-related citations retain the original record ID, release, link and acknowledgement.
 
 The active development rerun pins the expanded source inventory and tries the added packets as a distinct third phase after the original-packet comparison and unused-packet rescue. Existing entries, source packets and their original rejection reasons are unchanged.
+
+Redirect aliases are deduplicated by source-text content before they can consume candidate slots. This full-pool preparation fix followed the frozen pilot replay; the pilot report still refers to its original 37 packets and records its executable revision separately.

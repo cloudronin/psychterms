@@ -75,3 +75,9 @@ Each registration, original control decision, code snapshot and receipt is retai
 ```
 
 Preparation refuses to overwrite a registered run. Frozen inputs and executable hashes are checked before dispatch. Active staging is `.private/retune-pilot-v8/`. The output report is `reports/retune-pilot-v8.md`, with JSON and a 500-row outcome CSV. The finalizer checks all original failed-entry hashes, adds failure diagnostics and a seeded sample of passing definitions with their sources. It performs no inference, publication or automatic next wave.
+
+## Executed result and later preparation fix
+
+The completed v8 replay used inference code from commit `3509dcd9` and the frozen source options in its private cohort. It yielded 128/500 two-reader/copy passes (25.6%): 96 with original packets, 31 from unused original packets, one from the added government sources. Thirty proposals have field flags. No definitions were published and no later wave started. The finalizer corrects missing-packet counts from the actual frozen arrays, separately from incomplete fit responses; the original dispatch summary is retained.
+
+After paid inference finished, the source preparer was updated to deduplicate identical CDC text reached through redirect URLs before selecting five candidates. This changes future full-pool retrieval to 295 top-two packets for 189 headwords, with 22 HPO reference matches. The frozen 500-item replay and its paid model results were not regenerated or inflated by that later preparation fix.

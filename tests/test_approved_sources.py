@@ -27,6 +27,14 @@ class ApprovedSourceTests(unittest.TestCase):
   self.assertNotIn('draft_basis',source['roles']);self.assertEqual(source['decision'],'yes')
  def test_hpo_custom_permission_never_becomes_cc_by_drafting_basis(self):
   self.assertFalse(permitted({'decision':'yes','licence':'HPO-attribution-integrity','licence_confirmed':True,'roles':['aliases','links','related_topic']}))
+ def test_redirect_aliases_do_not_use_two_candidate_slots(self):
+  row={'term':'Motivation','field':'mental health','failed_entry_ids':['old']}
+  text='Motivation is the drive to initiate and maintain purposeful actions.'
+  base={'source_id':'cdc-mental-health-substance-use','term':'Motivation','aliases':[],'text':text,'revision':'1','snapshot_sha256':'a'*64,'url':'https://www.cdc.gov/mental-health/','source_kind':'cdc_original_mental_health_substance_use_page'}
+  records=[{**base,'record_id':'canonical'},{**base,'record_id':'redirect-alias'}]
+  sources={'cdc-mental-health-substance-use':{'id':'cdc-mental-health-substance-use','licence':'public-domain-US-government'}}
+  with patch('prepare_reference_packets.validate_packet'):packets,_=options(row,records,{'records':[]},sources,[])
+  self.assertEqual(len(packets),1)
  def test_alias_lookup_never_puts_hpo_prose_into_government_packet(self):
   row={'term':'Abulia','headword_key':'abulia','field':'mental health','failed_entry_ids':['old']}
   hpo={'records':[{'id':'HP:test','term':'Abulia','aliases':['Loss of motivation']}],'version':'1','snapshot_sha256':'b'*64}

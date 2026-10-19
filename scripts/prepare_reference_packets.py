@@ -21,17 +21,19 @@ def options(row,records,hpo,sources,failed):
         if hit is None:hit=next((q for q in sorted(queries,key=lambda v:(-len(v),v)) if ' '+q+' ' in body),None)
         if hit is None:continue
         choices.append((0 if queries & labels else 1,-len(hit),record['source_id'],record['record_id'],hit,record))
-    result=[]
+    result=[];seen_texts=set()
     for _,__,___,____,hit,record in sorted(choices,key=lambda x:x[:4]):
         source=sources[record['source_id']]
         text,start,end=excerpt(record['text'],hit,limit=4200)
         if not text or len(text.split())<8:continue
+        content_hash=digest(' '.join(text.split()))
+        if content_hash in seen_texts:continue
         packet={'term':row['term'],'source':source['id'],'source_record':record['record_id'],'revision':record['revision'],'text':text}
         if any(packet_basis_hash(packet)==packet_basis_hash(old) for old in failed):continue
         ident=slug(row['term'])+'-v2-'+digest({'basis':packet_basis_hash(packet),'redraft_of':row['failed_entry_ids']})[:10]
         packet.update(id=ident,source_label=record['term'],licence=source['licence'],source_snapshot_sha256=record['snapshot_sha256'],url=record['url'],
             source_kind=record['source_kind'],source_character_range=[start,end],planned_field=row['field'],redraft_of=row['failed_entry_ids'])
-        packet['packet_hash']=digest(packet);validate_packet(packet,sources);result.append(packet)
+        packet['packet_hash']=digest(packet);validate_packet(packet,sources);result.append(packet);seen_texts.add(content_hash)
         if len(result)==5:break
     return result,[{'source':'hpo-2026-09-01','id':n['id'],'label':n['term'],'version':hpo['version'],'snapshot_sha256':hpo['snapshot_sha256']} for n in references]
 
