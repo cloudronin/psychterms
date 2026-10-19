@@ -1,5 +1,7 @@
 # PsychTerms pilot: source-context qualification
 
+> Subsequent Claude review: 44 PASS, 26 FAIL and 20 retags. This is a historical model-only qualification report. See [the correction outcomes](pilot-claude-redrafts.md) for the later editorial decisions and same-packet retries.
+
 Final qualified proposals: **70/500 (14.0%)**, compared with original **16/500 (3.2%)**.
 
 The initial revised pipeline produced 128 two-reader/copy passes. A sample audit found omitted source-record labels could hide wrong concepts. Both readers independently rechecked all 128 proposals with record labels and publisher aliases. **58** did not pass that context-aware check. These are development results on an inspected corpus, not held-out validation.

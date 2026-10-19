@@ -17,3 +17,7 @@ The drafter must define the general headword, not one article's operational use,
 - Output: independent model passes, field flags and unresolved same-packet failures reported separately from the 44 Claude passes. No automatic publication and no wave two. The 60% original-cohort continuation criterion remains unchanged; correcting 24 inspected failures is not a new denominator for that criterion.
 
 Run `scripts/revise_pilot_after_claude.py prepare --verdicts <file>` before `run`. Frozen code and request receipts are kept with the private run; public reports contain decision summaries and source/definition hashes. Corrected proposals can be exported for another Claude review.
+
+## Executed result
+
+Executed from commit `d0e2a63d`: four new proposals passed both readers and the 15-word scan; 20 remain unresolved. All 24 outcomes were exported with unchanged source text for Claude. These four are model-reviewed corrections, separate from the 44 earlier Claude passes. Incremental receipted usage was $0.329586. No canonical entries were changed, nothing was published and wave two did not start. All 20 field retags remain in the staged decision overlay.
