@@ -31,3 +31,7 @@ The site has 5,026 active entries: 4,828 candidate and 198 reviewed, with 24 pri
 ## Article-source recovery continuation
 
 Vishnu instructed recovery, drafting and review of the eligible remainder. The first recovered queue pins 190 newly prepared article-specific CC BY packets at registration `2af582e3eb381e59fe0ef8fe015171695801f1f74b2723125cf96f0afe166eca`. Only article-authored background passages with an explicit permitted licence are admitted; attribution and exact XML hashes are retained. Same model, prompt, single editorial redraft, transport retry limit and original **$100 ledger**, including all prior charges and outstanding reservations. No budget reset, old definition text or scenes. Further recovered batches require archived registration amendments under this same cap. Reader calls remain on their separate original $25 ledger.
+
+## Status policy amendment: dropped and redraft
+
+The later human instruction supersedes the historical use of “dropped” above for definition failures. `dropped` is for out-of-scope headwords, pending a scope read for the current exclusions; they are not redrafted. `redraft` is for in-scope headwords whose definitions failed their packets. Those headwords return to the candidate pool marked “new packet required”. A replacement is a new entry with new provenance and its own two independent reads. Forward-only state applies to entries, not headwords; existing receipts and verdicts remain unchanged.

@@ -15,6 +15,17 @@ class CandidateTests(unittest.TestCase):
   self.saved={'parsed':{'definition':'A synthetic definition for testing the unreviewed publication state.','field':self.base['field'],'packet_sufficient':True},
     'model':'fixed-draft-model','receipt_id':'synthetic-receipt','request_hash':'a'*64,'registration_hash':'b'*64,'packet_hash':self.packet['packet_hash']}
  def entry(self):return candidate_entry(self.packet,self.saved,self.sources,self.fields,set())
+ def test_replacement_is_new_entry_with_lineage_and_no_inherited_reads(self):
+  self.packet['id']='new-test-entry';self.packet['redraft_of']=[self.base['id']]
+  self.packet.pop('original_packet_hash',None)
+  self.packet['packet_hash']=digest({k:v for k,v in self.packet.items() if k!='packet_hash'})
+  self.saved['packet_hash']=self.packet['packet_hash']
+  replacement=self.entry()
+  self.assertEqual(replacement['id'],'new-test-entry')
+  self.assertEqual(replacement['redraft_of'],[self.base['id']])
+  self.assertNotIn('reader_reviews',replacement);self.assertNotIn('model_review',replacement)
+  self.assertIn(self.packet['packet_hash'],replacement['provenance'][0]['scope'])
+  self.assertEqual(replacement['hash'],semantic_hash(replacement))
  def test_candidate_can_preview_without_any_judge_claim(self):
   e=self.entry();validate_entry(e,self.sources,self.fields)
   self.assertNotIn('status',e);self.assertNotIn('model_review',e)

@@ -60,7 +60,7 @@ class ExternalReaderTests(unittest.TestCase):
   self.assertEqual(edits[0][1]['definition'],self.entry['definition'])
  def test_build_counts_third_reader_pass_and_failure(self):
   from entry_status import prepare
-  for verdict,status in [('PASS','judged'),('FAIL','dropped')]:
+  for verdict,status in [('PASS','judged'),('FAIL','redraft')]:
    self.row.update(verdict=verdict)
    with tempfile.TemporaryDirectory() as tmp:
     root=Path(tmp);entry=self.fixture(root);folder=root/'data/packets';folder.mkdir(parents=True)

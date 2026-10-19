@@ -233,9 +233,10 @@
         "candidate",
         "reviewed",
         "judged",
-        "dropped"
+        "dropped",
+        "redraft"
       ],
-      "description": "Build-owned and forward only; forbidden in entry source files."
+      "description": "Build-owned and forward only per entry, not per headword; forbidden in source files."
     },
     "checks": {
       "type": "object",
@@ -354,6 +355,21 @@
         }
       },
       "additionalProperties": false
+    },
+    "new_packet_required": {
+      "const": true
+    },
+    "scope_review": {
+      "const": "pending"
+    },
+    "redraft_of": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
     }
   },
   "additionalProperties": false
