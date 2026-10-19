@@ -3,7 +3,8 @@ import collections,json,math,re,unicodedata
 from core import ROOT,digest
 from risk_registry import prepare as prepare_risk
 
-PARAMS={'cap':5,'neighbours_k':20,'min_cosine':0.60}
+PARAMS={'cap':5,'mention_cap':2,'max_mention_document_frequency':40,
+        'same_source_identity':'packet_hash','neighbours_k':20,'min_cosine':0.60}
 IRREGULAR={'analysis':'analyses','diagnosis':'diagnoses','hypothesis':'hypotheses','psychosis':'psychoses',
  'neurosis':'neuroses','crisis':'crises','axis':'axes','criterion':'criteria','phenomenon':'phenomena',
  'matrix':'matrices','index':'indices','cortex':'cortices','nucleus':'nuclei','stimulus':'stimuli',
@@ -53,11 +54,11 @@ def load_context(root=ROOT):
         'input_hash':digest({'entries':fingerprints,'risk':sorted(risk),'redirects':redirects,'stoplist':stop,'params':PARAMS}),
         'risk_register':pin}
 
-def mention_index(entries,stoplist):
+def mention_index(entries,stoplist,headwords_only=False):
     stopped=set().union(*(forms(w) for w in stoplist));trie={}
     for e in entries:
-        for label in (e['term'],*e.get('aliases',[])):
-            if len(''.join(tokens(label)))<=3:continue
+        for label in (e['term'],) if headwords_only else (e['term'],*e.get('aliases',[])):
+            if not headwords_only and len(''.join(tokens(label)))<=3:continue
             for form in forms(label):
                 if form in stopped:continue
                 node=trie
@@ -73,18 +74,25 @@ def mentions(definition,trie):
             node=node.get(words[end])
             if node is None:break
             for ident in node.get(None,()):
-                rank=(start,-(end-start+1))
+                rank=(-(end-start+1),start)
                 if ident not in found or rank<found[ident]:found[ident]=rank
     return found
 
+def document_frequency(entries):
+    """Canonical headwords only; count each published definition once, including self."""
+    trie=mention_index(entries,[],headwords_only=True)
+    counts=collections.Counter()
+    for e in entries:counts.update(mentions(e['definition'],trie).keys())
+    return counts
+
 def assemble(entries,risk,redirects,stoplist,neighbours,params=PARAMS):
     by_id={e['id']:e for e in entries};trie=mention_index(entries,stoplist)
-    packets=collections.defaultdict(set);scopes=collections.defaultdict(set)
+    frequency=document_frequency(entries)
+    frequent={ident for ident,count in frequency.items() if count>params['max_mention_document_frequency']}
+    packets=collections.defaultdict(set)
     for e in entries:
         if e.get('packet_hash'):packets[e['packet_hash']].add(e['id'])
-        for p in e.get('provenance',[]):
-            if p.get('scope'):scopes[p['scope']].add(e['id'])
-    result={};blocked=set();field_rejected=set()
+    result={};blocked=set();field_rejected=set();frequency_rejected=set()
     def headword(ident):return (by_id[ident]['term'].casefold(),ident)
     for e in entries:
         ident=e['id'];chosen=[];used=set()
@@ -94,14 +102,17 @@ def assemble(entries,risk,redirects,stoplist,neighbours,params=PARAMS):
             if target in risk:blocked.add((ident,target));return None
             return target
         hits=mentions(e['definition'],trie)
+        mention_count=0
         for target in sorted(hits,key=lambda t:(hits[t],headword(t))):
+            if target in frequent:
+                if target!=ident:frequency_rejected.add((ident,target))
+                continue
             target=permitted(target)
-            if target and target not in used and len(chosen)<params['cap']:
-                chosen.append({'to':target,'signal':'mention','score':None});used.add(target)
-        packet_group=packets.get(e.get('packet_hash'),set());scope_group=set()
-        for p in e.get('provenance',[]):scope_group.update(scopes.get(p.get('scope'),()))
+            if target and target not in used and mention_count<params['mention_cap'] and len(chosen)<params['cap']:
+                chosen.append({'to':target,'signal':'mention','score':None});used.add(target);mention_count+=1
+        packet_group=packets.get(e.get('packet_hash'),set())
         same=0
-        for target in sorted(packet_group|scope_group,key=lambda t:(t not in packet_group,headword(t))):
+        for target in sorted(packet_group,key=headword):
             target=permitted(target)
             if target and target not in used and same<3 and len(chosen)<params['cap']:
                 chosen.append({'to':target,'signal':'same_source','score':None});used.add(target);same+=1
@@ -114,17 +125,18 @@ def assemble(entries,risk,redirects,stoplist,neighbours,params=PARAMS):
             if len(chosen)<params['cap']:
                 chosen.append({'to':target,'signal':'embedding','score':round(float(score),6)});used.add(target)
         result[ident]=chosen
-    return result,{'embedding_field_rejected':len(field_rejected),'inbound_risk_blocked':len(blocked)}
+    return result,{'embedding_field_rejected':len(field_rejected),'inbound_risk_blocked':len(blocked),
+        'mention_targets_over_frequency_limit':len(frequent),'mention_pairs_frequency_rejected':len(frequency_rejected)}
 
 def validate_graph(data,entries,risk,redirects,fingerprint,stoplist=()):
     if data['params']!=PARAMS or data['input_hash']!=fingerprint['input_hash'] or data['entry_set_hash']!=fingerprint['entry_set_hash']:raise ValueError('Stale see-also inputs or parameters; regenerate locally')
     if data['risk_register']!=fingerprint['risk_register']:raise ValueError('Stale see-also risk register')
     by_id={e['id']:e for e in entries}
-    trie=mention_index(entries,stoplist)
+    trie=mention_index(entries,stoplist);frequency=document_frequency(entries)
     if set(data['links'])!=set(by_id):raise ValueError('See-also cohort is not the published corpus')
     if not re.fullmatch(r'[a-f0-9]{64}',data['model_hash']):raise ValueError('Missing model weight hash')
     for ident,links in data['links'].items():
-        seen=set();order=[];same=0;scores=[]
+        seen=set();order=[];same=0;scores=[];mention_ranks=[]
         hits=mentions(by_id[ident]['definition'],trie) if any(r['signal']=='mention' for r in links) else {}
         if len(links)>5:raise ValueError('See-also cap exceeded')
         for link in links:
@@ -133,18 +145,20 @@ def validate_graph(data,entries,risk,redirects,fingerprint,stoplist=()):
             seen.add(target)
             if signal not in ('mention','same_source','embedding'):raise ValueError('Unknown link signal')
             order.append(('mention','same_source','embedding').index(signal))
-            if signal=='mention' and target not in hits:raise ValueError('Mention link lacks a headword or alias match')
+            if signal=='mention':
+                if target not in hits:raise ValueError('Mention link lacks a headword or alias match')
+                if frequency[target]>PARAMS['max_mention_document_frequency']:raise ValueError('Mention target exceeds document frequency limit')
+                mention_ranks.append((hits[target],by_id[target]['term'].casefold(),target))
             if signal=='same_source':
                 same+=1
                 a,b=by_id[ident],by_id[target]
-                scopes_a={p['scope'] for p in a.get('provenance',[]) if p.get('scope')}
-                scopes_b={p['scope'] for p in b.get('provenance',[]) if p.get('scope')}
-                if not (a.get('packet_hash') and a.get('packet_hash')==b.get('packet_hash')) and not scopes_a.intersection(scopes_b):raise ValueError('Same-source link lacks a shared packet or scope')
+                if not (a.get('packet_hash') and a.get('packet_hash')==b.get('packet_hash')):raise ValueError('Same-source link lacks an identical packet hash')
             if signal=='embedding':
                 if type(score) not in (int,float) or not math.isfinite(score) or not PARAMS['min_cosine']<=score<=1.000001:raise ValueError('Invalid cosine')
                 if by_id[ident]['field']!=by_id[target]['field']:raise ValueError('Cross-field embedding')
                 scores.append(score)
             elif score is not None:raise ValueError('Only embeddings have scores')
+        if len(mention_ranks)>PARAMS['mention_cap'] or mention_ranks!=sorted(mention_ranks):raise ValueError('Invalid mention cap or longest-phrase ordering')
         if order!=sorted(order) or same>3 or scores!=sorted(scores,reverse=True):raise ValueError('Invalid signal ordering or source cap')
     return {'eligible_entries':len(entries),'links':sum(map(len,data['links'].values())),'inbound_risk_links':0}
 
