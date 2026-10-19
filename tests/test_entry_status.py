@@ -9,6 +9,9 @@ from scope_rules import decide
 class StatusTests(unittest.TestCase):
  def setUp(self):
   self.entry=copy.deepcopy(next(e for e in load_inputs()[0] if e.get('fixture')))
+  # Test evidence starts empty even after the public fixture has been reviewed.
+  self.entry.pop('reader_reviews',None)
+  self.entry.pop('model_review',None)
   self.packet=json.loads((ROOT/'data/packets'/(self.entry['id']+'.json')).read_text())
  def reader(self,model='reader-one',passed=True):
   return {'model':model,'draft_model':'codex-initial-fixture','passed':passed,'definition_hash':digest({'definition':self.entry['definition'],'field':self.entry['field'],'packet_sufficient':True}),
